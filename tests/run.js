@@ -158,7 +158,7 @@ test("telegram: digest builder formats correctly", () => {
 test("telegram: command handler responds", () => {
   const src = { id: "nsp", name: "NSP", url: "https://x.gov.in", default_category: "scholarship" };
   const e = heuristicEntry(makeRaw(), src);
-  assert.match(handleCommand("/help", []), /AvsarEngine Bot/);
+  assert.match(handleCommand("/help", []), /Bharat Naukri Alert Bot/);
   assert.match(handleCommand("/search scholarship", [e]), /National Scholarship/);
   assert.match(handleCommand("/search zzzz-nothing", [e]), /nahi mila/);
   const r = handleCommand("/new", [e]);
@@ -190,7 +190,7 @@ test("site: build generates complete static site", async () => {
     assert.ok(res.pages > 4);
 
     const idx = await fs.readFile("site/dist/index.html", "utf8");
-    assert.ok(idx.includes("AvsarEngine"));
+    assert.ok(idx.includes("Bharat Naukri Alert"));
     assert.ok(idx.includes(a.id));
 
     const detail = await fs.readFile(`site/dist/o/${encodeURIComponent(a.id)}.html`, "utf8");

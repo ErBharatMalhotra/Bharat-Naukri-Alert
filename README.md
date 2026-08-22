@@ -1,4 +1,4 @@
-# AvsarEngine
+# Bharat Naukri Alert
 
 > Autonomous Indian opportunity-intelligence engine — scholarships, exams, jobs, schemes. Runs forever on free infrastructure.
 
@@ -18,7 +18,7 @@ sources.json  →  scrapers  →  extraction (LLM/heuristic)  →  verify  →  
 ```
 
 - **Zero npm dependencies** — Node 18+ built-in fetch hi sab kuch karta hai (50-year longevity)
-- **Multi-provider LLM fallback**: Groq → Gemini → OpenRouter (keys na ho to heuristic mode)
+- **Multi-provider LLM fallback with key pools**: Gemini (multi-key rotation) → Groq → OpenRouter (keys na ho to heuristic mode)
 - **Verification gate**: schema validation + deadline sanity + quarantine (galat entry kabhi publish nahi)
 - **Self-evolution**: weekly agent apne metrics/mistakes padh ke recommendations deta hai
 

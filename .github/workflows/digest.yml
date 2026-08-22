@@ -21,8 +21,8 @@ jobs:
         run: node telegram/digest.js
       - name: Commit bot state
         run: |
-          git config user.name "avsar-bot"
-          git config user.email "bot@avsar.local"
+          git config user.name "bna-bot"
+          git config user.email "bot@bharatnaukri.local"
           git add data/state.json memory/metrics.json
           if ! git diff --cached --quiet; then
             git commit -m "state: digest $(date -u +%F)"

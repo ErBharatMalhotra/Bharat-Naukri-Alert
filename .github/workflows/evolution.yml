@@ -18,14 +18,21 @@ jobs:
         run: node engine/health-check.js
       - name: Run evolution review
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_API_KEY_1: ${{ secrets.OPENROUTER_API_KEY_1 }}
         run: node engine/evolve.js
       - name: Commit evolution report
         run: |
-          git config user.name "avsar-bot"
-          git config user.email "bot@avsar.local"
+          git config user.name "bna-bot"
+          git config user.email "bot@bharatnaukri.local"
           git add memory
           if ! git diff --cached --quiet; then
             git commit -m "memory: weekly evolution $(date -u +%F)"

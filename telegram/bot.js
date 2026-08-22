@@ -39,16 +39,16 @@ export function formatEntryLine(e, idx) {
 
 export function buildDigest(entries, dateStr) {
   if (!entries.length) {
-    return `\ud83d\udccd AvsarEngine Digest — ${dateStr}\n\nAaj koi naya opportunity add nahi hua. Kal phir check karna!`;
+    return `\ud83d\udccd Bharat Naukri Alert Digest — ${dateStr}\n\nAaj koi naya opportunity add nahi hua. Kal phir check karna!`;
   }
   const lines = entries.map((e, i) => formatEntryLine(e, i));
   const closing = entries.filter((e) => e.status === "closing_soon").length;
-  const header = `\ud83d\udd34 <b>AvsarEngine Daily Digest</b> — ${dateStr}\n${entries.length} naye opportunities${closing ? ` | \u26a0\ufe0f ${closing} jald band honge` : ""}\n\n`;
+  const header = `\ud83d\udd34 <b>Bharat Naukri Alert Daily Digest</b> — ${dateStr}\n${entries.length} naye opportunities${closing ? ` | \u26a0\ufe0f ${closing} jald band honge` : ""}\n\n`;
   const footer = `\n\n\u2139\ufe0f Verify on official portal before applying.`;
   return header + lines.join("\n\n") + footer;
 }
 
-export const HELP_TEXT = `AvsarEngine Bot:\n/new — aaj ke naye opportunities\n/deadlines — 7 din me band hone wale\n/search &lt;keyword&gt; — khojo\n/help — yeh message`;
+export const HELP_TEXT = `Bharat Naukri Alert Bot:\n/new — aaj ke naye opportunities\n/deadlines — 7 din me band hone wale\n/search &lt;keyword&gt; — khojo\n/help — yeh message`;
 
 export function handleCommand(cmd, dbEntries) {
   const [raw, ...rest] = cmd.trim().split(/\s+/);

@@ -10,17 +10,22 @@
 
 Ek bhi na ho to system heuristic mode me chalega — but keys dene se extraction quality bahut badhti hai.
 
+**Multiple keys = zyada quota.** Har provider ke liye numbered secrets support hain:
+Gemini 5 keys → `GEMINI_API_KEY_1` se `GEMINI_API_KEY_5` tak. System round-robin rotate karta hai
+(ek key ka limit khatam → agli key), aur sab fail ho jayein to agla provider fallback hai:
+**Gemini → Groq → OpenRouter**. Baad me naya key add karna ho to bas naya secret (`GROQ_API_KEY_2`, etc.) bana do — code change ki zaroorat nahi.
+
 ## 2. Telegram Bot (5 min)
 
 1. Telegram me `@BotFather` open karo → `/newbot` → naam de do
 2. Token copy karo (format: `123456:ABC-xyz`)
-3. Public channel banao (e.g. `@avsar_updates`), bot ko **admin** banao
+3. Public channel banao (e.g. `@bharatnaukri_alert`), bot ko **admin** banao
 4. Channel ID note karo (`@channelusername` ya numeric `-100...`)
 
 ## 3. GitHub Repo + Secrets
 
 ```bash
-git remote add origin https://github.com/<tumhara-user>/avsar-engine.git
+git remote add origin https://github.com/<tumhara-user>/bharat-naukri-alert.git
 git push -u origin main
 ```
 
@@ -28,11 +33,11 @@ Repo → Settings → Secrets and variables → Actions, ye add karo:
 
 | Secret | Value |
 |--------|-------|
-| `GEMINI_API_KEY` | step 1 ka key |
+| `GEMINI_API_KEY_1` ... `GEMINI_API_KEY_5` | step 1 ki 5 Gemini keys |
 | `TELEGRAM_BOT_TOKEN` | BotFather token |
 | `TELEGRAM_CHANNEL_ID` | channel username/ID |
 
-Optional: `GROQ_API_KEY`, `OPENROUTER_API_KEY`, custom `SITE_URL` variable.
+Optional: `GROQ_API_KEY_1`, `OPENROUTER_API_KEY_1`, custom `SITE_URL` variable.
 
 ## 4. Cloudflare Pages (free hosting)
 
@@ -40,7 +45,7 @@ Optional: `GROQ_API_KEY`, `OPENROUTER_API_KEY`, custom `SITE_URL` variable.
 2. Repo select karo:
    - **Build command:** `node site/build.js`
    - **Build output directory:** `site/dist`
-3. Deploy → live URL milega (`avsar-engine.pages.dev`)
+3. Deploy → live URL milega (`bharat-naukri-alert.pages.dev`)
 4. Custom domain chahiye to Pages → Custom domains (~₹700/saal, optional)
 
 ## 5. Workflows Enable Karna

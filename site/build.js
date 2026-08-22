@@ -3,7 +3,7 @@ import path from "node:path";
 import { readDB } from "../lib/store.js";
 
 const DIST = () => path.join(process.cwd(), "site", "dist");
-const SITE_URL = process.env.SITE_URL || "https://avsar-engine.pages.dev";
+const SITE_URL = process.env.SITE_URL || "https://bharat-naukri-alert.pages.dev";
 
 const CAT_LABELS = {
   scholarship: { en: "Scholarships", hi: "छात्रवृत्तियाँ" },
@@ -75,7 +75,7 @@ function nav(prefix = "") {
   const cats = Object.entries(CAT_LABELS)
     .map(([k, v]) => `<a href="${prefix}category/${k}.html">${v.en}</a>`)
     .join("");
-  return `<div class="wrap"><a class="logo" href="${prefix}index.html">Avsar<span>Engine</span></a><nav><a href="${prefix}index.html">Home</a>${cats}</nav></div>`;
+  return `<div class="wrap"><a class="logo" href="${prefix}index.html">Bharat<span> Naukri Alert</span></a><nav><a href="${prefix}index.html">Home</a>${cats}</nav></div>`;
 }
 
 function cardHTML(e, rel = "") {
@@ -132,7 +132,7 @@ export async function buildSite() {
   const stats = { total: db.opportunities.length, open: entries.length, closing: closing.length };
 
   const idxBody = `<header>${nav("")}</header><div class="wrap">
-<section class="hero"><h1>Har sarkari avsar, ek jagah.</h1>
+<section class="hero"><h1>Naukri · Scholarship · Exam · Yojana — sab ek jagah.</h1>
 <p class="sub">Scholarships, exams, jobs aur schemes — rozana automatically update hota hai. Free forever.</p></section>
 <div class="stats">
 <div class="stat"><b id="st-total">${stats.total}</b><small>Total tracked</small></div>
@@ -166,13 +166,13 @@ render();
   const homeJSONLD = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "AvsarEngine",
+    name: "Bharat Naukri Alert",
     description: "Autonomous tracker of Indian government scholarships, exams, jobs and schemes",
     url: SITE_URL,
   });
 
   await writeFile("index.html", layout({
-    title: "AvsarEngine — Sarkari Scholarships, Exams, Jobs & Schemes Tracker",
+    title: "Bharat Naukri Alert — Sarkari Scholarships, Exams, Jobs & Schemes Tracker",
     desc: "Every Indian government opportunity in one place. Auto-updated daily: scholarships, exams, jobs, schemes with deadlines.",
     canonical: `${SITE_URL}/`,
     body: idxBody,
@@ -182,7 +182,7 @@ render();
   for (const [cat, labels] of Object.entries(CAT_LABELS)) {
     const list = entries.filter((e) => e.category === cat);
     await writeFile(`category/${cat}.html`, layout({
-      title: `${labels.en} — AvsarEngine`,
+      title: `${labels.en} — Bharat Naukri Alert`,
       desc: `Latest government ${labels.en.toLowerCase()} with deadlines, auto-updated.`,
       canonical: `${SITE_URL}/category/${cat}.html`,
       body: `<header>${nav("../")}</header><div class="wrap"><h1 style="margin-top:20px">${labels.en} <span style="color:var(--mut);font-size:15px">(${list.length})</span></h1>
@@ -193,7 +193,7 @@ ${list.map((e) => cardHTML(e, "../")).join("") || '<p class="empty">Abhi kuch na
 
   for (const e of entries) {
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
-      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"} | AvsarEngine`,
+      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"} | Bharat Naukri Alert`,
       desc: (e.summary || `${e.title} by ${e.org}. Check deadline and apply.`).slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e),
@@ -226,7 +226,7 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
   await writeFile("sitemap.xml", sitemap);
 
   await writeFile("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml`);
-  await writeFile("llms.txt", `# AvsarEngine\n\nAutonomous tracker of Indian government opportunities: scholarships, exams, jobs, schemes.\nStructured JSON data available in the source repository under data/.\n`);
+  await writeFile("llms.txt", `# Bharat Naukri Alert\n\nAutonomous tracker of Indian government opportunities: scholarships, exams, jobs, schemes.\nStructured JSON data available in the source repository under data/.\n`);
 
   return { pages: urls.length + 1, entries: entries.length, stats };
 }

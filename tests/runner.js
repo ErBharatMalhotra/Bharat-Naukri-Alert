@@ -38,7 +38,7 @@ export async function runAll() {
 }
 
 export function tmpDir() {
-  return fs.mkdtemp(path.join(os.tmpdir(), "avsar-test-"));
+  return fs.mkdtemp(path.join(os.tmpdir(), "bna-test-"));
 }
 
 export { assert };
