@@ -1,12 +1,69 @@
 {
-  "started_at": "2026-08-22T17:44:01.392Z",
+  "started_at": "2026-08-22T18:20:48.900Z",
   "sources": [
+    {
+      "id": "agg-sarkariresult",
+      "raws": 60,
+      "added": 25,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 0,
+      "no_official": 0,
+      "errors": [],
+      "matched": 57
+    },
+    {
+      "id": "agg-freejobalert",
+      "raws": 60,
+      "added": 22,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 3,
+      "no_official": 0,
+      "errors": [],
+      "matched": 48
+    },
+    {
+      "id": "agg-rojgarresult",
+      "raws": 60,
+      "added": 23,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 3,
+      "no_official": 0,
+      "errors": [],
+      "matched": 55
+    },
+    {
+      "id": "agg-sarkarijobfind",
+      "raws": 60,
+      "added": 18,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 10,
+      "no_official": 0,
+      "errors": [],
+      "matched": 50
+    },
+    {
+      "id": "agg-sarkariujala",
+      "raws": 6,
+      "added": 0,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 0,
+      "no_official": 2,
+      "errors": [],
+      "matched": 2
+    },
     {
       "id": "sbi",
       "raws": 40,
-      "added": 10,
+      "added": 0,
       "updated": 0,
-      "skipped_known": 1,
+      "skipped_known": 11,
+      "dupes": 0,
+      "no_official": 0,
       "errors": [],
       "matched": 11
     },
@@ -16,6 +73,8 @@
       "added": 0,
       "updated": 0,
       "skipped_known": 17,
+      "dupes": 0,
+      "no_official": 0,
       "errors": [],
       "matched": 17
     },
@@ -25,13 +84,16 @@
       "added": 0,
       "updated": 0,
       "skipped_known": 5,
+      "dupes": 0,
+      "no_official": 0,
       "errors": [],
       "matched": 5
     }
   ],
-  "total_added": 10,
+  "total_added": 88,
   "total_updated": 0,
   "llm_calls": 8,
-  "finished_at": "2026-08-22T17:44:14.391Z",
-  "db_size": 41
+  "resolved": 102,
+  "finished_at": "2026-08-22T18:22:11.549Z",
+  "db_size": 129
 }

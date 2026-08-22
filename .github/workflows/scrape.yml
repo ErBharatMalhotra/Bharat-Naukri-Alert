@@ -24,7 +24,8 @@ jobs:
           node-version: 20
       - name: Run scraper
         env:
-          LLM_MAX_CALLS: "8"
+          LLM_MAX_CALLS: "6"
+          RESOLVE_MAX: "30"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}

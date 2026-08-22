@@ -3,6 +3,45 @@ import path from "node:path";
 import { readDB, writeDB, archiveSnapshot, mergeIntoDB } from "../lib/store.js";
 import { extractEntry, heuristicEntry } from "../lib/extract.js";
 import { providerStatus } from "../lib/llm.js";
+import { resolveOfficialLink } from "../lib/official-link.js";
+
+const STATE_HINTS = [
+  [/uttar pradesh|\bup\b/, "Uttar Pradesh"],
+  [/madhya pradesh|\bmp\b/, "Madhya Pradesh"],
+  [/himachal pradesh|\bhp\b/, "Himachal Pradesh"],
+  [/andhra pradesh|\bap\b/, "Andhra Pradesh"],
+  [/rajasthan|rssb|rsmssb/, "Rajasthan"],
+  [/bihar|bpssc?\b/, "Bihar"],
+  [/maharashtra|maharashtra\b|maha\b/, "Maharashtra"],
+  [/gujarat|gsssb|gpsc/, "Gujarat"],
+  [/punjab(?!i)/, "Punjab"],
+  [/haryana|hssc|hssc\b/, "Haryana"],
+  [/kerala|kpsc-kerala/, "Kerala"],
+  [/karnataka|kpsc\b/, "Karnataka"],
+  [/tamil ?nadu|tnpsc/, "Tamil Nadu"],
+  [/telangana|tslprb|tsp?sc\b/, "Telangana"],
+  [/west bengal|wbp?sc\b/, "West Bengal"],
+  [/odisha|ossc\b/, "Odisha"],
+  [/assam|slprb-assam/, "Assam"],
+  [/\bdelhi\b|dsssb/, "Delhi"],
+  [/jharkhand|jssc\b/, "Jharkhand"],
+  [/chhattisgarh|cg ?vyapam/, "Chhattisgarh"],
+  [/uttarakhand|uksssc/, "Uttarakhand"],
+];
+
+function statesFromTitle(title = "") {
+  const t = String(title).toLowerCase();
+  const hits = [];
+  for (const [re, name] of STATE_HINTS) {
+    const m = t.match(re);
+    if (m && !hits.includes(name)) hits.push(name);
+  }
+  return hits;
+}
+
+function normTitle(s = "") {
+  return String(s).toLowerCase().replace(/[^a-z0-9\u0900-\u097F]+/g, "");
+}
 
 const SOURCES_FILE = path.resolve("sources/sources.json");
 
@@ -15,6 +54,7 @@ async function loadScraper(type) {
   const map = {
     rss: "../sources/scrapers/pib-rss.js",
     "html-links": "../sources/scrapers/html-links.js",
+    aggregator: "../sources/scrapers/aggregator.js",
   };
   const file = map[type];
   if (!file) throw new Error(`unknown source type: ${type}`);
@@ -25,12 +65,14 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
   const sources = await loadSources();
   const db = await readDB();
   const knownLinks = new Set(db.opportunities.map((o) => o.official_link));
+  const seenTitles = new Set(db.opportunities.map((o) => normTitle(o.title)));
   const llmBudget = Number(process.env.LLM_MAX_CALLS ?? 8);
+  const resolveMax = Number(process.env.RESOLVE_MAX ?? 25);
   let llmUsed = 0;
-  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0 };
+  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0 };
 
   for (const src of sources) {
-    const srcReport = { id: src.id, raws: 0, added: 0, updated: 0, skipped_known: 0, errors: [] };
+    const srcReport = { id: src.id, raws: 0, added: 0, updated: 0, skipped_known: 0, dupes: 0, no_official: 0, errors: [] };
     try {
       const scraper = await loadScraper(src.type);
       const { raws, errors } = await scraper.scrape(src);
@@ -59,24 +101,64 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
       srcReport.matched = candidates.length;
 
       const entries = [];
-      for (const raw of candidates.slice(0, limitPerSource)) {
+      const perSourceLimit = src.limit || limitPerSource;
+      let resolvedThisRun = 0;
+      for (const raw of candidates.slice(0, perSourceLimit)) {
         // API bachao: pehle dedupe — link DB me hai to extraction/LLM skip
         if (knownLinks.has(raw.link)) {
           srcReport.skipped_known++;
           continue;
         }
+        // cross-source dedupe: same job doosre portal pe bhi ho to ek hi baar
+        const nkey = normTitle(raw.title);
+        if (nkey && seenTitles.has(nkey)) {
+          srcReport.dupes++;
+          continue;
+        }
+
+        let workRaw = raw;
+        if (src.resolve_official) {
+          if (resolvedThisRun >= resolveMax) continue;
+          resolvedThisRun++;
+          report.resolved++;
+          const official = await resolveOfficialLink(raw.link);
+          if (!official) {
+            srcReport.no_official++;
+            seenTitles.add(nkey);
+            continue;
+          }
+          if (knownLinks.has(official)) {
+            srcReport.dupes++;
+            seenTitles.add(nkey);
+            continue;
+          }
+          workRaw = { ...raw, link: official };
+        }
+        seenTitles.add(nkey);
+
         // heuristic-first: category + deadline mil gaye to LLM ki zaroorat nahi
-        const heur = heuristicEntry(raw, src);
+        const heur = heuristicEntry(workRaw, src);
+        if (!heur && !providerStatus().any) continue;
         if (heur && heur.deadline) {
+          const tagged = statesFromTitle(heur.title);
+          if (tagged.length) heur.eligibility.states = tagged;
           entries.push(heur);
           continue;
         }
         if (providerStatus().any && llmUsed < llmBudget) {
           llmUsed++;
           report.llm_calls++;
-          const enriched = await extractEntry(raw, src, { useLlm: true });
-          if (enriched) entries.push(enriched);
+          const enriched = await extractEntry(workRaw, src, { useLlm: true });
+          if (enriched) {
+            if ((enriched.eligibility?.states || []).every((s) => s === "ALL")) {
+              const tagged = statesFromTitle(enriched.title);
+              if (tagged.length) enriched.eligibility.states = tagged;
+            }
+            entries.push(enriched);
+          }
         } else if (heur) {
+          const tagged = statesFromTitle(heur.title);
+          if (tagged.length) heur.eligibility.states = tagged;
           entries.push(heur);
         }
       }
