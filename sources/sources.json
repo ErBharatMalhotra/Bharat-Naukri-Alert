@@ -2,6 +2,19 @@
   "version": 1,
   "sources": [
     {
+      "id": "sbi",
+      "name": "State Bank of India",
+      "tier": 1,
+      "type": "html-links",
+      "url": "https://sbi.co.in/web/careers/recruitment-results",
+      "default_category": "job",
+      "enabled": true,
+      "keywords": ["recruitment", "notification", "apply online", "probationary", "clerk", "specialist", "result", "admit card", "interview"],
+      "min_title_len": 25,
+      "exclude_keywords": ["recruitment results & archive", "engagement of apprentices"],
+      "notes": "SBI careers recruitment-results page — PO/Clerk/SO notifications + results, high traffic niche"
+    },
+    {
       "id": "upsc",
       "name": "Union Public Service Commission",
       "tier": 1,

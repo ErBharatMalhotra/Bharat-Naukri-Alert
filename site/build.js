@@ -1,4 +1,4 @@
-﻿import fs from "node:fs/promises";
+import fs from "node:fs/promises";
 import path from "node:path";
 import { readDB } from "../lib/store.js";
 
@@ -7,13 +7,22 @@ const SITE_URL = process.env.SITE_URL || "https://bharat-naukri-alert.pages.dev"
 const REPO_URL = process.env.REPO_URL || "https://github.com/ErBharatMalhotra/Bharat-Naukri-Alert";
 
 const CAT_LABELS = {
-  scholarship: { en: "Scholarships", hi: "à¤›à¤¾à¤¤à¥à¤°à¤µà¥ƒà¤¤à¥à¤¤à¤¿à¤¯à¤¾à¤", icon: "cap" },
-  exam: { en: "Exams", hi: "à¤ªà¤°à¥€à¤•à¥à¤·à¤¾à¤à¤", icon: "file" },
-  job: { en: "Jobs", hi: "à¤¨à¥Œà¤•à¤°à¤¿à¤¯à¤¾à¤", icon: "briefcase" },
-  scheme: { en: "Schemes", hi: "à¤¯à¥‹à¤œà¤¨à¤¾à¤à¤", icon: "landmark" },
-  "admit-card": { en: "Admit Cards", hi: "à¤à¤¡à¤®à¤¿à¤Ÿ à¤•à¤¾à¤°à¥à¤¡", icon: "ticket" },
-  result: { en: "Results", hi: "à¤ªà¤°à¤¿à¤£à¤¾à¤®", icon: "trophy" },
+  scholarship: { en: "Scholarships", hi: "छात्रवृत्तियाँ", icon: "cap" },
+  exam: { en: "Exams", hi: "परीक्षाएँ", icon: "file" },
+  job: { en: "Jobs", hi: "नौकरियाँ", icon: "briefcase" },
+  scheme: { en: "Schemes", hi: "योजनाएँ", icon: "landmark" },
+  "admit-card": { en: "Admit Cards", hi: "एडमिट कार्ड", icon: "ticket" },
+  result: { en: "Results", hi: "परिणाम", icon: "trophy" },
 };
+
+const STATES = [
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa",
+  "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala",
+  "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland",
+  "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana",
+  "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal",
+  "Delhi", "Jammu & Kashmir", "Ladakh", "Puducherry", "Chandigarh",
+];
 
 function esc(s = "") {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -173,6 +182,8 @@ const CSS_B = `
 .dl-chip,.amt-chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:999px}
 .dl-chip svg,.amt-chip svg{width:12px;height:12px;flex-shrink:0}
 .amt-chip{background:var(--brand-soft);color:var(--brand)}
+.state-chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--mut);background:var(--card)}
+.state-chip svg{width:12px;height:12px;color:var(--brand)}
 .dl-chip{background:var(--ok-bg);color:var(--ok)}
 .dl-warn{background:var(--warn-bg)!important;color:var(--warn)!important}
 .dl-bad{background:var(--bad-bg)!important;color:var(--bad)!important}
@@ -226,6 +237,8 @@ const CSS_C = `
 .d-sum{font-size:15px;margin:4px 0 10px}
 .edu-row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
 .edu-chip{font-size:12.5px;font-weight:500;background:var(--card);border:1px solid var(--line);padding:5px 13px;border-radius:999px;color:var(--mut)}
+.edu-chip.state{color:var(--brand);border-color:color-mix(in srgb,var(--brand) 35%,transparent);background:var(--brand-soft)}
+.edu-chip.state svg{width:12px;height:12px;margin-right:4px;vertical-align:-2px}
 
 /* CTA panel */
 .cta-panel{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:linear-gradient(135deg,color-mix(in srgb,var(--brand) 9%,var(--card)),var(--card));border:1px solid color-mix(in srgb,var(--brand) 35%,transparent);border-radius:18px;padding:20px 22px;margin:24px 0 6px}
@@ -340,7 +353,7 @@ function footerHTML(prefix = "") {
   return `<footer class="ft"><div class="ft-in">
 <div class="ft-brand">
 <a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
-<p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain â€” poora history Git me permanent save rehta hai.</p>
+<p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent save rehta hai.</p>
 <ul class="trust"><li>${strokeIcon("shield")}Verified data, quarantine gate</li><li>${strokeIcon("zap")}Rozana 2 baar auto-update</li><li>${strokeIcon("clock")}Deadline tracking built-in</li></ul>
 </div>
 <div class="ft-col"><h4>Categories</h4><div class="ft-links">${cats}</div></div>
@@ -372,21 +385,24 @@ function dlChip(e) {
 }
 
 function cardHTML(e, rel = "") {
+  const stList = (e.eligibility?.states || []).filter((s) => s && s !== "ALL");
+  const stChip = stList.length ? `<span class="state-chip">${strokeIcon("landmark")}${esc(stList.slice(0, 2).join(", "))}</span>` : "";
   return `<a class="op-card" data-reveal href="${rel}o/${encodeURIComponent(e.id)}.html">
 <div class="op-top"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span>
 <span class="op-org">${esc(e.org || "Government of India")}</span><span class="op-sp"></span>${catChip(e.category)}</div>
 <h3 class="op-t">${esc(e.title)}</h3>
 ${e.summary ? `<p class="op-s">${esc(e.summary)}</p>` : ""}
-<div class="op-foot">${dlChip(e)}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
+<div class="op-foot">${dlChip(e)}${stChip}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
 </a>`;
 }
 
 function detailBody(e, related) {
   const L = CAT_LABELS[e.category] || { en: e.category, hi: "", icon: "file" };
   const url = `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`;
-  const shareTxt = encodeURIComponent(`${e.title} â€” ${url}`);
+  const shareTxt = encodeURIComponent(`${e.title} — ${url}`);
   const shareUrl = encodeURIComponent(url);
   const edu = (e.eligibility?.education || []).map((x) => `<span class="edu-chip">${esc(x)}</span>`).join("");
+  const stList = (e.eligibility?.states || []).filter((s) => s && s !== "ALL");
   const relCards = (related || []).map((r) => cardHTML(r, "../")).join("");
   return `${header("../")}
 <main class="wrap page-top">
@@ -398,12 +414,12 @@ function detailBody(e, related) {
 </div>
 <div class="info-grid">
 <div class="tile"><small>Last Date</small><b>${e.deadline ? fmtDate(e.deadline) : "&mdash; portal check karo"}</b>${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
-<div class="tile"><small>Benefit / Pay</small><b>${e.amount ? esc(String(e.amount)) : "&mdash;"}</b></div>
+${e.amount ? `<div class="tile"><small>Benefit / Pay</small><b>${esc(String(e.amount))}</b></div>` : ""}
 <div class="tile"><small>Category</small><b>${L.hi || L.en}</b></div>
 <div class="tile"><small>Status</small><b>${statusLabel(e.status)}</b></div>
 </div>
 ${e.summary ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
-${edu ? `<div class="edu-row" data-reveal>${edu}</div>` : ""}
+${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
 <section class="cta-panel" data-reveal>
 <div><h3>Apply karna hai?</h3><p>Official portal par jao &mdash; wahan ki details sabse sahi hoti hain.</p></div>
 <div class="cta-actions">
@@ -474,11 +490,11 @@ if(e.key==='/'&&q&&d.activeElement!==q&&!/INPUT|TEXTAREA|SELECT/.test((d.activeE
 // ---------- index page app JS ----------
 const APP_JS = `
 (function(){
-var IDX=null,st={q:'',f:'all',x:'all',s:'new'};
+var IDX=null,st={q:'',f:'all',x:'all',s:'new',v:''};
 var d=document,list=d.getElementById('list'),skels=d.getElementById('skels'),
 cnt=d.getElementById('resCount'),empty=d.getElementById('empty'),
 q=d.getElementById('q'),filters=d.getElementById('filters'),
-seg=d.getElementById('seg'),sortSel=d.getElementById('sortSel');
+seg=d.getElementById('seg'),sortSel=d.getElementById('sortSel'),stateSel=d.getElementById('stateSel');
 function low(x){return (x||'').toLowerCase();}
 function apply(){
 if(!IDX)return;
@@ -487,6 +503,7 @@ var out=IDX.filter(function(e){
 if(st.f!=='all'&&e.c!==st.f)return false;
 if(st.x==='closing'&&e.st!=='closing_soon')return false;
 if(st.x==='open'&&e.st!=='open')return false;
+if(st.v){var arr=e.sv||[];if(arr.indexOf('ALL')<0&&arr.indexOf(st.v)<0)return false;}
 if(term&&(low(e.t)+' '+low(e.o)+' '+low(e.s)).indexOf(term)<0)return false;
 return true;});
 if(st.s==='new'){out.sort(function(a,b){return (b.f||'').localeCompare(a.f||'');});}
@@ -515,6 +532,7 @@ var b=ev.target.closest('button');if(!b)return;
 seg.querySelectorAll('button').forEach(function(c){c.classList.remove('on');});
 b.classList.add('on');st.x=b.getAttribute('data-x');apply();});
 sortSel.addEventListener('change',function(){st.s=sortSel.value;apply();});
+if(stateSel){stateSel.addEventListener('change',function(){st.v=stateSel.value;apply();});}
 Array.prototype.forEach.call(document.querySelectorAll('[data-n]'),function(el){
 var T=+el.getAttribute('data-n')||0,t0=null,dur=900;
 function step(ts){if(t0===null)t0=ts;var p=Math.min((ts-t0)/dur,1);p=1-Math.pow(1-p,3);
@@ -551,7 +569,7 @@ export async function buildSite() {
   const idxBody = `${header("")}
 <section class="hero"><div class="hero-in">
 <span class="hero-pill">${strokeIcon("shield")}Rozana auto-verify &middot; 100% free</span>
-<h1>Naukri Â· Scholarship Â· Exam Â· Yojana<br><em>sab ek jagah.</em></h1>
+<h1>Naukri · Scholarship · Exam · Yojana<br><em>sab ek jagah.</em></h1>
 <p class="hero-sub">Sarkari portals se rozana opportunities collect hoti hain, verify hokar yahan publish. Koi spam nahi &mdash; seedha jaankari.</p>
 <div class="search-wrap">${strokeIcon("search")}<input id="q" type="search" placeholder="Search karo: scholarship, SSC, yojana..." autocomplete="off" aria-label="Search opportunities"><span class="search-kbd">/</span></div>
 <div class="stats-row">
@@ -566,6 +584,7 @@ export async function buildSite() {
 <div class="toolbar">
 <div class="chips" id="filters"><button class="chip on" data-f="all">All</button>${Object.entries(CAT_LABELS).map(([k, v]) => `<button class="chip" data-f="${k}">${v.en}</button>`).join("")}</div>
 <div class="toolbar-right">
+<select id="stateSel" aria-label="State filter"><option value="">Sabhi States</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
 <div class="seg" id="seg"><button class="on" data-x="all">Sabhi</button><button data-x="open">Open</button><button data-x="closing">Closing</button></div>
 <select id="sortSel" aria-label="Sort opportunities"><option value="new">Naya pehle</option><option value="deadline">Deadline nazdeek</option></select>
 </div></div>
@@ -578,8 +597,8 @@ ${footerHTML("")}
 <script>${RUNTIME_JS}</script>
 <script>${APP_JS}</script>`;
   await writeFile("index.html", layout({
-    title: "Bharat Naukri Alert â€” Sarkari Scholarships, Exams, Jobs & Schemes Tracker",
-    desc: "Naukri, scholarship, exam aur sarkari yojana ke updates â€” rozana auto-collect aur verify. Deadline kabhi miss mat karo.",
+    title: "Bharat Naukri Alert — Sarkari Scholarships, Exams, Jobs & Schemes Tracker",
+    desc: "Naukri, scholarship, exam aur sarkari yojana ke updates — rozana auto-collect aur verify. Deadline kabhi miss mat karo.",
     canonical: `${SITE_URL}/`,
     body: idxBody,
     jsonld: JSON.stringify({
@@ -606,7 +625,7 @@ ${note()}
 ${footerHTML("../")}
 <script>${RUNTIME_JS}</script>`;
     await writeFile(`category/${cat}.html`, layout({
-      title: `${labels.en} â€” Bharat Naukri Alert`,
+      title: `${labels.en} — Bharat Naukri Alert`,
       desc: `Latest government ${labels.en.toLowerCase()} with deadlines, auto-updated daily.`,
       canonical: `${SITE_URL}/category/${cat}.html`,
       body,
@@ -618,7 +637,7 @@ ${footerHTML("../")}
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
-      title: `${e.title.slice(0, 60)} â€” Last date ${e.deadline || "check portal"} | Bharat Naukri Alert`,
+      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"} | Bharat Naukri Alert`,
       desc: (e.summary || `${e.title} by ${e.org}. Check deadline and apply.`).slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e, related),
@@ -643,6 +662,7 @@ ${footerHTML("../")}
     s: (e.summary || "").slice(0, 140),
     a: e.amount || "",
     st: e.status,
+    sv: e.eligibility?.states || ["ALL"],
     f: e.first_seen,
     h: cardHTML(e),
   }));
