@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-22T15:59:05.446Z",
+  "updated_at": "2026-08-22T16:15:00.543Z",
   "opportunities": [
     {
       "id": "nsp-h2n6mj-153n474",
@@ -24,7 +24,7 @@
       "deadline_source_count": 0,
       "status": "open",
       "first_seen": "2026-08-22T10:27:02.481Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:45:51.266Z",
       "history": [],
       "summary": "",
@@ -52,7 +52,7 @@
       "deadline_source_count": 0,
       "status": "open",
       "first_seen": "2026-08-22T10:27:02.828Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:45:51.266Z",
       "history": [],
       "summary": "",
@@ -80,7 +80,7 @@
       "deadline_source_count": 0,
       "status": "open",
       "first_seen": "2026-08-22T10:27:03.008Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:45:51.266Z",
       "history": [],
       "summary": "",
@@ -108,8 +108,8 @@
       "deadline_source_count": 0,
       "status": "open",
       "first_seen": "2026-08-22T10:27:03.332Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
-      "last_seen": "2026-08-22T15:59:05.393Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
+      "last_seen": "2026-08-22T16:15:00.488Z",
       "history": [],
       "summary": "",
       "extraction": "heuristic"
@@ -136,7 +136,7 @@
       "deadline_source_count": 0,
       "status": "open",
       "first_seen": "2026-08-22T10:27:03.523Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:59:05.393Z",
       "history": [],
       "summary": "",
@@ -167,7 +167,7 @@
       "deadline_source_count": 1,
       "status": "open",
       "first_seen": "2026-08-22T10:32:53.460Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:59:05.393Z",
       "history": [],
       "summary": "Apply for One Time Registration (OTR) on the National Scholarship Portal to access and apply for various government scholarship schemes.",
@@ -198,7 +198,7 @@
       "deadline_source_count": 1,
       "status": "open",
       "first_seen": "2026-08-22T10:33:08.494Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T10:33:08.494Z",
       "history": [],
       "summary": "Check scholarship eligibility details on the National Scholarship Portal.",
@@ -229,8 +229,8 @@
       "deadline_source_count": 1,
       "status": "open",
       "first_seen": "2026-08-22T15:58:55.619Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
-      "last_seen": "2026-08-22T15:58:55.619Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
+      "last_seen": "2026-08-22T16:15:00.488Z",
       "history": [],
       "summary": "Application form to apply for scholarships on the National Scholarship Portal.",
       "extraction": "llm:gemini"
@@ -260,10 +260,103 @@
       "deadline_source_count": 1,
       "status": "open",
       "first_seen": "2026-08-22T15:58:58.824Z",
-      "last_verified": "2026-08-22T15:59:05.446Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
       "last_seen": "2026-08-22T15:58:58.824Z",
       "history": [],
       "summary": "Scholarship eligibility details provided by the National Scholarship Portal.",
+      "extraction": "llm:gemini"
+    },
+    {
+      "id": "nsp-r13ecs-9tjshs",
+      "content_hash": "r13ecs-9tjshs",
+      "title": "One Time Registration (OTR)",
+      "org": "National Scholarship Portal",
+      "category": "scholarship",
+      "eligibility": {
+        "education": [],
+        "states": [
+          "ALL"
+        ],
+        "income_max": null,
+        "age_min": null,
+        "age_max": null
+      },
+      "deadline": null,
+      "amount": null,
+      "official_link": "https://scholarships.gov.in/otrapplication/#/login-page",
+      "source": "nsp",
+      "source_urls": [
+        "https://scholarships.gov.in"
+      ],
+      "deadline_source_count": 1,
+      "status": "open",
+      "first_seen": "2026-08-22T16:14:32.574Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
+      "last_seen": "2026-08-22T16:14:32.574Z",
+      "history": [],
+      "summary": "Apply for One Time Registration (OTR) on the National Scholarship Portal to access various government scholarship schemes.",
+      "extraction": "llm:gemini"
+    },
+    {
+      "id": "nsp-1k5l0p8-116tlhc",
+      "content_hash": "1k5l0p8-116tlhc",
+      "title": "Scholarship Eligibility Check",
+      "org": "National Scholarship Portal",
+      "category": "scholarship",
+      "eligibility": {
+        "education": [],
+        "states": [
+          "ALL"
+        ],
+        "income_max": null,
+        "age_min": null,
+        "age_max": null
+      },
+      "deadline": null,
+      "amount": null,
+      "official_link": "https://scholarships.gov.in/scholarshipEligibility",
+      "source": "nsp",
+      "source_urls": [
+        "https://scholarships.gov.in"
+      ],
+      "deadline_source_count": 1,
+      "status": "open",
+      "first_seen": "2026-08-22T16:14:46.128Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
+      "last_seen": "2026-08-22T16:14:46.128Z",
+      "history": [],
+      "summary": "Scholarship eligibility information from the National Scholarship Portal.",
+      "extraction": "llm:gemini"
+    },
+    {
+      "id": "nsp-1xlznww-1j49mv4",
+      "content_hash": "1xlznww-1j49mv4",
+      "title": "National Scholarship Portal Applications Processed",
+      "org": "National Scholarship Portal",
+      "category": "scholarship",
+      "eligibility": {
+        "education": [],
+        "states": [
+          "ALL"
+        ],
+        "income_max": null,
+        "age_min": null,
+        "age_max": null
+      },
+      "deadline": null,
+      "amount": null,
+      "official_link": "https://scholarships.gov.in/searchInstitute",
+      "source": "nsp",
+      "source_urls": [
+        "https://scholarships.gov.in"
+      ],
+      "deadline_source_count": 1,
+      "status": "open",
+      "first_seen": "2026-08-22T16:15:00.488Z",
+      "last_verified": "2026-08-22T16:15:00.542Z",
+      "last_seen": "2026-08-22T16:15:00.488Z",
+      "history": [],
+      "summary": "Announcement regarding applications processed for scholarships on the National Scholarship Portal.",
       "extraction": "llm:gemini"
     }
   ]
