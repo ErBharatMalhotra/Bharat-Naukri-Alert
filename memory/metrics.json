@@ -1,0 +1,61 @@
+[
+  {
+    "at": "2026-08-22T10:27:59.383Z",
+    "type": "digest",
+    "sent": 5
+  },
+  {
+    "at": "2026-08-22T10:28:10.471Z",
+    "type": "health-check",
+    "results": [
+      {
+        "id": "pib-rss",
+        "name": "Press Information Bureau",
+        "status": "dead",
+        "alive": 0,
+        "total": 2
+      },
+      {
+        "id": "ssc",
+        "name": "Staff Selection Commission",
+        "status": "dead",
+        "alive": 0,
+        "total": 1
+      },
+      {
+        "id": "nsp",
+        "name": "National Scholarship Portal",
+        "status": "dead",
+        "alive": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "at": "2026-08-22T10:29:29.759Z",
+    "type": "health-check",
+    "results": [
+      {
+        "id": "pib-rss",
+        "name": "Press Information Bureau",
+        "status": "healthy",
+        "alive": 2,
+        "total": 2
+      },
+      {
+        "id": "ssc",
+        "name": "Staff Selection Commission",
+        "status": "dead",
+        "alive": 0,
+        "total": 1
+      },
+      {
+        "id": "nsp",
+        "name": "National Scholarship Portal",
+        "status": "healthy",
+        "alive": 1,
+        "total": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-08-22T10:31:53.361Z",
+  "sources": [
+    {
+      "id": "pib-rss",
+      "raws": 0,
+      "added": 0,
+      "updated": 0,
+      "errors": [
+        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3: HTTP 403 for https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+        "https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3: HTTP 403 for https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3"
+      ]
+    },
+    {
+      "id": "ssc",
+      "raws": 0,
+      "added": 0,
+      "updated": 0,
+      "errors": [
+        "https://ssc.nic.in: fetch failed"
+      ]
+    },
+    {
+      "id": "nsp",
+      "raws": 5,
+      "added": 2,
+      "updated": 0,
+      "errors": []
+    }
+  ],
+  "total_added": 2,
+  "total_updated": 0,
+  "finished_at": "2026-08-22T10:33:24.019Z",
+  "db_size": 7
+}

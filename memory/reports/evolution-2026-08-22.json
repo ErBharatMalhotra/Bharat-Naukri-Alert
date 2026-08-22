@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-08-22T10:31:15.275Z",
+  "stats": {
+    "total_opportunities": 5,
+    "by_category": {
+      "scholarship": 5
+    },
+    "closing_soon": 0,
+    "quarantine_size": 0,
+    "last_scrape_errors": 2,
+    "health_events": 3,
+    "known_mistakes": 1
+  },
+  "rule_based_recommendations": [
+    "Scrape errors detected: review dead scrapers and update selectors/config"
+  ],
+  "llm_review": {
+    "analysis": "Total opportunity volume is critically low (5 items, all limited to 'scholarship'). Pipeline reliability is compromised with 2 scrape errors and 3 health events relative to the small throughput. A 20% mistake rate (1 known mistake out of 5 items) indicates precision issues in the extraction/parsing stage.",
+    "actions": [
+      "Inspect error logs for the 2 scrape failures and 3 health events to fix broken endpoints/selectors.",
+      "Audit the single known mistake to update target extraction schemas and validation prompt rules.",
+      "Expand source coverage and crawler schedules to increase total opportunity ingestion beyond scholarships.",
+      "Set up automated alerting for scrapers yielding zero or abnormally low opportunity counts."
+    ]
+  }
+}

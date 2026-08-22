@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "pib-rss",
+      "name": "Press Information Bureau",
+      "tier": 1,
+      "type": "rss",
+      "default_category": "scheme",
+      "enabled": true,
+      "urls": [
+        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+        "https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3"
+      ],
+      "notes": "PIB national RSS feeds; education and welfare ministry feeds"
+    },
+    {
+      "id": "ssc",
+      "name": "Staff Selection Commission",
+      "tier": 2,
+      "type": "html-links",
+      "url": "https://ssc.nic.in",
+      "default_category": "exam",
+      "enabled": true,
+      "keywords": ["notification", "recruitment", "examination", "apply online", "vacancy"],
+      "notes": "link-mining approach; resilient to layout changes"
+    },
+    {
+      "id": "nsp",
+      "name": "National Scholarship Portal",
+      "tier": 2,
+      "type": "html-links",
+      "url": "https://scholarships.gov.in",
+      "default_category": "scholarship",
+      "enabled": true,
+      "keywords": ["scholarship", "guidelines", "notification", "apply", "fresh", "renewal"],
+      "notes": "central scholarship portal"
+    }
+  ]
+}

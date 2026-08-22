@@ -1,0 +1,29 @@
+name: Keepalive
+
+on:
+  schedule:
+    - cron: "0 4 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch heartbeat file
+        run: |
+          echo "{\"beat\": \"$(date -u +%FT%TZ)\"}" > memory/heartbeat.json
+          git config user.name "avsar-bot"
+          git config user.email "bot@avsar.local"
+          git add memory/heartbeat.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: keepalive beat $(date -u +%F)"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push
+          else
+            echo "same-day beat already committed"
+          fi

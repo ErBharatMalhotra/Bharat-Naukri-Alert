@@ -1,0 +1,31 @@
+name: Telegram Digest
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send digest + handle commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: node telegram/digest.js
+      - name: Commit bot state
+        run: |
+          git config user.name "avsar-bot"
+          git config user.email "bot@avsar.local"
+          git add data/state.json memory/metrics.json
+          if ! git diff --cached --quiet; then
+            git commit -m "state: digest $(date -u +%F)"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push
+          fi

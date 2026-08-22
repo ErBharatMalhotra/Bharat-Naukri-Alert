@@ -1,0 +1,51 @@
+name: Scrape Pipeline
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run scraper
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node engine/scrape.js
+      - name: Verify entries
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node engine/verify.js
+      - name: Build site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node site/build.js
+      - name: Commit data + site
+        run: |
+          git config user.name "avsar-bot"
+          git config user.email "bot@avsar.local"
+          git add data memory site/dist
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: scheduled scrape $(date -u +%F-%H%M)"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push
+          fi
