@@ -19,6 +19,7 @@ sources.json  →  scrapers  →  extraction (LLM/heuristic)  →  verify  →  
 
 - **Zero npm dependencies** — Node 18+ built-in fetch hi sab kuch karta hai (50-year longevity)
 - **Multi-provider LLM fallback with key pools**: Gemini (multi-key rotation) → Groq → OpenRouter (keys na ho to heuristic mode)
+- **API-frugal**: dedupe-first scraping + heuristic extraction — LLM calls sirf naye items par, per-run budget cap (`LLM_MAX_CALLS`) ke saath
 - **Verification gate**: schema validation + deadline sanity + quarantine (galat entry kabhi publish nahi)
 - **Self-evolution**: weekly agent apne metrics/mistakes padh ke recommendations deta hai
 
@@ -47,7 +48,7 @@ npm test            # 15-test suite
 | `data/quarantine/` | Failed-verification entries |
 | `memory/` | mistakes.json (learning), metrics.json, reports/ |
 | `site/build.js` | Static site generator → `site/dist/` |
-| `.github/workflows/` | scrape(4h) · digest(daily) · evolution(weekly) · keepalive(weekly) · CI |
+| `.github/workflows/` | scrape+digest(2x daily) · evolution(weekly) · CI |
 
 ## Setup
 

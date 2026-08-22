@@ -2,7 +2,8 @@ name: Scrape Pipeline
 
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "30 3 * * *"   # 09:00 IST
+    - cron: "30 15 * * *"  # 21:00 IST
   workflow_dispatch:
 
 permissions:
@@ -15,7 +16,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,6 +24,7 @@ jobs:
           node-version: 20
       - name: Run scraper
         env:
+          LLM_MAX_CALLS: "8"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -43,15 +45,18 @@ jobs:
           GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
           GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_API_KEY_1: ${{ secrets.OPENROUTER_API_KEY_1 }}
         run: node engine/verify.js
       - name: Build site
         env:
           SITE_URL: ${{ vars.SITE_URL }}
         run: node site/build.js
-      - name: Commit data + site
+      - name: Telegram digest + commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: node telegram/digest.js
+      - name: Commit data + site + state
         run: |
           git config user.name "bna-bot"
           git config user.email "bot@bharatnaukri.local"
@@ -59,7 +64,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "no changes"
           else
-            git commit -m "data: scheduled scrape $(date -u +%F-%H%M)"
+            git commit -m "data: scheduled scrape $(date -u +%F-%H%M) [skip ci]"
             git pull --rebase origin ${GITHUB_REF_NAME} || true
             git push
           fi

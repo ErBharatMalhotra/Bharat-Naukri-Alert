@@ -1,35 +1,28 @@
 {
-  "started_at": "2026-08-22T16:13:06.170Z",
+  "started_at": "2026-08-22T17:26:11.704Z",
   "sources": [
     {
-      "id": "pib-rss",
-      "raws": 0,
-      "added": 0,
+      "id": "upsc",
+      "raws": 31,
+      "added": 17,
       "updated": 0,
-      "errors": [
-        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3: HTTP 403 for https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-        "https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3: HTTP 403 for https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3"
-      ]
-    },
-    {
-      "id": "ssc",
-      "raws": 0,
-      "added": 0,
-      "updated": 0,
-      "errors": [
-        "https://ssc.nic.in: fetch failed"
-      ]
+      "skipped_known": 0,
+      "errors": [],
+      "matched": 17
     },
     {
       "id": "nsp",
       "raws": 5,
-      "added": 3,
+      "added": 0,
       "updated": 0,
-      "errors": []
+      "skipped_known": 5,
+      "errors": [],
+      "matched": 5
     }
   ],
-  "total_added": 3,
+  "total_added": 17,
   "total_updated": 0,
-  "finished_at": "2026-08-22T16:15:00.490Z",
-  "db_size": 12
+  "llm_calls": 8,
+  "finished_at": "2026-08-22T17:26:20.845Z",
+  "db_size": 29
 }

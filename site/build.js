@@ -341,7 +341,7 @@ function footerHTML(prefix = "") {
 <div class="ft-brand">
 <a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain â€” poora history Git me permanent save rehta hai.</p>
-<ul class="trust"><li>${strokeIcon("shield")}Verified data, quarantine gate</li><li>${strokeIcon("zap")}Har 4 ghante auto-update</li><li>${strokeIcon("clock")}Deadline tracking built-in</li></ul>
+<ul class="trust"><li>${strokeIcon("shield")}Verified data, quarantine gate</li><li>${strokeIcon("zap")}Rozana 2 baar auto-update</li><li>${strokeIcon("clock")}Deadline tracking built-in</li></ul>
 </div>
 <div class="ft-col"><h4>Categories</h4><div class="ft-links">${cats}</div></div>
 <div class="ft-col"><h4>Resources</h4><div class="ft-links">
@@ -559,7 +559,7 @@ export async function buildSite() {
 <div class="stat"><b data-n="${stats.open}">0</b><small>Active abhi</small></div>
 <div class="stat stat-warn"><b data-n="${stats.closing}">0</b><small>Jald band honge</small></div>
 </div>
-<p class="hero-trust">${strokeIcon("zap")}Data har 4 ghante me update hota hai &middot; Git-backed permanent history</p>
+<p class="hero-trust">${strokeIcon("zap")}Data rozana 2 baar update hota hai &middot; Git-backed permanent history</p>
 </div></section>
 <main class="wrap page-top">
 <div class="sec-head"><h2>Aaj ke mauke</h2><span id="resCount" class="res-count">${entries.length} opportunities</span></div>

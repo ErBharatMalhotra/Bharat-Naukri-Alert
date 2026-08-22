@@ -67,6 +67,7 @@ npm run digest    # [dry-run] message = telegram config pending hai
 
 ## Troubleshooting
 
-- **Source 403 de raha hai** → bot-block; sources.json me alternate mirror add karo ya browser-like headers — health-check weekly batayega
+- **Source 403 de raha hai** → bot-block; sources.json me alternate mirror add karo — PIB ko browser-like UA chahiye (http.js me set hai)
 - **LLM 404 model error** → model retire ho gaya; `GEMINI_MODEL` env var se override karo
-- **Workflow disable ho gaya** → keepalive.yml Friday ko commit karta hai; manually re-enable karna padega agar 60+ din repo bilkul inactive raha
+- **API quota bachana hai** → `LLM_MAX_CALLS` env se per-run LLM budget control hota hai (default 8). System pehle dedupe + heuristic use karta hai, LLM sirf tab jab deadline heuristic se na mile
+- **Workflows disable** → repo me rozana data commits hote hain isliye activity bani rehti hai; agar 60+ din bilkul inactive hua to Actions tab se manually re-enable karna padega
