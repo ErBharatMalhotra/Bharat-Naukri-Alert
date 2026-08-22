@@ -1,4 +1,5 @@
 import { fetchText } from "../lib/http.js";
+import { SITE_CONFIG } from "../lib/site-config.js";
 
 const API = (token, method) => `https://api.telegram.org/bot${token}/${method}`;
 
@@ -44,7 +45,7 @@ export function buildDigest(entries, dateStr) {
   const lines = entries.map((e, i) => formatEntryLine(e, i));
   const closing = entries.filter((e) => e.status === "closing_soon").length;
   const header = `\ud83d\udd34 <b>Bharat Naukri Alert Daily Digest</b> — ${dateStr}\n${entries.length} naye opportunities${closing ? ` | \u26a0\ufe0f ${closing} jald band honge` : ""}\n\n`;
-  const footer = `\n\n\u2139\ufe0f Verify on official portal before applying.`;
+  const footer = `\n\n\u2139\ufe0f Verify on official portal before applying.${SITE_CONFIG.telegramUrl ? `\n\ud83d\udce2 Channel: ${SITE_CONFIG.telegramUrl}` : ""}`;
   return header + lines.join("\n\n") + footer;
 }
 

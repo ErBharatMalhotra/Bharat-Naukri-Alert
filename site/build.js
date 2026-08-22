@@ -1,10 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { readDB } from "../lib/store.js";
+import { SITE_CONFIG } from "../lib/site-config.js";
 
 const DIST = () => path.join(process.cwd(), "site", "dist");
-const SITE_URL = process.env.SITE_URL || "https://bharat-naukri-alert.pages.dev";
-const REPO_URL = process.env.REPO_URL || "https://github.com/ErBharatMalhotra/Bharat-Naukri-Alert";
+const SITE_URL = SITE_CONFIG.url;
+const REPO_URL = SITE_CONFIG.repoUrl;
 
 const CAT_LABELS = {
   scholarship: { en: "Scholarships", hi: "छात्रवृत्तियाँ", icon: "cap" },
@@ -49,6 +50,9 @@ const PATHS = {
   alert: '<path d="M12 3 2.5 19.5a1.5 1.5 0 0 0 1.3 2.5h16.4a1.5 1.5 0 0 0 1.3-2.5L12 3z"/><path d="M12 10v4M12 17.5v.5"/>',
   ext: '<path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/>',
   chev: '<path d="m9 5 7 7-7 7"/>',
+  heart: '<path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/>',
+  bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
 };
 const WA_PATH =
   'M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.58-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.34m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37A9.86 9.86 0 0 1 .16 11.9C.16 6.45 4.59 2.01 10.04 2.01c2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.43 9.89-9.89 9.89m8.42-18.3A11.81 11.81 0 0 0 12.05.02C5.5.02.16 5.35.16 11.91c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.42';
@@ -212,8 +216,67 @@ const CSS_B = `
 `;
 let CSS = CSS_A + CSS_B;
 
+const CSS_D = `
+/* stretched-link cards + save button */
+.op-card{position:relative}
+.op-card .stretch{position:absolute;inset:0;z-index:1;border-radius:16px}
+.save-btn{position:absolute;top:12px;right:12px;z-index:3;width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--mut);display:none;place-items:center;cursor:pointer;transition:.15s}
+.save-btn svg{width:16px;height:16px}
+@media(hover:hover){.op-card:hover .save-btn{display:grid}}
+@media(hover:none){.op-card .save-btn{display:grid}}
+.save-btn:hover{color:#e11d48;border-color:#fda4af}
+.save-btn.on{display:grid;color:#fff;background:#e11d48;border-color:#e11d48}
+.op-t,.op-top{position:relative}
+
+/* rich detail sections */
+.d-sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0}
+.d-sec h3{font-family:var(--disp);font-size:15.5px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.twrap{overflow-x:auto}
+.d-table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:340px}
+.d-table th,.d-table td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.d-table th{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--mut);background:var(--bg)}
+.d-table tr:last-child td{border-bottom:0}
+.d-table tbody tr:hover td{background:color-mix(in srgb,var(--brand) 4%,transparent)}
+.steps{margin:0;padding-left:20px;display:grid;gap:8px;font-size:13.5px}
+.kv{font-size:14px}
+.trust-line{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ok);font-weight:600}
+.trust-line svg{width:14px;height:14px}
+
+/* footer social + links row */
+.social-row{display:flex;gap:9px;margin-top:14px}
+.soc-btn{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;transition:.18s;box-shadow:0 6px 16px -8px rgba(0,0,0,.35)}
+.soc-btn svg{width:18px;height:18px}
+.soc-btn.tg{background:linear-gradient(135deg,#37aee2,#1e96c8)}
+.soc-btn.wa{background:linear-gradient(135deg,#47c75f,#25d366)}
+.soc-btn:hover{transform:translateY(-2px) scale(1.04)}
+
+/* homepage date separators */
+.date-sep{display:flex;align-items:center;gap:10px;margin:22px 0 12px;font-family:var(--disp);font-weight:700;font-size:13.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.8px;grid-column:1/-1}
+.date-sep::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* profile + saved toolbar */
+.tbtn-wide{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--body);font-size:12.5px;font-weight:600;padding:8px 13px;border-radius:11px;cursor:pointer;transition:.15s}
+.tbtn-wide svg{width:15px;height:15px;color:var(--brand)}
+.tbtn-wide:hover{border-color:var(--brand);color:var(--brand)}
+.prof-panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:-6px 0 14px;display:flex;gap:12px;flex-wrap:wrap;align-items:end}
+.prof-panel label{display:block;font-size:11.5px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+.prof-panel select{width:100%;min-width:170px}
+.prof-hint{flex-basis:100%;font-size:12.5px;color:var(--mut)}
+.chip.saved-chip{border-color:#fda4af;color:#e11d48}
+.chip.saved-chip.on{background:#e11d48;border-color:#e11d48;color:#fff}
+#profileBtn.active{border-color:var(--brand);color:var(--brand);background:var(--brand-soft)}
+
+/* ad slot (AdSense ke liye provision — abhi hidden) */
+.ad-slot{display:none;min-height:90px;margin:18px 0}
+
+/* static pages */
+.page-wrap{max-width:760px;margin:auto;padding:40px 20px 30px}
+.page-wrap h1{font-family:var(--disp);font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.5px;margin-bottom:16px}
+.page-wrap h2{font-family:var(--disp);font-size:17px;font-weight:700;margin:22px 0 8px}
+.page-wrap p,.page-wrap li{font-size:14.5px;color:color-mix(in srgb,var(--ink) 85%,var(--mut));line-height:1.75}
+.page-wrap ul{padding-left:20px}
+`;
 const CSS_C = `
-/* breadcrumb + page heads */
 .crumb{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--mut);margin-bottom:16px;flex-wrap:wrap}
 .crumb svg{width:12px;height:12px;opacity:.55}
 .crumb a:hover{color:var(--brand)}
@@ -268,7 +331,10 @@ const CSS_C = `
 .ft-links a{font-size:13.5px;opacity:.85;transition:.15s}
 .ft-links a:hover{color:var(--brand);opacity:1}
 .ft-bar{border-top:1px solid var(--line)}
-.ft-bar>div{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut)}
+.ft-bar>div{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut);align-items:center}
+.ft-legal{display:inline-flex;gap:14px}
+.ft-legal a{color:var(--mut)}
+.ft-legal a:hover{color:var(--brand)}
 
 /* back-to-top */
 #toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;display:grid;place-items:center;opacity:0;pointer-events:none;transform:translateY(8px);transition:.25s;z-index:70;box-shadow:var(--sh)}
@@ -297,7 +363,7 @@ const CSS_C = `
 html{scroll-behavior:auto}
 }
 `;
-CSS += CSS_C;
+CSS += CSS_C + CSS_D;
 
 // ---------- theme boot (no FOUC), favicon ----------
 const THEME_BOOT = "(function(){try{var t=localStorage.getItem('bna-theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();";
@@ -330,6 +396,7 @@ function layout({ title, desc, canonical, body, jsonld }) {
 <script type="application/ld+json">${jsonld || "{}"}</script>
 </head>
 <body>
+<div class="ad-slot" id="ad-top"></div>
 ${body}
 </body>
 </html>`;
@@ -355,15 +422,26 @@ function footerHTML(prefix = "") {
 <a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent save rehta hai.</p>
 <ul class="trust"><li>${strokeIcon("shield")}Verified data, quarantine gate</li><li>${strokeIcon("zap")}Rozana 2 baar auto-update</li><li>${strokeIcon("clock")}Deadline tracking built-in</li></ul>
+<div class="social-row">
+${SITE_CONFIG.telegramUrl ? `<a class="soc-btn tg" href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener" aria-label="Telegram channel join karo">${fillIcon("tg")}</a>` : ""}
+${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whatsappUrl)}" target="_blank" rel="noopener" aria-label="WhatsApp channel join karo">${fillIcon("wa")}</a>` : ""}
+</div>
 </div>
 <div class="ft-col"><h4>Categories</h4><div class="ft-links">${cats}</div></div>
 <div class="ft-col"><h4>Resources</h4><div class="ft-links">
 <a href="${prefix}sitemap.xml">Sitemap</a>
+<a href="${prefix}rss.xml">RSS Feed</a>
 <a href="${REPO_URL}" target="_blank" rel="noopener">GitHub Repository</a>
-<a href="${SITE_URL}/data/opportunities.json" target="_blank" rel="noopener">Open Data (JSON)</a>
+<a href="${SITE_CONFIG.url}/data/opportunities.json" target="_blank" rel="noopener">Open Data (JSON)</a>
 </div></div>
 </div>
-<div class="ft-bar"><div><span>&copy; ${new Date().getFullYear()} Bharat Naukri Alert &middot; Independent information service &mdash; koi sarkari website nahi hai.</span><span>Autonomous agent se bana &middot; GitHub Actions pe chalta hai</span></div></div></footer>
+<div class="ft-bar"><div>
+<span>&copy; ${new Date().getFullYear()} Bharat Naukri Alert &middot; Independent information service &mdash; koi sarkari website nahi hai.</span>
+<span class="ft-legal">
+<a href="${prefix}about.html">About</a><a href="${prefix}privacy.html">Privacy</a><a href="${prefix}terms.html">Terms</a><a href="${prefix}contact.html">Contact</a>
+</span>
+<span>Autonomous agent se bana &middot; GitHub Actions pe chalta hai</span>
+</div></div></footer>
 <button id="toTop" aria-label="Back to top">${strokeIcon("up")}</button>`;
 }
 
@@ -387,13 +465,47 @@ function dlChip(e) {
 function cardHTML(e, rel = "") {
   const stList = (e.eligibility?.states || []).filter((s) => s && s !== "ALL");
   const stChip = stList.length ? `<span class="state-chip">${strokeIcon("landmark")}${esc(stList.slice(0, 2).join(", "))}</span>` : "";
-  return `<a class="op-card" data-reveal href="${rel}o/${encodeURIComponent(e.id)}.html">
+  const href = `${rel}o/${encodeURIComponent(e.id)}.html`;
+  return `<article class="op-card" data-reveal data-id="${esc(e.id)}">
+<a class="stretch" href="${href}" aria-label="${esc(e.title.slice(0, 60))}"></a>
+<button type="button" class="save-btn" data-save="${esc(e.id)}" aria-label="Job save karo">${strokeIcon("heart")}</button>
 <div class="op-top"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span>
 <span class="op-org">${esc(e.org || "Government of India")}</span><span class="op-sp"></span>${catChip(e.category)}</div>
 <h3 class="op-t">${esc(e.title)}</h3>
 ${e.summary ? `<p class="op-s">${esc(e.summary)}</p>` : ""}
 <div class="op-foot">${dlChip(e)}${stChip}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
-</a>`;
+</article>`;
+}
+
+function renderDetails(d) {
+  if (!d) return "";
+  let h = "";
+  const table = (title, rows, headers) =>
+    rows?.length
+      ? `<section class="d-sec" data-reveal><h3>${title}</h3>
+<div class="twrap"><table class="d-table">
+${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr></thead>` : ""}
+<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
+</table></div></section>`
+      : "";
+  const pairs = (title, arr) =>
+    arr?.length ? table(title, arr.map((x) => [x.k, x.v])) : "";
+  if (d.summary && d.summary.length > 60) {
+    h += `<section class="d-sec" data-reveal><h3>Overview</h3><p class="d-sum">${esc(d.summary)}</p></section>`;
+  }
+  h += pairs("Important Dates", d.dates);
+  h += pairs("Application Fee", d.fee);
+  h += table("Vacancy Details", d.vacancy);
+  if (d.ageLimit) {
+    h += `<section class="d-sec" data-reveal><h3>Age Limit</h3><p class="kv"><b>${esc(d.ageLimit)}</b></p></section>`;
+  }
+  if (d.payScale) {
+    h += `<section class="d-sec" data-reveal><h3>Pay Scale</h3><p class="kv"><b>${esc(d.payScale)}</b></p></section>`;
+  }
+  if (d.steps?.length) {
+    h += `<section class="d-sec" data-reveal><h3>How to Apply</h3><ol class="steps">${d.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol></section>`;
+  }
+  return h;
 }
 
 function detailBody(e, related) {
@@ -418,10 +530,11 @@ ${e.amount ? `<div class="tile"><small>Benefit / Pay</small><b>${esc(String(e.am
 <div class="tile"><small>Category</small><b>${L.hi || L.en}</b></div>
 <div class="tile"><small>Status</small><b>${statusLabel(e.status)}</b></div>
 </div>
-${e.summary ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
+${e.summary && !(e.details?.summary) ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
 ${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
+${renderDetails(e.details)}
 <section class="cta-panel" data-reveal>
-<div><h3>Apply karna hai?</h3><p>Official portal par jao &mdash; wahan ki details sabse sahi hoti hain.</p></div>
+<div><h3>Apply karna hai?</h3><p class="trust-line">${strokeIcon("shield")}Verified official government portal &mdash; direct apply link</p></div>
 <div class="cta-actions">
 <a class="btn btn-pri" href="${esc(e.official_link)}" target="_blank" rel="nofollow noopener">Official Portal ${strokeIcon("ext")}</a>
 <button class="btn btn-ghost" type="button" data-copy="${esc(url)}">${strokeIcon("link")}<span class="cp-l">Copy Link</span></button>
@@ -484,26 +597,70 @@ tt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'}
 window.addEventListener('keydown',function(e){
 var q=d.getElementById('q');
 if(e.key==='/'&&q&&d.activeElement!==q&&!/INPUT|TEXTAREA|SELECT/.test((d.activeElement&&d.activeElement.tagName)||'')){e.preventDefault();q.focus();}});
+function savedIds(){try{return JSON.parse(localStorage.getItem('bna-saved')||'[]');}catch(e){return [];}}
+function refreshSaved(){
+var ids=savedIds();
+var chip=d.getElementById('savedChip');
+if(chip)chip.textContent='Saved ('+ids.length+')';
+$$all('[data-save]').forEach(function(b){
+b.classList.toggle('on',ids.indexOf(b.getAttribute('data-save'))>-1);});}
+d.addEventListener('click',function(ev){
+var b=ev.target.closest('[data-save]');if(!b)return;ev.preventDefault();
+var id=b.getAttribute('data-save');var ids=savedIds();
+var i=ids.indexOf(id);
+if(i>-1){ids.splice(i,1);}else{ids.unshift(id);}
+if(ids.length>200)ids=ids.slice(0,200);
+try{localStorage.setItem('bna-saved',JSON.stringify(ids));}catch(e){}
+refreshSaved();});
+refreshSaved();
+var pb=d.getElementById('profileBtn'),pp=d.getElementById('profPanel');
+if(pb&&pp){
+function prof(){try{return JSON.parse(localStorage.getItem('bna-profile')||'{}');}catch(e){return {};}}
+function applyProfUI(){var p=prof();pb.classList.toggle('active',Boolean(p.v||p.q));
+var ps=d.getElementById('profState'),pe=d.getElementById('profEdu');
+if(ps)ps.value=p.v||'';if(pe)pe.value=p.q||'';}
+pb.addEventListener('click',function(){pp.hidden=!pp.hidden;if(!pp.hidden)applyProfUI();});
+var sv=d.getElementById('profSave'),cl=d.getElementById('profClear');
+if(sv)sv.addEventListener('click',function(){
+var v=(d.getElementById('profState')||{}).value||'',q=(d.getElementById('profEdu')||{}).value||'';
+try{localStorage.setItem('bna-profile',JSON.stringify({v:v,q:q}));}catch(e){}
+applyProfUI();pp.hidden=true;
+if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
+if(cl)cl.addEventListener('click',function(){
+try{localStorage.removeItem('bna-profile');}catch(e){}
+applyProfUI();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
+applyProfUI();}
 })();
 `;
 
 // ---------- index page app JS ----------
 const APP_JS = `
 (function(){
-var IDX=null,st={q:'',f:'all',x:'all',s:'new',v:''};
+var IDX=null,st={q:'',f:'all',x:'all',s:'new',v:'',qf:'',saved:false};
 var d=document,list=d.getElementById('list'),skels=d.getElementById('skels'),
 cnt=d.getElementById('resCount'),empty=d.getElementById('empty'),
 q=d.getElementById('q'),filters=d.getElementById('filters'),
-seg=d.getElementById('seg'),sortSel=d.getElementById('sortSel'),stateSel=d.getElementById('stateSel');
+seg=d.getElementById('seg'),sortSel=d.getElementById('sortSel'),stateSel=d.getElementById('stateSel'),
+qualSel=d.getElementById('qualSel');
 function low(x){return (x||'').toLowerCase();}
+function savedIds(){try{return JSON.parse(localStorage.getItem('bna-saved')||'[]');}catch(e){return [];}}
+function prof(){try{return JSON.parse(localStorage.getItem('bna-profile')||'{}');}catch(e){return {};}}
+function matchState(e,v){if(!v)return true;var arr=e.sv||[];return arr.indexOf('ALL')>-1||arr.indexOf(v)>-1;}
+function matchQual(e,qf){if(!qf)return true;var arr=e.q||[];return arr.length===0||arr.indexOf(qf)>-1;}
 function apply(){
 if(!IDX)return;
 var term=low(st.q.trim());
+var p=prof();
+var ids=st.saved?savedIds():[];
 var out=IDX.filter(function(e){
-if(st.f!=='all'&&e.c!==st.f)return false;
+if(st.f==='__saved'){if(ids.indexOf(e.id)<0)return false;}
+else if(st.f!=='all'&&e.c!==st.f)return false;
 if(st.x==='closing'&&e.st!=='closing_soon')return false;
 if(st.x==='open'&&e.st!=='open')return false;
-if(st.v){var arr=e.sv||[];if(arr.indexOf('ALL')<0&&arr.indexOf(st.v)<0)return false;}
+if(!matchState(e,st.v))return false;
+if(!matchQual(e,st.qf))return false;
+if(p.v&&!matchState(e,p.v))return false;
+if(p.q&&e.q&&e.q.length&&!matchQual(e,p.q))return false;
 if(term&&(low(e.t)+' '+low(e.o)+' '+low(e.s)).indexOf(term)<0)return false;
 return true;});
 if(st.s==='new'){out.sort(function(a,b){return (b.f||'').localeCompare(a.f||'');});}
@@ -526,13 +683,15 @@ q.addEventListener('input',function(){clearTimeout(tm);tm=setTimeout(function(){
 filters.addEventListener('click',function(ev){
 var b=ev.target.closest('.chip');if(!b)return;
 filters.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');});
-b.classList.add('on');st.f=b.getAttribute('data-f');apply();});
+b.classList.add('on');st.f=b.getAttribute('data-f');st.saved=st.f==='__saved';apply();});
 seg.addEventListener('click',function(ev){
 var b=ev.target.closest('button');if(!b)return;
 seg.querySelectorAll('button').forEach(function(c){c.classList.remove('on');});
 b.classList.add('on');st.x=b.getAttribute('data-x');apply();});
 sortSel.addEventListener('change',function(){st.s=sortSel.value;apply();});
 if(stateSel){stateSel.addEventListener('change',function(){st.v=stateSel.value;apply();});}
+if(qualSel){qualSel.addEventListener('change',function(){st.qf=qualSel.value;apply();});}
+window.BNA_APP={reapply:function(){apply();}};
 Array.prototype.forEach.call(document.querySelectorAll('[data-n]'),function(el){
 var T=+el.getAttribute('data-n')||0,t0=null,dur=900;
 function step(ts){if(t0===null)t0=ts;var p=Math.min((ts-t0)/dur,1);p=1-Math.pow(1-p,3);
@@ -551,6 +710,23 @@ async function writeFile(relPath, content) {
 const SKEL_CARDS = Array(6)
   .fill('<div class="sk-card"><div class="sk sk-a"></div><div class="sk sk-b"></div><div class="sk sk-b"></div><div class="sk sk-c"></div></div>')
   .join("");
+
+function dateGroupedCards(list) {
+  const today = new Date().toISOString().slice(0, 10);
+  const yest = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  let out = "";
+  let last = "";
+  for (const e of list) {
+    const d = (e.first_seen || "").slice(0, 10);
+    if (d !== last) {
+      last = d;
+      const label = d === today ? "Aaj ke updates" : d === yest ? "Kal ke updates" : fmtDate(d) || "Purane updates";
+      out += `<div class="date-sep">${label}</div>`;
+    }
+    out += cardHTML(e);
+  }
+  return out;
+}
 
 export async function buildSite() {
   const db = await readDB();
@@ -582,13 +758,24 @@ export async function buildSite() {
 <main class="wrap page-top">
 <div class="sec-head"><h2>Aaj ke mauke</h2><span id="resCount" class="res-count">${entries.length} opportunities</span></div>
 <div class="toolbar">
-<div class="chips" id="filters"><button class="chip on" data-f="all">All</button>${Object.entries(CAT_LABELS).map(([k, v]) => `<button class="chip" data-f="${k}">${v.en}</button>`).join("")}</div>
+<div class="chips" id="filters"><button class="chip on" data-f="all">All</button>${Object.entries(CAT_LABELS).map(([k, v]) => `<button class="chip" data-f="${k}">${v.en}</button>`).join("")}<button class="chip saved-chip" id="savedChip" data-f="__saved">Saved (0)</button></div>
 <div class="toolbar-right">
-<select id="stateSel" aria-label="State filter"><option value="">Sabhi States</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
+<button id="profileBtn" class="tbtn-wide" aria-label="Meri eligibility set karo">${strokeIcon("target")}<span>Meri Eligibility</span></button>
 <div class="seg" id="seg"><button class="on" data-x="all">Sabhi</button><button data-x="open">Open</button><button data-x="closing">Closing</button></div>
+<select id="stateSel" aria-label="State filter"><option value="">Sabhi States</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
+<select id="qualSel" aria-label="Qualification filter"><option value="">Sabhi Qualification</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select>
 <select id="sortSel" aria-label="Sort opportunities"><option value="new">Naya pehle</option><option value="deadline">Deadline nazdeek</option></select>
 </div></div>
-<div class="grid" id="list">${[...entries].sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "")).slice(0, 60).map((e) => cardHTML(e)).join("")}</div>
+<div id="profPanel" class="prof-panel" hidden>
+<div><label for="profState">State</label><select id="profState"><option value="">Koi bhi</option><option value="ALL">All India</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select></div>
+<div><label for="profEdu">Qualification</label><select id="profEdu"><option value="">Koi bhi</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select></div>
+<div style="display:flex;gap:8px;align-self:end">
+<button id="profSave" class="btn btn-pri">Save Profile</button>
+<button id="profClear" class="btn btn-ghost">Clear</button>
+</div>
+<p class="prof-hint">Profile save karne ke baad sirf tumhare eligible jobs highlight honge — filter har visit pe apne aap lag jayega.</p>
+</div>
+<div class="grid" id="list">${dateGroupedCards([...entries].sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "")).slice(0, 60))}</div>
 <div class="grid" id="skels" hidden>${SKEL_CARDS}</div>
 <div class="empty" id="empty" hidden>${strokeIcon("search")}<p>Kuch nahi mila. Doosra keyword try karo ya filter hata do.</p></div>
 ${note()}
@@ -633,6 +820,82 @@ ${footerHTML("../")}
     pages++;
   }
 
+  // ---- state pages (SEO) ----
+  const slug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  for (const st of STATES) {
+    const tagged = entries.filter((e) => {
+      const arr = e.eligibility?.states || [];
+      return arr.includes(st) || arr.includes("ALL");
+    });
+    if (!tagged.length) continue;
+    const body = `${header("../")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<span>${st}</span></nav>
+<h1 class="page-h">${st} Sarkari Jobs <span class="cnt-badge">${tagged.length}</span></h1>
+<p class="page-sub">${st} ke liye latest government jobs, exams aur updates &mdash; rozana auto-update.</p>
+<div class="grid">${tagged.map((e) => cardHTML(e, "../")).join("")}</div>
+${note()}
+</main>
+${footerHTML("../")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile(`state/${slug(st)}.html`, layout({
+      title: `${st} Sarkari Naukri 2026 — Latest Govt Jobs & Updates | Bharat Naukri Alert`,
+      desc: `${st} government job alerts: ${tagged.length} active opportunities with official links and deadlines. Rozana update hota hai.`,
+      canonical: `${SITE_URL}/state/${slug(st)}.html`,
+      body,
+    }));
+    pages++;
+  }
+
+  // ---- static pages ----
+  const staticPages = {
+    "about.html": {
+      title: "About — Bharat Naukri Alert",
+      h: "About",
+      html: `<p><b>Bharat Naukri Alert</b> ek autonomous Indian opportunity tracker hai — scholarships, exams, jobs aur sarkari schemes sab ek jagah.</p>
+<p>Hum rozana do baar multiple trusted sources ko scan karte hain, har entry verify karke structured database me store karte hain, aur yahan publish karte hain. Har listing ka link seedha <b>official government portal</b> par jaata hai.</p>
+<h2>Ye kaise chalta hai?</h2>
+<ul><li>GitHub Actions pe autonomous scrape pipeline (rozana 2x)</li><li>Multi-source verification + quarantine gate</li><li>Git-backed permanent history — kabhi kuch delete nahi hota</li><li>100% free, no ads spam</li></ul>
+<h2>Contact</h2><p>GitHub repository ke issues section se ya email se sampark karo.</p>`,
+    },
+    "privacy.html": {
+      title: "Privacy Policy — Bharat Naukri Alert",
+      h: "Privacy Policy",
+      html: `<p>Yeh website aapka koi personal data collect nahi karti. Sab features (saved jobs, eligibility profile, theme preference) <b>aapke browser ke localStorage</b> me hi rehte hain — server par kuch bhi upload nahi hota.</p>
+<h2>Cookies/Tracking</h2><p>Koi tracking cookies nahi. Future me analytics ya ads add hone par ye page update hogi.</p>
+<h2>Third-party links</h2><p>Job listings official government portals par le jaati hain. Un sites ki privacy policies unki zimmedari hai.</p>`,
+    },
+    "terms.html": {
+      title: "Terms of Use — Bharat Naukri Alert",
+      h: "Terms of Use",
+      html: `<p>Bharat Naukri Alert ek independent information service hai — Government of India ka official portal nahi hai.</p>
+<h2>Accuracy</h2><p>Information automated sources se aati hai aur verify ki jaati hai, phir bhi apply karne se pehle hamesha official portal par details confirm karein. Deadlines aur details badal sakti hain.</p>
+<h2>Liability</h2><p>Kisi bhi decision ke liye is website ke content par sole reliance ka result site zimmedar nahi hai. Use at your own discretion.</p>`,
+    },
+    "contact.html": {
+      title: "Contact — Bharat Naukri Alert",
+      h: "Contact",
+      html: `<p>Koi sawal, suggestion ya galat listing mili? Hume batayein:</p>
+<ul><li>Telegram channel par message karo${SITE_CONFIG.telegramUrl ? `: <a href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener">${esc(SITE_CONFIG.telegramUrl)}</a>` : ""}</li>
+<li>GitHub repo me issue kholo${REPO_URL ? `: <a href="${REPO_URL}" target="_blank" rel="noopener">Issues</a>` : ""}</li>
+${SITE_CONFIG.contactEmail ? `<li>Email: ${esc(SITE_CONFIG.contactEmail)}</li>` : ""}</ul>
+<p>Feedback welcome hai!</p>`,
+    },
+  };
+  for (const [file, p] of Object.entries(staticPages)) {
+    const body = `${header("")}
+<main class="wrap"><div class="page-wrap">
+<nav class="crumb"><a href="index.html">Home</a>${strokeIcon("chev")}<span>${p.h}</span></nav>
+<h1>${p.h}</h1>
+${p.html}
+${note()}
+</div></main>
+${footerHTML("")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} — Bharat Naukri Alert`, canonical: `${SITE_URL}/${file}`, body }));
+    pages++;
+  }
+
   // ---- detail pages ----
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
@@ -643,11 +906,17 @@ ${footerHTML("../")}
       body: detailBody(e, related),
       jsonld: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Dataset",
-        name: e.title,
-        description: e.summary || e.title,
+        "@type": "JobPosting",
+        title: e.title.slice(0, 110),
+        description: (e.details?.summary || e.summary || `${e.title} — ${e.org}. Official notification, eligibility aur last date check karke apply karo.`).slice(0, 1200),
+        datePosted: e.first_seen,
+        validThrough: e.deadline ? `${e.deadline}T23:59:59+05:30` : undefined,
+        employmentType: "FULL_TIME",
+        hiringOrganization: { "@type": "Organization", name: e.org || "Government of India" },
+        jobLocationType: "TELECOMMUTE",
+        applicantLocationRequirements: { "@type": "Country", name: "India" },
+        directApply: true,
         url: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
-        keywords: [e.category, e.org, "government"],
       }),
     }));
     pages++;
@@ -655,6 +924,7 @@ ${footerHTML("../")}
 
   // ---- search index ----
   const searchIndex = entries.map((e) => ({
+    id: e.id,
     t: e.title,
     o: e.org,
     c: e.category,
@@ -663,13 +933,56 @@ ${footerHTML("../")}
     a: e.amount || "",
     st: e.status,
     sv: e.eligibility?.states || ["ALL"],
+    q: e.eligibility?.education || [],
     f: e.first_seen,
     h: cardHTML(e),
   }));
   await writeFile("search-index.json", JSON.stringify(searchIndex));
 
+  // ---- RSS feed ----
+  const esc2 = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const rssItems = [...entries]
+    .sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""))
+    .slice(0, 50)
+    .map(
+      (e) => `\t<item>
+\t\t<title>${esc2(e.title)}</title>
+\t\t<link>${SITE_URL}/o/${encodeURIComponent(e.id)}.html</link>
+\t\t<guid isPermaLink="true">${SITE_URL}/o/${encodeURIComponent(e.id)}.html</guid>
+\t\t<pubDate>${new Date(e.first_seen || Date.now()).toUTCString()}</pubDate>
+\t\t<description>${esc2((e.summary || e.title).slice(0, 300))}</description>
+\t\t<category>${esc2(e.category)}</category>
+\t</item>`
+    )
+    .join("\n");
+  await writeFile("rss.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Bharat Naukri Alert — Latest Sarkari Updates</title>
+<link>${SITE_URL}</link>
+<description>Scholarships, exams, jobs aur sarkari schemes ke rozana updates with official links.</description>
+<language>en-in</language>
+${rssItems}
+</channel></rss>`);
+
   // ---- sitemap / robots / llms.txt ----
-  const urls = ["", ...Object.keys(CAT_LABELS).map((c) => `category/${c}.html`), ...entries.map((e) => `o/${encodeURIComponent(e.id)}.html`)];
+  const stateUrls = [];
+  for (const st of STATES) {
+    const has = entries.some((e) => {
+      const arr = e.eligibility?.states || [];
+      return arr.includes(st) || arr.includes("ALL");
+    });
+    if (has) stateUrls.push(`state/${slug(st)}.html`);
+  }
+  const urls = [
+    "",
+    ...Object.keys(CAT_LABELS).map((c) => `category/${c}.html`),
+    ...stateUrls,
+    "about.html",
+    "privacy.html",
+    "terms.html",
+    "contact.html",
+    ...entries.map((e) => `o/${encodeURIComponent(e.id)}.html`),
+  ];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod></url>`).join("\n")}

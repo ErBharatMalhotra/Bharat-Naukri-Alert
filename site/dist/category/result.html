@@ -143,7 +143,6 @@ a{color:inherit;text-decoration:none}
 .note svg{width:18px;height:18px;flex-shrink:0;margin-top:2px;color:var(--warn)}
 .note p{font-size:13px;line-height:1.6;color:color-mix(in srgb,var(--warn) 70%,var(--ink))}
 
-/* breadcrumb + page heads */
 .crumb{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--mut);margin-bottom:16px;flex-wrap:wrap}
 .crumb svg{width:12px;height:12px;opacity:.55}
 .crumb a:hover{color:var(--brand)}
@@ -198,7 +197,10 @@ a{color:inherit;text-decoration:none}
 .ft-links a{font-size:13.5px;opacity:.85;transition:.15s}
 .ft-links a:hover{color:var(--brand);opacity:1}
 .ft-bar{border-top:1px solid var(--line)}
-.ft-bar>div{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut)}
+.ft-bar>div{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mut);align-items:center}
+.ft-legal{display:inline-flex;gap:14px}
+.ft-legal a{color:var(--mut)}
+.ft-legal a:hover{color:var(--brand)}
 
 /* back-to-top */
 #toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;display:grid;place-items:center;opacity:0;pointer-events:none;transform:translateY(8px);transition:.25s;z-index:70;box-shadow:var(--sh)}
@@ -226,10 +228,70 @@ a{color:inherit;text-decoration:none}
 [data-reveal]{opacity:1!important;transform:none!important;transition:none!important}
 html{scroll-behavior:auto}
 }
+
+/* stretched-link cards + save button */
+.op-card{position:relative}
+.op-card .stretch{position:absolute;inset:0;z-index:1;border-radius:16px}
+.save-btn{position:absolute;top:12px;right:12px;z-index:3;width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--mut);display:none;place-items:center;cursor:pointer;transition:.15s}
+.save-btn svg{width:16px;height:16px}
+@media(hover:hover){.op-card:hover .save-btn{display:grid}}
+@media(hover:none){.op-card .save-btn{display:grid}}
+.save-btn:hover{color:#e11d48;border-color:#fda4af}
+.save-btn.on{display:grid;color:#fff;background:#e11d48;border-color:#e11d48}
+.op-t,.op-top{position:relative}
+
+/* rich detail sections */
+.d-sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0}
+.d-sec h3{font-family:var(--disp);font-size:15.5px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.twrap{overflow-x:auto}
+.d-table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:340px}
+.d-table th,.d-table td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.d-table th{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--mut);background:var(--bg)}
+.d-table tr:last-child td{border-bottom:0}
+.d-table tbody tr:hover td{background:color-mix(in srgb,var(--brand) 4%,transparent)}
+.steps{margin:0;padding-left:20px;display:grid;gap:8px;font-size:13.5px}
+.kv{font-size:14px}
+.trust-line{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ok);font-weight:600}
+.trust-line svg{width:14px;height:14px}
+
+/* footer social + links row */
+.social-row{display:flex;gap:9px;margin-top:14px}
+.soc-btn{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;transition:.18s;box-shadow:0 6px 16px -8px rgba(0,0,0,.35)}
+.soc-btn svg{width:18px;height:18px}
+.soc-btn.tg{background:linear-gradient(135deg,#37aee2,#1e96c8)}
+.soc-btn.wa{background:linear-gradient(135deg,#47c75f,#25d366)}
+.soc-btn:hover{transform:translateY(-2px) scale(1.04)}
+
+/* homepage date separators */
+.date-sep{display:flex;align-items:center;gap:10px;margin:22px 0 12px;font-family:var(--disp);font-weight:700;font-size:13.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.8px;grid-column:1/-1}
+.date-sep::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* profile + saved toolbar */
+.tbtn-wide{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--body);font-size:12.5px;font-weight:600;padding:8px 13px;border-radius:11px;cursor:pointer;transition:.15s}
+.tbtn-wide svg{width:15px;height:15px;color:var(--brand)}
+.tbtn-wide:hover{border-color:var(--brand);color:var(--brand)}
+.prof-panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:-6px 0 14px;display:flex;gap:12px;flex-wrap:wrap;align-items:end}
+.prof-panel label{display:block;font-size:11.5px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+.prof-panel select{width:100%;min-width:170px}
+.prof-hint{flex-basis:100%;font-size:12.5px;color:var(--mut)}
+.chip.saved-chip{border-color:#fda4af;color:#e11d48}
+.chip.saved-chip.on{background:#e11d48;border-color:#e11d48;color:#fff}
+#profileBtn.active{border-color:var(--brand);color:var(--brand);background:var(--brand-soft)}
+
+/* ad slot (AdSense ke liye provision — abhi hidden) */
+.ad-slot{display:none;min-height:90px;margin:18px 0}
+
+/* static pages */
+.page-wrap{max-width:760px;margin:auto;padding:40px 20px 30px}
+.page-wrap h1{font-family:var(--disp);font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.5px;margin-bottom:16px}
+.page-wrap h2{font-family:var(--disp);font-size:17px;font-weight:700;margin:22px 0 8px}
+.page-wrap p,.page-wrap li{font-size:14.5px;color:color-mix(in srgb,var(--ink) 85%,var(--mut));line-height:1.75}
+.page-wrap ul{padding-left:20px}
 </style>
 <script type="application/ld+json">{}</script>
 </head>
 <body>
+<div class="ad-slot" id="ad-top"></div>
 <header class="hdr"><div class="hdr-in">
 <a class="logo" href="../index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <nav class="hnav"><a href="../index.html">Home</a><a href="../category/scholarship.html">Scholarships</a><a href="../category/exam.html">Exams</a><a href="../category/job.html">Jobs</a><a href="../category/scheme.html">Schemes</a><a href="../category/admit-card.html">Admit Cards</a><a href="../category/result.html">Results</a></nav>
@@ -239,175 +301,231 @@ html{scroll-behavior:auto}
 <nav class="crumb"><a href="../index.html">Home</a><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><span>Results</span></nav>
 <h1 class="page-h">Results <span class="cnt-badge">28</span></h1>
 <p class="page-sub">परिणाम &mdash; rozana auto-update hota hai.</p>
-<div class="grid"><a class="op-card" data-reveal href="../o/upsc-16pijg4-22mfpc.html">
+<div class="grid"><article class="op-card" data-reveal data-id="upsc-16pijg4-22mfpc">
+<a class="stretch" href="../o/upsc-16pijg4-22mfpc.html" aria-label="Final Result: 20 Posts of Drugs Inspector (Medical Devices),"></a>
+<button type="button" class="save-btn" data-save="upsc-16pijg4-22mfpc" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 20 Posts of Drugs Inspector (Medical Devices), Ministry of Health and Family Welfare</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/upsc-1tyu81c-muuk8w.html">
+</article><article class="op-card" data-reveal data-id="upsc-1tyu81c-muuk8w">
+<a class="stretch" href="../o/upsc-1tyu81c-muuk8w.html" aria-label="Final Result: 25 Posts of Public Prosecutor in CBI"></a>
+<button type="button" class="save-btn" data-save="upsc-1tyu81c-muuk8w" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 25 Posts of Public Prosecutor in CBI</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/upsc-134alek-1yvkx6o.html">
+</article><article class="op-card" data-reveal data-id="upsc-134alek-1yvkx6o">
+<a class="stretch" href="../o/upsc-134alek-1yvkx6o.html" aria-label="Final Result: 03 Posts of Assistant Director (Corporate Law)"></a>
+<button type="button" class="save-btn" data-save="upsc-134alek-1yvkx6o" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 03 Posts of Assistant Director (Corporate Law), Ministry of Corporate Affairs</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/upsc-2blgws-1ixmakg.html">
+</article><article class="op-card" data-reveal data-id="upsc-2blgws-1ixmakg">
+<a class="stretch" href="../o/upsc-2blgws-1ixmakg.html" aria-label="Final Result: 121 Posts of Operations Officer in DGCA"></a>
+<button type="button" class="save-btn" data-save="upsc-2blgws-1ixmakg" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 121 Posts of Operations Officer in DGCA</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/upsc-1nzq31c-1llb94w.html">
+</article><article class="op-card" data-reveal data-id="upsc-1nzq31c-1llb94w">
+<a class="stretch" href="../o/upsc-1nzq31c-1llb94w.html" aria-label="Final Result: 03 Posts of Assistant Director Grade-II (IEDS)"></a>
+<button type="button" class="save-btn" data-save="upsc-1nzq31c-1llb94w" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 03 Posts of Assistant Director Grade-II (IEDS) (Hosiery), Ministry of MSME</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/upsc-1erlwes-19dyeps.html">
+</article><article class="op-card" data-reveal data-id="upsc-1erlwes-19dyeps">
+<a class="stretch" href="../o/upsc-1erlwes-19dyeps.html" aria-label="Final Result: 04 Posts of Assistant Veterinary Surgeon, NDMC"></a>
+<button type="button" class="save-btn" data-save="upsc-1erlwes-19dyeps" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:332">UP</span>
 <span class="op-org">Union Public Service Commission</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Final Result: 04 Posts of Assistant Veterinary Surgeon, NDMC</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-freejobalert-1vzvngg-eqpz40.html">
+</article><article class="op-card" data-reveal data-id="agg-freejobalert-1vzvngg-eqpz40">
+<a class="stretch" href="../o/agg-freejobalert-1vzvngg-eqpz40.html" aria-label="SSC MTS 2025 and CBIC Havaldar Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-freejobalert-1vzvngg-eqpz40" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:245">F(</span>
 <span class="op-org">FreeJobAlert (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">SSC MTS 2025 and CBIC Havaldar Result 2026</h3>
-
+<p class="op-s">ifications Register for Job Alerts Employment News Search Jobs Sarkari Job Sarkari Naukri Anganwadi Recruitment Forest Jobs Govt Jobs without Exams Female Govt Jobs Legal Govt Jobs EDUCATION Free Mock Test Latest Announcements Sarkari Result Admit Card Exam Dates Exam Results Ans</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-freejobalert-7it3dk-1iyoqv4.html">
+</article><article class="op-card" data-reveal data-id="agg-freejobalert-7it3dk-1iyoqv4">
+<a class="stretch" href="../o/agg-freejobalert-7it3dk-1iyoqv4.html" aria-label="UPSC CDS 2 Final Result Marks 2026 Out"></a>
+<button type="button" class="save-btn" data-save="agg-freejobalert-7it3dk-1iyoqv4" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:245">F(</span>
 <span class="op-org">FreeJobAlert (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UPSC CDS 2 Final Result Marks 2026 Out</h3>
-
+<p class="op-s">ifications Register for Job Alerts Employment News Search Jobs Sarkari Job Sarkari Naukri Anganwadi Recruitment Forest Jobs Govt Jobs without Exams Female Govt Jobs Legal Govt Jobs EDUCATION Free Mock Test Latest Announcements Sarkari Result Admit Card Exam Dates Exam Results Ans</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-freejobalert-13oyw7a-g838jk.html">
+</article><article class="op-card" data-reveal data-id="agg-freejobalert-13oyw7a-g838jk">
+<a class="stretch" href="../o/agg-freejobalert-13oyw7a-g838jk.html" aria-label="HPSC PGT Computer Science Final Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-freejobalert-13oyw7a-g838jk" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:245">F(</span>
 <span class="op-org">FreeJobAlert (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">HPSC PGT Computer Science Final Result 2026</h3>
-
+<p class="op-s">ifications Register for Job Alerts Employment News Search Jobs Sarkari Job Sarkari Naukri Anganwadi Recruitment Forest Jobs Govt Jobs without Exams Female Govt Jobs Legal Govt Jobs EDUCATION Free Mock Test Latest Announcements Sarkari Result Admit Card Exam Dates Exam Results Ans</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-freejobalert-l8bq3s-1jx7tog.html">
+</article><article class="op-card" data-reveal data-id="agg-freejobalert-l8bq3s-1jx7tog">
+<a class="stretch" href="../o/agg-freejobalert-l8bq3s-1jx7tog.html" aria-label="OSSSC Sevak Sevika Final Result 2026 Out"></a>
+<button type="button" class="save-btn" data-save="agg-freejobalert-l8bq3s-1jx7tog" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:245">F(</span>
 <span class="op-org">FreeJobAlert (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">OSSSC Sevak Sevika Final Result 2026 Out</h3>
-
+<p class="op-s">ifications Register for Job Alerts Employment News Search Jobs Sarkari Job Sarkari Naukri Anganwadi Recruitment Forest Jobs Govt Jobs without Exams Female Govt Jobs Legal Govt Jobs EDUCATION Free Mock Test Latest Announcements Sarkari Result Admit Card Exam Dates Exam Results Ans</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-freejobalert-1ienkja-dicqo0.html">
+</article><article class="op-card" data-reveal data-id="agg-freejobalert-1ienkja-dicqo0">
+<a class="stretch" href="../o/agg-freejobalert-1ienkja-dicqo0.html" aria-label="MPPSC Assistant Manager Result 2026 Out"></a>
+<button type="button" class="save-btn" data-save="agg-freejobalert-1ienkja-dicqo0" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:245">F(</span>
 <span class="op-org">FreeJobAlert (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">MPPSC Assistant Manager Result 2026 Out</h3>
-
+<p class="op-s">ifications Register for Job Alerts Employment News Search Jobs Sarkari Job Sarkari Naukri Anganwadi Recruitment Forest Jobs Govt Jobs without Exams Female Govt Jobs Legal Govt Jobs EDUCATION Free Mock Test Latest Announcements Sarkari Result Admit Card Exam Dates Exam Results Ans</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-yksctp-9pleyo.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-yksctp-9pleyo">
+<a class="stretch" href="../o/agg-rojgarresult-yksctp-9pleyo.html" aria-label="Rojgar Result® : RojgarResult.Com"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-yksctp-9pleyo" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Rojgar Result® : RojgarResult.Com</h3>
 
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-1ghg64i-rj7gcg.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-1ghg64i-rj7gcg">
+<a class="stretch" href="../o/agg-rojgarresult-1ghg64i-rj7gcg.html" aria-label="NTA NEET UG 2026 Allotment Result – OUT"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-1ghg64i-rj7gcg" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">NTA NEET UG 2026 Allotment Result – OUT</h3>
-
+<p class="op-s">uditor Result 2026 for 102 Post RBI Officer Grade B Phase II Result 2026 for 60 Post UP Rojgar Mela Recruitment 2026 : Latest रोजगार मेला HTET Score Card 2026 | Teacher Eligibility Test UPSSSC Junior Assistant 2022 Final Result 2026 How to Fill Form NTA NEET UG Admission 2026. Ca</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-rsgtoi-1idu328.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-rsgtoi-1idu328">
+<a class="stretch" href="../o/agg-rojgarresult-rsgtoi-1idu328.html" aria-label="Bihar BPSC Auditor Result 2026 for 102 Post"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-rsgtoi-1idu328" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">Bihar BPSC Auditor Result 2026 for 102 Post</h3>
-
+<p class="op-s">ming Bihar BPSC Auditor Result 2026 for 102 Post 22/08/2026 by beta-rojgarresult Bihar BPSC Auditor Recruitment 2026: Result for 102 Post Post Update Date: 22-08-2026 Short Description : Bihar BPSC Auditor Recruitment 2026 Result : Bihar BPSC Auditor Online Form 2026, Notificatio</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="state-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21v-9M9.7 21v-9M14.3 21v-9M19 21v-9M2.5 10 12 3l9.5 7z"/></svg>Bihar</span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-1bbqd6c-zwz7cw.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-1bbqd6c-zwz7cw">
+<a class="stretch" href="../o/agg-rojgarresult-1bbqd6c-zwz7cw.html" aria-label="RBI Officer Grade B Phase II Result 2026 for 60 Post"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-1bbqd6c-zwz7cw" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">RBI Officer Grade B Phase II Result 2026 for 60 Post</h3>
-
+<p class="op-s">RBI Grade B 2026 Recruitment: Online Form, Eligibility, Age Limit, Result Skip to content Rojgar Result® : RojgarResult.Com Menu Home Latest Jobs Admit Card Result Answer Key Syllabus Admission Sarkari Yojna Upcoming RBI Officer Grade B Phase II Result 2026 for 60 Post 22/08/2026</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-dkvp94-ho98n4.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-dkvp94-ho98n4">
+<a class="stretch" href="../o/agg-rojgarresult-dkvp94-ho98n4.html" aria-label="UPSSSC Junior Assistant 2022 Final Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-dkvp94-ho98n4" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UPSSSC Junior Assistant 2022 Final Result 2026</h3>
-
+<p class="op-s">inate Service Selection Commission UPSSSC Junior Assistant 2025 Result Official Website. More Other Recruitment | Jobs Online Form | Vacancy Offline Form | Admission | Syllabus and Exam Pattern | Admit Card | Result | Answer Key | All information can be obtained on Rojgar Result </p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-16yhgds-hgtfk.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-16yhgds-hgtfk">
+<a class="stretch" href="../o/agg-rojgarresult-16yhgds-hgtfk.html" aria-label="UP DELED 2026 Allotment Result"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-16yhgds-hgtfk" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UP DELED 2026 Allotment Result</h3>
-
+<p class="op-s">s 2026. Those candidates who are interested in this Admission in 2 Year UPDELED Admissions 2026 can Apply Online from 15 June 2026 to 03 August 2026 . candidates should read the UP DELED 2026 information brochure for all the information related to the entrance exam like syllabus,</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="state-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21v-9M9.7 21v-9M14.3 21v-9M19 21v-9M2.5 10 12 3l9.5 7z"/></svg>Uttar Pradesh</span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-1iam0y8-w6koow.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-1iam0y8-w6koow">
+<a class="stretch" href="../o/agg-rojgarresult-1iam0y8-w6koow.html" aria-label="CSBC Bihar Police Prohibition Constable, Jail Warden &amp; Other"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-1iam0y8-w6koow" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">CSBC Bihar Police Prohibition Constable, Jail Warden &amp; Other Post Result 2026 – OUT</h3>
-
+<p class="op-s">d of Constable (CSBC) CSBC Bihar Police Prohibition Constable, Jail Warder &amp; Mobile Squad Constable Recruitment 2025 Bihar Police Jail Warden Advt No : 03/2025 : Short Details of Notification Important Dates Application Fee Application Begin : 06/10/2025 Last Date for Apply Onlin</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="state-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21v-9M9.7 21v-9M14.3 21v-9M19 21v-9M2.5 10 12 3l9.5 7z"/></svg>Bihar</span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-uuhox4-1d103cw.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-uuhox4-1d103cw">
+<a class="stretch" href="../o/agg-rojgarresult-uuhox4-1d103cw.html" aria-label="CSBC Bihar Police Constable Operator Result 2026 for 993 Pos"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-uuhox4-1d103cw" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">CSBC Bihar Police Constable Operator Result 2026 for 993 Post</h3>
-
+<p class="op-s">lt.Com CSBC Bihar Police Constable Operator Result 2026 Central Selection Board of Constable (CSBC) Recruitment 2026 Advt No.: 02/2026 | Short Details of Notification www.RojgarResult.com Important Dates Start Date 01/03/2026 Last Date 31/03/2026 Last Date Pay Fees 31/03/2026 Exa</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="state-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21v-9M9.7 21v-9M14.3 21v-9M19 21v-9M2.5 10 12 3l9.5 7z"/></svg>Bihar</span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-hhlhvi-49jf28.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-hhlhvi-49jf28">
+<a class="stretch" href="../o/agg-rojgarresult-hhlhvi-49jf28.html" aria-label="CSBC Bihar Police Constable GD Special Branch Result 2026 – "></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-hhlhvi-49jf28" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">CSBC Bihar Police Constable GD Special Branch Result 2026 – OUT</h3>
-
+<p class="op-s">jgarResult.Com Central Selection Board of Constable (CSBC) CSBC Bihar Police Constable General Duty Recruitment 2026 Bihar Police Constable GD Advt No : 01/2026 : Short Details of Notification www.RojgarResult.com CSBC GD Recruitment 2026 Important Dates Apply Online Start Date 0</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="state-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21v-9M9.7 21v-9M14.3 21v-9M19 21v-9M2.5 10 12 3l9.5 7z"/></svg>Bihar</span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-y01x0g-ba5udc.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-y01x0g-ba5udc">
+<a class="stretch" href="../o/agg-rojgarresult-y01x0g-ba5udc.html" aria-label="UPSSSC Gram Panchayat Adhikari VDO 2023 Final Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-y01x0g-ba5udc" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UPSSSC Gram Panchayat Adhikari VDO 2023 Final Result 2026</h3>
-
+<p class="op-s">Gram Panchayat Adhikari Final Result 2026 : Uttar Pradesh Subordinate Service Selection Commission Recruitment 2025 had invited online applications for the UPSSSC Village Panchayat Officer 2025 exam, in which many candidates had applied online till the last date and now UPSSSC VD</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-brxsmo-14jy9kw.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-brxsmo-14jy9kw">
+<a class="stretch" href="../o/agg-rojgarresult-brxsmo-14jy9kw.html" aria-label="RPSC School Lecturer PGT Teacher Result 2025 Political Scien"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-brxsmo-14jy9kw" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">RPSC School Lecturer PGT Teacher Result 2025 Political Science</h3>
-
+<p class="op-s">tical Science Result 2025 Post Date: 17-08-2026 Short Description: RPSC School Lecturer PGT Teacher Recruitment 2025 Result : Rajasthan Public Service Commission RPSC PGT Teacher Online Form 2025, Notification has been released on the website @https://rpsc.rajasthan.gov.in/ &amp; App</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-lhv3z4-1ugqj9c.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-lhv3z4-1ugqj9c">
+<a class="stretch" href="../o/agg-rojgarresult-lhv3z4-1ugqj9c.html" aria-label="SSC CHSL Result 2026 | First Round of Tentative Allocation ("></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-lhv3z4-1ugqj9c" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">SSC CHSL Result 2026 | First Round of Tentative Allocation (FRTA) for the post of DEO/LDC/JSA/JHAA</h3>
-
+<p class="op-s">the post of DEO/LDC/JSA/JHAA : Staff Selection Commission SSC Official Notification is released and Online Form Now Started on 23 June 2025 to 18 July 2025 is Last Date for Upcoming SSC Recruitment CHSL 2025 Examination, Vacancy 2025 Full Notification available at the official we</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-16o6k40-o2fgyo.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-16o6k40-o2fgyo">
+<a class="stretch" href="../o/agg-rojgarresult-16o6k40-o2fgyo.html" aria-label="CBSE KVS NVS Teaching and Non Teaching Tier II Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-16o6k40-o2fgyo" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">CBSE KVS NVS Teaching and Non Teaching Tier II Result 2026</h3>
-
+<p class="op-s">Key 2026: Kendriya Vidyalaya Sangathan KVS &amp; Navodaya Vidyalaya Samiti NVS Teaching &amp; Non Teaching Recruitment 2025 Notification is released and Online Form Now Started on 14 November 2025 to 11 December 2025, so interested applicants should first check the short details on Rojga</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-11j0t8o-1osf6rk.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-11j0t8o-1osf6rk">
+<a class="stretch" href="../o/agg-rojgarresult-11j0t8o-1osf6rk.html" aria-label="UPPSC Assistant Professor Result 2026 | GDC Govt Degree Coll"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-11j0t8o-1osf6rk" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UPPSC Assistant Professor Result 2026 | GDC Govt Degree College – OUT</h3>
-
+<p class="op-s">C Assistant Professor Government Degree College Result 2026 Uttar Pradesh Public Service Commission Recruitment 2025 UPPSC Assistant Professor Exam Advt No. A-7/E-1/2025 : Short Details of Notification Total 1253 Post RojgarResult.Com Important Dates: Application Fees: Applicatio</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-rojgarresult-lq7jdc-1h7nqps.html">
+</article><article class="op-card" data-reveal data-id="agg-rojgarresult-lq7jdc-1h7nqps">
+<a class="stretch" href="../o/agg-rojgarresult-lq7jdc-1h7nqps.html" aria-label="MPESB Van Rakshak, Jail Prahari Result 2026 for 1679 Post"></a>
+<button type="button" class="save-btn" data-save="agg-rojgarresult-lq7jdc-1h7nqps" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:206">RR</span>
 <span class="op-org">Rojgar Result (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">MPESB Van Rakshak, Jail Prahari Result 2026 for 1679 Post</h3>
-
+<p class="op-s">Jail Prahari Result 2026 for 1679 Post 14/08/2026 by beta-rojgarresult MP Van Rakshak, Jail Prahari Recruitment 2026: Result Post Update Date: 14-08-2026 Short Description : MPESB Van Rakshak, Jail Prahari Answer Key 2026 will be released soon on the official website whose exam d</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-sarkarijobfind-1cy7dk0-7kzzsw.html">
+</article><article class="op-card" data-reveal data-id="agg-sarkarijobfind-1cy7dk0-7kzzsw">
+<a class="stretch" href="../o/agg-sarkarijobfind-1cy7dk0-7kzzsw.html" aria-label="RPSC School Lecturer PGT Teacher Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-sarkarijobfind-1cy7dk0-7kzzsw" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:341">SJ</span>
 <span class="op-org">Sarkari Job Find (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">RPSC School Lecturer PGT Teacher Result 2026</h3>
-
+<p class="op-s">rkari Result, Sarkari Exam, (SARKARIJOBFIND.COM) RPSC School Lecturer PGT Teacher Result 2026 About Recruitment : Rajasthan Public Service Commission (RPSC) has declared the result for the School Lecturer PGT Teacher Recruitment Exam 2025 (Advt No. 06/2025) on 07 August 2026. A t</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a><a class="op-card" data-reveal href="../o/agg-sarkarijobfind-1p1l1l4-ixc5j4.html">
+</article><article class="op-card" data-reveal data-id="agg-sarkarijobfind-1p1l1l4-ixc5j4">
+<a class="stretch" href="../o/agg-sarkarijobfind-1p1l1l4-ixc5j4.html" aria-label="UPSSSC 10+2 Junior Assistant 2022 Final Result 2026"></a>
+<button type="button" class="save-btn" data-save="agg-sarkarijobfind-1p1l1l4-ixc5j4" aria-label="Job save karo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/></svg></button>
 <div class="op-top"><span class="avatar" style="--h:341">SJ</span>
 <span class="op-org">Sarkari Job Find (aggregator)</span><span class="op-sp"></span><span class="cat-chip cc-result"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0zM7 5H4a3 3 0 0 0 3 4M17 5h3a3 3 0 0 1-3 4"/></svg>Results</span></div>
 <h3 class="op-t">UPSSSC 10+2 Junior Assistant 2022 Final Result 2026</h3>
-
+<p class="op-s">te Contact us Welcome To Sarkari Result, Sarkari Exam, (SARKARIJOBFIND.COM) UPSSSC Junior Assistant Recruitment 09-Exam/2022 Final Result 2026 About Post : Uttar Pradesh Subrodinate Service Selection Commission (UPSSSC) Are Invited Online Application Form For Post Junior Assistan</p>
 <div class="op-foot"><span class="dl-chip"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Last date &mdash; portal check karo</span></span><span class="go"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><path d="M14 3.5h6.5V10M21 3 11 13"/></svg></span></div>
-</a></div>
+</article></div>
 <div class="note" data-reveal><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2.5 19.5a1.5 1.5 0 0 0 1.3 2.5h16.4a1.5 1.5 0 0 0 1.3-2.5L12 3z"/><path d="M12 10v4M12 17.5v.5"/></svg><p><b>Disclaimer:</b> Yeh independent information service hai &mdash; sarkari portal nahi. Apply karne se pehle official website par details aur last date zaroor verify karein.</p></div>
 </main>
 <footer class="ft"><div class="ft-in">
@@ -415,15 +533,26 @@ html{scroll-behavior:auto}
 <a class="logo" href="../index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent save rehta hai.</p>
 <ul class="trust"><li><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-3.5 8-10V5.5L12 2 4 5.5V12c0 6.5 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg>Verified data, quarantine gate</li><li><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5z"/></svg>Rozana 2 baar auto-update</li><li><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Deadline tracking built-in</li></ul>
+<div class="social-row">
+<a class="soc-btn tg" href="https://t.me/bharatnaukri_alert" target="_blank" rel="noopener" aria-label="Telegram channel join karo"><svg class="" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">M11.94 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.96 7.22c.1 0 .32.02.47.14a.5.5 0 0 1 .17.33c.02.09.04.3.02.47-.18 1.9-.96 6.5-1.36 8.63-.17.9-.5 1.2-.82 1.23-.7.06-1.23-.46-1.9-.9-1.06-.7-1.66-1.13-2.68-1.8-.63-.42-.26-.65.11-1.02.18-.18 1.26-1.2 1.6-1.52.11-.11.04-.17-.06-.17-.06 0-.15.02-.23.06-.16.07-2.44 1.56-2.74 1.67-.19.07-.36.1-.52.1-.2 0-.4-.06-.56-.18-.28-.2-.4-.53-.39-.84.02-.22.08-.43.11-.5.06-.2 1.71-2.4 1.84-2.58.16-.22.06-.34-.14-.34-.08 0-.2.02-.31.06-.19.07-1.3.83-1.85 1.2-.35.24-.7.48-1.05.72-.16.11-.42.27-.63.27-.24 0-.63-.14-.63-.14-.15-.06-.62-.23-.62-.49 0-.15.09-.32.27-.5.42-.4 2.19-1.46 2.8-1.87.19-.13.39-.26.58-.39.6-.4 1.37-.91 2.37-1.09 1.31-.23 2.32.14 2.94.63.63.49.9 1.13.82 1.83-.06.53-.4 1.2-.82 1.62-.13.13-.25.25-.36.36-.17.16-.28.27-.24.42.05.2.28.16.55.09.4-.1 1.51-.66 1.94-.94.43-.28.98-.6 1.3-.78.32-.18.6-.28.83-.28</svg></a>
+
+</div>
 </div>
 <div class="ft-col"><h4>Categories</h4><div class="ft-links"><a href="../category/scholarship.html">Scholarships</a><a href="../category/exam.html">Exams</a><a href="../category/job.html">Jobs</a><a href="../category/scheme.html">Schemes</a><a href="../category/admit-card.html">Admit Cards</a><a href="../category/result.html">Results</a></div></div>
 <div class="ft-col"><h4>Resources</h4><div class="ft-links">
 <a href="../sitemap.xml">Sitemap</a>
+<a href="../rss.xml">RSS Feed</a>
 <a href="https://github.com/ErBharatMalhotra/Bharat-Naukri-Alert" target="_blank" rel="noopener">GitHub Repository</a>
 <a href="https://bharat-naukri-alert.pages.dev/data/opportunities.json" target="_blank" rel="noopener">Open Data (JSON)</a>
 </div></div>
 </div>
-<div class="ft-bar"><div><span>&copy; 2026 Bharat Naukri Alert &middot; Independent information service &mdash; koi sarkari website nahi hai.</span><span>Autonomous agent se bana &middot; GitHub Actions pe chalta hai</span></div></div></footer>
+<div class="ft-bar"><div>
+<span>&copy; 2026 Bharat Naukri Alert &middot; Independent information service &mdash; koi sarkari website nahi hai.</span>
+<span class="ft-legal">
+<a href="../about.html">About</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a><a href="../contact.html">Contact</a>
+</span>
+<span>Autonomous agent se bana &middot; GitHub Actions pe chalta hai</span>
+</div></div></footer>
 <button id="toTop" aria-label="Back to top"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 14 7-7 7 7"/></svg></button>
 <script>
 (function(){
@@ -472,6 +601,39 @@ tt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'}
 window.addEventListener('keydown',function(e){
 var q=d.getElementById('q');
 if(e.key==='/'&&q&&d.activeElement!==q&&!/INPUT|TEXTAREA|SELECT/.test((d.activeElement&&d.activeElement.tagName)||'')){e.preventDefault();q.focus();}});
+function savedIds(){try{return JSON.parse(localStorage.getItem('bna-saved')||'[]');}catch(e){return [];}}
+function refreshSaved(){
+var ids=savedIds();
+var chip=d.getElementById('savedChip');
+if(chip)chip.textContent='Saved ('+ids.length+')';
+$$all('[data-save]').forEach(function(b){
+b.classList.toggle('on',ids.indexOf(b.getAttribute('data-save'))>-1);});}
+d.addEventListener('click',function(ev){
+var b=ev.target.closest('[data-save]');if(!b)return;ev.preventDefault();
+var id=b.getAttribute('data-save');var ids=savedIds();
+var i=ids.indexOf(id);
+if(i>-1){ids.splice(i,1);}else{ids.unshift(id);}
+if(ids.length>200)ids=ids.slice(0,200);
+try{localStorage.setItem('bna-saved',JSON.stringify(ids));}catch(e){}
+refreshSaved();});
+refreshSaved();
+var pb=d.getElementById('profileBtn'),pp=d.getElementById('profPanel');
+if(pb&&pp){
+function prof(){try{return JSON.parse(localStorage.getItem('bna-profile')||'{}');}catch(e){return {};}}
+function applyProfUI(){var p=prof();pb.classList.toggle('active',Boolean(p.v||p.q));
+var ps=d.getElementById('profState'),pe=d.getElementById('profEdu');
+if(ps)ps.value=p.v||'';if(pe)pe.value=p.q||'';}
+pb.addEventListener('click',function(){pp.hidden=!pp.hidden;if(!pp.hidden)applyProfUI();});
+var sv=d.getElementById('profSave'),cl=d.getElementById('profClear');
+if(sv)sv.addEventListener('click',function(){
+var v=(d.getElementById('profState')||{}).value||'',q=(d.getElementById('profEdu')||{}).value||'';
+try{localStorage.setItem('bna-profile',JSON.stringify({v:v,q:q}));}catch(e){}
+applyProfUI();pp.hidden=true;
+if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
+if(cl)cl.addEventListener('click',function(){
+try{localStorage.removeItem('bna-profile');}catch(e){}
+applyProfUI();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
+applyProfUI();}
 })();
 </script>
 </body>

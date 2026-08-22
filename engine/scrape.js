@@ -4,6 +4,7 @@ import { readDB, writeDB, archiveSnapshot, mergeIntoDB } from "../lib/store.js";
 import { extractEntry, heuristicEntry } from "../lib/extract.js";
 import { providerStatus } from "../lib/llm.js";
 import { resolveOfficialLink } from "../lib/official-link.js";
+import { parseDetailHtml } from "../lib/detail-parse.js";
 
 const STATE_HINTS = [
   [/uttar pradesh|\bup\b/, "Uttar Pradesh"],
@@ -117,32 +118,47 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
         }
 
         let workRaw = raw;
+        let detailHtml = null;
         if (src.resolve_official) {
           if (resolvedThisRun >= resolveMax) continue;
           resolvedThisRun++;
           report.resolved++;
-          const official = await resolveOfficialLink(raw.link);
-          if (!official) {
+          const res = await resolveOfficialLink(raw.link);
+          if (!res || !res.url) {
             srcReport.no_official++;
             seenTitles.add(nkey);
             continue;
           }
+          const official = res.url;
+          detailHtml = res.html;
           if (knownLinks.has(official)) {
             srcReport.dupes++;
             seenTitles.add(nkey);
             continue;
           }
-          workRaw = { ...raw, link: official };
+          workRaw = { ...raw, link: official, _src_detail_url: raw.link };
         }
         seenTitles.add(nkey);
 
-        // heuristic-first: category + deadline mil gaye to LLM ki zaroorat nahi
+        const attachDetails = (entry) => {
+          if (!detailHtml || !entry) return entry;
+          const parsed = parseDetailHtml(detailHtml);
+          if (parsed) {
+            entry.details = parsed;
+            if (parsed.summary && !entry.summary) entry.summary = parsed.summary.slice(0, 280);
+            if (parsed.education?.length && entry.eligibility) {
+              entry.eligibility.education = [...new Set([...(entry.eligibility.education || []), ...parsed.education])];
+            }
+          }
+          return entry;
+        };
+
         const heur = heuristicEntry(workRaw, src);
         if (!heur && !providerStatus().any) continue;
         if (heur && heur.deadline) {
           const tagged = statesFromTitle(heur.title);
           if (tagged.length) heur.eligibility.states = tagged;
-          entries.push(heur);
+          entries.push(attachDetails(heur));
           continue;
         }
         if (providerStatus().any && llmUsed < llmBudget) {
@@ -154,12 +170,12 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
               const tagged = statesFromTitle(enriched.title);
               if (tagged.length) enriched.eligibility.states = tagged;
             }
-            entries.push(enriched);
+            entries.push(attachDetails(enriched));
           }
         } else if (heur) {
           const tagged = statesFromTitle(heur.title);
           if (tagged.length) heur.eligibility.states = tagged;
-          entries.push(heur);
+          entries.push(attachDetails(heur));
         }
       }
       for (const e of entries) knownLinks.add(e.official_link);
