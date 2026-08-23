@@ -90,6 +90,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
   let notesUsed = 0;
   let detailFetched = 0;
   const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0, detail_fetches: 0, editor_notes: 0 };
+  let resolvedThisRun = 0;
 
   const NOTE_SYSTEM =
     "You write a crisp 2-sentence note for Indian govt job aspirants from given JSON facts. " +
@@ -161,7 +162,6 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
 
       const entries = [];
       const perSourceLimit = src.limit || limitPerSource;
-      let resolvedThisRun = 0;
       for (const raw of candidates.slice(0, perSourceLimit)) {
         // API bachao: pehle dedupe — link DB me hai to extraction/LLM skip
         if (knownLinks.has(raw.link)) {

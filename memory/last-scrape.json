@@ -1,19 +1,17 @@
 {
-  "started_at": "2026-08-23T10:05:32.313Z",
+  "started_at": "2026-08-23T10:19:39.432Z",
   "sources": [
     {
       "id": "agg-sarkariresult",
-      "raws": 0,
-      "added": 0,
+      "raws": 60,
+      "added": 3,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 0,
+      "dupes": 37,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "https://www.sarkariresult.com/: HTTP 403 for https://www.sarkariresult.com/"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 57
     },
     {
       "id": "agg-freejobalert",
@@ -30,7 +28,7 @@
     {
       "id": "agg-rojgarresult",
       "raws": 60,
-      "added": 8,
+      "added": 7,
       "updated": 0,
       "skipped_known": 0,
       "dupes": 31,
@@ -42,10 +40,10 @@
     {
       "id": "agg-sarkarijobfind",
       "raws": 60,
-      "added": 12,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 28,
+      "dupes": 21,
       "no_official": 0,
       "junk": 1,
       "errors": [],
@@ -58,7 +56,7 @@
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
-      "no_official": 2,
+      "no_official": 0,
       "junk": 0,
       "errors": [],
       "matched": 2
@@ -77,17 +75,15 @@
     },
     {
       "id": "upsc",
-      "raws": 0,
+      "raws": 31,
       "added": 0,
       "updated": 0,
-      "skipped_known": 0,
+      "skipped_known": 17,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "https://upsc.gov.in/whats-new: fetch failed"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 17
     },
     {
       "id": "nsp",
@@ -102,12 +98,12 @@
       "matched": 5
     }
   ],
-  "total_added": 31,
+  "total_added": 21,
   "total_updated": 0,
-  "llm_calls": 9,
-  "resolved": 53,
+  "llm_calls": 10,
+  "resolved": 40,
   "detail_fetches": 0,
   "editor_notes": 6,
-  "finished_at": "2026-08-23T10:09:17.604Z",
-  "db_size": 162
+  "finished_at": "2026-08-23T10:21:46.190Z",
+  "db_size": 152
 }
