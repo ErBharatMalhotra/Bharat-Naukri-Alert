@@ -1156,7 +1156,15 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
     .filter(([, n]) => writtenDetails.has(`o/${n}.html`))
     .map(([o, n]) => `/o/${o} /o/${n}.html 301`)
     .join("\n");
-  if (redLines) await writeFile("_redirects", `${redLines}\n`);
+  let staticRewrites = "";
+  try {
+    staticRewrites = (await fs.readdir(path.join(process.cwd(), "site", "static")))
+      .filter((f) => f.endsWith(".html"))
+      .map((f) => `/${f} /${f} 200`)
+      .join("\n");
+  } catch {}
+  const out = [redLines, staticRewrites].filter(Boolean).join("\n");
+  if (out) await writeFile("_redirects", `${out}\n`);
 
   const staticDir = path.join(process.cwd(), "site", "static");
   try {
