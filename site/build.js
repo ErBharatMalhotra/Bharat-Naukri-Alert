@@ -158,6 +158,7 @@ const PATHS = {
   heart: '<path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6.3a5 5 0 1 1 7.5 6.3z"/>',
   target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/>',
   bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
+  bell: '<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>',
 };
 const WA_PATH =
   'M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.58-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.34m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37A9.86 9.86 0 0 1 .16 11.9C.16 6.45 4.59 2.01 10.04 2.01c2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.43 9.89-9.89 9.89m8.42-18.3A11.81 11.81 0 0 0 12.05.02C5.5.02.16 5.35.16 11.91c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.42';
@@ -217,7 +218,8 @@ a{color:inherit;text-decoration:none}
 .hdr{position:sticky;top:0;z-index:60;background:color-mix(in srgb,var(--card) 84%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .hdr-in{max-width:1100px;margin:auto;display:flex;align-items:center;gap:14px;padding:10px 20px}
 .logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand-2),var(--brand));color:#fff;display:grid;place-items:center;font-family:var(--disp);font-weight:800;font-size:15px;box-shadow:0 4px 12px -4px rgba(232,89,12,.55)}
+.mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand-2),var(--brand));color:#fff;display:grid;place-items:center;box-shadow:0 4px 12px -4px rgba(232,89,12,.55);flex-shrink:0}
+.mark .logo-bell{width:20px;height:20px;stroke:#fff;stroke-width:1.8}
 .wordmark{font-family:var(--disp);font-weight:700;font-size:16px;letter-spacing:-.2px;white-space:nowrap}
 .wordmark em{font-style:normal;color:var(--brand)}
 .hnav{display:flex;gap:2px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
@@ -486,8 +488,7 @@ CSS += CSS_C + CSS_D;
 // ---------- theme boot (no FOUC), favicon ----------
 const THEME_BOOT = "(function(){try{var t=localStorage.getItem('bna-theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();";
 
-const FAVICON =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e8590c'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EBN%3C/text%3E%3C/svg%3E";
+const FAVICON = "data:image/png;base64,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";
 
 function layout({ title, desc, canonical, body, jsonld }) {
   return `<!doctype html>
@@ -504,9 +505,14 @@ function layout({ title, desc, canonical, body, jsonld }) {
 <meta property="og:type" content="website">
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:site_name" content="Bharat Naukri Alert">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="${SITE_URL}/og-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${SITE_URL}/og-logo.png">
 <meta name="theme-color" content="#e8590c">
 <link rel="icon" href="${FAVICON}">
+<link rel="apple-touch-icon" href="${SITE_URL}/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -526,7 +532,7 @@ function header(prefix = "") {
     .map(([k, v]) => `<a href="${prefix}category/${k}.html" data-i18n="cat_${k}">${v.en}</a>`)
     .join("");
   return `<header class="hdr"><div class="hdr-in">
-<a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
+<a class="logo" href="${prefix}index.html"><span class="mark">${strokeIcon("bell", "logo-bell")}</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <nav class="hnav"><a href="${prefix}index.html" data-i18n="home">Home</a>${cats}</nav>
 <button id="langBtn" class="tbtn lang-btn" aria-label="Language">EN</button>
 <button id="themeBtn" class="tbtn" aria-label="Toggle theme">${strokeIcon("sun", "ic-sun")}${strokeIcon("moon", "ic-moon")}</button>
@@ -539,7 +545,7 @@ function footerHTML(prefix = "") {
     .join("");
   return `<footer class="ft"><div class="ft-in">
 <div class="ft-brand">
-<a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
+<a class="logo" href="${prefix}index.html"><span class="mark">${strokeIcon("bell", "logo-bell")}</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
 <p data-i18n="ft_blurb">Opportunities collected, verified and published daily from sarkari portals — full history stays permanent in Git.</p>
 <ul class="trust"><li>${strokeIcon("shield")}<span data-i18n="ft_t1">Verified data, quarantine gate</span></li><li>${strokeIcon("zap")}<span data-i18n="ft_t2">Updated twice daily</span></li><li>${strokeIcon("clock")}<span data-i18n="ft_t3">Built-in deadline tracking</span></li></ul>
 <div class="social-row">
