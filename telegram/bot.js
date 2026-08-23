@@ -7,17 +7,32 @@ export function telegramConfigured() {
   return Boolean(process.env.TELEGRAM_BOT_TOKEN);
 }
 
+const FALLBACK_CHANNELS = ["@bharatnaukrialert"];
+
 export async function sendMessage(text, { chatId, parseMode = "HTML", dryRun = false } = {}) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
-  const target = chatId || process.env.TELEGRAM_CHANNEL_ID;
-  if (!token || !target || dryRun) {
-    console.log(`[dry-run] would send ${text.length} chars to ${target || "(no channel)"}`);
+  const primary = chatId || process.env.TELEGRAM_CHANNEL_ID;
+  if (!token || !primary || dryRun) {
+    console.log(`[dry-run] would send ${text.length} chars to ${primary || "(no channel)"}`);
     return { ok: true, dry: true };
   }
-  const url = `${API(token, "sendMessage")}?chat_id=${encodeURIComponent(target)}&text=${encodeURIComponent(text)}&parse_mode=${parseMode}&disable_web_preview=false`;
-  const res = JSON.parse(await fetchText(url));
-  if (!res.ok) throw new Error(`telegram: ${res.description}`);
-  return res;
+  const targets = [primary, ...(chatId ? [] : FALLBACK_CHANNELS)].filter(
+    (t, i, arr) => String(t).toLowerCase() !== String(arr[i - 1] || "").toLowerCase()
+  );
+  let lastErr;
+  for (const target of targets) {
+    try {
+      const url = `${API(token, "sendMessage")}?chat_id=${encodeURIComponent(target)}&text=${encodeURIComponent(text)}&parse_mode=${parseMode}&disable_web_preview=false`;
+      const res = JSON.parse(await fetchText(url));
+      if (!res.ok) throw new Error(`telegram: ${res.description}`);
+      if (String(target) !== String(primary)) console.log(`[telegram] sent via fallback channel ${target}`);
+      return res;
+    } catch (e) {
+      lastErr = e;
+      console.error(`[telegram] send failed for ${target}: ${String(e.message || e).slice(0, 100)}`);
+    }
+  }
+  throw lastErr;
 }
 
 export async function getUpdates(offset) {
