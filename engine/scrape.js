@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { readDB, writeDB, archiveSnapshot, mergeIntoDB } from "../lib/store.js";
-import { extractEntry, heuristicEntry } from "../lib/extract.js";
+import { extractEntry, heuristicEntry, parseDateFlexible, extractDeadlineText, extractDeadlineRange } from "../lib/extract.js";
 import { providerStatus, chatJSON, parseJSONSafe } from "../lib/llm.js";
 import { resolveOfficialLink } from "../lib/official-link.js";
 import { parseDetailHtml, isSparseDetails } from "../lib/detail-parse.js";
@@ -215,6 +215,17 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
           }
           if (parsed) {
             entry.details = parsed;
+            if (!entry.deadline && Array.isArray(parsed.dates)) {
+              const lastRow = parsed.dates.find((x) => /last date/i.test(x.k));
+              if (lastRow) {
+                const dl = parseDateFlexible(lastRow.v);
+                if (dl && /^\d{4}-\d{2}-\d{2}$/.test(dl)) { entry.deadline = dl; entry.deadline_source_count = 1; }
+              }
+            }
+            if (!entry.deadline && entry.summary) {
+              const dl = extractDeadlineRange(entry.summary) || extractDeadlineText(entry.summary);
+              if (dl && /^\d{4}-\d{2}-\d{2}$/.test(dl)) { entry.deadline = dl; entry.deadline_source_count = 1; }
+            }
             if (parsed.summary && (!entry.summary || entry.summary.length < 60)) entry.summary = parsed.summary.slice(0, 280);
             if (parsed.education?.length && entry.eligibility) {
               entry.eligibility.education = [...new Set([...(entry.eligibility.education || []), ...parsed.education])];

@@ -1138,9 +1138,11 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
   try {
     redirects = JSON.parse(await fs.readFile(path.join(process.cwd(), "data", "redirects.json"), "utf8"));
   } catch {}
+  const writtenDetails = new Set(entries.map((e) => `o/${e.id}.html`));
   const redLines = Object.entries(redirects)
     .filter(([o]) => !o.endsWith(".html"))
-    .map(([o, n]) => `/o/${o} /o/${n} 301`)
+    .filter(([, n]) => writtenDetails.has(`o/${n}.html`))
+    .map(([o, n]) => `/o/${o} /o/${n}.html 301`)
     .join("\n");
   if (redLines) await writeFile("_redirects", `${redLines}\n`);
 
