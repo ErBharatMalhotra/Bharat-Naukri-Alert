@@ -2,9 +2,10 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { readDB, writeDB, archiveSnapshot, mergeIntoDB } from "../lib/store.js";
 import { extractEntry, heuristicEntry } from "../lib/extract.js";
-import { providerStatus } from "../lib/llm.js";
+import { providerStatus, chatJSON, parseJSONSafe } from "../lib/llm.js";
 import { resolveOfficialLink } from "../lib/official-link.js";
 import { parseDetailHtml, isSparseDetails } from "../lib/detail-parse.js";
+import { resolveOrg } from "../lib/org-detect.js";
 import { fetchText } from "../lib/http.js";
 
 const STATE_HINTS = [
@@ -45,6 +46,19 @@ function normTitle(s = "") {
   return String(s).toLowerCase().replace(/[^a-z0-9\u0900-\u097F]+/g, "");
 }
 
+const JUNK_TITLE_RE = /^(sarkari[\w\s,®©.-]*){1,}$/i;
+const JUNK_COMMA_SARKARI = /\bsarkari\b.*\bsarkari\b.*\bsarkari\b/i;
+
+function isJunkTitle(title = "") {
+  const t = String(title).trim();
+  if (t.length < 12) return true;
+  if (JUNK_TITLE_RE.test(t)) return true;
+  if (JUNK_COMMA_SARKARI.test(t)) return true;
+  if ((t.match(/,/g) || []).length >= 4 && !/\d/.test(t)) return true;
+  if (/^(latest notifications?|advertisement|apply online|click here|read more|more info.*)$/i.test(t)) return true;
+  return false;
+}
+
 const SOURCES_FILE = path.resolve("sources/sources.json");
 
 async function loadSources() {
@@ -69,14 +83,52 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
   const knownLinks = new Set(db.opportunities.map((o) => o.official_link));
   const seenTitles = new Set(db.opportunities.map((o) => normTitle(o.title)));
   const llmBudget = Number(process.env.LLM_MAX_CALLS ?? 8);
-  const resolveMax = Number(process.env.RESOLVE_MAX ?? 25);
+  const noteBudget = Number(process.env.EDITOR_NOTE_MAX ?? 6);
+  const resolveMax = Number(process.env.RESOLVE_MAX ?? 40);
   const detailMax = Number(process.env.DETAIL_FETCH_MAX ?? 15);
   let llmUsed = 0;
+  let notesUsed = 0;
   let detailFetched = 0;
-  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0, detail_fetches: 0 };
+  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0, detail_fetches: 0, editor_notes: 0 };
+
+  const NOTE_SYSTEM =
+    "You write a crisp 2-sentence note for Indian govt job aspirants from given JSON facts. " +
+    "Plain simple English. Sentence 1: who should apply + what post. Sentence 2: posts count / fee / last date if present. " +
+    'Max 40 words, no markdown, no quotes. Return JSON: {"note":"..."}';
+
+  async function addEditorNote(entry) {
+    if (!entry || notesUsed >= noteBudget || !providerStatus().any) return entry;
+    if (entry.editor_note) return entry;
+    const facts = {
+      title: entry.title,
+      org: entry.org,
+      category: entry.category,
+      states: entry.eligibility?.states,
+      education: entry.eligibility?.education,
+      deadline: entry.deadline,
+      amount: entry.amount,
+      fee: entry.details?.fee?.slice(0, 4),
+      vacancy_rows: entry.details?.vacancy?.slice(0, 4),
+      dates: entry.details?.dates?.slice(0, 5),
+    };
+    try {
+      notesUsed++;
+      report.editor_notes = (report.editor_notes || 0) + 1;
+      llmUsed++;
+      report.llm_calls++;
+      const res = await chatJSON(NOTE_SYSTEM, JSON.stringify(facts));
+      const parsed = parseJSONSafe(res.text);
+      const note = parsed?.note ? String(parsed.note).slice(0, 300) : "";
+      if (note && note.split(/\s+/).length >= 8) {
+        entry.editor_note = note;
+        if (!entry.summary || entry.summary.length < 80) entry.summary = note;
+      }
+    } catch {}
+    return entry;
+  }
 
   for (const src of sources) {
-    const srcReport = { id: src.id, raws: 0, added: 0, updated: 0, skipped_known: 0, dupes: 0, no_official: 0, errors: [] };
+    const srcReport = { id: src.id, raws: 0, added: 0, updated: 0, skipped_known: 0, dupes: 0, no_official: 0, junk: 0, errors: [] };
     try {
       const scraper = await loadScraper(src.type);
       const { raws, errors } = await scraper.scrape(src);
@@ -102,6 +154,9 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
       if (src.min_title_len) {
         candidates = candidates.filter((r) => String(r.title).trim().length >= src.min_title_len);
       }
+      const beforeJunk = candidates.length;
+      candidates = candidates.filter((r) => !isJunkTitle(r.title));
+      srcReport.junk += beforeJunk - candidates.length;
       srcReport.matched = candidates.length;
 
       const entries = [];
@@ -145,6 +200,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
 
         const attachDetails = async (entry) => {
           if (!entry) return entry;
+          entry.org = resolveOrg(entry, src.name);
           let parsed = null;
           if (detailHtml) {
             parsed = parseDetailHtml(detailHtml);
@@ -168,7 +224,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
               if (tagged.length) entry.eligibility.states = tagged;
             }
           }
-          return entry;
+          return await addEditorNote(entry);
         };
 
         const heur = heuristicEntry(workRaw, src);

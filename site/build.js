@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { readDB } from "../lib/store.js";
 import { SITE_CONFIG } from "../lib/site-config.js";
+import { postsFromDetails, feeFromDetails } from "../lib/org-detect.js";
 
 const DIST = () => path.join(process.cwd(), "site", "dist");
 const SITE_URL = SITE_CONFIG.url;
@@ -294,6 +295,12 @@ const CSS_B = `
 .dl-warn{background:var(--warn-bg)!important;color:var(--warn)!important}
 .dl-bad{background:var(--bad-bg)!important;color:var(--bad)!important}
 .dl-off{background:transparent!important;border:1px solid var(--line);color:var(--mut)!important}
+.posts-chip,.fee-chip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--brand);background:var(--card)}
+.posts-chip svg,.fee-chip svg{width:12px;height:12px;flex-shrink:0}
+.fee-chip{color:var(--ok);border-color:color-mix(in srgb,var(--ok) 30%,var(--line))}
+.editor-note{background:linear-gradient(135deg,color-mix(in srgb,var(--brand) 8%,var(--card)),var(--card));border:1px solid color-mix(in srgb,var(--brand) 22%,var(--line));border-radius:14px;padding:16px 18px;margin:14px 0}
+.editor-note p{font-size:13.5px;line-height:1.7;color:color-mix(in srgb,var(--ink) 90%,var(--mut))}
+.editor-note b{color:var(--brand)}
 .go{margin-left:auto;width:28px;height:28px;border-radius:9px;display:grid;place-items:center;color:var(--mut);background:var(--bg);transition:.18s}
 .go svg{width:13px;height:13px}
 .op-card:hover .go{background:var(--brand);color:#fff;transform:translate(2px,-2px)}
@@ -344,6 +351,10 @@ const CSS_D = `
 .d-table tbody tr:hover td{background:color-mix(in srgb,var(--brand) 4%,transparent)}
 .steps{margin:0;padding-left:20px;display:grid;gap:8px;font-size:13.5px}
 .kv{font-size:14px}
+.ulinks-row{display:flex;flex-wrap:wrap;gap:8px}
+.ulinks-row .btn-ghost{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);transition:.15s}
+.ulinks-row .btn-ghost:hover{border-color:var(--brand);color:var(--brand)}
+.ulinks-row .btn-ghost svg{width:13px;height:13px}
 .trust-line{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ok);font-weight:600}
 .trust-line svg{width:14px;height:14px}
 
@@ -571,6 +582,10 @@ function dlChip(e) {
 function cardHTML(e, rel = "") {
   const stList = (e.eligibility?.states || []).filter((s) => s && s !== "ALL");
   const stChip = stList.length ? `<span class="state-chip">${strokeIcon("landmark")}${esc(stList.slice(0, 2).join(", "))}</span>` : "";
+  const posts = postsFromDetails(e.details);
+  const postsChip = posts ? `<span class="posts-chip">${posts.toLocaleString()} Posts</span>` : "";
+  const fee = feeFromDetails(e.details);
+  const feeChip = fee ? `<span class="fee-chip">${fee.symbol}${esc(fee.text)}</span>` : "";
   const href = `${rel}o/${encodeURIComponent(e.id)}.html`;
   return `<article class="op-card" data-reveal data-id="${esc(e.id)}">
 <a class="stretch" href="${href}" aria-label="${esc(e.title.slice(0, 60))}"></a>
@@ -579,7 +594,7 @@ function cardHTML(e, rel = "") {
 <span class="op-org">${esc(e.org || "Government of India")}</span><span class="op-sp"></span>${catChip(e.category)}</div>
 <h3 class="op-t">${esc(e.title)}</h3>
 ${e.summary ? `<p class="op-s">${esc(e.summary)}</p>` : ""}
-<div class="op-foot">${dlChip(e)}${stChip}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
+<div class="op-foot">${dlChip(e)}${stChip}${postsChip}${feeChip}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
 </article>`;
 }
 
@@ -638,6 +653,7 @@ ${e.amount ? `<div class="tile"><small data-i18n="benefit">Benefit / Pay</small>
 </div>
 ${e.summary && !(e.details?.summary) ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
 ${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
+${e.editor_note ? `<div class="editor-note" data-reveal><p><b>TL;DR —</b> ${esc(e.editor_note)}</p></div>` : ""}
 ${renderDetails(e.details)}
 ${e.details?.links?.length ? `<section class="d-sec" data-reveal><h3 data-i18n="ulinks">Useful Links</h3><div class="ulinks-row">${e.details.links.map((l) => `<a class="btn btn-ghost" href="${esc(l.h)}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}${esc(l.t)}</a>`).join("")}</div></section>` : ""}
 <section class="cta-panel" data-reveal>
@@ -1020,16 +1036,18 @@ ${footerHTML("")}
   // ---- detail pages ----
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
+    const detailDesc = e.editor_note || e.summary || `${e.title} by ${e.org}. Check deadline and apply.`;
+    const detailJsonDesc = e.editor_note || e.details?.summary || e.summary || `${e.title} — ${e.org}. Official notification, eligibility aur last date check karke apply karo.`;
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
       title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"}`,
-      desc: (e.summary || `${e.title} by ${e.org}. Check deadline and apply.`).slice(0, 155),
+      desc: detailDesc.slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e, related),
       jsonld: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "JobPosting",
         title: e.title.slice(0, 110),
-        description: (e.details?.summary || e.summary || `${e.title} — ${e.org}. Official notification, eligibility aur last date check karke apply karo.`).slice(0, 1200),
+        description: detailJsonDesc.slice(0, 1200),
         datePosted: e.first_seen,
         validThrough: e.deadline ? `${e.deadline}T23:59:59+05:30` : undefined,
         employmentType: "FULL_TIME",

@@ -1,49 +1,53 @@
 {
-  "started_at": "2026-08-22T18:20:48.900Z",
+  "started_at": "2026-08-23T07:15:37.873Z",
   "sources": [
     {
       "id": "agg-sarkariresult",
       "raws": 60,
-      "added": 25,
+      "added": 3,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 0,
+      "dupes": 31,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 57
     },
     {
       "id": "agg-freejobalert",
       "raws": 60,
-      "added": 22,
+      "added": 1,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 3,
+      "dupes": 25,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 48
     },
     {
       "id": "agg-rojgarresult",
       "raws": 60,
-      "added": 23,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 3,
+      "dupes": 29,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 55
     },
     {
       "id": "agg-sarkarijobfind",
       "raws": 60,
-      "added": 18,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 10,
+      "dupes": 26,
       "no_official": 0,
+      "junk": 1,
       "errors": [],
-      "matched": 50
+      "matched": 49
     },
     {
       "id": "agg-sarkariujala",
@@ -53,6 +57,7 @@
       "skipped_known": 0,
       "dupes": 0,
       "no_official": 2,
+      "junk": 0,
       "errors": [],
       "matched": 2
     },
@@ -64,6 +69,7 @@
       "skipped_known": 11,
       "dupes": 0,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 11
     },
@@ -75,6 +81,7 @@
       "skipped_known": 17,
       "dupes": 0,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 17
     },
@@ -86,14 +93,17 @@
       "skipped_known": 5,
       "dupes": 0,
       "no_official": 0,
+      "junk": 0,
       "errors": [],
       "matched": 5
     }
   ],
-  "total_added": 88,
+  "total_added": 6,
   "total_updated": 0,
-  "llm_calls": 8,
-  "resolved": 102,
-  "finished_at": "2026-08-22T18:22:11.549Z",
-  "db_size": 129
+  "llm_calls": 2,
+  "resolved": 22,
+  "detail_fetches": 0,
+  "editor_notes": 1,
+  "finished_at": "2026-08-23T07:16:27.871Z",
+  "db_size": 140
 }

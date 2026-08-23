@@ -25,7 +25,8 @@ jobs:
       - name: Run scraper
         env:
           LLM_MAX_CALLS: "6"
-          RESOLVE_MAX: "30"
+          EDITOR_NOTE_MAX: "6"
+          RESOLVE_MAX: "40"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -48,6 +49,10 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: node engine/verify.js
+      - name: Enrich sparse entries
+        env:
+          ENRICH_MAX: "15"
+        run: node scripts/enrich-sparse.mjs
       - name: Build site
         env:
           SITE_URL: ${{ vars.SITE_URL }}
