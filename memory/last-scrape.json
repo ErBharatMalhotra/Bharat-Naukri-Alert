@@ -1,25 +1,27 @@
 {
-  "started_at": "2026-08-23T10:19:39.432Z",
+  "started_at": "2026-08-23T11:12:54.756Z",
   "sources": [
     {
       "id": "agg-sarkariresult",
-      "raws": 60,
-      "added": 3,
+      "raws": 0,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 37,
+      "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 57
+      "errors": [
+        "https://www.sarkariresult.com/: HTTP 403 for https://www.sarkariresult.com/"
+      ],
+      "matched": 0
     },
     {
       "id": "agg-freejobalert",
       "raws": 60,
-      "added": 11,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 29,
+      "dupes": 40,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -28,10 +30,10 @@
     {
       "id": "agg-rojgarresult",
       "raws": 60,
-      "added": 7,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 31,
+      "dupes": 38,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -40,10 +42,10 @@
     {
       "id": "agg-sarkarijobfind",
       "raws": 60,
-      "added": 0,
+      "added": 12,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 21,
+      "dupes": 28,
       "no_official": 0,
       "junk": 1,
       "errors": [],
@@ -56,7 +58,7 @@
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
-      "no_official": 0,
+      "no_official": 2,
       "junk": 0,
       "errors": [],
       "matched": 2
@@ -75,15 +77,17 @@
     },
     {
       "id": "upsc",
-      "raws": 31,
+      "raws": 0,
       "added": 0,
       "updated": 0,
-      "skipped_known": 17,
+      "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 17
+      "errors": [
+        "https://upsc.gov.in/whats-new: fetch failed"
+      ],
+      "matched": 0
     },
     {
       "id": "nsp",
@@ -98,12 +102,12 @@
       "matched": 5
     }
   ],
-  "total_added": 21,
+  "total_added": 14,
   "total_updated": 0,
-  "llm_calls": 10,
-  "resolved": 40,
+  "llm_calls": 9,
+  "resolved": 36,
   "detail_fetches": 0,
   "editor_notes": 6,
-  "finished_at": "2026-08-23T10:21:46.190Z",
-  "db_size": 152
+  "finished_at": "2026-08-23T11:16:59.899Z",
+  "db_size": 165
 }
