@@ -496,6 +496,7 @@ function layout({ title, desc, canonical, body, jsonld }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
+<meta name="google-site-verification" content="${esc(process.env.GSC_VERIFICATION || "PYPOQDYayyc8R6ydjv_w6DGeaFuT1T0fOToXTTbgvEk")}">
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${esc(canonical)}">
 <meta property="og:title" content="${esc(title)}">
