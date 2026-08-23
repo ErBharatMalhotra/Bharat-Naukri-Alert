@@ -4,6 +4,8 @@ import { readDB } from "../lib/store.js";
 import { SITE_CONFIG } from "../lib/site-config.js";
 import { postsFromDetails, feeFromDetails } from "../lib/org-detect.js";
 
+const PORTAL_NAME_RE = /sarkari\s*result|rojgar\s*result|free\s*job\s*alert|sarkari\s*job\s*find|sarkari\s*ujala|more details visit/i;
+
 const DIST = () => path.join(process.cwd(), "site", "dist");
 const SITE_URL = SITE_CONFIG.url;
 const REPO_URL = SITE_CONFIG.repoUrl;
@@ -587,13 +589,15 @@ function cardHTML(e, rel = "") {
   const fee = feeFromDetails(e.details);
   const feeChip = fee ? `<span class="fee-chip">${fee.symbol}${esc(fee.text)}</span>` : "";
   const href = `${rel}o/${encodeURIComponent(e.id)}.html`;
+  const rawSum = e.editor_note || e.summary || "";
+  const sumOK = rawSum.length > 45 && !PORTAL_NAME_RE.test(rawSum);
   return `<article class="op-card" data-reveal data-id="${esc(e.id)}">
 <a class="stretch" href="${href}" aria-label="${esc(e.title.slice(0, 60))}"></a>
 <button type="button" class="save-btn" data-save="${esc(e.id)}" aria-label="Job save karo">${strokeIcon("heart")}</button>
 <div class="op-top"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span>
 <span class="op-org">${esc(e.org || "Government of India")}</span><span class="op-sp"></span>${catChip(e.category)}</div>
 <h3 class="op-t">${esc(e.title)}</h3>
-${e.summary ? `<p class="op-s">${esc(e.summary)}</p>` : ""}
+${sumOK ? `<p class="op-s">${esc(rawSum)}</p>` : ""}
 <div class="op-foot">${dlChip(e)}${stChip}${postsChip}${feeChip}${e.amount ? `<span class="amt-chip">${strokeIcon("wallet")}${esc(String(e.amount)).slice(0, 26)}</span>` : ""}<span class="go">${strokeIcon("ext")}</span></div>
 </article>`;
 }
@@ -651,7 +655,7 @@ ${e.amount ? `<div class="tile"><small data-i18n="benefit">Benefit / Pay</small>
 <div class="tile"><small data-i18n="category">Category</small><b>${L.hi || L.en}</b></div>
 <div class="tile"><small data-i18n="status">Status</small><b data-i18n="${e.status === "closing_soon" ? "st_closing_l" : e.status === "closed" ? "st_closed_l" : "st_open_l"}">${statusLabel(e.status)}</b></div>
 </div>
-${e.summary && !(e.details?.summary) ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
+${(() => { const ds = e.details?.summary || e.summary || ""; return ds.length > 60 && !PORTAL_NAME_RE.test(ds) && !e.editor_note ? `<p class="d-sum" data-reveal>${esc(ds)}</p>` : ""; })()}
 ${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
 ${e.editor_note ? `<div class="editor-note" data-reveal><p><b>TL;DR —</b> ${esc(e.editor_note)}</p></div>` : ""}
 ${renderDetails(e.details)}
@@ -1129,6 +1133,16 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
   await writeFile("sitemap.xml", sitemap);
   await writeFile("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml`);
   await writeFile("llms.txt", `# Bharat Naukri Alert\n\nAutonomous tracker of Indian government opportunities: scholarships, exams, jobs, schemes.\nStructured JSON data available in the source repository under data/.\n`);
+
+  let redirects = {};
+  try {
+    redirects = JSON.parse(await fs.readFile(path.join(process.cwd(), "data", "redirects.json"), "utf8"));
+  } catch {}
+  const redLines = Object.entries(redirects)
+    .filter(([o]) => !o.endsWith(".html"))
+    .map(([o, n]) => `/o/${o} /o/${n} 301`)
+    .join("\n");
+  if (redLines) await writeFile("_redirects", `${redLines}\n`);
 
   return { pages: pages + 3, entries: entries.length, stats };
 }

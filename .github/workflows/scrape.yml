@@ -53,6 +53,8 @@ jobs:
         env:
           ENRICH_MAX: "15"
         run: node scripts/enrich-sparse.mjs
+      - name: Clean junk details
+        run: node scripts/clean-details.mjs
       - name: Build site
         env:
           SITE_URL: ${{ vars.SITE_URL }}

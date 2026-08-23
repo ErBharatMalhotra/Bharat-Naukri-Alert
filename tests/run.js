@@ -97,7 +97,8 @@ test("extract: heuristicEntry builds complete record", () => {
   assert.ok(e, "entry should not be null");
   assert.equal(e.category, "scholarship");
   assert.equal(e.deadline, "2026-09-15");
-  assert.ok(e.id.startsWith("pib-rss-"));
+  assert.equal(e.id, e.content_hash);
+  assert.ok(!/pib|rss|agg/i.test(e.id), "id should not leak source name");
   assert.ok(e.content_hash.length > 5);
   assert.equal(validateEntry(e).valid, true);
 });
