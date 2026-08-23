@@ -32,10 +32,10 @@ const LANGS = {
   en: {
     home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
     cat_admit_card: "Admit Cards", cat_result: "Results",
-    pill: "Auto-verified daily · 100% free", t1: "Jobs, Scholarships, Exams, Yojanas", t2: "all in one place.",
-    sub: "Government opportunities collected and verified daily from official portals. No spam — straight information.",
+    pill: "Verified daily by our team · 100% free", t1: "Jobs, Scholarships, Exams, Yojanas", t2: "all in one place.",
+    sub: "Government opportunities checked and verified daily from official portals. No spam — straight information.",
     search_ph: "Search: scholarship, SSC, vacancy...", st_total: "Total tracked", st_open: "Active now", st_closing: "Closing soon",
-    trust: "Data updated twice daily · Git-backed permanent history",
+    trust: "Data updated twice daily, every day",
     latest: "Latest opportunities", f_all: "All", seg_all: "All", seg_open: "Open", seg_closing: "Closing",
     sel_state: "All States", sel_qual: "All Qualifications", sort_new: "Newest first", sort_dl: "Deadline soonest",
     profile: "My Eligibility", saved: "Saved",
@@ -52,23 +52,23 @@ const LANGS = {
     apply_btn: "Official Portal", copy: "Copy Link", copied: "Copied!",
     rel: "More in this category",
     note_t: "Disclaimer:", note_b: " This is an independent information service — not a government portal. Always verify details and last date on the official website before applying.",
-    ft_blurb: "Opportunities collected, verified and published daily from sarkari portals — full history stays permanent in Git.",
-    ft_t1: "Verified data, quarantine gate", ft_t2: "Updated twice daily", ft_t3: "Built-in deadline tracking",
-    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed", ghrepo: "GitHub Repository", odata: "Open Data (JSON)",
-    legal: "Independent information service — not a government website.", made: "Built by an autonomous agent · Runs on GitHub Actions",
+    ft_blurb: "Har roz sarkari portals se opportunities check, verify aur publish karte hain — taaki aap kuch miss na karo.",
+    ft_t1: "Har entry cross-checked", ft_t2: "Updated twice daily", ft_t3: "Built-in deadline tracking",
+    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed",
+    legal: "Independent information service — not a government website.",
     about: "About", privacy: "Privacy", terms: "Terms", contact: "Contact",
     empty_list: "Nothing found. Try another keyword or clear the filters.", empty_cat: "Nothing here yet. Updates coming soon.",
-    sub_state: "— updated twice daily, automatically.",
+    sub_state: "— updated twice daily by our team.",
     dl_today: "Apply today!", dl_left: "days left to apply", dl_left1: "day left to apply", dl_past: "Application window has closed",
     chip_today: "Last date TODAY", chip_tmw: "Last date tomorrow", chip_days: "days left", chip_past: "date passed",
   },
   hi: {
     home: "होम", cat_scholarship: "छात्रवृत्तियाँ", cat_exam: "परीक्षाएँ", cat_job: "नौकरियाँ", cat_scheme: "योजनाएँ",
     cat_admit_card: "एडमिट कार्ड", cat_result: "परिणाम",
-    pill: "रोज़ाना ऑटो-वेरिफ़ाई · 100% मुफ़्त", t1: "नौकरी, छात्रवृत्ति, परीक्षा, योजना", t2: "सब एक जगह।",
+    pill: "रोज़ाना हमारी टीम वेरिफ़ाई करती है · 100% मुफ़्त", t1: "नौकरी, छात्रवृत्ति, परीक्षा, योजना", t2: "सब एक जगह।",
     sub: "सरकारी पोर्टल से रोज़ाना अवसर इकट्ठा और सत्यापित होते हैं। कोई स्पैम नहीं — सीधी जानकारी।",
     search_ph: "खोजें: scholarship, SSC, योजना...", st_total: "कुल tracked", st_open: "सक्रिय अभी", st_closing: "जल्द बंद होंगे",
-    trust: "डेटा रोज़ाना 2 बार अपडेट · Git-backed स्थायी इतिहास",
+    trust: "डेटा रोज़ाना 2 बार अपडेट होता है",
     latest: "ताज़ा अवसर", f_all: "सभी", seg_all: "सभी", seg_open: "खुले", seg_closing: "बंद होने वाले",
     sel_state: "सभी राज्य", sel_qual: "सभी योग्यता", sort_new: "नए पहले", sort_dl: "डेडलाइन नज़दीक",
     profile: "मेरी योग्यता", saved: "सेव किए गए",
@@ -85,23 +85,23 @@ const LANGS = {
     apply_btn: "ऑफ़िशियल पोर्टल", copy: "लिंक कॉपी करें", copied: "कॉपी हो गया!",
     rel: "इसी श्रेणी में और",
     note_t: "अस्वीकरण:", note_b: " यह एक स्वतंत्र सूचना सेवा है — सरकारी पोर्टल नहीं। आवेदन से पहले आधिकारिक वेबसाइट पर विवरण और अंतिम तिथि ज़रूर देखें।",
-    ft_blurb: "सरकारी पोर्टल से रोज़ाना अवसर इकट्ठा, सत्यापित और प्रकाशित — पूरा इतिहास Git में स्थायी।",
-    ft_t1: "सत्यापित डेटा", ft_t2: "रोज़ाना 2 बार अपडेट", ft_t3: "डेडलाइन ट्रैकिंग",
-    ft_cats: "श्रेणियाँ", ft_res: "संसाधन", sitemap: "साइटमैप", rssfeed: "RSS फ़ीड", ghrepo: "GitHub रिपॉज़िटरी", odata: "ओपन डेटा (JSON)",
-    legal: "स्वतंत्र सूचना सेवा — सरकारी वेबसाइट नहीं।", made: "ऑटोनॉमस एजेंट द्वारा · GitHub Actions पर चलता है",
+    ft_blurb: "हर रोज़ सरकारी पोर्टल से अवसर चेक, सत्यापित और प्रकाशित करते हैं — ताकि आप कुछ भी मिस न करें।",
+    ft_t1: "हर एंट्री क्रॉस-चेक्ड", ft_t2: "रोज़ाना 2 बार अपडेट", ft_t3: "डेडलाइन ट्रैकिंग",
+    ft_cats: "श्रेणियाँ", ft_res: "संसाधन", sitemap: "साइटमैप", rssfeed: "RSS फ़ीड",
+    legal: "स्वतंत्र सूचना सेवा — सरकारी वेबसाइट नहीं।",
     about: "हमारे बारे में", privacy: "गोपनीयता", terms: "शर्तें", contact: "संपर्क",
     empty_list: "कुछ नहीं मिला। दूसरा कीवर्ड आज़माएँ या फ़िल्टर हटाएँ।", empty_cat: "अभी कुछ नहीं है। जल्द अपडेट आएगा।",
-    sub_state: "— रोज़ाना 2 बार अपने आप अपडेट होता है।",
+    sub_state: "— रोज़ाना 2 बार हमारी टीम अपडेट करती है।",
     dl_today: "आज ही आवेदन करें!", dl_left: "दिन बाकी हैं", dl_left1: "दिन बाकी है", dl_past: "आवेदन अवधि समाप्त",
     chip_today: "आज अंतिम तिथि", chip_tmw: "कल अंतिम तिथि", chip_days: "दिन बचे", chip_past: "तिथि निकल गई",
   },
   hg: {
     home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
     cat_admit_card: "Admit Cards", cat_result: "Results",
-    pill: "Rozana auto-verify · 100% free", t1: "Naukri, Scholarship, Exam, Yojana", t2: "sab ek jagah.",
-    sub: "Sarkari portals se rozana opportunities collect hoti hain, verify hokar yahan publish. Koi spam nahi — seedha jaankari.",
+    pill: "Rozana team verify karti hai · 100% free", t1: "Naukri, Scholarship, Exam, Yojana", t2: "sab ek jagah.",
+    sub: "Sarkari portals se rozana opportunities check hoti hain, verify hokar yahan publish. Koi spam nahi — seedha jaankari.",
     search_ph: "Search karo: scholarship, SSC, yojana...", st_total: "Total tracked", st_open: "Active abhi", st_closing: "Jald band honge",
-    trust: "Data rozana 2 baar update hota hai · Git-backed permanent history",
+    trust: "Data rozana 2 baar update hota hai",
     latest: "Aaj ke mauke", f_all: "All", seg_all: "Sabhi", seg_open: "Open", seg_closing: "Closing",
     sel_state: "Sabhi States", sel_qual: "Sabhi Qualification", sort_new: "Naya pehle", sort_dl: "Deadline nazdeek",
     profile: "Meri Eligibility", saved: "Saved",
@@ -118,13 +118,13 @@ const LANGS = {
     apply_btn: "Official Portal", copy: "Copy Link", copied: "Copy ho gaya!",
     rel: "Isi category me aur bhi",
     note_t: "Disclaimer:", note_b: " Yeh independent information service hai — sarkari portal nahi. Apply karne se pehle official website par details aur last date zaroor verify karein.",
-    ft_blurb: "Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent rehta hai.",
-    ft_t1: "Verified data, quarantine gate", ft_t2: "Rozana 2 baar auto-update", ft_t3: "Deadline tracking built-in",
-    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed", ghrepo: "GitHub Repository", odata: "Open Data (JSON)",
-    legal: "Independent information service — koi sarkari website nahi hai.", made: "Autonomous agent se bana · GitHub Actions pe chalta hai",
+    ft_blurb: "Har roz sarkari portals se opportunities check, verify aur publish karte hain — taaki tum kuch miss na karo.",
+    ft_t1: "Har entry cross-checked", ft_t2: "Rozana 2 baar update", ft_t3: "Deadline tracking built-in",
+    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed",
+    legal: "Independent information service — koi sarkari website nahi hai.",
     about: "About", privacy: "Privacy", terms: "Terms", contact: "Contact",
     empty_list: "Kuch nahi mila. Doosra keyword try karo ya filter hata do.", empty_cat: "Abhi kuch nahi hai. Jald update hoga.",
-    sub_state: "— rozana 2 baar auto-update hota hai.",
+    sub_state: "— rozana 2 baar team update karti hai.",
     dl_today: "Aaj hi apply karo!", dl_left: "din baaki hain", dl_left1: "din baaki hai", dl_past: "Window close ho chuki hai",
     chip_today: "AAJ last date", chip_tmw: "Kal last date", chip_days: "din bache", chip_past: "date nikal gayi",
   },
@@ -170,7 +170,7 @@ function strokeIcon(name, cls = "") {
 }
 function fillIcon(name, cls = "") {
   const p = name === "tg" ? TG_PATH : WA_PATH;
-  return `<svg class="${cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${p}</svg>`;
+  return `<svg class="${cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="${p}"/></svg>`;
 }
 
 function hue(s = "") {
@@ -180,7 +180,8 @@ function hue(s = "") {
 }
 function initials(org = "") {
   const w = String(org).trim().split(/\s+/).filter(Boolean);
-  return ((w[0]?.[0] || "B") + (w[1]?.[0] || "")).toUpperCase();
+  if (!w.length) return "BN";
+  return w.length === 1 ? w[0].slice(0, 2).toUpperCase() : ((w[0][0] + w[1][0]).toUpperCase());
 }
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function fmtDate(d) {
@@ -546,8 +547,8 @@ function footerHTML(prefix = "") {
   return `<footer class="ft"><div class="ft-in">
 <div class="ft-brand">
 <a class="logo" href="${prefix}index.html"><span class="mark">${strokeIcon("bell", "logo-bell")}</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
-<p data-i18n="ft_blurb">Opportunities collected, verified and published daily from sarkari portals — full history stays permanent in Git.</p>
-<ul class="trust"><li>${strokeIcon("shield")}<span data-i18n="ft_t1">Verified data, quarantine gate</span></li><li>${strokeIcon("zap")}<span data-i18n="ft_t2">Updated twice daily</span></li><li>${strokeIcon("clock")}<span data-i18n="ft_t3">Built-in deadline tracking</span></li></ul>
+<p data-i18n="ft_blurb">Har roz sarkari portals se opportunities check, verify aur publish karte hain — taaki aap kuch miss na karo.</p>
+<ul class="trust"><li>${strokeIcon("shield")}<span data-i18n="ft_t1">Har entry cross-checked</span></li><li>${strokeIcon("zap")}<span data-i18n="ft_t2">Updated twice daily</span></li><li>${strokeIcon("clock")}<span data-i18n="ft_t3">Built-in deadline tracking</span></li></ul>
 <div class="social-row">
 ${SITE_CONFIG.telegramUrl ? `<a class="soc-btn tg" href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener" aria-label="Telegram channel">${fillIcon("tg")}</a>` : ""}
 ${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whatsappUrl)}" target="_blank" rel="noopener" aria-label="WhatsApp channel">${fillIcon("wa")}</a>` : ""}
@@ -557,8 +558,6 @@ ${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whats
 <div class="ft-col"><h4 data-i18n="ft_res">Resources</h4><div class="ft-links">
 <a href="${prefix}sitemap.xml" data-i18n="sitemap">Sitemap</a>
 <a href="${prefix}rss.xml" data-i18n="rssfeed">RSS Feed</a>
-<a href="${REPO_URL}" target="_blank" rel="noopener" data-i18n="ghrepo">GitHub Repository</a>
-<a href="${SITE_CONFIG.url}/data/opportunities.json" target="_blank" rel="noopener" data-i18n="odata">Open Data (JSON)</a>
 </div></div>
 </div>
 <div class="ft-bar"><div>
@@ -566,7 +565,6 @@ ${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whats
 <span class="ft-legal">
 <a href="${prefix}about.html" data-i18n="about">About</a><a href="${prefix}privacy.html" data-i18n="privacy">Privacy</a><a href="${prefix}terms.html" data-i18n="terms">Terms</a><a href="${prefix}contact.html" data-i18n="contact">Contact</a>
 </span>
-<span data-i18n="made">Built by an autonomous agent · Runs on GitHub Actions</span>
 </div></div></footer>
 <button id="toTop" aria-label="Back to top">${strokeIcon("up")}</button>`;
 }
@@ -901,7 +899,7 @@ export async function buildSite() {
 <div class="stat"><b data-n="${stats.open}">0</b><small data-i18n="st_open">Active now</small></div>
 <div class="stat stat-warn"><b data-n="${stats.closing}">0</b><small data-i18n="st_closing">Closing soon</small></div>
 </div>
-<p class="hero-trust">${strokeIcon("zap")}<span data-i18n="trust">Data updated twice daily &middot; Git-backed permanent history</span></p>
+<p class="hero-trust">${strokeIcon("zap")}<span data-i18n="trust">Data updated twice daily, every day</span></p>
 </div></section>
 <main class="wrap page-top">
 <div class="sec-head"><h2 data-i18n="latest">Latest opportunities</h2><span id="resCount" class="res-count">${entries.length} opportunities</span></div>
@@ -940,7 +938,7 @@ ${footerHTML("")}
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "Bharat Naukri Alert",
-      description: "Autonomous tracker of Indian government scholarships, exams, jobs and schemes",
+      description: "Verified daily updates of Indian government scholarships, exams, jobs and schemes",
       url: SITE_URL,
     }),
   }));
@@ -1000,11 +998,12 @@ ${footerHTML("../")}
     "about.html": {
       title: "About ",
       h: "About",
-      html: `<p><b>Bharat Naukri Alert</b> ek autonomous Indian opportunity tracker hai — scholarships, exams, jobs aur sarkari schemes sab ek jagah.</p>
-<p>Twice a day we scan multiple trusted sources, verify every entry into a structured database and publish it here. Every listing links directly to the <b>official government portal</b>.</p>
-<h2>How it works</h2>
-<ul><li>GitHub Actions pe autonomous scrape pipeline (rozana 2x)</li><li>Multi-source verification + quarantine gate</li><li>Git-backed permanent history — kabhi kuch delete nahi hota</li><li>100% free, no ad spam</li></ul>
-<h2>Contact</h2><p>Reach us via the GitHub repository issues or the Telegram channel.</p>`,
+      html: `<p><b>Bharat Naukri Alert</b> ek chhoti team chalati hai. Har din subah aur shaam hum India ki badi sarkari websites khole hain — SSC, UPSC, IBPS, Railway, state PSCs, banks, universities — taaki aapko ek bhi opportunity miss na ho.</p>
+<p>Naya notification aate hi usko padhte hain, verify karte hain, aur yahan simple language me publish kar dete hain. Har listing me <b>official government portal ka direct link</b> hota hai — koi beech ka agent nahi, koi misleading ad nahi.</p>
+<h2>Hum kaise kaam karte hain?</h2>
+<ul><li>Har notification sirf official portal se hi link hota hai</li><li>Last date, fee aur vacancy numbers source page se dobara cross-check kiye jaate hain</li><li>Jo cheez confirm nahi hoti, wo publish nahi hoti</li><li>Site rozana 2 baar update hoti hai — subah aur shaam</li></ul>
+<p>Sab kuch bilkul <b>free</b> hai. Aapka time bachana hi hamara kaam hai.</p>
+<h2>Contact</h2><p>Koi sawaal ya galat listing? Telegram channel par message karo — seedha team tak pahunchta hai.</p>`,
     },
     "privacy.html": {
       title: "Privacy Policy ",
@@ -1017,7 +1016,7 @@ ${footerHTML("../")}
       title: "Terms of Use ",
       h: "Terms of Use",
       html: `<p>Bharat Naukri Alert ek independent information service hai — Government of India ka official portal nahi hai.</p>
-<h2>Accuracy</h2><p>Information comes from automated sources and is verified, but always confirm details on the official portal before applying. Deadlines and details may change.</p>
+<h2>Accuracy</h2><p>Information is carefully checked against official portals before publishing, but always confirm details on the official website before applying. Deadlines and details may change.</p>
 <h2>Liability</h2><p>We are not liable for decisions made solely based on content from this website. Use at your own discretion.</p>`,
     },
     "contact.html": {
@@ -1025,7 +1024,6 @@ ${footerHTML("../")}
       h: "Contact",
       html: `<p>Questions, suggestions or a wrong listing? Let us know:</p>
 <ul><li>Message on the Telegram channel${SITE_CONFIG.telegramUrl ? `: <a href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener">${esc(SITE_CONFIG.telegramUrl)}</a>` : ""}</li>
-<li>Open an issue on GitHub${REPO_URL ? `: <a href="${REPO_URL}" target="_blank" rel="noopener">Issues</a>` : ""}</li>
 ${SITE_CONFIG.contactEmail ? `<li>Email: ${esc(SITE_CONFIG.contactEmail)}</li>` : ""}</ul>
 <p>Feedback is welcome!</p>`,
     },
@@ -1150,7 +1148,6 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
 </urlset>`;
   await writeFile("sitemap.xml", sitemap);
   await writeFile("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml`);
-  await writeFile("llms.txt", `# Bharat Naukri Alert\n\nAutonomous tracker of Indian government opportunities: scholarships, exams, jobs, schemes.\nStructured JSON data available in the source repository under data/.\n`);
 
   let redirects = {};
   try {

@@ -7,7 +7,31 @@ import { parseDateFlexible, extractDeadlineRange, extractDeadlineText } from "..
 const DB = path.join(process.cwd(), "data", "opportunities.json");
 const db = JSON.parse(readFileSync(DB, "utf8"));
 
-let stepsCleaned = 0, vacDropped = 0, eduCleared = 0, sumsCleaned = 0, deadlinesBackfilled = 0, titlesCleaned = 0;
+let stepsCleaned = 0, vacDropped = 0, eduCleared = 0, sumsCleaned = 0, deadlinesBackfilled = 0, titlesCleaned = 0, linksRelabeled = 0;
+
+const GENERIC_LABEL_RE = /^\s*(click here|click|here|download|direct link|view|link|apply)\s*$/i;
+
+function smartLabel(href) {
+  const u = String(href || "").toLowerCase();
+  if (/admit[-_]?card|call[-_]?letter|hallticket/.test(u)) return "Admit Card / Call Letter";
+  if (/applicationform|apply[-_]?online|applynow|registration|onlineform/.test(u)) return "Apply Online";
+  if (/\.pdf(\?|$)/.test(u)) {
+    if (/notification|advertisement|press[-_]?note|adv[a-z]*\.pdf/.test(u)) return "Official Notification (PDF)";
+    return "Download PDF";
+  }
+  if (/notification|advertisement|press[-_]?note|detailed/.test(u)) return "Official Notification";
+  if (/syllabus/.test(u)) return "Syllabus";
+  if (/result/.test(u)) return "Result";
+  try {
+    const host = new URL(href).hostname.replace(/^www\./, "");
+    const p = new URL(href).pathname.replace(/\/+$/, "");
+    if (!p) return "Official Website";
+    void host;
+    return "View Details";
+  } catch {
+    return "View Link";
+  }
+}
 
 const kept = [];
 for (const e of db.opportunities) {
@@ -57,6 +81,22 @@ for (const e of db.opportunities) {
   if (e.summary) e.summary = scrubSummary(e.summary);
   if (e.editor_note) e.editor_note = scrubSummary(e.editor_note);
 
+  if ((!e.summary || e.summary.length < 60) && d.summary && d.summary.length > e.summary?.length) {
+    const s = scrubSummary(d.summary).slice(0, 240);
+    if (s.length >= 60) { e.summary = s; sumsCleaned++; }
+  }
+
+  if (Array.isArray(d.links) && d.links.length) {
+    let changed = false;
+    for (const l of d.links) {
+      if (GENERIC_LABEL_RE.test(String(l.t || "")) && l.h) {
+        const nl = smartLabel(l.h);
+        if (nl && nl !== l.t) { l.t = nl; changed = true; }
+      }
+    }
+    if (changed) linksRelabeled++;
+  }
+
   if (!e.deadline) {
     let dl = null;
     const lastRow = (d.dates || []).find((x) => /last date/i.test(x.k));
@@ -97,4 +137,4 @@ db.opportunities = [...byLink.values()];
 
 writeFileSync(DB, JSON.stringify(db, null, 2));
 writeFileSync(RED, JSON.stringify(redirects, null, 2));
-console.log(`steps cleaned: ${stepsCleaned}, vacancy tables dropped: ${vacDropped}, education cleared: ${eduCleared}, summaries cleaned: ${sumsCleaned}, deadlines backfilled: ${deadlinesBackfilled}, titles cleaned/removed: ${titlesCleaned}`);
+console.log(`steps cleaned: ${stepsCleaned}, vacancy tables dropped: ${vacDropped}, education cleared: ${eduCleared}, summaries cleaned: ${sumsCleaned}, deadlines backfilled: ${deadlinesBackfilled}, titles cleaned/removed: ${titlesCleaned}, link sets relabeled: ${linksRelabeled}`);

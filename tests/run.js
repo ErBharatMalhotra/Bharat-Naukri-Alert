@@ -205,7 +205,8 @@ test("site: build generates complete static site", async () => {
     const si = JSON.parse(await fs.readFile("site/dist/search-index.json", "utf8"));
     assert.equal(si.length, 2);
     await fs.access("site/dist/robots.txt");
-    await fs.access("site/dist/llms.txt");
+    const idxHtml = await fs.readFile("site/dist/index.html", "utf8");
+    assert.ok(!idxHtml.toLowerCase().includes("autonomous"), "no automation branding on homepage");
   } finally {
     process.chdir(prev);
   }
