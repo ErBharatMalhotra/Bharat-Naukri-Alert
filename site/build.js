@@ -1043,7 +1043,7 @@ ${footerHTML("")}
     const detailDesc = e.editor_note || e.summary || `${e.title} by ${e.org}. Check deadline and apply.`;
     const detailJsonDesc = e.editor_note || e.details?.summary || e.summary || `${e.title} — ${e.org}. Official notification, eligibility aur last date check karke apply karo.`;
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
-      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"}`,
+      title: `${e.title.slice(0, 60)} — Last date ${e.deadline ? fmtDate(e.deadline) : "check portal"}`,
       desc: detailDesc.slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e, related),
