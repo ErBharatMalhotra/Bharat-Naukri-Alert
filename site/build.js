@@ -956,7 +956,7 @@ ${footerHTML("../")}
     await writeFile(`category/${cat}.html`, layout({
       title: `${labels.en} `,
       desc: `Latest government ${labels.en.toLowerCase()} with deadlines, auto-updated daily.`,
-      canonical: `${SITE_URL}/category/${cat}.html`,
+      canonical: `${SITE_URL}/category/${cat}`,
       body,
     }));
     pages++;
@@ -983,7 +983,7 @@ ${footerHTML("../")}
     await writeFile(`state/${slug(st)}.html`, layout({
       title: `${st} Sarkari Naukri 2026 — Latest Govt Jobs & Updates`,
       desc: `${st} government job alerts: ${tagged.length} active opportunities with official links and deadlines. Rozana update hota hai.`,
-      canonical: `${SITE_URL}/state/${slug(st)}.html`,
+      canonical: `${SITE_URL}/state/${slug(st)}`,
       body,
     }));
     pages++;
@@ -1034,7 +1034,7 @@ ${note()}
 </div></main>
 ${footerHTML("")}
 <script>${RUNTIME_JS}</script>`;
-    await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} `, canonical: `${SITE_URL}/${file}`, body }));
+    await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} `, canonical: `${SITE_URL}/${file.replace(/\.html$/, "")}`, body }));
     pages++;
   }
 
@@ -1046,7 +1046,7 @@ ${footerHTML("")}
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
       title: `${e.title.slice(0, 60)} — Last date ${e.deadline ? fmtDate(e.deadline) : "check portal"}`,
       desc: detailDesc.slice(0, 155),
-      canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
+      canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}`,
       body: detailBody(e, related),
       jsonld: JSON.stringify([
         {
@@ -1061,14 +1061,14 @@ ${footerHTML("")}
           jobLocationType: "TELECOMMUTE",
           applicantLocationRequirements: { "@type": "Country", name: "India" },
           directApply: true,
-          url: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
+          url: `${SITE_URL}/o/${encodeURIComponent(e.id)}`,
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
             { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-            { "@type": "ListItem", position: 2, name: (CAT_LABELS[e.category] || { en: e.category }).en, item: `${SITE_URL}/category/${e.category}.html` },
+            { "@type": "ListItem", position: 2, name: (CAT_LABELS[e.category] || { en: e.category }).en, item: `${SITE_URL}/category/${e.category}` },
             { "@type": "ListItem", position: 3, name: e.title.slice(0, 80) },
           ],
         },
@@ -1130,13 +1130,13 @@ ${rssItems}
   }
   const urls = [
     "",
-    ...Object.keys(CAT_LABELS).map((c) => `category/${c}.html`),
-    ...stateUrls,
-    "about.html",
-    "privacy.html",
-    "terms.html",
-    "contact.html",
-    ...entries.map((e) => `o/${encodeURIComponent(e.id)}.html`),
+    ...Object.keys(CAT_LABELS).map((c) => `category/${c}`),
+    ...stateUrls.map((u) => u.replace(/\.html$/, "")),
+    "about",
+    "privacy",
+    "terms",
+    "contact",
+    ...entries.map((e) => `o/${encodeURIComponent(e.id)}`),
   ];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
