@@ -1047,20 +1047,31 @@ ${footerHTML("")}
       desc: detailDesc.slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e, related),
-      jsonld: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "JobPosting",
-        title: e.title.slice(0, 110),
-        description: detailJsonDesc.slice(0, 1200),
-        datePosted: e.first_seen,
-        validThrough: e.deadline ? `${e.deadline}T23:59:59+05:30` : undefined,
-        employmentType: "FULL_TIME",
-        hiringOrganization: { "@type": "Organization", name: e.org || "Government of India" },
-        jobLocationType: "TELECOMMUTE",
-        applicantLocationRequirements: { "@type": "Country", name: "India" },
-        directApply: true,
-        url: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
-      }),
+      jsonld: JSON.stringify([
+        {
+          "@context": "https://schema.org",
+          "@type": "JobPosting",
+          title: e.title.slice(0, 110),
+          description: detailJsonDesc.slice(0, 1200),
+          datePosted: e.first_seen,
+          validThrough: e.deadline ? `${e.deadline}T23:59:59+05:30` : undefined,
+          employmentType: "FULL_TIME",
+          hiringOrganization: { "@type": "Organization", name: e.org || "Government of India" },
+          jobLocationType: "TELECOMMUTE",
+          applicantLocationRequirements: { "@type": "Country", name: "India" },
+          directApply: true,
+          url: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+            { "@type": "ListItem", position: 2, name: (CAT_LABELS[e.category] || { en: e.category }).en, item: `${SITE_URL}/category/${e.category}.html` },
+            { "@type": "ListItem", position: 3, name: e.title.slice(0, 80) },
+          ],
+        },
+      ]),
     }));
     pages++;
   }
