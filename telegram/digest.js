@@ -45,7 +45,7 @@ if (!process.argv.includes("--no-commands")) {
   }
 }
 
-state.last_digest_date = dateStr;
+if (sent) state.last_digest_date = dateStr;
 await writeState(state);
 await appendMemory("metrics", { type: "digest", sent: digestEntries.length, ok: sent });
 console.log(JSON.stringify({ digest_sent: sent, entries: digestEntries.length, error: sendError || null }));
