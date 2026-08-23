@@ -1158,6 +1158,13 @@ ${urls.map((u) => `\t<url><loc>${SITE_URL}/${u}</loc><lastmod>${new Date().toISO
     .join("\n");
   if (redLines) await writeFile("_redirects", `${redLines}\n`);
 
+  const staticDir = path.join(process.cwd(), "site", "static");
+  try {
+    for (const f of await fs.readdir(staticDir)) {
+      await fs.copyFile(path.join(staticDir, f), path.join(DIST(), f));
+    }
+  } catch {}
+
   return { pages: pages + 3, entries: entries.length, stats };
 }
 
