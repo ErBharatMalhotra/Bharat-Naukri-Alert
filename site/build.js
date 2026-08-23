@@ -25,6 +25,108 @@ const STATES = [
   "Delhi", "Jammu & Kashmir", "Ladakh", "Puducherry", "Chandigarh",
 ];
 
+const LANGS = {
+  en: {
+    home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
+    cat_admit_card: "Admit Cards", cat_result: "Results",
+    pill: "Auto-verified daily · 100% free", t1: "Jobs, Scholarships, Exams, Yojanas", t2: "all in one place.",
+    sub: "Government opportunities collected and verified daily from official portals. No spam — straight information.",
+    search_ph: "Search: scholarship, SSC, vacancy...", st_total: "Total tracked", st_open: "Active now", st_closing: "Closing soon",
+    trust: "Data updated twice daily · Git-backed permanent history",
+    latest: "Latest opportunities", f_all: "All", seg_all: "All", seg_open: "Open", seg_closing: "Closing",
+    sel_state: "All States", sel_qual: "All Qualifications", sort_new: "Newest first", sort_dl: "Deadline soonest",
+    profile: "My Eligibility", saved: "Saved",
+    prof_state: "State", prof_qual: "Qualification", prof_any: "Any", prof_all_india: "All India",
+    prof_save: "Save Profile", prof_clear: "Clear",
+    prof_hint: "Save your eligibility once — only jobs matching your profile stay highlighted on every visit.",
+    strip_today: "Today's updates", strip_yest: "Yesterday's updates",
+    dl_none: "Last date — check portal",
+    lastdate: "Last Date", benefit: "Benefit / Pay", category: "Category", status: "Status",
+    st_open_l: "Open", st_closing_l: "Closing Soon", st_closed_l: "Closed",
+    overview: "Overview", dates: "Important Dates", fee: "Application Fee", vacancy: "Vacancy Details",
+    age: "Age Limit", pay: "Pay Scale", howto: "How to Apply", ulinks: "Useful Links",
+    cta_h: "Ready to apply?", cta_trust: "Verified official government portal — direct apply link",
+    apply_btn: "Official Portal", copy: "Copy Link", copied: "Copied!",
+    rel: "More in this category",
+    note_t: "Disclaimer:", note_b: " This is an independent information service — not a government portal. Always verify details and last date on the official website before applying.",
+    ft_blurb: "Opportunities collected, verified and published daily from sarkari portals — full history stays permanent in Git.",
+    ft_t1: "Verified data, quarantine gate", ft_t2: "Updated twice daily", ft_t3: "Built-in deadline tracking",
+    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed", ghrepo: "GitHub Repository", odata: "Open Data (JSON)",
+    legal: "Independent information service — not a government website.", made: "Built by an autonomous agent · Runs on GitHub Actions",
+    about: "About", privacy: "Privacy", terms: "Terms", contact: "Contact",
+    empty_list: "Nothing found. Try another keyword or clear the filters.", empty_cat: "Nothing here yet. Updates coming soon.",
+    sub_state: "— updated twice daily, automatically.",
+    dl_today: "Apply today!", dl_left: "days left to apply", dl_left1: "day left to apply", dl_past: "Application window has closed",
+    chip_today: "Last date TODAY", chip_tmw: "Last date tomorrow", chip_days: "days left", chip_past: "date passed",
+  },
+  hi: {
+    home: "होम", cat_scholarship: "छात्रवृत्तियाँ", cat_exam: "परीक्षाएँ", cat_job: "नौकरियाँ", cat_scheme: "योजनाएँ",
+    cat_admit_card: "एडमिट कार्ड", cat_result: "परिणाम",
+    pill: "रोज़ाना ऑटो-वेरिफ़ाई · 100% मुफ़्त", t1: "नौकरी, छात्रवृत्ति, परीक्षा, योजना", t2: "सब एक जगह।",
+    sub: "सरकारी पोर्टल से रोज़ाना अवसर इकट्ठा और सत्यापित होते हैं। कोई स्पैम नहीं — सीधी जानकारी।",
+    search_ph: "खोजें: scholarship, SSC, योजना...", st_total: "कुल tracked", st_open: "सक्रिय अभी", st_closing: "जल्द बंद होंगे",
+    trust: "डेटा रोज़ाना 2 बार अपडेट · Git-backed स्थायी इतिहास",
+    latest: "ताज़ा अवसर", f_all: "सभी", seg_all: "सभी", seg_open: "खुले", seg_closing: "बंद होने वाले",
+    sel_state: "सभी राज्य", sel_qual: "सभी योग्यता", sort_new: "नए पहले", sort_dl: "डेडलाइन नज़दीक",
+    profile: "मेरी योग्यता", saved: "सेव किए गए",
+    prof_state: "राज्य", prof_qual: "योग्यता", prof_any: "कोई भी", prof_all_india: "अखिल भारत",
+    prof_save: "प्रोफ़ाइल सेव करें", prof_clear: "हटाएँ",
+    prof_hint: "योग्यता एक बार सेव करें — हर विज़िट पर सिर्फ़ आपके लिए सही नौकरियाँ हाइलाइट रहेंगी।",
+    strip_today: "आज के अपडेट", strip_yest: "कल के अपडेट",
+    dl_none: "अंतिम तिथि — पोर्टल देखें",
+    lastdate: "अंतिम तिथि", benefit: "लाभ / वेतन", category: "श्रेणी", status: "स्थिति",
+    st_open_l: "खुला", st_closing_l: "जल्द बंद", st_closed_l: "बंद",
+    overview: "संक्षिप्त जानकारी", dates: "महत्वपूर्ण तिथियाँ", fee: "आवेदन शुल्क", vacancy: "रिक्ति विवरण",
+    age: "आयु सीमा", pay: "वेतन", howto: "आवेदन कैसे करें", ulinks: "उपयोगी लिंक",
+    cta_h: "आवेदन करना है?", cta_trust: "सत्यापित सरकारी पोर्टल — सीधा आवेदन लिंक",
+    apply_btn: "ऑफ़िशियल पोर्टल", copy: "लिंक कॉपी करें", copied: "कॉपी हो गया!",
+    rel: "इसी श्रेणी में और",
+    note_t: "अस्वीकरण:", note_b: " यह एक स्वतंत्र सूचना सेवा है — सरकारी पोर्टल नहीं। आवेदन से पहले आधिकारिक वेबसाइट पर विवरण और अंतिम तिथि ज़रूर देखें।",
+    ft_blurb: "सरकारी पोर्टल से रोज़ाना अवसर इकट्ठा, सत्यापित और प्रकाशित — पूरा इतिहास Git में स्थायी।",
+    ft_t1: "सत्यापित डेटा", ft_t2: "रोज़ाना 2 बार अपडेट", ft_t3: "डेडलाइन ट्रैकिंग",
+    ft_cats: "श्रेणियाँ", ft_res: "संसाधन", sitemap: "साइटमैप", rssfeed: "RSS फ़ीड", ghrepo: "GitHub रिपॉज़िटरी", odata: "ओपन डेटा (JSON)",
+    legal: "स्वतंत्र सूचना सेवा — सरकारी वेबसाइट नहीं।", made: "ऑटोनॉमस एजेंट द्वारा · GitHub Actions पर चलता है",
+    about: "हमारे बारे में", privacy: "गोपनीयता", terms: "शर्तें", contact: "संपर्क",
+    empty_list: "कुछ नहीं मिला। दूसरा कीवर्ड आज़माएँ या फ़िल्टर हटाएँ।", empty_cat: "अभी कुछ नहीं है। जल्द अपडेट आएगा।",
+    sub_state: "— रोज़ाना 2 बार अपने आप अपडेट होता है।",
+    dl_today: "आज ही आवेदन करें!", dl_left: "दिन बाकी हैं", dl_left1: "दिन बाकी है", dl_past: "आवेदन अवधि समाप्त",
+    chip_today: "आज अंतिम तिथि", chip_tmw: "कल अंतिम तिथि", chip_days: "दिन बचे", chip_past: "तिथि निकल गई",
+  },
+  hg: {
+    home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
+    cat_admit_card: "Admit Cards", cat_result: "Results",
+    pill: "Rozana auto-verify · 100% free", t1: "Naukri, Scholarship, Exam, Yojana", t2: "sab ek jagah.",
+    sub: "Sarkari portals se rozana opportunities collect hoti hain, verify hokar yahan publish. Koi spam nahi — seedha jaankari.",
+    search_ph: "Search karo: scholarship, SSC, yojana...", st_total: "Total tracked", st_open: "Active abhi", st_closing: "Jald band honge",
+    trust: "Data rozana 2 baar update hota hai · Git-backed permanent history",
+    latest: "Aaj ke mauke", f_all: "All", seg_all: "Sabhi", seg_open: "Open", seg_closing: "Closing",
+    sel_state: "Sabhi States", sel_qual: "Sabhi Qualification", sort_new: "Naya pehle", sort_dl: "Deadline nazdeek",
+    profile: "Meri Eligibility", saved: "Saved",
+    prof_state: "State", prof_qual: "Qualification", prof_any: "Koi bhi", prof_all_india: "All India",
+    prof_save: "Save Profile", prof_clear: "Clear",
+    prof_hint: "Profile save karne ke baad sirf tumhare eligible jobs highlight honge — har visit pe auto-filter.",
+    strip_today: "Aaj ke updates", strip_yest: "Kal ke updates",
+    dl_none: "Last date — portal check karo",
+    lastdate: "Last Date", benefit: "Benefit / Pay", category: "Category", status: "Status",
+    st_open_l: "Open", st_closing_l: "Closing Soon", st_closed_l: "Closed",
+    overview: "Overview", dates: "Important Dates", fee: "Application Fee", vacancy: "Vacancy Details",
+    age: "Age Limit", pay: "Pay Scale", howto: "How to Apply", ulinks: "Useful Links",
+    cta_h: "Apply karna hai?", cta_trust: "Verified official government portal — direct apply link",
+    apply_btn: "Official Portal", copy: "Copy Link", copied: "Copy ho gaya!",
+    rel: "Isi category me aur bhi",
+    note_t: "Disclaimer:", note_b: " Yeh independent information service hai — sarkari portal nahi. Apply karne se pehle official website par details aur last date zaroor verify karein.",
+    ft_blurb: "Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent rehta hai.",
+    ft_t1: "Verified data, quarantine gate", ft_t2: "Rozana 2 baar auto-update", ft_t3: "Deadline tracking built-in",
+    ft_cats: "Categories", ft_res: "Resources", sitemap: "Sitemap", rssfeed: "RSS Feed", ghrepo: "GitHub Repository", odata: "Open Data (JSON)",
+    legal: "Independent information service — koi sarkari website nahi hai.", made: "Autonomous agent se bana · GitHub Actions pe chalta hai",
+    about: "About", privacy: "Privacy", terms: "Terms", contact: "Contact",
+    empty_list: "Kuch nahi mila. Doosra keyword try karo ya filter hata do.", empty_cat: "Abhi kuch nahi hai. Jald update hoga.",
+    sub_state: "— rozana 2 baar auto-update hota hai.",
+    dl_today: "Aaj hi apply karo!", dl_left: "din baaki hain", dl_left1: "din baaki hai", dl_past: "Window close ho chuki hai",
+    chip_today: "AAJ last date", chip_tmw: "Kal last date", chip_days: "din bache", chip_past: "date nikal gayi",
+  },
+};
+
 function esc(s = "") {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
@@ -217,6 +319,9 @@ const CSS_B = `
 let CSS = CSS_A + CSS_B;
 
 const CSS_D = `
+/* language button */
+.lang-btn{width:auto;min-width:44px;padding:0 11px;font-weight:800;font-size:12px;font-family:var(--disp);letter-spacing:.5px}
+
 /* stretched-link cards + save button */
 .op-card{position:relative}
 .op-card .stretch{position:absolute;inset:0;z-index:1;border-radius:16px}
@@ -404,49 +509,50 @@ ${body}
 
 function header(prefix = "") {
   const cats = Object.entries(CAT_LABELS)
-    .map(([k, v]) => `<a href="${prefix}category/${k}.html">${v.en}</a>`)
+    .map(([k, v]) => `<a href="${prefix}category/${k}.html" data-i18n="cat_${k}">${v.en}</a>`)
     .join("");
   return `<header class="hdr"><div class="hdr-in">
 <a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
-<nav class="hnav"><a href="${prefix}index.html">Home</a>${cats}</nav>
+<nav class="hnav"><a href="${prefix}index.html" data-i18n="home">Home</a>${cats}</nav>
+<button id="langBtn" class="tbtn lang-btn" aria-label="Language">EN</button>
 <button id="themeBtn" class="tbtn" aria-label="Toggle theme">${strokeIcon("sun", "ic-sun")}${strokeIcon("moon", "ic-moon")}</button>
 </div></header>`;
 }
 
 function footerHTML(prefix = "") {
   const cats = Object.entries(CAT_LABELS)
-    .map(([k, v]) => `<a href="${prefix}category/${k}.html">${v.en}</a>`)
+    .map(([k, v]) => `<a href="${prefix}category/${k}.html" data-i18n="cat_${k}">${v.en}</a>`)
     .join("");
   return `<footer class="ft"><div class="ft-in">
 <div class="ft-brand">
 <a class="logo" href="${prefix}index.html"><span class="mark">B</span><span class="wordmark">Bharat <em>Naukri Alert</em></span></a>
-<p>Sarkari portals se rozana opportunities scrape, verify aur publish hoti hain — poora history Git me permanent save rehta hai.</p>
-<ul class="trust"><li>${strokeIcon("shield")}Verified data, quarantine gate</li><li>${strokeIcon("zap")}Rozana 2 baar auto-update</li><li>${strokeIcon("clock")}Deadline tracking built-in</li></ul>
+<p data-i18n="ft_blurb">Opportunities collected, verified and published daily from sarkari portals — full history stays permanent in Git.</p>
+<ul class="trust"><li>${strokeIcon("shield")}<span data-i18n="ft_t1">Verified data, quarantine gate</span></li><li>${strokeIcon("zap")}<span data-i18n="ft_t2">Updated twice daily</span></li><li>${strokeIcon("clock")}<span data-i18n="ft_t3">Built-in deadline tracking</span></li></ul>
 <div class="social-row">
-${SITE_CONFIG.telegramUrl ? `<a class="soc-btn tg" href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener" aria-label="Telegram channel join karo">${fillIcon("tg")}</a>` : ""}
-${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whatsappUrl)}" target="_blank" rel="noopener" aria-label="WhatsApp channel join karo">${fillIcon("wa")}</a>` : ""}
+${SITE_CONFIG.telegramUrl ? `<a class="soc-btn tg" href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener" aria-label="Telegram channel">${fillIcon("tg")}</a>` : ""}
+${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whatsappUrl)}" target="_blank" rel="noopener" aria-label="WhatsApp channel">${fillIcon("wa")}</a>` : ""}
 </div>
 </div>
-<div class="ft-col"><h4>Categories</h4><div class="ft-links">${cats}</div></div>
-<div class="ft-col"><h4>Resources</h4><div class="ft-links">
-<a href="${prefix}sitemap.xml">Sitemap</a>
-<a href="${prefix}rss.xml">RSS Feed</a>
-<a href="${REPO_URL}" target="_blank" rel="noopener">GitHub Repository</a>
-<a href="${SITE_CONFIG.url}/data/opportunities.json" target="_blank" rel="noopener">Open Data (JSON)</a>
+<div class="ft-col"><h4 data-i18n="ft_cats">Categories</h4><div class="ft-links">${cats}</div></div>
+<div class="ft-col"><h4 data-i18n="ft_res">Resources</h4><div class="ft-links">
+<a href="${prefix}sitemap.xml" data-i18n="sitemap">Sitemap</a>
+<a href="${prefix}rss.xml" data-i18n="rssfeed">RSS Feed</a>
+<a href="${REPO_URL}" target="_blank" rel="noopener" data-i18n="ghrepo">GitHub Repository</a>
+<a href="${SITE_CONFIG.url}/data/opportunities.json" target="_blank" rel="noopener" data-i18n="odata">Open Data (JSON)</a>
 </div></div>
 </div>
 <div class="ft-bar"><div>
-<span>&copy; ${new Date().getFullYear()} Bharat Naukri Alert &middot; Independent information service &mdash; koi sarkari website nahi hai.</span>
+<span>&copy; ${new Date().getFullYear()} Bharat Naukri Alert &middot; <span data-i18n="legal">Independent information service — not a government website.</span></span>
 <span class="ft-legal">
-<a href="${prefix}about.html">About</a><a href="${prefix}privacy.html">Privacy</a><a href="${prefix}terms.html">Terms</a><a href="${prefix}contact.html">Contact</a>
+<a href="${prefix}about.html" data-i18n="about">About</a><a href="${prefix}privacy.html" data-i18n="privacy">Privacy</a><a href="${prefix}terms.html" data-i18n="terms">Terms</a><a href="${prefix}contact.html" data-i18n="contact">Contact</a>
 </span>
-<span>Autonomous agent se bana &middot; GitHub Actions pe chalta hai</span>
+<span data-i18n="made">Built by an autonomous agent · Runs on GitHub Actions</span>
 </div></div></footer>
 <button id="toTop" aria-label="Back to top">${strokeIcon("up")}</button>`;
 }
 
 function note() {
-  return `<div class="note" data-reveal>${strokeIcon("alert")}<p><b>Disclaimer:</b> Yeh independent information service hai &mdash; sarkari portal nahi. Apply karne se pehle official website par details aur last date zaroor verify karein.</p></div>`;
+  return `<div class="note" data-reveal>${strokeIcon("alert")}<p><b data-i18n="note_t">Disclaimer:</b><span data-i18n="note_b"> This is an independent information service &mdash; not a government portal. Always verify details and last date on the official website before applying.</span></p></div>`;
 }
 
 // ---------- reusable HTML builders ----------
@@ -459,7 +565,7 @@ function dlChip(e) {
   if (e.deadline) {
     return `<span class="dl-chip" data-dl="${e.deadline}">${strokeIcon("cal")}<span>${fmtDate(e.deadline)}</span><span class="dl-txt"></span></span>`;
   }
-  return `<span class="dl-chip">${strokeIcon("clock")}<span>Last date &mdash; portal check karo</span></span>`;
+  return `<span class="dl-chip">${strokeIcon("clock")}<span data-i18n="dl_none">Last date — check portal</span></span>`;
 }
 
 function cardHTML(e, rel = "") {
@@ -480,30 +586,30 @@ ${e.summary ? `<p class="op-s">${esc(e.summary)}</p>` : ""}
 function renderDetails(d) {
   if (!d) return "";
   let h = "";
-  const table = (title, rows, headers) =>
+  const table = (titleKey, titleDef, rows, headers) =>
     rows?.length
-      ? `<section class="d-sec" data-reveal><h3>${title}</h3>
+      ? `<section class="d-sec" data-reveal><h3 data-i18n="${titleKey}">${titleDef}</h3>
 <div class="twrap"><table class="d-table">
 ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr></thead>` : ""}
 <tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
 </table></div></section>`
       : "";
-  const pairs = (title, arr) =>
-    arr?.length ? table(title, arr.map((x) => [x.k, x.v])) : "";
+  const pairs = (titleKey, titleDef, arr) =>
+    arr?.length ? table(titleKey, titleDef, arr.map((x) => [x.k, x.v])) : "";
   if (d.summary && d.summary.length > 60) {
-    h += `<section class="d-sec" data-reveal><h3>Overview</h3><p class="d-sum">${esc(d.summary)}</p></section>`;
+    h += `<section class="d-sec" data-reveal><h3 data-i18n="overview">Overview</h3><p class="d-sum">${esc(d.summary)}</p></section>`;
   }
-  h += pairs("Important Dates", d.dates);
-  h += pairs("Application Fee", d.fee);
-  h += table("Vacancy Details", d.vacancy);
+  h += pairs("dates", "Important Dates", d.dates);
+  h += pairs("fee", "Application Fee", d.fee);
+  h += table("vacancy", "Vacancy Details", d.vacancy);
   if (d.ageLimit) {
-    h += `<section class="d-sec" data-reveal><h3>Age Limit</h3><p class="kv"><b>${esc(d.ageLimit)}</b></p></section>`;
+    h += `<section class="d-sec" data-reveal><h3 data-i18n="age">Age Limit</h3><p class="kv"><b>${esc(d.ageLimit)}</b></p></section>`;
   }
   if (d.payScale) {
-    h += `<section class="d-sec" data-reveal><h3>Pay Scale</h3><p class="kv"><b>${esc(d.payScale)}</b></p></section>`;
+    h += `<section class="d-sec" data-reveal><h3 data-i18n="pay">Pay Scale</h3><p class="kv"><b>${esc(d.payScale)}</b></p></section>`;
   }
   if (d.steps?.length) {
-    h += `<section class="d-sec" data-reveal><h3>How to Apply</h3><ol class="steps">${d.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol></section>`;
+    h += `<section class="d-sec" data-reveal><h3 data-i18n="howto">How to Apply</h3><ol class="steps">${d.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol></section>`;
   }
   return h;
 }
@@ -525,25 +631,26 @@ function detailBody(e, related) {
 <div class="d-meta"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span><span class="op-org">${esc(e.org || "Government of India")}</span></div>
 </div>
 <div class="info-grid">
-<div class="tile"><small>Last Date</small><b>${e.deadline ? fmtDate(e.deadline) : "&mdash; portal check karo"}</b>${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
-${e.amount ? `<div class="tile"><small>Benefit / Pay</small><b>${esc(String(e.amount))}</b></div>` : ""}
-<div class="tile"><small>Category</small><b>${L.hi || L.en}</b></div>
-<div class="tile"><small>Status</small><b>${statusLabel(e.status)}</b></div>
+<div class="tile"><small data-i18n="lastdate">Last Date</small><b>${e.deadline ? fmtDate(e.deadline) : "&mdash; check portal"}</b>${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
+${e.amount ? `<div class="tile"><small data-i18n="benefit">Benefit / Pay</small><b>${esc(String(e.amount))}</b></div>` : ""}
+<div class="tile"><small data-i18n="category">Category</small><b>${L.hi || L.en}</b></div>
+<div class="tile"><small data-i18n="status">Status</small><b data-i18n="${e.status === "closing_soon" ? "st_closing_l" : e.status === "closed" ? "st_closed_l" : "st_open_l"}">${statusLabel(e.status)}</b></div>
 </div>
 ${e.summary && !(e.details?.summary) ? `<p class="d-sum" data-reveal>${esc(e.summary)}</p>` : ""}
 ${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
 ${renderDetails(e.details)}
+${e.details?.links?.length ? `<section class="d-sec" data-reveal><h3 data-i18n="ulinks">Useful Links</h3><div class="ulinks-row">${e.details.links.map((l) => `<a class="btn btn-ghost" href="${esc(l.h)}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}${esc(l.t)}</a>`).join("")}</div></section>` : ""}
 <section class="cta-panel" data-reveal>
-<div><h3>Apply karna hai?</h3><p class="trust-line">${strokeIcon("shield")}Verified official government portal &mdash; direct apply link</p></div>
+<div><h3 data-i18n="cta_h">Ready to apply?</h3><p class="trust-line">${strokeIcon("shield")}<span data-i18n="cta_trust">Verified official government portal — direct apply link</span></p></div>
 <div class="cta-actions">
-<a class="btn btn-pri" href="${esc(e.official_link)}" target="_blank" rel="nofollow noopener">Official Portal ${strokeIcon("ext")}</a>
-<button class="btn btn-ghost" type="button" data-copy="${esc(url)}">${strokeIcon("link")}<span class="cp-l">Copy Link</span></button>
+<a class="btn btn-pri" href="${esc(e.official_link)}" target="_blank" rel="nofollow noopener"><span data-i18n="apply_btn">Official Portal</span> ${strokeIcon("ext")}</a>
+<button class="btn btn-ghost" type="button" data-copy="${esc(url)}">${strokeIcon("link")}<span class="cp-l" data-i18n="copy">Copy Link</span></button>
 <a class="btn btn-ghost wa" href="https://wa.me/?text=${shareTxt}" target="_blank" rel="noopener" aria-label="WhatsApp par share karo">${fillIcon("wa")}WhatsApp</a>
 <a class="btn btn-ghost tg" href="https://t.me/share/url?url=${shareUrl}&amp;text=${shareTxt}" target="_blank" rel="noopener" aria-label="Telegram par share karo">${fillIcon("tg")}Telegram</a>
 </div>
 </section>
 ${note()}
-${relCards ? `<section class="rel-sec"><h2>Isi category me aur bhi</h2><div class="grid">${relCards}</div></section>` : ""}
+${relCards ? `<section class="rel-sec"><h2 data-i18n="rel">More in this category</h2><div class="grid">${relCards}</div></section>` : ""}
 </main>
 ${footerHTML("../")}
 <script>${RUNTIME_JS}</script>`;
@@ -551,9 +658,23 @@ ${footerHTML("../")}
 
 // ---------- shared runtime JS (all pages; no template literals inside) ----------
 const RUNTIME_JS = `
+var LANGS_DATA=${JSON.stringify(LANGS)};
 (function(){
 var d=document;
 function $$all(s,r){return Array.prototype.slice.call((r||d).querySelectorAll(s));}
+var LANG=(localStorage.getItem('bna-lang')||'en');
+function D(){return LANGS_DATA[LANG]||LANGS_DATA.en;}
+function T(k){var s=D()[k];return s==null?(LANGS_DATA.en[k]||k):s;}
+function applyLang(){
+$$all('[data-i18n]').forEach(function(el){el.textContent=T(el.getAttribute('data-i18n'));});
+$$all('[data-i18n-ph]').forEach(function(el){el.setAttribute('placeholder',T(el.getAttribute('data-i18n-ph')));});
+d.documentElement.setAttribute('lang',LANG==='hi'?'hi':'en');
+var lb=d.getElementById('langBtn');
+if(lb)lb.textContent=LANG==='hi'?'हिं':(LANG==='hg'?'HIN':'EN');}
+window.BNA_LANG={get:function(){return LANG;},set:function(l){LANG=LANGS_DATA[l]?l:'en';try{localStorage.setItem('bna-lang',LANG);}catch(e){}applyLang();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();}};
+applyLang();
+var lb=d.getElementById('langBtn');
+if(lb){lb.addEventListener('click',function(){BNA_LANG.set(LANG==='en'?'hi':(LANG==='hi'?'hg':'en'));});}
 var tb=d.getElementById('themeBtn');
 if(tb){tb.addEventListener('click',function(){
 var t=d.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
@@ -574,22 +695,22 @@ if(el.getAttribute('data-done'))return;el.setAttribute('data-done','1');
 var v=el.getAttribute('data-dl');if(!v)return;
 var days=Math.round((pd(v).getTime()-new Date(new Date().setHours(0,0,0,0)).getTime())/86400000);
 var txt,tone;
-if(days<0){txt='date nikal gayi';tone='dl-off';}
-else if(days===0){txt='AAJ last date';tone='dl-bad';}
-else if(days<=3){txt=(days===1?'kal':days+' din')+' last date';tone='dl-bad';}
-else if(days<=10){txt=days+' din bache';tone='dl-warn';}
-else{txt=days+' din bache';tone='';}
+if(days<0){txt=T('chip_past');tone='dl-off';}
+else if(days===0){txt=T('chip_today');tone='dl-bad';}
+else if(days<=3){txt=(days===1?T('chip_tmw'):days+' '+T('chip_days'));tone='dl-bad';}
+else if(days<=10){txt=days+' '+T('chip_days');tone='dl-warn';}
+else{txt=days+' '+T('chip_days');tone='';}
 if(tone)el.classList.add(tone);
 var s=el.querySelector('.dl-txt');if(s)s.textContent=txt;
 if(el.hasAttribute('data-main')){
 var sub=d.getElementById('dl-sub');
-if(sub)sub.textContent=days<0?'Window close ho chuki hai':(days===0?'Aaj hi apply karo!':days+' din baaki hain');}});
+if(sub)sub.textContent=days<0?T('dl_past'):(days===0?T('dl_today'):days+' '+(days===1?T('dl_left1'):T('dl_left')));}});
 reveal(root);}
 window.BNA={enhance:enhance};
 enhance();
 $$all('[data-copy]').forEach(function(b){
-b.addEventListener('click',function(){var l=b.querySelector('.cp-l'),o=l?l.textContent:'';
-function ok(){if(l){l.textContent='Copy ho gaya';setTimeout(function(){l.textContent=o;},1600);}}
+b.addEventListener('click',function(){var l=b.querySelector('.cp-l'),o=T('copy');
+function ok(){if(l){l.textContent=T('copied');setTimeout(function(){l.textContent=o;},1600);}}
 try{navigator.clipboard.writeText(b.getAttribute('data-copy')).then(ok,ok);}catch(e){ok();}});});
 var tt=d.getElementById('toTop');
 if(tt){window.addEventListener('scroll',function(){tt.classList.toggle('show',window.scrollY>420);},{passive:true});
@@ -720,7 +841,7 @@ function dateGroupedCards(list) {
     const d = (e.first_seen || "").slice(0, 10);
     if (d !== last) {
       last = d;
-      const label = d === today ? "Aaj ke updates" : d === yest ? "Kal ke updates" : fmtDate(d) || "Purane updates";
+      const label = d === today ? `<span data-i18n="strip_today">Today's updates</span>` : d === yest ? `<span data-i18n="strip_yest">Yesterday's updates</span>` : fmtDate(d);
       out += `<div class="date-sep">${label}</div>`;
     }
     out += cardHTML(e);
@@ -744,40 +865,40 @@ export async function buildSite() {
   // ---- homepage ----
   const idxBody = `${header("")}
 <section class="hero"><div class="hero-in">
-<span class="hero-pill">${strokeIcon("shield")}Rozana auto-verify &middot; 100% free</span>
-<h1>Naukri · Scholarship · Exam · Yojana<br><em>sab ek jagah.</em></h1>
-<p class="hero-sub">Sarkari portals se rozana opportunities collect hoti hain, verify hokar yahan publish. Koi spam nahi &mdash; seedha jaankari.</p>
-<div class="search-wrap">${strokeIcon("search")}<input id="q" type="search" placeholder="Search karo: scholarship, SSC, yojana..." autocomplete="off" aria-label="Search opportunities"><span class="search-kbd">/</span></div>
+<span class="hero-pill">${strokeIcon("shield")}<span data-i18n="pill">Auto-verified daily &middot; 100% free</span></span>
+<h1><span data-i18n="t1">Jobs, Scholarships, Exams, Yojanas</span><br><em data-i18n="t2">all in one place.</em></h1>
+<p class="hero-sub" data-i18n="sub">Government opportunities collected and verified daily from official portals. No spam — straight information.</p>
+<div class="search-wrap">${strokeIcon("search")}<input id="q" type="search" placeholder="Search: scholarship, SSC, vacancy..." data-i18n-ph="search_ph" autocomplete="off" aria-label="Search opportunities"><span class="search-kbd">/</span></div>
 <div class="stats-row">
-<div class="stat"><b data-n="${stats.total}">0</b><small>Total tracked</small></div>
-<div class="stat"><b data-n="${stats.open}">0</b><small>Active abhi</small></div>
-<div class="stat stat-warn"><b data-n="${stats.closing}">0</b><small>Jald band honge</small></div>
+<div class="stat"><b data-n="${stats.total}">0</b><small data-i18n="st_total">Total tracked</small></div>
+<div class="stat"><b data-n="${stats.open}">0</b><small data-i18n="st_open">Active now</small></div>
+<div class="stat stat-warn"><b data-n="${stats.closing}">0</b><small data-i18n="st_closing">Closing soon</small></div>
 </div>
-<p class="hero-trust">${strokeIcon("zap")}Data rozana 2 baar update hota hai &middot; Git-backed permanent history</p>
+<p class="hero-trust">${strokeIcon("zap")}<span data-i18n="trust">Data updated twice daily &middot; Git-backed permanent history</span></p>
 </div></section>
 <main class="wrap page-top">
-<div class="sec-head"><h2>Aaj ke mauke</h2><span id="resCount" class="res-count">${entries.length} opportunities</span></div>
+<div class="sec-head"><h2 data-i18n="latest">Latest opportunities</h2><span id="resCount" class="res-count">${entries.length} opportunities</span></div>
 <div class="toolbar">
-<div class="chips" id="filters"><button class="chip on" data-f="all">All</button>${Object.entries(CAT_LABELS).map(([k, v]) => `<button class="chip" data-f="${k}">${v.en}</button>`).join("")}<button class="chip saved-chip" id="savedChip" data-f="__saved">Saved (0)</button></div>
+<div class="chips" id="filters"><button class="chip on" data-f="all" data-i18n="f_all">All</button>${Object.entries(CAT_LABELS).map(([k, v]) => `<button class="chip" data-f="${k}" data-i18n="cat_${k}">${v.en}</button>`).join("")}<button class="chip saved-chip" id="savedChip" data-f="__saved"><span data-i18n="saved">Saved</span> (<span id="savedCount">0</span>)</button></div>
 <div class="toolbar-right">
 <button id="profileBtn" class="tbtn-wide" aria-label="Meri eligibility set karo">${strokeIcon("target")}<span>Meri Eligibility</span></button>
-<div class="seg" id="seg"><button class="on" data-x="all">Sabhi</button><button data-x="open">Open</button><button data-x="closing">Closing</button></div>
-<select id="stateSel" aria-label="State filter"><option value="">Sabhi States</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
-<select id="qualSel" aria-label="Qualification filter"><option value="">Sabhi Qualification</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select>
-<select id="sortSel" aria-label="Sort opportunities"><option value="new">Naya pehle</option><option value="deadline">Deadline nazdeek</option></select>
+<div class="seg" id="seg"><button class="on" data-x="all" data-i18n="seg_all">All</button><button data-x="open" data-i18n="seg_open">Open</button><button data-x="closing" data-i18n="seg_closing">Closing</button></div>
+<select id="stateSel" aria-label="State filter"><option value="" data-i18n="sel_state">All States</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select>
+<select id="qualSel" aria-label="Qualification filter"><option value="" data-i18n="sel_qual">All Qualifications</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select>
+<select id="sortSel" aria-label="Sort opportunities"><option value="new" data-i18n="sort_new">Newest first</option><option value="deadline" data-i18n="sort_dl">Deadline soonest</option></select>
 </div></div>
 <div id="profPanel" class="prof-panel" hidden>
-<div><label for="profState">State</label><select id="profState"><option value="">Koi bhi</option><option value="ALL">All India</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select></div>
-<div><label for="profEdu">Qualification</label><select id="profEdu"><option value="">Koi bhi</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select></div>
+<div><label for="profState" data-i18n="prof_state">State</label><select id="profState"><option value="" data-i18n="prof_any">Any</option><option value="ALL" data-i18n="prof_all_india">All India</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select></div>
+<div><label for="profEdu" data-i18n="prof_qual">Qualification</label><select id="profEdu"><option value="" data-i18n="prof_any">Any</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select></div>
 <div style="display:flex;gap:8px;align-self:end">
-<button id="profSave" class="btn btn-pri">Save Profile</button>
-<button id="profClear" class="btn btn-ghost">Clear</button>
+<button id="profSave" class="btn btn-pri" data-i18n="prof_save">Save Profile</button>
+<button id="profClear" class="btn btn-ghost" data-i18n="prof_clear">Clear</button>
 </div>
-<p class="prof-hint">Profile save karne ke baad sirf tumhare eligible jobs highlight honge — filter har visit pe apne aap lag jayega.</p>
+<p class="prof-hint" data-i18n="prof_hint">Save your eligibility once — only jobs matching your profile stay highlighted on every visit.</p>
 </div>
 <div class="grid" id="list">${dateGroupedCards([...entries].sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "")).slice(0, 60))}</div>
 <div class="grid" id="skels" hidden>${SKEL_CARDS}</div>
-<div class="empty" id="empty" hidden>${strokeIcon("search")}<p>Kuch nahi mila. Doosra keyword try karo ya filter hata do.</p></div>
+<div class="empty" id="empty" hidden>${strokeIcon("search")}<p data-i18n="empty_list">Nothing found. Try another keyword or clear the filters.</p></div>
 ${note()}
 </main>
 ${footerHTML("")}
@@ -806,13 +927,13 @@ ${footerHTML("")}
 <nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<span>${labels.en}</span></nav>
 <h1 class="page-h">${labels.en} <span class="cnt-badge">${list.length}</span></h1>
 <p class="page-sub">${labels.hi} &mdash; rozana auto-update hota hai.</p>
-${list.length ? `<div class="grid">${list.map((e) => cardHTML(e, "../")).join("")}</div>` : `<div class="empty">${strokeIcon("search")}<p>Abhi kuch nahi hai. Jald update hoga.</p></div>`}
+${list.length ? `<div class="grid">${list.map((e) => cardHTML(e, "../")).join("")}</div>` : `<div class="empty">${strokeIcon("search")}<p data-i18n="empty_cat">Nothing here yet. Updates coming soon.</p></div>`}
 ${note()}
 </main>
 ${footerHTML("../")}
 <script>${RUNTIME_JS}</script>`;
     await writeFile(`category/${cat}.html`, layout({
-      title: `${labels.en} — Bharat Naukri Alert`,
+      title: `${labels.en} `,
       desc: `Latest government ${labels.en.toLowerCase()} with deadlines, auto-updated daily.`,
       canonical: `${SITE_URL}/category/${cat}.html`,
       body,
@@ -832,14 +953,14 @@ ${footerHTML("../")}
 <main class="wrap page-top">
 <nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<span>${st}</span></nav>
 <h1 class="page-h">${st} Sarkari Jobs <span class="cnt-badge">${tagged.length}</span></h1>
-<p class="page-sub">${st} ke liye latest government jobs, exams aur updates &mdash; rozana auto-update.</p>
+<p class="page-sub">${st} government jobs &amp; updates <span data-i18n="sub_state">— updated twice daily, automatically.</span></p>
 <div class="grid">${tagged.map((e) => cardHTML(e, "../")).join("")}</div>
 ${note()}
 </main>
 ${footerHTML("../")}
 <script>${RUNTIME_JS}</script>`;
     await writeFile(`state/${slug(st)}.html`, layout({
-      title: `${st} Sarkari Naukri 2026 — Latest Govt Jobs & Updates | Bharat Naukri Alert`,
+      title: `${st} Sarkari Naukri 2026 — Latest Govt Jobs & Updates`,
       desc: `${st} government job alerts: ${tagged.length} active opportunities with official links and deadlines. Rozana update hota hai.`,
       canonical: `${SITE_URL}/state/${slug(st)}.html`,
       body,
@@ -850,36 +971,36 @@ ${footerHTML("../")}
   // ---- static pages ----
   const staticPages = {
     "about.html": {
-      title: "About — Bharat Naukri Alert",
+      title: "About ",
       h: "About",
       html: `<p><b>Bharat Naukri Alert</b> ek autonomous Indian opportunity tracker hai — scholarships, exams, jobs aur sarkari schemes sab ek jagah.</p>
-<p>Hum rozana do baar multiple trusted sources ko scan karte hain, har entry verify karke structured database me store karte hain, aur yahan publish karte hain. Har listing ka link seedha <b>official government portal</b> par jaata hai.</p>
-<h2>Ye kaise chalta hai?</h2>
-<ul><li>GitHub Actions pe autonomous scrape pipeline (rozana 2x)</li><li>Multi-source verification + quarantine gate</li><li>Git-backed permanent history — kabhi kuch delete nahi hota</li><li>100% free, no ads spam</li></ul>
-<h2>Contact</h2><p>GitHub repository ke issues section se ya email se sampark karo.</p>`,
+<p>Twice a day we scan multiple trusted sources, verify every entry into a structured database and publish it here. Every listing links directly to the <b>official government portal</b>.</p>
+<h2>How it works</h2>
+<ul><li>GitHub Actions pe autonomous scrape pipeline (rozana 2x)</li><li>Multi-source verification + quarantine gate</li><li>Git-backed permanent history — kabhi kuch delete nahi hota</li><li>100% free, no ad spam</li></ul>
+<h2>Contact</h2><p>Reach us via the GitHub repository issues or the Telegram channel.</p>`,
     },
     "privacy.html": {
-      title: "Privacy Policy — Bharat Naukri Alert",
+      title: "Privacy Policy ",
       h: "Privacy Policy",
       html: `<p>Yeh website aapka koi personal data collect nahi karti. Sab features (saved jobs, eligibility profile, theme preference) <b>aapke browser ke localStorage</b> me hi rehte hain — server par kuch bhi upload nahi hota.</p>
-<h2>Cookies/Tracking</h2><p>Koi tracking cookies nahi. Future me analytics ya ads add hone par ye page update hogi.</p>
-<h2>Third-party links</h2><p>Job listings official government portals par le jaati hain. Un sites ki privacy policies unki zimmedari hai.</p>`,
+<h2>Cookies/Tracking</h2><p>No tracking cookies. If analytics or ads are added in the future, this page will be updated.</p>
+<h2>Third-party links</h2><p>Job listings link out to official government portals. Their privacy policies apply on those sites.</p>`,
     },
     "terms.html": {
-      title: "Terms of Use — Bharat Naukri Alert",
+      title: "Terms of Use ",
       h: "Terms of Use",
       html: `<p>Bharat Naukri Alert ek independent information service hai — Government of India ka official portal nahi hai.</p>
-<h2>Accuracy</h2><p>Information automated sources se aati hai aur verify ki jaati hai, phir bhi apply karne se pehle hamesha official portal par details confirm karein. Deadlines aur details badal sakti hain.</p>
-<h2>Liability</h2><p>Kisi bhi decision ke liye is website ke content par sole reliance ka result site zimmedar nahi hai. Use at your own discretion.</p>`,
+<h2>Accuracy</h2><p>Information comes from automated sources and is verified, but always confirm details on the official portal before applying. Deadlines and details may change.</p>
+<h2>Liability</h2><p>We are not liable for decisions made solely based on content from this website. Use at your own discretion.</p>`,
     },
     "contact.html": {
-      title: "Contact — Bharat Naukri Alert",
+      title: "Contact ",
       h: "Contact",
-      html: `<p>Koi sawal, suggestion ya galat listing mili? Hume batayein:</p>
-<ul><li>Telegram channel par message karo${SITE_CONFIG.telegramUrl ? `: <a href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener">${esc(SITE_CONFIG.telegramUrl)}</a>` : ""}</li>
-<li>GitHub repo me issue kholo${REPO_URL ? `: <a href="${REPO_URL}" target="_blank" rel="noopener">Issues</a>` : ""}</li>
+      html: `<p>Questions, suggestions or a wrong listing? Let us know:</p>
+<ul><li>Message on the Telegram channel${SITE_CONFIG.telegramUrl ? `: <a href="${esc(SITE_CONFIG.telegramUrl)}" target="_blank" rel="noopener">${esc(SITE_CONFIG.telegramUrl)}</a>` : ""}</li>
+<li>Open an issue on GitHub${REPO_URL ? `: <a href="${REPO_URL}" target="_blank" rel="noopener">Issues</a>` : ""}</li>
 ${SITE_CONFIG.contactEmail ? `<li>Email: ${esc(SITE_CONFIG.contactEmail)}</li>` : ""}</ul>
-<p>Feedback welcome hai!</p>`,
+<p>Feedback is welcome!</p>`,
     },
   };
   for (const [file, p] of Object.entries(staticPages)) {
@@ -892,7 +1013,7 @@ ${note()}
 </div></main>
 ${footerHTML("")}
 <script>${RUNTIME_JS}</script>`;
-    await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} — Bharat Naukri Alert`, canonical: `${SITE_URL}/${file}`, body }));
+    await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} `, canonical: `${SITE_URL}/${file}`, body }));
     pages++;
   }
 
@@ -900,7 +1021,7 @@ ${footerHTML("")}
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
-      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"} | Bharat Naukri Alert`,
+      title: `${e.title.slice(0, 60)} — Last date ${e.deadline || "check portal"}`,
       desc: (e.summary || `${e.title} by ${e.org}. Check deadline and apply.`).slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`,
       body: detailBody(e, related),

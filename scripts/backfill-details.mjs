@@ -3,7 +3,7 @@ import process from "node:process";
 import { pathToFileURL } from "node:url";
 import { readDB, writeDB } from "../lib/store.js";
 import { resolveOfficialLink } from "../lib/official-link.js";
-import { parseDetailHtml, isSparseDetails } from "../lib/detail-parse.js";
+import { parseDetailHtml, isSparseDetails, scrubSummary } from "../lib/detail-parse.js";
 import { fetchText } from "../lib/http.js";
 
 const SOURCES_FILE = path.resolve("sources/sources.json");
@@ -59,4 +59,41 @@ for (const src of aggSources) {
 }
 
 await writeDB(db);
-console.log(`done. enriched: ${enriched}/${targets.length}, detail pages fetched: ${fetched}`);
+console.log(`pass1 done. enriched: ${enriched}/${targets.length}, detail pages fetched: ${fetched}`);
+
+// ---- pass 2: non-aggregator entries (upsc/sbi/nsp) + summary sanitize ----
+const pass2 = db.opportunities.filter(
+  (o) => !o.source?.startsWith("agg-") && isSparseDetails(o.details) && o.official_link && !/\.pdf$/i.test(o.official_link)
+);
+console.log(`pass2 targets: ${pass2.length} direct-official entries`);
+let enriched2 = 0;
+for (const entry of pass2.slice(0, Number(process.env.BACKFILL_MAX2 ?? 40))) {
+  await sleep(400);
+  try {
+    const html = await fetchText(entry.official_link, { timeoutMs: 12000, retries: 0 });
+    const parsed = parseDetailHtml(html);
+    if (parsed && !isSparseDetails(parsed)) {
+      entry.details = parsed;
+      if (parsed.summary && (!entry.summary || entry.summary.length < 60)) entry.summary = scrubSummary(parsed.summary).slice(0, 280);
+      if (parsed.education?.length && entry.eligibility) {
+        entry.eligibility.education = [...new Set([...(entry.eligibility.education || []), ...parsed.education])];
+      }
+      enriched2++;
+      console.log(`+ ${entry.title.slice(0, 55)} [dates:${parsed.dates.length} vac:${parsed.vacancy.length} fee:${parsed.fee.length}]`);
+    }
+  } catch {}
+}
+
+// sanitize all summaries
+let cleaned = 0;
+for (const o of db.opportunities) {
+  if (o.summary) {
+    const s = scrubSummary(o.summary);
+    if (s !== o.summary) {
+      o.summary = s;
+      cleaned++;
+    }
+  }
+}
+await writeDB(db);
+console.log(`done. pass2 enriched: ${enriched2}/${Math.min(pass2.length, 40)}, summaries sanitized: ${cleaned}`);

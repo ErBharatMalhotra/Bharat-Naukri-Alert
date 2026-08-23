@@ -4,7 +4,8 @@ import { readDB, writeDB, archiveSnapshot, mergeIntoDB } from "../lib/store.js";
 import { extractEntry, heuristicEntry } from "../lib/extract.js";
 import { providerStatus } from "../lib/llm.js";
 import { resolveOfficialLink } from "../lib/official-link.js";
-import { parseDetailHtml } from "../lib/detail-parse.js";
+import { parseDetailHtml, isSparseDetails } from "../lib/detail-parse.js";
+import { fetchText } from "../lib/http.js";
 
 const STATE_HINTS = [
   [/uttar pradesh|\bup\b/, "Uttar Pradesh"],
@@ -69,8 +70,10 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
   const seenTitles = new Set(db.opportunities.map((o) => normTitle(o.title)));
   const llmBudget = Number(process.env.LLM_MAX_CALLS ?? 8);
   const resolveMax = Number(process.env.RESOLVE_MAX ?? 25);
+  const detailMax = Number(process.env.DETAIL_FETCH_MAX ?? 15);
   let llmUsed = 0;
-  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0 };
+  let detailFetched = 0;
+  const report = { started_at: new Date().toISOString(), sources: [], total_added: 0, total_updated: 0, llm_calls: 0, resolved: 0, detail_fetches: 0 };
 
   for (const src of sources) {
     const srcReport = { id: src.id, raws: 0, added: 0, updated: 0, skipped_known: 0, dupes: 0, no_official: 0, errors: [] };
@@ -140,14 +143,29 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
         }
         seenTitles.add(nkey);
 
-        const attachDetails = (entry) => {
-          if (!detailHtml || !entry) return entry;
-          const parsed = parseDetailHtml(detailHtml);
+        const attachDetails = async (entry) => {
+          if (!entry) return entry;
+          let parsed = null;
+          if (detailHtml) {
+            parsed = parseDetailHtml(detailHtml);
+          } else if (!src.resolve_official && detailFetched < detailMax && !/\.pdf$/i.test(entry.official_link || "")) {
+            detailFetched++;
+            report.detail_fetches = (report.detail_fetches || 0) + 1;
+            try {
+              const html2 = await fetchText(entry.official_link, { timeoutMs: 12000, retries: 0 });
+              parsed = parseDetailHtml(html2);
+              if (isSparseDetails(parsed)) parsed = null;
+            } catch {}
+          }
           if (parsed) {
             entry.details = parsed;
-            if (parsed.summary && !entry.summary) entry.summary = parsed.summary.slice(0, 280);
+            if (parsed.summary && (!entry.summary || entry.summary.length < 60)) entry.summary = parsed.summary.slice(0, 280);
             if (parsed.education?.length && entry.eligibility) {
               entry.eligibility.education = [...new Set([...(entry.eligibility.education || []), ...parsed.education])];
+            }
+            if ((entry.eligibility?.states || []).every((s) => s === "ALL")) {
+              const tagged = statesFromTitle(entry.title);
+              if (tagged.length) entry.eligibility.states = tagged;
             }
           }
           return entry;
@@ -158,7 +176,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
         if (heur && heur.deadline) {
           const tagged = statesFromTitle(heur.title);
           if (tagged.length) heur.eligibility.states = tagged;
-          entries.push(attachDetails(heur));
+          entries.push(await attachDetails(heur));
           continue;
         }
         if (providerStatus().any && llmUsed < llmBudget) {
@@ -170,12 +188,12 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
               const tagged = statesFromTitle(enriched.title);
               if (tagged.length) enriched.eligibility.states = tagged;
             }
-            entries.push(attachDetails(enriched));
+            entries.push(await attachDetails(enriched));
           }
         } else if (heur) {
           const tagged = statesFromTitle(heur.title);
           if (tagged.length) heur.eligibility.states = tagged;
-          entries.push(attachDetails(heur));
+          entries.push(await attachDetails(heur));
         }
       }
       for (const e of entries) knownLinks.add(e.official_link);
