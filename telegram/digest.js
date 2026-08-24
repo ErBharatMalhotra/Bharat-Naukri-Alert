@@ -7,7 +7,7 @@ const db = await readDB();
 const state = await readState();
 
 const lastDigest = state.last_digest_date || "";
-const fresh = db.opportunities.filter((e) => (e.first_seen || "").slice(0, 10) >= (lastDigest || dateStr));
+const fresh = db.opportunities.filter((e) => (e.first_seen || "").slice(0, 10) > (lastDigest || dateStr));
 const closing = db.opportunities.filter((e) => e.status === "closing_soon");
 const digestEntries = [...new Map([...fresh, ...closing].map((e) => [e.id, e])).values()].slice(0, 8);
 
