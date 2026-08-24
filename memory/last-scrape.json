@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-24T04:12:12.310Z",
+  "started_at": "2026-08-24T16:03:49.254Z",
   "sources": [
     {
       "id": "agg-sarkariresult",
@@ -18,22 +18,22 @@
     {
       "id": "agg-freejobalert",
       "raws": 60,
-      "added": 0,
+      "added": 10,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 40,
+      "dupes": 30,
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 48
+      "matched": 47
     },
     {
       "id": "agg-rojgarresult",
       "raws": 60,
-      "added": 1,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 39,
+      "dupes": 37,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -42,14 +42,14 @@
     {
       "id": "agg-sarkarijobfind",
       "raws": 60,
-      "added": 0,
+      "added": 3,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 40,
+      "dupes": 37,
       "no_official": 0,
       "junk": 1,
       "errors": [],
-      "matched": 49
+      "matched": 48
     },
     {
       "id": "agg-sarkariujala",
@@ -91,23 +91,25 @@
     },
     {
       "id": "nsp",
-      "raws": 5,
+      "raws": 0,
       "added": 0,
       "updated": 0,
-      "skipped_known": 5,
+      "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 5
+      "errors": [
+        "https://scholarships.gov.in: fetch failed"
+      ],
+      "matched": 0
     }
   ],
-  "total_added": 1,
+  "total_added": 15,
   "total_updated": 0,
-  "llm_calls": 2,
-  "resolved": 25,
+  "llm_calls": 9,
+  "resolved": 36,
   "detail_fetches": 0,
-  "editor_notes": 1,
-  "finished_at": "2026-08-24T04:13:39.749Z",
-  "db_size": 166
+  "editor_notes": 6,
+  "finished_at": "2026-08-24T16:09:19.866Z",
+  "db_size": 180
 }
