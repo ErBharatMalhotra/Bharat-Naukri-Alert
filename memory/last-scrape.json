@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-26T11:42:47.917Z",
+  "started_at": "2026-08-26T11:57:44.682Z",
   "sources": [
     {
       "id": "src-01",
@@ -87,24 +87,21 @@
       "junk": 0,
       "errors": [
         "src-07: fetch failed",
-        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 408"
+        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 522"
       ],
       "matched": 0
     },
     {
       "id": "src-08",
-      "raws": 0,
+      "raws": 5,
       "added": 0,
       "updated": 0,
-      "skipped_known": 0,
+      "skipped_known": 5,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "src-08: fetch failed",
-        "src-08: proxy fallback failed — all proxies failed for src-08: proxy HTTP 522"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 5
     },
     {
       "id": "src-11",
@@ -121,10 +118,10 @@
     {
       "id": "src-13",
       "raws": 35,
-      "added": 4,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 0,
+      "dupes": 6,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -155,12 +152,12 @@
       "matched": 28
     }
   ],
-  "total_added": 4,
+  "total_added": 2,
   "total_updated": 0,
-  "llm_calls": 4,
+  "llm_calls": 2,
   "resolved": 40,
   "detail_fetches": 0,
-  "editor_notes": 4,
-  "finished_at": "2026-08-26T11:46:17.497Z",
-  "db_size": 228
+  "editor_notes": 2,
+  "finished_at": "2026-08-26T12:00:22.489Z",
+  "db_size": 230
 }
