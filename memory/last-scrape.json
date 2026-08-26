@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-26T11:42:47.917Z",
+  "started_at": "2026-08-26T16:35:59.552Z",
   "sources": [
     {
       "id": "src-01",
@@ -31,26 +31,26 @@
     {
       "id": "src-03",
       "raws": 60,
-      "added": 0,
+      "added": 1,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 40,
+      "dupes": 39,
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 55
+      "matched": 54
     },
     {
       "id": "src-04",
       "raws": 60,
-      "added": 0,
+      "added": 6,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 40,
+      "dupes": 34,
       "no_official": 0,
       "junk": 1,
       "errors": [],
-      "matched": 49
+      "matched": 47
     },
     {
       "id": "src-05",
@@ -59,7 +59,7 @@
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
-      "no_official": 2,
+      "no_official": 0,
       "junk": 0,
       "errors": [],
       "matched": 2
@@ -87,24 +87,21 @@
       "junk": 0,
       "errors": [
         "src-07: fetch failed",
-        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 408"
+        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 522"
       ],
       "matched": 0
     },
     {
       "id": "src-08",
-      "raws": 0,
+      "raws": 5,
       "added": 0,
       "updated": 0,
-      "skipped_known": 0,
+      "skipped_known": 5,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "src-08: fetch failed",
-        "src-08: proxy fallback failed — all proxies failed for src-08: proxy HTTP 522"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 5
     },
     {
       "id": "src-11",
@@ -121,10 +118,10 @@
     {
       "id": "src-13",
       "raws": 35,
-      "added": 4,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 0,
+      "dupes": 6,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -132,7 +129,7 @@
     },
     {
       "id": "src-14",
-      "raws": 20,
+      "raws": 22,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
@@ -140,7 +137,7 @@
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 20
+      "matched": 22
     },
     {
       "id": "src-15",
@@ -155,12 +152,12 @@
       "matched": 28
     }
   ],
-  "total_added": 4,
+  "total_added": 7,
   "total_updated": 0,
-  "llm_calls": 4,
+  "llm_calls": 10,
   "resolved": 40,
   "detail_fetches": 0,
-  "editor_notes": 4,
-  "finished_at": "2026-08-26T11:46:17.497Z",
-  "db_size": 228
+  "editor_notes": 6,
+  "finished_at": "2026-08-26T16:42:17.373Z",
+  "db_size": 237
 }
