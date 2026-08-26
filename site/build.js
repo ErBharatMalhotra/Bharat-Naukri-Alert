@@ -31,7 +31,7 @@ const STATES = [
 const LANGS = {
   en: {
     home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
-    cat_admit_card: "Admit Cards", cat_result: "Results",
+    "cat_admit-card": "Admit Cards", cat_result: "Results",
     pill: "Verified daily by our team · 100% free", t1: "Jobs, Scholarships, Exams, Yojanas", t2: "all in one place.",
     sub: "Government opportunities checked and verified daily from official portals. No spam — straight information.",
     search_ph: "Search: scholarship, SSC, vacancy...", st_total: "Total tracked", st_open: "Active now", st_closing: "Closing soon",
@@ -64,7 +64,7 @@ const LANGS = {
   },
   hi: {
     home: "होम", cat_scholarship: "छात्रवृत्तियाँ", cat_exam: "परीक्षाएँ", cat_job: "नौकरियाँ", cat_scheme: "योजनाएँ",
-    cat_admit_card: "एडमिट कार्ड", cat_result: "परिणाम",
+    "cat_admit-card": "एडमिट कार्ड", cat_result: "परिणाम",
     pill: "रोज़ाना हमारी टीम वेरिफ़ाई करती है · 100% मुफ़्त", t1: "नौकरी, छात्रवृत्ति, परीक्षा, योजना", t2: "सब एक जगह।",
     sub: "सरकारी पोर्टल से रोज़ाना अवसर इकट्ठा और सत्यापित होते हैं। कोई स्पैम नहीं — सीधी जानकारी।",
     search_ph: "खोजें: scholarship, SSC, योजना...", st_total: "कुल tracked", st_open: "सक्रिय अभी", st_closing: "जल्द बंद होंगे",
@@ -97,7 +97,7 @@ const LANGS = {
   },
   hg: {
     home: "Home", cat_scholarship: "Scholarships", cat_exam: "Exams", cat_job: "Jobs", cat_scheme: "Schemes",
-    cat_admit_card: "Admit Cards", cat_result: "Results",
+    "cat_admit-card": "Admit Cards", cat_result: "Results",
     pill: "Rozana team verify karti hai · 100% free", t1: "Naukri, Scholarship, Exam, Yojana", t2: "sab ek jagah.",
     sub: "Sarkari portals se rozana opportunities check hoti hain, verify hokar yahan publish. Koi spam nahi — seedha jaankari.",
     search_ph: "Search karo: scholarship, SSC, yojana...", st_total: "Total tracked", st_open: "Active abhi", st_closing: "Jald band honge",
