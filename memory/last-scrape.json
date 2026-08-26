@@ -1,25 +1,28 @@
 {
-  "started_at": "2026-08-26T07:27:52.921Z",
+  "started_at": "2026-08-26T10:49:08.034Z",
   "sources": [
     {
       "id": "src-01",
-      "raws": 60,
-      "added": 3,
+      "raws": 0,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 31,
+      "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 57
+      "errors": [
+        "src-01: HTTP 403 for src-01",
+        "src-01: fetched via proxy fallback"
+      ],
+      "matched": 0
     },
     {
       "id": "src-02",
       "raws": 60,
-      "added": 0,
+      "added": 16,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 17,
+      "dupes": 24,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -28,10 +31,10 @@
     {
       "id": "src-03",
       "raws": 60,
-      "added": 0,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 30,
+      "dupes": 37,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -40,10 +43,10 @@
     {
       "id": "src-04",
       "raws": 60,
-      "added": 0,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 23,
+      "dupes": 25,
       "no_official": 0,
       "junk": 1,
       "errors": [],
@@ -75,15 +78,18 @@
     },
     {
       "id": "src-07",
-      "raws": 29,
-      "added": 1,
+      "raws": 0,
+      "added": 0,
       "updated": 0,
-      "skipped_known": 14,
+      "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 15
+      "errors": [
+        "src-07: fetch failed",
+        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 522"
+      ],
+      "matched": 0
     },
     {
       "id": "src-08",
@@ -100,14 +106,14 @@
     {
       "id": "src-11",
       "raws": 19,
-      "added": 13,
+      "added": 2,
       "updated": 0,
-      "skipped_known": 1,
+      "skipped_known": 11,
       "dupes": 0,
       "no_official": 0,
-      "junk": 0,
+      "junk": 1,
       "errors": [],
-      "matched": 14
+      "matched": 13
     },
     {
       "id": "src-13",
@@ -123,7 +129,7 @@
     },
     {
       "id": "src-14",
-      "raws": 22,
+      "raws": 20,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
@@ -131,11 +137,11 @@
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 22
+      "matched": 20
     },
     {
       "id": "src-15",
-      "raws": 30,
+      "raws": 33,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
@@ -143,15 +149,15 @@
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 25
+      "matched": 28
     }
   ],
-  "total_added": 17,
+  "total_added": 22,
   "total_updated": 0,
-  "llm_calls": 0,
-  "resolved": 6,
+  "llm_calls": 9,
+  "resolved": 40,
   "detail_fetches": 2,
-  "editor_notes": 0,
-  "finished_at": "2026-08-26T07:28:29.779Z",
-  "db_size": 203
+  "editor_notes": 6,
+  "finished_at": "2026-08-26T10:52:41.958Z",
+  "db_size": 222
 }
