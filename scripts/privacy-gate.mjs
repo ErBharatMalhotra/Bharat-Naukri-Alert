@@ -5,8 +5,14 @@ import { loadAllSources, aggDomainsSync } from "../lib/runtime-config.js";
 // Privacy gate — fails if any portal domain from the private config appears
 // in public files (data, memory, site/dist). Names themselves stay in config.
 
-await loadAllSources();
-const doms = [...(aggDomainsSync() || [])];
+let doms = [];
+try {
+  await loadAllSources();
+  doms = [...(aggDomainsSync() || [])];
+} catch {
+  console.log("PRIVACY GATE SKIPPED — sources config unavailable (set SOURCES_JSON or local sources.json)");
+  process.exit(0);
+}
 
 if (!doms.length) {
   console.log("PRIVACY GATE SKIPPED — no domains configured");

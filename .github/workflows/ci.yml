@@ -22,4 +22,6 @@ jobs:
       - name: Run test suite
         run: node tests/run.js
       - name: Privacy gate (no portal names in public files)
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
         run: node scripts/privacy-gate.mjs
