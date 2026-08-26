@@ -2,6 +2,9 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { scrubSummary, scrubSummaryWithEntry, scrubTitle, isStepLike } from "../lib/detail-parse.js";
+import { loadAllSources } from "../lib/runtime-config.js";
+
+await loadAllSources();
 import { parseDateFlexible, extractDeadlineRange, extractDeadlineText } from "../lib/extract.js";
 
 const DB = path.join(process.cwd(), "data", "opportunities.json");

@@ -246,7 +246,9 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
               if (tagged.length) entry.eligibility.states = tagged;
             }
           }
-          return await addEditorNote(entry);
+          const finalEntry = await addEditorNote(entry);
+          deepScrub(finalEntry);
+          return finalEntry;
         };
 
         const heur = heuristicEntry(workRaw, src);
