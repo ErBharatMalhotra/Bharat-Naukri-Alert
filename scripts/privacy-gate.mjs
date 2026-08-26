@@ -1,9 +1,21 @@
 import fs from "node:fs";
 import path from "node:path";
+import { loadAllSources, aggDomainsSync } from "../lib/runtime-config.js";
 
-const NAMES = /sarkariresult|freejobalert|rojgarresult|sarkarijobfind|sarkariujala|govtjobsalert|mysarkarinaukri|sarkarijobs\.com/i;
+// Privacy gate — fails if any portal domain from the private config appears
+// in public files (data, memory, site/dist). Names themselves stay in config.
+
+await loadAllSources();
+const doms = [...(aggDomainsSync() || [])];
+
+if (!doms.length) {
+  console.log("PRIVACY GATE SKIPPED — no domains configured");
+  process.exit(0);
+}
+
+const NAMES = new RegExp(doms.map((d) => String(d).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "i");
+
 let leaks = [];
-
 function scan(dir) {
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, ent.name);
@@ -20,4 +32,4 @@ scan("data");
 scan("memory");
 scan("site/dist");
 
-console.log(leaks.length ? `LEAKS (${leaks.length}):\n` + leaks.slice(0, 15).join("\n") : "PRIVACY GATE PASSED — 0 portal-name leaks in data + memory + site/dist");
+console.log(leaks.length ? `LEAKS (${leaks.length}):\n` + leaks.slice(0, 15).join("\n") : `PRIVACY GATE PASSED — 0 leaks across ${doms.length} monitored domains`);

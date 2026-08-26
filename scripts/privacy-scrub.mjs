@@ -1,26 +1,24 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { loadAllSources } from "../lib/runtime-config.js";
-import { cleanPrivacyText, deepScrub, deepScrubKeys, prunePrivate, OLD_PREFIX_MAP } from "../lib/privacy.js";
+import { cleanPrivacyText, deepScrub, deepScrubKeys, prunePrivate, legacyIdToSourceId } from "../lib/privacy.js";
 import { orgFromTitle, resolveOrg } from "../lib/org-detect.js";
 
 // One-time / repeatable DB sanitizer: neutralizes source ids, strips portal
 // names/URLs from every string, drops private fields. Safe to re-run.
+// All name-bearing literals come from the private sources config.
 
-const ID_MAP = {
-  "agg-sarkariresult": "src-01",
-  "agg-freejobalert": "src-02",
-  "agg-rojgarresult": "src-03",
-  "agg-sarkarijobfind": "src-04",
-  "agg-sarkariujala": "src-05",
-  sarkariujala: "src-05",
-  sbi: "src-06",
-  upsc: "src-07",
-  nsp: "src-08",
-};
-
-const AGG_ORGS = new Set(["FreeJobAlert", "Sarkari Result", "Rojgar Result", "Sarkari Job Find", "Sarkari Ujala"]);
 const GOV_HOST_RE = /\.(?:gov|nic)\.in$|^sbi\.co\.in$|^ibps\.in$/;
+
+let ID_MAP = {};
+let AGG_ORGS = new Set();
+
+function initMaps() {
+  ID_MAP = legacyIdToSourceId();
+  return loadAllSources().then((all) => {
+    AGG_ORGS = new Set(all.map((s) => String(s.name || "").trim()).filter(Boolean));
+  });
+}
 
 function govOnlyUrls(urls = []) {
   return (urls || []).filter((u) => {
@@ -82,6 +80,7 @@ async function scrubFile(file) {
 }
 
 await loadAllSources();
+await initMaps();
 
 const targets = ["data/opportunities.json", "data/redirects.json"];
 async function walk(dir) {
@@ -104,4 +103,4 @@ for (const t of targets) {
     console.error(`${t}: ${err.message}`);
   }
 }
-console.log(`done — ${total} changes across ${targets.length} files (map: ${Object.keys(OLD_PREFIX_MAP).length} legacy prefixes known)`);
+console.log(`done — ${total} changes across ${targets.length} files`);
