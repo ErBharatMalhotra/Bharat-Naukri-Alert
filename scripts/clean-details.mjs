@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { scrubSummary, scrubTitle, isStepLike } from "../lib/detail-parse.js";
+import { scrubSummary, scrubSummaryWithEntry, scrubTitle, isStepLike } from "../lib/detail-parse.js";
 import { parseDateFlexible, extractDeadlineRange, extractDeadlineText } from "../lib/extract.js";
 
 const DB = path.join(process.cwd(), "data", "opportunities.json");
@@ -71,18 +71,19 @@ for (const e of db.opportunities) {
 
   if (Array.isArray(d.fee) && d.fee.length) {
     const before = d.fee.length;
+    d.fee = d.fee.filter((f) => !/^(?:and|for|the|or|of|in|with|all|per)$/i.test(String(f.k || "").trim()));
     d.fee = d.fee.filter((f) => /fee/i.test(f.k) || /(?:rs|₹|inr)|\/\s*-|[.,]\d{2}\b/i.test(f.v));
     if (d.fee.length !== before) sumsCleaned++;
   }
 
   for (const key of ["summary"]) {
-    if (d[key]) { const s = scrubSummary(d[key]); if (s !== d[key]) { d[key] = s; sumsCleaned++; } }
+    if (d[key]) { const s = scrubSummaryWithEntry(d[key], e.title); if (s !== d[key]) { d[key] = s; sumsCleaned++; } }
   }
-  if (e.summary) e.summary = scrubSummary(e.summary);
+  if (e.summary) e.summary = scrubSummaryWithEntry(e.summary, e.title);
   if (e.editor_note) e.editor_note = scrubSummary(e.editor_note);
 
   if ((!e.summary || e.summary.length < 60) && d.summary && d.summary.length > e.summary?.length) {
-    const s = scrubSummary(d.summary).slice(0, 240);
+    const s = scrubSummaryWithEntry(d.summary, e.title).slice(0, 240);
     if (s.length >= 60) { e.summary = s; sumsCleaned++; }
   }
 
