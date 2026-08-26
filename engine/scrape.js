@@ -54,6 +54,7 @@ const JUNK_COMMA_SARKARI = /\bsarkari\b.*\bsarkari\b.*\bsarkari\b/i;
 function isJunkTitle(title = "") {
   const t = String(title).trim();
   if (t.length < 12) return true;
+  if (/^(home|main menu|recruitment exams?)\b/i.test(t) && !/\d/.test(t)) return true;
   if (JUNK_TITLE_RE.test(t)) return true;
   if (JUNK_COMMA_SARKARI.test(t)) return true;
   if ((t.match(/,/g) || []).length >= 4 && !/\d/.test(t)) return true;
