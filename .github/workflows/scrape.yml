@@ -1,0 +1,93 @@
+name: Scheduled Tasks
+
+on:
+  schedule:
+    - cron: '30 4 * * *'   # 10:00 AM IST
+    - cron: '30 7 * * *'   # 1:30 PM IST
+    - cron: '30 11 * * *'  # 5:00 PM IST
+    - cron: '30 15 * * *'  # 9:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone private core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          rm -rf core
+          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+
+      - name: Sync sources
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: |
+          echo "$SOURCES_JSON" > core/sources/sources.private.json
+          echo '{}' > core/sources/sources.json
+          cp core/sources/sources.private.json core/sources/sources.json
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY_1 }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY_1 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: |
+          cd core
+          node engine/scrape.js
+          node site/build.js
+
+      - name: Privacy gate
+        run: cd core && node scripts/privacy-gate.mjs
+
+      - name: Save results to core
+        if: success()
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          cd core
+          git config user.name "BNA Bot"
+          git config user.email "bot@bharat-naukri-alert.pages.dev"
+          git add -A
+          git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
+          git push origin main
+
+      - name: Push dist to public repo
+        if: success()
+        run: |
+          mkdir -p /tmp/dist-push/site/dist
+          cp -r core/site/dist/* /tmp/dist-push/site/dist/
+          cd /tmp/dist-push
+          git init --initial-branch=main
+          git config user.name "BNA Bot"
+          git config user.email "bot@bharat-naukri-alert.pages.dev"
+          git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+          git add -A
+          git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
+          git push origin main --force
+
+      - name: Send Telegram digest
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          cd core
+          node telegram/digest.js

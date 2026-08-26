@@ -19,17 +19,18 @@ if (!doms.length) {
   process.exit(0);
 }
 
-const NAMES = new RegExp(doms.map((d) => String(d).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "i");
+const NAMES = new RegExp(`(?:^|[^a-z0-9])${doms.map((d) => String(d).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")}(?:[^a-z0-9]|$)`, "gi");
 
 let leaks = [];
 function scan(dir) {
+  if (!fs.existsSync(dir)) return;
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, ent.name);
     if (ent.isDirectory()) scan(p);
-    else if (/\.(json|html|xml|txt)$/.test(ent.name)) {
+    else if (/\.(json|html|xml|txt|csv|log)$/.test(ent.name)) {
       const c = fs.readFileSync(p, "utf8");
-      const m = c.match(NAMES);
-      if (m) leaks.push(`${p} -> ${[...new Set(m)].join(",")}`);
+      const matches = [...new Set([...c.matchAll(NAMES)].map((m) => m[0].trim()))];
+      if (matches.length) leaks.push(`${p} -> ${matches.join(",")}`);
     }
   }
 }
@@ -37,5 +38,11 @@ function scan(dir) {
 scan("data");
 scan("memory");
 scan("site/dist");
+scan("scripts");
 
-console.log(leaks.length ? `LEAKS (${leaks.length}):\n` + leaks.slice(0, 15).join("\n") : `PRIVACY GATE PASSED — 0 leaks across ${doms.length} monitored domains`);
+if (leaks.length) {
+  console.log(`PRIVACY GATE FAILED — ${leaks.length} files with leaks:\n` + leaks.slice(0, 20).join("\n"));
+  process.exit(1);
+} else {
+  console.log(`PRIVACY GATE PASSED — 0 leaks across ${doms.length} monitored domains`);
+}
