@@ -21,3 +21,5 @@ jobs:
           node-version: 20
       - name: Run test suite
         run: node tests/run.js
+      - name: Privacy gate (no portal names in public files)
+        run: node scripts/privacy-gate.mjs

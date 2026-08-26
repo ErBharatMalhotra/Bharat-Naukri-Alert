@@ -22,6 +22,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Materialize sources config
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: |
+          if [ -z "$SOURCES_JSON" ]; then echo "::error::SOURCES_JSON secret missing"; exit 1; fi
+          printf '%s' "$SOURCES_JSON" > sources/sources.json
+          node -e "JSON.parse(require('fs').readFileSync('sources/sources.json','utf8')); console.log('sources config OK')"
       - name: Run scraper
         env:
           LLM_MAX_CALLS: "6"

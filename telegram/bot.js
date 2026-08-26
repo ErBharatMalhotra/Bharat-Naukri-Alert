@@ -53,15 +53,25 @@ export function formatEntryLine(e, idx) {
   return `${flag} <b>${e.title.slice(0, 90)}</b>\n${e.org}${dl}\n${e.official_link}`;
 }
 
-export function buildDigest(entries, dateStr) {
-  if (!entries.length) {
+export function buildDigest(freshEntries, closingEntries, dateStr) {
+  const fresh = freshEntries || [];
+  const closing = closingEntries || [];
+  if (!fresh.length && !closing.length) {
     return `\ud83d\udccd Bharat Naukri Alert Digest — ${dateStr}\n\nAaj koi naya opportunity add nahi hua. Kal phir check karna!`;
   }
-  const lines = entries.map((e, i) => formatEntryLine(e, i));
-  const closing = entries.filter((e) => e.status === "closing_soon").length;
-  const header = `\ud83d\udd34 <b>Bharat Naukri Alert Daily Digest</b> — ${dateStr}\n${entries.length} naye opportunities${closing ? ` | \u26a0\ufe0f ${closing} jald band honge` : ""}\n\n`;
-  const footer = `\n\n\u2139\ufe0f Verify on official portal before applying.${SITE_CONFIG.telegramUrl ? `\n\ud83d\udce2 Channel: ${SITE_CONFIG.telegramUrl}` : ""}`;
-  return header + lines.join("\n\n") + footer;
+  let msg = `\ud83d\udd34 <b>Bharat Naukri Alert Daily Digest</b> — ${dateStr}\n`;
+  msg += fresh.length
+    ? `\ud83c\udd95 ${fresh.length} naye${closing.length ? ` | \u26a0\ufe0f ${closing.length} jald band honge` : ""}`
+    : `Aaj koi nayi entry nahi aayi${closing.length ? ` — par \u26a0\ufe0f ${closing.length} jald band ho rahe hain` : ""}`;
+  msg += "\n";
+  if (fresh.length) {
+    msg += `\n\ud83c\udd95 <b>NAYE:</b>\n\n${fresh.map((e) => formatEntryLine(e)).join("\n\n")}`;
+  }
+  if (closing.length) {
+    msg += `\n\n\u26a0\ufe0f <b>JALD BAND HONGE:</b>\n\n${closing.map((e) => formatEntryLine(e)).join("\n\n")}`;
+  }
+  msg += `\n\n\u2139\ufe0f Verify on official portal before applying.${SITE_CONFIG.telegramUrl ? `\n\ud83d\udce2 Channel: ${SITE_CONFIG.telegramUrl}` : ""}`;
+  return msg;
 }
 
 export const HELP_TEXT = `Bharat Naukri Alert Bot:\n/new — aaj ke naye opportunities\n/deadlines — 7 din me band hone wale\n/search &lt;keyword&gt; — khojo\n/help — yeh message`;

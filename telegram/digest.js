@@ -8,10 +8,13 @@ const state = await readState();
 
 const lastDigest = state.last_digest_date || "";
 const fresh = db.opportunities.filter((e) => (e.first_seen || "").slice(0, 10) > (lastDigest || dateStr));
-const closing = db.opportunities.filter((e) => e.status === "closing_soon");
-const digestEntries = [...new Map([...fresh, ...closing].map((e) => [e.id, e])).values()].slice(0, 8);
+const closing = db.opportunities
+  .filter((e) => e.status === "closing_soon")
+  .sort((a, b) => String(a.deadline || "").localeCompare(String(b.deadline || "")));
+const freshSlice = fresh.slice(0, 8);
+const closingSlice = closing.slice(0, 4);
 
-const msg = buildDigest(digestEntries, dateStr);
+const msg = buildDigest(freshSlice, closingSlice, dateStr);
 
 let sent = false;
 let sendError = "";
@@ -47,5 +50,5 @@ if (!process.argv.includes("--no-commands")) {
 
 if (sent) state.last_digest_date = dateStr;
 await writeState(state);
-await appendMemory("metrics", { type: "digest", sent: digestEntries.length, ok: sent });
-console.log(JSON.stringify({ digest_sent: sent, entries: digestEntries.length, error: sendError || null }));
+await appendMemory("metrics", { type: "digest", sent: freshSlice.length + closingSlice.length, ok: sent });
+console.log(JSON.stringify({ digest_sent: sent, entries: freshSlice.length + closingSlice.length, error: sendError || null }));
