@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-26T16:45:32.312Z",
+  "started_at": "2026-08-26T16:53:28.417Z",
   "sources": [
     {
       "id": "src-01",
@@ -12,7 +12,7 @@
       "junk": 0,
       "errors": [
         "src-01: HTTP 403 for src-01",
-        "src-01: proxy fallback failed — all proxies failed for src-01: proxy HTTP 522"
+        "src-01: proxy fallback failed — all proxies failed for src-01: proxy HTTP 408"
       ],
       "matched": 0
     },
@@ -87,24 +87,21 @@
       "junk": 0,
       "errors": [
         "src-07: fetch failed",
-        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 520"
+        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 522"
       ],
       "matched": 0
     },
     {
       "id": "src-08",
-      "raws": 0,
+      "raws": 5,
       "added": 0,
       "updated": 0,
-      "skipped_known": 0,
+      "skipped_known": 5,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "src-08: fetch failed",
-        "src-08: proxy fallback failed — all proxies failed for src-08: proxy HTTP 500"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 5
     },
     {
       "id": "src-11",
@@ -124,7 +121,7 @@
       "added": 1,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 8,
+      "dupes": 9,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -161,6 +158,6 @@
   "resolved": 40,
   "detail_fetches": 0,
   "editor_notes": 1,
-  "finished_at": "2026-08-26T16:49:35.487Z",
-  "db_size": 238
+  "finished_at": "2026-08-26T16:55:52.539Z",
+  "db_size": 239
 }
