@@ -14,20 +14,31 @@ const closing = db.opportunities
 const freshSlice = fresh.slice(0, 8);
 const closingSlice = closing.slice(0, 4);
 
-const msg = buildDigest(freshSlice, closingSlice, dateStr);
+// Anti-spam: agar na koi nayi entry ho NA closing list badli ho to digest skip.
+// High-frequency runs (4x/day) pe channel ko wahi purani entries dobara nahi bhejni.
+const closingSig = closingSlice.map((e) => e.id).sort().join(",");
+const prevClosingSig = state.last_closing_sig || "";
+const skipDigest = freshSlice.length === 0 && closingSig === prevClosingSig;
 
 let sent = false;
+let skipped = false;
 let sendError = "";
-try {
-  await sendMessage(msg);
-  sent = true;
-} catch (e) {
-  sendError = String(e.message || e);
-  console.error("[telegram] digest send failed:", sendError);
-  if (/chat not found|not found/i.test(sendError)) {
-    console.error("[telegram] Hint: TELEGRAM_CHANNEL_ID galat hai ya bot channel ka admin nahi hai (@username public ke liye, -100... private ke liye).");
-  } else if (/401|unauthorized/i.test(sendError)) {
-    console.error("[telegram] Hint: TELEGRAM_BOT_TOKEN invalid hai.");
+if (skipDigest) {
+  skipped = true;
+  console.log("[telegram] digest skipped — nothing new since last send");
+} else {
+  const msg = buildDigest(freshSlice, closingSlice, dateStr);
+  try {
+    await sendMessage(msg);
+    sent = true;
+  } catch (e) {
+    sendError = String(e.message || e);
+    console.error("[telegram] digest send failed:", sendError);
+    if (/chat not found|not found/i.test(sendError)) {
+      console.error("[telegram] Hint: TELEGRAM_CHANNEL_ID galat hai ya bot channel ka admin nahi hai (@username public ke liye, -100... private ke liye).");
+    } else if (/401|unauthorized/i.test(sendError)) {
+      console.error("[telegram] Hint: TELEGRAM_BOT_TOKEN invalid hai.");
+    }
   }
 }
 
@@ -49,6 +60,7 @@ if (!process.argv.includes("--no-commands")) {
 }
 
 if (sent) state.last_digest_date = dateStr;
+if (!sendError) state.last_closing_sig = closingSig;
 await writeState(state);
-await appendMemory("metrics", { type: "digest", sent: freshSlice.length + closingSlice.length, ok: sent });
-console.log(JSON.stringify({ digest_sent: sent, entries: freshSlice.length + closingSlice.length, error: sendError || null }));
+await appendMemory("metrics", { type: "digest", sent: skipped ? 0 : freshSlice.length + closingSlice.length, ok: sent, skipped });
+console.log(JSON.stringify({ digest_sent: sent, skipped, entries: freshSlice.length + closingSlice.length, error: sendError || null }));
