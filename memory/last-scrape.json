@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-26T16:35:59.552Z",
+  "started_at": "2026-08-26T16:45:32.312Z",
   "sources": [
     {
       "id": "src-01",
@@ -31,10 +31,10 @@
     {
       "id": "src-03",
       "raws": 60,
-      "added": 1,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 39,
+      "dupes": 40,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -43,10 +43,10 @@
     {
       "id": "src-04",
       "raws": 60,
-      "added": 6,
+      "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 34,
+      "dupes": 40,
       "no_official": 0,
       "junk": 1,
       "errors": [],
@@ -59,7 +59,7 @@
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
-      "no_official": 0,
+      "no_official": 2,
       "junk": 0,
       "errors": [],
       "matched": 2
@@ -87,21 +87,24 @@
       "junk": 0,
       "errors": [
         "src-07: fetch failed",
-        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 522"
+        "src-07: proxy fallback failed — all proxies failed for src-07: proxy HTTP 520"
       ],
       "matched": 0
     },
     {
       "id": "src-08",
-      "raws": 5,
+      "raws": 0,
       "added": 0,
       "updated": 0,
-      "skipped_known": 5,
+      "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 5
+      "errors": [
+        "src-08: fetch failed",
+        "src-08: proxy fallback failed — all proxies failed for src-08: proxy HTTP 500"
+      ],
+      "matched": 0
     },
     {
       "id": "src-11",
@@ -117,15 +120,15 @@
     },
     {
       "id": "src-13",
-      "raws": 35,
-      "added": 0,
+      "raws": 34,
+      "added": 1,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 6,
+      "dupes": 8,
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 31
+      "matched": 30
     },
     {
       "id": "src-14",
@@ -152,12 +155,12 @@
       "matched": 28
     }
   ],
-  "total_added": 7,
+  "total_added": 1,
   "total_updated": 0,
-  "llm_calls": 10,
+  "llm_calls": 1,
   "resolved": 40,
   "detail_fetches": 0,
-  "editor_notes": 6,
-  "finished_at": "2026-08-26T16:42:17.373Z",
-  "db_size": 237
+  "editor_notes": 1,
+  "finished_at": "2026-08-26T16:49:35.487Z",
+  "db_size": 238
 }
