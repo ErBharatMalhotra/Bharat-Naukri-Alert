@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-26T10:49:08.034Z",
+  "started_at": "2026-08-26T11:28:50.908Z",
   "sources": [
     {
       "id": "src-01",
@@ -12,17 +12,17 @@
       "junk": 0,
       "errors": [
         "src-01: HTTP 403 for src-01",
-        "src-01: fetched via proxy fallback"
+        "src-01: proxy fallback failed — all proxies failed for src-01: proxy HTTP 522"
       ],
       "matched": 0
     },
     {
       "id": "src-02",
       "raws": 60,
-      "added": 16,
+      "added": 2,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 24,
+      "dupes": 38,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -31,10 +31,10 @@
     {
       "id": "src-03",
       "raws": 60,
-      "added": 2,
+      "added": 1,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 37,
+      "dupes": 39,
       "no_official": 0,
       "junk": 0,
       "errors": [],
@@ -43,10 +43,10 @@
     {
       "id": "src-04",
       "raws": 60,
-      "added": 2,
+      "added": 5,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 25,
+      "dupes": 35,
       "no_official": 0,
       "junk": 1,
       "errors": [],
@@ -93,22 +93,25 @@
     },
     {
       "id": "src-08",
-      "raws": 5,
+      "raws": 0,
       "added": 0,
       "updated": 0,
-      "skipped_known": 5,
+      "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [],
-      "matched": 5
+      "errors": [
+        "src-08: fetch failed",
+        "src-08: proxy fallback failed — all proxies failed for src-08: proxy HTTP 522"
+      ],
+      "matched": 0
     },
     {
       "id": "src-11",
       "raws": 19,
-      "added": 2,
+      "added": 0,
       "updated": 0,
-      "skipped_known": 11,
+      "skipped_known": 13,
       "dupes": 0,
       "no_official": 0,
       "junk": 1,
@@ -152,12 +155,12 @@
       "matched": 28
     }
   ],
-  "total_added": 22,
+  "total_added": 8,
   "total_updated": 0,
   "llm_calls": 9,
   "resolved": 40,
-  "detail_fetches": 2,
+  "detail_fetches": 0,
   "editor_notes": 6,
-  "finished_at": "2026-08-26T10:52:41.958Z",
-  "db_size": 222
+  "finished_at": "2026-08-26T11:33:24.527Z",
+  "db_size": 224
 }
