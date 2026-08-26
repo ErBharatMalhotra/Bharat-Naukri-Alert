@@ -1,70 +1,68 @@
 {
-  "started_at": "2026-08-25T08:08:29.058Z",
+  "started_at": "2026-08-26T07:27:52.921Z",
   "sources": [
     {
-      "id": "agg-sarkariresult",
-      "raws": 0,
-      "added": 0,
-      "updated": 0,
-      "skipped_known": 0,
-      "dupes": 0,
-      "no_official": 0,
-      "junk": 0,
-      "errors": [
-        "https://www.sarkariresult.com/: HTTP 403 for https://www.sarkariresult.com/"
-      ],
-      "matched": 0
-    },
-    {
-      "id": "agg-freejobalert",
+      "id": "src-01",
       "raws": 60,
-      "added": 6,
+      "added": 3,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 34,
+      "dupes": 31,
       "no_official": 0,
       "junk": 0,
       "errors": [],
-      "matched": 48
+      "matched": 57
     },
     {
-      "id": "agg-rojgarresult",
+      "id": "src-02",
       "raws": 60,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 39,
+      "dupes": 17,
+      "no_official": 0,
+      "junk": 0,
+      "errors": [],
+      "matched": 49
+    },
+    {
+      "id": "src-03",
+      "raws": 60,
+      "added": 0,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 30,
       "no_official": 0,
       "junk": 0,
       "errors": [],
       "matched": 55
     },
     {
-      "id": "agg-sarkarijobfind",
+      "id": "src-04",
       "raws": 60,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
-      "dupes": 40,
+      "dupes": 23,
       "no_official": 0,
       "junk": 1,
       "errors": [],
-      "matched": 48
+      "matched": 49
     },
     {
-      "id": "agg-sarkariujala",
+      "id": "src-05",
       "raws": 6,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
-      "no_official": 2,
+      "no_official": 0,
       "junk": 0,
       "errors": [],
       "matched": 2
     },
     {
-      "id": "sbi",
+      "id": "src-06",
       "raws": 40,
       "added": 0,
       "updated": 0,
@@ -76,40 +74,84 @@
       "matched": 11
     },
     {
-      "id": "upsc",
-      "raws": 0,
-      "added": 0,
+      "id": "src-07",
+      "raws": 29,
+      "added": 1,
       "updated": 0,
-      "skipped_known": 0,
+      "skipped_known": 14,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "https://upsc.gov.in/whats-new: fetch failed"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 15
     },
     {
-      "id": "nsp",
-      "raws": 0,
+      "id": "src-08",
+      "raws": 5,
+      "added": 0,
+      "updated": 0,
+      "skipped_known": 5,
+      "dupes": 0,
+      "no_official": 0,
+      "junk": 0,
+      "errors": [],
+      "matched": 5
+    },
+    {
+      "id": "src-11",
+      "raws": 19,
+      "added": 13,
+      "updated": 0,
+      "skipped_known": 1,
+      "dupes": 0,
+      "no_official": 0,
+      "junk": 0,
+      "errors": [],
+      "matched": 14
+    },
+    {
+      "id": "src-13",
+      "raws": 35,
       "added": 0,
       "updated": 0,
       "skipped_known": 0,
       "dupes": 0,
       "no_official": 0,
       "junk": 0,
-      "errors": [
-        "https://scholarships.gov.in: fetch failed"
-      ],
-      "matched": 0
+      "errors": [],
+      "matched": 31
+    },
+    {
+      "id": "src-14",
+      "raws": 22,
+      "added": 0,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 0,
+      "no_official": 0,
+      "junk": 0,
+      "errors": [],
+      "matched": 22
+    },
+    {
+      "id": "src-15",
+      "raws": 30,
+      "added": 0,
+      "updated": 0,
+      "skipped_known": 0,
+      "dupes": 0,
+      "no_official": 0,
+      "junk": 0,
+      "errors": [],
+      "matched": 25
     }
   ],
-  "total_added": 6,
+  "total_added": 17,
   "total_updated": 0,
-  "llm_calls": 9,
-  "resolved": 30,
-  "detail_fetches": 0,
-  "editor_notes": 6,
-  "finished_at": "2026-08-25T08:11:13.412Z",
-  "db_size": 186
+  "llm_calls": 0,
+  "resolved": 6,
+  "detail_fetches": 2,
+  "editor_notes": 0,
+  "finished_at": "2026-08-26T07:28:29.779Z",
+  "db_size": 203
 }

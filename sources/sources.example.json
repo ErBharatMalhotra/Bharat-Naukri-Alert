@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "_example": "PLACEHOLDER ONLY — real config ships via GitHub secret SOURCES_JSON (or local untracked sources.private.json). IDs are neutral by design; portal names/domains must never appear in the public repo.",
+  "sources": [
+    {
+      "id": "src-01",
+      "name": "Aggregator A",
+      "tier": 2,
+      "type": "aggregator",
+      "url": "https://example-aggregator-a.example/",
+      "domains": ["example-aggregator-a.example"],
+      "resolve_official": true,
+      "default_category": "job",
+      "enabled": true,
+      "limit": 40,
+      "keywords": ["online form", "recruitment", "admit card", "notification"],
+      "min_title_len": 25,
+      "exclude_keywords": []
+    }
+  ]
+}

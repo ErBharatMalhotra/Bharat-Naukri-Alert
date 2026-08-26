@@ -7,6 +7,8 @@ import { resolveOfficialLink } from "../lib/official-link.js";
 import { parseDetailHtml, isSparseDetails } from "../lib/detail-parse.js";
 import { resolveOrg } from "../lib/org-detect.js";
 import { fetchText } from "../lib/http.js";
+import { loadSources } from "../lib/runtime-config.js";
+import { deepScrub, prunePrivate } from "../lib/privacy.js";
 
 const STATE_HINTS = [
   [/uttar pradesh|\bup\b/, "Uttar Pradesh"],
@@ -59,11 +61,16 @@ function isJunkTitle(title = "") {
   return false;
 }
 
-const SOURCES_FILE = path.resolve("sources/sources.json");
+const GOV_HOST_RE = /\.(?:gov|nic)\.in$|^sbi\.co\.in$|^ibps\.in$/;
 
-async function loadSources() {
-  const raw = JSON.parse(await fs.readFile(SOURCES_FILE, "utf8"));
-  return raw.sources.filter((s) => s.enabled !== false);
+function govOnlyUrls(urls = []) {
+  return (urls || []).filter((u) => {
+    try {
+      return GOV_HOST_RE.test(new URL(u).hostname);
+    } catch {
+      return false;
+    }
+  });
 }
 
 async function loadScraper(type) {
@@ -133,7 +140,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
     try {
       const scraper = await loadScraper(src.type);
       const { raws, errors } = await scraper.scrape(src);
-      srcReport.errors = errors;
+      srcReport.errors = (errors || []).map((e) => String(e).split(src.url || "\u0000").join(src.id));
       srcReport.raws = raws.length;
 
       // relevance filter (news-heavy feeds + nav-link junk ke liye)
@@ -200,7 +207,10 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
 
         const attachDetails = async (entry) => {
           if (!entry) return entry;
-          entry.org = resolveOrg(entry, src.name);
+          entry.org = resolveOrg(entry, src.tier === 1 ? src.name : "");
+          entry.source_urls = govOnlyUrls(entry.source_urls);
+          prunePrivate(entry);
+          deepScrub(entry);
           let parsed = null;
           if (detailHtml) {
             parsed = parseDetailHtml(detailHtml);

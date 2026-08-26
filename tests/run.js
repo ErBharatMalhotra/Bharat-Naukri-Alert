@@ -146,14 +146,18 @@ test("store: mergeIntoDB adds, updates and dedups", async () => {
 });
 
 test("telegram: digest builder formats correctly", () => {
-  const empty = buildDigest([], "2026-08-22");
+  const empty = buildDigest([], [], "2026-08-22");
   assert.ok(empty.includes("Digest"));
   const src = { id: "nsp", name: "NSP", url: "https://x.gov.in", default_category: "scholarship" };
   const e = heuristicEntry(makeRaw(), src);
-  const full = buildDigest([e], "2026-08-22");
+  const full = buildDigest([e], [], "2026-08-22");
   assert.ok(full.includes(e.title));
   assert.ok(full.includes(e.deadline));
+  assert.ok(full.includes("NAYE"));
   assert.ok(full.includes("Verify on official portal"));
+  const closingOnly = buildDigest([], [e], "2026-08-22");
+  assert.ok(closingOnly.includes("JALD BAND"));
+  assert.ok(closingOnly.includes(e.title));
 });
 
 test("telegram: command handler responds", () => {

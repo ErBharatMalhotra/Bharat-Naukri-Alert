@@ -1,14 +1,10 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { isUrlAlive } from "../lib/http.js";
 import { appendMemory } from "../lib/store.js";
-
-const SOURCES_FILE = path.resolve("sources/sources.json");
+import { loadAllSources } from "../lib/runtime-config.js";
 
 export async function runHealthCheck() {
-  const raw = JSON.parse(await fs.readFile(SOURCES_FILE, "utf8"));
+  const sources = await loadAllSources();
   const results = [];
-  for (const src of raw.sources) {
+  for (const src of sources) {
     if (src.enabled === false) continue;
     const urls = src.urls || [src.url];
     let aliveCount = 0;
@@ -19,7 +15,7 @@ export async function runHealthCheck() {
       if (r.alive) aliveCount++;
     }
     const status = aliveCount === 0 ? "dead" : aliveCount < urls.length ? "degraded" : "healthy";
-    results.push({ id: src.id, name: src.name, status, alive: aliveCount, total: urls.length });
+    results.push({ id: src.id, status, alive: aliveCount, total: urls.length });
   }
   await appendMemory("metrics", { type: "health-check", results });
   return results;
