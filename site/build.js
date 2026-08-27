@@ -16,6 +16,7 @@ const CAT_LABELS = {
   job: { en: "Jobs", hi: "नौकरियाँ", icon: "briefcase" },
   scheme: { en: "Schemes", hi: "योजनाएँ", icon: "landmark" },
   "admit-card": { en: "Admit Cards", hi: "एडमिट कार्ड", icon: "ticket" },
+  "answer-key": { en: "Answer Keys", hi: "उत्तर कुंजी", icon: "file" },
   result: { en: "Results", hi: "परिणाम", icon: "trophy" },
 };
 
@@ -286,8 +287,8 @@ const CSS_B = `
 .op-sp{flex:1}
 .cat-chip{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:4px 9px;border-radius:999px;flex-shrink:0}
 .cat-chip svg{width:11px;height:11px}
-.cc-scholarship{background:#efe9ff;color:#6d28d9}.cc-exam{background:#e3edff;color:#1d4ed8}.cc-job{background:#e2f6ea;color:#047857}.cc-scheme{background:#ffedd8;color:#c2410c}.cc-admit-card{background:#dcf5f2;color:#0f766e}.cc-result{background:#ffe4ea;color:#be123c}
-[data-theme=dark] .cc-scholarship{background:#241a3d;color:#c4b5fd}[data-theme=dark] .cc-exam{background:#16233f;color:#93b4ff}[data-theme=dark] .cc-job{background:#12291c;color:#6ee7a0}[data-theme=dark] .cc-scheme{background:#2a1a0e;color:#fdba74}[data-theme=dark] .cc-admit-card{background:#0f2b28;color:#5eead4}[data-theme=dark] .cc-result{background:#2b1219;color:#fda4af}
+.cc-scholarship{background:#efe9ff;color:#6d28d9}.cc-exam{background:#e3edff;color:#1d4ed8}.cc-job{background:#e2f6ea;color:#047857}.cc-scheme{background:#ffedd8;color:#c2410c}.cc-admit-card{background:#dcf5f2;color:#0f766e}.cc-answer-key{background:#fef3c7;color:#92400e}.cc-result{background:#ffe4ea;color:#be123c}
+[data-theme=dark] .cc-scholarship{background:#241a3d;color:#c4b5fd}[data-theme=dark] .cc-exam{background:#16233f;color:#93b4ff}[data-theme=dark] .cc-job{background:#12291c;color:#6ee7a0}[data-theme=dark] .cc-scheme{background:#2a1a0e;color:#fdba74}[data-theme=dark] .cc-admit-card{background:#0f2b28;color:#5eead4}[data-theme=dark] .cc-answer-key{background:#2a2008;color:#fcd34d}[data-theme=dark] .cc-result{background:#2b1219;color:#fda4af}
 .op-t{font-family:var(--disp);font-size:15.5px;font-weight:700;line-height:1.42;letter-spacing:-.2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:44px}
 .op-s{font-size:12.5px;color:var(--mut);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:-4px}
 .op-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px;border-top:1px dashed var(--line)}
