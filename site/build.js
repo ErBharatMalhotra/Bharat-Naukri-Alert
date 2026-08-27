@@ -674,7 +674,7 @@ ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr
   return h;
 }
 
-function detailBody(e, related) {
+function detailBody(e, related, allEntries) {
   const L = CAT_LABELS[e.category] || { en: e.category, hi: "", icon: "file" };
   const url = `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`;
   const shareTxt = encodeURIComponent(`${e.title} — ${url}`);
@@ -731,6 +731,14 @@ ${e.details?.links?.length ? `<section class="d-sec" data-reveal><h3 data-i18n="
 </section>
 ${note()}
 ${relCards ? `<section class="rel-sec"><h2 data-i18n="rel">More in this category</h2><div class="grid">${relCards}</div></section>` : ""}
+${(() => {
+  if (!allEntries || !e.eligibility?.states?.length) return "";
+  const myStates = e.eligibility.states.filter(s => s && s !== "ALL");
+  if (!myStates.length) return "";
+  const stateJobs = allEntries.filter(x => x.id !== e.id && x.eligibility?.states?.some(s => myStates.includes(s))).slice(0, 3);
+  if (!stateJobs.length) return "";
+  return `<section class="rel-sec"><h2>Jobs in ${myStates.slice(0, 2).join(" & ")}</h2><div class="grid">${stateJobs.map(r => cardHTML(r, "../")).join("")}</div></section>`;
+})()}
 </main>
 ${footerHTML("../")}
 <script>${RUNTIME_JS}</script>`;
@@ -1375,7 +1383,7 @@ ${footerHTML("")}
       title: `${e.title.slice(0, 60)} — Last date ${e.deadline ? fmtDate(e.deadline) : "to be announced"}`,
       desc: detailDesc.slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}`,
-      body: detailBody(e, related),
+      body: detailBody(e, related, entries),
       jsonld: JSON.stringify([
         {
           "@context": "https://schema.org",
@@ -1403,6 +1411,55 @@ ${footerHTML("")}
             { "@type": "ListItem", position: 3, name: e.title.slice(0, 80) },
           ],
         },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "Who can apply for this opportunity?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: e.eligibility?.education?.length ? `Eligibility: ${e.eligibility.education.join(", ")}. ${e.eligibility?.states?.includes("ALL") ? "Open to all India candidates." : `Open to candidates from: ${(e.eligibility?.states || []).join(", ")}.`}` : "Check the official notification for detailed eligibility criteria."
+              }
+            },
+            {
+              "@type": "Question",
+              name: "What is the last date to apply?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: e.deadline ? `The last date to apply is ${fmtDate(e.deadline)}.` : "The last date has not been announced yet. Keep checking for updates."
+              }
+            },
+            {
+              "@type": "Question",
+              name: "How to apply?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: e.details?.steps?.length ? `Steps to apply: ${e.details.steps.slice(0, 3).join(" → ")}. Visit the official portal for complete instructions.` : "Visit the official portal linked on this page to complete the application process."
+              }
+            },
+            ...(e.details?.fee?.length ? [{
+              "@type": "Question",
+              name: "What is the application fee?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: `Application fee: ${e.details.fee.map(f => `${f.k}: ₹${f.v}`).join(", ")}.`
+              }
+            }] : [])
+          ]
+        },
+        ...(e.details?.steps?.length ? [{
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: `How to apply for ${e.title.slice(0, 60)}`,
+          step: e.details.steps.map((s, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            name: `Step ${i + 1}`,
+            text: s
+          }))
+        }] : []),
       ]),
     }));
     pages++;
