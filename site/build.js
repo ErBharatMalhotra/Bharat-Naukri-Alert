@@ -426,6 +426,9 @@ const CSS_C = `
 .overview-table a:hover{text-decoration:underline}
 .countdown-badge{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:999px;background:color-mix(in srgb,var(--brand) 12%,transparent);color:var(--brand);margin-left:8px;vertical-align:middle}
 .countdown-badge.cd-urgent{background:#fee2e2;color:#dc2626}
+.verified-badge{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:600;padding:3px 10px;border-radius:999px;background:#ecfdf5;color:#059669;margin-left:8px;vertical-align:middle}
+.verified-badge svg{width:13px;height:13px}
+.last-updated{font-size:12px;color:var(--mut);margin-left:8px}
 .d-sum{font-size:15px;margin:4px 0 10px}
 .edu-row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
 .edu-chip{font-size:12.5px;font-weight:500;background:var(--card);border:1px solid var(--line);padding:5px 13px;border-radius:999px;color:var(--mut)}
@@ -674,9 +677,9 @@ function detailBody(e, related) {
 <main class="wrap page-top">
 <nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../category/${e.category}.html">${L.en}</a>${strokeIcon("chev")}<span>${esc(e.title.slice(0, 60))}</span></nav>
 <div class="d-head">
-<div class="d-meta">${catChip(e.category)}<span class="status-pill sp-${e.status}">${statusLabel(e.status)}</span></div>
+<div class="d-meta">${catChip(e.category)}<span class="status-pill sp-${e.status}">${statusLabel(e.status)}</span>${e.last_verified ? `<span class="verified-badge">${strokeIcon("shield")} Verified</span>` : ""}</div>
 <h1>${esc(e.title)}</h1>
-<div class="d-meta"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span><span class="op-org">${esc(e.org || "Government of India")}</span></div>
+<div class="d-meta"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span><span class="op-org">${esc(e.org || "Government of India")}</span>${e.last_verified ? `<span class="last-updated">Last verified: ${fmtDate(e.last_verified.slice(0, 10))}</span>` : ""}</div>
 </div>
 ${(posts || fee || e.deadline || e.amount) ? `<table class="overview-table" data-reveal>
 <tbody>
@@ -1101,6 +1104,9 @@ ${footerHTML("")}
           applicantLocationRequirements: { "@type": "Country", name: "India" },
           directApply: true,
           url: `${SITE_URL}/o/${encodeURIComponent(e.id)}`,
+          baseSalary: e.details?.payScale ? { "@type": "MonetaryAmount", value: { "@type": "QuantitativeValue", value: e.details.payScale } } : undefined,
+          qualifications: e.eligibility?.education?.length ? e.eligibility.education.join(", ") : undefined,
+          eligibleRegion: (e.eligibility?.states || []).includes("ALL") ? "India" : e.eligibility?.states?.join(", "),
         },
         {
           "@context": "https://schema.org",
