@@ -585,6 +585,7 @@ ${SITE_CONFIG.whatsappUrl ? `<a class="soc-btn wa" href="${esc(SITE_CONFIG.whats
 <div class="ft-col"><h4 data-i18n="ft_res">Resources</h4><div class="ft-links">
 <a href="${prefix}sitemap.xml" data-i18n="sitemap">Sitemap</a>
 <a href="${prefix}rss.xml" data-i18n="rssfeed">RSS Feed</a>
+<a href="mailto:bharatnaukrialert@proton.me?subject=Subscribe%20for%20Daily%20Job%20Alerts">Email Alerts</a>
 </div></div>
 </div>
 <div class="ft-bar"><div>
