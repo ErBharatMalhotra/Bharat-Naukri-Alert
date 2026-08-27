@@ -7,6 +7,7 @@ on:
       - "data/**"
       - "memory/**"
       - "site/dist/**"
+      - "sources/**"
   pull_request:
   workflow_dispatch:
 

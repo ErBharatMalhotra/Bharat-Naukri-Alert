@@ -60,6 +60,9 @@ jobs:
           node engine/scrape.js
           node site/build.js
 
+      - name: Run tests
+        run: cd core && node tests/run.js
+
       - name: Privacy gate
         run: cd core && node scripts/privacy-gate.mjs
 
