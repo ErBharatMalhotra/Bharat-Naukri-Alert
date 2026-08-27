@@ -246,6 +246,21 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
               if (tagged.length) entry.eligibility.states = tagged;
             }
           }
+          if (entry._llmStructured) {
+            const ls = entry._llmStructured;
+            if (!entry.details) entry.details = { summary: "", dates: [], fee: [], vacancy: [], steps: [], links: [], extras: [] };
+            if (ls.total_vacancies && entry.details.vacancy.length === 0) {
+              entry.details.vacancy = [["Post Name", "Total"], ["Total", String(ls.total_vacancies)]];
+            }
+            if (ls.fee_general && entry.details.fee.length === 0) {
+              entry.details.fee = [{ k: "General", v: ls.fee_general }];
+              if (ls.fee_sc_st) entry.details.fee.push({ k: "SC/ST", v: ls.fee_sc_st });
+            }
+            if (ls.pay_scale && !entry.details.payScale) {
+              entry.details.payScale = ls.pay_scale;
+            }
+            delete entry._llmStructured;
+          }
           const finalEntry = await addEditorNote(entry);
           deepScrub(finalEntry);
           return finalEntry;
@@ -262,7 +277,7 @@ export async function runScrape({ limitPerSource = 40 } = {}) {
         if (providerStatus().any && llmUsed < llmBudget) {
           llmUsed++;
           report.llm_calls++;
-          const enriched = await extractEntry(workRaw, src, { useLlm: true });
+          const enriched = await extractEntry(workRaw, src, { useLlm: true, detailHtml });
           if (enriched) {
             if ((enriched.eligibility?.states || []).every((s) => s === "ALL")) {
               const tagged = statesFromTitle(enriched.title);
