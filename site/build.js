@@ -526,6 +526,10 @@ function layout({ title, desc, canonical, body, jsonld }) {
 <meta name="theme-color" content="#e8590c">
 <link rel="icon" href="${FAVICON}">
 <link rel="apple-touch-icon" href="${SITE_URL}/icon-192.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BNA">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -815,6 +819,7 @@ if(cl)cl.addEventListener('click',function(){
 try{localStorage.removeItem('bna-profile');}catch(e){}
 applyProfUI();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
 applyProfUI();}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(function(){});}
 })();
 `;
 
