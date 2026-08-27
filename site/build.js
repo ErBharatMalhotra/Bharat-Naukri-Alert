@@ -1241,6 +1241,85 @@ ${footerHTML("")}
   }
 
   // ---- detail pages ----
+  // ---- syllabus pages ----
+  const syllabusDir = path.join(process.cwd(), "data", "syllabus");
+  let syllabusFiles = [];
+  try { syllabusFiles = (await fs.readdir(syllabusDir)).filter(f => f.endsWith(".json")); } catch {}
+  for (const sf of syllabusFiles) {
+    const sData = JSON.parse(await fs.readFile(path.join(syllabusDir, sf), "utf8"));
+    const slug = sf.replace(".json", "");
+    let syllabusHtml = "";
+    if (sData.pattern) {
+      syllabusHtml += `<section class="d-sec" data-reveal><h3>Exam Pattern</h3>`;
+      for (const tier of sData.pattern) {
+        syllabusHtml += `<div class="syl-tier"><h4>${esc(tier.tier)}</h4><p><b>Marks:</b> ${tier.marks} | <b>Time:</b> ${esc(tier.time)} | <b>Questions:</b> ${tier.questions}</p><ul>${tier.subjects.map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>`;
+      }
+      syllabusHtml += `</section>`;
+    }
+    if (sData.syllabus) {
+      syllabusHtml += `<section class="d-sec" data-reveal><h3>Detailed Syllabus</h3>`;
+      for (const [subj, topics] of Object.entries(sData.syllabus)) {
+        syllabusHtml += `<div class="syl-subj"><h4>${esc(subj)}</h4><ul>${topics.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>`;
+      }
+      syllabusHtml += `</section>`;
+    }
+    if (sData.resources?.length) {
+      syllabusHtml += `<section class="d-sec" data-reveal><h3>Free Resources</h3><div class="syl-res">${sData.resources.map(r => `<a class="btn btn-ghost" href="${esc(r.url || '#')}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}${esc(r.name)} <small>(${esc(r.type)})</small></a>`).join("")}</div></section>`;
+    }
+    if (sData.officialWebsite) {
+      syllabusHtml += `<section class="d-sec" data-reveal><h3>Official Website</h3><a class="btn btn-pri" href="${esc(sData.officialWebsite)}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}Visit Official Site</a></section>`;
+    }
+    const syllabusBody = `${header("../")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../syllabus/index.html">Syllabus</a>${strokeIcon("chev")}<span>${esc(sData.title)}</span></nav>
+<div class="d-head">
+<div class="d-meta"><span class="cat-chip cc-exam">Syllabus</span></div>
+<h1>${esc(sData.fullName || sData.title)}</h1>
+<p class="page-sub">${esc(sData.titleHi)}</p>
+</div>
+<p class="d-sum" data-reveal>${esc(sData.overview)}</p>
+${syllabusHtml}
+${note()}
+</main>
+${footerHTML("../")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile(`syllabus/${slug}.html`, layout({
+      title: `${sData.title} Syllabus — Bharat Naukri Alert`,
+      desc: `${sData.fullName} exam pattern, detailed syllabus and free preparation resources.`,
+      canonical: `${SITE_URL}/syllabus/${slug}`,
+      body: syllabusBody,
+    }));
+    pages++;
+  }
+  // syllabus index page
+  if (syllabusFiles.length) {
+    const syllabusCards = [];
+    for (const sf of syllabusFiles) {
+      const sData = JSON.parse(await fs.readFile(path.join(syllabusDir, sf), "utf8"));
+      const slug = sf.replace(".json", "");
+      const tierText = sData.pattern ? sData.pattern.map(t => t.tier).join(" → ") : "";
+      syllabusCards.push(`<article class="op-card" data-reveal><a class="stretch" href="syllabus/${slug}.html"></a><div class="op-top"><span class="avatar" style="--h:200"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9.5 12 4.5l10 5-10 5z"/><path d="M6 11.8V16c0 1.5 2.7 2.8 6 2.8s6-1.3 6-2.8v-4.2"/><path d="M22 9.5V15"/></svg></span><span class="op-org">Syllabus</span></div><h3 class="op-t">${esc(sData.title)}</h3><p class="op-s">${esc(sData.fullName)}</p><div class="op-foot"><span class="cat-chip cc-exam">${tierText}</span></div></article>`);
+    }
+    const syllabusIndexBody = `${header("")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="index.html">Home</a>${strokeIcon("chev")}<span>Syllabus</span></nav>
+<h1 class="page-h">Exam Syllabus & Pattern <span class="cnt-badge">${syllabusFiles.length}</span></h1>
+<p class="page-sub">Detailed exam patterns, syllabus breakdown and free preparation resources.</p>
+<div class="grid">${syllabusCards.join("")}</div>
+${note()}
+</main>
+${footerHTML("")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile("syllabus/index.html", layout({
+      title: "Exam Syllabus & Pattern — Bharat Naukri Alert",
+      desc: "SSC CGL, RRB NTPC, UPSC CSE exam patterns, detailed syllabus and free preparation resources.",
+      canonical: `${SITE_URL}/syllabus`,
+      body: syllabusIndexBody,
+    }));
+    pages++;
+  }
+
+  // ---- detail pages ----
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
     const detailDesc = e.editor_note || e.summary || `${e.title} by ${e.org}. Check deadline and apply.`;
