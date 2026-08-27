@@ -334,6 +334,11 @@ const CSS_D = `
 /* language button */
 .lang-btn{width:auto;min-width:44px;padding:0 11px;font-weight:800;font-size:12px;font-family:var(--disp);letter-spacing:.5px}
 
+/* notification badge */
+.notif-btn svg{width:18px;height:18px}
+.notif-badge{position:absolute;top:2px;right:2px;min-width:16px;height:16px;border-radius:8px;background:#e8590c;color:#fff;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 4px;line-height:1}
+.notif-badge:empty{display:none}
+
 /* stretched-link cards + save button */
 .op-card{position:relative}
 .op-card .stretch{position:absolute;inset:0;z-index:1;border-radius:16px}
@@ -553,6 +558,7 @@ function header(prefix = "") {
 <nav class="hnav"><a href="${prefix}index.html" data-i18n="home">Home</a>${cats}</nav>
 <button id="langBtn" class="tbtn lang-btn" aria-label="Language">EN</button>
 <button id="themeBtn" class="tbtn" aria-label="Toggle theme">${strokeIcon("sun", "ic-sun")}${strokeIcon("moon", "ic-moon")}</button>
+<button id="notifBtn" class="tbtn notif-btn" aria-label="Notifications" style="position:relative;display:none">${strokeIcon("bell")}<span class="notif-badge" id="notifBadge"></span></button>
 </div></header>`;
 }
 
@@ -819,6 +825,32 @@ if(cl)cl.addEventListener('click',function(){
 try{localStorage.removeItem('bna-profile');}catch(e){}
 applyProfUI();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
 applyProfUI();}
+(function(){
+var nb=d.getElementById('notifBtn'),nbadge=d.getElementById('notifBadge');
+if(!nb)return;
+var lastSeen=parseInt(localStorage.getItem('bna-notif-ts')||'0',10);
+var seenIds=JSON.parse(localStorage.getItem('bna-notif-seen')||'[]');
+fetch('/search-index.json').then(function(r){return r.json();}).then(function(idx){
+if(!idx||!idx.length)return;
+var fresh=idx.filter(function(e){return !seenIds.includes(e.id);});
+if(fresh.length>0){
+nb.style.display='';
+nbadge.textContent=fresh.length>99?'99+':fresh.length;
+nb.addEventListener('click',function(){
+var msg='Naye '+fresh.length+' updates mil gaye hain!';
+if(fresh.length<=5){
+msg+='\\n\\n'+fresh.slice(0,5).map(function(e){return e.title;}).join('\\n');
+}
+alert(msg);
+localStorage.setItem('bna-notif-ts',String(Date.now()));
+localStorage.setItem('bna-notif-seen',JSON.stringify(idx.map(function(e){return e.id;})));
+nbadge.textContent='';
+nb.style.display='none';
+});
+}
+}).catch(function(){});
+localStorage.setItem('bna-notif-ts',String(Date.now()));
+})();
 if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(function(){});}
 })();
 `;
