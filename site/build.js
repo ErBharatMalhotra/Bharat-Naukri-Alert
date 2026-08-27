@@ -1181,45 +1181,49 @@ ${footerHTML("")}
   try { quizFiles = (await fs.readdir(quizDir)).filter(f => f.endsWith(".json")); } catch {}
   const QUIZ_JS = `
 (function(){
-var qIdx=0,score=0,answered=false,data=null;
+var qIdx=0,score=0,answered=false,data=null,timer=null,timeLeft=0,mode='practice';
 var el=document.getElementById('quizBox');
 if(!el)return;
+function fmt(s){var m=Math.floor(s/60);return m+':'+(s%60<10?'0':'')+(s%60);}
+function startTimer(){clearInterval(timer);timer=setInterval(function(){
+timeLeft--;var tc=el.querySelector('.quiz-timer');if(tc)tc.textContent=fmt(timeLeft);
+if(timeLeft<=0){clearInterval(timer);showResults();}
+},1000);}
+function showResults(){clearInterval(timer);var pct=data.questions.length?Math.round(score/data.questions.length*100):0;
+var grade=pct>=80?'Excellent!':pct>=60?'Good Job!':pct>=40?'Keep Practicing!':'Needs Improvement';
+el.innerHTML='<div class="quiz-final"><h3>Quiz Complete!</h3><p class="quiz-grade">'+grade+'</p><p class="quiz-final-score">Score: '+score+' / '+data.questions.length+' ('+pct+'%)</p>'+(mode==='mock'?'<p class="quiz-time-taken">Time: '+fmt(Math.round((data.questions.length*60)-timeLeft))+'</p>':'')+'<button class="btn btn-pri" id="qRestart">Try Again</button></div>';
+var rb=el.querySelector('#qRestart');if(rb)rb.addEventListener('click',function(){startQuiz(mode);});}
 function render(){
 if(!data||!data.questions.length){el.innerHTML='<p>No questions available.</p>';return;}
 var q=data.questions[qIdx];
 var pct=Math.round((qIdx/data.questions.length)*100);
-var h='<div class="quiz-hud"><span class="quiz-prog">'+(qIdx+1)+' / '+data.questions.length+'</span><span class="quiz-score">Score: '+score+'</span></div>';
+var h='<div class="quiz-hud"><span class="quiz-prog">'+(qIdx+1)+' / '+data.questions.length+'</span><span class="quiz-score">Score: '+score+'</span>'+(mode==='mock'?'<span class="quiz-timer">'+fmt(timeLeft)+'</span>':'')+'</div>';
 h+='<div class="quiz-bar"><div class="quiz-fill" style="width:'+pct+'%"></div></div>';
 h+='<div class="quiz-q" data-reveal>'+q.q+'</div>';
 h+='<div class="quiz-opts">';
-q.options.forEach(function(o,i){
-h+='<button class="quiz-opt" data-idx="'+i+'">'+o+'</button>';
-});
+q.options.forEach(function(o,i){h+='<button class="quiz-opt" data-idx="'+i+'">'+o+'</button>';});
 h+='</div>';
 if(answered){
 var correct=q.correct===parseInt(el.querySelector('.quiz-opt.active')?.dataset.idx);
 h+='<div class="quiz-explain '+(correct?'q-correct':'q-wrong')+'">'+(correct?'✓ Correct!':'✗ Wrong!')+' '+q.explain+'</div>';
 if(qIdx<data.questions.length-1){h+='<button class="btn btn-pri quiz-next" id="qNext">Next Question →</button>';}
-else{h+='<div class="quiz-final"><h3>Quiz Complete!</h3><p>Score: '+score+' / '+data.questions.length+' ('+Math.round(score/data.questions.length*100)+'%)</p><button class="btn btn-pri" id="qRestart">Try Again</button></div>';}
+else{showResults();return;}
 }
 el.innerHTML=h;
-el.querySelectorAll('.quiz-opt').forEach(function(b){
-b.addEventListener('click',function(){
-if(answered)return;
-answered=true;
-var idx=parseInt(b.dataset.idx);
-if(idx===q.correct)score++;
-b.classList.add('active');
-render();
-});
-});
+el.querySelectorAll('.quiz-opt').forEach(function(b){b.addEventListener('click',function(){
+if(answered)return;answered=true;var idx=parseInt(b.dataset.idx);
+if(idx===q.correct)score++;b.classList.add('active');render();});});
 var nextBtn=el.querySelector('#qNext');
 if(nextBtn)nextBtn.addEventListener('click',function(){qIdx++;answered=false;render();});
-var restartBtn=el.querySelector('#qRestart');
-if(restartBtn)restartBtn.addEventListener('click',function(){qIdx=0;score=0;answered=false;render();});
 }
-window.BNA_Quiz=function(d){data=d;qIdx=0;score=0;answered=false;render();};
-render();
+function startQuiz(m){clearInterval(timer);mode=m||'practice';qIdx=0;score=0;answered=false;
+if(mode==='mock'){timeLeft=data.questions.length*60;startTimer();}
+render();}
+window.BNA_Quiz=function(d){data=d;qIdx=0;score=0;answered=false;
+var sel=document.getElementById('quizSel');
+if(sel){sel.innerHTML='<button class="btn btn-pri" data-mode="practice">Practice Mode</button> <button class="btn btn-ghost" data-mode="mock">Mock Test (Timed)</button>';
+sel.querySelectorAll('[data-mode]').forEach(function(b){b.addEventListener('click',function(){startQuiz(b.dataset.mode);});});}
+startQuiz('practice');};
 })();
 `;
   const quizStyle = `
@@ -1253,11 +1257,20 @@ render();
 <nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../category/quiz.html">Quizzes</a>${strokeIcon("chev")}<span>${esc(qData.title)}</span></nav>
 <h1 class="page-h">${esc(qData.title)}</h1>
 <p class="page-sub">${esc(qData.titleHi)} — ${qData.questions.length} questions</p>
+<div id="quizSel" class="quiz-sel"></div>
 <div class="quiz-wrap" id="quizBox"></div>
 ${note()}
 </main>
 ${footerHTML("../")}
-<style>${quizStyle}</style>
+<style>${quizStyle}
+.quiz-sel{display:flex;gap:10px;margin-bottom:16px}
+.quiz-timer{color:var(--pri);font-weight:700;font-family:var(--disp)}
+.quiz-grade{font-size:22px;font-weight:700;margin-bottom:8px}
+.quiz-final-score{font-size:18px;margin-bottom:8px}
+.quiz-time-taken{color:var(--mut);margin-bottom:12px}
+.quiz-final{text-align:center;padding:30px 20px}
+.quiz-final h3{font-size:24px;margin-bottom:12px}
+</style>
 <script>${RUNTIME_JS}</script>
 <script>BNA_Quiz(${JSON.stringify(qData)});</script>`;
     await writeFile(`quiz/${cat}.html`, layout({
