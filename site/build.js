@@ -43,7 +43,7 @@ const LANGS = {
     prof_save: "Save Profile", prof_clear: "Clear",
     prof_hint: "Save your eligibility once — only jobs matching your profile stay highlighted on every visit.",
     strip_today: "Today's updates", strip_yest: "Yesterday's updates",
-    dl_none: "Last date — check portal",
+    dl_none: "Date to be announced",
     lastdate: "Last Date", benefit: "Benefit / Pay", category: "Category", status: "Status",
     st_open_l: "Open", st_closing_l: "Closing Soon", st_closed_l: "Closed",
     overview: "Overview", dates: "Important Dates", fee: "Application Fee", vacancy: "Vacancy Details",
@@ -418,6 +418,14 @@ const CSS_C = `
 .tile small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--mut);margin-bottom:5px}
 .tile b{font-family:var(--disp);font-size:15.5px;font-weight:700}
 .tile-sub{display:block;font-size:12px;margin-top:3px;color:var(--brand);font-weight:600}
+.overview-table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 18px;font-size:14px}
+.overview-table td{padding:11px 16px;border-bottom:1px solid var(--line)}
+.overview-table tr:last-child td{border-bottom:0}
+.overview-table td:first-child{font-weight:600;color:var(--mut);width:180px;white-space:nowrap}
+.overview-table a{color:var(--brand);text-decoration:none;font-weight:600}
+.overview-table a:hover{text-decoration:underline}
+.countdown-badge{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:999px;background:color-mix(in srgb,var(--brand) 12%,transparent);color:var(--brand);margin-left:8px;vertical-align:middle}
+.countdown-badge.cd-urgent{background:#fee2e2;color:#dc2626}
 .d-sum{font-size:15px;margin:4px 0 10px}
 .edu-row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
 .edu-chip{font-size:12.5px;font-weight:500;background:var(--card);border:1px solid var(--line);padding:5px 13px;border-radius:999px;color:var(--mut)}
@@ -620,7 +628,7 @@ ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr
       : "";
   const pairs = (titleKey, titleDef, arr) =>
     arr?.length ? table(titleKey, titleDef, arr.map((x) => [x.k, x.v])) : "";
-  if (d.summary && d.summary.length > 60) {
+  if (d.summary && d.summary.length > 40) {
     h += `<section class="d-sec" data-reveal><h3 data-i18n="overview">Overview</h3><p class="d-sum">${esc(d.summary)}</p></section>`;
   }
   h += pairs("dates", "Important Dates", d.dates);
@@ -635,6 +643,15 @@ ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr
   if (d.steps?.length) {
     h += `<section class="d-sec" data-reveal><h3 data-i18n="howto">How to Apply</h3><ol class="steps">${d.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol></section>`;
   }
+  if (d.extras?.length) {
+    const useful = d.extras.filter((x) => {
+      const k = (x.k || "").toLowerCase();
+      return !/(facebook|twitter|instagram|youtube|social|helpline|email|phone|contact|website)/i.test(k) && !/^(https?:)/i.test(x.v || "");
+    });
+    if (useful.length) {
+      h += pairs("extras", "Additional Information", useful.slice(0, 6));
+    }
+  }
   return h;
 }
 
@@ -646,6 +663,13 @@ function detailBody(e, related) {
   const edu = (e.eligibility?.education || []).map((x) => `<span class="edu-chip">${esc(x)}</span>`).join("");
   const stList = (e.eligibility?.states || []).filter((s) => s && s !== "ALL");
   const relCards = (related || []).map((r) => cardHTML(r, "../")).join("");
+  const posts = postsFromDetails(e.details);
+  const fee = feeFromDetails(e.details);
+  const deadlineText = e.deadline ? fmtDate(e.deadline) : "Date to be announced";
+  const daysLeft = e.deadline ? Math.ceil((new Date(e.deadline + "T23:59:59+05:30") - Date.now()) / 86400000) : null;
+  const countdownBadge = daysLeft !== null && daysLeft >= 0 && daysLeft <= 30
+    ? `<span class="countdown-badge${daysLeft <= 7 ? " cd-urgent" : ""}">${daysLeft === 0 ? "Last day today!" : daysLeft === 1 ? "1 day left" : daysLeft + " days left"}</span>`
+    : "";
   return `${header("../")}
 <main class="wrap page-top">
 <nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../category/${e.category}.html">${L.en}</a>${strokeIcon("chev")}<span>${esc(e.title.slice(0, 60))}</span></nav>
@@ -654,8 +678,19 @@ function detailBody(e, related) {
 <h1>${esc(e.title)}</h1>
 <div class="d-meta"><span class="avatar" style="--h:${hue(e.org)}">${initials(e.org)}</span><span class="op-org">${esc(e.org || "Government of India")}</span></div>
 </div>
+${(posts || fee || e.deadline || e.amount) ? `<table class="overview-table" data-reveal>
+<tbody>
+${e.org ? `<tr><td>Organization</td><td><b>${esc(e.org)}</b></td></tr>` : ""}
+${posts ? `<tr><td>Total Posts</td><td><b>${posts.toLocaleString()} Vacancies</b></td></tr>` : ""}
+${e.deadline ? `<tr><td>Last Date to Apply</td><td><b>${fmtDate(e.deadline)}</b> ${countdownBadge}</td></tr>` : ""}
+${fee ? `<tr><td>Application Fee</td><td>${fee.symbol}${esc(fee.text)}</td></tr>` : ""}
+${e.amount ? `<tr><td>Pay / Benefit</td><td>${esc(String(e.amount))}</td></tr>` : ""}
+${e.details?.ageLimit ? `<tr><td>Age Limit</td><td>${esc(e.details.ageLimit)}</td></tr>` : ""}
+${e.details?.payScale ? `<tr><td>Pay Scale</td><td>${esc(e.details.payScale)}</td></tr>` : ""}
+${e.official_link ? `<tr><td>Official Website</td><td><a href="${esc(e.official_link)}" target="_blank" rel="nofollow noopener">Apply Now ${strokeIcon("ext")}</a></td></tr>` : ""}
+</tbody></table>` : ""}
 <div class="info-grid">
-<div class="tile"><small data-i18n="lastdate">Last Date</small><b>${e.deadline ? fmtDate(e.deadline) : "&mdash; check portal"}</b>${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
+<div class="tile"><small data-i18n="lastdate">Last Date</small><b>${deadlineText}</b>${countdownBadge}${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
 ${e.amount ? `<div class="tile"><small data-i18n="benefit">Benefit / Pay</small><b>${esc(String(e.amount))}</b></div>` : ""}
 <div class="tile"><small data-i18n="category">Category</small><b>${L.hi || L.en}</b></div>
 <div class="tile"><small data-i18n="status">Status</small><b data-i18n="${e.status === "closing_soon" ? "st_closing_l" : e.status === "closed" ? "st_closed_l" : "st_open_l"}">${statusLabel(e.status)}</b></div>
@@ -1048,7 +1083,7 @@ ${footerHTML("")}
     const detailDesc = e.editor_note || e.summary || `${e.title} by ${e.org}. Check deadline and apply.`;
     const detailJsonDesc = e.editor_note || e.details?.summary || e.summary || `${e.title} — ${e.org}. Official notification, eligibility aur last date check karke apply karo.`;
     await writeFile(`o/${encodeURIComponent(e.id)}.html`, layout({
-      title: `${e.title.slice(0, 60)} — Last date ${e.deadline ? fmtDate(e.deadline) : "check portal"}`,
+      title: `${e.title.slice(0, 60)} — Last date ${e.deadline ? fmtDate(e.deadline) : "to be announced"}`,
       desc: detailDesc.slice(0, 155),
       canonical: `${SITE_URL}/o/${encodeURIComponent(e.id)}`,
       body: detailBody(e, related),
