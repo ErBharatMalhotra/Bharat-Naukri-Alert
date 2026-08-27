@@ -1387,6 +1387,74 @@ ${footerHTML("")}
     pages++;
   }
 
+  // ---- previous year papers pages ----
+  const papersDir = path.join(process.cwd(), "data", "papers");
+  let papersFiles = [];
+  try { papersFiles = (await fs.readdir(papersDir)).filter(f => f.endsWith(".json")); } catch {}
+  for (const pf of papersFiles) {
+    const pData = JSON.parse(await fs.readFile(path.join(papersDir, pf), "utf8"));
+    const slug = pf.replace(".json", "");
+    let papersHtml = "";
+    if (pData.papers?.length) {
+      papersHtml += `<section class="d-sec" data-reveal><h3>Previous Year Papers</h3><div class="twrap"><table class="d-table"><thead><tr><th>Year</th><th>Tier/Stage</th><th>Shift</th><th>Questions</th><th>Marks</th></tr></thead><tbody>`;
+      for (const p of pData.papers) {
+        papersHtml += `<tr><td>${p.year}</td><td>${esc(p.tier)}</td><td>${esc(p.shift)}</td><td>${p.questions}</td><td>${p.marks}</td></tr>`;
+      }
+      papersHtml += `</tbody></table></div></section>`;
+    }
+    if (pData.sources?.length) {
+      papersHtml += `<section class="d-sec" data-reveal><h3>Download Papers</h3><div class="ulinks-row">${pData.sources.map(s => `<a class="btn btn-ghost" href="${esc(s.url)}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}${esc(s.name)} <small>(${esc(s.type)})</small></a>`).join("")}</div></section>`;
+    }
+    const papersBody = `${header("../")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../papers/index.html">Papers</a>${strokeIcon("chev")}<span>${esc(pData.title)}</span></nav>
+<div class="d-head">
+<div class="d-meta"><span class="cat-chip cc-exam">Previous Year Papers</span></div>
+<h1>${esc(pData.title)}</h1>
+<p class="page-sub">${esc(pData.titleHi)}</p>
+</div>
+${papersHtml}
+${note()}
+</main>
+${footerHTML("../")}
+<style>.ulinks-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}</style>
+<script>${RUNTIME_JS}</script>`;
+    await writeFile(`papers/${slug}.html`, layout({
+      title: `${pData.title} — Bharat Naukri Alert`,
+      desc: `${pData.title} with download links from official sources.`,
+      canonical: `${SITE_URL}/papers/${slug}`,
+      body: papersBody,
+    }));
+    pages++;
+  }
+  // papers index page
+  if (papersFiles.length) {
+    const papersCards = [];
+    for (const pf of papersFiles) {
+      const pData = JSON.parse(await fs.readFile(path.join(papersDir, pf), "utf8"));
+      const slug = pf.replace(".json", "");
+      const yearRange = pData.papers?.length ? `${pData.papers[pData.papers.length-1].year}-${pData.papers[0].year}` : "";
+      papersCards.push(`<article class="op-card" data-reveal><a class="stretch" href="papers/${slug}.html"></a><div class="op-top"><span class="avatar" style="--h:300"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"/><path d="M14 2v5h5M9 13h6M9 17h4"/></svg></span><span class="op-org">Papers</span></div><h3 class="op-t">${esc(pData.title)}</h3><p class="op-s">${yearRange} — ${pData.papers?.length || 0} papers available</p></article>`);
+    }
+    const papersIndexBody = `${header("")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="index.html">Home</a>${strokeIcon("chev")}<span>Previous Year Papers</span></nav>
+<h1 class="page-h">Previous Year Papers <span class="cnt-badge">${papersFiles.length}</span></h1>
+<p class="page-sub">Download previous year question papers from official sources for free.</p>
+<div class="grid">${papersCards.join("")}</div>
+${note()}
+</main>
+${footerHTML("")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile("papers/index.html", layout({
+      title: "Previous Year Papers — Bharat Naukri Alert",
+      desc: "Download SSC CGL, RRB NTPC, IBPS PO previous year question papers for free.",
+      canonical: `${SITE_URL}/papers`,
+      body: papersIndexBody,
+    }));
+    pages++;
+  }
+
   // ---- detail pages ----
   for (const e of entries) {
     const related = entries.filter((x) => x.category === e.category && x.id !== e.id).slice(0, 3);
