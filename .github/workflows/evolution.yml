@@ -1,0 +1,58 @@
+name: Weekly Evolution
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Clone private core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+
+      - name: Health check sources
+        working-directory: core
+        run: node engine/health-check.js
+
+      - name: Run evolution review
+        working-directory: core
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_API_KEY_1: ${{ secrets.OPENROUTER_API_KEY_1 }}
+        run: node engine/evolve.js
+
+      - name: Commit evolution report
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          cd core
+          git config user.name "bna-bot"
+          git config user.email "bot@bharatnaukri.local"
+          git add memory
+          if ! git diff --cached --quiet; then
+            git commit -m "memory: weekly evolution $(date -u +%F) [skip ci]"
+            git push https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git main
+          fi
