@@ -352,6 +352,9 @@ const CSS_D = `
 .save-btn.on{display:grid;color:#fff;background:#e11d48;border-color:#e11d48}
 .op-t,.op-top{position:relative}
 
+/* applied button */
+[data-apply].on{color:#fff;background:#059669;border-color:#059669}
+
 /* rich detail sections */
 .d-sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0}
 .d-sec h3{font-family:var(--disp);font-size:15.5px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
@@ -720,6 +723,7 @@ ${e.details?.links?.length ? `<section class="d-sec" data-reveal><h3 data-i18n="
 <div><h3 data-i18n="cta_h">Ready to apply?</h3><p class="trust-line">${strokeIcon("shield")}<span data-i18n="cta_trust">Verified official government portal — direct apply link</span></p></div>
 <div class="cta-actions">
 <a class="btn btn-pri" href="${esc(e.official_link)}" target="_blank" rel="nofollow noopener"><span data-i18n="apply_btn">Official Portal</span> ${strokeIcon("ext")}</a>
+<button class="btn btn-ghost" type="button" data-apply="${esc(e.id)}" aria-label="Mark as applied"><span class="al-txt">Mark Applied</span></button>
 <button class="btn btn-ghost" type="button" data-copy="${esc(url)}">${strokeIcon("link")}<span class="cp-l" data-i18n="copy">Copy Link</span></button>
 <a class="btn btn-ghost wa" href="https://wa.me/?text=${shareTxt}" target="_blank" rel="noopener" aria-label="WhatsApp par share karo">${fillIcon("wa")}WhatsApp</a>
 <a class="btn btn-ghost tg" href="https://t.me/share/url?url=${shareUrl}&amp;text=${shareTxt}" target="_blank" rel="noopener" aria-label="Telegram par share karo">${fillIcon("tg")}Telegram</a>
@@ -827,6 +831,47 @@ if(cl)cl.addEventListener('click',function(){
 try{localStorage.removeItem('bna-profile');}catch(e){}
 applyProfUI();if(window.BNA_APP&&BNA_APP.reapply)BNA_APP.reapply();});
 applyProfUI();}
+
+// application tracker
+function apps(){try{return JSON.parse(localStorage.getItem('bna-apps')||'[]');}catch(e){return [];}}
+function refreshApps(){
+var a=apps();var chip=d.getElementById('appsChip');if(chip)chip.textContent='Applied ('+a.length+')';
+$$all('[data-apply]').forEach(function(b){
+var id=b.getAttribute('data-apply');var found=a.find(function(x){return x.id===id;});
+b.classList.toggle('on',Boolean(found));if(found){var al=b.querySelector('.al-txt');if(al)al.textContent=found.status;}
+});}
+d.addEventListener('click',function(ev){
+var b=ev.target.closest('[data-apply]');if(!b)return;ev.preventDefault();
+var id=b.getAttribute('data-apply');var a=apps();var idx=a.findIndex(function(x){return x.id===id;});
+if(idx>-1){a.splice(idx,1);}
+else{a.unshift({id:id,applied:new Date().toISOString().slice(0,10),status:'Applied'});}
+if(a.length>100)a=a.slice(0,100);
+try{localStorage.setItem('bna-apps',JSON.stringify(a));}catch(e){}
+refreshApps();});
+refreshApps();
+
+// profile export/import
+var expBtn=d.getElementById('profExport'),impBtn=d.getElementById('profImport');
+if(expBtn)expBtn.addEventListener('click',function(){
+var data={profile:prof(),saved:savedIds(),applications:apps()};
+var blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+var url=URL.createObjectURL(blob);var a2=d.createElement('a');
+a2.href=url;a2.download='bna-profile-backup.json';a2.click();URL.revokeObjectURL(url);});
+if(impBtn)impBtn.addEventListener('click',function(){
+var input=d.createElement('input');input.type='file';input.accept='.json';
+input.addEventListener('change',function(){
+var file=input.files[0];if(!file)return;
+var reader=new FileReader();
+reader.addEventListener('load',function(){
+try{var data=JSON.parse(reader.result);
+if(data.profile)try{localStorage.setItem('bna-profile',JSON.stringify(data.profile));}catch(e){}
+if(data.saved)try{localStorage.setItem('bna-saved',JSON.stringify(data.saved));}catch(e){}
+if(data.applications)try{localStorage.setItem('bna-apps',JSON.stringify(data.applications));}catch(e){}
+applyProfUI();refreshSaved();refreshApps();alert('Profile imported!');
+}catch(e){alert('Invalid file.');}});
+reader.readAsText(file);});
+input.click();});
+
 (function(){
 var nb=d.getElementById('notifBtn'),nbadge=d.getElementById('notifBadge');
 if(!nb)return;
@@ -993,9 +1038,11 @@ export async function buildSite() {
 <div id="profPanel" class="prof-panel" hidden>
 <div><label for="profState" data-i18n="prof_state">State</label><select id="profState"><option value="" data-i18n="prof_any">Any</option><option value="ALL" data-i18n="prof_all_india">All India</option>${STATES.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("")}</select></div>
 <div><label for="profEdu" data-i18n="prof_qual">Qualification</label><select id="profEdu"><option value="" data-i18n="prof_any">Any</option><option value="8th Pass">8th Pass</option><option value="10th Pass">10th Pass</option><option value="12th Pass">12th Pass</option><option value="ITI">ITI</option><option value="Diploma">Diploma</option><option value="Graduate">Graduate</option><option value="B.Tech/BE">B.Tech/BE</option><option value="Post Graduate">Post Graduate</option></select></div>
-<div style="display:flex;gap:8px;align-self:end">
+<div style="display:flex;gap:8px;align-self:end;flex-wrap:wrap">
 <button id="profSave" class="btn btn-pri" data-i18n="prof_save">Save Profile</button>
 <button id="profClear" class="btn btn-ghost" data-i18n="prof_clear">Clear</button>
+<button id="profExport" class="btn btn-ghost">Export</button>
+<button id="profImport" class="btn btn-ghost">Import</button>
 </div>
 <p class="prof-hint" data-i18n="prof_hint">Save your eligibility once — only jobs matching your profile stay highlighted on every visit.</p>
 </div>
