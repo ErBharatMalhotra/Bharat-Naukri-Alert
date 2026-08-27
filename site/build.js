@@ -18,6 +18,7 @@ const CAT_LABELS = {
   "admit-card": { en: "Admit Cards", hi: "एडमिट कार्ड", icon: "ticket" },
   "answer-key": { en: "Answer Keys", hi: "उत्तर कुंजी", icon: "file" },
   result: { en: "Results", hi: "परिणाम", icon: "trophy" },
+  quiz: { en: "Quizzes", hi: "प्रश्नोत्तरी", icon: "target" },
 };
 
 const STATES = [
@@ -1116,6 +1117,126 @@ ${note()}
 ${footerHTML("")}
 <script>${RUNTIME_JS}</script>`;
     await writeFile(file, layout({ title: `${p.title}`, desc: `${p.h} `, canonical: `${SITE_URL}/${file.replace(/\.html$/, "")}`, body }));
+    pages++;
+  }
+
+  // ---- quiz pages ----
+  const quizDir = path.join(process.cwd(), "data", "quizzes");
+  let quizFiles = [];
+  try { quizFiles = (await fs.readdir(quizDir)).filter(f => f.endsWith(".json")); } catch {}
+  const QUIZ_JS = `
+(function(){
+var qIdx=0,score=0,answered=false,data=null;
+var el=document.getElementById('quizBox');
+if(!el)return;
+function render(){
+if(!data||!data.questions.length){el.innerHTML='<p>No questions available.</p>';return;}
+var q=data.questions[qIdx];
+var pct=Math.round((qIdx/data.questions.length)*100);
+var h='<div class="quiz-hud"><span class="quiz-prog">'+(qIdx+1)+' / '+data.questions.length+'</span><span class="quiz-score">Score: '+score+'</span></div>';
+h+='<div class="quiz-bar"><div class="quiz-fill" style="width:'+pct+'%"></div></div>';
+h+='<div class="quiz-q" data-reveal>'+q.q+'</div>';
+h+='<div class="quiz-opts">';
+q.options.forEach(function(o,i){
+h+='<button class="quiz-opt" data-idx="'+i+'">'+o+'</button>';
+});
+h+='</div>';
+if(answered){
+var correct=q.correct===parseInt(el.querySelector('.quiz-opt.active')?.dataset.idx);
+h+='<div class="quiz-explain '+(correct?'q-correct':'q-wrong')+'">'+(correct?'✓ Correct!':'✗ Wrong!')+' '+q.explain+'</div>';
+if(qIdx<data.questions.length-1){h+='<button class="btn btn-pri quiz-next" id="qNext">Next Question →</button>';}
+else{h+='<div class="quiz-final"><h3>Quiz Complete!</h3><p>Score: '+score+' / '+data.questions.length+' ('+Math.round(score/data.questions.length*100)+'%)</p><button class="btn btn-pri" id="qRestart">Try Again</button></div>';}
+}
+el.innerHTML=h;
+el.querySelectorAll('.quiz-opt').forEach(function(b){
+b.addEventListener('click',function(){
+if(answered)return;
+answered=true;
+var idx=parseInt(b.dataset.idx);
+if(idx===q.correct)score++;
+b.classList.add('active');
+render();
+});
+});
+var nextBtn=el.querySelector('#qNext');
+if(nextBtn)nextBtn.addEventListener('click',function(){qIdx++;answered=false;render();});
+var restartBtn=el.querySelector('#qRestart');
+if(restartBtn)restartBtn.addEventListener('click',function(){qIdx=0;score=0;answered=false;render();});
+}
+window.BNA_Quiz=function(d){data=d;qIdx=0;score=0;answered=false;render();};
+render();
+})();
+`;
+  const quizStyle = `
+.quiz-hud{display:flex;justify-content:space-between;margin-bottom:8px;font-weight:600}
+.quiz-prog{color:var(--mut)}
+.quiz-score{color:var(--pri)}
+.quiz-bar{height:6px;background:var(--line);border-radius:3px;margin-bottom:20px;overflow:hidden}
+.quiz-fill{height:100%;background:var(--pri);border-radius:3px;transition:width .3s}
+.quiz-q{font-size:18px;font-weight:600;margin-bottom:16px;line-height:1.5}
+.quiz-opts{display:grid;gap:10px}
+.quiz-opt{padding:14px 18px;border:2px solid var(--line);border-radius:12px;background:var(--card);font-size:15px;text-align:left;cursor:pointer;transition:.15s;font-weight:500}
+.quiz-opt:hover{border-color:var(--pri);background:var(--bg2)}
+.quiz-opt.active{border-color:var(--pri);background:var(--pri);color:#fff}
+.quiz-opt.active.q-correct{background:#059669;border-color:#059669}
+.quiz-opt.active.q-wrong{background:#dc2626;border-color:#dc2626}
+.quiz-explain{margin-top:16px;padding:14px;border-radius:12px;font-size:14px;line-height:1.5}
+.q-correct{background:#d1fae5;color:#065f46}
+.q-wrong{background:#fee2e2;color:#991b1b}
+.quiz-next{margin-top:16px}
+.quiz-final{text-align:center;margin-top:20px}
+.quiz-final h3{margin-bottom:8px}
+.quiz-final p{font-size:18px;margin-bottom:16px}
+[data-theme=dark] .q-correct{background:#064e3b;color:#a7f3d0}
+[data-theme=dark] .q-wrong{background:#7f1d1d;color:#fecaca}
+`;
+  for (const qf of quizFiles) {
+    const qData = JSON.parse(await fs.readFile(path.join(quizDir, qf), "utf8"));
+    const cat = qf.replace(".json", "");
+    const quizBody = `${header("../")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="../index.html">Home</a>${strokeIcon("chev")}<a href="../category/quiz.html">Quizzes</a>${strokeIcon("chev")}<span>${esc(qData.title)}</span></nav>
+<h1 class="page-h">${esc(qData.title)}</h1>
+<p class="page-sub">${esc(qData.titleHi)} — ${qData.questions.length} questions</p>
+<div class="quiz-wrap" id="quizBox"></div>
+${note()}
+</main>
+${footerHTML("../")}
+<style>${quizStyle}</style>
+<script>${RUNTIME_JS}</script>
+<script>BNA_Quiz(${JSON.stringify(qData)});</script>`;
+    await writeFile(`quiz/${cat}.html`, layout({
+      title: `${qData.title} Quiz — Bharat Naukri Alert`,
+      desc: `Practice ${qData.questions.length} ${qData.title} questions for government exam preparation.`,
+      canonical: `${SITE_URL}/quiz/${cat}`,
+      body: quizBody,
+    }));
+    pages++;
+  }
+  // quiz index page
+  if (quizFiles.length) {
+    const quizIndexCards = [];
+    for (const qf of quizFiles) {
+      const qData = JSON.parse(await fs.readFile(path.join(quizDir, qf), "utf8"));
+      const cat = qf.replace(".json", "");
+      quizIndexCards.push(`<article class="op-card" data-reveal><a class="stretch" href="quiz/${cat}.html"></a><div class="op-top"><span class="avatar" style="--h:0"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span><span class="op-org">Quiz</span></div><h3 class="op-t">${esc(qData.title)}</h3><p class="op-s">${qData.questions.length} questions — ${esc(qData.titleHi)}</p></article>`);
+    }
+    const quizIndexBody = `${header("")}
+<main class="wrap page-top">
+<nav class="crumb"><a href="index.html">Home</a>${strokeIcon("chev")}<span>Quizzes</span></nav>
+<h1 class="page-h">Quizzes <span class="cnt-badge">${quizFiles.length}</span></h1>
+<p class="page-sub">Government exam practice questions — SSC, Railway, GK</p>
+<div class="grid">${quizIndexCards.join("")}</div>
+${note()}
+</main>
+${footerHTML("")}
+<script>${RUNTIME_JS}</script>`;
+    await writeFile("quiz/index.html", layout({
+      title: "Quizzes — Bharat Naukri Alert",
+      desc: "Practice government exam MCQs — SSC, Railway, GK quizzes for free.",
+      canonical: `${SITE_URL}/quiz`,
+      body: quizIndexBody,
+    }));
     pages++;
   }
 
