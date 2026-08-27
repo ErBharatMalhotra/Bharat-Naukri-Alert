@@ -1,0 +1,185 @@
+{
+  "_comment": "Add these sources to SOURCES_JSON secret on GitHub. Each source has: id, name, url, type (rss/html/scraper), default_category, agg_domains (for dedup)",
+  "sources": [
+    {
+      "id": "employment-news",
+      "name": "Employment News",
+      "url": "https://employmentnews.gov.in",
+      "type": "rss",
+      "rss_url": "https://employmentnews.gov.in/rss",
+      "default_category": "job",
+      "agg_domains": ["employmentnews.gov.in"]
+    },
+    {
+      "id": "uppsc",
+      "name": "UPPSC",
+      "url": "https://uppsc.up.nic.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p, .desc"},
+      "default_category": "exam",
+      "agg_domains": ["uppsc.up.nic.in"]
+    },
+    {
+      "id": "ssc-nic",
+      "name": "SSC",
+      "url": "https://ssc.nic.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification-title", "link": "a[href*='.pdf'], a[href*='notice']", "description": "p, td"},
+      "default_category": "exam",
+      "agg_domains": ["ssc.nic.in"]
+    },
+    {
+      "id": "ibps",
+      "name": "IBPS",
+      "url": "https://ibps.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p, .desc"},
+      "default_category": "exam",
+      "agg_domains": ["ibps.in"]
+    },
+    {
+      "id": "upsssc",
+      "name": "UPSSSC",
+      "url": "https://upsssc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["upsssc.gov.in"]
+    },
+    {
+      "id": "bspsc",
+      "name": "BPSC",
+      "url": "https://bpsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification-title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["bpsc.gov.in"]
+    },
+    {
+      "id": "ukpsc",
+      "name": "UKPSC",
+      "url": "https://ukpsc.net.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["ukpsc.net.in"]
+    },
+    {
+      "id": "mppsc",
+      "name": "MPPSC",
+      "url": "https://mppsc.mp.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["mppsc.mp.gov.in"]
+    },
+    {
+      "id": "bpsc",
+      "name": "BPSC",
+      "url": "https://bpsc.bih.nic.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["bpsc.bih.nic.in"]
+    },
+    {
+      "id": "jpsc",
+      "name": "JPSC",
+      "url": "https://jpsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["jpsc.gov.in"]
+    },
+    {
+      "id": "rpsc",
+      "name": "RPSC",
+      "url": "https://rpsc.rajasthan.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["rpsc.rajasthan.gov.in"]
+    },
+    {
+      "id": "tspsc",
+      "name": "TSPSC",
+      "url": "https://tspsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["tspsc.gov.in"]
+    },
+    {
+      "id": "appsc",
+      "name": "APPSC",
+      "url": "https://psc.ap.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["psc.ap.gov.in"]
+    },
+    {
+      "id": "kpsc",
+      "name": "KPSC",
+      "url": "https://kpsc.kar.nic.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["kpsc.kar.nic.in"]
+    },
+    {
+      "id": "opsc",
+      "name": "OPSC",
+      "url": "https://opsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["opsc.gov.in"]
+    },
+    {
+      "id": "hpsc",
+      "name": "HPSC",
+      "url": "https://hpsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .title", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["hpsc.gov.in"]
+    },
+    {
+      "id": "upsc-notifications",
+      "name": "UPSC Notifications",
+      "url": "https://upsc.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification-title", "link": "a[href*='notification'], a[href*='.pdf']", "description": "p, td"},
+      "default_category": "exam",
+      "agg_domains": ["upsc.gov.in"]
+    },
+    {
+      "id": "nta",
+      "name": "NTA",
+      "url": "https://nta.ac.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["nta.ac.in"]
+    },
+    {
+      "id": "cbse",
+      "name": "CBSE",
+      "url": "https://cbse.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .notification", "link": "a[href]", "description": "p"},
+      "default_category": "exam",
+      "agg_domains": ["cbse.gov.in"]
+    },
+    {
+      "id": "scholarships-gov",
+      "name": "Scholarships Portal",
+      "url": "https://scholarships.gov.in",
+      "type": "html",
+      "selectors": {"title": "h1, h2, .scheme-name", "link": "a[href]", "description": "p, .desc"},
+      "default_category": "scholarship",
+      "agg_domains": ["scholarships.gov.in"]
+    }
+  ]
+}
