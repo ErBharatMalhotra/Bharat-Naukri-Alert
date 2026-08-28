@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Energy And Power",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-j8s1r",
-      "q": "The joule is a unit of energy.",
+      "id": "gate-5o2ixk",
+      "q": "Watt's law states the relationships of power to energy.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-de9ewk",
-      "q": "Power rating is related to resistance value.",
+      "id": "gate-17sqkq6",
+      "q": "The watt is the unit of power.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-14653c8",
-      "q": "The power rating of a resistor determines the minimum power that it can handle safely.",
+      "id": "gate-1l0m2us",
+      "q": "A resistor normally opens when it burns out.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1tk4nhp",
-      "q": "The capacity of a battery is measured in milliamperes.",
+      "id": "gate-1vkkbbw",
+      "q": "Energy equals power multiplied by time.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-188s42w",
-      "q": "Energy is equal to power multiplied by voltage.",
+      "id": "gate-cjzm70",
+      "q": "A battery is one type of power supply that converts chemical energy into electrical energy.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-ie3sh9",
-      "q": "A given power supply is capable of providing 6 A for 3.5 h. Its ampere-hour rating is",
+      "id": "gate-1bj9nco",
+      "q": "A 33 half-watt resistor and a 330 half-watt resistor are connected across a 12 V source. Which one(s) will overheat?",
       "options": [
-        "0.58 Ah",
-        "2.1 Ah",
-        "21 Ah",
-        "58 Ah"
+        "33",
+        "330",
+        "both resistors",
+        "neither resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mhyhn4",
-      "q": "A 15 V source is connected across a 12 resistor. How much energy is used in three minutes?",
+      "id": "gate-52p790",
+      "q": "When the pointer of an analog ohmmeter reads close to zero, the resistor being measured is",
       "options": [
-        "938 Wh",
-        "0.938 Wh",
-        "56.25 Wh",
-        "5.6 Wh"
+        "overheated",
+        "shorted",
+        "open",
+        "reversed"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1igrhya",
-      "q": "At the end of a 14 day period, your utility bill shows that you have used 18 kWh. What is your average daily power?",
+      "id": "gate-1uid1ls",
+      "q": "In 0.025 W, there are",
       "options": [
-        "1.286 kWh",
-        "12.85 kWh",
-        "535 kWh",
-        "252 kWh"
+        "25 kW",
+        "0.00025 mW",
+        "2,500 &#181;W",
+        "25 mW"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y5wyec",
-      "q": "A 120 resistor must carry a maximum current of 25 mA. Its rating should be at least",
+      "id": "gate-1iklif",
+      "q": "A certain appliance uses 350 W. If it is allowed to run continuously for 24 days, how many kilowatt-hours of energy does it consume?",
       "options": [
-        "4.8 W",
-        "150 mW",
-        "15 mW",
-        "480 mW"
+        "20.16 kWh",
+        "201.6 kWh",
+        "2.01 kWh",
+        "8.4 kWh"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gtdg88",
-      "q": "If you used 400 W of power for 30 h, you have used",
+      "id": "gate-10cc1m4",
+      "q": "A power supply produces a 0.6 W output with an input of 0.7 W. Its percentage of efficiency is",
       "options": [
-        "1.3 kWh",
-        "13.3 kWh",
-        "1.2 kWh",
-        "12 kWh"
+        "8.57%",
+        "42.85%",
+        "4.28%",
+        "85.7%"
       ],
       "correct": 0,
       "explain": "",
@@ -198,93 +198,193 @@
       "tags": []
     },
     {
-      "id": "gate-l9uhqp",
-      "q": "The power rating of a carbon-composition resistor that is to handle up to 1.2 W should be",
+      "id": "gate-kcd218",
+      "q": "A 6 V battery is connected to a 300 load. Under these conditions, it is rated at 40 Ah. How long can it supply current to the load?",
       "options": [
+        "1 h",
+        "200 h",
+        "2,000 h",
+        "10 h"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-100fa8p",
+      "q": "In 40 kW, there are",
+      "options": [
+        "0.4 mW",
+        "40,000 W",
+        "400 W",
+        "5,000 W"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e1y1hs",
+      "q": "If you used 600 W of power for 60 h, you have used",
+      "options": [
+        "36 kWh",
+        "3.6 kWh",
+        "10 kWh",
+        "1 kWh"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rbsdo4",
+      "q": "If it takes 400 ms to use 12,000 J of energy, the power is",
+      "options": [
+        "30 kW",
+        "30 W",
+        "3 W",
+        "300 kW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ka6rl8",
+      "q": "How many watt-hours represent 65 W used for 18 h?",
+      "options": [
+        "11.7 Wh",
+        "1,170 Wh",
+        "11,700 Wh",
+        "117,000 Wh"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jdzuwk",
+      "q": "For 12 V and 40 mA, the power is",
+      "options": [
+        "480 mW",
+        "0.480 W",
+        "480,000 &#181;W",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1luyezo",
+      "q": "A 220 resistor dissipates 3 W. The voltage is",
+      "options": [
+        "73.3 V",
+        "2.5 V",
+        "25.7 V",
+        "257 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5qqt7c",
+      "q": "A 3.3 k resistor dissipates 0.25 W. The current is",
+      "options": [
+        "8.7 mA",
+        "87 mA",
+        "8.7 &#181;A",
+        "8.7 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o2eyhl",
+      "q": "A half-watt is equal to how many milliwatts?",
+      "options": [
+        "5,000 mW",
+        "5 mW",
+        "500 mW",
+        "50 mW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Energy And Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fl8apg",
+      "q": "Three hundred joules of energy are consumed in 15 s. The power is",
+      "options": [
+        "2,000 W",
         "2 W",
-        "1 W",
-        "5 W",
-        "0.5 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Energy And Power",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i35q7c",
-      "q": "How much continuous current can be drawn from a 60 Ah battery for 14 h?",
-      "options": [
-        "42.8 A",
-        "428 A",
-        "4.28 A",
-        "4.2 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Energy And Power",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oylf8w",
-      "q": "A 75 load uses 2 W of power. The output voltage of the power supply is approximately",
-      "options": [
-        "120 V",
-        "1.2 V",
-        "12 V",
-        "6 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Energy And Power",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16sud0p",
-      "q": "When the current through a 12 k resistor is 8 mA, the power is",
-      "options": [
-        "7.68 mW",
-        "768 mW",
-        "7.68 W",
-        "76.8 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Energy And Power",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5uunj8",
-      "q": "A 68 resistor is connected across the terminals of a 3 V battery. The power dissipation of the resistor is",
-      "options": [
-        "132 mW",
-        "13.2 mW",
-        "22.6 mW",
-        "226 mW"
+        "20 W",
+        "200 W"
       ],
       "correct": 0,
       "explain": "",

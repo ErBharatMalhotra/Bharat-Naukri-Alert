@@ -5,16 +5,356 @@
   "subject": "Python Programming",
   "topic": "Dictionaries",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 31,
   "questions": [
     {
-      "id": "gate-fpw3w",
-      "q": "How do you merge two dictionaries?",
+      "id": "gate-jru5gb",
+      "q": "How do you check if a key is present in a dictionary?",
+      "options": [
+        "key.exists()",
+        "key.in()",
+        "key.present()",
+        "key in dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yci4bk",
+      "q": "How do you retrieve all keys from a dictionary?",
+      "options": [
+        "dictionary.keys()",
+        "dictionary.get_keys()",
+        "dictionary.extract_keys()",
+        "dictionary.all_keys()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1opa3cw",
+      "q": "What is the purpose of the dictionary.setdefault(key, default_value) method?",
+      "options": [
+        "Sets the default value for a key.",
+        "Retrieves the default value for a key.",
+        "Adds a new key-value pair with a default value.",
+        "Removes a key from the dictionary."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sxy2fc",
+      "q": "How do you remove a key-value pair from a dictionary?",
+      "options": [
+        "dictionary.remove_key(key)",
+        "dictionary.delete(key)",
+        "dictionary.remove(key)",
+        "dictionary.pop(key)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mamdnw",
+      "q": "What is the result of the expression len(dictionary)?",
+      "options": [
+        "Returns the number of keys in the dictionary.",
+        "Returns the number of values in the dictionary.",
+        "Returns the total number of key-value pairs.",
+        "Raises a TypeError."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-100gfjg",
+      "q": "How do you check if a value is present in the values of a dictionary?",
+      "options": [
+        "value in dictionary",
+        "dictionary.contains(value)",
+        "value.exists_in(dictionary)",
+        "dictionary.has_value(value)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uiaa2k",
+      "q": "What is the purpose of the dictionary.copy() method?",
+      "options": [
+        "Creates a shallow copy of the dictionary.",
+        "Creates a deep copy of the dictionary.",
+        "Copies only the keys of the dictionary.",
+        "Copies only the values of the dictionary."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mm6vis",
+      "q": "How do you get a list of all values in a dictionary?",
+      "options": [
+        "dictionary.all_values()",
+        "dictionary.get_values()",
+        "dictionary.values()",
+        "dictionary.extract_values()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zxm6so",
+      "q": "What is the result of the expression len(dictionary.keys())?",
+      "options": [
+        "Returns the number of keys in the dictionary.",
+        "Returns the number of values in the dictionary.",
+        "Returns the total number of key-value pairs.",
+        "Raises a TypeError."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iktoks",
+      "q": "How do you iterate over the key-value pairs in a dictionary?",
+      "options": [
+        "for key in dictionary:",
+        "for key, value in dictionary.iter_items():",
+        "for key, value in dictionary.items():",
+        "for key, value in dictionary.get_pairs():"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u269k",
+      "q": "What does the dictionary.pop(key, None) method do?",
+      "options": [
+        "Removes the specified key from the dictionary.",
+        "Raises a KeyError if the key is not present.",
+        "Removes a random key-value pair from the dictionary.",
+        "Removes the specified key and returns its value, or returns None if the key is not present."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-de95jo",
+      "q": "How do you check if a specific value exists in the values of a dictionary?",
+      "options": [
+        "if value in dictionary:",
+        "if value.exists_in(dictionary.values()):",
+        "if value.contains(dictionary.values()):",
+        "if dictionary.contains_value(value):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1suyqds",
+      "q": "What is the purpose of the dictionary.pop(key, default_value) method?",
+      "options": [
+        "Removes the specified key from the dictionary.",
+        "Raises a KeyError if the key is not present.",
+        "Removes the specified key and returns its value, or returns the default value if the key is not present.",
+        "Adds a new key-value pair with a default value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ha8nmi",
+      "q": "What does the expression len(dictionary.items()) return?",
+      "options": [
+        "Returns the number of keys in the dictionary.",
+        "Returns the number of values in the dictionary.",
+        "Returns the total number of key-value pairs.",
+        "Raises a TypeError."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s10s5k",
+      "q": "How do you create a dictionary with keys from one list and values from another list?",
+      "options": [
+        "dict(keys, values)",
+        "dict.fromkeys(keys, values)",
+        "{key: value for key, value in zip(keys, values)}",
+        "dictionary.create(keys, values)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vbjtyh",
+      "q": "What does the dictionary.fromkeys(keys, default_value) method do?",
+      "options": [
+        "Creates a new dictionary with specified keys and values.",
+        "Creates a new dictionary with specified keys and default values.",
+        "Updates an existing dictionary with new keys and values.",
+        "Removes specified keys from a dictionary."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19fko7c",
+      "q": "What is the purpose of the dictionary.reverse() method?",
+      "options": [
+        "Reverses the order of keys in the dictionary.",
+        "Reverses the order of values in the dictionary.",
+        "Reverses the key-value pairs in the dictionary.",
+        "There is no reverse() method for dictionaries."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ao04hx",
+      "q": "How do you merge two dictionaries and create a new one?",
       "options": [
         "dict.merge(another_dict)",
         "dict.join(another_dict)",
-        "dict + another_dict",
-        "dict.update(another_dict)"
+        "{**dict, **another_dict}",
+        "dict.combine(another_dict)"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-1sxsnig",
-      "q": "What is the purpose of the dictionary.items() method?",
+      "id": "gate-1m01rpe",
+      "q": "How do you check if a key exists in a dictionary without raising an error?",
       "options": [
-        "Returns a list of all keys.",
-        "Returns a list of all values.",
-        "Returns a list of key-value pairs.",
-        "Returns a list of default values."
+        "key.exists()",
+        "key in dictionary",
+        "dictionary.has_key(key)",
+        "dictionary.key_exists(key)"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +388,13 @@
       "tags": []
     },
     {
-      "id": "gate-gp6fcs",
-      "q": "How do you create a dictionary with a default value for all new keys?",
+      "id": "gate-t0k6rc",
+      "q": "What does the dictionary.pop(key, default_value) method do?",
       "options": [
-        "dictionary.set_default(default_value)",
-        "dictionary.default_value = default_value",
-        "dictionary.default(default_value)",
-        "collections.defaultdict(default_value)"
+        "Removes the key from the dictionary.",
+        "Returns the value for the key and removes it.",
+        "Returns the value for the key or the default value if the key is not present.",
+        "Adds a new key-value pair with the specified default value."
       ],
       "correct": 0,
       "explain": "",
@@ -68,12 +408,192 @@
       "tags": []
     },
     {
-      "id": "gate-odc938",
-      "q": "What is the result of the expression dictionary.get('key', 'default')?",
+      "id": "gate-jq8zgw",
+      "q": "What is the purpose of the dictionary.popitem() method?",
       "options": [
+        "Removes the last key-value pair from the dictionary.",
+        "Removes a random key-value pair from the dictionary.",
+        "Raises a KeyError.",
+        "Adds a new key-value pair to the dictionary."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rirt9g",
+      "q": "How do you create a dictionary with default values for keys?",
+      "options": [
+        "default_dict = dict.default(value)",
+        "default_dict = dict.fromkeys(keys, value)",
+        "default_dict = dict.create(keys, value)",
+        "default_dict = dict(keys, value)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lz1xve",
+      "q": "How do you check if a key exists in a dictionary without raising an error if the key is not present?",
+      "options": [
+        "if dictionary.contains(key):",
+        "if key.exists_in(dictionary):",
+        "if key in dictionary:",
+        "if dictionary.has_key(key):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u4n0qs",
+      "q": "How do you extract all values from a dictionary and store them in a list?",
+      "options": [
+        "values_list = dictionary.get_values()",
+        "values_list = list(dictionary.values())",
+        "values_list = dictionary.extract_values()",
+        "values_list = dictionary.all_values()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-stw9nt",
+      "q": "What is the result of the expression len(dictionary.values())?",
+      "options": [
+        "Returns the number of keys in the dictionary.",
+        "Returns the number of values in the dictionary.",
+        "Returns the total number of key-value pairs.",
+        "Raises a TypeError."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o2x29g",
+      "q": "How do you remove a key-value pair from a dictionary in Python without raising an error if the key is not present?",
+      "options": [
+        "dictionary.remove_key(key)",
+        "dictionary.delete(key)",
+        "dictionary.remove(key)",
+        "dictionary.pop(key, None)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l9n2w8",
+      "q": "How do you create an empty dictionary?",
+      "options": [
+        "empty_dict = {}",
+        "empty_dict = dict.empty()",
+        "empty_dict = new Dictionary()",
+        "empty_dict = dict()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gh1t4w",
+      "q": "What is the purpose of the dictionary.update(another_dict) method?",
+      "options": [
+        "Merges the two dictionaries, updating values for common keys.",
+        "Adds a new key-value pair to the dictionary.",
+        "Removes a key-value pair from the dictionary.",
+        "Creates a new dictionary by combining keys and values."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17tdft",
+      "q": "What does the dictionary.clear() method do?",
+      "options": [
+        "Removes a specific key-value pair.",
+        "Removes all items from the dictionary.",
+        "Clears the values of the dictionary.",
+        "Deletes the dictionary itself."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q5m34c",
+      "q": "What is the result of the expression dictionary.get('key')?",
+      "options": [
+        "Returns the value for 'key' if present, otherwise returns None.",
         "Raises a KeyError if 'key' is not present.",
-        "Returns the value of 'key' if present, otherwise returns 'default'.",
-        "Returns 'default' if 'key' is not present.",
+        "Returns True if 'key' is present, False otherwise.",
         "Returns a tuple containing 'key' and its value."
       ],
       "correct": 0,
@@ -88,93 +608,13 @@
       "tags": []
     },
     {
-      "id": "gate-18pb1s",
-      "q": "How do you remove all items from a dictionary?",
+      "id": "gate-tctirw",
+      "q": "How do you check if a key exists in a dictionary and, if not, add a default value to it?",
       "options": [
-        "dictionary.delete_all()",
-        "dictionary.clear()",
-        "dictionary.remove_all()",
-        "dictionary.erase()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Dictionaries",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qngj1o",
-      "q": "What is the purpose of the dictionary.update(key=value) method?",
-      "options": [
-        "Adds a new key-value pair to the dictionary.",
-        "Updates the values of the dictionary with new values.",
-        "Removes a key-value pair from the dictionary.",
-        "Raises a SyntaxError."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Dictionaries",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lnyxuc",
-      "q": "How do you remove a specific key-value pair from a dictionary?",
-      "options": [
-        "dictionary.remove(key)",
-        "dictionary.delete(key)",
-        "dictionary.clear(key)",
-        "del dictionary[key]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Dictionaries",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-odukh0",
-      "q": "What is the difference between the dictionary.keys() and dictionary.values() methods?",
-      "options": [
-        "Both methods return the keys of the dictionary.",
-        "Both methods return the values of the dictionary.",
-        "dictionary.keys() returns a list of keys, while dictionary.values() returns a list of values.",
-        "dictionary.keys() returns a list of values, while dictionary.values() returns a list of keys."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Dictionaries",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gw3rqc",
-      "q": "How do you check if a key exists in a dictionary using the get() method?",
-      "options": [
-        "if key.get(dictionary):",
-        "if key.exists_in(dictionary.get()):",
-        "if dictionary.get(key) is not None:",
-        "if key in dictionary.get():"
+        "if key not in dictionary: dictionary[key] = default_value",
+        "dictionary.check_and_add(key, default_value)",
+        "dictionary.ensure_key(key, default_value)",
+        "dictionary.add_default(key, default_value)"
       ],
       "correct": 0,
       "explain": "",

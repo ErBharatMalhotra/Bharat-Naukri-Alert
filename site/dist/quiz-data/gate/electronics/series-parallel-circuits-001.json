@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Series Parallel Circuits",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 48,
   "questions": [
     {
-      "id": "gate-uqxj8y",
-      "q": "In the given circuit, the Thevenin voltage equals 6 V.",
+      "id": "gate-1adv2vo",
+      "q": "Bleeder current is the total current left after the total divider current is subtracted from the total current into the circuit.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gzmkho",
-      "q": "The voltage across R3 is 20 volts.",
+      "id": "gate-115egwa",
+      "q": "When analyzing series&#150;parallel circuit currents, you should start with the current in the branch farthest from the source.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-8tgc90",
-      "q": "The voltage across R1 is 175 volts.",
+      "id": "gate-xaig60",
+      "q": "The power dissipated by R4 is 211 mW.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-dgq86c",
-      "q": "In the given circuit, the Thevenin resistance equals 800 .",
+      "id": "gate-xne31s",
+      "q": "The total resistance in the circuit is 1.6 k.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-f319wg",
-      "q": "The voltmeter will read 18 volts.",
+      "id": "gate-muwkxv",
+      "q": "The current through R1 is 17 mA.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-mw555u",
-      "q": "The loading effect of a voltmeter can be ignored if ____.",
+      "id": "gate-1hsy8k",
+      "q": "The voltage out when a 10 k load is connected is 5.7 volts.",
       "options": [
-        "the measured voltage is very high",
-        "the measured voltage is very low",
-        "the meter's resistance is at least 10 times greater than the resistance across which it is connected",
-        "the meter's resistance is at least 10 times less than the resistance across which it is connected"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-mdoa0o",
-      "q": "A Thevenin equivalent circuit contains _____.",
+      "id": "gate-1c0huz0",
+      "q": "When resistors burn out, they usually short.",
       "options": [
-        "a voltage source in series with a resistance",
-        "a current source in series with a resistance",
-        "resistors in a series-parallel configuration",
-        "many voltage sources"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-j846eh",
-      "q": "In the given circuit, the current flowing through R3 equals ______.",
+      "id": "gate-mr83us",
+      "q": "Attaching a 6 k load to a voltage divider will cause a smaller decrease in the output voltage than will attaching a 5 k load.",
       "options": [
-        "10 mA",
-        "21.11 mA",
-        "90 mA",
-        "100 mA"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-2vvurf",
-      "q": "Series components in a series&#8211;parallel circuit may be in series with other _______________ components, or with other _______________ components.",
+      "id": "gate-nid0wk",
+      "q": "A loaded voltage divider is a common application of a series-parallel circuit.",
       "options": [
-        "individual, combinations of",
-        "series, parallel",
-        "parallel, series",
-        "shunt, parallel"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,13 @@
       "tags": []
     },
     {
-      "id": "gate-fhduxk",
-      "q": "If four 10 k resistors are in series with a single 20 k resistor and one of the parallel resistors shorts, the voltage across the other parallel resistors ________.",
+      "id": "gate-k9dkxs",
+      "q": "In the given circuit, the voltage dropped across R1 equals _____.",
       "options": [
-        "increases",
-        "decreases",
-        "remains the same",
-        "drops to zero"
+        "1 V",
+        "9 V",
+        "10 V",
+        "19 V"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +190,13 @@
       "tags": []
     },
     {
-      "id": "gate-grccf0",
-      "q": "When a Wheatstone bridge is in a balanced condition, the center voltmeter in the bridge will read:",
+      "id": "gate-1h5bogc",
+      "q": "___ is often used to analyze multiple-source circuits.",
       "options": [
-        "twice the source voltage",
-        "the same as the source voltage",
-        "zero volts",
-        "half the source voltage"
+        "Thevenin's theorem",
+        "Superposition",
+        "Kirchhoff's law",
+        "Ohm's law"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +210,13 @@
       "tags": []
     },
     {
-      "id": "gate-mwc3jg",
-      "q": "When a load is connected to a voltage divider, the total resistance of the circuit will:",
+      "id": "gate-1517pb4",
+      "q": "If R3 opens in the given circuit, the total resistance (RT) between points A and B equals ____.",
       "options": [
-        "decrease",
-        "double",
-        "increase",
-        "remain the same"
+        "900",
+        "100",
+        "110",
+        "infinite resistance"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +230,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gkmu5k",
-      "q": "With 21 V applied, if R1 = 5 ohms, R2 = 35 ohms, and R3 = 14 ohms, what is the current of R2 if R1 is series connected with parallel circuit R2 and R3?",
+      "id": "gate-1o4iclg",
+      "q": "If a Wheatstone bridge is balanced, its output voltage is ____.",
       "options": [
-        "200 mA",
-        "800 mA",
-        "600 mA",
-        "400 mA"
+        "the same as its input voltage",
+        "very high",
+        "dependent on the unknown resistor value",
+        "equal to 0 V"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +250,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ynrjhw",
-      "q": "What is the total resistance of a circuit when R1 (7 k ) is in series with a parallel combination of R2 (20 k ), R3 (36 k ), and R4 (45 k )?",
+      "id": "gate-1e336t8",
+      "q": "In the given circuit, the total resistance (RT) between points A and B equals _____.",
       "options": [
-        "4 k",
-        "17 k",
-        "41 k",
-        "108 k"
+        "10",
+        "100",
+        "900",
+        "1,010"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +270,13 @@
       "tags": []
     },
     {
-      "id": "gate-188syp0",
-      "q": "If the load in the given circuit is 80 k , what is the bleeder current?",
+      "id": "gate-ap9t41",
+      "q": "In the given circuit, the voltage at point A equals ______.",
       "options": [
-        "196 A",
-        "1.96 mA",
-        "2 mA",
-        "2.16 mA"
+        "&#8211;10 V",
+        "+1 V",
+        "+9 V",
+        "+10 V"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +290,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rc6job",
-      "q": "Which circuit fault do the meter readings in the given figure indicate?",
+      "id": "gate-1taebb5",
+      "q": "If the voltage between points A and B equals 9 V in the given circuit, then VR3 equals ______.",
       "options": [
-        "The 1 k resistor is shorted.",
-        "The 4.7 k resistor is shorted.",
-        "The 2.2 k resistor is shorted.",
-        "The 3.3 k resistor is shorted."
+        "0.9 V",
+        "8.1 V",
+        "9 V",
+        "More information is needed to find VR3."
       ],
       "correct": 0,
       "explain": "",
@@ -318,12 +310,572 @@
       "tags": []
     },
     {
-      "id": "gate-14byk08",
-      "q": "In a series&#8211;parallel circuit consisting of R1 and R2 in series and connected in parallel with R3, if R1 opens, then R2's voltage will:",
+      "id": "gate-p2j4lr",
+      "q": "What theorem replaces a complex network with an equivalent circuit containing a source voltage and a series resistance?",
+      "options": [
+        "Multinetwork",
+        "Norton",
+        "Thevenin",
+        "Superposition"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ez3b9s",
+      "q": "What is the power dissipated by R2, R4, and R6?",
+      "options": [
+        "P2 = 417 mW, P4 = 193 mW, P6 = 166 mW",
+        "P2 = 407 mW, P4 = 183 mW, P6 = 156 mW",
+        "P2 = 397 mW, P4 = 173 mW, P6 = 146 mW",
+        "P2 = 387 mW, P4 = 163 mW, P6 = 136 mW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d8iy9c",
+      "q": "If the load in the given circuit is 120 k , what is the loaded output voltage?",
+      "options": [
+        "4.21 V",
+        "15.79 V",
+        "16 V",
+        "19.67 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19ircp0",
+      "q": "In a series&#8211;parallel circuit, individual component power dissipations are calculated using:",
+      "options": [
+        "individual component parameters",
+        "a percent of the voltage division ratio squared",
+        "total current squared multiplied by the resistor values",
+        "a percent of the total power depending on resistor ratios"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10tx89w",
+      "q": "The current flowing through an unloaded voltage divider is called the:",
+      "options": [
+        "resistor current",
+        "load current",
+        "bleeder current",
+        "voltage current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fzno0c",
+      "q": "What is the total resistance of the given circuit?",
+      "options": [
+        "92",
+        "288",
+        "17.7",
+        "128"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17rhpf0",
+      "q": "What are the branch currents I2 and I3?",
+      "options": [
+        "I2 = 4 mA, I3 = 2 mA",
+        "I2 = 4.5 mA, I3 = 2.5 mA",
+        "I2 = 2.5 mA, I3 = 1.5 mA",
+        "I2 = 5.5 mA, I3 = 3.5 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2qoa57",
+      "q": "If the load in the given circuit is open, what is the unloaded output voltage?",
+      "options": [
+        "0 V",
+        "4 V",
+        "16 V",
+        "20 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sl9bd0",
+      "q": "How much voltage is dropped across R3 in the given circuit?",
+      "options": [
+        "46 V",
+        "34 V",
+        "23 V",
+        "12 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g96sfm",
+      "q": "Components or combinations of components with common currents, in a series&#8211;parallel circuit, are in:",
+      "options": [
+        "parallel with each other",
+        "series with each other",
+        "either series or parallel with each other",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uyv7b4",
+      "q": "What determines if resistor connections are in series, parallel, or series&#8211;parallel?",
+      "options": [
+        "the voltage source",
+        "the power source",
+        "resistance",
+        "current flow"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11ao18",
+      "q": "If R1 is in series with a parallel combination of R2, R3, and R4, when the resistance value of R2 increases, the voltage across R3 will",
       "options": [
         "increase",
         "decrease",
         "remain the same",
+        "Cannot tell"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y2s114",
+      "q": "A Wheatstone bridge can be used to determine an unknown",
+      "options": [
+        "current",
+        "resistance",
+        "power",
+        "voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nukwxo",
+      "q": "If the output voltage of a certain loaded voltage divider is 12 V, the output voltage might decrease when the load is removed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1woc00w",
+      "q": "If the Wheatstone bridge is balanced in the given circuit, the voltage between points A and B (VAB) equals the source voltage (VS).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a12wer",
+      "q": "The current through R6 is 8.5 mA.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18ot3os",
+      "q": "Observed voltages not being shared identify components in parallel in a series&#150;parallel circuit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p3a8zs",
+      "q": "R2 is open.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1njsgm4",
+      "q": "The total power is 10 watts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bj5y2a",
+      "q": "The total resistance in the given circuit can be found using the formula: RT = R1 + R2 || R3 || R4.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nfxei9",
+      "q": "When a load resistance is connected to the output of a voltage divider circuit, the source current increases.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v0t5es",
+      "q": "Opens and shorts are typical problems that occur in electric circuits.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1640tj4",
+      "q": "A Wheatstone bridge may be used to determine the value of an unknown resistance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xvp69c",
+      "q": "When placed into a circuit, how are electronic components usually connected?",
+      "options": [
+        "positive terminal to positive terminal",
+        "in parallel",
+        "as a combination of series and parallel",
+        "in series"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-42k8ss",
+      "q": "If the load in the given circuit is 12 k , what is the loaded output voltage?",
+      "options": [
+        "5.88 V",
+        "14.12 V",
+        "16 V",
+        "17.14 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9gjs0",
+      "q": "If a Wheatstone bridge is balanced, a voltmeter in the center of the bridge will read:",
+      "options": [
+        "the same as the source voltage",
+        "half the source voltage",
+        "zero volts",
+        "twice the source voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mknnd8",
+      "q": "What is the voltage to the load?",
+      "options": [
+        "11.4 V",
+        "12.4 V",
+        "13.4 V",
+        "15.4 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rait8s",
+      "q": "The first goal to accomplish in analyzing a complex series-parallel circuit is to",
+      "options": [
+        "equate all parallel components",
+        "equate all series components",
+        "solve for all the voltage drops",
+        "solve for the total current and resistance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cnsbz0",
+      "q": "How much current is flowing through R1 in the given circuit?",
+      "options": [
+        "0.3 A",
+        "0.15 A",
+        "0.5 A",
+        "0.68 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sw1tjw",
+      "q": "If R1 is in series with parallel connected to R2 and R3, what happens to total current if R2 opens?",
+      "options": [
+        "increases",
+        "decreases",
+        "remains the same",
         "cannot tell"
       ],
       "correct": 0,
@@ -338,13 +890,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n433h8",
-      "q": "In the given circuit, what is RUNK equal to if RV must be adjusted to 1,232 in order to balance the bridge?",
+      "id": "gate-5ljw54",
+      "q": "The first goal(s) to accomplish in analyzing a complex series&#8211;parallel circuit is to:",
       "options": [
-        "220",
-        "6,899",
-        "1,232",
-        "More information is needed in order to find RUNK."
+        "equate all parallel components",
+        "equate all series components",
+        "solve for all the voltage drops",
+        "solve for the total current and resistance"
       ],
       "correct": 0,
       "explain": "",
@@ -358,33 +910,13 @@
       "tags": []
     },
     {
-      "id": "gate-p61ai0",
-      "q": "With 6 V applied, what is the voltage across R2 of a parallel combination of R2 (1 k ), R3 (2 k ), and R4 (1 k ) in series with R1, whose value is 2 k ?",
+      "id": "gate-ysi014",
+      "q": "If a series&#8211;parallel circuit has all 30-ohm resistors, what is the total resistance when R1 is in series with a parallel circuit consisting of R2 and R3?",
       "options": [
-        "1 V",
-        "3 V",
-        "5 V",
-        "6 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tpgmuo",
-      "q": "What is the power dissipated by R1, R2, and R3?",
-      "options": [
-        "P1 = 0.13 W, P2 = 0.26 W, P3 = 0.12 W",
-        "P1 = 0.26 W, P2 = 0.52 W, P3 = 0.23 W",
-        "P1 = 0.52 W, P2 = 0.92 W, P3 = 0.46 W",
-        "P1 = 1.04 W, P2 = 1.84 W, P3 = 0.92 W"
+        "10 ohms",
+        "20 ohms",
+        "45 ohms",
+        "90 ohms"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Unix",
   "source": "indiabix.com",
-  "count": 19,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-17lyrls",
-      "q": "Which of the following files contains information related to password aging?",
+      "id": "gate-ka886o",
+      "q": "Which command is used to list all the files with extension .lst?",
       "options": [
-        "Shadow",
-        "password",
-        "profile",
-        "All the three"
+        "ls -l *.lst",
+        "ls lst*",
+        "ls *.*",
+        "ls *[lst]"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,113 @@
       "tags": []
     },
     {
-      "id": "gate-wnczgk",
-      "q": "Which command will be used with vi editor to replace text from cursor to right?",
+      "id": "gate-1ypiqmh",
+      "q": "Which option is used with the chmod command recursively to all files and sub-directories in a directory?",
       "options": [
-        "r",
+        "-1",
+        "-i",
+        "-x",
+        "-R"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ngg14w",
+      "q": "Which command is used to change directory to the name beginning with a 'p'?",
+      "options": [
+        "cd p",
+        "cd p?",
+        "cd p*",
+        "cd [p]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eyvimb",
+      "q": "Which of the following is invalid filename?",
+      "options": [
+        "shutry",
+        "TRY",
+        "trial",
+        "my .file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ivrzpk",
+      "q": "Which commands is used to assign executable permission to all of the files named \"letter\"?",
+      "options": [
+        "chmod ugo+r letter",
+        "chmod ugo+rw letter",
+        "chmod u+x letter",
+        "chmod ugo+x letter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d150eo",
+      "q": "Which of the following commands can be used to get information about all users who are currently logged into the system?",
+      "options": [
+        "which",
+        "who",
+        "who am i",
+        "1 /u"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tfe1rr",
+      "q": "Which of the following keys is used to overstrike a whole line?",
+      "options": [
         "R",
-        "s",
-        "S"
+        "v",
+        "C",
+        "u"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dclcco",
-      "q": "Which of the following commands is used to rename a file?",
+      "id": "gate-su6ya0",
+      "q": "Which command is used to locate all the .profile files in the system?",
       "options": [
-        "rename",
-        "remove",
-        "mv",
-        "ren"
+        "ls profile",
+        "find /-name profile -print",
+        "cd /.profile",
+        "l -u .profile"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-cxgfcy",
-      "q": "Which of the following is not a filter?",
+      "id": "gate-f21ylg",
+      "q": "Which command is used to save the standard output in a file, as well as display it on the terminal?",
       "options": [
+        "more",
         "cat",
         "grep",
-        "wc",
-        "sort"
+        "tee"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-uelyag",
-      "q": "Which of the following commands is used to copy a file wb from the programs directory into a file called wbx in the misc directory?",
+      "id": "gate-1rox94o",
+      "q": "The command that can be used to restrict incoming messages to a user is",
       "options": [
-        "copy programs/wb misc/wbx",
-        "cp programs/wb misc/wbx",
-        "tar programs/wb misc/wbx",
-        "copy a:programs/wb b:misc/wbx"
+        "mesg",
+        "grep",
+        "halt",
+        "sleep"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-7m36wg",
-      "q": "The File that contains a set of instructions which are performed when a user logs in, is",
+      "id": "gate-15f5g2s",
+      "q": "Which of the following commands is used to copy directory structures in and out",
       "options": [
-        ".exrc",
-        ".profile",
-        ".autoexec",
-        "autoexec.bat"
+        "cp",
+        "cpio",
+        "cp - p",
+        "copy"
       ],
       "correct": 0,
       "explain": "",
@@ -128,12 +228,212 @@
       "tags": []
     },
     {
-      "id": "gate-1pkcxmp",
-      "q": "The octal representation 652 indicates",
+      "id": "gate-17k0ksc",
+      "q": "Which of following commands is used for an automatic reminder service?",
       "options": [
-        "Execute permission for the owner",
-        "Write permission for others",
-        "Read and write permission of groups",
+        "write",
+        "mesg",
+        "calendar",
+        "mail"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p5lb0w",
+      "q": "Which command allows you to view your file 24 lines at a time?",
+      "options": [
+        "more",
+        "pg",
+        "cat",
+        "lp"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bittsx",
+      "q": "Which of the following commands is used to display the filenames in multiple columns?",
+      "options": [
+        "ls",
+        "ls -1",
+        "ls -x",
+        "lc"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1butczs",
+      "q": "Which command is used with file named 'note' to remove the executable permission from the user and assign read permission to the group and others?",
+      "options": [
+        "chmod u-x, go+r note",
+        "chmod go+r, u+x note",
+        "chmod g-x, uo+r note",
+        "chmod go+x, u-x note"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zhecyv",
+      "q": "Which symbol will be used with grep command to match the pattern pat at the beginning of a line?",
+      "options": [
+        "^pat",
+        "$pat",
+        "pat$",
+        "pat^"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-urp8nm",
+      "q": "Which command is used to sort the lines of data in a file in reverse order",
+      "options": [
+        "sort",
+        "sh",
+        "st",
+        "sort -r"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mfwiu8",
+      "q": "Which command is used to display the top of the file?",
+      "options": [
+        "cat",
+        "head",
+        "more",
+        "grep"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sn8zqg",
+      "q": "Which command is used to copy all files having the string chap and any two characters after that to the progs directory?",
+      "options": [
+        "cp chap?? progs",
+        "cp chap* progs",
+        "cp chap[12] /progs/*.*",
+        "cp chap?? /progs/*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ojitmw",
+      "q": "Which command is used to change protection mode of files starting with the string emp and ending with 1,2, or 3?",
+      "options": [
+        "chmod u+x emp[1-3]",
+        "chmod 777 emp*",
+        "chmod u+r ??? emp",
+        "chmod 222 emp?"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bv4tq4",
+      "q": "Which of the following commands is used to display the directory attributes rather than its contents?",
+      "options": [
+        "ls -l -d",
+        "ls -l",
+        "ls -x",
+        "ls -F"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1elr9gg",
+      "q": "Which of the following files will displayed by this command cat *ch*",
+      "options": [
+        "patch",
+        "catch",
+        ".ch",
         "All of the above"
       ],
       "correct": 0,
@@ -148,10 +448,1210 @@
       "tags": []
     },
     {
-      "id": "gate-neucww",
-      "q": "Which of the following command is used to count just the number of lines contained in a file?",
+      "id": "gate-1t5xxig",
+      "q": "The Octal number to be given alogn with chmod command to make a file readable, writable and executable to the owner, readable and executable to group and others is:",
       "options": [
-        "wc -l",
+        "000",
+        "755",
+        "744",
+        "555"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xe9eps",
+      "q": "If you are to use [Control-c] as the interrupt key instead of [Del], then you will have to use",
+      "options": [
+        "tty ^c",
+        "stty intr \\^c",
+        "stty echoe",
+        "stty echo \\^a"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ty7nv4",
+      "q": "Which of the following is not a communication command.",
+      "options": [
+        "write",
+        "mesg",
+        "mail",
+        "grep"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pd0acx",
+      "q": "Which command is used to display and create files?",
+      "options": [
+        "cat",
+        "vi",
+        "ed",
+        "lyrix"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tbjzjg",
+      "q": "The second set of the three permissions (r-) indicates that",
+      "options": [
+        "group has read permission only",
+        "other has read permission only",
+        "owner has read permission only",
+        "group has write permission only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1q5ea8",
+      "q": "Which column contains all details of the permissions of a file when you issue the ls -l command?",
+      "options": [
+        "second",
+        "fourth",
+        "third",
+        "first"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ylyke4",
+      "q": "Which of the following commands is used to display your working directory?",
+      "options": [
+        "dir",
+        "prompt $p$g",
+        "pwd",
+        "path"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-61w8dc",
+      "q": "While working with mail command, which command is used to save mail in a separate file?",
+      "options": [
+        "s",
+        "r",
+        "w",
+        "d"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a1o6uu",
+      "q": "Which set option is used with vi editor to display line numbers on screen?",
+      "options": [
+        "nm",
+        "nu",
+        "ic",
+        "li"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15w6wo8",
+      "q": "Which command is used to print a file?",
+      "options": [
+        "print",
+        "prn",
+        "pg",
+        "lp"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l23x4x",
+      "q": "Which command will be used with vi editor to replace single character under cursor with any number of characters?",
+      "options": [
+        "s",
+        "S",
+        "a",
+        "i"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjblfs",
+      "q": "Which of the following set options is used with vi editor to ignore case while searching for patterns?",
+      "options": [
+        "ic",
+        "ai",
+        "sm",
+        "ts"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lcnha4",
+      "q": "Which command is used to list out all the hidden files along with the other files?",
+      "options": [
+        "ls -l",
+        "ls -x",
+        "ls -F",
+        "ls -a"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gtwtkc",
+      "q": "Which command is used to display the device name of the terminal you are using?",
+      "options": [
+        "who",
+        "ls",
+        "tty",
+        "stty"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rxki80",
+      "q": "The ls -l command tells",
+      "options": [
+        "who the owner of the file is",
+        "the name of the group owner of the file",
+        "how large the file is and when the file was last modified.",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-39gntc",
+      "q": "Which option will be used with disk free command to include the total amount of disk space in the file system?",
+      "options": [
+        "-t",
+        "-tt",
+        "-4",
+        "-i"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1598owo",
+      "q": "Which command is used to set the three permissions for all the three categories of users of a file?",
+      "options": [
+        "chgrp",
+        "chown",
+        "chmod",
+        "chusr"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2uxxls",
+      "q": "Which of the following commands can be used to get information about yourself?",
+      "options": [
+        "who am i",
+        "i /4",
+        "pwd",
+        "which"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v8hqeo",
+      "q": "Which of the following special shell variables is used to process number of the current shell?",
+      "options": [
+        "$!",
+        "$$",
+        "$0",
+        "$*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-170i3cs",
+      "q": "Which option is used with cmp command to give a detailed list of the byte number and the differing bytes in octal for each character that differs in both the files?",
+      "options": [
+        "-l",
+        "-d",
+        "-r",
+        "-b"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ubk0vg",
+      "q": "Which command is used with vi editor scroll half page backward?",
+      "options": [
+        "[Control-d]",
+        "[Control - u]",
+        "[Control-c]",
+        "[Control -P]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1skqvt4",
+      "q": "Which command is used with vi editor to move cursor forward to first occurrence of character 'ch' in the current line?",
+      "options": [
+        "tch",
+        "fch",
+        "rch",
+        "ech"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sumnic",
+      "q": "Which of the following keys is used to delete the character beneath the cursor?",
+      "options": [
+        "x",
+        "X",
+        "dd",
+        "D"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2423h6",
+      "q": "Which operator will be used with chmod command to assign absolute permission?",
+      "options": [
+        "+",
+        "-",
+        "=",
+        "%"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-axukcp",
+      "q": "Which command is used to link the files?",
+      "options": [
+        "lk",
+        "ln",
+        "cp",
+        "tar"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h6y3j4",
+      "q": "Which of the following signs is used to back up over typing errors in vi?",
+      "options": [
+        "@",
+        "#",
+        "$",
+        "!"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mg4epo",
+      "q": "Major expressions used with find command to select file is it has been accessed in more than 375 days, is",
+      "options": [
+        "-atime +365",
+        "-mtime + 365",
+        "-atime -365",
+        "-mtime -365"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lfi2k0",
+      "q": "Which of are following internal commands is used in mail to forward mail to user in user-list?",
+      "options": [
+        "r user-list",
+        "m user-list",
+        "d user-list",
+        "e user-list"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1acc2wk",
+      "q": "Which of the following keys is used to move the cursor to the end of the paragraph.",
+      "options": [
+        "}",
+        "{",
+        "|",
+        "$"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-42ii49",
+      "q": "Which command is used to concatenate all files beginning with the string 'emp' and followed by a non-numeric characters?",
+      "options": [
+        "cat emp[!0-9]",
+        "more [emp][!0-9]",
+        "cat emp[x-z]",
+        "cat emp[a-z]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3ga4t4",
+      "q": "The command which transcribes the standard input to the standard output and also makes a copy of the same in a file is",
+      "options": [
+        "tee",
+        "tr",
+        "sort",
+        "grep"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ytj6gv",
+      "q": "Which command is used to remove a file?",
+      "options": [
+        "remove",
+        "rm",
+        "mv",
+        "del"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9r3qi4",
+      "q": "Which symbol is used to separate more than one command in the same command line?",
+      "options": [
+        "$",
+        "#",
+        ":",
+        ";"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ingwvz",
+      "q": "Which of the following commands is used to identify the type of file by context?",
+      "options": [
+        "ls",
+        "cat",
+        "file",
+        "more"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p86vy8",
+      "q": "The field separator in cut command is specified with",
+      "options": [
+        "-a option",
+        "-d option",
+        "-r option",
+        "-x option"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dmunn4",
+      "q": "Which of the following options will be used to display number of blocks used by a file?",
+      "options": [
+        "-c",
+        "-i",
+        "-d",
+        "-s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9jjto7",
+      "q": "Which option will be used with touch command to change the access time?",
+      "options": [
+        "-a",
+        "-b",
+        "-t",
+        "-h"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k2spc8",
+      "q": "Which command is used to make all files and sub-directories in the directory (progs) executable by all users?",
+      "options": [
+        "chmod -R a+x progs",
+        "chmod -R 222 progs",
+        "chmod -1 a+x progs",
+        "chmod -x a+x progs"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2ansk",
+      "q": "Which of the following commands is used to absolutely assign all permissions to the owner, read and write permissions to the group and only executable permission to the others of the file note?",
+      "options": [
+        "chmod 761 note",
+        "chmod 671 note",
+        "chmod 167 note",
+        "chmod 4=rwx, g=rw note"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jsowpw",
+      "q": "The chmod ugo+rw note command can be represented in octal notation as",
+      "options": [
+        "chmod 555 note",
+        "chmod 666 note",
+        "chmod 444 note",
+        "chmod 333 note"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eut9xg",
+      "q": "Which of the following commands is used to display the filenames in multiple columns with indication of directories and executable file?",
+      "options": [
+        "ls -F -x",
+        "ls -l",
+        "ls ~ x",
+        "Ip"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4b6xe0",
+      "q": "Which command is used with vi editor to search a pattern in the forward direction?",
+      "options": [
+        "/",
+        "?",
+        "//",
+        "??"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-22lpqo",
+      "q": "Which of the following commands is used to assign executable permission to the owner of the file named \"note\"?",
+      "options": [
+        "chmod g+x note",
+        "chmod u+w note",
+        "chmod u+x note",
+        "chmod ugo+x note"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yt2gg4",
+      "q": "Which command is used to copy a file wb with the same name from the programs directory to the misc directory?",
+      "options": [
+        "copy programs/wb misc/wb",
+        "cp programs/wb misc",
+        "tar programs/wb misc/wb",
+        "copy a:programs/wb b:misc/wb"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1doayt0",
+      "q": "Which is the earliest and most widely used shell that came with the UNIX system?",
+      "options": [
+        "C shell",
+        "Korn shell",
+        "Bourne shell",
+        "Smith shell"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vpqbw4",
+      "q": "The seventh field of /etc/password is",
+      "options": [
+        "password",
+        "login",
+        "shell",
+        "home"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ee2hjz",
+      "q": "Which command is used to display the end of the file?",
+      "options": [
+        "head - r",
+        "tail",
+        "eof",
+        "bof"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-177y9j8",
+      "q": "Which command is used to create a directory?",
+      "options": [
+        "crdir",
+        "md",
+        "mkdir",
+        "cr"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ps69iw",
+      "q": "Which command is used to assign only read permission to all three categories of the file 'note'?",
+      "options": [
+        "chmod go+r note",
+        "chmod a-rw",
+        "chmod ugo=r note",
+        "chmod u+r,g+r,o-x note"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tmfdr7",
+      "q": "Which command will be used with vi editor to append text at end of line?",
+      "options": [
+        "A",
+        "a",
+        "i",
+        "I"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12fidcc",
+      "q": "The first set of the three permissions (rw) pertains to the owner of the file, indicating that the owner has",
+      "options": [
+        "executable permission only",
+        "write and executable permissions",
+        "both read and executable permissions.",
+        "both read and write permissions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u3td4o",
+      "q": "Which of the following commands is used to save the output of the who command in a file named user.lst, as well as display it?",
+      "options": [
+        "who | tee user.lst",
+        "who &gt; user.lst",
+        "who &gt;&gt; user.lst",
+        "who &lt; user.lste"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rb3pw6",
+      "q": "Which of the following shell's wildcards are used to match any number of characters including none?",
+      "options": [
+        "[ijk]",
+        "[!ijk]",
+        "?",
+        "*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ywe5oo",
+      "q": "Which of command is used to copy a file?",
+      "options": [
+        "copy",
+        "cp",
+        "cpio",
+        "tar"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vwm9bg",
+      "q": "The special shell variable $* is used",
+      "options": [
+        "to exit status of ast command executed.",
+        "to process number of the current shell",
+        "to list the positional parameters",
+        "to name the command being executed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8b0p74",
+      "q": "The cat command is used to",
+      "options": [
+        "capture a file",
+        "display a file",
+        "print a file",
+        "copy a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wqyszk",
+      "q": "The UNIX file system stores a data in physical blocks of",
+      "options": [
+        "1024 bytes",
+        "2048 bytes",
+        "512 bytes",
+        "256 bytes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wtgg84",
+      "q": "Which command is used to terminate all processes in your own system except the login shell?",
+      "options": [
+        "kill 1",
+        "kill 0",
+        "cancel all",
+        "cancel 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qthxpw",
+      "q": "The agency that sits between the user and the UNIX system is called the",
+      "options": [
+        "logic",
+        "profile",
+        "shell",
+        "erxc"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bfj9c3",
+      "q": "Which of the following commands is used to update access and modification times of a file?",
+      "options": [
+        "grep",
+        "wc",
+        "touch",
+        "cat"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hiidps",
+      "q": "Which command is used to count just the number of characters in a file?",
+      "options": [
+        "wc - 1",
         "wc -c",
         "wc -w",
         "wc -r"
@@ -168,13 +1668,33 @@
       "tags": []
     },
     {
-      "id": "gate-19zs0co",
-      "q": "Which of the following command is used to go to home directory?",
+      "id": "gate-gu73kg",
+      "q": "Which of the following commands is used to list contents of directories?",
       "options": [
-        "cd..",
-        "cd/",
+        "ls",
+        "lp",
+        "dir",
+        "tar"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1psdp3s",
+      "q": "Which command is used to display a file contents in octal form?",
+      "options": [
         "cd",
-        "cd HOME."
+        "od",
+        "of",
+        "oct"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +1708,13 @@
       "tags": []
     },
     {
-      "id": "gate-nme5bf",
-      "q": "Which command is used to move all files to the bin sub-directory of the parent directory?",
+      "id": "gate-1bvo0hs",
+      "q": "Which option is used with rm command to make the command prompt the user with each filename and a ?, before acting on it",
       "options": [
-        "mv *.* /bin/",
-        "mv * /bin/*",
-        "mv * ../bin",
-        "mv * ../bin *.*"
+        "-r",
+        "-x",
+        "-i",
+        "-1"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +1728,13 @@
       "tags": []
     },
     {
-      "id": "gate-mjz2jg",
-      "q": "Which command is used to remove a directory?",
+      "id": "gate-707k9o",
+      "q": "Which of the following directories contain all the Alias created by a user, including his login directory?",
       "options": [
-        "rd",
-        "rmdir",
-        "dldir",
-        "rdir"
+        "/tmp",
+        "/etc",
+        "/usr",
+        "/dev"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +1748,13 @@
       "tags": []
     },
     {
-      "id": "gate-18y8qic",
-      "q": "Which of the following keys is used to replace a single character with new text?",
+      "id": "gate-p5qzo8",
+      "q": "Which of the following commands is used to obtain a list of all files by modification time?",
       "options": [
-        "S",
-        "s",
-        "r",
-        "C"
+        "ls -1",
+        "ls -t",
+        "ls -i",
+        "ls -R"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +1768,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xb7x5o",
-      "q": "Which command is used to extract specific columns from the file?",
+      "id": "gate-188zl3w",
+      "q": "The % key allows you",
       "options": [
-        "cat",
-        "cut",
-        "grep",
-        "paste"
+        "to move the cursor to a matching delimiter, when a delimiters a parenthesis, a bracket, or a brace.",
+        "to move the cursor to the upperleft corner of the screen",
+        "to move the cursor backward to the beginning of a word",
+        "to move the cursor to the first column in the current line"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +1788,13 @@
       "tags": []
     },
     {
-      "id": "gate-ijbftg",
-      "q": "Which command sends the word count of the file infile to the newfile.",
+      "id": "gate-1ntejc5",
+      "q": "Which command is used to display the characteristics of a process?",
       "options": [
-        "wc infile &gt;newfile",
-        "wc &lt;infile &gt;newfile",
-        "wc infile - newfile",
-        "wc infile | newfile"
+        "pid",
+        "du",
+        "ps",
+        "au"
       ],
       "correct": 0,
       "explain": "",
@@ -288,13 +1808,13 @@
       "tags": []
     },
     {
-      "id": "gate-19ygvh4",
-      "q": "Which command is used to remove the read permission of the file 'note' from both the group and others?",
+      "id": "gate-1oblmas",
+      "q": "The command to count the number of files in the current directory by using pipes, is",
       "options": [
-        "chmod go+r note",
-        "chmod go+rw note",
-        "chmod go-x note",
-        "chmod go-r note"
+        "ls | wc",
+        "ls -l | wc -l",
+        "ls | wc -w",
+        "ls | ws -c"
       ],
       "correct": 0,
       "explain": "",
@@ -308,13 +1828,13 @@
       "tags": []
     },
     {
-      "id": "gate-1esi1px",
-      "q": "The command used to compare the files is known as",
+      "id": "gate-1r56lr4",
+      "q": "Which of the following commands is used to get directory one level up?",
       "options": [
-        "comp",
-        "cmp",
-        "do",
-        "ccp"
+        "cd",
+        "cd ..",
+        "cd/",
+        "chdir"
       ],
       "correct": 0,
       "explain": "",
@@ -328,13 +1848,13 @@
       "tags": []
     },
     {
-      "id": "gate-12kl97w",
-      "q": "Which command is used to terminate a process?",
+      "id": "gate-1fegazo",
+      "q": "Which of the following commands is used to count the total number of lines, words, and characters contained in a file.",
       "options": [
-        "shutdown",
-        "haltsys",
-        "cancel",
-        "kill"
+        "count p",
+        "wc",
+        "wcount",
+        "countw"
       ],
       "correct": 0,
       "explain": "",
@@ -348,13 +1868,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ikx3og",
-      "q": "Which option will be used with sort command to start sorting ofter the nth column of the (m+l)th field?",
+      "id": "gate-vf6wt0",
+      "q": "Which command is used to delete all files in the current directory as well as all files and sub-directories in its subdirectories?",
       "options": [
-        "-m.n",
-        "+m.n",
-        "+ n.m+1",
-        "+(m+l).n"
+        "rm *",
+        "rm -r *",
+        "rm all",
+        "rm *.*"
       ],
       "correct": 0,
       "explain": "",
@@ -368,13 +1888,113 @@
       "tags": []
     },
     {
-      "id": "gate-w7lbtc",
-      "q": "The cp command uses:",
+      "id": "gate-1x9ueeo",
+      "q": "Which of the following commands is used to change the working directory?",
       "options": [
-        "standard input file",
-        "standard output file",
-        "both input and output file",
-        "neither standard input nor standard output file"
+        "cd",
+        "changedir",
+        "chdir",
+        "cdir"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16ckrwo",
+      "q": "The commonly used UNIX commands like date, ls, cat, etc. are stored in",
+      "options": [
+        "/dev directory",
+        "/bin and /usr/bin directories",
+        "/tmp directory",
+        "/unix directory"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1szu7xo",
+      "q": "Which of the following commands is used to remove files with confirmation prompt from the user file system which have neither been accessed nor modified i the last one year?",
+      "options": [
+        "find -mtime +365 | rm",
+        "grep (/usr/*) - mtime + 365 | -ok rm",
+        "find -name - mtime + 365 / - ok rm",
+        "find /user/* \\(-mtime + 365 - a - atime +365 \\) - OK rm {} \\;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1235z6s",
+      "q": "Which of the following commands is used to summarize the disk usage?",
+      "options": [
+        "chkdsk",
+        "fdisk",
+        "du",
+        "disk"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11kzl60",
+      "q": "Which command is used to sort the lines of data in a file in alphabetical order?",
+      "options": [
+        "sort",
+        "sh",
+        "st",
+        "sort -r"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Unix",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n6uex4",
+      "q": "If a file has read and write permissions for the owner, then the octal representation of the permissions will be",
+      "options": [
+        "1",
+        "6",
+        "5",
+        "3"
       ],
       "correct": 0,
       "explain": "",

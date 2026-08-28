@@ -5,16 +5,16 @@
   "subject": "Chemical Engineering",
   "topic": "Chemical Engineering Thermodynamics",
   "source": "indiabix.com",
-  "count": 54,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-18ccj6e",
-      "q": "When pressure is applied on the system, icewater, then",
+      "id": "gate-36rnpw",
+      "q": "What is the value of ln y (where y = activity co-efficient) for ideal gases ?",
       "options": [
-        "equilibrium can not be established.",
-        "more ice will be formed.",
-        "more water will be formed.",
-        "evaporation of water will take place."
+        "Zero",
+        "Unity",
+        "Infinity",
+        "Negative"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r69g34",
-      "q": "Partial molar free energy of an element A in solution is same as its",
+      "id": "gate-11ta5x3",
+      "q": "A closed system is cooled reversibly from 100&deg;C to 50&deg;C. If no work is done on the system",
       "options": [
-        "chemical potential",
-        "activity",
-        "fugacity",
-        "activity co-efficient"
+        "its internal energy (U) decreases and its entropy (S) increases.",
+        "U and S both decreases",
+        "U decreases but S is constant.",
+        "U is constant but S decreases."
       ],
       "correct": 0,
       "explain": "",
@@ -48,92 +48,312 @@
       "tags": []
     },
     {
-      "id": "gate-tk48wc",
-      "q": "Free energy change at equilibrium is",
+      "id": "gate-1g8spa8",
+      "q": "Which is not a refrigerant ?",
+      "options": [
+        "SO2",
+        "NH3",
+        "CCl2F2",
+        "C2H4Cl2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15a969c",
+      "q": "The partial pressure of each constituent present in an alloy is __________ the total vapor pressure exerted by the alloy.",
+      "options": [
+        "less than",
+        "equal to",
+        "more than",
+        "either (b) or (c); depends on the type of alloy"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wy4swj",
+      "q": "Heat is added at constant pressure in an ideal __________ cycle.",
+      "options": [
+        "Stirling",
+        "Brayton",
+        "Rankine",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1huuzt8",
+      "q": "The melting point of paraffin wax (which contracts on solidification) __________ with pressure rise.",
+      "options": [
+        "increases",
+        "decreases",
+        "remains unchanged",
+        "decreases linearly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wdmym4",
+      "q": "Co-efficient of Performance (COP) of a refrigerator is the ratio of the",
+      "options": [
+        "work required to refrigeration obtained.",
+        "refrigeration obtained to the work required.",
+        "lower to higher temperature.",
+        "higher to lower temperature."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t0o28c",
+      "q": "A solid metallic block weighing 5 kg has an initial temperature of 500&deg;C. 40 kg of water initially at 25&deg;C is contained in a perfectly insulated tank. The metallic block is brought into contact with water. Both of them come to equilibrium. Specific heat of block material is 0.4 kJ.kg-1. K-1. Ignoring the effect of expansion and contraction and also the heat capacity to tank, the total entropy change in kJ.kg-1 , K-1 is",
+      "options": [
+        "-1.87",
+        "0",
+        "1.26",
+        "3.91"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gcnr7j",
+      "q": "dW and dq are not the exact differential, because q and W are",
+      "options": [
+        "state functions",
+        "path functions",
+        "intensive properties",
+        "extensive properties"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6x6ihc",
+      "q": "Melting of ice exemplifies a/an",
+      "options": [
+        "adiabatic process.",
+        "endothermic reaction.",
+        "exothermic reaction.",
+        "process involving a chemical reaction."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5nekk3",
+      "q": "A refrigeration cycle is the same as a __________ cycle,",
+      "options": [
+        "turbine",
+        "heat engine",
+        "reversed heat engine",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uyw7kz",
+      "q": "At __________ point, all the three phases (i.e.solid, liquid and gas) co-exist.",
+      "options": [
+        "eutcetic",
+        "triple",
+        "plait",
+        "critical"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pns3e8",
+      "q": "Kopp's rule is used to calculate the heat capacity of",
+      "options": [
+        "solids",
+        "liquids",
+        "gases",
+        "all (a), (b) &amp; (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-benvv6",
+      "q": "__________ explains the equilibrium constant for any chemical reaction.",
+      "options": [
+        "Henry's law",
+        "Law of mass action",
+        "Hess's law",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g906ej",
+      "q": "Work done in an adiabatic process between two states depends on the",
+      "options": [
+        "rate of heat transmission",
+        "initial state only",
+        "end states only",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ajcsik",
+      "q": "The number of degree of freedom for an azeotropic mixture of ethanol and water in vapour-liquid equilibrium, is",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1etp3e8",
+      "q": "The internal energy of an ideal gas is a function of its __________ only.",
+      "options": [
+        "molecular size",
+        "volume",
+        "pressure",
+        "temperature"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-155xpy1",
+      "q": "At constant temperature and pressure, for one mole of a pure substance, the ratio of the free energy to the chemical potential is",
       "options": [
         "zero",
-        "positive",
-        "negative",
-        "indeterminate"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gm7po0",
-      "q": "The temperature at which both liquid and gas phases are identical, is called the __________ point.",
-      "options": [
-        "critical",
-        "triple",
-        "freezing",
-        "boiling"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-haodvs",
-      "q": "Trouton's ratio of __________ liquids is calculated using Kistyakowsky equation.",
-      "options": [
-        "polar",
-        "non-polar",
-        "both (a) &amp; (b)",
-        "neither (a) nor (b)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t9jwzk",
-      "q": "Activity co-efficient is a measure of the",
-      "options": [
-        "departure from ideal solution behaviour.",
-        "departure of gas phase from idea] gas law.",
-        "vapour pressure of liquid.",
-        "none of these."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15j7irg",
-      "q": "While dissolving a gas into a liquid at a constant temperature, the ratio of the concentration of the gas in the solution phase and in the gaseous phase is",
-      "options": [
+        "one",
         "infinity",
-        "unity",
-        "constant",
         "negative"
       ],
       "correct": 0,
@@ -148,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mjwasw",
-      "q": "Which of the following units is not present in both the vapor compression refrigeration system and absorption refrigeration system ?",
+      "id": "gate-1qje20g",
+      "q": "The change in __________ is equal to the reversible work for compression in steady state flow process under isothermal condition.",
       "options": [
-        "Expansion valve",
-        "Condenser",
-        "Refrigerator",
-        "Compressor"
+        "internal energy",
+        "enthalpy",
+        "Gibbs free energy",
+        "Helmholtz free energy"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +388,13 @@
       "tags": []
     },
     {
-      "id": "gate-1posvis",
-      "q": "For an isothermal reversible compression of an ideal gas",
+      "id": "gate-1q4mw2g",
+      "q": "Near their critical temperatures, all gases occupy volumes __________ that of the ideal gas.",
       "options": [
-        "only &Delta;E = 0",
-        "only &Delta;H =0",
-        "&Delta;E = &Delta;H = 0",
-        "dQ = dE"
+        "less than",
+        "same as",
+        "more than",
+        "half"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +408,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nzc2jo",
-      "q": "Work done is a",
+      "id": "gate-1lnejhg",
+      "q": "The free energy change for a chemical reaction is given by (where, K = equilibrium constant)",
       "options": [
-        "property of the system",
-        "path function",
-        "point function",
-        "state description of a system"
+        "RT lnK",
+        "-RT lnK",
+        "-R lnK",
+        "T lnK"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +428,13 @@
       "tags": []
     },
     {
-      "id": "gate-ynn9ry",
-      "q": "Entropy of the system decreases, when",
+      "id": "gate-1r9t58w",
+      "q": "Free energy, fugacity and activity co-efficient are all affected by change in the temperature. The fugacity co-efficient of a gas at constant pressure ____with the increase of reduced temperature.",
       "options": [
-        "snow melts into water.",
-        "a gas expands spontaneously from high pressure to low pressure.",
-        "water is converted into ice.",
-        "both (b) &amp; (c)."
+        "decreases",
+        "increases",
+        "remains constant",
+        "decreases logarithmically"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +448,13 @@
       "tags": []
     },
     {
-      "id": "gate-156gm0w",
-      "q": "Extensive properties of a thermodynamic system depend upon the __________ of the system.",
+      "id": "gate-1oj5wmk",
+      "q": "In the reaction, H2 +I2 2HI, addition of an inert gas will",
       "options": [
-        "specific volume",
-        "temperature",
-        "mass",
-        "pressure"
+        "increase the partial pressure of H2.",
+        "increase the partial pressure of I2.",
+        "increase the total pressure and hence shift the equilibrium towards the right.",
+        "not effect the equilibrium conditions"
       ],
       "correct": 0,
       "explain": "",
@@ -248,12 +468,412 @@
       "tags": []
     },
     {
-      "id": "gate-1efw8cx",
-      "q": "The equation Tds = dE - PdV applies to",
+      "id": "gate-17wqfu",
+      "q": "What is the number of degrees of freedom for liquid water in equilibrium with a mixture of nitrogen and water vapor ?",
       "options": [
-        "single phase fluid of varying composition.",
-        "single phase fluid of constant composition.",
-        "open as well as closed systems.",
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vfda3w",
+      "q": "In an irreversible process",
+      "options": [
+        "Tds = dE - dW = 0",
+        "dE - dW - Tds = 0",
+        "Tds - dE + dW&lt; 0",
+        "Tds - dT + dW&lt; 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m94llw",
+      "q": "What is the number of degree of freedom for a system of two miscible non-reacting species in vapor-liquid equilibrium forming an azeotrope ?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iglm4p",
+      "q": "The entropy change in a reversible isothermal process, when an ideal gas expands to four times its initial volume is",
+      "options": [
+        "R loge 4",
+        "R log10 4",
+        "Cv log10 4",
+        "Cv loge 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mb4i7x",
+      "q": "PV&gamma; = Constant (where, &gamma; = Cp/Cv) is valid for a/an __________ process.",
+      "options": [
+        "isothermal",
+        "isentropic",
+        "isobaric",
+        "adiabatic"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d8e2ls",
+      "q": "Claude gas liquefaction process employs cooling",
+      "options": [
+        "at constant pressure.",
+        "by throttling.",
+        "by expansion in an engine.",
+        "none of these."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15cklf8",
+      "q": "Which of the following liquid metals has the highest thermal conductivity ?",
+      "options": [
+        "Molten sodium",
+        "Molten lead",
+        "Mercury",
+        "Molten potassium"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cf2ekg",
+      "q": "Which of the following has the least thermal efficiency ?",
+      "options": [
+        "Steam engine",
+        "Carnot engine",
+        "Diesel engine",
+        "Otto engine"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zfkvmc",
+      "q": "If the internal energy of an ideal gas decreases by the same amount as the work done by the system, then the",
+      "options": [
+        "process must be isobaric.",
+        "temperature must decrease.",
+        "process must be adiabatic.",
+        "both (b) and (c)."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xwi4e8",
+      "q": "Joule-Thomson Co-efficient at any point on the inversion curve is",
+      "options": [
+        "&infin;",
+        "+ ve",
+        "0",
+        "-ve"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oyu404",
+      "q": "__________ equation predicts the activity co-efficient from experimental data.",
+      "options": [
+        "Lewis-Randall",
+        "Margules",
+        "Van Laar",
+        "both(b)&amp;(c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nihr0c",
+      "q": "As the temperature is lowered towards the absolute zero, the value of the quantity approaches",
+      "options": [
+        "zero",
+        "unity",
+        "infinity",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aaqds4",
+      "q": "An ideal liquid refrigerant should",
+      "options": [
+        "not have a subatmospheric vapour pressure at the temperature in the refrigerator coils.",
+        "not have unduly high vapour pressure at the condenser temperature.",
+        "both (a) and (b).",
+        "have low specific heat."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1895dsg",
+      "q": "If the heat of solution of an ideal gas in a liquid is negative, then its solubility at a given partial pressure varies with the temperature as",
+      "options": [
+        "solubility increases as temperature increases.",
+        "solubility increases as temperature decreases.",
+        "solubility is independent of temperature.",
+        "solubility increases or decreases with temperature depending on the Gibbs free energy change of solution."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9lzxbg",
+      "q": "In case of a reversible process (following pvn = constant), work obtained for trebling the volume (v1 = 1 m3 and v2 3 m3 ) is max imum, when the value of 'n' is",
+      "options": [
+        "0",
+        "1",
+        "y = 1.44",
+        "1.66"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c3ktc7",
+      "q": "A system undergoes a change from a given initial state to a given final state either by an irreversible process or by a reversible process, then(where, &Delta; S1 and &Delta; SR are the entropy changes of the system for the irreversible and reversible processes respectively)",
+      "options": [
+        "&Delta; S1 is always &lt; &Delta; SR",
+        "&Delta; S1 is sometimes &gt; &Delta; SR",
+        "&Delta; S1 is always &gt; &Delta; SR",
+        "&Delta; S1 is always = &Delta; SR"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fwmns0",
+      "q": "What is the value of Joule-Thomson co-efficient for an ideal gas ?",
+      "options": [
+        "+ve",
+        "-ve",
+        "0",
+        "&infin;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10r7918",
+      "q": "A two stage compressor is used to compress an ideal gas. The gas is cooled to the initial temperature after each stage. The intermediate pressure for the minimum total work requirement should be equal to the __________ mean of P1 and P2.(where, P1 and P2 are initial and final pressures respectively)",
+      "options": [
+        "logarithmic",
+        "arithmetic",
+        "geometric",
+        "harmonic"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s19lxg",
+      "q": "y = specific heat ratio of an ideal gas is equal to",
+      "options": [
+        "Cp/Cv",
+        "Cp/(CP-R)",
+        "1 + (R/CV)",
+        "all (a), (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qica5w",
+      "q": "Consider the process A &amp; B shown in the figure given below In this case, it is possilbe that",
+      "options": [
+        "both the processes are adiabatic.",
+        "both the processes are isothermal.",
+        "process A is isothermal while B is adiabatic.",
+        "process A is adiabatic while B is isothermal."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-knux4s",
+      "q": "The equation, Cp - Cv = R, is true for __________ gas.",
+      "options": [
+        "no",
+        "any real",
+        "only ideal",
         "both (b) and (c)"
       ],
       "correct": 0,
@@ -268,13 +888,13 @@
       "tags": []
     },
     {
-      "id": "gate-6qus0t",
-      "q": "If an ideal solution is formed by mixing two pure liquids in any proportion, then the __________ of mixing is zero.",
+      "id": "gate-1ju61qc",
+      "q": "In a homogeneous solution, the activity co-efficient of a component depends upon the",
       "options": [
-        "enthalpy",
-        "volume",
-        "both 'a' &amp; 'b'",
-        "neither 'a' nor 'b'"
+        "pressure",
+        "composition",
+        "temperature",
+        "all (a), (b) and (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -288,8 +908,486 @@
       "tags": []
     },
     {
-      "id": "gate-ewxbhc",
-      "q": "The heat capacities for the ideal gas state depend upon the",
+      "id": "gate-tafd80",
+      "q": "With increase in compression ratio, the efficiency of the otto engine",
+      "options": [
+        "increases",
+        "decreases",
+        "remains constant",
+        "increases linearly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zjb8zy",
+      "q": "The chemical potential of any constituent of an ideal solution depends on the __________ of the solution.",
+      "options": [
+        "temperature",
+        "pressure",
+        "composition",
+        "all (a), (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-khiv7s",
+      "q": "Specific __________ does not change during a phase change (e.g. sublimation, melting, vaporisation etc.).",
+      "options": [
+        "entropy",
+        "internal energy",
+        "enthalpy",
+        "Gibbs free energy"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16c8tvk",
+      "q": "Heat of formation of an element in its standard state is",
+      "options": [
+        "0",
+        "&lt; 0",
+        "&gt; 0",
+        "a function of pressure"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11f97jk",
+      "q": "The equation relating E, P, V and T which is true for all substanes under all conditions is given by .This equation is called the",
+      "options": [
+        "Maxwell's equation.",
+        "thermodynamic equation of state.",
+        "equation of state.",
+        "Redlich-Kwong equation of state."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6gkvyg",
+      "q": "For an exothremic reaction",
+      "options": [
+        "only enthalpy change (&Delta;H) is negative.",
+        "only internal energy change (&Delta;E) is negative.",
+        "both &Delta;H and &Delta;E are negative.",
+        "enthalpy change is zero."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nihhtk",
+      "q": "Melting of wax is accompanied with __________ in entropy.",
+      "options": [
+        "increase",
+        "decrease",
+        "no change",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hazuj8",
+      "q": "A thermodynamic system is taken from state A to B along ACB and is brought back to A along BDA as shown below in the P-V diagram. The net work done during the complete cycle is given by the area covered by",
+      "options": [
+        "P1ACBP2P1",
+        "ACBB1A1A",
+        "ACBDA",
+        "ADBB1A1A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16davak",
+      "q": "Work done in case of free expansion is",
+      "options": [
+        "indeterminate",
+        "zero",
+        "negative",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bhemk4",
+      "q": "Chemical potential (an intensive property) of a substance is a force that drives the chemical system to equilibrium and is equal to its partial molar properties. The reatio of chemical potential to free energy of a pure substance at oconstant temperature and pressure is",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15pervg",
+      "q": "During adiabatic expansion of gas",
+      "options": [
+        "pressure remains constant.",
+        "pressure is increased.",
+        "temperature remains constant.",
+        "none of these."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aeq4i8",
+      "q": "Change of heat content when one mole of compound is burnt in oxygen at constant pressure is called the",
+      "options": [
+        "calorific value",
+        "heat of reaction",
+        "heat of combustion",
+        "heat of formation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pk9ed0",
+      "q": "Clausius - Clayperon equation is applicable to __________ equilibrium processes.",
+      "options": [
+        "solid-vapor",
+        "solid-liquid",
+        "liquid-vapor",
+        "all (a), (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zw9hqh",
+      "q": "In which of the following reaction equilibria, the value of equilibrium constant Kp will be more than is Kc ?",
+      "options": [
+        "2HI H2 + I2",
+        "N2O4 2NO2",
+        "2SO2 + O2 2SO3",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kcycau",
+      "q": "After throttling, gas temperature",
+      "options": [
+        "decreases",
+        "increases",
+        "remains same",
+        "may increase or decrease ; depends on the nature of the gas"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f1hkmc",
+      "q": "The chemical potential for a pure substance is __________ its partial molal free energy.",
+      "options": [
+        "more than",
+        "less than",
+        "equal to",
+        "not related to"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gwxbka",
+      "q": "The expression for entropy change given by, &Delta;S = - nR ln (P2/P1), holds good for",
+      "options": [
+        "expansion of a real gas.",
+        "reversible isothermal volume change.",
+        "heating of an ideal gas.",
+        "cooling of a real gas."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-slat0g",
+      "q": "With increase in temperature, the internal energy of a substance",
+      "options": [
+        "increases",
+        "decreases",
+        "remains unchanged",
+        "may increase or decrease; depends on the substance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7elzuo",
+      "q": "It is desired to bring about a certain change in the state of a system by performing work on the system under adiabatic conditions.",
+      "options": [
+        "The amount of work needed is path dependent.",
+        "Work alone can not bring out such a change of state.",
+        "The amount of work needed is independent of path.",
+        "More information is needed to conclude anything about the path dependence or otherwise of the work needed."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kgyrr4",
+      "q": "For a constant pressure reversible process, the enthalpy change (&Delta;H) of the system is",
+      "options": [
+        "Cv.dT",
+        "Cp.dT"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pszgyg",
+      "q": "Heat evolved/absorbed during conversion of a substance from one allotropic form to another is termed as the heat of",
+      "options": [
+        "fusion",
+        "vaporisation",
+        "transition",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xg4pw8",
+      "q": "What happens in a reversible adiabatic compression ?",
+      "options": [
+        "Heating occurs",
+        "Cooling occurs",
+        "Pressure is constant",
+        "Temperature is constant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k99iyc",
+      "q": "Sublimation temperature of dry ice (solid CO2) is __________ &deg;C.",
+      "options": [
+        "-273",
+        "0",
+        "-78",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pwoma4",
+      "q": "If atmospheric temperature and dew point are nearly equal, then the relative humidity is",
+      "options": [
+        "zero",
+        "50%",
+        "almost 100%",
+        "unpredictable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9b5xms",
+      "q": "The internal energy of an incompressible fluid depends upon its",
       "options": [
         "pressure",
         "temperature",
@@ -308,13 +1406,13 @@
       "tags": []
     },
     {
-      "id": "gate-1azfoow",
-      "q": "Which of the following will increase the volume of a real gas by four times ?",
+      "id": "gate-1g2e5lh",
+      "q": "Compressibility factor-reduced pressure plot on reduced co-ordinates facilitates",
       "options": [
-        "Doubling the absolute temperature as well as pressure of the gas.",
-        "Reducing pressure to one fourth at constant temperature.",
-        "Reducing temperature to one fourth at constant pressure.",
-        "Reducing the temperature to half and doubling the pressure."
+        "use of only one graph for all gases.",
+        "covering of wide range.",
+        "easier plotting.",
+        "more accurate plotting."
       ],
       "correct": 0,
       "explain": "",
@@ -328,13 +1426,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bu26ik",
-      "q": "The equation, PV = nRT, is best obeyed by gases at",
+      "id": "gate-ri38gn",
+      "q": "Which of the following is not an intensive property ?",
       "options": [
-        "low pressure &amp; high temperature.",
-        "high pressure &amp; low temperature.",
-        "low pressure &amp; low temperature.",
-        "none of these."
+        "Molar heat capacity",
+        "Internal energy",
+        "Viscosity",
+        "None of these"
       ],
       "correct": 0,
       "explain": "",
@@ -348,13 +1446,13 @@
       "tags": []
     },
     {
-      "id": "gate-1j9yg1k",
-      "q": "Internal energy of an element at 1 atm and 25&deg; C is __________ kcal/kg.mole.",
+      "id": "gate-1vavew3",
+      "q": "Gibbs phase rule finds application, when heat transfer occurs by",
       "options": [
-        "0",
-        "273",
-        "25",
-        "none of these"
+        "conduction",
+        "convection",
+        "radiation",
+        "condensation"
       ],
       "correct": 0,
       "explain": "",
@@ -368,13 +1466,13 @@
       "tags": []
     },
     {
-      "id": "gate-c9kiho",
-      "q": "The Carnot co-efficient of performance (COP) of a domestic air conditioner compared to a household refrigerator is",
+      "id": "gate-2f5yma",
+      "q": "Absorption/evolution of heat during conversion of a substance from one allotropic form to another is termed as the heat of",
       "options": [
-        "less",
-        "more",
-        "same",
-        "dependent on climatic conditions"
+        "sublimation",
+        "fusion",
+        "transition",
+        "vaporisation"
       ],
       "correct": 0,
       "explain": "",
@@ -388,13 +1486,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kjsi8j",
-      "q": "The unit of fugacity is the same as that of the",
+      "id": "gate-1r2vz8c",
+      "q": "In a homogeneous solution, the fugacity of a component depends upon the",
       "options": [
         "pressure",
+        "composition",
         "temperature",
-        "volume",
-        "molar concentration"
+        "all (a), (b) and (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -408,293 +1506,13 @@
       "tags": []
     },
     {
-      "id": "gate-pjnysw",
-      "q": "Filling of gas from a high pressure cylinder into small bottles is an example of a/an __________ process.",
+      "id": "gate-mjk8io",
+      "q": "For an incompressible fluid, the __________ is a function of both pressure as well as temperature.",
       "options": [
-        "equilibrium",
-        "adiabatic",
-        "steady",
-        "unsteady"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3s8kf0",
-      "q": "A large iceberg melts at the base, but not at the top, because of the reason that",
-      "options": [
-        "ice at the base contains impurities which lowers its melting point.",
-        "due to the high pressure at the base, its melting point reduces.",
-        "the iceberg remains in a warmer condition at the base.",
-        "all (a), (b) and (c)."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jc9eqb",
-      "q": "At the critical point of a substance",
-      "options": [
-        "the surface tension vanishes.",
-        "liquid and vapour have the same density.",
-        "there is no distinction between liquid and vapour phases.",
-        "all (a), (b) and (c)."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pgf2m",
-      "q": "Third law of thermodynamics is helpful in",
-      "options": [
-        "prediction of the extent of a chemical reaction.",
-        "calculating absolute entropies of substances at different temperature.",
-        "evaluating entropy changes of chemical reaction.",
-        "both (b) and (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1octn7o",
-      "q": "Fugacity and pressure are numerically equal, when the gas is",
-      "options": [
-        "in standard state",
-        "at high pressure",
-        "at low temperature",
-        "in ideal state"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hqbrgf",
-      "q": "Refrigerants commonly used for domestic refrigerators are",
-      "options": [
-        "ethyl chloride or methyle chloride",
-        "freon-12",
-        "propane",
-        "NH3 or CO2."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1eb4izo",
-      "q": "Solid and liquid phases of a substance are in equilibrium at the",
-      "options": [
-        "critical temperature",
-        "melting point.",
-        "freezing point.",
-        "both (b) and (c)."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vu6d2w",
-      "q": "Absolute zero temperature signifies the",
-      "options": [
-        "minimum temperature attainable.",
-        "temperature of the heat reservoir to which a Carnot engine rejects all the heat that is taken in.",
-        "temperature of the heat reservoir to which a Carnot engine rejects no heat.",
-        "none of these."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qjjzag",
-      "q": "For the reversible exothermic reaction, N2 + 3H2 2NH3, increase of pressure would",
-      "options": [
-        "shift the equilibrium towards right.",
-        "give higher yield of NH3.",
-        "both (b) and (c).",
-        "neither (a) nor (b)."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ryrx3",
-      "q": "Which of the following has the minimum value of COP for a given refrigeration effect?",
-      "options": [
-        "Reverse Carnot cycle.",
-        "Ordinary vapour-compression cycle.",
-        "Vapour-compression process with a reversible expansion engine.",
-        "Air refrigeration cycle."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vyjfst",
-      "q": "__________ decreases during adiabatic throttling of a perfect gas.",
-      "options": [
-        "Entropy",
-        "Temperature",
-        "Enthalpy",
-        "Pressure"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f8pu8w",
-      "q": "Tea kept in a thermos flask is vigorously shaken. If the tea is considered as a system, then its temperature will",
-      "options": [
-        "increase",
-        "decrease",
-        "remain unchanged",
-        "first fall and then rise."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1scyeof",
-      "q": "The work done in isothermal compression compared to that in adiabatic compression will be",
-      "options": [
-        "less",
-        "more",
-        "same",
-        "more or less depending upon the extent of work done"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1na9t2u",
-      "q": "For organic compounds, group contribution method can be used for the estimation of",
-      "options": [
-        "critical properties.",
-        "specific gravity.",
-        "specific volume.",
-        "thermal conductivity."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q52p60",
-      "q": "Specific __________ does not change during phase change at constant temperature and pressure.",
-      "options": [
-        "entropy",
-        "Gibbs energy",
         "internal energy",
-        "enthalpy"
+        "enthalpy",
+        "entropy",
+        "all (a), (b) &amp; (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -708,13 +1526,13 @@
       "tags": []
     },
     {
-      "id": "gate-2w8jep",
-      "q": "When liquid and vapour phases of one component system are in equilibrium (at a given temperature and pressure), the molar free energy is",
+      "id": "gate-1vlnshl",
+      "q": "An ideal monoatomic gas is taken round the cycle ABCDA as shown below in the P-V diagram The work done during the cycle is",
       "options": [
-        "more in vapour phase.",
-        "more in liquid phase.",
-        "same in both the phases.",
-        "replaced by chemical potential which is more in vapour phase."
+        "PV",
+        "2PV",
+        "PV/2",
+        "0"
       ],
       "correct": 0,
       "explain": "",
@@ -728,13 +1546,13 @@
       "tags": []
     },
     {
-      "id": "gate-sur22k",
-      "q": "Ideal gas law is applicable at",
+      "id": "gate-1ychci8",
+      "q": "One ton of refrigeration capacity is equivalent to the heat removal rate of",
       "options": [
-        "low T, low P",
-        "high T, high P",
-        "low T, high P",
-        "high T, low P"
+        "50 k cal/hr",
+        "200 BTU/hr",
+        "200 BTU/minute",
+        "200 BTU/day"
       ],
       "correct": 0,
       "explain": "",
@@ -748,73 +1566,13 @@
       "tags": []
     },
     {
-      "id": "gate-dlb6l4",
-      "q": "Reduced pressure of a gas is the ratio of its",
-      "options": [
-        "pressure to critical pressure.",
-        "critical pressure to pressure.",
-        "pressure to pseudocritical pressure.",
-        "pseudocritical pressure to pressure."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a73500",
-      "q": "For a reversible process involving only pressure-volume work",
-      "options": [
-        "(dF)T, p &lt; 0",
-        "(dF)T, p &gt; 0",
-        "(dF)T, p = 0",
-        "(dA)T, v &lt; 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9mh9w8",
-      "q": "Air enters an adiabatic compressor at 300K. The exit temperature for a compression ratio of 3, assuming air to be an ideal gas (Y = Cp/Cv = 7/5) and the process to be reversible, is",
-      "options": [
-        "300(32/7)",
-        "300(33/5)",
-        "300(333/7)",
-        "300(35/7)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10f804k",
-      "q": "Entropy change for an irreversible process taking system and surrounding together is",
+      "id": "gate-7ib76u",
+      "q": "What is the degree of freedom for a system comprising liquid water equilibrium with its vapour ?",
       "options": [
         "0",
-        "&gt; 0",
-        "&lt; 0",
-        "none of these"
+        "1",
+        "2",
+        "3"
       ],
       "correct": 0,
       "explain": "",
@@ -828,13 +1586,13 @@
       "tags": []
     },
     {
-      "id": "gate-ak4ekw",
-      "q": "In the equation, PVn = constant, if the value of n is in between 1 and y (i.e. Cp/Cv), then it represents a reversible __________ process.",
+      "id": "gate-so5lmz",
+      "q": "Choose the condition that must be specified in order to liquify CO2 (triple point for CO2 is - 57&deg;C and 5.2 atm).",
       "options": [
-        "isometric",
-        "polytropic",
-        "isentropic",
-        "isobaric"
+        "Pressure must be kept below 5.2 atm.",
+        "Temperature must be kept above - 57&deg;C.",
+        "Pressure must be kept below 5.2 atm. and temperature must be kept above 57&deg;C.",
+        "Pressure and temperature must be kept below 5.2 atm. and - 57&deg;C respectively."
       ],
       "correct": 0,
       "explain": "",
@@ -848,52 +1606,12 @@
       "tags": []
     },
     {
-      "id": "gate-1txil4l",
-      "q": "Throttling process is a/an __________ process.",
+      "id": "gate-12o6gds",
+      "q": "If two pure liquid constituents are mixed in any proportion to give an ideal solution, there is no change in",
       "options": [
-        "reversible and isothermal",
-        "irreversible and constant enthalpy",
-        "reversible and constant entropy",
-        "reversible and constant enthalpy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gm7pfg",
-      "q": "The main feature of Carnot refrigeration cycle is that, it",
-      "options": [
-        "does not need the addition of external work for its functioning.",
-        "transfers heat from high temperature to low temperature.",
-        "accomplishes the reverse effect of the heat engine.",
-        "none of these."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z3w4lw",
-      "q": "Heat of reaction at constant volume is identified with __________ change.",
-      "options": [
+        "volume",
         "enthalpy",
-        "internal energy",
-        "either (a) or (b)",
+        "both (a) &amp; (b)",
         "neither (a) nor (b)"
       ],
       "correct": 0,
@@ -908,11 +1626,13 @@
       "tags": []
     },
     {
-      "id": "gate-tfohvw",
-      "q": "Charles' law for gases states that",
+      "id": "gate-1f6urks",
+      "q": "One mole of nitrogen at 8 bar and 600 K is contained in a piston-cylinder arrangement. It is brought to 1 bar isothermally against a resisting pressure of 1 bar. The work done (in Joules) by the gas is",
       "options": [
-        "= Constant",
-        "= Constant"
+        "30554",
+        "10373",
+        "4988.4",
+        "4364.9"
       ],
       "correct": 0,
       "explain": "",
@@ -926,32 +1646,12 @@
       "tags": []
     },
     {
-      "id": "gate-14akecw",
-      "q": "Solubility of a substance which dissolves with an increase in volume and liberation of heat will be favoured by the",
+      "id": "gate-v37zh2",
+      "q": "Lenz's law results from the law of conservation of",
       "options": [
-        "low pressure and high temperature.",
-        "low pressure and low temperature.",
-        "high pressure and low temperature.",
-        "high pressure and high temperature."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18kwen8",
-      "q": "Entropy is a measure of the __________ of a system.",
-      "options": [
-        "disorder",
-        "orderly behaviour",
-        "temperature changes only",
+        "mass",
+        "momentum",
+        "energy",
         "none of these"
       ],
       "correct": 0,
@@ -966,12 +1666,152 @@
       "tags": []
     },
     {
-      "id": "gate-9agk",
-      "q": "A chemical reaction will occur spontaneously at constant pressure and temperature, if the free energy is",
+      "id": "gate-1erigbk",
+      "q": "If heat contents of CH4, C2H4 and C3H8 are -17.9, 12.5 and -24.8 kcal/mole respectively, than &Delta;H for the reaction CH4(g) + C2H4(g) C3H8(g) will be __________ Kcal.",
+      "options": [
+        "-19.4",
+        "-30.2",
+        "55.2",
+        "-55.2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w099g0",
+      "q": "Helmholtz free energy (A) is defined as",
+      "options": [
+        "A = H - TS",
+        "A = E - TS",
+        "A = H + TS",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tz1xjc",
+      "q": "As pressure approaches zero, the ratio of fugacity to pressure (f/P) for a gas approaches",
       "options": [
         "zero",
-        "positive",
-        "negative",
+        "unity",
+        "infinity",
+        "an indeterminate value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w5tkdb",
+      "q": "For any system, what is the minimum number of degrees of freedom?",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11guhv4",
+      "q": "At 60&deg; C, vapour pressure of methanol and water are 84.562 kPa and 19.953 kPa respectively. An aqueous solution of methanol at 60&deg; C exerts a pressure of 39.223 kPa; the liquid phase and vapour phase mole fractions of methanol are 0.1686 and 0.5714 respectively. Activity co-efficient of methanol is",
+      "options": [
+        "1.572",
+        "1.9398",
+        "3.389",
+        "4.238"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2vh4n9",
+      "q": "Compound having large heat of formation is",
+      "options": [
+        "more stable.",
+        "less stable.",
+        "not at all stable (like nascent O2).",
+        "either more or less stable ; depends on the compound."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lbedu8",
+      "q": "Second law of thermodynamics is concerned with the",
+      "options": [
+        "amount of energy transferred.",
+        "direction of energy transfer.",
+        "irreversible processes only.",
+        "non-cyclic processes only."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t9j419",
+      "q": "Maximum work that could be secured by expanding the gas over a given pressure range is the __________ work.",
+      "options": [
+        "isothermal",
+        "adiabatic",
+        "isentropic",
         "none of these"
       ],
       "correct": 0,
@@ -986,13 +1826,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fgjsig",
-      "q": "Fundamental principle of refrigeration is based on the __________ law of thermodynamics.",
+      "id": "gate-5cftdo",
+      "q": "Internal energy change of a system over one complete cycle in a cyclic process is",
       "options": [
-        "zeroth",
-        "first",
-        "second",
-        "third"
+        "zero",
+        "+ve",
+        "-ve",
+        "dependent on the path"
       ],
       "correct": 0,
       "explain": "",
@@ -1006,73 +1846,153 @@
       "tags": []
     },
     {
-      "id": "gate-ilamxs",
-      "q": "For a spontaneous process, free energy",
+      "id": "gate-16zunv4",
+      "q": "Heating of water under atmospheric pressure is an __________ process.",
       "options": [
-        "is zero",
+        "isochoric",
+        "isobaric",
+        "adiabatic",
+        "isothermal"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1217ywo",
+      "q": "Van Laar equation deals with the activity co-efficients in",
+      "options": [
+        "binary solutions",
+        "ternary solutions",
+        "azeotropic mixture only",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8hqhb0",
+      "q": "High __________ is an undesirable property for a good refrigerant.",
+      "options": [
+        "specific heat",
+        "latent heat of vaporisation",
+        "viscosity",
+        "specific vapor volume"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6oqcew",
+      "q": "A refrigeration cycle is a reversed heat engine. Which of the following has the maximum value of the co-efficient of performance (COP) for a given refrigeration effect ?",
+      "options": [
+        "Vapor compression cycle using expansion valve.",
+        "Air refrigeration cycle.",
+        "Vapor compression cycle using expansion engine.",
+        "Carnot refrigeration cycle."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kphnm5",
+      "q": "In a working refrigerator, the value of COP is always",
+      "options": [
+        "0",
+        "&lt; 0",
+        "&lt; 1",
+        "&gt; 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cbcodp",
+      "q": "__________ increases with increase in pressure.",
+      "options": [
+        "The melting point of wax",
+        "The boiling point of a liquid",
+        "both (a) and (b)",
+        "neither (a) nor (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1onnohz",
+      "q": "A refrigerator may be termed as a",
+      "options": [
+        "heat pump",
+        "heat engine",
+        "Carnot engine",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Chemical Engineering",
+      "topic": "Chemical Engineering Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1csr3jg",
+      "q": "For a stable phase at constant pressure and temperature, the fugacity of each component in a binary system __________ as its mole fraction increases.",
+      "options": [
+        "decreases",
         "increases",
-        "decreases whereas the entropy increases",
-        "and entropy both decrease"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f3zccg",
-      "q": "The co-efficient of performance (COP) of a refrigerating system, which is its index of performance, is defined as the ratio of useful refrigeration to the net work. The units of __________ and COP are the same.",
-      "options": [
-        "kinematic viscosity",
-        "work",
-        "temperature",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-107aifc",
-      "q": "In jet refrigerators, the refrigerating fluid is practically always",
-      "options": [
-        "water",
-        "ammonia",
-        "freon",
-        "brine"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Chemical Engineering",
-      "topic": "Chemical Engineering Thermodynamics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nue5m8",
-      "q": "Water on heating from 1 to 4&deg;C",
-      "options": [
-        "contracts",
-        "expands",
-        "has same volume",
-        "may contract or expand"
+        "remains same",
+        "decreases linearly"
       ],
       "correct": 0,
       "explain": "",

@@ -8,8 +8,8 @@
   "count": 10,
   "questions": [
     {
-      "id": "gate-gmbjaw",
-      "q": "The odd/even parity system would require a sixth bit to be added to a 4-bit system.",
+      "id": "gate-1f0tvsk",
+      "q": "The exclusive-OR is written in a Boolean equation as a plus sign with a circle around it.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-gs4i20",
-      "q": "Electrical noise does not affect the transmission of binary information.",
+      "id": "gate-1baukp",
+      "q": "Parity generator and checker circuits are available in single IC packages.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-9qjies",
-      "q": "In an exclusive-OR, both inputs cannot be HIGH to provide a HIGH output.",
+      "id": "gate-1ye0ahv",
+      "q": "The Ex-NOR is sometimes called the equality gate.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1nrw8o0",
-      "q": "Using the CPLD design environment, we can simulate any combinations of inputs and observe the resulting output to check for proper circuit operation.",
+      "id": "gate-wq15xy",
+      "q": "A parity checker is constructed in the same way as a parity generator, except that in a 4-bit system there must be five inputs, and the output is used as the error indicator.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-sthki4",
-      "q": "The exclusive-OR provides a LOW input if one input or the other input is HIGH.",
+      "id": "gate-k95uf2",
+      "q": "In a parity generator circuit, an error is signaled on an error indicator.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-181q23s",
-      "q": "Which type of gate can be used to add two bits?",
+      "id": "gate-1kc5j6w",
+      "q": "Select the statement that best describes the parity method of error detection:",
       "options": [
-        "Ex-OR",
-        "Ex-NOR",
-        "Ex-NAND",
-        "NOR"
+        "Parity checking is best suited for detecting double-bit errors that occur during the transmission of codes from one location to another.",
+        "Parity checking is not suitable for detecting single-bit errors in transmitted codes.",
+        "Parity checking is best suited for detecting single-bit errors in transmitted codes.",
+        "Parity checking is capable of detecting and correcting errors in transmitted codes."
       ],
       "correct": 0,
       "explain": "",
@@ -118,12 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jxdyb",
-      "q": "Why is an exclusive-NOR gate also called an equality gate?",
+      "id": "gate-1qeigh4",
+      "q": "A logic circuit that provides a HIGH output for both inputs HIGH or both inputs LOW is a(n):",
       "options": [
-        "The output is false if the inputs are equal.",
-        "The output is true if the inputs are opposite.",
-        "The output is true if the inputs are equal."
+        "Ex-NOR gate",
+        "OR gate",
+        "Ex-OR gate",
+        "NAND gate"
       ],
       "correct": 0,
       "explain": "",
@@ -137,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-wistx4",
-      "q": "Show from the truth table how an exclusive-OR gate can be used to invert the data on one input if the other input is a special control function.",
+      "id": "gate-1vubpp0",
+      "q": "A logic circuit that provides a HIGH output if one input or the other input, but not both, is HIGH, is a(n):",
       "options": [
-        "Using A as the control, when A = 0, X is the same as B. When A = 1, X is the same as B.",
-        "Using A as the control, when A = 0, X is the same as B. When A = 1, X is the inverse of B.",
-        "Using A as the control, when A = 0, X is the inverse of B. When A = 1, X is the same as B.",
-        "Using A as the control, when A = 0, X is the inverse of B. When A = 1, X is the inverse of B."
+        "Ex-NOR gate",
+        "OR gate",
+        "Ex-OR gate",
+        "NAND gate"
       ],
       "correct": 0,
       "explain": "",
@@ -157,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-16rec4g",
-      "q": "Determine odd parity for each of the following data words: 1011101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11110111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1001101",
+      "id": "gate-1lmwkuc",
+      "q": "Identify the type of gate below from the equation",
       "options": [
-        "P = 1, P = 1, P = 0",
-        "P = 0, P = 0, P = 0",
-        "P = 1, P = 1, P = 1",
-        "P = 0, P = 0, P = 1"
+        "Ex-NOR gate",
+        "OR gate",
+        "Ex-OR gate",
+        "NAND gate"
       ],
       "correct": 0,
       "explain": "",
@@ -177,13 +178,11 @@
       "tags": []
     },
     {
-      "id": "gate-1yuhpkc",
-      "q": "The Ex-NOR is sometimes called the ________.",
+      "id": "gate-r14cug",
+      "q": "How is odd parity generated differently from even parity?",
       "options": [
-        "parity gate",
-        "equality gate",
-        "inverted OR",
-        "parity gate or the equality gate"
+        "The first output is inverted.",
+        "The last output is inverted."
       ],
       "correct": 0,
       "explain": "",

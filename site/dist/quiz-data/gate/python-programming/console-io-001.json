@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Console Io",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 65,
   "questions": [
     {
-      "id": "gate-1v0jp3q",
-      "q": "How can you clear the screen in a Python console application?",
+      "id": "gate-jb5coo",
+      "q": "How can you take user input from the console?",
       "options": [
-        "console.clear()",
-        "os.clear()",
-        "clear()",
-        "os.system(\"clear\")"
+        "console.input()",
+        "input()",
+        "read.console()",
+        "console.read_input()"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rlu4sc",
-      "q": "What is the purpose of the sys.stdin stream?",
+      "id": "gate-fzhe94",
+      "q": "Which function is used to print output to the console?",
       "options": [
-        "Reading input from the console",
-        "Writing output to the console",
-        "Standard error input",
-        "Redirecting output to a file"
+        "display()",
+        "show()",
+        "print()",
+        "console.log()"
       ],
       "correct": 0,
       "explain": "",
@@ -48,33 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-161k8ps",
-      "q": "Which of the following is used to format the output?",
+      "id": "gate-urnf70",
+      "q": "How can you read an integer input from the console?",
       "options": [
-        "format()",
-        "print_format()",
-        "string.format()",
-        "f-string"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Console Io",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4gbvuq",
-      "q": "How can you convert a string input from the console to an integer?",
-      "options": [
+        "int_input()",
+        "read_integer()",
         "int(input())",
-        "convert_int(input())",
-        "input().to_int()",
-        "parse_int(input())"
+        "read.console(integer)"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qylllk",
-      "q": "What will happen if you try to concatenate a string and an integer using the + operator?",
+      "id": "gate-usg9o",
+      "q": "What will happen if you try to use input() without assigning it to a variable?",
       "options": [
-        "Error: Cannot concatenate string and integer",
-        "The integer will be converted to a string and concatenated",
-        "The string will be converted to an integer and concatenated",
-        "The program will terminate"
+        "Error: input() cannot be used without assignment",
+        "The input will be ignored",
+        "The program will terminate",
+        "The input will be printed to the console"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-r2bfrs",
-      "q": "How can you prompt the user to enter a series of numbers until they enter a negative number, and then print the sum of the positive numbers?",
+      "id": "gate-ix87h0",
+      "q": "How can you prompt the user with a message while taking input?",
       "options": [
-        "positive_sum(get_positive_numbers())",
-        "sum_positive_numbers(input(\"Enter numbers (negative to stop): \"))",
-        "total = 0; while True: num = int(input(\"Enter a number: \")); if num",
-        "print(\"Sum of positives:\", calculate_positive_sum(get_input_numbers()))"
+        "prompt(input_msg)",
+        "input_msg(prompt)",
+        "input(prompt=input_msg)",
+        "console.prompt(input_msg)"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mj0c58",
-      "q": "How can you read a string from the console, count the number of vowels and consonants, and print the result?",
+      "id": "gate-1bsyork",
+      "q": "Which function is used to print without a newline?",
       "options": [
-        "vowel_consonant_count(input(\"Enter a string: \"))",
-        "print(count_vowels_consonants(get_user_string()))",
-        "string_input = input(\"Enter a string: \"); print(\"Vowels:\", count_vowels(string_input), \"Consonants:\", count_consonants(string_input))",
-        "print(\"Vowels:\", vowels_count(input(\"Enter a string: \")), \"Consonants:\", consonants_count(input()))"
+        "print_no_newline()",
+        "print(newline=False)",
+        "print(\"\\n\", end=\"\")",
+        "print_n()"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +128,1173 @@
       "tags": []
     },
     {
-      "id": "gate-59dfsg",
-      "q": "How can you prompt the user to enter a list of words, sort them alphabetically, and print the result?",
+      "id": "gate-1r84jbk",
+      "q": "How can you read a floating-point number from the console?",
       "options": [
-        "sorted_words(get_user_words())",
-        "print(\"Sorted words:\", sort_alphabetically(input(\"Enter words separated by spaces: \").split()))",
-        "words = input(\"Enter words separated by spaces: \").split(); print(\"Sorted words:\", sort_words(words))",
-        "sort_input_words(input(\"Enter a list of words: \"))"
+        "read_float()",
+        "float(input())",
+        "input().to_float()",
+        "parse_float(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8hsm4d",
+      "q": "How can you prompt the user with a message and read an integer in a single line?",
+      "options": [
+        "prompt_integer()",
+        "input(\"Enter an integer: \").to_int()",
+        "int(input(\"Enter an integer: \"))",
+        "user_prompt(\"Enter an integer: \").read_integer()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1exyav",
+      "q": "How can you read a list of integers from the console?",
+      "options": [
+        "list(input().split())",
+        "int_list = input().to_list()",
+        "list(map(int, input().split()))",
+        "read_integer_list()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-djd38x",
+      "q": "What is the purpose of the sep parameter in the print() function?",
+      "options": [
+        "Sets the output separator between arguments",
+        "Sets the end character at the end of the printed string",
+        "Controls the formatting of the printed string",
+        "Defines the width of the printed string"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qxoisc",
+      "q": "How can you read a string from the console, replace all spaces with underscores, and print the result?",
+      "options": [
+        "print(replace_spaces(input(\"Enter a string: \")))",
+        "string_input = input(\"Enter a string: \"); print(string_input.replace(\" \", \"_\"))",
+        "replace_chars(get_user_string())",
+        "print(replace_whitespace(get_input()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l40ws8",
+      "q": "How can you check if a given year is a leap year or not?",
+      "options": [
+        "is_leap(int(input(\"Enter a year: \")))",
+        "check_leap_year(get_year())",
+        "year = input(\"Enter a year: \"); print(is_leap_year(year))",
+        "leap = leap_year(input(\"Enter a year: \"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bulfq4",
+      "q": "How can you read a sentence from the console, find the length of each word, and print the result?",
+      "options": [
+        "word_lengths(input(\"Enter a sentence: \"))",
+        "print_lengths(get_sentence())",
+        "sentence = input(\"Enter a sentence: \"); print([len(word) for word in sentence.split()])",
+        "lengths = find_word_lengths(get_input_sentence())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mdy198",
+      "q": "How can you prompt the user to enter three numbers and find the maximum among them?",
+      "options": [
+        "max_num(get_three_numbers())",
+        "maximum = find_max(input(\"Enter three numbers separated by spaces: \")); print(maximum)",
+        "max_value = input(\"Enter three numbers: \"); print(find_maximum(max_value))",
+        "print(\"Maximum:\", max(input(\"Enter three numbers: \").split()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-352oyc",
+      "q": "How can you read a list of integers from the console, remove duplicates, and print the result?",
+      "options": [
+        "remove_duplicates(input(\"Enter integers separated by spaces: \"))",
+        "numbers = input(\"Enter integers separated by spaces: \"); print(list(set(map(int, numbers.split()))))",
+        "unique_values(get_user_input())",
+        "print(remove_duplicates(get_numbers()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-crpuy8",
+      "q": "How can you check if a string is numeric?",
+      "options": [
+        "isnumeric()",
+        "numeric_check()",
+        "str.isnumeric()",
+        "isdigit()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1guk6us",
+      "q": "What will happen if you use the int() function to convert a non-numeric string?",
+      "options": [
+        "Error: Cannot convert non-numeric string to integer",
+        "The string will be converted to 0",
+        "The program will terminate",
+        "The string will be printed as is"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h2fivf",
+      "q": "How can you read a character from the console?",
+      "options": [
+        "input_char()",
+        "char(input())",
+        "input()[0]",
+        "read_character()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eii0ok",
+      "q": "How can you print the Unicode representation of a character?",
+      "options": [
+        "unicode_print('A')",
+        "ord('A')",
+        "print_unicode('A')",
+        "unicode('A')"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-591yxw",
+      "q": "How can you convert a string to lowercase?",
+      "options": [
+        "str.lowercase()",
+        "convert_lowercase(str)",
+        "str.lower()",
+        "lower(str)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fw5u90",
+      "q": "How can you prompt the user to enter a sentence and count the number of vowels?",
+      "options": [
+        "count_vowels(input(\"Enter a sentence: \"))",
+        "vowel_count(get_sentence())",
+        "sentence = input(\"Enter a sentence: \"); print(sum(1 for char in sentence if char.lower() in 'aeiou'))",
+        "get_vowel_count(\"Enter a sentence: \")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r66lkw",
+      "q": "How can you read a list of numbers from the console and find their average?",
+      "options": [
+        "average_numbers(input(\"Enter numbers separated by spaces: \"))",
+        "numbers = input(\"Enter numbers separated by spaces: \"); print(sum(map(int, numbers.split())) / len(numbers))",
+        "avg = calculate_average(input())",
+        "print(avg_numbers(get_numbers()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17mt80g",
+      "q": "How can you print the factorial of a number entered by the user?",
+      "options": [
+        "print(factorial(int(input(\"Enter a number: \"))))",
+        "user_input = get_user_input(); print(calculate_factorial(user_input))",
+        "num = input(\"Enter a number: \"); print(fact(num))",
+        "print(\"Factorial:\", compute_fact(input()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m8dj9x",
+      "q": "How can you read two integers from the console and swap their values?",
+      "options": [
+        "swap(int(input()), int(input()))",
+        "a, b = input(\"Enter two numbers: \").split(); a, b = b, a; print(a, b)",
+        "swap_values(get_integers())",
+        "a = input(\"Enter the first number: \"); b = input(\"Enter the second number: \"); swap(a, b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bltg5c",
+      "q": "How can you print the ASCII value of a character entered by the user?",
+      "options": [
+        "ascii_value = ord(input(\"Enter a character: \")); print(ascii_value)",
+        "char = get_char_input(); print(ascii(char))",
+        "print(ord(input(\"Enter a character: \")))",
+        "ascii_code(get_input_char())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14zhoo",
+      "q": "What will the end parameter in the print() function do?",
+      "options": [
+        "Sets the output separator between arguments",
+        "Sets the end character at the end of the printed string",
+        "Controls the formatting of the printed string",
+        "Defines the width of the printed string"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kacpth",
+      "q": "How can you remove leading and trailing whitespaces from a string?",
+      "options": [
+        "str.trim()",
+        "trim(str)",
+        "str.strip()",
+        "remove_whitespaces(str)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zoacgw",
+      "q": "How can you check if a string ends with a specific suffix?",
+      "options": [
+        "str.ends_with(suffix)",
+        "endswith(str, suffix)",
+        "str.endswith(suffix)",
+        "check_suffix(str, suffix)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-157yytk",
+      "q": "How can you print a formatted string with variable values?",
+      "options": [
+        "print(\"Value is: \" + variable)",
+        "print(\"Value is:\", variable)",
+        "format_print(\"Value is: {}\", variable)",
+        "print(\"Value is: %s\" % variable)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pkcnmg",
+      "q": "How can you read a boolean value from the console?",
+      "options": [
+        "bool(input())",
+        "read_boolean()",
+        "input().to_bool()",
+        "bool(input().lower() == 'true')"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tvsoc0",
+      "q": "How can you print the sum of all odd numbers from 1 to 10?",
+      "options": [
+        "print(sum(range(1, 11, 2)))",
+        "odd_sum(1, 10)",
+        "print(odd_numbers_sum(1, 10))",
+        "sum_odd(range(1, 11))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dsuhgg",
+      "q": "How can you read a password from the console and check if it meets certain criteria?",
+      "options": [
+        "password = input(\"Enter password: \"); validate_password(password)",
+        "password = input_password(); check_password_criteria(password)",
+        "password = getpass.getpass(\"Enter password: \"); is_valid_password(password)",
+        "password = input(\"Enter password: \"); validate_password_criteria(password)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ragyr4",
+      "q": "How can you prompt the user to enter two numbers and print their product?",
+      "options": [
+        "product = input(\"Enter first number: \") * input(\"Enter second number: \"); print(product)",
+        "product = int(input(\"Enter first number: \")) * int(input(\"Enter second number: \")); print(product)",
+        "product = multiply_numbers(input(\"Enter first number: \"), input(\"Enter second number: \")); print(product)",
+        "product = input(\"Enter first number: \").multiply(input(\"Enter second number: \")); print(product)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iiga3w",
+      "q": "How can you read an integer from the console and print its square?",
+      "options": [
+        "square(int(input()))",
+        "print_square(input(\"Enter an integer: \"))",
+        "num = input(\"Enter an integer: \"); print(int(num) ** 2)",
+        "calculate_square(int(input(\"Enter an integer: \")))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xwiz6o",
+      "q": "How can you read a line of text from the console, reverse it, and print the result?",
+      "options": [
+        "print(reverse(input(\"Enter a line of text: \")))",
+        "line = input(\"Enter a line of text: \"); print(line.reverse())",
+        "text = input(\"Enter a line of text: \"); print(text[::-1])",
+        "reversed_text = reverse_text(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hv7uz8",
+      "q": "How can you align text to the right in a Python console output?",
+      "options": [
+        "align_right(\"text\")",
+        "print(\"text\", align=\"right\")",
+        "print(f\"{text:>10}\")",
+        "right_align(\"text\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3gsw40",
+      "q": "How can you read a line of text from the console and split it into words?",
+      "options": [
+        "read_line().split()",
+        "line.split(input())",
+        "input().split()",
+        "split_line(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nhuu5j",
+      "q": "How can you print a multiline string?",
+      "options": [
+        "print(\"Line 1\\nLine 2\")",
+        "multiline_print(\"Line 1\", \"Line 2\")",
+        "print_multiline(\"Line 1\", \"Line 2\")",
+        "print(\"Line 1\") print(\"Line 2\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y2zzf8",
+      "q": "How can you prompt the user for input and convert it to an integer in a single line?",
+      "options": [
+        "input().convert_to_int()",
+        "int(prompt(\"Enter an integer: \"))",
+        "user_input = input(\"Enter an integer: \"); int(user_input)",
+        "int(input(\"Enter an integer: \"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pxfxvl",
+      "q": "How can you check if a string contains only alphabetic characters?",
+      "options": [
+        "str.isalpha()",
+        "is_alphabetic(str)",
+        "check_alpha(str)",
+        "str.only_alpha()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-36mv4s",
+      "q": "How can you print a countdown from 5 to 1?",
+      "options": [
+        "countdown(5, 1)",
+        "for num in reversed(range(1, 6)): print(num)",
+        "print_countdown(5)",
+        "print(5, 4, 3, 2, 1)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xut9w4",
+      "q": "How can you read a string from the console and check if it contains the substring \"python\"?",
+      "options": [
+        "contains_python(input())",
+        "check_substring(input(), \"python\")",
+        "input().has_substring(\"python\")",
+        "print(\"Python\" in input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kbjnts",
+      "q": "How can you print the sum of even numbers from 1 to 10?",
+      "options": [
+        "print(sum(range(2, 11, 2)))",
+        "even_sum(1, 10)",
+        "print(even_numbers_sum(1, 10))",
+        "sum_even(range(1, 11))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eepzpm",
+      "q": "How can you prompt the user to enter a floating-point number and round it to the nearest integer?",
+      "options": [
+        "float(input(\"Enter a number: \")).round()",
+        "round(float(input(\"Enter a number: \")))",
+        "int(input(\"Enter a number: \"))",
+        "round_int(input(\"Enter a number: \"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s2kxsf",
+      "q": "How can you read a line of text from the console, remove leading and trailing whitespaces, and convert it to uppercase?",
+      "options": [
+        "text = input().trim().upper()",
+        "text = input().strip().uppercase()",
+        "text = input().strip().upper()",
+        "text = input().trim().uppercase()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o7bqt8",
+      "q": "How can you read a string from the console and reverse it?",
+      "options": [
+        "reverse(input())",
+        "str.reverse(input())",
+        "input()[::-1]",
+        "reverse_string(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s03fis",
+      "q": "How can you print the current date and time in a specific format?",
+      "options": [
+        "print(datetime.now())",
+        "print(now.strftime(\"%Y-%m-%d %H:%M:%S\"))",
+        "print(\"Current date and time:\", datetime.now())",
+        "print(f\"Current date and time: {now}\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8i5ixs",
+      "q": "How can you read multiple lines of text from the console until a specific keyword is entered?",
+      "options": [
+        "read_lines_until_keyword(\"exit\")",
+        "while True: line = input(); if line == \"exit\": break; print(line)",
+        "lines = input(\"Enter text (type 'exit' to stop): \")",
+        "read_text_with_keyword(\"exit\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b0qjko",
+      "q": "How can you print a table of values with aligned columns?",
+      "options": [
+        "print_table(values)",
+        "for value in values: print(f\"{value:",
+        "table_print(values)",
+        "print(f\"{values:"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c5rwm8",
+      "q": "How can you read a list of strings from the console until an empty line is entered?",
+      "options": [
+        "read_strings_until_empty()",
+        "while True: line = input(); if not line: break; strings.append(line)",
+        "input_lines = input(\"Enter lines (empty line to stop): \")",
+        "read_lines_until_empty(\"exit\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xpkm6o",
+      "q": "How can you prompt the user for a yes/no response?",
+      "options": [
+        "response = input(\"Yes or no? (y/n): \")",
+        "response = prompt_yes_no()",
+        "response = get_response([\"yes\", \"no\"])",
+        "response = input_yes_no()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cefdxk",
+      "q": "How can you align text to the center in a Python console output?",
+      "options": [
+        "align_center(\"text\")",
+        "print(\"text\", align=\"center\")",
+        "print(f\"{text:^10}\")",
+        "center_align(\"text\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wwlsyz",
+      "q": "How can you read an integer from the console and check if it is within a specific range?",
+      "options": [
+        "check_range(input())",
+        "number = int(input(\"Enter a number: \")); print(\"Within range\" if 1",
+        "range_check = lambda x: 1",
+        "validate_range(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hm9ler",
+      "q": "How can you print the square of numbers from 1 to 5?",
+      "options": [
+        "for num in range(1, 6): print(num * num)",
+        "print_squares([1, 2, 3, 4, 5])",
+        "squares_print(1, 5)",
+        "print(range(1, 6) ** 2)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7n4s1s",
+      "q": "How can you read a list of comma-separated values from the console and convert them to integers?",
+      "options": [
+        "input().split(',').to_int()",
+        "list(map(int, input().split(',')))",
+        "read_comma_separated_integers()",
+        "convert_to_int(input().split(','))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-180n3as",
+      "q": "How can you remove all occurrences of a specific character from a string?",
+      "options": [
+        "remove_char(string, 'x')",
+        "string = string.replace('x', '')",
+        "string.remove('x')",
+        "remove_occurrences(string, 'x')"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d9ypr4",
+      "q": "How can you check if a string is a valid email address?",
+      "options": [
+        "check_email(str)",
+        "str.isemail()",
+        "validate_email(str)",
+        "re.match(r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$', str)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kt7l64",
+      "q": "How can you print the ASCII values of all characters in a string?",
+      "options": [
+        "for char in string: print(ord(char))",
+        "ascii_print(string)",
+        "print(ascii_values(string))",
+        "print(ascii(string))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dszafs",
+      "q": "How can you read multiple integers from the console and store them in a list?",
+      "options": [
+        "int_list = input().to_list()",
+        "list(map(int, input().split()))",
+        "read_integers_list()",
+        "input().parse_int()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cnxls5",
+      "q": "How can you format a floating-point number with a specific number of decimal places?",
+      "options": [
+        "format_float(number, 2)",
+        "round(number, 2)",
+        "format(number, \".2f\")",
+        "decimal_format(number, 2)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16sb28s",
+      "q": "How can you read a password from the console without echoing characters?",
+      "options": [
+        "password = input(\"Enter password: \")",
+        "password = getpass.getpass(\"Enter password: \")",
+        "password = read_password()",
+        "password = input_password()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uvl2bo",
+      "q": "How can you print the first and last characters of a string?",
+      "options": [
+        "print(\"First:\", string[0], \"Last:\", string[-1])",
+        "print(\"First:\", string.first(), \"Last:\", string.last())",
+        "print(f\"First: {string[0]}, Last: {string[-1]}\")",
+        "print(\"First:\", first_char(string), \"Last:\", last_char(string))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16gv3uk",
+      "q": "How can you read a line of text from the console and capitalize the first letter of each word?",
+      "options": [
+        "capitalize_words(input())",
+        "input().title()",
+        "capitalize_first_letter(input())",
+        "input().capitalize_words()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cbnwu",
+      "q": "How can you print a progress bar in the console using Python?",
+      "options": [
+        "print_progress_bar()",
+        "progressbar.print()",
+        "print(\"\\u2588\" * 10)",
+        "console.print_progress()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13qdh0i",
+      "q": "How can you read a line of text from the console and count the occurrences of each word?",
+      "options": [
+        "word_count(input())",
+        "count_words(input())",
+        "word_occurrences = Counter(input().split())",
+        "input().count_words()"
       ],
       "correct": 0,
       "explain": "",

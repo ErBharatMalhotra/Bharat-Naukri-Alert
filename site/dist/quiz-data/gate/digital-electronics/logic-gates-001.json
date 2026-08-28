@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Logic Gates",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 66,
   "questions": [
     {
-      "id": "gate-t909so",
-      "q": "A truth table illustrates how the input level of a gate responds to all the possible output level combinations.",
+      "id": "gate-1a9zmdk",
+      "q": "A NOR gate and an OR gate operate in exactly the same way.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1vahimh",
-      "q": "A NOR gate output is LOW if any of its inputs is LOW.",
+      "id": "gate-1vo00bs",
+      "q": "An OR array is programmed by blowing fuses to eliminate selected variables from the output functions.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-r5hnz0",
-      "q": "As a rule, CMOS has the lowest power consumption of all IC families.",
+      "id": "gate-rk24m8",
+      "q": "A NAND gate output is LOW only if all the inputs are HIGH.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1uqy7io",
-      "q": "A popular waveform generator is the Johnson shift counter.",
+      "id": "gate-2dy934",
+      "q": "An AND gate output is LOW if all the inputs are HIGH.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-lku4it",
-      "q": "Good troubleshooting is done by looking at the input signal and how it interacts with the circuits.",
+      "id": "gate-16fsdno",
+      "q": "Power is connected to pins 7 and 14 of a 7408 quad two-input AND gate IC to allow voltage for all four AND gates on the IC.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-mu0nq5",
-      "q": "The gates in this figure are implemented using TTL logic. If the input of the inverter is open, and you apply logic pulses to point B, the output of the AND gate will be ________.",
+      "id": "gate-qwkfc",
+      "q": "A logic gate has one or more output terminals and one input terminal.",
       "options": [
-        "a steady LOW",
-        "a steady HIGH",
-        "an undefined level",
-        "pulses"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1073ogl",
-      "q": "The gates in this figure are implemented using TTL logic. If the output of the inverter is open, and you apply logic pulses to point B, the output of the AND gate will be ________.",
+      "id": "gate-1jod0fc",
+      "q": "A logic pulser is used to determine the level of floating in a circuit.",
       "options": [
-        "a steady LOW",
-        "a steady HIGH",
-        "an undefined level",
-        "pulses"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,8 +134,44 @@
       "tags": []
     },
     {
-      "id": "gate-93np7s",
-      "q": "If A is LOW or B is LOW or BOTH are LOW, then X is LOW. If A is HIGH and B is HIGH, then X is HIGH. These rules specify the operation of a(n) ________.",
+      "id": "gate-502qy1",
+      "q": "An inverter output is the complement of its input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x5h4pg",
+      "q": "It is important to memorize logic symbols, Boolean equations, and truth tables for logic gates.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e0facy",
+      "q": "A 2-input gate that can be used to pass a digital waveform unchanged at certain times and inverted at other times is a(n) ________.",
       "options": [
         "AND gate",
         "OR gate",
@@ -158,13 +190,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xabumc",
-      "q": "A major advantage of ECL logic over TTL and CMOS is ________.",
+      "id": "gate-1u0piic",
+      "q": "The gates in this figure are implemented using TTL logic. If the output of the inverter has an internal open circuit, what voltage would you expect to measure at the inverter's output?",
       "options": [
-        "low power dissipation",
-        "high speed",
-        "both low power dissipation and high speed",
-        "neither low power dissipation nor high speed"
+        "Less than 0.4 V",
+        "1.6 V",
+        "Greater than 2.4 V",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +210,13 @@
       "tags": []
     },
     {
-      "id": "gate-m8rwbk",
-      "q": "The output of an XOR gate is HIGH only when ________.",
+      "id": "gate-1utlqdg",
+      "q": "When does the output of a NAND gate = 1?",
       "options": [
-        "both inputs = 0",
-        "both inputs = 1",
-        "the two inputs are unequal",
-        "both inputs are undefined"
+        "Whenever a 0 is present at an input",
+        "Only when all inputs = 0",
+        "Whenever a 1 is present at an input",
+        "Only when all inputs = 1"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +230,53 @@
       "tags": []
     },
     {
-      "id": "gate-13ibsiu",
-      "q": "The output of an OR gate with three inputs, A, B, and C, is LOW when ________.",
+      "id": "gate-6z8vt0",
+      "q": "The number of input combinations for a 4-input gate is ________.",
       "options": [
+        "9",
+        "8",
+        "15",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mtemx0",
+      "q": "When does the output of a NOR gate = 0?",
+      "options": [
+        "Whenever a 0 is present at an input",
+        "Only when all inputs = 0",
+        "Whenever a 1 is present at an input",
+        "Only when all inputs = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pgumpk",
+      "q": "The output of an AND gate with three inputs, A, B, and C, is HIGH when ________.",
+      "options": [
+        "A = 1, B = 1, C = 0",
         "A = 0, B = 0, C = 0",
-        "A = 0, B = 0, C = 1",
-        "A = 0, B = 1, C = 1",
-        "all of the above"
+        "A = 1, B = 1, C = 1",
+        "A = 1, B = 0, C = 1"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +290,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fq8tj8",
-      "q": "Which of the following logical operations is represented by the + sign in Boolean algebra?",
+      "id": "gate-su9v48",
+      "q": "If a 3-input NOR gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
       "options": [
-        "inversion",
-        "AND",
-        "OR",
-        "complementation"
+        "1",
+        "2",
+        "7",
+        "8"
       ],
       "correct": 0,
       "explain": "",
@@ -238,133 +310,503 @@
       "tags": []
     },
     {
-      "id": "gate-1lta4d4",
-      "q": "Output will be a LOW for any case when one or more inputs are zero for a(n):",
+      "id": "gate-33gbz0",
+      "q": "A device used to display one or more digital signals so that they can be compared to expected timing diagrams for the signals is a:",
+      "options": [
+        "DMM",
+        "spectrum analyzer",
+        "logic analyzer",
+        "frequency counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1upa544",
+      "q": "When used with an IC, what does the term \"QUAD\" indicate?",
+      "options": [
+        "2 circuits",
+        "4 circuits",
+        "6 circuits",
+        "8 circuits"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uvzvq8",
+      "q": "TTL operates from a ________.",
+      "options": [
+        "9-volt supply",
+        "3-volt supply",
+        "12-volt supply",
+        "5-volt supply"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dovj2c",
+      "q": "The output of a NOR gate is HIGH if ________.",
+      "options": [
+        "all inputs are HIGH",
+        "any input is HIGH",
+        "any input is LOW",
+        "all inputs are LOW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x8v6rs",
+      "q": "The switching speed of CMOS is now ________.",
+      "options": [
+        "competitive with TTL",
+        "three times that of TTL",
+        "slower than TTL",
+        "twice that of TTL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wew7ce",
+      "q": "The format used to present the logic output for the various combinations of logic inputs to a gate is called a(n):",
+      "options": [
+        "Boolean constant",
+        "Boolean variable",
+        "truth table",
+        "input logic function"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vzrdp0",
+      "q": "The power dissipation, PD, of a logic gate is the product of the ________.",
+      "options": [
+        "dc supply voltage and the peak current",
+        "dc supply voltage and the average supply current",
+        "ac supply voltage and the peak current",
+        "ac supply voltage and the average supply current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6ibloq",
+      "q": "CMOS IC packages are available in ________.",
+      "options": [
+        "DIP configuration",
+        "SOIC configuration",
+        "DIP and SOIC configurations",
+        "neither DIP nor SOIC configurations"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xn4ihm",
+      "q": "Which of the following is not a basic Boolean operation?",
+      "options": [
+        "OR",
+        "NOT",
+        "AND",
+        "FOR"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-134p0lc",
+      "q": "Which of the following gates is described by the expression ?",
+      "options": [
+        "OR",
+        "AND",
+        "NOR",
+        "NAND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h10ck4",
+      "q": "What is the Boolean expression for a four-input OR gate?",
+      "options": [
+        "Y = A + B + C + D",
+        "Y = A&#183; B &#183; C &#183; D",
+        "Y = A &#8211; B &#8211; C &#8211; D",
+        "Y = A $ B $ C $ D"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2kndl4",
+      "q": "An exclusive-NOR gate output is HIGH when the inputs are unequal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s6uhrg",
+      "q": "An OR gate output is HIGH only if all the inputs are HIGH.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qq9pdc",
+      "q": "A waveform can be enabled or disabled by both AND and OR gates.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wfgnr4",
+      "q": "An exclusive-OR gate output is HIGH when the inputs are unequal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14bbdu8",
+      "q": "In a Boolean equation the use of the + symbol represents the OR function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-spiz7k",
+      "q": "A logic probe is again applied to the pins of a 7421 IC with the following results. Is there a problem with the circuit and if so, what is the problem?",
+      "options": [
+        "Pin 6 should be ON.",
+        "Pin 8 should be ON.",
+        "Pin 8 should be pulsing.",
+        "no problem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-so8j6g",
+      "q": "If a 3-input AND gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dmd13w",
+      "q": "The Boolean expression for a 3-input AND gate is ________.",
+      "options": [
+        "X = AB",
+        "X = ABC",
+        "X = A + B + C",
+        "X = AB + C"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ezgjqo",
+      "q": "A CMOS IC operating from a 3-volt supply will consume ________.",
+      "options": [
+        "less power than a TTL IC",
+        "more power than a TTL IC",
+        "the same power as a TTL IC",
+        "no power at all"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m4eb6y",
+      "q": "What does the small bubble on the output of the NAND gate logic symbol mean?",
+      "options": [
+        "open collector output",
+        "tristate",
+        "The output is inverted.",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c403cg",
+      "q": "How many AND gates are found in a 7411 IC?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19m5nyk",
+      "q": "Which of the following equations would accurately describe a four-input OR gate when A = 1, B = 1, C = 0, and D = 0?",
+      "options": [
+        "1 + 1 + 0 + 0 = 01",
+        "1 + 1 + 0 + 0 = 1",
+        "1 + 1 + 0 + 0 = 0",
+        "1 + 1 + 0 + 0 = 00"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k8htfc",
+      "q": "What is the name of a digital circuit that produces several repetitive digital waveforms?",
+      "options": [
+        "an inverter",
+        "an OR gate",
+        "a Johnson shift counter",
+        "an AND gate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q43xli",
+      "q": "The basic types of programmable arrays are made up of ________.",
+      "options": [
+        "AND gates",
+        "OR gates",
+        "NAND and NOR gates",
+        "AND gates and OR gates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bfjbc8",
+      "q": "The logic gate that will have HIGH or \"1\" at its output when any one (or more) of its inputs is HIGH is a(n):",
       "options": [
         "OR gate",
-        "NOT gate",
-        "AND gate",
-        "NOR gate"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xjrdk7",
-      "q": "How many pins does the 4049 IC have?",
-      "options": [
-        "14",
-        "16",
-        "18",
-        "20"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-voc4s9",
-      "q": "Which of the following choices meets the minimum requirement needed to create specialized waveforms that are used in digital control and sequencing circuits?",
-      "options": [
-        "basic gates, a clock oscillator, and a repetitive waveform generator",
-        "basic gates, a clock oscillator, and a Johnson shift counter",
-        "basic gates, a clock oscillator, and a DeMorgan pulse generator",
-        "basic gates, a clock oscillator, a repetitive waveform generator, and a Johnson shift counter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1inn8ow",
-      "q": "How many entries would a truth table for a four-input NAND gate have?",
-      "options": [
-        "2",
-        "8",
-        "16",
-        "32"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nn0yo1",
-      "q": "The Boolean expression for a 3-input OR gate is ________.",
-      "options": [
-        "X = A + B",
-        "X = A + B + C",
-        "X = ABC",
-        "X = A + BC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pv0aur",
-      "q": "From the truth table for a three-input NOR gate, what is the only condition of inputs A, B, and C that will make the output X high?",
-      "options": [
-        "A = 1, B = 1, C = 1",
-        "A = 1, B = 0, C = 0",
-        "A = 0, B = 0, C = 1",
-        "A = 0, B = 0, C = 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Logic Gates",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q2fig7",
-      "q": "The logic gate that will have a LOW output when any one of its inputs is HIGH is the:",
-      "options": [
-        "NAND gate",
         "AND gate",
         "NOR gate",
-        "OR gate"
+        "NOT operation"
       ],
       "correct": 0,
       "explain": "",
@@ -378,13 +820,470 @@
       "tags": []
     },
     {
-      "id": "gate-e3pb3m",
-      "q": "The output of a NAND gate is LOW if ________.",
+      "id": "gate-ckzmzs",
+      "q": "What are the pin numbers of the outputs of the gates in a 7432 IC?",
+      "options": [
+        "3, 6, 10, and 13",
+        "1, 4, 10, and 13",
+        "3, 6, 8, and 11",
+        "1, 4, 8, and 11"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10brypr",
+      "q": "If the input to a NOT gate is A and the output is X, then ________.",
+      "options": [
+        "X = A",
+        "X = 0",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1blhnas",
+      "q": "A logic probe is used to test the pins of a 7411 IC with the following results. Is there a problem with the chip and if so, what is the problem?",
+      "options": [
+        "Pin 6 should be ON.",
+        "Pin 6 should be pulsing.",
+        "Pin 8 should be ON.",
+        "no problem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tc0b8",
+      "q": "How many inputs of a four-input AND gate must be HIGH in order for the output of the logic gate to go HIGH?",
+      "options": [
+        "any one of the inputs",
+        "any two of the inputs",
+        "any three of the inputs",
+        "all four inputs"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qnzim9",
+      "q": "The term \"hex inverter\" refers to:",
+      "options": [
+        "an inverter that has six inputs",
+        "six inverters in a single package",
+        "a six-input symbolic logic device",
+        "an inverter that has a history of failure"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7nwrvk",
+      "q": "How many inputs are on the logic gates of a 74HC21 IC?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bav5xg",
+      "q": "When reading a Boolean expression, what does the word \"NOT\" indicate?",
+      "options": [
+        "the same as",
+        "inversion",
+        "high",
+        "low"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-99ml4c",
+      "q": "The output of an exclusive-NOR gate is HIGH if ________.",
+      "options": [
+        "the inputs are equal",
+        "one input is HIGH, and the other input is LOW",
+        "the inputs are unequal",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gp2crw",
+      "q": "If the output of a three-input AND gate must be a logic LOW, what must the condition of the inputs be?",
+      "options": [
+        "All inputs must be LOW.",
+        "All inputs must be HIGH.",
+        "At least one input must be LOW.",
+        "At least one input must be HIGH."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cwnh7w",
+      "q": "A logic probe is placed on the output of a gate and the display indicator is dim. A pulser is used on each of the input terminals, but the output indication does not change. What is wrong?",
+      "options": [
+        "The dim indication on the logic probe indicates that the supply voltage is probably low.",
+        "The output of the gate appears to be open.",
+        "The dim indication is the result of a bad ground connection on the logic probe.",
+        "The gate is a tristate device."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bqxo04",
+      "q": "What is the Boolean expression for a three-input AND gate?",
+      "options": [
+        "X = A + B + C",
+        "X = A &#183; B &#183; C",
+        "A &#8211; B &#8211; C",
+        "A $ B $ C"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1196970",
+      "q": "What is the circuit number of the IC that contains four two-input AND gates in standard TTL?",
+      "options": [
+        "7402",
+        "7404",
+        "7408",
+        "7432"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g3u3co",
+      "q": "The terms \"low speed\" and \"high speed,\" applied to logic circuits, refer to the ________.",
+      "options": [
+        "rise time",
+        "fall time",
+        "propagation delay time",
+        "clock speed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-76sku0",
+      "q": "The NOR logic gate is the same as the operation of the ________ gate with an inverter connected to the output.",
+      "options": [
+        "OR",
+        "AND",
+        "NAND",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12o8bgj",
+      "q": "With regard to an AND gate, which statement is true?",
+      "options": [
+        "An AND gate has two inputs and one output.",
+        "An AND gate has two or more inputs and two outputs.",
+        "If one input to a 2-input AND gate is HIGH, the output reflects the other input.",
+        "A 2-input AND gate has eight input possibilities."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tbdaft",
+      "q": "What is the difference between a 7400 and a 7411 IC?",
+      "options": [
+        "7400 has two four-input NAND gates; 7411 has three three-input AND gates",
+        "7400 has four two-input NAND gates; 7411 has three three-input AND gates",
+        "7400 has two four-input AND gates; 7411 has three three-input NAND gates",
+        "7400 has four two-input AND gates; 7411 has three three-input NAND gates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rqujy8",
+      "q": "Write the Boolean expression for an inverter logic gate with input C and output Y.",
+      "options": [
+        "Y = C",
+        "Y ="
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q5qcwo",
+      "q": "The output of an exclusive-OR gate is HIGH if ________.",
       "options": [
         "all inputs are LOW",
         "all inputs are HIGH",
-        "any input is LOW",
-        "any input is HIGH"
+        "the inputs are unequal",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s60cuo",
+      "q": "A clock signal with a period of 1 s is applied to the input of an enable gate. The output must contain six pulses. How long must the enable pulse be active?",
+      "options": [
+        "Enable must be active for 0 s.",
+        "Enable must be active for 3 s.",
+        "Enable must be active for 6 s.",
+        "Enable must be active for 12 s."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jz1xok",
+      "q": "One advantage TTL has over CMOS is that TTL is ________.",
+      "options": [
+        "less expensive",
+        "not sensitive to electrostatic discharge",
+        "faster",
+        "more widely available"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v7byjg",
+      "q": "A 2-input NOR gate is equivalent to a ________.",
+      "options": [
+        "negative-OR gate",
+        "negative-AND gate",
+        "negative-NAND gate",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6tt4pw",
+      "q": "If a 3-input OR gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1irsnds",
+      "q": "Fan-out is specified in terms of ________.",
+      "options": [
+        "voltage",
+        "current",
+        "wattage",
+        "unit loads"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-150kmco",
+      "q": "How many input combinations would a truth table have for a six-input AND gate?",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "128"
       ],
       "correct": 0,
       "explain": "",

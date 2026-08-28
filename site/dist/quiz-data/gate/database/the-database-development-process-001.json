@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-40tzzi",
-      "q": "There is one physical schema for each logical schema.",
+      "id": "gate-kfi33g",
+      "q": "A conceptual schema is usually depicted in graphical format using E-R or object-modeling notations.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-rc9wsg",
-      "q": "The most important reason for data architecture is reliability.",
+      "id": "gate-po9s2s",
+      "q": "The physical database design identifies data integrity and security requirements.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-840dy8",
-      "q": "The systems development life cycle cannot be used with database implementation.",
+      "id": "gate-iolx0g",
+      "q": "The longest step of database development is database maintenance.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-a5oyhc",
-      "q": "Enterprise data modeling typically occurs during information systems planning.",
+      "id": "gate-rv544w",
+      "q": "Incremental commitment does not allow a project to be easily redirected or to be terminated.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-14lc4a0",
-      "q": "During logical database design, the conceptual data model is transformed into a logical data model which describes the data in terms of a specific data management technology.",
+      "id": "gate-15yt31g",
+      "q": "There are three stages involved when analyzing the initiation of an information systems project.",
       "options": [
         "True",
         "False"
@@ -98,10 +98,100 @@
       "tags": []
     },
     {
-      "id": "gate-det8lr",
-      "q": "Which of the following database activities determines the entities, attributes, and relationships of data?",
+      "id": "gate-8yvwuc",
+      "q": "One of the most popular systems development life cycle methods is prototyping.",
       "options": [
-        "Conceptual data modeling",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Database Development Process",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dcq200",
+      "q": "The goal of information systems planning is to align information technology with the business strategies of the organization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Database Development Process",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kay8fk",
+      "q": "Functional decomposition is the process of breaking down the functions of an organization into greater levels of detail.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Database Development Process",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-796mkg",
+      "q": "Packaged data models can reduce implementation times and costs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Database Development Process",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kf6i0k",
+      "q": "With an enterprise data model, it is much easier to build applications because you know exactly what data exist and what needs to be added.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Database Development Process",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kqolcn",
+      "q": "Which of the following database activities allow for the actual retrieval and use of a database?",
+      "options": [
+        "Enterprise modeling",
         "Logical database design",
         "Physical database design and definition",
         "Database implementation"
@@ -118,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-r57f1w",
-      "q": "The use of packaged data models can offer which of the following benefits?",
+      "id": "gate-1yu576c",
+      "q": "The three-schema components include all, but:",
       "options": [
-        "Reduce implementation time and costs",
-        "Higher quality models",
-        "Both A and B.",
-        "Neither A nor B."
+        "internal schema.",
+        "conceptual schema.",
+        "programming schema.",
+        "external schema."
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vdf2t4",
-      "q": "The Enterprise tier of the three-tiered database architecture includes:",
+      "id": "gate-6ztx2c",
+      "q": "Which is not a type of data management technology?",
       "options": [
-        "managing the data.",
-        "managing the User-system interface.",
-        "processing HTTP protocol.",
-        "processing scripting tasks."
+        "Relational",
+        "Rational",
+        "Object-oriented",
+        "Dimensional"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-bazswj",
-      "q": "An entity type is which of the following?",
+      "id": "gate-6qzr0o",
+      "q": "Which is not a relevant feature of CASE tools?",
       "options": [
-        "A major category of data about people, place, and things",
-        "The various departments of an organization",
-        "The application software",
-        "The business processes the support the mission of an organization"
+        "The ability to help draw data models using entity-relationship notations",
+        "The ability to generate code",
+        "An information repository",
+        "Access to a DB via the Internet"
       ],
       "correct": 0,
       "explain": "",
@@ -178,113 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-19u8705",
-      "q": "Strategic Planning factors do not include which of the following?",
+      "id": "gate-yxebic",
+      "q": "The first step in database development is which of the following?",
       "options": [
-        "Organizational goals",
-        "Critical success factors",
-        "Information engineering",
-        "Problem areas"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Database Development Process",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13l3big",
-      "q": "CASE tools do not include which of the following features?",
-      "options": [
-        "Help to draw data models",
-        "Help to generate code",
-        "Help to manage people",
-        "Create an information repository"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Database Development Process",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ggi1hr",
-      "q": "In enterprise data modeling, which is incorrect?",
-      "options": [
-        "You review current systems.",
-        "You implement the new database.",
-        "You describe the data needed at a very high level of abstraction.",
-        "You plan one or more database development projects."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Database Development Process",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f6v1so",
-      "q": "Which of the following database activities require a specific knowledge of a DBMS?",
-      "options": [
-        "Enterprise modeling",
-        "Conceptual data modeling",
+        "Enterprise data modeling",
         "Logical database design",
-        "Physical database design and definition"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Database Development Process",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c6ubs0",
-      "q": "User views are included as part of which schema?",
-      "options": [
-        "Internal",
-        "Conceptual",
-        "External",
-        "None of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Database Development Process",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bcicrw",
-      "q": "Whose role is it to determine the requirements and design for a database?",
-      "options": [
-        "Database analysts",
-        "Database administrators",
-        "Both A and B.",
-        "Neither A or B."
+        "Physical database design and definition",
+        "Database Implementation"
       ],
       "correct": 0,
       "explain": "",

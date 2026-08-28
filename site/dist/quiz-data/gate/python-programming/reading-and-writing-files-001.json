@@ -5,15 +5,55 @@
   "subject": "Python Programming",
   "topic": "Reading And Writing Files",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 88,
   "questions": [
     {
-      "id": "gate-1pqsxrs",
-      "q": "What is the purpose of the seek() method when working with files?",
+      "id": "gate-1citxw",
+      "q": "How can you open a file named \"example.txt\" in Python for reading?",
       "options": [
-        "To check if a file exists",
-        "To move the file cursor to a specific position",
+        "open(\"example.txt\", \"w\")",
+        "open(\"example.txt\", \"r\")",
+        "open(\"example.txt\", \"a\")",
+        "open(\"example.txt\", \"x\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4stwm8",
+      "q": "How can you read the entire contents of a file named \"data.txt\" into a string?",
+      "options": [
+        "content = read_file(\"data.txt\")",
+        "content = open(\"data.txt\").read()",
+        "content = file.read(\"data.txt\")",
+        "content = open_file(\"data.txt\", \"r\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cx90fc",
+      "q": "What is the purpose of the write() method when used with a file object?",
+      "options": [
+        "To create a new file",
         "To read the contents of a file",
+        "To write data to a file",
         "To close a file"
       ],
       "correct": 0,
@@ -28,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q4mvz8",
-      "q": "Which of the following modes is used to open a file in Python for both reading and writing?",
+      "id": "gate-w28s6g",
+      "q": "How can you close a file in Python after performing operations on it?",
       "options": [
-        "\"r\"",
-        "\"w\"",
-        "\"a\"",
-        "\"r+\""
+        "file.close()",
+        "close_file(file)",
+        "file.end()",
+        "end_file(file)"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cej95o",
-      "q": "What does the readline() method do in Python when working with files?",
+      "id": "gate-1sshpr0",
+      "q": "In Python, what does the with statement provide when working with files?",
       "options": [
-        "Reads the entire contents of the file",
-        "Reads one line from the file",
-        "Reads the first character of the file",
-        "Reads the last line of the file"
+        "It opens a file in write mode",
+        "It automatically closes the file after operations",
+        "It reads the contents of a file",
+        "It appends data to a file"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1x3fp74",
-      "q": "How can you write a list of strings to a file named \"output.txt\"?",
+      "id": "gate-atjfg0",
+      "q": "In Python, what is the purpose of the tell() method when working with files?",
       "options": [
-        "write_file(\"output.txt\", [\"line1\", \"line2\", \"line3\"])",
-        "file.write([\"line1\", \"line2\", \"line3\"])",
-        "write_lines(\"output.txt\", [\"line1\", \"line2\", \"line3\"])",
-        "with open(\"output.txt\", \"w\") as file: file.writelines([\"line1\", \"line2\", \"line3\"])"
+        "To check if a file is readable",
+        "To get the current position of the file cursor",
+        "To retrieve the total number of characters in a file",
+        "To close a file"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-rp0hy",
-      "q": "How can you check if a file named \"data.txt\" exists in a directory using Python?",
+      "id": "gate-qbiwms",
+      "q": "What happens if you open a file using the mode \"a\"?",
       "options": [
-        "file_exists(\"data.txt\")",
-        "if not exists(\"data.txt\"):",
-        "os.path.exists(\"data.txt\")",
-        "if \"data.txt\" in os.listdir():"
+        "The file is opened for reading",
+        "The file is opened for writing, starting from the beginning",
+        "The file is opened for appending, starting from the end",
+        "The file is opened for both reading and writing"
       ],
       "correct": 0,
       "explain": "",
@@ -108,8 +148,548 @@
       "tags": []
     },
     {
-      "id": "gate-1yubdy9",
-      "q": "What does the file.writelines(lines) method do?",
+      "id": "gate-5mouhw",
+      "q": "How can you read and print the first 3 lines of a file named \"sample.txt\"?",
+      "options": [
+        "lines = open(\"sample.txt\").readlines()[:3] for line in lines: print(line)",
+        "with open(\"sample.txt\", \"r\") as file: for i in range(3): print(file.readline())",
+        "contents = read_lines(\"sample.txt\", 3) print(contents)",
+        "first_three_lines(\"sample.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pjq1to",
+      "q": "What does the flush() method do when working with files?",
+      "options": [
+        "Writes the file contents to the console",
+        "Clears the contents of the file",
+        "Flushes the internal buffer, ensuring data is written to the file",
+        "Closes the file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s5lrms",
+      "q": "How can you copy the contents of one file, \"source.txt\", to another file, \"destination.txt\"?",
+      "options": [
+        "copy_file(\"source.txt\", \"destination.txt\")",
+        "with open(\"destination.txt\", \"w\") as dest: dest.write(open(\"source.txt\").read())",
+        "file_copy(\"source.txt\", \"destination.txt\")",
+        "copy_contents(\"source.txt\", \"destination.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8w6buq",
+      "q": "What does the file.is_closed attribute check for?",
+      "options": [
+        "Checks if the file is open for reading",
+        "Checks if the file is a binary file",
+        "Checks if the file is a text file",
+        "Checks if the file is closed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lr73cw",
+      "q": "How can you read and print the contents of a binary file named \"binary.dat\"?",
+      "options": [
+        "with open(\"binary.dat\", \"rb\") as file: print(file.read())",
+        "print_binary_content(\"binary.dat\")",
+        "with open(\"binary.dat\", \"r\") as file: print(file.read())",
+        "with open(\"binary.dat\", \"rb\") as file: print(file.readlines())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1opaijs",
+      "q": "How can you copy the contents of a text file named \"source.txt\" to another text file named \"destination.txt\"?",
+      "options": [
+        "with open(\"source.txt\", \"r\") as source, open(\"destination.txt\", \"w\") as dest: dest.write(source.read())",
+        "copy_text_file(\"source.txt\", \"destination.txt\")",
+        "shutil.copyfile(\"source.txt\", \"destination.txt\")",
+        "duplicate_content(\"source.txt\", \"destination.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-icgjjg",
+      "q": "What does the file.tell() method return?",
+      "options": [
+        "Returns the file's access mode",
+        "Returns the file's size in bytes",
+        "Returns the file's file descriptor",
+        "Returns the current file cursor position"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cjw5a0",
+      "q": "How can you read and print the first word from each line in a file named \"text.txt\"?",
+      "options": [
+        "with open(\"text.txt\", \"r\") as file: for line in file: print(line.split()[0])",
+        "print_first_words(\"text.txt\")",
+        "with open(\"text.txt\", \"r\") as file: print(file.readline().split()[0])",
+        "with open(\"text.txt\", \"r\") as file: print(file.read(1).split()[0])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-atkho0",
+      "q": "What is the purpose of the os.remove() function?",
+      "options": [
+        "To check if a file exists",
+        "To remove a directory",
+        "To delete a file",
+        "To rename a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eats28",
+      "q": "How can you read and print only the even-numbered lines from a file named \"numbers.txt\"?",
+      "options": [
+        "even_lines = open(\"numbers.txt\").readlines()[1::2] for line in even_lines: print(line)",
+        "with open(\"numbers.txt\", \"r\") as file: lines = file.readlines() for i in range(1, len(lines), 2): print(lines[i])",
+        "even_numbers(\"numbers.txt\")",
+        "read_even(\"numbers.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9i7lc4",
+      "q": "Which method is used to check if a file object is in a valid state?",
+      "options": [
+        "validate()",
+        "check()",
+        "is_valid()",
+        "closed()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1edo9fk",
+      "q": "What is the purpose of the truncate() method when working with files?",
+      "options": [
+        "To remove all contents of the file",
+        "To shorten the file name",
+        "To create a new file",
+        "To split the file into multiple parts"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3wipc",
+      "q": "How can you write a dictionary to a file named \"data.json\" in JSON format?",
+      "options": [
+        "write_json(\"data.json\", {\"key\": \"value\"})",
+        "json.write(\"data.json\", {\"key\": \"value\"})",
+        "with open(\"data.json\", \"w\") as file: json.dump({\"key\": \"value\"}, file)",
+        "file.write_json(\"data.json\", {\"key\": \"value\"})"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t5cpqw",
+      "q": "How can you read and print the last 3 lines from a file named \"data.txt\"?",
+      "options": [
+        "with open(\"data.txt\", \"r\") as file: lines = file.readlines() print(lines[-3:])",
+        "print_last_lines(\"data.txt\", 3)",
+        "with open(\"data.txt\", \"r\") as file: print(file.read(-3))",
+        "with open(\"data.txt\", \"r\") as file: for line in file: print(line[-3:])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gtzc7s",
+      "q": "What does the file.seek() method do?",
+      "options": [
+        "Moves the file cursor to a specified position",
+        "Reads the entire file content",
+        "Closes the file",
+        "Moves the file cursor to the beginning"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rmdp2g",
+      "q": "How can you check if a file named \"output.txt\" is writable?",
+      "options": [
+        "if is_writable(\"output.txt\"):",
+        "if file.can_write(\"output.txt\"):",
+        "if os.access(\"output.txt\", os.W_OK):",
+        "if check_writable(\"output.txt\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r1sjy3",
+      "q": "What is the purpose of the file.mode attribute?",
+      "options": [
+        "Represents the file's modification time",
+        "Represents the file's size in bytes",
+        "Represents the file's access mode (read, write, etc.)",
+        "Represents the file's encoding (character set)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17jn5yo",
+      "q": "How can you write a dictionary to a JSON file named \"data.json\"?",
+      "options": [
+        "with open(\"data.json\", \"w\") as file: json.dump(my_dict, file)",
+        "write_json(\"data.json\", my_dict)",
+        "with open(\"data.json\", \"w\") as file: file.write(json.dumps(my_dict))",
+        "write_to_json(\"data.json\", my_dict)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7v8olg",
+      "q": "What is the purpose of the os.path.join() function in Python when working with file paths?",
+      "options": [
+        "To create a new file",
+        "To concatenate multiple file paths",
+        "To check if a file exists",
+        "To rename a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wr4p9g",
+      "q": "How can you read the content of a binary file named \"binary_data.dat\"?",
+      "options": [
+        "content = open(\"binary_data.dat\").read()",
+        "content = open(\"binary_data.dat\", \"rb\").read()",
+        "content = read_binary(\"binary_data.dat\")",
+        "content = open_binary(\"binary_data.dat\").read()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sdig88",
+      "q": "What is the purpose of the shutil.copy() function?",
+      "options": [
+        "To move a file",
+        "To copy the contents of a file",
+        "To create a new file",
+        "To remove a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rdkz4s",
+      "q": "How can you read and print only the lines containing the word \"Python\" from a file named \"text.txt\"?",
+      "options": [
+        "lines = open(\"text.txt\").readlines() for line in lines: if \"Python\" in line: print(line)",
+        "with open(\"text.txt\", \"r\") as file: for line in file: if \"Python\" in line: print(line)",
+        "print_python_lines(\"text.txt\")",
+        "with open(\"text.txt\", \"r\") as file: print(file.read(\"Python\"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bu387x",
+      "q": "What does the os.path.isfile() function check?",
+      "options": [
+        "Checks if a path exists",
+        "Checks if a file is a binary file",
+        "Checks if a file is empty",
+        "Checks if a path points to a regular file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dngap8",
+      "q": "How can you read and print the first 5 characters from a file named \"sample.txt\"?",
+      "options": [
+        "with open(\"sample.txt\", \"r\") as file: print(file.read(5))",
+        "print_first_characters(\"sample.txt\", 5)",
+        "with open(\"sample.txt\", \"r\") as file: print(file.readline(5))",
+        "with open(\"sample.txt\", \"r\") as file: print(file.read(1, 5))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yb6low",
+      "q": "What does the os.path.abspath() function do?",
+      "options": [
+        "Returns the absolute path of the current working directory",
+        "Returns the relative path of the specified file",
+        "Returns the absolute path of the specified file",
+        "Checks if a file exists in the current directory"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1924jjk",
+      "q": "How can you write a list of strings to a text file named \"output.txt\" in Python, with each string on a new line?",
+      "options": [
+        "with open(\"output.txt\", \"w\") as file: strings = [\"Hello\", \"World\", \"Python\"] file.write(\"\\n\".join(strings))",
+        "write_lines(\"output.txt\", [\"Hello\", \"World\", \"Python\"])",
+        "text.write(\"output.txt\", [\"Hello\", \"World\", \"Python\"])",
+        "with open(\"output.txt\", \"w\") as file: file.writelines([\"Hello\", \"World\", \"Python\"])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ymasw4",
+      "q": "What does the shutil.rmtree() function do?",
+      "options": [
+        "Removes a file",
+        "Removes a directory and its contents",
+        "Renames a directory",
+        "Copies a directory and its contents"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-scixuc",
+      "q": "What does the file.writelines() method do?",
       "options": [
         "Writes a single line to the file",
         "Writes multiple lines to the file from a list",
@@ -128,13 +708,13 @@
       "tags": []
     },
     {
-      "id": "gate-10lz2zo",
-      "q": "How can you read and print the lines containing the word \"error\" from a log file named \"logfile.txt\"?",
+      "id": "gate-1v9kx74",
+      "q": "How can you append the string \"new content\" to an existing file named \"existing_file.txt\"?",
       "options": [
-        "with open(\"logfile.txt\", \"r\") as file: lines = file.readlines() for line in lines: if \"error\" in line.lower(): print(line)",
-        "print_error_lines(\"logfile.txt\")",
-        "with open(\"logfile.txt\", \"r\") as file: print(file.read(\"error\"))",
-        "with open(\"logfile.txt\", \"r\") as file: for line in file: if \"error\".casefold() in line: print(line)"
+        "open(\"existing_file.txt\", \"a\").write(\"new content\")",
+        "open(\"existing_file.txt\", \"w\").write(\"new content\")",
+        "append_content(\"existing_file.txt\", \"new content\")",
+        "with open(\"existing_file.txt\", \"a\") as file: file.append(\"new content\")"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +728,1033 @@
       "tags": []
     },
     {
-      "id": "gate-471bgg",
-      "q": "How can you create a new directory named \"data_folder\" in the current working directory?",
+      "id": "gate-1r0hn4w",
+      "q": "What does the os.path.getsize() function return?",
       "options": [
-        "os.mkdir(\"data_folder\")",
-        "create_directory(\"data_folder\")",
-        "shutil.new_dir(\"data_folder\")",
-        "os.create_folder(\"data_folder\")"
+        "Returns the creation time of a file",
+        "Returns the file extension",
+        "Returns the size of a file in bytes",
+        "Returns the number of lines in a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j9q7ls",
+      "q": "How can you read and print the last 5 lines from a file named \"log.txt\"?",
+      "options": [
+        "with open(\"log.txt\", \"r\") as file: lines = file.readlines() for line in lines[-5:]: print(line)",
+        "last_five_lines(\"log.txt\")",
+        "with open(\"log.txt\", \"r\") as file: print(file.read()[-5:])",
+        "lines = open(\"log.txt\").readlines()[-5:] for line in lines: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vptqvd",
+      "q": "What is the purpose of the os.path.abspath() function?",
+      "options": [
+        "Returns the file's absolute path",
+        "Returns the file's relative path",
+        "Returns the file's base name",
+        "Returns the file's directory name"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ua3zwg",
+      "q": "How can you check if a file named \"data.csv\" is empty?",
+      "options": [
+        "if not is_empty(\"data.csv\"):",
+        "if get_size(\"data.csv\") == 0:",
+        "if file_empty(\"data.csv\"):",
+        "if os.path.getsize(\"data.csv\") == 0:"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tblhe0",
+      "q": "What is the purpose of the file.flush() method?",
+      "options": [
+        "Flushes the internal buffer to the file",
+        "Reads the file content",
+        "Closes the file",
+        "Moves the file cursor to the beginning"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dqqfks",
+      "q": "How can you append the text \"Additional content\" to an existing file named \"existing.txt\"?",
+      "options": [
+        "with open(\"existing.txt\", \"a\") as file: file.write(\"Additional content\")",
+        "append_text(\"existing.txt\", \"Additional content\")",
+        "with open(\"existing.txt\", \"w\") as file: file.append(\"Additional content\")",
+        "with open(\"existing.txt\", \"a\") as file: file.append(\"Additional content\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17tnhc",
+      "q": "What does the file.readline() method do?",
+      "options": [
+        "Reads the entire file content",
+        "Reads a specific line from the file",
+        "Reads the last line of the file",
+        "Reads the next line from the file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11q3asc",
+      "q": "How can you check if a file named \"data.txt\" exists in the current directory?",
+      "options": [
+        "if check_exists(\"data.txt\"):",
+        "if file.exists(\"data.txt\"):",
+        "if os.path.isfile(\"data.txt\"):",
+        "if is_file(\"data.txt\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ir8y74",
+      "q": "What is the purpose of the file.truncate() method?",
+      "options": [
+        "Closes the file",
+        "Removes specified characters from the file",
+        "Changes the file's access mode",
+        "Truncates the file at the current position"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r5dkto",
+      "q": "How can you read and print the first 10 characters from a file named \"sample.txt\"?",
+      "options": [
+        "with open(\"sample.txt\", \"r\") as file: print(file.read(10))",
+        "first_ten_chars(\"sample.txt\")",
+        "with open(\"sample.txt\", \"r\") as file: print(file.readline(10))",
+        "chars = open(\"sample.txt\").read(10) print(chars)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vpe89q",
+      "q": "What is the purpose of the os.rename() function?",
+      "options": [
+        "To remove a file",
+        "To rename a file or directory",
+        "To copy a file",
+        "To check if a file exists"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-djbzao",
+      "q": "How can you read and print only the lines that start with \"Error:\" from a log file named \"logfile.txt\"?",
+      "options": [
+        "lines = open(\"logfile.txt\").readlines() for line in lines: if line.startswith(\"Error:\"): print(line)",
+        "print_error_lines(\"logfile.txt\")",
+        "with open(\"logfile.txt\", \"r\") as file: print(file.read(\"Error:\"))",
+        "with open(\"logfile.txt\", \"r\") as file: for line in file: if \"Error:\" in line: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v7gj8o",
+      "q": "What is the purpose of the shutil.move() function?",
+      "options": [
+        "To move a file or directory to a different location",
+        "To copy the contents of a file",
+        "To remove a file",
+        "To check if a file is empty"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mbs56w",
+      "q": "How can you determine the number of lines in a file named \"data.txt\"?",
+      "options": [
+        "lines = count_lines(\"data.txt\") print(lines)",
+        "with open(\"data.txt\", \"r\") as file: lines = len(file.readlines()) print(lines)",
+        "with open(\"data.txt\", \"r\") as file: lines = file.linecount() print(lines)",
+        "if lines_exist(\"data.txt\"): print(line_count(\"data.txt\"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rhjm0o",
+      "q": "What does the file.encoding attribute represent?",
+      "options": [
+        "Represents the file's access mode",
+        "Represents the file's size in bytes",
+        "Represents the file's encoding (character set)",
+        "Represents the file's creation time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1am1czc",
+      "q": "How can you read and print the lines containing the word \"success\" or \"failure\" from a log file named \"logfile.txt\"?",
+      "options": [
+        "with open(\"logfile.txt\", \"r\") as file: lines = file.readlines() for line in lines: if \"success\" in line.lower() or \"failure\" in line.lower(): print(line)",
+        "print_log_lines(\"logfile.txt\", [\"success\", \"failure\"])",
+        "with open(\"logfile.txt\", \"r\") as file: print(file.read(\"success\" or \"failure\"))",
+        "with open(\"logfile.txt\", \"r\") as file: for line in file: if \"success\".casefold() in line or \"failure\".casefold() in line: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1soul7e",
+      "q": "What does the file.fileno() method return?",
+      "options": [
+        "Returns the file's size in bytes",
+        "Returns the file's access mode",
+        "Returns the file's file descriptor",
+        "Returns the file's encoding"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sj8mrc",
+      "q": "How can you read and print the lines containing only alphabetic characters from a file named \"textfile.txt\"?",
+      "options": [
+        "with open(\"textfile.txt\", \"r\") as file: lines = file.readlines() for line in lines: if line.isalpha(): print(line)",
+        "print_alpha_lines(\"textfile.txt\")",
+        "with open(\"textfile.txt\", \"r\") as file: print(file.read(\"[a-zA-Z]\"))",
+        "with open(\"textfile.txt\", \"r\") as file: for line in file: if line.isalphabetic(): print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1k98ccc",
+      "q": "How can you copy the contents of a file named \"source.txt\" to another file named \"destination.txt\" while preserving the original file's metadata?",
+      "options": [
+        "shutil.copy(\"source.txt\", \"destination.txt\")",
+        "copy_with_metadata(\"source.txt\", \"destination.txt\")",
+        "with open(\"destination.txt\", \"w\") as dest: dest.write(open(\"source.txt\").read()) os.utime(\"destination.txt\", os.path.getatime(\"source.txt\"), os.path.getmtime(\"source.txt\"))",
+        "duplicate_file(\"source.txt\", \"destination.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16vxosg",
+      "q": "What is the purpose of the os.path.isdir() function?",
+      "options": [
+        "Checks if a file exists",
+        "Checks if a path is a regular file",
+        "Checks if a path points to a directory",
+        "Checks if a file is empty"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17c823m",
+      "q": "How can you write a list of dictionaries to a CSV file named \"data.csv\"?",
+      "options": [
+        "write_csv(\"data.csv\", [{\"key1\": \"value1\"}, {\"key2\": \"value2\"}])",
+        "with open(\"data.csv\", \"w\") as file: write_csv(file, [{\"key1\": \"value1\"}, {\"key2\": \"value2\"}])",
+        "csv.write(\"data.csv\", [{\"key1\": \"value1\"}, {\"key2\": \"value2\"}])",
+        "with open(\"data.csv\", \"w\") as file: csv.writer(file).writerow([{\"key1\", \"value1\"}, {\"key2\", \"value2\"}])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o1813g",
+      "q": "How can you create a new directory named \"my_directory\"?",
+      "options": [
+        "os.newdir(\"my_directory\")",
+        "os.create_dir(\"my_directory\")",
+        "os.mkdir(\"my_directory\")",
+        "new_directory(\"my_directory\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ja8lyw",
+      "q": "How can you read and print the lines containing numbers from a file named \"text.txt\"?",
+      "options": [
+        "lines = open(\"text.txt\").readlines() for line in lines: if any(char.isdigit() for char in line): print(line)",
+        "read_numeric_lines(\"text.txt\")",
+        "with open(\"text.txt\", \"r\") as file: print(file.read(\"\\d+\"))",
+        "with open(\"text.txt\", \"r\") as file: for line in file: if line.isdigit(): print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dpmbcy",
+      "q": "What does the file.mode attribute represent?",
+      "options": [
+        "Represents the file's size in bytes",
+        "Represents the file's modification time",
+        "Represents the file's access mode (read, write, etc.)",
+        "Represents the file's creation time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x6jlhl",
+      "q": "How can you read and print the lines containing the word \"error\" (case-insensitive) from a log file named \"error.log\"?",
+      "options": [
+        "with open(\"error.log\", \"r\") as file: lines = file.readlines() for line in lines: if \"error\" in line.lower(): print(line)",
+        "print_error_lines(\"error.log\")",
+        "with open(\"error.log\", \"r\") as file: print(file.read(\"error\"))",
+        "with open(\"error.log\", \"r\") as file: for line in file: if \"error\".casefold() in line: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c87hao",
+      "q": "What does the file.isatty() method check for?",
+      "options": [
+        "Checks if the file is a text file",
+        "Checks if the file is open for reading",
+        "Checks if the file is a binary file",
+        "Checks if the file is connected to a terminal device"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18pprgo",
+      "q": "How can you write a list of tuples to a binary file named \"data.bin\"?",
+      "options": [
+        "with open(\"data.bin\", \"wb\") as file: tuples = [(1, 'a'), (2, 'b'), (3, 'c')] file.write(pickle.dumps(tuples))",
+        "binary_write(\"data.bin\", [(1, 'a'), (2, 'b'), (3, 'c')])",
+        "with open(\"data.bin\", \"ab\") as file: tuples = [(1, 'a'), (2, 'b'), (3, 'c')] file.write(tuples)",
+        "write_binary(\"data.bin\", [(1, 'a'), (2, 'b'), (3, 'c')])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-py9tv8",
+      "q": "How can you check if a file named \"output.txt\" is empty?",
+      "options": [
+        "if is_empty(\"output.txt\"):",
+        "if os.path.getsize(\"output.txt\") == 0:",
+        "if file.isempty(\"output.txt\"):",
+        "if check_empty(\"output.txt\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1maea1k",
+      "q": "What is the purpose of the os.path.basename() function?",
+      "options": [
+        "Returns the base name of a file or directory",
+        "Returns the absolute path of a file",
+        "Checks if a path is a regular file",
+        "Deletes a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yyqohc",
+      "q": "How can you read and print only the lines longer than 20 characters from a file named \"data.txt\"?",
+      "options": [
+        "with open(\"data.txt\", \"r\") as file: lines = file.readlines() for line in lines: if len(line) > 20: print(line)",
+        "print_long_lines(\"data.txt\", 20)",
+        "with open(\"data.txt\", \"r\") as file: print(file.read(20))",
+        "lines = open(\"data.txt\").readlines() for line in lines: if line.length() > 20: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5oxzh0",
+      "q": "How can you copy a file named \"source.txt\" to a new location and rename it as \"destination.txt\"?",
+      "options": [
+        "copy_file(\"source.txt\", \"destination.txt\")",
+        "shutil.copy(\"source.txt\", \"destination.txt\")",
+        "with open(\"destination.txt\", \"w\") as dest: dest.write(open(\"source.txt\").read())",
+        "rename_file(\"source.txt\", \"destination.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q20g30",
+      "q": "How can you check if a file named \"config.ini\" exists?",
+      "options": [
+        "if isfile(\"config.ini\"):",
+        "if exists(\"config.ini\"):",
+        "if file_exists(\"config.ini\"):",
+        "if os.path.file_exists(\"config.ini\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dq4ldw",
+      "q": "What is the purpose of the file.readable() method?",
+      "options": [
+        "Checks if the file is open for reading",
+        "Reads the file content",
+        "Checks if the file is a readable text file",
+        "Reads the file in binary mode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wnu79k",
+      "q": "How can you read and print the lines containing the word \"Python\" in a case-insensitive manner from a file named \"code.txt\"?",
+      "options": [
+        "with open(\"code.txt\", \"r\") as file: lines = file.readlines() for line in lines: if \"Python\" in line.lower(): print(line)",
+        "print_python_lines(\"code.txt\")",
+        "with open(\"code.txt\", \"r\") as file: print(file.read(\"Python\"))",
+        "with open(\"code.txt\", \"r\") as file: for line in file: if \"Python\".casefold() in line: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uhtcrr",
+      "q": "What does the shutil.copy2() function do?",
+      "options": [
+        "Copies a file and preserves its metadata",
+        "Copies a file and renames it",
+        "Moves a file to a different directory",
+        "Copies a directory and its contents"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1q61odw",
+      "q": "How can you read and print the lines containing at least three digits from a file named \"text.txt\"?",
+      "options": [
+        "with open(\"text.txt\", \"r\") as file: lines = file.readlines() for line in lines: if sum(c.isdigit() for c in line) >= 3: print(line)",
+        "print_lines_with_digits(\"text.txt\", 3)",
+        "with open(\"text.txt\", \"r\") as file: print(file.read(\"\\d{3,}\"))",
+        "with open(\"text.txt\", \"r\") as file: for line in file: if line.count('\\d') >= 3: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kyarmc",
+      "q": "How can you read and print the lines that end with \"!\" from a file named \"text.txt\"?",
+      "options": [
+        "with open(\"text.txt\", \"r\") as file: lines = file.readlines() for line in lines: if line.endswith(\"!\"): print(line)",
+        "print_lines_with_end(\"text.txt\", \"!\")",
+        "with open(\"text.txt\", \"r\") as file: print(file.read(\"!\"))",
+        "lines = open(\"text.txt\").readlines() for line in lines: if line.end() == \"!\": print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vysuzg",
+      "q": "What does the os.path.getctime() function return?",
+      "options": [
+        "Returns the file's creation time",
+        "Returns the file's size in bytes",
+        "Returns the file's absolute path",
+        "Returns the file's modification time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13qobvc",
+      "q": "How can you check if a file named \"data.xml\" is a valid XML file?",
+      "options": [
+        "if is_valid_xml(\"data.xml\"):",
+        "if is_xml_file(\"data.xml\"):",
+        "if validate_xml(\"data.xml\"):",
+        "if os.path.isxml(\"data.xml\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ah0i3c",
+      "q": "How can you read and print the lines containing both \"Python\" and \"programming\" from a file named \"code.txt\"?",
+      "options": [
+        "with open(\"code.txt\", \"r\") as file: lines = file.readlines() for line in lines: if \"Python\" in line and \"programming\" in line: print(line)",
+        "print_python_programming_lines(\"code.txt\")",
+        "with open(\"code.txt\", \"r\") as file: print(file.read(\"Python programming\"))",
+        "with open(\"code.txt\", \"r\") as file: for line in file: if \"Python\" in line: print(line) elif \"programming\" in line: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-105uwa8",
+      "q": "How can you read and print the last 10 lines from a file named \"log.txt\"?",
+      "options": [
+        "with open(\"log.txt\", \"r\") as file: lines = file.readlines() for line in lines[-10:]: print(line)",
+        "print_last_lines(\"log.txt\", 10)",
+        "with open(\"log.txt\", \"r\") as file: print(file.tail(10))",
+        "with open(\"log.txt\", \"r\") as file: for line in file: if line.number() > len(file) - 10: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f74tik",
+      "q": "What is the purpose of the file.writelines() method?",
+      "options": [
+        "Writes a list of strings to a file",
+        "Writes the buffered data to the file",
+        "Writes a list of dictionaries to a file",
+        "Writes a list of numbers to a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5cwogc",
+      "q": "How can you create a new text file named \"new_file.txt\" and write the text \"Hello, World!\" to it?",
+      "options": [
+        "new_file(\"new_file.txt\", \"Hello, World!\")",
+        "with open(\"new_file.txt\", \"w\") as file: write_text(file, \"Hello, World!\")",
+        "text.write(\"new_file.txt\", \"Hello, World!\")",
+        "with open(\"new_file.txt\", \"w\") as file: file.write(\"Hello, World!\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zf7atk",
+      "q": "How can you check if a file named \"data.csv\" is a valid CSV file?",
+      "options": [
+        "if is_valid_csv(\"data.csv\"):",
+        "if is_csv_file(\"data.csv\"):",
+        "if validate_csv(\"data.csv\"):",
+        "if os.path.iscsv(\"data.csv\"):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s1f8ll",
+      "q": "How can you append a list of numbers to a binary file named \"data.bin\"?",
+      "options": [
+        "with open(\"data.bin\", \"wb\") as file: numbers = [1, 2, 3, 4, 5] file.write(bytes(numbers))",
+        "append_binary(\"data.bin\", [1, 2, 3, 4, 5])",
+        "with open(\"data.bin\", \"ab\") as file: numbers = [1, 2, 3, 4, 5] file.write(numbers)",
+        "binary_append(\"data.bin\", [1, 2, 3, 4, 5])"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hxegck",
+      "q": "What does the os.path.splitext() function return?",
+      "options": [
+        "Returns the file's extension",
+        "Returns the file's base name",
+        "Returns the file's absolute path",
+        "Returns the file's creation time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1af9g7k",
+      "q": "How can you read and print the lines from a file named \"book.txt\" in reverse order?",
+      "options": [
+        "with open(\"book.txt\", \"r\") as file: lines = file.readlines() for line in reversed(lines): print(line)",
+        "print_reverse_lines(\"book.txt\")",
+        "with open(\"book.txt\", \"r\") as file: print(file.read()[::-1])",
+        "with open(\"book.txt\", \"r\") as file: lines = file.readlines() for line in lines.reverse(): print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9f4cmw",
+      "q": "How can you copy the contents of a file named \"source.txt\" to another file named \"destination.txt\"?",
+      "options": [
+        "shutil.move(\"source.txt\", \"destination.txt\")",
+        "copy_file(\"source.txt\", \"destination.txt\")",
+        "with open(\"destination.txt\", \"w\") as dest: dest.write(open(\"source.txt\").read())",
+        "rename_file(\"source.txt\", \"destination.txt\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kpvm9g",
+      "q": "What does the os.path.join() function do?",
+      "options": [
+        "Joins two paths into a single path",
+        "Checks if a path is a regular file",
+        "Returns the base name of a file or directory",
+        "Moves a file to a different directory"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vfw5s",
+      "q": "How can you read and print the lines with odd line numbers from a file named \"numbers.txt\"?",
+      "options": [
+        "with open(\"numbers.txt\", \"r\") as file: lines = file.readlines() for i in range(len(lines)): if i % 2 != 0: print(lines[i])",
+        "print_odd_lines(\"numbers.txt\")",
+        "with open(\"numbers.txt\", \"r\") as file: print(file.read(2))",
+        "with open(\"numbers.txt\", \"r\") as file: for line in file: if line.number() % 2 != 0: print(line)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-khosfy",
+      "q": "How can you write a dictionary to a JSON file named \"config.json\"?",
+      "options": [
+        "write_json(\"config.json\", {\"key\": \"value\"})",
+        "with open(\"config.json\", \"w\") as file: write_json(file, {\"key\": \"value\"})",
+        "json.write(\"config.json\", {\"key\": \"value\"})",
+        "with open(\"config.json\", \"w\") as file: json.dump({\"key\": \"value\"}, file)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Reading And Writing Files",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1syc95c",
+      "q": "How can you remove a file named \"data.txt\"?",
+      "options": [
+        "remove_file(\"data.txt\")",
+        "os.remove(\"data.txt\")",
+        "delete_file(\"data.txt\")",
+        "file.delete(\"data.txt\")"
       ],
       "correct": 0,
       "explain": "",

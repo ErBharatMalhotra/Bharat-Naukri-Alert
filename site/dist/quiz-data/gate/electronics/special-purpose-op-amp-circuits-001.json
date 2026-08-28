@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Special Purpose Op Amp Circuits",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-125s3yk",
-      "q": "Typical isolation amplifiers use optical coupling.",
+      "id": "gate-wxs6sj",
+      "q": "Isolation amps are named as such because they are sealed for protection from outside environmental damage.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1bnyy2q",
-      "q": "OTA stands for Operational Transistor Amplifier.",
+      "id": "gate-1jcl0h8",
+      "q": "To construct an instrumentation amplifier, two op-amps and seven resistors are needed.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1afph64",
-      "q": "An isolation amplifier provides ac isolation between input and output.",
+      "id": "gate-wmnedc",
+      "q": "Clampers are often called peak detectors.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-bsdzz5",
-      "q": "The main purpose of an instrumentation amplifier is to amplify small signals riding on large common-mode voltages.",
+      "id": "gate-5hb6kw",
+      "q": "An OTA is primarily a current-to-voltage amplifier.",
       "options": [
         "True",
         "False"
@@ -80,11 +80,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kmavye",
-      "q": "One of the principal areas of application for an isolation amplifier is power plant instrumentation.",
+      "id": "gate-16xkldj",
+      "q": "The gain of an OTA is the ratio of the output current to the input voltage, and is measured in _____________.",
       "options": [
-        "True",
-        "False"
+        "amps",
+        "volts",
+        "siemens",
+        "no units"
       ],
       "correct": 0,
       "explain": "",
@@ -98,13 +100,13 @@
       "tags": []
     },
     {
-      "id": "gate-1k3icxo",
-      "q": "The basic instrumentation amplifier has ________ input(s).",
+      "id": "gate-ppjqr8",
+      "q": "An instrumentation amplifier has extremely high ________, good ________, and high ________.",
       "options": [
-        "1",
-        "2",
-        "capacitive",
-        "resistive"
+        "input impedance, common-mode rejection, gain",
+        "noise factor, grounding, power",
+        "working voltages, current capacity, output impedance",
+        "output gain, output loading, power"
       ],
       "correct": 0,
       "explain": "",
@@ -118,72 +120,12 @@
       "tags": []
     },
     {
-      "id": "gate-150rntk",
-      "q": "A Schmitt trigger has _________.",
+      "id": "gate-1frueno",
+      "q": "The external resistor of a typical instrumentation amplifier is used to set the ________.",
       "options": [
-        "no trigger points",
-        "one trigger point",
-        "two trigger points",
-        "three trigger points"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Special Purpose Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14voaew",
-      "q": "A Schmitt trigger is a comparator with _______.",
-      "options": [
-        "modulation",
-        "a closed-loop gain less than one",
-        "hysteresis",
-        "a high threshold value"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Special Purpose Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vdd2o5",
-      "q": "The precision rectifier circuit is designed to _________.",
-      "options": [
-        "rectify waveforms with very large voltage swings",
-        "rectify waveforms with very small voltage swings",
-        "rectify precision waveforms",
-        "amplify and rectify waveforms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Special Purpose Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yvk21d",
-      "q": "A(n) ________ amplifier is used if the application requires a high sensitivity to low-level signals and protection from high-voltage associated circuits.",
-      "options": [
-        "basic instrumentation",
-        "operational transconductance",
-        "log/antilog amplifier",
+        "impedance",
+        "rejection ratio",
+        "gain",
         "isolation"
       ],
       "correct": 0,
@@ -198,13 +140,13 @@
       "tags": []
     },
     {
-      "id": "gate-ucq5cx",
-      "q": "The primary function of the oscillator in an isolation amplifier is to",
+      "id": "gate-1ygjrc4",
+      "q": "If an operational transconductance amplifier (OTA) is used as an amplitude modulator, the voltage gain is varied by applying a _________ voltage to the ______ input.",
       "options": [
-        "convert dc to high-frequency ac",
-        "convert dc to low-frequency ac",
-        "rectify high-frequency ac to dc",
-        "produce dual-polarity dc voltages for the input to the demodulator"
+        "demodulation, bias",
+        "modulation, bias",
+        "bias, modulation",
+        "low-frequency, bias"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +160,13 @@
       "tags": []
     },
     {
-      "id": "gate-1m41ozc",
-      "q": "Refer to Figure 20-2. This circuit is a setup for",
+      "id": "gate-zqvebg",
+      "q": "The ________ amplifier is ideal for amplitude modulation since its gain is current-controlled.",
       "options": [
-        "an antilog amplifier",
-        "a constant-current source",
-        "an instrumentation amplifier",
-        "an isolation amplifier"
+        "log",
+        "operational transconductance",
+        "isolation",
+        "Schmitt"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +180,13 @@
       "tags": []
     },
     {
-      "id": "gate-150w3jc",
-      "q": "An instrumentation amplifier has a high",
+      "id": "gate-115hpyj",
+      "q": "A voltage-to-current converter is used in applications where it's necessary to have an output load current that is controlled by _________.",
       "options": [
-        "output impedance",
-        "power gain",
-        "CMRR",
-        "supply voltage"
+        "input frequency",
+        "output resistance",
+        "input voltage",
+        "input resistance"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +200,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jyx5pi",
-      "q": "This circuit is a setup for",
+      "id": "gate-1ja94q4",
+      "q": "Which circuit is known as a current-to-voltage converter?",
       "options": [
-        "an antilog amplifier",
-        "a constant-current source",
-        "an instrumentation amplifier",
-        "an isolation amplifier"
+        "a",
+        "b",
+        "c",
+        "d"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +220,13 @@
       "tags": []
     },
     {
-      "id": "gate-patw0k",
-      "q": "Circuits that shift the dc level of a signal are called",
+      "id": "gate-k3448",
+      "q": "When using an OTA in a Schmitt-trigger configuration, the trigger points are controlled by",
       "options": [
-        "limiters",
-        "clampers",
-        "peak detectors",
-        "dc converters"
+        "the Iout",
+        "the IBIAS",
+        "the Vout",
+        "both Iout and IBIAS"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +240,33 @@
       "tags": []
     },
     {
-      "id": "gate-rjo5e0",
-      "q": "In the classic three-op-amp instrumentation amplifier, the differential voltage gain is usually produced by the",
+      "id": "gate-t7lkdw",
+      "q": "Refer the given circuits. Which circuit is known as an OTA?",
       "options": [
-        "first stage",
-        "second stage",
-        "mismatched resistors",
-        "output op-amp"
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Special Purpose Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15bmkwo",
+      "q": "Which circuit is known as a voltage-to-current converter?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
       ],
       "correct": 0,
       "explain": "",

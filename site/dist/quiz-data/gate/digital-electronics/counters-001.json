@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Counters",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-iz0vb4",
-      "q": "Bidirectional shift registers can shift data either right or left.",
+      "id": "gate-1qolado",
+      "q": "To cascade is to connect in parallel.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1a0p1yd",
-      "q": "In many cases, counters must be strobed in order to eliminate glitches.",
+      "id": "gate-f5e32o",
+      "q": "Cascade means to connect the Q output of one flip-flop to the clock input of the next.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-4vxk65",
-      "q": "A state diagram is a table of states.",
+      "id": "gate-1ns9je4",
+      "q": "In a synchronous counter, each state is clocked by the same pulse.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-y8rwwo",
-      "q": "The MOD number of a Johnson counter will always be equal to one-half the number of flip-flops in the counter.",
+      "id": "gate-jdn71c",
+      "q": "Basic counters can be cascaded in parallel to increase the number of data bits that the counter can handle.",
       "options": [
         "True",
         "False"
@@ -80,13 +80,772 @@
       "tags": []
     },
     {
-      "id": "gate-vx9l7g",
-      "q": "A reliable method for eliminating decoder spikes is the technique called ________.",
+      "id": "gate-11d7ynh",
+      "q": "In a 74192 BCD decade up-/down-counter, the terminal count up and the terminal count down are active-LOW.",
       "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5ggnr7",
+      "q": "To design a divide-by-200 counter using synchronous counters, two 4-bit counters could be cascaded together to form an 8-bit counter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i5tbxo",
+      "q": "When a J-K flip-flop is used in a circuit, we only have to consider the level at J and K at the active clock edge to know the states of the outputs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sy6632",
+      "q": "It is a characteristic of ring counters that the ________ equal to the number of flip-flops in the register.",
+      "options": [
+        "number of invalid states is",
+        "number of CASE statements is",
+        "modulus is",
+        "other states are"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9ssq24",
+      "q": "Many parallel counters use ________ presetting whereby the counter is preset on the active transition of the same clock signal that is used for counting.",
+      "options": [
+        "feedback",
+        "synchronous",
+        "ripple",
+        "asynchronous"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ioa5ug",
+      "q": "A D flip-flop can be made to toggle by ________.",
+      "options": [
+        "connecting to Q to D",
+        "connecting to Q to D",
+        "connecting D low",
+        "connecting D high"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zcveu0",
+      "q": "The given circuit represents a(n) ________.",
+      "options": [
+        "four-bit binary counter",
+        "asynchronous BCD decade counter",
+        "synchronous BCD decade counter",
+        "BCD-to-decimal decoder"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tu1n6n",
+      "q": "The circuit shown below is a ________.",
+      "options": [
+        "Johnson counter",
+        "ring counter",
+        "decade counter",
+        "BCD counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fk0uw8",
+      "q": "The counter circuit and associated waveforms shown below are for a(n) ________ counter, and the correct output waveform for QB is shown by waveform ________.",
+      "options": [
+        "synchronous, a",
+        "asynchronous, b",
+        "synchronous, c",
+        "asynchronous, d"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tvzjtq",
+      "q": "The given circuit is a(n) ________.",
+      "options": [
+        "three-bit synchronous binary counter",
+        "eight-bit asynchronous binary flip-flop",
+        "two-bit asynchronous binary counter",
+        "four-bit asynchronous binary counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ae0wzq",
+      "q": "How many flip-flops are required to make a MOD-32 binary counter?",
+      "options": [
+        "3",
+        "45",
+        "5",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gde2sw",
+      "q": "Using four cascaded counters with a total of 16 bits, how many states must be deleted to achieve a modulus of 50,000?",
+      "options": [
+        "50,000",
+        "65,536",
+        "25,536",
+        "15,536"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1abyi9p",
+      "q": "A MOD-16 ripple counter is holding the count 10012. What will the count be after 31 clock pulses?",
+      "options": [
+        "10002",
+        "10102",
+        "10112",
+        "11012"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kpqlko",
+      "q": "The terminal count of a modulus-11 binary counter is ________.",
+      "options": [
+        "1010",
+        "1000",
+        "1001",
+        "1100"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rs8oyg",
+      "q": "List which pins need to be connected together on a 7493 to make a MOD-12 counter.",
+      "options": [
+        "12 to 1, 11 to 3, 9 to 2",
+        "12 to 1, 11 to 3, 12 to 2",
+        "12 to 1, 11 to 3, 8 to 2",
+        "12 to 1, 11 to 3, 1 to 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uykt5q",
+      "q": "What is the difference between a 7490 and a 7492?",
+      "options": [
+        "7490 is a MOD-12, 7492 is a MOD-10",
+        "7490 is a MOD-12, 7492 is a MOD-16",
+        "7490 is a MOD-16, 7492 is a MOD-10",
+        "7490 is a MOD-10, 7492 is a MOD-12"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4d9eo",
+      "q": "What type of register is shown below?",
+      "options": [
+        "Parallel in/parallel out register",
+        "Serial in/parallel out register",
+        "Serial/parallel-in parallel-out register",
+        "Parallel-access shift register"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2w20n0",
+      "q": "A MOD-12 and a MOD-10 counter are cascaded. Determine the output frequency if the input clock frequency is 60 MHz.",
+      "options": [
+        "500 kHz",
+        "1,500 kHz",
+        "6 MHz",
+        "5 MHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bace9i",
+      "q": "Which segments of a seven-segment display would be required to be active to display the decimal digit 2?",
+      "options": [
+        "a, b, d, e, and g",
+        "a, b, c, d, and g",
+        "a, c, d, f, and g",
+        "a, b, c, d, e, and f"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12iqyaa",
+      "q": "What is meant by parallel load of a counter?",
+      "options": [
+        "Each FF is loaded with data on a separate clock.",
+        "The counter is cleared.",
+        "All FFs are preset with data."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ttmuuo",
+      "q": "Which of the following is an example of a counter with a truncated modulus?",
+      "options": [
+        "8",
+        "13",
+        "16",
+        "32"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-avwqx2",
+      "q": "Which of the following is a type of shift register counter?",
+      "options": [
+        "Decade",
+        "Binary",
+        "Ring",
+        "BCD"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vzqtfs",
+      "q": "MOD-6 and MOD-12 counters and multiples are most commonly used as:",
+      "options": [
+        "frequency counters",
+        "multiplexed displays",
+        "digital clocks",
+        "power consumption meters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1k8yj0m",
+      "q": "Which of the following is an invalid state in an 8421 BCD counter?",
+      "options": [
+        "0011",
+        "1001",
+        "1000",
+        "1100"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gqcd8w",
+      "q": "Dependency notation is no longer used.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oh4u3i",
+      "q": "Generally speaking, the synchronous counter requires more circuitry than an asynchronous counter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12d3o18",
+      "q": "Another term used to describe up/down counters is bidirectional.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xgyvpc",
+      "q": "When implementing a complete system application using IC counter chips, output devices such as LED indicators must be configured to operate from the counter outputs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e66dh0",
+      "q": "Counters are generally decoded in order to determine their count state.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fsod6b",
+      "q": "Phototransistors have varying resistance from collector to emitter, depending on how much light strikes them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qns628",
+      "q": "Most sequential circuits contain a combinational logic section and a memory section.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sa7hob",
+      "q": "A(n) ________ one-shot starts a pulse in response to a trigger and will restart the internal pulse timer every time a subsequent trigger edge occurs before the pulse is complete.",
+      "options": [
+        "non-retriggerable",
+        "retriggerable",
+        "high-level triggered",
+        "edge-triggered"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14ilkkc",
+      "q": "Assume you want to determine the timing diagram for a 4-bit counter using an oscilloscope. The best choice for an oscilloscope trigger signal is ________.",
+      "options": [
+        "the most significant bit (MSB)",
+        "the least significant bit (LSB)",
+        "the clock signal",
+        "from a composite of the MSB and LSB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eaio7o",
+      "q": "Referring to the function table given below, taking the CLEAR, S1, and S0 inputs all HIGH ________.",
+      "options": [
+        "will inhibit the operation of the register",
+        "will reset the parallel registers and inhibit the serial data inputs",
+        "will cause the parallel data inputs to be loaded and passed to the parallel data outputs",
+        "will depend on what values are loaded into the parallel data inputs"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5r29ec",
+      "q": "Assume a 4-bit ripple counter has a failure in the second flip-flop such that it \"locks up.\" The third and fourth stages will ________.",
+      "options": [
+        "continue to count with correct outputs",
+        "continue to count but have incorrect outputs",
+        "stop counting",
+        "turn into molten silicon"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bdluto",
+      "q": "A BCD counter has ________ states.",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dqop1s",
+      "q": "The decimal equivalent of the largest number that can be stored in a 4-bit binary counter is ________.",
+      "options": [
+        "8",
+        "15",
+        "16",
+        "32"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mniql6",
+      "q": "The minimum number of flip-flops that can be used to construct a modulus-5 counter is ________.",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a38geg",
+      "q": "The duty cycle of the most significant bit from a 4-bit (0&#8211;9) BCD counter is ________.",
+      "options": [
+        "10%",
+        "20%",
+        "50%",
+        "80%"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bwdmqf",
+      "q": "Shift-register counters use ________, which means that the output of the last FF in the register is connected back to the first FF in some way.",
+      "options": [
+        "MOD",
+        "feedback",
         "strobing",
-        "feeding",
-        "wagging",
-        "waving"
+        "switchbacks"
       ],
       "correct": 0,
       "explain": "",
@@ -100,13 +859,93 @@
       "tags": []
     },
     {
-      "id": "gate-xin9gw",
-      "q": "A decade counter will count through decimal ________.",
+      "id": "gate-1bs3zu8",
+      "q": "How many AND gates would be required to completely decode ALL the states of a MOD-64 counter, and how many inputs must each AND gate have?",
+      "options": [
+        "128 gates, 6 inputs to each gate",
+        "64 gates, 5 inputs to each gate",
+        "64 gates, 6 inputs to each gate",
+        "128 gates, 5 inputs to each gate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o5tqz4",
+      "q": "What decimal value is required to produce an output at \"X\" ?",
+      "options": [
+        "1",
+        "1 or 4",
+        "2",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iufbko",
+      "q": "A BCD counter is a ________.",
+      "options": [
+        "binary counter",
+        "full-modulus counter",
+        "decade counter",
+        "divide-by-10 counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gs4a8w",
+      "q": "The circuit given below has no output on Q1 when examined with an oscilloscope. All J-K inputs are HIGH, the CLK signal is present, and the Q0 is toggling. The C input of FF1 is a constant LOW. What could be causing the problem?",
+      "options": [
+        "The Q0 output should be connected to the J input of FF1.",
+        "The output of FF0 may be shorted to ground.",
+        "The input of FF1 may be shorted to ground.",
+        "Either the output of FF0 or the input of FF1 may be shorted to ground."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eh2eu0",
+      "q": "How many flip-flops are required to construct a decade counter?",
       "options": [
         "10",
-        "9",
-        "15",
-        "0"
+        "8",
+        "5",
+        "4"
       ],
       "correct": 0,
       "explain": "",
@@ -120,13 +959,13 @@
       "tags": []
     },
     {
-      "id": "gate-xkiqgw",
-      "q": "One method of troubleshooting involves ________ the circuit under test with a ________ or ________ and then observing the output to check for proper bit patterns.",
+      "id": "gate-1ejjqm8",
+      "q": "A 22-MHz clock signal is put into a MOD-16 counter. What is the frequency of the Q output of each stage of the counter?",
       "options": [
-        "checking, voltmeter, ohmmeter",
-        "exercising, stimulus, test pattern",
-        "testing, scope, logic analyzer",
-        "smashing, hammer, axe"
+        "Q1&nbsp;=&nbsp;22 MHz, Q2&nbsp;=&nbsp;11 MHz, Q3&nbsp;=&nbsp;5.5 MHz, Q4&nbsp;=&nbsp;2.75 MHz",
+        "Q1&nbsp;=&nbsp;11 MHz, Q2&nbsp;=&nbsp;5.5 MHz, Q3&nbsp;=&nbsp;2.75 MHz, Q4&nbsp;=&nbsp;1.375 MHz",
+        "Q1&nbsp;=&nbsp;11 MHz, Q2&nbsp;=&nbsp;11 MHz, Q3&nbsp;=&nbsp;11 MHz, Q4&nbsp;=&nbsp;11 MHz",
+        "Q1&nbsp;=&nbsp;22 MHz, Q2&nbsp;=&nbsp;22 MHz, Q3&nbsp;=&nbsp;22 MHz, Q4&nbsp;=&nbsp;22 MHz"
       ],
       "correct": 0,
       "explain": "",
@@ -140,13 +979,13 @@
       "tags": []
     },
     {
-      "id": "gate-12a0jg",
-      "q": "In VHDL, if we need to remember a value it must be stored in a ________.",
+      "id": "gate-1z022ek",
+      "q": "The designation means that the ________.",
       "options": [
-        "function",
-        "type declaration",
-        "variable",
-        "process"
+        "up count is active-HIGH, the down count is active-LOW",
+        "up count is active-LOW, the down count is active-HIGH",
+        "up and down counts are both active-LOW",
+        "up and down counts are both active-HIGH"
       ],
       "correct": 0,
       "explain": "",
@@ -160,12 +999,312 @@
       "tags": []
     },
     {
-      "id": "gate-1hudf94",
-      "q": "A glitch that appears on the decoded output of a ripple counter is often difficult to see on an oscilloscope because ________.",
+      "id": "gate-uaphwd",
+      "q": "What type of device is shown below?",
       "options": [
-        "it is a random event",
-        "it occurs less frequently than the normal decoded output",
-        "it is very fast",
+        "4-bit bidirectional universal shift register",
+        "Parallel in/parallel out shift register with bidirectional data flow",
+        "2-way parallel in/serial out bidirectional register",
+        "2-bit serial in/4-bit parallel out bidirectional shift register"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kok0b4",
+      "q": "Why can a synchronous counter operate at a higher frequency than a ripple counter?",
+      "options": [
+        "The flip-flops change one after the other.",
+        "The flip-flops change at the same time.",
+        "A synchronous counter cannot operate at higher frequencies.",
+        "A ripple counter is faster."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rgvmt4",
+      "q": "A multiplexed display being driven by a logic circuit:",
+      "options": [
+        "accepts data inputs from one line and passes this data to multiple output lines",
+        "accepts data inputs from several lines and allows one of them at a time to pass to the output",
+        "accepts data inputs from multiple lines and passes this data to multiple output lines",
+        "accepts data inputs from several lines and multiplexes this input data to four BCD lines"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mxe4n8",
+      "q": "One characteristic of a ring counter is that the modulus is equal to the number of flip-flops in the register and, consequently, there are never any unused or invalid states.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m7aav",
+      "q": "In a full-featured counter in HDL, the concept of rolling over simply means the count sequence has reached its limit and must start over at the beginning of the sequence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rq8w2k",
+      "q": "The 7447 has a 4-bit BCD input, seven individual active-LOW outputs, and a ripple blanking input and output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hlo7yo",
+      "q": "All decade counters are BCD counters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mm5ku0",
+      "q": "Shift register counters use logic functions to reset the registers when the desired count is reached.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bwh4q4",
+      "q": "An effective time delay device can be constructed by using the propagation delay characteristic of parallel shift registers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-teln9w",
+      "q": "The term synchronous refers to events that do not occur at the same time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nb2qjk",
+      "q": "Synchronous binary counters can only be used for the application of timing of digital systems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjzy9g",
+      "q": "The terminal marked A on the CTR block in the given figure is the SET terminal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jcd0rs",
+      "q": "The term synchronous, as applied to counter operations, means that the counter is clocked such that each flip-flop in the counter is triggered at the same time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pmqww",
+      "q": "In order to check the CLR function of a counter, ________.",
+      "options": [
+        "apply the active level to the CLR input and check all of the Q outputs to see if they are all in their reset state",
+        "ground the CLR input and check to be sure that all of the Q outputs are LOW",
+        "connect the CLR input to Vcc and check to see if all of the Q outputs are HIGH",
+        "connect the CLR to its correct active level while clocking the counter; check to make sure that all of the Q outputs are toggling"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u62mq0",
+      "q": "The circuit shown below is used for ________, and for the inputs shown, the DATA output will be ________.",
+      "options": [
+        "multiplexing, 1",
+        "parallel-to-serial conversion, 0",
+        "demultiplexing, 0",
+        "parallel-to-serial conversion, HIGH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ghr54s",
+      "q": "________ is the output frequency of the counter shown below.",
+      "options": [
+        "4 MHz",
+        "20 kHz",
+        "210.5 kHz",
+        "800 Hz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1npnmj4",
+      "q": "An asynchronous binary up counter, made from a series of leading edge-triggered flip-flops, can be changed to a down counter by ________.",
+      "options": [
+        "taking the output on the other side of the flip-flops ( instead of Q)",
+        "clocking of each succeeding flip-flop from the other side ( instead of Q)",
+        "changing the flip-flops to trailing edge triggering",
         "all of the above"
       ],
       "correct": 0,
@@ -180,13 +1319,13 @@
       "tags": []
     },
     {
-      "id": "gate-112y10c",
-      "q": "How can a digital one-shot be implemented using HDL?",
+      "id": "gate-96g0o",
+      "q": "A 4-bit binary up counter has an input clock frequency of 20 kHz. The frequency of the most significant bit is ________.",
       "options": [
-        "By using a resistor and a capacitor",
-        "By applying the concept of a counter",
-        "By using a library function",
-        "By applying a level trigger"
+        "1.25 kHz",
+        "2.50 kHz",
+        "160 kHz",
+        "320 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -200,13 +1339,13 @@
       "tags": []
     },
     {
-      "id": "gate-jz9k9d",
-      "q": "Integrated-circuit counter chips are used in numerous applications including:",
+      "id": "gate-1f31r44",
+      "q": "________ counters are often used whenever pulses are to be counted and the results displayed in decimal.",
       "options": [
-        "timing operations, counting operations, sequencing, and frequency multiplication",
-        "timing operations, counting operations, sequencing, and frequency division",
-        "timing operations, decoding operations, sequencing, and frequency multiplication",
-        "data generation, counting operations, sequencing, and frequency multiplication"
+        "Synchronous",
+        "Bean",
+        "Decade",
+        "BCD"
       ],
       "correct": 0,
       "explain": "",
@@ -220,13 +1359,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wtqre4",
-      "q": "Synchronous counters eliminate the delay problems encountered with asynchronous counters because the:",
+      "id": "gate-1kyu2ux",
+      "q": "The technique used by one-shots to respond to an edge rather than a level is called ________.",
       "options": [
-        "input clock pulses are applied only to the first and last stages",
-        "input clock pulses are applied only to the last stage",
-        "input clock pulses are not used to activate any of the counter stages",
-        "input clock pulses are applied simultaneously to each stage"
+        "level management",
+        "edge triggering",
+        "trigger input",
+        "edge trapping"
       ],
       "correct": 0,
       "explain": "",
@@ -240,12 +1379,13 @@
       "tags": []
     },
     {
-      "id": "gate-3j035o",
-      "q": "What is the difference between combinational logic and sequential logic?",
+      "id": "gate-1jkcuhl",
+      "q": "A J-K flip-flop is reset and must stay reset after the clock pulse. This transition requires that ________.",
       "options": [
-        "Combinational circuits are not triggered by timing pulses, sequential circuits are triggered by timing pulses.",
-        "Combinational and sequential circuits are both triggered by timing pulses.",
-        "Neither circuit is triggered by timing pulses."
+        "J and K inputs must both = 0",
+        "J must be 0, K doesn't matter",
+        "J doesn't matter, K must = 0",
+        "J must be 0 and K must be 1"
       ],
       "correct": 0,
       "explain": "",
@@ -259,13 +1399,13 @@
       "tags": []
     },
     {
-      "id": "gate-b6kp8r",
-      "q": "After 10 clock cycles, and assuming that the DATA input had returned to 0 following the storage sequence, what values would be stored in Q4, Q3, Q2, Q1, Q0 of the register in Figure 7-5?",
+      "id": "gate-qv9kzu",
+      "q": "________ is the modulus of the counter shown below.",
       "options": [
-        "0,1,0,1,1",
-        "1,1,0,1,0",
-        "1,0,1,0,1",
-        "0,0,0,0,0"
+        "200",
+        "19",
+        "0.005",
+        "5000"
       ],
       "correct": 0,
       "explain": "",
@@ -279,13 +1419,475 @@
       "tags": []
     },
     {
-      "id": "gate-a9cteo",
-      "q": "How many different states does a 2-bit asynchronous counter have?",
+      "id": "gate-er9m4l",
+      "q": "The ________ counter in the Altera library has controls that allow it to count up or down, and perform synchronous parallel load and asynchronous cascading.",
       "options": [
-        "1",
+        "74134",
+        "LPM",
+        "synchronous",
+        "AHDL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-199sj0",
+      "q": "The terminal count of a typical modulus-10 binary counter is ________.",
+      "options": [
+        "0000",
+        "1010",
+        "1001",
+        "1111"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-67wfai",
+      "q": "A seven-segment, common-anode LED display is designed for:",
+      "options": [
+        "all cathodes to be wired together",
+        "one common LED",
+        "a HIGH to turn off each segment",
+        "disorientation of segment modules"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3ulwvk",
+      "q": "The process of designing a synchronous counter that will count in a nonbinary manner is primarily based on:",
+      "options": [
+        "external logic circuits that decode the various states of the counter to apply the correct logic levels to the J-K inputs",
+        "modifying BCD counters to change states on every second input clock pulse",
+        "modifying asynchronous counters to change states on every second input clock pulse",
+        "elimination of the counter stages and the addition of combinational logic circuits to produce the desired counts"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nkhiws",
+      "q": "Select the response that best describes the use of the Master Reset on typical 4-bit binary counters.",
+      "options": [
+        "When MR1 and MR2 are both HIGH, all Qs will be reset to zero.",
+        "When MR1 and MR2 are both HIGH, all Qs will be reset to one.",
+        "MR1 and MR2 are provided to synchronously reset all four flip-flops.",
+        "To enable the count mode, MR1 and MR2 must be held LOW."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pmogcc",
+      "q": "What is the maximum delay that can occur if four flip-flops are connected as a ripple counter and each flip-flop has propagation delays of tPHL = 22 ns and tPLH = 15 ns?",
+      "options": [
+        "15 ns",
+        "22 ns",
+        "60 ns",
+        "88 ns"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10zcik0",
+      "q": "Which of the following statements are true?",
+      "options": [
+        "Asynchronous events do not occur at the same time.",
+        "Asynchronous events are controlled by a clock.",
+        "Synchronous events do not need a clock to control them.",
+        "Only asynchronous events need a control clock."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-91v9d4",
+      "q": "Which segments (by letter) of a seven-segment display need to be active in order to display a digit 6?",
+      "options": [
+        "b, c, d, e, f, and g",
+        "a, c, d, e, f, and g",
+        "a, b, c, d, and f",
+        "b, c, d, e, and f"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oiqqbw",
+      "q": "Which of the following groups of logic devices would be the minimum required for a MOD-64 synchronous counter?",
+      "options": [
+        "Five flip-flops, three AND gates",
+        "Seven flip-flops, five AND gates",
+        "Four flip-flops, ten AND gates",
+        "Six flip-flops, four AND gates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zzqy3c",
+      "q": "The circuit given below fails to produce data output. The individual flip-flops are checked with a logic probe and pulser, and each checks OK. What could be causing the problem?",
+      "options": [
+        "The data output line may be grounded.",
+        "One of the clock input lines may be open.",
+        "One of the interconnect lines between two stages may have a solder bridge to ground.",
+        "One of the flip-flops may have a solder bridge between its input and Vcc."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1amgudg",
+      "q": "Three cascaded modulus-10 counters have an overall modulus of 1000.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cql8sv",
+      "q": "A reliable method for eliminating decoder spikes is to use strobing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o50vj0",
+      "q": "The terminal count of a typical modulus-10 binary counter is 1010.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tg4p26",
+      "q": "A J-K flip-flop excitation table lists the present state, the next state, and the J and K levels required to produce each transition.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vnots3",
+      "q": "In VHDL, when we want to remember a value it must be stored in a VARIABLE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p25rl7",
+      "q": "In a seven-segment LED display, the BCD must be decoded into a format that can be used to drive the decimal numeric display.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mshzrk",
+      "q": "Parallel in/parallel out registers have parallel input and output busses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ctwzu4",
+      "q": "Once an up/down counter begins its count sequence, it cannot be reversed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j2a83v",
+      "q": "Shift registers are used to store and transfer data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hi3909",
+      "q": "Modulus refers to ________.",
+      "options": [
+        "a method used to fabricate decade counter units",
+        "the modulus of elasticity, or the ability of a circuit to be stretched from one mode to another",
+        "an input on a counter that is used to set the counter state, such as UP/DOWN",
+        "the maximum number of states in a counter sequence"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ujgzd4",
+      "q": "A sequential circuit design is used to ________.",
+      "options": [
+        "count up",
+        "count down",
+        "decode an end count",
+        "count in a random order"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oaw0vs",
+      "q": "In general, when using a scope to troubleshoot digital systems the instrument should be triggered by ________.",
+      "options": [
+        "the A channel or channel 1",
+        "the vertical input mode, when using more than one channel",
+        "the system clock",
+        "line sync, in order to observe troublesome power line glitches"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j58oko",
+      "q": "For a multistage counter to be truly synchronous, the ________ of each stage must be connected to ________.",
+      "options": [
+        "Cp, the same clock input line",
+        "CE, the same clock input line",
+        ", the terminal count output",
+        ", both clock input lines"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v5uv34",
+      "q": "Which of the following is an invalid output state for an 8421 BCD counter?",
+      "options": [
+        "1110",
+        "0000",
+        "0010",
+        "0001"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fmn0zb",
+      "q": "How many different states does a 3-bit asynchronous counter have?",
+      "options": [
         "2",
         "4",
-        "8"
+        "8",
+        "16"
       ],
       "correct": 0,
       "explain": "",
@@ -299,13 +1901,31 @@
       "tags": []
     },
     {
-      "id": "gate-jyflm1",
-      "q": "A 12 MHz clock frequency is applied to a cascaded counter containing a modulus-5 counter, a modulus-8 counter, and a modulus-10 counter. The lowest output frequency possible is ________.",
+      "id": "gate-ls9et8",
+      "q": "A 5-bit asynchronous binary counter is made up of five flip-flops, each with a 12 ns propagation delay. The total propagation delay (tp(tot)) is ________.",
       "options": [
-        "10 kHz",
-        "20 kHz",
-        "30 kHz",
-        "60 kHz"
+        "12 ms",
+        "24 ns",
+        "48 ns",
+        "60 ns"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Counters",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b6pl54",
+      "q": "A four-channel scope is used to check the counter in the figure given below. Are the displayed waveforms correct?",
+      "options": [
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",

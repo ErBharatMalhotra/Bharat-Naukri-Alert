@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Thyristors And Tranducers",
   "source": "indiabix.com",
-  "count": 13,
+  "count": 16,
   "questions": [
     {
-      "id": "gate-13x0j04",
-      "q": "The optically coupled isolator interrupter module is used to transfer switching information between two electrically isolated points.",
+      "id": "gate-1y7l35y",
+      "q": "The DIAC conducts in only one direction when gated on.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-18t3uyo",
-      "q": "A photodiode is a device that produces light.",
+      "id": "gate-16sit0",
+      "q": "A DIAC is a bidirectional diode that has a symmetrical switching mode.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1oko3hw",
-      "q": "To turn an SCR off, simply remove the gate voltage.",
+      "id": "gate-1wbbllc",
+      "q": "A transducer does not convert energy from one form to another.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-gpglpk",
-      "q": "A thermistor is a semiconductor device that acts like a piezoresistive resistor.",
+      "id": "gate-1hjx0ic",
+      "q": "A semiconductor using the hall effect will detect magnetic fields.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-pzen3s",
-      "q": "A silicon-controlled rectifier (SCR) has 3 terminals labeled base, collector, and emitter.",
+      "id": "gate-11x63xu",
+      "q": "The silicon-controlled rectifier (SCR) is a three-layer device consisting of a gate, an anode, and a cathode.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1w1o3hw",
-      "q": "The TRIAC is equivalent to ________________.",
+      "id": "gate-1vhzgya",
+      "q": "The gate of a TRIAC can turn it on to have current flow in either direction.",
       "options": [
-        "a four-layer diode",
-        "two DIACs in parallel",
-        "a thyristor with a gate lead",
-        "two SCRs in parallel"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1aze3jz",
-      "q": "An optically coupled isolator is a device containing _________ in a single package.",
+      "id": "gate-2ni6u4",
+      "q": "SCRs are four-layer devices that are either fully conducting or not conducting.",
       "options": [
-        "a photodiode and an optotransmitter",
-        "an LED and an SCR",
-        "an anode and a cathode",
-        "an IRED and a silicon phototransistor"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-1nhlo2w",
-      "q": "A UJT has:",
+      "id": "gate-1enhim8",
+      "q": "A TRIAC will control AC voltage during the positive half cycle only.",
       "options": [
-        "two base leads",
-        "one emitter lead",
-        "two emitter leads and one base lead",
-        "one emitter lead and two base leads"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,111 @@
       "tags": []
     },
     {
-      "id": "gate-lqo7xk",
-      "q": "The only way to close an SCR is with:",
+      "id": "gate-nkm5z6",
+      "q": "A TRIAC can be triggered or activated by either a positive or a negative input gate trigger.",
       "options": [
-        "a trigger input applied to the gate",
-        "forward breakover voltage",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Thyristors And Tranducers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6ppryc",
+      "q": "When checking a good SCR or TRIAC with an ohmmeter it will:",
+      "options": [
+        "show high resistance in both directions",
+        "show low resistance with positive on anode and negative on cathode, and high resistance when reversed",
+        "show high resistance with negative on anode and positive on cathode, and low resistance when reversed",
+        "show low resistance in both directions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Thyristors And Tranducers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yh0ctu",
+      "q": "What does a hall effect sensor sense?",
+      "options": [
+        "temperature",
+        "moisture",
+        "magnetic fields",
+        "pressure"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Thyristors And Tranducers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8q3974",
+      "q": "What causes the piezoelectric effect?",
+      "options": [
+        "heat or dissimilar metals",
+        "pressure on a crystal",
+        "water running on iron",
+        "a magnetic field"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Thyristors And Tranducers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ogm6g0",
+      "q": "The smallest amount of current that the cathode-anode can have, and still sustain conduction of an SCR is called the:",
+      "options": [
+        "maximum forward current",
+        "maximum forward gate current",
+        "holding current",
+        "reverse gate leakage current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Thyristors And Tranducers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b5rd5w",
+      "q": "Once a DIAC is conducting, the only way to turn it off is with:",
+      "options": [
+        "a positive gate voltage",
+        "a negative gate voltage",
         "low-current dropout",
-        "valley voltage"
+        "breakover"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +270,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ijz6ru",
-      "q": "What is an SCR?",
+      "id": "gate-18xic1w",
+      "q": "The DIAC is a:",
       "options": [
-        "a PNPN thyristor with 3 terminals",
-        "a PNPN thyristor with 4 terminals",
-        "a PNP thyristor with 3 terminals",
-        "an NPN thyristor with 3 terminals"
+        "transistor",
+        "unidirectional device",
+        "three-layer device",
+        "bidirectional device"
       ],
       "correct": 0,
       "explain": "",
@@ -198,53 +290,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tab4ag",
-      "q": "What type of application would use a photovoltaic cell?",
+      "id": "gate-7ohajb",
+      "q": "What type of application would use an injection laser diode?",
       "options": [
-        "an automobile horn",
-        "a TI 92 calculator",
-        "a magnetic field detector",
-        "a remote power source"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Thyristors And Tranducers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ies1q2",
-      "q": "The PUT (programmable unijunction transistor) is actually a type of:",
-      "options": [
-        "UJT thyristor",
-        "FET device",
-        "TRIAC",
-        "SCR"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Thyristors And Tranducers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vscus8",
-      "q": "A transducer's function is to:",
-      "options": [
-        "transmit electrical energy",
-        "convert energy",
-        "produce mechanical energy",
-        "prevent current flow"
+        "a 10BASE-T Ethernet",
+        "a liquid crystal display",
+        "a fiber optic transmission line",
+        "a good flashlight"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "C++ Programming",
   "topic": "Oops Concepts",
   "source": "indiabix.com",
-  "count": 6,
+  "count": 47,
   "questions": [
     {
-      "id": "gate-1rx98cc",
-      "q": "Which of the following term is used for a function defined inside a class?",
+      "id": "gate-1nr11wc",
+      "q": "Which of the following type of class allows only one object of it to be created?",
       "options": [
-        "Member Variable",
-        "Member function",
-        "Class function",
-        "Classic function"
+        "Virtual class",
+        "Abstract class",
+        "Singleton class",
+        "Friend class"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-mhhsvc",
-      "q": "Which of the following concept of oops allows compiler to insert arguments in a function call if it is not specified?",
+      "id": "gate-1i3vsz0",
+      "q": "Which of the following is not a type of constructor?",
       "options": [
-        "Call by value",
-        "Call by reference",
-        "Default arguments",
-        "Call by pointer"
+        "Copy constructor",
+        "Friend constructor",
+        "Default constructor",
+        "Parameterized constructor"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-bv3q0o",
-      "q": "How many instances of an abstract class can be created?",
+      "id": "gate-m4phj1",
+      "q": "Which of the following is not the member of class?",
       "options": [
-        "1",
-        "5",
-        "13",
-        "0"
+        "Static function",
+        "Friend function",
+        "Const function",
+        "Virtual function"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-b3nb8k",
-      "q": "Which of the following cannot be friend?",
+      "id": "gate-sl6gzo",
+      "q": "Which of the following concepts means determining at runtime what method to invoke?",
       "options": [
-        "Function",
-        "Class",
-        "Object",
-        "Operator function"
+        "Data hiding",
+        "Dynamic Typing",
+        "Dynamic binding",
+        "Dynamic loading"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,53 @@
       "tags": []
     },
     {
-      "id": "gate-13a2ur4",
-      "q": "Which of the following concepts of OOPS means exposing only necessary information to client?",
+      "id": "gate-12ftmj6",
+      "q": "Why reference is not same as a pointer?",
+      "options": [
+        "A reference can never be null.",
+        "A reference once established cannot be changed.",
+        "Reference doesn't need an explicit dereferencing mechanism.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-104zyf4",
+      "q": "cout is a/an __________ .",
+      "options": [
+        "operator",
+        "function",
+        "object",
+        "macro"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n60z1k",
+      "q": "Which of the following concepts provides facility of using object of one class inside another class?",
       "options": [
         "Encapsulation",
         "Abstraction",
-        "Data hiding",
-        "Data binding"
+        "Composition",
+        "Inheritance"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +148,793 @@
       "tags": []
     },
     {
-      "id": "gate-16dqsp0",
-      "q": "Which of the following provides a reuse mechanism?",
+      "id": "gate-l1ehj0",
+      "q": "How many types of polymorphisms are supported by C++?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oe4kfo",
+      "q": "Which of the following is an abstract data type?",
+      "options": [
+        "int",
+        "double",
+        "string",
+        "Class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15tmsg0",
+      "q": "Which one of the following options is correct?",
+      "options": [
+        "Friend function can access public data members of the class.",
+        "Friend function can access protected data members of the class.",
+        "Friend function can access private data members of the class.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ix7zk0",
+      "q": "Which of the following statements is correct in C++?",
+      "options": [
+        "Classes cannot have data as protected members.",
+        "Structures can have functions as members.",
+        "Class members are public by default.",
+        "Structure members are private by default."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-355mnk",
+      "q": "Which of the following is used to make an abstract class?",
+      "options": [
+        "Declaring it abstract using static keyword.",
+        "Declaring it abstract using virtual keyword.",
+        "Making at least one member function as virtual function.",
+        "Making at least one member function as pure virtual function."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nhlpjx",
+      "q": "Which of the following access specifier is used as a default in a class definition?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "friend"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g53kjc",
+      "q": "What is correct about the static data member of a class?",
+      "options": [
+        "A static member function can access only static data members of a class.",
+        "A static data member is shared among all the object of the class.",
+        "A static data member can be accessed directly from main().",
+        "Both A and B."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-45wxog",
+      "q": "Which of the following concepts means adding new components to a program as it runs?",
+      "options": [
+        "Data hiding",
+        "Dynamic typing",
+        "Dynamic binding",
+        "Dynamic loading"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8nqfso",
+      "q": "Which of the following correctly describes overloading of functions?",
+      "options": [
+        "Virtual polymorphism",
+        "Transient polymorphism",
+        "Ad-hoc polymorphism",
+        "Pseudo polymorphism"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1aw6ex4",
+      "q": "Which of the following approach is adapted by C++?",
+      "options": [
+        "Top-down",
+        "Bottom-up",
+        "Right-left",
+        "Left-right"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-un42m8",
+      "q": "Which of the following is correct about function overloading?",
+      "options": [
+        "The types of arguments are different.",
+        "The order of argument is different.",
+        "The number of argument is same.",
+        "Both A and B."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10zdwdw",
+      "q": "Which of the following keyword is used to overload an operator?",
+      "options": [
+        "overload",
+        "operator",
+        "friend",
+        "override"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jsmnfg",
+      "q": "What will happen if a class is not having any name?",
+      "options": [
+        "It cannot have a destructor.",
+        "It cannot have a constructor.",
+        "It is not allowed.",
+        "Both A and B."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jz52us",
+      "q": "Which inheritance type is used in the class given below? class A : public X, public Y {}",
+      "options": [
+        "Multilevel inheritance",
+        "Multiple inheritance",
+        "Hybrid inheritance",
+        "Hierarchical Inheritance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12bs9s8",
+      "q": "Which one of the following is correct about the statements given below? All function calls are resolved at compile-time in Procedure Oriented Programming. All function calls are resolved at compile-time in OOPS.",
+      "options": [
+        "Only II is correct.",
+        "Both I and II are correct.",
+        "Only I is correct.",
+        "Both I and II are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qs3raw",
+      "q": "Which of the following is an invalid visibility label while inheriting a class?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "friend"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j7bei0",
+      "q": "Which of the following is correct about class and structure?",
+      "options": [
+        "class can have member functions while structure cannot.",
+        "class data members are public by default while that of structure are private.",
+        "Pointer to structure or classes cannot be declared.",
+        "class data members are private by default while that of structure are public by default."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ngwgl6",
+      "q": "Which of the following concepts means wrapping up of data and functions together?",
       "options": [
         "Abstraction",
+        "Encapsulation",
         "Inheritance",
+        "Polymorphism"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h0ks5g",
+      "q": "Which of the following concepts means waiting until runtime to determine which function to call?",
+      "options": [
+        "Data hiding",
+        "Dynamic casting",
         "Dynamic binding",
+        "Dynamic loading"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14hu01k",
+      "q": "How \"Late binding\" is implemented in C++?",
+      "options": [
+        "Using C++ tables",
+        "Using Virtual tables",
+        "Using Indexed virtual tables",
+        "Using polymorphic tables"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17ei5oj",
+      "q": "Which of the following operator is overloaded for object cout?",
+      "options": [
+        "&gt;&gt;",
+        "&lt;&lt;",
+        "+",
+        "="
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iwrfrw",
+      "q": "Which of the following operators cannot be overloaded?",
+      "options": [
+        "[]",
+        "-&gt;",
+        "?:",
+        "*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1irnr28",
+      "q": "In which of the following a virtual call is resolved at the time of compilation?",
+      "options": [
+        "From inside the destructor.",
+        "From inside the constructor.",
+        "From inside the main().",
+        "Both A and B."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tcazss",
+      "q": "Which of the following statements regarding inline functions is correct?",
+      "options": [
+        "It speeds up execution.",
+        "It slows down execution.",
+        "It increases the code size.",
+        "Both A and C."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-map3f4",
+      "q": "Which one of the following is the correct way to declare a pure virtual function?",
+      "options": [
+        "virtual void Display(void){0};",
+        "virtual void Display = 0;",
+        "virtual void Display(void) = 0;",
+        "void Display(void) = 0;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hy3g28",
+      "q": "Which of the following header file includes definition of cin and cout?",
+      "options": [
+        "istream.h",
+        "ostream.h",
+        "iomanip.h",
+        "iostream.h"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bdl1y8",
+      "q": "Which of the following is the correct class of the object cout?",
+      "options": [
+        "iostream",
+        "istream",
+        "ostream",
+        "ifstream"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pvbv4",
+      "q": "Which of the following cannot be used with the keyword virtual?",
+      "options": [
+        "class",
+        "member functions",
+        "constructor",
+        "destructor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10178vc",
+      "q": "Which of the following functions are performed by a constructor?",
+      "options": [
+        "Construct a new class",
+        "Construct a new object",
+        "Construct a new function",
+        "Initialize objects"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14r26s6",
+      "q": "Which of the following problem causes an exception?",
+      "options": [
+        "Missing semicolon in statement in main().",
+        "A problem in calling function.",
+        "A syntax error.",
+        "A run-time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bpone8",
+      "q": "Which one of the following options is correct about the statement given below? The compiler checks the type of reference in the object and not the type of object.",
+      "options": [
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction",
         "Encapsulation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hha774",
+      "q": "Which of the following is a mechanism of static polymorphism?",
+      "options": [
+        "Operator overloading",
+        "Function overloading",
+        "Templates",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10bz0p",
+      "q": "Which of the following is correct about the statements given below? All operators can be overloaded in C++. We can change the basic meaning of an operator in C++.",
+      "options": [
+        "Only I is true.",
+        "Both I and II are false.",
+        "Only II is true.",
+        "Both I and II are true."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xichwg",
+      "q": "What happens if the base and derived class contains definition of a function with same prototype?",
+      "options": [
+        "Compiler reports an error on compilation.",
+        "Only base class function will get called irrespective of object.",
+        "Only derived class function will get called irrespective of object.",
+        "Base class object will call base class function and derived class object will call derived class function."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18rhyyq",
+      "q": "Which of the following are available only in the class hierarchy chain?",
+      "options": [
+        "Public data members",
+        "Private data members",
+        "Protected data members",
+        "Member functions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gg572g",
+      "q": "Which of the following is not a type of inheritance?",
+      "options": [
+        "Multiple",
+        "Multilevel",
+        "Distributive",
+        "Hierarchical"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s1ysa4",
+      "q": "Which of the following is the correct way of declaring a function as constant?",
+      "options": [
+        "const int ShowData(void) { /* statements */ }",
+        "int const ShowData(void) { /* statements */ }",
+        "int ShowData(void) const { /* statements */ }",
+        "Both A and B"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7lgdk5",
+      "q": "Which of the following concepts is used to implement late binding?",
+      "options": [
+        "Virtual function",
+        "Operator function",
+        "Const function",
+        "Static function"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d0ssp3",
+      "q": "Which of the following factors supports the statement that reusability is a desirable feature of a language?",
+      "options": [
+        "It decreases the testing time.",
+        "It lowers the maintenance cost.",
+        "It reduces the compilation time.",
+        "Both A and B."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Oops Concepts",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1au761k",
+      "q": "Which of the following ways are legal to access a class data member using this pointer?",
+      "options": [
+        "this-&gt;x",
+        "this.x",
+        "*this.x",
+        "*this-x"
       ],
       "correct": 0,
       "explain": "",

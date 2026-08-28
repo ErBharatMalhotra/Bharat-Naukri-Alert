@@ -5,15 +5,35 @@
   "subject": "C++ Programming",
   "topic": "References",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 26,
   "questions": [
     {
-      "id": "gate-1a842mg",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int x = 80; int y&amp; = x; x++; cout &lt;&lt; x &lt;&lt; \" \" &lt;&lt; --y; return 0; }",
+      "id": "gate-qyzqis",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int x = 10, y = 20; int *ptr = &amp;x; int &amp;ref = y; *ptr++; ref++; cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; return 0; }",
       "options": [
-        "The program will print the output 80 80.",
-        "The program will print the output 81 80.",
-        "The program will print the output 81 81.",
+        "The program will print the output 10 20.",
+        "The program will print the output 10 21.",
+        "The program will print the output 11 20.",
+        "The program will print the output 11 21."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6oatag",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int x = 0; int &amp;y = x; y = 5; while(x &lt;= 5) { cout&lt;&lt; y++ &lt;&lt; \" \"; x++; } cout&lt;&lt; x; return 0; }",
+      "options": [
+        "The program will print the output 5 6 7 8 9 10.",
+        "The program will print the output 5 6 7 8 9 10 7.",
+        "The program will print the output 5 7.",
         "It will result in a compile time error."
       ],
       "correct": 0,
@@ -28,12 +48,32 @@
       "tags": []
     },
     {
-      "id": "gate-1h10mm8",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int x = 10; int &amp;y = x; x++; cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y++; return 0; }",
+      "id": "gate-16hvjrm",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int m = 2, n = 6; int &amp;x = m; int &amp;y = n; m = x++; x = m++; n = y++; y = n++; cout&lt;&lt; m &lt;&lt; \" \" &lt;&lt; n; return 0; }",
       "options": [
-        "The program will print the output 11 12.",
-        "The program will print the output 11 11.",
-        "The program will print the output 12 13.",
+        "The program will print output 2 6.",
+        "The program will print output 3 7.",
+        "The program will print output 4 8.",
+        "The program will print output 5 9."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jpbvsw",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixTest { public: BixTest(int &amp;x, int &amp;y) { x++; y++; } }; int main() { int a = 10, b = 20; BixTest objBT(a, b); cout&lt;&lt; a &lt;&lt; \" \" &lt;&lt; b; return 0; }",
+      "options": [
+        "10 20",
+        "11 21",
+        "Garbage Garbage",
         "It will result in a compile time error."
       ],
       "correct": 0,
@@ -48,13 +88,353 @@
       "tags": []
     },
     {
-      "id": "gate-1yxsmds",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int x = 10; int &amp;y = x; x = 25; y = 50; cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; --y; return 0; }",
+      "id": "gate-16j7akw",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int i, j; class IndiaBix { public: IndiaBix(int x = 0, int y = 0) { i = x; j = x; Display(); } void Display() { cout&lt;&lt; j &lt;&lt;\" \"; } }; int main() { IndiaBix objBix(10, 20); int &amp;s = i; int &amp;z = j; i++; cout&lt;&lt; s-- &lt;&lt; \" \" &lt;&lt; ++z; return 0; }",
       "options": [
-        "The program will print the output 50 49.",
+        "The program will print the output 0 11 21.",
+        "The program will print the output 10 11 11.",
+        "The program will print the output 10 11 21.",
+        "The program will print the output 10 11 12."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v7rsow",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int x, y; class BixTest { public: BixTest(int xx = 0, int yy = 0) { x = xx; y = yy; Display(); } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \"; } }; int main() { BixTest objBT(10, 20); int &amp;rx = x; int &amp;ry = y; ry = x; rx = y; cout&lt;&lt; rx--; return 0; }",
+      "options": [
+        "The program will print the output 0 0 10.",
+        "The program will print the output 10 20 10.",
+        "The program will print the output 10 20 9.",
+        "It will result in a compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cy7niw",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int a, b, c; public: void SetValue(int x, int y ,int z) { a = x; b = y; c = z; } void Display() { cout&lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; \" \" &lt;&lt; c; } }; int main() { IndiaBix objBix; int x = 2; int &amp;y = x; y = 5; objBix.SetValue(x, ++y, x + y); objBix.Display(); return 0; }",
+      "options": [
+        "The program will print the output 5 6 10.",
+        "The program will print the output 6 6 10.",
+        "The program will print the output 6 6 12.",
+        "It will result in a compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10ev0kw",
+      "q": "What will be the output of the program given below? #include&lt;iostream.h&gt; class BixBase { int x; public: BixBase(int xx = 0) { x = xx; } void Display() { cout&lt;&lt; x ; } }; class BixDerived : public BixBase { int y; public: BixDerived(int yy = 0) { y = yy; } void Display() { cout&lt;&lt; y ; } }; int main() { BixBase objBase(10); BixBase &amp;objRef = objBase; BixDerived objDev(20); objRef = objDev; objDev.Display(); return 0; }",
+      "options": [
+        "0",
+        "10",
+        "20",
+        "Garbage-value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-712smg",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix(int xx = 0, int yy = 0) { x = xx; y = yy; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } IndiaBix operator +(IndiaBix z) { IndiaBix objTemp; objTemp.x = x + z.x; objTemp.y = y + z.y; return objTemp; } }; int main() { IndiaBix objBix1(90, 80); IndiaBix objBix2(10, 20); IndiaBix objSum; IndiaBix &amp;objRef = objSum; objRef = objBix1 + objBix2; objRef.Display(); return 0; }",
+      "options": [
+        "It will result in a runtime error.",
         "It will result in a compile time error.",
+        "The program will print the output 9 4.",
+        "The program will print the output 100 100."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f6hh5f",
+      "q": "Which of the following statements is correct? Once a reference variable has been defined to refer to a particular variable it can refer to any other variable. A reference is not a constant pointer.",
+      "options": [
+        "Only 1 is correct.",
+        "Only 2 is correct.",
+        "Both 1 and 2 are correct.",
+        "Both 1 and 2 are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cy6bmo",
+      "q": "Functions can be declared to return a reference type. There are reasons to make such a declaration/Which of the following reasons are correct? The information being returned is a large enough object that returning a reference is more efficient than returning a copy. The type of the function must be a R-value.",
+      "options": [
+        "Only 1 is correct.",
+        "Only 2 is correct.",
+        "Both 1 and 2 are correct.",
+        "Both 1 and 2 are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19kuqvc",
+      "q": "Which of the following statements is correct? Change a reference changes the referent. We can create an array of references.",
+      "options": [
+        "Only 1 is correct.",
+        "Only 2 is correct.",
+        "Both 1 and 2 are correct.",
+        "Both 1 and 2 are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15wos94",
+      "q": "Which of the following statement is correct about the references?",
+      "options": [
+        "A reference must always be initialized within functions.",
+        "A reference must always be initialized outside all functions.",
+        "A reference must always be initialized.",
+        "Both A and C."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hfzrso",
+      "q": "Which of the following statements is correct? Once the variable and the reference are linked they are tied together. Once the reference of a variable is declared another reference of that variable is not allowed.",
+      "options": [
+        "Only 1 is correct.",
+        "Only 2 is correct.",
+        "Both 1 and 2 are correct.",
+        "Both 1 and 2 are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vorw37",
+      "q": "Which of the following statements is correct? We can return a global variable by reference. We cannot return a local variable by reference.",
+      "options": [
+        "Only 1 is correct.",
+        "Only 2 is correct.",
+        "Both 1 and 2 are correct.",
+        "Both 1 and 2 are incorrect."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ea2oy7",
+      "q": "Reference is like a _____.",
+      "options": [
+        "Pointer",
+        "Structure",
+        "Macro",
+        "Enum"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2ehx20",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; enum xyz { a, b, c }; int main() { int x = a, y = b, z = c; int &amp;p = x, &amp;q = y, &amp;r = z; p = ++x; q = ++y; r = ++c; cout&lt;&lt; p &lt;&lt; q &lt;&lt; r; return 0; }",
+      "options": [
+        "The program will print the output 1 2 3.",
+        "The program will print the output 2 3 4.",
+        "The program will print the output 0 1 2.",
+        "It will result in a compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fqoc0i",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int main() { int arr[] = {1, 2 ,3, 4, 5}; int &amp;zarr = arr; for(int i = 0; i &lt;= 4; i++) { arr[i] += arr[i]; } for(i = 0; i &lt;= 4; i++) cout&lt;&lt; zarr[i]; return 0; }",
+      "options": [
+        "The program will print the output 1 2 3 4 5.",
+        "The program will print the output 2 4 6 8 10.",
+        "The program will print the output 1 1 1 1 1.",
+        "It will result in a compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bded0e",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; struct Bix { short n; }; int main() { Bix b; Bix&amp; rb = b; b.n = 5; cout &lt;&lt; b.n &lt;&lt; \" \" &lt;&lt; rb.n &lt;&lt; \" \"; rb.n = 8; cout &lt;&lt; b.n &lt;&lt; \" \" &lt;&lt; rb.n; return 0; }",
+      "options": [
+        "It will result in a compile time error.",
+        "The program will print the output 5 5 5 8.",
+        "The program will print the output 5 5 8 8.",
+        "The program will print the output 5 5 5 5."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12rajcs",
+      "q": "What will be the output of the following program? #include &lt;iostream.h&gt; enum xyz { a, b, c }; int main() { int x = a, y = b, z = c; int &amp;p = x, &amp;q = y, &amp;r = z; p = z; p = ++q; q = ++p; z = ++q + p++; cout&lt;&lt; p &lt;&lt; \" \" &lt;&lt; q &lt;&lt; \" \" &lt;&lt; z; return 0; }",
+      "options": [
+        "2 3 6",
+        "4 4 7",
+        "4 5 8",
+        "3 4 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ilt868",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int BixFunction(int m) { m *= m; return((10)*(m /= m)); } int main() { int c = 9, *d = &amp;c, e; int &amp;z = e; e = BixFunction(c-- % 3 ? ++*d :(*d *= *d)); z = z + e / 10; cout&lt;&lt; c &lt;&lt; \" \" &lt;&lt; e; return 0; }",
+      "options": [
+        "It will result in a compile time error.",
+        "The program will print the output 64 9.",
+        "The program will print the output 64 10.",
+        "The program will print the output 64 11."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ixz934",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class Bix { int x, y; public: Bix(int x, int y) { this-&gt;x = x; this-&gt;y = y; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { int x = 50; int &amp;y = x ; Bix b(y, x); return 0; }",
+      "options": [
         "The program will print the output 50 50.",
-        "The program will print the output 49 49."
+        "The program will print the two garbage values.",
+        "It will result in a compile time error.",
+        "The program will print nothing."
       ],
       "correct": 0,
       "explain": "",
@@ -68,93 +448,73 @@
       "tags": []
     },
     {
-      "id": "gate-g391qs",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; enum bix { a=1, b, c }; int main() { int x = c; int &amp;y = x; int &amp;z = x; y = b; cout&lt;&lt; z--; return 0; }",
+      "id": "gate-5srm4g",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: void SetValue(int &amp;xx, int &amp;yy) { x = xx++; y = yy; cout&lt;&lt; xx &lt;&lt; \" \" &lt;&lt; yy; } }; int main() { int x = 10; int &amp;y = x; IndiaBix objBix; objBix.SetValue(x , y); return 0; }",
+      "options": [
+        "The program will print the output 10 10.",
+        "The program will print the output 10 11.",
+        "The program will print the output 11 10.",
+        "The program will print the output 11 11."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v65398",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: void SetValue(int &amp;a, int &amp;b) { a = 100; x = a; y = b; Display(); } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { int x = 10; IndiaBix objBix; objBix.SetValue(x, x); return 0; }",
+      "options": [
+        "The program will print the output 100 10.",
+        "The program will print the output 100 100.",
+        "The program will print the output 100 garbage.",
+        "The program will print two garbage values."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x4ivk8",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: void SetValue(int &amp;xx, int &amp;yy) { x = xx ++; y = yy; Display(); } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { int x = 10; int &amp;y = x; IndiaBix objBix; objBix.SetValue(x , y); return 0; }",
+      "options": [
+        "The program will print the output 10 10.",
+        "The program will print the output 10 11.",
+        "The program will print the output 11 11.",
+        "The program will print the output 11 10."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "References",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1obuci0",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix(int &amp;xx, int &amp;yy) { x = xx; y = yy; Display(); } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { int x1 = 10; int &amp;p = x1; int y1 = 20; int &amp;q = y1; IndiaBix objBix(p, q); return 0; }",
       "options": [
         "It will result in a compile time error.",
-        "The program will print the output 1.",
-        "The program will print the output 2.",
-        "The program will print the output 3."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "References",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oahq8s",
-      "q": "A reference is declared using the _____ symbol.",
-      "options": [
-        "&amp;&amp;",
-        "&amp;",
-        "||",
-        "!"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "References",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1475euc",
-      "q": "Which of the following statements is correct? A reference is not a constant pointer. A referenced is automatically de-referenced.",
-      "options": [
-        "Only 1 is correct.",
-        "Only 2 is correct.",
-        "Both 1 and 2 are correct.",
-        "Both 1 and 2 are incorrect."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "References",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17eycoc",
-      "q": "Which of the following statements is correct? An array of references is acceptable. We can also create a reference to a reference.",
-      "options": [
-        "Only 1 is correct.",
-        "Only 2 is correct.",
-        "Both 1 and 2 are correct.",
-        "Both 1 and 2 are incorrect."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "References",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cl2fp0",
-      "q": "Which of the following statements is correct? Pointer to a reference and reference to a pointer both are valid. When we use reference, we are actually referring to a referent.",
-      "options": [
-        "Only 1 is correct.",
-        "Only 2 is correct.",
-        "Both 1 and 2 are correct.",
-        "Both 1 and 2 are incorrect."
+        "The program will print the output 10 20.",
+        "The program will print two garbage values.",
+        "The program will print the address of variable x1 and y1."
       ],
       "correct": 0,
       "explain": "",

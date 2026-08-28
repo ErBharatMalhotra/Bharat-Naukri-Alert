@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Multivibrators And 555 Timer",
   "source": "indiabix.com",
-  "count": 12,
+  "count": 35,
   "questions": [
     {
-      "id": "gate-i3saro",
-      "q": "When extremely critical timing is required, a quartz crystal can be used.",
+      "id": "gate-r1bv9g",
+      "q": "The bistable multivibrator is an R-C flip-flop.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1yrkv80",
-      "q": "In the 74121, which is nonretriggerable, any triggers that come in before the end of the timing cycle are ignored.",
+      "id": "gate-1a9lwp2",
+      "q": "When the 74123, a retriggerable monostable multivibrator device, ends its timing cycle it must be started all over again.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-rltaqs",
-      "q": "A comparator simply outputs a HIGH or LOW based on a comparison of the voltage levels at its input.",
+      "id": "gate-1svp2ns",
+      "q": "Timing accuracy of more than eight significant digits can be easily achieved by using quartz crystals.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-eho8i4",
-      "q": "The 74S124 TTL chip is a voltage-controlled oscillator that will generate a specific frequency at Vout.",
+      "id": "gate-1ret72c",
+      "q": "A multivibrator is a circuit that changes between two digital levels on a continuous, free-running basis or on demand.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-h9pmcy",
-      "q": "A single Schmitt trigger inverter is all that is needed to build a simple astable multivibrator.",
+      "id": "gate-1ytqbs",
+      "q": "A monostable multivibrator is commonly called a two shot.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ynejfs",
-      "q": "Pulse stretching, time-delay, and pulse generation are all easily accomplished with which type of multivibrator circuit?",
+      "id": "gate-2vc6z8",
+      "q": "What is the function of the comparators in the 555 timer circuit?",
       "options": [
-        "astable",
-        "monostable",
-        "multistable",
-        "bistable"
+        "to compare the output voltages to the internal voltage divider",
+        "to compare the input voltages to the internal voltage divider",
+        "to compare the output voltages to the external voltage divider",
+        "to compare the input voltages to the external voltage divider"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1685ze0",
-      "q": "The internal circuitry of the 555 timer consists of ________, an R-S flip-flop, a transistor switch, an output buffer amplifier, and a voltage divider.",
+      "id": "gate-1qxdsso",
+      "q": "When a capacitor charges:",
       "options": [
-        "a comparator",
-        "a voltage amplifier",
-        "two comparators",
-        "a peak detector"
+        "the voltage across the plates rises exponentially",
+        "the circuit current falls exponentially",
+        "the capacitor charges to the source voltage in 5&#215;RC seconds",
+        "all of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gssgjg",
-      "q": "With most monostable multivibrators, what is the Q output when no input trigger has occurred?",
+      "id": "gate-169o1y8",
+      "q": "The ________ is defined as the time the output is active divided by the total period of the output signal.",
       "options": [
-        "LOW",
-        "+5 V",
-        "SET",
-        "HIGH"
+        "on time",
+        "off time",
+        "duty cycle",
+        "active ratio"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1uyb7eo",
-      "q": "An astable multivibrator requires:",
+      "id": "gate-f22tvc",
+      "q": "A 22-k resistor and a 0.02-F capacitor are connected in series to a 5-V source. How long will it take the capacitor to charge to 3.4 V?",
       "options": [
-        "balanced time constants",
-        "a pair of matched transistors",
-        "no input signal",
-        "dual J-K flip-flops"
+        "0.44 ms",
+        "0.501 ms",
+        "0.66 ms",
+        "0.70 ms"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-3ioixs",
-      "q": "A crystal demonstrates the ________ effect when a mechanical force across the crystal causes a small voltage to be generated.",
+      "id": "gate-i3u2lo",
+      "q": "What does the discharge transistor do in the 555 timer circuit?",
       "options": [
-        "photoelectric",
-        "Co-pitts",
-        "piezoelectric",
-        "flywheel"
+        "charge the external capacitor to stop the timing",
+        "charge the external capacitor to start the timing over again",
+        "discharge the external capacitor to stop the timing",
+        "discharge the external capacitor to start the timing over again"
       ],
       "correct": 0,
       "explain": "",
@@ -198,33 +198,486 @@
       "tags": []
     },
     {
-      "id": "gate-5ovl8g",
-      "q": "If Vcc of a 555 timer circuit is set to +10 V what is the level of output voltage from the circuit?",
+      "id": "gate-1jcjzrk",
+      "q": "What is the difference between an astable multivibrator and a monostable multivibrator?",
       "options": [
-        "VOH&nbsp;=&nbsp;10 V, VOL&nbsp;=&nbsp;0 V",
-        "VOH&nbsp;=&nbsp;10 V, VOL&nbsp;=&nbsp;0.1 V",
-        "VOH&nbsp;=&nbsp;8.5 V, VOL&nbsp;=&nbsp;0 V",
-        "VOH&nbsp;=&nbsp;8.5 V, VOL&nbsp;=&nbsp;0.1 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Multivibrators And 555 Timer",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jp377c",
-      "q": "If the resistor in the Schmitt trigger astable multivibrator is a variable resistor, what part of the output voltage waveform will change when the resistance is changed?",
-      "options": [
-        "the shape of the waveform",
-        "the amplitude of the waveform",
-        "the period of the waveform",
+        "The astable is free running.",
+        "The astable needs to be clocked.",
+        "The monostable is free running.",
         "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lp6pyw",
+      "q": "Is there any limit to the number of times that a 74123 can be retriggered?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mng9at",
+      "q": "Determine tHI and tLO for the circuit given below.",
+      "options": [
+        "tHI&nbsp;=&nbsp;7.95 s, tLO&nbsp;=&nbsp;6.24 s",
+        "tHI&nbsp;=&nbsp;6.24 s, tLO&nbsp;=&nbsp;7.95 s",
+        "tHI&nbsp;=&nbsp;3.97 s, tLO&nbsp;=&nbsp;3.21 s",
+        "tHI&nbsp;=&nbsp;3.21 s, tLO&nbsp;=&nbsp;3.97 s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tmkogc",
+      "q": "The output of the astable circuit ________.",
+      "options": [
+        "constantly switches between two states",
+        "is LOW until a trigger is received",
+        "is HIGH until a trigger is received",
+        "floats until triggered"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nai5bk",
+      "q": "If a diode is connected across resistor RB (positive end up) in the given figure, what is the new duty cycle of the output waveform?",
+      "options": [
+        "56&#37;",
+        "44&#37;",
+        "21.6&#37;",
+        "17.4&#37;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n73v6g",
+      "q": "A 0.3-F capacitor has an initial charge of 2.7 V. If it is discharged through a 10-k resistor for 6.5 ms, how much voltage will be left across the capacitor?",
+      "options": [
+        "0.0 V",
+        "0.309 V",
+        "2.7 V",
+        "2.295 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xu1u9m",
+      "q": "Is the circuit given below an astable multivibrator or a monostable multivibrator?",
+      "options": [
+        "monostable",
+        "astable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6vec9d",
+      "q": "Which of the following is NOT a characteristic of a retriggerable monostable multivibrator?",
+      "options": [
+        "It is a dual multivibrator.",
+        "It has an active-HIGH reset, which terminates all timing functions.",
+        "It has no internal timing resistor.",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9rrssg",
+      "q": "What is the output pulse width of the waveform at the output of the circuit in the given figure?",
+      "options": [
+        "1.65 ms",
+        "18.2 ms",
+        "4.98 ms",
+        "54.6 ms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b0f0pc",
+      "q": "The pulse width out of a one-shot multivibrator increases when the:",
+      "options": [
+        "supply voltage increases",
+        "timing resistor decreases",
+        "UTP decreases",
+        "timing capacitance increases"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lo1muo",
+      "q": "Design a circuit using a 74121 to convert a 33-kHz, 30% duty cycle waveform to a 33-kHz, 60% duty cycle waveform.",
+      "options": [
+        "Rint&nbsp;=&nbsp;2 k, Cext&nbsp;=&nbsp;0.012 nF",
+        "Rint&nbsp;=&nbsp;2 k, Cext&nbsp;=&nbsp;0.012 F",
+        "Rint&nbsp;=&nbsp;4 k, Cext&nbsp;=&nbsp;0.012 nF",
+        "Rint&nbsp;=&nbsp;4 k, Cext&nbsp;=&nbsp;0.012 F"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5h0jkw",
+      "q": "What controls the output pulse width of a one shot?",
+      "options": [
+        "the clock frequency",
+        "the width of the clock pulse",
+        "an RL time constant",
+        "an RC time constant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i99dhm",
+      "q": "Does the 74123 one shot have an internal timing resistor?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a86qeo",
+      "q": "In a typical IC monostable multivibrator circuit, at the falling edge of the trigger input, the output switches HIGH for a period of time determined by the ________.",
+      "options": [
+        "value of the RC timing components",
+        "amplitude of the input trigger",
+        "frequency of the input trigger",
+        "magnitude of the dc supply voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tkkdbs",
+      "q": "A monostable 555 timer has the following number of stable states:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-28a3eo",
+      "q": "What is the pulse width of the output of a 74123 if an external 4.7-k resistor and a 0.022-F capacitor are used?",
+      "options": [
+        "290 ms",
+        "29 ms",
+        "33.3 s",
+        "290 s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1aml0z4",
+      "q": "To obtain a 50&#37; duty cycle in an astable 555 timer circuit:",
+      "options": [
+        "tLO = tHI",
+        "RA = RB and short RB with a diode during the capacitor charging cycle",
+        "capacitor voltage must rise above 1/3 VCC",
+        "tLO = tHI, RA = RB, and short RB with a diode during the capacitor charging cycle"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c3i4dw",
+      "q": "What is another name for a bistable multivibrator?",
+      "options": [
+        "an on-off switch",
+        "an oscillator",
+        "a flip-flop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fc6e55",
+      "q": "An astable 555 timer has the following number of stable states:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m4myz2",
+      "q": "Which mode of operation is being used when a 555 timer chip has two external resistors and an external capacitor?",
+      "options": [
+        "monostable",
+        "pulse stretching",
+        "Schmitt triggering",
+        "astable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5rivjk",
+      "q": "What is the difference between a retriggerable one shot and a nonretriggerable one shot?",
+      "options": [
+        "The nonretriggerable can only be triggered once.",
+        "The retriggerable can be triggered many times.",
+        "The output pulse can be stretched with a nonretriggerable.",
+        "The output pulse can be stretched with a retriggerable."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13fmll4",
+      "q": "Triggering a retriggerable one shot during pulse generation will:",
+      "options": [
+        "time out the original pulse",
+        "extend the pulse to this trigger width",
+        "have no effect",
+        "double the original pulse width"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gdm8ok",
+      "q": "What is the duty cycle of the waveform at the output of the circuit given below?",
+      "options": [
+        "78&#37;",
+        "56&#37;",
+        "50&#37;",
+        "44&#37;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ldbxmg",
+      "q": "The monostable multivibrator circuit is not an oscillator because ________.",
+      "options": [
+        "its output switches between two states",
+        "it requires a trigger to obtain an output signal",
+        "it requires a sine wave input signal",
+        "the circuit does not require a dc power supply"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Multivibrators And 555 Timer",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tj2s3s",
+      "q": "A retriggerable one shot has a pulse of 10 ms. 3 ms after being triggered, another trigger pulse is applied. The resulting output pulse will be ________ ms.",
+      "options": [
+        "3",
+        "7",
+        "10",
+        "13"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "ECE",
   "topic": "Power Electronics",
   "source": "indiabix.com",
-  "count": 48,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-e3p3e4",
-      "q": "A dc circuit breaker must use",
+      "id": "gate-1azs6nt",
+      "q": "A dc separately excited motor has a constant field current. The armature is fed from a single phase supply through a semi-converter. When a = 0, speed is 600 rpm. If a = 90&deg;, the speed is likely to be",
       "options": [
-        "natural commutation",
-        "forced commutation",
-        "both natural and forced commutation",
-        "either natural or forced commutation"
+        "about 300 rpm",
+        "about 150 rpm",
+        "about 75 rpm",
+        "about zero"
       ],
       "correct": 0,
       "explain": "",
@@ -28,11 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-15sbvaz",
-      "q": "In a single phase full wave regulator feeding R-L load, the minimum firing angle can be zero.",
+      "id": "gate-voyn7q",
+      "q": "A static induction thyristor",
       "options": [
-        "True",
-        "False"
+        "is a majority carrier device",
+        "is a minority carrier device",
+        "either a majority carrier or minority carrier device",
+        "has a total number of 2 leads"
       ],
       "correct": 0,
       "explain": "",
@@ -46,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-duisv4",
-      "q": "An RC snubber circuit is used to protect a thyristor against :",
+      "id": "gate-y4hmad",
+      "q": "A single phase step up cycloconverter changes 50 Hz to 100 Hz. Then one half wave of input will give rise to",
       "options": [
-        "false triggering",
-        "failure to turn on",
-        "switching transients",
-        "failure to commutate"
+        "one half wave of output",
+        "one full wave of output",
+        "two full waves of output",
+        "either (b) or (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -66,11 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-10vsrog",
-      "q": "A DIAC has two terminals, anode and cathode.",
+      "id": "gate-17o4228",
+      "q": "Which of these triggering methods for series connected SCRs use LASCR in the gate circuit?",
       "options": [
-        "True",
-        "False"
+        "Resistance triggering",
+        "Simultaneous triggering",
+        "Sequential triggering",
+        "Optical triggering"
       ],
       "correct": 0,
       "explain": "",
@@ -84,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-18bwuvk",
-      "q": "A single phase semiconverter has a freewheeling diode. If the firing angle is a and the load is purely resistive, the periods of conduction and freewheeling respectively are",
+      "id": "gate-n4u190",
+      "q": "A 3 phase ac regulator uses",
       "options": [
-        "p - a and 0",
-        "p - a and a",
-        "p + a and 0",
-        "p + a and a"
+        "3 thyristors",
+        "6 thyristors",
+        "9 thyristors",
+        "12 thyristors"
       ],
       "correct": 0,
       "explain": "",
@@ -104,11 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-bgw4fs",
-      "q": "In a dual converter both converters work as rectifiers.",
+      "id": "gate-190j6jg",
+      "q": "HVDC transmission systems generally use",
       "options": [
-        "True",
-        "False"
+        "12 pulse converters",
+        "6 pulse converters",
+        "3 pulse converters",
+        "either 12 or 6 pulse converters"
       ],
       "correct": 0,
       "explain": "",
@@ -122,12 +128,132 @@
       "tags": []
     },
     {
-      "id": "gate-j82i25",
-      "q": "A single phase full wave regulator feeds R-L load. The best gating signal is",
+      "id": "gate-3420p0",
+      "q": "A single phase semiconverter is feeding a highly inductive load. The circuit has a freewheeling diode across the load and firing angle is a. During one cycle of input voltage, the total duration of conduction of freewheeling diode is",
       "options": [
-        "short duration pulses",
-        "long duration pulses",
-        "pulse train",
+        "a",
+        "2 a",
+        "4 a",
+        "0.5 a"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ug7f34",
+      "q": "During forward blocking state of SCR, the voltage and current respectively are",
+      "options": [
+        "high and high",
+        "low and low",
+        "high and low",
+        "low and high"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qgtljt",
+      "q": "In a 3 phase full converter the average load current is 150 A. The average thyristor current is",
+      "options": [
+        "150 A",
+        "75A",
+        "50 A",
+        "25 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j1lzbo",
+      "q": "The two modes of operation of three phase bridge inverters are known as",
+      "options": [
+        "60&deg; mode and 120&deg; mode",
+        "90&deg; mode and 120&deg; mode",
+        "120&deg; mode and 180&deg; mode",
+        "120&deg; mode and 240&deg; mode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ngm5eq",
+      "q": "In a single phase dual converter, a1, and a2 are firing angles of the two converters. Then",
+      "options": [
+        "a1 - a2 =",
+        "a1 + a2 = p",
+        "a1 - a2 = p",
+        "a1 + a2 ="
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lwnu4k",
+      "q": "The number of gates in an SCR is",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y4q9jo",
+      "q": "The waveshape of output voltage of half bridge inverter is",
+      "options": [
+        "sinusoidal",
+        "square",
+        "triangular",
         "either (a) or (b)"
       ],
       "correct": 0,
@@ -142,12 +268,210 @@
       "tags": []
     },
     {
-      "id": "gate-20eojs",
-      "q": "A 3 phase induction motor is fed by a 3 phase ac regulator to change the stator voltage. The variation in speed will be more if",
+      "id": "gate-1bz7qi8",
+      "q": "A 3 phase induction motor is controlled by voltage and frequency control such that the ratio V/f is constant. At 50 Hz, the speed is 1440 rpm. At 25 Hz, the speed is likely to be",
       "options": [
-        "load torque is constant",
-        "load torque increases with increase in speed",
-        "load torque decreases with increase in speed",
+        "about 1350 rpm",
+        "about 720 rpm",
+        "about 360 rpm",
+        "either (b) or (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ankdzo",
+      "q": "The gate current required to turn on an SCR is",
+      "options": [
+        "few amperes",
+        "a few mA",
+        "almost equal to anode current",
+        "about 50% of anode current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17om9xr",
+      "q": "Assertion (A): A high dv/dt may cause triggering of a thyristor.Reason (R): A high dv/dt results in charging current in the thyristor.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3qc3i8",
+      "q": "Assertion (A): When an SCR is conducting, the voltage drop across is about 1 V. Reason (R): When an SCR is conducting, the junction temperature is about 200&deg;C.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18w8zg7",
+      "q": "When the core of a saturable reactor is saturated, the inductance is high.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tr7ei5",
+      "q": "In controlled heating circuits, thyristors act as",
+      "options": [
+        "rectifier",
+        "inverter",
+        "ac regulator",
+        "chopper"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u4x1bk",
+      "q": "In a fully controlled bridge converter feeding a resistive load the waveshapes of output voltage and output current",
+      "options": [
+        "are always similar",
+        "can never be similar",
+        "may be similar or dissimilar",
+        "are similar only if a = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15cva40",
+      "q": "Which converter is used in HVDC transmission?",
+      "options": [
+        "3 pulse",
+        "6 pulse",
+        "12 pulse",
+        "24 pulse"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjog70",
+      "q": "Assertion (A): The turn on time of SCR is about 1 to 4 ms.Reason (R): The turn off time of SCR is about 10 to 300 ms.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rocdnw",
+      "q": "Which chopper circuit operates in all the 4 quadrants?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pjyqq8",
+      "q": "A single phase cycloconverter feeds a resistance heating load. The heating power is provided by",
+      "options": [
+        "only the fundamental component of output wave",
+        "only higher harmonics in the output wave",
+        "both fundamental and higher harmonics in the output wave",
         "either (a) or (b)"
       ],
       "correct": 0,
@@ -162,8 +486,8 @@
       "tags": []
     },
     {
-      "id": "gate-ke1ksw",
-      "q": "A cycloconverter cannot give a frequency higher than input frequency.",
+      "id": "gate-1dzirk8",
+      "q": "A current source inverter has simple commutation circuit.",
       "options": [
         "True",
         "False"
@@ -180,13 +504,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nm6l1c",
-      "q": "A thyristor has internal power dissipation of 40W and is operated at an ambient temperature of 20&deg;C. If thermal resistance is 1.6&deg; C/W, the junction temperature is",
+      "id": "gate-12qisfm",
+      "q": "In load commutated chopper, the commutating element",
       "options": [
-        "114&deg;C",
-        "164&deg;C",
-        "94&deg; C",
-        "84&deg; C"
+        "is capacitor",
+        "is capacitor and inductor",
+        "is capacitor, inductor and auxiliary thyristor",
+        "any of the above depending on load"
       ],
       "correct": 0,
       "explain": "",
@@ -200,8 +524,148 @@
       "tags": []
     },
     {
-      "id": "gate-1sffna0",
-      "q": "A chopper cannot be line commutated.",
+      "id": "gate-1s6h1ok",
+      "q": "In a half bridge inverter each thyristor is gated at a frequency f. The output frequency is",
+      "options": [
+        "2 f",
+        "f",
+        "0.5 f",
+        "0.25 f"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-82m8bw",
+      "q": "Assertion (A): A transistor has lower voltage drop during conduction as compared to thyristorReason (R): Transistors are manufactured in very high voltage and current ratings.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x840d8",
+      "q": "Assertion (A): Typical value of thermal resistance from source to sink of an SCR is about 0.3&deg; C/WReason (R): Heat sinks of thyristors are generally made of aluminium.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19e3774",
+      "q": "A bridge type single phase cycloconverter changes the frequency f to f/3. Then one half wave of output contains",
+      "options": [
+        "3 full waves of input",
+        "3 half waves of input",
+        "6 full waves of input",
+        "6 half waves of input"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n2hnlc",
+      "q": "A half bridge inverter",
+      "options": [
+        "needs a 3 wire dc supply",
+        "may use a two wire or 3 wire dc supply",
+        "has higher output voltage if fed from 3 wire dc supply",
+        "has higher efficiency if fed from 3 wire dc supply"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b77qps",
+      "q": "A 3 phase series inverter has",
+      "options": [
+        "12 thyristors",
+        "6 thyristors",
+        "3 thyristors",
+        "3 or 6 thyristors"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x449rz",
+      "q": "In figure, thyristor Th is in off state. When thyristor is turned on, the peak thyristor current can be",
+      "options": [
+        "5 A",
+        "10 A",
+        "15 A",
+        "20 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1shfqdc",
+      "q": "HVDC systems are preferable for only long distances.",
       "options": [
         "True",
         "False"
@@ -218,13 +682,13 @@
       "tags": []
     },
     {
-      "id": "gate-6moiso",
-      "q": "Natural commutation can be used in :",
+      "id": "gate-1623eqg",
+      "q": "The circuit in figure is for",
       "options": [
-        "DC circuits only",
-        "AC circuits only",
-        "both AC and DC circuits",
-        "none of the above"
+        "resonant commutation",
+        "self commutation",
+        "load commutation",
+        "auxiliary commutation"
       ],
       "correct": 0,
       "explain": "",
@@ -238,11 +702,13 @@
       "tags": []
     },
     {
-      "id": "gate-19t16o",
-      "q": "In a thyristor the gate lead is connected to the n layer near the p layer to which anode is connected.",
+      "id": "gate-likm5d",
+      "q": "A single phase half bridge inverter required to feed R-L loads needs",
       "options": [
-        "True",
-        "False"
+        "2 thyristors",
+        "4 thyristors",
+        "2 thyristors and two diodes",
+        "4 thyristors and 4 diodes"
       ],
       "correct": 0,
       "explain": "",
@@ -256,13 +722,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qte7pc",
-      "q": "A single phase half wave rectifier circuit has a free wheeling diode. The free wheeling diode will conduct only if",
+      "id": "gate-17xtymo",
+      "q": "Typical values of for an SCR are in the range of",
       "options": [
-        "load is purely resistive",
-        "load is purely inductive",
-        "load is combination of R and L",
-        "load is purely inductive or combination of R and L"
+        "1 to 10",
+        "25 to 500",
+        "0.1 to 1",
+        "1000 to 2000"
       ],
       "correct": 0,
       "explain": "",
@@ -276,12 +742,52 @@
       "tags": []
     },
     {
-      "id": "gate-1jqzjcg",
-      "q": "McMurray Bedford full bridge inverter uses",
+      "id": "gate-1vwd69e",
+      "q": "When a dc chopper feeds an RLE load, the load current, during steady state operation",
       "options": [
-        "natural commutation",
-        "auxiliary commutation",
-        "complementary commutation",
+        "remains constant",
+        "varies between maximum and minimum values",
+        "may remain constant or vary",
+        "is constant if R is constant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-65rc5c",
+      "q": "A single phase half wave rectifier is feeding a resistive load. As firing angle is increased",
+      "options": [
+        "dc output voltage and rms output voltage decrease in the same proportion",
+        "dc output voltage and rms output voltage decrease",
+        "dc output voltage and rms output voltage increase",
+        "dc output voltage and rms output voltage increase in the same proportion"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3i26r4",
+      "q": "A cycloconverter for single phase operation has",
+      "options": [
+        "one positive group and one negative group converters",
+        "two positive group and two negative group converters",
+        "three positive group and three negative group converters",
         "any of the above"
       ],
       "correct": 0,
@@ -296,13 +802,11 @@
       "tags": []
     },
     {
-      "id": "gate-e5lmis",
-      "q": "Multiphase choppers are used in",
+      "id": "gate-apshc8",
+      "q": "A chopper is a high efficiency circuit.",
       "options": [
-        "low power circuits",
-        "high power circuit",
-        "both low and high power circuits",
-        "medium power circuits"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -316,12 +820,13 @@
       "tags": []
     },
     {
-      "id": "gate-8kaxf8",
-      "q": "In a single phase converter using a centre tapped transformer and with a highly inductive load, the firing angles is a. Each thyristor conducts for a period",
+      "id": "gate-1lolleo",
+      "q": "The difference between resonant commutation and self commutation is",
       "options": [
-        "p",
-        "a",
-        "p - a"
+        "both these methods are based on entirely different principles",
+        "in resonant commutation, the commutating elements carry load current but in self commutation, the commutating elements do not carry load current",
+        "resonant commutation uses L and C but self commutation uses only capacitor",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -335,13 +840,13 @@
       "tags": []
     },
     {
-      "id": "gate-93rccg",
-      "q": "In a parallel inverter",
+      "id": "gate-1qpopt0",
+      "q": "In rectifier circuits, the rms value of ac component of output voltage is equal to",
       "options": [
-        "each thyristor is turned on twice during each cycle",
-        "each thyristor is turned on once during each cycle",
-        "each thyristor is turned on either once or twice in each load cycle",
-        "each thyristor may be turned on upto four times in each load cycle"
+        "Vrms",
+        "0.5 Vrms",
+        "(Vrms - Vdc)0.5",
+        "(Vrms2 - Vdc2)0.5"
       ],
       "correct": 0,
       "explain": "",
@@ -355,12 +860,231 @@
       "tags": []
     },
     {
-      "id": "gate-1w264zo",
-      "q": "A step up chopper can give an output voltage",
+      "id": "gate-cn5hco",
+      "q": "A UJT exhibits negative resistance characteristics when",
       "options": [
-        "higher than input voltage",
-        "lower than input voltage",
-        "both higher and lower input voltage",
+        "Current is less than valley current",
+        "Current is less than peak current",
+        "Current is more than peak current but less than valley current",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prg6z0",
+      "q": "A dc chopper feeds an RLE load and has a duty cycle of 1. The load current will be such that",
+      "options": [
+        "Imax &gt; Imin",
+        "Imin &gt; 0",
+        "Imin &lt; 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uvjgvw",
+      "q": "In rectifier circuits, ripple factor RF and form factor FF are related as",
+      "options": [
+        "RF = (FF2 - 1)0.5",
+        "RF = FF",
+        "RF = FF - 1",
+        "RF = (FF - 1)0.5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iwvj94",
+      "q": "If we connect two silicon unilateral switches in anti- parallel we get",
+      "options": [
+        "SCR",
+        "SBS",
+        "SCS",
+        "UJT"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-106dkvd",
+      "q": "In a half bridge inverter the gate pulses of the two thyristors have a phase displacement of",
+      "options": [
+        "60&deg;",
+        "90&deg;",
+        "120&deg;",
+        "180&deg;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gisgw",
+      "q": "A fully controlled bridge converter can operate in quadrants",
+      "options": [
+        "1",
+        "1 and 2",
+        "1 and 3",
+        "1 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c8zmc0",
+      "q": "A class E chopper",
+      "options": [
+        "can operate in second quadrant only",
+        "can operate in first or third quadrant",
+        "can operate in all the four quadrants",
+        "can operate in either second or third quadrant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pbbl6k",
+      "q": "A cycloconverter uses",
+      "options": [
+        "natural commutation",
+        "forced commutation",
+        "either natural or forced commutation",
+        "both natural and forced commutation together"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ku24ui",
+      "q": "Assertion (A): A fully controlled bridge converter can operate in first and fourth quadrant.Reason (R): A semi converter is cheaper than a full converter.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i04pxw",
+      "q": "In a half bridge inverter, the freewheeling diodes are needed",
+      "options": [
+        "even when load is resistive",
+        "only when load is inductive",
+        "only when load is inductive or capacitive",
+        "for all types of loads"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ucm9xg",
+      "q": "When a thyristor is conducting, the voltage drop across it",
+      "options": [
+        "is absolutely constant",
+        "decreases with increase in load current",
+        "increases slightly with increase in load current",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xtc2ws",
+      "q": "The advantage of modified series inverter with two inductors and two capacitors is",
+      "options": [
+        "the intermittent operation of battery is avoided",
+        "efficiency of circuit is more",
+        "the output frequency is low",
         "all of the above"
       ],
       "correct": 0,
@@ -375,13 +1099,13 @@
       "tags": []
     },
     {
-      "id": "gate-4p2brs",
-      "q": "The specified maximum junction temperature of thyristors is about",
+      "id": "gate-epp0c8",
+      "q": "Which chopper circuit operates in quadrants 1 and 4?",
       "options": [
-        "50&deg;C",
-        "80&deg;C",
-        "120&deg;C",
-        "200&deg;C"
+        "A",
+        "B",
+        "D",
+        "E"
       ],
       "correct": 0,
       "explain": "",
@@ -395,488 +1119,8 @@
       "tags": []
     },
     {
-      "id": "gate-16xzb1c",
-      "q": "In a single phase full wave ac regulator feeding R-L load, the gate pulses",
-      "options": [
-        "are always of short duration",
-        "may be of short duration",
-        "should be rectangular with width (p - a)",
-        "cannot be rectangular with width (p - a)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17qpmew",
-      "q": "In a semi converter feeding a resistive load,",
-      "options": [
-        "the waveshapes of input voltage and input current are always similar",
-        "the waveshapes of input voltage and input current can never be similar",
-        "the waveshapes of input voltage and input current are similar only if firing angle is zero",
-        "the waveshapes of input voltage and input current are similar only if firing angle is high"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14gn5kc",
-      "q": "In a single phase semi-converter the number of thyristors is",
-      "options": [
-        "16",
-        "8",
-        "4",
-        "2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v7edfe",
-      "q": "A dc chopper is feeding an RLE load. The current can become discontinuous if",
-      "options": [
-        "is high",
-        "a is low",
-        "E is high",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16z73ok",
-      "q": "Which of these commutation methods uses two leads?",
-      "options": [
-        "Class A",
-        "Class B",
-        "Class C",
-        "Class D"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i9964c",
-      "q": "Assertion (A): SUS is a PUT and avalanche diode connected between gate and cathodeReason (R): SBS has two SUS inbuilt together and connected in anti-parallel",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R correct but R is not correct explanation of A",
-        "A is correct but R is wrong",
-        "A is wrong but R is correct"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18f5j6w",
-      "q": "In a single phase full wave controlled rectifier using centre tap transformer, the voltage across each half of secondary is Vm sin &omega;t. The peak inverse voltage is",
-      "options": [
-        "2 Vm",
-        "Vm",
-        "0.5 Vm",
-        "0.25 Vm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a6y86g",
-      "q": "Which statement is correct?",
-      "options": [
-        "BJT and MOSFET are current controlled devices",
-        "BJT is voltage controlled and MOSFET is current controlled device",
-        "BJT and MOSFET are voltage controlled devices",
-        "BJT is current controlled and MOSFET is voltage controlled device"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8li8ig",
-      "q": "In a three phase series inverter, the firing frequency is",
-      "options": [
-        "three times output frequency",
-        "six times output frequency",
-        "twice the output frequency",
-        "equal to output frequency"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lprw1g",
-      "q": "A 3 phase fully controlled converter is a",
-      "options": [
-        "3 pulse converter",
-        "6 pulse converter",
-        "2 pulse converter",
-        "12 pulse converter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g1gxc0",
-      "q": "In a 3 phase bridge inverter, the gating signals for the three phases have a phase difference of",
-      "options": [
-        "120&deg;",
-        "60&deg;",
-        "240&deg;",
-        "any of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-auui4s",
-      "q": "Assertion (A): The circuit of figure thyristor will conduct for 180&deg; during positive half cycle if it is continuously fired. Reason (R): A thyristor can conduct only when it is forward biased.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R correct but R is not correct explanation of A",
-        "A is correct but R is wrong",
-        "A is wrong but R is correct"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-55xi6f",
-      "q": "The total number of leads in SCR, DIAC and TRIAC respectively are",
-      "options": [
-        "3, 2, 3",
-        "2, 3, 3",
-        "3, 3, 2",
-        "3, 2, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-atnueo",
-      "q": "A single phase semiconverter is feeding a highly inductive load and has a freewheeling diode across the load. The waveshape of input current is",
-      "options": [
-        "sinusoidal",
-        "rectangular",
-        "sinusoidal or rectangular",
-        "triangular"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w73088",
-      "q": "In the below figure, the load is highly inductive. The firing angle is a for each of the thyristors. The periods of conduction of Th1 and Th2 respectively are",
-      "options": [
-        "0 to p and p to 2p",
-        "a to p and p + a to 2p",
-        "a to p + a and p + p to 2p + a",
-        "a to p - a and p + a to 2p - a"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nkjukw",
-      "q": "In a 3 phase semiconverter, the output voltage becomes discontinuous for",
-      "options": [
-        "firing angle &gt; 30&deg;",
-        "firing angle &gt; 60&deg;",
-        "firing angle &gt; 90&deg;",
-        "firing angle &gt; 120&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rmxut4",
-      "q": "A single phase fully controlled bridge converter is feeding an RLE load. Input voltage is Vm sin &omega;t and firing angle is a. If average current is I0, then",
-      "options": [
-        "cos a = RI0 + E",
-        "cos a = RE0 + E",
-        "cos a = E0 - RI0",
-        "cos a = E - RI0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uplqh8",
-      "q": "In integral cycle control of ac regulator, the input power factor is equal to",
-      "options": [
-        "duty cycle a",
-        "a2",
-        "a",
-        "(a)1/3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1813ji8",
-      "q": "A semiconverter feeding an RLE load operates in",
-      "options": [
-        "first quadrant only",
-        "first and second quadrants",
-        "first and fourth quadrants",
-        "first and third quadrants"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vbwnd0",
-      "q": "The phenomenon of overlap in converter operation due to",
-      "options": [
-        "source resistance",
-        "source inductance",
-        "both source resistance and source inductance",
-        "high value of firing angle"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qbg0i4",
-      "q": "A thyristor has a maximum allowable junction temperature of 120&deg;C and the ambient temperature is 40&deg;C. If thermal resistance is 1.6&deg; C/W, the maximum allowable internal power dissipation is",
-      "options": [
-        "20 W",
-        "50 W",
-        "92 W",
-        "128 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r1enul",
-      "q": "For a 12 pulse operation, the two 6 pulse units are fed by",
-      "options": [
-        "Y - Y and Y - Y transformers",
-        "&Delta; - &Delta; and &Delta; - &Delta; transformers",
-        "Y - Y and Y - &Delta; transformers",
-        "Y - &Delta; and Y - &Delta; transformers"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1570izo",
-      "q": "In a single phase full wave converter (M - 2 connection) feeding a highly inductive load, the firing angle for each thyristor is a in the respective half cycle. The period of conduction of each thyristor is",
-      "options": [
-        "p - a",
-        "p",
-        "p + a",
-        "p - 2a"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-167mqps",
-      "q": "If Vdc1 is the dc output voltage in half wave controlled rectifier circuit feeding resistive load and Vdc2 is the dc output voltage in full wave controlled rectifier circuit (M - 2 connection) feeding resistive load, then",
-      "options": [
-        "Vdc1 = 0.5 Vdc2 for all values of firing angle",
-        "Vdc1 = Vdc2 for all values of firing angle",
-        "Vdc1 &le; 0.5 Vdc2 for all values of firing angle",
-        "Vdc1 &ge; 0.5 Vdc2 for all values of firing angle"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Power Electronics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gnk2l4",
-      "q": "A semi converter operates in two quadrants.",
+      "id": "gate-1yr7oww",
+      "q": "A crowbar circuit is generally needed for protection under fault conditions.",
       "options": [
         "True",
         "False"
@@ -893,13 +1137,13 @@
       "tags": []
     },
     {
-      "id": "gate-ibr48s",
-      "q": "Figure shows a chopper feeding RLE load, The free wheeling diode conducts when",
+      "id": "gate-tvrtls",
+      "q": "Forward rating of an SCR is",
       "options": [
-        "thyristor is on",
-        "thyristor is off",
-        "both when thyristor is on and thyristor is off",
-        "partly when thyristor is off and partly when thyristor is on"
+        "the maximum rate of rise of anode voltage which will trigger the SCR",
+        "the maximum rate of rise of anode voltage which will not trigger the SCR if gate signal is applied",
+        "the maximum rate of rise of anode voltage which will not trigger the SCR if gate signal is not applied",
+        "either (b) or (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -913,8 +1157,48 @@
       "tags": []
     },
     {
-      "id": "gate-13md3li",
-      "q": "Assertion (A): An ideal rectifier should have unity harmonic factorReason (R): An ideal rectifier should have unity displacement factor.",
+      "id": "gate-kle417",
+      "q": "The number of leads in a DIAC are",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1exv5tk",
+      "q": "The method of triggering SCS is",
+      "options": [
+        "application of positive pulse at cathode gate or negative pulse at anode gate",
+        "application of pulse at anode gate",
+        "application of pulse at cathode gate",
+        "application of low voltage at anode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kjuka0",
+      "q": "Assertion (A): Thyristors can be used in controlled heating, excitation systems of alternators, speed control of motors and HVDCReason (R): A static var system using thyristors is very commonly used in high voltage ac systems.",
       "options": [
         "Both A and R are correct and R is correct explanation of A",
         "Both A and R correct but R is not correct explanation of A",
@@ -933,13 +1217,762 @@
       "tags": []
     },
     {
-      "id": "gate-d360cs",
-      "q": "A single phase half wave rectifier is feeding a resistive load. When a = 0, dc output voltage is 127 V. When a = 30&deg;, the dc output voltage will be about",
+      "id": "gate-9kxbt8",
+      "q": "In a dual converter operated in circulating current mode, the circulating current flows",
       "options": [
-        "127 V",
-        "120 V",
-        "110 V",
-        "100 V"
+        "when load current is zero",
+        "when load current is non-zero",
+        "even when load current is zero",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fk1cy8",
+      "q": "For a single phase half wave converter feeding a resistive load, the firing angle a. The waveshape in below figure is for",
+      "options": [
+        "output voltage",
+        "input voltage",
+        "voltage drop across thyristor",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19x3xba",
+      "q": "A class B chopper operates in third quadrant.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1apbw3s",
+      "q": "In a full bridge circuit supplying an RLC under damped circuit",
+      "options": [
+        "the waveshapes of output voltage and load current are square",
+        "the waveshapes of output voltage and load current are sinusoidal",
+        "the waveshapes of output voltage is square but the waveshape of load current is nearly sinusoidal",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1inugrg",
+      "q": "McMurrary full bridge inverter uses",
+      "options": [
+        "auxiliary commutation",
+        "complementary commutation",
+        "natural commutation",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xjk3bm",
+      "q": "A fully controlled bridge converter feeds a highly inductive load such that the load current can be assumed to be constant. The wave shape of input current is",
+      "options": [
+        "dc",
+        "sinusoidal",
+        "rectangular",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tndvi8",
+      "q": "A static excitation system uses",
+      "options": [
+        "transformer and thyristors",
+        "transformer and ac exciter",
+        "dc exciter and ac exciter",
+        "transformer and dc exciter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-36dva",
+      "q": "The application of gate signal decreases the break over voltage of on SCR.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qy70q8",
+      "q": "The power factor at the input terminals of a cyclo- converter is generally",
+      "options": [
+        "low and leading",
+        "low and lagging",
+        "high and leading",
+        "high and lagging"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2180",
+      "q": "Ripple factor RF and form factor FF are related as",
+      "options": [
+        "RF = FF2 - 1",
+        "RF = (FF2 - 1)0.5",
+        "RF = FF - 1",
+        "RF = (FF - 1)0.5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9w14n4",
+      "q": "Modified Mc Murray full bridge inverter uses",
+      "options": [
+        "4 thyristors and 2 diodes",
+        "4 thyristors and 4 diodes",
+        "8 thyristors and 4 diodes",
+        "8 thyristors and 8 diodes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19p8rsw",
+      "q": "Assertion (A): Gate triggering is the most commonly used method for triggering of an SCR.Reason (R): Even a small gate current is sufficient to turn on an SCR.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d8ruqw",
+      "q": "A cycloconverter can be",
+      "options": [
+        "step down",
+        "step up",
+        "step down or step up",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sz46ww",
+      "q": "In the below figure the average load current is 15 A. The rms value of transformer secondary current is",
+      "options": [
+        "15 A",
+        "10.61 A",
+        "7.5 A",
+        "14.14 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bcqlw0",
+      "q": "In a 3 phase fully controlled converter the firing frequency is",
+      "options": [
+        "3 times the line frequency",
+        "6 times the line frequency",
+        "9 times the line frequency",
+        "12 times the line frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i5euup",
+      "q": "Two thyristor of same rating and same specifications",
+      "options": [
+        "will have equal turn on and turn off periods",
+        "will have equal turn on but unequal turn off periods",
+        "may have equal or unequal turn on and turn off periods",
+        "will have unequal turn on and turn off periods"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ka27in",
+      "q": "The amount of dielectric heating is inversely proportional to frequency.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1at6qhc",
+      "q": "An SCR is triggered at 40&deg; in the positive half cycle only. The average anode current is 50 A. If the firing angle is changed to 80&deg;, the average anode current is likely to be",
+      "options": [
+        "50 A",
+        "25 A",
+        "less than 50 A but more than 25 A",
+        "less than 25 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1py546l",
+      "q": "The characteristics of a non-linear resistance is i = kv4. If i becomes 100 times, v becomes",
+      "options": [
+        "about 100 times",
+        "about 10 times",
+        "about 3 times",
+        "about twice"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-os3lgg",
+      "q": "In a step down chopper using pulse width modulation, Ton = 3 x 10-3 and Toff = 1 x 10-3 s. The chopping frequency is",
+      "options": [
+        "333.33",
+        "250",
+        "500",
+        "1000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g5uovs",
+      "q": "Thyristors are suitable for dc circuit breakers but not for ac circuit breakers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f303qn",
+      "q": "Assertion (A): Inverters and choppers use fast switching thyristors Reason (R): Fast switching SCR has low turn off time.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13jatr",
+      "q": "The number of leads in an SCR are :",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vx86ih",
+      "q": "A thyristor has a turn on time of 6 &mu;s. If the anode circuit is inductive, the turn on time will be",
+      "options": [
+        "6 &mu;s",
+        "less than 6&mu;s",
+        "more than 6 &mu;s",
+        "either 6 &mu;s or less"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hd1xfo",
+      "q": "The total number of leads in reverse conducting thyristor is",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ln5ngc",
+      "q": "Assertion (A): A TRIAC is a bidirectional SCR.Reason (R): A TRIAC is a four layers 3 terminal device and can conduct in both directions.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R correct but R is not correct explanation of A",
+        "A is correct but R is wrong",
+        "A is wrong but R is correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xultxk",
+      "q": "The average load current supplied by a thyristor depends on",
+      "options": [
+        "firing angle",
+        "firing frequency",
+        "magnitude of gate current",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18fvt8w",
+      "q": "In a 3 phase full wave regulator feeding a star connected resistance load the input voltage is 400 V line to line. The firing angle is 160&deg;. The line to line output voltage would be",
+      "options": [
+        "400 V",
+        "about 100 V",
+        "about 20 V",
+        "zero"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dk422w",
+      "q": "A thyristor is reverse biased. A positive gate pulse is applied. The thyristor",
+      "options": [
+        "will be turned on",
+        "may or may not turn on",
+        "will not turn on",
+        "will turn on after sometime"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cip9s4",
+      "q": "A single phase series converter is used for",
+      "options": [
+        "high voltage output",
+        "high current output",
+        "high voltage and high current output",
+        "improving the circuit efficiency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i0wleu",
+      "q": "UJT can be used for",
+      "options": [
+        "firing an SCR",
+        "turning off an SCR",
+        "both firing and turning off an SCR",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15x3xfs",
+      "q": "In a full wave converter (M - 2 connection) feeding an RLE load, the peak thyristor current is 15 A. For fully controlled bridge circuit and same load current, the peak thyristor current will be",
+      "options": [
+        "30 A",
+        "152 A",
+        "15 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mq5ogl",
+      "q": "Induction heating systems require low frequency inverters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mwabkc",
+      "q": "A single phase half wave converter is used to charge a battery of 50 V. The thyristor is continuously fired by dc signal. Input voltage is v = Vm sin &omega;t. The thyristor will conduct",
+      "options": [
+        "from 0 to 180&deg;",
+        "when v &gt; 50 V",
+        "from 0 to 90&deg;",
+        "When v &lt; 50 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s6ykf2",
+      "q": "The symbol in figure is for",
+      "options": [
+        "DIAC",
+        "P-N junction diode",
+        "Schottky diode",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xtxtws",
+      "q": "In a 3 phase semiconverter, the firing frequency is",
+      "options": [
+        "equal to line frequency",
+        "3 times the line frequency",
+        "6 times the line frequency",
+        "12 times the line frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sezy4k",
+      "q": "Present day HVDC converters are all",
+      "options": [
+        "3 pulse converters",
+        "6 pulse converters",
+        "12 pulse converters",
+        "either 6 pulse or 12 converters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19fj8lc",
+      "q": "A single phase full converter gives maximum and minimum output voltage at firing angles of",
+      "options": [
+        "0 and 180&deg; respectively",
+        "180&deg; and 0&deg; respectively",
+        "0 and 90&deg; respectively",
+        "90&deg; and 0&deg; respectively"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Power Electronics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nzy1v1",
+      "q": "In a 3 phase semiconverter, the dc output voltage for a certain firing angle is 50% of the maximum possible value. The firing angle is",
+      "options": [
+        "30&deg;",
+        "60&deg;",
+        "90&deg;",
+        "120&deg;"
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Logic Circuit Simplification",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 9,
   "questions": [
     {
-      "id": "gate-xhpvnk",
-      "q": "Subtraction is commutative.",
+      "id": "gate-1qmdk1z",
+      "q": "is the algebraic expression for the duality theorem.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-19y79p2",
-      "q": "The expressions, , are equivalent.",
+      "id": "gate-duexy8",
+      "q": "The associative law of addition states that A + (B + C) = (A + B) + C.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1hlbzi9",
-      "q": "The Boolean expression for a three-input AND gate is Y = A &#149; B + C.",
+      "id": "gate-d9z5kc",
+      "q": "The application of DeMorgan's theorems to a Boolean expression with double and single inversions produces a resultant expression that contains only single inverter signs over single variables.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-164gul7",
-      "q": "According to the commutative law, in ORing and ANDing of two variables, the order in which the variables are ORed or ANDed makes no difference.",
+      "id": "gate-1v0j4nb",
+      "q": "The sum-of-products form is a Boolean expression that describes the ANDing of two or more OR functions.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-fddsy6",
-      "q": "Boolean multiplication is symbolized by A + B.",
+      "id": "gate-ijpdms",
+      "q": "The double-inversion rule states that if a variable is inverted twice, then the variable will be back to its original state.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q7c0gl",
-      "q": "Each \"1\" entry in a K-map square represents ______________.",
+      "id": "gate-vzuwo",
+      "q": "Which statement below best describes a Karnaugh map?",
       "options": [
-        "a HIGH output on the truth table for all input combinations",
-        "a LOW output for all possible HIGH input conditions",
-        "a DON'T CARE condition for all possible input truth table combinations",
-        "a HIGH for each input truth table condition that produces a HIGH output"
+        "It is simply a rearranged truth table.",
+        "The Karnaugh map eliminates the need for using NAND and NOR gates.",
+        "Variable complements can be eliminated by using Karnaugh maps.",
+        "A Karnaugh map can be used to replace Boolean rules."
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,33 @@
       "tags": []
     },
     {
-      "id": "gate-11hor98",
-      "q": "One reason for using the sum-of-products form is that it can be implemented using all ______ gates without much alteration.",
+      "id": "gate-1bi05vc",
+      "q": "Which of the examples below expresses the commutative law of multiplication?",
       "options": [
-        "AND",
+        "A + B = B + A",
+        "A &#149; B = B + A",
+        "A &#149; (B &#149; C) = (A &#149; B) &#149; C",
+        "A &#149; B = B &#149; A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Circuit Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v7zrp4",
+      "q": "The Boolean expression is logically equivalent to what single gate?",
+      "options": [
         "NAND",
-        "OR",
-        "NOR"
+        "NOR",
+        "AND",
+        "OR"
       ],
       "correct": 0,
       "explain": "",
@@ -138,151 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pfwocq",
-      "q": "When grouping cells within a K-map, the cells must be combined in groups of ________.",
+      "id": "gate-d0wklo",
+      "q": "The observation that a bubbled input OR gate is interchangeable with a bubbled output AND gate is referred to as:",
       "options": [
-        "2s",
-        "1, 2, 4, 8, etc.",
-        "4s",
-        "3s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vysxa0",
-      "q": "The application of Boolean algebra to the solution of digital logic circuits was first explored by ________ of ________.",
-      "options": [
-        "Claude Shannon, MIT",
-        "George Boole, MIT",
-        "George Boole, Stanford",
-        "Claude Shannon, IBM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pyvj6o",
-      "q": "A Karnaugh map will ____________________.",
-      "options": [
-        "eliminate the need for tedious Boolean expressions",
-        "allow any circuit to be implemented with just AND and OR gates",
-        "produce the simplest sum-of-products expression",
-        "give an overall picture of how the signals flow through the logic circuit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1teibu0",
-      "q": "Logically, the output of a NOR gate would have the same Boolean expression as a(n):",
-      "options": [
-        "NAND gate immediately followed by an INVERTER",
-        "OR gate immediately followed by an INVERTER",
-        "AND gate immediately followed by an INVERTER",
-        "NOR gate immediately followed by an INVERTER"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12t5sp4",
-      "q": "Which of the examples below expresses the distributive law of Boolean algebra?",
-      "options": [
-        "A &#149; (B &#149; C) = (A &#149; B) + C",
-        "A + (B + C) = (A &#149; B) + (A &#149; C)",
-        "A &#149; (B + C) = (A &#149; B) + (A &#149; C)",
-        "(A + B) + C = A + (B + C)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6zzq9m",
-      "q": "One of DeMorgan's theorems states that . Simply stated, this means that logically there is no difference between:",
-      "options": [
-        "a NAND gate and an AND gate with a bubbled output",
-        "a NOR gate and an AND gate with a bubbled output",
-        "a NOR gate and a NAND gate with a bubbled output",
-        "a NAND gate and an OR gate with a bubbled output"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3l5y8g",
-      "q": "The commutative law of addition and multiplication indicates that:",
-      "options": [
-        "the way we OR or AND two variables is unimportant because the result is the same",
-        "we can group variables in an AND or in an OR any way we want",
-        "an expression can be expanded by multiplying term by term just the same as in ordinary algebra",
-        "the factoring of Boolean expressions requires the multiplication of product terms that contain like variables"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Logic Circuit Simplification",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qnd1k",
-      "q": "Which of the following expressions is in the sum-of-products (SOP) form?",
-      "options": [
-        "Y = (A + B)(C + D)",
-        "Y = AB(CD)"
+        "a Karnaugh map",
+        "DeMorgan's second theorem",
+        "the commutative law of addition",
+        "the associative law of multiplication"
       ],
       "correct": 0,
       "explain": "",

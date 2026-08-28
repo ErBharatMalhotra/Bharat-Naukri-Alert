@@ -5,16 +5,16 @@
   "subject": "C++ Programming",
   "topic": "Functions",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 43,
   "questions": [
     {
-      "id": "gate-zhy77g",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; long BixFunction(int x, int y = 5, float z = 5) { return(++x * ++y + (int)++z); } int main() { cout&lt;&lt; BixFunction(20, 10); return 0; }",
+      "id": "gate-6hmq1c",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { public: void Bix(int x = 15) { x = x/2; if(x &gt; 0) Bix(); else cout&lt;&lt; x % 2; } }; int main() { IndiaBix objIB; objIB.Bix(); return 0; }",
       "options": [
-        "237",
-        "242",
-        "240",
-        "35"
+        "The program will display 1.",
+        "The program will display 2.",
+        "The program will display 15.",
+        "The program will go into an infinite loop."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-g3ri4s",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; int BixFunction(int a, int b = 3, int c = 3) { cout&lt;&lt; ++a * ++b * --c ; return 0; } int main() { BixFunction(5, 0, 0); return 0; }",
+      "id": "gate-14erd2g",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; long GetNumber(long int Number) { return --Number; } float GetNumber(int Number) { return ++Number; } int main() { int x = 20; int y = 30; cout&lt;&lt; GetNumber(x) &lt;&lt; \" \"; cout&lt;&lt; GetNumber(y) ; return 0; }",
       "options": [
-        "8",
-        "6",
-        "-6",
-        "-8"
+        "The program will print the output 19 31.",
+        "The program will print the output 20 30.",
+        "The program will print the output 21 31.",
+        "The program will print the output 21 29."
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nuoag8",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; void MyFunction(int a, int b = 40) { cout&lt;&lt; \" a = \"&lt;&lt; a &lt;&lt; \" b = \" &lt;&lt; b &lt;&lt; endl; } int main() { MyFunction(20, 30); return 0; }",
+      "id": "gate-1oakdpo",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; struct MyData { public: int Addition(int a, int b = 10) { return (a *= b + 2); } float Addition(int a, float b); }; int main() { MyData data; cout&lt;&lt;data.Addition(1)&lt;&lt;\" \"; cout&lt;&lt;data.Addition(3, 4); return 0; }",
       "options": [
-        "a = 20 b = 40",
-        "a = 20 b = 30",
-        "a = 20 b = Garbage",
-        "a = Garbage b = 40"
+        "12 12",
+        "12 18",
+        "3 14",
+        "18 12"
       ],
       "correct": 0,
       "explain": "",
@@ -68,12 +68,12 @@
       "tags": []
     },
     {
-      "id": "gate-1fn0280",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; static int b = 0; void DisplayData(int *x, int *y = &amp;b) { cout&lt;&lt; *x &lt;&lt; \" \" &lt;&lt; *y; } int main() { int a = 10, b = 20 ; DisplayData(&amp;a, &amp;b); return 0; }",
+      "id": "gate-1aszudu",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; int BixTest(int x, int y); int BixTest(int x, int y, int z = 5); int main() { cout&lt;&lt; BixTest(2, 4) &lt;&lt; endl; return 0; } int BixTest(int x, int y) { return x * y; } int BixTest(int x, int y, int z = 5) { return x * y * z; }",
       "options": [
-        "The program will print the output 10 20.",
-        "The program will print the output 10 0.",
-        "The program will print the output 10 garbage.",
+        "The program will print the output 5.",
+        "The program will print the output 8.",
+        "The program will print the output 40.",
         "The program will report compile time error."
       ],
       "correct": 0,
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-kdy1bw",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; typedef void(*FunPtr)(int); int Look(int = 10, int = 20); void Note(int); int main() { FunPtr ptr = Note; (*ptr)(30); return 0; } int Look(int x, int y) { return(x + y % 20); } void Note(int x) { cout&lt;&lt; Look(x) &lt;&lt; endl; }",
+      "id": "gate-16vh47s",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiabixSample { public: int a; float b; void BixFunction(int a, float b, float c = 100.0f) { cout&lt;&lt; a % 20 + c * --b; } }; int main() { IndiabixSample objBix; objBix.BixFunction(20, 2.000000f, 5.0f); return 0; }",
       "options": [
-        "10",
-        "20",
-        "30",
-        "40"
+        "0",
+        "5",
+        "100",
+        "-5"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hjywyn",
-      "q": "Which of the following statement is incorrect?",
+      "id": "gate-x96xek",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; static int Result; class India { public: void Change(int x = 10, int y = 20, int z = 30) { cout&lt;&lt; x + y + z; } void Display(int x = 40, float y = 50.00) { Result = x % x; cout&lt;&lt; Result; } }; class Bix { int x, y; public: void Change(int x, int y = 50) { cout&lt;&lt; x + y; } }; class IndiaBix: public India, public Bix { public: void Display(int x = 10, int xx = 100, int xxx = 1000) { Result = x + xx % x * x; cout&lt;&lt; Result ; } }; int main() { IndiaBix objBix; objBix.India::Display(10, 20.00); return 0; }",
       "options": [
-        "Default arguments can be provided for pointers to functions.",
-        "A function can have all its arguments as default.",
-        "Default argument cannot be provided for pointers to functions.",
-        "A default argument cannot be redefined in later declaration."
+        "The program will print the output 0.",
+        "The program will print the output 10.",
+        "The program will print the output 30.",
+        "The program will print the output 40."
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-whkt14",
-      "q": "Which of the following function / type of function cannot be overloaded?",
+      "id": "gate-1sz5rco",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; float y; public: void BixFunction(int = 0, float = 0.00f, char = 'A'); void BixFunction(float, int = 10.00, char = 'Z'); void BixFunction(char, char, char); }; int main() { IndiaBix objBix; objBix.BixFunction(10 * 1.0, int(56.0)); return 0; } void IndiaBix::BixFunction(int xx, float yy, char zz) { x = xx + int(yy); cout&lt;&lt; \"x = \" &lt;&lt; x &lt;&lt; endl; } void IndiaBix::BixFunction(float xx, int yy, char zz) { x = zz + zz; y = xx + yy; cout&lt;&lt; \" x = \" &lt;&lt; x &lt;&lt; endl; } void IndiaBix::BixFunction(char xx, char yy, char zz) { x = xx + yy + zz; y = float(xx * 2); cout&lt;&lt; \" x = \" &lt;&lt; x &lt;&lt; endl; }",
       "options": [
-        "Member function",
-        "Static function",
-        "Virtual function",
-        "Both B and C"
+        "The program will print the output x = 65.",
+        "The program will print the output x = 66.",
+        "The program will print the output x = 130.",
+        "The program will print the output x = 180."
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dsh0bs",
-      "q": "Which of the following function declaration is/are incorrect?",
+      "id": "gate-8adzyg",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; static double gDouble; static float gFloat; static double gChar; static double gSum = 0; class BaseOne { public: void Display(double x = 0.0, float y = 0.0, char z = 'A') { gDouble = x; gFloat = y; gChar = int(z); gSum = gDouble + gFloat + gChar; cout &lt;&lt; gSum; } }; class BaseTwo { public: void Display(int x = 1, float y = 0.0, char z = 'A') { gDouble = x; gFloat = y; gChar = int(z); gSum = gDouble + gFloat + gChar; cout &lt;&lt; gSum; } }; class Derived : public BaseOne, BaseTwo { void Show() { cout &lt;&lt; gSum; } }; int main() { Derived objDev; objDev.BaseTwo::Display(10, 20, 'Z'); return 0; }",
       "options": [
-        "int Sum(int a, int b = 2, int c = 3);",
-        "int Sum(int a = 5, int b);",
-        "int Sum(int a = 0, int b, int c = 3);",
-        "Both B and C are incorrect."
+        "The program will print the output 0.",
+        "The program will print the output 120.",
+        "The program will report run-time error.",
+        "The program will report compile-time error."
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +168,693 @@
       "tags": []
     },
     {
-      "id": "gate-1yucez4",
-      "q": "Which of the following function / types of function cannot have default parameters?",
+      "id": "gate-19nkcig",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Base { public: int S, A, M; Base(int x, int y) { S = y - y; A = x + x; M = x * x; } Base(int, int y = 'A', int z = 'B') { S = y; A = y + 1 - 1; M = z - 1; } void Display(void) { cout&lt;&lt; S &lt;&lt; \" \" &lt;&lt; A &lt;&lt; \" \" &lt;&lt; M &lt;&lt; endl; } }; class Derived : public Base { int x, y, z; public: Derived(int xx = 65, int yy = 66, int zz = 67): Base(x) { x = xx; y = yy; z = zz; } void Display(int n) { if(n) Base::Display(); else cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; z &lt;&lt; endl; } }; int main() { Derived objDev; objDev.Display(-1); return 0; }",
       "options": [
-        "Member function of class",
-        "main()",
-        "Member function of structure",
-        "Both B and C"
+        "65 65 65",
+        "65 66 67",
+        "A A A",
+        "A B C"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1auqzww",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Base { public: char S, A, M; Base(char x, char y) { S = y - y; A = x + x; M = x * x; } Base(char, char y = 'A', char z = 'B') { S = y; A = y + 1 - 1; M = z - 1; } void Display(void) { cout&lt;&lt; S &lt;&lt; \" \" &lt;&lt; A &lt;&lt; \" \" &lt;&lt; M &lt;&lt; endl; } }; class Derived : public Base { char x, y, z; public: Derived(char xx = 65, char yy = 66, char zz = 65): Base(x) { x = xx; y = yy; z = zz; } void Display(int n) { if(n) Base::Display(); else cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; z &lt;&lt; endl; } }; int main() { Derived objDev; objDev.Display(0-1); return 0; }",
+      "options": [
+        "A A A",
+        "A B A",
+        "A B C",
+        "Garbage Garbage Garbage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2x5jas",
+      "q": "Which of the following function prototype is perfectly acceptable?",
+      "options": [
+        "int Function(int Tmp = Show());",
+        "float Function(int Tmp = Show(int, float));",
+        "Both A and B.",
+        "float = Show(int, float) Function(Tmp);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ixq4c",
+      "q": "Which of the following statement will be correct if the function has three arguments passed to it?",
+      "options": [
+        "The trailing argument will be the default argument.",
+        "The first argument will be the default argument.",
+        "The middle argument will be the default argument.",
+        "All the argument will be the default argument."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dlv7m0",
+      "q": "Where the default value of parameter have to be specified?",
+      "options": [
+        "Function call",
+        "Function definition",
+        "Function prototype",
+        "Both B or C"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j8ejxo",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; void Tester(int xx, int yy = 5); class IndiaBix { int x; int y; public: void Tester(int xx, int yy = 5) { x = xx; y = yy; cout&lt;&lt; ++x % --y; } }; int main() { IndiaBix objBix; objBix.Tester(5, 5); return 0; }",
+      "options": [
+        "The program will print the output 0.",
+        "The program will print the output 1.",
+        "The program will print the output 2.",
+        "The program will print the output garbage value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fuz4m0",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class PowerFinder { public: void Power(int x = 1, int y = 1) { int P = 1, i = 1; while(++i &lt;= y) { P *= x; } cout&lt;&lt; P &lt;&lt; endl; } }; int main() { PowerFinder FP; FP.Power(2, 6); return 0; }",
+      "options": [
+        "The program will print the output 12.",
+        "The program will print the output 16.",
+        "The program will print the output 32.",
+        "The program will print the output 36."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l7i5zk",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; void Tester(float xx, float yy = 5.0); class IndiaBix { float x; float y; public: void Tester(float xx, float yy = 5.0) { x = xx; y = yy; cout&lt;&lt; ++x % --y; } }; int main() { IndiaBix objBix; objBix.Tester(5.0, 5.0); return 0; }",
+      "options": [
+        "The program will print the output 0.",
+        "The program will print the output 1.",
+        "The program will print the output 2.",
+        "The program will print the output garbage value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m2h40q",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; const double BixConstant(const int, const int = 0); int main() { const int c = 2 ; cout&lt;&lt; BixConstant(c, 10)&lt;&lt; \" \"; cout&lt;&lt; BixConstant(c, 20)&lt;&lt; endl; return 0; } const double BixConstant(const int x, const int y) { return( (y + (y * x) * x % y) * 0.2); }",
+      "options": [
+        "The program will print the output 2 4.",
+        "The program will print the output 20 40.",
+        "The program will print the output 10 20.",
+        "The program will print the output 20 4.50."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ihe0eg",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; struct MyStructure { class MyClass { public: void Display(int x, float y = 97.50, char ch = 'a') { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; ch; } }Cls; }Struc; int main() { Struc.Cls.Display(12, 'b'); return 0; }",
+      "options": [
+        "The program will print the output 12 97.50 b.",
+        "The program will print the output 12 97.50 a.",
+        "The program will print the output 12 98 a.",
+        "The program will print the output 12 Garbage b."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c8vewk",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; #include&lt;string.h&gt; class BixString { char x[50]; char y[50]; char z[50]; public: BixString() { } BixString(char* xx) { strcpy(x, xx); strcpy(y, xx); } BixString(char *xx, char *yy = \" C++\", char *zz = \" Programming!\") { strcpy(z, xx); strcat(z, yy); strcat(z, zz); } void Display(void) { cout&lt;&lt; z &lt;&lt; endl; } }; int main() { BixString objStr(\"Learn\", \" Java\"); objStr.Display(); return 0; }",
+      "options": [
+        "Java Programming!",
+        "C++ Programming!",
+        "Learn C++ Programming!",
+        "Learn Java Programming!"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fb534",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BaseCounter { protected: long int count; public: void CountIt(int x, int y = 10, int z = 20) { count = 0; cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; z &lt;&lt; endl; } BaseCounter() { count = 0; } BaseCounter(int x) { count = x ; } }; class DerivedCounter: public BaseCounter { public: DerivedCounter() { } DerivedCounter(int x): BaseCounter(x) { } }; int main() { DerivedCounter objDC(30); objDC.CountIt(40, 50); return 0; }",
+      "options": [
+        "30 10 20",
+        "Garbage 10 20",
+        "40 50 20",
+        "20 40 50"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e28cy0",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Number { int Num; public: Number(int x = 0) { Num = x; } void Display(void) { cout&lt;&lt; Num; } void Modify(); }; void Number::Modify() { int Dec; Dec = Num % 13; Num = Num / 13; if(Num &gt; 0 ) Modify() ; if(Dec == 10) cout&lt;&lt; \"A\" ; else if(Dec == 11) cout&lt;&lt; \"B\" ; else if(Dec == 12) cout&lt;&lt; \"C\" ; else if(Dec == 13) cout&lt;&lt; \"D\" ; else cout&lt;&lt; Dec ; } int main() { Number objNum(130); objNum.Modify(); return 0; }",
+      "options": [
+        "130",
+        "A0",
+        "B0",
+        "90"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qyatak",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Base { int x, y; public: Base() { x = y = 0; } Base(int xx) { x = xx; } Base(int p, int q = 10) { x = p + q; y = q; } void Display(void) { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl; } }objDefault(1, 1); class Derived: public Base { Base obj; public: Derived(int xx, int yy): Base(xx, xx + 1) { } Derived(Base objB = objDefault) { } }; int main() { Derived objD(5, 3); Derived *ptrD = new Derived(objD); ptrD-&gt;Display(); delete ptrD; return 0; }",
+      "options": [
+        "3 2",
+        "8 3",
+        "11 6",
+        "11 10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kpfyjk",
+      "q": "What is correct about the following program? #include&lt;iostream.h&gt; class Base { int x, y, z; public: Base() { x = y = z = 0; } Base(int xx, int yy = 'A', int zz = 'B') { x = xx; y = x + yy; z = x + y; } void Display(void) { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; z &lt;&lt; endl; } }; class Derived : public Base { int x, y; public: Derived(int xx = 65, int yy = 66) : Base(xx, yy) { y = xx; x = yy; } void Display(void) { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \"; Display(); } }; int main() { Derived objD; objD.Display(); return 0; }",
+      "options": [
+        "The program will report compilation error.",
+        "The program will run successfully giving the output 66 65.",
+        "The program will run successfully giving the output 65 66.",
+        "The program will run successfully giving the output 66 65 65 131 196."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1skjis4",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; long FactFinder(long = 5); int main() { for(int i = 0; i&lt;= 0; i++) cout&lt;&lt; FactFinder() &lt;&lt; endl; return 0; } long FactFinder(long x) { if(x &lt; 2) return 1; long fact = 1; for(long i = 1; i &lt;= x-1; i++) fact = fact * i; return fact; }",
+      "options": [
+        "The program will print the output 1.",
+        "The program will print the output 24.",
+        "The program will print the output 120.",
+        "The program will print the output garbage value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12pt6q0",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; double BixFunction(double, double, double = 0, double = 0, double = 0); int main() { double d = 2.3; cout&lt;&lt; BixFunction(d, 7) &lt;&lt; \" \"; cout&lt;&lt; BixFunction(d, 7, 6) &lt;&lt; endl; return 0; } double BixFunction(double x, double p, double q, double r, double s) { return p +(q +(r + s * x)* x) * x; }",
+      "options": [
+        "7 20",
+        "7 19.8",
+        "7 Garbage",
+        "7 20.8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wf0m2o",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; int main() { float Amount; float Calculate(float P = 5.0, int N = 2, float R = 2.0); Amount = Calculate(); cout&lt;&lt; Amount &lt;&lt; endl; return 0; } float Calculate(float P, int N, float R) { int Year = 1; float Sum = 1 ; Sum = Sum * (1 + P * ++N * R); Year = (int)(Year + Sum); return Year; }",
+      "options": [
+        "21",
+        "22",
+        "31",
+        "32"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nak9t4",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Bix { int x, y; public: void show(void); void main(void); }; void Bix::show(void) { Bix b; b.x = 2; b.y = 4; cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } void Bix::main(void) { Bix b; b.x = 6; b.y = 8; b.show(); } int main(int argc, char *argv[]) { Bix run; run.main(); return 0; }",
+      "options": [
+        "2 4",
+        "6 8",
+        "The program will report error on Compilation.",
+        "The program will report error on Linking."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5neamg",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiabixSample { private: int AdditionOne(int x, int y = 1) { return x * y; } public: int AdditionTwo(int x, int y = 1) { return x / y; } }; int main() { IndiabixSample objBix; cout&lt;&lt;objBix.AdditionOne(4, 8)&lt;&lt;\" \"; cout&lt;&lt;objBix.AdditionTwo(8, 8); return 0; }",
+      "options": [
+        "The program will print the output 32 0.",
+        "The program will print the output 32 garbage-value.",
+        "The program will print the output 32 1.",
+        "The program will report compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bbwcv8",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y, z; public: IndiaBix(int x = 100, int y = 30, int z = 0) { this-&gt;x = x; this-&gt;y = y; this-&gt;z = z; Display(); } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; \" \" &lt;&lt; z; } }; int main() { int a = 0, b = 1, c = 2; int &amp;x = ++a; int &amp;y = --b; int z = c + b - -c; IndiaBix objBix(x, y, z); return 0; }",
+      "options": [
+        "The program will print the output 1 0 3.",
+        "The program will print the output 1 0 4.",
+        "The program will print the output 1 1 3.",
+        "The program will print the output 1 1 4."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h8wcc8",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixArray { int array[3][3]; public: BixArray(int arr[3][3] = NULL) { if(arr != NULL) for(int i = 0; i &lt; 3; i++) for(int j = 0; j &lt; 3; j++) array[i][j] = i+j; } void Display(void) { for(int i = 0; i &lt; 3; i++) for(int j = 0; j &lt; 3; j++) cout&lt;&lt; array[i][j] &lt;&lt; \" \"; } }; int main() { BixArray objBA; objBA.Display(); return 0; }",
+      "options": [
+        "The program will report error on compilation.",
+        "The program will display 9 garbage values.",
+        "The program will display NULL 9 times.",
+        "The program will display 0 1 2 1 2 3 2 3 4."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kv4dks",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; struct IndiaBix { int arr[5]; public: void BixFunction(void); void Display(void); }; void IndiaBix::Display(void) { for(int i = 0; i &lt; 5; i++) cout&lt;&lt; arr[i] &lt;&lt; \" \" ; } void IndiaBix::BixFunction(void) { static int i = 0, j = 4; int tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp ; i++; j--; if(j != i) BixFunction(); } int main() { IndiaBix objBix = {{ 5, 6, 3, 9, 0 }}; objBix.BixFunction(); objBix.Display(); return 0; }",
+      "options": [
+        "0 9 3 6 5",
+        "9 3 6 5 0",
+        "5 6 3 9 0",
+        "5 9 3 6 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1trgsoo",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; float y; public: IndiaBix(int x) { x = x; } IndiaBix(int p = 0, int q = 10) { x = p += 2; y = q * 1.0f; } void SetValue(int &amp;y, float z) { x = y; y = (int)z; } void Display(void) { cout&lt;&lt; x; } }; int main() { int val = 12; IndiaBix objBix(val); IndiaBix objTmp(); objBix.SetValue(val, 3.14f); objBix.Display(); return 0; }",
+      "options": [
+        "The program will print the output 2.",
+        "The program will print the output 12.",
+        "The program will report run time error.",
+        "The program will not compile successfully."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hw4uyg",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; struct BixArray { int arr[5]; public: void BixFunction(); void Display(); }; void BixArray::BixFunction() { static int i = 0, j = 4; i++; j--; if(j &gt; 0) BixFunction(); int tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp; i--; j++; } void BixArray::Display() { for(int i = 0; i &lt; 5; i++) cout&lt;&lt; arr[i] &lt;&lt; \" \"; } int main() { BixArray objArr = {{5, 6, 3, 9, 0}}; objArr.BixFunction(); objArr.Display(); return 0; }",
+      "options": [
+        "5 6 3 9 0",
+        "0 9 3 6 5",
+        "0 5 6 3 9",
+        "0 6 3 9 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16uhn7c",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int K; public: void BixFunction(float, int , char); void BixFunction(float, char, char); }; int main() { IndiaBix objIB; objIB.BixFunction(15.09, 'A', char('A' + 'A')); return 0; } void IndiaBix::BixFunction(float, char y, char z) { K = int(z); K = int(y); K = y + z; cout&lt;&lt; \"K = \" &lt;&lt; K &lt;&lt; endl; }",
+      "options": [
+        "The program will print the output M = 130.",
+        "The program will print the output M = 195.",
+        "The program will print the output M = -21.",
+        "The program will print the output M = -61."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13xrdsc",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class TestDrive { int x; public: TestDrive(int xx) { x = xx; } int DriveIt(void); }; int TestDrive::DriveIt(void) { static int value = 0; int m; m = x % 2; x = x / 2; if((x / 2)) DriveIt(); value = value + m * 10; return value; } int main() { TestDrive TD(1234); cout&lt;&lt; TD.DriveIt() * 10 &lt;&lt; endl; return 0; }",
+      "options": [
+        "300",
+        "200",
+        "Garbage value",
+        "400"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uz0qwk",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int Num; public: IndiaBix(int x) { Num = x; } int BixFunction(void); }; int IndiaBix::BixFunction(void) { static int Sum = 0; int Dec; Dec = Num % 10; Num = Num / 10; if((Num / 100)) BixFunction(); Sum = Sum * 10 + Dec; return Sum; } int main() { IndiaBix objBix(12345); cout&lt;&lt; objBix.BixFunction(); return 0; }",
+      "options": [
+        "123",
+        "321",
+        "345",
+        "12345"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1brhl0w",
+      "q": "What is correct about the following program? #include&lt;iostream.h&gt; class Addition { int x; public: Addition() { x = 0; } Addition(int xx) { x = xx; } Addition operator + (int xx = 0) { Addition objTemp; objTemp.x = x + xx; return(objTemp); } void Display(void) { cout&lt;&lt; x &lt;&lt; endl; } }; int main() { Addition objA(15), objB; objB = objA + 5; objB.Display(); return 0; }",
+      "options": [
+        "The program will print the output 20.",
+        "The program will report run time error.",
+        "The program will print the garbage value.",
+        "Compilation fails due to 'operator +' cannot have default arguments."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-swkba0",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class AreaFinder { float l, b, h; float result; public: AreaFinder(float hh = 0, float ll = 0, float bb = 0) { l = ll; b = bb; h = hh; } void Display(int ll) { if(l = 0) result = 3.14f * h * h; else result = l * b; cout&lt;&lt; result; } }; int main() { AreaFinder objAF(10, 10, 20); objAF.Display(0); return 0; }",
+      "options": [
+        "0",
+        "314",
+        "314.0000",
+        "200.0000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1daefdc",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { public: int x, y; IndiaBix(int xx = 10, int yy = 20) { x = xx; y = yy; } void Exchange(int *, int *); }; int main() { IndiaBix objA(30, 40); IndiaBix objB(50); objA.Exchange(&amp;objA.x, &amp;objB.y); cout&lt;&lt; objA.x &lt;&lt; \" \" &lt;&lt; objB.y &lt;&lt; endl; return 0; } void IndiaBix::Exchange(int *x, int *y) { int t; t = *x; *x = *y; *y = t ; }",
+      "options": [
+        "20 10",
+        "30 20",
+        "20 30",
+        "30 40"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y1ls3i",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixArray { int Matrix[3][3]; public: BixArray() { for(int i = 0; i&lt;3; i++) for(int j = 0; j &lt; 3; j++) Matrix[j][i] = i + j; } void Display(void) { for(int i = 0; i &lt; 3; i++) for(int j = 0; j &lt; 3; j++) cout&lt;&lt; Matrix[j][i] &lt;&lt; \" \"; } }; int main() { BixArray objBix; objBix.Display(); return 0; }",
+      "options": [
+        "The program will display the output 4 3 2 3 2 1 2 1 0.",
+        "The program will display the output 0 1 2 1 2 3 2 3 4.",
+        "The program will display the output 9 garbage values.",
+        "The program will report error on compilation."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x0phfo",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int x, y, z; public: void Apply(int xx = 12, int yy = 21, int zz = 9) { x = xx; y = yy += 10; z = x -= 2; } void Display(void) { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl; } void SetValue(int xx, int yy) { Apply(xx, 0, yy); } }; int main() { IndiaBix *pBix= new IndiaBix; (*pBix).SetValue(12, 20); pBix-&gt;Display(); delete pBix; return 0; }",
+      "options": [
+        "10 10",
+        "12 10",
+        "12 21",
+        "12 31"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a28yh4",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; #include&lt;string.h&gt; class IndiaBix { char txtMsg[50]; public: IndiaBix(char *str = NULL) { if(str != NULL) strcpy(txtMsg, str); } int BixFunction(char ch); }; int IndiaBix::BixFunction(char ch) { static int i = 0; if(txtMsg[i++] == ch) return strlen((txtMsg + i)) - i; else return BixFunction(ch); } int main() { IndiaBix objBix(\"Welcome to IndiaBix.com!\"); cout&lt;&lt; objBix.BixFunction('t'); return 0; }",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "15"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y49e60",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; #include&lt;string.h&gt; #include&lt;malloc.h&gt; class BixString { char txtName[20]; public: BixString(char *txtTemp = NULL) { if(txtTemp != NULL) strcpy(txtName, txtTemp); } void Display(void) { cout&lt;&lt;txtName; } }; int main() { char *txtName = (char*)malloc(10); strcpy(txtName, \"IndiaBIX\"); *txtName = 48; BixString objTemp(txtName); cout&lt;&lt; sizeof(txtName); return 0; }",
+      "options": [
+        "Above program will display IndiaBIX 8.",
+        "Above program will display IndiaBIX 9.",
+        "Above program will display size of integer.",
+        "Above program will display IndiaBIX and size of integer."
       ],
       "correct": 0,
       "explain": "",

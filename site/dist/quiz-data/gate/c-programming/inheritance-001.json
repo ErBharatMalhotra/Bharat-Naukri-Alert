@@ -5,11 +5,11 @@
   "subject": "C# Programming",
   "topic": "Inheritance",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-cm9fso",
-      "q": "Multiple inheritance is different from multiple levels of inheritance.",
+      "id": "gate-1rnyhmh",
+      "q": "If a base class contains a member function func(), and a derived class does not contain a function with this name, an object of the derived class cannot access func().",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ussgsg",
-      "q": "An object of a derived class cannot access private members of base class.",
+      "id": "gate-8zmgnc",
+      "q": "If a base class and a derived class each include a member function with the same name, the member function of the derived class will be called by an object of the derived class",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ale22w",
-      "q": "The way a derived class member function can access base class public members, the base class member functions can access public member functions of derived class.",
+      "id": "gate-vtsqtw",
+      "q": "The size of a derived class object is equal to the sum of sizes of data members in base class and the derived class.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1799b3f",
-      "q": "There is no private or protected inheritance in C#.NET.",
+      "id": "gate-1tuvldo",
+      "q": "Private members of base class cannot be accessed by derived class member functions or objects of derived class.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-igxr0",
-      "q": "We can derive a class from a base class even if the base class's source code is not available.",
+      "id": "gate-czq0w8",
+      "q": "There is no multiple inheritance in C#.NET. That is, a class cannot be derived from multiple base classes.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-19q9iu0",
-      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class Baseclass { public void fun() { Console.Write(\"Base class\" + \" \"); } } class Derived1: Baseclass { new void fun() { Console.Write(\"Derived1 class\" + \" \"); } } class Derived2: Derived1 { new void fun() { Console.Write(\"Derived2 class\" + \" \"); } } class Program { public static void Main(string[ ] args) { Derived2 d = new Derived2(); d.fun(); } } }",
+      "id": "gate-nhqxk4",
+      "q": "Creating a derived class from a base class requires fundamental changes to the base class.",
       "options": [
-        "Base class",
-        "Derived1 class",
-        "Derived2 class",
-        "Base class Derived1 class"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1cs8mq4",
-      "q": "Which of the following should be used to implement a 'Has a' relationship between two entities?",
+      "id": "gate-97nukc",
+      "q": "It is illegal to make objects of one class as members of another class.",
       "options": [
-        "Polymorphism",
-        "Templates",
-        "Containership",
-        "Encapsulation"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,52 +134,12 @@
       "tags": []
     },
     {
-      "id": "gate-18f01rd",
-      "q": "Which of the following is correct about the C#.NET snippet given below? namespace IndiabixConsoleApplication { class Baseclass { public void fun() { Console.WriteLine(\"Hi\" + \" \"); } public void fun(int i) { Console.Write(\"Hello\" + \" \"); } } class Derived: Baseclass { public void fun() { Console.Write(\"Bye\" + \" \"); } } class MyProgram { static void Main(string[ ] args) { Derived d; d = new Derived(); d.fun(); d.fun(77); } } }",
+      "id": "gate-z1trgs",
+      "q": "Which of the following can be facilitated by the Inheritance mechanism? Use the existing functionality of base class. Overrride the existing functionality of base class. Implement new functionality in the derived class. Implement polymorphic behaviour. Implement containership.",
       "options": [
-        "The program gives the output as: Hi Hello Bye",
-        "The program gives the output as: Bye Hello",
-        "The program gives the output as: Hi Bye Hello",
-        "Error in the program"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Inheritance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wkojsc",
-      "q": "In an inheritance chain which of the following members of base class are accessible to the derived class members? static protected private shared public",
-      "options": [
-        "1, 3",
-        "2, 5",
+        "1, 2, 3",
         "3, 4",
-        "4, 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Inheritance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17dz4xw",
-      "q": "Which of the following are reuse mechanisms available in C#.NET? Inheritance Encapsulation Templates Containership Polymorphism",
-      "options": [
-        "1, 4",
-        "1, 3",
-        "2, 4",
+        "2, 4, 5",
         "3, 5"
       ],
       "correct": 0,
@@ -198,13 +154,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jrypi5",
-      "q": "Which of the following should be used to implement a 'Like a' or a 'Kind of' relationship between two entities?",
+      "id": "gate-j223sc",
+      "q": "Which of the following statements should be added to the subroutine fun( ) if the C#.NET code snippet given below is to output 9 13? class BaseClass { protected int i = 13; } class Derived: BaseClass { int i = 9; public void fun() { // [*** Add statement here ***] } }",
       "options": [
-        "Polymorphism",
-        "Containership",
-        "Templates",
-        "Encapsulation"
+        "Console.WriteLine(base.i + \" \" + i);",
+        "Console.WriteLine(i + \" \" + base.i);",
+        "Console.WriteLine(mybase.i + \" \" + i);",
+        "Console.WriteLine(i + \" \" + mybase.i);"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +174,13 @@
       "tags": []
     },
     {
-      "id": "gate-2hgw1c",
-      "q": "How can you prevent inheritance from a class in C#.NET ?",
+      "id": "gate-d6th02",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class index { protected int count; public index() { count = 0; } } class index1: index { public void increment() { count = count +1; } } class MyProgram { static void Main(string[] args) { index1 i = new index1(); i.increment(); } } } count should be declared as public if it is to become available in the inheritance chain. count should be declared as protected if it is to become available in the inheritance chain. While constructing an object referred to by i firstly constructor of index class will be called followed by constructor of index1 class. Constructor of index class does not get inherited in index1 class. count should be declared as Friend if it is to become available in the inheritance chain.",
       "options": [
-        "Declare the class as shadows.",
-        "Declare the class as overloads.",
-        "Declare the class as sealed.",
-        "Declare the class as suppress."
+        "1, 2, 5",
+        "2, 3, 4",
+        "3, 5",
+        "4, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +194,13 @@
       "tags": []
     },
     {
-      "id": "gate-x8t1k",
-      "q": "Which of the following statements are correct about Inheritance in C#.NET? A derived class object contains all the base class data. Inheritance cannot suppress the base class functionality. A derived class may not be able to access all the base class data. Inheritance cannot extend the base class functionality. In inheritance chain construction of object happens from base towards derived.",
+      "id": "gate-wroc3w",
+      "q": "What will be the size of the object created by the following C#.NET code snippet? namespace IndiabixConsoleApplication { class Baseclass { private int i; protected int j; public int k; } class Derived: Baseclass { private int x; protected int y; public int z; } class MyProgram { static void Main (string[ ] args) { Derived d = new Derived(); } } }",
       "options": [
-        "1, 2, 4",
-        "2, 4, 5",
-        "1, 3, 5",
-        "2, 4"
+        "24 bytes",
+        "12 bytes",
+        "20 bytes",
+        "10 bytes"
       ],
       "correct": 0,
       "explain": "",
@@ -258,33 +214,13 @@
       "tags": []
     },
     {
-      "id": "gate-tz4mdk",
-      "q": "Assume class B is inherited from class A. Which of the following statements is correct about construction of an object of class B?",
+      "id": "gate-vsy10y",
+      "q": "Which statement will you add in the function fun() of class B, if it is to produce the output \"Welcome to IndiaBIX.com!\"? namespace IndiabixConsoleApplication { class A { public void fun() { Console.Write(\"Welcome\"); } } class B: A { public void fun() { // [*** Add statement here ***] Console.WriteLine(\" to IndiaBIX.com!\"); } } class MyProgram { static void Main (string[ ] args) { B b = new B(); b.fun(); } } }",
       "options": [
-        "While creating the object firstly the constructor of class B will be called followed by constructor of class A.",
-        "While creating the object firstly the constructor of class A will be called followed by constructor of class B.",
-        "The constructor of only class B will be called.",
-        "The constructor of only class A will be called."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Inheritance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9afg0s",
-      "q": "Which of the following statements is correct about the C#.NET program given below? namespace IndiabixConsoleApplication { class Baseclass { int i; public Baseclass(int ii) { i = ii; Console.Write(\"Base \"); } } class Derived : Baseclass { public Derived(int ii) : base(ii) { Console.Write(\"Derived \"); } } class MyProgram { static void Main(string[ ] args) { Derived d = new Derived(10); } } }",
-      "options": [
-        "The program will work correctly only if we implement zero-argument constructors in Baseclass as well as Derived class.",
-        "The program will output: Derived Base",
-        "The program will report an error in the statement base(ii).",
-        "The program will work correctly if we replace base(ii) with base.Baseclass(ii)."
+        "base.fun();",
+        "A::fun();",
+        "fun();",
+        "mybase.fun();"
       ],
       "correct": 0,
       "explain": "",

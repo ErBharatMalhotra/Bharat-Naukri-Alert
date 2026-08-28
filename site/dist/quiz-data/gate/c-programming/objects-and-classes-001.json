@@ -5,16 +5,16 @@
   "subject": "C++ Programming",
   "topic": "Objects And Classes",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 28,
   "questions": [
     {
-      "id": "gate-jx8cyw",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Bix { public: int x; }; int main() { Bix *p = new Bix(); (*p).x = 10; cout&lt;&lt; (*p).x &lt;&lt; \" \" &lt;&lt; p-&gt;x &lt;&lt; \" \" ; p-&gt;x = 20; cout&lt;&lt; (*p).x &lt;&lt; \" \" &lt;&lt; p-&gt;x ; return 0; }",
+      "id": "gate-tmgca0",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class India { public: struct Bix { int x; float y; void Function(void) { y = x = (x = 4*4); y = --y * y; } void Display() { cout&lt;&lt; y &lt;&lt; endl; } }B; }I; int main() { I.B.Display(); return 0; }",
       "options": [
-        "10 10 20 20",
-        "Garbage garbage 20 20",
-        "10 10 Garbage garbage",
-        "Garbage garbage Garbage garbage"
+        "0",
+        "1",
+        "-1",
+        "Garbage value"
       ],
       "correct": 0,
       "explain": "",
@@ -28,12 +28,52 @@
       "tags": []
     },
     {
-      "id": "gate-142tv6o",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { static int x; public: static void SetData(int xx) { x = xx; } void Display() { cout&lt;&lt; x ; } }; int IndiaBix::x = 0; int main() { IndiaBix::SetData(33); IndiaBix::Display(); return 0; }",
+      "id": "gate-8bzjrs",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; #include&lt;string.h&gt; class IndiaBix { int val; public: void SetValue(char *str1, char *str2) { val = strcspn(str1, str2); } void ShowValue() { cout&lt;&lt; val; } }; int main() { IndiaBix objBix; objBix.SetValue((char*)\"India\", (char*)\"Bix\"); objBix.ShowValue(); return 0; }",
       "options": [
-        "The program will print the output 0.",
-        "The program will print the output 33.",
-        "The program will print the output Garbage.",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-grtqkw",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; #include&lt;string.h&gt; class IndiaBix { public: void GetData(char *s, int x, int y ) { int i = 0; for (i = x-1; y&gt;0; i++) { cout&lt;&lt; s[i]; y--; } } }; int main() { IndiaBix objBix; objBix.GetData((char*)\"Welcome!\", 1, 3); return 0; }",
+      "options": [
+        "The program will print the output me!.",
+        "The program will print the output Wel.",
+        "The program will print the output !em.",
+        "The program will print the output Welcome!."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17yzdcs",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixData { int x, y, z; public: BixData(int xx, int yy, int zz) { x = ++xx; y = ++yy; z = ++zz; } void Show() { cout&lt;&lt; \"\" &lt;&lt; x++ &lt;&lt; \" \" &lt;&lt; y++ &lt;&lt; \" \" &lt;&lt; z++; } }; int main() { BixData objData(1, 2, 3); objData.Show(); return 0; }",
+      "options": [
+        "The program will print the output 1 2 3.",
+        "The program will print the output 2 3 4 .",
+        "The program will print the output 4 5 6.",
         "The program will report compile time error."
       ],
       "correct": 0,
@@ -48,12 +88,12 @@
       "tags": []
     },
     {
-      "id": "gate-17vnyz4",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { static int x; public: static void SetData(int xx) { x = xx; } static void Display() { cout&lt;&lt; x ; } }; int IndiaBix::x = 0; int main() { IndiaBix::SetData(44); IndiaBix::Display(); return 0; }",
+      "id": "gate-145eeq4",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; float y; public: void Function() { x = 4; y = 2.50; delete this; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { IndiaBix *pBix = new IndiaBix(); pBix-&gt;Function(); pBix-&gt;Function(); pBix-&gt;Display(); return 0; }",
       "options": [
-        "The program will print the output 0.",
-        "The program will print the output 44.",
-        "The program will print the output Garbage.",
+        "The program will print the output 4 2.5.",
+        "The program will print the output 4.",
+        "The program will report runtime error.",
         "The program will report compile time error."
       ],
       "correct": 0,
@@ -68,32 +108,12 @@
       "tags": []
     },
     {
-      "id": "gate-1164ldw",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixTeam { int x, y; public: BixTeam(int xx) { x = ++xx; } void Display() { cout&lt;&lt; --x &lt;&lt; \" \"; } }; int main() { BixTeam objBT(45); objBT.Display(); int *p = (int*)&amp;objBT; *p = 23; objBT.Display(); return 0; }",
+      "id": "gate-3z6soo",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class A { public: void BixFunction(void) { cout&lt;&lt; \"Class A\" &lt;&lt; endl; } }; class B: public A { public: void BixFunction(void) { cout&lt;&lt; \"Class B\" &lt;&lt; endl; } }; class C : public B { public: void BixFunction(void) { cout&lt;&lt; \"Class C\" &lt;&lt; endl; } }; int main() { A *ptr; B objB; ptr = &amp;objB; ptr = new C(); ptr-&gt;BixFunction(); return 0; }",
       "options": [
-        "45 22",
-        "46 22",
-        "45 23",
-        "46 23"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Objects And Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l75wmo",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { static int x; public: static void SetData(int xx) { this-&gt;x = xx; } static void Display() { cout&lt;&lt; x ; } }; int IndiaBix::x = 0; int main() { IndiaBix::SetData(22); IndiaBix::Display(); return 0; }",
-      "options": [
-        "The program will print the output 0.",
-        "The program will print the output 22.",
-        "The program will print the output Garbage.",
+        "Class A.",
+        "Class B.",
+        "Class C.",
         "The program will report compile time error."
       ],
       "correct": 0,
@@ -108,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-8vdr40",
-      "q": "Which of the following statements is correct when a class is inherited publicly?",
+      "id": "gate-15ehfeg",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixBase { int x, y; public: BixBase(int xx = 10, int yy = 10) { x = xx; y = yy; } void Show() { cout&lt;&lt; x * y &lt;&lt; endl; } }; class BixDerived : public BixBase { private: BixBase objBase; public: BixDerived(int xx, int yy) : BixBase(xx, yy), objBase(yy, yy) { objBase.Show(); } }; int main() { BixDerived objDev(10, 20); return 0; }",
       "options": [
-        "Public members of the base class become protected members of derived class.",
-        "Public members of the base class become private members of derived class.",
-        "Private members of the base class become protected members of derived class.",
-        "Public members of the base class become public members of derived class."
+        "The program will print the output 100.",
+        "The program will print the output 200.",
+        "The program will print the output 400.",
+        "The program will print the output Garbage-value."
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cym2i4",
-      "q": "Which of the following statements is correct about the constructors and destructors?",
+      "id": "gate-1e3qrg4",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class Point { int x, y; public: Point(int xx = 10, int yy = 20) { x = xx; y = yy; } Point operator + (Point objPoint) { Point objTmp; objTmp.x = objPoint.x + this-&gt;x; objTmp.y = objPoint.y + this-&gt;y; return objTmp; } void Display(void) { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { Point objP1; Point objP2(1, 2); Point objP3 = objP1 + objP2; objP3.Display(); return 0; }",
       "options": [
-        "Destructors can take arguments but constructors cannot.",
-        "Constructors can take arguments but destructors cannot.",
-        "Destructors can be overloaded but constructors cannot be overloaded.",
-        "Constructors and destructors can both return a value."
+        "1 2",
+        "10 20",
+        "11 22",
+        "Garbage Garbage"
       ],
       "correct": 0,
       "explain": "",
@@ -148,12 +168,152 @@
       "tags": []
     },
     {
-      "id": "gate-1q2tcrk",
-      "q": "Which of the following access specifies is used in a class definition by default?",
+      "id": "gate-1bnj0h4",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; #include&lt;string.h&gt; class IndiaBix { char str[50]; char tmp[50]; public: IndiaBix(char *s) { strcpy(str, s); } int BixFunction() { int i = 0, j = 0; while(*(str + i)) { if(*(str + i++) == ' ') *(tmp + j++) = *(str + i); } *(tmp + j) = 0; return strlen(tmp); } }; int main() { char txt[] = \"Welcome to IndiaBix.com!\"; IndiaBix objBix(txt); cout&lt;&lt; objBix.BixFunction(); return 0; }",
       "options": [
-        "Protected",
+        "1",
+        "2",
+        "24",
+        "25"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nck2gz",
+      "q": "What happens when we try to compile the class definition in following code snippet? class Birds {}; class Peacock : protected Birds {};",
+      "options": [
+        "It will not compile because class body of Birds is not defined.",
+        "It will not compile because class body of Peacock is not defined.",
+        "It will not compile because a class cannot be protectedly inherited from other class.",
+        "It will compile succesfully."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tc6nrs",
+      "q": "Which of the following statements is incorrect?",
+      "options": [
+        "Friend keyword can be used in the class to allow access to another class.",
+        "Friend keyword can be used for a function in the public section of a class.",
+        "Friend keyword can be used for a function in the private section of a class.",
+        "Friend keyword can be used on main()."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pe4mcx",
+      "q": "Which of the following statement is correct regarding destructor of base class?",
+      "options": [
+        "Destructor of base class should always be static.",
+        "Destructor of base class should always be virtual.",
+        "Destructor of base class should not be virtual.",
+        "Destructor of base class should always be private."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5iwsx0",
+      "q": "Which of the following two entities (reading from Left to Right) can be connected by the dot operator?",
+      "options": [
+        "A class member and a class object.",
+        "A class object and a class.",
+        "A class and a member of that class.",
+        "A class object and a member of that class."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t6je3c",
+      "q": "How can we make a class abstract?",
+      "options": [
+        "By making all member functions constant.",
+        "By making at least one member function as pure virtual function.",
+        "By declaring it abstract using the static keyword.",
+        "By declaring it abstract using the virtual keyword."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qwvpfo",
+      "q": "Which of the following can access private data members or member functions of a class?",
+      "options": [
+        "Any function in the program.",
+        "All global functions in the program.",
+        "Any member function of that class.",
+        "Only public member functions of that class."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s0orzk",
+      "q": "Which of the following type of data member can be shared by all instances of its class?",
+      "options": [
         "Public",
-        "Private",
+        "Inherited",
+        "Static",
         "Friend"
       ],
       "correct": 0,
@@ -168,53 +328,13 @@
       "tags": []
     },
     {
-      "id": "gate-1phk3lx",
-      "q": "Which of the following statement is correct with respect to the use of friend keyword inside a class?",
+      "id": "gate-q7wy50",
+      "q": "Which of the following also known as an instance of a class?",
       "options": [
-        "A private data member can be declared as a friend.",
-        "A class may be declared as a friend.",
-        "An object may be declared as a friend.",
-        "We can use friend keyword as a class name."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Objects And Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jaj9ti",
-      "q": "Which of the following keywords is used to control access to a class member?",
-      "options": [
-        "Default",
-        "Break",
-        "Protected",
-        "Asm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Objects And Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y3q1oo",
-      "q": "Which of the following can be overloaded?",
-      "options": [
+        "Friend Functions",
         "Object",
-        "Functions",
-        "Operators",
-        "Both B and C"
+        "Member Functions",
+        "Member Variables"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +348,73 @@
       "tags": []
     },
     {
-      "id": "gate-v47gto",
-      "q": "Which of the following means \"The use of an object of one class in definition of another class\"?",
+      "id": "gate-1v9lb6y",
+      "q": "Constructor is executed when _____.",
       "options": [
-        "Encapsulation",
+        "an object is created",
+        "an object is used",
+        "a class is declared",
+        "an object goes out of scope."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13v0k2n",
+      "q": "Which of the following statements about virtual base classes is correct?",
+      "options": [
+        "It is used to provide multiple inheritance.",
+        "It is used to avoid multiple copies of base class in derived class.",
+        "It is used to allow multiple copies of base class in a derived class.",
+        "It allows private members of the base class to be inherited in the derived class."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ipt1lx",
+      "q": "How many objects can be created from an abstract class?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "As many as we want"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14g3108",
+      "q": "What does the class definitions in following code represent? class Bike { Engine objEng; }; class Engine { float CC; };",
+      "options": [
+        "kind of relationship",
+        "has a relationship",
         "Inheritance",
-        "Composition",
-        "Abstraction"
+        "Both A and B"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +428,13 @@
       "tags": []
     },
     {
-      "id": "gate-tb9rth",
-      "q": "Which of the following is the only technical difference between structures and classes in C++?",
+      "id": "gate-ucqozc",
+      "q": "Which of the following statements is correct when a class is inherited privately?",
       "options": [
-        "Member function and data are by default protected in structures but private in classes.",
-        "Member function and data are by default private in structures but public in classes.",
-        "Member function and data are by default public in structures but private in classes.",
-        "Member function and data are by default public in structures but protected in classes."
+        "Public members of the base class become protected members of derived class.",
+        "Public members of the base class become private members of derived class.",
+        "Private members of the base class become private members of derived class.",
+        "Public members of the base class become public members of derived class."
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +448,13 @@
       "tags": []
     },
     {
-      "id": "gate-8lkwrk",
-      "q": "Which of the following statements is correct about the program given below? class Bix { public: static void MyFunction(); }; int main() { void(*ptr)() = &amp;Bix::MyFunction; return 0; }",
+      "id": "gate-3blggj",
+      "q": "What does a class hierarchy depict?",
       "options": [
-        "The program reports an error as pointer to member function cannot be defined outside the definition of class.",
-        "The program reports an error as pointer to static member function cannot be defined.",
-        "The program reports an error as pointer to member function cannot be defined without object.",
-        "The program reports linker error."
+        "It shows the relationships between the classes in the form of an organization chart.",
+        "It describes \"has a\" relationships.",
+        "It describes \"kind of\" relationships.",
+        "It shows the same relationship as a family tree."
       ],
       "correct": 0,
       "explain": "",
@@ -288,13 +468,93 @@
       "tags": []
     },
     {
-      "id": "gate-ysk2dp",
-      "q": "Which of the following statements are correct for a static member function? It can access only other static members of its class. It can be called using the class name, instead of objects.",
+      "id": "gate-np44y8",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { static int count; public: static void First(void) { count = 10; } static void Second(int x) { count = count + x; } static void Display(void) { cout&lt;&lt; count &lt;&lt; endl; } }; int IndiaBix::count = 0; int main() { IndiaBix :: First(); IndiaBix :: Second(5); IndiaBix :: Display(); return 0; }",
       "options": [
-        "Only 1 is correct.",
-        "Only 2 is correct.",
-        "Both 1 and 2 are correct.",
-        "Both 1 and 2 are incorrect."
+        "0 &nbsp;",
+        "5",
+        "10",
+        "15"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pm5rkg",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixBase { public: float x; }; class BixDerived : public BixBase { public: char ch; void Process() { ch = (int)((x=12.0)/3.0); } void Display() { cout&lt;&lt; (int)ch; } }; int main() { class BixDerived *objDev = new BixDerived; objDev-&gt;Process(); objDev-&gt;Display(); return 0; }",
+      "options": [
+        "The program will print the output 4.",
+        "The program will print the ASCII value of 4.",
+        "The program will print the output 0.",
+        "The program will print the output garbage."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2q4180",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; #include&lt;process.h&gt; class IndiaBix { static int x; public: IndiaBix() { if(x == 1) exit(0); else x++; } void Display() { cout&lt;&lt; x &lt;&lt; \" \"; } }; int IndiaBix::x = 0; int main() { IndiaBix objBix1; objBix1.Display(); IndiaBix objBix2; objBix2.Display(); return 0; }",
+      "options": [
+        "The program will print the output 1 2.",
+        "The program will print the output 0 1.",
+        "The program will print the output 1 1.",
+        "The program will print the output 1."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fqv86s",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixBase { int x, y; public: BixBase(int xx = 10, int yy = 10) { x = xx; y = yy; } void Show() { cout&lt;&lt; x * y &lt;&lt; endl; } }; class BixDerived { private: BixBase objBase; public: BixDerived(int xx, int yy) : objBase(xx, yy) { objBase.Show(); } }; int main() { BixDerived objDev(10, 20); return 0; }",
+      "options": [
+        "The program will print the output 100.",
+        "The program will print the output 200.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Objects And Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qsqr4",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class BixBase { int x, y; public: BixBase(int xx = 10, int yy = 10) { x = xx; y = yy; } void Show() { cout&lt;&lt; x * y &lt;&lt; endl; } }; class BixDerived : public BixBase { private: BixBase objBase; public: BixDerived(int xx, int yy) : BixBase(xx, yy) { objBase.Show(); } }; int main() { BixDerived objDev(10, 20); return 0; }",
+      "options": [
+        "The program will print the output 100.",
+        "The program will print the output 200.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error."
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "Networking",
   "topic": "Eigrp And Ospf",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-1skuta4",
-      "q": "Where are EIGRP successor routes stored?",
+      "id": "gate-ehxqr1",
+      "q": "With which network type will OSPF establish router adjacencies but not perform the DR/BDR election process?",
       "options": [
-        "In the routing table only",
-        "In the neighbor table only",
-        "In the topology table only",
-        "In the routing table and the topology table"
+        "Point-to-point",
+        "Backbone area 0",
+        "Broadcast multi-access",
+        "Non-broadcast multi-access"
       ],
       "correct": 0,
       "explain": "",
@@ -28,52 +28,12 @@
       "tags": []
     },
     {
-      "id": "gate-eyb83i",
-      "q": "Which command will display all the EIGRP feasible successor routes known to a router?",
+      "id": "gate-12as16y",
+      "q": "Which of the following describe the process identifier that is used to run OSPF on a router? It is locally significant. It is globally significant. It is needed to identify a unique instance of an OSPF database. It is an optional parameter required only if multiple OSPF processes are running on the router.",
       "options": [
-        "show ip routes *",
-        "show ip eigrp summary",
-        "show ip eigrp topology",
-        "show ip eigrp adjacencies"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Eigrp And Ospf",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ysi1fc",
-      "q": "Which is true regarding EIGRP successor routes? A successor route is used by EIGRP to forward traffic to a destination. Successor routes are saved in the topology table to be used if the primary route fails. Successor routes are flagged as \"active\" in the routing table. A successor route may be backed up by a feasible successor route. Successor routes are stored in the neighbor table following the discovery process.",
-      "options": [
+        "1, 2 and 4",
         "1 and 3",
-        "2 and 3",
-        "1 and 4",
-        "3, 4 and 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Eigrp And Ospf",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-141yy0s",
-      "q": "Which EIGRP information is held in RAM and maintained through the use of Hello and update packets? Neighbor table STP table Topology table DUAL table",
-      "options": [
-        "2 only",
-        "4 only",
-        "1 and 3",
+        "3 and 5",
         "All of the above"
       ],
       "correct": 0,
@@ -88,15 +48,15 @@
       "tags": []
     },
     {
-      "id": "gate-1cjpapg",
-      "q": "Which of the following are true regarding OSPF areas? You must have separate loopback interfaces configured in each area. The numbers you can assign an area go up to 65,535. The backbone area is also called area 0. If your design is hierarchical, then you don't need multiple areas. All areas must connect to area 0.",
+      "id": "gate-1242rys",
+      "q": "A network administrator needs to configure a router with a distance-vector protocol that allows classless routing. Which of the following satisfies those requirements?",
       "options": [
-        "1 only",
-        "1 and 2 only",
-        "3 and 4 only",
-        "3, 4 and 5"
+        "IGRP",
+        "OSPF",
+        "RIPv1",
+        "EIGRP"
       ],
-      "correct": 2,
+      "correct": 0,
       "explain": "",
       "exam": "GATE",
       "subject": "Networking",
@@ -108,12 +68,112 @@
       "tags": []
     },
     {
-      "id": "gate-15pufrk",
-      "q": "Which of the following network types have a designated router and a backup designated router assigned? Broadcast Point-to-point NBMA NBMA point-to-point",
+      "id": "gate-zskavy",
+      "q": "What is the administrative distance of OSPF?",
+      "options": [
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Eigrp And Ospf",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9kb79k",
+      "q": "Your company is running IGRP using an AS of 10. You want to configure EIGRP on the network but want to migrate slowly to EIGRP and don't want to configure redistribution. What command would allow you to migrate over time to EIGRP without configuring redistribution?",
+      "options": [
+        "router eigrp 11",
+        "router eigrp 10",
+        "router eigrp 10 redistribute igrp",
+        "router igrp combine eigrp 10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Eigrp And Ospf",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kccd00",
+      "q": "What are reasons for creating OSPF in a hierarchical design? To decrease routing overhead To speed up convergence To confine network instability to single areas of the network To make configuring OSPF easier",
       "options": [
         "1, 2 and 3",
-        "1 and 3",
+        "3 only",
         "3 and 4",
+        "2, 3 nd 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Eigrp And Ospf",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1basny8",
+      "q": "Which two of the following commands will place network 10.2.3.0/24 into area 0? router eigrp 10 router ospf 10 network 10.0.0.0 network 10.2.3.0 0.0.0.255 area0 network 10.2.3.0 0.0.0.255 area 0",
+      "options": [
+        "1 and 4",
+        "2, 4, and 5",
+        "2 and 5",
+        "3 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Eigrp And Ospf",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fpea1j",
+      "q": "If routers in a single area are configured with the same priority value, what value does a router use for the OSPF Router ID in the absence of a loopback interface?",
+      "options": [
+        "The lowest IP address of any physical interface",
+        "The highest IP address of any physical interface",
+        "The lowest IP address of any logical interface",
+        "The highest IP address of any logical interface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Eigrp And Ospf",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-trp3iu",
+      "q": "Which of the following protocols support VLSM, summarization, and discontiguous networking? RIPv1 IGRP EIGRP OSPF BGP RIPv2",
+      "options": [
+        "1 and 4",
+        "2 and 5",
+        "3, 4 and 6",
         "All of the above"
       ],
       "correct": 0,
@@ -128,33 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-10fjw6i",
-      "q": "Which type of OSPF network will elect a backup designated router? Broadcast multi-access Non-broadcast multi-access Point-to-point Broadcast multipoint",
+      "id": "gate-5wmzt4",
+      "q": "You get a call from a network administrator who tells you that he typed the following into his router: Router(config)#router ospf 1 Router(config-router)#network 10.0.0.0 255.0.0.0 area 0 He tells you he still can't see any routes in the routing table. What configuration error did the administrator make?",
       "options": [
-        "1 and 2",
-        "3 and 4",
-        "3 only",
-        "None of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Eigrp And Ospf",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8vrq1i",
-      "q": "You need the IP address of the devices with which the router has established an adjacency. Also, the retransmit interval and the queue counts for the adjacent routers need to be checked. What command will display the required information?",
-      "options": [
-        "show ip eigrp adjacency",
-        "show ip eigrp topology",
-        "show ip eigrp interfaces",
-        "show ip eigrp neighbors"
+        "The wildcard mask is incorrect.",
+        "The OSPF area is wrong.",
+        "The OSPF Process ID is incorrect.",
+        "The AS configuration is wrong."
       ],
       "correct": 0,
       "explain": "",

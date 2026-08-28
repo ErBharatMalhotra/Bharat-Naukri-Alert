@@ -5,56 +5,16 @@
   "subject": "Java Programming",
   "topic": "Operators And Assignments",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 6,
   "questions": [
     {
-      "id": "gate-8wqoy2",
-      "q": "import java.awt.*; class Ticker extends Component { public static void main (String [] args) { Ticker t = new Ticker(); /* Missing Statements ? */ } } which two of the following statements, inserted independently, could legally be inserted into missing section of this code? boolean test = (Component instanceof t); boolean test = (t instanceof Ticker); boolean test = t.instanceof(Ticker); boolean test = (t instanceof Component);",
-      "options": [
-        "1 and 4",
-        "2 and 3",
-        "1 and 3",
-        "2 and 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19m1vq0",
-      "q": "Which of the following are legal lines of code? int w = (int)888.8; byte x = (byte)1000L; long y = (byte)100; byte z = (byte)100L;",
-      "options": [
-        "1 and 2",
-        "2 and 3",
-        "3 and 4",
-        "All statements are correct."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e2p07k",
-      "q": "Which two statements are equivalent? 16*4 16&gt;&gt;2 16/2^2 16&gt;&gt;&gt;2",
+      "id": "gate-p6cmrk",
+      "q": "Which two are equal? 32/4 (8 &gt;&gt; 2) &lt;&lt; 4 2^5 128 &gt;&gt;&gt; 2 2 &gt;&gt; 5",
       "options": [
         "1 and 2",
         "2 and 4",
-        "3 and 4",
-        "1 and 3"
+        "1 and 3",
+        "2 and 3"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qz3wns",
-      "q": "Which two statements are equivalent? 3/2 3&lt;2 3*4 3&lt;&lt;2",
+      "id": "gate-14hevrw",
+      "q": "What will be the output of the program? class PassA { public static void main(String [] args) { PassA p = new PassA(); p.start(); } void start() { long [] a1 = {3,4,5}; long [] a2 = fix(a1); System.out.print(a1[0] + a1[1] + a1[2] + \" \"); System.out.println(a2[0] + a2[1] + a2[2]); } long [] fix(long [] a3) { a3[1] = 7; return a3; } }",
       "options": [
-        "1 and 2",
-        "2 and 3",
-        "3 and 4",
-        "1 and 4"
+        "12 15",
+        "15 15",
+        "3 4 5 3 7 5",
+        "3 7 5 3 7 5"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-m797xc",
-      "q": "import java.awt.Button; class CompareReference { public static void main(String [] args) { float f = 42.0f; float [] f1 = new float[2]; float [] f2 = new float[2]; float [] f3 = f1; long x = 42; f1[0] = 42.0f; } } which three statements are true? f1 == f2 f1 == f3 f2 == f1[1] x == f1[0] f == f1[0]",
+      "id": "gate-fgqlec",
+      "q": "What will be the output of the program? class Test { public static void main(String [] args) { Test p = new Test(); p.start(); } void start() { boolean b1 = false; boolean b2 = fix(b1); System.out.println(b1 + \" \" + b2); } boolean fix(boolean b1) { b1 = true; return b1; } }",
       "options": [
-        "1, 2 and 3",
-        "2, 4 and 5",
-        "3, 4 and 5",
-        "1, 4 and 5"
+        "true true",
+        "false true",
+        "true false",
+        "false false"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-qy4xrs",
-      "q": "What will be the output of the program? class Test { public static void main(String [] args) { int x=20; String sup = (x &lt; 15) ? \"small\" : (x &lt; 22)? \"tiny\" : \"huge\"; System.out.println(sup); } }",
+      "id": "gate-10g0mxs",
+      "q": "What will be the output of the program? class PassS { public static void main(String [] args) { PassS p = new PassS(); p.start(); } void start() { String s1 = \"slip\"; String s2 = fix(s1); System.out.println(s1 + \" \" + s2); } String fix(String s1) { s1 = s1 + \"stream\"; System.out.print(s1 + \" \"); return \"stream\"; } }",
       "options": [
-        "small",
-        "tiny",
-        "huge",
-        "Compilation fails"
+        "slip stream",
+        "slipstream stream",
+        "stream slip stream",
+        "slipstream slip stream"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-12g9ozg",
-      "q": "What will be the output of the program? class Test { public static void main(String [] args) { int x= 0; int y= 0; for (int z = 0; z &lt; 5; z++) { if (( ++x &gt; 2 ) &amp;&amp; (++y &gt; 2)) { x++; } } System.out.println(x + \" \" + y); } }",
+      "id": "gate-hlhcui",
+      "q": "What will be the output of the program? class BitShift { public static void main(String [] args) { int x = 0x80000000; System.out.print(x + \" and \"); x = x &gt;&gt;&gt; 31; System.out.println(x); } }",
       "options": [
-        "5 2",
-        "5 3",
-        "6 3",
-        "6 4"
+        "-2147483648 and 1",
+        "0x80000000 and 0x00000001",
+        "-2147483648 and -1",
+        "1 and -2147483648"
       ],
       "correct": 0,
       "explain": "",
@@ -148,133 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-zbr85w",
-      "q": "What will be the output of the program? class Bitwise { public static void main(String [] args) { int x = 11 &amp; 9; int y = x ^ 3; System.out.println( y | 12 ); } }",
+      "id": "gate-l63u0k",
+      "q": "What will be the output of the program? class Equals { public static void main(String [] args) { int x = 100; double y = 100.1; boolean b = (x = y); /* Line 7 */ System.out.println(b); } }",
       "options": [
-        "0",
-        "7",
-        "8",
-        "14"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4ox80y",
-      "q": "What will be the output of the program? class SSBool { public static void main(String [] args) { boolean b1 = true; boolean b2 = false; boolean b3 = true; if ( b1 &amp; b2 | b2 &amp; b3 | b2 ) /* Line 8 */ System.out.print(\"ok \"); if ( b1 &amp; b2 | b2 &amp; b3 | b2 | b1 ) /*Line 10*/ System.out.println(\"dokey\"); } }",
-      "options": [
-        "ok",
-        "dokey",
-        "ok dokey",
-        "No output is produced"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iw75oo",
-      "q": "What will be the output of the program? class SC2 { public static void main(String [] args) { SC2 s = new SC2(); s.start(); } void start() { int a = 3; int b = 4; System.out.print(\" \" + 7 + 2 + \" \"); System.out.print(a + b); System.out.print(\" \" + a + b + \" \"); System.out.print(foo() + a + b + \" \"); System.out.println(a + b + foo()); } String foo() { return \"foo\"; } }",
-      "options": [
-        "9 7 7 foo 7 7foo",
-        "72 34 34 foo34 34foo",
-        "9 7 7 foo34 34foo",
-        "72 7 34 foo34 7foo"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-96em8g",
-      "q": "What will be the output of the program? class Test { static int s; public static void main(String [] args) { Test p = new Test(); p.start(); System.out.println(s); } void start() { int x = 7; twice(x); System.out.print(x + \" \"); } void twice(int x) { x = x*2; s = x; } }",
-      "options": [
-        "7 7",
-        "7 14",
-        "14 0",
-        "14 14"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-107iklo",
-      "q": "What will be the output of the program? class Two { byte x; } class PassO { public static void main(String [] args) { PassO p = new PassO(); p.start(); } void start() { Two t = new Two(); System.out.print(t.x + \" \"); Two t2 = fix(t); System.out.println(t.x + \" \" + t2.x); } Two fix(Two tt) { tt.x = 42; return tt; } }",
-      "options": [
-        "null null 42",
-        "0 0 42",
-        "0 42 42",
-        "0 0 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tul9wk",
-      "q": "What will be the output of the program? class BoolArray { boolean [] b = new boolean[3]; int count = 0; void set(boolean [] x, int i) { x[i] = true; ++count; } public static void main(String [] args) { BoolArray ba = new BoolArray(); ba.set(ba.b, 0); ba.set(ba.b, 2); ba.test(); } void test() { if ( b[0] &amp;&amp; b[1] | b[2] ) count++; if ( b[1] &amp;&amp; b[(++count - 2)] ) count += 7; System.out.println(\"count = \" + count); } }",
-      "options": [
-        "count = 0",
-        "count = 2",
-        "count = 3",
-        "count = 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Operators And Assignments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pkgvnw",
-      "q": "What will be the output of the program? public class Test { public static void leftshift(int i, int j) { i &lt;&lt;= j; } public static void main(String args[]) { int i = 4, j = 2; leftshift(i, j); System.out.println(i); } }",
-      "options": [
-        "2",
-        "4",
-        "8",
-        "16"
+        "true",
+        "false",
+        "Compilation fails",
+        "An exception is thrown at runtime"
       ],
       "correct": 0,
       "explain": "",

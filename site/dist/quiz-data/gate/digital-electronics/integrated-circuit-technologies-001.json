@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Integrated Circuit Technologies",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-fmbj68",
-      "q": "The speed-power product provides a basis for the comparison of logic circuits when power dissipation and propagation delay are important considerations in the selection of the type of logic to be used.",
+      "id": "gate-1h09atl",
+      "q": "A pull-down resistor must be used with open-collector TTL circuits.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-5beijg",
-      "q": "ECL IC technology is faster than TTL technology.",
+      "id": "gate-122npr0",
+      "q": "Metal-oxide semiconductor field-effect transistors (MOSFETs) are the active switching elements in CMOS circuits.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1bzgtpk",
-      "q": "CMOS is a more dominant IC technology than TTL.",
+      "id": "gate-yidois",
+      "q": "There are four different logic level ranges for TTL and CMOS: VIL, VIH, VOL, and VOH.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-19xhdl0",
-      "q": "Unused TTL inputs should be tied LOW.",
+      "id": "gate-1kneb5g",
+      "q": "Power dissipation is a measure of a circuit's noise immunity.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-e9pt5o",
-      "q": "The greater the propagation delay, the higher the maximum frequency.",
+      "id": "gate-1ifvwg8",
+      "q": "The total sink current decreases with an increase in each load gate input.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1u6y41k",
-      "q": "An open-drain gate is the CMOS counterpart of ________.",
+      "id": "gate-y3cw40",
+      "q": "Which is not a MOSFET terminal?",
       "options": [
-        "an open-collector TTL gate",
-        "a tristate TTL gate",
-        "a bipolar junction transistor",
-        "an emitter-coupled logic gate"
+        "Gate",
+        "Drain",
+        "Source",
+        "Base"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bzw578",
-      "q": "A TTL NAND gate with IIL(max) of &#8211;1.6 mA per input drives eight TTL inputs. How much current does the drive output sink?",
+      "id": "gate-yt7v88",
+      "q": "For a CMOS gate, which is the best speed-power product?",
       "options": [
-        "&#8211;12.8 mA",
-        "&#8211;8 mA",
-        "&#8211;1.6 mA",
-        "&#8211;25.6 mA"
+        "1.4 pJ",
+        "1.6 pJ",
+        "2.4 pJ",
+        "3.3 pJ"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ubl12p",
-      "q": "The nominal value of the dc supply voltage for TTL and CMOS is ________.",
+      "id": "gate-1y7b3it",
+      "q": "Which transistor element is used in CMOS logic?",
       "options": [
-        "+3 V",
-        "+5 V",
-        "+9 V",
-        "+12 V"
+        "FET",
+        "MOSFET",
+        "Bipolar",
+        "Unijunction"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ken6fo",
-      "q": "Which logic family combines the advantages of CMOS and TTL?",
+      "id": "gate-exejsg",
+      "q": "In a TTL circuit, if an excessive number of load gate inputs are connected, ________.",
       "options": [
-        "BiCMOS",
-        "TTL/CMOS",
-        "ECL",
-        "TTL/MOS"
+        "VOH(min) drops below VOH",
+        "VOH drops below VOH(min)",
+        "VOH exceeds VOH(min)",
+        "VOH and VOH(min) are unaffected"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-14ldg3w",
-      "q": "Which equation is correct?",
+      "id": "gate-1ss6n9g",
+      "q": "The greater the propagation delay, the ________.",
       "options": [
-        "VNL = VIL(max) + VOL(max)",
-        "VNH = VOH(min) + VIH(min)",
-        "VNL = VOH(min) &#8211; VIH(min)",
-        "VNH = VOH(min) &#8211; VIH(min)"
+        "lower the maximum frequency",
+        "higher the maximum frequency",
+        "maximum frequency is unaffected",
+        "minimum frequency is unaffected"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-l1h1yw",
-      "q": "PMOS and NMOS circuits are used largely in ________.",
+      "id": "gate-1qrya2g",
+      "q": "The active switching element used in all TTL circuits is the ________.",
       "options": [
-        "MSI functions",
-        "LSI functions",
-        "diode functions",
-        "TTL functions"
+        "bipolar junction transistor (BJT)",
+        "field-effect transistor (FET)",
+        "metal-oxide semiconductor field-effect transistor (MOSFET)",
+        "unijunction transistor (UJ)"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v7khg",
-      "q": "If ICCH is specified as 1.1 mA when VCC is 5 V and if the gate is in a static (noncharging) HIGH output state, the power dissipation (PD) of the gate is ________.",
+      "id": "gate-t42sco",
+      "q": "An open-collector output requires ________.",
       "options": [
-        "5.5 mW",
-        "5.5 W",
-        "5 mW",
-        "1.1 mW"
+        "a pull-down resistor",
+        "a pull-up resistor",
+        "no output resistor",
+        "an output resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-5lsdxo",
-      "q": "Which is not a precaution for handling CMOS?",
+      "id": "gate-1dah0fk",
+      "q": "Most TTL logic used today is some form of ________.",
       "options": [
-        "Devices should be placed with pins down on a grounded surface, such as a metal plate.",
-        "All tools, test equipment, and metal workbenches should be earth grounded.",
-        "CMOS devices should not be inserted into sockets or PC boards with the power on.",
-        "Wear wool clothes at all times."
+        "Schottky TTL",
+        "tristate TTL",
+        "low-power TTL",
+        "open-collector TTL"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-d1baj3",
-      "q": "Which factor does not affect CMOS loading?",
+      "id": "gate-j07gex",
+      "q": "A standard TTL circuit with a totem-pole output can sink, in the LOW state (IOL(max)), ________.",
       "options": [
-        "Charging time associated with the output resistance of the driving gate",
-        "Discharging time associated with the output resistance of the driving gate",
-        "Output capacitance of the load gates",
-        "Input capacitance of the load gates"
+        "16 mA",
+        "20 mA",
+        "16 A",
+        "20 A"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +278,113 @@
       "tags": []
     },
     {
-      "id": "gate-c7322o",
-      "q": "Which is not part of emitter-coupled logic (ECL)?",
+      "id": "gate-z3u1dn",
+      "q": "One output structure of a TTL gate is often referred to as a ________.",
       "options": [
-        "Differential amplifier",
-        "Bias circuit",
-        "Emitter-follower circuit",
-        "Totem-pole circuit"
+        "totem-pole arrangement",
+        "diode arrangement",
+        "JBT arrangement",
+        "base, emitter, collector arrangement"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Integrated Circuit Technologies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fvyb6o",
+      "q": "It is best not to leave unused TTL inputs unconnected (open) because of TTL's ________.",
+      "options": [
+        "noise sensitivity",
+        "low-current requirement",
+        "open-collector outputs",
+        "tristate construction"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Integrated Circuit Technologies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vk9yw",
+      "q": "Which is not an output state for tristate logic?",
+      "options": [
+        "HIGH",
+        "LOW",
+        "High-Z",
+        "Low-Z"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Integrated Circuit Technologies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19scyli",
+      "q": "TTL is alive and well, particularly in ________.",
+      "options": [
+        "industrial applications",
+        "educational applications",
+        "military applications",
+        "commercial applications"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Integrated Circuit Technologies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sng26w",
+      "q": "A TTL NAND gate with IIH(max) of 40 A per input drives ten TTL inputs. How much current does the drive output source?",
+      "options": [
+        "40 A",
+        "200 A",
+        "400 A",
+        "800 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Integrated Circuit Technologies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uc15do",
+      "q": "A certain gate draws 1.8 A when its output is HIGH and 3.3 &#181;A when its output is LOW. VCC is 5 V and the gate is operated on a 50% duty cycle. What is the average power dissipation (PD)?",
+      "options": [
+        "2.55 W",
+        "1.27 W",
+        "12.75 W",
+        "5 W"
       ],
       "correct": 0,
       "explain": "",

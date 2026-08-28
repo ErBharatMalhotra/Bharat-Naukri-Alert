@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Operational Amplifiers",
   "source": "indiabix.com",
-  "count": 19,
+  "count": 82,
   "questions": [
     {
-      "id": "gate-k6c9a0",
-      "q": "Feedback is used in an open-loop operational amplifier circuit.",
+      "id": "gate-1flsra4",
+      "q": "A virtual ground is a ground for current, but not for voltage.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-cjvkv4",
-      "q": "This circuit is operating in a closed-loop mode.",
+      "id": "gate-g3lbrc",
+      "q": "An op-amp has very low open-loop gain.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-cig8rk",
-      "q": "This circuit is a bandpass filter.",
+      "id": "gate-y4qssc",
+      "q": "If an input signal is applied to the inverting input of an op-amp with the noninverting input grounded, the output signal would be opposite in polarity with the input.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-roin72",
-      "q": "This circuit is a voltage follower.",
+      "id": "gate-824279",
+      "q": "The TO-5 operational amplifier package can have 5 pins.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-189ltd4",
-      "q": "If the two inputs to a differential amplifier are exactly the same, then the output is the signal multiplied by two.",
+      "id": "gate-1obx5xc",
+      "q": "Operational amplifiers (op-amps) use internal capacitive coupling between stages.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1xhraxi",
-      "q": "A PLL can be used as a(n) ___________.",
+      "id": "gate-v5pv8e",
+      "q": "This circuit is a differentiator.",
       "options": [
-        "series voltage regulator",
-        "frequency multiplier",
-        "relaxation oscillator",
-        "Schmitt trigger"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,12 +116,188 @@
       "tags": []
     },
     {
-      "id": "gate-r5nbpg",
-      "q": "Common-mode signals have _____.",
+      "id": "gate-1psztt8",
+      "q": "Crystal oscillator circuits have a very low Q.",
       "options": [
-        "the same amplitude",
-        "the same phase",
-        "the same frequency",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gixyan",
+      "q": "In a common-mode input to an op-amp, both inputs are connected to the same signal source.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18hez36",
+      "q": "An op-amp circuit in which the output voltage is equal to the difference between the two input voltages is called a(n) _____",
+      "options": [
+        "integrator",
+        "differentiator",
+        "differential amplifier",
+        "voltage regulator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dfwbw0",
+      "q": "The feedback resistor has a value of ______ in the given circuit",
+      "options": [
+        "2 k",
+        "10.5 k",
+        "21 k",
+        "40 k"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kx2w",
+      "q": "The input impedance is ______ for the amplifier in the given circuit. The data sheet values are Zin = 3 M, Zout = 80 , and Aol = 250,000.",
+      "options": [
+        "4.7 k",
+        "22.7 k",
+        "3 M",
+        "68.6 k"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5ked3g",
+      "q": "The Q of a crystal _________.",
+      "options": [
+        "is extremely low",
+        "is about 40 or so in most cases",
+        "is extremely high",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f4ebpa",
+      "q": "The 555 timer can be connected to operate a(n) ___________.",
+      "options": [
+        "astable multivibrator",
+        "bistable multivibrator",
+        "monostable multivibrator",
+        "astable multivibrator and a monostable multivibrator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e4ywac",
+      "q": "The given circuit is ___.",
+      "options": [
+        "an inverting amplifier",
+        "a noninverting amplifier",
+        "a voltage follower",
+        "a differential amplifier"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b1g8ii",
+      "q": "An oscillator whose frequency can be controlled by an input \"control voltage\" is called a(n) ______ .",
+      "options": [
+        "PLL",
+        "Schmitt trigger",
+        "VCO",
+        "S-R latch"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5hxclo",
+      "q": "An ideal operational amplifier has",
+      "options": [
+        "infinite output impedance",
+        "zero input impedance",
+        "infinite bandwidth",
         "All of the above"
       ],
       "correct": 0,
@@ -138,113 +312,173 @@
       "tags": []
     },
     {
-      "id": "gate-pwj1ww",
-      "q": "A circuit that has an output equal to the algebraic sum of the inputs is called a(n) ______ .",
+      "id": "gate-1ltwl2g",
+      "q": "Another name for a unity gain amplifier is:",
       "options": [
-        "integrator amplifier",
-        "summing amplifier",
-        "differential amplifier",
-        "voltage multiplier"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Operational Amplifiers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b6cydp",
-      "q": "Switching voltage regulators have ______ than linear regulators.",
-      "options": [
-        "longer life",
-        "simpler circuitry",
-        "greater efficiency",
-        "lower cost"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Operational Amplifiers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o5c52g",
-      "q": "A ______ is not a multivibrator.",
-      "options": [
-        "one-shot",
-        "flip-flop",
-        "VCO",
-        "bistable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Operational Amplifiers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8x1htp",
-      "q": "A noninverting closed-loop op-amp circuit generally has a gain factor:",
-      "options": [
-        "less than one",
-        "greater than one",
-        "of zero",
-        "equal to one"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Operational Amplifiers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3qz06g",
-      "q": "In order for an output to swing above and below a zero reference, the op-amp circuit requires:",
-      "options": [
-        "a resistive feedback network",
-        "zero offset",
-        "a wide bandwidth",
-        "a negative and positive supply"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Operational Amplifiers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uf55d9",
-      "q": "Op-amps used as high- and low-pass filter circuits employ which configuration?",
-      "options": [
-        "noninverting",
+        "difference amplifier",
         "comparator",
+        "single ended",
+        "voltage follower"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3pcxn0",
+      "q": "The open-loop voltage gain (Aol) of an op-amp is the",
+      "options": [
+        "external voltage gain the device is capable of",
+        "internal voltage gain the device is capable of",
+        "most controlled parameter",
+        "same as Acl"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rl9a9s",
+      "q": "What is the output waveform?",
+      "options": [
+        "sine wave",
+        "square wave",
+        "sawtooth wave",
+        "triangle wave"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3xc8xw",
+      "q": "A series dissipative regulator is an example of a:",
+      "options": [
+        "linear regulator",
+        "switching regulator",
+        "shunt regulator",
+        "dc-to-dc converter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prswe0",
+      "q": "If ground is applied to the (+) terminal of an inverting op-amp, the (&#8211;) terminal will:",
+      "options": [
+        "not need an input resistor",
+        "be virtual ground",
+        "have high reverse current",
+        "not invert the signal"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wq137g",
+      "q": "An astable multivibrator is also known as a:",
+      "options": [
+        "one-shot multivibrator",
+        "free-running multivibrator",
+        "bistable multivibrator",
+        "monostable multivibrator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p9xjcs",
+      "q": "With negative feedback, the returning signal:",
+      "options": [
+        "aids the input signal",
+        "is proportional to output current",
+        "opposes the input signal",
+        "is proportional to differential voltage gain"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4b91a4",
+      "q": "What starts a free-running multivibrator?",
+      "options": [
+        "a trigger",
+        "an input signal",
+        "an external circuit",
+        "nothing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wvt768",
+      "q": "A portion of the output that provides circuit stabilization is considered to be:",
+      "options": [
+        "negative feedback",
+        "distortion",
         "open-loop",
-        "inverting"
+        "positive feedback"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +492,13 @@
       "tags": []
     },
     {
-      "id": "gate-11g5sic",
-      "q": "Decreasing the gain in the given circuit could be achieved by",
+      "id": "gate-1yeio6o",
+      "q": "The common-mode voltage gain is",
       "options": [
-        "reducing the amplitude of the input voltage",
-        "increasing the value of the feedback resistor",
-        "increasing the value of the input resistor",
-        "removing the feedback resistor"
+        "smaller than differential voltage gain",
+        "equal to voltage gain",
+        "greater than differential voltage gain",
+        "None of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +512,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ey9d8",
-      "q": "A differential amplifier has a common-mode gain of 0.2 and a common-mode rejection ratio of 3250. What would the output voltage be if the single-ended input voltage was 7 mV rms?",
+      "id": "gate-lx7r14",
+      "q": "How many logic states does an S-R flip-flop have?",
       "options": [
-        "1.4 mV rms",
-        "650 mV rms",
-        "4.55 V rms",
-        "0.455 V rms"
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "correct": 0,
       "explain": "",
@@ -298,11 +532,511 @@
       "tags": []
     },
     {
-      "id": "gate-uusxnc",
-      "q": "The magnitude of closed-loop voltage gain (Acl) of an inverting amplifier equals:",
+      "id": "gate-1m171qk",
+      "q": "An output that is proportional to the addition of two or more inputs is from which type of amplifier?",
+      "options": [
+        "differentiator",
+        "difference",
+        "summing",
+        "analog subtractor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1khzt2s",
+      "q": "In a PLL, to obtain lock, the signal frequency must:",
+      "options": [
+        "come within the lock range",
+        "be less than the capture frequency",
+        "come within the capture range",
+        "be greater than the capture frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nbblqg",
+      "q": "An ideal amplifier should have:",
+      "options": [
+        "high input current",
+        "zero offset",
+        "high output impedance",
+        "moderate gain"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rv2x3u",
+      "q": "An operational amplifier contains a differential amplifier, a voltage amplifier, and an output amplifier.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zc6rws",
+      "q": "If an input signal is applied to the inverting input of an op-amp with the noninverting input grounded, the output signal would be opposite in polarity to the input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b2pe1c",
+      "q": "The inverting input is pin 2.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ah07xg",
+      "q": "An S-R flip-flop is an example of a bistable multivibrator circuit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j0na8s",
+      "q": "The ideal output impedance for an operational amplifier is 0 .",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cl5640",
+      "q": "If the frequency of an astable multivibrator is 54.86 kHz then its period is 1.82 s.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xcccag",
+      "q": "An open feedback resistor in an inverting or noninverting op-amp circuit can cause severe clipping of the output signal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13oxa2s",
+      "q": "It takes 4 s for the output voltage of an op-amp to rise from &#8211;14 V to +14 V. The slew rate of this op-amp is 3.5 V/s.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ozpk4g",
+      "q": "The difference between the upper and lower trigger points is called the Schmitt trigger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5lyhrk",
+      "q": "Changing the input voltage to an op-amp circuit will change its voltage gain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b90v8o",
+      "q": "The input voltage must be ______ in the given circuit to obtain the given output voltage.",
+      "options": [
+        "343 mV",
+        "400 mV",
+        "480 mV",
+        "600 mV"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jsga80",
+      "q": "The voltage required to force the differential output to zero is called _______.",
+      "options": [
+        "input-offset current",
+        "input-offset voltage",
+        "input bias current",
+        "slew rate voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jpo4tq",
+      "q": "If the input to a comparator is a sine wave, the output is a(n) _________.",
+      "options": [
+        "ramp voltage",
+        "sine wave",
+        "sawtooth wave",
+        "rectangular wave"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v499ys",
+      "q": "The common-mode rejection ratio (CMMR) is the ratio of _____ to ______.",
+      "options": [
+        "the differential voltage gain, the common-mode voltage gain",
+        "the differential power gain, the common-mode power gain",
+        "the ideal voltage gain, the actual voltage gain",
+        "signal voltage, noise voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2d7lus",
+      "q": "The voltage gain is ______ for the amplifier in the given circuit.",
+      "options": [
+        "&#8211;4",
+        "&#8211;5",
+        "&#8211;6",
+        "&#8211;7"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r9pq0",
+      "q": "The voltage gain of the amplifier in the given circuit would increase if ______.",
+      "options": [
+        "the feedback resistor was decreased in value",
+        "the input voltage was increased",
+        "the input resistor was increased in value",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dqjud0",
+      "q": "A virtual ground is a(n) ______ ground because this point is at zero volts.",
+      "options": [
+        "ordinary",
+        "voltage",
+        "chassis",
+        "earth"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-55d5hg",
+      "q": "The resistors Rf and Ri in an op-amp circuit control ______ .",
+      "options": [
+        "positive feedback and current gain",
+        "negative feedback and power gain",
+        "negative feedback and voltage gain",
+        "open and closed loop gain"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-43c8co",
+      "q": "______ is NOT a characteristic of an ideal op-amp.",
+      "options": [
+        "Infinite voltage gain",
+        "Minimum bandwidth",
+        "Infinite input impedance",
+        "Zero output impedance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g5096e",
+      "q": "Current cannot flow to ground through a(n) ________.",
+      "options": [
+        "mechanical ground",
+        "ac ground",
+        "virtual ground",
+        "virtual short"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rrytnw",
+      "q": "How many leads does the TO-5 metal can package of an operational amplifier have?",
+      "options": [
+        "8, 10, or 12",
+        "6, 8, or 10",
+        "8 or 14",
+        "8 or 16"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kymbqo",
+      "q": "If a noninverting amplifier has an RIN of 1000 ohms and an RFB of 2.5 kilohms, what is the RIN voltage when 1.42 mV is applied to the correct input?",
+      "options": [
+        "3.5 mV",
+        "ground",
+        "1.42 mV",
+        "0.56 mV"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yyjlxw",
+      "q": "Input impedance [Zin(I)] of an inverting amplifier is approximately equal to:",
+      "options": [
+        "Ri",
+        "Rf + Ri",
+        "&#8734;",
+        "Rf &#8211; Ri"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tbw2ew",
+      "q": "The closed-loop voltage gain of an inverting amplifier equals:",
       "options": [
         "the ratio of the input resistance to the feedback resistance",
-        "the open-loop voltage gain Aol",
+        "the open-loop voltage gain",
         "the feedback resistance divided by the input resistance",
         "the input resistance"
       ],
@@ -318,13 +1052,13 @@
       "tags": []
     },
     {
-      "id": "gate-12spwt1",
-      "q": "What is the difference between common-mode and differential-mode input signals?",
+      "id": "gate-1ghw7o2",
+      "q": "What is the cutoff frequency of this low-pass filter?",
       "options": [
-        "phase relationship",
-        "voltage",
-        "current",
-        "apparent power"
+        "4.8 kHz",
+        "3.8 kHz",
+        "2.8 kHz",
+        "1.8 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -338,13 +1072,13 @@
       "tags": []
     },
     {
-      "id": "gate-1794e8o",
-      "q": "A circuit that uses an amplifier with passive filter elements is called a(n):",
+      "id": "gate-os35rw",
+      "q": "If an op-amp has one input grounded and the other input has a signal feed to it, then it is operating as what?",
       "options": [
-        "relaxation oscillator",
-        "signal generator",
-        "differential amplifier",
-        "active filter"
+        "Common-mode",
+        "Single-ended",
+        "Double-ended",
+        "Noninverting mode"
       ],
       "correct": 0,
       "explain": "",
@@ -358,13 +1092,493 @@
       "tags": []
     },
     {
-      "id": "gate-eehzug",
-      "q": "The input offset current equals the",
+      "id": "gate-tbz35w",
+      "q": "If the feedback/input resistor ratio of a feedback amplifier is 4.6 with 1.7 V applied to the noninverting input, what is the output voltage value?",
       "options": [
-        "average of two base currents",
-        "collector current divided by the current gain",
-        "difference between two base-emitter voltages",
-        "difference between two base currents"
+        "7.82 V",
+        "saturation",
+        "cutoff",
+        "9.52 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fiepz0",
+      "q": "The Schmitt trigger is a two-state device that is used for:",
+      "options": [
+        "pulse shaping",
+        "peak detection",
+        "input noise rejection",
+        "filtering"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5vn9bs",
+      "q": "When a capacitor is used in place of a resistor in an op-amp network, its placement determines:",
+      "options": [
+        "open- or closed-loop gain",
+        "integration or differentiation",
+        "saturation or cutoff",
+        "addition or subtraction"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12xmyej",
+      "q": "What value of input resistance is needed in the given circuit to produce the given output voltage?",
+      "options": [
+        "50",
+        "4 k",
+        "4.08 k",
+        "5 k"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ykmb42",
+      "q": "Current actually flows into or out of a virtual ground.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gtlek8",
+      "q": "A voltage-follower op-amp has the output connected directly to the inverting input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4brpyc",
+      "q": "The frequency of a crystal is dependent on how much voltage is applied to activate it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ee4fwq",
+      "q": "If the two inputs to a differential amplifier are exactly the same, then the output is the signal multiplied by 2.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1om2pak",
+      "q": "An inverting amplifier has a phase shift of 180&#176; from input to output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prygn4",
+      "q": "The feedback resistor adds to the gain of an op-amp.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-45dcpi",
+      "q": "A 555 timer can be configured as an astable multivibrator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mzjgk4",
+      "q": "A monostable multivibrator must be triggered.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c5us64",
+      "q": "The voltage-follower amplifier circuit has a fixed voltage gain of approximately 10.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10ziy0k",
+      "q": "An astable multivibrator has two states.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ybpnik",
+      "q": "All of the following are basic op-amp input modes of operation EXCEPT",
+      "options": [
+        "inverting mode",
+        "common-mode",
+        "double-ended",
+        "single-ended"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a7oatw",
+      "q": "What is the output voltage?",
+      "options": [
+        "15 V",
+        "5 V",
+        "&#8211;5 V",
+        "&#8211;15 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10q0fqm",
+      "q": "A circuit whose output is proportional to the difference between the input signals is considered to be which type of amplifier?",
+      "options": [
+        "common-mode",
+        "darlington",
+        "differential",
+        "operational"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nu27f0",
+      "q": "In an open-loop op-amp circuit, whenever the inverting input (&#8211;) is negative relative to the noninverting input (+), the output will:",
+      "options": [
+        "swing negative",
+        "close the loop",
+        "be balanced",
+        "swing positive"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19os7rw",
+      "q": "With a differential gain of 50,000 and a common-mode gain of 2, what is the common-mode rejection ratio?",
+      "options": [
+        "&#8211;87.9 dB",
+        "&#8211;43.9 dB",
+        "43.9 dB",
+        "87.9 dB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7jhj3u",
+      "q": "What three subcircuits does a phase locked loop (PLL) consist of?",
+      "options": [
+        "phase comparator, comparator, and VCO",
+        "phase comparator, bandpass filter, and VCO",
+        "phase comparator, bandpass filter, and demodulator",
+        "phase comparator, low-pass filter, and VCO"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x1d6fc",
+      "q": "The major difference between ground and virtual ground is that virtual ground is only a:",
+      "options": [
+        "voltage reference",
+        "current reference",
+        "power reference",
+        "difference reference"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-170pmu4",
+      "q": "The voltage follower has a:",
+      "options": [
+        "closed-loop voltage gain of unity",
+        "small open-loop voltage gain",
+        "closed-loop bandwidth of zero",
+        "large closed-loop output impedance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dazop0",
+      "q": "What is the output waveform of the circuit?",
+      "options": [
+        "sine wave",
+        "square wave",
+        "sawtooth wave",
+        "triangle wave"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nz15sk",
+      "q": "The ratio between differential gain and common-mode gain is called:",
+      "options": [
+        "amplitude",
+        "differential-mode rejection",
+        "common-mode rejection",
+        "phase"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wjzq94",
+      "q": "What is the frequency of this 555 astable multivibrator?",
+      "options": [
+        "278 Hz",
+        "178 Hz",
+        "78 Hz",
+        "8 Hz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Operational Amplifiers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ei2eqg",
+      "q": "If the gain of a closed-loop inverting amplifier is 3.9, with an input resistor value of 1.6 kilohms, what value of feedback resistor is necessary?",
+      "options": [
+        "6240 ohms",
+        "2.4 kilohms",
+        "410 ohms",
+        "0.62 kilohms"
       ],
       "correct": 0,
       "explain": "",

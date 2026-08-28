@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Functions And Subroutines",
   "source": "indiabix.com",
-  "count": 6,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-17yqaow",
-      "q": "Which of the following will be the correct output for the C#.NET program given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[] args) { int a = 5; int s = 0, c = 0; Proc(a, ref s, ref c); Console.WriteLine(s + \" \" + c); } static void Proc(int x, ref int ss, ref int cc) { ss = x * x; cc = x * x * x; } } }",
+      "id": "gate-11ho654",
+      "q": "Which of the following will be the correct output for the C#.NET program given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[] args) { int num = 1; funcv(num); Console.Write(num + \", \"); funcr(ref num); Console.Write(num + \", \"); } static void funcv(int num) { num = num + 10; Console.Write(num + \", \"); } static void funcr (ref int num) { num = num + 10; Console.Write(num + \", \"); } } }",
       "options": [
-        "0 0",
-        "25 25",
-        "125 125",
-        "25 125"
+        "1, 1, 1, 1,",
+        "11, 1, 11, 11,",
+        "11, 11, 11, 11,",
+        "11, 11, 21, 11,"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-e5c7ow",
-      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { int i = 10; double d = 34.340; fun(i); fun(d); } static void fun(double d) { Console.WriteLine(d + \" \"); } } }",
+      "id": "gate-19s0lq4",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[] args) { int[]arr = newint[]{ 1, 2, 3, 4, 5 }; fun(ref arr); } static void fun(ref int[] a) { for (int i = 0; i &lt; a.Length; i++) { a[i] = a[i] * 5; Console.Write(a[ i ] + \" \"); } } } }",
       "options": [
-        "10.000000 34.340000",
-        "10 34",
-        "10 34.340",
-        "10 34.34"
+        "1 2 3 4 5",
+        "6 7 8 9 10",
+        "5 10 15 20 25",
+        "5 25 125 625 3125"
       ],
       "correct": 0,
       "explain": "",
@@ -48,12 +48,12 @@
       "tags": []
     },
     {
-      "id": "gate-kviifh",
-      "q": "Which of the following statements are correct? C# allows a function to have arguments with default values. C# allows a function to have variable number of arguments. Omitting the return value type in method definition results into an exception. Redefining a method parameter in the method's body causes an exception. params is used to specify the syntax for a function with variable number of arguments.",
+      "id": "gate-1dpvnhg",
+      "q": "Which of the following statements are correct? An argument passed to a ref parameter need not be initialized first. Variables passed as out arguments need to be initialized prior to being passed. Argument that uses params keyword must be the last argument of variable argument list of a method. Pass by reference eliminates the overhead of copying large data items. To use a ref parameter only the calling method must explicitly use the ref keyword.",
       "options": [
-        "1, 3, 5",
-        "3, 4, 5",
-        "2, 5",
+        "1, 2",
+        "2, 3",
+        "3, 4",
         "4, 5"
       ],
       "correct": 0,
@@ -68,13 +68,11 @@
       "tags": []
     },
     {
-      "id": "gate-1o2rtww",
-      "q": "If a procedure fun() is to receive an int, a Single &amp; a double and it is to return a decimal then which of the following is the correct way of defining this procedure?",
+      "id": "gate-1py3lur",
+      "q": "A function returns a value, whereas a subroutine cannot return a value.",
       "options": [
-        "fun(int i, Single j, double k) decimal { ... }",
-        "static decimal fun(int i, Single j, double k) { ... }",
-        "fun(int i, Single j, double k) { ... return decimal; }",
-        "static decimal fun(int i, Single j, double k) decimal { ... }"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +86,13 @@
       "tags": []
     },
     {
-      "id": "gate-fgpr6d",
-      "q": "If a function fun() is to receive an int, a Single &amp; a double and it is to return a decimal then which of the following is the correct way of defining this function?",
+      "id": "gate-wbamzo",
+      "q": "Which of the following statements are correct about functions and subroutines used in C#.NET? A function cannot be called from a subroutine. The ref keyword causes arguments to be passed by reference. While using ref keyword any changes made to the parameter in the method will be reflected in that variable when control passes back to the calling method. A subroutine cannot be called from a function. Functions and subroutines can be called recursively.",
       "options": [
-        "decimal static fun(int i, Single j, double k) { ... }",
-        "decimal fun(int i, Single j, double k) { ... }",
-        "static decimal fun(int i, Single j, double k) { ... }",
-        "static decimal fun(int i, Single j, double k) decimal { ... }"
+        "1, 2, 4",
+        "2, 3, 5",
+        "3, 5",
+        "4, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +106,191 @@
       "tags": []
     },
     {
-      "id": "gate-1mvvrrk",
-      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { int i = 5; int j; fun1(ref i); fun2(out j); Console.WriteLine(i + \", \" + j); } static void funl(ref int x) { x = x * x; } static void fun2(out int x) { x = 6; x = x * x; } } }",
+      "id": "gate-jnqyqk",
+      "q": "Which of the following statements are correct about functions used in C#.NET? Function definitions cannot be nested. Functions can be called recursively. If we do not return a value from a function then a value -1 gets returned. To return the control from middle of a function exit function should be used. Function calls can be nested.",
       "options": [
-        "5, 6",
-        "5, 36",
-        "25, 36",
-        "25, 0"
+        "1, 2, 5",
+        "2, 3, 5",
+        "2, 3",
+        "4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xb45ow",
+      "q": "How many values is a function capable of returning?",
+      "options": [
+        "1",
+        "0",
+        "Depends upon how many params arguments does it use.",
+        "Any number of values."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qtzpfn",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { object[] o = new object[] {\"1\", 4.0, \"India\", 'B'}; fun (o); } static void fun (params object[] obj) { for (int i = 0; i &lt; obj.Length-1; i++) Console.Write(obj[i] + \" \"); } } }",
+      "options": [
+        "1 4.0 India B",
+        "1 4.0 India",
+        "1 4 India",
+        "1 India B"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ub9xh0",
+      "q": "How many values is a subroutine capable of returning?",
+      "options": [
+        "Depends upon how many params arguments does it use.",
+        "Any number of values.",
+        "Depends upon how many ref arguments does it use.",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e3jhlg",
+      "q": "Which of the following CANNOT occur multiple number of times in a program?",
+      "options": [
+        "namespace",
+        "Entrypoint",
+        "Class",
+        "Function"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t4gtg5",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { int i; int res = fun(out i); Console.WriteLine(res); } static int fun (out int i) { int s = 1; i = 7; for(int j = 1; j &lt;= i; j++) { s = s * j; } return s; } } }",
+      "options": [
+        "1",
+        "7",
+        "8",
+        "720"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3ifqxk",
+      "q": "If a function fun() is to sometimes receive an int and sometimes a double then which of the following is the correct way of defining this function?",
+      "options": [
+        "static void fun(object i) { ... }",
+        "static void fun(int i) { ... }",
+        "static void fun(double i, int j) { ... }",
+        "static void fun(int i, double j) { ... }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i478zc",
+      "q": "Which of the following statements are correct about subroutines used in C#.NET? If we do not return a value from a subroutine then a value -1 gets returned. Subroutine definitions cannot be nested. Subroutine can be called recursively. To return the control from middle of a subroutine exit subroutine should be used. Subroutine calls can be nested.",
+      "options": [
+        "1, 2, 3",
+        "2, 3, 5",
+        "3, 5",
+        "3, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3lfpck",
+      "q": "A function can be used in an expression, whereas a subroutine cannot be.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Functions And Subroutines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s77pk",
+      "q": "Which of the following statements are correct about the C#.NET program given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { int a = 5; int s = 0, c = 0; s, c = fun(a); Console.WriteLine(s +\" \" + c) ; } static int fun(int x) { int ss, cc; ss = x * x; cc = x * x * x; return ss, cc; } } } An error will be reported in the statement s, c = fun(a); since multiple values returned from a function cannot be collected in this manner. It will output 25 125. It will output 25 0. It will output 0 125. An error will be reported in the statement return ss, cc; since a function cannot return multiple values.",
+      "options": [
+        "1, 3",
+        "2, 4",
+        "4, 5",
+        "1, 5"
       ],
       "correct": 0,
       "explain": "",

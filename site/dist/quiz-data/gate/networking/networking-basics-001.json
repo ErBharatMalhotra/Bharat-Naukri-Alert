@@ -5,16 +5,396 @@
   "subject": "Networking",
   "topic": "Networking Basics",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-dblvjq",
-      "q": "Which WLAN IEEE specification allows up to 54Mbps at 2.4GHz?",
+      "id": "gate-15r6b2g",
+      "q": "How long is an IPv6 address?",
+      "options": [
+        "32 bits",
+        "128 bytes",
+        "64 bits",
+        "128 bits"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fi3k5o",
+      "q": "What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet?",
+      "options": [
+        "NAT",
+        "Static",
+        "Dynamic",
+        "PAT"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jfsm4",
+      "q": "What are the two main types of access control lists (ACLs)? Standard IEEE Extended Specialized",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "3 and 4",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15hw2pu",
+      "q": "What command is used to create a backup configuration?",
+      "options": [
+        "copy running backup",
+        "copy running-config startup-config",
+        "config mem",
+        "wr mem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g4m9g8",
+      "q": "You have 10 users plugged into a hub running 10Mbps half-duplex. There is a server connected to the switch running 10Mbps half-duplex as well. How much bandwidth does each host have to the server?",
+      "options": [
+        "100 kbps",
+        "1 Mbps",
+        "2 Mbps",
+        "10 Mbps"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l1n65z",
+      "q": "Which protocol does DHCP use at the Transport layer?",
+      "options": [
+        "IP",
+        "TCP",
+        "UDP",
+        "ARP"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bb362f",
+      "q": "Which command is used to determine if an IP access list is enabled on a particular interface?",
+      "options": [
+        "show access-lists",
+        "show interface",
+        "show ip interface",
+        "show interface access-lists"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lh02g4",
+      "q": "Where is a hub specified in the OSI model?",
+      "options": [
+        "Session layer",
+        "Physical layer",
+        "Data Link layer",
+        "Application layer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jfmxfk",
+      "q": "What does the passive command provide to dynamic routing protocols?",
+      "options": [
+        "Stops an interface from sending or receiving periodic dynamic updates.",
+        "Stops an interface from sending periodic dynamic updates but not from receiving updates.",
+        "Stops the router from receiving any dynamic updates.",
+        "Stops the router from sending any dynamic updates."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t4t4h5",
+      "q": "Which protocol is used to send a destination network unknown message back to originating hosts?",
+      "options": [
+        "TCP",
+        "ARP",
+        "ICMP",
+        "BootP"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gctg1s",
+      "q": "What does a VLAN do?",
+      "options": [
+        "Acts as the fastest port to all servers.",
+        "Provides multiple collision domains on one switch port.",
+        "Breaks up broadcast domains in a layer 2 switch internetwork.",
+        "Provides multiple broadcast domains within a single collision domain."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mh8jjg",
+      "q": "What is the main reason the OSI model was created?",
+      "options": [
+        "To create a layered model larger than the DoD model.",
+        "So application developers can change only one layer's protocols at a time.",
+        "So different networks could communicate.",
+        "So Cisco could use the model."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s4cbpo",
+      "q": "How many collision domains are created when you segment a network with a 12-port switch?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "12"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m29q8o",
+      "q": "What command will display the line, protocol, DLCI, and LMI information of an interface?",
+      "options": [
+        "sh pvc",
+        "show interface",
+        "show frame-relay pvc",
+        "show run"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1osnu2s",
+      "q": "Which protocol does Ping use?",
+      "options": [
+        "TCP",
+        "ARP",
+        "ICMP",
+        "BootP"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1euqhhw",
+      "q": "How often are BPDUs sent from a layer 2 device?",
+      "options": [
+        "Never",
+        "Every 2 seconds",
+        "Every 10 minutes",
+        "Every 30 seconds"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10cncpg",
+      "q": "How many broadcast domains are created when you segment a network with a 12-port switch?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "12"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yk10uk",
+      "q": "What does the command routerA(config)#line cons 0 allow you to perform next?",
+      "options": [
+        "Set the Telnet password.",
+        "Shut down the router.",
+        "Set your console password.",
+        "Disable console connections."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mum334",
+      "q": "Which router command allows you to view the entire contents of all access lists?",
+      "options": [
+        "show all access-lists",
+        "show access-lists",
+        "show ip interface",
+        "show interface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Networking Basics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u72qag",
+      "q": "Which class of IP address has the most host addresses available by default?",
       "options": [
         "A",
         "B",
-        "G",
-        "N"
+        "C",
+        "A and B"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +408,13 @@
       "tags": []
     },
     {
-      "id": "gate-izbug8",
-      "q": "Which of the following is the valid host range for the subnet on which the IP address 192.168.168.188 255.255.255.192 resides?",
+      "id": "gate-3yx3h4",
+      "q": "In a network with dozens of switches, how many root bridges would you have?",
       "options": [
-        "192.168.168.129-190",
-        "192.168.168.129-191",
-        "192.168.168.128-190",
-        "192.168.168.128-192"
+        "1",
+        "2",
+        "5",
+        "12"
       ],
       "correct": 0,
       "explain": "",
@@ -48,33 +428,13 @@
       "tags": []
     },
     {
-      "id": "gate-fyt60g",
-      "q": "To back up an IOS, what command will you use?",
-      "options": [
-        "backup IOS disk",
-        "copy ios tftp",
-        "copy tftp flash",
-        "copy flash tftp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Networking Basics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18i7j10",
-      "q": "What protocol does PPP use to identify the Network layer protocol?",
+      "id": "gate-keb4nk",
+      "q": "What PPP protocol provides dynamic addressing, authentication, and multilink?",
       "options": [
         "NCP",
-        "ISDN",
         "HDLC",
-        "LCP"
+        "LCP",
+        "X.25"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +448,13 @@
       "tags": []
     },
     {
-      "id": "gate-3u84hb",
-      "q": "Which of the following commands will allow you to set your Telnet password on a Cisco router?",
+      "id": "gate-qjle1k",
+      "q": "What is a stub network?",
       "options": [
-        "line telnet 0 4",
-        "line aux 0 4",
-        "line vty 0 4",
-        "line con 0"
+        "A network with more than one exit point.",
+        "A network with more than one exit and entry point.",
+        "A network with only one entry and no exit point.",
+        "A network that has only one entry and exit point."
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +468,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mjzr18",
-      "q": "Which command is used to upgrade an IOS on a Cisco router?",
+      "id": "gate-18jsa8h",
+      "q": "If your router is facilitating a CSU/DSU, which of the following commands do you need to use to provide the router with a 64000bps serial link?",
       "options": [
-        "copy tftp run",
-        "copy tftp start",
-        "config net",
-        "copy tftp flash"
+        "RouterA(config)#bandwidth 64",
+        "RouterA(config-if)#bandwidth 64000",
+        "RouterA(config-if)#clock rate 64",
+        "RouterA(config-if)#clock rate 64000"
       ],
       "correct": 0,
       "explain": "",
@@ -128,33 +488,13 @@
       "tags": []
     },
     {
-      "id": "gate-5efl20",
-      "q": "If you wanted to delete the configuration stored in NVRAM, what would you type?",
+      "id": "gate-r023at",
+      "q": "Which one of the following is true regarding VLANs?",
       "options": [
-        "erase startup",
-        "erase nvram",
-        "delete nvram",
-        "erase running"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Networking Basics",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k3n2g",
-      "q": "What protocols are used to configure trunking on a switch? VLAN Trunking Protocol VLAN 802.1Q ISL",
-      "options": [
-        "1 and 2",
-        "3 and 4",
-        "1 only",
-        "2 only"
+        "Two VLANs are configured by default on all Cisco switches.",
+        "VLANs only work if you have a complete Cisco switched internetwork. No off-brand switches are allowed.",
+        "You should not have more than 10 switches in the same VTP domain.",
+        "VTP is used to send VLAN information to switches in a configured VTP domain."
       ],
       "correct": 0,
       "explain": "",

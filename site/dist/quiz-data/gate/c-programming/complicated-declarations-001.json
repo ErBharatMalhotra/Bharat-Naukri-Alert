@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "Complicated Declarations",
   "source": "indiabix.com",
-  "count": 24,
+  "count": 11,
   "questions": [
     {
-      "id": "gate-z87s3c",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { char far *near *ptr1; char far *far *ptr2; char far *huge *ptr3; printf(\"%d, %d, %d\\n\", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3)); return 0; }",
+      "id": "gate-10h1cys",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; typedef unsigned long int uli; typedef uli u; int main() { uli a; u b = -1; a = -1; printf(\"%lu, %lu\", a, b); return 0; }",
       "options": [
-        "4, 4, 8",
-        "4, 4, 4",
-        "2, 4, 4",
-        "2, 4, 8"
+        "4343445454, 4343445454",
+        "4545455434, 4545455434",
+        "4294967295, 4294967295",
+        "Garbage values"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f736ci",
-      "q": "What will be the output of the program in DOS (Compiler - Turbo C)? #include&lt;stdio.h&gt; double i; int main() { (int)(float)(char) i; printf(\"%d\", sizeof((int)(float)(char)i)); return 0; }",
+      "id": "gate-dx3is0",
+      "q": "What will be the output of the program in DOS (Compiler - Turbo C)? #include&lt;stdio.h&gt; double i; int main() { (int)(float)(char) i; printf(\"%d\",sizeof(i)); return 0; }",
       "options": [
-        "1",
-        "2",
         "4",
-        "8"
+        "8",
+        "16",
+        "22"
       ],
       "correct": 0,
       "explain": "",
@@ -48,11 +48,11 @@
       "tags": []
     },
     {
-      "id": "gate-12tx1vs",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { char huge *near *far *ptr1; char near *far *huge *ptr2; char far *huge *near *ptr3; printf(\"%d, %d, %d\\n\", sizeof(**ptr1), sizeof(ptr2), sizeof(*ptr3)); return 0; }",
+      "id": "gate-mk909c",
+      "q": "What will be the output of the program under DOS? #include&lt;stdio.h&gt; int main() { char huge *near *far *ptr1; char near *far *huge *ptr2; char far *huge *near *ptr3; printf(\"%d, %d, %d\\n\", sizeof(ptr1), sizeof(**ptr2), sizeof(ptr3)); return 0; }",
       "options": [
         "4, 4, 4",
-        "2, 2, 2",
+        "4, 2, 2",
         "2, 8, 4",
         "2, 4, 8"
       ],
@@ -68,8 +68,28 @@
       "tags": []
     },
     {
-      "id": "gate-z980a8",
-      "q": "What will be the output of the program (in Turbo C under DOS)? #include&lt;stdio.h&gt; int main() { char huge *near *far *ptr1; char near *far *huge *ptr2; char far *huge *near *ptr3; printf(\"%d, %d, %d\\n\", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3)); return 0; }",
+      "id": "gate-yoefc8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { struct s1 { char *z; int i; struct s1 *p; }; static struct s1 a[] = {{\"Nagpur\", 1, a+1} , {\"Chennai\", 2, a+2} , {\"Bangalore\", 3, a} }; struct s1 *ptr = a; printf(\"%s,\", ++(ptr-&gt;z)); printf(\" %s,\", a[(++ptr)-&gt;i].z); printf(\" %s\", a[--(ptr-&gt;p-&gt;i)].z); return 0; }",
+      "options": [
+        "Nagpur, Chennai, Bangalore",
+        "agpur, hennai, angalore",
+        "agpur, Chennai, angalore",
+        "agpur, Bangalore, Bangalore"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Complicated Declarations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-djd9ls",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { char huge *near *ptr1; char huge *far *ptr2; char huge *huge *ptr3; printf(\"%d, %d, %d\\n\", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3)); return 0; }",
       "options": [
         "4, 4, 8",
         "2, 4, 4",
@@ -88,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-slvbd5",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; typedef void v; typedef int i; int main() { v fun(i, i); fun(2, 3); return 0; } v fun(i a, i b) { i s=2; float i; printf(\"%d,\", sizeof(i)); printf(\" %d\", a*b*s); }",
+      "id": "gate-kyxm7s",
+      "q": "What will be the output of the program in Turbo C? #include&lt;stdio.h&gt; int main() { char near *near *ptr1; char near *far *ptr2; char near *huge *ptr3; printf(\"%d, %d, %d\\n\", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3)); return 0; }",
       "options": [
-        "2, 8",
-        "4, 8",
-        "2, 4",
-        "4, 12"
+        "4, 4, 8",
+        "4, 4, 4",
+        "2, 4, 8",
+        "2, 4, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1is0k3u",
-      "q": "Point out the error in the following program (in Turbo C under DOS). #include&lt;stdio.h&gt; union emp { int empno; int age; }; int main() { union emp e = {10, 25}; printf(\"%d %d\", e.empno, e.age); return 0; }",
+      "id": "gate-1e9rqfk",
+      "q": "Declare the following statement? \"An array of three pointers to chars\".",
       "options": [
-        "Error: Lvalue required",
-        "Error: Rvalue required",
-        "Error: cannot initialize more than one union member.",
-        "No error"
+        "char *ptr[3]();",
+        "char *ptr[3];",
+        "char (*ptr[3])();",
+        "char **ptr[3];"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fk8h8o",
-      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { static char *p = (char *)malloc(10); return 0; }",
+      "id": "gate-nx2klc",
+      "q": "What do the following declaration signify? int *ptr[30];",
       "options": [
-        "Error: Lvalue required",
-        "Error: Rvalue required",
-        "Error: invalid *p declaration",
-        "No error"
+        "ptr is a pointer to an array of 30 integer pointers.",
+        "ptr is a array of 30 pointers to integers.",
+        "ptr is a array of 30 integer pointers.",
+        "ptr is a array 30 pointers."
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jb747s",
-      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; void display(int (*ff)()); int main() { int show(); int (*f)(); f = show; display(f); return 0; } void display(int (*ff)()) { (*ff)(); } int show() { printf(\"IndiaBIX\"); }",
+      "id": "gate-1j9eklk",
+      "q": "Declare the following statement? \"A pointer to an array of three chars\".",
       "options": [
-        "Error: invalid parameter in function display()",
-        "Error: invalid function call f=show;",
-        "No error and prints \"IndiaBIX\"",
-        "No error and prints nothing."
+        "char *ptr[3]();",
+        "char (*ptr)*[3];",
+        "char (*ptr[3])();",
+        "char (*ptr)[3];"
       ],
       "correct": 0,
       "explain": "",
@@ -168,11 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-x8jhsg",
-      "q": "Does the data type of all elements in the union will be same.",
+      "id": "gate-1wq1xak",
+      "q": "What do the following declaration signify? char *arr[10];",
       "options": [
-        "True",
-        "False"
+        "arr is a array of 10 character pointers.",
+        "arr is a array of function pointer.",
+        "arr is a array of characters.",
+        "arr is a pointer to array of characters."
       ],
       "correct": 0,
       "explain": "",
@@ -186,275 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-qcj11w",
-      "q": "It is not necessary to typecast the address returned by malloc().",
+      "id": "gate-15o1r52",
+      "q": "What do the following declaration signify? int (*pf)();",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qu64yw",
-      "q": "We can modify the pointers \"source\" as well as \"target\".",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jarvra",
-      "q": "Function can return a floating point number.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4wuw8r",
-      "q": "We can allocate a 2-Dimensional array dynamically.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ilo7xw",
-      "q": "Is the following declaration correct?typedef *void (*pfun)(**int, *float);",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ud86cg",
-      "q": "Is the following declaration correct?char (* ( *f())[])();",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1l6pxt4",
-      "q": "Is the following declaration correct?char far *far *ptr;",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6cfmd8",
-      "q": "Is the following declaration correct?void(*f)(int, void(*)());",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jnysim",
-      "q": "Are the following declarations same? char far *far *scr; char far far** scr;",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18e1spc",
-      "q": "Declare the following statement? \"A pointer to a function which receives an int pointer and returns float pointer\".",
-      "options": [
-        "float *(ptr)*int;",
-        "float *(*ptr)(int)",
-        "float *(*ptr)(int*)",
-        "float (*ptr)(int)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uthric",
-      "q": "What do the following declaration signify? void *cmp();",
-      "options": [
-        "cmp is a pointer to an void type.",
-        "cmp is a void type pointer variable.",
-        "cmp is a function that return a void pointer.",
-        "cmp function returns nothing."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13c4zul",
-      "q": "Declare the following statement? \"A pointer to a function which receives nothing and returns nothing\".",
-      "options": [
-        "void *(ptr)*int;",
-        "void *(*ptr)()",
-        "void *(*ptr)(*)",
-        "void (*ptr)()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-36yqcw",
-      "q": "What do the following declaration signify? int *f();",
-      "options": [
-        "f is a pointer variable of function type.",
-        "f is a function returning pointer to an int.",
-        "f is a function pointer.",
-        "f is a simple declaration of pointer variable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1crhom4",
-      "q": "What do the following declaration signify? char **argv;",
-      "options": [
-        "argv is a pointer to pointer.",
-        "argv is a pointer to a char pointer.",
-        "argv is a function pointer.",
-        "argv is a member of function pointer."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Complicated Declarations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-38eums",
-      "q": "What do the following declaration signify? char *scr;",
-      "options": [
-        "scr is a pointer to pointer variable.",
-        "scr is a function pointer.",
-        "scr is a pointer to char.",
-        "scr is a member of function pointer."
+        "pf is a pointer to function.",
+        "pf is a function pointer.",
+        "pf is a pointer to a function which return int",
+        "pf is a function of pointer variable."
       ],
       "correct": 0,
       "explain": "",

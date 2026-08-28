@@ -8,13 +8,13 @@
   "count": 8,
   "questions": [
     {
-      "id": "gate-1cv5qfw",
-      "q": "Which of the following is the correct way to define the constructor(s) of the Sample class if we are to create objects as per the C#.NET code snippet given below? Sample s1 = new Sample(); Sample s2 = new Sample(9, 5.6f);",
+      "id": "gate-qifqff",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class Sample { public int func() { return 1; } public Single func() { return 2.4f ; } } class Program { static void Main(string[ ] args) { Sample s1 = new Sample(); int i; i = s1.func(); Single j; j = s1.func(); } } }",
       "options": [
-        "public Sample() { i = 0; j = 0.0f; } public Sample (int ii, Single jj) { i = ii; j = jj; }",
-        "public Sample (Optional int ii = 0, Optional Single jj = 0.0f) { i = ii; j = jj; }",
-        "public Sample (int ii, Single jj) { i = ii; j = jj; }",
-        "Sample s;"
+        "func() is a valid overloaded function.",
+        "Overloading works only in case of subroutines and not in case of functions.",
+        "func() cannot be considered overloaded because: return value cannot be used to distinguish between two overloaded functions.",
+        "The call to i = s1.func() will assign 1 to i."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1b6xrew",
-      "q": "In which of the following should the methods of a class differ if they are to be treated as overloaded methods? Type of arguments Return type of methods Number of arguments Names of methods Order of arguments",
+      "id": "gate-1v9ckic",
+      "q": "Which of the following ways to create an object of the Sample class given below will work correctly? class Sample { int i; Single j; double k; public Sample (int ii, Single jj, double kk) { i = ii; j = jj; k = kk; } }",
       "options": [
-        "2, 4",
-        "3, 5",
-        "1, 3, 5",
-        "3, 4, 5"
+        "Sample s1 = new Sample();",
+        "Sample s1 = new Sample(10);",
+        "Sample s2 = new Sample(10, 1.2f);",
+        "Sample s3 = new Sample(10, 1.2f, 2.4);"
       ],
       "correct": 0,
       "explain": "",
@@ -48,8 +48,48 @@
       "tags": []
     },
     {
-      "id": "gate-12s1ru0",
-      "q": "Can static procedures access instance data?",
+      "id": "gate-16v4qf9",
+      "q": "Which of the following statements are correct about static functions? Static functions can access only static data. Static functions cannot call instance functions. It is necessary to initialize static data. Instance functions can call static functions and access static data. this reference is passed to static functions.",
+      "options": [
+        "1, 2, 4",
+        "2, 3, 5",
+        "3, 4",
+        "4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Constructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xh4e9o",
+      "q": "Which of the following statements is correct about constructors?",
+      "options": [
+        "If we provide a one-argument constructor then the compiler still provides a zero-argument constructor.",
+        "Static constructors can use optional arguments.",
+        "Overloaded constructors cannot use optional arguments.",
+        "If we do not provide a constructor, then the compiler provides a zero-argument constructor."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Constructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1euo497",
+      "q": "Is it possible to invoke Garbage Collector explicitly?",
       "options": [
         "Yes",
         "No"
@@ -66,13 +106,13 @@
       "tags": []
     },
     {
-      "id": "gate-w4rbc",
-      "q": "Which of the following statements are correct about constructors in C#.NET? Constructors cannot be overloaded. Constructors always have the name same as the name of the class. Constructors are never called explicitly. Constructors never return any value. Constructors allocate space for the object in memory.",
+      "id": "gate-16vika0",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? class Sample { static int i; int j; public void proc1() { i = 11; j = 22; } public static void proc2() { i = 1; j = 2; } static Sample() { i = 0; j = 0; } }",
       "options": [
-        "1, 3, 5",
-        "2, 3, 4",
-        "3, 5",
-        "4, 5"
+        "i cannot be initialized in proc1().",
+        "proc1() can initialize i as well as j.",
+        "j can be initialized in proc2().",
+        "The constructor can never be declared as static."
       ],
       "correct": 0,
       "explain": "",
@@ -86,13 +126,11 @@
       "tags": []
     },
     {
-      "id": "gate-fxc5hc",
-      "q": "How many times can a constructor be called during lifetime of the object?",
+      "id": "gate-qm3k4i",
+      "q": "Is it possible for you to prevent an object from being created by using zero argument constructor?",
       "options": [
-        "As many times as we call it.",
-        "Only once.",
-        "Depends upon a Project Setting made in Visual Studio.NET.",
-        "Any number of times before the object gets garbage collected."
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",
@@ -106,53 +144,13 @@
       "tags": []
     },
     {
-      "id": "gate-k49k64",
-      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class Sample { static Sample() { Console.Write(\"Sample class \"); } public static void Bix1() { Console.Write(\"Bix1 method \"); } } class MyProgram { static void Main(string[ ] args) { Sample.Bix1(); } } }",
+      "id": "gate-1w7qtng",
+      "q": "Which of the following statements are correct about static functions?",
       "options": [
-        "Sample class Bix1 method",
-        "Bix1 method",
-        "Sample class",
-        "Bix1 method Sample class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Constructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nrcdv4",
-      "q": "Which of the following statements is correct about constructors in C#.NET?",
-      "options": [
-        "A constructor cannot be declared as private.",
-        "A constructor cannot be overloaded.",
-        "A constructor can be a static constructor.",
-        "A constructor cannot access static data."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Constructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fzaejs",
-      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class Sample { public static void fun1() { Console.WriteLine(\"Bix1 method\"); } public void fun2() { fun1(); Console.WriteLine(\"Bix2 method\"); } public void fun2(int i) { Console.WriteLine(i); fun2(); } } class MyProgram { static void Main(string[ ] args) { Sample s = new Sample(); Sample.fun1(); s.fun2(123); } } }",
-      "options": [
-        "Bix1 method 123 Bixl method Bix2 method",
-        "Bix1 method 123 Bix2 method",
-        "Bix2 method 123 Bix2 method Bixl method",
-        "Bixl method 123"
+        "Static functions are invoked using objects of a class.",
+        "Static functions can access static data as well as instance data.",
+        "Static functions are outside the class scope.",
+        "Static functions are invoked using class."
       ],
       "correct": 0,
       "explain": "",

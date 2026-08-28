@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Encapsulation",
   "source": "indiabix.com",
-  "count": 7,
+  "count": 89,
   "questions": [
     {
-      "id": "gate-aimkjo",
-      "q": "What is the purpose of the double underscore prefix in Python, as in __variable?",
+      "id": "gate-1wcsdju",
+      "q": "In Python, what is encapsulation?",
       "options": [
-        "To indicate a protected variable",
-        "To indicate a private variable",
-        "To indicate a global variable",
-        "To indicate a constant variable"
+        "The process of hiding the implementation details of an object and exposing only the necessary functionalities",
+        "The process of combining data and methods into a single unit",
+        "The process of creating multiple instances of a class",
+        "The process of inheriting attributes and behaviors from another class"
       ],
       "correct": 0,
       "explain": "",
@@ -28,48 +28,8 @@
       "tags": []
     },
     {
-      "id": "gate-1pb8e8a",
-      "q": "Which of the following best describes encapsulation?",
-      "options": [
-        "Combining data and methods into a single unit and allowing unrestricted access to internal details",
-        "Hiding implementation details of an object and exposing only the necessary functionalities",
-        "Inheriting attributes and behaviors from another class",
-        "Using global variables for data encapsulation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Encapsulation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11kzh28",
-      "q": "How can encapsulation be achieved?",
-      "options": [
-        "By using public access specifiers for all class members",
-        "By allowing unrestricted access to the internal details of an object",
-        "By using access specifiers to control access to class members",
-        "By avoiding the use of classes and objects"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Encapsulation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-afww0c",
-      "q": "Which access specifier in Python is used to indicate that a variable or method should be accessible by subclasses?",
+      "id": "gate-1odgk8g",
+      "q": "Which access specifier in Python is used to indicate that a variable or method should only be accessed within the same class?",
       "options": [
         "Public",
         "Private",
@@ -88,8 +48,308 @@
       "tags": []
     },
     {
-      "id": "gate-1rrqu6j",
-      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.__balance = balance def get_balance(self): return self.__balance def deposit(self, amount): self.__balance += amount def withdraw(self, amount): if amount What concept of encapsulation is demonstrated in this code?",
+      "id": "gate-hqcs0g",
+      "q": "Which of the following statements about encapsulation in Python is true?",
+      "options": [
+        "Encapsulation is primarily concerned with combining data and methods into a single unit.",
+        "Encapsulation allows unrestricted access to the internal details of an object.",
+        "Encapsulation is achieved through the use of global variables.",
+        "Encapsulation involves exposing all implementation details of an object."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q04mh9",
+      "q": "What is the main advantage of encapsulation in object-oriented programming?",
+      "options": [
+        "It simplifies the process of class instantiation.",
+        "It allows for the creation of multiple instances of a class.",
+        "It promotes code reusability.",
+        "It enhances data security by hiding implementation details."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y80vnr",
+      "q": "What is the purpose of the single underscore prefix in Python, as in _variable?",
+      "options": [
+        "To indicate a protected variable",
+        "To indicate a private variable",
+        "To indicate a global variable",
+        "To indicate a constant variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t887nu",
+      "q": "In Python, what is a getter method used for in the context of encapsulation?",
+      "options": [
+        "To set the value of a private variable",
+        "To delete a private variable",
+        "To retrieve the value of a private variable",
+        "To define a new private variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yhtmzc",
+      "q": "Which access specifier in Python is used to indicate that a variable or method should be accessible from anywhere, both within and outside the class?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bdlao8",
+      "q": "What is the role of the @property decorator in encapsulation?",
+      "options": [
+        "To define a private variable",
+        "To create a class instance",
+        "To provide a getter method for a private variable",
+        "To access a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7jnz2s",
+      "q": "How does encapsulation contribute to the concept of information hiding in object-oriented programming?",
+      "options": [
+        "By exposing all implementation details of an object",
+        "By combining data and methods into a single unit",
+        "By hiding the implementation details of an object and exposing only the necessary functionalities",
+        "By allowing unrestricted access to internal details of an object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uyb5ig",
+      "q": "How can encapsulation be enforced in Python to make a variable 'product_code' accessible only within its own class? class Product: def __init__(self, product_code, __price): self.product_code = product_code self.__price = __price",
+      "options": [
+        "Use a getter method for 'product_code'",
+        "Add a single underscore prefix before 'product_code'",
+        "Make 'product_code' a global variable",
+        "Add a double underscore prefix before 'product_code'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xjus7g",
+      "q": "Consider the following Python code: class Triangle: def __init__(self, __base, __height): self.__base = __base self.__height = __height def calculate_area(self): return 0.5 * self.__base * self.__height What is the purpose of the calculate_area() method?",
+      "options": [
+        "To retrieve the area of the triangle",
+        "To set a new area for the triangle",
+        "To calculate the area of the triangle",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jwt2oc",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __stock_quantity? class Inventory: __stock_quantity = 0 def update_stock(self, quantity): Inventory.__stock_quantity += quantity",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __stock_quantity",
+        "It exposes all internal details of __stock_quantity",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sgymnr",
+      "q": "What is the primary purpose of the following Python class? class Person: def __init__(self, name, __age): self.name = name self.__age = __age def get_age(self): return self.__age",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'age' variable",
+        "To define a public variable 'age'",
+        "To allow unrestricted access to the 'age' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ypv5v0",
+      "q": "How can encapsulation be enforced in Python to make a variable 'reservation_code' accessible only within its own class? class Reservation: def __init__(self, reservation_code, __status): self.reservation_code = reservation_code self.__status = __status",
+      "options": [
+        "Use a getter method for 'reservation_code'",
+        "Add a single underscore prefix before 'reservation_code'",
+        "Make 'reservation_code' a global variable",
+        "Add a double underscore prefix before 'reservation_code'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c4u03s",
+      "q": "In Python, what is the purpose of the __init__() method in the context of encapsulation?",
+      "options": [
+        "To initialize a class instance with default values",
+        "To define a private variable",
+        "To create a new instance of the class",
+        "To hide the implementation details of a class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13wgxtw",
+      "q": "Which access specifier in Python is used to indicate that a variable or method should be accessible within the same class and its subclasses?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ktd4a0",
+      "q": "What is the role of the @staticmethod decorator in encapsulation?",
+      "options": [
+        "To define a private variable",
+        "To create a class instance",
+        "To provide a static method for a class",
+        "To access a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13bodei",
+      "q": "Consider the following Python code: class Employee: def __init__(self, name, salary): self._name = name self._salary = salary def get_salary(self): return self._salary def set_salary(self, new_salary): if new_salary > 0: self._salary = new_salary What concept of encapsulation is demonstrated in this code?",
       "options": [
         "Public access specifier",
         "Private access specifier",
@@ -108,12 +368,52 @@
       "tags": []
     },
     {
-      "id": "gate-12ya124",
-      "q": "Consider the following Python code: class Square: def __init__(self, __side_length): self.__side_length = __side_length def calculate_area(self): return self.__side_length ** 2 What is the purpose of the calculate_area() method?",
+      "id": "gate-155klhs",
+      "q": "What is the primary purpose of the following Python class? class Student: def __init__(self, name, __grade): self.name = name self.__grade = __grade def get_grade(self): return self.__grade",
       "options": [
-        "To retrieve the area of the square",
-        "To set a new area for the square",
-        "To calculate the area of the square",
+        "To create a new instance of the class",
+        "To provide controlled access to the 'grade' variable",
+        "To define a public variable 'grade'",
+        "To allow unrestricted access to the 'grade' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g3y3ij",
+      "q": "How can encapsulation be enforced in Python to make a variable 'employee_id' accessible only within its own class? class Employee: def __init__(self, employee_id, __salary): self.employee_id = employee_id self.__salary = __salary",
+      "options": [
+        "Use a getter method for 'employee_id'",
+        "Add a single underscore prefix before 'employee_id'",
+        "Make 'employee_id' a global variable",
+        "Add a double underscore prefix before 'employee_id'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1z02oj8",
+      "q": "Consider the following Python code: class Rectangle: def __init__(self, __length, __width): self.__length = __length self.__width = __width def calculate_area(self): return self.__length * self.__width What is the purpose of the calculate_area() method?",
+      "options": [
+        "To retrieve the area of the rectangle",
+        "To set a new area for the rectangle",
+        "To calculate the area of the rectangle",
         "To expose all internal details of the class"
       ],
       "correct": 0,
@@ -128,13 +428,1353 @@
       "tags": []
     },
     {
-      "id": "gate-bhi124",
-      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __song_count? class MusicLibrary: __song_count = 0 def update_count(self, count): MusicLibrary.__song_count += count",
+      "id": "gate-cbqw6c",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __inventory_count? class Product: __inventory_count = 0 def update_inventory(self, count): Product.__inventory_count += count",
       "options": [
         "It improves code maintainability by hiding implementation details",
-        "It allows unrestricted access to __song_count",
-        "It exposes all internal details of __song_count",
+        "It allows unrestricted access to __inventory_count",
+        "It exposes all internal details of __inventory_count",
         "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j7jkgs",
+      "q": "What is the primary purpose of the following Python class? class Car: def __init__(self, model, __speed): self.model = model self.__speed = __speed def get_speed(self): return self.__speed",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'speed' variable",
+        "To define a public variable 'speed'",
+        "To allow unrestricted access to the 'speed' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x7py0g",
+      "q": "What is the primary purpose of encapsulation?",
+      "options": [
+        "To allow unrestricted access to class members",
+        "To combine data and methods into a single unit",
+        "To create multiple instances of a class",
+        "To expose all implementation details of an object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ec9ep0",
+      "q": "Which access specifier in Python is used to indicate that a variable or method should not be accessed from outside the class?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1muuvfg",
+      "q": "How does encapsulation contribute to code maintainability in object-oriented programming?",
+      "options": [
+        "By exposing all implementation details of an object",
+        "By combining data and methods into a single unit",
+        "By allowing unrestricted access to internal details of an object",
+        "By hiding the implementation details of an object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-136gwak",
+      "q": "What is the role of the @classmethod decorator in encapsulation?",
+      "options": [
+        "To define a private variable",
+        "To create a class instance",
+        "To provide a class method for a class",
+        "To access a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j3xpz8",
+      "q": "Consider the following Python code: class Car: def __init__(self, model, year): self.__model = model self.__year = year def display_info(self): return f\"Model: {self.__model}, Year: {self.__year}\" What concept of encapsulation is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s2f2rn",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __quantity? class Inventory: __quantity = 0 def update_quantity(self, quantity): Inventory.__quantity += quantity",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __quantity",
+        "It exposes all internal details of __quantity",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b8preo",
+      "q": "What is the primary purpose of the following Python class? class Book: def __init__(self, title, __author): self.title = title self.__author = __author def get_author(self): return self.__author",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'author' variable",
+        "To define a public variable 'author'",
+        "To allow unrestricted access to the 'author' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18zpiwc",
+      "q": "How can encapsulation be enforced in Python to make a variable 'serial_number' accessible only within its own class? class ElectronicDevice: def __init__(self, serial_number, __brand): self.serial_number = serial_number self.__brand = __brand",
+      "options": [
+        "Use a getter method for 'serial_number'",
+        "Add a single underscore prefix before 'serial_number'",
+        "Make 'serial_number' a global variable",
+        "Add a double underscore prefix before 'serial_number'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mijit0",
+      "q": "Consider the following Python code: class Circle: def __init__(self, __radius): self.__radius = __radius def calculate_area(self): return 3.14 * (self.__radius ** 2) What is the purpose of the calculate_area() method?",
+      "options": [
+        "To retrieve the area of the circle",
+        "To set a new area for the circle",
+        "To calculate the area of the circle",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12hk7h0",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __weight? class Product: __weight = 0 def update_weight(self, weight): Product.__weight += weight",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __weight",
+        "It exposes all internal details of __weight",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4lz32w",
+      "q": "In Python, what does the double underscore prefix in a variable, like __variable, indicate?",
+      "options": [
+        "A protected variable",
+        "A private variable",
+        "A global variable",
+        "A constant variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4uywao",
+      "q": "What is the primary benefit of using encapsulation in object-oriented programming?",
+      "options": [
+        "It allows unrestricted access to the internal details of an object.",
+        "It promotes code reusability.",
+        "It enhances data security by hiding implementation details.",
+        "It simplifies the process of class instantiation."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-150dcya",
+      "q": "Which of the following is true about encapsulation?",
+      "options": [
+        "It involves exposing all implementation details of an object.",
+        "It is achieved through the use of global variables.",
+        "It allows for unrestricted access to internal details of an object.",
+        "It combines data and methods into a single unit and hides implementation details."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h2teya",
+      "q": "What is the role of a setter method in encapsulation?",
+      "options": [
+        "To retrieve the value of a private variable.",
+        "To provide a static method for a class.",
+        "To set the value of a private variable with validation.",
+        "To define a private variable."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ugqkh8",
+      "q": "Consider the following Python code: class Student: def __init__(self, name, age): self._name = name self._age = age def get_name(self): return self._name def set_age(self, new_age): if new_age >= 0: self._age = new_age What concept of encapsulation is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u6sa6c",
+      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self._balance = balance def withdraw(self, amount): if amount What encapsulation concept is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lhfe7g",
+      "q": "What is the primary purpose of the following Python class? class Wallet: def __init__(self, owner, __balance): self.owner = owner self.__balance = __balance def get_balance(self): return self.__balance",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'balance' variable",
+        "To define a public variable 'balance'",
+        "To allow unrestricted access to the 'balance' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eofgk8",
+      "q": "How can encapsulation be enforced in Python to make a variable 'account_number' accessible only within its own class? class BankAccount: def __init__(self, account_number, __balance): self.account_number = account_number self.__balance = __balance",
+      "options": [
+        "Use a getter method for 'account_number'",
+        "Add a single underscore prefix before 'account_number'",
+        "Make 'account_number' a global variable",
+        "Add a double underscore prefix before 'account_number'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cv2rh0",
+      "q": "Consider the following Python code: class Temperature: def __init__(self, __celsius): self.__celsius = __celsius def to_fahrenheit(self): return (self.__celsius * 9/5) + 32 What is the purpose of the to_fahrenheit() method?",
+      "options": [
+        "To retrieve the temperature in Fahrenheit",
+        "To set a new temperature in Fahrenheit",
+        "To convert the temperature to Fahrenheit",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-64w8ga",
+      "q": "What is the purpose of the @property decorator in encapsulation?",
+      "options": [
+        "To create a new instance of a class",
+        "To provide a getter method for a private variable",
+        "To access a global variable",
+        "To define a private variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eod3gq",
+      "q": "In Python, what is a potential drawback of using encapsulation?",
+      "options": [
+        "Reduced code modularity",
+        "Increased code complexity",
+        "Enhanced data security",
+        "Improved code readability"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s4hzam",
+      "q": "Which of the following is a common guideline when using encapsulation?",
+      "options": [
+        "Avoid using private variables altogether.",
+        "Make all variables public for ease of access.",
+        "Provide getter and setter methods for private variables as needed.",
+        "Use global variables extensively."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-257oks",
+      "q": "How does encapsulation contribute to code maintenance?",
+      "options": [
+        "By exposing all implementation details of an object",
+        "By combining data and methods into a single unit",
+        "By allowing unrestricted access to internal details of an object",
+        "By hiding the implementation details of an object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mcwnw7",
+      "q": "Consider the following Python code: class Product: def __init__(self, name, price): self._name = name self._price = price @property def get_price(self): return self._price What is the purpose of the @property decorator in this code?",
+      "options": [
+        "To define a private variable",
+        "To create a class instance",
+        "To provide a getter method for a private variable",
+        "To access a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-avbtvs",
+      "q": "How can encapsulation be enforced in Python to make a variable 'username' accessible only within its own class? class User: def __init__(self, username, __password): self.username = username self.__password = __password",
+      "options": [
+        "Use a getter method for 'username'",
+        "Add a single underscore prefix before 'username'",
+        "Make 'username' a global variable",
+        "Add a double underscore prefix before 'username'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u91qdo",
+      "q": "Consider the following Python code: class Product: def __init__(self, name, __price): self.name = name self.__price = __price def set_discount(self, discount): if 0 What is the purpose of the set_discount() method?",
+      "options": [
+        "To retrieve the price of the product",
+        "To set a new discount for the product with validation",
+        "To create a new instance of the class",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-megtb0",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __total? class ShoppingCart: __total = 0 def add_item(self, price): ShoppingCart.__total += price",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __total",
+        "It exposes all internal details of __total",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18ao76k",
+      "q": "What is the primary purpose of the following Python class? class Movie: def __init__(self, title, __rating): self.title = title self.__rating = __rating def get_rating(self): return self.__rating",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'rating' variable",
+        "To define a public variable 'rating'",
+        "To allow unrestricted access to the 'rating' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qnfg8s",
+      "q": "How can encapsulation be enforced in Python to make a variable 'email' accessible only within its own class? class User: def __init__(self, email, __password): self.email = email self.__password = __password",
+      "options": [
+        "Use a getter method for 'email'",
+        "Add a single underscore prefix before 'email'",
+        "Make 'email' a global variable",
+        "Add a double underscore prefix before 'email'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-777jro",
+      "q": "Which keyword in Python is used to define a private variable within a class?",
+      "options": [
+        "private",
+        "secret",
+        "protected",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v1q5bs",
+      "q": "In Python, what is the purpose of using a double underscore prefix in a method name, such as __method()?",
+      "options": [
+        "To define a private method",
+        "To create a public method",
+        "To indicate a class method",
+        "To access a global method"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s1l674",
+      "q": "Which statement accurately describes the concept of encapsulation?",
+      "options": [
+        "Encapsulation involves exposing all implementation details of an object.",
+        "Encapsulation is a mechanism for achieving multiple inheritances.",
+        "Encapsulation combines data and methods into a single unit and hides implementation details.",
+        "Encapsulation is only applicable to global variables."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s0vajd",
+      "q": "What is the role of a getter method in encapsulation?",
+      "options": [
+        "To set the value of a private variable",
+        "To retrieve the value of a private variable",
+        "To create a new instance of a class",
+        "To delete a private variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qgzrj8",
+      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.__balance = balance def get_balance(self): return self.__balance def deposit(self, amount): if amount > 0: self.__balance += amount What is the encapsulation concept demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11c7e3o",
+      "q": "How can encapsulation be enforced in Python to make a variable 'password' accessible only within its own class? class User: def __init__(self, username, password): self.username = username self.__password = password",
+      "options": [
+        "Use a getter method for 'password'",
+        "Add a single underscore prefix before 'password'",
+        "Make 'password' a global variable",
+        "Add a double underscore prefix before 'password'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vq2xd0",
+      "q": "Consider the following Python code: class Product: def __init__(self, name, __price): self.name = name self.__price = __price def set_price(self, new_price): if new_price > 0: self.__price = new_price What is the purpose of the set_price() method?",
+      "options": [
+        "To retrieve the price of the product",
+        "To set a new price for the product with validation",
+        "To create a new instance of the class",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13myt6o",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __count? class Counter: __count = 0 def increment_count(self): Counter.__count += 1",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __count",
+        "It exposes all internal details of __count",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v4krs8",
+      "q": "What is the primary purpose of the following Python class? class Car: def __init__(self, make, __model): self.make = make self.__model = __model def get_model(self): return self.__model",
+      "options": [
+        "To create a new instance of the class",
+        "To provide controlled access to the 'model' variable",
+        "To define a public variable 'model'",
+        "To allow unrestricted access to the 'model' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qzmzw0",
+      "q": "Which of the following is a benefit of encapsulation?",
+      "options": [
+        "Increased code complexity",
+        "Improved code reusability",
+        "Reduced data security",
+        "Unrestricted access to internal details"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c7qx6g",
+      "q": "What is the purpose of using encapsulation?",
+      "options": [
+        "To increase code complexity",
+        "To combine data and methods into a single unit",
+        "To expose all implementation details of an object",
+        "To make all variables public for easy access"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qij53u",
+      "q": "Consider the following Python code: class Customer: def __init__(self, name, email): self._name = name self._email = email def display_info(self): return f\"Name: {self._name}, Email: {self._email}\" What concept of encapsulation is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b4rm80",
+      "q": "How can encapsulation be enforced to make a variable 'password' accessible only within its own class? class User: def __init__(self, username, password): self.username = username self.__password = password",
+      "options": [
+        "Add a single underscore prefix before 'password'",
+        "Add a double underscore prefix before 'password'",
+        "Use a getter method for 'password'",
+        "Make 'password' a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i8eip0",
+      "q": "In Python, what is the primary benefit of using a property with a setter method? class Rectangle: def __init__(self, width, height): self._width = width self._height = height @property def area(self): return self._width * self._height @property def width(self): return self._width @width.setter def width(self, value): if value > 0: self._width = value else: raise ValueError(\"Width must be greater than 0.\")",
+      "options": [
+        "It allows read-only access to the width property",
+        "It provides write access to the width property with validation",
+        "It creates a new instance of the class",
+        "It exposes all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6j588q",
+      "q": "What does the following Python code demonstrate? class Book: def __init__(self, title, __author): self.title = title self.__author = __author def get_author(self): return self.__author",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ilev5c",
+      "q": "How can encapsulation be enhanced in the following Python class to provide write access to the 'price' variable? class Product: def __init__(self, name, price): self.name = name self.__price = price",
+      "options": [
+        "Use a double underscore prefix for 'price'",
+        "Create a setter method for 'price'",
+        "Make 'price' a global variable",
+        "Use a single underscore prefix for 'price'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s2bo1n",
+      "q": "What is the purpose of the following Python code? class Employee: def __init__(self, name, __salary): self.name = name self.__salary = __salary @property def salary(self): return self.__salary",
+      "options": [
+        "To create a new instance of the class",
+        "To define a public variable 'salary'",
+        "To allow unrestricted access to the 'salary' variable",
+        "To provide read-only access to the 'salary' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hz6yk",
+      "q": "What does the term \"encapsulation\" mean in the context of object-oriented programming?",
+      "options": [
+        "Combining multiple classes into one",
+        "Hiding the implementation details of an object and bundling data and methods into a single unit",
+        "Inheriting attributes from multiple classes",
+        "Exposing all internal details of an object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rgveww",
+      "q": "Which of the following access specifiers in Python is used to indicate that a variable or method should be accessible only within its own class and not from outside?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wc1v12",
+      "q": "What is a potential advantage of using encapsulation?",
+      "options": [
+        "Increased code complexity",
+        "Improved code maintainability",
+        "Reduced data security",
+        "Unrestricted access to internal details"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bqak9i",
+      "q": "In Python, what is the role of a getter method in encapsulation?",
+      "options": [
+        "To set the value of a private variable",
+        "To retrieve the value of a private variable",
+        "To create a new instance of a class",
+        "To delete a private variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o1zh70",
+      "q": "Consider the following Python code: class Employee: def __init__(self, name, salary): self._name = name self._salary = salary def get_salary(self): return self._salary What is the purpose of the get_salary() method in this code?",
+      "options": [
+        "To set the salary of an employee",
+        "To delete the salary of an employee",
+        "To retrieve the salary of an employee",
+        "To create a new instance of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p7ckw8",
+      "q": "Consider the following Python code: class Person: def __init__(self, name, __age): self.name = name self.__age = __age def get_age(self): return self.__age What is the purpose of the get_age() method?",
+      "options": [
+        "To set the age of a person",
+        "To retrieve the age of a person",
+        "To delete the age of a person",
+        "To create a new instance of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dtxjaq",
+      "q": "How can encapsulation be achieved in Python to provide read-only access to a variable? class Example: def __init__(self): self.__value = 42",
+      "options": [
+        "Make __value a global variable",
+        "Create a getter method for __value",
+        "Use a single underscore prefix for __value",
+        "Make __value a public variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j5uk53",
+      "q": "What is the advantage of encapsulating a class attribute with a double underscore prefix, such as __count? class MyClass: __count = 0 def increment_count(self): MyClass.__count += 1",
+      "options": [
+        "It allows unrestricted access to __count",
+        "It improves code maintainability by hiding implementation details",
+        "It exposes all internal details of __count",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17qplfk",
+      "q": "What is the purpose of the following Python code? class TemperatureConverter: def __init__(self, celsius): self._celsius = celsius @property def fahrenheit(self): return self._celsius * 9/5 + 32",
+      "options": [
+        "To create a new instance of the class",
+        "To provide a setter method for the celsius variable",
+        "To calculate and provide read-only access to the temperature in Fahrenheit",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ppwc7o",
+      "q": "Consider the following Python class: class BankAccount: def __init__(self, balance): self._balance = balance @property def balance(self): return self._balance What does the @property decorator do in this code?",
+      "options": [
+        "It creates a new instance of the class",
+        "It defines a private variable",
+        "It provides a setter method for the balance variable",
+        "It allows read-only access to the balance variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15ypp4t",
+      "q": "In Python, what is the purpose of the @property decorator in a class?",
+      "options": [
+        "To create a new instance of a class",
+        "To provide a getter method for a private variable",
+        "To define a private variable",
+        "To access a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v7fg25",
+      "q": "What is the primary purpose of using encapsulation in object-oriented programming?",
+      "options": [
+        "To expose all implementation details of an object",
+        "To hide the implementation details of an object and bundle data and methods into a single unit",
+        "To create global variables for easy access",
+        "To increase code complexity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ij1laq",
+      "q": "Which of the following statements is true regarding encapsulation?",
+      "options": [
+        "It encourages exposing all internal details of an object.",
+        "It is achieved through the use of global variables.",
+        "It involves combining data and methods into a single unit and hiding implementation details.",
+        "It promotes code complexity by making all variables public."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1unwojg",
+      "q": "Which of the following access specifiers in Python allows a variable or method to be accessible within its own class and its subclasses?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y1isgv",
+      "q": "Consider the following Python code: class Car: def __init__(self, model, speed): self._model = model self._speed = speed def display_info(self): return f\"Model: {self._model}, Speed: {self._speed} km/h\" What encapsulation concept is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n0n3ur",
+      "q": "What is the primary purpose of encapsulating the 'balance' variable in the following Python class? class BankAccount: def __init__(self, balance): self._balance = balance def get_balance(self): return self._balance",
+      "options": [
+        "To create a new instance of the class",
+        "To make the 'balance' variable public",
+        "To provide controlled access to the 'balance' variable",
+        "To allow unrestricted access to the 'balance' variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t9nj4c",
+      "q": "Consider the following Python class: class Student: def __init__(self, name, age): self._name = name self._age = age def display_student_info(self): return f\"Name: {self._name}, Age: {self._age}\" What encapsulation concept is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12tib5o",
+      "q": "In Python, how can encapsulation be enhanced to provide write access to a private variable 'value'? class Example: def __init__(self): self._value = 0",
+      "options": [
+        "Create a setter method for 'value'",
+        "Use a double underscore prefix for 'value'",
+        "Use a single underscore prefix for 'value'",
+        "Make 'value' a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yu8u08",
+      "q": "How can encapsulation help improve code maintenance?",
+      "options": [
+        "By exposing all internal details of an object",
+        "By hiding the implementation details of an object",
+        "By making all variables public for easy access",
+        "By using global variables extensively"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j13cu0",
+      "q": "In Python, what is the purpose of using a double underscore prefix before a variable, such as __price? class Product: def __init__(self, name, __price): self.name = name self.__price = __price",
+      "options": [
+        "To indicate a public variable",
+        "To define a private variable",
+        "To create a class method",
+        "To allow unrestricted access to the variable"
       ],
       "correct": 0,
       "explain": "",

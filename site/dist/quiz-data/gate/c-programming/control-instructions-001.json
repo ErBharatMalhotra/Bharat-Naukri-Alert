@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Control Instructions",
   "source": "indiabix.com",
-  "count": 6,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-u05244",
-      "q": "What will be the output of the C#.NET code snippet given below? int val; for (val = -5; val &lt;= 5; val++) { switch (val) { case 0: Console.Write (\"India\"); break; } if (val &gt; 0) Console.Write (\"B\"); else if (val &lt; 0) Console.Write (\"X\"); }",
+      "id": "gate-16d4f9o",
+      "q": "What does the following C#.NET code snippet will print? int i = 0, j = 0; label: i++; j+=i; if (i &lt; 10) { Console.Write(i +\" \"); goto label; }",
       "options": [
-        "XXXXXIndia",
-        "IndiaBBBBB",
-        "XXXXXIndiaBBBBB",
-        "BBBBBIndiaXXXXX"
+        "Prints 1 to 9",
+        "Prints 0 to 8",
+        "Prints 2 to 8",
+        "Prints 2 to 9"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yb3ug",
-      "q": "What will be the output of the C#.NET code snippet given below? char ch = Convert.ToChar ('a' | 'b' | 'c'); switch (ch) { case 'A': case 'a': Console.WriteLine (\"case A | case a\"); break; case 'B': case 'b': Console.WriteLine (\"case B | case b\"); break; case 'C': case 'c': case 'D': case 'd': Console.WriteLine (\"case D | case d\"); break; }",
+      "id": "gate-1ki1wxg",
+      "q": "Which of the following is the correct output for the C#.NET program given below? int i = 20 ; for( ; ; ) { Console.Write(i + \" \"); if (i &gt;= -10) i -= 4; else break; }",
       "options": [
-        "case A | case a",
-        "case B | case b",
-        "case D | case d",
-        "Compile Error"
+        "20 16 12 84 0 -4 -8",
+        "20 16 12 8 4 0",
+        "20 16 12 8 4 0 -4 -8 -12",
+        "16 12 8 4 0"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-nbasww",
-      "q": "Which of the following is the incorrect form of Decision Control instruction?",
+      "id": "gate-ie6sww",
+      "q": "What is the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { public enum color { red, green, blue }; class SampleProgram { static void Main (string[ ] args) { color c = color.blue; switch (c) { case color.red: Console.WriteLine(color.red); break; case color.green: Console.WriteLine(color.green); break; case color.blue: Console.WriteLine(color.blue); break; } } } }",
       "options": [
-        "if (Condition1) {// Some statement}",
-        "if (Condition1) {// Some statement} else {// Some statement}",
-        "if (Condition1) {// Some statement} else {// Some statement} else if ( Condition2){//Some statement}",
-        "if ( Condition1 ) {// Some statement} else if ( Condition2 ) {// Some statement} else {// Some statement}"
+        "red",
+        "blue",
+        "0",
+        "1"
       ],
       "correct": 0,
       "explain": "",
@@ -68,31 +68,71 @@
       "tags": []
     },
     {
-      "id": "gate-811umx",
-      "q": "Which of the following code snippets are the correct way to determine whether a is Odd or Even? int a; String res; if (a % 2 == 0) res = \"Even\"; else res = \"Odd\"; int a; String res; if (a Mod 2 == 0) res = \"Even\"; else res = \"Odd\"; int a; Console.WriteLine(a Mod 2 == 0 ? \"Even\": \"Odd\"); int a; String res; a % 2 == 0 ? res = \"Even\" : res = \"Odd\"; Console.WriteLine(res);",
+      "id": "gate-1gem668",
+      "q": "Which of the following is the correct way to rewrite the following C#.NET code snippet given below? int i = 0; do { Console.WriteLine(i); i+ = 1; } while (i &lt;= 10);",
+      "options": [
+        "int i = 0; do { Console.WriteLine(i); } until (i &lt;= 10);",
+        "int i; for (i = 0; i &lt;= 10 ; i++) Console.WriteLine(i);",
+        "int i = 0; while (i &lt;= 11) { Console.WriteLine(i); i += 1; }",
+        "int i = 0; do while ( i &lt;= 10) { Console.WriteLine(i); i += 1; }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16ksb9c",
+      "q": "The C#.NET code snippet given below generates ____ numbers series as output? int i = 1, j = 1, val; while (i &lt; 25) { Console.Write(j + \" \"); val = i + j; j = i; i = val; }",
+      "options": [
+        "Prime",
+        "Fibonacci",
+        "Palindrome",
+        "Odd"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cvyjv4",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? if (age &gt; 18 &amp;&amp; no &lt; 11) a = 25; The condition no &lt; 11 will be evaluated only if age &gt; 18 evaluates to True. The statement a = 25 will get executed if any one condition is True. The condition no &lt; 11 will be evaluated only if age &gt; 18 evaluates to False. The statement a = 25 will get executed if both the conditions are True. &amp;&amp; is known as a short circuiting logical operator.",
       "options": [
         "1, 3",
-        "1 Only",
+        "2, 5",
+        "1, 4, 5",
+        "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lj7m3o",
+      "q": "Which of the following statements are correct? A switch statement can act on numerical as well as Boolean types. A switch statement can act on characters, strings and enumerations types. We cannot declare variables within a case statement if it is not enclosed by { }. The foreach statement is used to iterate through the collection to get the desired information and should be used to change the contents of the collection to avoid unpredictable side effects. All of the expressions of the for statement are not optional.",
+      "options": [
+        "1, 2",
         "2, 3",
-        "4 Only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Control Instructions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kz8zpk",
-      "q": "Which of the following can be used to terminate a while loop and transfer control outside the loop? exit while continue exit statement break goto",
-      "options": [
-        "1, 3",
-        "2, 4",
         "3, 5",
         "4, 5"
       ],
@@ -108,13 +148,133 @@
       "tags": []
     },
     {
-      "id": "gate-of7kb5",
-      "q": "Which of the following statements is correct about the C#.NET code snippet given below? int i, j, id = 0; switch (id) { case i: Console.WriteLine(\"I am in Case i\"); break; case j: Console.WriteLine(\"I am in Case j\"); break; }",
+      "id": "gate-1we2gms",
+      "q": "What will be the output of the C#.NET code snippet given below? int i = 2, j = i; if (Convert.ToBoolean((i | j &amp; 5) &amp; (j - 25 * 1))) Console.WriteLine(1); else Console.WriteLine(0);",
       "options": [
-        "The compiler will report case i and case j as errors since variables cannot be used in cases.",
-        "Compiler will report an error since there is no default case in the switch case statement.",
-        "The code snippet prints the result as \"I am in Case i\"\".",
-        "The code snippet prints the result as \"I am in Case j\"."
+        "0",
+        "1",
+        "Compile Error",
+        "Run time Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rsqou4",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? switch (id) { case 6: grp = \"Grp B\"; break; case 13: grp = \"Grp D\"; break; case 1: grp = \"Grp A\"; break; case ls &gt; 20: grp = \"Grp E\"; break ; case Else: grp = \"Grp F\"; break; }",
+      "options": [
+        "Compiler will report an error in case ls &gt; 20 as well as in case Else.",
+        "There is no error in this switch case statement.",
+        "Compiler will report an error only in case Else.",
+        "Compiler will report an error as there is no default case."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ya31f2",
+      "q": "Which of the following is another way to rewrite the code snippet given below? int a = 1, b = 2, c = 0; if (a &lt; b) c = a;",
+      "options": [
+        "int a = 1, b = 2, c = 0; c = a &lt; b ? a : 0;",
+        "int a = 1, b = 2, c = 0; a &lt; b ? c = a : c = 0;",
+        "int a = 1, b = 2, c = 0; a &lt; b ? c = a : c = 0 ? 0 : 0;",
+        "int a = 1, b = 2, c = 0; a &lt; b ? return (c): return (0);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-byw4i0",
+      "q": "Which of the following statements are correct? The switch statement is a control statement that handles multiple selections and enumerations by passing control to one of the case statements within its body. The goto statement passes control to the next iteration of the enclosing iteration statement in which it appears. Branching is performed using jump statements which cause an immediate transfer of the program control. A common use of continue is to transfer control to a specific switch-case label or the default label in a switch statement. The do statement executes a statement or a block of statements enclosed in {} repeatedly until a specified expression evaluates to false.",
+      "options": [
+        "1, 2, 4",
+        "1, 3, 5",
+        "2, 3, 4",
+        "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wwj3cb",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? if (age &gt; 18 || no &lt; 11) a = 25; The condition no &lt; 11 will get evaluated only if age &gt; 18 evaluates to False. The condition no &lt; 11 will get evaluated if age &gt; 18 evaluates to True. The statement a = 25 will get evaluated if any one one of the two conditions is True. || is known as a short circuiting logical operator. The statement a = 25 will get evaluated only if both the conditions are True.",
+      "options": [
+        "1, 4, 5",
+        "2, 4",
+        "1, 3, 4",
+        "2, 3, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c5n97",
+      "q": "What will be the output of the code snippet given below? int i; for(i = 0; i&lt;=10; i++) { if(i == 4) { Console.Write(i + \" \"); continue; } else if (i != 4) Console.Write(i + \" \"); else break; }",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10",
+        "1 2 3 4",
+        "0 1 2 3 4 5 6 7 8 9 10",
+        "4 5 6 7 8 9 10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Control Instructions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prvso4",
+      "q": "Which of the following loop correctly prints the elements of the array? char[ ] arr = new char[ ] {'k', 'i','C', 'i','t'} ;",
+      "options": [
+        "do { Console.WriteLine((char) i); } while (int i = 0; i &lt; arr; i++);",
+        "foreach (int i in arr) { Console.WriteLine((char) i); }",
+        "for (int i = 0; i &lt; arr; i++) { Console.WriteLine((char) i); }",
+        "while (int i = 0; i &lt; arr; i++) { Console.WriteLine((char) i); }"
       ],
       "correct": 0,
       "explain": "",

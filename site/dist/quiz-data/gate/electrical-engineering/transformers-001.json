@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Transformers",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-1nk9ybc",
-      "q": "If the voltage is stepped up, the current is stepped down, and vice versa.",
+      "id": "gate-poutio",
+      "q": "A reflective load is a load as it appears to the source in the primary of a transformer.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1pm5i18",
-      "q": "A step-down transformer has a turns ratio less than 1.",
+      "id": "gate-16jhsmk",
+      "q": "A step-up transformer steps up power.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1x2u0ko",
-      "q": "A transformer responds only to dc.",
+      "id": "gate-m9c3io",
+      "q": "A transformer changes ac to dc.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1jnxvqo",
-      "q": "The primary is the winding connected to the source, and the secondary is the winding connected to the load.",
+      "id": "gate-1flcf0u",
+      "q": "A center tap (CT) is a connection at the midpoint of the secondary winding of a transformer.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-16d0rw0",
-      "q": "A transformer consists of two or more cores that are electrically coupled on a common core.",
+      "id": "gate-2uoxmk",
+      "q": "An autotransformer is one in which the primary and secondary are automatically coupled.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-8ur860",
-      "q": "The primary winding of a transformer has 110 V ac across it. What is the secondary voltage if the turns ratio is 8?",
+      "id": "gate-1nhhto0",
+      "q": "What kVA rating is required for a transformer that must handle a maximum load current of 8 A with a secondary voltage of 2 kV?",
       "options": [
-        "8.8 V",
-        "88 V",
-        "880 V",
-        "8,800 V"
+        "4 kVA",
+        "0.25 kVA",
+        "16 kVA",
+        "8 kVA"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-mjtasc",
-      "q": "To step 110 V ac down to 20 V ac, the turns ratio must be",
+      "id": "gate-1ww8n8k",
+      "q": "The turns ratio required to match an 80 source to a 320 load is",
       "options": [
-        "5.5",
-        "18",
-        "0.18",
-        "0.018"
+        "80",
+        "20",
+        "4",
+        "2"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1052a1",
-      "q": "The mutual inductance when k = 0.65, L1 = 2 H, and L2 = 5 H is",
+      "id": "gate-1tvpce8",
+      "q": "When the turns ratio of a transformer is 20 and the primary ac voltage is 12 V, the secondary voltage is",
       "options": [
-        "2 mH",
-        "2 H",
-        "4 H",
-        "8 H"
+        "12 V",
+        "120 V",
+        "240 V",
+        "2,400 V"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-fecxis",
-      "q": "If 25 W of power are applied to the primary of an ideal transformer with a turns ratio of 10, the power delivered to the secondary load is",
+      "id": "gate-1miwaq8",
+      "q": "If a transformer has 50 turns in the primary winding and 10 turns in the secondary winding, what is the reflective resistance if the secondary load resistance is 250 ?",
       "options": [
-        "25 W",
-        "0 W",
-        "250 W",
-        "2.5 W"
+        "250",
+        "25",
+        "6,250",
+        "62,500"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-13b7ua8",
-      "q": "A transformer with a 110 V primary has a 15:1 turns ratio. The load resistance, RL, is 120 . What is the approximate voltage across the load?",
+      "id": "gate-flrju8",
+      "q": "A certain transformer has 400 turns in the primary winding and 2,000 turns in the secondary winding. The turns ratio is",
       "options": [
-        "7.3 V",
-        "73 V",
-        "88 V",
-        "880 V"
+        "0.2",
+        "0.4",
+        "5",
+        "25"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1de17jg",
-      "q": "In a certain transformer, the input power to the primary is 120 W. If 8.5 W are lost to the winding resistance, what is the output power to the load, neglecting any other issues?",
+      "id": "gate-1r3dc5s",
+      "q": "How many primary volts must be applied to a transformer with a turns ratio of 0.1 to obtain a secondary voltage of 9 V?",
       "options": [
-        "0 W",
-        "14.1 W",
-        "111.5 W",
-        "1,020 W"
+        "9 V",
+        "90 V",
+        "900 V",
+        "0.9 V"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +218,133 @@
       "tags": []
     },
     {
-      "id": "gate-la416l",
-      "q": "When a 6 V battery is connected across the primary of a transformer with a turns ratio of 8, the secondary voltage is",
+      "id": "gate-w53pjo",
+      "q": "In a certain loaded transformer, the secondary voltage is one-fourth the primary voltage. The secondary current is",
+      "options": [
+        "one-fourth the primary current",
+        "four times the primary current",
+        "equal to the primary current",
+        "one-fourth the primary current and equal to the primary current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1412w44",
+      "q": "A certain transformer has a turns ratio of 1 and a 0.85 coefficient of coupling. When 2 V ac is applied to the primary, the secondary voltage is",
+      "options": [
+        "1.7 V",
+        "0.85 V",
+        "1 V",
+        "0 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1matha0",
+      "q": "The primary coil of a transformer is connected to a 60 V ac source. The secondary coil is connected to a 330 load. The turns ratio is 3:1. What is the secondary voltage?",
+      "options": [
+        "2 V",
+        "20 V",
+        "180 V",
+        "18 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m6jp9w",
+      "q": "The primary winding of a power transformer should always be",
+      "options": [
+        "open",
+        "shorted",
+        "switched",
+        "fused"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uf0vpk",
+      "q": "A certain amplifier has 600 internal resistance looking from its output. In order to provide maximum power to a 4 speaker, what turns ratio must be used in the coupling transformer?",
+      "options": [
+        "8",
+        "0.8",
+        "0.08",
+        "80"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wvdneg",
+      "q": "A transformer",
+      "options": [
+        "changes ac to dc",
+        "changes dc to ac",
+        "steps up or down dc voltages",
+        "steps up or down ac voltages"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Transformers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14a9jg",
+      "q": "The primary of a transformer is connected to a 6 V battery. The turns ratio is 1:3 and the secondary load, RL, is 100 . The voltage across the load is",
       "options": [
         "0 V",
         "6 V",
-        "48 V",
-        "0.75 V"
+        "18 V",
+        "2 V"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +358,13 @@
       "tags": []
     },
     {
-      "id": "gate-t8zfa7",
-      "q": "What is the coefficient of coupling for a transformer in which 4% of the total flux generated in the primary does not pass through the secondary?",
+      "id": "gate-1lq4h4s",
+      "q": "To step 120 V ac up to 900 V ac, the turns ratio must be",
       "options": [
-        "0.4",
-        "4",
-        "9.6",
-        "0.96"
+        "75",
+        "750",
+        "7.5",
+        "0.13"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +378,13 @@
       "tags": []
     },
     {
-      "id": "gate-1l364yx",
-      "q": "A transformer has a 1:6 turns ratio and a secondary coil load resistance of 470 . The load resistance as seen by the source is",
+      "id": "gate-1oww6zs",
+      "q": "When a 200 load resistor is connected across the secondary winding of a transformer with a turns ratio of 4, the source \"sees\" a reflective load of",
       "options": [
-        "1.3",
-        "7.8",
-        "78",
-        "13"
+        "50",
+        "12.5",
+        "800",
+        "0"
       ],
       "correct": 0,
       "explain": "",

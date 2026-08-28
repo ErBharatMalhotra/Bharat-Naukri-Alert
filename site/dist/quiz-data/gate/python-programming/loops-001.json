@@ -5,15 +5,55 @@
   "subject": "Python Programming",
   "topic": "Loops",
   "source": "indiabix.com",
-  "count": 7,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-1qd47ob",
-      "q": "Which of the following statements accurately describes the behavior of the else block in a Python while loop?",
+      "id": "gate-kspyd0",
+      "q": "What will be the output of the following code? for i in range(3): print(i)",
       "options": [
-        "It is executed when the loop condition is True.",
-        "It is executed when the loop is terminated prematurely.",
+        "0",
+        "1",
+        "2",
+        "0 1 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hbkbk8",
+      "q": "Which keyword is used to skip the rest of the code in the current iteration of a loop and move to the next iteration?",
+      "options": [
+        "pass",
+        "continue",
+        "skip",
+        "next"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eqyvc4",
+      "q": "What is the purpose of the else block in a Python for or while loop?",
+      "options": [
+        "It handles exceptions that occur in the loop.",
         "It is executed only if an exception occurs in the loop.",
+        "It ensures the code inside the else block always executes, regardless of whether an exception occurs or not.",
         "It is executed when the loop condition becomes False."
       ],
       "correct": 0,
@@ -28,12 +68,32 @@
       "tags": []
     },
     {
-      "id": "gate-u9udnd",
-      "q": "What is the purpose of the zip function in Python when used with loops?",
+      "id": "gate-v681zg",
+      "q": "Which loop in Python is used for iterating over a sequence until a specified condition is False?",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "if loop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-41wqfg",
+      "q": "What does the enumerate function do when used in a for loop?",
       "options": [
         "Counts the total number of iterations",
-        "Combines multiple sequences into tuples",
-        "Returns the index and value of each element in a sequence",
+        "Iterates over the values of a sequence",
+        "Adds an index to each element in an iterable",
         "Reverses the order of iteration"
       ],
       "correct": 0,
@@ -48,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-19hatg4",
-      "q": "Which keyword is used to exit a loop and skip the remaining iterations?",
+      "id": "gate-10cma6a",
+      "q": "What does the else block in a for loop execute when the loop completes without encountering a break statement?",
       "options": [
-        "terminate",
-        "exit",
-        "break",
-        "skip"
+        "It is executed when the loop condition is True.",
+        "It is executed when the loop is terminated prematurely.",
+        "It is executed only if an exception occurs in the loop.",
+        "It is executed when the loop completes its iterations normally."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-12n6e48",
-      "q": "What does the range function return in Python when used with a single argument?",
+      "id": "gate-1iofnl4",
+      "q": "In a while loop, what will happen if the loop condition is initially False?",
       "options": [
-        "A list of numbers from 0 to the specified argument (exclusive)",
-        "A list of numbers from 1 to the specified argument (inclusive)",
-        "A list of numbers from 0 to the specified argument (inclusive)",
-        "A list of numbers from 1 to the specified argument (exclusive)"
+        "The loop will run indefinitely.",
+        "The loop will never execute.",
+        "The loop will execute once.",
+        "An error will occur."
       ],
       "correct": 0,
       "explain": "",
@@ -88,53 +148,353 @@
       "tags": []
     },
     {
-      "id": "gate-13khteo",
-      "q": "In a for loop, which method is used to iterate over the keys of a dictionary?",
+      "id": "gate-1aw9qus",
+      "q": "What does the zip function do when used with loops?",
       "options": [
-        "keys()",
-        "items()",
-        "values()",
-        "enumerate()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Loops",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n6l3tw",
-      "q": "Which of the following statements accurately describes the behavior of the else block in a Python try-except statement?",
-      "options": [
-        "It is executed when an exception occurs in the try block.",
-        "It is executed when the try block completes without any exceptions.",
-        "It is executed only if an exception occurs in the except block.",
-        "It is executed when the program terminates."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Loops",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cgrack",
-      "q": "What is the purpose of the sorted function in Python when used with loops?",
-      "options": [
-        "Reverses the order of elements in a list.",
-        "Sorts the elements in ascending order.",
-        "Returns the index and value of each element in a sequence.",
+        "Combines multiple sequences into tuples.",
+        "Iterates over the values of a sequence.",
+        "Reverses the order of iteration.",
         "Checks for equality of elements in multiple sequences."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rrzhwc",
+      "q": "Which statement is used to iterate over a sequence and execute a block of code as long as a specified condition is True?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "if"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vmpc24",
+      "q": "In Python, what is the purpose of the else block in a while loop?",
+      "options": [
+        "It is executed when the loop is terminated prematurely.",
+        "It is executed only if an exception occurs in the loop.",
+        "It is executed when the loop condition becomes False.",
+        "It is executed when the loop condition is True."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ra9zvh",
+      "q": "Which loop is used for iterating over the characters of a string?",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "if loop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prpl9c",
+      "q": "What does the range function return when used with two arguments, start and stop?",
+      "options": [
+        "A sequence from start to stop (exclusive)",
+        "A sequence from start to stop (inclusive)",
+        "A sequence of even numbers from start to stop",
+        "A reversed sequence from start to stop (inclusive)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r6fe8",
+      "q": "What is the purpose of the reverse parameter in the sorted function?",
+      "options": [
+        "It reverses the order of elements in a list.",
+        "It creates a reversed range from a specified end to start.",
+        "It reverses the order of iteration in a loop.",
+        "It sorts the elements in descending order."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jkxp2",
+      "q": "In Python, what does the enumerate function return when used with a for loop?",
+      "options": [
+        "Index and value of each element in a sequence",
+        "Values of a sequence",
+        "Reversed order of elements in a sequence",
+        "Total number of iterations"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9pn5qg",
+      "q": "Which of the following is the correct syntax for a do-while loop?",
+      "options": [
+        "do { } while condition;",
+        "while condition: { }",
+        "do: code while condition",
+        "while True: code if not condition: break"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lbztpo",
+      "q": "How can you create an infinite loop?",
+      "options": [
+        "for i in range(10):",
+        "while True:",
+        "for i in range(1, 0, -1):",
+        "while False:"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e6xafs",
+      "q": "What is the purpose of the enumerate function when used with a for loop?",
+      "options": [
+        "Counts the total number of iterations.",
+        "Iterates over the values of a sequence.",
+        "Returns the index and value of each element in a sequence.",
+        "Reverses the order of iteration."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-squkyd",
+      "q": "What is the purpose of the reverse parameter in the range function?",
+      "options": [
+        "It reverses the order of elements in a list.",
+        "It creates a reversed range from a specified end to start.",
+        "It reverses the order of iteration in a loop.",
+        "It has no effect on the range function."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eb7iuk",
+      "q": "In Python, what does the pass statement do when used in a loop?",
+      "options": [
+        "Exits the loop prematurely.",
+        "Does nothing and is used as a placeholder.",
+        "Repeats the loop indefinitely.",
+        "Terminates the program."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rp3hh8",
+      "q": "Which function is used to find the minimum value from a sequence?",
+      "options": [
+        "min()",
+        "minimum()",
+        "min_value()",
+        "find_min()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3aqgkk",
+      "q": "What does the else block in a for loop execute when the loop is terminated prematurely using a break statement?",
+      "options": [
+        "It is executed when the loop condition is True.",
+        "It is executed when the loop is terminated prematurely.",
+        "It is executed only if an exception occurs in the loop.",
+        "It is executed when the loop completes its iterations normally."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1evsho0",
+      "q": "Which of the following is a correct way to iterate over a list in reverse order?",
+      "options": [
+        "for item in reversed(my_list):",
+        "for item in my_list.reverse():",
+        "for item in reverse(my_list):",
+        "for item in my_list[::-1]:"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fa1vsg",
+      "q": "Which of the following is the correct syntax to define an infinite loop?",
+      "options": [
+        "for i in range(10):",
+        "while True:",
+        "while False:",
+        "for i in range(1, 0, -1):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19rr3f",
+      "q": "In Python, what is the purpose of the break statement in a loop?",
+      "options": [
+        "Skips the remaining code in the loop and moves to the next iteration.",
+        "Exits the loop prematurely.",
+        "Repeats the loop indefinitely.",
+        "Jumps to the next loop iteration."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Loops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fh7uas",
+      "q": "Which loop in Python is primarily used for iterating over a sequence of numbers with a specified step size?",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "if loop"
       ],
       "correct": 0,
       "explain": "",

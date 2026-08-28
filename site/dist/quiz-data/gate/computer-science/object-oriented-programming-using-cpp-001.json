@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Object Oriented Programming Using Cpp",
   "source": "indiabix.com",
-  "count": 58,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-1ywam77",
-      "q": "When you omit parameters from a function call, values can be provided by",
+      "id": "gate-1fomrjs",
+      "q": "The return type you code for all constructors is _____",
       "options": [
-        "formal parameters",
-        "reference parameters",
-        "overloaded parameters",
-        "default parameters"
+        "void",
+        "the class type",
+        "the same type as the first data member defined in the class",
+        "no type"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-10qmzzk",
-      "q": "The first element in a string is",
+      "id": "gate-ad9iau",
+      "q": "When an object-oriented program detects an error within a function, the function _________",
       "options": [
-        "the name of the string",
-        "the first character in the string",
-        "the length of the string",
-        "the name of the array holding the string"
+        "throws an exception",
+        "throws a fit",
+        "catches a message",
+        "catches an exception"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-qutbdk",
-      "q": "Variables declared outside a block are called _____",
+      "id": "gate-194lrww",
+      "q": "Using a statement at the wrong time or with an inappropriate object creates a",
       "options": [
-        "global",
-        "universal",
-        "stellar",
-        "external"
+        "logical error",
+        "syntax error",
+        "compiler error",
+        "language error"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yh251t",
-      "q": "The compiler converts your C++ instructions into _____",
+      "id": "gate-532mn0",
+      "q": "When you create a derived class and instantiate an object _____",
       "options": [
-        "edited code",
-        "object code",
-        "source code",
-        "translated code"
+        "the parent class object must be constructed first",
+        "the child class object must be constructed first",
+        "the parent class object must not be constructed",
+        "the child class object must not be constructed"
       ],
       "correct": 0,
       "explain": "",
@@ -88,228 +88,8 @@
       "tags": []
     },
     {
-      "id": "gate-1c0jttg",
-      "q": "A fundamental type such as int or double is a _____",
-      "options": [
-        "programmer-defined type",
-        "complex type",
-        "nonscalar type",
-        "scalar type"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e3vqe8",
-      "q": "The last statement in a function is often a(n) _____",
-      "options": [
-        "return",
-        "goodbye",
-        "finish",
-        "endfunction"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dxxzy0",
-      "q": "When the function int someFunction(char c) throw( ) is executed, _____",
-      "options": [
-        "it can throw anything",
-        "it may throw an integer",
-        "it may throw a character",
-        "it may not throw anything"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qbhvu9",
-      "q": "The two statements that can be used to change the flow of control are",
-      "options": [
-        "if and switch",
-        "if and while",
-        "switch and do-while",
-        "break and continue"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k7dml7",
-      "q": "If p and q are assigned the values 2 and 3 respectively then the statement p = q++",
-      "options": [
-        "gives an error message",
-        "assigns a value 4 to p",
-        "assigns a value 3 to p",
-        "assigns a value 5 to p"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ott652",
-      "q": "Which of the following is the insertion operator?",
-      "options": [
-        "&gt;&gt;",
-        "&lt;&lt;",
-        "//",
-        "/*"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vfakzp",
-      "q": "You typically initialize a String variable to _____",
-      "options": [
-        "an asterisk",
-        "a space enclosed in single quotes",
-        "the number 0",
-        "a zero-length string"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nwfgws",
-      "q": "The set of instructions for how to tie a bow is an example of the _____ structure",
-      "options": [
-        "control",
-        "repetition",
-        "selection",
-        "sequence"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-d7tw68",
-      "q": "If no exception is thrown ________",
-      "options": [
-        "a catch block will cause an error",
-        "the first catch block coded will execute",
-        "the last catch block coded with execute",
-        "any catch blocks coded with be bypassed"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1buw4a7",
-      "q": "A program that predicts the exact sequence in which events will take place is said to be ________",
-      "options": [
-        "compiled",
-        "interpreted",
-        "procedural",
-        "object-oriented"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vu95b8",
-      "q": "A blueprint for creating an object in C++ is called _____",
-      "options": [
-        "a class",
-        "an instance",
-        "a map",
-        "a pattern"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mzz8qo",
-      "q": "If no constructors can specified for a derived class, objects of the derived class will use the constructors in the base class",
+      "id": "gate-vadq1s",
+      "q": "Evaluate the following expression: 4 &gt;6 || 10 &lt; 2 * 6",
       "options": [
         "True",
         "False"
@@ -326,13 +106,13 @@
       "tags": []
     },
     {
-      "id": "gate-3cxit4",
-      "q": "The get() function returns _____",
+      "id": "gate-1m7ig5s",
+      "q": "Which of the following can be used to declare the main function?",
       "options": [
-        "a character",
-        "void",
-        "a reference to the object that invoked it",
-        "a copy of the object that invoked it"
+        "void main",
+        "void Main()",
+        "void main()",
+        "main"
       ],
       "correct": 0,
       "explain": "",
@@ -346,13 +126,13 @@
       "tags": []
     },
     {
-      "id": "gate-wnw9e4",
-      "q": "The most efficient data type for a variable that the number 20000 is the _____ data type",
+      "id": "gate-nddyuw",
+      "q": "You _____ write your own container classes",
       "options": [
-        "Character",
-        "Double",
-        "Float",
-        "Long Integer"
+        "must",
+        "may",
+        "should not",
+        "must not"
       ],
       "correct": 0,
       "explain": "",
@@ -366,8 +146,608 @@
       "tags": []
     },
     {
-      "id": "gate-radt4q",
-      "q": "The number 5.5e3 is a _____ constant",
+      "id": "gate-4hnku9",
+      "q": "If an integer object is thrown with a throw statement, then a subsequent catch block has a usable match if the type of the catch argument is",
+      "options": [
+        "int",
+        "double",
+        "either (a) or (b)",
+        "neither (a) nor (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1owyplw",
+      "q": "The highest level of cohesion is",
+      "options": [
+        "functional cohesion",
+        "temporal cohesion",
+        "logical cohesion",
+        "sequential cohesion"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hjjt7c",
+      "q": "You separate a derived class name from its access specifier with",
+      "options": [
+        "a colon",
+        "two colons",
+        "at least one space",
+        "a semicolon"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6p8dop",
+      "q": "If you want only one memory location to be reserved for a class variable, no matter how many objects are instantiated, you should declare the variable as",
+      "options": [
+        "static",
+        "unary",
+        "dynamic",
+        "volatile"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u2i540",
+      "q": "To use a template class member function, use the ________ with the instantiation",
+      "options": [
+        "scope resolution operator",
+        "dot operator",
+        "class definition",
+        "keword template"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-137fi8s",
+      "q": "When a class is derived from another derived class, the newly derived class",
+      "options": [
+        "may have more liberal access to a base class member than its immediate predecessor",
+        "may have the same type of access to a base class member as its immediate predecessor",
+        "may have more limited access to a base class member than its immediate predecessor",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-188wlli",
+      "q": "If you assign a default value to any variable in a function prototype's parameter list, then _____",
+      "options": [
+        "all other parameters in the function prototype must have default values",
+        "all parameters to the right of that variable must have default values",
+        "all parameters to the left of that variable must have default values",
+        "no other parameters in that prototype can have default values"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d2x85o",
+      "q": "The dot operator (or class member access operator) connects the following two entities (reading from left to right):",
+      "options": [
+        "a class member and a class object",
+        "a class object and a class",
+        "a class and a member of that class",
+        "a class object and a member of that class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u63y4g",
+      "q": "When using the standard files that come with the C++ compiler, you should surround the header file name with _____",
+      "options": [
+        "square brackets",
+        "angle brackets",
+        "parentheses",
+        "quotes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-898aaa",
+      "q": "The loop condition in a flowchart is represented by a(n) _____",
+      "options": [
+        "diamond",
+        "oval",
+        "parallelogram",
+        "rectangle"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8063l4",
+      "q": "Which of the following, if any, are invalid names for a variable?",
+      "options": [
+        "bankAccountNumber",
+        "first_Name",
+        "doubleNumber",
+        "operator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p09bv0",
+      "q": "Inheritance is the principle that",
+      "options": [
+        "classes with the same name must be derived from one another",
+        "knowledge of a general category can be applied to more specific objects",
+        "C++ functions may be used only if they have logical predecessors",
+        "one function name may invoke different methods"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7bk0xu",
+      "q": "The prototype for a derived class constructor may include arguments for",
+      "options": [
+        "data members of the derived class",
+        "data members of the base class",
+        "both (a) and (b)",
+        "neither (a) nor (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kyw8oo",
+      "q": "Overloading involves writing two or more functions with ________",
+      "options": [
+        "different names and different argument lists",
+        "different names and the same argument list",
+        "the same name and different argument lists",
+        "the same name and the same argument list"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lkid7s",
+      "q": "You___________overload function templates",
+      "options": [
+        "may, as long as each version has the same arguments",
+        "may, as long as each version has different arguments",
+        "must",
+        "must not"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-175pwq4",
+      "q": "You typically initialize Character variables to _____",
+      "options": [
+        "a space enclosed in double quotes",
+        "a space enclosed in single quotes",
+        "the letter O",
+        "the number 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l9dpmr",
+      "q": "One way pointers are useful is to refer to a memory address that has no _____",
+      "options": [
+        "name",
+        "constant",
+        "location",
+        "field"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jm089k",
+      "q": "If you omit any constructor argument when you instantiate an object, you must use default values",
+      "options": [
+        "for all parameters to the constructor",
+        "for all parameters to the right of the argument",
+        "for all parameters to the left of the argument",
+        "for no other parameters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rajorw",
+      "q": "The C++ expression p --&gt; val means the same thing as",
+      "options": [
+        "*p.val",
+        "*(p.val)",
+        "(*p).vai",
+        "p.val"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q6mn6k",
+      "q": "Which of the following tells C++ to display numbers with zero decimal places?",
+      "options": [
+        "setiosflags(0)",
+        "setiosflags(zero)",
+        "setprecision(0)",
+        "setprecision(zero)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c9p0zh",
+      "q": "Code that has already been tested is said to be _____",
+      "options": [
+        "inherited",
+        "reusable",
+        "reliable",
+        "polymorphic"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rwpsas",
+      "q": "Simple routines that programmers use as place holders while a system is being tested are called _____",
+      "options": [
+        "stubs",
+        "stumps",
+        "holders",
+        "templates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7kihb4",
+      "q": "You can place function templates",
+      "options": [
+        "at the end of main()",
+        "at the start of a program above main()",
+        "in two files-one for the definition and one for the function",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vpugto",
+      "q": "The two operators &amp;&amp; an || are",
+      "options": [
+        "arithmetic operators",
+        "equality operators",
+        "logical operators",
+        "relational operators"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tb6vo8",
+      "q": "The arguments that determine the state of the cout object are called _____",
+      "options": [
+        "classes",
+        "manipulators",
+        "format flags",
+        "state controllers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d1nofg",
+      "q": "Static variables are sometimes called",
+      "options": [
+        "class variables",
+        "functional variables",
+        "dynamic variables",
+        "auto variables"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-thpro8",
+      "q": "Assume that a variable will need to store only integers in the range of 1 through 20000. The most efficient data type for the variable is _____",
+      "options": [
+        "character",
+        "float",
+        "integer",
+        "long integer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pjnir4",
+      "q": "The best-written classes have",
+      "options": [
+        "all functions private",
+        "all data public",
+        "no functions",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oipnqy",
+      "q": "Making class members inaccessible to nonmember functions is an example of",
+      "options": [
+        "polymorphism",
+        "data hiding",
+        "redundancy",
+        "recursion"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p5bw2k",
+      "q": "Providing two or more constructors for the same class _____",
+      "options": [
+        "requires different argument lists",
+        "requires different constructor names",
+        "requires different constructor types",
+        "is illegal"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13z4g3o",
+      "q": "3 is a _____ constant",
       "options": [
         "character literal",
         "named literal",
@@ -386,13 +766,13 @@
       "tags": []
     },
     {
-      "id": "gate-5hi2cs",
-      "q": "The compiler determines the type used in a template function via ___________",
+      "id": "gate-1iq7t3w",
+      "q": "_____ variables remain in memory until the statement block ends",
       "options": [
-        "the name of the function",
-        "the first variable declared within the function",
-        "the type of the argument passed to the function",
-        "the type of the value returned from the function"
+        "Area",
+        "Global",
+        "Local",
+        "Reference"
       ],
       "correct": 0,
       "explain": "",
@@ -406,13 +786,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cnd1zu",
-      "q": "Which of the following are valid characters for a numeric literal constant?",
+      "id": "gate-1hs08jc",
+      "q": "A class hierarchy",
       "options": [
-        "a decimal point",
-        "the letter e",
-        "a minus sign",
-        "a plus sign"
+        "describes \"is a kind of\" relationships",
+        "describes \"has a\" relationships",
+        "shows the same relationships as an organization chart",
+        "shows the same relationships as a family tree"
       ],
       "correct": 0,
       "explain": "",
@@ -426,12 +806,332 @@
       "tags": []
     },
     {
-      "id": "gate-1hle2we",
-      "q": "Any #include files may contain",
+      "id": "gate-yfghgg",
+      "q": "Which of the following C++ expressions is equivalent to the mathematical expression 53 ?",
       "options": [
-        "constants",
-        "variables",
-        "functions",
+        "5 ^ 3",
+        "cube(5)",
+        "pow (3, 5)",
+        "pow(5, 3)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gkytes",
+      "q": "The right shift operator is represented by the symbol",
+      "options": [
+        "&gt;",
+        "&gt;&gt;",
+        "-&gt;",
+        "&lt;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vv0uvm",
+      "q": "In C++, class definitions are most often",
+      "options": [
+        "stored with each program that uses them",
+        "stored in a header file that is included in the programs that use them",
+        "stored in a folder that you paste into every new project",
+        "retyped for every new project"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13egnq4",
+      "q": "To hide a data member from the program, you must declare the data member in the _____ section of the class",
+      "options": [
+        "concealed",
+        "confidential",
+        "hidden",
+        "private"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gj22d8",
+      "q": "External documentation includes",
+      "options": [
+        "a printout of the program's code",
+        "flowcharts",
+        "IPO charts",
+        "pseudocode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1okjhih",
+      "q": "A function that is called automatically each time an object is created is a(n)",
+      "options": [
+        "constructor",
+        "contractor",
+        "builder",
+        "architect"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ywzb9s",
+      "q": "A variable's _____ indicates how long the variable remains in the computer's memory",
+      "options": [
+        "area",
+        "extent",
+        "lifetime",
+        "reach"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e98t88",
+      "q": "The function whose prototype is void getData(Item *thing); receives",
+      "options": [
+        "a pointer to a structure",
+        "a reference to a structure",
+        "a copy of a structure",
+        "nothing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qbfiid",
+      "q": "The break statement is",
+      "options": [
+        "a preprocessor directive",
+        "an operator in the C++ language",
+        "a keyword in the C++ language",
+        "switch in the C++ language"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16u07yw",
+      "q": "A variable w with a value 67 may be defined with _______",
+      "options": [
+        "int w = 67;",
+        "int w(67);",
+        "int 67(w);",
+        "both (a) and (b), but not (c)."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5a62z8",
+      "q": "An expression contains relational, assignment and arithmetic operators. In the absence of parentheses, the order of evaluation will be",
+      "options": [
+        "assignment, relational, arithmetic",
+        "arithmetic, relational, assignment",
+        "relational, arithmetic, assignment",
+        "assignment, arithmetic, relational"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d6eg04",
+      "q": "The keyword virtual indicates that",
+      "options": [
+        "a derived class has public access to a base class",
+        "more than one base class exists",
+        "a base class should be used only once in inheritance",
+        "a derived class should have more than one base class constructed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ftv40w",
+      "q": "If you declare two objects as Customer firstCust, secondCust; which of the following must be true?",
+      "options": [
+        "Each object will store a separate copy of any static member data",
+        "Each object will store a separate copy of any member functions",
+        "Each object will store a separate copy of any nonstatic data members",
+        "You cannot declare two objects of the same class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uxi52i",
+      "q": "The switch variable can be of",
+      "options": [
+        "int type only",
+        "char type only",
+        "both int as well as char type",
+        "float type only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i2hcyg",
+      "q": "Reference variables and const class members _____",
+      "options": [
+        "must be assigned values in any derived class",
+        "must never be initialized in a base class",
+        "must be initialized, rather than assigned values",
+        "must not exist if a class is to be a base class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hfxuq0",
+      "q": "You can code a default exception handler by creating a catch block",
+      "options": [
+        "with no arguments",
+        "with a void argument",
+        "with an ellipsis as its argument",
+        "with an argument identical to that thrown"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cz4un5",
+      "q": "Which of the following are void functions?",
+      "options": [
+        "main",
+        "pow",
+        "sqrt",
         "All of the above"
       ],
       "correct": 0,
@@ -446,13 +1146,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ooadr9",
-      "q": "When a break statement is used in a loop, the control skips the rest of the statements in the loop after it and jumps",
+      "id": "gate-115g5p4",
+      "q": "Hiding individual components of an entry is _____",
       "options": [
-        "to the last lines in the program",
-        "to the next statement written after the body of the loop",
-        "to the first statement in the body of the loop",
-        "All. of the above"
+        "polymorphism",
+        "encapsulation",
+        "scaling",
+        "not recommended in C++"
       ],
       "correct": 0,
       "explain": "",
@@ -466,13 +1166,13 @@
       "tags": []
     },
     {
-      "id": "gate-syekr0",
-      "q": "The function that takes arguments to set the bits of count is _____",
+      "id": "gate-dno70g",
+      "q": "To include the double quotes as part of the control string we use the symbol",
       "options": [
-        "setf()",
-        "bitsef()",
-        "ios()",
-        "flag()"
+        "%\"",
+        "\"\"",
+        "\\\"",
+        "#"
       ],
       "correct": 0,
       "explain": "",
@@ -486,13 +1186,13 @@
       "tags": []
     },
     {
-      "id": "gate-37cmii",
-      "q": "When two types are used in a function template and one is labeled T, the other",
+      "id": "gate-1tkb0is",
+      "q": "A C++ statement must end in a",
       "options": [
-        "must also be named T",
-        "must be named U",
-        "can be any legal C++ identfier",
-        "it is illegal to have two types"
+        ": (column)",
+        ", (comma)",
+        ". (period)",
+        "; (semicolon)"
       ],
       "correct": 0,
       "explain": "",
@@ -506,13 +1206,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vqnj68",
-      "q": "The comma operator (,) is primarily used in conjunction with",
+      "id": "gate-x8bf06",
+      "q": "Student senior(); is a(n)_________",
       "options": [
-        "'for' statement",
-        "'if-else' statement",
-        "'do-while' statement",
-        "All of the above"
+        "constructor call with no arguments",
+        "object instantiation",
+        "constructor call with all default arguments",
+        "prototype for a function that returns a student object"
       ],
       "correct": 0,
       "explain": "",
@@ -526,13 +1226,13 @@
       "tags": []
     },
     {
-      "id": "gate-1x72z2l",
-      "q": "To execute a C++ program, you first need to translate the source code into object code. This process is called",
+      "id": "gate-17o8x3o",
+      "q": "The statement int n[4] = {11, -13, 17, 105};",
       "options": [
-        "coding",
-        "compiling",
-        "sourcing",
-        "translating"
+        "assigns the value -13 to [2]",
+        "assigns the value 17 to n[2]",
+        "is wrong; it gives an error message",
+        "assigns the value 18 to n[2]"
       ],
       "correct": 0,
       "explain": "",
@@ -546,13 +1246,13 @@
       "tags": []
     },
     {
-      "id": "gate-zxy6yk",
-      "q": "The rules of a programming language are called its _____",
+      "id": "gate-x68v8g",
+      "q": "A function that is called automatically each time an object is destroyed is a",
       "options": [
-        "code",
-        "guidelines",
-        "procedures",
-        "regulations"
+        "constructor",
+        "destructor",
+        "destroyer",
+        "terminator"
       ],
       "correct": 0,
       "explain": "",
@@ -566,13 +1266,13 @@
       "tags": []
     },
     {
-      "id": "gate-xh91v8",
-      "q": "An array element is accessed using",
+      "id": "gate-1xnccs0",
+      "q": "We can output text to an object of class ofstream using the insertion operator Â« because",
       "options": [
-        "a first-in-first-out approach",
-        "the dot operator",
-        "a member name",
-        "an index number"
+        "the ofstream class is a stream",
+        "the insertion operator works with all classes",
+        "we are actually outputting to cout",
+        "the insertion operator is overloaded in ofstream"
       ],
       "correct": 0,
       "explain": "",
@@ -586,13 +1286,13 @@
       "tags": []
     },
     {
-      "id": "gate-8pdjuh",
-      "q": "The program can access the private members of a class",
+      "id": "gate-19i58e8",
+      "q": "The operator that allocates new memory is _____",
       "options": [
-        "directly",
-        "only through other private members of the class",
-        "only through other public members of the class",
-        "None of the above - the program cannot access the private members of a class in any way"
+        "allocate",
+        "mem",
+        "new",
+        "next"
       ],
       "correct": 0,
       "explain": "",
@@ -606,13 +1306,13 @@
       "tags": []
     },
     {
-      "id": "gate-eqks4g",
-      "q": "Variables that are declared in a block are known as _____ variables to that block",
+      "id": "gate-nyjhps",
+      "q": "Which of the following is(are) valid identifier(s)?",
       "options": [
-        "confined",
-        "local",
-        "global",
-        "immediate"
+        "record_1",
+        "1 record",
+        "return",
+        "$tax"
       ],
       "correct": 0,
       "explain": "",
@@ -626,13 +1326,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kgp52w",
-      "q": "The pow and sqrt functions return a(n) _____ type number",
+      "id": "gate-6n9520",
+      "q": "Which of the following statements opens a file named temp.dat for output?",
       "options": [
-        "double",
-        "float",
-        "integer",
-        "long"
+        "outFile.open(\"temp .dat\");",
+        "fileOut.output(\"temp .dat\");",
+        "openFile.out(\"temp .dat\");",
+        "fileOpen.out(\"temp .dat\");"
       ],
       "correct": 0,
       "explain": "",
@@ -646,13 +1346,13 @@
       "tags": []
     },
     {
-      "id": "gate-ubrn4",
-      "q": "Declaring variables is advantageous because it",
+      "id": "gate-znvoj8",
+      "q": "Which of the following will store the letter H in a Character variable named initial?",
       "options": [
-        "avoids errors from misspelled variable names {b) helps the linker work efficiently",
-        "simplifies the writing of very short programs",
-        "All of the above",
-        "None of the above"
+        "initial = 'H'",
+        "initial = 'H';",
+        "initial = \"H\"",
+        "initial = \"H\";"
       ],
       "correct": 0,
       "explain": "",
@@ -666,404 +1366,11 @@
       "tags": []
     },
     {
-      "id": "gate-b6sq4c",
-      "q": "The generic name used for unexpected errors that occur during the execution of a program is",
+      "id": "gate-gnntos",
+      "q": "Compared with the classes from which they are derived, inherited classes may have _____",
       "options": [
-        "infractions",
-        "exceptions",
-        "deviations",
-        "anomalies"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1usywng",
-      "q": "You add the desired type to a specific template class instantiation by placing the type's name ______",
-      "options": [
-        "between angle brackets",
-        "in parentheses",
-        "on a line by itself",
-        "immediately prior to the class name"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cgh7tc",
-      "q": "Programmer-defined functions can be",
-      "options": [
-        "value-returning functions only",
-        "void functions only",
-        "either value-returning or void functions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ozbigk",
-      "q": "A class D can be derived from a class C, which is derived from a class B, which is derived from a class A",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1g8qjb4",
-      "q": "To use the strcpy function, you must include the _____ header file in your program",
-      "options": [
-        "assign.h",
-        "copy.h",
-        "string.h",
-        "strcopy.h"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a40dls",
-      "q": "The number of the relational operators in the C language is",
-      "options": [
-        "four",
-        "six",
-        "three",
-        "one"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-40vt28",
-      "q": "Which of the following tells C++ to display numbers with two decimal places?",
-      "options": [
-        "setdecimal(2)",
-        "setiosflags(2)",
-        "setiosflags(2.00)",
-        "setprecision(2)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i01t58",
-      "q": "The main difference in operation between an 'if statement and a 'while' statement is",
-      "options": [
-        "the 'while' loop body is executed",
-        "the body of the 'while' statement may be executed many times, the body of the 'if statements only once",
-        "the conditional expression following the keyboard is evaluated differently",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2g04i8",
-      "q": "If a class object is thrown with a throw statement, then a subsequent catch block has a usable match if the type of the catch argument is_________",
-      "options": [
-        "a parent class of the thrown class",
-        "a child class of the thrown class",
-        "either (a) or (b)",
-        "neither (a) nor (b)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p9g84a",
-      "q": "The weakest form of cohesion is",
-      "options": [
-        "coincidental",
-        "functional",
-        "logical",
-        "communicational"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pmx2h1",
-      "q": "The 'continue' statement is used to",
-      "options": [
-        "permit two different expressions to appear in situations where only one expression would ordinarily be used",
-        "terminate loops or to exit from a switch",
-        "alter the normal sequence of program execution by transferring control to some other part of the program",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1onl01n",
-      "q": "The 'break' statement is used to exist from",
-      "options": [
-        "a do loop",
-        "a for loop",
-        "a switch statement",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ake6bs",
-      "q": "A function whose purpose is to send messages to other functions is known as a _____",
-      "options": [
-        "dispatcher",
-        "courier",
-        "messenger",
-        "sender"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-88w7lk",
-      "q": "With commercial classes, the function source code is usually________",
-      "options": [
-        "printed on high-quality paper",
-        "poorly written",
-        "provided on a disk",
-        "provided in object form"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-192r21w",
-      "q": "The type of value that a function sends back to the function that calls it is known as its _____",
-      "options": [
-        "type",
-        "return value",
-        "reference data",
-        "sentinel"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-upqgbg",
-      "q": "Assume that a program includes the short *agePtr = NULL; statement. The name of the pointer is _____",
-      "options": [
-        "*agePtr",
-        "agePtr"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l4nf30",
-      "q": "Which of the following are never inherited?",
-      "options": [
-        "public data members",
-        "constructor functions",
-        "void functions",
-        "overloaded + operators"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bp57hi",
-      "q": "To expose a data member to the program, you must declare the data member in the _____ section of the class",
-      "options": [
-        "common",
-        "exposed",
-        "public",
-        "unrestricted"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q6o938",
-      "q": "Evaluate the following expression: 3 &gt;6&amp;&amp;7&gt;4",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s0ezjy",
-      "q": "A function that changes the state of the cout object is called a(n) _____",
-      "options": [
-        "member",
-        "adjuster",
-        "manipulator",
-        "operator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Object Oriented Programming Using Cpp",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i3o2q3",
-      "q": "A C++ program contains a function with the header int function(double d, char c). Which of the following function headers could be used within the same program?",
-      "options": [
-        "char function(double d, char c)",
-        "int function(int d, char c)",
+        "additional data members",
+        "additional member functions",
         "both (a) and (b)",
         "neither (a) nor (b)"
       ],
@@ -1079,13 +1386,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y5tl98",
-      "q": "Which of the following assigns the number 5 to the area variable?",
+      "id": "gate-cvteh5",
+      "q": "A class named Student must have a constructor whose name is",
       "options": [
-        "area 1 = 5",
-        "area = 5",
-        "area == 5",
-        "area --&gt; 5"
+        "Student",
+        "~Student",
+        "constructor",
+        "any legal C++ name"
       ],
       "correct": 0,
       "explain": "",
@@ -1099,13 +1406,13 @@
       "tags": []
     },
     {
-      "id": "gate-nyfarf",
-      "q": "A base class may also be called a",
+      "id": "gate-1l6nl08",
+      "q": "To write data that contains variables of type float, to an object of type ofstream, you should use",
       "options": [
-        "child class",
-        "subclass",
-        "derived class",
-        "parent class"
+        "the insertion operator",
+        "seekg()",
+        "writeQ",
+        "put()"
       ],
       "correct": 0,
       "explain": "",
@@ -1119,13 +1426,13 @@
       "tags": []
     },
     {
-      "id": "gate-tokx00",
-      "q": "The _____ mode tells C++ to open a file for input",
+      "id": "gate-oa3a1v",
+      "q": "You have assigned the address of Value to the pointer P, Which statement will display the value stored in Value?",
       "options": [
-        "add::ios",
-        "in::file",
-        "ios::app",
-        "ios::in"
+        "cout&lt;&lt;P;",
+        "cout&lt;&lt;*Value;",
+        "cout&lt;&lt;&amp;P;",
+        "cout&lt;&lt;*P;"
       ],
       "correct": 0,
       "explain": "",
@@ -1139,13 +1446,547 @@
       "tags": []
     },
     {
-      "id": "gate-1h0v6lg",
-      "q": "Using the wardrobe structure within the ShopList structure is an example of a good programming principle, known as _____",
+      "id": "gate-we6a50",
+      "q": "A constructor initialization list is preceded by",
       "options": [
-        "reusability",
-        "polymorphism",
-        "redundancy",
-        "recursion"
+        "a. semicolon",
+        "a colon",
+        "two colons",
+        "a space"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-stz1y0",
+      "q": "Which of the following statements will create and initialize a feelnfo array named fee?",
+      "options": [
+        "fee feeInfo = {{0}, {0}};",
+        "fee as feeInfo = 0, 0;",
+        "feeInfo fee = 0, 0;",
+        "feeInfo fee = [{0}, {0}];"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lqlvow",
+      "q": "Which of the following is the scope resolution operator?",
+      "options": [
+        "-&gt;&gt;",
+        "::",
+        "*",
+        "&amp;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uvifto",
+      "q": "The delete operator returns ______ to the operating system",
+      "options": [
+        "memory that is no longer needed",
+        "void",
+        "recycle bin",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-msg9yl",
+      "q": "The major advantage of data hiding is that _____",
+      "options": [
+        "your programs can include more data",
+        "you no longer need functions",
+        "no one can ever use your data",
+        "your data will be used correctly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w37uos",
+      "q": "The letter V is a _____",
+      "options": [
+        "character literal constant",
+        "numeric literal constant",
+        "string literal constant",
+        "variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dtzm50",
+      "q": "Separating parts of a program into units that remain unaffected by other parts of a program is the concept known as _____",
+      "options": [
+        "intrusion",
+        "volatility",
+        "encapsulation",
+        "protection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wjpccs",
+      "q": "The expression c = i++ causes",
+      "options": [
+        "the value of i assigned to c and then i incremented by 1",
+        "i to be incremented by 1 and then the value of i assigned to c",
+        "value of i assigned to c",
+        "i to be incremented by 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-okmc7s",
+      "q": "Which of the following creates a String named constant called partNo, whose value is AB45?",
+      "options": [
+        "const char[4] partNo = \"AB45\";",
+        "const char[5] partNo = 'AB45';",
+        "const char[5] partNo = \"AB45\";",
+        "const char partNo[5] = \"AB45\";"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3n8n4g",
+      "q": "The bitwise AND operator is represented by the symbol",
+      "options": [
+        "^",
+        "&amp;",
+        "&amp;&amp;",
+        "&gt;&gt;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-595fyu",
+      "q": "The exclusive OR operator gives the result 1 when",
+      "options": [
+        "both the bits are 0",
+        "one bit is 0 and the other is 1",
+        "both the bits are 1",
+        "no hard and fast rule"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1237mio",
+      "q": "The loosest type of coupling is",
+      "options": [
+        "data coupling",
+        "control coupling",
+        "external coupling",
+        "pathological coupling"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15d5mvg",
+      "q": "Which of the following is a string literal constant?",
+      "options": [
+        "\"Visual C++\"",
+        "\"137.45\"",
+        "\"A\"",
+        "\"2,365\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nwf6ho",
+      "q": "Which of the following, if any, are valid names for variables?",
+      "options": [
+        "class",
+        "friend",
+        "#OnHand",
+        "void"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xov1vh",
+      "q": "A child class _____ exist if there is no parent class",
+      "options": [
+        "must",
+        "may",
+        "cannot",
+        "can"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k93ppo",
+      "q": "You can use C++ as a procedural, as well as an object-oriented, language",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hwugmt",
+      "q": "A default catch block catches",
+      "options": [
+        "all thrown objects",
+        "no thrown objects",
+        "any thrown object that has not been caught by an earlier catch block",
+        "all thrown objects that have been caught by an earlier catch block"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s7wsxo",
+      "q": "Adding a derived class to a base class requires fundamental changes to the base class",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m5tkfg",
+      "q": "Format flags may be combined using",
+      "options": [
+        "the bitwise OR operator (|)",
+        "the logical OR operator (||)",
+        "the bitwise AND operator (&amp;)",
+        "the logical AND operator (&amp;&amp;)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lhye60",
+      "q": "The use of the break statement in a switch statement is",
+      "options": [
+        "optional",
+        "compulsory",
+        "not allowed. It gives an error message",
+        "to check an error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jsrdbs",
+      "q": "When the compiler cannot differentiate between two overloaded constructors, they are called",
+      "options": [
+        "overloaded",
+        "destructed",
+        "ambiguous",
+        "dubious"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y7j324",
+      "q": "Some Streams work with input, and some with output",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iuvnzi",
+      "q": "If you design a class that needs special initialization tasks, you will want to design a(n) _____",
+      "options": [
+        "housekeeping routine",
+        "initializer",
+        "constructor",
+        "compiler"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7yj9m4",
+      "q": "Which type of statement does not occur in computer programs?",
+      "options": [
+        "sequence",
+        "loop",
+        "denial",
+        "selection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nsa1eg",
+      "q": "The newline character is always included between",
+      "options": [
+        "pair of parentheses",
+        "pair of curly braces",
+        "control string",
+        "&amp;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pzsfas",
+      "q": "Sending a copy of data to a program module is called _______",
+      "options": [
+        "passing a value",
+        "making a reference",
+        "recursion",
+        "setting a condition"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o0buwk",
+      "q": "Of the three ways to pass arguments to functions, only passing by _____ and passing by _____ allow the function to modify the argument in the calling program",
+      "options": [
+        "reference, pointer",
+        "array, location",
+        "array, pointer",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Object Oriented Programming Using Cpp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e10exn",
+      "q": "To use either an input or output file, the program must include the _____ header file",
+      "options": [
+        "filestream.h",
+        "fstream.h",
+        "instream.h",
+        "inoutstream.h"
       ],
       "correct": 0,
       "explain": "",

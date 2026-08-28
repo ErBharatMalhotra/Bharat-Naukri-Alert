@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Xml And Ado Net",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 24,
   "questions": [
     {
-      "id": "gate-ue1zy7",
-      "q": "SOAP uses HTTP as its only transport mechanism.",
+      "id": "gate-1l9dtry",
+      "q": "It took the popularity of the Internet to realize that database processing and document processing need each other.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-x88g38",
-      "q": "The DTD defines the structure of XML documents.",
+      "id": "gate-ujpyf8",
+      "q": "You can validate an XML Schema document against its schema, just as you would any other XML document.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-18hg42w",
-      "q": "If a document does not conform to the DTD, it is a bad XML document.",
+      "id": "gate-1tvpwd8",
+      "q": "XML technology is a hybrid of document processing and database processing.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-vrj2w8",
-      "q": "XSLT processors are context-oriented; each statement is evaluated in the context of the match that has been made.",
+      "id": "gate-i61zc0",
+      "q": "The most popular way to materialize XML documents is to use XSLT.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-onawbg",
-      "q": "Web page display is the most important application of XML.",
+      "id": "gate-3ystjq",
+      "q": "SOAP is now just a name, not an acronym.",
       "options": [
         "True",
         "False"
@@ -98,12 +98,202 @@
       "tags": []
     },
     {
-      "id": "gate-1stjbrd",
-      "q": "To eliminate definition duplication, XML Schemas define:",
+      "id": "gate-149peh0",
+      "q": "Datasets which reside on the user's hard drive are created by ADO.NET to facilitate the transformation of XML documents to and from relational database constructs.",
       "options": [
-        "an intersection table.",
-        "global elements.",
-        "a normalized definition table.",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ngb0e4",
+      "q": "With XML, document structure, content and format are all defined within one document.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rwq2re",
+      "q": "XML Schemas are XML documents.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eqgj9q",
+      "q": "XML uses the same terms with the same meanings as terms in the database world.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g22ftg",
+      "q": "Stylesheets are used by XSLT to indicate how to transform the elements of the XML document into another format.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b3vyy8",
+      "q": "The XSLT processor copies the elements of the stylesheet until it finds a command in the format:",
+      "options": [
+        "SELECT ... FROM ... WHERE.",
+        "{item, action}.",
+        "{for-each select}.",
+        "&#60HTML&#62...&#60\\HTML&#62."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rk5zp4",
+      "q": "What standard, protocol or language was generalized to become a standard protocol for sending messages of any type, using any protocol?",
+      "options": [
+        "SOAP",
+        "SGML",
+        "SQL",
+        "ADO"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hdv560",
+      "q": "Which of the following statements is not true about XML Schemas:",
+      "options": [
+        "They are used to define the content and structure of data.",
+        "They define a set of symbols and the relationships of those symbols.",
+        "They are themselves XML documents.",
+        "They have their own syntax."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-swmmkr",
+      "q": "The most popular way to materialize XML documents is to use:",
+      "options": [
+        "DTD.",
+        "XSLT.",
+        "HTML.",
+        "SOAP."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x8zpy0",
+      "q": "An XML component that defines the structure of a document is known as a(n):",
+      "options": [
+        "DOCTYPE.",
+        "DTD.",
+        "#PCDATA.",
+        "HTML Stylesheet."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Xml And Ado Net",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14izn3s",
+      "q": "HTML is an application of a more robust document markup language called:",
+      "options": [
+        "XHTML.",
+        "XML.",
+        "SGML.",
         "None of the above is correct."
       ],
       "correct": 0,
@@ -118,13 +308,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wfmphw",
-      "q": "What is not true about SOAP?",
+      "id": "gate-1agwyz9",
+      "q": "XSLT processors evaluate each statement in the context of the match that has been made. That is, XSLT processors are:",
       "options": [
-        "SOAP originally meant Simple Object Access Protocol.",
-        "SOAP was defined as an XML-based standard for providing remote procedure calls over the Internet.",
-        "SOAP now is just a name, not an acronym",
-        "SOAP was an early form of XML."
+        "context oriented.",
+        "procedural oriented.",
+        "object oriented.",
+        "relational oriented."
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +328,13 @@
       "tags": []
     },
     {
-      "id": "gate-hux1ug",
-      "q": "XML Schemas consist of:",
+      "id": "gate-14yxvo6",
+      "q": "The DTD begins with the word:",
       "options": [
-        "properties and methods.",
-        "elements and attributes.",
-        "structure and data.",
-        "tables and relationships."
+        "#PCDATA.",
+        "XML.",
+        "DOCTYPE.",
+        "HTTPS."
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +348,13 @@
       "tags": []
     },
     {
-      "id": "gate-umz408",
-      "q": "The expression FOR XML RAW tells SQL Server to:",
+      "id": "gate-nfpsa0",
+      "q": "What is not true about XML?",
       "options": [
-        "place the values of the columns as attributes in the resulting XML document.",
-        "place the values of the columns into elements rather than attributes.",
-        "place some columns into elements and others into attributes.",
-        "None of the above is correct."
+        "Web page display is the most important application of XML.",
+        "With XML, there is a clear separation between document structure, content and materialization.",
+        "XML is more powerful than HTML.",
+        "XML documents have two sections."
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +368,11 @@
       "tags": []
     },
     {
-      "id": "gate-35hy5w",
-      "q": "ADO.NET provides the ability to create and process in-memory databases called:",
+      "id": "gate-e7ikw8",
+      "q": "Documents that have no DTD are by definition not-type-valid.",
       "options": [
-        "views.",
-        "relations.",
-        "tables.",
-        "datasets."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +386,11 @@
       "tags": []
     },
     {
-      "id": "gate-1ivjzek",
-      "q": "What is not true about XSLT?",
+      "id": "gate-qifxbc",
+      "q": "FOR XML EXPLICIT tells SQL Server to place the values of the columns as attributes in the resulting XML document.",
       "options": [
-        "XSLT is a declarative transformation language.",
-        "XSLT uses a set of rules that govern how a document is to be materialized is created.",
-        "XSLT uses a set of procedures that specify how a document is to be programmed.",
-        "XSLT is used to transform the input document into another document."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +404,11 @@
       "tags": []
     },
     {
-      "id": "gate-10hk6eg",
-      "q": "If the XML data instance conforms to the DTD, the document is said to be:",
+      "id": "gate-boykm4",
+      "q": "With XSLT, you specify a procedure for materializing document elements.",
       "options": [
-        "type-invalid.",
-        "type-valid.",
-        "not-type-valid.",
-        "an HTML document."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +422,11 @@
       "tags": []
     },
     {
-      "id": "gate-2bflos",
-      "q": "The document that is used by XSLT to indicate how to transform the elements of the XML document to another format is a(n):",
+      "id": "gate-1io1dgr",
+      "q": "XML Schema is used to define the content, structure and format of documents.",
       "options": [
-        "HTML page.",
-        "DOCTYPE procedure.",
-        "stylesheet.",
-        "stored procedure."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +440,11 @@
       "tags": []
     },
     {
-      "id": "gate-1unynv8",
-      "q": "If an XML document does not have a DTD, then by definition it is:",
+      "id": "gate-xs6h2w",
+      "q": "Schemas consist of properties and methods",
       "options": [
-        "not-type-valid.",
-        "type-valid.",
-        "an HTML document.",
-        "None of the above is correct."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "Networking",
   "topic": "Network Address Translation",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-kmecif",
-      "q": "Which of the following would be a good starting point for troubleshooting if your router is not translating?",
+      "id": "gate-1f0uiyc",
+      "q": "Which command would you place on interface connected to the Internet?",
       "options": [
-        "Reboot.",
-        "Call Cisco.",
-        "Check your interfaces for the correct configuration.",
-        "Run the debug all command."
+        "ip nat inside",
+        "ip nat outside",
+        "ip outside global",
+        "ip inside local"
       ],
       "correct": 0,
       "explain": "",
@@ -28,8 +28,8 @@
       "tags": []
     },
     {
-      "id": "gate-6122uo",
-      "q": "Which command will show you the summary of the NAT configuration?",
+      "id": "gate-1stipji",
+      "q": "Which command will show you all the translations active on your router?",
       "options": [
         "show ip nat translations",
         "show ip nat statistics",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-o8i4t2",
-      "q": "Which of the following is considered to be the destination host before translation?",
+      "id": "gate-1l4jbvg",
+      "q": "Which command would you place on interface on a private network?",
       "options": [
-        "Inside local",
-        "Outside local",
-        "Inside global",
-        "Outside global"
+        "ip nat inside",
+        "ip nat outside",
+        "ip outside global",
+        "ip inside local"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-17uq2ea",
-      "q": "Which of the following is considered to be the address after translation?",
+      "id": "gate-b5glmg",
+      "q": "Port Address Translation is also termed what?",
       "options": [
-        "Inside local",
-        "Outside local",
-        "Inside global",
-        "Outside global"
+        "NAT Fast",
+        "NAT Static",
+        "NAT Overload",
+        "Overloading Static"
       ],
       "correct": 0,
       "explain": "",
@@ -88,12 +88,52 @@
       "tags": []
     },
     {
-      "id": "gate-lf3a7s",
-      "q": "Which are considered the methods of NAT? Static IP NAT pool Dynamic NAT double-translation Overload",
+      "id": "gate-p3sia",
+      "q": "When creating a pool of global addresses, which of the following can be used instead of the netmask command?",
       "options": [
-        "1 and 6",
+        "/ (slash notation)",
+        "prefix-length",
+        "no mask",
+        "block-size"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Network Address Translation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o8kota",
+      "q": "Which command will allow you to see real-time translations on your router?",
+      "options": [
+        "show ip nat translations",
+        "show ip nat statistics",
+        "debug ip nat",
+        "clear ip nat translations *"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Network Address Translation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gxjkqs",
+      "q": "Which of the following would be good reasons to run NAT? You need to connect to the Internet and your hosts don't have globally unique IP addresses. You change to a new ISP that requires you to renumber your network. You don't want any hosts connecting to the Internet. You require two intranets with duplicate addresses to merge.",
+      "options": [
+        "1, 2 and 4",
+        "2 and 4",
         "3 only",
-        "1, 3 and 5",
         "All of the above"
       ],
       "correct": 0,
@@ -108,8 +148,28 @@
       "tags": []
     },
     {
-      "id": "gate-n7ctbc",
-      "q": "Which of the following is considered to be the destination host after translation?",
+      "id": "gate-1jfxf58",
+      "q": "Which of the following are advantages of using NAT? Translation introduces switching path delays. Conserves legally registered addresses. Causes loss of end-to-end IP traceability. Increases flexibility when connecting to the Internet. Certain applications will not function with NAT enabled. Reduces address overlap occurrence.",
+      "options": [
+        "1, 3 and 4",
+        "3, 5 and 6",
+        "5 and 6",
+        "2, 4 and 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Network Address Translation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7zdghk",
+      "q": "Which of the following is considered to be the address before translation?",
       "options": [
         "Inside local",
         "Outside local",
@@ -128,33 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-12k0xm0",
-      "q": "Which command will create a dynamic pool named Todd that will provide you with 30 global addresses?",
+      "id": "gate-f4g7rn",
+      "q": "Which of the following are disadvantages of using NAT? Translation introduces switching path delays. Conserves legally registered addresses. Causes loss of end-to-end IP traceability. Increases flexibility when connecting to the Internet. Certain applications will not function with NAT enabled. Reduces address overlap occurrence.",
       "options": [
-        "ip nat pool Todd 171.16.10.65 171.16.10.94 net 255.255.255.240",
-        "ip nat pool Todd 171.16.10.65 171.16.10.94 net 255.255.255.224",
-        "ip nat pool todd 171.16.10.65 171.16.10.94 net 255.255.255.224",
-        "ip nat pool Todd 171.16.10.1 171.16.10.254 net 255.255.255.0"
-      ],
-      "correct": 2,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Network Address Translation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sjp408",
-      "q": "Which command will clear all the translations active on your router?",
-      "options": [
-        "show ip nat translations",
-        "show ip nat statistics",
-        "debug ip nat",
-        "clear ip nat translations *"
+        "1, 3 and 5",
+        "3 and 4",
+        "2, 4 and 5",
+        "1 and 3"
       ],
       "correct": 0,
       "explain": "",

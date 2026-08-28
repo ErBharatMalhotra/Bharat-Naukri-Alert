@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Digital Design",
   "source": "indiabix.com",
-  "count": 13,
+  "count": 24,
   "questions": [
     {
-      "id": "gate-q6nl1m",
-      "q": "TTL requires a constant supply voltage of 8.0 V.",
+      "id": "gate-303cio",
+      "q": "The output of a phototransister is determined by the presence or absence of light at its base input.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-fzjlgw",
-      "q": "A transfer function graph illustrates the most important specifications for the Schmitt trigger devices.",
+      "id": "gate-1ybvcwo",
+      "q": "The term race condition describes the time that an active signal must be present at the input to a flip-flop before an active clock edge is applied.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1tbaozo",
-      "q": "The input levels to a flip-flop must be maintained for a minimum time period both before and after the edge of the clock signal is applied.",
+      "id": "gate-1d8cv6x",
+      "q": "A Schmitt trigger has a positive feedback circuit and experiences a phenomenon called hysteresis.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1scs0az",
-      "q": "There is no way to eliminate the effects of a switch bounce.",
+      "id": "gate-mxiiag",
+      "q": "A series RC circuit can be used to generate a power-up (automatic) reset signal.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1goskhf",
-      "q": "Pull-up resistors and pull-down resistors are used to keep a floating terminal HIGH.",
+      "id": "gate-qukcab",
+      "q": "The 7805 will get very hot if your circuit draws more than 0.5 A.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ih2kug",
-      "q": "A 0.01-F capacitor is recommended by TTL manufacturers for ________ the power supply.",
+      "id": "gate-1g2cy30",
+      "q": "The ________ circuit overcomes the problem of switching caused by jitter on the inputs.",
       "options": [
-        "decoupling",
-        "filtering",
-        "rectifying",
-        "grounding"
+        "astable multivibrator",
+        "monostable multivibrator",
+        "bistable multivibrator",
+        "Schmitt trigger"
       ],
       "correct": 0,
       "explain": "",
@@ -118,12 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1p372bk",
-      "q": "Why does the data sheet for the 7476 only give a minimum value for the clock pulse width (both HIGH and LOW)?",
+      "id": "gate-1anj36w",
+      "q": "Why would a delay gate be needed for a digital circuit?",
       "options": [
-        "nominal value",
-        "best-case condition",
-        "worst-case condition"
+        "A delay gate is never needed.",
+        "to provide for setup times",
+        "to provide for hold times",
+        "to provide for setup times and hold times"
       ],
       "correct": 0,
       "explain": "",
@@ -137,13 +138,11 @@
       "tags": []
     },
     {
-      "id": "gate-i3i3mw",
-      "q": "Why is the Schmitt trigger needed in the 60-Hz TTL-level clock pulse generator?",
+      "id": "gate-1uerys0",
+      "q": "An optocoupler is an integrated circuit with an LED and a zener diode encased in the same package.",
       "options": [
-        "to provide a triangle wave",
-        "to provide a sine wave",
-        "to provide a rounded pulse waveform",
-        "to provide a sharp pulse waveform"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -157,13 +156,13 @@
       "tags": []
     },
     {
-      "id": "gate-lyhddo",
-      "q": "The main concern when using a pull-down resistor is:",
+      "id": "gate-11d9ayo",
+      "q": "A Schmitt trigger has VT+ = 2.0 V and VT&#8211; = 1.2 V. What is the hysteresis voltage of the Schmitt trigger?",
       "options": [
-        "the low power dissipation of the resistor",
-        "it will keep a floating terminal LOW",
-        "the high power dissipation of the resistor",
-        "it will cause false triggering"
+        "0.4 volt",
+        "0.6 volt",
+        "0.8 volt",
+        "1.2 volts"
       ],
       "correct": 0,
       "explain": "",
@@ -177,13 +176,71 @@
       "tags": []
     },
     {
-      "id": "gate-4dj9s8",
-      "q": "Look up the propagation delay from the clock to the output for the 7476. Are the HIGH-to-LOW and LOW-to-HIGH propagation delays the same?",
+      "id": "gate-1409tj0",
+      "q": "Which of the following circuit parameters would be most likely to limit the maximum operating frequency of a flip-flop?",
+      "options": [
+        "setup and hold time",
+        "clock pulse HIGH and LOW time",
+        "propagation delay time",
+        "clock transition time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19b8y3k",
+      "q": "What would be the output voltage of a 7814 voltage regulator?",
+      "options": [
+        "&#150;14 V dc",
+        "+14 V dc",
+        "&#150;8 V dc",
+        "+8 V dc"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-srcljg",
+      "q": "The purpose of a pull-up resistor is to keep a terminal at a ________ level when it would normally be at a ________ level.",
+      "options": [
+        "LOW, float",
+        "HIGH, float",
+        "clock, float",
+        "pulsed, float"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o5wpbk",
+      "q": "Can the automatic RC circuit be used to set a flip-flop rather than reset the flip-flop?",
       "options": [
         "yes",
-        "no, tPLH = 25 ns, tPHL = 40 ns",
-        "no, tPLH = 40 ns, tPHL = 25 ns",
-        "no, tPHL = 25 ns, tPLH = 40 ns"
+        "no"
       ],
       "correct": 0,
       "explain": "",
@@ -197,13 +254,13 @@
       "tags": []
     },
     {
-      "id": "gate-1di91ok",
-      "q": "What is the major advantage of the J-K flip-flop over the S-R flip-flop?",
+      "id": "gate-1566q2k",
+      "q": "A Schmitt trigger:",
       "options": [
-        "The J-K flip-flop is much faster.",
-        "The J-K flip-flop does not have propagation delay problems.",
-        "The J-K flip-flop has a toggle state.",
-        "The J-K flip-flop has two outputs."
+        "has two trip points",
+        "is a zero crossing detector",
+        "has positive feedback",
+        "has two trip points and positive feedback"
       ],
       "correct": 0,
       "explain": "",
@@ -217,11 +274,12 @@
       "tags": []
     },
     {
-      "id": "gate-1823dj4",
-      "q": "Decoupling capacitors should be tied from VCC on one device to ground on a different device.",
+      "id": "gate-1bctit8",
+      "q": "What is the difference between setup time and hold time?",
       "options": [
-        "True",
-        "False"
+        "Setup time occurs after the active clock edge, hold time occurs before the active clock edge.",
+        "Setup time occurs before the active clock edge, hold time occurs after the active clock edge.",
+        "Setup time and hold time both occur at the active clock edge."
       ],
       "correct": 0,
       "explain": "",
@@ -235,13 +293,170 @@
       "tags": []
     },
     {
-      "id": "gate-xqahe0",
-      "q": "One example for the use of a Schmitt trigger is as a(n):",
+      "id": "gate-1qohbbo",
+      "q": "Define a race condition for a flip-flop.",
       "options": [
-        "switch debouncer",
-        "racer",
-        "astable oscillator",
-        "transition pulse generator"
+        "The inputs to a trigger device are changing slightly before the active trigger edge.",
+        "The inputs to a trigger device are changing slightly after the active trigger edge.",
+        "The inputs to a trigger device are changing at the same time as the active trigger edge."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16smn24",
+      "q": "Which of the following flip-flop timing parameters indicates the time it takes a Q output to respond to a Cp input?",
+      "options": [
+        "ts, th",
+        "tPHL, tPLH",
+        "tw (L), tw (H)",
+        "fmax"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wx8fp4",
+      "q": "How much setup time (ts) is required for the 74LS76?",
+      "options": [
+        "5 ns",
+        "10 ns",
+        "20 ns",
+        "40 ns"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fxu327",
+      "q": "Why should a LED be pulled LOW from a logic gate rather than pulled HIGH?",
+      "options": [
+        "LOW-level current is smaller.",
+        "LOW-level current is larger.",
+        "HIGH-level current is larger.",
+        "LOW-level current is smaller and HIGH-level current is larger."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pni104",
+      "q": "A settable flip-flop's normal starting state when power is first applied to a circuit is always the ________ state.",
+      "options": [
+        "reset",
+        "set",
+        "toggle",
+        "dual"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gh0t6z",
+      "q": "In the automatic reset circuit for a flip-flop, how long does it take the capacitor to completely charge?",
+      "options": [
+        "1 time constant (RC)",
+        "2 time constants (RC)",
+        "5 time constants (RC)",
+        "10 time constants (RC)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x3imrk",
+      "q": "The output of a standard TTL NAND gate is used to pull an LED indicator LOW. The LED is in series with a 470- resistor. What is the current in the circuit when the LED is on?",
+      "options": [
+        "7.02 mA",
+        "8.51 mA",
+        "10.63 mA",
+        "5.32 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m68aio",
+      "q": "When the inputs to a flip-flop are changing at the same time that the active trigger edge of the input clock is making its transition, this condition is called:",
+      "options": [
+        "racing",
+        "toggling",
+        "slave loading",
+        "pulse timing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Design",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a3wy1o",
+      "q": "Is the propagation delay from the clock to the output for the 7476 the same as the delay from the set or reset to the output?",
+      "options": [
+        "yes",
+        "no"
       ],
       "correct": 0,
       "explain": "",

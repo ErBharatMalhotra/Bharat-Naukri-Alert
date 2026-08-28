@@ -5,16 +5,16 @@
   "subject": "Networking",
   "topic": "Virtual Lans",
   "source": "indiabix.com",
-  "count": 7,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-1w24jps",
-      "q": "When a new trunk link is configured on an IOS-based switch, which VLANs are allowed over the link?",
+      "id": "gate-1nt7ppk",
+      "q": "Which of the following is true regarding VLANs?",
       "options": [
-        "By default, all VLANs are allowed on the trunk.",
-        "No VLAN's are allowed, you must configure each VLAN by hand.",
-        "Only configured VLAN's are allowed on the link.",
-        "Only extended VLAN's are allowed by default."
+        "You must have at least two VLANs defined in every Cisco switched network.",
+        "All VLANs are configured at the fastest switch and, by default, propagate this information to all other switches.",
+        "You should not have more than 10 switches in the same VTP domain.",
+        "VTP is used to send VLAN information to switches in a configured VTP domain."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bpgiv0",
-      "q": "Which of the following modes are valid when a switch port is used as a VLAN trunk? Blocking Dynamic auto Dynamic desirable Nonegotiate Access Learning",
+      "id": "gate-z2ke3s",
+      "q": "Which protocol reduces administrative overhead in a switched network by allowing the configuration of a new VLAN to be distributed to all the switches in a domain?",
       "options": [
-        "1, 2 and 6",
-        "2, 3 and 4",
-        "4, 5 and 6",
-        "2, 4, and 5"
+        "STP",
+        "VTP",
+        "DHCP",
+        "ISL"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,73 @@
       "tags": []
     },
     {
-      "id": "gate-hlrmgp",
-      "q": "To configure the VLAN trunking protocol to communicate VLAN information between two switches, what two requirements must be met? Each end of the trunk link must be set to the IEEE 802.1e encapsulation. The VTP management domain name of both switches must be set the same. All ports on both the switches must be set as access ports. One of the two switches must be configured as a VTP server. A rollover cable is required to connect the two switches together. A router must be used to forward VTP traffic between VLANs.",
+      "id": "gate-1639wwc",
+      "q": "Which of the following is true regarding VTP?",
       "options": [
-        "1, 2 and 4",
-        "3, 5 and 6",
+        "All switches are VTP servers by default.",
+        "All switches are VTP transparent by default.",
+        "VTP is on by default with a domain name of Cisco on all Cisco switches.",
+        "All switches are VTP clients by default."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Virtual Lans",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1elyw20",
+      "q": "Which of the following commands sets a trunk port on a 2960 switch?",
+      "options": [
+        "trunk on",
+        "trunk all",
+        "switchport trunk on",
+        "switchport mode trunk"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Virtual Lans",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uvz114",
+      "q": "Which command will configure a switch port to use the IEEE standard method of inserting VLAN membership information into Ethernet frames?",
+      "options": [
+        "Switch(config)# switchport trunk encapsulation isl",
+        "Switch(config)# switchport trunk encapsulation ietf",
+        "Switch(config)# switchport trunk encapsulation dot1q",
+        "Switch(config-if)# switchport trunk encapsulation isl"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Virtual Lans",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u03pe9",
+      "q": "Which of the following provide inter-switch VLAN communication? ISL VTP 802.1Q 802.3Z",
+      "options": [
+        "2 only",
+        "1 and 3",
         "2 and 4",
-        "1 and 6"
+        "2, 3 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-187x17s",
-      "q": "You want to improve network performance by increasing the bandwidth available to hosts and limit the size of the broadcast domains. Which of the following options will achieve this goal?",
+      "id": "gate-1bjuq9g",
+      "q": "A switch has been configured for three different VLANs: VLAN2, VLAN3, and VLAN4. A router has been added to provide communication between the VLANs. What type of interface is necessary on the router if only one connection is to be made between the router and the switch?",
       "options": [
-        "Managed hubs",
-        "Bridges",
-        "Switches",
-        "Switches configured with VLANs"
+        "10Mbps Ethernet",
+        "56Kbps Serial",
+        "100Mbps Ethernet",
+        "1Gbps Ethernet"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ofla0",
-      "q": "Which switching technology reduces the size of a broadcast domain?",
+      "id": "gate-1b5m99l",
+      "q": "Which of the following are benefits of VLANs? They increase the size of collision domains. They allow logical grouping of users by function. They can enhance network security. They increase the size of broadcast domains while decreasing the number of collision domains. They simplify switch administration. They increase the number of broadcast domains while decreasing the size of the broadcast domains.",
       "options": [
-        "ISL",
-        "802.1Q",
-        "VLANs",
-        "STP"
+        "1 and 5",
+        "2 and 4",
+        "1, 3 and 5",
+        "2, 3 and 6"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-itppb3",
-      "q": "You connect a host to a switch port, but the new host cannot log into the server that is plugged into the same switch. What could the problem be?",
+      "id": "gate-159471w",
+      "q": "Which of the following protocols are used to configure trunking on a switch? VLAN Trunk Protocol VLAN 802.1Q ISL",
       "options": [
-        "The router is not configured for the new host.",
-        "The VTP configuration on the switch is not updated for the new host.",
-        "The host has an invalid MAC address.",
-        "The switch port the host is connected to is not configured to the correct VLAN membership."
+        "1 only",
+        "3 only",
+        "3 and 4",
+        "1, 3 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1a9eos4",
-      "q": "Which of the following is an IEEE standard for frame tagging?",
+      "id": "gate-8f0bmw",
+      "q": "What VTP mode allows you to change VLAN information on the switch?",
       "options": [
-        "ISL",
-        "802.3Z",
-        "802.1Q",
-        "802.3U"
+        "Client",
+        "STP",
+        "Server",
+        "Transparent"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Sets",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 32,
   "questions": [
     {
-      "id": "gate-g8j96k",
-      "q": "How do you create an empty set?",
+      "id": "gate-1tiyke6",
+      "q": "What is the result of the expression set('python')?",
       "options": [
-        "empty_set = set()",
-        "empty_set = {}",
-        "empty_set = set([])",
-        "empty_set = set('')"
+        "{'p', 'y', 't', 'h', 'o', 'n'}",
+        "('p', 'y', 't', 'h', 'o', 'n')",
+        "['p', 'y', 't', 'h', 'o', 'n']",
+        "('python')"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-r903bg",
-      "q": "Which of the following methods is used to remove and return an arbitrary element from a set?",
+      "id": "gate-63gcz4",
+      "q": "Which method is used to add an element to a set?",
       "options": [
-        "set.remove(element)",
-        "set.discard(element)",
-        "set.pop()",
-        "set.delete(element)"
+        "set.append(element)",
+        "set.insert(element)",
+        "set.add(element)",
+        "set.update(element)"
       ],
       "correct": 0,
       "explain": "",
@@ -48,52 +48,12 @@
       "tags": []
     },
     {
-      "id": "gate-kqtf37",
-      "q": "What is the result of the expression set([1, 2, 2, 3, 4, 4, 5])?",
+      "id": "gate-10necl0",
+      "q": "What is the purpose of the set.remove(element) method?",
       "options": [
-        "{1, 2, 3, 4, 5}",
-        "[1, 2, 3, 4, 5]",
-        "set([1, 2, 3, 4, 5])",
-        "({1, 2, 2, 3, 4, 4, 5})"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Sets",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fb2sco",
-      "q": "Which of the following methods is used to check if a set is a subset of another set?",
-      "options": [
-        "set.is_subset(other_set)",
-        "set.contains(other_set)",
-        "set.issubset(other_set)",
-        "set.subset(other_set)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Sets",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jd4yy0",
-      "q": "What is the purpose of the set.update(iterable) method?",
-      "options": [
-        "Adds elements to the set.",
-        "Removes elements from the set.",
-        "Updates the set with elements from another set.",
+        "Removes the specified element from the set.",
+        "Removes the last element from the set.",
+        "Removes all occurrences of the specified element.",
         "Raises a TypeError since sets are immutable."
       ],
       "correct": 0,
@@ -108,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1j7oeqw",
-      "q": "What is the result of the expression set([1, 2, 3, 4]).intersection(set([3, 4, 5, 6]))?",
+      "id": "gate-hrguw5",
+      "q": "How can you find the intersection of two sets?",
       "options": [
-        "{3, 4}",
-        "{}",
-        "{1, 2, 3, 4, 5, 6}",
-        "{1, 2}"
+        "set1.join(set2)",
+        "set1 & set2",
+        "set1.intersect(set2)",
+        "set1.intersection(set2)"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +88,473 @@
       "tags": []
     },
     {
-      "id": "gate-9s5kcg",
-      "q": "Which method is used to remove and return an arbitrary element from a set?",
+      "id": "gate-qy3unc",
+      "q": "Which of the following statements about sets in Python is not correct?",
+      "options": [
+        "Elements within a set are unordered.",
+        "Sets can contain duplicate elements.",
+        "Sets can not be accessed using indices.",
+        "Sets are mutable."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r3shn4",
+      "q": "Which method is used to remove all elements from a set?",
+      "options": [
+        "set.clear()",
+        "set.remove_all()",
+        "set.delete_all()",
+        "set.empty()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13d5pm0",
+      "q": "What is the result of the expression set('programming') | set('python')?",
+      "options": [
+        "{'p', 'r', 'o', 'g', 'a', 'm', 'i', 'n'}",
+        "{'p', 'r', 'o', 'g', 'a', 'm', 'i', 'n', 'y', 't', 'h'}",
+        "['p', 'r', 'o', 'g', 'a', 'm', 'i', 'n']",
+        "('programming', 'python')"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-frphbg",
+      "q": "How can you check if two sets have no elements in common?",
+      "options": [
+        "set.is_not_common(other_set)",
+        "set.not_common(other_set)",
+        "set.isdisjoint(other_set)",
+        "set.disjoint(other_set)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1agmqqw",
+      "q": "What is the purpose of the set.symmetric_difference(other_set) method?",
+      "options": [
+        "Returns the common elements between two sets.",
+        "Returns the union of two sets.",
+        "Returns the difference between two sets.",
+        "Returns the symmetric difference between two sets."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17iox88",
+      "q": "What does the frozenset() function do?",
+      "options": [
+        "Creates an immutable set.",
+        "Creates an empty set.",
+        "Converts a set to a list.",
+        "Creates a frozen set with specified elements."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w3ykb9",
+      "q": "What is the result of the expression set('python').isdisjoint(set('java'))?",
+      "options": [
+        "True",
+        "False",
+        "Raises a TypeError",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fzmy5w",
+      "q": "How do you find the elements common to multiple sets?",
+      "options": [
+        "set.intersection_all()",
+        "set.common()",
+        "set.common_elements()",
+        "set.intersection(*sets)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aw0u8o",
+      "q": "Which method is used to remove a specific element from a set, raising an error if the element is not present?",
+      "options": [
+        "set.remove(element)",
+        "set.discard(element)",
+        "set.exclude(element)",
+        "set.delete(element)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3p7lzf",
+      "q": "What is the result of the expression set('python') | set('java')?",
+      "options": [
+        "{'p', 'y', 't', 'h', 'o', 'n', 'j'}",
+        "{'p', 'y', 't', 'h', 'o', 'n'}",
+        "{'j', 'a', 'v'}",
+        "{'j', 'p', 't', 'o', 'h', 'n', 'a', 'y', 'v'}"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g7spga",
+      "q": "How do you find the difference between two sets?",
+      "options": [
+        "set.difference(other_set)",
+        "set.subtract(other_set)",
+        "set.diff(other_set)",
+        "set.diffother_set"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cf0yk3",
+      "q": "What is the result of the expression set('python').intersection(set('java'))?",
+      "options": [
+        "set()",
+        "{'a'}",
+        "{'p'}",
+        "{'j', 'a', 'v'}"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8sxbof",
+      "q": "What is the purpose of the set.discard(element) method?",
+      "options": [
+        "Removes the specified element from the set.",
+        "Removes the last element from the set.",
+        "Removes all occurrences of the specified element.",
+        "Raises a TypeError since sets are immutable."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hx0gts",
+      "q": "Which method is used to find the union of two sets?",
+      "options": [
+        "set.combine(other_set)",
+        "set.union(other_set)",
+        "set.merge(other_set)",
+        "set.join(other_set)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17rpqf8",
+      "q": "Which of the following statements about frozensets in Python is correct?",
+      "options": [
+        "Frozensets are mutable.",
+        "Frozensets can be used as dictionary keys.",
+        "Frozensets can be modified after creation.",
+        "Frozensets support element removal using the remove() method."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4ato5c",
+      "q": "Which method is used to find the intersection of multiple sets?",
+      "options": [
+        "set.intersect_all()",
+        "set.intersection_update()",
+        "set.intersect()",
+        "set.intersect_many()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v29b1m",
+      "q": "How do you remove a specific element from a set without raising an error if the element is not present?",
+      "options": [
+        "set.delete(element)",
+        "set.remove(element)",
+        "set.discard(element)",
+        "set.exclude(element)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v41t4g",
+      "q": "What is the purpose of the set.copy() method?",
+      "options": [
+        "Creates a shallow copy of the set.",
+        "Creates a deep copy of the set.",
+        "Creates an identical copy of the set.",
+        "Creates a reversed copy of the set."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rd1rtg",
+      "q": "What is the result of the expression len(set())?",
+      "options": [
+        "0",
+        "1",
+        "Raises a TypeError",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nvgqqs",
+      "q": "What does the set.union(other_set) method do?",
+      "options": [
+        "Finds the common elements between two sets.",
+        "Combines two sets and removes duplicate elements.",
+        "Returns the elements that are unique to each set.",
+        "Checks if two sets are equal."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17t3ami",
+      "q": "What is the result of the expression len(set(\"python\"))?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "Raises a TypeError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g07z13",
+      "q": "Which method is used to update a set with elements from another set or iterable?",
+      "options": [
+        "set.merge(other_set)",
+        "set.append(other_set)",
+        "set.update(other_set)",
+        "set.combine(other_set)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qskvdw",
+      "q": "What is the result of the expression set([1, 2, 3]) & set([2, 3, 4])?",
+      "options": [
+        "{1, 2, 3, 4}",
+        "{2, 3}",
+        "{}",
+        "{1, 4}"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ignykg",
+      "q": "Which method is used to remove and return the last element from a set?",
       "options": [
         "set.pop()",
-        "set.remove()",
-        "set.extract()",
-        "set.take()"
+        "set.remove_last()",
+        "set.delete_last()",
+        "set.discard_last()"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +568,13 @@
       "tags": []
     },
     {
-      "id": "gate-co6zuc",
-      "q": "How do you find the elements that are unique to each set?",
+      "id": "gate-19ncwmo",
+      "q": "What is the purpose of the set.isdisjoint(other_set) method?",
       "options": [
-        "set.symmetric_difference(other_set)",
-        "set.difference(other_set)",
-        "set.unique_elements(other_set)",
-        "set.unique_difference(other_set)"
+        "Checks if two sets are equal.",
+        "Checks if two sets have no elements in common.",
+        "Checks if one set is a subset of another.",
+        "Checks if one set is a superset of another."
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +588,13 @@
       "tags": []
     },
     {
-      "id": "gate-attbpw",
-      "q": "What does the set.symmetric_difference_update(other_set) method do?",
+      "id": "gate-118avjw",
+      "q": "What is the result of the expression set('abc') ^ set('cde')?",
       "options": [
-        "Updates the set with common elements.",
-        "Removes common elements from the set.",
-        "Updates the set with elements unique to the other set.",
-        "Returns a new set with the common elements."
+        "{'a', 'b', 'c', 'd', 'e'}",
+        "{'a', 'b'}",
+        "{'c'}",
+        "{'a', 'b', 'd', 'e'}"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +608,33 @@
       "tags": []
     },
     {
-      "id": "gate-1xfkgyk",
-      "q": "How do you convert a list into a set?",
+      "id": "gate-1aekfqc",
+      "q": "Which method is used to check if a set is equal to another set?",
       "options": [
-        "set(list_variable)",
-        "list_variable.to_set()",
-        "list_variable.as_set()",
-        "convert_set(list_variable)"
+        "set.is_equal(other_set)",
+        "set.equals(other_set)",
+        "set.is_equal_to(other_set)",
+        "set == other_set"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4o7ado",
+      "q": "What is the purpose of the set.add(element) method?",
+      "options": [
+        "Adds an element to the end of the set.",
+        "Adds an element to the specified index in the set.",
+        "Adds an element to the beginning of the set.",
+        "Adds an element to the set."
       ],
       "correct": 0,
       "explain": "",

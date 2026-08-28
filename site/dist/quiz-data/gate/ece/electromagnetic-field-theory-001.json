@@ -5,16 +5,16 @@
   "subject": "ECE",
   "topic": "Electromagnetic Field Theory",
   "source": "indiabix.com",
-  "count": 63,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-fy4smo",
-      "q": "A material has conductivity of 10-2 mho/m and a relative permittivity of 4. The frequency at which conduction current in the medium is equal to displacement current is",
+      "id": "gate-1qodvbu",
+      "q": "A broadside array consisting of 200 cm wavelength with 10 half-wave dipole spacing 10 cm. And if each array element feeding with 1 amp. current and operating at same frequency then find the radiated power",
       "options": [
-        "45 MHz",
-        "90 MHz",
-        "450 MHz",
-        "900 MHz"
+        "730 W",
+        "73 W",
+        "100 W",
+        "None"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-prlsg4",
-      "q": "A transmission line is feeding 1 watt of power to a horn antenna having a gain of 10 dB. The antenna is matched to the transmission line. The total power radiated by the horn antenna into the free space is",
+      "id": "gate-1thlqpb",
+      "q": "For static magnetic field Maxwell's curl equation is given by",
       "options": [
-        "10 watt",
-        "1 watt",
-        "0.1 watt",
-        "0.01 watt"
+        "&nabla; . = &mu;0",
+        "&nabla; x = 0",
+        "&nabla; x = &mu;0",
+        "&nabla; x = &mu;0/"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-ousna8",
-      "q": "An end fire array consisting of several half-wave lengths of directive gain 40, then find the width of major lobe",
+      "id": "gate-jswzz0",
+      "q": "If wave of critical frequency 30 MHz is departing at an angle of 60&deg;, then the MUF is given to be",
       "options": [
-        "60",
-        "50",
-        "51.25",
-        "None of the above"
+        "10 MHz",
+        "15 MHz",
+        "30 MHz",
+        "60 MHz"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-7l2q2q",
-      "q": "A uniform plane EM wave incident normally on a plane surface of a dielectric material is reflected with a VSWR of 3. What percentage of incident power that is reflected?",
+      "id": "gate-1tc6keo",
+      "q": "An antenna having an effective temperature of 27&deg;K is fed into a microwave amplifier that has an effective noise temperature of 30 K. Calculate the available noise power per unit bandwidth",
       "options": [
-        "10%",
-        "25%",
-        "50%",
-        "75%"
+        "30 K",
+        "57 K",
+        "27 K",
+        "3K, K is Boltzmann constant"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-nstzak",
-      "q": "Poynting vector is associated with which of the following?",
+      "id": "gate-7f2yc0",
+      "q": "An isolated sphere in air has a radius equal to meter, its capacitance is",
       "options": [
-        "Power flow in electromagnetic",
-        "Flux in magnetic field",
-        "Charge in electrostatic field",
-        "Current in electrostatic field"
+        "pF",
+        "1F",
+        "4pF",
+        "1/4pF"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-ctoryf",
-      "q": "Distilled water at 25&deg;C is characterized by &sigma; = 1.7 x 10-4 mho/m and &epsilon; = 78 &epsilon;0 at a frequency of 3 GHz. Its loss tangent is (&epsilon; = 10-9/36p F/m)",
+      "id": "gate-1pk3qkw",
+      "q": "Find cut off wavelength for mode TE11 in a circular waveguide having radius 2 cm. Assume K'a = 1.841",
       "options": [
-        "1.3 x 10-5",
-        "1.3 x 10-3",
-        "1.7 x 10-4/78",
-        "1.7 x l0-4/78&epsilon;0"
+        "4 cm",
+        "6.82 cm",
+        "8 cm",
+        "68.2 cm"
       ],
       "correct": 0,
       "explain": "",
@@ -128,12 +128,72 @@
       "tags": []
     },
     {
-      "id": "gate-me2wsk",
-      "q": "The input impedance of short-circuited line of length l where l &lt; &lambda;/4",
+      "id": "gate-1m4lrb",
+      "q": "The refractive index of E layer, if angle of incidence is 30&deg;",
       "options": [
-        "inductive",
-        "capacitive",
-        "resistive",
+        "0.5",
+        "0.25",
+        "0",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eqk3zk",
+      "q": "The sinusoidally time varying vector field is",
+      "options": [
+        "elliptically polarized",
+        "circularly polarized",
+        "linearly polarized",
+        "unpolarized"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e49rz0",
+      "q": "A transmission line having 50 &ohm; impedance is terminated in a load of (40 + j 30) &ohm;. The VSWR is",
+      "options": [
+        "j 0.033",
+        "0.8.+ j 0.6",
+        "1",
+        "2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zgdff0",
+      "q": "&nabla; . = 0 is frequently known as",
+      "options": [
+        "continuity equation for steady currents",
+        "Laplace equation",
+        "Poisson's equation",
         "none of the above"
       ],
       "correct": 0,
@@ -148,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-bprk2g",
-      "q": "If the height of transmitting and receiving antenna in a LOS system are 49 meter and a 9 meter respectively then the distance up to which communication may be possible is about",
+      "id": "gate-xlragg",
+      "q": "A rhombic antenna is a",
       "options": [
-        "40 km",
-        "110 km",
-        "400 km",
-        "1100 km"
+        "resonant antenna",
+        "non-resonant antenna",
+        "coupled antenna",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pyafx4",
-      "q": "In a line VSWR of a load is 6 dB. The reflection coefficient will be",
+      "id": "gate-1ontjo0",
+      "q": "Which of the following relations is valid?",
       "options": [
-        "0.033",
-        "0.33",
-        "0.66",
-        "3.3"
+        "&nabla; x &nabla; x = &nabla;(&nabla; . ) - &nabla;2 A",
+        "&nabla; x &nabla; x = &nabla;(&nabla; x ) - &nabla;2 A",
+        "&nabla; x &nabla; x = &nabla;2 A - (&nabla;)",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cfsfeo",
-      "q": "The refractive index of E layer at frequency of 81 N",
+      "id": "gate-15r6pr5",
+      "q": "Diffraction of electromagnetic waves",
       "options": [
-        "0",
-        "&infin;",
-        "1",
-        "0.5"
+        "may occur around the edge of a sharp obstacle",
+        "is caused by reflections from the ground",
+        "arises only with the spherical wave fronts",
+        "will occur when the waves pass through a large slot"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-9qa55k",
-      "q": "Which of the following laws of electromagnetic theory is associated with the force experienced by two loops of a wire carrying currents?",
+      "id": "gate-1e2up60",
+      "q": "The magnetic field intensity vector of a plane wave is given by (x, y, z, t) = 10 sin (5000t + 0.004x + 30 ), where denotes unit vector in y direction the wave is propagating with a phase velocity.",
       "options": [
-        "Maxwell's law",
-        "Coulomb's law",
-        "Ampere's law",
-        "Laplace's law"
+        "5 x 104 m/sec",
+        "-3 x 108 m/sec",
+        "-1.25 x 107 m/sec",
+        "3 x 108 m/sec"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-1sirg7w",
-      "q": "The intrinsic impedance of free space",
+      "id": "gate-1udrbg9",
+      "q": "Cassergain feed is used with a parabolic reflector to",
       "options": [
-        "increases with increase of frequency",
-        "decreases with increase of frequency",
-        "is independent of frequency",
-        "none"
+        "increase the gain of the system",
+        "increase the beamwidth of the system",
+        "reduce the size of the main reflector",
+        "allow the feed to be placed at a convenient point"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +308,13 @@
       "tags": []
     },
     {
-      "id": "gate-1b2v64n",
-      "q": "To couple a coaxial line to a parallel to wire line it is best to use a",
+      "id": "gate-3j0u78",
+      "q": "Voltage standing wave pattern in a loss less transmission line with characteristic impedance 50 &ohm; and a resistive load is shown in the figure. The value of load resistance is",
       "options": [
-        "slotted line",
-        "balun",
-        "directional coupler",
-        "quarter wave transformer"
+        "50 &ohm;",
+        "200 &ohm;",
+        "12.5 &ohm;",
+        "0 &ohm;"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +328,13 @@
       "tags": []
     },
     {
-      "id": "gate-ff538o",
-      "q": "The shunt admittance of a transmission line is given by",
+      "id": "gate-afv8pk",
+      "q": "For the same length of arrays, half power beam-width of binomial array",
       "options": [
-        "&gamma; = R + j&omega;L",
-        "&gamma; = R - j&omega;L",
-        "&gamma; = G + j&omega;C",
-        "&gamma; = j&omega;GC"
+        "is equal to that of uniform arrays",
+        "is less than that of uniform array",
+        "is more than that of uniform array",
+        "is negligible as compared to that of uniform array"
       ],
       "correct": 0,
       "explain": "",
@@ -288,13 +348,13 @@
       "tags": []
     },
     {
-      "id": "gate-11i2sk4",
-      "q": "A dipole antenna was radiating with some excitation in free space radiating a certain amount of the power. If this antenna is immersed in a lake where water is non-dissipative but has a dielectric constant of 81, the radiated power with the same excitation will",
+      "id": "gate-1tkzzeg",
+      "q": "The effective electrical length of an antenna is __________ its physical length",
       "options": [
-        "decrease to finite non-zero value",
-        "remain the same",
-        "increase",
-        "decrease to zero"
+        "greater than",
+        "equal to",
+        "less than",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -308,28 +368,8 @@
       "tags": []
     },
     {
-      "id": "gate-mf48a6",
-      "q": "Which one is correct option?",
-      "options": [
-        "TEM mode exist in free space of infinite boundary",
-        "TEM mode exist in two conductor pattern system for finite-boundary",
-        "TEM mode exist in waveguide only",
-        "Both (a) and (b)"
-      ],
-      "correct": 3,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11xg9ak",
-      "q": "A vertical loop antenna, like a horizontal dipole, is vertically polarised.",
+      "id": "gate-1cfcpu8",
+      "q": "The direction in a Yagi Uda antenna is longer than the radiating element.",
       "options": [
         "True",
         "False"
@@ -346,13 +386,1228 @@
       "tags": []
     },
     {
-      "id": "gate-30iwnp",
-      "q": "The attenuation in a waveguide near the cut off frequency is",
+      "id": "gate-i6np6d",
+      "q": "If short-circuited and open circuited impedances are 5 ohms and 20 ohms, then characteristic impedance is",
+      "options": [
+        "1 ohms",
+        "10 ohms",
+        "25 ohms",
+        "100 ohms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qu5d80",
+      "q": "Electric lines of force do not cross each other because",
+      "options": [
+        "the lines of force mutually repel each other",
+        "the lines of force emanate from a point charge",
+        "the tangent to the line of force gives the direction of E and if they cross two tangents for E which is not possible",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v8l9z8",
+      "q": "A person with a receiver is 5 km away from the transmitter. What is the distance that this person must move further to detect at 3 dB decrease in signal strength?",
+      "options": [
+        "942 m",
+        "2070 m",
+        "4978 m",
+        "5320 m"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jnmvw6",
+      "q": "For free space propagation",
+      "options": [
+        "&gamma; = a + j&beta;",
+        "&gamma; = j&beta;",
+        "&gamma; = a",
+        "a = &beta; = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-njo4s",
+      "q": "SHF range is",
+      "options": [
+        "30 - 300 MHz",
+        "300 - 3000 MHz",
+        "3000 - 30000 MHz",
+        "30000 - 300000 MHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bpshlp",
+      "q": "The electric field of an EM wave propagating in the z direction given by The wave is",
+      "options": [
+        "linearly polarized in z direction",
+        "elliptically polarized",
+        "left hand circularly polarized",
+        "right hand circularly polarized"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jk3hvk",
+      "q": "Which of the following waves do not exist in waveguides?",
+      "options": [
+        "TE waves",
+        "TM waves",
+        "TE and TM waves",
+        "TEM waves"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-118ur9f",
+      "q": "The bidirectional pattern of a broadside array can be converted into unidirectional by",
+      "options": [
+        "maintaining the distance of &lambda;/4 between the elements",
+        "maintaining the distance of &lambda;/2 between the elements",
+        "installing an identical array behind the main array at distance &lambda;/4 and exciting it by current leading in phase by 90&deg;",
+        "installing an identical array behind the main array at distance &lambda;/2 and exciting it by current leading in phase by 120&deg;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-142awhw",
+      "q": "VLF waves are used for communication system because",
+      "options": [
+        "of low power requirement",
+        "they are least prone to distortion",
+        "they penetrate the ionosphere easily",
+        "the transmitting antennas are of convenient size"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19l3ius",
+      "q": "Measurement of radiation resistance by reflection method is suitable for",
+      "options": [
+        "parasitic element antennas",
+        "low frequency vertical conductor antenna",
+        "all type of antennas",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-131wa2s",
+      "q": "A lossless transmission line is connected to two identical voltage source as shown in figure. The impedance measured at the midpoint AA' is",
+      "options": [
+        "&infin;",
+        "100",
+        "50",
+        "25"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mvfaw",
+      "q": "A loss less transmission line is terminated in a load which reflects a part of the incident power. The measured VSWR is 2. The percentage of the power that is reflected back is",
+      "options": [
+        "57.73",
+        "33.33",
+        "0.11",
+        "11.11"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a3ozks",
+      "q": "A higher directivity is specified by",
+      "options": [
+        "high gain low BW (Beamwidth)",
+        "high gain high BW",
+        "low gain high BW",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e6it8k",
+      "q": "The best excited reflector from a wave guide is",
+      "options": [
+        "horn",
+        "parabolic",
+        "biconical",
+        "corner"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wss55k",
+      "q": "When microwave signals follow the curvature of the earth, this is known as",
+      "options": [
+        "the Faraday effect",
+        "ducting",
+        "tropospheric scatter",
+        "ionospheric reflection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wflqrh",
+      "q": "Characteristic wave impedance is",
+      "options": [
+        "&epsilon;/&mu;",
+        "(&epsilon;/&mu;)1/2",
+        "Ex/Hy",
+        "Hy/Ex"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qse250",
+      "q": "The attenuation factor a and phase shift factor &beta; for a wave propagated in a good dielectric having are given by",
+      "options": [
+        "a = &mu;/&epsilon; , &beta; = &omega;&mu;/&epsilon;",
+        "a = &beta; = &mu;/&epsilon;",
+        "a = &mu;/&epsilon; , &beta; = &omega;&mu;/&epsilon;",
+        "a = &beta; = &omega;&mu;/&epsilon;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p2akgg",
+      "q": "Consider isotropic radiator radiating a power of 1 watt. At a distance of 1 metre, the power per unit area with equal",
+      "options": [
+        "1 watt/m2",
+        "4p watt/m2",
+        "1/4p watt/m2",
+        "2p watt/m2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yrlyo0",
+      "q": "Cassegrain feed is used with a parabolic reflection to",
+      "options": [
+        "reduce the size of the main reflector",
+        "increase the gain of the system",
+        "increase the beamwidth of the system",
+        "allow the feed to be placed at a convenient point"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-26cis7",
+      "q": "Transverse electric (TE) waves have",
+      "options": [
+        "electric field component E in the direction of propagation",
+        "magnetic field component H in the direction of propagation",
+        "magnetic field component H in the direction of propagation and no component of electric field E in this direction",
+        "electric field component E in the direction of propagation and no component of magnetic field H in this direction"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s0o7kg",
+      "q": "For infinite value of SWR on a transmission line, the line be terminated with impedance as",
+      "options": [
+        "an open-circuit",
+        "a short-circuit",
+        "a pure resistance",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8ugfm1",
+      "q": "An electromagnetic wave incident on a perfect conductor is",
+      "options": [
+        "fully transmitted",
+        "partially transmitted",
+        "entirely reflected",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8r3xz8",
+      "q": "A time varying magnetic field produces",
+      "options": [
+        "electric field only",
+        "magnetic field only",
+        "both magnetic and electric fields",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9ujwdc",
+      "q": "The troposphere extends from earth surface to a height of",
+      "options": [
+        "15 km",
+        "90 km",
+        "150 km",
+        "200 km"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15kja8i",
+      "q": "Antenna reciprocity is put to use in",
+      "options": [
+        "radar system",
+        "commercial broadcast",
+        "TV broadcast system",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9a8w9c",
+      "q": "For satellite communication, the frequency should be",
+      "options": [
+        "equal to the critical frequency",
+        "more than the critical frequency",
+        "less than the critical frequency",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8umsb",
+      "q": "The velocity of electromagnetic wave in free space is given by",
+      "options": [
+        "&mu;0/&epsilon;0",
+        "&mu;0 . &epsilon;0",
+        "&epsilon;0/&mu;0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14fu4s0",
+      "q": "A very reliable service has to be established between two points on earth separated by 1000 km. The band that will be used as",
+      "options": [
+        "MF",
+        "VHF",
+        "VLF",
+        "HF"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pagemx",
+      "q": "A rectangular waveguide (2.29 x 1.02) cm operates at a freq. of 11 GHz in TE10 mode. If the maximum potential gradient of the signal is 5 kV/cm, then the maximum power handling capacity of the waveguide will be",
+      "options": [
+        "31.11 mW",
+        "31.11 W",
+        "31.11 kW",
+        "31.11 MW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-133s5ql",
+      "q": "A parabolic antenna produces a radiation pattern which is",
+      "options": [
+        "circularly polarized",
+        "highly directional",
+        "omnidirectional",
+        "linearly polarized"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11frqio",
+      "q": "Considerable ionization occurs between the range",
+      "options": [
+        "50 km to 400 km",
+        "100 to 400 km",
+        "50 km to 250 km",
+        "10 to 50 km"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zj72bw",
+      "q": "Gain of isotropic antenna is",
+      "options": [
+        "10 dB",
+        "0 dB",
+        "&infin;",
+        "1 dB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ygaxr9",
+      "q": "300 to 3000 MHz frequency is categorized as",
+      "options": [
+        "MF",
+        "HF",
+        "UHF",
+        "SHF"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oajb4o",
+      "q": "The gain of an antenna with a circular aperture of diameter 3 metres at a frequency of 5 GHz, will be",
+      "options": [
+        "2.4674",
+        "24.674",
+        "246.74",
+        "24674"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uulsxp",
+      "q": "The gain of a current element is",
+      "options": [
+        "0 dB",
+        "1.67 dB",
+        "1.76 dB",
+        "3 dB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16d3uyg",
+      "q": "Poynting theorem relates the electric intensity E, magnetic intensity H to the rate of energy flow per unit area at a point P as",
+      "options": [
+        "P = E/H",
+        "P = H/E",
+        "E = 1/E x H",
+        "P = E x H"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u5jt1c",
+      "q": "The absorption of EM wave by the atmosphere depends on",
+      "options": [
+        "polarization of waves",
+        "frequency in use",
+        "dist. from Ty",
+        "height of antenna"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j5bjcw",
+      "q": "Refraction of electromagnetic waves occurs when they",
+      "options": [
+        "pass through a small slot in a conducting plane",
+        "pass into a medium of different dielectric constant",
+        "are polarized at right angles to the direction of propagation",
+        "encounter a perfectly conduction surface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jv3lgw",
+      "q": "The impedance inversion may be objected with",
+      "options": [
+        "a short-circuited stub",
+        "an open-circuited stub",
+        "a half-wave line",
+        "a quarter-wave line"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hr0qe8",
+      "q": "The force acting on a charge q moving with velocity in a region of electric field and magnetic field is",
+      "options": [
+        "r + x",
+        "q( + x )",
+        "q( + x )",
+        "q"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1opr9uc",
+      "q": "An electromagnetic wave incidents on a perfect insulator at an angle. If the wave is not entirely parallel polarized, then",
+      "options": [
+        "the reflected wave will be entirely polarized parallel to the plane of incidence",
+        "there will be no reflection",
+        "the reflected wave will be entirely polarized perpendicular to the plane of incidence",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cxruzo",
+      "q": "Coaxial cables can be used for which frequency?",
+      "options": [
+        "15 kHz",
+        "10 MHz",
+        "200 MHz",
+        "2000 MHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjayiw",
+      "q": "The cut off wavelength &lambda;c for TE20 mode for a standard rectangles waveguide is",
+      "options": [
+        "2/a",
+        "2a",
+        "a",
+        "2a2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vmfjw8",
+      "q": "F2 layer of atmosphere extends from",
+      "options": [
+        "250 km to 400 km",
+        "150 km to 250 km",
+        "50 km to 150 km",
+        "15 km to 50 km"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y8oobo",
+      "q": "Whereas resonant antenna is bidirectional, non-resonant antenna is unidirectional.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e7v5g2",
+      "q": "In radar system if the antenna diameter is increased by a factor of 4, the minimum range will increased by a factor of",
+      "options": [
+        "1",
+        "2",
+        "22",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13re8qw",
+      "q": "Which of the following antennas is &lambda; /4 length?",
+      "options": [
+        "Dipole",
+        "Marconi",
+        "Monopole",
+        "Parabolic"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17wwdel",
+      "q": "The term critical frequency denotes",
+      "options": [
+        "the lowest frequency that is reflected by the ionosphere",
+        "the highest frequency that is reflected by the ionosphere at vertical distance",
+        "the lowest frequency by which communication is possible between two given points",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tfawhd",
+      "q": "The important postulate arising out of Maxwell's modification of Ampere's law is",
+      "options": [
+        "a changing magnetic field produces an electric field",
+        "a changing electric field produces a magnetic field",
+        "a motional e.m.f. is produced by a coil moving in a magnetic field",
+        "a steady current produce a magnetic field"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12wof6j",
+      "q": "Which of the following is not a wideband antenna?",
+      "options": [
+        "Marconi",
+        "Discone",
+        "Helical",
+        "Folded dipole"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j8or94",
+      "q": "The polarization phenomena in Faraday rotation",
+      "options": [
+        "is non-reciprocal",
+        "exists along perpendicular direction",
+        "exists along the axis of array",
+        "does not exist"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n2ew3x",
+      "q": "A broadside array is shown in figure in which the elements are placed at equal distances. The direction of maximum radiation is represented by",
+      "options": [
+        "AA",
+        "BB",
+        "CC",
+        "DD"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13keg4o",
+      "q": "There is no radiation at right angles to the plane of the array, is end fire array.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8g540k",
+      "q": "Which of the following constitute the loss resistance of an antenna?",
+      "options": [
+        "Dielectric loss",
+        "Leakage loss in insulation",
+        "Loss in earth connections",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-105vjd4",
+      "q": "The M.K.S. unit of magnetic field intensity is",
+      "options": [
+        "ampere",
+        "ampere/metre",
+        "volt",
+        "volt/metre"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h1hbc8",
+      "q": "Radiation resistance of half-wave dipole (&lambda;/2) antenna is in free space",
+      "options": [
+        "73 &ohm;",
+        "120 p",
+        "36.5 &ohm;",
+        "70 &ohm;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6fn64o",
+      "q": "The effect of the inductance of a coil on a constant direct current is that",
+      "options": [
+        "it does not effect the constant direct current",
+        "it decreases the current",
+        "it strengthens the current",
+        "it causes a higher voltage drop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jieszh",
+      "q": "If H = 0.1 sin (108p t + &beta;&lambda;) A/m for a plane wave propagating in free space, then the time average Poynting vector is",
+      "options": [
+        "(0.6psin2 &beta;y) w/m2",
+        "- 0.6p w/m2",
+        "1.2p w/m2",
+        "- 1.2p w/m2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iizlvb",
+      "q": "The ratio of tangential component of electric field at the surface of a conductor and the linear current density resulting from this field is __________ impedance",
+      "options": [
+        "characteristic",
+        "critical",
+        "surface",
+        "polarizing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u0verl",
+      "q": "The gain of collinear arrays is maximum when the spacing between the elements is",
+      "options": [
+        "0.1 &lambda; to 0.3 &lambda;",
+        "0.3 &lambda; to 0.9 &lambda;",
+        "0.5 &lambda; to 0.7 &lambda;",
+        "0.7 &lambda; to 0.9 &lambda;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1veafv8",
+      "q": "An alternating current or voltage is that which",
+      "options": [
+        "changes in magnitude only",
+        "changes in direction only",
+        "both (a) and (b)",
+        "has a random movement of electrons"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electromagnetic Field Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kh4iws",
+      "q": "When the magnetic vector is parallel to the boundary surface and electric vector is parallel to the place of incidence, the polarization is",
       "options": [
         "zero",
-        "low",
-        "high",
-        "very high"
+        "vertical",
+        "perpendicular",
+        "horizontal"
       ],
       "correct": 0,
       "explain": "",
@@ -366,13 +1621,13 @@
       "tags": []
     },
     {
-      "id": "gate-bzj7ew",
-      "q": "The electric flux and field intensity inside a conducting sphere is",
+      "id": "gate-3jwjx0",
+      "q": "The total electrical energy emitted overall space from an electron of charge e and radius r is",
       "options": [
-        "minimum",
-        "maximum",
-        "uniform",
-        "zero"
+        "e/&epsilon;0r2",
+        "e2/&epsilon;0r",
+        "e2/4p&epsilon;0r2",
+        "e2/8p&epsilon;0r"
       ],
       "correct": 0,
       "explain": "",
@@ -386,13 +1641,13 @@
       "tags": []
     },
     {
-      "id": "gate-1k64dkc",
-      "q": "T.V. antennas are usually",
+      "id": "gate-1mwm3h8",
+      "q": "In broadside array",
       "options": [
-        "Yagi-Uda",
-        "loops",
-        "helical",
-        "parabolic"
+        "the principle direction radiation is perpendicular to the array axis and also to the plane containing the array elements",
+        "the principle direction radiation is parallel to the array axis and also to the plane containing the array elements",
+        "the principle direction radiation is parallel to the array axis and perpendicular to the plane containing the array elements",
+        "the principle direction radiation is perpendicular to the array axis and parallel to the plane containing the array elements"
       ],
       "correct": 0,
       "explain": "",
@@ -406,13 +1661,13 @@
       "tags": []
     },
     {
-      "id": "gate-251ig4",
-      "q": "Consider an arbitrary distribution of conducting bodies in a charge free space according to the uniqueness theorem, which of following are required to be specified in order that the field is uniquely determined everywhere? Total charge on each conductorPotential at each conductor surfacePotential at same of conductor and total charge on the remainderTotal charge as well as potential gradient on each conductor surface Select the correct answer using the codes given below codes",
+      "id": "gate-1feg5ff",
+      "q": "Which of following antenna does not depend upon the frequency?",
       "options": [
-        "1 and 3",
-        "2 and 4",
-        "1, 2, and 3",
-        "1, 2, 3, 4"
+        "Log-periodic",
+        "Parabolic",
+        "Conical",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -426,13 +1681,12 @@
       "tags": []
     },
     {
-      "id": "gate-w9scdo",
-      "q": "Which of the following is a better propagation mode to propagate television frequency modulation and radar signals?",
+      "id": "gate-lqat55",
+      "q": "MUF is given by",
       "options": [
-        "Satellite communication",
-        "Ground propagation",
-        "Polarized communication",
-        "None of the above"
+        "fc sec &theta;",
+        "fc cos &theta;",
+        "fc tan &theta;"
       ],
       "correct": 0,
       "explain": "",
@@ -446,13 +1700,13 @@
       "tags": []
     },
     {
-      "id": "gate-1oahois",
-      "q": "Antenna used for T.V. broadcasting is",
+      "id": "gate-10lzt8g",
+      "q": "A waveguide behave as",
       "options": [
-        "long dipole",
-        "metal horn",
-        "crossed dipole",
-        "log periodic"
+        "high Pass filter",
+        "low Pass filter",
+        "band Pass filter",
+        "all Pass filter"
       ],
       "correct": 0,
       "explain": "",
@@ -466,208 +1720,11 @@
       "tags": []
     },
     {
-      "id": "gate-11z9kvg",
-      "q": "For a rectangular waveguide (a x b, a &gt; b) to support only the TE10 mode at wavelength which one of the following pairs of in equalities is to be satisfied?",
+      "id": "gate-q5gexc",
+      "q": "Radar antennas are usually",
       "options": [
-        "b &lt; &lambda; &lt; 2b; &lambda; &gt; 2a",
-        "b &lt; &lambda; &lt; 2b; &lambda; &lt; 2a",
-        "a &lt; &lambda; &lt; 2b; &lambda; &lt; 2a",
-        "a &lt; &lambda; &lt; 2b; &lambda; &gt; 2a"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12ntrzk",
-      "q": "When the phase velocity of an EM wave depends on frequency in any medium, the phenomenon is called",
-      "options": [
-        "scattering",
-        "polarization",
-        "absorption",
-        "dispersion"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mbxp0w",
-      "q": "A hertzian dipole has a radiation pattern with",
-      "options": [
-        "a null in the direction of the dipole",
-        "a null in the plane perpendicular to the dipole",
-        "a peak in the direction of the dipole",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1phw5ag",
-      "q": "Circular polarized waves result when",
-      "options": [
-        "magnitudes are the same",
-        "phases are the same",
-        "magnitudes are same and phase difference is 90&deg;",
-        "magnitudes are same and phase difference is zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t4l9ow",
-      "q": "Permeance is analogue to",
-      "options": [
-        "reluctance",
-        "conductance",
-        "capacitance",
-        "resistance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r7p4qg",
-      "q": "Skip distance (D) is",
-      "options": [
-        "(D &prop; f)",
-        "D = f",
-        "D &lt; f"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pbrmns",
-      "q": "&nabla;2 is",
-      "options": [
-        "vector",
-        "scalar",
-        "depend on direction",
-        "none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yihxuo",
-      "q": "End fire array has narrow bandwidth.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k7gb2r",
-      "q": "Which of the following antenna is best guided by a waveguide?",
-      "options": [
-        "Biconical",
-        "Horn",
-        "Helical",
-        "Dish"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o73r89",
-      "q": "Poynting vector is the rate of energy flow having",
-      "options": [
-        "W/m2",
-        "W-m",
-        "kWh/s",
-        "W/m"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12iuevo",
-      "q": "Television receiver antenna is usually",
-      "options": [
-        "loop type",
-        "yagi antenna",
+        "dipoles",
+        "yagi antennas",
         "parabolic dishes",
         "none of the above"
       ],
@@ -683,13 +1740,11 @@
       "tags": []
     },
     {
-      "id": "gate-1x78rit",
-      "q": "In figure the current distribution is represented by",
+      "id": "gate-ynj6tq",
+      "q": "The radio horizon for space waves is about three-fourth as for as the optical horizon.",
       "options": [
-        "curve A",
-        "curve B",
-        "curve C",
-        "curve D"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -703,13 +1758,13 @@
       "tags": []
     },
     {
-      "id": "gate-aowbmk",
-      "q": "Half power point directions for broadside is",
+      "id": "gate-hv0ja4",
+      "q": "Triatics are",
       "options": [
-        "60&deg;",
-        "30&deg;",
-        "45&deg;",
-        "at any angle"
+        "small height antenna directly mounted on jeeps, ships, etc.",
+        "the towers or masts which are used as radiators",
+        "the towers or masts which are not used as radiators",
+        "supports for antenna conductors."
       ],
       "correct": 0,
       "explain": "",
@@ -723,13 +1778,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n4xz6o",
-      "q": "What will happen to a bird sitting on a conductor?",
+      "id": "gate-1mu9src",
+      "q": "The duration of sunspot cycle is",
       "options": [
-        "It will die of shock",
-        "It will not die of shock because its claws are insulated",
-        "It will not die because it is insulated from earth and other conductors",
-        "None of the above"
+        "1 year",
+        "11 years",
+        "55 years",
+        "100 years"
       ],
       "correct": 0,
       "explain": "",
@@ -743,272 +1798,12 @@
       "tags": []
     },
     {
-      "id": "gate-1ay6g4w",
-      "q": "For EM wave propagation in free space, the free space is defined as",
+      "id": "gate-vz2fk0",
+      "q": "Electromagnetic cavity resonators (energy storage devices) are used in",
       "options": [
-        "&sigma; = 0, &epsilon; = 1, &mu; &ne; 1, = 0",
-        "&sigma; = 0, &epsilon; = 1, &mu; = 1, = 0, = 0",
-        "&sigma; &ne; 0, &epsilon; &gt; 1, &mu; &lt; 1, &ne; 0, = 0",
-        "&sigma; = 0, &epsilon; = 1, &mu; = 1, &ne; 0, &ne; 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dg8pp4",
-      "q": "For TE or TM modes of propagation in bounded media, the phase velocity is",
-      "options": [
-        "independent of frequency",
-        "is a linear function of frequency",
-        "is a non-linear function of frequency",
-        "can be frequency dependent or frequency independent on the source"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sevp6w",
-      "q": "Frequencies in the UHF range propagate by means of",
-      "options": [
-        "space wave",
-        "surface waves",
-        "sky waves",
-        "ground waves"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1481y40",
-      "q": "Intrinsic or characteristic impedance of free space has a value of",
-      "options": [
-        "120 ohm",
-        "73 ohm",
-        "73 &epsilon; ohm",
-        "120 &epsilon; ohm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vuq9qx",
-      "q": "For a distortionless line, the parameters are related as",
-      "options": [
-        "R/G = L/C",
-        "R/L = 1",
-        "R/G = C/L",
-        "RG = LC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n7o8ew",
-      "q": "A field can be",
-      "options": [
-        "harmonic",
-        "divergence less",
-        "solenoidal",
-        "rotational"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3xbhhh",
-      "q": "Phase velocity of waves propagating in a hollow metal waveguide is",
-      "options": [
-        "greater than the group velocity",
-        "less than the velocity of light in free space",
-        "equal to the velocity of light in free space",
-        "equal to group velocity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xy5zy6",
-      "q": "If a plane electromagnetic wave satisfies the equation , the wave propagates in the (at an angle of 45&deg; between the x and z direction)",
-      "options": [
-        "x-direction",
-        "z-direction",
-        "y direction",
-        "xy plane"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kv5o9s",
-      "q": "Good smoothing factor of a coil depends on",
-      "options": [
-        "inductance of the coil",
-        "terminal voltage",
-        "cross-sectional area of the wire of the coil",
-        "property of the wire of the coil"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o6g4cb",
-      "q": "Tropospheric scatter is used with frequencies in the",
-      "options": [
-        "HF",
-        "VHF",
-        "UHF",
-        "VLF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ocl8zw",
-      "q": "A Yagi antenna has a driven antenna",
-      "options": [
-        "only",
-        "with a reflector",
-        "with one or more directors",
-        "with a reflector and one or more directors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fw4b2w",
-      "q": "The minimum height of outer atmosphere is",
-      "options": [
-        "100 km",
-        "150 km",
-        "200 km",
-        "400 km"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sfquzj",
-      "q": "An electric charge Q is placed in a dielectric medium which of the following quantities are independent of the dielectric constant &epsilon; of the medium",
-      "options": [
-        "electric potential V and electric field intensity E",
-        "displacement density D and displacement &phi;",
-        "electric field intensity E and displacement &phi;",
-        "electric potential V and displacement &phi;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ndkuko",
-      "q": "A square corner reflector is used in",
-      "options": [
-        "radio astronomy",
-        "tv broadcast",
-        "point to point communication",
+        "wave meters",
+        "bandpass filters",
+        "high frequency tubes",
         "all of the above"
       ],
       "correct": 0,
@@ -1023,13 +1818,13 @@
       "tags": []
     },
     {
-      "id": "gate-vpf6js",
-      "q": "Whenever a wave is incident on a perfect conductor then the reflection coefficient is",
+      "id": "gate-11yvro8",
+      "q": "Waveguides are generally used above",
       "options": [
-        "1",
-        "0",
-        "1 &lt; 180&deg;",
-        "depend upon &eta;1, &eta;2"
+        "20 MHz",
+        "100 MHz",
+        "200 MHz",
+        "1000 MHz"
       ],
       "correct": 0,
       "explain": "",
@@ -1043,13 +1838,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rzth18",
-      "q": "When a wave is incident from the more dense into a less dense medium at an angle equal to or exceeding the critical angle, the wave suffers total internal __________ .",
+      "id": "gate-6m6mco",
+      "q": "Maximum power transfer will take place in a practical antenna if (XL = Load Reactance, XA Antenna Reactance)",
       "options": [
-        "reflection",
-        "refraction",
-        "transmission",
-        "none of the above"
+        "XL = - XA",
+        "XL = XA",
+        "XL = XA",
+        "XL = XA2"
       ],
       "correct": 0,
       "explain": "",
@@ -1063,12 +1858,13 @@
       "tags": []
     },
     {
-      "id": "gate-4zhbmo",
-      "q": "Power gain and directivity related with, Gp power gain, Gd directive gain",
+      "id": "gate-13kdqx0",
+      "q": "Which type of fading causes serious distortion of modulated signal?",
       "options": [
-        "Gp = &eta; Gd",
-        "Gd = &eta; Gp",
-        "Gp = &eta; Gd2"
+        "Selective fading",
+        "Interference fading",
+        "Absorption fading",
+        "Polarization fading"
       ],
       "correct": 0,
       "explain": "",
@@ -1082,13 +1878,13 @@
       "tags": []
     },
     {
-      "id": "gate-so0rmb",
-      "q": "Radiation intensity in a given direction is the",
+      "id": "gate-1ci942x",
+      "q": "The wave in wave guide has",
       "options": [
-        "energy radiated per square metre",
-        "power radiated per square metre",
-        "power radiated per unit solid angle in that direction",
-        "none of the above"
+        "group velocity inversely proportional to wavelength",
+        "larger frequency than in the free space",
+        "diminishing wavelength than in the free space",
+        "larger wavelength than in the free space"
       ],
       "correct": 0,
       "explain": "",
@@ -1102,13 +1898,13 @@
       "tags": []
     },
     {
-      "id": "gate-6907cs",
-      "q": "The input impedance of short-circuited line of length l where &lambda;/4 &lt; l &lt; &lambda;/2, is",
+      "id": "gate-1y7yhoo",
+      "q": "While determining antenna height for terrestrial microwaves links, the effect of refraction from the atmosphere is taken care of by considering the effective curvature of the earth to be",
       "options": [
-        "resistive",
-        "inductive",
-        "capacitive",
-        "none of the above"
+        "times the radius of the earth (Re)",
+        "Re",
+        "Re",
+        "Re"
       ],
       "correct": 0,
       "explain": "",
@@ -1122,13 +1918,13 @@
       "tags": []
     },
     {
-      "id": "gate-8kdt4o",
-      "q": "A wave is propagated in a waveguide at frequency of 9 GHz and separation is 2 cm between walls find cut off wavelength for dominant mode.",
+      "id": "gate-7kl8q4",
+      "q": "A T.V. station works at 300 MHz and radiates 100 kW of power. This signal received at a distance of 200 km will be",
       "options": [
-        "4 cm",
-        "1 cm",
-        "2 cm",
-        "8 cm"
+        "a few &mu;V/m due to attenuation by atmosphere",
+        "1-5 mV due to ionospheric reflection",
+        "nil since propagation is line of sight",
+        "nil because signal fades completely at 300 MHz"
       ],
       "correct": 0,
       "explain": "",
@@ -1142,13 +1938,13 @@
       "tags": []
     },
     {
-      "id": "gate-xj9a0g",
-      "q": "Find the radiation resistance of an antenna of length &lambda;/10 meter?",
+      "id": "gate-o4n644",
+      "q": "The power gain of a half-wave dipole with respect to an isotropic radiator is",
       "options": [
-        "8 &ohm;",
-        "780 &ohm;",
-        "7.8 &ohm;",
-        "78 &ohm;"
+        "2.15 db",
+        "3 db",
+        "4.15 db",
+        "6 db"
       ],
       "correct": 0,
       "explain": "",
@@ -1162,13 +1958,13 @@
       "tags": []
     },
     {
-      "id": "gate-fmv7po",
-      "q": "Charge needed within a unit sphere centred at the origin for producing a potential field,",
+      "id": "gate-1fhmty4",
+      "q": "In an impedance smith chart, a clockwise movement along a constant resistance circle gives rise to",
       "options": [
-        "12 pc",
-        "60 pc",
-        "120 pc",
-        "180 pc"
+        "decrease in the value of reactance",
+        "an increase in the value of reactance",
+        "no change in the reactance value",
+        "no change in the impedance value"
       ],
       "correct": 0,
       "explain": "",
@@ -1182,73 +1978,13 @@
       "tags": []
     },
     {
-      "id": "gate-t43w20",
-      "q": "A rectangular metal waveguide filled with a dielectric of relative permittivity &epsilon;r = 4, has the inside dimensions 3 x 1.2 cm, the cut off frequency for the dominant mode is",
+      "id": "gate-1y6ij18",
+      "q": "A &lambda;/8 section of transmission line is determined of load impedance of (2 - j 5) &ohm;. If characteristic impedance of line is 10 &ohm;. Then input impedance of line is",
       "options": [
-        "2.5 GHz",
-        "5 GHz",
-        "10 GHz",
-        "12.5 GHz"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1snfg7s",
-      "q": "Find the noise factor for an antenna at 27&deg;C with equivalent noise temperature 30&deg;K",
-      "options": [
-        "20",
-        "100",
-        "300",
-        "1.1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bdruhc",
-      "q": "The displacement flux density at a point on the surface of a perfect conductor is = 2(ax - 3 az)c/m2 pointing away from the surface. The charge density at that point c/m2 will be",
-      "options": [
-        "2",
-        "- 2",
-        "4",
-        "- 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electromagnetic Field Theory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16asgs0",
-      "q": "Characteristic impedance of a transmission line is 50 &ohm;. Input impedance of the open circuited line. Zoc = 100 + J150 &ohm;. When transmission line is short circuited, then value of the input impedance will be",
-      "options": [
-        "50 &ohm;",
-        "100 + J150 &ohm;",
-        "7.69 + J11.54&ohm;",
-        "7.69 - J11.54 &ohm;"
+        "10 &ohm;",
+        "(6.9 + j 7.24) &ohm;",
+        "(1.75 + j 3.098) &ohm;",
+        "(2 - j 5) &ohm;"
       ],
       "correct": 0,
       "explain": "",

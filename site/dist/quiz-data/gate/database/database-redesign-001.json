@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Database Redesign",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-1jf6ssb",
-      "q": "A correlated subquery is processed as a nested subquery.",
+      "id": "gate-1jarcks",
+      "q": "The use of the double NOT EXISTS can be used to find rows that do not match some specified condition.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-6ps9w0",
-      "q": "A regular subquery is processed from the bottom up.",
+      "id": "gate-19fwfyf",
+      "q": "Although creating test databases is a critical and necessary job, there are few career opportunities in this area.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-b6to0s",
-      "q": "Correlated subqueries are similar to a regular subquery.",
+      "id": "gate-u9b5mo",
+      "q": "Because of the need for extensive knowledge of SQL, many database developers choose to automate the redesign process.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-ns8fg7",
-      "q": "Database redesign is especially difficult if the database has no data.",
+      "id": "gate-bjffaw",
+      "q": "The data model produced from the reverse engineering process does not include intersection table data.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-5xbw6k",
-      "q": "Some organizations take the stand that no application should ever employ the true name of a table.",
+      "id": "gate-1l5jkqc",
+      "q": "If a database is built correctly the first time, it will not have to be redesigned.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1jijn4k",
-      "q": "Before any changes to database structure are attempted one should first:",
+      "id": "gate-1inu2c8",
+      "q": "Information systems and organizations do not just influence each other; they create each other.",
       "options": [
-        "clearly understand the current structure and contents of the database only.",
-        "test any changes on a test database only.",
-        "create a complete backup of the operational database only.",
-        "All of the above should be done."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1s5sno8",
-      "q": "Which of the following modifications may not succeed?",
+      "id": "gate-1mqkz92",
+      "q": "Adding null columns to a table is straightforward.",
       "options": [
-        "Changing a column data type from char to date",
-        "Changing a column data type from numeric to char",
-        "Both of the above actions should succeed.",
-        "Neither of the above actions will succeed."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,12 +134,126 @@
       "tags": []
     },
     {
-      "id": "gate-19lzvwu",
-      "q": "How can you find rows that do not match some specified condition?",
+      "id": "gate-74z6so",
+      "q": "The NOT EXISTS keyword will be true if any row in the subquery meets the condition.",
       "options": [
-        "EXISTS",
-        "Double use of NOT EXISTS",
-        "NOT EXISTS",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xy72hk",
+      "q": "Dependency graphs are diagrams that consist of nodes and arcs that show the dependencies of a database.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ngflps",
+      "q": "The EXISTS keyword will be true if any row in the subquery meets the condition.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-47a9i8",
+      "q": "Which of the following SQL statements are helpful in database redesign?",
+      "options": [
+        "Correlated subqueries only",
+        "EXISTS/NOT EXISTS expressions only",
+        "Both of the above are helpful",
+        "None of the above are helpful."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vkrlk3",
+      "q": "What SQL command can be used to delete columns from a table?",
+      "options": [
+        "MODIFY TABLE TableName DROP COLUMN ColumnName",
+        "MODIFY TABLE TableName DROP ColumnName",
+        "ALTER TABLE TableName DROP COLUMN ColumnName",
+        "ALTER TABLE TableName DROP ColumnName"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cse2pg",
+      "q": "Database redesign is not terribly difficult if the:",
+      "options": [
+        "database is structured.",
+        "database is well-designed.",
+        "database has no data.",
+        "database is relatively small."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1242wsc",
+      "q": "Which SQL-92 standard SQL command can be used to change a table name?",
+      "options": [
+        "RENAME TABLE",
+        "CHANGE TABLE",
+        "ALTER TABLE",
         "None of the above is correct."
       ],
       "correct": 0,
@@ -158,12 +268,12 @@
       "tags": []
     },
     {
-      "id": "gate-zsyqcs",
-      "q": "A regular subquery can be processed:",
+      "id": "gate-1809scc",
+      "q": "The process of reading a database schema and producing a data model from that schema is known as:",
       "options": [
-        "from the top down.",
-        "from the bottom up.",
-        "by nesting.",
+        "data modeling.",
+        "database design.",
+        "reverse engineering.",
         "None of the above is correct."
       ],
       "correct": 0,
@@ -178,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ah711s",
-      "q": "What SQL command can be used to add columns to a table?",
+      "id": "gate-1dops20",
+      "q": "The EXISTS keyword will be true if:",
       "options": [
-        "MODIFY TABLE TableName ADD COLUMN ColumnName",
-        "MODIFY TABLE TableName ADD ColumnName",
-        "ALTER TABLE TableName ADD COLUMN ColumnName",
-        "ALTER TABLE TableName ADD ColumnName"
+        "any row in the subquery meets the condition only.",
+        "all rows in the subquery fail the condition only.",
+        "both of these two conditions are met.",
+        "neither of these two conditions is met."
       ],
       "correct": 0,
       "explain": "",
@@ -198,12 +308,52 @@
       "tags": []
     },
     {
-      "id": "gate-1qbw7zg",
-      "q": "What SQL command will allow you to change the table STUDENT to add the constraint named GradeCheck that states that the values of the Grade column must be greater than 0?",
+      "id": "gate-1swx6lk",
+      "q": "Changing cardinalities in a database is:",
       "options": [
-        "ALTER TABLE STUDENT ALTER CONSTRAINT GradeCheck (Grade > 0);",
-        "ALTER TABLE STUDENT ADD CONSTRAINT GradeCheck (Grade > 0);",
-        "ALTER TABLE STUDENT ADD CONSTRAINT GradeCheck CHECK (Grade > 0);",
+        "a common database design task.",
+        "a rare database design task, but does occur.",
+        "a database design task that never occurs.",
+        "is impossible to do, so a new database must be constructed and the data moved into it."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1brexdj",
+      "q": "The NOT EXISTS keyword will be true if:",
+      "options": [
+        "any row in the subquery meets the condition.",
+        "all rows in the subquery fail the condition.",
+        "both of these two conditions are met.",
+        "neither of these two conditions is met."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x4jsvc",
+      "q": "The data model that is produced from reverse engineering is:",
+      "options": [
+        "a conceptual model.",
+        "an internal model.",
+        "a logical model.",
         "None of the above is correct."
       ],
       "correct": 0,
@@ -218,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-1o2zomb",
-      "q": "Which is not true of a correlated subquery?",
+      "id": "gate-1xmc7cg",
+      "q": "To drop a column that is used as a foreign key, first:",
       "options": [
-        "EXISTS/NOT EXISTS is a form of a correlated subquery.",
-        "The processing of the SELECT statements is nested.",
-        "They can be used to verify functional dependencies.",
-        "They are very similar to a regular subquery."
+        "drop the primary key.",
+        "drop the table containing the foreign key..",
+        "drop the foreign key constraint.",
+        "All of the above must be done."
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +388,11 @@
       "tags": []
     },
     {
-      "id": "gate-1p62nkf",
-      "q": "A tool that can help designers understand the dependencies of database structures is a:",
+      "id": "gate-12lis4",
+      "q": "The SQL-92 command to change a table name is RENAME TABLE.",
       "options": [
-        "dependency graph.",
-        "data model.",
-        "graphical display.",
-        "None of the above is correct."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +406,11 @@
       "tags": []
     },
     {
-      "id": "gate-se43xg",
-      "q": "How many copies of the database schema are typically used in the redesign process?",
+      "id": "gate-jwkztg",
+      "q": "Reverse engineering is the process of reading a database schema and producing a data model from that schema.",
       "options": [
-        "One",
-        "Two",
-        "Three",
-        "Four"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +424,47 @@
       "tags": []
     },
     {
-      "id": "gate-1altzeq",
-      "q": "Because of the importance of making data model changes correctly, many professionals are ________ about using an automated process for database redesign.",
+      "id": "gate-1pfc2r8",
+      "q": "The data model produced from the reverse engineering process is a true logical model.",
       "options": [
-        "optimistic",
-        "skeptical",
-        "ambivalent",
-        "None of the above is correct."
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n4te8a",
+      "q": "It is not easy to build a database correctly the first time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Redesign",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iofrsm",
+      "q": "Typically, there should be at least two different copies of the database schema used in the redesign process.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

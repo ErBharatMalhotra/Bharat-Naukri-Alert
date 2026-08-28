@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-ax6jzk",
-      "q": "Packaged data models are meant to be exactly right straight out of the box.",
+      "id": "gate-1j339bg",
+      "q": "Overlapping and disjoint subtypes have different approaches on how the subtype discriminator is applied.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gnu4be",
-      "q": "An action assertion is a statement that expresses some aspect of the static structure of the organization.",
+      "id": "gate-nfzjhc",
+      "q": "An entity instance of a subtype represents the same entity instance of a supertype.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1kww94s",
-      "q": "A supertype can only have only one subtype.",
+      "id": "gate-i4069g",
+      "q": "A supertype is an entity type that shares common attributes or relationships distinct from other subgroupings.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-18tq4aw",
-      "q": "There is cardinality on an EER between the supertype and subtype.",
+      "id": "gate-1mji7ed",
+      "q": "An ERD that has had the entities clustered will display more entities.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ud87ok",
-      "q": "A subtype discriminator of the supertype is an attribute whose values determine the target subtype(s).",
+      "id": "gate-1nj1i2f",
+      "q": "Total specialization is represented by double lines between the supertype and subtype on an EER.",
       "options": [
         "True",
         "False"
@@ -98,8 +98,118 @@
       "tags": []
     },
     {
-      "id": "gate-14mzz7y",
-      "q": "A rectangle represents which of the following in an EER?",
+      "id": "gate-btfnzo",
+      "q": "Generalization is the process of defining more general entity types from a set of more specialized entity types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n3e4is",
+      "q": "It is appropriate to use a supertype/subtype relationship when there are attributes that apply to some of the instances of an entity type.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12wykf4",
+      "q": "If an entity adheres to the disjoint rule, then an entity instance can be a member of more than one entity for a given supertype.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fb6rqk",
+      "q": "Action assertions have traditionally been implemented within an application program.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tntdqo",
+      "q": "An entity cluster is a set of one or more entity types and associated relationships.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ulsylo",
+      "q": "An action assertion must include which of the following?",
+      "options": [
+        "Anchor object",
+        "Action",
+        "Corresponding object",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Enhanced E R Model And Business Rules",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6ukoo8",
+      "q": "An oval represents which of the following in an EER?",
       "options": [
         "Attribute",
         "Entity",
@@ -118,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-6lkjs4",
-      "q": "Which one of the following symbols is not used in an ERD?",
+      "id": "gate-4ufqe4",
+      "q": "Inheritance is which of the following?",
       "options": [
-        "Rectangle",
-        "Oval",
-        "Diamond",
-        "Circle"
+        "When a supertype entity inherits values of the subtype attribute",
+        "When a subtype entity inherits values of the supertype attribute",
+        "When a supertype entity inherits values of another supertype attribute",
+        "When a subtype entity inherits values of another subtype attribute"
       ],
       "correct": 0,
       "explain": "",
@@ -138,88 +248,8 @@
       "tags": []
     },
     {
-      "id": "gate-oyetdo",
-      "q": "Specialization is which of the following processes?",
-      "options": [
-        "Defining one or more subtypes of the supertype and forming supertype/subtype relationships.",
-        "Defining one or more supertypes of the subtype and forming supertype/subtype relationships.",
-        "Defining one or more subtypes of the supertype and not forming supertype/subtype relationships.",
-        "Defining one or more supertypes of the subtype and not forming supertype/subtype relationships."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pfkp4f",
-      "q": "Which of the following statements concerning business rules is true?",
-      "options": [
-        "It should be complex.",
-        "It should not be convertible to computer code.",
-        "It may include restrictions.",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-us8l9c",
-      "q": "A supertype/subtype hierarchy has which of the following features?",
-      "options": [
-        "Subtypes at the lower lever in the hierarchy inherit attributes only from their immediate supertype.",
-        "Attributes are assigned at the highest logical level.",
-        "Subtypes at the higher lever in the hierarchy inherit attributes only from their immediate subtype.",
-        "Attributes are assigned at the lowest logical level."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yi5n4k",
-      "q": "A subtype discriminator is which of the following?",
-      "options": [
-        "An attribute of the supertype whose values determine the subtype",
-        "An attribute of the subtype whose values determine the supertype",
-        "An attribute of the supertype whose values determine the supertype",
-        "An attribute of the subtype whose values determine the subtype"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10xyyhx",
-      "q": "When an entity instance may be a member of multiple subtypes or it does not have to be a member of a subtype, it is which of the following?",
+      "id": "gate-1axnsng",
+      "q": "When an entity instance must be a member of only one subtype, it is which of the following?",
       "options": [
         "Disjoint with total specialization",
         "Disjoint with partial specialization",
@@ -238,53 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-ctv71w",
-      "q": "A subtype entity name should be which of the following?",
+      "id": "gate-88xrmw",
+      "q": "A supertype/subtype hierarchy is which of the following?",
       "options": [
-        "A singular noun",
-        "Specific to the organization",
-        "Concise",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p6hgyx",
-      "q": "Use of a supertype/subtype relationship is necessary when which of the following exists?",
-      "options": [
-        "An instance of a subtype participates in a relationship that is unique to that subtype.",
-        "An instance of a subtype participates in a relationship that is the same as the other subtypes.",
-        "Attributes apply to all of the instances of an entity type.",
-        "No attributes apply to any of the instances of an entity type."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Enhanced E R Model And Business Rules",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t0vm9k",
-      "q": "Which of the following is not one of the three ways to classify an action assertion?",
-      "options": [
-        "Condition",
-        "Integrity Control",
-        "Authorization",
-        "Enabler"
+        "Each subtype has only one attribute.",
+        "Each supertype has only one attribute.",
+        "Each subtype has only one supertype.",
+        "Each supertype has only one subtype."
       ],
       "correct": 0,
       "explain": "",

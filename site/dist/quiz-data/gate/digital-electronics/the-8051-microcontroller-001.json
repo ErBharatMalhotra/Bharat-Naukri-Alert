@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "The 8051 Microcontroller",
   "source": "indiabix.com",
-  "count": 13,
+  "count": 50,
   "questions": [
     {
-      "id": "gate-fdbrbg",
-      "q": "Analog output current must be converted into a usable voltage. To perform this current-to-voltage conversion a 700 op amp may be used.",
+      "id": "gate-16424rk",
+      "q": "Different instruction sets must make up for the various members of the 8051 family.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-4svj8z",
-      "q": "A Celsius thermometer is an application for the 8051 microcontroller.",
+      "id": "gate-qcxvuy",
+      "q": "The ADC 0804 is an analog-to-digital converter that provides 8-bit output resolution that can be directly interfaced to a microcontroller.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-168aoi",
-      "q": "The RST pin requires a HIGH to reset the 8051 microcontroller.",
+      "id": "gate-fanatk",
+      "q": "Writing counter/loop programs is much more difficult with the introduction of the DJNA and the CJNE instructions.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-2uklh8",
-      "q": "A microcontroller is called a computer on a chip.",
+      "id": "gate-1dxe5sx",
+      "q": "The 8051 is a 40-pin IC. Twenty-two pins are needed for the four I/O ports.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1olchq4",
-      "q": "In an 8051 program DA A adjusts the value in the accumulator resulting from an addition into two BCDs.",
+      "id": "gate-h1b6b4",
+      "q": "Up to 65K of code memory and 65K of data memory can be added to any of the 8051 family members.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,51 @@
       "tags": []
     },
     {
-      "id": "gate-6z8cjs",
-      "q": "The 8051 can handle ________ interrupt sources.",
+      "id": "gate-4f5vk",
+      "q": "The internal RAM memory of the 8051 is:",
       "options": [
+        "32 bytes",
+        "64 bytes",
+        "128 bytes",
+        "256 bytes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ih2vwo",
+      "q": "This program code will be executed continuously: STAT: MOV A, #01H &nbsp;JNZ STAT",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xymqzk",
+      "q": "The 8051 has ________ 16-bit counter/timers.",
+      "options": [
+        "1",
+        "2",
         "3",
-        "4",
-        "5",
-        "6"
+        "4"
       ],
       "correct": 0,
       "explain": "",
@@ -118,8 +156,8 @@
       "tags": []
     },
     {
-      "id": "gate-9wn5co",
-      "q": "The special function registers are maintained in the next 128 locations after the general-purpose data storage and stack.",
+      "id": "gate-1beis6g",
+      "q": "The address space of the 8051 is divided into four distinct areas: internal data, external data, internal code, and external code.",
       "options": [
         "True",
         "False"
@@ -136,8 +174,8 @@
       "tags": []
     },
     {
-      "id": "gate-ltdvxw",
-      "q": "This statement will set the address of the bit to 1 (8051 Micro-controller): SETB 01H",
+      "id": "gate-4vxe7s",
+      "q": "Data transfer from I/O to external data memory can only be done with the MOVX command.",
       "options": [
         "True",
         "False"
@@ -154,28 +192,8 @@
       "tags": []
     },
     {
-      "id": "gate-jyq7xo",
-      "q": "MOV A, &#64; R1 will:",
-      "options": [
-        "copy R1 to the accumulator",
-        "copy the accumulator to R1",
-        "copy the contents of memory whose address is in R1 to the accumulator",
-        "copy the accumulator to the contents of memory whose address is in R1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "The 8051 Microcontroller",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y1v27z",
-      "q": "A label is used to name a single line of code.",
+      "id": "gate-1gfjzsm",
+      "q": "The following program will receive data from port 1, determine whether bit 2 is high, and then send the number FFH to port 3: READ: MOV A,P1 ANL A,#2H CJNE A,#02H,READ MOV P3,#FFH",
       "options": [
         "True",
         "False"
@@ -192,28 +210,8 @@
       "tags": []
     },
     {
-      "id": "gate-1pxg816",
-      "q": "Which of the following instructions will move the contents of the accumulator to register 6?",
-      "options": [
-        "MOV 6R, A",
-        "MOV R6, A",
-        "MOV A, 6R",
-        "MOV A, R6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "The 8051 Microcontroller",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8qtco0",
-      "q": "The following command will rotate the 8 bits of the accumulator one position to the left: RL A",
+      "id": "gate-xyo4k0",
+      "q": "Device pins XTAL1 and XTAL2 for the 8051 are used for connections to an external oscillator or crystal.",
       "options": [
         "True",
         "False"
@@ -230,13 +228,728 @@
       "tags": []
     },
     {
-      "id": "gate-1x2quc5",
-      "q": "An alternate function of port pin P3.0 (RXD) in the 8051 is:",
+      "id": "gate-1pcgarg",
+      "q": "When the 8051 is reset and the line is HIGH, the program counter points to the first program instruction in the:",
+      "options": [
+        "internal code memory",
+        "external code memory",
+        "internal data memory",
+        "external data memory"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-198rwiw",
+      "q": "An alternate function of port pin P3.4 in the 8051 is:",
+      "options": [
+        "Timer 0",
+        "Timer 1",
+        "interrupt 0",
+        "interrupt 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1suzyzk",
+      "q": "Both registers TL0 and TL1 are needed to start Timer 0.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b0gh4w",
+      "q": "The microcontroller is useful in systems that have nonvariable programs for dedicated applications.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-176g2q4",
+      "q": "The total amount of external code memory that can be interfaced to the 8051 is:",
+      "options": [
+        "32K",
+        "64K",
+        "128K",
+        "256K"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vo1x2q",
+      "q": "The ADC0804 has ________ resolution.",
+      "options": [
+        "4-bit",
+        "8-bit",
+        "16-bit",
+        "32-bit"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4zbpgw",
+      "q": "A HIGH on which pin resets the 8051 microcontroller?",
+      "options": [
+        "RESET",
+        "RST",
+        "PSEN",
+        "RSET"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qrvi5o",
+      "q": "An alternate function of port pin P3.1 in the 8051 is:",
       "options": [
         "serial port input",
         "serial port output",
         "memory write strobe",
         "memory read strobe"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9havc8",
+      "q": "The I/O ports that are used as address and data for external memory are:",
+      "options": [
+        "ports 1 and 2",
+        "ports 1 and 3",
+        "ports 0 and 2",
+        "ports 0 and 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tymaip",
+      "q": "The last 96 locations in the internal data memory are reserved for general-purpose data storage and stack.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1plstwo",
+      "q": "Microcontrollers often have:",
+      "options": [
+        "CPUs",
+        "RAM",
+        "ROM",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q4s4l8",
+      "q": "The 8051 has ________ parallel I/O ports.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w9eamk",
+      "q": "The total external data memory that can be interfaced to the 8051 is:",
+      "options": [
+        "32K",
+        "64K",
+        "128K",
+        "256K"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19q7hqg",
+      "q": "The contents of the accumulator after this operation MOV A,#2BH ORL A,00H will be:",
+      "options": [
+        "1B H",
+        "2B H",
+        "3B H",
+        "4B H"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10mua1s",
+      "q": "The following program will cause the 8051 to be stuck in a loop: LOOP: MOV A, #00H &nbsp;JNZ LOOP",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11zqa7r",
+      "q": "Which of the following commands will copy the contents of RAM whose address is in register 0 to port 1?",
+      "options": [
+        "MOV @ P1, R0",
+        "MOV @ R0, P1",
+        "MOV P1, @ R0",
+        "MOV P1, R0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14zzwnu",
+      "q": "The statement LCALL READ passes control to the line labelled READ.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j4jo80",
+      "q": "Which of the following commands will copy the contents of location 4H to the accumulator?",
+      "options": [
+        "MOV A, 04H",
+        "MOV A, L4",
+        "MOV L4, A",
+        "MOV 04H, A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fw5ue0",
+      "q": "Which of the following instructions will load the value 35H into the high byte of timer 0?",
+      "options": [
+        "MOV TH0, #35H",
+        "MOV TH0, 35H",
+        "MOV T0, #35H",
+        "MOV T0, 35H"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-188ymmg",
+      "q": "Bit-addressable memory locations are:",
+      "options": [
+        "10H through 1FH",
+        "20H through 2FH",
+        "30H through 3FH",
+        "40H through 4FH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t5zxr0",
+      "q": "The 8-bit address bus allows access to an address range of:",
+      "options": [
+        "0000 to FFFFH",
+        "000 to FFFH",
+        "00 to FFH",
+        "0 to FH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5i6iiw",
+      "q": "The contents of the accumulator after this operation MOV A,#0BH ANL A,#2CH will be",
+      "options": [
+        "11010111",
+        "11011010",
+        "00001000",
+        "00101000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9es4y0",
+      "q": "The start-conversion on the ADC0804 is done by using the:",
+      "options": [
+        "CS line",
+        "INTR line",
+        "V ref/2 line"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rmvsbk",
+      "q": "What is the difference between the 8031 and the 8051?",
+      "options": [
+        "The 8031 has no interrupts.",
+        "The 8031 is ROM-less.",
+        "The 8051 is ROM-less.",
+        "The 8051 has 64 bytes more memory."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bl00cg",
+      "q": "The I/O port that does not have a dual-purpose role is:",
+      "options": [
+        "port 0",
+        "port 1",
+        "port 2",
+        "port 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wow6ns",
+      "q": "To interface external EPROM memory for applications, it is necessary to demultiplex the address/data lines of the 8051.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e1bw1w",
+      "q": "The following command will copy the accumulator to the location whose address is 23H: MOV 23H,A",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y8j6h",
+      "q": "The special function registers can be referred to by their hex addresses or by their register names.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-isxg50",
+      "q": "This program code will be executed once: STAT: MOV A, #01H &nbsp;JNZ STAT",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8xriey",
+      "q": "Which of the following instructions will move the contents of register 3 to the accumulator?",
+      "options": [
+        "MOV 3R, A",
+        "MOV R3, A",
+        "MOV A, R3",
+        "MOV A, 3R"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-33f1c",
+      "q": "Which of the following statements will add the accumulator and register 3?",
+      "options": [
+        "ADD &#64;R3, &#64;A",
+        "ADD &#64;A, R3",
+        "ADD R3, A",
+        "ADD A, R3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pd5aqc",
+      "q": "Data transfer from I/O to external data memory can only be done with the MOV command.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fxt6fs",
+      "q": "Which of the following commands will move the number 27H into the accumulator?",
+      "options": [
+        "MOV A, P27",
+        "MOV A, #27H",
+        "MOV A, 27H",
+        "MOV A, &#64;27"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-il5zb8",
+      "q": "This program code will read data from port 0 and write it to port 2, and it will stop looping when bit 3 of port 2 is set: STAT: MOV A, PO &nbsp;MOV P2,A &nbsp;JNB P2.3, STAT",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-em5mfc",
+      "q": "Which of the following commands will move the value at port 3 to register 2?",
+      "options": [
+        "MOV P2, R3",
+        "MOV R3, P2",
+        "MOV 3P, R2",
+        "MOV R2, P3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7ekij8",
+      "q": "The number of data registers is:",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-alqo2n",
+      "q": "When the 8051 is reset and the EA line is LOW, the program counter points to the first program instruction in the:",
+      "options": [
+        "internal code memory",
+        "external code memory",
+        "internal data memory",
+        "external data memory"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "The 8051 Microcontroller",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dqqgpw",
+      "q": "The designs of a centigrade thermometer and a PWM speed-control circuit can be implemented by the 8051.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

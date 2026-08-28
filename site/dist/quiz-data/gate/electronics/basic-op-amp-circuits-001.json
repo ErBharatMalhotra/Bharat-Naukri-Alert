@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Basic Op Amp Circuits",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 17,
   "questions": [
     {
-      "id": "gate-i1q02g",
-      "q": "The feedback component in an op-amp integrator is a capacitor.",
+      "id": "gate-mr3tzk",
+      "q": "To operate properly, an oscillator requires an external ac input signal.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1e9ctps",
-      "q": "When the capacitance in an active high-pass filter increases, the critical frequency decreases.",
+      "id": "gate-44o97s",
+      "q": "For a Wien-bridge oscillator to produce a sustained sine-wave output, the phase shift around the positive feedback loop must be greater than 0&#176;.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-gf0x78",
-      "q": "The control element in a basic shunt voltage regulator is a zener diode.",
+      "id": "gate-4hywvg",
+      "q": "The effectiveness of a filter in rejecting signals beyond cutoff frequency is a function of the filter roll-off rating.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-4shhro",
-      "q": "The output voltage of a summing amplifier is proportional to the product of the input voltages.",
+      "id": "gate-18c9xuo",
+      "q": "A two-pole active filter produces a roll-off rate of &#8211;20 dB/decade.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-19f4qs0",
-      "q": "When used as a comparator, an op-amp is wired in a closed-loop configuration.",
+      "id": "gate-vcfraw",
+      "q": "A zero-level detector is a type of comparator circuit.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-10x816g",
-      "q": "In the given circuit, VIN1 equals ______.",
+      "id": "gate-1wzt6ao",
+      "q": "Above the critical frequency (fc) of a low-pass filter, the output voltage gain _______.",
       "options": [
-        "+4 V",
-        "+20 V",
-        "&#8211;4 V",
-        "&#8211;20 V"
+        "does not change",
+        "doubles for every 1 kHz increase in frequency",
+        "increases",
+        "decreases"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ep6jwk",
-      "q": "The rate of change of the output voltage in the given circuit equals ______.",
+      "id": "gate-19e2brs",
+      "q": "In order to sustain oscillations in a feedback oscillator, the gain should be _________ so the Acl _______.",
       "options": [
-        "40 mV/s",
-        "5 V/s",
-        "0 V/s",
-        "40 V/s"
+        "reduced, equals one",
+        "reduced, is less than one",
+        "increased, is more than one",
+        "increased, is much greater than one"
       ],
       "correct": 0,
       "explain": "",
@@ -138,8 +138,68 @@
       "tags": []
     },
     {
-      "id": "gate-10a023g",
-      "q": "A mathematical operation for finding the area under the curve of a graph is called __________.",
+      "id": "gate-1ogiwh7",
+      "q": "The given circuit is a two-pole, active ______ filter.",
+      "options": [
+        "high-pass",
+        "low-pass",
+        "band-pass",
+        "band-stop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p3info",
+      "q": "The ______________ input makes the summing amplifier circuit possible.",
+      "options": [
+        "virtual ground at the noninverting",
+        "virtual ground at the inverting",
+        "low-voltage",
+        "high-voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c92sc8",
+      "q": "The critical frequency for the active filter in the given circuit is approximately _______.",
+      "options": [
+        "20.1 kHz",
+        "89.3 kHz",
+        "14.2 kHz",
+        "179 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-577r04",
+      "q": "A mathematical operation that determines the rate of change of a curve is called __________.",
       "options": [
         "differentiation",
         "integration",
@@ -158,13 +218,93 @@
       "tags": []
     },
     {
-      "id": "gate-1o78air",
-      "q": "In the given circuit, if Rf is reduced to 8 k, the circuit becomes the ______.",
+      "id": "gate-t0ois5",
+      "q": "A Wien-bridge oscillator uses _________.",
       "options": [
-        "digital-to-analog converter",
-        "averaging amplifier",
+        "positive feedback",
+        "negative feedback",
+        "both types of feedback",
+        "an LC tank circuit"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qpqjx4",
+      "q": "The center frequency of a band-pass filter is always equal to the",
+      "options": [
+        "bandwidth",
+        "&#8211;3 dB frequency",
+        "bandwidth divided by Q",
+        "geometric average of the critical frequencies"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eb6xf0",
+      "q": "The formula shows that for a given capacitor, if the voltage changes at a constant rate with respect to time, the current will",
+      "options": [
+        "increase",
+        "decrease",
+        "be constant",
+        "decrease logarithmically"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o5slr7",
+      "q": "A zero-level detector is a",
+      "options": [
+        "comparator with a sine-wave output",
+        "comparator with a trip point referenced to zero",
+        "peak detector",
+        "limiter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Basic Op Amp Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dk46zk",
+      "q": "A digital-to-analog converter is an application of the",
+      "options": [
         "scaling adder",
-        "summing amplifier with gain greater than unity"
+        "voltage-to-current converter",
+        "noninverting amplifier",
+        "adjustable bandwidth circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -178,173 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mskqzk",
-      "q": "The reference voltage for the comparator in the given circuit equals ______.",
+      "id": "gate-1tyub4w",
+      "q": "If the value of resistor Rf in an averaging amplifier circuit is equal to the value of one input resistor divided by the number of inputs, the output will be equal to",
       "options": [
-        "0 V",
-        "+8.8 V",
-        "+16 V",
-        "+7.2 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qf83vg",
-      "q": "If the input to a comparator is a sine wave, the output is a",
-      "options": [
-        "ramp voltage",
-        "sine wave",
-        "rectangular wave",
-        "sawtooth wave"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lab6fk",
-      "q": "A basic series regulator has",
-      "options": [
-        "an error detector",
-        "a load",
-        "a reference voltage",
-        "both an error detector and a reference voltage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3fyi8s",
-      "q": "A comparator is an example of a(n)",
-      "options": [
-        "active filter",
-        "current source",
-        "linear circuit",
-        "nonlinear circuit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-154v4a0",
-      "q": "Initially, the closed-loop gain (Acl) of a Wien-bridge oscillator should be",
-      "options": [
-        "Acl < 3",
-        "Acl > 3",
-        "0",
-        "Acl 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nfh8qf",
-      "q": "In an averaging amplifier, the input resistances are",
-      "options": [
-        "equal to the feedback resistance",
-        "less than the feedback resistance",
-        "greater than the feedback resistance",
-        "unequal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5uyqd6",
-      "q": "A triangular-wave oscillator can consist of an op-amp comparator, followed by a(n)",
-      "options": [
-        "differentiator",
-        "amplifier",
-        "integrator",
-        "multivibrator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sfzdpc",
-      "q": "The ramp voltage at the output of an op-amp integrator",
-      "options": [
-        "increases or decreases at a linear rate",
-        "increases or decreases exponentially",
-        "is always increasing and never decreasing",
-        "is constant"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Basic Op Amp Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pyctgg",
-      "q": "A two-pole high-pass active filter would have a roll-off rate of",
-      "options": [
-        "40 dB/decade",
-        "&#8211;40 dB/decade",
-        "20 dB/decade",
-        "&#8211;20 dB/decade"
+        "the average of the individual inputs",
+        "the inverted sum of the individual inputs",
+        "the sum of the individual inputs",
+        "the inverted average of the individual inputs"
       ],
       "correct": 0,
       "explain": "",

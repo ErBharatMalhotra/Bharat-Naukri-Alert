@@ -5,73 +5,133 @@
   "subject": "Python Programming",
   "topic": "Data Types",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 54,
   "questions": [
     {
-      "id": "gate-ddkd4s",
-      "q": "Which of the following is not a numeric data type?",
+      "id": "gate-ade48",
+      "q": "What is the data type of the following value: \"Hello, World!\"",
+      "options": [
+        "String",
+        "List",
+        "Tuple",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b5hxvz",
+      "q": "Which of the following is a mutable data type?",
+      "options": [
+        "String",
+        "Tuple",
+        "List",
+        "Float"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v599v",
+      "q": "Which of the following is a sequence data type?",
+      "options": [
+        "Dictionary",
+        "Set",
+        "Tuple",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w5jnjd",
+      "q": "What is the data type of the following value: (1, 2, 3)",
+      "options": [
+        "String",
+        "List",
+        "Tuple",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11949vc",
+      "q": "What is the data type of the following value: {\"a\": 1, \"b\": 2, \"c\": 3}",
+      "options": [
+        "String",
+        "List",
+        "Tuple",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5rrswg",
+      "q": "Which of the following is not a valid string method?",
+      "options": [
+        "split()",
+        "join()",
+        "append()",
+        "upper()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17o83bs",
+      "q": "Which of the following data types is used to represent a single character?",
       "options": [
         "int",
-        "float",
-        "complex",
-        "bool"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Data Types",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hplk84",
-      "q": "Which of the following data types is used to represent a collection of elements with no duplicates?",
-      "options": [
-        "List",
-        "Tuple",
-        "Set",
-        "Dictionary"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Data Types",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14h2qo5",
-      "q": "Which of the following data types is used to represent a collection of key-value pairs?",
-      "options": [
-        "List",
-        "Tuple",
-        "Set",
-        "Dictionary"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Data Types",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e4mfpk",
-      "q": "Which of the following data types is used to represent a sequence of characters?",
-      "options": [
-        "bytearray",
         "bytes",
         "complex",
         "str"
@@ -88,8 +148,208 @@
       "tags": []
     },
     {
-      "id": "gate-1ewnyz4",
-      "q": "Which of the following data types is used to represent a sequence of ordered elements that can be modified?",
+      "id": "gate-160rw38",
+      "q": "Which of the following data types is used to represent a boolean value?",
+      "options": [
+        "int",
+        "float",
+        "bool",
+        "complex"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wlcgqq",
+      "q": "Which of the following data types is used to represent a sequence of elements in no particular order?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jdfb0g",
+      "q": "Which of the following data types is used to represent a sequence of elements that can be modified?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "String"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2d3njs",
+      "q": "What is the output of the following code snippet? my_list = [1, 2, 3, 4, 5] result = sum(my_list) print(result)",
+      "options": [
+        "15",
+        "12345",
+        "5",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tkp268",
+      "q": "What will be the output of the following code snippet? my_dict = {'a': 1, 'b': 2, 'c': 3} result = len(my_dict) print(result)",
+      "options": [
+        "{'a': 1, 'b': 2, 'c': 3}",
+        "3",
+        "6",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ubqlfg",
+      "q": "How do you check if a variable is of type tuple?",
+      "options": [
+        "is_tuple(variable)",
+        "type(variable) == tuple",
+        "variable.is_tuple()",
+        "tuple(variable)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gad7q8",
+      "q": "What is the output of the following code snippet? my_set = {1, 2, 3, 4, 5} result = my_set.discard(3) print(result)",
+      "options": [
+        "{1, 2, 3, 5}",
+        "{1, 2, 4, 5}",
+        "None",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m5kgio",
+      "q": "What is the output of the following code snippet? my_tuple = (1, 2, 3, 4, 5) result = my_tuple.index(3) print(result)",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b6z55c",
+      "q": "Which of the following data types is used to represent a date and time?",
+      "options": [
+        "date",
+        "time",
+        "datetime",
+        "timezone"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19prpzs",
+      "q": "Which of the following data types is used to represent a binary data?",
+      "options": [
+        "int",
+        "float",
+        "bytes",
+        "str"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2m539w",
+      "q": "Which of the following data types is used to represent a sequence of immutable elements?",
       "options": [
         "List",
         "Tuple",
@@ -108,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-10if4g",
-      "q": "What will be the output of the following code snippet? my_list = [4, 2, 7, 1, 9] result = sorted(my_list) print(result)",
+      "id": "gate-rjqpx2",
+      "q": "Which of the following data types is used to represent a complex number?",
       "options": [
-        "[1, 2, 4, 7, 9]",
-        "[9, 7, 4, 2, 1]",
-        "True",
-        "False"
+        "int",
+        "float",
+        "complex",
+        "str"
       ],
       "correct": 0,
       "explain": "",
@@ -128,12 +388,52 @@
       "tags": []
     },
     {
-      "id": "gate-1sx0wps",
-      "q": "What is the output of the following code snippet? my_string = \"Hello, World!\" result = my_string.split() print(result)",
+      "id": "gate-12sartg",
+      "q": "Which of the following data types is used to represent a collection of elements in a specific order with duplicates allowed?",
       "options": [
-        "['Hello,', 'World!']",
-        "'Hello, World!'",
-        "('Hello', 'World!')",
+        "List",
+        "Tuple",
+        "Set",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15jvg3o",
+      "q": "How do you check if a variable is of type float?",
+      "options": [
+        "isfloat(variable)",
+        "type(variable) == float",
+        "variable.is_float()",
+        "float(variable)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rfm2kw",
+      "q": "What is the output of the following code snippet? my_dict = {'a': 1, 'b': 2, 'c': 3} result = 'b' in my_dict print(result)",
+      "options": [
+        "True",
+        "False",
+        "2",
         "Error"
       ],
       "correct": 0,
@@ -148,12 +448,232 @@
       "tags": []
     },
     {
-      "id": "gate-17h9btu",
-      "q": "What is the purpose of the any() function?",
+      "id": "gate-zqhktm",
+      "q": "What is the purpose of the bool() function?",
       "options": [
-        "Checks if any element in an iterable is False",
-        "Checks if any element in an iterable is True",
-        "Checks if any element in an iterable is None",
+        "Converts a string to a boolean",
+        "Checks if a variable is of type boolean",
+        "Converts a number to a boolean",
+        "Creates a boolean variable with a specified value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ldfkcs",
+      "q": "What will be the result of the following code snippet? my_string = \"Python\" result = my_string.find(\"th\") print(result)",
+      "options": [
+        "2",
+        "3",
+        "th",
+        "True"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v4yne4",
+      "q": "How do you concatenate two strings?",
+      "options": [
+        "string1.concat(string2)",
+        "string1 + string2",
+        "string1.append(string2)",
+        "concat(string1, string2)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m8qqz8",
+      "q": "Which of the following data types is used to represent a single, immutable element?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ov8vp5",
+      "q": "Which of the following data types is used to represent a collection of elements in a specific order with duplicates allowed and with the ability to add or remove elements?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iluhl8",
+      "q": "Which of the following data types is used to represent a group of related elements that can be accessed using a single variable?",
+      "options": [
+        "List",
+        "Tuple",
+        "Set",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o4viy8",
+      "q": "Which of the following data types is used to represent a sequence of Unicode characters?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sjs4ts",
+      "q": "Which of the following data types is used to represent a sequence of Unicode characters that can be modified?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bytearray"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tfbw04",
+      "q": "What will be the result of the following code snippet? my_list = [1, 2, 3, 4, 5] result = my_list.pop(2) print(result)",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "[1, 2, 4, 5]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wgfy3g",
+      "q": "How can you concatenate two dictionaries?",
+      "options": [
+        "dict1 + dict2",
+        "dict1.append(dict2)",
+        "dict1.update(dict2)",
+        "concat(dict1, dict2)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4ab9lc",
+      "q": "How do you remove the last element from a Python list?",
+      "options": [
+        "list.remove(-1)",
+        "list.pop()",
+        "list.delete(-1)",
+        "list.removeLast()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p66ha0",
+      "q": "What is the purpose of the set() function?",
+      "options": [
+        "Converts a list to a set",
+        "Creates an empty set",
+        "Removes an element from a set",
         "Checks if a variable is of a certain type"
       ],
       "correct": 0,
@@ -168,12 +688,132 @@
       "tags": []
     },
     {
-      "id": "gate-rqlngc",
-      "q": "What will be the result of the following code snippet? my_dict = {'a': 1, 'b': 2, 'c': 3} result = my_dict.keys() print(result)",
+      "id": "gate-t3ifg4",
+      "q": "What will be the result of the following code snippet? my_tuple = (1, 2, 3, 4, 5) result = my_tuple[2:] print(result)",
       "options": [
-        "{'a', 'b', 'c'}",
-        "['a', 'b', 'c']",
-        "dict_keys(['a', 'b', 'c'])",
+        "(3, 4, 5)",
+        "(1, 2, 3)",
+        "(1, 2)",
+        "(2, 3, 4, 5)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zixp71",
+      "q": "Which of the following data types is used to represent a sequence of Unicode characters that cannot be modified?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bytes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l4hk3g",
+      "q": "What is the correct way to declare a variable?",
+      "options": [
+        "var x = 5",
+        "int x = 5",
+        "x = 5",
+        "variable x = 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mjt9xw",
+      "q": "What is the correct way to comment a single-line?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "-- This is a comment"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ng4a4s",
+      "q": "Which of the following is a valid Python string?",
+      "options": [
+        "'Hello, World!\"",
+        "\"Hello, World!'",
+        "'Hello, World!'",
+        "None of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17ii9j4",
+      "q": "What is the purpose of the len() function?",
+      "options": [
+        "To calculate the logarithm",
+        "To find the length of a string or list",
+        "To generate random numbers",
+        "To perform mathematical operations"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4rc8fs",
+      "q": "What will be the output of the following code snippet? my_dict = {'a': 1, 'b': 2, 'c': 3} result = my_dict.get('d', 'Not Found') print(result)",
+      "options": [
+        "1",
+        "Not Found",
+        "4",
         "Error"
       ],
       "correct": 0,
@@ -188,13 +828,253 @@
       "tags": []
     },
     {
-      "id": "gate-1g146d4",
-      "q": "What is the output of the following code snippet? my_string = \"Hello, World!\" result = my_string.count(\"l\") print(result)",
+      "id": "gate-1uqxnpk",
+      "q": "How do you convert a string to lowercase?",
       "options": [
-        "1",
-        "2",
-        "3",
-        "4"
+        "string.lower()",
+        "toLower(string)",
+        "string.lowercase()",
+        "lower(string)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ygwz5s",
+      "q": "What is the output of the following code snippet? my_set = {1, 2, 3, 4, 5} my_set.remove(3) print(my_set)",
+      "options": [
+        "{1, 2, 3, 4, 5}",
+        "{1, 2, 4, 5}",
+        "{1, 2, 4}",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w7shhk",
+      "q": "What is the purpose of the chr() function?",
+      "options": [
+        "Returns the character at a specified Unicode code point",
+        "Converts a string to uppercase",
+        "Checks if a variable is of a certain type",
+        "Rounds a floating-point number down to the nearest integer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12t3r9g",
+      "q": "Which of the following data types is mutable?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-139d7we",
+      "q": "What is the purpose of the type() function?",
+      "options": [
+        "To convert a variable to a different data type",
+        "To check the data type of a variable",
+        "To perform mathematical operations",
+        "To round a floating-point number"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yeow3w",
+      "q": "What is the output of the following code snippet? my_list = [1, 2, 3, 4, 5] print(my_list[1:4])",
+      "options": [
+        "[2, 3, 4]",
+        "[1, 2, 3]",
+        "[1, 2, 3, 4]",
+        "[3, 4, 5]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sl9qiy",
+      "q": "How do you convert a floating-point number to an integer?",
+      "options": [
+        "int(x)",
+        "convert(x, int)",
+        "x.integer()",
+        "round(x)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iynnnw",
+      "q": "What is the purpose of the append() method in Python lists?",
+      "options": [
+        "To remove an element from the list",
+        "To add an element to the end of the list",
+        "To add an element at a specified position",
+        "To check if an element is present in the list"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mzq5rw",
+      "q": "What will be the output of the following code snippet? x = 10 y = \"5\" result = x + int(y) print(result)",
+      "options": [
+        "15",
+        "105",
+        "\"10\" + \"5\"",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bo5r60",
+      "q": "Which of the following statements is true about tuples?",
+      "options": [
+        "Tuples are mutable",
+        "Tuples can not have duplicate elements",
+        "Elements in a tuple can be accessed using indices",
+        "Tuples are created using square brackets"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q5cv62",
+      "q": "What will be the output of the following code snippet? my_string = \"Python\" print(my_string[1:5:2])",
+      "options": [
+        "yhn",
+        "yh",
+        "yhon",
+        "yto"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nrt1xl",
+      "q": "What is the output of the following code snippet? my_tuple = (1, 2, 3, 4, 5) print(my_tuple[-2:])",
+      "options": [
+        "(4, 5)",
+        "(2, 3, 4, 5)",
+        "(3, 4, 5)",
+        "(2, 3)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Data Types",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xe5fdk",
+      "q": "What does the min() function in Python do?",
+      "options": [
+        "Returns the minimum value in a list or tuple",
+        "Rounds a floating-point number down to the nearest integer",
+        "Converts a string to lowercase",
+        "Checks if a variable is of a certain type"
       ],
       "correct": 0,
       "explain": "",

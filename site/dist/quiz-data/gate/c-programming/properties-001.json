@@ -5,51 +5,11 @@
   "subject": "C# Programming",
   "topic": "Properties",
   "source": "indiabix.com",
-  "count": 7,
+  "count": 9,
   "questions": [
     {
-      "id": "gate-106osq8",
-      "q": "If Sample class has a Length property with get and set accessors then which of the following statements will work correctly? Sample.Length = 20; Sample m = new Sample(); m.Length = 10; Console.WriteLine(Sample.Length); Sample m = new Sample(); int len; len = m.Length; Sample m = new Sample(); m.Length = m.Length + 20;",
-      "options": [
-        "1, 3",
-        "2, 4, 5",
-        "4 only",
-        "3, 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Properties",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vwwkcc",
-      "q": "Which of the following is the correct way to implement a write only property Length in a Sample class?",
-      "options": [
-        "class Sample { public int Length { set { Length = value; } } }",
-        "class Sample { int len; public int Length { get { return len; } set { len = value; } } }",
-        "class Sample { int len; public int Length { WriteOnly set { len = value; } } }",
-        "class Sample { int len; public int Length { set { len = value; } } }"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Properties",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1frr3sx",
-      "q": "A property can be declared inside a namespace or a procedure.",
+      "id": "gate-1agkf6o",
+      "q": "A property can be declared inside a class, struct, Interface.",
       "options": [
         "True",
         "False"
@@ -66,13 +26,13 @@
       "tags": []
     },
     {
-      "id": "gate-pifrg4",
-      "q": "If a Student class has an indexed property which is used to store or retrieve values to/from an array of 5 integers, then which of the following are the correct ways to use this indexed property? Student[3] = 34; Student s = new Student(); s[3] = 34; Student s = new Student(); Console.WriteLine(s[3]); Console.WriteLine(Student[3]); Student.this s = new Student.this(); s[3] = 34;",
+      "id": "gate-pdx0bg",
+      "q": "Which of the following statements is correct about properties used in C#.NET?",
       "options": [
-        "1, 2",
-        "2, 3",
-        "3, 4",
-        "3, 5"
+        "A property can simultaneously be read only or write only.",
+        "A property can be either read only or write only.",
+        "A write only property will have only get accessor.",
+        "A write only property will always return a value."
       ],
       "correct": 0,
       "explain": "",
@@ -86,13 +46,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wuwyp8",
-      "q": "If Sample class has a Length property with set accessor then which of the following statements will work correctly?",
+      "id": "gate-11mrj4o",
+      "q": "A Student class has a property called rollNo and stu is a reference to a Student object and we want the statement stu.RollNo = 28 to fail. Which of the following options will ensure this functionality?",
       "options": [
-        "Sample m = new Sample(); int l; l = m.Length;",
-        "Sample m = new Sample(); m.Length = m.Length + 20;",
-        "Sample.Length = 20;",
-        "Console.WriteLine (Sample.Length);"
+        "Declare rollNo property with both get and set accessors.",
+        "Declare rollNo property with only set accessor.",
+        "Declare rollNo property with get, set and normal accessors.",
+        "Declare rollNo property with only get accessor."
       ],
       "correct": 0,
       "explain": "",
@@ -106,13 +66,33 @@
       "tags": []
     },
     {
-      "id": "gate-u2dbiv",
-      "q": "Which of the folowing does an indexer allow to index in the same way as an array? A class A property A struct A function An interface",
+      "id": "gate-13j9at3",
+      "q": "If a class Student has an indexer, then which of the following is the correct way to declare this indexer to make the C#.NET code snippet given below work successfully? Student s = new Student(); s[1, 2] = 35;",
+      "options": [
+        "class Student { int[ ] a = new int[5, 5]; public property WriteOnly int this[int i, int j] { set { a[i, j] = value; } } }",
+        "class Student { int[ , ] a = new int[5, 5]; public int property WriteOnly { set { a[i, j] = value; } } }",
+        "class Student { int[ , ] a = new int[5, 5]; public int this[int i, int j] { set { a[i, j] = value; } } }",
+        "class Student { int[ , ] a = new int[5, 5]; int i, j; public int this { set { a[i, j] = value; } } }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Properties",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ucwdl4",
+      "q": "Which of the following statements are correct? The signature of an indexer consists of the number and types of its formal parameters. Indexers are similar to properties except that their accessors take parameters. Accessors of interface indexers use modifiers. The type of an indexer and the type of its parameters must be at least as accessible as the indexer itself. An interface accessor contains a body.",
       "options": [
         "1, 3, 5",
-        "2, 4",
+        "1, 2, 4",
         "3, 5",
-        "3, 4, 5"
+        "2, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -126,13 +106,73 @@
       "tags": []
     },
     {
-      "id": "gate-12svchn",
-      "q": "An Employee class has a property called age and emp is reference to a Employee object and we want the statement Console.WriteLine(emp.age) to fail. Which of the following options will ensure this functionality?",
+      "id": "gate-wenjjk",
+      "q": "If Sample class has a Length property with get accessor then which of the following statements will work correctly?",
       "options": [
-        "Declare age property with only get accessor.",
-        "Declare age property with only set accessor.",
-        "Declare age property with both get and set accessors.",
-        "Declare age property with get, set and normal accessors."
+        "Sample m = new Sample(); m.Length = 10;",
+        "Sample m = new Sample(); m.Length = m.Length + 20;",
+        "Sample m = new Sample(); int l; l = m.Length;",
+        "Sample.Length = 20;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Properties",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jtnrhw",
+      "q": "An Account class has a property called accountNo and acc is a reference to a bank object and we want the C#.NET code snippet given below to work. Which of the following options will ensure this functionality? acc.accountNo = 10; Console.WriteLine(acc.accountNo);",
+      "options": [
+        "Declare accountNo property with both get and set accessors.",
+        "Declare accountNo property with only get accessor.",
+        "Declare accountNo property with get, set and normal accessors.",
+        "Declare accountNo property with only set accessor."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Properties",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x48lnn",
+      "q": "Suppose a Student class has an indexed property. This property is used to set or retrieve values to/from an array of 5 integers called scores[]. We want the property to report \"Invalid Index\" message if the user attempts to exceed the bounds of the array. Which of the following is the correct way to implement this property?",
+      "options": [
+        "class Student { int[] scores = new int[5] {3, 2, 4,1, 5}; public int this[ int index ] { set { if (index &lt; 5) scores[index] = value; else Console.WriteLine(\"Invalid Index\"); } } }",
+        "class Student { int[] scores = new int[5] {3, 2, 4, 1, 5}; public int this[ int index ] { get { if (index &lt; 5) return scores[ index ]; else { Console.WriteLine(\"Invalid Index\"); return 0; } } set { if (index &lt; 5) scores[ index ] = value; else Console.WriteLine(\"Invalid Index\"); } } }",
+        "class Student { int[] scores = new int[5] {3, 2, 4, 1, 5}; public int this[ int index ] { get { if (index &lt; 5) return scores[ index ]; else { Console.WriteLine(\"Invalid Index\"); return 0; } } } }",
+        "class Student { int[] scores = new int[5] {3, 2, 4, 1, 5}; public int this[ int index ] { get { if (index &lt; 5) scores[ index ] = value; else { Console.WriteLine(\"Invalid Index\"); } } set { if (index &lt; 5) return scores[ index ]; else { Console.WriteLine(\"Invalid Index\"); return 0; } } } }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Properties",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12qrc9x",
+      "q": "Which of the following is the correct way to implement a read only property Length in a Sample class?",
+      "options": [
+        "class Sample { int len; public int Length { get { return len; } } }",
+        "class Sample { public int Length { get { return Length; } } }",
+        "class Sample { int len; public int Length { get { return len; } set { len = value; } } }",
+        "class Sample { int len; public int Length { Readonly get { return len; } } }"
       ],
       "correct": 0,
       "explain": "",

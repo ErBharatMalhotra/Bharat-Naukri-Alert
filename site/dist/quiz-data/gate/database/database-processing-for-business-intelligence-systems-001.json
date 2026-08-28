@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Database Processing For Business Intelligence Systems",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-1vn4ebd",
-      "q": "Business Intelligence (BI) systems do not obtain data from operational databases.",
+      "id": "gate-1n7jw40",
+      "q": "The data warehouse DBMS needs to be the same DBMS used for the operational database.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-10j3j7w",
-      "q": "Data Mining uses simple arithmetic techniques such as sums, averages, and groupings to perform what-if analyses, to make predictions, and to facilitate decision making.",
+      "id": "gate-7azlk0",
+      "q": "RFM analysis is a BI reporting system.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-4v5zol",
-      "q": "A data warehouse is a database system that is optimized for operational transaction processing.",
+      "id": "gate-6qltds",
+      "q": "In a common form of RFM analysis, customers are sorted in five groups and given a score of 1 to 5 depending on their group.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1rz4ges",
-      "q": "Business Intelligence (BI) systems fall into two broad categories: reporting and data warehousing.",
+      "id": "gate-4gy70s",
+      "q": "Report types include static, dynamic, query and OLAP.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-o0lia8",
-      "q": "Most operational databases can be used for many BI applications.",
+      "id": "gate-1kpolg8",
+      "q": "OLAP uses measures, dimensions and associations.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1h0rur0",
-      "q": "RFM analysis uses customers' purchasing patterns to ________ .",
+      "id": "gate-9mu2f0",
+      "q": "Formatting the report is part of authoring a report.",
       "options": [
-        "record transactions",
-        "analyze and rank customers",
-        "predict future sales using regression techniques",
-        "perform OLAP"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-187f4hs",
-      "q": "The \"F\" in RFM analysis stands for ________ .",
+      "id": "gate-xgh6wk",
+      "q": "Market basket analysis primarily uses the technique of conditional probabilities.",
       "options": [
-        "frequently",
-        "freshness",
-        "fast food",
-        "fantasy"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-5lz5ro",
-      "q": "We have Market Basket data for 1,000 rental transactions at a Video Store. There are for videos for rent -- Video A, Video B, Video C and Video D. The probability that both Video C and Video D are rented at the same time is known as ________ .",
+      "id": "gate-o0tggo",
+      "q": "A data mart is a collection of data that, while smaller than a data warehouse, still addresses the entire business.",
       "options": [
-        "the basic probability",
-        "support",
-        "lift",
-        "confidence"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-ywsz90",
-      "q": "Business Intelligence (BI) reporting systems cannot do which of the following operations?",
+      "id": "gate-1wlfaow",
+      "q": "OnLine Analytical Processing (OLAP) is a BI reporting system.",
       "options": [
-        "Filter data",
-        "Group data",
-        "Modify data",
-        "Both filter and group data"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,11 @@
       "tags": []
     },
     {
-      "id": "gate-pek1v8",
-      "q": "Which of the following is not a component of a data warehouse?",
+      "id": "gate-snfrm0",
+      "q": "Data warehouse data are usually normalized.",
       "options": [
-        "Data extraction/cleaning/preparation programs",
-        "Data warehouse data",
-        "Data metadata",
-        "None of the above are data warehouse components."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-fkttls",
-      "q": "In OLAP, we are interested in ________ .",
+      "id": "gate-1fr1chw",
+      "q": "A BI reporting system does not ________ .",
       "options": [
-        "levels only",
-        "dimensions only",
-        "measures only",
-        "measures and dimensions"
+        "create meaningful information",
+        "deliver information to users on a timely basis",
+        "use statistical procedures to predict future events",
+        "use disparate data sources"
       ],
       "correct": 0,
       "explain": "",
@@ -218,12 +208,52 @@
       "tags": []
     },
     {
-      "id": "gate-15ihm64",
-      "q": "Which of the following is not a reason that operational data are difficult to read?",
+      "id": "gate-1w2za1w",
+      "q": "Which of the following are not done by Business Intelligence (BI) systems?",
       "options": [
-        "Non-duplicated data",
+        "Analyze past and current activities only",
+        "Process and record transactions only",
+        "Both of the above are correct.",
+        "Neither of the above is correct."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3a9dug",
+      "q": "Business Intelligence (BI) systems do not obtain their data by which of the following means?",
+      "options": [
+        "Read and process data from an operational database",
+        "Process transactions",
+        "Process extracts from operational databases",
+        "Process data purchased from data vendors"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9yz5sk",
+      "q": "The \"curse of dimensionality\" relates to which problem of using operational data for BI reporting?",
+      "options": [
         "Dirty data",
-        "Missing values",
+        "Inconsistent data",
+        "Too much data",
         "Non-integrated data"
       ],
       "correct": 0,
@@ -238,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wit9eo",
-      "q": "We have Market Basket data for 1,000 rental transactions at a Video Store. There are four videos for rent -- Video A, Video B, Video C and Video D. The probability that Video D will be rented given that Video C has been rented is known as ________ .",
+      "id": "gate-1e4b879",
+      "q": "A report generated by a reporting system is delivered to the appropriate users via a user-accessed Web site. This system uses which of the following report modes?",
       "options": [
-        "the basic probability",
-        "support",
-        "lift",
-        "confidence"
+        "Push",
+        "Pull",
+        "RFM",
+        "OLAP"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-1lcjgjc",
-      "q": "One popular classification technique in Business Intelligence (BI) reporting is ________ .",
+      "id": "gate-gdl9sw",
+      "q": "Business Intelligence (BI) reporting analyses can be performed using ________ .",
       "options": [
-        "cluster analysis only",
-        "regression analysis only",
-        "RFM analysis only",
-        "both cluster analysis and regression analysis"
+        "standard SQL only",
+        "extensions to SQL only",
+        "OLAP only",
+        "both standard SQL and extensions to SQL"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +308,163 @@
       "tags": []
     },
     {
-      "id": "gate-1fmy6pg",
-      "q": "We have done an RFM analysis on our customer data. Mary Jones has a score of \"1 1 5\". This series means that Mary ________ .",
+      "id": "gate-kvgklg",
+      "q": "We have been given access to the company's operational data, and have been asked to produce a report. We discover that some of the data we need are in an SQL server database while other needed data are in a separate Oracle database. This is an example of ________ .",
       "options": [
-        "Has ordered recently, orders frequently, and places a large order when she orders.",
-        "Hasn't ordered recently, orders infrequently, but places a large order when she orders.",
-        "Has ordered recently, orders frequently, but doesn't place a large order when she orders",
-        "Hasn't ordered recently, orders infrequently, and doesn't place a large order when she orders."
+        "dirty data",
+        "inconsistent data",
+        "non-integrated data",
+        "a \"wrong format\" problem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xgl2mw",
+      "q": "The reports generated by a reporting system are usually not delivered in which of the following media?",
+      "options": [
+        "Web portal",
+        "Commercial courier service",
+        "Digital dashboard",
+        "E-Mail"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9pnhlu",
+      "q": "Data mining applications are used accomplish which of the following tasks?",
+      "options": [
+        "Process transactions only",
+        "Do RFM analysis only",
+        "Do what-if analysis only",
+        "Do both RFM and what-if analysis"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q5kg0v",
+      "q": "Which of the following is an unsupervised data mining technique?",
+      "options": [
+        "Cluster analysis only",
+        "Regression Analysis only",
+        "RFM Analysis only",
+        "Both Regression Analysis and RFM Analysis"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1990auc",
+      "q": "In unsupervised data mining, explanations are created after patterns are found.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qohu3b",
+      "q": "The delivery function of a report management system allows reports to be delivered via e-mail, via the Web, via XML Web services, via hand delivery and other delivery means.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-je76f3",
+      "q": "BI reporting systems summarize the current status of business activities in order to predict future activities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e58b5w",
+      "q": "Business Intelligence (BI) reporting systems are used to make sophisticated mathematical and statistical calculations in order to prepare reports based on the data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Processing For Business Intelligence Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16vnor4",
+      "q": "The term neural networks as used in data mining is a misnomer.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

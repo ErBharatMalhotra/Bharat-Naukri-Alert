@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Digital System Projects Using Hdl",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 70,
   "questions": [
     {
-      "id": "gate-1qoaf90",
-      "q": "Top-down design means that we start at the highest level of the hierarchy, or that the entire project is considered to exist in a closed dark box with inputs and outputs.",
+      "id": "gate-1cm863c",
+      "q": "In HDL, one of the strategies used in strategic planning is to find a way to test each piece of the project.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1xhntxs",
-      "q": "The frequency counter measures frequency by enabling a counter to count the number of pulses of the incoming waveform during a precisely specified period of time called the sampling time.",
+      "id": "gate-12gaylk",
+      "q": "A very critical dimension in project management is the time your boss will give you to complete the HDL project.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-y6gg3c",
-      "q": "In the digital clock project, frequency prescaling is used to take a 1 pps input and transform it into a 60 pps timing signal.",
+      "id": "gate-1ub3brg",
+      "q": "In the keypad HDL encoder, the data signal is used to combine the row and column encoder data to make a 4-bit value representing the key that was pressed.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1camtdt",
-      "q": "The half-step sequence of a stepper motor is created by inserting a start with only one coil energized between full steps.",
+      "id": "gate-12394t4",
+      "q": "One CASE construct inside another CASE construct is called a do-loop.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1a9bwsc",
-      "q": "One of the first steps in any HDL project is to define its scope by knowing the nature of all the signals that are interconnected to pieces of the project.",
+      "id": "gate-1ulsx3k",
+      "q": "A frequency counter is a circuit that can measure and display the frequency of a signal.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1qewm4p",
-      "q": "In the digital clock project, the 1 pps signal is used as a synchronous clock for all of the counter stages, which are ________.",
+      "id": "gate-sv3w3s",
+      "q": "In the digital clock project, when it is 11:59:59, AND gate 1 detects that the tens of hours is 1 and the edge trigger clock moves the display to 12:00:00.",
       "options": [
-        "advanced BCD counters",
-        "MOD-6 counters",
-        "synchronous cascaded",
-        "1 pulse per second"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,8 +116,260 @@
       "tags": []
     },
     {
-      "id": "gate-dlwnm0",
-      "q": "In the keypad encoder, the ________ must hold in its current state until a key is released.",
+      "id": "gate-156624s",
+      "q": "In the keypad HDL encoder, after releasing a key the ring counter resumes its counting sequence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-118tpbw",
+      "q": "In the keypad HDL encoder, the freeze bit detects when a key is released.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bdpm4w",
+      "q": "In HDL when a circuit is simulated on a computer, the designer must create all the different scenarios that will be experienced by the actual circuit and must also know the proper response to those inputs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ts0zmt",
+      "q": "In the keypad HDL encoder, NANDing of the columns is used to activate the freeze bit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2neogk",
+      "q": "When coming up with a strategy for dividing the overall project into manageable-size pieces one must ________.",
+      "options": [
+        "name each input and output",
+        "fully understand how the device should operate",
+        "define successful completion of the project",
+        "know the nature of all the signals that interconnect all the pieces"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ckx9a4",
+      "q": "VARIABLES are considered to be updated ________ within a sequence of statements in a PROCESS, whereas SIGNALS referred to in a PROCESS are updated when the PROCESS ________.",
+      "options": [
+        "once, starts",
+        "immediately, suspends",
+        "twice, ends",
+        "never, starts"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12cq2zg",
+      "q": "The major blocks of the frequency counter are the counter, ________, decoder/display, and the timing and control unit.",
+      "options": [
+        "signal prescaler",
+        "control inputs",
+        "signal generator",
+        "display register"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e6qi7o",
+      "q": "In the keypad encoder, just after the 4 ms mark, the simulation initiates the release of the key by changing the column value to ________, which causes the d output to go into its Hi-Z state.",
+      "options": [
+        "0 hex",
+        "4 hex",
+        "8 hex",
+        "F hex"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ln3aoy",
+      "q": "One aspect of project planning and management is the selection of ________ that will best fit the application.",
+      "options": [
+        "hardware platform",
+        "software",
+        "personnel",
+        "time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hqw618",
+      "q": "A very critical dimension in project management is ________.",
+      "options": [
+        "cost",
+        "skill",
+        "time",
+        "personnel"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i1yho0",
+      "q": "In the digital clock design, the hours section is different from the seconds and minutes section in that it never goes to ________.",
+      "options": [
+        "the 0 state",
+        "13",
+        "the ring counter",
+        "the BCD counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11om8oo",
+      "q": "In the digital clock project, a 60 pps input is transformed into a 1 pps timing signal. The block is called ________.",
+      "options": [
+        "a BCD counter",
+        "a MOD-60 counter",
+        "frequency divider",
+        "frequency prescaling"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10td1fc",
+      "q": "In the stepper motor, the half-step sequence is used when ________.",
+      "options": [
+        "less torque is needed",
+        "larger steps are desired",
+        "smaller steps are desirable",
+        "more torque is needed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r6bffo",
+      "q": "In the keypad encoder, the ________ detects when a key is pressed.",
       "options": [
         "ring counter",
         "MOD-6 counter",
@@ -138,13 +388,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n12slg",
-      "q": "The interface of the stepper motor needs to operate in one of ________ mode(s).",
+      "id": "gate-13usy7o",
+      "q": "In a frequency counter, what happens at high frequencies when the sampling interval is too long?",
       "options": [
-        "one",
-        "two",
-        "three",
-        "four"
+        "The counter works fine.",
+        "The counter undercounts the frequency.",
+        "The measurement is less precise.",
+        "The counter overflows."
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +408,13 @@
       "tags": []
     },
     {
-      "id": "gate-bf0hrc",
-      "q": "In the digital clock project, the 60 Hz signal is sent through a Schmitt-trigger circuit to produce square pulses at the rate of ________.",
+      "id": "gate-1thouf8",
+      "q": "In the digital clock project, when does the PM indicator go high?",
       "options": [
-        "1 pps",
-        "60 pps",
-        "100 pps",
-        "600 pps"
+        "Never",
+        "Going from 11:59:59 to 12:00:00",
+        "Going from 12:59:59 to 01:00:00",
+        "On the falling edge of the clock after enable goes high"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +428,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vkxduc",
-      "q": "A frequency counter ________ a signal.",
+      "id": "gate-ic9oh7",
+      "q": "How is the output frequency related to the sampling interval of a frequency counter?",
       "options": [
-        "measures",
-        "displays",
-        "measures and displays",
-        "measures, displays, and generates"
+        "Directly with the sampling interval",
+        "Inversely with the sampling interval",
+        "More precision with longer sampling interval",
+        "Less precision with longer sampling interval"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +448,13 @@
       "tags": []
     },
     {
-      "id": "gate-98mbvs",
-      "q": "In the keypad application, what does the data signal define?",
+      "id": "gate-cp7tys",
+      "q": "In an HDL application of a stepper motor, after an up/down counter is built what is done next?",
       "options": [
-        "The row and column encoded data",
-        "The ring encoded data",
-        "The freeze locator data",
-        "The ring counter data"
+        "Build the sequencer",
+        "Test it on a simulator",
+        "Test the decoder",
+        "Design an intermediate integer variable"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +468,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ou6ohw",
-      "q": "What does the ring counter in the HDL keypad application do when a key is pressed?",
+      "id": "gate-iyn4hx",
+      "q": "In a digital clock application, the basic frequency must be divided down to:",
       "options": [
-        "Count to find the row",
-        "Freeze",
-        "Count to find the column",
-        "Start the D flip-flop"
+        "1 Hz.",
+        "60 Hz.",
+        "100 Hz.",
+        "1000 Hz."
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +488,13 @@
       "tags": []
     },
     {
-      "id": "gate-18s0qlp",
-      "q": "In the digital clock project, the purpose of the frequency prescaler is to:",
+      "id": "gate-tzbnqo",
+      "q": "In an HDL stepper motor design, why is there more than one mode?",
       "options": [
-        "find the basic frequency.",
-        "transform a 60 pps input to a 1 pps timing signal.",
-        "prevent the clock from exceeding 12:59:59.",
-        "allow the BCD display to have a value from 00&#8211;59."
+        "To change the speed of the stepper motor",
+        "To change the direction of the stepper motor",
+        "To direct drive the stepper motor",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +508,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ji4wz0",
-      "q": "Which is not a step that should be followed in project management?",
+      "id": "gate-1ngzvfc",
+      "q": "Which is not a major block of an HDL frequency counter?",
       "options": [
-        "Overall definition",
-        "System documentation",
-        "Synthesis and testing",
-        "System integration"
+        "Display register",
+        "Decoder/display",
+        "Timing and control unit",
+        "Bit shifter"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +528,13 @@
       "tags": []
     },
     {
-      "id": "gate-136s2hc",
-      "q": "In the keypad application, what does the preset state of the ring counter define?",
+      "id": "gate-18qekcm",
+      "q": "In a full-step sequence involving two flip-flops driving four coils of a stepper motor, how far will the stepper motor step?",
       "options": [
-        "The proper output of the column encoder",
-        "The NANDing of the rows",
-        "The NANDing of the columns",
-        "The proper output of the row encoder"
+        "90&#176;",
+        "45&#176;",
+        "30&#176;",
+        "15&#176;"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +548,13 @@
       "tags": []
     },
     {
-      "id": "gate-182jh8w",
-      "q": "In the frequency counter, what is the function of the Schmitt trigger circuit?",
+      "id": "gate-1t5oz08",
+      "q": "Which is not a step used to define the scope of an HDL project?",
       "options": [
-        "To reduce input noise",
-        "To condition the input signal",
-        "To convert non-square waveforms",
-        "To provide a usable signal to the display unit"
+        "Are the inputs and outputs active HIGH or active LOW?",
+        "A clear vision of how to make each block work",
+        "What are the speed requirements?",
+        "How many bits of data are needed?"
       ],
       "correct": 0,
       "explain": "",
@@ -318,13 +568,13 @@
       "tags": []
     },
     {
-      "id": "gate-hxeb3o",
-      "q": "List three basic blocks in the digital clock project.",
+      "id": "gate-dsbbu0",
+      "q": "In the digital clock project, what is the frequency of the MOD-6 counter in the minutes section?",
       "options": [
-        "MOD-60, MOD-12 counters",
-        "MOD-5, MOD-10, MOD-12 counters",
-        "MOD-60, MOD-10 counters",
-        "MOD-6, MOD-12, and MOD-10 counters"
+        "1 pulse per minute",
+        "6 pulses per minute",
+        "10 pulses per minute",
+        "1 pulse per hour"
       ],
       "correct": 0,
       "explain": "",
@@ -338,13 +588,13 @@
       "tags": []
     },
     {
-      "id": "gate-10czux8",
-      "q": "When designing an HDL digital system, which is the worst mistake one can make?",
+      "id": "gate-1v6hgn8",
+      "q": "Which is not a step in strategic planning for HDL development?",
       "options": [
-        "Concluding that a fundamental block works perfectly",
-        "Failing to provide proper documentation",
-        "Adding blocks of code prior to testing them",
-        "Overlooking a possible VARIABLE"
+        "There must be a way to test each piece.",
+        "Each block must fit together to make up the whole system.",
+        "The names of each input and output must be known.",
+        "The exact operation of each block must be thoroughly defined and understood."
       ],
       "correct": 0,
       "explain": "",
@@ -358,13 +608,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ymv0d6",
-      "q": "In the keypad application, just after the 4 ms mark the simulation imitates the release of the key by changing the column value back to F hex, which causes the d output to go into its Hi-Z state. On the next rising clock edge, what happens to dav?",
+      "id": "gate-4a205c",
+      "q": "In the frequency counter, when is the new count stored in the display register?",
       "options": [
-        "It goes HIGH.",
-        "It goes LOW.",
-        "It goes to Hi-Z.",
-        "It goes to 1111H."
+        "After disabling the counter",
+        "When the count buffer is full",
+        "After the sample interval is set",
+        "When the timing and control block has put it there"
       ],
       "correct": 0,
       "explain": "",
@@ -378,13 +628,723 @@
       "tags": []
     },
     {
-      "id": "gate-1bfzkpk",
-      "q": "For the frequency counter, which is not a control signal from the control and timing block?",
+      "id": "gate-sqt7f8",
+      "q": "What are two ways to remember the current state of a counter in VHDL?",
       "options": [
-        "Clear",
-        "Enable",
-        "Reset",
-        "Store"
+        "With FUNCTIONS and PROCESS",
+        "With counters and timers",
+        "With SIGNAL and VARIABLE",
+        "With bit types"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ng9vt1",
+      "q": "In the digital clock project, what type of counter is used to count to 59 seconds?",
+      "options": [
+        "MOD-60",
+        "MOD-6",
+        "BCD",
+        "BCD followed by a MOD-6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jx8p1s",
+      "q": "In the keypad application, when all columns are HIGH, the ring counter is enabled and counting, and dav is LOW, what is the status of the d outputs?",
+      "options": [
+        "On",
+        "Off",
+        "Hi-Z",
+        "1011"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jwsm3c",
+      "q": "In the digital clock project, a MOD-60 BCD counter is made from a MOD-10 counter cascaded to a MOD-6 BCD counter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ebfq78",
+      "q": "The full-step sequence always has two coils of the stepper motor energized in any state of the sequence and typically causes 30&#176; of shaft rotation per step.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vmag74",
+      "q": "The direct drive mode of a stepper motor allows for less control by the operator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kxegog",
+      "q": "In the frequency counter, a pulse shaper block is needed to ensure that the unknown signal, whose frequency is to be measured, will be compatible with the clock input for the counter block.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16v05n5",
+      "q": "In the digital clock project, the AHDL block codes are connected using graphic design files.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13w9y7t",
+      "q": "One of the first steps in any HDL project is to define its scope by naming each input and output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pp6ty4",
+      "q": "The wave-drive sequence of a stepper motor has more torque and operates more smoothly than the full-step sequence at moderate speeds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v9mlz0",
+      "q": "In the digital clock project, the ENT input and RCO output can be used for synchronous counter cascading.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6u6q78",
+      "q": "In the digital clock project, the 60 Hz signal is sent through a Schmitt-trigger circuit to produce sine wave pulses at the rate of 60 pps.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-34eodo",
+      "q": "In the digital clock project HDL, the 1 pps signal is used as a synchronous clock for all of the counters' stages, which are synchronously cascaded.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ydbnz4",
+      "q": "In the keypad encoder, the ring counter is implemented using ________ that responds to the clk input.",
+      "options": [
+        "SIGNAL",
+        "FUNCTION",
+        "CASE",
+        "PROCESS"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mx1xbw",
+      "q": "In the digital clock project, when it is 11:59:59, AND gate 1 detects that the tens of hours is 1 and the enable input is active. On the next clock pulse the AM/PM flip-flop will ________.",
+      "options": [
+        "set",
+        "reset",
+        "toggle",
+        "clear"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11mmiah",
+      "q": "In the frequency counter, the control clock is derived from the ________ by frequency dividers controlled in the control and timing block.",
+      "options": [
+        "BCD counters",
+        "system clock signal",
+        "display register",
+        "decoder/display"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kojalo",
+      "q": "Using one case construct inside another is known as ________.",
+      "options": [
+        "doping",
+        "functioning",
+        "freezing",
+        "nesting"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t5858g",
+      "q": "In the frequency counter, the length of time for the ________ to be enabled can be selected with the range select input.",
+      "options": [
+        "display register",
+        "frequency prescaler",
+        "BCD counter",
+        "signal generator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vmtrbe",
+      "q": "The timing and control block provides the ________ for the frequency counter.",
+      "options": [
+        "brains",
+        "BCD counters",
+        "display register",
+        "six different frequency measurement ranges"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-khq113",
+      "q": "The stepper motor HDL will ignore its counter inputs and pass control inputs directly to the output when set in mode ________.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6vv63s",
+      "q": "The full-step sequence of a stepper motor always has two coils energized in any state of the sequence and typically causes ________ of shaft rotation per step.",
+      "options": [
+        "5&#176;",
+        "10&#176;",
+        "15&#176;",
+        "20&#176;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i2ejwc",
+      "q": "Depending on the ________ the IC is in, the output of the stepper motor HDL will respond to each pulse by changing state.",
+      "options": [
+        "mode",
+        "make",
+        "input",
+        "output"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p7swq2",
+      "q": "The step rate of the simulation of a stepper motor is probably ________ the actual stepper motor.",
+      "options": [
+        "slower than",
+        "more than",
+        "almost the same as",
+        "exactly the same as"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2pe5d",
+      "q": "Why should a real hardware functional test be performed on the HDL stepper motor design?",
+      "options": [
+        "To check the speed of the software",
+        "To check the current levels in the motor",
+        "To check the voltage levels of the real outputs",
+        "To provide a fully operational system"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iukza8",
+      "q": "What does the major block of an HDL code emulation of a keypad include?",
+      "options": [
+        "A sequencer",
+        "A clock",
+        "A multiplexer",
+        "A ring counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4fyah7",
+      "q": "The accuracy of the frequency counter depends on the:",
+      "options": [
+        "system clock frequency.",
+        "number of displayed digits.",
+        "sampling rate.",
+        "display update rate."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ps45va",
+      "q": "In the frequency counter, if the clock generator produces a 100 kHz system clock signal, how many decade counters are required to measure 1 Hz?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17qaz54",
+      "q": "What must a stepper motor HDL application include?",
+      "options": [
+        "Variables and processes",
+        "Types and bits",
+        "Counters and decoders",
+        "Sequencers and multiplexers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m2vv1w",
+      "q": "In HDL, one of the strategies used in strategic planning is to find the speed requirements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5pjtj2",
+      "q": "In the keypad HDL encoder, the ts bit array represents a tristate buffer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xci4dw",
+      "q": "In the VHDL code of the stepper motor, the cout outputs are bit_vector type because they are binary bit patterns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bhxylc",
+      "q": "In the keypad HDL encoder, as long as all columns are high the ring counter is enabled and counting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wueogs",
+      "q": "In the frequency counter, the pulse width of the enable signal is very critical for taking an accurate frequency measurement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10ehf7x",
+      "q": "In the digital clock project HDL code, the MOD-12 counter is using ________.",
+      "options": [
+        "a BCD counter followed by a MOD-2 counter",
+        "a single HDL module",
+        "a MOD-6 counter followed by a MOD-2 counter",
+        "a MOD-12 counter followed by a D flip-flop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rj5hws",
+      "q": "Each ________, starting at the simplest level, should be built in HDL.",
+      "options": [
+        "subsystem",
+        "block",
+        "circuit",
+        "function"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sfw3ce",
+      "q": "In the keypad encoder, the ________ activate(s) the freeze bit only when one column is low.",
+      "options": [
+        "NAND columns",
+        "CASE structure",
+        "freeze function",
+        "BCD counter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-op1wkq",
+      "q": "In a real project, the first step of definition often involves some ________ on the part of the project manager.",
+      "options": [
+        "time",
+        "skill",
+        "research",
+        "management"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital System Projects Using Hdl",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hprrrw",
+      "q": "One of the first steps in small-project management is to determine ________.",
+      "options": [
+        "how many devices are controlled by the outputs",
+        "a way to test each block",
+        "if each block fits together",
+        "how each block works"
       ],
       "correct": 0,
       "explain": "",

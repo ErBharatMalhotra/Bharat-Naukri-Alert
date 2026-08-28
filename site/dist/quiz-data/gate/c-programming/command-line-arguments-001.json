@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "Command Line Arguments",
   "source": "indiabix.com",
-  "count": 13,
+  "count": 16,
   "questions": [
     {
-      "id": "gate-1c79sw0",
-      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog one two three /* myprog.c */ #include&lt;stdio.h&gt; int main(int argc, char **argv) { printf(\"%c\\n\", **++argv); return 0; }",
+      "id": "gate-1n60zd4",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample \"*.c\" /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, int *argv) { int i; for(i=1; i&lt;argc; i++) printf(\"%s\\n\", argv[i]); return 0; }",
       "options": [
-        "myprog one two three",
-        "myprog one",
-        "o",
-        "two"
+        "*.c",
+        "\"*.c\"",
+        "sample *.c",
+        "List of all files and folders in the current directory"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t3ui3s",
-      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog one two three /* myprog.c */ #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main(int argc, char **argv) { printf(\"%s\\n\", *++argv); return 0; }",
+      "id": "gate-1sqgl5k",
+      "q": "What will be the output of the program if it is executed like below? cmd&gt; sample /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char **argv) { printf(\"%s\\n\", argv[argc-1]); return 0; }",
       "options": [
-        "myprog",
-        "one",
-        "two",
-        "three"
+        "0",
+        "sample",
+        "samp",
+        "No output"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,213 @@
       "tags": []
     },
     {
-      "id": "gate-ij5nfw",
-      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line (Turbo C in DOS)? cmd&gt; sample 1 2 3 /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { int j; j = argv[1] + argv[2] + argv[3]; printf(\"%d\", j); return 0; }",
+      "id": "gate-1ga9gs8",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample friday tuesday sunday /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%c\", **++argv); return 0; }",
       "options": [
+        "s",
+        "f",
+        "sample",
+        "friday"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x4z3qw",
+      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog friday tuesday sunday /* myprog.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%c\", *++argv[1]); return 0; }",
+      "options": [
+        "r",
+        "f",
+        "m",
+        "y"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14rv5zq",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample one two three /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { int i=0; i+=strlen(argv[1]); while(i&gt;0) { printf(\"%c\", argv[1][--i]); } return 0; }",
+      "options": [
+        "three two one",
+        "owt",
+        "eno",
+        "eerht"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gydhew",
+      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog one two three /* myprog.c */ #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main(int argc, char **argv) { int i; for(i=1; i&lt;=3; i++) printf(\"%u\\n\", &amp;argv[i]); return 0; } If the first value printed by the above program is 65517, what will be the rest of output?",
+      "options": [
+        "65525 65531",
+        "65519 65521",
+        "65517 65517",
+        "65521 65525"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vb7dy0",
+      "q": "What will be the output of the program in Turbo C? #include&lt;stdio.h&gt; int main(int argc, char *argv, char *env[]) { int i; for(i=1; i&lt;argc; i++) printf(\"%s\\n\", env[i]); return 0; }",
+      "options": [
+        "List of all environment variables",
+        "List of all command-line arguments",
+        "count of command-line arguments",
+        "Error: cannot have more than two arguments in main()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e5g3c8",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample Jan Feb Mar /* sample.c */ #include&lt;stdio.h&gt; #include&lt;dos.h&gt; int main(int arc, char *arv[]) { int i; for(i=1; i&lt;_argc; i++) printf(\"%s \", _argv[i]); return 0; }",
+      "options": [
+        "No output",
+        "sample Jan Feb Mar",
+        "Jan Feb Mar",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jhxsvc",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample monday tuesday wednesday thursday /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { while(--argc&gt;0) printf(\"%s\", *++argv); return 0; }",
+      "options": [
+        "sample monday tuesday wednesday thursday",
+        "monday tuesday wednesday thursday",
+        "monday tuesday thursday",
+        "tuesday"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jy7cdg",
+      "q": "If the following program (myproc.c) is present in the directory \"C:\\TC\" then what will be output of the program if run it from DOS shell? /* myproc.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%s\", argv[0]); return 0; }",
+      "options": [
+        "SAMPLE.C",
+        "C:\\TC\\MYPROC.EXE",
+        "C:\\TC",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cnvc68",
+      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog one two three /* myprog.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { int i; for(i=1; i&lt;argc; i++) printf(\"%c\", argv[i][0]); return 0; }",
+      "options": [
+        "oot",
+        "ott",
+        "nwh",
+        "eoe"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qf6qv4",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample 1 2 3 cmd&gt; sample 2 2 3 cmd&gt; sample 3 2 3 /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%s\\n\", argv[0]); return 0; }",
+      "options": [
+        "sample 3 2 3",
+        "sample 1 2 3",
+        "sample",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Command Line Arguments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9e3e0g",
+      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog 1 2 3 /* myprog.c */ #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main(int argc, char **argv) { int i, j=0; for(i=0; i&lt;argc; i++) j = j+atoi(argv[i]); printf(\"%d\\n\", j); return 0; }",
+      "options": [
+        "123",
         "6",
-        "sample 6",
         "Error",
-        "Garbage value"
+        "\"123\""
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-afn4g0",
-      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line (turbo c under DOS)? cmd&gt; sample Good Morning /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%d %s\", argc, argv[1]); return 0; }",
+      "id": "gate-621i9s",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample friday tuesday sunday /* sample.c */ #include&lt;stdio.h&gt; int main(int sizeofargv, char *argv[]) { while(sizeofargv) printf(\"%s\", argv[--sizeofargv]); return 0; }",
       "options": [
-        "3 Good",
-        "2 Good",
-        "Good Morning",
-        "3 Morning"
+        "sample friday tuesday sunday",
+        "sample friday tuesday",
+        "sunday tuesday friday sample",
+        "sunday tuesday friday"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-ft1u9c",
-      "q": "What will be the output of the program #include&lt;stdio.h&gt; void fun(int); int main(int argc) { printf(\"%d \", argc); fun(argc); return 0; } void fun(int i) { if(i!=4) main(++i); }",
+      "id": "gate-1kx7hjg",
+      "q": "What will be the output of the program (sample.c) given below if it is executed from the command line? cmd&gt; sample friday tuesday sunday /* sample.c */ #include&lt;stdio.h&gt; int main(int argc, char *argv[]) { printf(\"%c\", *++argv[2] ); return 0; }",
       "options": [
-        "1 2 3",
-        "1 2 3 4",
-        "2 3 4",
-        "1"
+        "s",
+        "f",
+        "u",
+        "r"
       ],
       "correct": 0,
       "explain": "",
@@ -108,141 +308,13 @@
       "tags": []
     },
     {
-      "id": "gate-1iic5hs",
-      "q": "Which of the following is TRUE about argv?",
+      "id": "gate-1lwofdk",
+      "q": "What will be the output of the program (myprog.c) given below if it is executed from the command line? cmd&gt; myprog 10 20 30 /* myprog.c */ #include&lt;stdio.h&gt; int main(int argc, char **argv) { int i; for(i=0; i&lt;argc; i++) printf(\"%s\\n\", argv[i]); return 0; }",
       "options": [
-        "It is an array of character pointers",
-        "It is a pointer to an array of character pointers",
-        "It is an array of strings",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-175wh9j",
-      "q": "Which of the following statements are FALSE about the below code? int main(int ac, char *av[]) { }",
-      "options": [
-        "ac contains count of arguments supplied at command-line",
-        "av[] contains addresses of arguments supplied at a command line",
-        "In place of ac and av, argc and argv should be used.",
-        "The variables ac and av are always local to main()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gl8mlo",
-      "q": "Every time we supply new set of values to the program at command prompt, we need to recompile the program.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18sazjo",
-      "q": "Even if integer/float arguments are supplied at command prompt they are treated as strings.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e30hy1",
-      "q": "The first argument to be supplied at command-line must always be count of total arguments.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s4jvp8",
-      "q": "In Turbo C/C++ under DOS if we want that any wild card characters in the command-line arguments should be appropriately expanded, are we required to make any special provision?",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y9c6vu",
-      "q": "If the different command line arguments are supplied at different times would the output of the following program change? #include&lt;stdio.h&gt; int main(int argc, char **argv) { printf(\"%d\\n\", argv[argc]); return 0; }",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Command Line Arguments",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1in3mcg",
-      "q": "Does there exist any way to make the command-line arguments available to other functions without passing them as arguments to the function?",
-      "options": [
-        "Yes",
-        "No"
+        "10 20 30",
+        "myprog 10 20",
+        "myprog 10 20 30",
+        "10 20"
       ],
       "correct": 0,
       "explain": "",

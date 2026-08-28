@@ -5,16 +5,16 @@
   "subject": "Java Programming",
   "topic": "Language Fundamentals",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-p5wgqo",
-      "q": "What will be the output of the program? public class CommandArgsThree { public static void main(String [] args) { String [][] argCopy = new String[2][2]; int x; argCopy[0] = args; x = argCopy[0].length; for (int y = 0; y &lt; x; y++) { System.out.print(\" \" + argCopy[0][y]); } } } and the command-line invocation is &gt; java CommandArgsThree 1 2 3",
+      "id": "gate-e0ty8",
+      "q": "What will be the output of the program? public class CommandArgsTwo { public static void main(String [] argh) { int x; x = argh.length; for (int y = 1; y &lt;= x; y++) { System.out.print(\" \" + argh[y]); } } } and the command-line invocation is &gt; java CommandArgsTwo 1 2 3",
       "options": [
-        "0 0",
-        "1 2",
+        "0 1 2",
+        "1 2 3",
         "0 0 0",
-        "1 2 3"
+        "An exception is thrown at runtime"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-yzp5gc",
-      "q": "What will be the output of the program? public class CommandArgs { public static void main(String [] args) { String s1 = args[1]; String s2 = args[2]; String s3 = args[3]; String s4 = args[4]; System.out.print(\" args[2] = \" + s2); } } and the command-line invocation is &gt; java CommandArgs 1 2 3 4",
+      "id": "gate-1sl4es8",
+      "q": "In the given program, how many lines of output will be produced? public class Test { public static void main(String [] args) { int [] [] [] x = new int [3] [] []; int i, j; x[0] = new int[4][]; x[1] = new int[2][]; x[2] = new int[5][]; for (i = 0; i &lt; x.length; i++) { for (j = 0; j &lt; x[i].length; j++) { x[i][j] = new int [i + j + 1]; System.out.println(\"size = \" + x[i][j].length); } } } }",
       "options": [
-        "args[2] = 2",
-        "args[2] = 3",
-        "args[2] = null",
-        "An exception is thrown at runtime."
+        "7",
+        "9",
+        "11",
+        "13"
       ],
       "correct": 0,
       "explain": "",
@@ -48,31 +48,11 @@
       "tags": []
     },
     {
-      "id": "gate-1e34u40",
-      "q": "public class F0091 { public void main( String[] args ) { System.out.println( \"Hello\" + args[0] ); } } What will be the output of the program, if this code is executed with the command line: &gt; java F0091 world",
+      "id": "gate-7r8yo8",
+      "q": "What will be the output of the program? public class X { public static void main(String [] args) { String names [] = new String[5]; for (int x=0; x &lt; args.length; x++) names[x] = args[x]; System.out.println(names[2]); } } and the command line invocation is &gt; java X a b",
       "options": [
-        "Hello",
-        "Hello Foo91",
-        "Hello world",
-        "The code does not run."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ej9w0g",
-      "q": "What will be the output of the program? public class TestDogs { public static void main(String [] args) { Dog [][] theDogs = new Dog[3][]; System.out.println(theDogs[2][0].toString()); } } class Dog { }",
-      "options": [
+        "names",
         "null",
-        "theDogs",
         "Compilation fails",
         "An exception is thrown at runtime"
       ],
@@ -88,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-s7psm8",
-      "q": "What will be the output of the program ? public class Test { public static void main(String [] args) { signed int x = 10; for (int y=0; y&lt;5; y++, x--) System.out.print(x + \", \"); } }",
+      "id": "gate-1los88g",
+      "q": "Which four options describe the correct default values for array elements of the types indicated? int -&gt; 0 String -&gt; \"null\" Dog -&gt; null char -&gt; '\\u0000' float -&gt; 0.0f boolean -&gt; true",
       "options": [
-        "10, 9, 8, 7, 6,",
-        "9, 8, 7, 6, 5,",
-        "Compilation fails.",
-        "An exception is thrown at runtime."
+        "1, 2, 3, 4",
+        "1, 3, 4, 5",
+        "2, 4, 5, 6",
+        "3, 4, 5, 6"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-12s12wd",
-      "q": "Which three are legal array declarations? int [] myScores []; char [] myChars; int [6] myScores; Dog myDogs []; Dog myDogs [7];",
+      "id": "gate-10f8v8o",
+      "q": "Which one of these lists contains only Java programming language keywords?",
       "options": [
-        "1, 2, 4",
-        "2, 4, 5",
-        "2, 3, 4",
-        "All are correct."
+        "class, if, void, long, Int, continue",
+        "goto, instanceof, native, finally, default, throws",
+        "try, virtual, throw, final, volatile, transient",
+        "strictfp, constant, super, implements, do"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-14vzt7o",
-      "q": "public interface Foo { int k = 4; /* Line 3 */ } Which three piece of codes are equivalent to line 3? final int k = 4; public int k = 4; static int k = 4; abstract int k = 4; volatile int k = 4; protected int k = 4;",
+      "id": "gate-pqa41v",
+      "q": "Which will legally declare, construct, and initialize an array?",
       "options": [
-        "1, 2 and 3",
-        "2, 3 and 4",
-        "3, 4 and 5",
-        "4, 5 and 6"
+        "int [] myList = {\"1\", \"2\", \"3\"};",
+        "int [] myList = (5, 8, 2);",
+        "int myList [] [] = {4,9,7,0};",
+        "int myList [] = {4, 3, 7};"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bkbxog",
-      "q": "Which one of the following will declare an array and initialize it with five numbers?",
+      "id": "gate-1w4vy78",
+      "q": "Which is a reserved word in the Java programming language?",
       "options": [
-        "Array a = new Array(5);",
-        "int [] a = {23,22,21,20,19};",
-        "int a [] = new int[5];",
-        "int [5] array;"
+        "method",
+        "native",
+        "subclasses",
+        "reference"
       ],
       "correct": 0,
       "explain": "",
@@ -168,113 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-11c56u8",
-      "q": "Which three are valid declarations of a char? char c1 = 064770; char c2 = 'face'; char c3 = 0xbeef; char c4 = \\u0022; char c5 = '\\iface'; char c6 = '\\uface';",
+      "id": "gate-og474r",
+      "q": "Which is a valid keyword in java?",
       "options": [
-        "1, 2, 4",
-        "1, 3, 6",
-        "3, 5",
-        "5 only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1peystc",
-      "q": "Which is the valid declarations within an interface definition?",
-      "options": [
-        "public double methoda();",
-        "public final double methoda();",
-        "static void methoda(double d1);",
-        "protected void methoda(double d1);"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xe2fqi",
-      "q": "Which one is a valid declaration of a boolean?",
-      "options": [
-        "boolean b1 = 0;",
-        "boolean b2 = 'false';",
-        "boolean b3 = false;",
-        "boolean b4 = Boolean.false();"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d25cuo",
-      "q": "Which three are valid declarations of a float? float f1 = -343; float f2 = 3.14; float f3 = 0x12345; float f4 = 42e7; float f5 = 2001.0D; float f6 = 2.81F;",
-      "options": [
-        "1, 2, 4",
-        "2, 3, 5",
-        "1, 3, 6",
-        "2, 4, 6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ugio7o",
-      "q": "Which is a valid declarations of a String?",
-      "options": [
-        "String s1 = null;",
-        "String s2 = 'null';",
-        "String s3 = (String) 'abc';",
-        "String s4 = (String) '\\ufeed';"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Language Fundamentals",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jltxw8",
-      "q": "What is the numerical range of a char?",
-      "options": [
-        "-128 to 127",
-        "-(215) to (215) - 1",
-        "0 to 32767",
-        "0 to 65535"
+        "interface",
+        "string",
+        "Float",
+        "unsigned"
       ],
       "correct": 0,
       "explain": "",

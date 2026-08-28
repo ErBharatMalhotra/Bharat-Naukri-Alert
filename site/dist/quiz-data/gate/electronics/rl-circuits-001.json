@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Rl Circuits",
   "source": "indiabix.com",
-  "count": 17,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-1aj8e5w",
-      "q": "As the frequency increases in a series RL circuit the impedance also increases.",
+      "id": "gate-1djnkzo",
+      "q": "Phase angle is the difference in phase between the applied voltage (VS) and the circuit current (IT).",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1arcp3g",
-      "q": "The impedance of the circuit in the given circuit is 110 .",
+      "id": "gate-1l60yv8",
+      "q": "If a 7.5 k resistance is connected to a 10 k inductive reactance in a series RL circuit, then the impedance equals 12.5 k .",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-zwh58g",
-      "q": "For series ac circuits containing both resistance and inductive reactance, total opposition to current can be found by simply adding ohmic values or oppositions to current.",
+      "id": "gate-1xkilg0",
+      "q": "In a series RL circuit, a power factor of 0.5 results in less energy conversion to heat than does a power factor of 0.6.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1w38utg",
-      "q": "The phase angle will increase in a parallel RL circuit if the resistance is increased.",
+      "id": "gate-1s74avs",
+      "q": "If Y = 20 mS, then Z = 20.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-145vpls",
-      "q": "The circuit in the given circuit is a low-pass filter.",
+      "id": "gate-nulacw",
+      "q": "The current lags the source voltage in a series RL circuit.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1x7tbtk",
-      "q": "If the resistance is larger than the inductive reactance in the given circuit, the phase angle is _______.",
+      "id": "gate-encl9w",
+      "q": "The phase angle will decrease in a series RL circuit if the inductance is increased.",
       "options": [
-        "less than 0&#176;",
-        "between 0&#176; and 45&#176;",
-        "between 45&#176; and 0&#176;",
-        "greater than 90&#176;"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-wtuqu0",
-      "q": "The phase angle in the circuit in the given circuit is approximately equal to ______.",
+      "id": "gate-racs6l",
+      "q": "As frequency decreases in a parallel RL circuit the impedance also decreases.",
       "options": [
-        "53&#176;",
-        "90&#176;",
-        "37&#176;",
-        "0&#176;"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,13 @@
       "tags": []
     },
     {
-      "id": "gate-nzfvyc",
-      "q": "If VS increases in the given circuit, then the _____.",
+      "id": "gate-f2d1es",
+      "q": "The impedance of a series circuit when R = 15 k and XL = 10 k is approximately equal to ________.",
       "options": [
-        "impedance increases",
-        "real power decreases",
-        "phase angle increases",
-        "current increases"
+        "5 k",
+        "6 k",
+        "18 k",
+        "25 k"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +154,13 @@
       "tags": []
     },
     {
-      "id": "gate-17e0keo",
-      "q": "The frequency at which XL = R in an RL circuit is called the _______________.",
+      "id": "gate-15uhjaf",
+      "q": "The given circuit is a _______.",
       "options": [
-        "cutoff frequency",
-        "optimum frequency",
-        "bandwidth characteristic",
-        "resonant frequency"
+        "low-pass filter",
+        "high-pass filter",
+        "band-pass filter",
+        "band-stop filter"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +174,13 @@
       "tags": []
     },
     {
-      "id": "gate-g6m7lg",
-      "q": "In the given circuit, IT equals _____.",
+      "id": "gate-eg9tug",
+      "q": "If the frequency decreases in the given circuit, then _____.",
       "options": [
-        "0.5 A",
-        "2 A",
-        "1.5 A",
-        "2.5 A"
+        "IT decreases",
+        "IR increases",
+        "IL increases",
+        "none of the currents will change"
       ],
       "correct": 0,
       "explain": "",
@@ -198,12 +194,92 @@
       "tags": []
     },
     {
-      "id": "gate-fr3oys",
-      "q": "Calculate the voltage dropped across L2 in the given circuit.",
+      "id": "gate-cs3nis",
+      "q": "The cutoff frequency of the circuit in the given circuit is approximately equal to _____.",
       "options": [
-        "18 V",
-        "6 V",
-        "13.5 V",
+        "21 Hz",
+        "60 Hz",
+        "0 Hz",
+        "365 Hz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pqrmck",
+      "q": "In the circuit given is, _____.",
+      "options": [
+        "VR leads VL",
+        "VR lags VL",
+        "VR is in phase with VL",
+        "VR, VL, and VS are all in phase"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2btfg",
+      "q": "The voltage dropped across the resistor in the circuit in the given circuit is approximately equal to ___.",
+      "options": [
+        "5 V",
+        "10 V",
+        "7.98 V",
+        "6.02 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15qxwo",
+      "q": "The impedance of the circuit in the given circuit is approximately equal to _____.",
+      "options": [
+        "2 k",
+        "750",
+        "1.25 k",
+        "1 k"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nglk6s",
+      "q": "Calculate the voltage dropped across R1 in the given circuit.",
+      "options": [
+        "14 V",
+        "26.8 V",
+        "28 V",
         "0 V"
       ],
       "correct": 0,
@@ -218,13 +294,13 @@
       "tags": []
     },
     {
-      "id": "gate-19zhaqg",
-      "q": "What is the magnitude of the phase angle of a 24 Vac parallel RL circuit when R = 45 and XL = 1100 ?",
+      "id": "gate-1cfvo08",
+      "q": "What is the true power of a 24 Vac parallel RL circuit when R = 45 and XL = 1100 ?",
       "options": [
-        "0.001&#176;",
-        "2.3&#176;",
-        "87.6&#176;",
-        "89.9&#176;"
+        "313.45 W",
+        "12.8 W",
+        "44.96 W",
+        "22.3 W"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +314,13 @@
       "tags": []
     },
     {
-      "id": "gate-pk4uyk",
-      "q": "Which of the following statements is true if the frequency decreases in the circuit in the given circuit?",
+      "id": "gate-1yx0zxc",
+      "q": "If XL= 100 and R = 100 , then impedance will be",
       "options": [
-        "The phase angle decreases.",
-        "VR decreases.",
-        "IT decreases.",
-        "VS decreases."
+        "141.4",
+        "14.14",
+        "100",
+        "200"
       ],
       "correct": 0,
       "explain": "",
@@ -258,73 +334,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mutmtk",
-      "q": "What is the magnitude of the phase angle between the source voltage and current when a 100 mH inductor with an inductive reactance of 6 k and a 1 k resistor are in series with a source?",
-      "options": [
-        "0.1&#176;",
-        "9.0&#176;",
-        "61.0&#176;",
-        "81.0&#176;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Rl Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iqkyik",
-      "q": "Which of the following statements is true if R1 opens in the circuit in the given circuit?",
-      "options": [
-        "IL2 increases.",
-        "ZT decreases.",
-        "VS increases.",
-        "VL1 equals 0 V."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Rl Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4bg7xg",
-      "q": "Which of the following statements is true if R = 100 and XL = 100 in the circuit in the given circuit?",
+      "id": "gate-2uyghs",
+      "q": "Which of the following statements is true if the inductor shorts out in the circuit in the given circuit?",
       "options": [
         "Each component drops 5 V.",
-        "The impedance equals 200 .",
+        "The impedance equals 0 .",
         "The power factor equals 1.",
-        "The phase angle equals 45&#176;."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Rl Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e23kw0",
-      "q": "Which of the following statements is true about a lag network?",
-      "options": [
-        "An increase in frequency causes an increase in phase lag.",
-        "An increase in frequency causes an increase in the magnitude of the output voltage.",
-        "A decrease in frequency causes an increase in phase lag.",
-        "A decrease in frequency causes a decrease in the magnitude of the output voltage."
+        "The phase angle equals 90&#176."
       ],
       "correct": 0,
       "explain": "",

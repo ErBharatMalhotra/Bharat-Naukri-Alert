@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Data Modeling With The Entity Relationship Model",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-qvkr7",
-      "q": "An ID-dependent entity is an entity whose identifier is a composite identifier where no portion of the composite identifier is an identifier of another entity.",
+      "id": "gate-1ai5xkc",
+      "q": "The degree of a relationship refers to the number of entity classes in the relationship.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-ve3y4j",
-      "q": "A ternary relationship is so called because in contains two entities and one association between them.",
+      "id": "gate-6910zo",
+      "q": "Entities use identifiers while tables use keys.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-q3w52x",
-      "q": "All instances of an entity class have the same attributes.",
+      "id": "gate-gf3beg",
+      "q": "Composite identifiers consist of two or more attributes.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-z6cceg",
-      "q": "A minimum cardinality is the minimum number of entity instances that may participate in a relationship instance.",
+      "id": "gate-lqzxcp",
+      "q": "When designing a database, first identify the entities, then determine the attributes, and finally establish the relationships.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1d9ptv8",
-      "q": "An attribute describes the entity's characteristics.",
+      "id": "gate-1162cg",
+      "q": "A subtype entity is a special case of another entity called a supertype entity.",
       "options": [
         "True",
         "False"
@@ -98,8 +98,98 @@
       "tags": []
     },
     {
-      "id": "gate-3rv66s",
-      "q": "Which of the following indicates the minimum number of entities that must be involved in a relationship?",
+      "id": "gate-9dxrjy",
+      "q": "An entity class is a collection of entities and is described by the structure of the entities in that class.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c61j2h",
+      "q": "Relationship classes are associations between entity classes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a4u4bg",
+      "q": "An identifier typically uses more than one attribute.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sdwwgk",
+      "q": "An identifier determines the type of relationship that an entity has.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dukq4z",
+      "q": "A recursive relationship is a relationship between an archetype and an instance of that archetype.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6d7hp0",
+      "q": "Which of the following indicates the maximum number of entities that can be involved in a relationship?",
       "options": [
         "Minimum cardinality",
         "Maximum cardinality",
@@ -118,53 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1eacr0c",
-      "q": "Which of the following refers to something that can be identified in the users' work environment, something that the users want to track?",
-      "options": [
-        "Entity",
-        "Attribute",
-        "Identifier",
-        "Relationship"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10e6ui7",
-      "q": "In which of the following is a single-entity instance of one type related to many entity instances of another type?",
-      "options": [
-        "One-to-One Relationship",
-        "One-to-Many Relationship",
-        "Many-to-Many Relationship",
-        "Composite Relationship"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yz6lt0",
-      "q": "Which of the following refers to an entity in which the identifier of one entity includes the identifier of another entity?",
+      "id": "gate-136qgi6",
+      "q": "Which type of entity cannot exist in the database unless another type of entity also exists in the database, but does not require that the identifier of that other entity be included as part of its own identifier?",
       "options": [
         "Weak entity",
         "Strong entity",
         "ID-dependent entity",
-        "ID-independent entity"
+        "ID- independent entity"
       ],
       "correct": 0,
       "explain": "",
@@ -178,113 +228,243 @@
       "tags": []
     },
     {
-      "id": "gate-pqqqzb",
-      "q": "Which type of entity is related to two or more associated entities that each contain specialized attributes that apply to some but not all of the instances of the entity?",
-      "options": [
-        "Supertype entity",
-        "Subtype entity",
-        "Archetype entity",
-        "Instance entity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9mxapk",
-      "q": "In which of the following is a single-entity instance of one type of related to a single-entity instance of another type?",
-      "options": [
-        "One-to-One Relationship",
-        "One-to-Many Relationship",
-        "Many-to-Many Relationship",
-        "Composite Relationship"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15rwh0g",
-      "q": "Entities can be associated with one another in which of the following?",
-      "options": [
-        "Entities",
-        "Attributes",
-        "Identifiers",
-        "Relationships"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tnldsa",
-      "q": "Which type of entity has its relationship to another entity determined by an attribute in that other entity called a discriminator?",
-      "options": [
-        "Supertype entity",
-        "Subtype entity",
-        "Archetype entity",
-        "Instance entity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xvsgns",
-      "q": "Which type of entity represents a logical generalization whose actual occurrence is represented by a second, associated entity?",
-      "options": [
-        "Supertype entity",
-        "Subtype entity",
-        "Archetype entity",
-        "Instance entity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Modeling With The Entity Relationship Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12t2f9k",
-      "q": "In a one-to-many relationship, the entity that is on the many side of the relationship is called a(n) ________ entity.",
+      "id": "gate-vfu0l8",
+      "q": "In a one-to-many relationship, the entity that is on the one side of the relationship is called a(n) ________ entity.",
       "options": [
         "parent",
         "child",
         "instance",
         "subtype"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kez6w4",
+      "q": "Which type of entity represents an actual occurrence of an associated generalized entity?",
+      "options": [
+        "Supertype entity",
+        "Subtype entity",
+        "Archetype entity",
+        "Instance entity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xctf1w",
+      "q": "A recursive relationship is a relationship between an entity and ________ .",
+      "options": [
+        "itself",
+        "a subtype entity",
+        "an archetype entity",
+        "an instance entity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9x9emo",
+      "q": "An attribute that names or identifies entity instances is a(n):",
+      "options": [
+        "entity.",
+        "attribute.",
+        "identifier.",
+        "relationship."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s74n6s",
+      "q": "Properties that describe the characteristics of entities are called:",
+      "options": [
+        "entities.",
+        "attributes.",
+        "identifiers.",
+        "relationships."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5c3sew",
+      "q": "In which of the following can many entity instances of one type be related to many entity instances of another type?",
+      "options": [
+        "One-to-One Relationship",
+        "One-to-Many Relationship",
+        "Many-to-Many Relationship",
+        "Composite Relationship"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sxrogq",
+      "q": "Entities of a given type are grouped into a(n):",
+      "options": [
+        "database.",
+        "entity class.",
+        "attribute.",
+        "ERD."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v5agk",
+      "q": "Which of the following is NOT a basic element of all versions of the E-R model?",
+      "options": [
+        "Entities",
+        "Attributes",
+        "Relationships",
+        "Primary keys"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fmx8uw",
+      "q": "An entity is something that can be identified in the user's work environment; something that the users want to track.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zmq6y0",
+      "q": "Entity instances are associated by relationship classes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x25t10",
+      "q": "1:1, 1:N and N:M relationships are also known as HAS-A relationships.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fe73k4",
+      "q": "In a 1:N relationship, the parent is the entity on the one side of the relationship and the child is the entity on the N side of the relationship.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Modeling With The Entity Relationship Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kocajk",
+      "q": "A maximum cardinality is the maximum number of entity instances that can participate in a relationship instance.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

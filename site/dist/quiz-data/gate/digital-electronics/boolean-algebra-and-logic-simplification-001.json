@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Boolean Algebra And Logic Simplification",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 43,
   "questions": [
     {
-      "id": "gate-2bm9g8",
-      "q": "A variable is a symbol used to represent a logical quantity that can have a value of 1 or 0.",
+      "id": "gate-1o7j9p4",
+      "q": "SOP stands for sum-of-powers.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1y6lqmm",
-      "q": "The OR function is Boolean multiplication and the AND function is Boolean addition.",
+      "id": "gate-u85jm8",
+      "q": "The VHDL editor provided with a schematic editor development system will produce a file with the extension .vhd, which can be used by the simulator to test the output of the logic design.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-u06rsc",
-      "q": "In Boolean algebra, A + 1 = 1.",
+      "id": "gate-ykwssg",
+      "q": "In the commutative law, in ORing and ANDing of two variables, the order in which the variables are ORed or ANDed makes no difference.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-jnxgzk",
-      "q": "The product-of-sums (POS) is basically the ORing of ANDed terms.",
+      "id": "gate-h4byzc",
+      "q": "The binary value of 1010 is converted to the product term .",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-macjdw",
-      "q": "In Boolean algebra, = A.",
+      "id": "gate-1ca88od",
+      "q": "Most Boolean reductions result in an equation in only one form.",
       "options": [
         "True",
         "False"
@@ -98,8 +98,98 @@
       "tags": []
     },
     {
-      "id": "gate-1intybo",
-      "q": "The Boolean expression C + CD is equal to ________.",
+      "id": "gate-pbwnso",
+      "q": "If you need a NAND, an AND, and an inverter you would purchase a 7400 IC.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11xw7cz",
+      "q": "The systematic reduction of logic circuits is performed using Boolean algebra.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-177yplw",
+      "q": "CPLD software can be used to design original circuits that prove the Boolean rules and laws.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6di36k",
+      "q": "A Karnaugh map is similar to a truth table.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w7gsn1",
+      "q": "Boolean algebra simplifies logic circuits.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u0lq08",
+      "q": "The Boolean expression is equal to ________.",
       "options": [
         "C",
         "D",
@@ -118,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-o9djq",
-      "q": "One of De Morgan's theorems states that . Simply stated, this means that logically there is no difference between:",
+      "id": "gate-s9w068",
+      "q": "Which of the following is true for a 5-variable Karnaugh map?",
       "options": [
-        "a NOR and an AND gate with inverted inputs",
-        "a NAND and an OR gate with inverted inputs",
-        "an AND and a NOR gate with inverted inputs",
-        "a NOR and a NAND gate with inverted inputs"
+        "There is no such thing.",
+        "It can be used only with the aid of a computer.",
+        "It is made up of two 4-variable Karnaugh maps.",
+        "It is made up of a 2-variable and a 3-variable Karnaugh map."
       ],
       "correct": 0,
       "explain": "",
@@ -138,8 +228,228 @@
       "tags": []
     },
     {
-      "id": "gate-q59tmo",
-      "q": "The commutative law of Boolean addition states that A + B = A &#215; B.",
+      "id": "gate-1564050",
+      "q": "When four 1s are taken as a group on a Karnaugh map, the number of variables eliminated from the output expression is ________.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-our8bs",
+      "q": "In Boolean algebra, the word \"literal\" means ________.",
+      "options": [
+        "a product term",
+        "all the variables in a Boolean expression",
+        "the inverse function",
+        "a variable or its complement"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u1hv8c",
+      "q": "Determine the values of A, B, C, and D that make the sum term equal to zero.",
+      "options": [
+        "A = 1, B = 0, C = 0, D = 0",
+        "A = 1, B = 0, C = 1, D = 0",
+        "A = 0, B = 1, C = 0, D = 0",
+        "A = 1, B = 0, C = 1, D = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1q93as4",
+      "q": "An AND gate with schematic \"bubbles\" on its inputs performs the same function as a(n)________ gate.",
+      "options": [
+        "NOT",
+        "OR",
+        "NOR",
+        "NAND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o95sgo",
+      "q": "For the SOP expression , how many 1s are in the truth table's output column?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10m11mr",
+      "q": "A truth table for the SOP expression has how many input combinations?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oz6m3i",
+      "q": "How many gates would be required to implement the following Boolean expression before simplification? XY + X(X + Z) + Y(X + Z)",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j9g0ub",
+      "q": "Determine the values of A, B, C, and D that make the product term equal to 1.",
+      "options": [
+        "A = 0, B = 1, C = 0, D = 1",
+        "A = 0, B = 0, C = 0, D = 1",
+        "A = 1, B = 1, C = 1, D = 1",
+        "A = 0, B = 0, C = 1, D = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-unsik8",
+      "q": "An OR gate with schematic \"bubbles\" on its inputs performs the same functions as a(n)________ gate.",
+      "options": [
+        "NOR",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vqs52o",
+      "q": "Determine the binary values of the variables for which the following standard POS expression is equal to 0.",
+      "options": [
+        "(0 + 1 + 0)(1 + 0 + 1)",
+        "(1 + 1 + 1)(0 + 0 + 0)",
+        "(0 + 0 + 0)(1 + 0 + 1)",
+        "(1 + 1 + 0)(1 + 0 + 0)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wy0314",
+      "q": "The expression W(X + YZ) can be converted to SOP form by applying which law?",
+      "options": [
+        "associative law",
+        "commutative law",
+        "distributive law",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lczqe0",
+      "q": "The symbol shown below is for a 2-input NAND gate.",
       "options": [
         "True",
         "False"
@@ -156,13 +466,11 @@
       "tags": []
     },
     {
-      "id": "gate-bjri8w",
-      "q": "The systematic reduction of logic circuits is accomplished by:",
+      "id": "gate-2s86uo",
+      "q": "A Karnaugh map is similar to a truth table because it presents all the possible values of input variables and the resulting output of each value.",
       "options": [
-        "using Boolean algebra",
-        "symbolic reduction",
-        "TTL logic",
-        "using a truth table"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -176,13 +484,343 @@
       "tags": []
     },
     {
-      "id": "gate-1h0xr58",
-      "q": "Which of the following combinations cannot be combined into K-map groups?",
+      "id": "gate-1u3ed1c",
+      "q": "The process of reduction or simplification of combinational logic circuits increases the cost of the circuit.",
       "options": [
-        "corners in the same row",
-        "corners in the same column",
-        "diagonal",
-        "overlapping combinations"
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wn710s",
+      "q": "By applying De Morgan's theorem to a NOR gate, two identical truth tables can be produced.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4u9q9o",
+      "q": "Five-variable Karnaugh maps are impossible.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6owumo",
+      "q": "What is the primary motivation for using Boolean algebra to simplify logic expressions?",
+      "options": [
+        "It may make it easier to understand the overall function of the circuit.",
+        "It may reduce the number of gates.",
+        "It may reduce the number of inputs required.",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12ymlcg",
+      "q": "How many gates would be required to implement the following Boolean expression after simplification? XY + X(X + Z) + Y(X + Z)",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cslszc",
+      "q": "AC + ABC = AC",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jgabo8",
+      "q": "When are the inputs to a NAND gate, according to De Morgan's theorem, the output expression could be:",
+      "options": [
+        "X = A + B",
+        "X = (A)(B)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8pjj9g",
+      "q": "Which Boolean algebra property allows us to group operands in an expression in any order without affecting the results of the operation [for example, A + B = B + A]?",
+      "options": [
+        "associative",
+        "commutative",
+        "Boolean",
+        "distributive"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-165rzkq",
+      "q": "Which of the following is an important feature of the sum-of-products (SOP) form of expression?",
+      "options": [
+        "All logic circuits are reduced to nothing more than simple AND and OR gates.",
+        "The delay times are greatly reduced over other forms.",
+        "No signal must pass through more than two gates, not including inverters.",
+        "The maximum number of gates that any signal must pass through is reduced by a factor of two."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rkqcgs",
+      "q": "Use Boolean algebra to find the most simplified SOP expression for F = ABD + CD + ACD + ABC + ABCD.",
+      "options": [
+        "F = ABD + ABC + CD",
+        "F = CD + AD",
+        "F = BC + AB",
+        "F = AC + AD"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-198z8aw",
+      "q": "Occasionally, a particular logic expression will be of no consequence in the operation of a circuit, such as a BCD-to-decimal converter. These result in ________terms in the K-map and can be treated as either ________ or ________, in order to ________ the resulting term.",
+      "options": [
+        "don't care, 1s, 0s, simplify",
+        "spurious, ANDs, ORs, eliminate",
+        "duplicate, 1s, 0s, verify",
+        "spurious, 1s, 0s, simplify"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hmu8q8",
+      "q": "The NAND or NOR gates are referred to as \"universal\" gates because either:",
+      "options": [
+        "can be found in almost all digital circuits",
+        "can be used to build all the other types of gates",
+        "are used in all countries of the world",
+        "were the first gates to be integrated"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-by4qls",
+      "q": "Mapping the SOP expression , we get ________.",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iq651k",
+      "q": "For the SOP expression , how many 0s are in the truth table's output column?",
+      "options": [
+        "zero",
+        "1",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6jmm24",
+      "q": "Mapping the standard SOP expression , we get",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8jzurm",
+      "q": "The truth table for the SOP expression has how many input combinations?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sd1xso",
+      "q": "Converting the Boolean expression LM + M(NO + PQ) to SOP form, we get ________.",
+      "options": [
+        "LM + MNOPQ",
+        "L + MNO + MPQ",
+        "LM + M + NO + MPQ",
+        "LM + MNO + MPQ"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Boolean Algebra And Logic Simplification",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hvj12l",
+      "q": "A Karnaugh map is a systematic way of reducing which type of expression?",
+      "options": [
+        "product-of-sums",
+        "exclusive NOR",
+        "sum-of-products",
+        "those with overbars"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Generics",
   "source": "indiabix.com",
-  "count": 4,
+  "count": 5,
   "questions": [
     {
-      "id": "gate-1epzhx4",
-      "q": "For the code snippet given below, which of the following statements is valid? public class Generic&lt;T&gt; { public T Field; } class Program { static void Main(string[ ] args) { Generic&lt;String&gt; g = new Generic&lt;String&gt;(); g.Field = \"Hello\"; Console.WriteLine(g.Field); } }",
+      "id": "gate-af566o",
+      "q": "Which one of the following classes are present System.Collections.Generic namespace? Stack Tree SortedDictionary SortedArray",
       "options": [
-        "It will print string \"Hello\" on the console.",
-        "Name Generic cannot be used as a class name because it's a keyword.",
-        "Compiler will give an error.",
-        "Member Field of class Generic is not accessible directly."
+        "1 and 2 only",
+        "2 and 4 only",
+        "1 and 3 only",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -28,8 +28,28 @@
       "tags": []
     },
     {
-      "id": "gate-34ajio",
-      "q": "For the code snippet given below, which of the following statements are valid? public class MyContainer&lt;T&gt; where T: IComparabte { // Insert code here } Class MyContainer requires that it's type argument must implement IComparabte interface. Type argument of class MyContainer must be IComparabte. Compiler will report an error for this block of code. This requirement on type argument is called as constraint.",
+      "id": "gate-x9r5kg",
+      "q": "For the code snippet shown below, which of the following statements are valid? public class Generic&lt;T&gt; { public T Field; public void TestSub() { T i = Field + 1; } } class MyProgram { static void Main(string[] args) { Generic&lt;int&gt; gen = new Generic&lt;int&gt;(); gen.TestSub(); } }",
+      "options": [
+        "Addition will produce result 1.",
+        "Result of addition is system-dependent.",
+        "Program will generate run-time exception.",
+        "Compiler will report an error: Operator '+' is not defined for types T and int."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Generics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q194xo",
+      "q": "Which of the following statements are valid about generics in .NET Framework? Generics is a language feature. We can create a generic class, however, we cannot create a generic interface in C#.NET. Generics delegates are not allowed in C#.NET. Generics are useful in collection classes in .NET framework. None of the above",
       "options": [
         "1 and 2 Only",
         "1, 2 and 3 Only",
@@ -48,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c0e1z4",
-      "q": "For the code snippet given below, which of the following statements are valid? public class MyContainer&lt;T&gt; where T: class, IComparable { //Insert code here } Class MyContainer requires that it's type argument must implement IComparable interface. Compiler will report an error for this block of code. There are multiple constraints on type argument to MyContainer class. Class MyContainer requires that its type argument must be a reference type and it must implement IComparable interface.",
+      "id": "gate-pmmf0v",
+      "q": "Which of the following statements is valid about generic procedures in C#.NET?",
       "options": [
-        "1 and 2 Only",
-        "3 and 4 Only",
-        "2 and 3 Only",
-        "All of the above"
+        "All procedures in a Generic class are generic.",
+        "Only those procedures labeled as Generic are generic.",
+        "Generic procedures can take at the most one generic parameter.",
+        "Generic procedures must take at least one type parameter."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-cx8t4k",
-      "q": "Which of the following statements is valid about advantages of generics?",
+      "id": "gate-ztajek",
+      "q": "For the code snippet shown below, which of the following statements are valid? public class TestIndiaBix { public void TestSub&lt;M&gt; (M arg) { Console.Write(arg); } } class MyProgram { static void Main(string[] args) { TestIndiaBix bix = new TestIndiaBix(); bix.TestSub(\"IndiaBIX \"); bix.TestSub(4.2f); } }",
       "options": [
-        "Generics shift the burden of type safety to the programmer rather than compiler.",
-        "Generics require use of explicit type casting.",
-        "Generics provide type safety without the overhead of multiple implementations.",
-        "Generics eliminate the possibility of run-time errors."
+        "Program will compile and on execution will print: IndiaBIX 4.2",
+        "A non generic class Hello cannot have generic subroutine.",
+        "Compiler will generate an error.",
+        "Program will generate a run-time exception."
       ],
       "correct": 0,
       "explain": "",

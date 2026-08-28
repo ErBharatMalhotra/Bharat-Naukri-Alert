@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Combinational Logic Analysis",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-1iyqurq",
-      "q": "The output of a NAND gate is LOW when all inputs are HIGH at the same time.",
+      "id": "gate-3nz0bg",
+      "q": "A NOR gate is a universal gate.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-t4ref0",
-      "q": "When the output of an AND-OR circuit is complemented, it results in an AND-OR-Invert circuit.",
+      "id": "gate-1rzzfrk",
+      "q": "An exclusive-OR gate's output is HIGH when its inputs are equal.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-a211dc",
-      "q": "If one input to a 2-input AND gate is HIGH, the output reflects the other input.",
+      "id": "gate-74jdaq",
+      "q": "A VHDL component is a predefined logic function.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1s4hdik",
-      "q": "A NAND gate can function as a negative-OR gate.",
+      "id": "gate-1none4c",
+      "q": "The output of an AND gate is HIGH when any input is HIGH.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-hc2nsk",
-      "q": "An AND gate is a universal gate.",
+      "id": "gate-m1nkpg",
+      "q": "A NOR gate's truth table is the opposite of that of an OR gate.",
       "options": [
         "True",
         "False"
@@ -98,33 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-j64xa8",
-      "q": "Assume you have A, B, C, and D available but not their complements. The minimum number of 2-input NAND gates required to implement the equation is ________.",
+      "id": "gate-xn87q0",
+      "q": "If both inputs of a 2-input NOR gate are connected, the gate will function as an ________.",
       "options": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Combinational Logic Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1091cjm",
-      "q": "The symbol shown represents a(n) ________.",
-      "options": [
-        "AND gate",
         "OR gate",
-        "NAND gate",
-        "NOR gate"
+        "AND gate",
+        "inverter",
+        "any of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-178vbec",
-      "q": "A gate can drive a number of load gate inputs up to its specified ________.",
+      "id": "gate-brnesw",
+      "q": "Assume that you have a 3-input NAND gate but need only a 2-input gate. The unused input should be ________.",
       "options": [
-        "supply voltage",
-        "noise margin",
-        "fan-in",
-        "fan-out"
+        "connected to ground",
+        "left open",
+        "connected to a HIGH",
+        "any of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mo4ilk",
-      "q": "The expression can be directly implemented using only ________.",
+      "id": "gate-a17snj",
+      "q": "A node is defined as ________.",
       "options": [
-        "an XOR gate",
-        "an XNOR gate",
-        "an AOI circuit",
-        "three 2-input NAND gates"
+        "a common point in a circuit",
+        "a circuit implemented as a sum-of-products",
+        "the output signals from a circuit",
+        "a shorted input"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-rmnnlg",
-      "q": "The symbol shown represents ________.",
+      "id": "gate-wai8um",
+      "q": "Using the universal property of a NAND gate, one or more NAND gates can be used to replace an ________.",
       "options": [
-        "AND-OR logic",
-        "AOI logic",
-        "XOR gate",
-        "XNOR gate"
+        "OR gate",
+        "AND gate",
+        "inverter",
+        "any of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-fdauis",
-      "q": "Before an SOP implementation, the expression would require a total of how many gates?",
+      "id": "gate-h0jvi0",
+      "q": "The output of an exclusive-NOR gate is 1. Which input combination is correct?",
       "options": [
-        "1",
-        "2",
-        "4",
-        "5"
+        "A = 1, B = 0",
+        "A = 0, B = 1",
+        "A = 0, B = 0",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-18rhxy8",
-      "q": "The following waveform pattern is for a(n) ________.",
+      "id": "gate-12f0lxk",
+      "q": "The 8-input XOR circuit shown has an output of Y = 1. Which input combination below (ordered A &#8211; H) is correct?",
       "options": [
-        "2-input AND gate",
-        "2-input OR gate",
-        "Exclusive-OR gate",
-        "None of the above"
+        "10111100",
+        "10111000",
+        "11100111",
+        "00011101"
       ],
       "correct": 0,
       "explain": "",
@@ -238,8 +218,8 @@
       "tags": []
     },
     {
-      "id": "gate-1p66b2c",
-      "q": "Implementing the expression with NOR logic, we get:",
+      "id": "gate-egovjk",
+      "q": "Implementing the expression AB + CDE using NAND logic, we get:",
       "options": [
         "(A)",
         "(B)",
@@ -258,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-64i640",
-      "q": "Implementation of the Boolean expression results in ________.",
+      "id": "gate-1ffe52u",
+      "q": "To implement the expression , it takes one OR gate and ________.",
       "options": [
-        "three AND gates, one OR gate",
-        "three AND gates, one NOT gate, one OR gate",
-        "three AND gates, one NOT gate, three OR gates",
-        "three AND gates, three OR gates"
+        "three AND gates and three inverters",
+        "three AND gates and four inverters",
+        "three AND gates",
+        "one AND gate"
       ],
       "correct": 0,
       "explain": "",
@@ -278,8 +258,28 @@
       "tags": []
     },
     {
-      "id": "gate-21klb0",
-      "q": "How many 2-input NOR gates does it take to produce a 2-input NAND gate?",
+      "id": "gate-1dud2jo",
+      "q": "One positive pulse with tw = 75 &#181;s is applied to one of the inputs of an exclusive-OR circuit. A second positive pulse with tw = 15 &#181;s is applied to the other input beginning 20 &#181;s after the leading edge of the first pulse. Which statement describes the output in relation to the inputs?",
+      "options": [
+        "The exclusive-OR output is a 20 s pulse followed by a 40 s pulse, with a separation of 15 s between the pulses.",
+        "The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, with a separation of 40 s between the pulses.",
+        "The exclusive-OR output is a 15 s pulse followed by a 40 s pulse.",
+        "*The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, followed by a 40 s pulse."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Combinational Logic Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xby1wa",
+      "q": "How many AND gates are required to implement the Boolean expression, ?",
       "options": [
         "1",
         "2",
@@ -298,13 +298,93 @@
       "tags": []
     },
     {
-      "id": "gate-1pj55a2",
-      "q": "A logic circuit with an output consists of ________.",
+      "id": "gate-szs3ou",
+      "q": "How many NOT gates are required to implement the Boolean expression, ?",
       "options": [
-        "two AND gates, two OR gates, two inverters",
-        "three AND gates, two OR gates, one inverter",
-        "two AND gates, one OR gate, two inverters",
-        "two AND gates, one OR gate"
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Combinational Logic Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rb6qe8",
+      "q": "The inverter can be produced with how many NAND gates?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Combinational Logic Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-159sf5v",
+      "q": "A 4-variable AND-OR circuit produces a 0 at its Y output. Which combination of inputs is correct?",
+      "options": [
+        "A = 0, B = 0, C = 1, D = 1",
+        "A = 1, B = 1, C = 0, D = 0",
+        "A = 1, B = 1, C = 1, D = 1",
+        "A = 1, B = 0, C = 1, D = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Combinational Logic Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n9n480",
+      "q": "A 4-variable AND-OR circuit produces a 1 at its Y output. Which combination of inputs is correct?",
+      "options": [
+        "A = 0, B = 0, C = 0, D = 0",
+        "A = 0, B = 1, C = 1, D = 0",
+        "A = 1, B = 1, C = 0, D = 0",
+        "A = 1, B = 0, C = 0, D = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Combinational Logic Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eie0kk",
+      "q": "Implementing the expression using NAND logic, we get:",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
       ],
       "correct": 0,
       "explain": "",

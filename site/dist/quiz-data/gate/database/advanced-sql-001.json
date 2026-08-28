@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Advanced Sql",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-1mtrum8",
-      "q": "Triggers are stored blocks of code that have to be called in order to operate.",
+      "id": "gate-10dv72o",
+      "q": "A transaction is the complete set of closely related update commands that must all be done, or none of them done, for the database to remain valid.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-hqskn4",
-      "q": "The joining technique is useful when data from several relations are to be retrieved and displayed and the relationships are not necessarily nested.",
+      "id": "gate-x2g2yc",
+      "q": "When AUTOCOMMIT is set on, changes will be made automatically at the end of each SQL statement.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-irz3g0",
-      "q": "There should be one condition within the WHERE clause for each pair of tables being joined.",
+      "id": "gate-1mjzqmo",
+      "q": "The UNION clause is used to combine the output from multiple queries together into a single result table.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-lzoj0t",
-      "q": "Subqueries can be nested multiple times.",
+      "id": "gate-7udto6",
+      "q": "ROLLBACK WORK asks SQL to empty the log file.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-9chid4",
-      "q": "The code to create triggers and routines is stored in only one location and is administered centrally.",
+      "id": "gate-j9105z",
+      "q": "The most frequently used relational operation, which brings together data from two or more related tables into one resultant table, is called an equi-join.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-v5hxiw",
-      "q": "Which of the following is one of the basic approaches for joining tables?",
+      "id": "gate-djbtcb",
+      "q": "Outer join is the same as equi-join, except one of the duplicate columns is eliminated in the result table.",
       "options": [
-        "Subqueries",
-        "Union Join",
-        "Natural join",
-        "All of the above"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-9hzd1s",
-      "q": "Which of the following is true concerning systems information in an RDBMS?",
+      "id": "gate-1m0m4a8",
+      "q": "A correlated subquery is where the outer query depends on data from the inner query.",
       "options": [
-        "RDBMS store database definition information in system-created tables.",
-        "This information can be accessed using SQL.",
-        "This information often cannot be updated by a user.",
-        "All of the above."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,72 +134,48 @@
       "tags": []
     },
     {
-      "id": "gate-1dtiff0",
-      "q": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID",
+      "id": "gate-hbmjcw",
+      "q": "A function returns one value and has only output parameters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bpykj1",
+      "q": "With the UNION clause, each query involved must output the same number of columns, and they must be UNION compatible.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tqkz5c",
+      "q": "What type of join is needed when you wish to include rows that do not have matching values?",
       "options": [
         "Equi-join",
         "Natural join",
         "Outer join",
-        "Cartesian join"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Advanced Sql",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cwxdjq",
-      "q": "Embedded SQL is which of the following?",
-      "options": [
-        "Hard-coded SQL statements in a program language such as Java.",
-        "The process of making an application capable of generating specific SQL code on the fly.",
-        "Hard-coded SQL statements in a procedure.",
-        "Hard-coded SQL statements in a trigger."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Advanced Sql",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uxq2ys",
-      "q": "A UNION query is which of the following?",
-      "options": [
-        "Combines the output from no more than two queries and must include the same number of columns.",
-        "Combines the output from no more than two queries and does not include the same number of columns.",
-        "Combines the output from multiple queries and must include the same number of columns.",
-        "Combines the output from multiple queries and does not include the same number of columns."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Advanced Sql",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a91361",
-      "q": "Which of the following statements is true concerning subqueries?",
-      "options": [
-        "Involves the use of an inner and outer query.",
-        "Cannot return the same result as a query that is not a subquery.",
-        "Does not start with the word SELECT.",
         "All of the above."
       ],
       "correct": 0,
@@ -218,53 +190,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yrhsgu",
-      "q": "Which of the following is a correlated subquery?",
-      "options": [
-        "Uses the result of an inner query to determine the processing of an outer query.",
-        "Uses the result of an outer query to determine the processing of an inner query.",
-        "Uses the result of an inner query to determine the processing of an inner query.",
-        "Uses the result of an outer query to determine the processing of an outer query."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Advanced Sql",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wyd500",
-      "q": "How many tables may be included with a join?",
-      "options": [
-        "One",
-        "Two",
-        "Three",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Advanced Sql",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hr6eg4",
-      "q": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T ;",
+      "id": "gate-1or23s7",
+      "q": "What type of join is needed when you wish to return rows that do have matching values?",
       "options": [
         "Equi-join",
         "Natural join",
         "Outer join",
-        "Cartesian join"
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +210,53 @@
       "tags": []
     },
     {
-      "id": "gate-i97ebk",
-      "q": "Which of the following is true concerning triggers?",
+      "id": "gate-1yiepyw",
+      "q": "Which of the following is true concerning a procedure?",
       "options": [
         "You do not create them with SQL.",
-        "They execute against only some applications that access a database.",
-        "They have an event, condition, and action.",
-        "They cannot cascade (cause another trigger to fire)."
+        "They do not need to have a unique name.",
+        "They include procedural and SQL statements.",
+        "They are the same thing as a function."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11txv34",
+      "q": "A CASE SQL statement is which of the following?",
+      "options": [
+        "A way to establish an IF-THEN-ELSE in SQL.",
+        "A way to establish a loop in SQL.",
+        "A way to establish a data definition in SQL.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nr41x0",
+      "q": "Which of the following statements is true concerning routines and triggers?",
+      "options": [
+        "Both consist of procedural code.",
+        "Both have to be called to operate.",
+        "Both run automatically.",
+        "Both are stored in the database."
       ],
       "correct": 0,
       "explain": "",

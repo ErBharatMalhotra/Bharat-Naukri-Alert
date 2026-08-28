@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Shift Registers",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 63,
   "questions": [
     {
-      "id": "gate-3kcwcs",
-      "q": "One of the stages in a register consists of a latch.",
+      "id": "gate-ivopto",
+      "q": "In a 74164 8-bit shift register, in order for the parallel data output to be synchronously loaded on the negative clock edge, the parallel enable input is LOW.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-gbq3mu",
-      "q": "There are several ways to construct a stepper motor to achieve digitally controlled stepping action. One possibility is to construct four stator coils set up as four pole pairs, each 45&#176; apart and using three ferromagnetic pairs spaced 60&#176; apart.",
+      "id": "gate-3n7ec4",
+      "q": "Practically every possible load, shift, and conversion operation is available in a shift register IC.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1mwjdc0",
-      "q": "A parallel load operation is asynchronous, so it is not dependent on the clock.",
+      "id": "gate-1hao14g",
+      "q": "Using separate serial inputs for shifting left or shifting right is a major difference between the 74194 and other shift registers.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-xbvs51",
-      "q": "A ferromagnetic material is one that forms a resistance to magnetic fields.",
+      "id": "gate-194gd4g",
+      "q": "Parallel load means to load all flip-flops at the same time.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-ubm2hs",
-      "q": "A counter has a specified sequence of states, but a shift register does not.",
+      "id": "gate-1n90gik",
+      "q": "The ring and Johnson shift counters are uncommon circuits that are similar to synchronous counters.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1nr7dg8",
-      "q": "Assume a LOW logic level is placed on the SHIFT/LOAD input of a 74195 shift register. The output will change ________.",
+      "id": "gate-1vldsap",
+      "q": "A ring counter is a register in which a certain pattern of 1s and 0s is continuously outputted in parallel.",
       "options": [
-        "immediately",
-        "if the CLOCK is also LOW",
-        "on the next clock leading edge",
-        "depending on the J and K inputs"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1mkj8bo",
-      "q": "A type of shift register in which the Q or Q output of one stage is not connected to the input of the next stage is ________.",
+      "id": "gate-ty84h1",
+      "q": "Bidirectional means having two states.",
       "options": [
-        "parallel in/serial out",
-        "serial in/parallel out",
-        "serial in/serial out",
-        "parallel in/parallel out"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-lezncc",
-      "q": "A Johnson counter, constructed with N flip-flops, has how many unique states?",
+      "id": "gate-1qtlp5b",
+      "q": "Eight states are in an 8-bit Johnson counter sequence.",
       "options": [
-        "N",
-        "2N",
-        "2N",
-        "N2"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-1fdt6lt",
-      "q": "A type of shift register that requires access to the Q outputs of all stages is ________.",
+      "id": "gate-1hnjo8r",
+      "q": "A stage is two storage elements in a register.",
       "options": [
-        "parallel in/serial out",
-        "serial in/parallel out",
-        "serial in/serial out",
-        "a bidirectional shift register"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,11 @@
       "tags": []
     },
     {
-      "id": "gate-9snrn8",
-      "q": "An 8-bit serial in/parallel out shift register is clocked at 4 MHz and is used to delay a serial digital signal by 1.25 s. The output that has the proper delay is ________.",
+      "id": "gate-1vga87w",
+      "q": "When is LOW, the data are shifted one bit per clock pulse.",
       "options": [
-        "QE",
-        "QF",
-        "QG",
-        "QH"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-u6mxar",
-      "q": "How can parallel data be taken out of a shift register simultaneously?",
+      "id": "gate-8uo4bs",
+      "q": "A 4-bit ring counter is loaded with a single 1. The frequency of any given output is ________.",
       "options": [
-        "Use the Q output of the first FF.",
-        "Use the Q output of the last FF.",
-        "Tie all of the Q outputs together.",
-        "Use the Q output of each FF."
+        "the same as the clock",
+        "twice the clock frequency",
+        "one-half the clock frequency",
+        "one-fourth the clock frequency"
       ],
       "correct": 0,
       "explain": "",
@@ -218,11 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-uotfem",
-      "q": "What is meant by parallel load of a shift register?",
+      "id": "gate-xdduds",
+      "q": "Shifting a binary number to the left by one position is equivalent to ________.",
       "options": [
-        "All FFs are preset with data.",
-        "Each FF is loaded with data, one at a time."
+        "multiplying by two",
+        "multiplying by four",
+        "dividing by two",
+        "dividing by four"
       ],
       "correct": 0,
       "explain": "",
@@ -236,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-mheq54",
-      "q": "What does the output enable do on the 74395A chip?",
+      "id": "gate-mjq540",
+      "q": "Assume a 4-bit Johnson counter is initially cleared. After the first clock pulse the output is 0001. After the next clock pulse the output will be ________.",
       "options": [
-        "It determines when data can be loaded.",
-        "It forces all outputs to go HIGH.",
-        "It forces all outputs to go LOW.",
-        "It activates the three-state buffer."
+        "0011",
+        "0010",
+        "1000",
+        "0110"
       ],
       "correct": 0,
       "explain": "",
@@ -256,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-1d8yfx0",
-      "q": "To operate correctly, starting a ring shift counter requires:",
+      "id": "gate-1jcoqs9",
+      "q": "Assume a 4-bit parallel in/serial out shift register is loaded with a binary number. How many clock pulses are required after the parallel load has occurred before the first bit in the sequence appears on the serial output line?",
       "options": [
-        "clearing all the flip-flops",
-        "presetting one flip-flop and clearing all others",
-        "clearing one flip-flop and presetting all others",
-        "presetting all the flip-flops"
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correct": 0,
       "explain": "",
@@ -276,13 +268,622 @@
       "tags": []
     },
     {
-      "id": "gate-v80a6d",
-      "q": "In a 6-bit Johnson counter sequence there are a total of how many states, or bit patterns?",
+      "id": "gate-12on5tc",
+      "q": "Assume an 8-bit serial in/parallel out shift register needs to be cleared but has no clear input. How many clock cycles are required before a zero applied to the input appears on the QH output?",
+      "options": [
+        "1",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cwyivc",
+      "q": "On the fifth clock pulse, a 4-bit Johnson sequence is Q0 = 0, Q1 = 1, Q2 = 1, and Q3 = 1. On the sixth clock pulse, the sequence is ________.",
+      "options": [
+        "Q0 = 1, Q1 = 0, Q2 = 0, Q3 = 0",
+        "Q0 = 1, Q1 = 1, Q2 = 1, Q3 = 0",
+        "Q0 = 0, Q1 = 0, Q2 = 1, Q3 = 1",
+        "Q0 = 0, Q1 = 0, Q2 = 0, Q3 = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dmi5ox",
+      "q": "The bit sequence 0010 is serially entered (right-most bit first) into a 4-bit parallel out shift register that is initially clear. What are the Q outputs after two clock pulses?",
+      "options": [
+        "0000",
+        "0010",
+        "1000",
+        "1111"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nv3ec",
+      "q": "What is a shift register that will accept a parallel input, or a bidirectional serial load and internal shift features, called?",
+      "options": [
+        "tristate",
+        "end around",
+        "universal",
+        "conversion"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1as3gw0",
+      "q": "On the third clock pulse, a 4-bit Johnson sequence is Q0 = 1, Q1 = 1, Q2 = 1, and Q3 = 0. On the fourth clock pulse, the sequence is ________.",
+      "options": [
+        "Q0 = 1, Q1 = 1, Q2 = 1, Q3 = 1",
+        "Q0 = 1, Q1 = 1, Q2 = 0, Q3 = 0",
+        "Q0 = 1, Q1 = 0, Q2 = 0, Q3 = 0",
+        "Q0 = 0, Q1 = 0, Q2 = 0, Q3 = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p71y5b",
+      "q": "A bidirectional 4-bit shift register is storing the nibble 1101. Its input is HIGH. The nibble 1011 is waiting to be entered on the serial data-input line. After three clock pulses, the shift register is storing ________.",
+      "options": [
+        "1101",
+        "0111",
+        "0001",
+        "1110"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1k22br8",
+      "q": "A modulus-12 ring counter requires a minimum of ________.",
+      "options": [
+        "10 flip-flops",
+        "12 flip-flops",
+        "6 flip-flops",
+        "2 flip-flops"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c5tda3",
+      "q": "Stepper motors have become popular in digital automation systems because ________.",
+      "options": [
+        "of their low cost",
+        "they are driven by sequential digital signals",
+        "they can be used to provide repetitive mechanical movement",
+        "they are driven by sequential digital signals and can be used to provide repetitive mechanical movement"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1efcpb4",
+      "q": "The group of bits 11001 is serially shifted (right-most bit first) into a 5-bit parallel output shift register with an initial state 01110. After three clock pulses, the register contains ________.",
+      "options": [
+        "01110",
+        "00001",
+        "00101",
+        "00110"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4lk790",
+      "q": "Assume that a 4-bit serial in/serial out shift register is initially clear. We wish to store the nibble 1100. What will be the 4-bit pattern after the second clock pulse? (Right-most bit first.)",
+      "options": [
+        "1100",
+        "0011",
+        "0000",
+        "1111"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f0vvxs",
+      "q": "A serial in/parallel out, 4-bit shift register initially contains all 1s. The data nibble 0111 is waiting to enter. After four clock pulses, the register contains ________.",
+      "options": [
+        "0000",
+        "1111",
+        "0111",
+        "1000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cbz93s",
+      "q": "With a 50 kHz clock frequency, six bits can be serially entered into a shift register in ________.",
+      "options": [
+        "12 s",
+        "120 s",
+        "12 ms",
+        "120 ms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nxvrrk",
+      "q": "Another way to connect devices to a shared data bus is to use a ________.",
+      "options": [
+        "circulating gate",
+        "transceiver",
+        "bidirectional encoder",
+        "strobed latch"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ykehok",
+      "q": "To serially shift a nibble (four bits) of data into a shift register, there must be ________.",
+      "options": [
+        "one clock pulse",
+        "four clock pulses",
+        "eight clock pulses",
+        "one clock pulse for each 1 in the data"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10jfisk",
+      "q": "Computers operate on data internally in a ________ format.",
+      "options": [
+        "tristate",
+        "universal",
+        "parallel",
+        "serial"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fhyxjj",
+      "q": "In a 4-bit Johnson counter sequence there are a total of how many states, or bit patterns?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1itq87a",
+      "q": "A stepper motor makes its rotation in smooth continuous motion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ss2638",
+      "q": "A universal shift register has both serial and parallel input and output capacity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13lc0ox",
+      "q": "The storage capacity of a register makes it an important type of memory.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b5v3u",
+      "q": "The 74194 4-bit bidirectional universal shift register has a wide range of applications.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v95g0p",
+      "q": "To transmit parallel data over a serial cable, the data must first go through data conversion to the serial format.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ysovee",
+      "q": "With a 200 kHz clock frequency, eight bits can be serially entered into a shift register in ________.",
+      "options": [
+        "4 &mu;s",
+        "40 &mu;s",
+        "400 &mu;s",
+        "40 ms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ps0k9i",
+      "q": "An 8-bit serial in/serial out shift register is used with a clock frequency of 2 MHz to achieve a time delay (td) of ________.",
+      "options": [
+        "16 s",
+        "8 s",
+        "4 s",
+        "2 s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u65uc1",
+      "q": "The bit sequence 10011100 is serially entered (right-most bit first) into an 8-bit parallel out shift register that is initially clear. What are the Q outputs after four clock pulses?",
+      "options": [
+        "10011100",
+        "11000000",
+        "00001100",
+        "11110000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17p69ao",
+      "q": "If an 8-bit ring counter has an initial state 10111110, what is the state after the fourth clock pulse?",
+      "options": [
+        "11101011",
+        "00010111",
+        "11110000",
+        "00000000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iyn2n0",
+      "q": "What is the function of a buffer circuit?",
+      "options": [
+        "to provide an output that is inverted from that on the input",
+        "to provide an output that is equal to its input",
+        "to clean up the input",
+        "to clean up the output"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-76syqo",
+      "q": "What is the preset condition for a ring shift counter?",
+      "options": [
+        "all FFs set to 1",
+        "all FFs cleared to 0",
+        "a single 0, the rest 1",
+        "a single 1, the rest 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n3uczi",
+      "q": "Which is not characteristic of a shift register?",
+      "options": [
+        "Serial in/parallel in",
+        "Serial in/parallel out",
+        "Parallel in/serial out",
+        "Parallel in/parallel out"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wfp4iz",
+      "q": "To keep output data accurate, 4-bit series-in, parallel-out shift registers employ a ________.",
+      "options": [
+        "divide-by-4 clock pulse",
+        "sequence generator",
+        "strobe line",
+        "multiplexer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ibyxf0",
+      "q": "How would a latch circuit be used in a microprocessor system?",
+      "options": [
+        "as transportation for Intel employees",
+        "for a group of data that is the same",
+        "as a set of common connections for transfer of data"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jxzbr",
+      "q": "A 4-bit shift register that receives 4 bits of parallel data will shift to the ________ by ________ position(s) for each clock pulse.",
+      "options": [
+        "right, one",
+        "right, two",
+        "left, one",
+        "left, three"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-erq9v2",
+      "q": "How many clock pulses will be required to completely load serially a 5-bit shift register?",
       "options": [
         "2",
-        "6",
-        "12",
-        "24"
+        "3",
+        "4",
+        "5"
       ],
       "correct": 0,
       "explain": "",
@@ -296,13 +897,13 @@
       "tags": []
     },
     {
-      "id": "gate-rnt7wk",
-      "q": "If a 10-bit ring counter has an initial state 1101000000, what is the state after the second clock pulse?",
+      "id": "gate-h6ze14",
+      "q": "How is a strobe signal used when serially loading a shift register?",
       "options": [
-        "1101000000",
-        "0011010000",
-        "1100000000",
-        "0000000000"
+        "to turn the register on and off",
+        "to control the number of clocks",
+        "to determine which output Qs are used",
+        "to determine the FFs that will be used"
       ],
       "correct": 0,
       "explain": "",
@@ -316,13 +917,13 @@
       "tags": []
     },
     {
-      "id": "gate-m2i988",
-      "q": "How much storage capacity does each stage in a shift register represent?",
+      "id": "gate-dkhzbs",
+      "q": "An 8-bit serial in/serial out shift register is used with a clock frequency of 150 kHz. What is the time delay between the serial input and the Q3 output?",
       "options": [
-        "One bit",
-        "Two bits",
-        "Four bits (one nibble)",
-        "Eight bits (one byte)"
+        "1.67 s",
+        "26.67 s",
+        "26.7 ms",
+        "267 ms"
       ],
       "correct": 0,
       "explain": "",
@@ -336,13 +937,289 @@
       "tags": []
     },
     {
-      "id": "gate-199vuv4",
-      "q": "When the output of a tristate shift register is disabled, the output level is placed in a:",
+      "id": "gate-1dsce61",
+      "q": "When an 8-bit serial in/serial out shift register is used for a 20 s time delay, the clock frequency is ________.",
       "options": [
-        "float state",
-        "LOW state",
-        "high-impedance state",
-        "float or high-impedance state"
+        "40 kHz",
+        "50 kHz",
+        "400 kHz",
+        "500 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5wgaxs",
+      "q": "Ring shift and Johnson counters are:",
+      "options": [
+        "synchronous counters",
+        "aynchronous counters",
+        "true binary counters",
+        "synchronous and true binary counters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z3yghq",
+      "q": "What is the difference between a shift-right register and a shift-left register?",
+      "options": [
+        "There is no difference.",
+        "the direction of the shift"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fk766",
+      "q": "What is a transceiver circuit?",
+      "options": [
+        "a buffer that transfers data from input to output",
+        "a buffer that transfers data from output to input",
+        "a buffer that can operate in both directions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zqos28",
+      "q": "A 74HC195 4-bit parallel access shift register can be used for ________.",
+      "options": [
+        "serial in/serial out operation",
+        "serial in/parallel out operation",
+        "parallel in/serial out operation",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x0hr0o",
+      "q": "What are the three output conditions of a three-state buffer?",
+      "options": [
+        "HIGH, LOW, float",
+        "1, 0, float",
+        "both of the above",
+        "neither of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y4f2yk",
+      "q": "The primary purpose of a three-state buffer is usually:",
+      "options": [
+        "to provide isolation between the input device and the data bus",
+        "to provide the sink or source current required by any device connected to its output without loading down the output device",
+        "temporary data storage",
+        "to control data flow"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-os2jmg",
+      "q": "What is the difference between a ring shift counter and a Johnson shift counter?",
+      "options": [
+        "There is no difference.",
+        "A ring is faster.",
+        "The feedback is reversed.",
+        "The Johnson is faster."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-178rlag",
+      "q": "What is a recirculating register?",
+      "options": [
+        "serial out connected to serial in",
+        "all Q outputs connected together",
+        "a register that can be used over again"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n6e37q",
+      "q": "When is it important to use a three-state buffer?",
+      "options": [
+        "when two or more outputs are connected to the same input",
+        "when all outputs are normally HIGH",
+        "when all outputs are normally LOW",
+        "when two or more outputs are connected to two or more inputs"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xkhrom",
+      "q": "A bidirectional 4-bit shift register is storing the nibble 1110. Its input is LOW. The nibble 0111 is waiting to be entered on the serial data-input line. After two clock pulses, the shift register is storing ________.",
+      "options": [
+        "1110",
+        "0111",
+        "1000",
+        "1001"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7hnw0s",
+      "q": "In a parallel in/parallel out shift register, D0 = 1, D1 = 1, D2 = 1, and D3 = 0. After three clock pulses, the data outputs are ________.",
+      "options": [
+        "1110",
+        "0001",
+        "1100",
+        "1000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k45bqp",
+      "q": "The group of bits 10110111 is serially shifted (right-most bit first) into an 8-bit parallel output shift register with an initial state 11110000. After two clock pulses, the register contains ________.",
+      "options": [
+        "10111000",
+        "10110111",
+        "11110000",
+        "11111100"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wtk3v2",
+      "q": "By adding recirculating lines to a 4-bit parallel-in, serial-out shift register, it becomes a ________, ________, and ________-out register.",
+      "options": [
+        "parallel-in, serial, parallel",
+        "serial-in, parallel, serial",
+        "series-parallel-in, series, parallel",
+        "bidirectional in, parallel, series"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Shift Registers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sxhai0",
+      "q": "What type of register would have a complete binary number shifted in one bit at a time and have all the stored bits shifted out one at a time?",
+      "options": [
+        "parallel-in, parallel-out",
+        "parallel-in, serial-out",
+        "serial-in, parallel-out",
+        "serial-in, serial-out"
       ],
       "correct": 0,
       "explain": "",

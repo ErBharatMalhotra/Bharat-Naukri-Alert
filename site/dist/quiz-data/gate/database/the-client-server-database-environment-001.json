@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-1hr006o",
-      "q": "Activities of a DBMS occur in the processing component logic.",
+      "id": "gate-nj9254",
+      "q": "With an asynchronous system, the requesting system waits for a response in real time.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1n89wl8",
-      "q": "The presentation logic component is responsible for formatting and presenting data on the user's screen or other output device, and for managing user input from a keyboard or other input device.",
+      "id": "gate-1gv256w",
+      "q": "Query-by-Example (QBE) is the most widely available direct-manipulation database query language.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-13ptd90",
-      "q": "Symmetric multiprocessing (SMP) architectures are useful for situations where data must remain in memory during processing to achieve the desired performance level.",
+      "id": "gate-1xdfuu4",
+      "q": "A fat client is a PC configured for handling user interfaces and some application processing, usually with no or limited local data storage.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-2cdwwk",
-      "q": "Massively parallel processing (MPP) systems require a complete copy of the operating system to be resident in each dedicated memory.",
+      "id": "gate-118zht4",
+      "q": "Client/server environments use a local area network (LAN) to support a network of personal computers, each with its own storage, that are also able to share common devices and software attached to the LAN.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-388kdm",
-      "q": "The Windows operating system and Windows applications are event driven.",
+      "id": "gate-1y02nl3",
+      "q": "The database server is responsible for database storage, access, and processing.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1gf65m6",
-      "q": "Stored procedures have which of the following advantages?",
+      "id": "gate-12ec2pg",
+      "q": "The first client/server architectures developed were file servers.",
       "options": [
-        "It takes a longer time to write them as compared to writing Visual Basic.",
-        "Network traffic increases",
-        "Data integrity improves as multiple applications access the same stored procedure.",
-        "Result in thicker client and thinner database server."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,12 +116,124 @@
       "tags": []
     },
     {
-      "id": "gate-c6xw9s",
-      "q": "Which of the following statements is a true statement concerning the open database connectivity standard (ODBC)?",
+      "id": "gate-y8sn4o",
+      "q": "Centralized systems are more susceptible to security threats than client/server architectures.",
       "options": [
-        "Each vendor desiring to be ODBC-complaint provides an ODBC driver.",
-        "Requires certain criteria to be met in order to establish an ODBC connection.",
-        "Provides a programming interface that provides a common language for application programs to access and process SQL databases independent of the RDBMS accessed.",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k303lo",
+      "q": "Writing stored procedures takes less time than using Visual Basic or PowerBuilder to create an application.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2xzu0k",
+      "q": "Data processing logic includes such activities as data validation and identification of processing errors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11x1hjc",
+      "q": "ODBC requires the specific driver.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13fq7iw",
+      "q": "Which of the following statements is true about symmetric multiprocessing?",
+      "options": [
+        "A single copy of the operating system resides in each processor.",
+        "Useful for situations where data must remain in memory to process.",
+        "Bottlenecks increase with uniprocessor systems because tasks are not shared.",
+        "The problems of memory contention are unlikely."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w8s6hk",
+      "q": "Which of the following items are not necessary for client/server?",
+      "options": [
+        "Assure that tools will connect with middleware.",
+        "Understand the requirements.",
+        "Determine network bandwidth capabilities.",
+        "Include the use of a file server."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "The Client Server Database Environment",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tz25dw",
+      "q": "A benefit of the three-tier architecture is which of the following?",
+      "options": [
+        "New modules can be built to support specific business needs",
+        "Performance improves for compiled SQL statements",
+        "Results in a thinner client and database server",
         "All of the above."
       ],
       "correct": 0,
@@ -138,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-12fx21t",
-      "q": "Which of the following is true concerning QBE?",
+      "id": "gate-1k853r8",
+      "q": "Which of the following statements is true concerning JDBC?",
       "options": [
-        "An official standard has been defined for QBE.",
-        "QBE cannot be used for client/server systems.",
-        "QBE does not give the programmer a visual programming environment.",
-        "Complete applications can be written using QBE."
+        "It is language independent.",
+        "It is similar in concept to ODBC.",
+        "It is useful for all object-oriented languages.",
+        "It consists of three main layers."
       ],
       "correct": 0,
       "explain": "",
@@ -158,133 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-ugsnrw",
-      "q": "Client/server security includes which of the following?",
+      "id": "gate-1qa7ifw",
+      "q": "A characteristic of a file server is which of the following?",
       "options": [
-        "Physical security",
-        "Change control security",
-        "Measures taken to secure all systems",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uba2c5",
-      "q": "An application program interface (API) is which of the following?",
-      "options": [
-        "The same thing as ODBC.",
-        "Middleware that does not provide access to a database.",
-        "Middleware that provides access to a database.",
-        "The same thing as JDBC."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l55bho",
-      "q": "Three-tier architecture includes which of the following?",
-      "options": [
-        "Three server layers",
-        "A client layer and two server layers",
-        "Two client layers and one server layer",
-        "Three client layers"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4zti18",
-      "q": "Which of the following is true concerning the mainframe?",
-      "options": [
-        "It is the same thing as client/server.",
-        "Requires someone to decide which code should be on the workstation or the server.",
-        "Mission-critical systems have tended to remain there.",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xnb7ke",
-      "q": "A server cannot serve on which of the following levels?",
-      "options": [
-        "Client Layer",
-        "Business Layer",
-        "Database Layer",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t3p3ys",
-      "q": "The three different application logic components are which of the following?",
-      "options": [
-        "Presentation, Client, and Storage",
-        "Presentation, Client, and Processing",
-        "Presentation, Processing, and Storage",
-        "Presentation, Processing, and Network"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Client Server Database Environment",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tv0s58",
-      "q": "A database server is responsible for which of the following?",
-      "options": [
-        "Database storage",
-        "Data processing logic",
-        "Data presentation logic",
-        "All of the above."
+        "Manages file operations and is shared on a network.",
+        "Manages file operations and is limited to one PC.",
+        "Acts as a fat client and is shared on a network.",
+        "Acts as a fat client and is limited to one PC."
       ],
       "correct": 0,
       "explain": "",

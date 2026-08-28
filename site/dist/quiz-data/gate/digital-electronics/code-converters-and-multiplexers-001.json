@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Code Converters And Multiplexers",
   "source": "indiabix.com",
-  "count": 13,
+  "count": 30,
   "questions": [
     {
-      "id": "gate-17r7zsc",
-      "q": "In a multiplexer, the data select control inputs are responsible for determining which data input is selected to be transmitted to the data output line.",
+      "id": "gate-1od2qvg",
+      "q": "The digit bus and display bus are each just a common set of conductors shared by the digit storage registers and display segments.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-vr9bio",
-      "q": "Before you can make a design you must decide if you want an active-HIGH output.",
+      "id": "gate-ph44fk",
+      "q": "The basic comparator evaluates two binary strings bit by bit and always outputs a 1.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-8mzapc",
-      "q": "The microcontroller needs to use only three input lines to monitor eight separate points.",
+      "id": "gate-1d6uv8",
+      "q": "In a priority encoder, the input with the highest priority is represented on the output.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1g3pnev",
-      "q": "A BCD is used for communication between a computer and a human being because it is too easy to deal with arithmetically.",
+      "id": "gate-j1z9nn",
+      "q": "Exclusive-AND gates are needed for conversions between Gray code and binary code.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-xh12dd",
-      "q": "A demultiplexer takes a dual input data value and routes it to one of several outputs.",
+      "id": "gate-13r18rw",
+      "q": "The 74154 is a 1-of-16 decoder. It accepts a 4-bit binary input.",
       "options": [
         "True",
         "False"
@@ -98,71 +98,210 @@
       "tags": []
     },
     {
-      "id": "gate-2wulno",
-      "q": "What is the function of an enable input on a multiplexer chip?",
-      "options": [
-        "to apply Vcc",
-        "to connect ground",
-        "to active the entire chip",
-        "to active one half of the chip"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Code Converters And Multiplexers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-eo39xa",
-      "q": "The expansion inputs to a comparator are used for expansion to a(n):",
-      "options": [
-        "4-bit system",
-        "8-bit system",
-        "BCD system",
-        "counter system"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Code Converters And Multiplexers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xndhiw",
-      "q": "What do the mathematical symbols A and A > B mean?",
-      "options": [
-        "A &#60; B means A is greater than B. A &#62; B means A is less than B.",
-        "A &#62; B means A is less than B. A &#60; B means A is greater than B.",
-        "A &#60; B means A is less than B. A &#62; B means A is greater than B."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Code Converters And Multiplexers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tlkr1q",
-      "q": "How many inputs will a decimal-to-BCD encoder have?",
+      "id": "gate-j1y9lo",
+      "q": "How many outputs are on a BCD decoder?",
       "options": [
         "4",
+        "16",
         "8",
-        "10",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jrythk",
+      "q": "In a Gray code, each number is 3 greater than the binary representation of that number.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ihgsls",
+      "q": "Use the weighting factors to convert the following BCD numbers to binary. 0101&nbsp;0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0010&nbsp;0110&nbsp;1000",
+      "options": [
+        "01010011&nbsp;&nbsp;&nbsp;&nbsp;001001101000",
+        "11010100&nbsp;&nbsp;&nbsp;&nbsp;100001100000",
+        "110101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100001100",
+        "101011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;001100001"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1binlbw",
+      "q": "Which digital system translates coded characters into a more useful form?",
+      "options": [
+        "encoder",
+        "display",
+        "counter",
+        "decoder"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a5f99w",
+      "q": "From the following list of input conditions, determine the state of the five output leads on a 74148 octal-to-binary encoder. I0 = 1 I3 = 1 I6 = 1 I1 = 1 I4 = 0 I7 = 1 I2 = 1 I5 = 1 EI = 0",
+      "options": [
+        "GS = L, A0 = L, A1 = L, A2 = H, EO = H",
+        "GS = L, A0 = H, A1 = L, A2 = L, EO = H",
+        "GS = L, A0 = L, A1 = H, A2 = L, EO = H",
+        "GS = L, A0 = H, A1 = H, A2 = L, EO = H"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-37yh5o",
+      "q": "A principle regarding most IC decoders is that when the correct input is present, the related output will switch:",
+      "options": [
+        "active-HIGH",
+        "to a high impedance",
+        "to an open",
+        "active-LOW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k6fi2w",
+      "q": "What control signals may be necessary to operate a 1-line-to-16 line decoder?",
+      "options": [
+        "flasher circuit control signal",
+        "a LOW on all gate enable inputs",
+        "input from a hexadecimal counter",
+        "a HIGH on all gate enable circuits"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bz26c0",
+      "q": "One multiplexer can take the place of:",
+      "options": [
+        "several SSI logic gates",
+        "combinational logic circuits",
+        "several Ex-NOR gates",
+        "several SSI logic gates or combinational logic circuits"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vwo2ck",
+      "q": "How many exclusive-NOR gates would be required for an 8-bit comparator circuit?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-932n8n",
+      "q": "Which of the following is not a weighted value positional numbering system:",
+      "options": [
+        "hexadecimal",
+        "binary-coded decimal",
+        "binary",
+        "octal"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-204vu8",
+      "q": "How many inputs are required for a 1-of-16 decoder?",
+      "options": [
+        "2",
+        "4",
+        "8",
         "16"
       ],
       "correct": 0,
@@ -177,13 +316,13 @@
       "tags": []
     },
     {
-      "id": "gate-1umczwo",
-      "q": "How can the active condition (HIGH or LOW) or the decoder output be determined from the logic symbol?",
+      "id": "gate-1q8l9l8",
+      "q": "A truth table with output columns numbered 0&#8211;15 may be for which type of decoder IC?",
       "options": [
-        "A bubble indicates active-HIGH.",
-        "A bubble indicates active-LOW.",
-        "A square indicates active-HIGH.",
-        "A square indicates active-LOW."
+        "hexadecimal 1-of-16",
+        "dual octal outputs",
+        "binary-to-hexadecimal",
+        "hexadecimal-to-binary"
       ],
       "correct": 0,
       "explain": "",
@@ -197,33 +336,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w9n4gw",
-      "q": "If two inputs are active on a priority encoder, which will be coded on the output?",
+      "id": "gate-g3lk5w",
+      "q": "A BCD decoder will have how many rows in its truth table?",
       "options": [
-        "the higher value",
-        "the lower value",
-        "neither of the inputs",
-        "both of the inputs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Code Converters And Multiplexers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16novqm",
-      "q": "How many 74184 BCD-to-binary converters would be required to convert two complete BCD digits to a binary number?",
-      "options": [
+        "10",
+        "9",
         "8",
-        "4",
-        "2",
-        "1"
+        "3"
       ],
       "correct": 0,
       "explain": "",
@@ -237,13 +356,227 @@
       "tags": []
     },
     {
-      "id": "gate-7tj1kq",
-      "q": "How many select lines would be required for an 8-line-to-1-line multiplexer?",
+      "id": "gate-14i4pn0",
+      "q": "How many possible outputs would a decoder have with a 6-bit binary input?",
       "options": [
-        "2",
-        "3",
-        "4",
-        "8"
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h9xhla",
+      "q": "Most demultiplexers facilitate which type of conversion?",
+      "options": [
+        "decimal-to-hexadecimal",
+        "single input, multiple outputs",
+        "ac to dc",
+        "odd parity to even parity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m2oqyc",
+      "q": "The inputs/outputs of an analog multiplexer/demultiplexer are:",
+      "options": [
+        "bidirectional",
+        "unidirectional",
+        "even parity",
+        "binary-coded decimal"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tl4mgy",
+      "q": "Why can a CMOS IC be used as both a multiplexer and a demultiplexer?",
+      "options": [
+        "It cannot be used as both.",
+        "CMOS uses bidirectional switches."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mml8m4",
+      "q": "A microcontroller differs from a microprocessor in that it has several ________ ports and ________ built into its architecture, making it better suited for ________ applications.",
+      "options": [
+        "communication, PROMs, control",
+        "parallel, logic gates, processing",
+        "input/output, memory, control",
+        "data, memory, decoding"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aw6w48",
+      "q": "How is an encoder different from a decoder?",
+      "options": [
+        "The output of an encoder is a binary code for 1-of-N input.",
+        "The output of a decoder is a binary code for 1-of-N input."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mwp7eq",
+      "q": "Why is the Gray code more practical to use when coding the position of a rotating shaft?",
+      "options": [
+        "All digits change between counts.",
+        "Two digits change between counts.",
+        "Only one digit changes between counts."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2ny6mw",
+      "q": "For the following conditions on a 7485 magnitude comparator, what will be the state of each of the three outputs? A0 = 0B0 = 1IA &#60; B = 0 A1 = 1B1 = 0IA = B = 1 A2 = 1B2 = 0IA &#62; B = 0 A3 = 0B3 = 0&nbsp;",
+      "options": [
+        "A = B = 0, A &#60; B = 0, A &#62; B = 1",
+        "A = B = 0, A &#60; B = 1, A &#62; B = 0",
+        "A = B = 1, A &#60; B = 0, A &#62; B = 0",
+        "A = B = 0, A &#60; B = 0, A &#62; B = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1laolas",
+      "q": "The primary use for Gray code is:",
+      "options": [
+        "coded representation of a shaft's mechanical position",
+        "turning on/off software switches",
+        "to represent the correct ASCII code to indicate the angular position of a shaft on rotating machinery",
+        "to convert the angular position of a shaft on rotating machinery into hexadecimal code"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-od7soa",
+      "q": "Why is a demultiplexer called a data distributor?",
+      "options": [
+        "The input will be distributed to one of the outputs.",
+        "One of the inputs will be selected for the output.",
+        "The output will be distributed to one of the inputs."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-naf3s4",
+      "q": "What is the status of the inputs S0, S1, and S2 of the 74151 eight-line multiplexer in order for the output Y to be a copy of input I5?",
+      "options": [
+        "S0 = 0, S1 = 1, S2 = 0",
+        "S0 = 0, S1 = 0, S2 = 1",
+        "S0 = 1, S1 = 1, S2 = 0",
+        "S0 = 1, S1 = 0, S2 = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Code Converters And Multiplexers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-izw1i5",
+      "q": "One way to convert BCD to binary using the hardware approach is:",
+      "options": [
+        "with MSI IC circuits",
+        "with a keyboard encoder",
+        "with an ALU",
+        "UART"
       ],
       "correct": 0,
       "explain": "",

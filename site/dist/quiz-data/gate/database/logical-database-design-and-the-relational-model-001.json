@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Logical Database Design And The Relational Model",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-12xduu2",
-      "q": "An enterprise key is a primary key whose value is unique for a given relation.",
+      "id": "gate-s0aaso",
+      "q": "A null value is assigned when no other value applies.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-m3ecw0",
-      "q": "A composite attribute does not get mapped into a relation.",
+      "id": "gate-1wr99e0",
+      "q": "A synonym is two or more attributes that have different names but the same meaning.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-3kqsx4",
-      "q": "Weak entities do not get mapped into a relation.",
+      "id": "gate-qhkuys",
+      "q": "The primary key in a relation does not need to be underlined.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1x6p39c",
-      "q": "A primary key may be null.",
+      "id": "gate-d6d08s",
+      "q": "In a 1:M relationship, the primary key on the one side migrates to the many side to become the foreign key on the many side.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,136 @@
       "tags": []
     },
     {
-      "id": "gate-itspkw",
-      "q": "When mapping a multivalued attribute into a relation which of the following is true?",
+      "id": "gate-g5c1bi",
+      "q": "Normalization is a formal process for deciding which attributes should be grouped together in a relation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hpc5b0",
+      "q": "A candidate key must uniquely identify each row.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2gs7os",
+      "q": "Well-structured relations encourage anomalies of data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2iipf4",
+      "q": "A foreign key may be null and still adhere to the referential integrity constraint.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oom3et",
+      "q": "If a relation is in third normal form, it does not need to be in second normal form.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i4q7fs",
+      "q": "The primary key of the new relation in a many-to-many relationship is a composite key comprised of the primary keys of each of the binary entities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16zffdo",
+      "q": "The entity integrity rule states that:",
+      "options": [
+        "no primary key attribute may be null.",
+        "no primary key can be composite.",
+        "no primary key may be unique.",
+        "no primary key may be equal to a value in a foreign key."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Logical Database Design And The Relational Model",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xxlg2w",
+      "q": "When mapping a many-to-many unary relationship into a relation which of the following is true?",
       "options": [
         "One relation is created.",
         "Two relations are created.",
@@ -100,8 +228,8 @@
       "tags": []
     },
     {
-      "id": "gate-1izg99g",
-      "q": "If no multivalued attributes exist in a relation, then the relation is in what normal form?",
+      "id": "gate-12yibsd",
+      "q": "If no multivalued attributes exist and no partial dependencies exist in a relation, then the relation is in what normal form?",
       "options": [
         "First normal form",
         "Second normal form",
@@ -120,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-lawen8",
-      "q": "A primary key is which of the following?",
+      "id": "gate-tukk1g",
+      "q": "A foreign key is which of the following?",
       "options": [
         "Any attribute",
-        "An attribute that uniquely identifies each row",
-        "An attribute that uniquely identifies each column",
-        "A derived attribute"
+        "The same thing as a primary key",
+        "An attribute that serves as the primary key of another relation",
+        "An attribute that serves no purpose"
       ],
       "correct": 0,
       "explain": "",
@@ -140,133 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-ny132m",
-      "q": "The relational model consists of:",
+      "id": "gate-187uj83",
+      "q": "A transitive dependency is which of the following?",
       "options": [
-        "data in the form of tables.",
-        "data redundancy.",
-        "operations using non-SQL languages.",
-        "unorganized data."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lnydqc",
-      "q": "When mapping a binary many-to-many relationship into a relation which of the following is true?",
-      "options": [
-        "One relation is created.",
-        "Two relations are created.",
-        "Three relations are created.",
-        "Four relations are created."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gt6o4o",
-      "q": "A relation has which of the following properties?",
-      "options": [
-        "Each row is not unique.",
-        "Attributes can have the same name within a given table.",
-        "Each relation has a unique name.",
-        "The order of the columns is significant."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nuyabs",
-      "q": "When mapping a ternary relationship with an associative entity into a relation which of the following is true?",
-      "options": [
-        "One relation is created.",
-        "Two relations are created.",
-        "Three relations are created.",
-        "Four relations are created."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1al3zk",
-      "q": "When mapping a regular entity into a relation which of the following is true?",
-      "options": [
-        "One relation is created.",
-        "Two relations are created.",
-        "Three relations are created.",
-        "Four relations are created."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q3grig",
-      "q": "When mapping a supertype/subtype relationship which of the following is true?",
-      "options": [
-        "The supertype primary key is assigned to each subtype.",
-        "The subtype primary key is assigned to each supertype.",
-        "There is no link between the supertype/subtype entities.",
-        "There is no primary key/foreign key relationship between a supertype/subtype."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Logical Database Design And The Relational Model",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x9vkn0",
-      "q": "Relations are:",
-      "options": [
-        "two-dimensional tables.",
-        "three-dimensional tables.",
-        "four-dimensional tables.",
-        "five-dimensional tables."
+        "A functional dependency between two or more key attributes.",
+        "A functional dependency between two or more nonkey attributes.",
+        "A relation that is in first normal form.",
+        "A relation that is in second normal form."
       ],
       "correct": 0,
       "explain": "",

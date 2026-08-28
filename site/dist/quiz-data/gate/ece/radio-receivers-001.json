@@ -5,15 +5,15 @@
   "subject": "ECE",
   "topic": "Radio Receivers",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 76,
   "questions": [
     {
-      "id": "gate-nn2rjk",
-      "q": "Noise limiter is provided on AM receivers to",
+      "id": "gate-ukv8no",
+      "q": "The sensitivity of a superheterodyne receiver is determined by",
       "options": [
-        "reduce interfering noise due to ignition system",
-        "reduce noise due to electrical storms",
-        "reduce interference due to electrical machinery",
+        "the gain IF amplifier",
+        "the gain of RF amplifier",
+        "the noise figure",
         "all of the above"
       ],
       "correct": 0,
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-x1ig2o",
-      "q": "A low ratio of the A.C. load impedance of a diode detector results in",
+      "id": "gate-1u997jr",
+      "q": "In radio receiver, the maximum contribution to noise is from",
       "options": [
-        "diagonal clipping",
-        "poor AGC operation",
-        "poor AF response",
-        "negative peak clipping"
+        "mixer stage",
+        "power supply",
+        "power amplifier",
+        "equally from above three"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,431 @@
       "tags": []
     },
     {
-      "id": "gate-1pysibk",
-      "q": "A trimmer is basically a",
+      "id": "gate-16fbt1s",
+      "q": "Power spectral density of white noise",
+      "options": [
+        "is constant with frequency",
+        "increases with frequency",
+        "decreases with frequency",
+        "none"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16iykaw",
+      "q": "In a FM waveform, the side bands are spaced at intervals equal to",
+      "options": [
+        "four times the modulating frequency",
+        "twice the modulating frequency",
+        "half the modulating frequency",
+        "modulating frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1no9r4l",
+      "q": "In a receiver, at higher frequencies",
+      "options": [
+        "tracking will be improved",
+        "tracking will be poor",
+        "selectivity will be poor",
+        "image frequency rejection will be poor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qdzydi",
+      "q": "Which of the following circuit cannot be used to demodulate SSB?",
+      "options": [
+        "Phase discriminator",
+        "Produce detector",
+        "Balanced modulator",
+        "Beat frequency oscillator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1my1mg2",
+      "q": "High IF in a superheat receiver",
+      "options": [
+        "improves selectivity",
+        "increases tracking problems",
+        "decreases tracking problems",
+        "reduces adjacent channel rejection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-znam18",
+      "q": "A communication channel with additive white Gaussian noise, has a bandwidth of 4 kHz and an SNR of 15. Its channel capacity is",
+      "options": [
+        "1.6 kbps",
+        "16 kbps",
+        "32 kbps",
+        "256 kbps"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w8qwba",
+      "q": "In a superheterodyne receiver",
+      "options": [
+        "the IF stage has better selectivity than RF stage",
+        "the RF stage has better selectivity than IF stage",
+        "the RF stage has same selectivity than IF stage",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mu32w0",
+      "q": "The function of an AM detector circuit is to",
+      "options": [
+        "rectify the input signal",
+        "discard the carrier",
+        "provide audio signal",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nsoh25",
+      "q": "Which of the following should be used in order to prevent overloading or the last IF amplifier in a receiver?",
+      "options": [
+        "Variable selectivity",
+        "Variable sensitivity",
+        "Double conversion",
+        "Squelch"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uia66d",
+      "q": "Most popular IF for receivers tuning to 540 to 1650 kHz is",
+      "options": [
+        "433 kHz",
+        "455 kHz",
+        "545 kHz",
+        "555 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1q4zpgc",
+      "q": "Which are the popular IF frequencies for microwave and radar receivers operating on frequencies in the range 1 to 10 GHz",
+      "options": [
+        "30, 60 and 70 kHz",
+        "3, 6 and 7 kHz",
+        "30, 60 and 70 MHz",
+        "3, 6 and 7 GHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-et5be6",
+      "q": "In a ratio detector",
+      "options": [
+        "the linearity is worse than in a phase discriminator",
+        "the output is twice that obtainable from a similar phase discriminator",
+        "stabilization against signal strength variations is provided",
+        "the circuit is the same as in a discriminator, except that the diodes are reversed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jt4jvo",
+      "q": "Neutralization is used in RF amplifiers to",
+      "options": [
+        "stop oscillation",
+        "increase bandwidth",
+        "improve selectivity",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6upkq4",
+      "q": "When fs is the signal frequency and fi is the intermediate frequency, then image frequency fsi is given by",
+      "options": [
+        "fsi = fs - 2fi",
+        "fsi = fs + 2fi"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2f8z1w",
+      "q": "It is known that noise phase modulates the FM wave. As the noise side band frequency approaches the carrier frequency, the noise amplitude",
+      "options": [
+        "will increase",
+        "will decrease",
+        "will remain constant",
+        "will reduce to negligible value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13wjr94",
+      "q": "The selectivity of a radio receiver is",
+      "options": [
+        "its ability to reject adjacent unwanted signals",
+        "its ability to amplify weak signals",
+        "the frequency at which it gives maximum amplification to signal.",
+        "its ability to suppress noise."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ko9x1u",
+      "q": "If the intermediate frequency of a superheterodyne receiver falls within the tuning range of the receiver",
+      "options": [
+        "Unsuitability will occur",
+        "Heterodyne whistles will be heard",
+        "Tuning to the frequency band immediately adjacent to the intermediate frequency will become impossible",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hjty44",
+      "q": "EM 84 tube is used in radio receivers as",
+      "options": [
+        "audio amplifier",
+        "RF amplifier",
+        "full wave rectifier",
+        "magic eye"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nfrtnb",
+      "q": "Which of the following statement about receivers is false?",
+      "options": [
+        "Double conversion is used to improve image rejection",
+        "Double conversion is used to improve selectivity",
+        "Variable sensitivity is used to improve selectivity",
+        "Variable sensitivity is used to eliminate selective fading"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1my1n9o",
+      "q": "Modulated carrier power in FM",
+      "options": [
+        "increases with modulating signal power",
+        "decreases with modulating signal power",
+        "is independent of the modulating signal power",
+        "none"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7476bg",
+      "q": "A receiver having an RF amplifier and an IF of 450 kHz, has Q of the coils 65 and an incoming frequency of 1200 kHz. The image rejection of the receiver is",
+      "options": [
+        "5870",
+        "3655",
+        "236",
+        "13.3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1spspi0",
+      "q": "A padder is basically a/an",
       "options": [
         "insulator",
-        "inductor",
+        "variable resistor",
         "capacitor",
-        "variable resistor"
+        "inductor"
       ],
       "correct": 0,
       "explain": "",
@@ -68,111 +486,12 @@
       "tags": []
     },
     {
-      "id": "gate-ac4cqq",
-      "q": "In a radio receiver",
+      "id": "gate-1l0m958",
+      "q": "In a radio receiver, the local oscillator is always tuned to a frequency higher than the incoming frequency to",
       "options": [
-        "all stages contribute equally to noise",
-        "RF stage has no effect on S/N ratio",
-        "mixer stage contributes most of the noise generated"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Radio Receivers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1622t3c",
-      "q": "Which curve represents the fidelity curve of a standard receiver?",
-      "options": [
-        "Curve A",
-        "Curve B",
-        "Curve C",
-        "Curve D"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Radio Receivers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1su265s",
-      "q": "In a broadcast superheterodyne receiver",
-      "options": [
-        "the local oscillator operates below the signal frequency",
-        "local oscillator frequency is normally double the IF",
-        "RF amplifier normally works at kHz above the carrier frequency",
-        "mixer input must be tuned to the signal frequency"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Radio Receivers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ajlaiw",
-      "q": "A duplexer is a device used to",
-      "options": [
-        "feed more than one receiver from a single antenna",
-        "connect two transmitters to the same antenna",
-        "connect a receiver and a transmitter to the same antenna",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Radio Receivers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-25wcd4",
-      "q": "A heterodyne frequency changer is called a",
-      "options": [
-        "Modulator",
-        "Mixer",
-        "Demodulator",
-        "Frequency translator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Radio Receivers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i5bmfe",
-      "q": "RF amplifiers are used in radio receivers for",
-      "options": [
-        "improved image frequency rejection",
-        "improved rejection of adjacent unwanted signals",
-        "prevention of re-radiation of the local oscillator through the antenna of the receiver",
+        "facilitate tracking",
+        "allow permit adequate frequency coverage without switching",
+        "facilitate image frequency rejection",
         "all of the above"
       ],
       "correct": 0,
@@ -187,8 +506,726 @@
       "tags": []
     },
     {
-      "id": "gate-18b7vi5",
-      "q": "The sensitivity curve of a standard receiver is represented by",
+      "id": "gate-fbowj4",
+      "q": "When a superheterodyne receiver is tuned to 455 kHz, its local oscillator provides a mixer with the input at 1010 kHz. The image frequency is",
+      "options": [
+        "555 kHz",
+        "1010 kHz",
+        "1465 kHz",
+        "1920 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mkjpsv",
+      "q": "In a broadcast superheterodynes receiver having no RF amplifier, the loaded Q of the antenna coupling circuit is 100. If the intermediate frequency is 455 kHz. The image frequency at 1000 kHz will be",
+      "options": [
+        "1010 kHz",
+        "1455 kHz",
+        "1910 kHz",
+        "545 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19t2e6w",
+      "q": "FM receivers using the standard 88 to 108 MHz band use IF of",
+      "options": [
+        "8 MHz",
+        "9.9 MHz",
+        "10.7 MHz",
+        "12.2 MHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1utt9zk",
+      "q": "Most of the amplification of the received signal is obtained in a superheterodyne receiver from the",
+      "options": [
+        "IF stage",
+        "RF stage",
+        "power amplification stage",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a0fpk0",
+      "q": "The problem associated with tuned-radio frequency receiver is",
+      "options": [
+        "instability",
+        "insufficient adjacent frequency rejection",
+        "bandwidth variation",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8zwi6g",
+      "q": "Superheterodyne receiver can be used in",
+      "options": [
+        "AM",
+        "FM",
+        "SSB",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q6ce9k",
+      "q": "In a receiver, which of the following device has IF input but RF output?",
+      "options": [
+        "Demodulator",
+        "Loudspeaker",
+        "Audio amplifier",
+        "Frequency changer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pt5lez",
+      "q": "Transistor are free from which type of noise?",
+      "options": [
+        "Resistance noise",
+        "Partition noise",
+        "Flicker noise",
+        "Shot noise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10vndsk",
+      "q": "Standard AM radio broadcasts are confined to",
+      "options": [
+        "MF",
+        "HF",
+        "VHF",
+        "UHF"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-juuqfw",
+      "q": "An unmodulated voltage 10 V effective is applied to a dioxide detector in which load resistance is 4 x 10-5 ohms. A micrometer shows that the rectified DC current in this resistance is 30 A. The input resistance of the detector is",
+      "options": [
+        "114 kW",
+        "336 kW",
+        "384 kW",
+        "455 kW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t526tl",
+      "q": "The output of a diode detector contains",
+      "options": [
+        "D.C. voltage",
+        "modulating signal",
+        "RF ripple",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18fsvm8",
+      "q": "Which of the following noise does not occur in transistors?",
+      "options": [
+        "Partition noise",
+        "Shot noise",
+        "Flicker noise",
+        "Resistance noise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jlvac4",
+      "q": "Noise generated in a resistor is also known as",
+      "options": [
+        "partition noise",
+        "white noise",
+        "thermal noise",
+        "shot noise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qucqcs",
+      "q": "Which of the following is used to provide tracking between RF amplifier and local oscillator stages of receiver?",
+      "options": [
+        "Variable tuning inductor",
+        "Ganged tuning inductor",
+        "Variable capacitor",
+        "Variable preset"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1711vfo",
+      "q": "In a superheterodyne receiver, the IF stage has better selectivity than RF stage because",
+      "options": [
+        "of higher frequency",
+        "of lower frequency",
+        "of high L/C ratio",
+        "of constant passband"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9sc40g",
+      "q": "An arbitrary signal m (t) has zero average value and it is bandlimited to 3.2 kHz. It is sampled at the rate of 8 K samples/S. The samples are passed through an ideal bandpass filter with centre frequency of 32 kHz and bandwidth of 6.4 kHz. The output of band pass filter is",
+      "options": [
+        "AM-DSB signal with suppressed carrier",
+        "AM-DSB signal with carrier",
+        "AM-SSB signal with carrier",
+        "a sequence of exponentially decaying sine waves"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-exssc1",
+      "q": "The purpose of incorporating a pre-selector stage in a receiver is to",
+      "options": [
+        "provide higher selectivity",
+        "provide higher fidelity",
+        "improve linearity",
+        "larger passband"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rjj2xk",
+      "q": "Vividh Bharati programme is transmitted in",
+      "options": [
+        "short wave",
+        "medium frequency",
+        "very high frequency",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kvaxw1",
+      "q": "In a broadcast superheterodynes receiver having no RF amplifier, the loaded Q of the antenna coupling circuit is 100. If the intermediate frequency is 455 kHz. In receivers operating upto the limit of shortwave broadcasting the local oscillator often used is",
+      "options": [
+        "Armstrong oscillator",
+        "Colpitts oscillator",
+        "Clapp oscillator",
+        "Ultra Audio oscillator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h01acg",
+      "q": "In an FM signal, the power",
+      "options": [
+        "increases as the modulation index increases",
+        "reduces as the modulation index increase",
+        "increases as the modulation index decreases",
+        "remains constant when the modulation index increases"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1drslvo",
+      "q": "An unmodulated voltage 10 V effective is applied to a dioxide detector in which load resistance is 4 x 10-5 ohms. A micrometer shows that the rectified DC current in this resistance is 30 A. The efficiency of detection is",
+      "options": [
+        "34%",
+        "55.5%",
+        "68.8%",
+        "84.7%"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12spev4",
+      "q": "Selectivity varies with receiving frequency, frequency is raised.",
+      "options": [
+        "Somewhat better when the receiving frequency is raised",
+        "Somewhat better at intermediate frequency",
+        "Somewhat worse when the receiving frequency is lowered",
+        "Somewhat worse when the receiving frequency is raised"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hsff70",
+      "q": "A transmitter serial current contains",
+      "options": [
+        "carrier frequencies",
+        "audio frequencies",
+        "radio frequencies",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w9ahy4",
+      "q": "In a broadcast superheterodynes receiver having no RF amplifier, the loaded Q of the antenna coupling circuit is 100. If the intermediate frequency is 455 kHz. The image frequency at 25 MHz will be",
+      "options": [
+        "24.09 MHz",
+        "24.54 MHz",
+        "25.45 MHz",
+        "25.91 MHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10b182l",
+      "q": "The noise produced by a resistor is proportional to",
+      "options": [
+        "absolute temperature",
+        "(absolute temperature)2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h8i9pn",
+      "q": "In a radio receiver, if the intermediate frequency is too high",
+      "options": [
+        "Selectivity will be poor",
+        "Tracking difficulties will be least",
+        "Adjacent channel rejection will improve",
+        "All of the above will occur"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ikf4i5",
+      "q": "In a radio receiver, if the intermediate frequency is too low",
+      "options": [
+        "Image-frequency rejection will improve",
+        "Selectivity will be too sharp",
+        "The frequency selectivity of the local oscillator will have to be lowered",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c3p3i0",
+      "q": "FM amplifier in a superheterodyne receiver",
+      "options": [
+        "increases selectivity",
+        "suppresses noise",
+        "provides improved tracking",
+        "improves the rejection of the image frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19lyr8l",
+      "q": "Padders are used in a receiver to",
+      "options": [
+        "discard the carrier",
+        "facilitate tracking",
+        "filter the input signal",
+        "suppress noise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17qgmbo",
+      "q": "In a radio receiver, the local oscillator is tuned to a frequency",
+      "options": [
+        "lower than the incoming frequency",
+        "higher than the incoming frequency",
+        "equal to incoming frequency",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-svzyo0",
+      "q": "Which of the following oscillator is generally not used at VHF?",
+      "options": [
+        "Colpitts oscillator",
+        "Clapp oscillator",
+        "Armstrong oscillator",
+        "Ultra Audio oscillator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10dowf0",
+      "q": "In a receiver, which of the following device has RF input but IF output?",
+      "options": [
+        "Loudspeaker",
+        "Frequency changer",
+        "Demodulator",
+        "Audio amplifier"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a9ut7g",
+      "q": "The IF stage of a receiver employs",
+      "options": [
+        "capacitive coupling",
+        "impedance coupling",
+        "double-tuned transformer coupling",
+        "single-tuned transformer coupling"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h3yd6a",
+      "q": "A FM signal with modulation index Mf is passed through a frequency doubler. The wave in the output of the doubler will have modulation index of",
+      "options": [
+        "Mf",
+        "Mf/2",
+        "2Mf",
+        "UMf"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8czpm1",
+      "q": "Double spotting in a receiver is due to",
+      "options": [
+        "poor sensitivity of RF amplifier",
+        "high gain of IF amplifier",
+        "inadequate image frequency rejection",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h6dv5o",
+      "q": "Three point tracking can be achieved with",
+      "options": [
+        "gang condenser",
+        "variable selectivity",
+        "paddar capacitor",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ader61",
+      "q": "The selectivity curve of a standard receiver is represented by",
       "options": [
         "curve A",
         "curve B",
@@ -207,12 +1244,13 @@
       "tags": []
     },
     {
-      "id": "gate-18wij14",
-      "q": "In superheterodyne receivers, the local oscillator is used to",
+      "id": "gate-13qvgbs",
+      "q": "Which of the following statement about the advantage of phase discriminator over the slope detector is false?",
       "options": [
-        "detect the modulating signal",
-        "amplify the received modulated carrier",
-        "shift the frequency of the received modulated carrier to the IF band"
+        "Fewer tuned circuits",
+        "Better linearity",
+        "Greater limiting",
+        "Much easier alignment"
       ],
       "correct": 0,
       "explain": "",
@@ -226,13 +1264,13 @@
       "tags": []
     },
     {
-      "id": "gate-gn2k68",
-      "q": "Which of the following is same in AM and FM receivers?",
+      "id": "gate-1w5bxa4",
+      "q": "Fidelity of a receiver represents",
       "options": [
-        "Demodulator",
-        "AGC",
-        "IF amplifier",
-        "All of the above"
+        "the sensitivity expressed in terms of voltage that must be applied to the receiver input to give a standard output",
+        "the extent to which the receiver is capable of distinguishing between the desired signal and other frequencies",
+        "the variation of the output with the modulation frequency when the output impedance is a resistance",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -246,13 +1284,13 @@
       "tags": []
     },
     {
-      "id": "gate-k82ha5",
-      "q": "A notch filter is sometimes used in communication receivers to",
+      "id": "gate-8rxj3c",
+      "q": "Which of the following produces upper and lower side frequencies?",
       "options": [
-        "reduce receiver gain at some specific frequency",
-        "increase receiver gain at some specific frequency",
-        "made selectivity more precise",
-        "spread the bandwidth"
+        "Microphone",
+        "Demodulator in a superheterodyne receiver",
+        "Modulator in a. radio transmitter",
+        "Oscillator in a receiver"
       ],
       "correct": 0,
       "explain": "",
@@ -266,13 +1304,13 @@
       "tags": []
     },
     {
-      "id": "gate-ns8qfo",
-      "q": "Which one of the following is not a useful quantity for comparing the noise performance of receivers?",
+      "id": "gate-1qk0cd0",
+      "q": "The passband of the tuned circuits of a radio receiver should be equal to",
       "options": [
-        "Noise figure",
-        "Noise temperature",
-        "Input noise voltage",
-        "Equivalent noise resistance"
+        "20 kHz",
+        "455 kHz",
+        "1455 kHz",
+        "more than 455 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -286,13 +1324,193 @@
       "tags": []
     },
     {
-      "id": "gate-vx03uo",
-      "q": "Which of the following statement about the amplitude limiter is not valid?",
+      "id": "gate-wu2j4o",
+      "q": "In a superheterodyne receiver, the IF is 455 kHz. If it is tuned to 1200 kHz, the image frequency will be",
       "options": [
-        "Leak type bias must be used",
-        "Output must be tuned",
-        "The circuit is always biased in class C, by virtue of the leak type bias",
-        "When the input increases past the threshold of limiting, the gain decreases to keep the output constant"
+        "1655 kHz",
+        "2110 kHz",
+        "745 kHz",
+        "910 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-roe8n8",
+      "q": "The selectivity of most receivers is determined largely by",
+      "options": [
+        "sensitivity",
+        "characteristics of IF section",
+        "antenna direction",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v4h32w",
+      "q": "In a superheterodyne receiver with an IF of 450 kHz is tuned to a signal at 1200 kHz. The image frequency is",
+      "options": [
+        "750 kHz",
+        "990 kHz",
+        "1650 kHz",
+        "2100 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yj7uvc",
+      "q": "In a broadcast superheterodynes receiver having no RF amplifier, the loaded Q of the antenna coupling circuit is 100. If the intermediate frequency is 455 kHz. The rejection ratio at 25 MHz will be",
+      "options": [
+        "1.116",
+        "1.386",
+        "2.116",
+        "2.386"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fez9zs",
+      "q": "As compared to tuned radio frequency receivers which of the following is the advantage of using superheterodyne receivers?",
+      "options": [
+        "High gain and better sensitivity",
+        "Better selectivity at high frequencies",
+        "Stability",
+        "Noise suppression"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10powxk",
+      "q": "In a transistor receiver, the use of FET as the first stage amplifier is likely to",
+      "options": [
+        "improve selectivity of the receiver",
+        "improve the effectiveness of the AGC",
+        "reduce the effect of negative peak clipping",
+        "reduce the effect of noise at all frequencies"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c3xxbk",
+      "q": "The household radio receiver uses",
+      "options": [
+        "synchronous",
+        "envelope detector",
+        "radio detector",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l0l691",
+      "q": "The source of which of the following noise is different from that of the remaining?",
+      "options": [
+        "Solar noise",
+        "Cosmic noise",
+        "Galactic noise",
+        "Atmospheric noise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-twg328",
+      "q": "A receiver having poor IF selectivity will also have poor",
+      "options": [
+        "sensitivity",
+        "double spotting",
+        "blocking",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Radio Receivers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o1kvxs",
+      "q": "Statement 1Diode is the most common device used for demodulation.Statement 2A discriminator is a FM detector.",
+      "options": [
+        "Statement 1 is true but statement 2 is false",
+        "Statement 1 is false but statement 2 is true",
+        "Both the statements are true",
+        "Both the statements are false"
       ],
       "correct": 0,
       "explain": "",

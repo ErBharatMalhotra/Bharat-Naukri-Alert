@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "C Preprocessor",
   "source": "indiabix.com",
-  "count": 19,
+  "count": 22,
   "questions": [
     {
-      "id": "gate-t5e7zc",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MAN(x, y) ((x)&gt;(y)) ? (x):(y); int main() { int i=10, j=5, k=0; k = MAN(++i, j++); printf(\"%d, %d, %d\\n\", i, j, k); return 0; }",
+      "id": "gate-xritw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define PRINT(int) printf(\"int=%d, \", int); int main() { int x=2, y=3, z=4; PRINT(x); PRINT(y); PRINT(z); return 0; }",
       "options": [
-        "12, 6, 12",
-        "11, 5, 11",
-        "11, 5, Garbage",
-        "12, 6, Garbage"
+        "int=2, int=3, int=4",
+        "int=2, int=2, int=2",
+        "int=3, int=3, int=3",
+        "int=4, int=4, int=4"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-rcc81g",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define SQUARE(x) x*x int main() { float s=10, u=30, t=2, a; a = 2*(s-u*t)/SQUARE(t); printf(\"Result = %f\", a); return 0; }",
+      "id": "gate-cy2rgo",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define SWAP(a, b) int t; t=a, a=b, b=t; int main() { int a=10, b=12; SWAP(a, b); printf(\"a = %d, b = %d\\n\", a, b); return 0; }",
       "options": [
-        "Result = -100.000000",
-        "Result = -25.000000",
-        "Result = 0.000000",
-        "Result = 100.000000"
+        "a = 10, b = 12",
+        "a = 12, b = 10",
+        "Error: Declaration not allowed in macro",
+        "Error: Undefined symbol 't'"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-ad3bd8",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define SQR(x)(x*x) int main() { int a, b=3; a = SQR(b+2); printf(\"%d\\n\", a); return 0; }",
+      "id": "gate-1d082gw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define FUN(i, j) i##j int main() { int va1=10; int va12=20; printf(\"%d\\n\", FUN(va1, 2)); return 0; }",
       "options": [
-        "25",
-        "11",
-        "Error",
-        "Garbage value"
+        "10",
+        "20",
+        "1020",
+        "12"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-b430ey",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define JOIN(s1, s2) printf(\"%s=%s %s=%s \\n\", #s1, s1, #s2, s2); int main() { char *str1=\"India\"; char *str2=\"BIX\"; JOIN(str1, str2); return 0; }",
+      "id": "gate-4k9qrw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define FUN(arg) do\\ {\\ if(arg)\\ printf(\"IndiaBIX...\", \"\\n\");\\ }while(--i) int main() { int i=2; FUN(i",
       "options": [
-        "str1=IndiaBIX str2=BIX",
-        "str1=India str2=BIX",
-        "str1=India str2=IndiaBIX",
-        "Error: in macro substitution"
+        "IndiaBIX... IndiaBIX... IndiaBIX",
+        "IndiaBIX... IndiaBIX...",
+        "Error: cannot use control instructions in macro",
+        "No output"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-54nack",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define CUBE(x) (x*x*x) int main() { int a, b=3; a = CUBE(b++); printf(\"%d, %d\\n\", a, b); return 0; }",
+      "id": "gate-1p1plou",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MAX(a, b) (a &gt; b ? a : b) int main() { int x; x = MAX(3+2, 2+7); printf(\"%d\\n\", x); return 0; }",
       "options": [
-        "9, 4",
-        "27, 4",
-        "27, 6",
-        "Error"
+        "8",
+        "9",
+        "6",
+        "5"
       ],
       "correct": 0,
       "explain": "",
@@ -108,53 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-w9l4g4",
-      "q": "Point out the error in the program #include&lt;stdio.h&gt; #define SI(p, n, r) float si; si=p*n*r/100; int main() { float p=2500, r=3.5; int n=3; SI(p, n, r); SI(1500, 2, 2.5); return 0; }",
+      "id": "gate-1h3x1yw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MIN(x, y) (x&lt;y)? x : y; int main() { int x=3, y=4, z; z = MIN(x+y/2, y-1); if(z &gt; 0) printf(\"%d\\n\", z); return 0; }",
       "options": [
-        "26250.00 7500.00",
-        "Nothing will print",
-        "Error: Multiple declaration of si",
-        "Garbage values"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cradt4",
-      "q": "Point out the error in the program #include&lt;stdio.h&gt; int main() { int i; #if A printf(\"Enter any number:\"); scanf(\"%d\", &i); #elif B printf(\"The number is odd\"); return 0; }",
-      "options": [
-        "Error: unexpected end of file because there is no matching #endif",
-        "The number is odd",
-        "Garbage values",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m7v1ru",
-      "q": "Which of the following are correct preprocessor directives in C? 1: #ifdef 2: #if 3: #elif 4: #undef",
-      "options": [
-        "1, 2",
+        "3",
         "4",
-        "1, 2, 4",
-        "1, 2, 3, 4"
+        "0",
+        "No output"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-aykh7c",
-      "q": "Which of the following are correctly formed #define statements in C?",
+      "id": "gate-12p9gh8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define str(x) #x #define Xstr(x) str(x) #define oper multiply int main() { char *opername = Xstr(oper); printf(\"%s\\n\", opername); return 0; }",
       "options": [
-        "#define CUBE (X) (X*X*X);",
-        "#define CUBE(x) (X*X*X)",
-        "#define CUBE(X)(X*X*X)",
-        "#define CUBE(X) {X*X*X}"
+        "Error: in macro substitution",
+        "Error: invalid reference 'x' in macro",
+        "print 'multiply'",
+        "No output"
       ],
       "correct": 0,
       "explain": "",
@@ -188,11 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-krqhy8",
-      "q": "If the file to be included doesn't exist, the preprocessor flashes an error message.",
+      "id": "gate-1608mu8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MESS junk int main() { printf(\"MESS\\n\"); return 0; }",
       "options": [
-        "True",
-        "False"
+        "junk",
+        "MESS",
+        "Error",
+        "Nothing will print"
       ],
       "correct": 0,
       "explain": "",
@@ -206,11 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ll41mg",
-      "q": "Preprocessor directive #undef can be used only on a macro that has been #define earlier",
+      "id": "gate-108q4w0",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define PRINT(i) printf(\"%d,\",i) int main() { int x=2, y=3, z=4; PRINT(x); PRINT(y); PRINT(z); return 0; }",
       "options": [
-        "True",
-        "False"
+        "2, 3, 4,",
+        "2, 2, 2,",
+        "3, 3, 3,",
+        "4, 4, 4,"
       ],
       "correct": 0,
       "explain": "",
@@ -224,11 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wrtoo4",
-      "q": "There exists a way to prevent the same file from getting #included twice in the same program.",
+      "id": "gate-1rovygk",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MAX(a, b, c) (a&gt;b ? a&gt;c ? a : c: b&gt;c ? b : c) int main() { int x; x = MAX(3+2, 2+7, 3+7); printf(\"%d\\n\", x); return 0; }",
       "options": [
-        "True",
-        "False"
+        "5",
+        "9",
+        "10",
+        "3+7"
       ],
       "correct": 0,
       "explain": "",
@@ -242,26 +208,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fbxn62",
-      "q": "A preprocessor directive is a message from programmer to the preprocessor.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cxruhr",
-      "q": "Macro calls and function calls work exactly similarly.",
+      "id": "gate-sw5cvw",
+      "q": "A macro must always be defined in capital letters.",
       "options": [
         "True",
         "False"
@@ -278,8 +226,170 @@
       "tags": []
     },
     {
-      "id": "gate-16fpuug",
-      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; #define X (4+Y) #define Y (X+3) int main() { printf(\"%d\\n\", 4*X+2); return 0; }",
+      "id": "gate-14tmdu4",
+      "q": "Macros have a local scope.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gptm2c",
+      "q": "Every C program will contain at least one preprocessor directive.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yszwpy",
+      "q": "Preprocessor directive #ifdef .. #else ... #endif is used for conditional compilation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17a7fuc",
+      "q": "Macros with arguments are allowed",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-162zqv4",
+      "q": "In a macro call the control is passed to the macro.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y4e3cd",
+      "q": "A header file contains macros, structure declaration and function prototypes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b1ui5k",
+      "q": "The preprocessor can trap simple errors like missing declarations, nested comments or mismatch of braces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-haszag",
+      "q": "A preprocessor directive is a message from compiler to a linker.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jjj9ck",
+      "q": "Once preprocessing is over and the program is sent for the compilation the macros are removed from the expanded source code.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3une1k",
+      "q": "Will the following program print the message infinite number of times? #include&lt;stdio.h&gt; #define INFINITELOOP while(1) int main() { INFINITELOOP printf(\"IndiaBIX\"); return 0; }",
       "options": [
         "Yes",
         "No"
@@ -296,65 +406,12 @@
       "tags": []
     },
     {
-      "id": "gate-ka0cpo",
-      "q": "Would the following typedef work? typedef #include l;",
+      "id": "gate-geh893",
+      "q": "Will it result in to an error if a header file is included twice?",
       "options": [
         "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hwv780",
-      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; int main() { printf(\"India\" \"BIX\\n\"); return 0; }",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18naw6",
-      "q": "It is necessary that a header files should have a .h extension?",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "C Preprocessor",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c3vogw",
-      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; int main() { #ifdef NOTE int a; a=10; #else int a; a=20; #endif printf(\"%d\\n\", a); return 0; }",
-      "options": [
-        "Yes",
-        "No"
+        "No",
+        "It is compiler dependent."
       ],
       "correct": 0,
       "explain": "",

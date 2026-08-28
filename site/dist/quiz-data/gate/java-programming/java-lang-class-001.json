@@ -5,16 +5,16 @@
   "subject": "Java Programming",
   "topic": "Java Lang Class",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 23,
   "questions": [
     {
-      "id": "gate-1ry7v1g",
-      "q": "What will be the output of the program? String x = new String(\"xyz\"); String y = \"abc\"; x = x + y; How many String objects have been created?",
+      "id": "gate-1v3smwo",
+      "q": "What will be the output of the program? public class Test178 { public static void main(String[] args) { String s = \"foo\"; Object o = (Object)s; if (s.equals(o)) { System.out.print(\"AAA\"); } else { System.out.print(\"BBB\"); } if (o.equals(s)) { System.out.print(\"CCC\"); } else { System.out.print(\"DDD\"); } } }",
       "options": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "AAACCC",
+        "AAADDD",
+        "BBBCCC",
+        "BBBDDD"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ut4znk",
-      "q": "What will be the output of the program? public class WrapTest { public static void main(String [] args) { int result = 0; short s = 42; Long x = new Long(\"42\"); Long y = new Long(42); Short z = new Short(\"42\"); Short x2 = new Short(s); Integer y2 = new Integer(\"42\"); Integer z2 = new Integer(42); if (x == y) /* Line 13 */ result = 1; if (x.equals(y) ) /* Line 15 */ result = result + 10; if (x.equals(z) ) /* Line 17 */ result = result + 100; if (x.equals(x2) ) /* Line 19 */ result = result + 1000; if (x.equals(z2) ) /* Line 21 */ result = result + 10000; System.out.println(\"result = \" + result); } }",
+      "id": "gate-1wplkn0",
+      "q": "What will be the output of the program? String x = \"xyz\"; x.toUpperCase(); /* Line 2 */ String y = x.replace('Y', 'y'); y = y + \"abc\"; System.out.println(y);",
       "options": [
-        "result = 1",
-        "result = 10",
-        "result = 11",
-        "result = 11010"
+        "abcXyZ",
+        "abcxyz",
+        "xyzabc",
+        "XyZabc"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dqp12k",
-      "q": "What will be the output of the program? public class BoolTest { public static void main(String [] args) { int result = 0; Boolean b1 = new Boolean(\"TRUE\"); Boolean b2 = new Boolean(\"true\"); Boolean b3 = new Boolean(\"tRuE\"); Boolean b4 = new Boolean(\"false\"); if (b1 == b2) /* Line 10 */ result = 1; if (b1.equals(b2) ) /* Line 12 */ result = result + 10; if (b2 == b4) /* Line 14 */ result = result + 100; if (b2.equals(b4) ) /* Line 16 */ result = result + 1000; if (b2.equals(b3) ) /* Line 18 */ result = result + 10000; System.out.println(\"result = \" + result); } }",
+      "id": "gate-12vg6by",
+      "q": "What will be the output of the program? int i = (int) Math.random();",
       "options": [
-        "0",
-        "1",
-        "10",
-        "10010"
+        "i = 0",
+        "i = 1",
+        "value of i is undetermined",
+        "Statement causes a compile error"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fwv8vs",
-      "q": "What will be the output of the program? public class ObjComp { public static void main(String [] args ) { int result = 0; ObjComp oc = new ObjComp(); Object o = oc; if (o == oc) result = 1; if (o != oc) result = result + 10; if (o.equals(oc) ) result = result + 100; if (oc.equals(o) ) result = result + 1000; System.out.println(\"result = \" + result); } }",
+      "id": "gate-16wyaes",
+      "q": "What will be the output of the program? class A { public A(int x){} } class B extends A { } public class test { public static void main (String args []) { A a = new B(); System.out.println(\"complete\"); } }",
       "options": [
-        "1",
-        "10",
-        "101",
-        "1101"
+        "It compiles and runs printing nothing",
+        "Compiles but fails at runtime",
+        "Compile Error",
+        "Prints \"complete\""
       ],
       "correct": 0,
       "explain": "",
@@ -88,12 +88,72 @@
       "tags": []
     },
     {
-      "id": "gate-1hmgpw",
-      "q": "What will be the output of the program? public class Example { public static void main(String [] args) { double values[] = {-2.3, -1.0, 0.25, 4}; int cnt = 0; for (int x=0; x &lt; values.length; x++) { if (Math.round(values[x] + .5) == Math.ceil(values[x])) { ++cnt; } } System.out.println(\"same results \" + cnt + \" time(s)\"); } }",
+      "id": "gate-1lc7h6g",
+      "q": "What will be the output of the program? int i = 1, j = 10; do { if(i++ &gt; --j) /* Line 4 */ { continue; } } while (i &lt; 5); System.out.println(\"i = \" + i + \"and j = \" + j); /* Line 9 */",
       "options": [
-        "same results 0 time(s)",
-        "same results 2 time(s)",
-        "same results 4 time(s)",
+        "i = 6 and j = 5",
+        "i = 5 and j = 5",
+        "i = 6 and j = 6",
+        "i = 5 and j = 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1er4e6o",
+      "q": "What will be the output of the program? public class Test { public static void main(String[] args) { final StringBuffer a = new StringBuffer(); final StringBuffer b = new StringBuffer(); new Thread() { public void run() { System.out.print(a.append(\"A\")); synchronized(b) { System.out.print(b.append(\"B\")); } } }.start(); new Thread() { public void run() { System.out.print(b.append(\"C\")); synchronized(a) { System.out.print(a.append(\"D\")); } } }.start(); } }",
+      "options": [
+        "ACCBAD",
+        "ABBCAD",
+        "CDDACB",
+        "Indeterminate output"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rketzw",
+      "q": "What will be the output of the program? String s = \"hello\"; Object o = s; if( o.equals(s) ) { System.out.println(\"A\"); } else { System.out.println(\"B\"); } if( s.equals(o) ) { System.out.println(\"C\"); } else { System.out.println(\"D\"); } A B C D",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "3 and 4",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v197k4",
+      "q": "What will be the output of the program (in jdk1.6 or above)? public class BoolTest { public static void main(String [] args) { Boolean b1 = new Boolean(\"false\"); boolean b2; b2 = b1.booleanValue(); if (!b2) { b2 = true; System.out.print(\"x \"); } if (b1 &amp; b2) /* Line 13 */ { System.out.print(\"y \"); } System.out.println(\"z\"); } }",
+      "options": [
+        "z",
+        "x z Answer:The compiler fails at line 13 because b1 is a reference variable to a Boolean wrapper object, not a boolean primitive. Logical boolean tests can't be made on Boolean objects. -->",
+        "y z",
         "Compilation fails."
       ],
       "correct": 0,
@@ -108,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1lnghz4",
-      "q": "Which statement is true given the following? Double d = Math.random();",
+      "id": "gate-1k5q3o8",
+      "q": "What will be the output of the program? public class ExamQuestion7 { static int j; static void methodA(int i) { boolean b; do { b = i&lt;10 | methodB(4); /* Line 9 */ b = i&lt;10 || methodB(8); /* Line 10 */ }while (!b); } static boolean methodB(int i) { j += i; return true; } public static void main(String[] args) { methodA(0); System.out.println( \"j = \" + j ); } }",
       "options": [
-        "0.0 &lt; d &lt;= 1.0",
-        "0.0 &lt;= d &lt; 1.0",
-        "Compilation fail",
-        "Cannot say."
+        "j = 0",
+        "j = 4",
+        "j = 8",
+        "The code will run with no output"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cfblc7",
-      "q": "Which two statements are true about wrapper or String classes? If x and y refer to instances of different wrapper classes, then the fragment x.equals(y) will cause a compiler failure. If x and y refer to instances of different wrapper classes, then x == y can sometimes be true. If x and y are String references and if x.equals(y) is true, then x == y is true. If x, y, and z refer to instances of wrapper classes and x.equals(y) is true, and y.equals(z) is true, then z.equals(x) will always be true. If x and y are String references and x == y is true, then y.equals(x) will be true.",
+      "id": "gate-1ektv20",
+      "q": "What will be the output of the program? try { Float f1 = new Float(\"3.0\"); int x = f1.intValue(); byte b = f1.byteValue(); double d = f1.doubleValue(); System.out.println(x + b + d); } catch (NumberFormatException e) /* Line 9 */ { System.out.println(\"bad number\"); /* Line 11 */ }",
       "options": [
-        "1 and 2",
-        "2 and 3",
-        "3 and 4",
-        "4 and 5"
+        "9.0",
+        "bad number",
+        "Compilation fails on line 9.",
+        "Compilation fails on line 11."
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-37hqdk",
-      "q": "Which of the following will produce an answer that is closest in value to a double, d, while not being greater than d?",
+      "id": "gate-1junkp4",
+      "q": "What will be the output of the program? class Q207 { public static void main(String[] args) { int i1 = 5; int i2 = 6; String s1 = \"7\"; System.out.println(i1 + i2 + s1); /* Line 8 */ } }",
       "options": [
-        "(int)Math.min(d);",
-        "(int)Math.max(d);",
-        "(int)Math.abs(d);",
-        "(int)Math.floor(d);"
+        "18",
+        "117",
+        "567",
+        "Compiler error"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +228,233 @@
       "tags": []
     },
     {
-      "id": "gate-ngkln4",
-      "q": "What two statements are true about the result obtained from calling Math.random()? The result is less than 0.0. The result is greater than or equal to 0.0.. The result is less than 1.0. The result is greater than 1.0. The result is greater than or equal to 1.0.",
+      "id": "gate-mk5r9y",
+      "q": "What will be the output of the program? public class SqrtExample { public static void main(String [] args) { double value = -9.0; System.out.println( Math.sqrt(value)); } }",
       "options": [
-        "1 and 2",
-        "2 and 3",
-        "3 and 4",
-        "4 and 5"
+        "3.0",
+        "-3.0",
+        "NaN",
+        "Compilation fails."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1euollt",
+      "q": "What will be the output of the program? String s = \"ABC\"; s.toLowerCase(); s += \"def\"; System.out.println(s);",
+      "options": [
+        "ABC",
+        "abc",
+        "ABCdef",
+        "Compile Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bfoe9e",
+      "q": "What will be the output of the program? public class Test138 { public static void stringReplace (String text) { text = text.replace ('j' , 'c'); /* Line 5 */ } public static void bufferReplace (StringBuffer text) { text = text.append (\"c\"); /* Line 9 */ } public static void main (String args[]) { String textString = new String (\"java\"); StringBuffer textBuffer = new StringBuffer (\"java\"); /* Line 14 */ stringReplace(textString); bufferReplace(textBuffer); System.out.println (textString + textBuffer); } }",
+      "options": [
+        "java",
+        "javac",
+        "javajavac",
+        "Compile error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mhsbw0",
+      "q": "What will be the output of the program? class Tree { } class Pine extends Tree { } class Oak extends Tree { } public class Forest1 { public static void main (String [] args) { Tree tree = new Pine(); if( tree instanceof Pine ) System.out.println (\"Pine\"); else if( tree instanceof Tree ) System.out.println (\"Tree\"); else if( tree instanceof Oak ) System.out.println ( \"Oak\" ); else System.out.println (\"Oops \"); } }",
+      "options": [
+        "Pine",
+        "Tree",
+        "Forest",
+        "Oops"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bh2z5o",
+      "q": "What will be the output of the program? String d = \"bookkeeper\"; d.substring(1,7); d = \"w\" + d; d.append(\"woo\"); /* Line 4 */ System.out.println(d);",
+      "options": [
+        "wookkeewoo",
+        "wbookkeeper",
+        "wbookkeewoo",
+        "Compilation fails."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ye9fb8",
+      "q": "What will be the output of the program? String a = \"ABCD\"; String b = a.toLowerCase(); b.replace('a','d'); b.replace('b','c'); System.out.println(b);",
+      "options": [
+        "abcd",
+        "ABCD",
+        "dccd",
+        "dcba"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p1tbts",
+      "q": "What will be the output of the program? public class ExamQuestion6 { static int x; boolean catch() { x++; return true; } public static void main(String[] args) { x=0; if ((catch() | catch()) || catch()) x++; System.out.println(x); } }",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Compilation Fails"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wrtcv4",
+      "q": "What will be the output of the program? public class NFE { public static void main(String [] args) { String s = \"42\"; try { s = s.concat(\".5\"); /* Line 8 */ double d = Double.parseDouble(s); s = Double.toString(d); int x = (int) Math.ceil(Double.valueOf(s).doubleValue()); System.out.println(x); } catch (NumberFormatException e) { System.out.println(\"bad number\"); } } }",
+      "options": [
+        "42",
+        "42.5",
+        "43",
+        "bad number"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1opb4js",
+      "q": "What will be the output of the program? System.out.println(Math.sqrt(-4D));",
+      "options": [
+        "-2",
+        "NaN",
+        "Compile Error",
+        "Runtime Exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-am58q4",
+      "q": "What will be the output of the program? interface Foo141 { int k = 0; /* Line 3 */ } public class Test141 implements Foo141 { public static void main(String args[]) { int i; Test141 test141 = new Test141(); i = test141.k; /* Line 11 */ i = Test141.k; i = Foo141.k; } }",
+      "options": [
+        "Compilation fails.",
+        "Compiles and runs ok.",
+        "Compiles but throws an Exception at runtime.",
+        "Compiles but throws a RuntimeException at runtime."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hofnwk",
+      "q": "What will be the output of the program? String a = \"newspaper\"; a = a.substring(5,7); char b = a.charAt(1); a = a + b; System.out.println(a);",
+      "options": [
+        "apa",
+        "app",
+        "apea",
+        "apep"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qtgpsw",
+      "q": "What will be the output of the program? public class StringRef { public static void main(String [] args) { String s1 = \"abc\"; String s2 = \"def\"; String s3 = s2; /* Line 7 */ s2 = \"ghi\"; System.out.println(s1 + s2 + s3); } }",
+      "options": [
+        "abcdefghi",
+        "abcdefdef",
+        "abcghidef",
+        "abcghighi"
       ],
       "correct": 0,
       "explain": "",

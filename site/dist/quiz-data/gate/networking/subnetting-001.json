@@ -8,13 +8,13 @@
   "count": 10,
   "questions": [
     {
-      "id": "gate-ijvkt4",
-      "q": "You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?",
+      "id": "gate-s2u85o",
+      "q": "Your router has the following IP address on Ethernet0: 172.16.2.1/23. Which of the following can be valid host IDs on the LAN interface attached to the router? 172.16.1.100 172.16.1.198 172.16.2.255 172.16.3.0",
       "options": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "1 only",
+        "2 and 3 only",
+        "3 and 4 only",
+        "None of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1twtot8",
-      "q": "If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?",
+      "id": "gate-hgj7q4",
+      "q": "Which two statements describe the IP address 10.16.3.65/23? The subnet address is 10.16.3.0 255.255.254.0. The lowest host address in the subnet is 10.16.2.1 255.255.254.0. The last valid host address in the subnet is 10.16.2.254 255.255.254.0. The broadcast address of the subnet is 10.16.3.255 255.255.254.0.",
       "options": [
-        "172.16.112.0",
-        "172.16.0.0",
-        "172.16.96.0",
-        "172.16.255.0"
+        "1 and 3",
+        "2 and 4",
+        "1, 2 and 4",
+        "2, 3 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-14aqymg",
-      "q": "You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?",
+      "id": "gate-1t8majc",
+      "q": "A network administrator is connecting hosts A and B directly through their Ethernet interfaces, as shown in the illustration. Ping attempts between the hosts are unsuccessful. What can be done to provide connectivity between the hosts? A crossover cable should be used in place of the straight-through cable. A rollover cable should be used in place of the straight-through cable. The subnet masks should be set to 255.255.255.192. A default gateway needs to be set on each host. The subnet masks should be set to 255.255.255.0.",
       "options": [
-        "6",
-        "8",
-        "30",
-        "32"
+        "1 only",
+        "2 only",
+        "3 and 4 only",
+        "1 and 5 only"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-vw3z7g",
-      "q": "What is the subnetwork number of a host with an IP address of 172.16.66.0/21?",
+      "id": "gate-13jbaxs",
+      "q": "What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?",
       "options": [
-        "172.16.36.0",
-        "172.16.48.0",
-        "172.16.64.0",
-        "172.16.0.0"
+        "14",
+        "15",
+        "16",
+        "30"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qj6fo8",
-      "q": "The network address of 172.16.0.0/19 provides how many subnets and hosts?",
+      "id": "gate-1i8npb4",
+      "q": "You need to subnet a network that has 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?",
       "options": [
-        "7 subnets, 30 hosts each",
-        "8 subnets, 8,190 hosts each",
-        "8 subnets, 2,046 hosts each",
-        "7 subnets, 2,046 hosts each"
+        "255.255.255.192",
+        "255.255.255.224",
+        "255.255.255.240",
+        "255.255.255.248"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w2jym0",
-      "q": "If a host on a network has the address 172.16.45.14/30, what is the subnetwork this host belongs to?",
+      "id": "gate-1b8k5ds",
+      "q": "You need to configure a server that is on the subnet 192.168.19.24/29. The router has the first available host address. Which of the following should you assign to the server?",
       "options": [
-        "172.16.45.0",
-        "172.16.45.4",
-        "172.16.45.8",
-        "172.16.45.12"
+        "192.168.19.0 255.255.255.0",
+        "192.168.19.33 255.255.255.240",
+        "192.168.19.26 255.255.255.248",
+        "192.168.19.31 255.255.255.248"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-nbh12w",
-      "q": "Using the following illustration, what would be the IP address of E0 if you were using the eighth subnet? The network ID is 192.168.10.0/28 and you need to use the last available IP address in the range. The zero subnet should not be considered valid for this question.",
+      "id": "gate-obg9j4",
+      "q": "You have an interface on a router with the IP address of 192.168.192.10/29. What is the broadcast address the hosts will use on this LAN?",
       "options": [
-        "192.168.10.142",
-        "192.168.10.66",
-        "192.168.100.254",
-        "192.168.10.143"
+        "192.168.192.15",
+        "192.168.192.31",
+        "192.168.192.63",
+        "192.168.192.127"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-z6v94o",
-      "q": "Which configuration command must be in effect to allow the use of 8 subnets if the Class C subnet mask is 255.255.255.224?",
+      "id": "gate-h787qt",
+      "q": "You have a network with a subnet of 172.16.17.0/22. Which is the valid host address?",
       "options": [
-        "Router(config)#ip classless",
-        "Router(config)#no ip classful",
-        "Router(config)#ip unnumbered",
-        "Router(config)#ip subnet-zero"
+        "172.16.17.1 255.255.255.252",
+        "172.16.0.1 255.255.240.0",
+        "172.16.20.1 255.255.254.0",
+        "172.16.18.255 255.255.252.0"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kjqz0m",
-      "q": "Using the illustration from the previous question, what would be the IP address of S0 if you were using the first subnet? The network ID is 192.168.10.0/28 and you need to use the last available IP address in the range. Again, the zero subnet should not be considered valid for this question.",
+      "id": "gate-o8lyxs",
+      "q": "On a VLSM network, which mask should you use on point-to-point WAN links in order to reduce the waste of IP addresses?",
       "options": [
-        "192.168.10.24",
-        "192.168.10.62",
-        "192.168.10.30",
-        "192.168.10.127"
+        "/27",
+        "/28",
+        "/29",
+        "/30"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1uddlkw",
-      "q": "What is the subnetwork address for a host with the IP address 200.10.5.68/28?",
+      "id": "gate-9smodb",
+      "q": "To test the IP stack on your local host, which IP address would you ping?",
       "options": [
-        "200.10.5.56",
-        "200.10.5.32",
-        "200.10.5.64",
-        "200.10.5.0"
+        "127.0.0.0",
+        "1.0.0.127",
+        "127.0.0.1",
+        "127.0.0.255"
       ],
       "correct": 0,
       "explain": "",

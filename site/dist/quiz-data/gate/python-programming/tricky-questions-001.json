@@ -5,155 +5,155 @@
   "subject": "Python Programming",
   "topic": "Tricky Questions",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 32,
   "questions": [
     {
-      "id": "gate-1pog3cw",
-      "q": "What will be the output of the following Python code? def outer_function(x): def inner_function(): return x + 1 return inner_function closure = outer_function(5) result = closure() print(result)",
+      "id": "gate-1ocq5s8",
+      "q": "What is the output of the following Python code? def mystery_function(x): return x if x > 0 else mystery_function(-x) result = mystery_function(-5) print(result)",
+      "options": [
+        "-5",
+        "5",
+        "0",
+        "This code will result in an infinite loop."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nsutz4",
+      "q": "What is the value of result after executing the following Python code? my_list = [1, 2, 3, 4, 5] result = my_list[::2]",
+      "options": [
+        "[1, 3, 5]",
+        "[2, 4]",
+        "[5, 3, 1]",
+        "[1, 2, 3, 4, 5]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gfq9gs",
+      "q": "What will be the output of the following Python code? x = 5 y = 2 result = x // y",
+      "options": [
+        "2.5",
+        "2",
+        "3",
+        "2.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a3dfl4",
+      "q": "What is the correct way to check if a key is present in a dictionary? my_dict = {'name': 'John', 'age': 25} key_to_check = 'age'",
+      "options": [
+        "if key_to_check in my_dict.keys():",
+        "if key_to_check in my_dict:",
+        "if my_dict.contains(key_to_check):",
+        "if my_dict.exists(key_to_check):"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-abqof8",
+      "q": "What will be the output of the following Python code? x = [1, 2, 3] y = x y[0] = 10 print(x)",
+      "options": [
+        "[10, 2, 3]",
+        "[1, 2, 3]",
+        "[10, 2, 3] (but with a warning)",
+        "[1, 2, 3] (but with a warning)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fwmdyw",
+      "q": "What is the output of the following Python code? def modify_list(my_list): my_list[0] = 5 original_list = [1, 2, 3] modify_list(original_list.copy()) print(original_list)",
+      "options": [
+        "[1, 2, 3]",
+        "[5, 2, 3]",
+        "This code will result in an error.",
+        "[1, 2, 3, 5]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cxljbw",
+      "q": "What will be the output of the following Python code? def func(x, y, z): return x + y * z result = func(1, 2, 3) print(result)",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jvhgtk",
+      "q": "What is the output of the following Python code? x = 5 y = x if x > 10 else x/2 print(y)",
       "options": [
         "5",
-        "6",
-        "11",
-        "This code will result in an error."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xd82el",
-      "q": "What is the output of the following Python code? def mysterious_function(a, b=[]): b.append(a) return b result1 = mysterious_function(1) result2 = mysterious_function(2) result3 = mysterious_function(3) print(result1 + result2 + result3)",
-      "options": [
-        "[1, 2, 3, 1, 2, 3, 1, 2, 3]",
-        "[1, 2, 3]",
-        "[1, 2, 3, 3, 3, 3, 3, 3, 3]",
-        "This code will result in an error."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-142cfrq",
-      "q": "What will be the output of the following Python code? def power(x, n=2): return x ** n result1 = power(2) result2 = power(2, 3) print(result1 + result2)",
-      "options": [
+        "2.5",
         "10",
-        "16",
-        "12",
-        "64"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lty39k",
-      "q": "What is the output of the following Python code? my_list = [1, 2, 3, 4] result = [x if x % 2 == 0 else -x for x in my_list] print(result)",
-      "options": [
-        "[1, -2, 3, -4]",
-        "[-1, 2, -3, 4]",
-        "[1, -2, -3, -4]",
-        "[1, -2, 3, 4]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6gnv88",
-      "q": "Consider the following Python code: class CustomError(Exception): def __init__(self, message): super().__init__(message) raise CustomError(\"An example custom error.\") What will happen when this code is executed?",
-      "options": [
-        "The code will run without any errors.",
-        "The code will result in a TypeError.",
-        "The code will result in a NameError.",
-        "The code will raise a custom error of type CustomError."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h65fr4",
-      "q": "What is the output of the following Python code? a = [1, 2, 3] b = a a = a + [4, 5] print(b)",
-      "options": [
-        "[1, 2, 3]",
-        "[1, 2, 3, 4, 5]",
-        "This code will result in an error.",
-        "[1, 2, 3, 4, 5] (but with a warning)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yx88to",
-      "q": "What will be the output of the following Python code? class Parent: def __init__(self, x): self.x = x class Child(Parent): def __init__(self, x, y): super().__init__(x) self.y = y obj = Child(10, 20) result = obj.x * obj.y print(result)",
-      "options": [
-        "30",
-        "200",
-        "This code will result in an error.",
-        "10"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tricky Questions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ob216j",
-      "q": "Consider the following Python code: def my_generator(): for i in range(5): yield i * 2 result = list(my_generator()) print(result) What will be the output of this code?",
-      "options": [
-        "[0, 2, 4, 6, 8]",
-        "[0, 1, 4, 9, 16]",
-        "[0, 2, 4, 8, 16]",
         "This code will result in an error."
       ],
       "correct": 0,
@@ -168,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gu2ruk",
-      "q": "What is the output of the following Python code? x = [1, 2, 3] y = x x += [4, 5] print(y)",
+      "id": "gate-bzvttg",
+      "q": "Consider the following Python code: def some_function(*args, **kwargs): return args, kwargs result = some_function(1, 2, a=3, b=4) print(result) What will be the value of result?",
       "options": [
-        "[1, 2, 3]",
-        "[1, 2, 3, 4, 5]",
-        "[1, 2, 3, 4, 5] (but with a warning)",
-        "This code will result in an error."
+        "((1, 2), {'a': 3, 'b': 4})",
+        "([1, 2], {'a': 3, 'b': 4})",
+        "((1, 2), ('a': 3, 'b': 4))",
+        "([1, 2], ('a': 3, 'b': 4))"
       ],
       "correct": 0,
       "explain": "",
@@ -188,12 +188,452 @@
       "tags": []
     },
     {
-      "id": "gate-1gbdg6k",
-      "q": "What will be the output of the following Python code? class MyClass: x = 10 obj1 = MyClass() obj2 = MyClass() obj1.x += 5 result = obj2.x print(result)",
+      "id": "gate-lhs8j4",
+      "q": "What is the output of the following Python code? x = [1, 2, 3] y = x + [4, 5] z = x.extend([4, 5]) print(x, y, z)",
+      "options": [
+        "[1, 2, 3, 4, 5] [1, 2, 3, 4, 5] None",
+        "[1, 2, 3] [1, 2, 3, 4, 5] None",
+        "[1, 2, 3, 4, 5] [1, 2, 3] None",
+        "[1, 2, 3] [1, 2, 3] None"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-d8z3is",
+      "q": "What is the output of the following Python code? x = [1, 2, 3] y = x[:] y[0] = 10 print(x)",
+      "options": [
+        "[1, 2, 3]",
+        "[10, 2, 3]",
+        "[10, 2, 3] (but with a warning)",
+        "[1, 2, 3, 10]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-edbtfk",
+      "q": "What will be the output of the following Python code? class MyClass: x = 10 obj = MyClass() obj.x += 5 result = obj.x print(result)",
       "options": [
         "10",
         "5",
         "15",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a2ie2o",
+      "q": "What is the output of the following Python code? x = 2 y = 3 result = x * y ** x print(result)",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fc9gn8",
+      "q": "Consider the following Python code: def my_decorator(func): def wrapper(*args, **kwargs): result = func(*args, **kwargs) return result * 2 return wrapper @my_decorator def my_function(x): return x + 1 result = my_function(5) print(result) What will be the value of result?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ak3gns",
+      "q": "What will be the output of the following Python code? def outer_func(x): def inner_func(): return x + 1 return inner_func closure1 = outer_func(5) closure2 = outer_func(10) print(closure1() + closure2())",
+      "options": [
+        "11",
+        "16",
+        "17",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m4xig4",
+      "q": "What is the output of the following Python code? result = 1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1 print(result)",
+      "options": [
+        "0.5000000000000001",
+        "0.6",
+        "0.4",
+        "0.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wcfvfs",
+      "q": "Consider the following Python code: class CustomClass: def __init__(self, value): self.value = value def __eq__(self, other): return self.value == other.value obj1 = CustomClass(10) obj2 = CustomClass(10) result = obj1 == obj2 print(result) What will be the value of result?",
+      "options": [
+        "True",
+        "False",
+        "This code will result in an error.",
+        "This code will result in an infinite loop."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c9ta92",
+      "q": "What is the output of the following Python code? a = [1, 2, 3] b = a[:] a[0] = 10 print(b)",
+      "options": [
+        "[1, 2, 3]",
+        "[10, 2, 3]",
+        "This code will result in an error.",
+        "[10, 2, 3] (but with a warning)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mc3nc",
+      "q": "What will be the output of the following Python code? x = 0.1 y = 0.2 result = x + y print(result)",
+      "options": [
+        "0.3",
+        "0.30000000000000004",
+        "0.2",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nqewho",
+      "q": "What is the output of the following Python code? def modify_list(my_list): my_list = [0, 1, 2] original_list = [1, 2, 3] modify_list(original_list) print(original_list)",
+      "options": [
+        "[0, 1, 2]",
+        "[1, 2, 3]",
+        "This code will result in an error.",
+        "None"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5wn42k",
+      "q": "What will be the output of the following Python code? x = \"Python\" y = x.lower() z = x.upper() result = y + z print(result)",
+      "options": [
+        "\"PythonPYTHON\"",
+        "\"pythonPYTHON\"",
+        "\"pythonPYTHONpython\"",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-149c994",
+      "q": "What is the output of the following Python code? x = 3 y = 2 result = x ** y print(result)",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ffbm64",
+      "q": "What will be the output of the following Python code? string1 = \"Python\" string2 = string1 string2 += \" is great\" result = string1 + string2 print(result)",
+      "options": [
+        "\"Python is greatPython is great\"",
+        "\"PythonPython is great\"",
+        "\"Python is great is great\"",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e40ijk",
+      "q": "What is the purpose of the is keyword in Python?",
+      "options": [
+        "It is used to compare values for equality.",
+        "It is used to compare object identity.",
+        "It is used to create instances of a class.",
+        "It is used to define conditional statements."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-trfmyw",
+      "q": "What is the output of the following Python code? def some_function(x, y, z): return x + y ** z result = some_function(x=1, y=2, z=3) print(result)",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b01ec4",
+      "q": "What is the output of the following Python code? x = 5 y = 2 result = x / y print(result)",
+      "options": [
+        "2.5",
+        "2",
+        "2.0",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s9s8xw",
+      "q": "What will be the output of the following Python code? string1 = \"Python\" string2 = \"Python\" result = string1 is string2 print(result)",
+      "options": [
+        "True",
+        "False",
+        "This code will result in an error.",
+        "Undefined"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wffxmc",
+      "q": "What will be the output of the following Python code? def func(x): x += 1 return x x = 5 result = func(x) print(x, result)",
+      "options": [
+        "5 6",
+        "6 6",
+        "5 5",
+        "This code will result in an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m2jfho",
+      "q": "Consider the following Python code: class CustomClass: def __init__(self, value): self.__value = value def get_value(self): return self.__value obj = CustomClass(42) result = obj.get_value() print(result) What will be the value of result?",
+      "options": [
+        "42",
+        "This code will result in an error.",
+        "0",
+        "None"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2t50jc",
+      "q": "What is the output of the following Python code? def func(x, y=[]): y.append(x) return y result1 = func(1) result2 = func(2) print(result1 + result2)",
+      "options": [
+        "[1, 2]",
+        "[1, 2, 1, 2]",
+        "[1, 2, 2]",
+        "[1, 2, 1, 2, 2]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-172mgxs",
+      "q": "What is the output of the following Python code? x = [1, 2, 3, 4, 5] result = x[-2:-1] print(result)",
+      "options": [
+        "[4]",
+        "[5]",
+        "[3, 4]",
+        "[4, 5]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tricky Questions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h82c5z",
+      "q": "Consider the following Python code: def my_generator(): yield 1 yield 2 yield 3 result = list(my_generator()) print(result) What will be the output of this code?",
+      "options": [
+        "[1, 2, 3]",
+        "(1, 2, 3)",
+        "{1, 2, 3}",
         "This code will result in an error."
       ],
       "correct": 0,

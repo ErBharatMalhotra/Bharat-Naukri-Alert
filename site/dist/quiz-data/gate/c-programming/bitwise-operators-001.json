@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "Bitwise Operators",
   "source": "indiabix.com",
-  "count": 19,
+  "count": 11,
   "questions": [
     {
-      "id": "gate-zapjkk",
-      "q": "Assunming, integer is 2 byte, What will be the output of the program? #include&lt;stdio.h&gt; int main() { printf(\"%x\\n\", -1&gt;&gt;1); return 0; }",
+      "id": "gate-g7m3eg",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { printf(\"%d &gt;&gt; %d %d &gt;&gt; %d\\n\", 4 &gt;&gt; 1, 8 &gt;&gt; 1); return 0; }",
       "options": [
-        "ffff",
-        "0fff",
-        "0000",
-        "fff0"
+        "4 1 8 1",
+        "4 &gt;&gt; 1 8 &gt;&gt; 1",
+        "2 &gt;&gt; 4 Garbage value &gt;&gt; Garbage value",
+        "2 4"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-130zbl0",
-      "q": "If an unsigned int is 2 bytes wide then, What will be the output of the program ? #include&lt;stdio.h&gt; int main() { unsigned int m = 32; printf(\"%x\\n\", ~m); return 0; }",
+      "id": "gate-1bjuz80",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { char c=48; int i, mask=01; for(i=1; i&lt;=5; i++) { printf(\"%c\", c|mask); mask = mask&lt;&lt;1; } return 0; }",
       "options": [
-        "ffff",
-        "0000",
-        "ffdf",
-        "ddfd"
+        "12400",
+        "12480",
+        "12500",
+        "12556"
       ],
       "correct": 0,
       "explain": "",
@@ -48,53 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rt7wso",
-      "q": "Assuming a integer 2-bytes, What will be the output of the program? #include&lt;stdio.h&gt; int main() { printf(\"%x\\n\", -1&lt;&lt;3); return 0; }",
+      "id": "gate-1jjevro",
+      "q": "What will be the output of the program? #define P printf(\"%d\\n\", -1^~0); #define M(P) int main()\\ {\\ P\\ return 0;\\ } M(P)",
       "options": [
-        "ffff",
-        "fff8",
-        "0&nbsp;",
-        "-1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yb2dzw",
-      "q": "If an unsigned int is 2 bytes wide then, What will be the output of the program ? #include&lt;stdio.h&gt; int main() { unsigned int a=0xffff; ~a; printf(\"%x\\n\", a); return 0; }",
-      "options": [
-        "ffff",
-        "0000",
-        "00ff",
-        "ddfd"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h78jag",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { unsigned char i = 0x80; printf(\"%d\\n\", i&lt;&lt;1); return 0; }",
-      "options": [
+        "1",
         "0",
-        "256",
-        "100",
-        "80"
+        "-1",
+        "2"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-8s43ug",
-      "q": "Which of the following statements are correct about the program? #include&lt;stdio.h&gt; int main() { unsigned int num; int i; scanf(\"%u\", &amp;num); for(i=0; i&lt;16; i++) { printf(\"%d\", (num&lt;&lt;i &amp; 1&lt;&lt;15)?1:0); } return 0; }",
+      "id": "gate-il20fs",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { int i=32, j=0x20, k, l, m; k=i|j; l=i&amp;j; m=k^l; printf(\"%d, %d, %d, %d, %d\\n\", i, j, k, l, m); return 0; }",
       "options": [
-        "It prints all even bits from num",
-        "It prints all odd bits from num",
-        "It prints binary equivalent num",
-        "Error"
+        "0, 0, 0, 0, 0",
+        "0, 32, 32, 32, 32",
+        "32, 32, 32, 32, 0",
+        "32, 32, 32, 32, 32"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kv8ryc",
-      "q": "Which of the following statements are correct about the program? #include&lt;stdio.h&gt; int main() { unsigned int num; int c=0; scanf(\"%u\", &amp;num); for(;num;num&gt;&gt;=1) { if(num &amp; 1) c++; } printf(\"%d\", c); return 0; }",
+      "id": "gate-ey4ryg",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { printf(\"%d %d\\n\", 32&lt;&lt;1, 32&lt;&lt;0); printf(\"%d %d\\n\", 32&lt;&lt;-1, 32&lt;&lt;-0); printf(\"%d %d\\n\", 32&gt;&gt;1, 32&gt;&gt;0); printf(\"%d %d\\n\", 32&gt;&gt;-1, 32&gt;&gt;-0); return 0; }",
       "options": [
-        "It counts the number of bits that are ON (1) in the number num.",
-        "It counts the number of bits that are OFF (0) in the number num.",
-        "It sets all bits in the number num to 1",
-        "Error"
+        "Garbage values",
+        "64 320 3216 320 32",
+        "All zeros",
+        "8 00 032 00 16"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-2k05kg",
-      "q": "Which of the following statements are correct about the program? #include&lt;stdio.h&gt; char *fun(unsigned int num, int base); int main() { char *s; s=fun(128, 2); s=fun(128, 16); printf(\"%s\\n\",s); return 0; } char *fun(unsigned int num, int base) { static char buff[33]; char *ptr = &amp;buff[sizeof(buff)-1]; *ptr = '\\0'; do { *--ptr = \"0123456789abcdef\"[num %base]; num /=base; }while(num!=0); return ptr; }",
+      "id": "gate-1jpk5ko",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { unsigned int res; res = (64 &gt;&gt;(2+1-2)) &amp; (~(1&lt;&lt;2)); printf(\"%d\\n\", res); return 0; }",
       "options": [
-        "It converts a number to a given base.",
-        "It converts a number to its equivalent binary.",
-        "It converts a number to its equivalent hexadecimal.",
-        "It converts a number to its equivalent octal."
+        "32",
+        "64",
+        "0",
+        "128"
       ],
       "correct": 0,
       "explain": "",
@@ -168,28 +128,8 @@
       "tags": []
     },
     {
-      "id": "gate-1j7goas",
-      "q": "Which of the following statements are correct about the program? #include&lt;stdio.h&gt; int main() { unsigned int m[] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80}; unsigned char n, i; scanf(\"%d\", &amp;n); for(i=0; i&lt;=7; i++) { if(n &amp; m[i]) printf(\"yes\"); } return 0; }",
-      "options": [
-        "It will put OFF all bits that are ON in the number n",
-        "It will test whether the individual bits of n are ON or OFF",
-        "It will put ON all bits that are OFF in the number n",
-        "It will report compilation errors in the if statement."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t1lhm",
-      "q": "Left shifting a number by 1 is always equivalent to multiplying it by 2.",
+      "id": "gate-2fldk6",
+      "q": "Bitwise &amp; can be used to divide a number by powers of 2",
       "options": [
         "True",
         "False"
@@ -206,8 +146,8 @@
       "tags": []
     },
     {
-      "id": "gate-17j4a4m",
-      "q": "In the statement expression1 &gt;&gt; expression2. if expression1 is a signed integer with its leftmost bit set to 1 then on right shifting it the result of the statement will vary from computer to computer",
+      "id": "gate-nt3rww",
+      "q": "Left shifting an unsigned int or char by 1 is always equivalent to multiplying it by 2.",
       "options": [
         "True",
         "False"
@@ -224,8 +164,8 @@
       "tags": []
     },
     {
-      "id": "gate-nnde1s",
-      "q": "Bitwise &amp; and | are unary operators",
+      "id": "gate-1hnogt8",
+      "q": "On left shifting, the bits from the left are rotated and brought to the right and accommodated where there is empty space on the right?",
       "options": [
         "True",
         "False"
@@ -242,44 +182,8 @@
       "tags": []
     },
     {
-      "id": "gate-1vd90nc",
-      "q": "Bitwise &amp; can be used to check if more than one bit in a number is on.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nkb3vw",
-      "q": "Bitwise &amp; can be used to check if a bit in number is set or not.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r8tmgi",
-      "q": "Bitwise &amp; can be used in conjunction with ~ operator to turn off 1 or more bits in a number.",
+      "id": "gate-115hepa",
+      "q": "Bitwise can be used to perform addition and subtraction.",
       "options": [
         "Yes",
         "No"
@@ -296,62 +200,8 @@
       "tags": []
     },
     {
-      "id": "gate-eswn4h",
-      "q": "Bitwise can be used to reverse a sign of a number.",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h05a40",
-      "q": "Bitwise can be used to generate a random number.",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ni3qlc",
-      "q": "Bitwise | can be used to multiply a number by powers of 2.",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Bitwise Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-put9co",
-      "q": "Bitwise | can be used to set multiple bits in number.",
+      "id": "gate-19bspgw",
+      "q": "Bitwise | can be used to set a bit in number.",
       "options": [
         "Yes",
         "No"

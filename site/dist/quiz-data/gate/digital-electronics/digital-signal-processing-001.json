@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Digital Signal Processing",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 24,
   "questions": [
     {
-      "id": "gate-1lirzl8",
-      "q": "Digital signal processors must be programmed to perform specific tasks.",
+      "id": "gate-15j95d8",
+      "q": "Digital signal processing must be at least half as fast as the incoming signal to be processed.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1sq11wc",
-      "q": "The flash method of analog-to-digital conversion uses comparators that compare reference voltages with the analog input voltage.",
+      "id": "gate-l8zkl8",
+      "q": "The flash converter is the fastest analog-to-digital conversion method.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-dl83q0",
-      "q": "Offset is the characteristic of a DAC defined by the absence of any incorrect step reversals.",
+      "id": "gate-gu3uco",
+      "q": "The ADC0804 is an example of a successive-approximation ADC.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-r2qmh8",
-      "q": "Digital filtering is faster than analog filtering.",
+      "id": "gate-ljztc0",
+      "q": "Incorrect codes are a form of output error for a DAC.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1humxjc",
-      "q": "Successive-approximation is perhaps the most widely used method of A/D conversion.",
+      "id": "gate-mnx3ex",
+      "q": "In a binary-weighted-input digital-to-analog converter, the values of the input resistors are chosen to be proportional to the binary weights of the corresponding input bits.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-yu0uf0",
-      "q": "An offset error in a DAC will show up as an incorrect analog output ________.",
+      "id": "gate-1xepapg",
+      "q": "The principal advantage of the three-wire handshake on the GPIB is that it ________.",
       "options": [
-        "only for higher value inputs",
-        "only for lower value inputs",
-        "only for certain (scattered) inputs",
-        "for all inputs"
+        "is faster than two-wire methods",
+        "allows fast and slow listeners on the same bus",
+        "can be used over very long distances",
+        "is compatible with the RS232C standard"
       ],
       "correct": 0,
       "explain": "",
@@ -118,8 +118,8 @@
       "tags": []
     },
     {
-      "id": "gate-1efkhef",
-      "q": "An ADC that compares each bit, one at a time, with the input analog signal is a ________.",
+      "id": "gate-mu09qr",
+      "q": "An ADC that uses an up/down counter (and other devices) to follow changes in the input analog signal is a ________.",
       "options": [
         "single-slope ramp converter",
         "dual-slope ramp converter",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rnqybc",
-      "q": "A standard logic device can be connected on a bus system as an open-collector logic device by connecting each output to a ________.",
+      "id": "gate-utnnvo",
+      "q": "The number of data lines on the GPIB is ________.",
       "options": [
-        "discrete transistor",
-        "10 k series resistor",
-        "light-emitting diode",
-        "CMOS buffer"
+        "1",
+        "4",
+        "8",
+        "16"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vvpq9c",
-      "q": "A monotonicity error in a DAC will show up as an incorrect analog output ________.",
+      "id": "gate-15bfaxs",
+      "q": "The resolution of a DAC can be expressed as the ________.",
       "options": [
-        "only for higher value inputs",
-        "only for lower value inputs",
-        "only for certain (scattered) inputs",
-        "for all inputs"
+        "minimum output voltage",
+        "number of bits that are converted to an analog output",
+        "deviation of the output from a straight line",
+        "difference between the expected and actual outputs"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ec4mig",
-      "q": "Of the methods listed, the fastest A/D conversion is done by a ________.",
+      "id": "gate-j65kmg",
+      "q": "Assume that in a certain 4-bit weighted ladder DAC, the input representing the most significant bit is applied to a 20 k resistor. What is the size of the resistor that represents the least significant bit?",
       "options": [
-        "single-slope ramp converter",
-        "dual-slope ramp converter",
-        "successive-approximation converter",
-        "tracking converter"
+        "2.5 k",
+        "5 k",
+        "80 k",
+        "160 k"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-jgler0",
-      "q": "The ADC0804 is an example of a ________.",
+      "id": "gate-19narak",
+      "q": "Which term applies to the maintaining of a given signal level until the next sampling?",
       "options": [
-        "single-slope analog-to-digital converter",
-        "dual-slope analog-to-digital converter",
-        "digital-ramp analog-to-digital converter",
-        "successive-approximation analog-to-digital converter"
+        "Holding",
+        "Aliasing",
+        "Shannon frequency sampling",
+        "\"Stair-stepping\""
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-dbot90",
-      "q": "In a digital representation of voltages using an 8-bit binary code, how many values can be defined?",
+      "id": "gate-1b6cih0",
+      "q": "An op-amp has very ________.",
       "options": [
-        "16",
-        "64",
-        "128",
-        "256"
+        "high voltage gain",
+        "high input impedance",
+        "low output impedance",
+        "all of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-19oagc0",
-      "q": "A 4-bit R/2R ladder digital-to-analog converter uses ________.",
+      "id": "gate-1yrant0",
+      "q": "For a 4-bit DAC, the least significant bit (LSB) is ________.",
       "options": [
-        "one resistor value",
-        "two resistor values",
-        "three resistor values",
-        "four resistor values"
+        "6.25% of full scale",
+        "0.625% of full scale",
+        "12% of full scale",
+        "1.2% of full scale"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-vgcgmg",
-      "q": "A binary-weighted-input digital-to-analog converter has a feedback resistor, Rf, of 12 k. If 50 A of current is through the resistor, voltage out of the circuit is ________.",
+      "id": "gate-16otria",
+      "q": "The dual-slope analog-to-digital converter finds extensive use in ________.",
       "options": [
-        "0.6 V",
-        "&#8211;0.6 V",
-        "0.1 V",
-        "&#8211;0.1 V"
+        "digital voltmeters",
+        "function generators",
+        "frequency counters",
+        "all of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -278,52 +278,12 @@
       "tags": []
     },
     {
-      "id": "gate-2h8zbc",
-      "q": "The resolution of a 6-bit DAC is ________.",
+      "id": "gate-ryh2do",
+      "q": "Which type of ADC quantizes the analog signal into a stream of bits whose amount corresponds to the signal level?",
       "options": [
-        "63%",
-        "64%",
-        "15.9%",
-        "1.59%"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Signal Processing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vbcgxc",
-      "q": "How are unwanted frequencies removed prior to digital conversion?",
-      "options": [
-        "Pre-filters",
-        "Digital signal processing",
-        "Sample-and-hold circuits",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Signal Processing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qta4o0",
-      "q": "Which type of programming is typically used for digital signal processors?",
-      "options": [
-        "Assembly language",
-        "Machine language",
-        "C",
+        "Successive approximation",
+        "Sigma-delta",
+        "Dual-slope",
         "None of the above"
       ],
       "correct": 0,
@@ -338,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-ghiy38",
-      "q": "Which of the following best defines Nyquist frequency?",
+      "id": "gate-egzqq4",
+      "q": "A binary-weighted-input digital-to-analog converter has an input resistor of 100 k. If the resistor is connected to a 5 V source, current through the resistor is ________.",
       "options": [
-        "The frequency of resonance for the filtering circuit",
-        "The second harmonic",
-        "The lower frequency limit of sampling",
-        "The highest frequency component of a given analog signal"
+        "50 mA",
+        "50 A",
+        "5 mA",
+        "500 A"
       ],
       "correct": 0,
       "explain": "",
@@ -358,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r57scs",
-      "q": "Which is not an A/D conversion error?",
+      "id": "gate-imi4vk",
+      "q": "In troubleshooting a DAC, we check its performance characteristics, such as ________.",
       "options": [
-        "Differential nonlinearity",
-        "Missing code",
-        "Incorrect code",
-        "Offset"
+        "nonmonotonicity",
+        "differential nonlinearity",
+        "low and high gain",
+        "all of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -378,13 +338,133 @@
       "tags": []
     },
     {
-      "id": "gate-3vllse",
-      "q": "Settling time is normally defined as the time it takes a DAC to settle within ________.",
+      "id": "gate-1snlp4c",
+      "q": "In a digital reproduction of an analog curve, accuracy can be increased by ________.",
       "options": [
-        "1/8 LSB of its final value when a change occurs in the input code",
-        "1/4 LSB of its final value when a change occurs in the input code",
-        "1/2 LSB of its final value when a change occurs in the input code",
-        "1 LSB of its final value when a change occurs in the input code"
+        "sampling the curve more often",
+        "sampling the curve less often",
+        "decreasing the number of bits used to represent each sampled value",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ngrevk",
+      "q": "In a 4-bit R/2R ladder digital-to-analog converter, because of negative feedback, the operational amplifier keeps the inverting (minus) input near ________.",
+      "options": [
+        "5 volts",
+        "zero volts",
+        "a voltage determined by the binary weighted input",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjtfsw",
+      "q": "What is the result of taking more samples during the quantization process?",
+      "options": [
+        "More errors in the analog-to-digital conversion",
+        "More bit requirements",
+        "More accurate signal representation",
+        "More bit requirements and more accurate signal representation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kv51e8",
+      "q": "Which A/D conversion method has a fixed conversion time?",
+      "options": [
+        "Single-slope analog-to-digital converter",
+        "Dual-slope analog-to-digital converter",
+        "Digital-ramp analog-to-digital converter",
+        "Successive-approximation analog-to-digital converter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j6hlno",
+      "q": "Which is a typical application of digital signal processing?",
+      "options": [
+        "Noise elimination",
+        "Music signal processing",
+        "Image processing",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a9uvr8",
+      "q": "If a DAC has a full-scale, or maximum, output of 12 V and accuracy of 0.1%, then the maximum error for any output voltage is ________.",
+      "options": [
+        "12 V",
+        "120 mV",
+        "12 mV",
+        "0 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Signal Processing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wr5i0v",
+      "q": "What do we call the manipulation of an analog signal in a digital domain?",
+      "options": [
+        "Analog-to-digital conversion",
+        "Digital-to-analog conversion",
+        "Digital signal processing",
+        "Signal filtering"
       ],
       "correct": 0,
       "explain": "",

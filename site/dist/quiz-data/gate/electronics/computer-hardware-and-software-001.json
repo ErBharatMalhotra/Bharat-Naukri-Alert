@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Computer Hardware And Software",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-133wxvs",
-      "q": "It takes two memory locations (16 bits each) to store an address in the 8085 system.",
+      "id": "gate-p872io",
+      "q": "An address bus is also called a unidirectional bus.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1s0kcoe",
-      "q": "A compiler is a translation program that converts high-level instructions into a set of binary instructions (machine code) for execution.",
+      "id": "gate-m9wra0",
+      "q": "To keep the number of IC pins to a minimum, the 8085 uses a multiplexed bus.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-6ehpp4",
-      "q": "The control bus and memories share a bidirectional bus in a typical microprocessor system.",
+      "id": "gate-o0pj1g",
+      "q": "Machine language is independent of the type of microprocessor in a computer system.",
       "options": [
         "True",
         "False"
@@ -62,11 +62,13 @@
       "tags": []
     },
     {
-      "id": "gate-1o11xx8",
-      "q": "The language understood by the microprocessor is called assembly language.",
+      "id": "gate-ulsb0w",
+      "q": "Since microprocessor CPUs do not understand mnemonics as they are, they have to be converted into __________.",
       "options": [
-        "True",
-        "False"
+        "hexadecimal machine code",
+        "high-level language",
+        "assembly language",
+        "hexadecimal machine code and assembly language"
       ],
       "correct": 0,
       "explain": "",
@@ -80,11 +82,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r3esmm",
-      "q": "A machine cycle is the time it takes a microprocessor to fetch and execute a complete instruction.",
+      "id": "gate-1xgxgx4",
+      "q": "A program that contains nothing but strings of zeros and ones is called a(n) ________.",
       "options": [
-        "True",
-        "False"
+        "machine language program",
+        "assembly language program",
+        "interpreted program",
+        "binary language program"
       ],
       "correct": 0,
       "explain": "",
@@ -98,8 +102,8 @@
       "tags": []
     },
     {
-      "id": "gate-c4uhd8",
-      "q": "A register in the microprocessor that keeps track of the answer or results of any arithmetic or logic operation is the _________.",
+      "id": "gate-1atedd4",
+      "q": "The register in the 8085 microprocessor that is used to keep track of the memory address of the next opcode to be run in the program is the ________.",
       "options": [
         "stack pointer",
         "program counter",
@@ -118,13 +122,13 @@
       "tags": []
     },
     {
-      "id": "gate-o0l3h4",
-      "q": "The __________ program is used to convert mnemonic code to machine code.",
+      "id": "gate-1o1yt8w",
+      "q": "All computer programs for a machine are called ________.",
       "options": [
-        "debug",
-        "C++",
-        "fortran",
-        "assembler"
+        "software",
+        "firmware",
+        "hardware",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +142,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w141mu",
-      "q": "A(n) ________________ is the time it takes a microprocessor to fetch and execute a complete instruction.",
+      "id": "gate-11tt1wo",
+      "q": "The first part of a machine language instruction that specifies the operation to be performed is called a(n) __________.",
       "options": [
-        "instruction cycle",
-        "machine cycle",
-        "timing cycle",
-        "write cycle"
+        "mnemonic",
+        "opcode",
+        "interrupt",
+        "instruction cycle"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +162,13 @@
       "tags": []
     },
     {
-      "id": "gate-146iqg6",
-      "q": "The ________ is the \"brains\" of every microcomputer.",
+      "id": "gate-2gszdk",
+      "q": "What is the difference between mnemonic codes and machine codes?",
       "options": [
-        "ROM",
-        "ALU",
-        "CPU",
-        "MPU"
+        "There is no difference.",
+        "Machine codes are in binary, mnemonic codes are in shorthand English.",
+        "Machine codes are in shorthand English, mnemonic codes are in binary.",
+        "Machine codes are in shorthand English, mnemonic codes are a high-level language."
       ],
       "correct": 0,
       "explain": "",
@@ -178,53 +182,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tvvtsg",
-      "q": "The circuits in the 8085 that provide the arithmetic and logic functions are called the __________.",
-      "options": [
-        "CPU",
-        "ALU",
-        "I/O",
-        "bus decoder"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r5t696",
-      "q": "How many buses are connected as part of the 8085 microprocessor?",
-      "options": [
-        "2",
-        "3",
-        "5",
-        "8"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fhvpe8",
-      "q": "Which of the following is not a computer bus?",
+      "id": "gate-f1kzvs",
+      "q": "Which bus is bidirectional?",
       "options": [
         "data bus",
-        "timer bus",
         "control bus",
-        "address bus"
+        "address bus",
+        "multiplexed bus"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +202,13 @@
       "tags": []
     },
     {
-      "id": "gate-alcsj8",
-      "q": "The technique of assigning a memory address to each I/O device in the SAM system is called:",
+      "id": "gate-1ty9acg",
+      "q": "The software used to drive microprocessor-based systems is called:",
       "options": [
-        "wired I/O",
-        "I/O mapping",
-        "dedicated I/O",
-        "memory-mapped I/O"
+        "assembly language programs",
+        "firmware",
+        "BASIC interpreter instructions",
+        "flowchart instructions"
       ],
       "correct": 0,
       "explain": "",
@@ -258,93 +222,13 @@
       "tags": []
     },
     {
-      "id": "gate-136ws9q",
-      "q": "How many bits are used in the data bus?",
+      "id": "gate-1arns67",
+      "q": "A microprocessor unit, a memory unit, and an input/output unit form a:",
       "options": [
-        "7",
-        "8",
-        "9",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ncsn0g",
-      "q": "A port can be:",
-      "options": [
-        "strictly for input",
-        "strictly for output",
-        "bidirectional",
-        "all the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uvbmwg",
-      "q": "Which of the following is not a basic element within the microprocessor?",
-      "options": [
-        "microcontroller",
-        "arithmetic-logic unit (ALU)",
-        "temporary register",
-        "accumulator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jgyyso",
-      "q": "How many bits are used in the address bus?",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Computer Hardware And Software",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ec3orc",
-      "q": "Exceptions to the 8085 microprocessor normal operation are called:",
-      "options": [
-        "jump instructions",
-        "decoding",
-        "interrupts",
-        "jump instructions or interrupts"
+        "CPU",
+        "compiler",
+        "microcomputer",
+        "ALU"
       ],
       "correct": 0,
       "explain": "",

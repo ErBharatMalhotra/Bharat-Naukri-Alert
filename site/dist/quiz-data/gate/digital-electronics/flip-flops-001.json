@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Flip Flops",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-1kxbwoc",
-      "q": "A gated S-R flip-flop goes into the SET condition when S is HIGH, R is LOW, and EN is HIGH.",
+      "id": "gate-1mdcn90",
+      "q": "VHDL was created as a very flexible language and it allows us to define the operation of clocked devices in the code without relying on logic primitives.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-aligr0",
-      "q": "VHDL does require a special designation for an output with a feedback.",
+      "id": "gate-1m199cs",
+      "q": "The Q output of a flip-flop is normally HIGH when the device is in the \"CLEAR\" or \"RESET\" state.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ngzryt",
-      "q": "A negative edge-triggered flip-flop will accept inputs only when the clock is LOW.",
+      "id": "gate-1f4j0kk",
+      "q": "An astable multivibrator is sometimes referred to as a clock.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-b5w88w",
-      "q": "The term CLEAR always means that .",
+      "id": "gate-1l4kk0",
+      "q": "The 7476 and 74LS76 are both dual flip-flops.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1tw1kjw",
-      "q": "PRESET and CLEAR inputs are normally synchronous.",
+      "id": "gate-j0doms",
+      "q": "The 7475 is an example of an IC D latch (also called a bistable latch) that contains four transparent D latches.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-a4i3k1",
-      "q": "The asynchronous inputs are normally labeled ________ and ________, and are normally active-________ inputs.",
+      "id": "gate-1vmyqa7",
+      "q": "Pulse-triggered or level-triggered devices are the same.",
       "options": [
-        "PRE, CLR, LOW",
-        "ON, OFF, HIGH",
-        "START, STOP, LOW",
-        "SET, RESET, HIGH"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,12 +116,1628 @@
       "tags": []
     },
     {
-      "id": "gate-ma0gi0",
-      "q": "Assume a J-K flip-flop has 1s on the J and K inputs. The next clock pulse will cause the output to ________.",
+      "id": "gate-6gj9nd",
+      "q": "A D flip-flop is constructed by connecting an inverter between the SET and clock terminals.",
       "options": [
-        "set",
-        "reset",
-        "latch",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pxr88g",
+      "q": "It takes four flip-flops to act as a divide-by-4 frequency divider.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5po4lk",
+      "q": "The gated S-R flip-flop is asynchronous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e2kr2k",
+      "q": "The J-K flip-flop is a standard building block of clocked (sequential) logic circuits known as a ________.",
+      "options": [
+        "FUNCTION",
+        "logic primitive",
+        "VARIABLE",
+        "PROCESS"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5jygev",
+      "q": "A gated D latch does not have ________.",
+      "options": [
+        "a clock input",
+        "an enable input",
+        "a output",
+        "steering gates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bix6ck",
+      "q": "Setup time specifies ________.",
+      "options": [
+        "the minimum time for the control levels to be maintained on the inputs prior to the triggering edge of the clock in order for data to be reliably clocked into the FF",
+        "the maximum time interval required for the control levels to remain on the inputs before the triggering edge of the clock in order for the data to be reliably clocked out of the FF",
+        "how long the operator has in order to get the flip-flop running before the maximum power level is exceeded",
+        "how long it takes the output to change states after the clock has transitioned"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gdkkug",
+      "q": "When the output of the NOR gate S-R flip-flop is Q = 0 and , the inputs are:",
+      "options": [
+        "S = 1, R = 1",
+        "S = 1, R = 0",
+        "S = 0, R = 1",
+        "S = 0, R = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dlmva0",
+      "q": "The ________ is the time interval immediately following the active transition of the clock signal.",
+      "options": [
+        "hold time",
+        "setup time",
+        "over-time",
+        "hang-time"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-je2594",
+      "q": "A gated S-R flip-flop is in the hold condition whenever ________.",
+      "options": [
+        "the Gate Enable is HIGH",
+        "the Gate Enable is LOW",
+        "the S and R inputs are both LOW",
+        "the Gate Enable is HIGH and the S and R inputs are both LOW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-24h2l8",
+      "q": "The toggle mode is the mode in which a(n) ________ changes states for each clock pulse.",
+      "options": [
+        "logic level",
+        "flip-flop",
+        "edge-detector circuit",
+        "toggle detector"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bano16",
+      "q": "Determine the output frequency for a frequency division circuit that contains 12 flip-flops with an input clock frequency of 20.48 MHz.",
+      "options": [
+        "10.24 kHz",
+        "5 kHz",
+        "30.24 kHz",
+        "15 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qicc74",
+      "q": "Which statement BEST describes the operation of a negative-edge-triggered D flip-flop?",
+      "options": [
+        "The logic level at the D input is transferred to Q on NGT of CLK.",
+        "The Q output is ALWAYS identical to the CLK input if the D input is HIGH.",
+        "The Q output is ALWAYS identical to the D input when CLK = PGT.",
+        "The Q output is ALWAYS identical to the D input."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16kk8vz",
+      "q": "Propagation delay time, tPLH, is measured from the ________.",
+      "options": [
+        "triggering edge of the clock pulse to the LOW-to-HIGH transition of the output",
+        "triggering edge of the clock pulse to the HIGH-to-LOW transition of the output",
+        "preset input to the LOW-to-HIGH transition of the output",
+        "clear input to the HIGH-to-LOW transition of the output"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hojaiw",
+      "q": "How is a J-K flip-flop made to toggle?",
+      "options": [
+        "J = 0, K = 0",
+        "J = 1, K = 0",
+        "J = 0, K = 1",
+        "J = 1, K = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w3b4w",
+      "q": "How many flip-flops are in the 7475 IC?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m5eoig",
+      "q": "On a master-slave flip-flop, when is the master enabled?",
+      "options": [
+        "when the gate is LOW",
+        "when the gate is HIGH",
+        "both of the above",
+        "neither of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16nbag5",
+      "q": "What is the difference between the 7476 and the 74LS76?",
+      "options": [
+        "the 7476 is master-slave, the 74LS76 is master-slave",
+        "the 7476 is edge-triggered, the 74LS76 is edge-triggered",
+        "the 7476 is edge-triggered, the 74LS76 is master-slave",
+        "the 7476 is master-slave, the 74LS76 is edge-triggered"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1byfd9k",
+      "q": "Which of the following is correct for a gated D flip-flop?",
+      "options": [
+        "The output toggles if one of the inputs is held HIGH.",
+        "Only one of the inputs can be HIGH at a time.",
+        "The output complement follows the input when enabled.",
+        "Q output follows the input D when the enable is HIGH."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xzx9qs",
+      "q": "The circuit given below fails to function; the inputs are checked with a logic probe and the following indications are obtained: CLK, J1, J2, J3, K1, K2, and K3 are pulsing. Q and are HIGH. and PRE are LOW. What could be causing the problem?",
+      "options": [
+        "There is no problem.",
+        "The clock should be held HIGH.",
+        "The PRE is stuck LOW.",
+        "The CLR is stuck HIGH."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9awaa8",
+      "q": "A push-button switch is used to input data to a register. The output of the register is erratic. What could be causing the problem?",
+      "options": [
+        "The power supply is probably noisy.",
+        "The switch contacts are bouncing.",
+        "The socket contacts on the register IC are corroded.",
+        "The register IC is intermittent and failure is imminent."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qm6o3o",
+      "q": "A 555 timer is connected for astable operation as shown below along with the output waveform. It is determined that the duty cycle should be 0.5. What steps need to be taken to correct the duty cycle, while maintaining the same output frequency?",
+      "options": [
+        "Increase the value of C.",
+        "Increase Vcc and decrease RL.",
+        "Decrease R1 and R2.",
+        "Decrease R1 and increase R2."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g0euaz",
+      "q": "The pulse width of a one-shot circuit is determined by ________.",
+      "options": [
+        "a resistor and capacitor",
+        "two resistors",
+        "two capacitors",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c6na5c",
+      "q": "In VHDL, each instance of a component is given a name followed by a semicolon and the name of the library primitive.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16f8v5g",
+      "q": "The 555 timer can be used in either the astable or monostable modes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ypq5oo",
+      "q": "ICs can perform sequential operations, including counting and data shifting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wq5djg",
+      "q": "An input which can only be accepted when an enable or trigger is present is called asynchronous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l11s54",
+      "q": "A J-K flip-flop and associated waveforms are shown below. The circuit is operating properly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ajkbph",
+      "q": "Some flip-flops have invalid states.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ahverw",
+      "q": "Simple gate circuits, combinational logic, and transparent S-R flip-flops are synchronous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l5o9y8",
+      "q": "A flip-flop is in the CLEAR condition when .",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zsravk",
+      "q": "Most people would prefer to use ________ over HDL.",
+      "options": [
+        "graphic descriptions",
+        "functions",
+        "VHDL",
+        "AHDL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-191lrvk",
+      "q": "A major drawback to an latch is its ________.",
+      "options": [
+        "complexity",
+        "slow speed",
+        "invalid condition",
+        "latch mode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iu1p6g",
+      "q": "In VHDL, each instance of a component is given a name followed by a ________ and the name of the library primitive.",
+      "options": [
+        "function",
+        "signal",
+        "semicolon",
+        "colon"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ohw670",
+      "q": "The duty cycle of a 555 timer configured as a basic astable multivibrator is controlled by ________.",
+      "options": [
+        "one resistor",
+        "two resistors",
+        "one capacitor",
+        "a resistor and a capacitor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ty41k8",
+      "q": "The major advantage of a Schmitt trigger input is that it ________.",
+      "options": [
+        "avoids erratic triggering",
+        "has more triggering methods",
+        "has a wider range of outputs",
+        "can be retriggered"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18v3ehs",
+      "q": "If data is brought into the J terminal and its complement to the K terminal, a J-K flip-flop operates as a(n) ________.",
+      "options": [
+        "S-C flip-flop",
+        "D flip-flop",
+        "gated S-C flip-flop",
+        "TOGGLE flip-flop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qumty0",
+      "q": "The point(s) on this timing diagram where the Q output of a D latch will be HIGH is/are ________.",
+      "options": [
+        "point 4",
+        "points 3 and 4",
+        "points 1 and 2",
+        "points 4 and 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jex5vs",
+      "q": "The action of ________ a FF or latch is also called resetting.",
+      "options": [
+        "breaking",
+        "clearing",
+        "freeing",
+        "changing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dmcqo",
+      "q": "The postponed symbol () on the output of a flip-flop identifies it as being ________.",
+      "options": [
+        "a D flip-flop",
+        "a J-K flip-flop",
+        "pulse triggered",
+        "trailing edge-triggered"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bdxvf8",
+      "q": "The advantage of a J-K flip-flop over an S-R FF is that ________.",
+      "options": [
+        "it has fewer gates",
+        "it has only one output",
+        "it has no invalid states",
+        "it does not require a clock input"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-86hmw8",
+      "q": "With regard to a D latch, ________.",
+      "options": [
+        "the Q output follows the D input when EN is LOW",
+        "the Q output is opposite the D input when EN is LOW",
+        "the Q output follows the D input when EN is HIGH",
+        "the Q output is HIGH regardless of EN's input state"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15n0uak",
+      "q": "How can the cross-coupled NAND flip-flop be made to have active-HIGH S-R inputs?",
+      "options": [
+        "It can't be done.",
+        "Invert the Q outputs.",
+        "Invert the S-R inputs."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2iar98",
+      "q": "When is a flip-flop said to be transparent?",
+      "options": [
+        "when the Q output is opposite the input",
+        "when the Q output follows the input",
+        "when you can see through the IC packaging"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-180g27o",
+      "q": "Four positive edge-triggered D flip-flops are used to store a 4-bit binary number as shown below. Determine if the circuit is functioning properly, and if not, what might be wrong.",
+      "options": [
+        "The circuit is functioning properly.",
+        "Q2 is incorrect; the flip-flop is probably bad.",
+        "The input to flip-flop 3 (D2) is probably wrong; check the source of D2.",
+        "A bad connection probably exists between FF-3 and FF-4, causing FF-3 not to reset."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dmtl1c",
+      "q": "A 555 operating as a monostable multivibrator has an R1 of 1 M. Determine C1 for a pulse width of 2 s.",
+      "options": [
+        "1.8 F",
+        "18 F",
+        "18 pF",
+        "18 nF"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1whysv8",
+      "q": "The output of a gated S-R flip-flop changes only if the:",
+      "options": [
+        "flip-flop is set",
+        "control input data has changed",
+        "flip-flop is reset",
+        "input data has no change"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-91g3oc",
+      "q": "In VHDL, in which declaration section is a COMPONENT declared?",
+      "options": [
+        "Architecture",
+        "Library",
+        "Entity",
+        "Port map"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q165xo",
+      "q": "A gated S-R latch and its associated waveforms are shown below. What, if anything, is wrong and what could be causing the problem?",
+      "options": [
+        "The output is always low; the circuit is defective.",
+        "The Q output should be the complement of the output; the S and R terminals are reversed.",
+        "The Q should be following the R input; the R input is defective.",
+        "There is nothing wrong with the circuit."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tiodb0",
+      "q": "The output pulse width of a 555 monostable circuit with R1 = 4.7 k and C1 = 47 F is ________.",
+      "options": [
+        "24 s",
+        "24 ms",
+        "243 ms",
+        "243 s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5rpkl0",
+      "q": "All multivibrators require feedback.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ha5uhg",
+      "q": "The propagation delay time tPLH is measured from the triggering edge of the clock pulse to the LOW-to-HIGH transition of the output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-130m3k4",
+      "q": "The J-K flip-flop is a standard building block of clocked (sequential) logic circuits known as logic standard primitives.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lkvah4",
+      "q": "A latch can act as a contact-bounce eliminator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z78w6c",
+      "q": "Connecting components together using HDL is not difficult.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c2md38",
+      "q": "A TOGGLE input to a J-K flip-flop causes the Q and outputs to switch to their opposite state.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1icbi2k",
+      "q": "When the output of the NOR gate S-R flip-flop is and , the inputs are .",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bivjug",
+      "q": "Edge-triggered J-K flip-flops make it hard for design engineers to know when to accept input data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cx0ygg",
+      "q": "A one-shot circuit is also known as a timer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xfbwo7",
+      "q": "The S-R flip-flop has no invalid or unused state.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nwpsz7",
+      "q": "When the output of the NOR gate S-R flip-flop is in the HOLD state (no change), the inputs are ________.",
+      "options": [
+        "S = 1, R = 1",
+        "S = 1, R = 0",
+        "S = 0, R = 1",
+        "S = 0, R = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k3phrw",
+      "q": "Regardless of whether you develop a description in AHDL or VHDL, the circuit's proper operation can be verified using a ________.",
+      "options": [
+        "PROCESS",
+        "computer",
+        "simulator",
+        "primitive library"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cprcgo",
+      "q": "The 74121 nonretriggerable multivibrator can have the output pulse set by a single external component. This component is a(n) ________.",
+      "options": [
+        "capacitor",
+        "inductor",
+        "resistor",
+        "LED"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tmcu7o",
+      "q": "The signal used to identify edge-triggered flip-flops is ________.",
+      "options": [
+        "a bubble on the clock input",
+        "an inverted \"L\" on the output",
+        "the letter \"E\" on the enable input",
+        "a triangle on the clock input"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12eicmy",
+      "q": "An edge-triggered flip-flop can change states only when ________.",
+      "options": [
+        "the trigger is HIGH",
+        "the D input is HIGH",
+        "the trigger is LOW",
+        "the trigger input changes levels"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oyajwg",
+      "q": "The inputs on a 7474 D flip-flop are S, R, D, and CLK ________ is/are synchronous.",
+      "options": [
+        "Only S",
+        "S and R",
+        "Only D",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pgdj30",
+      "q": "The asynchronous inputs on a J-K flip-flop ________.",
+      "options": [
+        "are normally not at the active level at the same time",
+        "take precedence over the J and K inputs",
+        "do not require a clock pulse to affect the output",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1alvowg",
+      "q": "A positive edge-triggered flip-flop will accept inputs only when the clock ________.",
+      "options": [
+        "is LOW",
+        "changes from HIGH to LOW",
+        "is HIGH",
+        "changes from LOW to HIGH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-170jbqw",
+      "q": "Master-slave J-K flip-flops are called pulse-triggered or level-triggered devices because input data is read during the entire time the clock pulse is at a LOW level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i7e5yk",
+      "q": "Which of the following is correct for a D latch?",
+      "options": [
+        "The output toggles if one of the inputs is held HIGH.",
+        "Q output follows the input D when the enable is HIGH.",
+        "Only one of the inputs can be HIGH at a time.",
+        "The output complement follows the input when enabled."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ezw8de",
+      "q": "A J-K flip-flop is in a \"no change\" condition when ________.",
+      "options": [
+        "J = 1, K = 1",
+        "J = 1, K = 0",
+        "J = 0, K = 1",
+        "J = 0, K = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lc8sac",
+      "q": "A correct output is achieved from a master-slave J-K flip-flop only if its inputs are stable while the:",
+      "options": [
+        "clock is LOW",
+        "slave is transferring",
+        "flip-flop is reset",
+        "clock is HIGH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tad2f0",
+      "q": "Which of the following describes the operation of a positive edge-triggered D flip-flop?",
+      "options": [
+        "If both inputs are HIGH, the output will toggle.",
+        "The output will follow the input on the leading edge of the clock.",
+        "When both inputs are LOW, an invalid state exists.",
+        "The input is toggled into the flip-flop on the leading edge of the clock and is passed to the output on the trailing edge of the clock."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-129iyg8",
+      "q": "Which is not a real advantage of HDL?",
+      "options": [
+        "Using higher levels of abstraction",
+        "Tailoring components to exactly fit the needs of the project",
+        "The use of graphical tools",
+        "Using higher levels of abstraction and tailoring components to exactly fit the needs of the project"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qeq2jt",
+      "q": "Two J-K flip-flops with their J-K inputs tied HIGH are cascaded to be used as counters. After four input clock pulses, the binary count is ________.",
+      "options": [
+        "00",
+        "11",
+        "01",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eo8cnc",
+      "q": "In VHDL, how is each instance of a component addressed?",
+      "options": [
+        "A name followed by a colon and the name of the library primitive",
+        "A name followed by a semicolon and the component type",
+        "A name followed by the library being used",
+        "A name followed by the component library number"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rpy4bk",
+      "q": "A flip-flop's normal starting state when power is first applied to a circuit is always the SET state.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3pu1ls",
+      "q": "Latches are tristate devices whose state normally depends on asynchronous inputs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dx3zr6",
+      "q": "Using knowledge from previous chapters, an S-R flip-flop circuit is easy to design.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14o77k8",
+      "q": "Inputs that cause the output of a flip-flop to change instantaneously are asynchronous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ccz8w0",
+      "q": "A one-shot is a special type of multivibrator that must be triggered to produce each output pulse.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3l6m28",
+      "q": "A D latch has one data-input line.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j2yh00",
+      "q": "The 7474 has two distinct types of inputs: synchronous and asynchronous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3aav9l",
+      "q": "Most basic latches and flip-flops are available in IC packages of eight latches or flip-flops with a common clock.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r71i90",
+      "q": "Parallel data transfers between two different sets of registers require more than one shift pulse.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Flip Flops",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19jjd5w",
+      "q": "When both inputs of a J-K pulse-triggered FF are high and the clock cycles, the output will ________.",
+      "options": [
+        "be invalid",
+        "not change",
+        "remain unchanged",
         "toggle"
       ],
       "correct": 0,
@@ -138,13 +1752,13 @@
       "tags": []
     },
     {
-      "id": "gate-4tw13n",
-      "q": "In synchronous systems, the exact times at which any output can change state are determined by a signal commonly called the ________.",
+      "id": "gate-y4uhti",
+      "q": "A gated S-R flip-flop goes into the CLEAR condition when ________.",
       "options": [
-        "traffic",
-        "D",
-        "flip-flop",
-        "clock"
+        "S is HIGH; R is LOW; EN is HIGH",
+        "S is LOW; R is HIGH; EN is HIGH",
+        "S is LOW; R is HIGH; EN is LOW",
+        "S is HIGH; R is LOW; EN is LOW"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +1772,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n87zm8",
-      "q": "The key to edge-triggered sequential circuits in VHDL is the ________.",
+      "id": "gate-p5gcdg",
+      "q": "What type of multivibrator is a latch?",
       "options": [
-        "ARCHITECTURE",
-        "PROCESS",
-        "FUNCTION",
-        "VARIABLE"
+        "Astable",
+        "Monostable",
+        "Bistable",
+        "It depends on the type of latch."
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +1792,11 @@
       "tags": []
     },
     {
-      "id": "gate-kf35wg",
-      "q": "How many flip-flops are required to produce a divide-by-128 device?",
+      "id": "gate-lo9ubs",
+      "q": "What does the triangle on the clock input of a J-K flip-flop mean?",
       "options": [
-        "1",
-        "4",
-        "6",
-        "7"
+        "level enabled",
+        "edge-triggered"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +1810,13 @@
       "tags": []
     },
     {
-      "id": "gate-l9a7sk",
-      "q": "Which is not an Altera primitive port identifier?",
+      "id": "gate-4iedwk",
+      "q": "A J-K flip-flop with J = 1 and K = 1 has a 20 kHz clock input. The Q output is ________.",
       "options": [
-        "clk",
-        "ena",
-        "clr",
-        "prn"
+        "constantly LOW",
+        "constantly HIGH",
+        "a 20 kHz square wave",
+        "a 10 kHz square wave"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +1830,13 @@
       "tags": []
     },
     {
-      "id": "gate-c4popt",
-      "q": "The timing network that sets the output frequency of a 555 astable circuit contains ________.",
+      "id": "gate-1mhd7gw",
+      "q": "An RC circuit used in a nonretriggerable 74121 one-shot has an REXT of 49 k and a CEXT of 0.2 F. The pulse width (tW) is approximately ________.",
       "options": [
-        "three external resistors are used",
-        "two external resistors and an external capacitor are used",
-        "an external resistor and two external capacitors are used",
-        "no external resistor or capacitor is required"
+        "6.9 s",
+        "6.9 ms",
+        "69 ms",
+        "690 ms"
       ],
       "correct": 0,
       "explain": "",
@@ -238,11 +1850,13 @@
       "tags": []
     },
     {
-      "id": "gate-1u7foec",
-      "q": "What is the difference between the enable input of the 7475 and the clock input of the 7474?",
+      "id": "gate-556oo8",
+      "q": "On a positive edge-triggered S-R flip-flop, the outputs reflect the input condition when ________.",
       "options": [
-        "The 7475 is edge-triggered.",
-        "The 7474 is edge-triggered."
+        "the clock pulse is LOW",
+        "the clock pulse is HIGH",
+        "the clock pulse transitions from LOW to HIGH",
+        "the clock pulse transitions from HIGH to LOW"
       ],
       "correct": 0,
       "explain": "",
@@ -256,13 +1870,13 @@
       "tags": []
     },
     {
-      "id": "gate-rk1ntk",
-      "q": "The phenomenon of interpreting unwanted signals on J and K while Cp (clock pulse) is HIGH is called ________.",
+      "id": "gate-1cvdgkw",
+      "q": "As a general rule for stable flip-flop triggering, the clock pulse rise and fall times must be:",
       "options": [
-        "parity error checking",
-        "ones catching",
-        "digital discrimination",
-        "digital filtering"
+        "very long.",
+        "very short.",
+        "at a maximum value to enable the input control signals to stabilize.",
+        "of no consequence as long as the levels are within the determinate range of value."
       ],
       "correct": 0,
       "explain": "",
@@ -276,13 +1890,13 @@
       "tags": []
     },
     {
-      "id": "gate-1d798js",
-      "q": "If both inputs of an S-R flip-flop are LOW, what will happen when the clock goes high?",
+      "id": "gate-11ec9ja",
+      "q": "A positive edge-triggered D flip-flop will store a 1 when ________.",
       "options": [
-        "No change will occur in the output.",
-        "An invalid state will exist.",
-        "The output will toggle.",
-        "The output will reset."
+        "the D input is HIGH and the clock transitions from HIGH to LOW",
+        "the D input is HIGH and the clock transitions from LOW to HIGH",
+        "the D input is HIGH and the clock is LOW",
+        "the D input is HIGH and the clock is HIGH"
       ],
       "correct": 0,
       "explain": "",
@@ -296,13 +1910,13 @@
       "tags": []
     },
     {
-      "id": "gate-seustk",
-      "q": "Four J-K flip-flops are cascaded with their J-K inputs tied HIGH. If the input frequency (fin) to the first flip-flop is 32 kHz, the output frequency (fout) is ________.",
+      "id": "gate-1sgxo8p",
+      "q": "A positive edge-triggered J-K flip-flop is used to produce a two-phase clock. However, when the circuit is operated it produces erratic results. Close examination with a scope reveals the presence of glitches. What causes the glitches, and how might the problem be corrected?",
       "options": [
-        "1 kHz",
-        "2 kHz",
-        "4 kHz",
-        "16 kHz"
+        "The PRESET and CLEAR terminals may have been left floating; they should be properly terminated if not being used.",
+        "The problem is caused by a race condition between the J and K inputs; an inverter should be inserted in one of the terminals to correct the problem.",
+        "A race condition exists between the Q and Q outputs to the AND gate; the AND gate should be replaced with a NAND gate.",
+        "A race condition exists between the clock and the outputs of the flip-flop feeding the AND gate; replace the flip-flop with a negative edge-triggered J-K Flip-Flop."
       ],
       "correct": 0,
       "explain": "",

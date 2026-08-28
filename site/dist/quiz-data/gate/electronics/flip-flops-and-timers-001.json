@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Flip Flops And Timers",
   "source": "indiabix.com",
-  "count": 19,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-1pbl164",
-      "q": "Edge-triggered flip-flops can be identified by the triangle on the clock input.",
+      "id": "gate-1m5mdgj",
+      "q": "A one-shot is a special type of multivibrator, which must be triggered to produce each output pulse.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-ipjuee",
-      "q": "The 555 timer can be used in either the bistable mode or the monostable mode.",
+      "id": "gate-cs2ec8",
+      "q": "Multivibrators must be level-triggered.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-2i52bw",
-      "q": "J-K flip-flops are often used as switch debouncers.",
+      "id": "gate-1gouv4o",
+      "q": "A D-type flip-flop is constructed by connecting an inverter between the Set and Clock terminals.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-oo43xk",
-      "q": "The J-K flip-flop eliminates the RACE state when both the J and K inputs are HIGH.",
+      "id": "gate-1a4om5v",
+      "q": "When the S and the R inputs are both HIGH the output of an S-R NOR latch will be unpredictable.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qxrxu4",
-      "q": "Pulse-triggered flip-flops are identified by a bubble on the Q output terminal.",
+      "id": "gate-1k2ampw",
+      "q": "When using master-slave flip-flops, the data is entered into the flip-flop on the leading edge of the clock, but the output does not change until the trailing edge of the clock.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xa2y7c",
-      "q": "A retriggerable one-shot has a pulse width of 10 ms; 3 ms after being triggered, another trigger pulse is applied. The resulting output pulse will be _________ ms.",
+      "id": "gate-mrbmcw",
+      "q": "Pulse-triggered flip-flops are also called _________ flip-flops.",
       "options": [
-        "3",
-        "7",
-        "10",
-        "13"
+        "master-slave",
+        "postponed",
+        "level",
+        "edge"
       ],
       "correct": 0,
       "explain": "",
@@ -118,73 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-pmkqha",
-      "q": "The S-R, D-type, and J-K flip-flops are all examples of _________________.",
+      "id": "gate-6of8",
+      "q": "For an S-R flip-flop to be SET or RESET, the respective input must be __________.",
       "options": [
-        "astable multivibrators",
-        "bistable multivibrators",
-        "monostable multivibrators",
-        "tristable multivibrators"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Flip Flops And Timers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ox6ipk",
-      "q": "Edge-triggered flip-flops must have _________.",
-      "options": [
-        "very fast response times",
-        "at least two inputs to handle rising and falling edges",
-        "a positive-transition pulse generator",
-        "a negative-transition pulse generator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Flip Flops And Timers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9my1x4",
-      "q": "An S-R flip-flop can be triggered by ______, ______, or ________.",
-      "options": [
-        "HIGHs, LOWs, PRESETs",
-        "edges, levels, pulses",
-        "HIGHs, LOWs, CLEARs",
-        "SETs, RESETs, HIGHs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Flip Flops And Timers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2hups0",
-      "q": "An S-R NAND latch with both of its inputs LOW has an output that is _____________.",
-      "options": [
-        "unpredictable",
-        "floating",
+        "LOW",
         "HIGH",
-        "LOW"
+        "installed with steering diodes",
+        "in parallel with a limiting resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ppkat4",
-      "q": "One example of the use of an S-R flip-flop is as a(n):",
+      "id": "gate-5neubo",
+      "q": "The toggle condition in a master-slave J-K flip-flop means that Q and will switch to their ________ state(s) at the _____________________.",
       "options": [
-        "transition pulse generator",
-        "astable oscillator",
-        "racer",
-        "switch debouncer"
+        "inverted, positive clock edge",
+        "quiescent, negative clock edge",
+        "opposite, active clock edge",
+        "reset, synchronous clock edge"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tkdewc",
-      "q": "If both inputs of an S-R NAND latch are LOW, what will happen to the output?",
+      "id": "gate-1gdakzo",
+      "q": "If an input is activated by a signal transition, it is _____________.",
       "options": [
-        "The output would become unpredictable.",
-        "The output will toggle.",
-        "The output will reset.",
-        "No change will occur in the output."
+        "edge-triggered",
+        "toggle-triggered",
+        "clock-triggered",
+        "noise-triggered"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wsnetc",
-      "q": "The equation for the output frequency of a 555 timer operating in the astable mode is: . What value of C1 will be required if R1 = 1 k, R2 = 1 k, and f = 1 kHz?",
+      "id": "gate-j9a85k",
+      "q": "Which of the following is correct for a gated D-type flip-flop?",
       "options": [
-        "0.33 F",
-        "0.48 F",
-        "480 F",
-        "33 nF"
+        "The Q output is either SET or RESET as soon as the D input goes HIGH or LOW.",
+        "The output complement follows the input when enabled.",
+        "Only one of the inputs can be HIGH at a time.",
+        "The output toggles if one of the inputs is held HIGH."
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ugb4",
-      "q": "An astable multivibrator is a circuit that:",
+      "id": "gate-uxtrvk",
+      "q": "When both inputs of a J-K flip-flop cycle, the output will:",
       "options": [
-        "has two stable states",
-        "is free-running",
-        "produces a continuous output signal",
-        "is free-running and produces a continuous output signal"
+        "be invalid",
+        "not change",
+        "change",
+        "toggle"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pp9aq8",
-      "q": "What is another name for a one-shot?",
+      "id": "gate-2julns",
+      "q": "Latches constructed with NOR and NAND gates tend to remain in the latched condition due to which configuration feature?",
       "options": [
-        "monostable",
-        "bistable",
-        "astable",
-        "tristable"
+        "asynchronous operation",
+        "low input voltages",
+        "gate impedance",
+        "cross coupling"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c99k1o",
-      "q": "The truth table for an S-R flip-flop has how many VALID entries?",
+      "id": "gate-pcui5c",
+      "q": "The 555 timer can be used in which of the following configurations?",
       "options": [
-        "3",
-        "1",
-        "4",
-        "2"
+        "astable, monostable",
+        "monostable, bistable",
+        "astable, toggled",
+        "bistable, tristable"
       ],
       "correct": 0,
       "explain": "",
@@ -318,53 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-18s6oyg",
-      "q": "What is the significance of the J and K terminals on the J-K flip-flop?",
+      "id": "gate-1m4b7sc",
+      "q": "A basic S-R flip-flop can be constructed by cross-coupling which basic logic gates?",
       "options": [
-        "There is no known significance in their designations.",
-        "The J represents \"jump,\" which is how the Q output reacts whenever the clock goes HIGH and the J input is also HIGH.",
-        "The letters represent the initials of Johnson and King, the co-inventors of the J-K flip-flop.",
-        "All of the other letters of the alphabet are already in use."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Flip Flops And Timers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zxm8k4",
-      "q": "Which of the following describes the operation of a positive edge-triggered D-type flip-flop?",
-      "options": [
-        "If both inputs are HIGH, the output will toggle.",
-        "The output will follow the input on the leading edge of the clock.",
-        "When both inputs are LOW, an invalid state exists.",
-        "The input is toggled into the flip-flop on the leading edge of the clock and is passed to the output on the trailing edge of the clock."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Flip Flops And Timers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6deu84",
-      "q": "What is one disadvantage of an S-R flip-flop?",
-      "options": [
-        "It has no Enable input.",
-        "It has a RACE condition.",
-        "It has no clock input.",
-        "It has only a single output."
+        "AND or OR gates",
+        "XOR or XNOR gates",
+        "NOR or NAND gates",
+        "AND or NOR gates"
       ],
       "correct": 0,
       "explain": "",

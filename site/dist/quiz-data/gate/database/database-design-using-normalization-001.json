@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Database Design Using Normalization",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-mthj2u",
-      "q": "When building a database from an existing set of tables, we may safely assume that referential integrity constraints have been enforced on the data we are given.",
+      "id": "gate-1ymrro4",
+      "q": "One common design problem when designing a database from existing data is the use of a single cell in one column to store multiple values of an attribute.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fisxe",
-      "q": "Most of the time, modification anomalies cause problems that are severe enough that a table should be normalized into BCNF.",
+      "id": "gate-1v96614",
+      "q": "In all cases, normalization into BCNF is desirable.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-cd3ulc",
-      "q": "When building a database from an existing set of tables, we still need to consider normalization principles.",
+      "id": "gate-1q6pqeo",
+      "q": "Denormalized tables are in BCNF.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-h62o8g",
-      "q": "We have normalized a table into BCNF if all candidate keys are determinants.",
+      "id": "gate-1fdiwq2",
+      "q": "We can eliminate modification anomalies with proper normalization that results in tables in BCNF.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-x60d8c",
-      "q": "We use the SQL construct COLUMNS(*) to determine the number and type of columns in a table.",
+      "id": "gate-12traec",
+      "q": "Proper normalization eliminates duplicated data.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1um4xk8",
-      "q": "When assessing the table structure of an acquired set of tables with data, determining foreign keys is (part of) the:",
+      "id": "gate-1s8f2t4",
+      "q": "One common design problem when designing a database from existing data is the use of a general-purpose remarks column in the received data.",
       "options": [
-        "first step.",
-        "second step.",
-        "third step.",
-        "fourth step."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-2l4fip",
-      "q": "Creating a read-only database is a task that is ________ assigned to beginning database professionals.",
+      "id": "gate-a3n3b0",
+      "q": "One common design problem when designing a database from existing data is the presence of missing values, called blank values, in received data.",
       "options": [
-        "always",
-        "commonly",
-        "seldom",
-        "never"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-evq7ic",
-      "q": "Each answer below shows example data from a table. Which answer is an example of the general-purpose remarks column problem?",
+      "id": "gate-g09wk4",
+      "q": "Normalization requires programmers to write more complex SQL.",
       "options": [
-        "Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.",
-        "Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.",
-        "Three rows have the values Brown, NULL, and Blue in the same column.",
-        "One row has the value \"He is interested in a Silver Porsche from the years 1978-1988\" in a column."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-1j2fcsw",
-      "q": "For a number of reasons, normalizations is not often an advantage for a(n) ________ database.",
+      "id": "gate-9btmqk",
+      "q": "One common design problem when designing a database from existing data is the presence of inconsistent values in the received data.",
       "options": [
-        "read-only",
-        "updateable",
-        "either a read-only or an updateable",
-        "None of the above is correct."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,11 @@
       "tags": []
     },
     {
-      "id": "gate-15j15ho",
-      "q": "Most of the time, modification anomalies are serious enough that tables should be normalized into:",
+      "id": "gate-m8hn0w",
+      "q": "When building a database from an existing set of tables, we may safely assume that there are no multivalued dependencies in the data we are given.",
       "options": [
-        "1NF.",
-        "2NF.",
-        "3NF.",
-        "BCNF."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,28 +188,8 @@
       "tags": []
     },
     {
-      "id": "gate-1hglue8",
-      "q": "Read-only databases are ________ updated.",
-      "options": [
-        "always",
-        "commonly",
-        "seldom",
-        "never"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Database Design Using Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-75v6yq",
-      "q": "Needing to assess the validity of assumed referential integrity constraints on foreign keys is a(n) ________ of normalization.",
+      "id": "gate-11qea4o",
+      "q": "Needing to using more complicated SQL in database applications is a(n) ________ of normalization.",
       "options": [
         "advantage",
         "disadvantage",
@@ -238,8 +208,48 @@
       "tags": []
     },
     {
-      "id": "gate-wdkgas",
-      "q": "When assessing the table structure of an acquired set of tables with data, determining primary keys is (part of) the:",
+      "id": "gate-ydi0io",
+      "q": "Eliminating modification anomalies is a(n) ________ of normalization.",
+      "options": [
+        "advantage",
+        "disadvantage",
+        "either an advantage or disadvantage",
+        "neither an advantage nor disadvantage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kujqh8",
+      "q": "Multivalued dependencies should ________ be eliminated.",
+      "options": [
+        "always",
+        "commonly",
+        "seldom",
+        "never"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kuea8o",
+      "q": "When assessing the table structure of an acquired set of tables with data, accessing the validity of possible referential integrity constraints on foreign keys is (part of) the:",
       "options": [
         "first step.",
         "second step.",
@@ -258,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xpe2ho",
-      "q": "Normalization ________ data duplication.",
+      "id": "gate-fch37x",
+      "q": "Using the SQL GROUP BY phrase with a SELECT statement can help detect which of the following problems?",
       "options": [
-        "eliminates",
-        "reduces",
-        "increases",
-        "maximizes"
+        "The multivalue, multicolumn problem",
+        "The inconsistent values problem",
+        "The missing values problem",
+        "The general-purpose remarks column problem"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +288,183 @@
       "tags": []
     },
     {
-      "id": "gate-ypwmkg",
-      "q": "Each answer below shows example data from a table. Which answer is an example of the inconsistent values problem?",
+      "id": "gate-5ukver",
+      "q": "Each answer below shows example data from a table. Which answer is an example of the missing values problem?",
       "options": [
         "Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.",
         "Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.",
         "Three rows have the values Brown, NULL, and Blue in the same column.",
         "One row has the value \"He is interested in a Silver Porsche from the years 1978-1988\" in a column."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1k27ls8",
+      "q": "When assessing the table structure of an acquired set of tables with data, determining functional dependencies is (part of) the:",
+      "options": [
+        "first step.",
+        "second step.",
+        "third step.",
+        "fourth step."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ofep5w",
+      "q": "Each answer below shows example data from a table. Which answer is an example of the multivalue, multicolumn problem?",
+      "options": [
+        "Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.",
+        "Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.",
+        "Three rows have the values Brown, NULL, and Blue in the same column.",
+        "One row has the value \"He is interested in a Silver Porsche from the years 1978-1988\" in a column."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gbiuyc",
+      "q": "When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:",
+      "options": [
+        "first step.",
+        "second step.",
+        "third step.",
+        "fourth step."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z51tzk",
+      "q": "If a table has been normalized so that all determinants are candidate keys, then that table is in:",
+      "options": [
+        "1NF.",
+        "2NF.",
+        "3NF.",
+        "BCNF."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bh9tf4",
+      "q": "The design guidelines and priorities for read-only databases are different because read-only databases are never updated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11uzzeq",
+      "q": "The phrase \"SALE.CNumber must exist in CUSTOMER.CNumber\" is a referential integrity constraint.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vxnq5g",
+      "q": "We use the SQL construct COUNT(*) to count the number of rows in a table.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mqu2xr",
+      "q": "When you are given a set of tables and asked to create a database to store their data, the first step is to create the new database.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Database Design Using Normalization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u8w4ak",
+      "q": "Multivalued dependencies create harmless anomalies that should be noted, but do not always need to be eliminated.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

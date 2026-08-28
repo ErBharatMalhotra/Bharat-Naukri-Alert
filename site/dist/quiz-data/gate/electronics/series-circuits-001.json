@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Series Circuits",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 59,
   "questions": [
     {
-      "id": "gate-1d903td",
-      "q": "The total resistance of a series circuit is equal to the average of all the resistance values.",
+      "id": "gate-d2qstw",
+      "q": "In a series circuit, larger resistances drop larger voltages.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qld2w",
-      "q": "The total resistance of a series circuit always depends on the highest value resistor in that circuit.",
+      "id": "gate-tam0js",
+      "q": "To find the total resistance in series, add the individual resistances.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-3ep1o0",
-      "q": "If four 9 V batteries are connected series-aiding, the total voltage is 36 V.",
+      "id": "gate-1anj9go",
+      "q": "An open in a series circuit will cause maximum voltage across the power supply terminals.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1od15ko",
-      "q": "The total resistance is 35 .",
+      "id": "gate-ekpl8",
+      "q": "A short in a series circuit causes the total circuit current to decrease.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1dduu8s",
-      "q": "These components are in series.",
+      "id": "gate-1nxdpod",
+      "q": "Voltage sources are added when they are series-opposing.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1c54z94",
-      "q": "The ______ determines whether connected resistors are in series, parallel, or series-parallel?",
+      "id": "gate-12c80d4",
+      "q": "As additional resistors are added to a series circuit, the total circuit resistance increases.",
       "options": [
-        "current flow",
-        "power source",
-        "voltage flow",
-        "wattage source"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c5ntwc",
-      "q": "If a 3.9 k, a 7.5 k, and a 5.6 k resistor are connected in series with a 34 V source, the voltage dropped across the 7.5 k resistor equals _____.",
+      "id": "gate-uzuswc",
+      "q": "If a 220 , a 100 , and a 180 resistor are connected in series across a 12 V source, the circuit current equals ___.",
       "options": [
-        "34 V",
-        "15 V",
-        "7.8 V",
-        "11.2 V"
+        "41.67 A",
+        "120 mA",
+        "500 A",
+        "24 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +136,33 @@
       "tags": []
     },
     {
-      "id": "gate-1wd9nbc",
-      "q": "In the given circuit, R1 equals _____.",
+      "id": "gate-xkr98",
+      "q": "If a 47 and a 68 resistor are connected in series, the total resistance is ___.",
+      "options": [
+        "3,196",
+        "less than 47",
+        "less than 68",
+        "115"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kgsixg",
+      "q": "In the given circuit, R2 equals _____.",
       "options": [
         "100 k",
         "200 k",
         "300 k",
-        "More information is needed to find R1."
+        "More information is needed to find R2."
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +176,13 @@
       "tags": []
     },
     {
-      "id": "gate-vxbkmw",
-      "q": "The total circuit power in the given circuit equals _____.",
+      "id": "gate-35t8s0",
+      "q": "The polarity on the side of the resistor where current enters is ______. The polarity on the side of the resistor where current exits is ___________.",
       "options": [
-        "64 &#181;W",
-        "4 &#181;W",
-        "0 W",
-        "16 &#215; 10&#8211;12 W"
+        "positive, positive",
+        "negative, negative",
+        "negative, positive",
+        "positive, negative"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +196,13 @@
       "tags": []
     },
     {
-      "id": "gate-crb9to",
-      "q": "In the given circuit, the voltage dropped across R3 equals ___.",
+      "id": "gate-1psjwqs",
+      "q": "A voltage divider is always a _____",
       "options": [
-        "1.5 V",
-        "3 V",
-        "6 V",
-        "More information is needed to find the voltage dropped across R3."
+        "series-parallel circuit",
+        "series circuit",
+        "parallel circuit",
+        "bridge circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +216,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c0w19s",
-      "q": "With a total resistance of 3300 ohms and a 45 V source, if R3 is 1200 ohms, what will be its voltage drop?",
+      "id": "gate-d53h0g",
+      "q": "If five equal resistors are connected in series with a 20 V source, and a current of 400 &#181;A is measured, each resistor equals ___.",
       "options": [
-        "16.36 V",
-        "32.72 V",
-        "10.90 V",
-        "15.00 V"
+        "10 k",
+        "50 k",
+        "125",
+        "20"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +236,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jafzcc",
-      "q": "Calculate the voltage at point B in the given circuit.",
+      "id": "gate-1d1y9xo",
+      "q": "If four 90 resistors are connected in series across an 18 V source, the current equals ___.",
       "options": [
-        "+10.48 V",
-        "+0.94 V",
-        "+2.6 V",
-        "+3 V"
+        "50 mA",
+        "0.2 A",
+        "5 A",
+        "20 A"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +256,13 @@
       "tags": []
     },
     {
-      "id": "gate-c2jre0",
-      "q": "In the given circuit, what type of failure will cause the voltage at point B to equal the voltage at point C?",
+      "id": "gate-19cx8t1",
+      "q": "&#8211;1.2 V, +15 V, and &#8211;6 V batteries are connected in series. The magnitude of total voltage is _________.",
       "options": [
-        "R1 shorts",
-        "R2 shorts",
-        "R3 shorts",
-        "R2 opens"
+        "7.8 V",
+        "10.2 V",
+        "22.2 V",
+        "1.3 V"
       ],
       "correct": 0,
       "explain": "",
@@ -258,8 +276,848 @@
       "tags": []
     },
     {
-      "id": "gate-10ic2z0",
-      "q": "What is the voltage at points B to D in the given circuit?",
+      "id": "gate-1rz87u4",
+      "q": "In the given circuit, _____ are in series.",
+      "options": [
+        "R1 and R3",
+        "R3 and R5",
+        "R5 and R7",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mripjt",
+      "q": "What is the current flow through R1, R2, and R3?",
+      "options": [
+        "1A, 1A, 1A",
+        "1A, 2A, 3A",
+        "3A, 3A, 3A",
+        "3A, 2A, 1A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a0bm00",
+      "q": "One of the most common applications of a potentiometer is as an adjustable voltage divider, also known as",
+      "options": [
+        "voltage control",
+        "current control",
+        "volume control",
+        "divider control"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iuhzhc",
+      "q": "If the resistance total in a series circuit doubles, current will:",
+      "options": [
+        "be the same",
+        "be doubled",
+        "reduce source voltage",
+        "be halved"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ae4o6w",
+      "q": "Power is defined as:",
+      "options": [
+        "the rate at which work is done",
+        "work",
+        "the conversion of energy",
+        "joules"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e2y49k",
+      "q": "What is the dc source voltage?",
+      "options": [
+        "78 V",
+        "39 V",
+        "13 V",
+        "0 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gqlxbs",
+      "q": "An 8-ohm resistor is in series with a lamp. The circuit current is 1 A. With 20 V applied, what voltage is being allowed for the lamp?",
+      "options": [
+        "4 V",
+        "8 V",
+        "12 V",
+        "20 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f2ch20",
+      "q": "What is wrong, if anything, with this circuit?",
+      "options": [
+        "R1 is open.",
+        "R1 is shorted.",
+        "R2 is open.",
+        "R2 is shorted."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7d9yg0",
+      "q": "Kirchhoff&#146;s voltage law states that:",
+      "options": [
+        "the sum of the voltage drops in a series circuit is equal to the total applied voltage",
+        "the algebraic sum of the resistances is equal to the sum of the voltages",
+        "the algebraic sum of the individual currents around a closed loop is zero",
+        "the voltages developed across each element in a series circuit are identical"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dikiuu",
+      "q": "If series current doubles, then:",
+      "options": [
+        "resistance is halved",
+        "voltage is doubled",
+        "voltage is reduced",
+        "resistance is doubled"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qbngik",
+      "q": "What are the minimum and maximum output voltages?",
+      "options": [
+        "0 V, 4 V",
+        "0 V, 8 V",
+        "0 V, 12 V",
+        "0 V, 16 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b17u6w",
+      "q": "What determines the total resistance in a series circuit?",
+      "options": [
+        "the largest resistor",
+        "the sum of the resistors",
+        "the largest resistor minus the smaller",
+        "the smallest resistor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o7q11k",
+      "q": "If two resistors have the same voltage drop in a series circuit, it means:",
+      "options": [
+        "they are connected in parallel",
+        "they are of unequal value",
+        "the voltage has doubled",
+        "they are of equal value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10rxrsc",
+      "q": "If series resistors dissipate 16 mW, 107 mW, 146 mW, and 243 mW, what is the total power consumed by the circuit?",
+      "options": [
+        "128 mW",
+        "269 mW",
+        "512 mW",
+        "1024 mW"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-axzrup",
+      "q": "A series circuit schematic is recognized because all the components are connected:",
+      "options": [
+        "diagonally across the page",
+        "in a uniform vertical manner",
+        "end to end in a \"string\"",
+        "horizontally across the page"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nl97di",
+      "q": "With a 900 V source, voltage is divided across 3 series resistors of 300 V, 280 V, and:",
+      "options": [
+        "30 V",
+        "270 V",
+        "320 V",
+        "900 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fn5djk",
+      "q": "The total power dissipated in a series resistive circuit exceeds the sum of the resistor powers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-76jxrw",
+      "q": "A series circuit provides only one path for current between two points.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4fhbwm",
+      "q": "Using a voltage divider the voltage across R1 is 10 V, R2 is 15 V, and R3 is 30 V.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3zgl40",
+      "q": "If 7.3 k, 1.8 k, and 4.9 k resistors are wired in series, the total resistance is 14 k.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7ot918",
+      "q": "The sum of the voltage drops across series resistors must equal the total voltage applied.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cplems",
+      "q": "The sum of all the voltage drops in a series circuit equals the source voltage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wsqt15",
+      "q": "To find the total current in series, add the individual currents.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hybcwi",
+      "q": "Ground is the reference point from which voltages are measured in an electronic circuit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vouidg",
+      "q": "The voltage across R1 is 10 volts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7h8y08",
+      "q": "In a series circuit, the current flowing out of a resistor won't always equal the current flowing into that resistor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8u61io",
+      "q": "A short circuit has:",
+      "options": [
+        "too much resistance",
+        "no conductance",
+        "no resistance",
+        "low current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p0bsa",
+      "q": "If three resistors of 1.5 kilohms, 470 ohms, and 3300 ohms are in series with a 25-volt source, what is the total circuit current?",
+      "options": [
+        "210 mA",
+        "5.2 mA",
+        "4.7 mA",
+        ".007 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uhsxf0",
+      "q": "What is the total power in the circuit?",
+      "options": [
+        "170 mW",
+        "1.7 W",
+        "17 W",
+        "170 W"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17mhslw",
+      "q": "A string of resistors in a series circuit will:",
+      "options": [
+        "divide the source voltage in proportion to their values",
+        "reduce the power to zero",
+        "cause the current to divide",
+        "increase the source voltage in proportion to the values"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-970v5b",
+      "q": "While putting three 1.5 V batteries into a flashlight, you put one in backwards. The flashlight will be ______________.",
+      "options": [
+        "brighter than normal",
+        "dimmer than normal",
+        "off",
+        "the same"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dwtn5w",
+      "q": "Which equation determines individual resistor voltage drop?",
+      "options": [
+        "V x R",
+        "I2 x R",
+        "V x I",
+        "I x R"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7j27r4",
+      "q": "How will an open resistor affect a series circuit?",
+      "options": [
+        "Current will flow around the open resistor.",
+        "The open resistor will drop 0 V.",
+        "Total resistance will decrease.",
+        "No current will flow in the circuit."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hui9hc",
+      "q": "The voltage drop across a series resistor is proportional to what other value?",
+      "options": [
+        "total resistance",
+        "its own resistance",
+        "wattage rating",
+        "the amount of time the circuit is on"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gfbsfw",
+      "q": "Resistance in a series circuit will:",
+      "options": [
+        "control the voltage",
+        "double the current",
+        "halve the power",
+        "oppose current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ks8xoo",
+      "q": "When a battery is connected to a series circuit, it delivers current based only upon:",
+      "options": [
+        "primary/secondary difference",
+        "total resistance",
+        "the polarity connections",
+        "average resistance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-flfq10",
+      "q": "If a voltage is connected between contacts 2 and 3 in the given circuit, which resistors will carry current?",
+      "options": [
+        "All twelve resistors will carry current.",
+        "Only R6 and R11 will carry current.",
+        "Only R2, R4, R6, and R11 will carry current.",
+        "Only R3, R6, R9, and R12 will carry current."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ajgh8w",
+      "q": "Given a series circuit containing resistors of different values, which statement is not true?",
+      "options": [
+        "The current through each resistor is the same.",
+        "The sum of the voltage drops across each resistive element will be equal to source voltage.",
+        "The total resistance is the sum of the value of the resistors.",
+        "The voltage drop across each resistor is the same."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nxoq40",
+      "q": "With 20 V applied, an 8-ohm resistor is in series with a lamp. When the lamp is removed, what voltage will be read across the lamp socket?",
+      "options": [
+        "0 V",
+        "8 V",
+        "12 V",
+        "20 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-143hsxg",
+      "q": "When 50 V is applied to four series resistors, 100 &#181;A flows. If R1 = 12 k , R2 = 47 k, and R3 = 57 k, what is the value of R4?",
+      "options": [
+        "38.4 k",
+        "3.84 k",
+        "384 k",
+        "3.84 M"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4943ks",
+      "q": "In a series circuit, the voltage measured across a short will be:",
+      "options": [
+        "source voltage",
+        "infinite voltage",
+        "zero volts",
+        "the normal voltage drop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-61a9pw",
+      "q": "Which is a true statement about the circuit in the given circuit?",
+      "options": [
+        "The batteries are series-aiding and the total source voltage equals 21 V.",
+        "The batteries are series-opposing and the total source voltage equals 3 V.",
+        "The batteries are series-aiding and the total source voltage equals 3 V.",
+        "The batteries are series-opposing and the total source voltage equals 21 V."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-evevck",
+      "q": "A series circuit current:",
+      "options": [
+        "remains the same through each component",
+        "is the same as the individual resistances",
+        "is subtracted by each component",
+        "varies through each component"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Series Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w5mha8",
+      "q": "If R2 opens in the given circuit, what is the voltage at point B?",
       "options": [
         "+19.2 V",
         "+8.8 V",
@@ -278,33 +1136,13 @@
       "tags": []
     },
     {
-      "id": "gate-164vbb0",
-      "q": "Calculate the voltage at point C in the given circuit.",
+      "id": "gate-1lve1k4",
+      "q": "If 5 V and 16 V power supplies are connected in series-opposing, what is the total voltage?",
       "options": [
-        "+1.48 V",
-        "+0.94 V",
-        "+11.6 V",
-        "+3 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-art6ek",
-      "q": "How much current flows in the circuit in the given circuit?",
-      "options": [
-        "20 A",
-        "60 A",
-        "80 A",
-        "140 A"
+        "11 V",
+        "16 V",
+        "21 V",
+        "80 V"
       ],
       "correct": 0,
       "explain": "",

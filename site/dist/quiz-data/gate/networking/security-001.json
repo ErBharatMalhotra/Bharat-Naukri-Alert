@@ -8,13 +8,13 @@
   "count": 9,
   "questions": [
     {
-      "id": "gate-12inyp4",
-      "q": "What command will permit SMTP mail to only host 1.1.1.1?",
+      "id": "gate-13y6epj",
+      "q": "Which of the following is true regarding access lists applied to an interface?",
       "options": [
-        "access-list 10 permit smtp host 1.1.1.1",
-        "access-list 110 permit ip smtp host 1.1.1.1",
-        "access-list 10 permit tcp any host 1.1.1.1 eq smtp",
-        "access-list 110 permit tcp any host 1.1.1.1 eq smtp"
+        "You can place as many access lists as you want on any interface until you run out of memory.",
+        "You can apply only one access list on any interface.",
+        "One access list may be configured, per direction, for each layer 3 protocol configured on an interface.",
+        "You can apply two access lists to any interface."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hex2f4",
-      "q": "You want to create a standard access list that denies the subnet of the following host: 172.16.50.172/20. Which of the following would you start your list with?",
+      "id": "gate-o5tmq4",
+      "q": "Which command would you use to apply an access list to a router interface?",
       "options": [
-        "access-list 10 deny 172.16.48.0 255.255.240.0",
-        "access-list 10 deny 172.16.0.0 0.0.255.255",
-        "access-list 10 deny 172.16.64.0 0.0.31.255",
-        "access-list 10 deny 172.16.48.0 0.0.15.255"
+        "ip access-list 101 out",
+        "access-list ip 101 in",
+        "ip access-group 101 in",
+        "access-group ip 101 in"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,53 @@
       "tags": []
     },
     {
-      "id": "gate-1pr4gkk",
-      "q": "What router command allows you to determine whether an IP access list is enabled on a particular interface?",
+      "id": "gate-1fsox64",
+      "q": "Which of the following is an example of a standard IP access list?",
       "options": [
-        "show ip port",
+        "access-list 110 permit host 1.1.1.1",
+        "access-list 1 deny 172.16.10.1 0.0.0.0",
+        "access-list 1 permit 172.16.10.1 255.255.0.0",
+        "access-list standard 1.1.1.1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Security",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aqq3ds",
+      "q": "You need to create an access list that will prevent hosts in the network range of 192.168.160.0 to 192.168.191.0. Which of the following lists will you use?",
+      "options": [
+        "access-list 10 deny 192.168.160.0 255.255.224.0",
+        "access-list 10 deny 192.168.160.0 0.0.191.255",
+        "access-list 10 deny 192.168.160.0 0.0.31.255",
+        "access-list 10 deny 192.168.0.0 0.0.31.255"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Security",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bklyha",
+      "q": "You are working on a router that has established privilege levels that restrict access to certain functions. You discover that you are not able to execute the command show running-configuration. How can you view and confirm the access lists that have been applied to the Ethernet 0 interface on your router?",
+      "options": [
         "show access-lists",
-        "show ip interface",
-        "show access-lists interface"
+        "show interface Ethernet 0",
+        "show ip access-lists",
+        "show ip interface Ethernet 0"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-10ccvq",
-      "q": "You have created a named access list called Blocksales. Which of the following is a valid command for applying this to packets trying to enter interface s0 of your router?",
+      "id": "gate-9r09bz",
+      "q": "You configure the following access list: access-list 110 deny tcp 10.1.1.128 0.0.0.63 any eq smtp access-list 110 deny tcp any eq 23 int ethernet 0 ip access-group 110 out What will the result of this access list be?",
       "options": [
-        "(config)# ip access-group 110 in",
-        "(config-if)# ip access-group 110 in",
-        "(config-if)# ip access-group Blocksales in",
-        "(config-if)# blocksales ip access-list in"
+        "Email and Telnet will be allowed out E0.",
+        "Email and Telnet will be allowed in E0.",
+        "Everything but email and Telnet will be allowed out E0.",
+        "No IP traffic will be allowed out E0."
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q80mpo",
-      "q": "You want to create a standard access list that denies the subnet of the following host: 172.16.144.17/21. Which of the following would you start your list with?",
+      "id": "gate-15vto18",
+      "q": "You want to create a standard access list that denies the subnet of the following host: 172.16.198.94/19. Which of the following would you start your list with?",
       "options": [
-        "access-list 10 deny 172.16.48.0 255.255.240.0",
-        "access-list 10 deny 172.16.144.0 0.0.7.255",
-        "access-list 10 deny 172.16.64.0 0.0.31.255",
-        "access-list 10 deny 172.16.136.0 0.0.15.255"
+        "access-list 10 deny 172.16.192.0 0.0.31.255",
+        "access-list 10 deny 172.16.0.0 0.0.255.255",
+        "access-list 10 deny 172.16.172.0 0.0.31.255",
+        "access-list 10 deny 172.16.188.0 0.0.15.255"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-13xpefe",
-      "q": "Which of the following are valid ways to refer only to host 172.16.30.55 in an IP access list? 172.16.30.55 0.0.0.255 172.16.30.55 0.0.0.0 any 172.16.30.55 host 172.16.30.55 0.0.0.0 172.16.30.55 ip any 172.16.30.55",
+      "id": "gate-15szuqc",
+      "q": "If you wanted to deny all Telnet connections to only network 192.168.10.0, which command could you use?",
       "options": [
-        "1 and 4",
-        "2 and 4",
-        "1, 4 and 6",
-        "3 and 5"
+        "access-list 100 deny tcp 192.168.10.0 255.255.255.0 eq telnet",
+        "access-list 100 deny tcp 192.168.10.0 0.255.255.255 eq telnet",
+        "access-list 100 deny tcp any 192.168.10.0 0.0.0.255 eq 23",
+        "access-list 100 deny 192.168.10.0 0.0.0.255 any eq 23"
       ],
       "correct": 0,
       "explain": "",
@@ -128,53 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y2p2so",
-      "q": "If you wanted to deny FTP access from network 200.200.10.0 to network 200.199.11.0 but allow everything else, which of the following command strings is valid?",
+      "id": "gate-ajsgmo",
+      "q": "Which of the following access lists will allow only HTTP traffic into network 196.15.7.0?",
       "options": [
-        "access-list 110 deny 200.200.10.0 to network 200.199.11.0 eq ftp access-list 111 permit ip any 0.0.0.0 255.255.255.255",
-        "access-list 1 deny ftp 200.200.10.0 200.199.11.0 any any",
-        "access-list 100 deny tcp 200.200.10.0 0.0.0.255 200.199.11.0 0.0.0.255 eq ftp",
-        "access-list 198 deny tcp 200.200.10.0 0.0.0.255 200.199.11.0 0.0.0.255 eq ftp access-list 198 permit ip any 0.0.0.0 255.255.255.255"
-      ],
-      "correct": 3,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Security",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x2zq74",
-      "q": "Which of the following series of commands will restrict Telnet access to the router?",
-      "options": [
-        "Lab_A(config)#access-list 10 permit 172.16.1.1 Lab_A(config)#line con 0 Lab_A(config-line)#ip access-group 10 in",
-        "Lab_A(config)#access-list 10 permit 172.16.1.1 Lab_A(config)#line vty 0 4 Lab_A(config-line)#access-class 10 out",
-        "Lab_A(config)#access-list 10 permit 172.16.1.1 Lab_A(config)#line vty 0 4 Lab_A(config-line)#access-class 10 in",
-        "Lab_A(config)#access-list 10 permit 172.16.1.1 Lab_A(config)#line vty 0 4 Lab_A(config-line)#ip access-group 10 in"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Security",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-usflys",
-      "q": "Which of the following commands connect access list 110 inbound to interface ethernet0?",
-      "options": [
-        "Router(config)# ip access-group 110 in",
-        "Router(config)# ip access-list 110 in",
-        "Router(config-if)# ip access-group 110 in",
-        "Router(config-if)# ip access-list 110 in"
+        "access-list 100 permit tcp any 196.15.7.0 0.0.0.255 eq www",
+        "access-list 10 deny tcp any 196.15.7.0 eq www",
+        "access-list 100 permit 196.15.7.0 0.0.0.255 eq www",
+        "access-list 110 permit ip any 196.15.7.0 0.0.0.255"
       ],
       "correct": 0,
       "explain": "",

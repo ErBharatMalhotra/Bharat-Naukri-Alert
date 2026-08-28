@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Bipolar Junction Transistors",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 41,
   "questions": [
     {
-      "id": "gate-2lq1n4",
-      "q": "A decrease in base current of a C-E amplifier causes the voltage measured between the emitter and the collector to increase.",
+      "id": "gate-1dft7sk",
+      "q": "When a transistor is operating as a variable resistor it has transistance.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-i3v5hg",
-      "q": "In this analog amplifier the input is in phase with the output.",
+      "id": "gate-h3kio8",
+      "q": "In a BJT, the collector current is approximately equal to the base current.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-i8zy7k",
-      "q": "The voltage measured from the collector to the emitter is the sum of the voltage base-emitter plus the voltage collector-base.",
+      "id": "gate-1g6o7kw",
+      "q": "The voltage gain of a transistor is inversely proportional to the change in output current.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ep2v60",
-      "q": "This is a PNP transistor.",
+      "id": "gate-euo95i",
+      "q": "The three bipolar transistor circuit configurations are common-base, common-emitter, and emitter-follower.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-gv69fs",
-      "q": "A transistor used in a digital circuit will have two operating states, which are cutoff and saturation.",
+      "id": "gate-miqc0s",
+      "q": "When troubleshooting a bipolar junction transistor using an ohmmeter, if one of the junctions reads low in both directions, the junction is shorted and the transistor is bad. If one of the junctions reads high in both directions, the junction is shorted and the transistor is good.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-114d8o",
-      "q": "The input resistance of the base of an emitter-follower is usually _________.",
+      "id": "gate-rvzmu0",
+      "q": "VCE approximately equals ________ when a transistor switch is in saturation.",
       "options": [
-        "very low",
-        "very high",
-        "shorted to ground",
-        "open"
+        "VC",
+        "VB",
+        "0.3 V",
+        "0.7 V"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ekeado",
-      "q": "The phase difference between the input and output ac voltage signals of a common-emitter amplifier is __________.",
+      "id": "gate-1itgon4",
+      "q": "An emitter-follower has a voltage gain that is __________.",
       "options": [
-        "0&#186;",
-        "90&#186;",
-        "180&#186;",
-        "360&#186;"
+        "much less than one",
+        "approximately equal to one",
+        "greater than one",
+        "zero"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-yvj4n8",
-      "q": "Base bias provides _________.",
+      "id": "gate-1hkeo4o",
+      "q": "When transistors are used in digital circuits they usually operate in the:",
       "options": [
-        "a very stable Q point",
-        "a very unstable Q point",
-        "no current gain",
-        "zero current in the base and collector circuits"
+        "active region",
+        "breakdown region",
+        "saturation and cutoff regions",
+        "linear region"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,113 @@
       "tags": []
     },
     {
-      "id": "gate-1og6jls",
-      "q": "VCE approximately equals ________ when a transistor switch is cut off.",
+      "id": "gate-m0gayz",
+      "q": "Three different Q points are shown on a dc load line. The upper Q point represents the:",
       "options": [
+        "minimum current gain",
+        "intermediate current gain",
+        "maximum current gain",
+        "cutoff point"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bt52hx",
+      "q": "A transistor has a of 250 and a base current, IB, of 20 A. The collector current, IC, equals:",
+      "options": [
+        "500 A",
+        "5 mA",
+        "50 mA",
+        "5 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-54c890",
+      "q": "A current ratio of IC/IE is usually less than one and is called:",
+      "options": [
+        "beta",
+        "theta",
+        "alpha",
+        "omega"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ezqy0g",
+      "q": "With the positive probe on an NPN base, an ohmmeter reading between the other transistor terminals should be:",
+      "options": [
+        "open",
+        "infinite",
+        "low resistance",
+        "high resistance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sea4q",
+      "q": "The C-B configuration is used to provide which type of gain?",
+      "options": [
+        "voltage",
+        "current",
+        "resistance",
+        "power"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pa6y1c",
+      "q": "The Q point on a load line may be used to determine:",
+      "options": [
+        "VC",
         "VCC",
         "VB",
-        "0.2 V",
-        "0.7 V"
+        "IC"
       ],
       "correct": 0,
       "explain": "",
@@ -178,12 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1anstx6",
-      "q": "The input resistance, Rin of a common-collector amplifier, consists of ____________.",
+      "id": "gate-1kmhm2o",
+      "q": "A transistor may be used as a switching device or as a:",
       "options": [
-        "Rin = RE &#215; AC Current Gain",
-        "Rin = RE &#215;",
-        "none of the above"
+        "fixed resistor",
+        "tuning device",
+        "rectifier",
+        "variable resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -197,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wy9usw",
-      "q": "In a C-E configuration, an emitter resistor is used for:",
+      "id": "gate-pdvy08",
+      "q": "If an input signal ranges from 20&#8211;40 A (microamps), with an output signal ranging from .5&#8211;1.5 mA (milliamps), what is the ac beta?",
       "options": [
-        "stabilization",
-        "ac signal bypass",
-        "collector bias",
-        "higher gain"
+        "0.05",
+        "20",
+        "50",
+        "500"
       ],
       "correct": 0,
       "explain": "",
@@ -217,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f3zmtw",
-      "q": "Voltage-divider bias provides:",
+      "id": "gate-16g6nno",
+      "q": "Which is beta's current ratio?",
       "options": [
-        "an unstable Q point",
-        "a stable Q point",
-        "a Q point that easily varies with changes in the transistor's current gain",
-        "a Q point that is stable and easily varies with changes in the transistor&#146;s current gain"
+        "IC/IB",
+        "IC/IE",
+        "IB/IE",
+        "IE/IB"
       ],
       "correct": 0,
       "explain": "",
@@ -237,13 +338,33 @@
       "tags": []
     },
     {
-      "id": "gate-1ya3wrh",
-      "q": "To operate properly, a transistor's base-emitter junction must be forward biased with reverse bias applied to which junction?",
+      "id": "gate-fldq20",
+      "q": "Often a common-collector will be the last stage before the load; the main function(s) of this stage is to:",
+      "options": [
+        "provide voltage gain",
+        "provide phase inversion",
+        "provide a high-frequency path to improve the frequency response",
+        "buffer the voltage amplifiers from the low-resistance load and provide impedance matching for maximum power transfer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w8fwmm",
+      "q": "For a C-C configuration to operate properly, the collector-base junction should be reverse biased, while forward bias should be applied to which junction?",
       "options": [
         "collector-emitter",
-        "base-collector",
         "base-emitter",
-        "collector-base"
+        "collector-base",
+        "cathode-anode"
       ],
       "correct": 0,
       "explain": "",
@@ -257,13 +378,13 @@
       "tags": []
     },
     {
-      "id": "gate-qjhtbb",
-      "q": "The ends of a load line drawn on a family of curves determine:",
+      "id": "gate-gexyad",
+      "q": "The input/output relationship of the common-collector and common-base amplifiers is:",
       "options": [
-        "saturation and cutoff",
-        "the operating point",
-        "the power curve",
-        "the amplification factor"
+        "270 degrees",
+        "180 degrees",
+        "90 degrees",
+        "0 degrees"
       ],
       "correct": 0,
       "explain": "",
@@ -277,13 +398,13 @@
       "tags": []
     },
     {
-      "id": "gate-p9l9to",
-      "q": "If VCC = +18 V, voltage-divider resistor R1 is 4.7 k, and R2 is 1500, what is the base bias voltage?",
+      "id": "gate-cq7pbw",
+      "q": "If a transistor operates at the middle of the dc load line, a decrease in the current gain will move the Q point:",
       "options": [
-        "8.70 V",
-        "4.35 V",
-        "2.90 V",
-        "0.7 V"
+        "off the load line",
+        "nowhere",
+        "up",
+        "down"
       ],
       "correct": 0,
       "explain": "",
@@ -297,13 +418,373 @@
       "tags": []
     },
     {
-      "id": "gate-ic77jf",
-      "q": "What is the collector current for a C-E configuration with a beta of 100 and a base current of 30 A?",
+      "id": "gate-13wqshc",
+      "q": "Which is the higher gain provided by a C-E configuration?",
       "options": [
-        "30 A",
-        ".3 A",
-        "3 mA",
-        "3 MA"
+        "voltage",
+        "current",
+        "resistance",
+        "power"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jxnlgg",
+      "q": "BJTs are \"junction\" transistors because they use current-carrying P-N junctions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i3k8z4",
+      "q": "The voltage measured from the collector to the emitter is the sum of the base-emitter voltage plus the collector-base voltage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p9qtgo",
+      "q": "Transistors are controlled to operate as a switch or to operate as a variable resistor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16l8pws",
+      "q": "If this circuit were used in a digital circuit, it would be a NOT gate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nbh79c",
+      "q": "A common-emitter (C-E) is so called because the emitter is connected to both the input and output signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vdmwte",
+      "q": "Current gain in a transistor is inversely proportional to collector current.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mq2deo",
+      "q": "In a common-base (C-B) amplifier, the output is 180 degrees out of phase with the input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wq1y48",
+      "q": "A bipolar transistor has three leads: the base, collector, and emitter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n96kcg",
+      "q": "The polarity of VBE is such that it reverse biases the base-emitter junction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l2odzi",
+      "q": "With a common-collector (C-C) amplifier the input is applied to the base and the output is taken from the emitter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kfg100",
+      "q": "A collector characteristic curve is a graph showing:",
+      "options": [
+        "emitter current (IE) versus collector-emitter voltage (VCE) with (VBB) base bias voltage held constant",
+        "collector current (IC) versus collector-emitter voltage (VCE) with (VBB) base bias voltage held constant",
+        "collector current (IC) versus collector-emitter voltage (VC) with (VBB) base bias voltage held constant",
+        "collector current (IC) versus collector-emitter voltage (VCC) with (VBB) base bias voltage held constant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3m484g",
+      "q": "With low-power transistor packages, the base terminal is usually the:",
+      "options": [
+        "tab end",
+        "middle",
+        "right end",
+        "stud mount"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c917yk",
+      "q": "When a silicon diode is forward biased, what is VBE for a C-E configuration?",
+      "options": [
+        "voltage-divider bias",
+        "0.4 V",
+        "0.7 V",
+        "emitter voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18baxo2",
+      "q": "What is the current gain for a common-base configuration where IE = 4.2 mA and IC = 4.0 mA?",
+      "options": [
+        "16.80",
+        "1.05",
+        "0.20",
+        "0.95"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7sh69s",
+      "q": "With a PNP circuit, the most positive voltage is probably:",
+      "options": [
+        "ground",
+        "VC",
+        "VBE",
+        "VCC"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uhjnva",
+      "q": "If a 2 mV signal produces a 2 V output, what is the voltage gain?",
+      "options": [
+        "0.001",
+        "0.004",
+        "100",
+        "1000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-197dmx8",
+      "q": "Most of the electrons in the base of an NPN transistor flow:",
+      "options": [
+        "out of the base lead",
+        "into the collector",
+        "into the emitter",
+        "into the base supply"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uo3lew",
+      "q": "In a transistor, collector current is controlled by:",
+      "options": [
+        "collector voltage",
+        "base current",
+        "collector resistance",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Bipolar Junction Transistors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1okbuvg",
+      "q": "Total emitter current is:",
+      "options": [
+        "IE &#8211; IC",
+        "IC + IE",
+        "IB + IC",
+        "IB &#8211; IC"
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Analog And Digital Converters",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 13,
   "questions": [
     {
-      "id": "gate-1i34uhc",
-      "q": "A sample-and-hold circuit samples an analog value and holds it long enough for the analog-to-digital conversion to occur.",
+      "id": "gate-j3pjb0",
+      "q": "The relative accuracy of a digital-to-analog converter (DAC) is determined by settling time.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-wjcizo",
-      "q": "Incorrect codes are a form of output error for a digital-to-analog converter (DAC).",
+      "id": "gate-jfv8rc",
+      "q": "The key advantage of the successive approximation analog-to-digital converter (ADC) is its conversion speed.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-jsguik",
-      "q": "If we double the number of bits in our digital representation of a number from 4 to 8 bits, we double the relative accuracy of the conversion from digital to analog.",
+      "id": "gate-c7ir3o",
+      "q": "One way to determine the resolution of a digital-to-analog converter (DAC) is to compare the ratio of one step voltage to the maximum output voltage.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-194sg3w",
-      "q": "The flash method of analog-to-digital conversion (ADC) uses comparators that compare reference voltages with the analog input voltage.",
+      "id": "gate-vff43s",
+      "q": "In a binary-weighted digital-to-analog converter (DAC), the values of the input resistors are chosen to be proportional to the binary weights of the corresponding input bits.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-gi9eh5",
-      "q": "A digital-to-analog converter (DAC) is said to be nonmonotonic if the magnitude of the output voltage increases every time the input code increases.",
+      "id": "gate-1hna3ag",
+      "q": "An 8-bit digital-to-analog converter (DAC) has a resolution of 0.125 V.",
       "options": [
         "True",
         "False"
@@ -98,73 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-e239h8",
-      "q": "________ analog-to-digital converters (ADCs) use no clock signal, because there is no timing or sequencing required.",
+      "id": "gate-1rjvhlg",
+      "q": "The characteristic that a change of one binary step on the input of a digital-to-analog converter (DAC) should cause exactly one step change on the output is called ________.",
       "options": [
-        "Actuator",
-        "Dual",
-        "Flash",
-        "Bipolar"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Analog And Digital Converters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jnd8b0",
-      "q": "________ analog-to-digital converters (ADCs) have a fixed value of conversion time that is not dependent on the value of the analog input.",
-      "options": [
-        "Substandard",
-        "Dual",
-        "Recessive approximation",
-        "Successive approximation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Analog And Digital Converters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4mhk0o",
-      "q": "The problems of the binary-weighted resistor digital-to-analog converter (DAC) can be overcome by using ___________.",
-      "options": [
-        "an 8-bit binary-weighted resistor DAC",
-        "an R/2R ladder DAC",
-        "a staircase DAC",
-        "a flash DAC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Analog And Digital Converters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hg4xg8",
-      "q": "The number of binary bits at the input of a digital-to-analog converter (DAC) is known as ________.",
-      "options": [
-        "accuracy",
+        "resolution",
+        "monotonicity",
         "linearity",
-        "resolution",
-        "monotonicity"
+        "accuracy"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1aw8rkc",
-      "q": "A(n) ________ converts an analog input to a digital output.",
+      "id": "gate-ycrax1",
+      "q": "Inaccurate analog-to-digital conversion may be due to ____________.",
       "options": [
-        "flash converter",
-        "bipolar converter",
-        "ADC",
-        "DAC"
+        "constant analog input voltage",
+        "linear ramp usage",
+        "intermittent counter inputs",
+        "faulty sample-and-hold circuitry"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xvwgaz",
-      "q": "The difference between analog voltage represented by two adjacent digital codes, or the analog step size, is the:",
+      "id": "gate-34t5xu",
+      "q": "A binary-weighted resistor used in a digital-to-analog converter (DAC) is only practical up to a resolution of ________.",
       "options": [
-        "quantization",
-        "accuracy",
-        "resolution",
-        "monotonicity"
+        "10 bits",
+        "2 bits",
+        "8 bits",
+        "4 bits"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1403mxg",
-      "q": "The primary disadvantage of the flash analog-to digital converter (ADC) is that:",
+      "id": "gate-10oo164",
+      "q": "Which of the following is a type of error associated with digital-to-analog converters (DACs)?",
       "options": [
-        "it requires the input voltage to be applied to the inputs simultaneously",
-        "a long conversion time is required",
-        "a large number of output lines is required to simultaneously decode the input voltage",
-        "a large number of comparators is required to represent a reasonable sized binary number"
+        "nonmonotonic error",
+        "incorrect output codes",
+        "offset error",
+        "nonmonotonic and offset error"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qr9e3o",
-      "q": "A binary-weighted digital-to-analog converter has a feedback resistor, Rf, of 12 k. If 50 A of current is through the resistor, the voltage out of the circuit is:",
+      "id": "gate-1m3jmos",
+      "q": "A 4-bit R/2R digital-to-analog (DAC) converter has a reference of 5 volts. What is the analog output for the input code 0101.",
       "options": [
-        "0.6 V",
-        "&#8211;0.6 V",
-        "0.1 V",
-        "&#8211;0.1 V"
+        "0.3125 V",
+        "3.125 V",
+        "0.78125 V",
+        "&#8211;3.125 V"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-17tgrj4",
-      "q": "What is the major advantage of the R/2R ladder digital-to-analog (DAC), as compared to a binary-weighted digital-to-analog DAC converter?",
+      "id": "gate-u4f6bs",
+      "q": "A binary-weighted digital-to-analog converter has an input resistor of 100 k. If the resistor is connected to a 5 V source, the current through the resistor is:",
       "options": [
-        "It only uses two different resistor values.",
-        "It has fewer parts for the same number of inputs.",
-        "Its operation is much easier to analyze.",
-        "The virtual ground is eliminated and the circuit is therefore easier to understand and troubleshoot."
+        "50 A",
+        "5 mA",
+        "500 A",
+        "50 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-frlnno",
-      "q": "The resolution of a 0&#8211;5 V 6-bit digital-to-analog converter (DAC) is:",
+      "id": "gate-e0zxig",
+      "q": "What is the resolution of a digital-to-analog converter (DAC)?",
       "options": [
-        "63%",
-        "64%",
-        "1.56%",
-        "15.6%"
+        "It is the comparison between the actual output of the converter and its expected output.",
+        "It is the deviation between the ideal straight-line output and the actual output of the converter.",
+        "It is the smallest analog output change that can occur as a result of an increment in the digital input.",
+        "It is its ability to resolve between forward and reverse steps when sequenced over its entire range."
       ],
       "correct": 0,
       "explain": "",
@@ -298,53 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-3441im",
-      "q": "In a flash analog-to-digital converter, the output of each comparator is connected to an input of a:",
+      "id": "gate-hrtk7x",
+      "q": "The practical use of binary-weighted digital-to-analog converters is limited to:",
       "options": [
-        "decoder",
-        "priority encoder",
-        "multiplexer",
-        "demultiplexer"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Analog And Digital Converters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12u19vu",
-      "q": "Which is not an analog-to-digital (ADC) conversion error?",
-      "options": [
-        "differential nonlinearity",
-        "missing code",
-        "incorrect code",
-        "offset"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Analog And Digital Converters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12ou99k",
-      "q": "Sample-and-hold circuits in analog-to digital converters (ADCs) are designed to:",
-      "options": [
-        "sample and hold the output of the binary counter during the conversion process",
-        "stabilize the comparator's threshold voltage during the conversion process",
-        "stabilize the input analog signal during the conversion process",
-        "sample and hold the D/A converter staircase waveform during the conversion process"
+        "R/2R ladder D/A converters",
+        "4-bit D/A converters",
+        "8-bit D/A converters",
+        "op-amp comparators"
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Magnetism And Electromagnetism",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-8d0tvk",
-      "q": "Lenz's law defines the polarity of the induced voltage.",
+      "id": "gate-dnejl0",
+      "q": "Electromagnetic induction is the force that produces a magnetic field.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1rqmoq0",
-      "q": "A magnetic field is made up of flux lines.",
+      "id": "gate-1cajfn4",
+      "q": "The tesla is the unit of magnetic flux.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1izg2ho",
-      "q": "Hysteresis is the number of lines of force per unit area in a magnetic field.",
+      "id": "gate-88d51m",
+      "q": "Ampere-turn is the unit of magnetomotive force (mmf).",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1pnk82k",
-      "q": "If a conductor is moved back and forth at a constant rate in a constant magnetic field, the voltage in the conductor will reverse polarity.",
+      "id": "gate-111txl4",
+      "q": "A relay is an electromagnetically controlled mechanical device in which electrical contacts are opened or closed by a magnetizing current.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-9ts11w",
-      "q": "Materials with a low retentivity do not retain a magnetic field very well.",
+      "id": "gate-1oshzf0",
+      "q": "Reluctance in a magnetic circuit is analogous to current in an electrical circuit.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-60lig4",
-      "q": "What is the reluctance of a material that has a length of 0.07 m, a cross-sectional area of 0.014 m2, and a permeability of 4,500 Wb/At &#215; m?",
+      "id": "gate-1i2y370",
+      "q": "When the speed at which a conductor is moved through a magnetic field is increased, the induced voltage",
       "options": [
-        "1111 At/Wb",
-        "111 At/Wb",
-        "11 At/Wb",
-        "1 At/Wb"
+        "increases",
+        "decreases",
+        "remains constant",
+        "reaches zero"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c01dv4",
-      "q": "A coil of wire is placed in a changing magnetic field. If the number of turns in the coil is decreased, the voltage induced across the coil will",
+      "id": "gate-n4zgh8",
+      "q": "The induced voltage across a coil with 250 turns that is located in a magnetic field that is changing at a rate of 8 Wb/s is",
       "options": [
-        "increase",
-        "decrease",
-        "remain constant",
-        "be excessive"
+        "1,000 V",
+        "2,000 V",
+        "31.25 V",
+        "3,125 V"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-wk1po8",
-      "q": "What is the flux density when the flux is 5.5 Wb and the cross-sectional area is 6 &#215; 10&#8211;3 m2?",
+      "id": "gate-395z5w",
+      "q": "For a given wirewound core, an increase in current through the coil",
       "options": [
-        "91.7 T",
-        "917 T",
-        "91 T",
-        "9.7 T"
+        "reverses the flux lines",
+        "decreases the flux density",
+        "increases the flux density",
+        "causes no change in flux density"
       ],
       "correct": 0,
       "explain": "",
@@ -158,12 +158,112 @@
       "tags": []
     },
     {
-      "id": "gate-19d3n7c",
-      "q": "The unit for reluctance is",
+      "id": "gate-zvh3jg",
+      "q": "If the cross-sectional area of a magnetic field increases, but the flux remains the same, the flux density",
       "options": [
-        "tesla",
-        "At/Wb",
+        "increases",
+        "decreases",
+        "remains the same",
+        "doubles"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rlt83n",
+      "q": "When the current through the coil of an electromagnet reverses, the",
+      "options": [
+        "direction of the magnetic field reverses",
+        "direction of the magnetic field remains unchanged",
+        "magnetic field expands",
+        "magnetic field collapses"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1381uy",
+      "q": "There is 900 mA of current through a wire with 40 turns. What is the reluctance of the circuit if the flux is 400 Wb?",
+      "options": [
+        "14,400 At/Wb",
+        "1,440 At/Wb",
+        "9,000 At/Wb",
+        "90,000 At/Wb"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2wp7sa",
+      "q": "A basic one-loop dc generator is rotated at 90 rev/s. How many times each second does the dc output voltage peak (reach maximum)?",
+      "options": [
+        "90",
+        "180",
+        "270",
+        "360"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c3p7dw",
+      "q": "What is the flux density in a magnetic field in which the flux in 0.1 m2 is 600 Wb?",
+      "options": [
+        "6,000 T",
+        "600 T",
+        "600 T",
+        "6 T"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-35oxwo",
+      "q": "The unit for permeability is",
+      "options": [
+        "Wb/At &#215; m",
         "At/m",
+        "At/Wb",
         "Wb"
       ],
       "correct": 0,
@@ -178,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-168rudb",
-      "q": "If the steel disk in a crankshaft position sensor has stopped with the tab in the magnet's air gap, the induced voltage",
+      "id": "gate-p4fqao",
+      "q": "What is the magnetomotive force in a 75-turn coil of wire when there are 4 A of current through it?",
       "options": [
-        "increases",
-        "decreases",
-        "is zero",
-        "will remain constant"
+        "18.75 At",
+        "30 At",
+        "300 At",
+        "187 At"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-1eoqnvw",
-      "q": "An electromagnetic field exists only when there is",
+      "id": "gate-1yiy5p0",
+      "q": "The direction of a magnetic field within a magnet is",
       "options": [
-        "an increasing current",
-        "decreasing current",
-        "voltage",
-        "current"
+        "from south to north",
+        "from north to south",
+        "back to front",
+        "front to back"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-shceqo",
-      "q": "When a solenoid is activated, the force that moves the plunger is",
+      "id": "gate-19yt3jj",
+      "q": "When the north poles of two bar magnets are brought close together, there will be",
       "options": [
-        "an electromagnetic field",
-        "a permanent magnetic field",
-        "varying voltage",
-        "a steady current"
+        "no force",
+        "a downward force",
+        "a force of attraction",
+        "a force of repulsion"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +338,13 @@
       "tags": []
     },
     {
-      "id": "gate-2mh518",
-      "q": "What is the magnetomotive force (mmf) of a wire with 8 turns carrying three amperes of current?",
+      "id": "gate-g7hink",
+      "q": "The ability of a material to remain magnetized after removal of the magnetizing force is known as",
       "options": [
-        "2,400 At",
-        "240 At",
-        "24 At",
-        "2.4 At"
+        "permeability",
+        "reluctance",
+        "hysteresis",
+        "retentivity"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +358,33 @@
       "tags": []
     },
     {
-      "id": "gate-55grj4",
-      "q": "If a loop in a basic dc generator suddenly begins rotating at a faster speed, the induced voltage",
+      "id": "gate-2kic10",
+      "q": "The voltage induced across a certain coil is 200 mV. A 120 resistor is connected to the coil terminals. The induced current is",
       "options": [
-        "remains unchanged",
-        "reverses polarity",
-        "increases",
-        "decreases"
+        "1.7 mA",
+        "16 mA",
+        "12 mA",
+        "120 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Magnetism And Electromagnetism",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s9mq94",
+      "q": "The induced voltage across a stationary conductor in a stationary magnetic field is",
+      "options": [
+        "zero",
+        "reversed in polarity",
+        "increased",
+        "decreased"
       ],
       "correct": 0,
       "explain": "",

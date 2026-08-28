@@ -5,16 +5,16 @@
   "subject": "Java Programming",
   "topic": "Declarations And Access Control",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-vf3i4w",
-      "q": "What will be the output of the program? class A { final public int GetResult(int a, int b) { return 0; } } class B extends A { public int GetResult(int a, int b) {return 1; } } public class Test { public static void main(String args[]) { B b = new B(); System.out.println(\"x = \" + b.GetResult(0, 1)); } }",
+      "id": "gate-19g6kfk",
+      "q": "What will be the output of the program? interface Count { short counter = 0; void countUp(); } public class TestCount implements Count { public static void main(String [] args) { TestCount t = new TestCount(); t.countUp(); } public void countUp() { for (int x = 6; x&gt;counter; x--, ++counter) /* Line 14 */ { System.out.print(\" \" + counter); } } }",
       "options": [
-        "x = 0",
-        "x = 1",
-        "Compilation fails.",
-        "An exception is thrown at runtime."
+        "0 1 2",
+        "1 2 3",
+        "0 1 2 3",
+        "1 2 3 4"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-zjzagz",
-      "q": "What will be the output of the program? public class Test { public static void main(String args[]) { class Foo { public int i = 3; } Object o = (Object)new Foo(); Foo foo = (Foo)o; System.out.println(\"i = \" + foo.i); } }",
+      "id": "gate-1r897c",
+      "q": "What will be the output of the program? class Base { Base() { System.out.print(\"Base\"); } } public class Alpha extends Base { public static void main(String[] args) { new Alpha(); /* Line 12 */ new Base(); /* Line 13 */ } }",
       "options": [
-        "i = 3",
-        "Compilation fails.",
-        "i = 5",
-        "A ClassCastException will occur."
+        "Base",
+        "BaseBase",
+        "Compilation fails",
+        "The code runs with no output"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-5t55qo",
-      "q": "What will be the output of the program? public class A { void A() /* Line 3 */ { System.out.println(\"Class A\"); } public static void main(String[] args) { new A(); } }",
+      "id": "gate-m628j0",
+      "q": "What will be the output of the program? import java.util.*; public class NewTreeSet2 extends NewTreeSet { public static void main(String [] args) { NewTreeSet2 t = new NewTreeSet2(); t.count(); } } protected class NewTreeSet { void count() { for (int x = 0; x &lt; 7; x++,x++ ) { System.out.print(\" \" + x); } } }",
       "options": [
-        "Class A",
-        "Compilation fails.",
-        "An exception is thrown at line 3.",
-        "The code executes with no output."
+        "0 2 4",
+        "0 2 4 6",
+        "Compilation fails at line 2",
+        "Compilation fails at line 10"
       ],
       "correct": 0,
       "explain": "",
@@ -68,12 +68,32 @@
       "tags": []
     },
     {
-      "id": "gate-1s9uywc",
-      "q": "What will be the output of the program? class Super { public int i = 0; public Super(String text) /* Line 4 */ { i = 1; } } class Sub extends Super { public Sub(String text) { i = 2; } public static void main(String args[]) { Sub sub = new Sub(\"Hello\"); System.out.println(sub.i); } }",
+      "id": "gate-6vw0dq",
+      "q": "What will be the output of the program? public class ArrayTest { public static void main(String[ ] args) { float f1[ ], f2[ ]; f1 = new float[10]; f2 = f1; System.out.println(\"f2[0] = \" + f2[0]); } }",
       "options": [
-        "0",
-        "1",
-        "2",
+        "It prints f2[0] = 0.0",
+        "It prints f2[0] = NaN",
+        "An error at f2 = f1; causes compile to fail.",
+        "It prints the garbage value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Declarations And Access Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o7z598",
+      "q": "What will be the output of the program? class Super { public Integer getLength() { return new Integer(4); } } public class Sub extends Super { public Long getLength() { return new Long(5); } public static void main(String[] args) { Super sooper = new Super(); Sub sub = new Sub(); System.out.println( sooper.getLength().toString() + \",\" + sub.getLength().toString() ); } }",
+      "options": [
+        "4, 4",
+        "4, 5",
+        "5, 4",
         "Compilation fails."
       ],
       "correct": 0,
@@ -88,133 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-136rz4",
-      "q": "What will be the output of the program? public class Test { public int aMethod() { static int i = 0; i++; return i; } public static void main(String args[]) { Test test = new Test(); test.aMethod(); int j = test.aMethod(); System.out.println(j); } }",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "Compilation fails."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-37se2w",
-      "q": "interface DoMath { double getArea(int rad); } interface MathPlus { double getVol(int b, int h); } /* Missing Statements ? */ which two code fragments inserted at end of the program, will allow to compile? class AllMath extends DoMath { double getArea(int r); } interface AllMath implements MathPlus { double getVol(int x, int y); } interface AllMath extends DoMath { float getAvg(int h, int l); } class AllMath implements MathPlus { double getArea(int rad); } abstract class AllMath implements DoMath, MathPlus { public double getArea(int rad) { return rad * rad * 3.14; } }",
-      "options": [
-        "1 only",
-        "2 only",
-        "3 and 5",
-        "1 and 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xv14ow",
-      "q": "Which two statements are true for any concrete class implementing the java.lang.Runnable interface? You can extend the Runnable interface as long as you override the public run() method. The class must contain a method called run() from which all code for that thread will be initiated. The class must contain an empty public void method named run(). The class must contain a public void method named runnable(). The class definition must include the words implements Threads and contain a method called run(). The mandatory method must be public, with a return type of void, must be called run(), and cannot take any arguments.",
-      "options": [
-        "1 and 3",
-        "2 and 4",
-        "1 and 5",
-        "2 and 6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6wz7q8",
-      "q": "/* Missing statements ? */ public class NewTreeSet extends java.util.TreeSet { public static void main(String [] args) { java.util.TreeSet t = new java.util.TreeSet(); t.clear(); } public void clear() { TreeMap m = new TreeMap(); m.clear(); } } which two statements, added independently at beginning of the program, allow the code to compile? No statement is required import java.util.*; import.java.util.Tree*; import java.util.TreeSet; import java.util.TreeMap;",
-      "options": [
-        "1 only",
-        "2 and 5",
-        "3 and 4",
-        "3 and 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n8ghi0",
-      "q": "Which three statements are true? The default constructor initialises method variables. The default constructor has the same access as its class. The default constructor invokes the no-arg constructor of the superclass. If a class lacks a no-arg constructor, the compiler always creates a default constructor. The compiler creates a default constructor only when there are no other constructors for the class.",
-      "options": [
-        "1, 2 and 4",
-        "2, 3 and 5",
-        "3, 4 and 5",
-        "1, 2 and 3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9oalwf",
-      "q": "package testpkg.p1; public class ParentUtil { public int x = 420; protected int doStuff() { return x; } } package testpkg.p2; import testpkg.p1.ParentUtil; public class ChildUtil extends ParentUtil { public static void main(String [] args) { new ChildUtil().callStuff(); } void callStuff() { System.out.print(\"this \" + this.doStuff() ); /* Line 18 */ ParentUtil p = new ParentUtil(); System.out.print(\" parent \" + p.doStuff() ); /* Line 20 */ } } which statement is true?",
-      "options": [
-        "The code compiles and runs, with output this 420 parent 420.",
-        "If line 18 is removed, the code will compile and run.",
-        "If line 20 is removed, the code will compile and run.",
-        "An exception is thrown at runtime."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kozse8",
-      "q": "What is the most restrictive access modifier that will allow members of one class to have access to members of another class in the same package?",
+      "id": "gate-k1il9n",
+      "q": "You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this objective?",
       "options": [
         "public",
-        "abstract",
+        "private",
         "protected",
-        "synchronized"
+        "transient"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-qj8280",
-      "q": "Which of the following is/are legal method declarations? protected abstract void m1(); static final void m1(){} synchronized public final void m1() {} private native void m1();",
+      "id": "gate-cm4suk",
+      "q": "public class Outer { public void someOuterMethod() { //Line 5 } public class Inner { } public static void main(String[] argv) { Outer ot = new Outer(); //Line 10 } } Which of the following code fragments inserted, will allow to compile?",
       "options": [
-        "1 and 3",
-        "2 and 4",
-        "1 only",
-        "All of them are legal declarations."
+        "new Inner(); //At line 5",
+        "new Inner(); //At line 10",
+        "new ot.Inner(); //At line 10",
+        "new Outer.Inner(); //At line 10"
       ],
       "correct": 0,
       "explain": "",
@@ -248,33 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yertzs",
-      "q": "Which cause a compiler error?",
-      "options": [
-        "int[ ] scores = {3, 5, 7};",
-        "int [ ][ ] scores = {2,7,6}, {9,3,45};",
-        "String cats[ ] = {\"Fluffy\", \"Spot\", \"Zeus\"};",
-        "boolean results[ ] = new boolean [] {true, false, true};"
-      ],
-      "correct": 1,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Declarations And Access Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12lr8xs",
-      "q": "Which three are valid method signatures in an interface? private int getArea(); public float getVol(float x); public void main(String [] args); public static void main(String [] args); boolean setFlag(Boolean [] test);",
+      "id": "gate-162fv24",
+      "q": "interface Base { boolean m1 (); byte m2(short s); } which two code fragments will compile? interface Base2 implements Base {} abstract class Class2 extends Base { public boolean m1(){ return true; }} abstract class Class2 implements Base {} abstract class Class2 implements Base { public boolean m1(){ return (7 &gt; 4); }} abstract class Class2 implements Base { protected boolean m1(){ return (5 > 7) }}",
       "options": [
         "1 and 2",
-        "2, 3 and 5",
-        "3, 4, and 5",
-        "2 and 4"
+        "2 and 3",
+        "3 and 4",
+        "1 and 5"
       ],
       "correct": 0,
       "explain": "",
@@ -288,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kzbdbs",
-      "q": "You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?",
+      "id": "gate-71ncqb",
+      "q": "Which three form part of correct array declarations? public int a [ ] static int [ ] a public [ ] int a private int a [3] private int [3] a [ ] public final int [ ] a",
       "options": [
-        "public",
-        "private",
-        "protected",
-        "default access"
+        "1, 3, 4",
+        "2, 4, 5",
+        "1, 2, 6",
+        "2, 5, 6"
       ],
       "correct": 0,
       "explain": "",
@@ -308,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fdy1nu",
-      "q": "Which two cause a compiler error? float[ ] f = new float(3); float f2[ ] = new float[ ]; float[ ]f1 = new float[3]; float f3[ ] = new float[3]; float f5[ ] = {1.0f, 2.0f, 2.0f};",
+      "id": "gate-f6fs7c",
+      "q": "public class Test { } What is the prototype of the default constructor?",
       "options": [
-        "2, 4",
-        "3, 5",
-        "4, 5",
-        "1, 2"
+        "Test( )",
+        "Test(void)",
+        "public Test( )",
+        "public Test(void)"
       ],
       "correct": 0,
       "explain": "",
@@ -328,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ur78rc",
-      "q": "Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?",
+      "id": "gate-9i861q",
+      "q": "What is the widest valid returnType for methodA in line 3? public class ReturnIt { returnType methodA(byte x, double y) /* Line 3 */ { return (long)x / y * 2; } }",
       "options": [
-        "final",
-        "static",
-        "private",
-        "protected"
+        "int",
+        "byte",
+        "long",
+        "double"
       ],
       "correct": 0,
       "explain": "",
@@ -348,13 +228,73 @@
       "tags": []
     },
     {
-      "id": "gate-1ddn58j",
-      "q": "Which is a valid declaration within an interface?",
+      "id": "gate-10zdydo",
+      "q": "class A { protected int method1(int a, int b) { return 0; } } Which is valid in a class that extends class A?",
       "options": [
-        "public static short stop = 23;",
-        "protected short stop = 23;",
-        "transient short stop = 23;",
-        "final void madness(short stop);"
+        "public int method1(int a, int b) {return 0; }",
+        "private int method1(int a, int b) { return 0; }",
+        "public short method1(int a, int b) { return 0; }",
+        "static protected int method1(int a, int b) { return 0; }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Declarations And Access Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rh8op4",
+      "q": "Which one creates an instance of an array?",
+      "options": [
+        "int[ ] ia = new int[15];",
+        "float fa = new float[20];",
+        "char[ ] ca = \"Some String\";",
+        "int ia[ ] [ ] = { 4, 5, 6 }, { 1,2,3 };"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Declarations And Access Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1azah8g",
+      "q": "Which two of the following are legal declarations for nonnested classes and interfaces? final abstract class Test {} public static interface Test {} final public class Test {} protected abstract class Test {} protected interface Test {} abstract public class Test {}",
+      "options": [
+        "1 and 4",
+        "2 and 5",
+        "3 and 6",
+        "4 and 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Declarations And Access Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3vxf3j",
+      "q": "Which of the following class level (nonlocal) variable declarations will not compile?",
+      "options": [
+        "protected int a;",
+        "transient int b = 3;",
+        "private synchronized int e;",
+        "volatile int d;"
       ],
       "correct": 0,
       "explain": "",

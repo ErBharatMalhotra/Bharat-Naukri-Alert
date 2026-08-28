@@ -5,16 +5,16 @@
   "subject": "Biochemistry",
   "topic": "Spectroscopy",
   "source": "indiabix.com",
-  "count": 6,
+  "count": 10,
   "questions": [
     {
-      "id": "net-1pvdb8v",
-      "q": "Which of the following is not an IR vibrational mode?",
+      "id": "net-isphf3",
+      "q": "Molar absorbtivities of compounds exhibiting charge transfer absorption are",
       "options": [
-        "Stretching",
-        "Scissoring",
-        "Rocking",
-        "Rolling"
+        "small",
+        "moderate",
+        "large",
+        "none of these"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "net-1winz68",
-      "q": "Which of the following will oscillate the fastest?",
+      "id": "net-1qv1v1g",
+      "q": "Molar absorbtivity is the measure of the",
       "options": [
-        "A large mass on a weak spring",
-        "A large mass on a stiff spring",
-        "A small mass on a stiff spring",
-        "A small mass on a weak spring"
+        "amount of light absorbed per unit length",
+        "amount of light absorbed per unit concentration",
+        "amount of light reflected and absorbed per unit concentration",
+        "None of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -48,12 +48,72 @@
       "tags": []
     },
     {
-      "id": "net-ssuabw",
-      "q": "In the equation, A = &epsilon; bc, what quantity is represented by \"&epsilon;\"?",
+      "id": "net-11gg5p8",
+      "q": "Which of the following relationships between absorbance and %transmittance is incorrect?",
       "options": [
-        "Absorbtivity",
-        "Molar absorbtivity",
-        "Path length",
+        "A = log10 100 / %T",
+        "A = 2 - log10 %T",
+        "A = log10 1 / T",
+        "All are correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-10kd3fv",
+      "q": "Why is it generally preferable to use absorbance as a measure of absorption rather than % transmittance?",
+      "options": [
+        "Because %T cannot be measured as accurately as absorbance",
+        "Because %T is dependant on the power of the incident radiation",
+        "Because absorbance is proportional to the concentration of the analyte, whereas %T is not",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-x65jc8",
+      "q": "In the past, IR spectra had to be aquired one wavelength at a time, which took a long time. Today quick spectra is due to the",
+      "options": [
+        "the Fourier Transfer Algorithm allows us to scan all frequencies at once",
+        "light is faster today that it used to be",
+        "absence of broad spectrum of wavelenth",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-i6peci",
+      "q": "Which of the following components of a monochromator is the dispersing element?",
+      "options": [
+        "The collimating lens",
+        "The entrance slit",
+        "The diffraction grating",
         "None of these"
       ],
       "correct": 0,
@@ -68,53 +128,73 @@
       "tags": []
     },
     {
-      "id": "net-pvm7v0",
-      "q": "Why must the voltage supplied to a tungsten lamp be very stable?",
+      "id": "net-1tl98z4",
+      "q": "A simple harmonic oscillator may absorb energy",
       "options": [
-        "Because if it wasn't, the lamp would bum out",
-        "Because amount of energy the lamp emits is proportional to the fourth power of the operating voltage",
-        "Because the lamp will only function at a specific voltage",
+        "at anytime.",
+        "when the frequencies match exactly",
+        "when the amplitudes are the same.",
+        "at no time."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-1wvx9x4",
+      "q": "UV-Vis spectroscopy of organic compounds is usually concerned with which electronic transition(s)?",
+      "options": [
+        "&sigma; &rarr; &sigma;*",
+        "n &rarr; &sigma;*",
+        "n &rarr; &pi;* and &pi; &rarr; &pi;*",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-1fpde64",
+      "q": "Vibrational spectroscopy is",
+      "options": [
+        "a large mass on a weak spring",
+        "a flashlight through a prism and shake it",
+        "a class of spectroscopic techniques which analyzes molecular motions",
+        "an Infrared spectroscopy"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "NET",
+      "subject": "Biochemistry",
+      "topic": "Spectroscopy",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "net-maectw",
+      "q": "Why are rotational transitions of little use to a spectroscopist?",
+      "options": [
+        "Because the energy required to induce a rotational transition is so small that it cannot be measured",
+        "Because rotational transitions are extremely rare",
+        "Because, in liquids and solids, spectral lines corresponding to rotational transitions are broadened as the result of molecular collisions and other interactions",
         "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemistry",
-      "topic": "Spectroscopy",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1uincow",
-      "q": "Where does a carbonyl (C=0) stretch appear in an IR spectrum?",
-      "options": [
-        "1740-1720",
-        "1870-1650",
-        "3640-3250",
-        "160-110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemistry",
-      "topic": "Spectroscopy",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-b2v824",
-      "q": "Beer's Law states that",
-      "options": [
-        "absorbance is proportional to both the path length and concentration of the absorbing species",
-        "absorbance is proportional to the log of the concentration of the absorbing species",
-        "absorbance is equal to P0 / P",
-        "none of the above"
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Three Phase Systems In Power Applications",
   "source": "indiabix.com",
-  "count": 11,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-ry43n4",
-      "q": "In a -connected generator, there is a 120&deg; difference between each line current and the nearest phase current.",
+      "id": "gate-j06ywo",
+      "q": "A balanced load is one in which all the impedances are equal.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-wpe1za",
-      "q": "Power is measured in a three-phase load by using an ammeter.",
+      "id": "gate-1e6utee",
+      "q": "The term squirrel-cage applies to a type of three-phase ac generator.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-w4rm8c",
-      "q": "Polyphase is characterized by two or more sinusoidal voltages, each having a different phase angle.",
+      "id": "gate-1cux69c",
+      "q": "A simple two-phase generator consists of two conductive loops separated by 90&deg;, rotating in a magnetic field.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1pg1rss",
-      "q": "In a Y-connected generator, there is a 120&deg; difference between each line voltage and the nearest phase voltage.",
+      "id": "gate-104c3vu",
+      "q": "An alternator is an electromechanical ac generator.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-4h6ocg",
-      "q": "A simple three-phase generator consists of three conductive loops separated by 120&deg;.",
+      "id": "gate-1kynz8k",
+      "q": "The stator is the rotating assembly in a generator or motor.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1esxh3g",
-      "q": "In a Y-Y source/load configuration, the",
+      "id": "gate-1fplvrc",
+      "q": "In a three-phase system, the voltages are separated by",
       "options": [
-        "phase current, the line current, and the load current are all equal in each phase",
-        "phase current, the line current, and the load current are 120&deg; out of phase",
-        "phase current and the line current are in phase, and both are 120&deg; out of phase with the load current",
-        "line current and the load current are in phase, and both are out of phase with the phase current"
+        "45&deg;",
+        "90&deg;",
+        "120&deg;",
+        "180&deg;"
       ],
       "correct": 0,
       "explain": "",
@@ -118,93 +118,273 @@
       "tags": []
     },
     {
-      "id": "gate-1at1cmo",
-      "q": "In a Y-connected circuit, the magnitude of each line current is",
-      "options": [
-        "one-third the phase current",
-        "three times the corresponding phase current",
-        "equal to the corresponding phase current",
-        "zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Three Phase Systems In Power Applications",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nxus8g",
-      "q": "A constant load power means a uniform conversion of",
-      "options": [
-        "mechanical to electrical energy",
-        "electrical to mechanical energy",
-        "current to voltage",
-        "voltage to current"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Three Phase Systems In Power Applications",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9dyzpg",
-      "q": "A two-phase generator is connected to two 90 load resistors. Each coil generates 120 V ac. A common neutral line exists. How much current flows through the common neutral line?",
-      "options": [
-        "1.33 A",
-        "1.88 A",
-        "2.66 A",
-        "1.77 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Three Phase Systems In Power Applications",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u6cpro",
-      "q": "A single-phase sinusoidal voltage of 120 V is connected to a 90 load. Current in the circuit is",
-      "options": [
-        "13.3 mA",
-        "133 mA",
-        "1.33 A",
-        "6.2 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Three Phase Systems In Power Applications",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hs6vd4",
-      "q": "In a -connected generator, all of the phase voltages are",
+      "id": "gate-19y1z30",
+      "q": "In a three-phase system, when the loads are perfectly balanced, the neutral current is",
       "options": [
         "zero",
-        "equal in magnitude",
-        "one-third of total",
-        "one-sixth of total"
+        "one-third of maximum",
+        "two-thirds of maximum",
+        "at maximum"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uta33",
+      "q": "In a -connected source driving a -connected load, the",
+      "options": [
+        "load voltage and line voltage are one-third the source voltage for a given phase",
+        "load voltage and line voltage are two-thirds the source voltage for a given phase",
+        "load voltage and line voltage cancel for a given phase",
+        "load voltage, line voltage, and source phase voltage are all equal for a given phase"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5urolk",
+      "q": "In a certain three-wire Y-connected generator, the phase voltages are 2 kV. The magnitudes of the line voltages are",
+      "options": [
+        "2,000 V",
+        "6,000 V",
+        "666 V",
+        "3,464 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sgw1ms",
+      "q": "In a -connected source feeding a Y-connected load,",
+      "options": [
+        "each phase voltage equals the difference of the corresponding load voltages",
+        "each phase voltage equals the corresponding load voltage",
+        "each phase voltage is one-third the corresponding load voltage",
+        "each phase voltage is 60&deg; out of phase with the corresponding load voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3o6kvk",
+      "q": "A three-phase generator is connected to three 90 load resistors. Each coil generates 120 V ac. A common neutral line exists. How much current flows through the common neutral line?",
+      "options": [
+        "0 A",
+        "1.33 A",
+        "3.99 A",
+        "2.66 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fy9trk",
+      "q": "Compare the total copper cross sections in terms of current-carrying capacity for a single-phase and a three-phase 120 V system with effective load resistance of 15 .",
+      "options": [
+        "single-phase 32 A; three-phase 16 A",
+        "single-phase 16 A; three-phase 8 A",
+        "single-phase 8 A; three-phase 4 A",
+        "single-phase 16 A; three-phase 0 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5nuk8",
+      "q": "If in a Y-connected ac generator, each phase voltage has a magnitude of 90 VRMS, what is the magnitude of each line voltage?",
+      "options": [
+        "0 V",
+        "90 V",
+        "156 V",
+        "180 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sv3rn8",
+      "q": "Polyphase generators produce simultaneous multiple sinusoidal voltages that are separated by",
+      "options": [
+        "certain constant phase angles",
+        "certain constant frequencies",
+        "certain constant voltages",
+        "certain constant currents"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4t2d6w",
+      "q": "In a balanced three-phase load, each phase has",
+      "options": [
+        "an equal amount of power",
+        "one-third of total power",
+        "two-thirds of total power",
+        "a power consumption equal to IL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jr22f0",
+      "q": "In a certain Y-Y system, the source phase currents each have a magnitude of 9 A. The magnitude of each load current for a balanced load condition is",
+      "options": [
+        "3 A",
+        "6 A",
+        "9 A",
+        "27 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dmzvlo",
+      "q": "A three-phase -connected generator is driving a balanced load such that each phase current is 12 A in magnitude. When I &#952;a = 12 30&deg; A, what are the polar expressions for the other phase currents?",
+      "options": [
+        "I &#952;b = 12 150&deg; A, I &#952;c = 12&#8211;90&deg; A",
+        "I &#952;b = 12120&deg; A, I &#952;c = 1230&deg; A",
+        "I &#952;b = 1230&deg; A, I &#952;c = 12120&deg; A",
+        "I &#952;b = 1290&deg; A, I &#952;c = 1290&deg; A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9911aw",
+      "q": "In a Y-connected circuit, between each line voltage and the nearest phase voltage, there is a phase angle of",
+      "options": [
+        "0&deg;",
+        "30&deg;",
+        "60&deg;",
+        "120&deg;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v11354",
+      "q": "The most common type of ac motor is the",
+      "options": [
+        "single-phase induction motor",
+        "two-phase induction motor",
+        "three-phase induction motor",
+        "two-phase squirrel-cage motor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Three Phase Systems In Power Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2nceb0",
+      "q": "In a Y-connected source feeding a -connected load,",
+      "options": [
+        "each phase of the load has one-third of the full line voltage across it",
+        "each phase of the load has two-thirds of the full line voltage across it",
+        "each phase of the load has the full line voltage across it",
+        "each phase of the load has a voltage across it equal to"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "Networking",
   "topic": "Ios And Security Device Manager",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-1vy7mee",
-      "q": "Which of the following commands displays the configurable parameters and statistics of all interfaces on a router?",
+      "id": "gate-18bmfhl",
+      "q": "Which of the following commands sets the secret password to Cisco?",
       "options": [
-        "show running-config",
-        "show startup-config",
-        "show interfaces",
-        "show versions"
+        "enable secret password Cisco",
+        "enable secret cisco",
+        "enable secret Cisco",
+        "enable password Cisco"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pb30n0",
-      "q": "Which of the following commands will configure all the default VTY ports on a router?",
+      "id": "gate-1yd2zmc",
+      "q": "You type the following command into the router and receive the following output: Router#show serial 0/0 ^ % Invalid input detected at '^' marker. Why was this error message displayed?",
       "options": [
-        "Router#line vty 0 4",
-        "Router(config)#line vty 0 4",
-        "Router(config-if)#line console 0",
-        "Router(config)#line vty all"
+        "You need to be in privileged mode.",
+        "You cannot have a space between serial and 0/0.",
+        "The router does not have a serial0/0 interface.",
+        "Part of the command is missing."
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pfhwmf",
-      "q": "You need to find the broadcast address used on a LAN on your router. What command will you type into the router from user mode to find the broadcast address?",
+      "id": "gate-beghfw",
+      "q": "Which of the following commands will display the current IP addressing and the layer 1 and 2 status of an interface? show version show protocols show interfaces show controllers show ip interface",
       "options": [
-        "show running-config",
-        "show startup-config",
-        "show interfaces",
-        "show protocols"
+        "1, 2 and 4",
+        "2, 3 and 5",
+        "3 and 4 only",
+        "None of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-5cwuoa",
-      "q": "Which command will delete the contents of NVRAM on a router?",
+      "id": "gate-1m13mg4",
+      "q": "You type show running-config and get this output: [output cut] Line console 0 Exec-timeout 1 35 Password BIXPASSWD Login [output cut] What do the two numbers following the exec-timeout command mean?",
       "options": [
-        "delete NVRAM",
-        "delete startup-config",
-        "erase NVRAM",
-        "erase start"
+        "If no command has been typed in 35 seconds, the console connection will be closed.",
+        "If no router activity has been detected in 1 hour and 35 minutes, the console will be locked out.",
+        "If no commands have been typed in 1 minute and 35 seconds, the console connection will be closed.",
+        "If you're connected to the router by a Telnet connection, input must be detected within 1 minute and 35 seconds or the connection will be closed."
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1o0ihes",
-      "q": "What keystroke will terminate setup mode?",
+      "id": "gate-mozrfe",
+      "q": "What layer of the OSI model would you assume the problem is in if you type show interface serial 1 and receive the following message? \"Serial1 is down, line protocol is down.\"",
       "options": [
-        "Ctrl+Z",
-        "Ctrl+^",
-        "Ctrl+C",
-        "Ctrl+Shift+^"
+        "Physical layer",
+        "Data Link layer",
+        "Network layer",
+        "None. It is a router problem."
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-7ak0nc",
-      "q": "Which command will show you whether a DTE or a DCE cable is plugged into serial 0?",
+      "id": "gate-bb9qpg",
+      "q": "What command do you type to save the configuration stored in RAM to NVRAM?",
       "options": [
-        "sh int s0",
-        "sh int serial 0",
-        "show controllers serial 0",
-        "show serial 0 controllers"
+        "Router(config)#copy current to starting",
+        "Router#copy starting to running",
+        "Router(config)#copy running-config startup-config",
+        "Router#copy run startup"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-blgtx4",
-      "q": "You want to totally reinitialize the router and replace the current running-config with the current startup-config. What command will you use?",
+      "id": "gate-q5wazc",
+      "q": "You type Router#sh ru and receive an % ambiguous command error. Why did you receive this message?",
       "options": [
-        "replace run start",
-        "copy run start",
-        "copy start run",
-        "reload"
+        "The command requires additional options or parameters.",
+        "There is more than one show command that starts with the letters ru.",
+        "There is no show command that starts with ru.",
+        "The command is being executed from the wrong router mode."
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gkp7r6",
-      "q": "If you delete the contents of NVRAM and reboot the router, what mode will you be in?",
+      "id": "gate-1fa285b",
+      "q": "If you wanted administrators to see a message when logging into the router, which command would you use?",
       "options": [
-        "Privileged mode",
-        "Global mode",
-        "Setup mode",
-        "NVRAM loaded mode"
+        "message banner motd",
+        "banner message motd",
+        "banner motd",
+        "message motd"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +168,33 @@
       "tags": []
     },
     {
-      "id": "gate-s5shp2",
-      "q": "What is the problem with an interface if you type show interface serial 0 and receive the following message? \"Serial0 is administratively down, line protocol is down.\"",
+      "id": "gate-tz1fc0",
+      "q": "How many simultaneous Telnet sessions does a Cisco router support by default?",
       "options": [
-        "The keepalives are different times.",
-        "The administrator has the interface shut down.",
-        "The administrator is pinging from the interface.",
-        "No cable is attached."
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ios And Security Device Manager",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k7a9cw",
+      "q": "You set the console password, but when you display the configuration, the password doesn't show up; it looks like this: [output cut] Line console 0 Exec-timeout 1 44 Password 7098C0BQR Login [output cut] What cause the password to be stored like this?",
+      "options": [
+        "encrypt password",
+        "service password-encryption",
+        "service-password-encryption",
+        "exec-timeout 1 35"
       ],
       "correct": 0,
       "explain": "",

@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-12mjmg0",
-      "q": "A method defines the form or protocol of the operation, but not its implementation.",
+      "id": "gate-1ms96kq",
+      "q": "A derived element is typically shown by placing either a slash (/) or a stereotype of > before the name of the element.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1en2amw",
-      "q": "A class is a concept, abstraction, or thing that makes sense in an application context.",
+      "id": "gate-2wlet4",
+      "q": "Composition does not allow an object to be part of more than one aggregate object.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qyxgl6",
-      "q": "In UML, a class is represented by a rectangle with three compartments separated by vertical lines.",
+      "id": "gate-1rtmgr1",
+      "q": "In an object diagram, an object is represented as a rectangle with two compartments.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1524zkg",
-      "q": "A solid diamond represents a stronger form of aggregation, known as composition.",
+      "id": "gate-1ami14y",
+      "q": "An operation that alters the state of an object is known as a constructor operation.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-aw0we0",
-      "q": "When a business rule involves three or more graphical symbols, you can show the constraint as a note and attach the note to each of the symbols by a dashed line.",
+      "id": "gate-1llefns",
+      "q": "Each association has two or more roles.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-13pzy5j",
-      "q": "The term Complete for a UML has the same meaning as which of the following for an EER diagram?",
+      "id": "gate-1ldcuko",
+      "q": "An aggregation is a stronger form of association relationship and is represented with a solid diamond at the aggregate end.",
       "options": [
-        "Overlapping rule",
-        "Disjoint rule",
-        "Total specialization rule",
-        "Partial specialization rule"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-qbab0r",
-      "q": "A UML diagram includes which of the following?",
+      "id": "gate-1vltxiw",
+      "q": "The UML notation is useful for graphically depicting an object-oriented analysis or design model.",
       "options": [
-        "Class name",
-        "List of attributes",
-        "List of operations",
-        "All of the above."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-1rm3vy8",
-      "q": "An object can have which of the following multiplicities?",
+      "id": "gate-1v3p8st",
+      "q": "Multiple inheritance allows a class to inherit features from more than one superclass.",
       "options": [
-        "Zero",
-        "One",
-        "More than one",
-        "All of the above."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-1jq70xh",
-      "q": "Which of the following statement is true concerning objects and/or classes?",
+      "id": "gate-1uzbw8o",
+      "q": "The reasons for overriding include extension, restriction, and optimization.",
       "options": [
-        "An object is an instance of a class.",
-        "A class is an instance of an object.",
-        "An object includes encapsulates only data.",
-        "A class includes encapsulates only data."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,11 @@
       "tags": []
     },
     {
-      "id": "gate-hw13hc",
-      "q": "Which of the following applies to a class rather than an object?",
+      "id": "gate-196r82s",
+      "q": "An object's state is determined by its attribute values and links to other objects.",
       "options": [
-        "Query",
-        "Update",
-        "Scope",
-        "Constructor"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,71 +188,71 @@
       "tags": []
     },
     {
-      "id": "gate-okputw",
-      "q": "The benefits of object-oriented modeling are which of the following?",
+      "id": "gate-1h9wl50",
+      "q": "The fact that the same operation may apply to two or more classes is called what?",
       "options": [
-        "The ability to tackle more challenging problems",
-        "Reusability of analysis, design, and programming results",
-        "Improved communication between users, analysts, etc.",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Data Modeling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t2iye8",
-      "q": "The term Incomplete for a UML has the same meaning as which of the following for an EER diagram?",
-      "options": [
-        "Overlapping rule",
-        "Disjoint rule",
-        "Total specialization rule",
-        "Partial specialization rule"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Data Modeling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wv88ml",
-      "q": "A constructor operation does which of the following?",
-      "options": [
-        "Creates a new instance of a class",
-        "Updates an existing instance of a class",
-        "Deletes and existing instance of a class",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Data Modeling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yhwhdg",
-      "q": "Which of the following is a technique for hiding the internal implementation details of an object?",
-      "options": [
-        "Encapsulation",
+        "Inheritance",
         "Polymorphism",
+        "Encapsulation",
+        "Multiple classification"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Data Modeling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ggdn5w",
+      "q": "The object-oriented development life cycle is which of the following?",
+      "options": [
+        "Analysis, design, and implementation steps in the given order and using multiple iterations.",
+        "Analysis, design, and implementation steps in the given order and going through the steps no more than one time.",
+        "Analysis, design, and implementation steps in any order and using multiple iterations.",
+        "Analysis, design, and implementation steps in any order and going through the steps no more than one time."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Data Modeling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kenxag",
+      "q": "Multiplicity is the same as what concept for an ERD?",
+      "options": [
+        "Relationship",
+        "Attribute",
+        "Entity",
+        "Cardinality"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Data Modeling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5q43sw",
+      "q": "Composition is a stronger form of which of the following?",
+      "options": [
+        "Aggregation",
+        "Encapsulation",
         "Inheritance",
         "All of the above."
       ],
@@ -278,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-o6t6pw",
-      "q": "Aggregation is which of the following?",
+      "id": "gate-mmw6ec",
+      "q": "An abstract class is which of the following?",
       "options": [
-        "Expresses a part-of relationship and is a stronger form of an association relationship.",
-        "Expresses a part-of relationship and is a weaker form of an association relationship.",
-        "Expresses an is-a relationship and is a stronger form of an association relationship.",
-        "Expresses an is-a relationship and is a weaker form of an association relationship."
+        "A class that has direct instances, but whose descendants may have direct instances.",
+        "A class that has no direct instances, but whose descendants may have direct instances.",
+        "A class that has direct instances, but whose descendants may not have direct instances.",
+        "A class that has no direct instances, but whose descendants may not have direct instances"
       ],
       "correct": 0,
       "explain": "",

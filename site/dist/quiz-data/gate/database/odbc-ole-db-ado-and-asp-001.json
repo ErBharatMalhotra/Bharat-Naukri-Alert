@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Odbc Ole Db Ado And Asp",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 25,
   "questions": [
     {
-      "id": "gate-2fv954",
-      "q": "A file data source is one that is local to a single computer.",
+      "id": "gate-ojlm3c",
+      "q": "An OLE DB interface is specified by a set of objects and the properties and methods that they expose.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1kaxsac",
-      "q": "An application that uses the ODBC interface could process any database that is ODBC-compliant without any program coding changes.",
+      "id": "gate-1nx5jxg",
+      "q": "A OLE DB rowset is an abstraction of a relation, which in turn is an abstraction of a recordset.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-11csxtk",
-      "q": "An OLE DB rowset is equivalent to a cursor.",
+      "id": "gate-vpyy3s",
+      "q": "ODBC identifies two types of drivers: single tier and multiple-tier.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-dchcvw",
-      "q": "ODBC is a foundation of data access in the specifically Microsoft world.",
+      "id": "gate-5fvd0w",
+      "q": "A data source is an ODBC data structure that identifies a database and the DBMS that processes it.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1vr0vdk",
-      "q": "An abstraction is a generalization of something.",
+      "id": "gate-8yt5md",
+      "q": "Users of OLE DB functionality are referred to as data providers.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-1vgngxk",
-      "q": "________ is considered to be one of the foundations of data access in the Microsoft world.",
+      "id": "gate-1uq7i0c",
+      "q": "ODBC conformance levels specify which SQL statements, expressions, and data types a driver can process.",
       "options": [
-        "ODBC",
-        "OLE DB",
-        "JPCD",
-        "ADO"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-1t851wg",
-      "q": "________ is an interface by which application programs can access and process SQL databases in a DBMS-independent manner.",
+      "id": "gate-1n36g5w",
+      "q": "A OLE DB collection is an object that contains a group of other objects.",
       "options": [
-        "ODBC",
-        "OLE DB",
-        "JPCD",
-        "ADO"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-110j26q",
-      "q": "Which of the following are goals of OLE DB?",
+      "id": "gate-1wh4vlb",
+      "q": "OLE DB has two types of data providers: tabular data providers and service providers.",
       "options": [
-        "Create object interfaces for DBMS functionality pieces only.",
-        "Increase flexibility only.",
-        "Object interface over any type of data only.",
-        "All of the above as goals of OLE DB."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-b75t6s",
-      "q": "An ODBC data structure that identifies a database and the DBMS that processes it is called a(n):",
+      "id": "gate-183xjpn",
+      "q": "The driver manager processes ODBC requests and submits specific SQL statements to a given type of data source.",
       "options": [
-        "data source.",
-        "driver manager.",
-        "driver.",
-        "API."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,11 @@
       "tags": []
     },
     {
-      "id": "gate-gv0ldg",
-      "q": "In OLE DB, actions that an object can perform are called:",
+      "id": "gate-1ssaoeg",
+      "q": "ADO overlies the more complex OLE DB model, and can be called for scripting languages but not programming languages.",
       "options": [
-        "properties.",
-        "collections.",
-        "methods.",
-        "abstractions."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-ug0juw",
-      "q": "In OLE DB, a service provider:",
+      "id": "gate-qq9233",
+      "q": "ODBC minimum SQL grammar contains which of the following?",
       "options": [
-        "does not own data only.",
-        "transforms data through OLE DB interfaces only.",
-        "is both a consumer and a provider of data only.",
-        "All of the above are true of an OLE DB service provider."
+        "INSERT, UPDATE, DELETE only",
+        "Stored Procedures only",
+        "Literals for date, time and timestamp only",
+        "CREATE VIEW, DROP VIEW only"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-mwgg9s",
-      "q": "In OLE DB, a tabular data provider:",
+      "id": "gate-1od8dyo",
+      "q": "When using ODBC, which of the following processes ODBC requests and submits specific SQL statements to a given type of data source?",
       "options": [
-        "does not own data.",
-        "transforms data through ODE DB interfaces.",
-        "is both a consumer and a provider of data.",
-        "exposes data via rowsets."
+        "Data source",
+        "Driver",
+        "Driver manager",
+        "DBMS"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-gfnx7r",
-      "q": "The ODBC Level 2 API contains which the following functions?",
+      "id": "gate-1mtbhaw",
+      "q": "The ODBC core API consists of which of the following functions?",
       "options": [
         "Commit or rollback transactions only",
         "Connect to data sources with driver-specific information only",
         "Connect to data sources only",
-        "All of the above are contained in the OBDC Level 2 API"
+        "Both 1 and 3 above are in the OBDC core API."
       ],
       "correct": 0,
       "explain": "",
@@ -258,8 +248,68 @@
       "tags": []
     },
     {
-      "id": "gate-62pa3g",
-      "q": "In ODBC, a data source that is local to a single computer is called a:",
+      "id": "gate-t7w9xk",
+      "q": "________ is a simple object model that is easier to understand and use than OLE DB, and is frequently used for database applications.",
+      "options": [
+        "ASP",
+        "XML",
+        "ODBC",
+        "ADO"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qkx5z9",
+      "q": "ODBC core SQL grammar contains which of the following?:",
+      "options": [
+        "INSERT, UPDATE, DELETE only",
+        "Stored procedures only",
+        "Full SELECT (includes subqueries) only",
+        "Both 1 and 3 above are contained in the ODBC core SQL."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4nxbgt",
+      "q": "In OLE DB, which of the following represents characteristics of the recordset abstraction?",
+      "options": [
+        "Properties",
+        "Collections",
+        "Methods",
+        "Abstractions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q2cgbv",
+      "q": "In ODBC, a file that can be shared among database users is called a:",
       "options": [
         "system data source.",
         "file data source.",
@@ -278,13 +328,143 @@
       "tags": []
     },
     {
-      "id": "gate-cgdojk",
-      "q": "________ is a cover for utilizing OLE DB that is designed for use by almost any language.",
+      "id": "gate-1gzebb8",
+      "q": "________ is an object-oriented interface that encapsulates data-server functionality.",
       "options": [
         "ODBC",
-        "ASP",
+        "OLE DB",
         "JPCD",
         "ADO"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xxo58g",
+      "q": "When using ODBC, which of the following serves as an intermediary between the application and the DBMS drivers?",
+      "options": [
+        "Data source",
+        "Driver",
+        "Driver manager",
+        "OLE DB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5av33s",
+      "q": "The ODBC Level 1 API contains which of the following functions?",
+      "options": [
+        "Browse possible connections and data sources only",
+        "Connect to data sources with driver-specific information only",
+        "Process a scrollable cursor only",
+        "Both 1 and 3 above are in the OBDC Level 1 API."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vqz6co",
+      "q": "A user data source is one that can be shared among database users.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hjw06m",
+      "q": "ODBC provides an interface by which Web server programs can access and process relational data sources in a DBMS-independent manner.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f4wjy8",
+      "q": "OLE DB tabular data providers present data in the form of rowsets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ew49tw",
+      "q": "The ADO connection object is created after the ADO errors object is created.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Odbc Ole Db Ado And Asp",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11dtdpk",
+      "q": "The process of defining a system data source name involves specifying the type of driver and the identity of the database to be processed.",
+      "options": [
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

@@ -5,15 +5,75 @@
   "subject": "Computer Science",
   "topic": "Database Systems",
   "source": "indiabix.com",
-  "count": 23,
+  "count": 100,
   "questions": [
     {
-      "id": "gate-o25dfk",
-      "q": "Data security threats include",
+      "id": "gate-1c1u6bp",
+      "q": "In SQL, which command is used to changes data in a table?",
       "options": [
-        "hardware failure",
-        "privacy invasion",
-        "fraudulent manipulation of data",
+        "UPDATE",
+        "INSERT",
+        "BROWSE",
+        "APPEND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-705u6k",
+      "q": "What name is given to the collection of facts, items of information or data which are related in some way?",
+      "options": [
+        "Database",
+        "Directory information",
+        "Information tree",
+        "Information provider"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o8272k",
+      "q": "Which of the following command(s) is(are) used to recompile a stored procedure in SQL?",
+      "options": [
+        "COMPILE PROCEDURE",
+        "ALTER PROCEDURE",
+        "MODIFY PROCEDURE id) All of the above",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-stvg25",
+      "q": "Internal auditors should review data system design before they are",
+      "options": [
+        "developed",
+        "implemented",
+        "modified",
         "All of the above"
       ],
       "correct": 0,
@@ -28,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1b6iqhg",
-      "q": "An operation that will increase the length of a list is",
+      "id": "gate-dkb1d4",
+      "q": "The way a particular application views the data from the data base that the application uses is a :",
       "options": [
-        "Insert",
-        "Look-up",
-        "Modify",
-        "All of the above"
+        "module",
+        "relational model",
+        "schema",
+        "subschema"
       ],
       "correct": 0,
       "explain": "",
@@ -48,113 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-18pyjf1",
-      "q": "In SQL, which command is used to add a column/integrity constraint to a table",
+      "id": "gate-1vnb932",
+      "q": "A compound key",
       "options": [
-        "ADD COLUMN",
-        "INSERT COLUMN",
-        "MODIFY TABLE",
-        "ALTER TABLE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-odphko",
-      "q": "In SQL, which command(s) is(are) used to enable/disable a database trigger?",
-      "options": [
-        "ALTER TRIGGER",
-        "ALTER DATABASE",
-        "ALTER TABLE",
-        "MODIFY TRIGGER"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wwzq3o",
-      "q": "In a relational schema, each tuple is divided into fields called",
-      "options": [
-        "Relations",
-        "Domains",
-        "Queries",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tahgwc",
-      "q": "In SQL, which command is used to select data in rows and column from one or more tables?",
-      "options": [
-        "CHOOSE",
-        "SELECT",
-        "LIST",
-        "BROWSE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4czy9m",
-      "q": "A scheme describes",
-      "options": [
-        "data elements",
-        "records and files",
-        "record relationships",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rw7r8k",
-      "q": "A report form",
-      "options": [
-        "appears on the computer monitor during data entry",
-        "is used during report generation to format data",
+        "is made up a several pieces of information",
+        "uniquely identifies an item in a list",
         "both (a) and (b)",
-        "All of the above"
+        "is a combination of each unique key"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-pj7mnk",
-      "q": "A computer file can be best described as",
+      "id": "gate-pj1224",
+      "q": "The distinguishable parts of a record are called",
       "options": [
-        "a single data item",
-        "a general collection of data items",
-        "an orderly collection of data items",
-        "a random collection of data items"
+        "files",
+        "data",
+        "fields",
+        "database"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-psfo9r",
-      "q": "A good query system",
+      "id": "gate-1nxhqws",
+      "q": "Large collections of files are called",
       "options": [
-        "can accept English language commands",
-        "allows non-programmers to access information stored in a database",
-        "can be accessed only by data processing professionals",
-        "both (a) and (b)"
+        "fields",
+        "records",
+        "databases",
+        "file system"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1j9ydha",
-      "q": "In SQL, the command(s) is(are) used to create an index for a table or cluster",
+      "id": "gate-14yrvfa",
+      "q": "The index consists of",
       "options": [
-        "CREATE INDEX",
-        "MODIFY INDEX",
-        "SET INDEX TO FILE",
-        "All of the above"
+        "a list of keys",
+        "pointers to the master list",
+        "both (a) and (b)",
+        "Either (a) or (b)"
       ],
       "correct": 0,
       "explain": "",
@@ -228,188 +188,8 @@
       "tags": []
     },
     {
-      "id": "gate-yu5obc",
-      "q": "There are certain packages that allow people to define data items, place these items in particular records, combine the records into designated files and then manipulate and retrieve the stored data. What are they called?",
-      "options": [
-        "Data storage system",
-        "Database management system (DBMS)",
-        "Batch processing system",
-        "Data communication package"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qohasc",
-      "q": "A _____ DBMS distributes data processing tasks between the workstation and a network server.",
-      "options": [
-        "Network",
-        "Relational",
-        "Client Server",
-        "Hierarchical"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9ekgrc",
-      "q": "Information can be transferred between the DBMS and a",
-      "options": [
-        "spreadsheet program",
-        "word processor program",
-        "graphics program",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15komec",
-      "q": "Data integrity control",
-      "options": [
-        "is used to set upper and lower limits on numeric data",
-        "requires the use of passwords to prohibit unauthorized access to the file",
-        "has the data dictionary keep the date and time of last access last back-up, and most recent modification for all files",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kp1k9b",
-      "q": "After you _____ a record, many data management the environments require you to issue a command to save the changes you made.",
-      "options": [
-        "Delete",
-        "Update",
-        "Sort key",
-        "Index"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u1cbsv",
-      "q": "What is the language used by most of the DBMSs for helping their users to access data?",
-      "options": [
-        "High level language",
-        "Query language",
-        "SQL",
-        "4GL"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sty96s",
-      "q": "Data item characteristics that are important in data management include",
-      "options": [
-        "punctuation",
-        "language",
-        "spelling",
-        "width"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cso2wu",
-      "q": "In SQL, which command is used to make permanent changes made by statements issue since the beginning of a transaction?",
-      "options": [
-        "ZIP",
-        "PACK",
-        "COMMIT",
-        "SAVE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-va6kpr",
-      "q": "Periodically adding, changing and deleting file records is called file",
-      "options": [
-        "Updating",
-        "upgrading",
-        "restructuring",
-        "renewing"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Database Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-307q80",
-      "q": "If you want to group the records in the abc database, you could use the Jobcode as the _____.",
+      "id": "gate-1ecv29c",
+      "q": "If you want to organize a file in multiple ways, it is better to _____ the data rather than to sort it.",
       "options": [
         "Delete",
         "Update",
@@ -428,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tyo8z0",
-      "q": "The Management Information system (MIS) structure with one main computer system is called a",
+      "id": "gate-19pygc0",
+      "q": "The modify operation is likely to be done after",
       "options": [
-        "hierarchical MIS structure",
-        "distributed MIS structure",
-        "centralized MIS structure",
-        "decentralized MIS structure"
+        "Delete",
+        "Look-up",
+        "Insert",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -448,13 +228,1773 @@
       "tags": []
     },
     {
-      "id": "gate-uxu308",
-      "q": "If a calculation is embedded in a form",
+      "id": "gate-z6n3t0",
+      "q": "One data dictionary software package is called",
       "options": [
-        "the result of the calculations are stored with the form",
-        "the calculations are stored with the form",
-        "the result of the calculations are printed in report",
+        "DB/DC dictionary",
+        "TOTAL",
+        "ACCESS",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7qdj7g",
+      "q": "One approach to standardizing storing of data",
+      "options": [
+        "MIS",
+        "structured programming",
+        "CODASYL specifications",
         "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mzbni0",
+      "q": "What software packages are commonly used for businesses that have to track extensive lists of clients and inventory?",
+      "options": [
+        "Special purpose packages",
+        "Custom made programs",
+        "Single function application packages",
+        "Data management packages"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f3ifxg",
+      "q": "In SQL, the CREATE TABLESPACE is used",
+      "options": [
+        "to create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace",
+        "to create a database trigger",
+        "to add/rename data files, to change storage",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qlernc",
+      "q": "In SQL, which command is used to remove a stored function from the database?",
+      "options": [
+        "REMOVE FUNCTION",
+        "DELETE FUNCTION",
+        "DROP FUNCTION",
+        "ERASE FUNCTION"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-avrzth",
+      "q": "The database administration function includes",
+      "options": [
+        "application programming",
+        "computer operations management",
+        "database access planning",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xgl0vw",
+      "q": "A relational database management (RDBM) package manages data in more than one file at once. How does it organize these file? As",
+      "options": [
+        "tables",
+        "relations",
+        "tuple",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pbmq60",
+      "q": "A command that lets you change one or more fields in a record is",
+      "options": [
+        "Insert",
+        "Modify",
+        "Look-up",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mdrcds",
+      "q": "In order to use a DBMS, it is important to understand",
+      "options": [
+        "the physical schema",
+        "all sub-schemas that the system supports",
+        "one subschema",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fbjese",
+      "q": "In SQL, which command(s) is(are) used to recompile a stored function?",
+      "options": [
+        "SET FUNCTION",
+        "SET STORED FUNCTION",
+        "ALTER FUNCTION",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nasvf8",
+      "q": "Report generators are used to",
+      "options": [
+        "store data input by a user",
+        "retrieve information from files",
+        "answer queries",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n7lp78",
+      "q": "Administrate supervision of database activities is the responsibility of the",
+      "options": [
+        "Database administrator",
+        "DP Manager",
+        "DB Manager",
+        "DP administration"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jrmz0k",
+      "q": "Goals for the design of the logical schema include",
+      "options": [
+        "avoiding data inconsistency",
+        "being able to construct queries easily",
+        "being able to access data efficiently",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sqnv40",
+      "q": "In SQL, which command(s) is(are) used to change a table's storage characteristics?",
+      "options": [
+        "ALTER TABLE",
+        "MODIFY TABLE",
+        "CHANGE TABLE",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yrgcb1",
+      "q": "In SQL, which of the following is not a data definition language commands?",
+      "options": [
+        "RENAME",
+        "REVOKE",
+        "GRANT",
+        "UPDATE"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ox2my9",
+      "q": "Subschema can be used to",
+      "options": [
+        "create very different, personalized views of the same data",
+        "present information in different formats",
+        "hide sensitive information by omitting fields from the subÂ¬schema's description",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6mix6d",
+      "q": "Database management systems are intended to:",
+      "options": [
+        "eliminate data redundancy",
+        "establish relationships among records in different files",
+        "manage file access",
+        "maintain data integrity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nvbg5m",
+      "q": "In SQL, which command(s) is(are) used to issue multiple CREATE TABLE, CREATE VIEW, and GRANT statements in a single transaction?",
+      "options": [
+        "CREATE PACKAGE",
+        "CREATE SCHEMA",
+        "CREATE CLUSTER",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w7ns0w",
+      "q": "A report generator is used to",
+      "options": [
+        "update files",
+        "print files on paper",
+        "data entry",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10b86ik",
+      "q": "Which of the following is not a logical data-base structure?",
+      "options": [
+        "tree",
+        "relational",
+        "network",
+        "chain"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tytz3m",
+      "q": "Which of the following is a database administrator's function?",
+      "options": [
+        "database design",
+        "backing up the database",
+        "performance monitoring",
+        "user coordination"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q6rlko",
+      "q": "Primitive operations common to all record management systems include",
+      "options": [
+        "Print",
+        "Sort",
+        "Look-up",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mqtubr",
+      "q": "Each of data files has a _____ that describe the way the data is stored in the file.",
+      "options": [
+        "File structure",
+        "Records",
+        "Fields",
+        "Database"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gocyd4",
+      "q": "Sort/report generators",
+      "options": [
+        "are faster than index/report generators",
+        "require more disk space than index/report generators",
+        "do not need to sort before generating a report",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4tstfc",
+      "q": "The data dictionary tells the DBMS",
+      "options": [
+        "what files are in the database",
+        "what attribute are possessed by the data",
+        "what these files contain",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-don208",
+      "q": "If the record management system allows you to edit values before they are recorded on disk, you can",
+      "options": [
+        "correct spelling changes before they are recorded",
+        "change the name of a field",
+        "change the width of a field",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wh04dv",
+      "q": "The relational model uses some unfamiliar terminology. A tuple is equivalent to a:",
+      "options": [
+        "record",
+        "field",
+        "file",
+        "data base"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u2kuig",
+      "q": "When you have finished entering information into a form",
+      "options": [
+        "the template is written to the data file",
+        "the contents of the form are written to the data file",
+        "the contents of the form can be printed",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-trr5wp",
+      "q": "The main idea behind computer files is that it is convenient to",
+      "options": [
+        "arrange them",
+        "store information together",
+        "create them",
+        "access them"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oh9re8",
+      "q": "A list consists of last names, first names, addresses, and pin codes if all people in the list have the same last and the same pin code, a useful key would be",
+      "options": [
+        "the pin code",
+        "the last name",
+        "a compound key consisting of the first name and the last name",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-145nn9c",
+      "q": "In SQL, which command is used to add new rows to a table?",
+      "options": [
+        "ALTER TABLE",
+        "ADD ROW",
+        "INSERT",
+        "APPEND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rs1fp8",
+      "q": "A number of related records that are treated as a unit is called",
+      "options": [
+        "file",
+        "field",
+        "data",
+        "batch"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18sw5v4",
+      "q": "A _____ means that one record in a particular record type may be related to more than one record of another record type.",
+      "options": [
+        "One-to-one relationship",
+        "One-to-many relationship",
+        "Many-to-one relationship",
+        "Many-to many relationship"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1obrq9s",
+      "q": "Which command(s) is(are) used to redefine a column of the table in SQL ?",
+      "options": [
+        "ALTER TABLE",
+        "DEFINE TABLE",
+        "MODIFY TABLE",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-91lu34",
+      "q": "Which command(s) is(are) used to enable/disable/drop an integrity constraint in SQL?",
+      "options": [
+        "DEFINE TABLE",
+        "MODIFY TABLE",
+        "ALTER TABLE",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2cgrgg",
+      "q": "In SQL, the ALTER TABLESPACE command is used",
+      "options": [
+        "to add/rename data files",
+        "to change storage characteristics",
+        "to take a tablespace online/offline",
+        "to begin/end a backup"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qfjex0",
+      "q": "The language used in application programs to request data from the DBMS is referred to as the",
+      "options": [
+        "DML",
+        "DDL",
+        "query language",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5y8sdo",
+      "q": "The designer of a form includes",
+      "options": [
+        "filed designators",
+        "prompts",
+        "data",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-watlfs",
+      "q": "Which of the following contains a complete record of all activity that affected the contents of a database during a certain period of time?",
+      "options": [
+        "report writer",
+        "query language",
+        "data manipulation language",
+        "transaction log"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ljxfoo",
+      "q": "Two files may be joined into a third file if",
+      "options": [
+        "they have a row in common",
+        "they have a field in common",
+        "they have no records with the same value in the common field",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fpxxhc",
+      "q": "Characteristic(s) of a distributed MIS structure is",
+      "options": [
+        "interactive sharing of the workload",
+        "a multiprocessing environment",
+        "computers supporting local DP operations",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p402kc",
+      "q": "The data-base environment has all of the following components except:",
+      "options": [
+        "users",
+        "separate files",
+        "data base",
+        "data-base administrator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s76bg0",
+      "q": "A multiple-form file management system",
+      "options": [
+        "lets you define different forms for different operations",
+        "lets you create a look-up form with an associated read-only password to prevent access by unauthorized users",
+        "both (a) and (b)",
+        "allow you to entry data in all the forms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jj2rqk",
+      "q": "The term _____ is sometimes used to refer to a data file in which all the records have the same record format, that is, the same field names, field lengths, and data types.",
+      "options": [
+        "Database",
+        "Table",
+        "Flat file",
+        "Data structure"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1psxy38",
+      "q": "A _____ Contains fields of data about one entity.",
+      "options": [
+        "Record",
+        "File",
+        "Fields",
+        "Document"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11djj9o",
+      "q": "A condition that led to the development of databases was",
+      "options": [
+        "a demand for more data to support information needs",
+        "an increase in the amount of data handled by organizations",
+        "the proliferation of data files",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wrmr64",
+      "q": "The _____ command is used to allocates an extent for the table in SQL",
+      "options": [
+        "MODIFY ALLOCATES",
+        "MODIFY TABLE",
+        "ALTER TABLE",
+        "REDEFINE TABLE"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17960cp",
+      "q": "In SQL, which command is used to select only one copy of each set of duplicable rows",
+      "options": [
+        "SELECT DISTINCT",
+        "SELECT UNIQUE",
+        "SELECT DIFFERENT",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ci9fa0",
+      "q": "The physical location of a record is determined by a mathematical formula that transforms a file key into a record location in",
+      "options": [
+        "a tree file",
+        "an indexed file",
+        "a hashed file",
+        "a sequential file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k1yqi8",
+      "q": "Which command is used to select distinct subject (SUB) from the table (BOOK)?",
+      "options": [
+        "SELECT ALL FROM BOOK",
+        "SELECT DISTINCT SUB FROM BOOK",
+        "SELECT SUB FROM BOOK",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gobr4g",
+      "q": "The master list of an indexed file",
+      "options": [
+        "is sorted in ascending order",
+        "contains only a list of keys and record numbers",
+        "has a number assigned to each record",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wazuso",
+      "q": "Which of the following is not the responsibility of the utilities component of DBMS software?",
+      "options": [
+        "creating the physical and logical designs",
+        "removing flagged records for deletion",
+        "creating and maintaining the data dictionary",
+        "monitoring performance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6kut4g",
+      "q": "The files stored on a secondary stage device are composed of a hierarchy of data. What does a record in a file contain?",
+      "options": [
+        "Bits",
+        "Characters",
+        "Data field",
+        "Schema"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lciiwk",
+      "q": "Which command is used to remove an index from the database in SQL?",
+      "options": [
+        "DELETE INDEX",
+        "DROP INDEX",
+        "REMOVE INDEX",
+        "ROLL BACK INDEX"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zbd6hb",
+      "q": "An-owner-member set in the CODASYL specifications may have",
+      "options": [
+        "only one owner but many owner occurrences",
+        "only one member but many member occurrence",
+        "more than one member but only one occurrence per member",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-saz23o",
+      "q": "What is the name given to the database management system which is able to handle full text data, image data, audio and video?",
+      "options": [
+        "Full media",
+        "Graphics media",
+        "Multimedia",
+        "Hypertext"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7u18fv",
+      "q": "A top-to-bottom relationship among the items in a database is established by a",
+      "options": [
+        "Hierarchical schema",
+        "Network schema",
+        "Relational schema",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-164papk",
+      "q": "In SQL, GRANT command is used to",
+      "options": [
+        "allow user to access databases",
+        "allow user to create databases",
+        "grant system privileges, roles, and object privileges to uses and roles",
+        "choose auditing for specific SQL commands"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dbirqc",
+      "q": "The highest level in the hierarchy of data organization is called",
+      "options": [
+        "data bank",
+        "database",
+        "data file",
+        "data record"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wanbq4",
+      "q": "The logical data structure with a one-to-many relationship is a :",
+      "options": [
+        "network",
+        "tree",
+        "chain",
+        "relational"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sawzww",
+      "q": "Updating a database means",
+      "options": [
+        "revising the file structure",
+        "reorganizing the database",
+        "modifying or adding record occurrences",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2px0tw",
+      "q": "In SQL, which command(s) is(are) used to enable/disable all triggers on a table?",
+      "options": [
+        "ALTER TRIGGERS",
+        "ALTER TABLE",
+        "MODIFY TRIGGERS IN TABLE",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-102yh74",
+      "q": "A database management system might consist of application programs and a software package called",
+      "options": [
+        "FORTRAN",
+        "AUTOFLOW",
+        "BPL",
+        "TOTAL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fcjukx",
+      "q": "An audit trail",
+      "options": [
+        "is used to make back-up copies",
+        "is the recorded history of operations performed on a file",
+        "can be used to restore lost information",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3rrfne",
+      "q": "A race condition occurs when",
+      "options": [
+        "Two concurrent activities interact to cause a processing error",
+        "two users of the DBMS are interacting with different files at the same time",
+        "both (a) and (b)",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t9ykie",
+      "q": "An indexing operation",
+      "options": [
+        "sorts a file using a single key",
+        "sorts file using two keys",
+        "establishes an index for a file",
+        "both (b) and (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-140mksw",
+      "q": "The on-line, softcopy display a customer's charge account to respond to an inquiry is an examples of a",
+      "options": [
+        "forecasting report",
+        "exception report",
+        "regularly scheduled report",
+        "on demand report"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y61ah4",
+      "q": "The model for a _____ resembles the hierarchical model in many respects.",
+      "options": [
+        "Network database",
+        "Relational database",
+        "Distributed database",
+        "Hierarchical database"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-me2fqg",
+      "q": "A set of programs that handle a firm's data base responsibilities is called a",
+      "options": [
+        "Data Base Management System (DBMS)",
+        "Data Base Processing System (DBPS)",
+        "Data Management System (DMS)",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aqxt68",
+      "q": "In any hierarchy of data organization, the smallest entity to be processed as a single unit is called",
+      "options": [
+        "data field",
+        "data record",
+        "data file",
+        "database"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mcwb9s",
+      "q": "Long-range planning report produced in an MIS are primarily designed for",
+      "options": [
+        "top management",
+        "middle management",
+        "lower management",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-esxgcg",
+      "q": "The model for a record management system might be",
+      "options": [
+        "handwritten list",
+        "a Rolodex card file",
+        "a business form",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wk5fb0",
+      "q": "Embedded pointer provide",
+      "options": [
+        "a secondary access path",
+        "a physical record key",
+        "an inverted index",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vu1ayn",
+      "q": "Which of the following is a type of DBMS software?",
+      "options": [
+        "database manipulation language",
+        "query language",
+        "utilities",
+        "report writer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o25xs0",
+      "q": "Data items grouped together for storage purposes are called a",
+      "options": [
+        "record",
+        "title",
+        "list",
+        "string"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lp3zwo",
+      "q": "The activity of a file",
+      "options": [
+        "is a low percentages of number of records added or deleted from a file",
+        "if high, reduces processing efficiency for sequential and nonsequential files",
+        "is a measure of the percentage of existing records updated during a run",
+        "refers to how closely the files fits into the allocated"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pyyalc",
+      "q": "Versatile report generators can provide",
+      "options": [
+        "Columnar totals",
+        "Subtotals",
+        "Calculations",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eu3a60",
+      "q": "Data encryption techniques are particularly useful for",
+      "options": [
+        "reducing storage space requirements",
+        "improving data integrity",
+        "protecting data in data communication systems",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-153ucy4",
+      "q": "It is more accurate to define a _____ as a variety of different record types that are treated as a single unit",
+      "options": [
+        "Database",
+        "Table",
+        "Record",
+        "Flat File"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xxr1p4",
+      "q": "A logical schema",
+      "options": [
+        "is the entire database",
+        "is a standard way of organizing information into accessible parts",
+        "describes how data is actually stored on disk",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-76xdv8",
+      "q": "Queries to a database",
+      "options": [
+        "are written in English",
+        "can use aggregate functions like SUM and COUNT",
+        "both (a) and (b)",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p69zuv",
+      "q": "In order to use a record management system",
+      "options": [
+        "You need to understand the low-level details of how information in stored",
+        "You need to understand the model the record management system uses.",
+        "Both (a) and (b)",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-127d8sn",
+      "q": "A database management system",
+      "options": [
+        "allows simultaneous access to multiple files",
+        "can do more than a record management system",
+        "is a collection of programs for managing data in a single file",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-74rkxu",
+      "q": "Which of the following hardware components is the most important to the operation of a database management system?",
+      "options": [
+        "high-resolution video display",
+        "printer",
+        "high speed, large-capacity disk",
+        "plotter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15btcd4",
+      "q": "The PROJECT command will create new table that has",
+      "options": [
+        "more fields than the original table",
+        "more rows than the original table",
+        "both (a) and (b)",
+        "all the fields of master table"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h74jls",
+      "q": "To have a file hold a list, it is necessary to",
+      "options": [
+        "identify the records in the list",
+        "identify the name, width and type of the fields of each record.",
+        "decide which fields will be used as sort or index keys",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9n15ja",
+      "q": "Sophisticated report generators can",
+      "options": [
+        "print row-oriented reports",
+        "perform arithmetic operations",
+        "selectively retrieve and print portions of a list",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s1qmxg",
+      "q": "Which command is used to remove a table from the database in SQL?",
+      "options": [
+        "DELETE TABLE",
+        "DROP TABLE",
+        "ERASE TABLE",
+        "UNATTACH TABLE"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Database Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-er72cj",
+      "q": "A large computer information system maintains many different computer files. Which amongst them is called a perpetual file?",
+      "options": [
+        "Specialized file",
+        "Log file",
+        "Master file",
+        "Update file"
       ],
       "correct": 0,
       "explain": "",

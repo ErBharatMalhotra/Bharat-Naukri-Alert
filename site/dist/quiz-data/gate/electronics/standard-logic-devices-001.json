@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Standard Logic Devices",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 16,
   "questions": [
     {
-      "id": "gate-9uigmk",
-      "q": "ECL gates are noted for their high frequency capability and small output voltage swing.",
+      "id": "gate-qjr7zc",
+      "q": "NMOS devices use MOSFETs to implement the full range of logic gates using the universal NAND gate.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-h0degc",
-      "q": "Delay times and current/voltage values remain constant regardless of temperature or other operating conditions for robust circuits like TTL.",
+      "id": "gate-qvjr1c",
+      "q": "Schottky TTL logic gates overcome the problem of saturation delay time.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1cymq4s",
-      "q": "5400 TTL series logic chips are made to military specifications.",
+      "id": "gate-ixlnqv",
+      "q": "A three-state output TTL can have three possible outputs: LOW, HIGH, or FLOATING.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-13ob6vk",
-      "q": "Totem pole output circuits can change states faster than open-collector output circuits.",
+      "id": "gate-4xnxrw",
+      "q": "Integrated-injection logic offers high component density and is easier to fabricate than TTL.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-u90pnx",
-      "q": "The term buffer/driver signifies the ability to provide low output currents to drive light loads.",
+      "id": "gate-1fymf7t",
+      "q": "CMOS circuits consume less power than TTL circuits.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-16wpxac",
-      "q": "PMOS and NMOS ____________________________.",
+      "id": "gate-twqcag",
+      "q": "Due to the extremely low power requirements of CMOS logic circuits, any number of CMOS and TTL gates can be interconnected.",
       "options": [
-        "represent MOSFET devices utilizing either P-channel or N-channel devices exclusively within a given gate",
-        "are enhancement type CMOS devices used to produce a series of high-speed logic known as 74HC",
-        "represent positive and negative MOS type devices that can be operated from differential power supplies and are compatible with operational amplifiers",
-        "none of the above"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,13 @@
       "tags": []
     },
     {
-      "id": "gate-1on2fng",
-      "q": "The number of inputs that a gate output can drive without possible logic errors is the _______.",
+      "id": "gate-1obkknk",
+      "q": "Large-scale integration (LSI) ICs contain between ______ and _______ interconnected components.",
       "options": [
-        "propagation delay",
-        "noise margin",
-        "speed-power product",
-        "fanout"
+        "15,000, 150,000",
+        "1,500, 15,000",
+        "180, 1,000",
+        "180, 1,500"
       ],
       "correct": 0,
       "explain": "",
@@ -138,12 +136,12 @@
       "tags": []
     },
     {
-      "id": "gate-se1mha",
-      "q": "In order to get a HIGH or a LOW output from an open-collector gate, an external _________ must be connected between +VCC and the collector.",
+      "id": "gate-v7d6co",
+      "q": "One example of the use of a Schmitt trigger is as a(n) _____",
       "options": [
-        "pull-down resistor",
-        "pull-up resistor",
-        "diode",
+        "astable oscillator",
+        "transition pulse generator",
+        "pulse shaper",
         "buffer"
       ],
       "correct": 0,
@@ -158,13 +156,13 @@
       "tags": []
     },
     {
-      "id": "gate-1o4kk8",
-      "q": "An undefined state, neither high nor low, is called _________.",
+      "id": "gate-1uzo8mo",
+      "q": "Totem pole outputs _________ be connected __________ because ____________.",
       "options": [
-        "don't care",
-        "floating",
-        "minimum state",
-        "noise"
+        "can, in parallel, sometimes higher current is required",
+        "cannot, together, if the outputs are in opposite states excessively high currents can damage one or both devices",
+        "should, in series, certain applications may require higher output voltage",
+        "can, together, together they can handle larger load currents and higher output voltages"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +176,13 @@
       "tags": []
     },
     {
-      "id": "gate-c4anio",
-      "q": "When the output of a standard TTL gate is HIGH, it can ___________________.",
+      "id": "gate-n0ty50",
+      "q": "An open collector output can ________ current, but it cannot ___________________.",
       "options": [
-        "sink 16 mA of current from the attached input gates",
-        "source 400 A of current to no more than 10 attached gates",
-        "source 16 mA of current to no more than 10 attached gates",
-        "sink a maximum of 400 A from no more than 10 load gates"
+        "sink, source current",
+        "source, sink current",
+        "sink, source voltage",
+        "source, sink voltage"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +196,13 @@
       "tags": []
     },
     {
-      "id": "gate-7c1sc8",
-      "q": "The problem of interfacing IC logic families that have different supply voltages (VCCs) can be solved by using a:",
+      "id": "gate-uehao0",
+      "q": "The output current capability of a single 7400 NAND gate when HIGH is called _____________.",
       "options": [
-        "level-shifter",
-        "tri-state shifter",
-        "translator",
-        "level-shifter or translator"
+        "source current",
+        "sink current",
+        "IOH",
+        "source current or IOH"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +216,13 @@
       "tags": []
     },
     {
-      "id": "gate-uvud90",
-      "q": "Ten TTL loads per TTL driver is known as:",
+      "id": "gate-htf5tw",
+      "q": "A digital logic device used as a buffer should have what input/output characteristics?",
       "options": [
-        "noise immunity",
-        "power dissipation",
-        "fanout",
-        "propagation delay"
+        "high input impedance and high output impedance",
+        "low input impedance and high output impedance",
+        "low input impedance and low output impedance",
+        "high input impedance and low output impedance"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +236,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ui2r18",
-      "q": "Which of the following summarizes the important features of emitter-coupled logic (ECL)?",
+      "id": "gate-1qkjfi0",
+      "q": "What is the standard TTL noise margin?",
       "options": [
-        "negative voltage operation, high speed, and high power consumption",
-        "good noise immunity, negative logic, high frequency capability, low power dissipation, and short propagation time",
-        "slow propagation time, high frequency response, low power consumption, and high output voltage swings",
-        "poor noise immunity, positive supply voltage operation, good low-frequency operation, and low power"
+        "5.0 V",
+        "0.2 V",
+        "0.8 V",
+        "0.4 V"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +256,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vg8h2g",
-      "q": "What quantities must be compatible when interfacing two different logic families?",
+      "id": "gate-9e9az8",
+      "q": "The range of a valid LOW input is:",
       "options": [
-        "only the currents",
-        "both the voltages and the currents",
-        "only the voltages",
-        "both the power dissipation and the impedance"
+        "0.0 V to 0.4 V",
+        "0.4 V to 0.8 V",
+        "0.4 V to 1.8 V",
+        "0.4 V to 2.4 V"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +276,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nu7zix",
-      "q": "CMOS logic is probably the best all-around circuitry because of its:",
+      "id": "gate-1fyr6vt",
+      "q": "When an IC has two rows of parallel connecting pins, the device is referred to as:",
       "options": [
-        "packing density",
-        "low power consumption",
-        "very high noise immunity",
-        "low power consumption and very high noise immunity"
+        "a QFP",
+        "a DIP",
+        "a phase splitter",
+        "CMOS"
       ],
       "correct": 0,
       "explain": "",
@@ -298,53 +296,13 @@
       "tags": []
     },
     {
-      "id": "gate-lpv7l4",
-      "q": "Low power consumption achieved by CMOS circuits is due to which construction characteristic?",
+      "id": "gate-1dimthw",
+      "q": "Which digital IC package type makes the most efficient use of printed circuit board space?",
       "options": [
-        "complementary pairs",
-        "connecting pads",
-        "DIP packages",
-        "small-scale integration"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Standard Logic Devices",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s9vuow",
-      "q": "A TTL totem pole circuit is designed so that the output transistors are:",
-      "options": [
-        "always on together",
-        "providing phase splitting",
-        "providing voltage regulation",
-        "never on together"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Standard Logic Devices",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-68ofr8",
-      "q": "The time needed for an output to change as the result of an input change is known as:",
-      "options": [
-        "noise immunity",
-        "fanout",
-        "propagation delay",
-        "rise time"
+        "SMT",
+        "TO can",
+        "flat pack",
+        "DIP"
       ],
       "correct": 0,
       "explain": "",

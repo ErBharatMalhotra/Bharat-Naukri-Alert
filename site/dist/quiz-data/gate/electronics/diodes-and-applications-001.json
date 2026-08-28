@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Diodes And Applications",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 69,
   "questions": [
     {
-      "id": "gate-143pohj",
-      "q": "A reverse biased diode will act as an open switch.",
+      "id": "gate-1q83rec",
+      "q": "A rectifying diode can change ac voltage to dc voltage.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-2qrtjg",
-      "q": "If the diode in a series circuit is reverse biased, the resistor will drop all the applied voltage.",
+      "id": "gate-v6z9ho",
+      "q": "The barrier potential is the small difference of potential created by positive and negative ions on either side of the depletion region.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1lxq0e0",
-      "q": "The PIV rating of a diode in a full-wave bridge rectifier is more than that required for a full-wave center-tapped configuration.",
+      "id": "gate-10ew0k8",
+      "q": "Dark current is a small reverse current that flows in a photodiode that is receiving no light.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fexcjw",
-      "q": "The troubleshooting process for a typical dc power supply contains four steps.",
+      "id": "gate-ogzkqo",
+      "q": "One of the advantages of using transformer coupling in a half-wave rectifier is that it allows the ac source to be directly connected to the load.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1cy75lv",
-      "q": "The number of electrons in a stable atom is the same as the number of protons in its nucleus.",
+      "id": "gate-1504rfo",
+      "q": "A zener diode can be used to provide voltage regulation in a power supply.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-gymc64",
-      "q": "A ___ is created when an electron moves from the valence band to the conduction band.",
+      "id": "gate-r2r1tw",
+      "q": "The diode's characteristic curve shows that current increases when voltage increases.",
       "options": [
-        "hole",
-        "gap",
-        "vacancy",
-        "blank"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +116,11 @@
       "tags": []
     },
     {
-      "id": "gate-14drk2g",
-      "q": "The average value of the half-wave rectified output voltage is approximately __________ of Vp.",
+      "id": "gate-1ae9n8o",
+      "q": "If a bridge rectifier is used, it is not necessary to use a transformer.",
       "options": [
-        "31.8%",
-        "63.6%",
-        "70.7%",
-        "100%"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +134,11 @@
       "tags": []
     },
     {
-      "id": "gate-705qpk",
-      "q": "Typically the forward voltage on an LED is between _______ and ________.",
+      "id": "gate-1p5fmvg",
+      "q": "Doping semiconductive material is the process of putting a small amount of pentavalent or trivalent atoms in with tetravalent atoms.",
       "options": [
-        "1.5 V, 3.7 V",
-        "0.7 V, 1.1 V",
-        "1 V, 3 V",
-        "1 V, 6 V"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +152,11 @@
       "tags": []
     },
     {
-      "id": "gate-noehg",
-      "q": "A two-diode rectifier will not operate without a _________.",
+      "id": "gate-1ky4viw",
+      "q": "A common problem with rectifiers is open diodes.",
       "options": [
-        "center-tapped transformer",
-        "voltage regulator",
-        "capacitive filter",
-        "phase-inverting transformer"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +170,13 @@
       "tags": []
     },
     {
-      "id": "gate-u9ng6s",
-      "q": "The name of the circuit in the given circuit is the ___.",
+      "id": "gate-8hh01e",
+      "q": "The small amount of ac signal present on the output of a filtering network for a dc power supply is known as ________.",
       "options": [
-        "half-wave rectifier",
-        "center-tapped full-wave rectifier",
-        "full-wave bridge rectifier",
-        "half-wave bridge rectifier"
+        "pulsating dc",
+        "trickle",
+        "ripple",
+        "waffle"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +190,13 @@
       "tags": []
     },
     {
-      "id": "gate-dk3xgo",
-      "q": "When matching polarity connections have been made and the potential difference (PD) is above 0.7 V, the diode is considered to be:",
+      "id": "gate-1i7g0t5",
+      "q": "The peak output voltage from the circuit in the given circuit equals ___.",
       "options": [
-        "not working",
-        "forward biased",
-        "reverse biased",
-        "an open switch"
+        "3 V",
+        "3.7 V",
+        "2.3 V",
+        "0 V"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +210,273 @@
       "tags": []
     },
     {
-      "id": "gate-1agl9xc",
-      "q": "In a power supply diagram, which block indicates a smooth dc output?",
+      "id": "gate-1cf7fds",
+      "q": "An electron can move to another atom's orbit only while in the _______.",
+      "options": [
+        "valence band",
+        "conduction band",
+        "orbit nearest the nucleus",
+        "covalent band"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fxulf4",
+      "q": "The average value of the output voltage from the circuit in the given circuit equals ___.",
+      "options": [
+        "5.48 V",
+        "2.74 V",
+        "0 V",
+        "6.37 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11ez50o",
+      "q": "Atoms in a silicon crystal are held together by ___ bonds.",
+      "options": [
+        "crystal",
+        "chemical",
+        "electrical",
+        "covalent"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bjdh56",
+      "q": "What is a varistor?",
+      "options": [
+        "a voltage-dependent resistor",
+        "a voltage-dependent diode",
+        "a current-dependent resistor",
+        "a current-dependent diode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4v69fu",
+      "q": "Which type of transformer is required to create a 180 degree input to a rectifier?",
+      "options": [
+        "center-tapped secondary",
+        "step-down secondary",
+        "stepped-up secondary",
+        "split winding primary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9aqcdi",
+      "q": "What circuit activity may shift a characteristic curve so that diode operating points are different?",
+      "options": [
+        "higher power (heat)",
+        "higher resistance",
+        "lower voltage",
+        "lower current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18hkfeo",
+      "q": "What is wrong with this diode?",
+      "options": [
+        "open",
+        "short",
+        "nothing",
+        "not enough data"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gk5vh5",
+      "q": "The dc current through each diode in a bridge rectifier equals:",
+      "options": [
+        "the load current",
+        "half the dc load current",
+        "twice the dc load current",
+        "one-fourth the dc load current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lh74sf",
+      "q": "Since diodes are destroyed by excessive current, circuits must have:",
+      "options": [
+        "higher voltage sources",
+        "current limiting resistors",
+        "more dopants",
+        "higher current sources"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10u6w28",
+      "q": "A diode for which you can change the reverse bias, and thus vary the capacitance is called a",
+      "options": [
+        "varactor diode",
+        "tunnel diode",
+        "zener diode",
+        "switching diode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18h6htk",
+      "q": "A filtered full-wave rectifier voltage has a smaller ripple than does a half-wave rectifier voltage for the same load resistance and capacitor values because:",
+      "options": [
+        "there is a shorter time between peaks",
+        "there is a longer time between peaks",
+        "the larger the ripple, the better the filtering action",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vz71n0",
+      "q": "Testing a good diode with an ohmmeter should indicate",
+      "options": [
+        "high resistance when forward or reverse biased",
+        "low resistance when forward or reverse biased",
+        "high resistance when reverse biased and low resistance when forward biased",
+        "high resistance when forward biased and low resistance when reverse biased"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cywflg",
+      "q": "The peak inverse voltage (PIV) across a nonconducting diode in a bridge rectifier equals approximately:",
+      "options": [
+        "half the peak secondary voltage",
+        "twice the peak secondary voltage",
+        "the peak value of the secondary voltage",
+        "four times the peak value of the secondary voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18212pg",
+      "q": "Providing a constant output regardless of ac input or load resistance changes is the function of a:",
       "options": [
         "transformer",
         "filter",
-        "rectifier",
-        "regulator"
+        "regulator",
+        "rectifier"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +490,13 @@
       "tags": []
     },
     {
-      "id": "gate-n4s4",
-      "q": "If a 169.7 V half-wave peak has an average voltage of 54 V, what is the average of two full-wave peaks?",
+      "id": "gate-1poen4w",
+      "q": "When a diode is destroyed it has infinite impedance. When damaged by heat it will probably:",
       "options": [
-        "119.9 V",
-        "108.0 V",
-        "115.7 V",
-        "339.4 V"
+        "short",
+        "conduct more",
+        "conduct less",
+        "open"
       ],
       "correct": 0,
       "explain": "",
@@ -258,12 +510,432 @@
       "tags": []
     },
     {
-      "id": "gate-135bb6o",
-      "q": "What is the current through the LED?",
+      "id": "gate-gog854",
+      "q": "The area at the junction of p-type and n-type materials that has lost its majority carriers is called the",
+      "options": [
+        "barrier potential",
+        "depletion region",
+        "n region",
+        "p region"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w4r044",
+      "q": "DC power should be connected to forward bias a diode as follows:",
+      "options": [
+        "&#8211; anode, + cathode",
+        "&#8211; cathode, &#8211; anode",
+        "+ anode, &#8211; cathode",
+        "+ cathode, + anode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jt5629",
+      "q": "At any given time in an intrinsic piece of semiconductor material at room temperature",
+      "options": [
+        "electrons drift randomly",
+        "recombination occurs",
+        "holes are created",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hnekaw",
+      "q": "The positive lead of a diode is the cathode.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yh38k0",
+      "q": "It is not possible to use a half-wave rectifier circuit without a transformer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gqgfgo",
+      "q": "Electrons in the conduction band are the only ones that are included in the electron current flow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1q19jdg",
+      "q": "The forward biased characteristics of a zener diode are the same as those of a diode.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t7kbe8",
+      "q": "Breakdown voltage and peak inverse voltage are the same.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1imbib6",
+      "q": "An LED can be tested with an ohmmeter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t1t5jm",
+      "q": "Reverse biasing a pn junction allows the flow of majority current.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xycvx4",
+      "q": "A zener diode can be tested with an ohmmeter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d6m01s",
+      "q": "A diode can be tested with an ohmmeter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j2w4wg",
+      "q": "A zener diode has a larger breakdown voltage than a diode.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gccqbg",
+      "q": "Special diodes designed to conduct in the reverse direction are called _______________ diodes.",
+      "options": [
+        "zener",
+        "varactor",
+        "LED",
+        "switching"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18cwxj8",
+      "q": "___ occurs when a pn junction is first formed.",
+      "options": [
+        "Recombination",
+        "Covalent bonding",
+        "Crystallization",
+        "Breakdown"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bqg4nk",
+      "q": "Connecting a capacitor filter to the circuit in the given circuit will___.",
+      "options": [
+        "produce a nearly-constant dc voltage",
+        "reduce the output voltage",
+        "increase the ripple voltage",
+        "lower the surge current"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ez7a5o",
+      "q": "The peak inverse voltage (PIV) for the diode in the give circuit equals ___.",
+      "options": [
+        "3 V",
+        "2.3 V",
+        "0 V",
+        "6 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cdd9t0",
+      "q": "A pure semiconductor material ___ very well.",
+      "options": [
+        "conducts",
+        "insulates",
+        "conducts and insulates",
+        "neither conducts nor insulates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-elach3",
+      "q": "What is the current through the diode?",
+      "options": [
+        "1 mA",
+        "0.975 mA",
+        "0.942 mA",
+        "0.0 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8fuaww",
+      "q": "Electrons in the outermost orbit or shell of an atom are called",
+      "options": [
+        "free electrons",
+        "negative ions",
+        "valence electrons",
+        "conduction band electrons"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sc31t8",
+      "q": "Shunting the ac component away from the load is the task of a:",
+      "options": [
+        "transformer",
+        "filter",
+        "regulator",
+        "rectifier"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-126y4iv",
+      "q": "A pn junction allows current flow when",
+      "options": [
+        "the p-type material is more positive than the n-type material",
+        "the n-type material is more positive than the p-type material",
+        "both the n-type and p-type materials have the same potential",
+        "there is no potential on the n-type or p-type materials"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ab3r2g",
+      "q": "What is the current through the zener diode?",
       "options": [
         "0 mA",
-        "23 mA",
-        "18 mA",
+        "7 mA",
+        "8.3 mA",
         "13 mA"
       ],
       "correct": 0,
@@ -278,13 +950,13 @@
       "tags": []
     },
     {
-      "id": "gate-bu7n5t",
-      "q": "The characteristic curve for the complex model of a silicon diode shows that",
+      "id": "gate-1n4lgy",
+      "q": "What is the percent of regulation if Vnl = 20 V and Vfl = 19.8 V?",
       "options": [
-        "the barrier potential is 0 V",
-        "the barrier potential stays fixed at 0.7 V",
-        "the barrier potential increases slightly with an increase in current",
-        "the barrier potential decreases slightly with an increase in current"
+        "0%",
+        "1%",
+        ".1%",
+        "5%"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +970,13 @@
       "tags": []
     },
     {
-      "id": "gate-140wvpw",
-      "q": "In a power supply diagram, which block indicates a pulsating dc output?",
+      "id": "gate-1y826pv",
+      "q": "With a half-wave rectified voltage across the load resistor, load current flows for what part of a cycle?",
       "options": [
-        "transformer",
-        "filter",
-        "rectifier",
-        "regulator"
+        "0 degrees",
+        "90 degrees",
+        "180 degrees",
+        "360 degrees"
       ],
       "correct": 0,
       "explain": "",
@@ -318,13 +990,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r4f23g",
-      "q": "List three diode packages:",
+      "id": "gate-237ayg",
+      "q": "Which of the following circuits would require the least amount of filtering?",
       "options": [
-        "clip package, DIP, small current package",
-        "DIP, small current package, large current package",
-        "small current package, large current package, and SIP",
-        "small current package, large current package, clip package"
+        "A half-wave rectifier",
+        "A full-wave rectifier",
+        "A bridge rectifier",
+        "A full-wave rectifier and a bridge rectifier"
       ],
       "correct": 0,
       "explain": "",
@@ -338,13 +1010,333 @@
       "tags": []
     },
     {
-      "id": "gate-132l41r",
-      "q": "The mimicking of an open/closed switch by a diode allows alternating current to be:",
+      "id": "gate-3wejq8",
+      "q": "What is wrong with this circuit?",
       "options": [
-        "rectified",
-        "regulated",
-        "controlled",
-        "attenuated"
+        "The zener is open.",
+        "The zener is shorted.",
+        "nothing",
+        "not enough data"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sz690r",
+      "q": "The voltage where current may start to flow in a reverse-biased pn junction is called the",
+      "options": [
+        "breakdown voltage",
+        "barrier potential",
+        "forward voltage",
+        "biasing voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vmzmkl",
+      "q": "When a diode is forward biased, the voltage across it",
+      "options": [
+        "is directly proportional to the current",
+        "is inversely proportional to the current",
+        "is directly proportional to the source voltage",
+        "remains approximately the same"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8ygq1o",
+      "q": "Why is heat produced in a diode?",
+      "options": [
+        "due to current passing through the diode",
+        "due to voltage across the diode",
+        "due to the power rating of the diode",
+        "due to the PN junction of the diode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1esx8f8",
+      "q": "The arrow in the schematic symbol of a diode points to",
+      "options": [
+        "the n-type material, which is called the anode",
+        "the n-type material, which is called the cathode",
+        "the p-type material, which is called the anode",
+        "the p-type material, which is called the cathode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j5wig7",
+      "q": "The diode schematic arrow points to the:",
+      "options": [
+        "trivalent-doped material",
+        "positive axial lead",
+        "anode lead",
+        "cathode lead"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ocnmo1",
+      "q": "When checking a diode, low resistance readings both ways indicate the diode is:",
+      "options": [
+        "open",
+        "satisfactory",
+        "faulty",
+        "not the problem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12rwmvk",
+      "q": "With a 12 V supply, a silicon diode, and a 370-ohm resistor in series, what voltage will be dropped across the diode?",
+      "options": [
+        "0.3 V",
+        "0.7 V",
+        "0.9 V",
+        "1.4 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ozi3tb",
+      "q": "If the frequency of the applied ac signal to a half-wave rectifier is 60 Hz, the frequency of the pulsating dc output will be",
+      "options": [
+        "30 pps",
+        "60 pps",
+        "90 pps",
+        "120 pps"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-soz21f",
+      "q": "What is the peak output voltage for this half-wave rectifier?",
+      "options": [
+        "1 V",
+        "7.8 V",
+        "10.9 V",
+        "15.6 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pmkrr2",
+      "q": "Thermal shutdown occurs in an IC regulator if:",
+      "options": [
+        "power dissipation is too high",
+        "internal temperature is too high",
+        "current through the device is too high",
+        "load resistance increases"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jc417k",
+      "q": "The conduction band is closest to the valence band in",
+      "options": [
+        "semiconductors",
+        "conductors",
+        "insulators",
+        "The distance is the same for all of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j83s54",
+      "q": "In a diode schematic, the anode is represented by a(n):",
+      "options": [
+        "triangle",
+        "vertical line",
+        "zig-zag line",
+        "element indicator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v0sxpk",
+      "q": "An IC regulator receives an overload; it will:",
+      "options": [
+        "shut down",
+        "compensate for heat",
+        "provide more voltage",
+        "sample and adjust"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1us657k",
+      "q": "With full-wave rectification, current through the load resistor must be:",
+      "options": [
+        "in opposite directions",
+        "to the external load",
+        "from the reverse biased diode",
+        "in the same direction"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ia5j60",
+      "q": "A characteristic curve is the result of a current versus voltage plot of diode activity, which begins at the:",
+      "options": [
+        "3rd quadrant",
+        "current plot",
+        "graph origin",
+        "voltage plot"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Diodes And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vefzyg",
+      "q": "Rectifier output polarity depends upon:",
+      "options": [
+        "cycles of input",
+        "capacitor polarity",
+        "half or full wave",
+        "diode installation"
       ],
       "correct": 0,
       "explain": "",

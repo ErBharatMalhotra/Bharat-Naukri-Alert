@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Windows Nt",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 45,
   "questions": [
     {
-      "id": "gate-1xib3io",
-      "q": "When of the following is a system default profile used?",
+      "id": "gate-1mk1fpf",
+      "q": "There are two domains on your network. The DESIGN domain trusts the SALES domain. A color printer is shared in the DESIGN domain, and print permissions have been granted to the Domain Users and Domain Guests groups in the DESIGN domain. The Guest account has been enabled in the DESIGN domain. User John Y logs on using his account in the SALES domain. What must you do to allow JohnY to access the printer?",
       "options": [
-        "When there is no user logged on at the computer",
-        "When a user has logged on using the Guest account",
-        "When, after the user has logged on, the personal or mandatory profiles are missing or corrupted",
-        "When the local accounts database recognizes that the user logging on has never done so from this computer"
+        "Make JohnY a member of the DESIGN Domain Guests group",
+        "Make JohnY a member of the DESIGN Domain Users group",
+        "Do nothing. JohnY can access the printer now",
+        "JohnY cannot access the printer with this configuration"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,361 @@
       "tags": []
     },
     {
-      "id": "gate-epjbka",
-      "q": "In UTP Cat 5 wiring, patch cables from the wall outlet to the PC have a distance limitation of",
+      "id": "gate-1h7pgsk",
+      "q": "Another drawback with repeaters is that the traffic generated on one segment is propagated onto the other segments",
       "options": [
-        "1 meter",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mec60s",
+      "q": "What does the Directory Replicator service allow you to do?",
+      "options": [
+        "Copy updated user accounts from a primary domain controller to a backup domain controller",
+        "Copy directories and files from a Windows NT Server computer to a Windows NT Workstation computer that is not a member of a domain",
+        "Mirror the files on multiple partitions from one Windows NT Server computer to another",
+        "Copy files from a Windows NT Workstation computer to a Windows NT Server computer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-26cwfw",
+      "q": "A route is a path between two network segments",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-187i9tl",
+      "q": "Since bridges buffer frames, it is possible to interconnect different network segments which use different MAC protocols",
+      "options": [
+        "True",
+        "False."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9kfyfc",
+      "q": "Bridges offer performance improvements when used in diverse or scattered workgroups, where the majority of access occurs outside of the local segment",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ma1yns",
+      "q": "Your company uses both Ethernet and token-ring LAN's in the same building. Users need access to resources and the ability to transmit data between the LAN's. Which device would you use to enable communications between dissimilar LAN's that use different protocols?",
+      "options": [
+        "bridge",
+        "router",
+        "gateway",
+        "repeater"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z684xg",
+      "q": "Your 10Base2 Ethernet cable is 185 meters long. You are planning to extend your network by adding another 100 meters of cable. The total length of the cable will be 285 meters. The network uses NetBEUI. Which device should you use?",
+      "options": [
+        "repeater",
+        "T connecter",
+        "router",
+        "gateway"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rp53s",
+      "q": "Each network segment must have a unique address",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vawdjk",
+      "q": "You create home directories for users Jan and Kim on a Windows NT Server computer. Jan works on a Windows NT Workstation computer. Kim works on a Microsoft Windows for Workgroups computer. After they log on, Jan can access her home directory, but Kim cannot access her home directory. What should you do?",
+      "options": [
+        "Start the Replication service on Kim's Windows for Workgroups computer",
+        "Relocate Kim's home directory to her Windows for Workgroups computer",
+        "Map a drive on Kim's Windows for Workgroups computer to her home directory on the server",
+        "You cannot do this. Home directories can be accessed only by Windows NT computers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-35znz4",
+      "q": "How do you configure a printing pool?",
+      "options": [
+        "Associate one print device with multiple printers",
+        "Associate multiple print devices with one printer",
+        "Associate multiple print devices with multiple printers",
+        "Associate one physical print gear port with multiple printers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18vgrqs",
+      "q": "In heavily overloaded networks, crossÂ¬bar switching offers better performance than cell-backplane switching",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gn546o",
+      "q": "You want to connect 2 networks that are both lOBaseT Ethernet networks. The 2 networks are located in separate buildings so that they are approximately 1,000 meters apart. Which media should you use?",
+      "options": [
+        "Type 1 STP Cable",
+        "RG-58 A/U Coaxial Cable",
+        "fiber-optic cable",
+        "wireless infrared"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ho5hxx",
+      "q": "You install Windows NT Server on a computer, making the computer a backup domain controller in an existing domain. After installation, you discover that you used the wrong domain name. What should you do?",
+      "options": [
+        "Change the domain name by using Control Panel",
+        "Modify the domain name in the Registry",
+        "Reinstall Windows NT Server",
+        "Change the domain name by using the Emergency Repair disk"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i8l87a",
+      "q": "In your company, 2 Ethernet Networks are connected with a router. All network connections run TCP/IP. Your new client computer can access only the computers on your side of the router. All other computers are able to access one another. What is the most likely cause of the problem?",
+      "options": [
+        "incorrect termination of the destination network",
+        "defective network adapter in the router",
+        "incorrect subnet mask on your client computer",
+        "malfunctioning repeater"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eb5dag",
+      "q": "Which of the following statements about a local group account created by User Manager for Domains is true?",
+      "options": [
+        "The account can be added to global groups",
+        "The account cannot be used in trusting domains",
+        "The account is added to the Domain Users group automatically",
+        "The account must be added to a local group to use domain resources"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g05u8e",
+      "q": "Peter uses a Microsoft Windows 95 computer. What should he do to be able to administer domain user accounts from his computer?",
+      "options": [
+        "install User Manager for Domains on his computer",
+        "install the Client-based Network Administration Tools on his computer",
+        "install Windows NT Server on his computer",
+        "install Windows NT Workstation on his computer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19c9dn1",
+      "q": "You are setting up a network in a school. You need to network 5 computers for the file and printer sharing. You want to use some donated cable and Ethernet adapters. You identify the donated adapters as ARCnet coaxial network adapters and 10Base2 Ethernet network adapters. You install an Ethernet adapter in each of the 5 computers and connect the donated cable. The computers are NOT able to maintain reliable communication. You suspect that you are NOT using the correct type of coaxial cable. Which type of coaxial cable should you be using?",
+      "options": [
+        "RG-58 AU",
+        "RG-59 AU",
+        "RJ-11",
+        "RJ-45"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c9yo9c",
+      "q": "The rating in bits per second for UTP Cat 5 wiring is",
+      "options": [
+        "100 Mbps",
+        "10Mbps",
+        "4Mbps",
+        "2Mbps"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8l05da",
+      "q": "In building cabling, horizontal wiring from the telecommunications closet (TC) to the wall outlet has a distance limitation of",
+      "options": [
         "3 meters",
         "6 meters",
-        "9 meters"
+        "90 meters",
+        "300 meters"
       ],
       "correct": 0,
       "explain": "",
@@ -48,28 +396,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ew1cok",
-      "q": "In which of the following cable systems are T connectors and terminators are used?",
-      "options": [
-        "FDDI",
-        "Token Ring",
-        "Thin Ethernet",
-        "lOBase T"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows Nt",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jlyuyg",
-      "q": "An ethernet switch works at the protocol layer",
+      "id": "gate-1ww3d99",
+      "q": "Routers are often used to implement FIREWALLS",
       "options": [
         "True",
         "False"
@@ -86,13 +414,11 @@
       "tags": []
     },
     {
-      "id": "gate-r3f7lk",
-      "q": "You want to keep an individual from logging on to a Windows NT Server computer by using the default Administrator account. How should you do this?",
+      "id": "gate-km0eak",
+      "q": "You are adding a new server to your network. The network uses TCP/IP. The new server will provide users with dial-up access to network resources. The data link communications protocol you choose for dial-up access must allow you to provide secure authentication. Which protocol should you choose?",
       "options": [
-        "Delete the Administrator account",
-        "Lock out the Administrator account",
-        "Rename the Administrator account",
-        "Disable the Administrator account"
+        "PPP",
+        "DLC"
       ],
       "correct": 0,
       "explain": "",
@@ -106,13 +432,13 @@
       "tags": []
     },
     {
-      "id": "gate-q6uel0",
-      "q": "From your client computer, you are able to access several servers on your 10Base2 Ethernet network. However, you are NOT able to access a server names RED. Other client computers are able to access RED. What is the most likely cause of the problem?",
+      "id": "gate-m3hnva",
+      "q": "Maria needs to install software on a Windows NT Server computer which is a backup domain controller. When she attempts to log on to the server, she receives the message \"Unable to log on locally\". What must you do to enable Maria to log on to the server?",
       "options": [
-        "There is an incorrect IRQ setting on the network adapter in your client computer",
-        "There is a break in the cable",
-        "There is a protocol mismatch between your client computer and RED.",
-        "An excessive number of collisions are occurring on the media"
+        "In User Manager for Domains, define Maria as a local account",
+        "In User Manager for Domains, assign Maria to a group that has the right to log on locally",
+        "In the System option in Control Panel, select the setting that allows users to log on locally",
+        "In the System option in Control Panel, set the user environment variables to allow Maria to log on locally"
       ],
       "correct": 0,
       "explain": "",
@@ -126,8 +452,68 @@
       "tags": []
     },
     {
-      "id": "gate-3w33nx",
-      "q": "Most routers can also act as bridges",
+      "id": "gate-9yu0nr",
+      "q": "Why does a high number of broadcast messages adversely affect overall network performance?",
+      "options": [
+        "Each broadcast message requires an acknowledgement packet from every computer on the network",
+        "No computer on the network can transmit data until each broadcast message has been acknowledged by every computer on the network",
+        "Broadcast messages are automatically routed to every segment of a LAN",
+        "Every computer on the network must process each broadcast message"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tqte9k",
+      "q": "You want to find out which users are currently using a specific directory on a Windows NT Server computer. How should you do this?",
+      "options": [
+        "Use Windows NT Explorer",
+        "Use Disk Administrator",
+        "Use Server Manager",
+        "Use User Manager for Domains"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lg1354",
+      "q": "Fibre Optic cable is often used to",
+      "options": [
+        "replace UTP because it is cheaper",
+        "overcome distance limitations",
+        "connect PC's to wall outlets",
+        "link remote sites using a WAN connection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1edygfw",
+      "q": "Workstations connected to a port on a modern lOBase-T Ethernet HUB all use the same bandwidth, i.e. the bandwidth is shared across all available ports, the less ports, the less bandwidth available per port",
       "options": [
         "True",
         "False"
@@ -144,13 +530,13 @@
       "tags": []
     },
     {
-      "id": "gate-15irazk",
-      "q": "Windows Naming Service (WINS)",
+      "id": "gate-zhrkfk",
+      "q": "You want to install a new internal CD-ROM drive. You must first confirm that there will be no IRQ conflicts. How should you do this?",
       "options": [
-        "dynamically allocates IP addresses to client computers",
-        "runs on Windows NT W/S",
-        "resolves computer names to IP addresses",
-        "Increases broadcast traffic"
+        "Use Server Manager",
+        "Use Windows NT Diagnostics",
+        "Use the Devices option in Control Panel",
+        "Use the Add/Remove Programs option in Control Panel"
       ],
       "correct": 0,
       "explain": "",
@@ -164,68 +550,8 @@
       "tags": []
     },
     {
-      "id": "gate-wwt8ge",
-      "q": "What must you do to create a printer pool containing four shared printers on your Windows NT Server computer?",
-      "options": [
-        "Set up all the printers to share the same parallel port",
-        "Set individual printer properties for each printer",
-        "Set up all printers as network-interface printer devices",
-        "Specify the same printer driver and settings for all printers"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows Nt",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uwb0wk",
-      "q": "Assume, you are the administrator of the TUNA domain. You need to allow Lisa from the BASS domain to administrate the TUNA domain while you are on vacation. A one-way trust relationship has been set up so that TUNA trusts BASS. Which group assignments would accomplish your needs?",
-      "options": [
-        "Create a global group in the TUNA domain called Tuna-Admins that contains the BASSWLisa user account. Add the Tuna-Admins group to the local Administrators group in TUNA",
-        "Create a local group in TUNA called Tuna-Admins that contains the BASSWLisa user account. Add the Tuna-Admins group to the global Domain Admins group in TUNA",
-        "Create a global group in BASS called Gbl-Admins that contains the Lisa user account. Add the BASS\\Gbl-Admins group to the local Administrators group in TUNA",
-        "Create a local group in BASS called Loc-Admins that contains the Lisa user account. Create a global group in TUNA called Tuna-Admins that contains the BASSWLoc-Admins group. Add the Tuna-Admins group to the local Administrators group in TUNA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows Nt",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ppbl5w",
-      "q": "Dynamic Host Configuration Protocol [DHCP]",
-      "options": [
-        "is the same as bootp",
-        "uses static allocation of IP addresses",
-        "helps prevent conflicts between assigned IP addresses",
-        "assigns IP addresses, which when allocated, cannot be reused"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows Nt",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b7iqzw",
-      "q": "Bridges are ideally used in environments where there a number of well defined workgroups",
+      "id": "gate-jjvrdk",
+      "q": "A cut-through switch reads the entire packet before forwarding it to the destination segment",
       "options": [
         "True",
         "False"
@@ -242,13 +568,13 @@
       "tags": []
     },
     {
-      "id": "gate-j3qyz0",
-      "q": "A company has a department that consists of 15 engineers. The engineers have data that needs to be accessible only to their own team. The department continually has engineers arriving and departing, and it is difficult to identify a single administrator for the department Which model would be the best for this situation?",
+      "id": "gate-t3vrl8",
+      "q": "A Trust Relationship",
       "options": [
-        "A master domain mode, with each engineer trusting the master domain and the data stored on the server",
-        "A single domain mode, with all data kept on the controller for the domain",
-        "A complete trust mode, with each engineer's computer trusting the other engineer's computers",
-        "A workgroup mode, with each engineer administering his or her own computer"
+        "is created using server Manager for Domains",
+        "is an administrative and communication link created between two Windows NT Server domains",
+        "can be created between Windows NT W/S computers",
+        "is bi-directional [both way]"
       ],
       "correct": 0,
       "explain": "",
@@ -262,13 +588,13 @@
       "tags": []
     },
     {
-      "id": "gate-cv7g6o",
-      "q": "A one-way trust relationship has been established in which the RESEARCH domain trusts the TESTING domain. The Guest account is disabled in both domains. As a user belonging to a global group called Testers in the TESTING domain, you want to access a shared directory on a Windows NT Advanced Server in the RESEARCH domain. Which action would give you access?",
+      "id": "gate-jv70tw",
+      "q": "As the network administrator, you create a new local group in the RESEARCH domain named R-Editors. The LAB domain trusts the RESEARCH domain. You can assign access permissions to the R-Editors group from",
       "options": [
-        "No action is necessary, as access is already available",
-        "The Testers group must be assigned permissions to the shared directory on the Windows NT Advanced Server in the RESEARCH domain",
-        "The Testers group must be assigned permissions to the shared directory on the Windows NT Advanced Server in the RESEARCH domain, and the user must log on to the RESEARCH domain",
-        "None of the above"
+        "any Windows NT Workstation computer in the LAB domain",
+        "any Windows NT Workstation computer in the RESEARCH domain -",
+        "any Windows NT Server backup domain controller in the LAB domain",
+        "any Windows NT Server backup domain controllers in the RESEARCH domain"
       ],
       "correct": 0,
       "explain": "",
@@ -282,13 +608,267 @@
       "tags": []
     },
     {
-      "id": "gate-11allku",
-      "q": "Assume that all users are members of the ACE domain and that most of the resources exist in the PUBS and CAD domains. You are a user with administrator rights in all domains. How would you allow users to access all of the resources, with a minimum set of trust relationships?",
+      "id": "gate-gcj2lo",
+      "q": "With a cell-backplane architecture, the data rate on the backplane is significantly greater than the aggregate data rate of the ports",
       "options": [
-        "Establish one-way trust relationships in which: PUBS trusts ACE CAD trusts ACE",
-        "Establish one-way trust relationships in which: ACE trusts PUBS ACE trusts CAD",
-        "Establish one-way trust relationships in which: PUBS trusts ACE CAD trusts PUBS â€¢",
-        "Establish one-way trust relationships in which PUBS trusts ACE ACE trusts CAD"
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z8f7pc",
+      "q": "What is the purpose of the token in a network that employs a media access control method based on the IEEE 802.5 specification?",
+      "options": [
+        "Token passing provides higher throughput than CSMA/CD when twisted-pair wiring is used",
+        "The station that holds the token is allowed to transmit a message on the network",
+        "The station that hold the token has the highest priority on the network",
+        "A token contains information that is used to route messages between rings"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hyij9k",
+      "q": "Server Manager",
+      "options": [
+        "is used to demote a PDC to a BDC",
+        "is used to shutdown or restart a server",
+        "is used to synchronize the domain",
+        "is used to enable auditing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mdrx3s",
+      "q": "Bridges introduce small delays into a network.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mhyfck",
+      "q": "You are installing a network interface card on a computer with the following configuration: a 5867133 CPU, 16MB or RAM, a 800-MB IDE hard disk, a parallel port configured as LPT1, and a serial port configured as COM1, which is currently used by a mouse. In addition to the IDE host adapter and the video card, the following devices have been installed on the computer's expansion bus: a modem on COM2, a SCSI host adapter for a CD-ROM drive, and a sound card. The SCSI hose adapter is using IRQ 5, and the sound card is using IRQ 11. The network interface card that you are installing supports the following choices for IRQ: 2, 3, 4, 5, 9,10 and 11. Which IRQ(s) could you use for the network interface card without creating an IRQ conflict with another device?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12s01q4",
+      "q": "Which layers of the OSI model are managed by a network protocol such as Microsoft NetBEUI?",
+      "options": [
+        "network and transport",
+        "physical and data link",
+        "transport and session",
+        "media access control and logical link control"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rs3hrg",
+      "q": "What does the transport protocol do?",
+      "options": [
+        "It defines how data should be presented to the next receiving layer, packages the data accordingly, and then passes the data to the application through the session layer interface.",
+        "It provides low-level access to the network adapters by providing data transmission support and some basic adapter management functions",
+        "It supports communications between applications on different computers by creating sessions, defining data-exchange formats, and providing application-support services",
+        "It is responsible for establishing logical names on the network, establishing connections between two logical names on the network, and supporting reliable data transfer between computers that have established a session"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wajzkk",
+      "q": "Bridges operate at the MAC layer (layer 2 of the OSI model.)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1epltub",
+      "q": "You need to install network adapters in 20 ISA-bus computers. Which rule must you follow when installing the network adapters?",
+      "options": [
+        "All adapters in a computer, including the network adapter, must be set to the same IRQ",
+        "All adapters in a computer, including the network adapter, must be set to different IRQs",
+        "All network adapters in all computers on the same network must be set to the same IRQ",
+        "All network adapters in all computers on the same network must be set to different IRQs"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-63s2da",
+      "q": "You have been given the task of installing cables for an Ethernet network in your office. The building is an older one, and-you have limited work space. In addition, the network cable will have to share the existing conduit with telephone cable, and cable segments will be up to 135 meters in length. Which cable is best suited to this installation?",
+      "options": [
+        "Fiber Optic",
+        "Category 1 UTP",
+        "Category 3 UTP",
+        "Thicknet Coaxial"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-prgof5",
+      "q": "User Manager for domains",
+      "options": [
+        "is used to add a workstation to the domain",
+        "is used to create user profiles and system policies",
+        "is used to change file permissions",
+        "is used to assign a log on script to a user or group of users"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vtdge4",
+      "q": "Several college interns are working at your company for the summer. You want to increase security by monitoring all user logons. How must you do this?",
+      "options": [
+        "Use Performance Monitor to create a log of all logon attempts",
+        "Use User Manager for Domains to set an Audit policy for all logon attempts",
+        "Use the Services option in Control Panel to start the Alerter service to audit logon attempts",
+        "Use server Manager to set an Audit policy for all logon attempts to be on the user's assigned computer only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-a7au49",
+      "q": "The system administrator wants to make sure that users have access only to certain programs on their systems. Which actions accomplish this?",
+      "options": [
+        "Create a mandatory user profile and lock all the program groups",
+        "Create a mandatory user profile that disables the Run command, assign this profile to all users and remove File Manager from the Main group",
+        "Create a mandatory user profile and ensure that the Deny All option is set on all of the files that the user should not be able to access",
+        "Delete WINFILEJEXE from the WINNT directory create a mandatory user profile that disables the File menu in Program Manager, and assign the profile to all users"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows Nt",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sxe14w",
+      "q": "Assume that you are a user of a Windows NT workstation in the SYCON domain, and the Windows NT workstation has local accounts. You wish to have administrative rights to all Windows NT Advanced Servers in the SYCON domain. How would you achieve this with a minimum amount of administration\"?",
+      "options": [
+        "Run User Manager for Domains on any Windows NT Advanced Server in the SYCON domain. Open the Domain Admins group. In the List Names From box choose your workstation and add your workstation user account to the Domain Admins group",
+        "Add your user account to the local Administrators group on each workstation in the SYCON domain",
+        "Add your user account to the Domain Admins group on any Windows NT Advanced Server in the SYCON domain",
+        "Add your user account to the Administrators group on each Windows NT Advanced Server in the SYCON domain"
       ],
       "correct": 0,
       "explain": "",

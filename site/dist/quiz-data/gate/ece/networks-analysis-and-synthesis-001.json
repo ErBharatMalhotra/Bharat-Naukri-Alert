@@ -8,13 +8,13 @@
   "count": 100,
   "questions": [
     {
-      "id": "gate-1n7nuec",
-      "q": "The V-i relation for a varistor is",
+      "id": "gate-vfst2c",
+      "q": "An RC impadence function has a pole at s = 0. The first element in the Foster form of synthesis",
       "options": [
-        "i = kvn",
-        "v = kin",
-        "i = kv3",
-        "v = ki3"
+        "is R",
+        "may be R and C",
+        "is C",
+        "is R and C in parallel"
       ],
       "correct": 0,
       "explain": "",
@@ -28,68 +28,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gs0rt5",
-      "q": "For 2 port reciprocal network, o.c. output voltage divided by input current is equal to",
-      "options": [
-        "B",
-        "z12",
-        "1/y12",
-        "h12"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pibqv4",
-      "q": "In figure, the current through 2 &ohm; resistance is",
-      "options": [
-        "zero",
-        "-2A",
-        "2A",
-        "1A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kkza3c",
-      "q": "A capacitor is considered to be completely charged in __________ time constant.",
-      "options": [
-        "one",
-        "three",
-        "five",
-        "eight"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mvdd7a",
-      "q": "For an m-derived high pass filter",
+      "id": "gate-1hjvhrc",
+      "q": "&mu;0 = 8.85 x 10-12F/m.",
       "options": [
         "True",
         "False"
@@ -106,13 +46,11 @@
       "tags": []
     },
     {
-      "id": "gate-1pyjvn8",
-      "q": "Consider the following statements associated with two port networks. Z12 = Z21Y12 = Y21h12 = h21AD - BC = 1 Which one of the statement given above are correct?",
+      "id": "gate-13g11me",
+      "q": "A series RC circuit has fixed XC, and variable R. The current locus is in the first quadrant.",
       "options": [
-        "1, 2, 3",
-        "2, 3, 4",
-        "1, 3, 4",
-        "1, 2, 4"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -126,13 +64,11 @@
       "tags": []
     },
     {
-      "id": "gate-1s8p6gt",
-      "q": "Assertion (A): The number of basic loops is equal to number of links.Reason (R): The graph theory helps in choosing independent variables in circuit analysis.",
+      "id": "gate-a149n8",
+      "q": "One limitation of constant k filters is that Z0 is not constant in the pass band.",
       "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true and R is not the correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -146,13 +82,13 @@
       "tags": []
     },
     {
-      "id": "gate-dk9w3g",
-      "q": "In an R-L-C circuit, v(t) = 20 sin (314 t + 5 p/6) and i(t) = 10 sin (314 t + 2p/3). The p.f of the circuit is",
+      "id": "gate-rz550o",
+      "q": "In the circuit of figure the current through 5 &ohm; resistance at t = &infin; is",
       "options": [
-        "0.5 lead",
-        "0.866 lag",
-        "0.866 lead",
-        "0.5 lead"
+        "4 A",
+        "2.5 A",
+        "3.1 A",
+        "0 A"
       ],
       "correct": 0,
       "explain": "",
@@ -166,12 +102,32 @@
       "tags": []
     },
     {
-      "id": "gate-3b3py4",
-      "q": "A series RLC circuit is supplied from a variable frequency ac source. The resonant frequency is &omega;0. The voltage across C is maximum at a frequency",
+      "id": "gate-1nd3uhs",
+      "q": "In h parameter representation, the independent variables are",
       "options": [
-        "equal to &omega;0",
-        "slightly less than &omega;0",
-        "slightly more than &omega;0",
+        "I1 and V2",
+        "I2 and V1",
+        "V1 and V2",
+        "I1 and I2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8coblc",
+      "q": "For maximum transfer of power, internal resistance of the source should be",
+      "options": [
+        "equal to load resistance",
+        "less than the load resistance",
+        "greater than the load resistance",
         "none of the above"
       ],
       "correct": 0,
@@ -186,13 +142,13 @@
       "tags": []
     },
     {
-      "id": "gate-q4pg88",
-      "q": "The maximum phase difference between the applied voltage and current in a RLC series current with finite values of R, L, C, and f can be",
+      "id": "gate-1dnq9bk",
+      "q": "Nichrome is used in",
       "options": [
-        "less than 90&deg;",
-        "less than 45&deg;",
-        "180&deg;",
-        "30&deg;"
+        "heater coils",
+        "underground cables",
+        "overheated wires",
+        "lamp filament"
       ],
       "correct": 0,
       "explain": "",
@@ -206,13 +162,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xi3n9p",
-      "q": "If figure, I = 2A if R = 20 &ohm;. When R = 10 &ohm; current I is",
+      "id": "gate-occttc",
+      "q": "The Laplace transform of a continuous-time signal x(t) is If the Fourier transform of this signal exists, then x(t) is",
       "options": [
-        "1 A",
-        "2 A",
-        "2.5 A",
-        "3 A"
+        "e2tu(t) - 2e-tu(t)",
+        "- e2tu(- t) - 2e-tu(t)",
+        "- e2tu(- t) + 2e-tu(t)",
+        "e2tu(- t) - 2e-tu(t)"
       ],
       "correct": 0,
       "explain": "",
@@ -226,13 +182,13 @@
       "tags": []
     },
     {
-      "id": "gate-196zswl",
-      "q": "A phasor is",
+      "id": "gate-4vkjc9",
+      "q": "In any network of linear impedances the current flowing at any point equal to algebric sum of currents caused to flow at that point by each of the emf taken separately with all other emfs reduced to zero. The statement represents.",
       "options": [
-        "a line representing the magnitude and direction of an alternating quantity",
-        "a line which represents the magnitude and phase of an alternating quantity",
-        "an instrument used for measuring phases of an unbalanced 3-phase load",
-        "a coloured tag or band for distinguishing between different phases of a 3-phase supply"
+        "KCL",
+        "Norton's theorem",
+        "Thevenin's theorem",
+        "Superposition theorem"
       ],
       "correct": 0,
       "explain": "",
@@ -246,13 +202,13 @@
       "tags": []
     },
     {
-      "id": "gate-ys3dmb",
-      "q": "The phase difference (j&omega; - p1 )",
+      "id": "gate-178y6ds",
+      "q": "The Kirchoff's laws fail in which of the following circuits?",
       "options": [
-        "phasor directed from p1 to j&omega;",
-        "phasor directed from origin to p1",
-        "phasor directed from origin to j&omega; point",
-        "phasor directed from j&omega; to p1"
+        "Linear circuits",
+        "Non-linear circuits",
+        "Lumped parameters circuits",
+        "Distributed parameters circuits"
       ],
       "correct": 0,
       "explain": "",
@@ -266,13 +222,13 @@
       "tags": []
     },
     {
-      "id": "gate-14mgc0w",
-      "q": "The relation AD - BC = 1 where A, B, C, D are transmission parameters of a network is valid for",
+      "id": "gate-1kaqeyc",
+      "q": "A black box has one of the elements our of R, L, C. when a 220 V a supply is connected the current supplied by source is I. when a 0.1 F capacitor is connected in parallel with the box, the current is 2I. The element is",
       "options": [
-        "every network",
-        "passive but not reciprocal network",
-        "passive and reciprocal network",
-        "both active and passive networks"
+        "resistance",
+        "inductance",
+        "0.1 F capacitance",
+        "not identifiable on the basis of given data"
       ],
       "correct": 0,
       "explain": "",
@@ -286,13 +242,13 @@
       "tags": []
     },
     {
-      "id": "gate-zep52o",
-      "q": "In figure the phase plot",
+      "id": "gate-1sxaxx8",
+      "q": "In figure, the switch has been in closed position for a long time. At t = 0, the switch is opened. At t = 0+, the current R1 is",
       "options": [
-        "will be 90&deg; at &omega; = 0 and 0&deg; at &omega; = &infin;",
-        "will be 0&deg; at &omega; = 0 and 90&deg; at &omega; = &infin;",
-        "will be 45&deg; at &omega; = 0 and 0&deg; at &omega; = &infin;",
-        "will be 45&deg; at &omega; = 0 and 90&deg; at &omega; = &infin;"
+        "8 A",
+        "4 A",
+        "6 A",
+        "2 A"
       ],
       "correct": 0,
       "explain": "",
@@ -306,488 +262,10 @@
       "tags": []
     },
     {
-      "id": "gate-1fg8ffz",
-      "q": "A network N is dual of network N if",
+      "id": "gate-2pd2iy",
+      "q": "The expression for the resonant frequency &omega;0 in the circuit shown",
       "options": [
-        "both of them have same mesh equation",
-        "both of them have same node equation",
-        "mesh equation of one are the node equations of the other",
-        "KCL and KVL equations are the same"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c6g7oo",
-      "q": "The resistance of the aluminium conductor (r = 2.83 x 10-8 &ohm;m) in figure is",
-      "options": [
-        "0.001 &ohm;",
-        "less than 0.001 &ohm;",
-        "more than 0.001 &ohm;",
-        "more than 0.002 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18shkv8",
-      "q": "In the circuit shown in the given figure, switch k is closed at t = 0. The circuit was initially relaxed then which one of the following sources of v(t) will produce maximum current at t = 0+?",
-      "options": [
-        "Unit step",
-        "Unit impulse",
-        "Unit ramp",
-        "Unit step plus unit ramp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tcxczo",
-      "q": "Pick the correct statement",
-      "options": [
-        "Delta connection draws same current as star connection",
-        "Delta connection draws 3 times as much current as star connection",
-        "Delta connection draws of the current of star connection",
-        "Delta connection draws of the current of delta connection"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1scdejp",
-      "q": "The inverse Fourier transform of is",
-      "options": [
-        "sin &omega;t",
-        "cos &omega;t",
-        "sgn (t)",
-        "u (t)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bew3l4",
-      "q": "The colour on the extreme left in general purpose fixed resistors represents",
-      "options": [
-        "first significant digit",
-        "tolerance",
-        "wattage rating",
-        "voltage rating"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k02hyi",
-      "q": "When a current flows through a conductor,",
-      "options": [
-        "an electric field exists at all points within the conductor",
-        "electric field exists only at all points on the surface of the conductor",
-        "electric field exists only at ends of the conductor",
-        "any of the above depending on magnitude of current"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kjgq5p",
-      "q": "A choke coil of resistance R and inductance L is shunted by capacitor C. The dynamic resistance is",
-      "options": [
-        "R/LC",
-        "C/RL",
-        "L/RC",
-        "1/RLC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-54p1ro",
-      "q": "In an LC immittance H (s)",
-      "options": [
-        "the slope of dH (j&omega;)/d&omega; is always negative",
-        "the slope of dH (j&omega;)/d&omega; is always positive",
-        "the slope of dH (j&omega;)/d&omega; may be positive or negative",
-        "the slope of dH (j&omega;)/d&omega; is constant"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rb04dw",
-      "q": "The response shown in figure is",
-      "options": [
-        "over damped",
-        "critically damped",
-        "under damped",
-        "either (a) or (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fwjvgc",
-      "q": "The polar plot of P (j&omega;) = 45&deg; as &omega; varies from -&infin; to &infin; is",
-      "options": [
-        "a straight line parallel to x-axis",
-        "a straight line parallel to y-axis",
-        "a line passing through origin and inclined at 45&deg;",
-        "a line in first quadrant passing through origin and inclined at 45&deg; to positive x-axis"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g172yw",
-      "q": "Assertion (A): A graph is planar if it has a dual.Reason (R): The dual of a graph can be found by window dot method.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true and R is not the correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1l0sqvo",
-      "q": "Consider the following expression for the driving point impedance It represent on LC circuitIt represent on RLC circuitIt has poles lying on the j&omega; axisIt has a pole at infinite frequency and a zero at zero frequency. Which one fo the statement given above are correct?",
-      "options": [
-        "2 and 4",
-        "1 and 3",
-        "1 and 4",
-        "2 and 3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1udogwr",
-      "q": "Two port network is said to be symmetrical if",
-      "options": [
-        "&Delta;h = 1",
-        "Z11 = Z2",
-        "A = &Delta;",
-        "all"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1topnn8",
-      "q": "For a series resonant circuit at low frequency impedance is __________ and at high frequency circuit impedance is __________ .",
-      "options": [
-        "capacitive, inductive",
-        "inductive, capacitive",
-        "resistive, inductive",
-        "capacitive, resistive"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1avi500",
-      "q": "If Y(s) = 1 + s, the network has",
-      "options": [
-        "1 &ohm; resistor and 1 F capacitor in series",
-        "1 &ohm; resistor and 1 F capacitor in parallel",
-        "1 &ohm; resistor and 1 H inductor in series",
-        "1 &ohm; resistor and 1 H inductor in parallel"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xa2q44",
-      "q": "In a Hurwitz polynomial",
-      "options": [
-        "all coefficients are non-negative",
-        "both the odd and even parts have roots on j&omega; axis",
-        "the continued fraction expansion is the ratio of odd to even parts of a Hurwitz polynomial yields all positive quotient terms",
-        "all of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-161pcr4",
-      "q": "Bandwidth will be",
-      "options": [
-        "a.b",
-        "a + b",
-        "a",
-        "b"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3fbr8o",
-      "q": "In carbon resistor colour code, the fourth band indicates tolerance.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ez6blp",
-      "q": "For any given two port network, any parameter set can be determined from measurements made at the two ports.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ywqazc",
-      "q": "For 200V r.m.s. value triangular wave, the peak voltage will be",
-      "options": [
-        "200 V",
-        "222 V",
-        "280 V",
-        "346 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t9u3f0",
-      "q": "According to initial value theorem which one is correct",
-      "options": [
-        "1, 4",
-        "2, 3",
-        "4, 2",
-        "1, 2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dgbmj8",
-      "q": "Substitution theorem applies to",
-      "options": [
-        "Linear network",
-        "Non linear network",
-        "Linear time invariant network",
-        "Any network"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xhhauu",
-      "q": "An R-L circuit has an initial current of 5 A. In the s-domain equivalent circuit, the voltage source to take into account the initial current has a strength of",
-      "options": [
-        "5L volts",
-        "5/L volts",
-        "5L2 volts",
-        "5/L2 volts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7uixyr",
-      "q": "A function f(t) = k is",
-      "options": [
-        "stable",
-        "marginal stable",
-        "unstable",
+        "1/LC",
         "none"
       ],
       "correct": 0,
@@ -802,13 +280,13 @@
       "tags": []
     },
     {
-      "id": "gate-eu4nlb",
-      "q": "Transient current in a loss free LC circuit when excited from an ac source is an __________ sine wave.",
+      "id": "gate-rezyrq",
+      "q": "A network has two sources of different frequencies. The only method of analysis which can be used to find current and voltages of different branches is the use of",
       "options": [
-        "undamped",
-        "over damped",
-        "under damped",
-        "critically damped"
+        "Kirchoff's laws",
+        "Superposition theorem",
+        "Thevenin's theorem",
+        "Tellegen's theorem"
       ],
       "correct": 0,
       "explain": "",
@@ -822,13 +300,13 @@
       "tags": []
     },
     {
-      "id": "gate-x4j5zw",
-      "q": "Fourier transform and F(j&omega;) of a signal f(t) has the property",
+      "id": "gate-oggwf8",
+      "q": "For a series R-L-C circuit tuned at resonant frequency which of the following statements is correct?",
       "options": [
-        "F(j&omega;) = F(-j&omega;)",
-        "F(j&omega;) = -F(-j&omega;)",
-        "F(j&omega;) = F*(j&omega;)",
-        "F(j&omega;) = -F*(-j&omega;)"
+        "The voltage across inductance is greater than applied voltage",
+        "The voltage across capacitance is greater than applied voltage",
+        "The voltage across both inductance and capacitance is greater than applied voltage",
+        "The voltage across both inductance and capacitance is less than applied voltage"
       ],
       "correct": 0,
       "explain": "",
@@ -842,11 +320,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ja1e0z",
-      "q": "If f(t) = &delta;(t), F(s) =",
+      "id": "gate-1lspn4s",
+      "q": "A network contains linear resistors and ideal voltage sources. If values of all the resistors are doubled, then the voltage across each resistor is",
       "options": [
-        "1",
-        "s"
+        "half",
+        "doubled",
+        "increase by 4 times",
+        "no change"
       ],
       "correct": 0,
       "explain": "",
@@ -860,783 +340,12 @@
       "tags": []
     },
     {
-      "id": "gate-wm91mw",
-      "q": "In figure, the current I is",
-      "options": [
-        "1 A",
-        "2 A",
-        "4 A",
-        "8 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f6an9g",
-      "q": "Figure shows the variation of Z(&omega;) for a positive real function. The function is",
-      "options": [
-        "RC impedance",
-        "RL impedance",
-        "RLC impedance",
-        "Reactance function"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l0p0lu",
-      "q": "The voltage drop per ampere-metre of an aluminium conductor is higher as compared to a copper conductor of the same size due to its higher",
-      "options": [
-        "insulation resistance",
-        "resistivity",
-        "conductivity",
-        "current density"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n6doqw",
-      "q": "The two port networks are connected in cascade, the combination is to be represented as a single two-Port network. The parameters of the network are obtained by multiplying the individual matrix",
-      "options": [
-        "z-parameter",
-        "h-parameter",
-        "y-parameter",
-        "ABCD parameter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kfcpo4",
-      "q": "Which one of the following statements is not a property of RL driving point impedance?",
-      "options": [
-        "The first critical frequency at the origin is a zero",
-        "The last critical frequency is a pole",
-        "The impedance at S = &infin; always less than the impedance at S = zero",
-        "The slope of the impedance curve is positive at all points"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dt16v0",
-      "q": "In using mesh current method it is necessary that at least one mesh current links every element.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z74ugg",
-      "q": "When an ac circuit has sources of different frequencies, the only method of analysis is superposition theorem.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5b57yw",
-      "q": "In a Parallel connection of circuit the bandwidth in terms of R, L, C is",
-      "options": [
-        "B = 1/RC",
-        "B = 1/RL",
-        "B = 1/RLC",
-        "B = RLC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cjvwqw",
-      "q": "It two voltages are v1 = 100 sin (&omega;t - 30&deg;) and v2 = cos &omega; t then",
-      "options": [
-        "v1 is leading v2 by 30&deg;",
-        "v2 is leading v1 by 30&deg;",
-        "v2 is leading v1 by 60&deg;",
-        "v1 is leading v2 by 60&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4kje2o",
-      "q": "In a purely inductive ac circuit the power curve is a sinusoid of the same frequency as the voltage.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15usndo",
-      "q": "The superposition theorem is applicable to",
-      "options": [
-        "linear, non-linear and time variant responses",
-        "linear and non-linear resistors only",
-        "linear responses only",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gga1g0",
-      "q": "Assertion (A): Laplace transform of f(t) = e-at sin &omega;t is Reason (R): If Laplace transform of f(t) is F(s), then Laplace transform of e-at f(t) is F(s + a).",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true and R is not the correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-d4dzk1",
-      "q": "The function (s + 2) (s + 4)/[(s + 1)(s + 3)]",
-      "options": [
-        "is a reactance function",
-        "is an RC function",
-        "may be a reactance function or an RC function",
-        "may be RC function or an RL function"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ipi6ls",
-      "q": "In figure, V1 = 40 V when R = 10 &ohm;, if R = 0, V2 will be",
-      "options": [
-        "40 V",
-        "30 V",
-        "20 V",
-        "10 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ws44ck",
-      "q": "The series element of a band stop filter is",
-      "options": [
-        "capacitive",
-        "inductive",
-        "parallel combination of L and C",
-        "series combination of L and C"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x703pg",
-      "q": "Which one is correct statement? Circuit is always openNetwork is always openCircuit is always closedNetwork is always closed",
-      "options": [
-        "1, 2",
-        "2, 3",
-        "3, 4",
-        "1, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p6416g",
-      "q": "The function",
-      "options": [
-        "is a reactance function",
-        "is an RC function",
-        "is an RL function",
-        "may be reactance function or RC function"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pbc824",
-      "q": "If the network in figure (1), (2) are equivalent at terminals A - B, then voltage V and resistance R are",
-      "options": [
-        "100V and 12 &ohm;",
-        "60V and 12 &ohm;",
-        "100V and 30 &ohm;",
-        "60V and 30 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p79mls",
-      "q": "A source is delivering maximum power to a resistance through a network. The ratio of power delivered to the source power,",
-      "options": [
-        "is always 0.5",
-        "may be 0.54 or less",
-        "may be 0.5 or less",
-        "may be 0.5 or more"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e3xis4",
-      "q": "The number of electrons in motion at the instant of positive peak of a symmetrical ac wave is the same as that at the instant of negative peak.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3kbzhk",
-      "q": "In figure, the current through R, after the steady state condition is reached, is",
-      "options": [
-        "I",
-        "0",
-        "infinite"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dr2btx",
-      "q": "A two branch parallel tuned circuit has 100 &ohm; resistance and 0.1 H inductance in one branch and 10-6 F capacitor in the other. At resonance frequency, the dynamic resistance is",
-      "options": [
-        "10 &ohm;",
-        "100 &ohm;",
-        "1000 &ohm;",
-        "10000 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-em94v5",
-      "q": "Special circuits using neon tubes, contact relays and capacitors are used in many domestic appliances. The role of capacitor in figure is to",
-      "options": [
-        "reduce power loss",
-        "function as resistor when relay is on",
-        "delay the operation of the contact relay after switching on",
-        "open circuit the relay terminals"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19op4io",
-      "q": "A series R, L, C circuit has R = 2&ohm;, L = 1H, C = 1 &mu;F. It is connected to an ac variable frequency source of peak voltage 10 V. At resonance the power supplied by the source will be",
-      "options": [
-        "50 &ohm;",
-        "25 &ohm;",
-        "12.5 &ohm;",
-        "6.25 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bq3fgk",
-      "q": "Three identical coils each having self inductance L are connected in series so that the fluxes of all the three are in the same direction. If mutual inductance between each pair of coils is M, the total inductance of the arrangement is",
-      "options": [
-        "3 L + 9 M",
-        "1.5 L + 3 M",
-        "3 L + 3 M",
-        "3 L + 6 M"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-grpfx5",
-      "q": "In a resistive ac circuit, the current __________ the voltage by __________ .",
-      "options": [
-        "lags, 90&deg;",
-        "lags, 45&deg;",
-        "lags, 0&deg;",
-        "leads 90&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11rtft8",
-      "q": "When two coupled coils of equal self inductance are cormected in series in one way the net inductance is 12 mH and when they are connected in the other way the net inductance is 4 mH. The maximum value of inductance when they are connected in parallel is",
-      "options": [
-        "2 mH",
-        "3 mH",
-        "4 mH",
-        "6 mH"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-128pxto",
-      "q": "An R-L series circuit is excited by a voltage v(t). The circuit was initially relaxed. Which of the following sources of v(t) would cause maximum current at t = 0+?",
-      "options": [
-        "unit step",
-        "unit impulse",
-        "unit ramp",
-        "unit step plus unit ramp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ri14nk",
-      "q": "The circuit in figure, is to be scaled to an impedance level of 5k&ohm; and resonant frequency of 5 x 106 rad/sec. The possible combination of R, L, C is",
-      "options": [
-        "2.5&ohm;, 0.2 mH, 200 pF",
-        "5 k&ohm;, 0.2 mH, 200 pF",
-        "5 k&ohm;, 0.2 mH, 200 &mu;F",
-        "5 k&ohm;, 0.1 mH, 0.4 &mu;F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i2bno0",
-      "q": "In figure, the total power consumed is",
-      "options": [
-        "10 W",
-        "12 W",
-        "16 W",
-        "20 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t51mr7",
-      "q": "If operator 'a' = 1 &ang;120&deg; then (1 + a) =",
+      "id": "gate-1xd98ww",
+      "q": "If operator 'a' = 1 &ang;120&deg; then (1 + a + a2) =",
       "options": [
         "-a",
         "-a2",
-        "a",
-        "-1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12qtglj",
-      "q": "A current wave is i = 100e-60t The initial and final values of current are",
-      "options": [
-        "100 and 50",
-        "100 and 0",
-        "0 and 100",
-        "100 and 100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mosq1e",
-      "q": "Assertion (A): The impedance of a series resonant circuit is minimum at resonance.Reason (R): Resonance condition implies unity power factor condition.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true and R is not the correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n3xyeg",
-      "q": "Two phasors having rms values V1 and V2 which are added to give a phasor having rms value V3. V3 is maximum if phase angle between V1 and V2 is",
-      "options": [
-        "90&deg;",
-        "180&deg;",
-        "270&deg;",
-        "360&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rzym94",
-      "q": "A current of 1 A in the coil of an iron cored electromagnet cause a flux density of 0.2.T. If the current is 2 A, B=",
-      "options": [
-        "0.2 T",
-        "0.4 T",
-        "0.4 T or less",
-        "0.4 T or more"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wz4bao",
-      "q": "If the L.T. of the voltage across a capacitor of value 1/3 F is , then the value of the current through the capacitor at t = 0+ is",
-      "options": [
-        "0",
         "1",
-        "1/3",
-        "&infin;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ejkdfl",
-      "q": "In figure, the current I4 is",
-      "options": [
-        "10 &ang;0",
-        "5 &ang;90&deg;",
-        "5 &ang;270&deg;",
-        "10 &ang;90&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zwsbr0",
-      "q": "For the circuit shown in the figure, the current I is",
-      "options": [
-        "indeterminate due to indeterminate data",
-        "zero",
-        "4 Amp",
-        "8 Amp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4ph9to",
-      "q": "If P = 250 W and p.f. = 0.707 lagging, Q =",
-      "options": [
-        "250 vars",
-        "- 250 vars",
-        "176.7 vars",
-        "- 176.75 vars"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Networks Analysis And Synthesis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7qda84",
-      "q": "Figure shows an R-L circuit. The current is i = 1 - e-t. The rate of change of current at t = 1 second is",
-      "options": [
-        "1 A/s",
-        "0.63 A/s",
-        "0.37 A/s",
         "0"
       ],
       "correct": 0,
@@ -1651,13 +360,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cfmfue",
-      "q": "Assertion (A): Energy stored in inductance is and that in capacitance is Reason (R): Inductance and capacitance are dual of each other.",
+      "id": "gate-1mwutvg",
+      "q": "Pick the correct statement with respect to following figure.",
       "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true and R is not the correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
+        "both the circuit are not identical filter Ckts",
+        "identical filter circuit at all frequencies",
+        "identical filter circuit at low frequency",
+        "identical filter circuit at high frequency"
       ],
       "correct": 0,
       "explain": "",
@@ -1671,13 +380,207 @@
       "tags": []
     },
     {
-      "id": "gate-2m3auc",
-      "q": "The time constant of the circuit after the switch shown in the figure is opened is",
+      "id": "gate-h9b9tc",
+      "q": "Permittivity has the units of F/m.",
       "options": [
-        "0.2 s",
-        "5 s",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-67zf50",
+      "q": "A capacitor used for power factor correction in single- phase circuit decreases",
+      "options": [
+        "the power factor",
+        "the line current",
+        "both the line current and the power factor",
+        "the line current and increases power factor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y4p37o",
+      "q": "Which one of the following is an active component?",
+      "options": [
+        "Diode (p-n)",
+        "Transistor as Amplifier",
+        "Transformer",
+        "Inductor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g2704a",
+      "q": "A series RL circuit is switched on to an impulse. A &delta;(t) at t = 0. Then",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xswirw",
+      "q": "A function f(t) = k eat is __________ for (a &gt; 0).",
+      "options": [
+        "stable",
+        "unstable",
+        "marginal",
+        "none"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qifffs",
+      "q": "The peak factor is the ratio of",
+      "options": [
+        "peak and rms values",
+        "peak and average values",
+        "rms and average values",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eq2nh4",
+      "q": "In attenuation band, &beta; is an odd multiple of p.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10iymm4",
+      "q": "Which of the following is correct? The circuit shown in the figure. is reciprocal but not symmetricalis not reciprocal but symmetricalboth reciprocal and symmetricalneither reciprocal nor symmetrical",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dqlv5o",
+      "q": "In a series RLC circuit, the value of resistance for critical damping is",
+      "options": [
+        "L/C",
+        "(L/C)0.5",
+        "1/LC",
+        "2/L/C"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kcr1v4",
+      "q": "For an RC admittance function",
+      "options": [
+        "all poles and zeros are simple",
+        "all poles and zeros are simple and lie on negative real axis",
+        "all poles and zeros lie on imaginary axis",
+        "all poles and zeros lie on positive real axis"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qy3oio",
+      "q": "If resistance is 20 &ohm; and inductance is 2 H in a R-L series circuit, then time constant of this will be",
+      "options": [
+        "0.001 s",
         "0.1 s",
-        "dependent on R and hence cannot be determined unless R is known"
+        "10 s",
+        "100 s"
       ],
       "correct": 0,
       "explain": "",
@@ -1691,13 +594,13 @@
       "tags": []
     },
     {
-      "id": "gate-nkwjnx",
-      "q": "A series RLC circuit is at resonance at 200 Hz. If capacitance is increased to four times, the circuit will be in resonance at",
+      "id": "gate-1etjdv4",
+      "q": "The following table gives some Laplace transforms and the functionsf(t)&nbsp;&nbsp;&nbsp;F(s)1.&delta;(t)&nbsp;&nbsp;&nbsp;s2. u(t)&nbsp;&nbsp;&nbsp;1/s3. tu(t)&nbsp;&nbsp;&nbsp;2/s24. t2u(t)&nbsp;&nbsp;&nbsp;2s3Of these the correctly matched pairs are",
       "options": [
-        "200 Hz",
-        "400 Hz",
-        "100 Hz",
-        "800 Hz"
+        "2 and 4",
+        "1 and 4",
+        "2 and 4",
+        "1 and 2"
       ],
       "correct": 0,
       "explain": "",
@@ -1711,13 +614,13 @@
       "tags": []
     },
     {
-      "id": "gate-35j7rc",
-      "q": "In the circuit of figure",
+      "id": "gate-f13ct",
+      "q": "In series as well as parallel resonant circuits, increasing the value of resistance would lead to",
       "options": [
-        "Va would always lag Vb",
-        "Va would always lead Vb",
-        "Va and Vb can be in phase",
-        "phase angle between Va and Vb would always be 90&deg;"
+        "decrease in bandwidth of both the circuits",
+        "increase in bandwidth of both the circuits",
+        "decrease in bandwidth in series circuit and increase in parallel circuit",
+        "increase in bandwidth in series circuit and decrease in parallel circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -1731,8 +634,444 @@
       "tags": []
     },
     {
-      "id": "gate-haarn8",
-      "q": "As per BIS, solid insulators are classified into 6 categories.",
+      "id": "gate-becfak",
+      "q": "The current I flowing in the branch is",
+      "options": [
+        "-12 A",
+        "12 A",
+        "3 A",
+        "-3 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fjg85w",
+      "q": "In figure, the ratio V(s)/I(s) is",
+      "options": [
+        "R",
+        "R + sL"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w7bkr3",
+      "q": "Consider the following: Energy storage capability of basic passive elements is due to the fact thatresistance dissipates energycapacitance stores energyinductance dissipates energy Which of the above is/are correct?",
+      "options": [
+        "1, 2, and 3",
+        "1 and 3",
+        "3 only",
+        "1 and 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lk9nu0",
+      "q": "In an ac circuit that delivers constant power at varying p.f., the current is",
+      "options": [
+        "lowest when p.f. is leading",
+        "lowest when p.f. is lagging",
+        "lowest when p.f is unity",
+        "the same for all power factors"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18rd6t0",
+      "q": "The parameter A of a two port network is equal to",
+      "options": [
+        "V2/V1 with I1 = 0",
+        "V1/I2 with V2 = 0",
+        "I1/I2 with V2 = 0",
+        "V1/V2 with I2 = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qgvjx4",
+      "q": "In the analogy between electric and magnetic circuits permeability is analogous to",
+      "options": [
+        "resistivity",
+        "conductivity",
+        "electric field intensity",
+        "current density"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12g52bk",
+      "q": "Two port circuits are connected in parallel. To determine the response, it is more convenient to use",
+      "options": [
+        "O.C. impedance parameters",
+        "S.C. admittance parameters",
+        "ABCD parameters",
+        "h parameters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i2doeg",
+      "q": "The dual of a link is",
+      "options": [
+        "twig",
+        "node",
+        "loop",
+        "tree branch"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18rgank",
+      "q": "A network is said to be two port network if there is no independent source in the networkno dependent source in the networknon-linear component in the circuitno external connection exist between I/P and 0/P",
+      "options": [
+        "1, 2, 3",
+        "3, 4, 2",
+        "1, 3, 4",
+        "4, 3, 1, 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-syjv8",
+      "q": "In a network",
+      "options": [
+        "the number of tree branches is always less than the number of links",
+        "the number of tree branches is always more than the number of links",
+        "the number of tree branches and links are always equal",
+        "the number of tree branches has no relation with the number of links"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1odzgi0",
+      "q": "The voltage of single phase supply to residential consumers in India is",
+      "options": [
+        "400 V",
+        "230 V",
+        "2.2 kV",
+        "11 kV"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6zqfu8",
+      "q": "Power factor of the following circuit will be unity",
+      "options": [
+        "inductance",
+        "capacitance",
+        "resistance",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1un76mo",
+      "q": "In the transformer shown in figure, the inductance measured across terminal 1 and 2 was 4 H with terminals 3 and 4 open. It was 3H when terminals 3 and 4 are short circuited. The coefficient of coupling is",
+      "options": [
+        "1",
+        "0.707",
+        "0.5",
+        "indeterminate due to insufficient data"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8b6dy4",
+      "q": "The time constant of the network shown in figure is, when switch is closed.",
+      "options": [
+        "2RC",
+        "RC/2",
+        "none"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cp4yfm",
+      "q": "For an ideal transformer",
+      "options": [
+        "only Y parameter exist",
+        "only Z parameter",
+        "Z, Y both exist",
+        "neither Z parameter nor Y parameter exist"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d4liao",
+      "q": "As x is increased from - &infin; to &infin;, the function",
+      "options": [
+        "monotonically increases",
+        "monotonically decreases",
+        "increases to a maximum value and then decrease",
+        "decreases to a minimum value and then increases"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u75lac",
+      "q": "Which of the following expressions is true for apparent power in an A.C. circuit?",
+      "options": [
+        "VI cos &Phi;",
+        "Vav x Iav",
+        "Vr.m.s x Ir.m.s",
+        "Vpeak x Ipeak"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s80q0",
+      "q": "In the voltage equation v = 500 sin (1000t) V, the rms value of voltage is",
+      "options": [
+        "500 V",
+        "5002 V",
+        "1.1 x 500 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1i2t3gw",
+      "q": "In figure, the short circuit current through terminal AB will be",
+      "options": [
+        "1.5 A",
+        "3 A",
+        "2 A",
+        "1 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r7p4h8",
+      "q": "A parallel ac circuit in resonance will",
+      "options": [
+        "act like a resistor of low value",
+        "have a high impedance",
+        "have current in each section equal to the line current",
+        "have a high voltage developed across each inductive and capacitive section"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f98atc",
+      "q": "For a full rectified sine wave, the form factor and peak factor respectively are",
+      "options": [
+        "1.57 and 2",
+        "1.57 and 2",
+        "1.11 and 1.11",
+        "1.11 and 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ohqqy4",
+      "q": "For an RC admittance function Y,",
+      "options": [
+        "Y(&infin;) &lt; Y(0)",
+        "Y(0) &lt; Y(&infin;)",
+        "Y (&infin;) may be lesser or greater than Y(0)",
+        "Y(&infin;) = Y(0)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8tzdxc",
+      "q": "When ac current is zero, no electrons are in motion.",
       "options": [
         "True",
         "False"
@@ -1749,8 +1088,108 @@
       "tags": []
     },
     {
-      "id": "gate-f3cnng",
-      "q": "Dielectric constant of air is about 5.",
+      "id": "gate-1utb5es",
+      "q": "The relation between the apparent power, actual power and reactive power is given by",
+      "options": [
+        "Apparent power = actual power + reactive power",
+        "Apparent power = actual power - reactive power",
+        "Apparent power = (actual power)2 - (reactive power)2",
+        "Apparent power = (actual power)2 + (reactive power)2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1021mx9",
+      "q": "Quality factor will be",
+      "options": [
+        "a/b",
+        "b/a",
+        "b/a",
+        "ab"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l3kn2c",
+      "q": "The polarities of the magnetised iron rod of are",
+      "options": [
+        "A is N, B is S and C is neutral",
+        "A is N, B is S and C is S",
+        "A is N, B is N and C is S",
+        "A is S, N is S and C is N"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j09qf8",
+      "q": "Nichrome is commonly used for",
+      "options": [
+        "lamp filaments",
+        "transformer winding",
+        "heater coils",
+        "battery connections"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gn4cj6",
+      "q": "Thevenin's equivalent circuit",
+      "options": [
+        "can be drawn only in time domain",
+        "can be drawn only in frequency domain",
+        "can be drawn both in time and frequency domain",
+        "can be drawn in frequency domain with some restrictions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uu7cbu",
+      "q": "A series RC circuit has fixed R and C and variable f. The current locus will lie in the first quadrant.",
       "options": [
         "True",
         "False"
@@ -1767,13 +1206,13 @@
       "tags": []
     },
     {
-      "id": "gate-1aqkn1c",
-      "q": "Consider the following units sec-1rad2/sec2sec&ohm; The units of , RC and are respectively",
+      "id": "gate-1helrns",
+      "q": "The shot circuit admittance matrix of a two port network is",
       "options": [
-        "1, 2, 4, 3",
-        "3, 2, 1, 4",
-        "2, 4, 1, 3",
-        "1, 2, 3, 4"
+        "non-reciprocal and passive",
+        "non-reciprocal and active",
+        "reciprocal and passive",
+        "reciprocal and active"
       ],
       "correct": 0,
       "explain": "",
@@ -1787,11 +1226,13 @@
       "tags": []
     },
     {
-      "id": "gate-p2l3x4",
-      "q": "In a conductor, voltage v, conductance G and charges q are related as",
+      "id": "gate-94967o",
+      "q": "The network shown in figure is",
       "options": [
-        "v = Gq",
-        "q = vG"
+        "reciprocal",
+        "reciprocal and symmetrical",
+        "non-reciprocal",
+        "unsymmetrical"
       ],
       "correct": 0,
       "explain": "",
@@ -1805,13 +1246,11 @@
       "tags": []
     },
     {
-      "id": "gate-1uyudc5",
-      "q": "An R-L series circuit has R = 5 &ohm; and L = .01 H. It is fed by ac 50 Hz supply. The rms current in the circuit is 5 A. The active power supplied by the source is",
+      "id": "gate-9shu21",
+      "q": "h parameters are used in transistor analysis.",
       "options": [
-        "25 W",
-        "50 W",
-        "125 W",
-        "250 W"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -1825,13 +1264,11 @@
       "tags": []
     },
     {
-      "id": "gate-10icdth",
-      "q": "A particular current is made up of two components 10A dc and sinusoidal current of peak value 14.14A. The average of resultant current is",
+      "id": "gate-b1njsm",
+      "q": "At a temperature of 7 K, lead is a superconductor.",
       "options": [
-        "zero",
-        "24.14A",
-        "10A",
-        "14.14A"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -1845,13 +1282,13 @@
       "tags": []
     },
     {
-      "id": "gate-84wac8",
-      "q": "In figure, the switch is closed at t = 0. After some time i = 6A and rate of change of current was 4A/s. The value of inductor is",
+      "id": "gate-8goot4",
+      "q": "A two terminal black box contains one of the elements R, L, C. The black box is connected to 220 V as supply. The current is I, when a capacitance of 0.1 F is connected in series between the source and box, the current is 2I. The elements is",
       "options": [
-        "1 H",
-        "1.5 H",
-        "indeterminate",
-        "0.5 H"
+        "resistance",
+        "inductance",
+        "capacitance of 0.5 F",
+        "not identifiable form the given data"
       ],
       "correct": 0,
       "explain": "",
@@ -1865,8 +1302,400 @@
       "tags": []
     },
     {
-      "id": "gate-1jike8g",
-      "q": "Assertion (A): In series R-L-C circuit, the current may lead or lag the voltage depending on the value of R.Reason (R): Phase angle of an R-L series circuit is tan-1 (&omega;L/R).",
+      "id": "gate-1d10d0o",
+      "q": "If Z(s) is positive real, then where k has only positive real values is also positive real. This hypothesis was first given by",
+      "options": [
+        "O'Brune",
+        "R. Richards",
+        "Bott and Duffin",
+        "P. S. Laplace"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9dkagc",
+      "q": "For a voltage transfer function H(s), realizable by RLC network, the following statements are made H(s) cannot have a pole at s = 0H(s) cannot have a pole at s = &plusmn; j4H(s) cannot have a pole at s = &infin;H(s) cannot have a pole at s = + 2 Of these statements",
+      "options": [
+        "3 and 4 are correct",
+        "2 and 4 are correct",
+        "1 and 2 are correct",
+        "1 and 3 are correct"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f383u0",
+      "q": "In figure the effective resistance faced by voltage source is",
+      "options": [
+        "1 &ohm;",
+        "2 &ohm;",
+        "3 &ohm;",
+        "3.3 &ohm;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10umizo",
+      "q": "Two impedances are connected in series. Three voltmeters are connected, one across each impedance and one across combination. The readings of all the three are equal. The phase angle between voltages across the two impedances is",
+      "options": [
+        "30&deg;",
+        "60&deg;",
+        "90&deg;",
+        "120&deg;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lvnsuw",
+      "q": "In a series resonant circuit Q is more than 10. Then the lower half power frequency &omega;1, and resonant frequency &omega;0 are related as",
+      "options": [
+        "&omega;1 = &omega;0 + bandwidth",
+        "&omega;1 = &omega;0 + 0.5 (bandwidth)",
+        "&omega;1 = &omega;0 - 0.5 (bandwidth)",
+        "&omega;1 = &omega;0 + bandwidth"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wpu5k0",
+      "q": "In a series R-L circuit when excited by a 1 volt battery the current is 1 - e-t. If it is excited by a source 2 sin t, the current will be",
+      "options": [
+        "2 sin (t - 45&deg;) + e-t",
+        "2 sin (t + 45&deg;) + e-t",
+        "sin (t - 45&deg;) + e-t",
+        "sin (t + 45&deg;) + e-t"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2ufoh4",
+      "q": "If R, L, C are in parallel, the currents through L and C are equal in magnitude at resonance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16gznt3",
+      "q": "In all pure metals, temperature coefficient of resistance is positive.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17f0qmh",
+      "q": "Choose the correct option",
+      "options": [
+        "tree does not contain any loop",
+        "tree contain all the nodes",
+        "tree is always open",
+        "all"
+      ],
+      "correct": 3,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x9eqis",
+      "q": "What would be the rms value of a sine wave having the same peak value as that of the above mentioned periodic wave?",
+      "options": [
+        "42.2 V",
+        "19 V",
+        "38.2 V",
+        "none"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11njkwg",
+      "q": "Which of the following is true for RC impedance?",
+      "options": [
+        "The lowest critical frequency is a pole",
+        "The lowest critical frequency is zero",
+        "The lowest critical frequency may be pole or zero",
+        "The lowest critical frequency is a pole but cannot be at s = 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f0x0rx",
+      "q": "In a series RLC circuit for lower frequency power factor is __________ .",
+      "options": [
+        "leading, Lagging",
+        "lagging, Leading",
+        "independent of frequency",
+        "same"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jiq3yk",
+      "q": "The dual of a loop is",
+      "options": [
+        "twig",
+        "node pan",
+        "mesh",
+        "tree"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o8n8jk",
+      "q": "If the energy is supplied from a source, whose resistance is 1 ohm, to a load of 100 ohms the source will be",
+      "options": [
+        "a voltage source",
+        "a current source",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jckevo",
+      "q": "Consider the following statements : Tellegen's theorem is applicable to any lumped networks.The reciprocity theorem is applicable to linear bilateral networks.Thevenin's theorem is applicable to two- terminal linear active networks.Norton's theorem is applicable to two-terminal linear active networks. Which of these statement are correct?",
+      "options": [
+        "1, 2, and 3",
+        "1, 2 and 4",
+        "1, 2, 3 and 4",
+        "3 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10xeork",
+      "q": "An RLC series circuit is excited by a step voltage E. The units of roots of characteristic equation are",
+      "options": [
+        "seconds",
+        "1/seconds",
+        "tesla",
+        "henry"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b1c8fs",
+      "q": "An excitation is applied to a system at t = T, and its response is zero for -&infin; &lt; t &lt; T, such a system is",
+      "options": [
+        "non-causal system",
+        "Stable system",
+        "causal system",
+        "unstable system"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nmjg8d",
+      "q": "A n-port network is said to be active if power in the ckt is __________ .",
+      "options": [
+        "P &gt; 0",
+        "P &lt; 0",
+        "P = 0",
+        "P = &infin;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vdf5t4",
+      "q": "When a current flows through a coil of insulated wire, the coil shows the properties of a magnet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k60ggo",
+      "q": "Transformer coil is an insulator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ed5ypa",
+      "q": "Assertion (A): An impulse has very high magnitude but very small duration.Reason (R): A pulse function is always rectangular.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true and R is not the correct explanation of A",
@@ -1885,13 +1714,13 @@
       "tags": []
     },
     {
-      "id": "gate-3rj4lk",
-      "q": "The three sides of an admittance triangle denote",
+      "id": "gate-ydbqs",
+      "q": "The active elements on the positive and negative plates of lead acid battery are:",
       "options": [
-        "G, B, Y",
-        "R, X, Y",
-        "G, B, Z",
-        "(R, Y, Z) or (R, X, Z)"
+        "lead peroxide and lead",
+        "lead and lead peroxide",
+        "lead peroxide and lead sulphate",
+        "lead and lead"
       ],
       "correct": 0,
       "explain": "",
@@ -1905,13 +1734,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pkdzd0",
-      "q": "A step voltage E is applied to an R-L series circuit. At t = 0, the current in the circuit is",
+      "id": "gate-s98q94",
+      "q": "For a symmetrical network",
       "options": [
-        "E/R",
-        "E/L",
-        "infinity",
-        "zero"
+        "z11 = z22",
+        "z12 = z21",
+        "z11 z22 and z12 = z21",
+        "z11 z12 - z122 = 0"
       ],
       "correct": 0,
       "explain": "",
@@ -1925,13 +1754,13 @@
       "tags": []
     },
     {
-      "id": "gate-13n0l5k",
-      "q": "To find current in a resistance connected in a network, Thevenin's theorem is used VTH = 20 V and RTH = 5 &ohm;. The current through the resistance",
+      "id": "gate-1ek4itg",
+      "q": "Consider the following statements Tellegen's theorem is applicable to any lumped network.Reciprocity theorem is applicable to linear bilateral network.Thevenin theorem is applicable to two terminal linear active network.Norton's theorem is applicable to linear active network. Which of the above statements are correct?",
       "options": [
-        "is 4 A",
-        "is 4 A or less",
-        "is less than 4 A",
-        "may be 4 A or less or more than 4 A"
+        "1, 2 and 3",
+        "1, 2, 3 and 4",
+        "1, 2 and 4",
+        "3 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -1945,13 +1774,11 @@
       "tags": []
     },
     {
-      "id": "gate-wgx53a",
-      "q": "In figure, the magnitude of V",
+      "id": "gate-1b22vjs",
+      "q": "A network is causal if impulse response is zero for t &lt; 0.",
       "options": [
-        "must be more than that of Va",
-        "must be more than that of Vb",
-        "must be more than that of Va or Vb",
-        "can be equal to or less than or more than that of Va or Vb"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -1965,13 +1792,171 @@
       "tags": []
     },
     {
-      "id": "gate-j0k66s",
-      "q": "A step voltage E is applied to a series R-L circuit. The rate of change of current is maximum at t =",
+      "id": "gate-1g3p1d9",
+      "q": "When an alternating current passes through an ohmic resistance the electrical power converted into heat is",
       "options": [
-        "zero",
-        "infinity",
-        "L/R",
-        "R/L"
+        "apparent power",
+        "true power",
+        "reactive power",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12ixkm0",
+      "q": "Volume control found on the front panel of television receivers",
+      "options": [
+        "a ganged resistor",
+        "a variable resistor of logarithmic type",
+        "a variable resistor of linear type",
+        "a trimmer potentiometer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3alr8g",
+      "q": "Which one is correct option, if initial conditions is not zero, for inductor (L) and capacitor (c) is",
+      "options": [
+        "1, 3",
+        "3, 2",
+        "4, 1",
+        "2, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-183lnow",
+      "q": "An RC impedance function has a constant value at s = 0. The last element in the first cauer synthesis",
+      "options": [
+        "will be a capacitor",
+        "may be R or C",
+        "will be R",
+        "will depend on the behaviour of function at s = &infin;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s6a8pw",
+      "q": "Two port Z parameter not exist for the circuit if",
+      "options": [
+        "&Delta;z = 0",
+        "&Delta;z",
+        "&Delta;z = 1",
+        "always exist"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ku8nr0",
+      "q": "The current density J at a point and current I are related as",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9770o4",
+      "q": "For a reactance function H(s), the slope dH (j&omega;)/d&omega; is",
+      "options": [
+        "0",
+        "always positive",
+        "always negative",
+        "either 0 or positive"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1athdkk",
+      "q": "How much r.m.s. current does a 300 W, 200 V bulb take from the 200V, 50 Hz power line?",
+      "options": [
+        "0.5 A",
+        "1.5 A",
+        "2 A",
+        "3 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Networks Analysis And Synthesis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y5l24j",
+      "q": "In a series R-L-C circuit, the voltage across inductance will be maximum",
+      "options": [
+        "at resonance frequency",
+        "just before resonant frequency",
+        "just after resonant frequency",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
