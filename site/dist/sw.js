@@ -1,4 +1,4 @@
-var CACHE_NAME = 'bna-v1';
+var CACHE_NAME = 'bna-v2';
 var STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -69,7 +69,7 @@ self.addEventListener('fetch', function(e) {
         return resp;
       });
     }).catch(function() {
-      if (e.request.destination === 'document') {
+      if (e.request.destination === 'document' && (url.pathname === '/' || url.pathname === '/index.html')) {
         return caches.match('/index.html');
       }
     })
