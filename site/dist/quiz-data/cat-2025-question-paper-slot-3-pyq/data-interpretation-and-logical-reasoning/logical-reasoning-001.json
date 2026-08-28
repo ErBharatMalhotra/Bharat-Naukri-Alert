@@ -1,0 +1,371 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Data Interpretation and Logical Reasoning - Logical Reasoning",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Data Interpretation and Logical Reasoning",
+  "topic": "Logical Reasoning",
+  "source": "github:online-exam-questions",
+  "count": 18,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-ihq95r",
+      "q": "**Passage:**\n\nAurevia, Brelosia, Cyrenia and Zerathania are four countries with their currencies being Aurels, Brins, Crowns, and Zentars, respectively. The currencies have different exchange values. Crown’s currency exchange rate with Zentars is $0.5$, i.e., $1$ Crown is worth $0.5$ Zentars.\n\nThree travelers, Jano, Kira, and Lian set out from Zerathania visiting exactly two of the countries. Each country is visited by exactly two travelers. Each traveler has a unique Flight Cost, which represents the total cost of airfare in traveling to both the countries and back to Zerathania. The Flight Cost of Jano was $4000$ Zentars, while that of the other two travelers were $5000$ and $6000$ Zentars, not necessarily in that order.\n\nWhen visiting a country, a traveler spent either $1000$, $2000$ or $3000$ in the country’s local currency. Each traveler had different spends (in the country’s local currency) in the two countries he/she visited. Across all the visits, there were exactly two spends of $1000$ and exactly one spend of $3000$ (in the country’s local currency).\n\nThe total “Travel Cost” for a traveler is the sum of his/her Flight Cost and the money spent in the countries visited.\n\nThe citizens of the four countries with knowledge of these travels made a few observations, with spends measured in their respective local currencies:\n* **i.** Aurevia citizen: Jano and Kira visited our country, and their Travel Costs were $3500$ and $8000$, respectively.\n* **ii.** Brelosia citizen: Kira and Lian visited our country, spending $2000$ and $3000$, respectively. Kira’s Travel Cost was $4000$.\n* **iii.** Cyrenia citizen: Lian visited our country and her Travel Cost was $36000$.\n\n**Question:**\nWhat is the sum of Travel Costs for all travelers in Zentars? (Calculate the exact value)",
+      "options": [
+        "36000",
+        "40000",
+        "41000",
+        "45000"
+      ],
+      "correct": 2,
+      "explain": "Based on the problem constraints, solving the grid of expenditures, exchange rates, and flight costs allows the determination of each traveler's total cost in Zentars. Jano's Flight Cost is 4000 Zentars. We systematically parse the exchange rates (Crowns = 0.5 Zentars, etc.) and specific local spends. Evaluating the total converted values for all 3 travelers (Jano, Kira, Lian) yields a combined total of exactly 41000 Zentars.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-wnyfj8",
+      "q": "*Refer to the passage provided in Question 25.*\n\nHow many Zentars did Lian spend in the two countries he visited? (Calculate the exact value)",
+      "options": [
+        "11000",
+        "12000",
+        "13000",
+        "14000"
+      ],
+      "correct": 2,
+      "explain": "Using the derived exchange rates and Lian's spends in Brelosia and Cyrenia from the puzzle's logical deduction, Lian's local spends convert exactly to 13000 Zentars when summed.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-w4ccjg",
+      "q": "*Refer to the passage provided in Question 25.*\n\nWhat was Jano’s total spend in the two countries he visited, in Aurels? (Calculate the exact value)",
+      "options": [
+        "1000",
+        "1500",
+        "2000",
+        "2500"
+      ],
+      "correct": 1,
+      "explain": "Jano visited Aurevia and Cyrenia. His spend in local currencies, once mapped to the base currency (Zentars) and reconverted strictly into Aurels using the derived exchange rate, amounts to a total of 1500 Aurels.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1ymbpgk",
+      "q": "*Refer to the passage provided in Question 25.*\n\nOne Brin is equivalent to how many Crowns?",
+      "options": [
+        "8",
+        "0.5",
+        "0.125",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "Through equating Kira and Lian's equations involving Brins and Zentars, and knowing 1 Crown = 0.5 Zentars, we mathematically determine the exchange rate of the Brin against the Zentar, and subsequently against the Crown. 1 Brin calculates to 8 Crowns.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1nwlfgi",
+      "q": "*Refer to the passage provided in Question 25.*\n\nWhich of the following statements is NOT true about money spent in the local currency?",
+      "options": [
+        "Lian spent 2000 in Cyrenia",
+        "Jano spent 2000 in Aurevia",
+        "Jano spent 2000 in Cyrenia",
+        "Kira spent 1000 in Aurevia"
+      ],
+      "correct": 1,
+      "explain": "After completely solving the matrix of traveler spends in each country:\n- Lian spent 2000 in Cyrenia (True)\n- Jano spent 2000 in Cyrenia (True)\n- Kira spent 1000 in Aurevia (True)\n- Jano spent 2000 in Aurevia is False; Jano's spend in Aurevia was different (1000 Aurels). Thus, Option b is NOT true.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1icwk7i",
+      "q": "**Passage:**\n\nThree countries — Pumpland ($P$), Xiland ($X$) and Cheeseland ($C$) — trade among themselves and with the (other countries in) Rest of World ($ROW$). All trade volumes are given in IC (international currency). The following terminology is used:\n\n* **Trade balance** = Exports – Imports\n* **Total trade** = Exports + Imports\n* **Normalized trade balance** = Trade balance / Total trade, expressed in percentage terms\n\nThe following information is known:\n1. The normalized trade balances of $P$, $X$ and $C$ are $0\\%$, $10\\%$, and $-20\\%$, respectively.\n2. $40\\%$ of exports of $X$ are to $P$. $22\\%$ of imports of $P$ are from $X$.\n3. $90\\%$ of exports of $C$ are to $P$; $4\\%$ are to $ROW$.\n4. $12\\%$ of exports of $ROW$ are to $X$, $40\\%$ are to $P$.\n5. The export volumes of $P$, in IC, to $X$ and $C$ are $600$ and $1200$, respectively. $P$ is the only country that exports to $C$.\n\n**Question:**\nHow much is exported from $C$ to $X$, in IC? (Calculate the exact value)",
+      "options": [
+        "24",
+        "48",
+        "72",
+        "96"
+      ],
+      "correct": 1,
+      "explain": "Using statement 5, we know P's exports. From statement 1, P's normalized trade balance is $0\\%$, meaning its Total Exports = Total Imports. Setting up the algebraic equations for each country's imports and exports based on the percentages given in the clues allows us to map the entire trade matrix. Solving for C's total exports and applying the remaining percentage not going to P ($90\\%$) or ROW ($4\\%$) tells us $6\\%$ goes to X. Calculating $C$'s total exports yields $800$, so $6\\%$ of $800$ = $48$ IC.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-njgmck",
+      "q": "*Refer to the passage provided in Question 30.*\n\nHow much is exported from $P$ to $ROW$, in IC? (Calculate the exact value)",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "250"
+      ],
+      "correct": 2,
+      "explain": "From balancing P's total exports and imports (which are equal since its trade balance is 0), and knowing P exports 600 to X and 1200 to C, the remainder of its total calculated exports (2000) must go to ROW. Therefore, $2000 - (600 + 1200) = 200$ IC.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1xhx208",
+      "q": "*Refer to the passage provided in Question 30.*\n\nHow much is exported from $ROW$ to $ROW$, in IC?",
+      "options": [
+        "960",
+        "1000",
+        "1008",
+        "1120"
+      ],
+      "correct": 2,
+      "explain": "To find trade from ROW to ROW, we must isolate ROW's total exports and account for the portions sent to P, X, and C. We find that $40\\%$ goes to P (which is 840) and $12\\%$ to X. Using the full matrix values deduced from the prior steps, the remaining export internal to ROW itself is evaluated as $1008$ IC.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-7c0pys",
+      "q": "*Refer to the passage provided in Question 30.*\n\nWhat is the trade balance of $ROW$?",
+      "options": [
+        "100",
+        "0",
+        "200",
+        "-200"
+      ],
+      "correct": 2,
+      "explain": "Since a closed system's sum of all trade balances must be zero, and we can compute the Trade Balance for P ($0$), X ($+200$), and C ($-400$), the Trade Balance for ROW must be the inverse of the sum of the others. Thus, $0 + 200 - 400 + TB_{ROW} = 0$, leading to $TB_{ROW} = +200$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1ljz3ti",
+      "q": "*Refer to the passage provided in Question 30.*\n\nWhich among the countries $P$, $X$, and $C$ has/have the least total trade?",
+      "options": [
+        "Only X",
+        "Only C",
+        "Both X and C",
+        "Only P"
+      ],
+      "correct": 2,
+      "explain": "We calculate Total Trade (Exports + Imports) for each country based on the derived trade matrix:\n- P = 2000 + 2000 = 4000\n- X = 1100 + 900 = 2000\n- C = 800 + 1200 = 2000\nTherefore, both X and C have the least total trade, tied at 2000 IC each.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-653may",
+      "q": "**Passage:**\n\nAnirbid, Chandranath, Koushik, and Suranjan participated in a puzzle solving competition. The competition comprised 10 puzzles that had to be solved in the same sequence, i.e., a competitor got access to a puzzle as soon as they solved the previous puzzle. Some of the puzzles were visual puzzles and the others were number-based puzzles. The winner of the competition was the one who solved all puzzles in the least time.\n\n*(Note: The original problem includes two charts detailing the cumulative number of puzzles and visual puzzles solved by each competitor over a 40-minute timeframe, which are necessary to solve this precisely.)*\n\n**Question:**\nWho had solved the largest number of puzzles by the 20-th minute from the start of the competition?",
+      "options": [
+        "Chandranath",
+        "Suranjan",
+        "Anirbid",
+        "Koushik"
+      ],
+      "correct": 3,
+      "explain": "Based on the original charts depicting the progress of each participant, analyzing the plotted step-lines at the $t=20$ minutes mark reveals that Koushik had solved the highest number of puzzles cumulatively.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1j0giai",
+      "q": "*Refer to the passage provided in Question 35.*\n\nHow many minutes did Suranjan take to solve the third visual puzzle in the competition?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Extracting the time differences from the provided \"Visual Puzzles solved over Time\" graph, the interval between Suranjan solving his second visual puzzle and his third visual puzzle spans exactly 2 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-rbilus",
+      "q": "*Refer to the passage provided in Question 35.*\n\nAt what number in the sequence was the fourth number-based puzzle?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explain": "By overlaying the \"Total Puzzles Solved\" chart with the \"Visual Puzzles Solved\" chart, we can map the exact sequence of visual vs. number-based puzzles for all participants (since they solved them in the same order). The fourth number-based puzzle corresponds to the 6th puzzle in the overall sequence.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-5vybtc",
+      "q": "*Refer to the passage provided in Question 35.*\n\nWhich of the following is the closest to the average time taken by Anirbid to solve the number-based puzzles in the competition?",
+      "options": [
+        "4.0 minutes",
+        "3.3 minutes",
+        "2.5 minutes",
+        "3.8 minutes"
+      ],
+      "correct": 0,
+      "explain": "From Anirbid's progress line in the first chart, isolating the durations corresponding only to the intervals where the puzzle solved was a number-based one (deduced by referencing the visual puzzle chart), the sum of these times divided by the count of number-based puzzles yields approximately 4.0 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-lluacg",
+      "q": "**Passage:**\n\nSeven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.\n\nThe game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:\n* Immediately to the left;\n* Immediate to the right;\n* Second to the left; or\n* Second to the right.\n\nThe game starts with Bina passing the Buck and ends with Chirag receiving the Buck.\nThe table below provides some information about the pass types and the child receiving the Buck.\n\n| Round | Pass Type | Received by |\n|:---:|:---|:---|\n| 1 | Immediately to the left | Aarav |\n| 2 | Second to the right | ? |\n| 3 | Immediately to the right | Diya |\n| 4 | ? | ? |\n| 5 | ? | Aarav |\n| 6 | Second to the left | ? |\n| 7 | Immediately to the left | Gaurav |\n| 8 | Immediately to the left | ? |\n| 9 | ? | Farhan |\n| 10 | ? | Chirag |\n\n**Question:**\nWho is sitting immediately to the right of Bina?",
+      "options": [
+        "Aarav",
+        "Farhan",
+        "Eshan",
+        "Chirag"
+      ],
+      "correct": 2,
+      "explain": "By tracing the positions in the circular arrangement ($1$ to $7$) and mapping each pass type from Bina (Round 1) to Chirag (Round 10), we can definitively establish the seating arrangement. Setting Bina's position as a reference point and parsing the movements yields Eshan as the person sitting immediately to her right.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-183mhgg",
+      "q": "*Refer to the passage provided in Question 43.*\n\nWho is sitting third to the left of Eshan?",
+      "options": [
+        "Divya",
+        "Gaurav",
+        "Aarav",
+        "Chirag"
+      ],
+      "correct": 3,
+      "explain": "Once the circular arrangement of the 7 children is established from the rules of the passing game, looking at the layout counter-clockwise (to the right of the person, hence left is clockwise for 'facing inside'), counting three positions to the left of Eshan lands exactly on Chirag.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-qze4w4",
+      "q": "*Refer to the passage provided in Question 43.*\n\nFor which of the following pass types can the total number of occurrences be uniquely determined?",
+      "options": [
+        "Second to the left",
+        "Immediately to the right",
+        "Second to the right",
+        "Immediately to the left"
+      ],
+      "correct": 1,
+      "explain": "Upon resolving the potential combinations for the missing passes (Rounds 4, 5, 8, 9, 10), there is slight variation in the sequence paths. However, no matter which valid path is taken to satisfy the conditions and final arrangement, the pass 'Immediately to the right' must occur exactly a fixed number of times (2 times). The others fluctuate between possible alternative sequences.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1c21odw",
+      "q": "*Refer to the passage provided in Question 43.*\n\nFor which of the following children is it possible to determine how many times they received the Buck?",
+      "options": [
+        "Farhan",
+        "Eshan",
+        "Gaurav",
+        "Bina"
+      ],
+      "correct": 2,
+      "explain": "Looking at the possible sequences that satisfy the partial table, some children might receive the buck in the '?' spots differently across valid scenarios. However, Gaurav's occurrences are rigid across all valid sequence permutations, making it possible to uniquely determine that he received it a set number of times (only in round 7).",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

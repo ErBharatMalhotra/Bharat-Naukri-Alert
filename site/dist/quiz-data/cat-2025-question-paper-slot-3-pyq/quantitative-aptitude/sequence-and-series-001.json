@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Sequence and Series",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Sequence and Series",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-i6zdbk",
+      "q": "In an arithmetic progression, if the sum of fourth, seventh and tenth terms is 99, and the sum of the first fourteen terms is 497, then the sum of first five terms is",
+      "options": [
+        "60",
+        "65",
+        "70",
+        "75"
+      ],
+      "correct": 1,
+      "explain": "Let the first term be $a$ and common difference be $d$.\n$a_4 + a_7 + a_{10} = (a + 3d) + (a + 6d) + (a + 9d) = 3a + 18d = 3(a + 6d)$.\n$3(a + 6d) = 99 \\implies a + 6d = 33$.\nSum of first 14 terms $S_{14} = \\frac{14}{2} [2a + 13d] = 7(2a + 13d) = 497$.\n$2a + 13d = \\frac{497}{7} = 71$.\nMultiply the first equation by 2: $2a + 12d = 66$.\nSubtracting this from $2a + 13d = 71$ yields $d = 5$.\nSubstitute $d = 5$ into $a + 6(5) = 33 \\implies a = 33 - 30 = 3$.\nThe sum of the first five terms $S_5 = \\frac{5}{2} [2a + 4d] = 5(a + 2d)$.\n$S_5 = 5(3 + 2(5)) = 5(13) = 65$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Sequence and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

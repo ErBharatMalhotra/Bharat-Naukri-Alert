@@ -1,0 +1,351 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Differentiation",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Differentiation",
+  "source": "github:online-exam-questions",
+  "count": 17,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-14pgp3e",
+      "q": "Evaluate $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "Undefined"
+      ],
+      "correct": 2,
+      "explain": "Direct substitution of $x = 2$ gives the indeterminate form $\\frac{0}{0}$. To resolve this, factorize the numerator which is a difference of two squares:\n\n$$\\frac{x^2 - 4}{x - 2} = \\frac{(x - 2)(x + 2)}{x - 2}$$\n\nCancel out the common factor $(x - 2)$ (valid since $x \\to 2$ means $x \\neq 2$):\n$$\\lim_{x \\to 2} (x + 2)$$\n\nNow substitute $x = 2$:\n$$2 + 2 = 4$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1nvhnco",
+      "q": "Evaluate the limit: $\\lim_{x \\to 0} \\frac{\\sin 3x}{x}$.",
+      "options": [
+        "0",
+        "1",
+        "$\\frac{1}{3}$",
+        "3"
+      ],
+      "correct": 3,
+      "explain": "We use the standard limit property $\\lim_{x \\to 0} \\frac{\\sin kx}{kx} = 1$.\n\nTo match this form, multiply the numerator and the denominator by 3:\n$$\\lim_{x \\to 0} \\frac{\\sin 3x}{x} = \\lim_{x \\to 0} \\left( 3 \\cdot \\frac{\\sin 3x}{3x} \\right)$$\n\nSince $\\lim_{x \\to 0} \\frac{\\sin 3x}{3x} = 1$, we get:\n$$3 \\times 1 = 3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-fsbamo",
+      "q": "The derivative of a function $f(x)$ from first principles is given by $\\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}$. Find the expression that represents the derivative of $f(x) = x^2$ before the limit is evaluated.",
+      "options": [
+        "$\\lim_{h \\to 0} \\frac{x^2 + h^2 - x^2}{h}$",
+        "$\\lim_{h \\to 0} \\frac{x^2 + 2xh + h^2 - x^2}{h}$",
+        "$\\lim_{h \\to 0} \\frac{(x+h) - x^2}{h}$",
+        "$\\lim_{h \\to 0} \\frac{2xh - h^2}{h}$"
+      ],
+      "correct": 1,
+      "explain": "Using the first principles formula with $f(x) = x^2$:\n- $f(x+h) = (x+h)^2 = x^2 + 2xh + h^2$\n- $f(x) = x^2$\n\nSubstitute these into the quotient:\n$$\\frac{f(x+h) - f(x)}{h} = \\frac{(x^2 + 2xh + h^2) - x^2}{h}$$\nHence, the correct expression is $\\lim_{h \\to 0} \\frac{x^2 + 2xh + h^2 - x^2}{h}$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-ry285s",
+      "q": "If $y = 4x^3 - 5x^2 + 2x - 7$, find $\\frac{dy}{dx}$.",
+      "options": [
+        "$12x^2 - 10x - 7$",
+        "$12x^2 - 10x + 2$",
+        "$4x^2 - 5x + 2$",
+        "$7x^2 - 7x + 2$"
+      ],
+      "correct": 1,
+      "explain": "To differentiate a polynomial, apply the power rule $\\frac{d}{dx}(ax^n) = anx^{n-1}$ to each term:\n- $\\frac{d}{dx}(4x^3) = 12x^2$\n- $\\frac{d}{dx}(-5x^2) = -10x$\n- $\\frac{d}{dx}(2x) = 2$\n- $\\frac{d}{dx}(-7) = 0$ (the derivative of a constant is zero)\n\nCombining these gives $\\frac{dy}{dx} = 12x^2 - 10x + 2$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-alse0",
+      "q": "Find the gradient of the curve $y = x^3 - 3x + 2$ at the point where $x = 2$.",
+      "options": [
+        "6",
+        "9",
+        "11",
+        "15"
+      ],
+      "correct": 1,
+      "explain": "The gradient of a curve at a given point is the value of its derivative $\\frac{dy}{dx}$ at that point.\n\nFirst, differentiate the equation of the curve:\n$$\\frac{dy}{dx} = \\frac{d}{dx}(x^3 - 3x + 2) = 3x^2 - 3$$\n\nSubstitute $x = 2$ into the derivative:\n$$\\frac{dy}{dx} = 3(2)^2 - 3$$\n$$\\frac{dy}{dx} = 3(4) - 3 = 12 - 3 = 9$$\n\nThe gradient at $x = 2$ is $9$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-g4lv3o",
+      "q": "Differentiate $y = x^2 \\sin x$ with respect to $x$.",
+      "options": [
+        "$2x \\cos x$",
+        "$x^2 \\cos x - 2x \\sin x$",
+        "$2x \\sin x + x^2 \\cos x$",
+        "$x^2 \\sin x + 2x \\cos x$"
+      ],
+      "correct": 2,
+      "explain": "Use the **Product Rule** for differentiation: $\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}$.\n\nLet $u = x^2$ and $v = \\sin x$.\nThen $\\frac{du}{dx} = 2x$ and $\\frac{dv}{dx} = \\cos x$.\n\nSubstitute into the formula:\n$$\\frac{dy}{dx} = x^2(\\cos x) + (\\sin x)(2x)$$\n$$\\frac{dy}{dx} = x^2 \\cos x + 2x \\sin x$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-152we6c",
+      "q": "If $y = \\frac{3x}{x - 2}$, evaluate $\\frac{dy}{dx}$.",
+      "options": [
+        "$\\frac{6}{(x - 2)^2}$",
+        "$\\frac{-6}{(x - 2)^2}$",
+        "$\\frac{-6x}{(x - 2)^2}$",
+        "$\\frac{6x - 6}{(x - 2)^2}$"
+      ],
+      "correct": 1,
+      "explain": "Use the **Quotient Rule**: $\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{v\\frac{du}{dx} - u\\frac{dv}{dx}}{v^2}$.\n\nLet $u = 3x \\implies \\frac{du}{dx} = 3$\nLet $v = x - 2 \\implies \\frac{dv}{dx} = 1$\n\nApply the rule:\n$$\\frac{dy}{dx} = \\frac{(x - 2)(3) - (3x)(1)}{(x - 2)^2}$$\n$$\\frac{dy}{dx} = \\frac{3x - 6 - 3x}{(x - 2)^2}$$\n$$\\frac{dy}{dx} = \\frac{-6}{(x - 2)^2}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-11u5xd4",
+      "q": "Find the derivative of $y = \\cos^2 x$.",
+      "options": [
+        "$2 \\cos x$",
+        "$-2 \\sin x$",
+        "$-\\sin 2x$",
+        "$\\sin 2x$"
+      ],
+      "correct": 2,
+      "explain": "Using the **Chain Rule**, rewrite $y$ as $y = (\\cos x)^2$.\n\nLet $u = \\cos x$, then $y = u^2$.\n$$\\frac{dy}{du} = 2u = 2 \\cos x$$\n$$\\frac{du}{dx} = -\\sin x$$\n\nMultiply them to find $\\frac{dy}{dx}$:\n$$\\frac{dy}{dx} = 2 \\cos x (-\\sin x) = -2 \\sin x \\cos x$$\n\nUsing the double-angle trigonometric identity $\\sin 2x = 2 \\sin x \\cos x$:\n$$\\frac{dy}{dx} = -\\sin 2x$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1x3wmig",
+      "q": "Given the implicit equation of an ellipse $3x^2 + 4y^2 = 12$, find $\\frac{dy}{dx}$ in terms of $x$ and $y$.",
+      "options": [
+        "$\\frac{3x}{4y}$",
+        "$-\\frac{3x}{4y}$",
+        "$-\\frac{4y}{3x}$",
+        "$-\\frac{3x}{2y}$"
+      ],
+      "correct": 1,
+      "explain": "Differentiate both sides with respect to $x$ using implicit differentiation.\n$$\\frac{d}{dx}(3x^2) + \\frac{d}{dx}(4y^2) = \\frac{d}{dx}(12)$$\n\nThe derivative of $4y^2$ requires the Chain Rule: $8y \\frac{dy}{dx}$.\n$$6x + 8y \\frac{dy}{dx} = 0$$\n\nMake $\\frac{dy}{dx}$ the subject of the formula:\n$$8y \\frac{dy}{dx} = -6x$$\n$$\\frac{dy}{dx} = -\\frac{6x}{8y}$$\n$$\\frac{dy}{dx} = -\\frac{3x}{4y}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1flzjc8",
+      "q": "If $y = e^{2x} + \\ln x$, find the derivative $\\frac{dy}{dx}$.",
+      "options": [
+        "$2e^{2x} + \\frac{1}{x}$",
+        "$e^{2x} + \\frac{1}{x}$",
+        "$2e^{2x} - \\frac{1}{x^2}$",
+        "$e^{2x} + \\ln(1)$"
+      ],
+      "correct": 0,
+      "explain": "Differentiate each term separately.\n- The derivative of $e^{2x}$ requires the Chain Rule: $\\frac{d}{dx}(e^{kx}) = ke^{kx}$. So, $\\frac{d}{dx}(e^{2x}) = 2e^{2x}$.\n- The derivative of the natural logarithm $\\ln x$ is a standard result: $\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$.\n\nAdding these results together gives:\n$$\\frac{dy}{dx} = 2e^{2x} + \\frac{1}{x}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-lyx1fo",
+      "q": "The radius of a circle is increasing at a steady rate of $2 \\text{ cm/s}$. Find the rate of increase of its area when the radius is $5 \\text{ cm}$.",
+      "options": [
+        "$10\\pi \\text{ cm}^2\\text{/s}$",
+        "$20\\pi \\text{ cm}^2\\text{/s}$",
+        "$25\\pi \\text{ cm}^2\\text{/s}$",
+        "$50\\pi \\text{ cm}^2\\text{/s}$"
+      ],
+      "correct": 1,
+      "explain": "Let the radius be $r$ and the area be $A$. We are given $\\frac{dr}{dt} = 2 \\text{ cm/s}$.\nThe formula for the area of a circle is $A = \\pi r^2$.\n\nDifferentiate with respect to time $t$ using the Chain Rule (related rates):\n$$\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$$\n$$\\frac{dA}{dr} = 2\\pi r$$\n$$\\frac{dA}{dt} = (2\\pi r)(2) = 4\\pi r$$\n\nWhen $r = 5 \\text{ cm}$:\n$$\\frac{dA}{dt} = 4\\pi (5) = 20\\pi \\text{ cm}^2\\text{/s}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-lwzmm4",
+      "q": "Use differentiation to find the approximate small change in $y$ when $y = x^3 + 2x$, and $x$ increases from $2$ to $2.01$.",
+      "options": [
+        "0.12",
+        "0.14",
+        "0.28",
+        "1.40"
+      ],
+      "correct": 1,
+      "explain": "The formula for small changes is $\\Delta y \\approx \\frac{dy}{dx} \\times \\Delta x$.\n\nHere, $x = 2$ and the small change in $x$ is $\\Delta x = 2.01 - 2 = 0.01$.\nFirst, find the derivative $\\frac{dy}{dx}$:\n$$\\frac{dy}{dx} = 3x^2 + 2$$\n\nEvaluate the derivative at $x = 2$:\n$$\\frac{dy}{dx} = 3(2)^2 + 2 = 3(4) + 2 = 14$$\n\nNow, calculate the approximate change in $y$:\n$$\\Delta y \\approx 14 \\times 0.01 = 0.14$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-178349c",
+      "q": "Find the second order derivative $\\frac{d^2y}{dx^2}$ of the function $y = \\sin 3x$.",
+      "options": [
+        "$-3 \\cos 3x$",
+        "$9 \\cos 3x$",
+        "$-9 \\sin 3x$",
+        "$-9 \\cos 3x$"
+      ],
+      "correct": 2,
+      "explain": "To find the second order derivative, differentiate $y = \\sin 3x$ twice.\n\nFirst derivative:\n$$\\frac{dy}{dx} = \\frac{d}{dx}(\\sin 3x) = 3 \\cos 3x$$\n\nSecond derivative (differentiate the first derivative):\n$$\\frac{d^2y}{dx^2} = \\frac{d}{dx}(3 \\cos 3x) = 3(-3 \\sin 3x) = -9 \\sin 3x$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-st2hlj",
+      "q": "Find the minimum value of the quadratic function $y = x^2 - 6x + 5$.",
+      "options": [
+        "-5",
+        "-4",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "At a minimum point, the derivative $\\frac{dy}{dx} = 0$.\n\nFirst, find $\\frac{dy}{dx}$:\n$$\\frac{dy}{dx} = 2x - 6$$\n\nSet it to zero to find the $x$-coordinate of the turning point:\n$$2x - 6 = 0 \\implies 2x = 6 \\implies x = 3$$\n\nTo confirm it is a minimum, check the second derivative: $\\frac{d^2y}{dx^2} = 2 > 0$ (so it is indeed a minimum).\nNow, substitute $x = 3$ back into the original equation to find the minimum value ($y$):\n$$y = (3)^2 - 6(3) + 5$$\n$$y = 9 - 18 + 5 = -4$$\n\nThe minimum value is $-4$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-oigr99",
+      "q": "The curve $y = 2x^3 - 3x^2 - 12x + 8$ has two turning points. Find the $x$-coordinates of these turning points.",
+      "options": [
+        "$\\{-1, 2\\}$",
+        "$\\{-2, 1\\}$",
+        "$\\{1, 2\\}$",
+        "$\\{-2, -1\\}$"
+      ],
+      "correct": 0,
+      "explain": "Turning points occur where the gradient $\\frac{dy}{dx} = 0$.\n\nDifferentiate the curve's equation:\n$$\\frac{dy}{dx} = 6x^2 - 6x - 12$$\n\nSet the derivative to zero and divide through by 6:\n$$6x^2 - 6x - 12 = 0$$\n$$x^2 - x - 2 = 0$$\n\nFactorize the quadratic equation:\n$$(x - 2)(x + 1) = 0$$\n\nThis gives $x - 2 = 0$ or $x + 1 = 0$, so the $x$-coordinates are $x = 2$ and $x = -1$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1pvk0qk",
+      "q": "A particle moves along a straight line such that its displacement $s$ (in meters) from a fixed point after $t$ seconds is given by $s = t^3 - 3t^2 + 2$. Calculate its acceleration after $4$ seconds.",
+      "options": [
+        "$18 \\text{ m/s}^2$",
+        "$24 \\text{ m/s}^2$",
+        "$30 \\text{ m/s}^2$",
+        "$42 \\text{ m/s}^2$"
+      ],
+      "correct": 0,
+      "explain": "Velocity $v$ is the first derivative of displacement $s$ with respect to time $t$, and acceleration $a$ is the second derivative.\n\nFirst derivative (velocity):\n$$v = \\frac{ds}{dt} = 3t^2 - 6t$$\n\nSecond derivative (acceleration):\n$$a = \\frac{dv}{dt} = 6t - 6$$\n\nSubstitute $t = 4$ into the acceleration formula:\n$$a = 6(4) - 6 = 24 - 6 = 18 \\text{ m/s}^2$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1re0vpw",
+      "q": "Find the derivative of $y = x \\ln x$ with respect to $x$.",
+      "options": [
+        "$1$",
+        "$\\ln x$",
+        "$\\ln x + 1$",
+        "$\\frac{1}{x} + 1$"
+      ],
+      "correct": 2,
+      "explain": "This requires the **Product Rule**: $\\frac{dy}{dx} = u\\frac{dv}{dx} + v\\frac{du}{dx}$.\n\nLet $u = x \\implies \\frac{du}{dx} = 1$.\nLet $v = \\ln x \\implies \\frac{dv}{dx} = \\frac{1}{x}$.\n\nSubstitute into the product rule:\n$$\\frac{dy}{dx} = (x)\\left(\\frac{1}{x}\\right) + (\\ln x)(1)$$\n$$\\frac{dy}{dx} = 1 + \\ln x = \\ln x + 1$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Indefinite Integrals",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Indefinite Integrals",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-128e8kk",
+      "q": "Evaluate $\\int (4x^3 - 6x) dx$.",
+      "options": [
+        "$x^4 - 3x^2$",
+        "$x^4 - 3x^2 + C$",
+        "$12x^2 - 6 + C$",
+        "$4x^4 - 6x^2 + C$"
+      ],
+      "correct": 1,
+      "explain": "Integrate each term using the power rule $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$. $\\int 4x^3 dx = x^4$ and $\\int -6x dx = -3x^2$. Adding the constant of integration yields $x^4 - 3x^2 + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Indefinite Integrals",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-fc179g",
+      "q": "Evaluate the indefinite integral $\\int e^{2x} dx$.",
+      "options": [
+        "$e^{2x} + C$",
+        "$2e^{2x} + C$",
+        "$\\frac{1}{2}e^{2x} + C$",
+        "$e^{x} + C$"
+      ],
+      "correct": 2,
+      "explain": "The general rule for integrating an exponential function $e^{kx}$ is $\\frac{1}{k}e^{kx} + C$. Here $k = 2$, so the integral is $\\frac{1}{2}e^{2x} + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Indefinite Integrals",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-rg5fk4",
+      "q": "Find $\\int 2x^{-3} dx$.",
+      "options": [
+        "$-2x^{-2} + C$",
+        "$-x^{-2} + C$",
+        "$-\\frac{2}{x^4} + C$",
+        "$-\\frac{1}{2x^2} + C$"
+      ],
+      "correct": 1,
+      "explain": "Apply the power rule for integration $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$. $\\int 2x^{-3} dx = 2 \\left( \\frac{x^{-2}}{-2} \\right) + C = -x^{-2} + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Indefinite Integrals",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-18y1tdo",
+      "q": "Evaluate the indefinite integral $\\int \\frac{3}{x} dx$.",
+      "options": [
+        "$3\\ln|x| + C$",
+        "$-\\frac{3}{x^2} + C$",
+        "$\\frac{3}{x^2} + C$",
+        "$\\ln|3x| + C$"
+      ],
+      "correct": 0,
+      "explain": "Using the standard integration rule $\\int \\frac{1}{x} dx = \\ln|x| + C$, factoring out the constant 3 yields $3 \\int \\frac{1}{x} dx = 3\\ln|x| + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Indefinite Integrals",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

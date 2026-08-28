@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Coordinate Geometry",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Coordinate Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-t5e9ew",
+      "q": "In the standard $(x,y)$ coordinate plane, how many points are both 5 coordinate units from the origin and also 2 coordinate units from the line $y = 0$?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 3,
+      "explain": "Points 5 units from the origin lie on the circle $x^2 + y^2 = 25$. Points 2 units from the line $y = 0$ (the x-axis) lie on the horizontal lines $y = 2$ and $y = -2$. Substituting $y = 2$ or $y = -2$ into the circle's equation gives $x^2 + 4 = 25 \\implies x^2 = 21 \\implies x = \\pm\\sqrt{21}$. This yields four distinct intersection points: $(\\sqrt{21}, 2)$, $(-\\sqrt{21}, 2)$, $(\\sqrt{21}, -2)$, and $(-\\sqrt{21}, -2)$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

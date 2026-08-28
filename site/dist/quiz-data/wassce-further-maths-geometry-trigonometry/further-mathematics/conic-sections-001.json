@@ -1,0 +1,291 @@
+{
+  "title": "WASSCE Further Maths: Geometry & Trigonometry - Further Mathematics - Conic Sections",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+  "subject": "Further Mathematics",
+  "topic": "Conic Sections",
+  "source": "github:online-exam-questions",
+  "count": 14,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-38gfik",
+      "q": "Find the equation of the normal to the parabola $y^2 = 4x$ at the point $(1, 2)$.",
+      "options": [
+        "$y - x = 1$",
+        "$y + x = 3$",
+        "$2y + x = 5$",
+        "$y + 2x = 4$"
+      ],
+      "correct": 1,
+      "explain": "Differentiating $y^2 = 4x$ implicitly yields $2y \\frac{dy}{dx} = 4 \\implies \\frac{dy}{dx} = \\frac{2}{y}$. At $(1, 2)$, the tangent gradient is $m = \\frac{2}{2} = 1$. The normal is perpendicular to the tangent, so its gradient $m' = -1$. The equation is $y - 2 = -1(x - 1) \\implies y + x = 3$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-18f2lmg",
+      "q": "Find the coordinates of the focus of the parabola $y^2 = 16x$.",
+      "options": [
+        "$(0, 4)$",
+        "$(4, 0)$",
+        "$(-4, 0)$",
+        "$(0, -4)$"
+      ],
+      "correct": 1,
+      "explain": "The standard equation of a parabola opening to the right is $y^2 = 4ax$, where the focus is at $(a, 0)$. Comparing this with $y^2 = 16x$, we get $4a = 16 \\implies a = 4$. Therefore, the focus is $(4, 0)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-kx7dts",
+      "q": "What are the coordinates of the center of the circle given by the equation $(x - 5)^2 + (y + 3)^2 = 49$?",
+      "options": [
+        "$(-5, 3)$",
+        "$(5, -3)$",
+        "$(5, 3)$",
+        "$(-5, -3)$"
+      ],
+      "correct": 1,
+      "explain": "The standard equation of a circle is $(x - h)^2 + (y - k)^2 = r^2$, where the center is $(h, k)$. Comparing the given equation to the standard form, $h = 5$ and $k = -3$. Thus, the center is $(5, -3)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1cxc1vc",
+      "q": "Find the coordinates of the points of intersection of the line $y = x + 1$ and the circle $x^2 + y^2 = 25$.",
+      "options": [
+        "$(3, 4)$ and $(-4, -3)$",
+        "$(4, 3)$ and $(-3, -4)$",
+        "$(3, -4)$ and $(4, -3)$",
+        "$(4, 5)$ and $(-5, -4)$"
+      ],
+      "correct": 0,
+      "explain": "Substitute $y = x + 1$ into the circle equation: $x^2 + (x + 1)^2 = 25 \\implies x^2 + x^2 + 2x + 1 = 25 \\implies 2x^2 + 2x - 24 = 0 \\implies x^2 + x - 12 = 0$. Factoring yields $(x + 4)(x - 3) = 0 \\implies x = -4$ or $x = 3$. If $x = -4$, $y = -4 + 1 = -3$. If $x = 3$, $y = 3 + 1 = 4$. The intersection points are $(-4, -3)$ and $(3, 4)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-97iwhk",
+      "q": "Find the general equation of a circle with center $(-2, 3)$ that passes through the origin $(0,0)$.",
+      "options": [
+        "$x^2 + y^2 - 4x + 6y = 0$",
+        "$x^2 + y^2 + 4x - 6y = 0$",
+        "$x^2 + y^2 + 2x - 3y = 0$",
+        "$x^2 + y^2 - 2x + 3y = 0$"
+      ],
+      "correct": 1,
+      "explain": "The squared radius $r^2$ is the distance from $(-2, 3)$ to $(0,0)$, so $r^2 = (-2 - 0)^2 + (3 - 0)^2 = 4 + 9 = 13$. The standard equation is $(x + 2)^2 + (y - 3)^2 = 13$. Expanding: $x^2 + 4x + 4 + y^2 - 6y + 9 = 13 \\implies x^2 + y^2 + 4x - 6y = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1ohs0bg",
+      "q": "The line $y = mx + c$ is a tangent to the circle $x^2 + y^2 = a^2$. What is the condition that relates $c$, $a$, and $m$?",
+      "options": [
+        "$c^2 = a^2(1 - m^2)$",
+        "$c^2 = a^2(1 + m^2)$",
+        "$c = a(1 + m^2)$",
+        "$c^2 = a(1 + m^2)$"
+      ],
+      "correct": 1,
+      "explain": "For tangency, the perpendicular distance from the center $(0,0)$ to the line $mx - y + c = 0$ must equal the radius $a$. Thus, $\\frac{|c|}{\\sqrt{m^2 + (-1)^2}} = a \\implies |c| = a\\sqrt{1 + m^2}$. Squaring both sides yields $c^2 = a^2(1 + m^2)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1b6ydds",
+      "q": "Find the radius of the circle given by the equation $x^2 + y^2 - 8x + 10y + 16 = 0$.",
+      "options": [
+        "$4$",
+        "$5$",
+        "$16$",
+        "$25$"
+      ],
+      "correct": 1,
+      "explain": "Completing the square or using the formula $r = \\sqrt{g^2 + f^2 - c}$, where $2g = -8 \\implies g = -4$, $2f = 10 \\implies f = 5$, and $c = 16$. Then $r = \\sqrt{(-4)^2 + 5^2 - 16} = \\sqrt{16 + 25 - 16} = \\sqrt{25} = 5$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-pfjuik",
+      "q": "Determine the equation of the directrix of the parabola $x^2 = -12y$.",
+      "options": [
+        "$y = -3$",
+        "$x = 3$",
+        "$x = -3$",
+        "$y = 3$"
+      ],
+      "correct": 3,
+      "explain": "The standard form is $x^2 = 4ay$. Comparing this with $x^2 = -12y$, we have $4a = -12 \\implies a = -3$. The equation of the directrix for $x^2 = 4ay$ is $y = -a$. Thus, $y = -(-3) \\implies y = 3$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-nrqss8",
+      "q": "The line $y = 2x + c$ is a tangent to the parabola $y^2 = 8x$. Find the value of $c$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$-1$",
+        "$\\frac{1}{2}$"
+      ],
+      "correct": 1,
+      "explain": "For $y^2 = 4ax$, the condition for $y = mx + c$ to be a tangent is $c = \\frac{a}{m}$. Here $4a = 8 \\implies a = 2$. The line gradient is $m = 2$. So, $c = \\frac{2}{2} = 1$. Alternatively, solving $(2x + c)^2 = 8x$ for exactly one intersection yields a discriminant equal to zero, giving the same result.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-m7eo8e",
+      "q": "A circle has its center at $(-3, 4)$ and is tangent to the x-axis. What is its general equation?",
+      "options": [
+        "$x^2 + y^2 - 6x + 8y + 9 = 0$",
+        "$x^2 + y^2 + 6x - 8y + 9 = 0$",
+        "$x^2 + y^2 + 6x - 8y + 16 = 0$",
+        "$x^2 + y^2 - 6x + 8y + 16 = 0$"
+      ],
+      "correct": 1,
+      "explain": "If a circle is tangent to the x-axis, its radius is equal to the absolute value of the y-coordinate of its center. So $r = |4| = 4$. The equation is $(x + 3)^2 + (y - 4)^2 = 16$. Expanding this gives $x^2 + 6x + 9 + y^2 - 8y + 16 = 16 \\implies x^2 + y^2 + 6x - 8y + 9 = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-gi0z6w",
+      "q": "Identify the coordinates of the vertex of the parabola given by $(x - 2)^2 = 8(y + 1)$.",
+      "options": [
+        "$(-2, 1)$",
+        "$(2, -1)$",
+        "$(2, 1)$",
+        "$(-2, -1)$"
+      ],
+      "correct": 1,
+      "explain": "The standard vertex form of a vertical parabola is $(x - h)^2 = 4a(y - k)$, where $(h, k)$ is the vertex. Comparing equations, $h = 2$ and $k = -1$. The vertex is $(2, -1)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1v4vvfo",
+      "q": "Find the equation of the tangent to the circle $x^2 + y^2 = 25$ at the point $(3, -4)$.",
+      "options": [
+        "$3x + 4y - 25 = 0$",
+        "$4x - 3y - 25 = 0$",
+        "$3x - 4y - 25 = 0$",
+        "$3x - 4y + 25 = 0$"
+      ],
+      "correct": 2,
+      "explain": "Using the point-tangency formula for a circle at origin $xx_1 + yy_1 = r^2$. Here, $x_1 = 3, y_1 = -4$, so $x(3) + y(-4) = 25 \\implies 3x - 4y - 25 = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-kbhtow",
+      "q": "Identify the specific type of conic section represented by the equation $2x^2 + 2y^2 - 4x + 8y - 10 = 0$.",
+      "options": [
+        "Parabola",
+        "Hyperbola",
+        "Ellipse",
+        "Circle"
+      ],
+      "correct": 3,
+      "explain": "Because the coefficients of $x^2$ and $y^2$ are equal (both are 2) and there is no $xy$ term, the equation can be simplified by dividing by $2$, confirming it represents a circle.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-10n2fsk",
+      "q": "Determine the coordinates of the ends of the latus rectum for the parabola $y^2 = 12x$.",
+      "options": [
+        "$(3, 6)$ and $(3, -6)$",
+        "$(6, 3)$ and $(-6, 3)$",
+        "$(3, 12)$ and $(3, -12)$",
+        "$(12, 3)$ and $(-12, 3)$"
+      ],
+      "correct": 0,
+      "explain": "The equation is $y^2 = 4ax \\implies 4a = 12 \\implies a = 3$. The focus is $(3, 0)$. The latus rectum passes through the focus, so its endpoints have $x = 3$. Substituting $x = 3$ into the parabola's equation gives $y^2 = 12(3) = 36 \\implies y = \\pm 6$. The endpoints are $(3, 6)$ and $(3, -6)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

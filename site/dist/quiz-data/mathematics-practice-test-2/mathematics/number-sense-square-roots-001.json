@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 2 - Mathematics - Number Sense (Square Roots)",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 2",
+  "subject": "Mathematics",
+  "topic": "Number Sense (Square Roots)",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-2-ck43w8",
+      "q": "As shown, the number line between 0 and 8 is divided into 6 segments of equal length by points A through E. Which of the following statements about $\\sqrt{8}$ is true?\n\n<svg viewBox=\"0 0 300 80\" width=\"300\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <polygon points=\"15,40 25,35 25,45\" fill=\"black\"/>\n  <polygon points=\"285,40 275,35 275,45\" fill=\"black\"/>\n  <line x1=\"25\" y1=\"40\" x2=\"275\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"40\" y1=\"35\" x2=\"40\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"73.3\" y1=\"35\" x2=\"73.3\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"106.6\" y1=\"35\" x2=\"106.6\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"173.3\" y1=\"35\" x2=\"173.3\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"206.6\" y1=\"35\" x2=\"206.6\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"240\" y1=\"35\" x2=\"240\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"36\" y=\"60\">0</text>\n  <text x=\"69\" y=\"60\">A</text>\n  <text x=\"102\" y=\"60\">B</text>\n  <text x=\"136\" y=\"60\">C</text>\n  <text x=\"169\" y=\"60\">D</text>\n  <text x=\"202\" y=\"60\">E</text>\n  <text x=\"236\" y=\"60\">8</text>\n</svg>",
+      "options": [
+        "$\\sqrt{8}$ is at C.",
+        "$\\sqrt{8}$ is at D.",
+        "$\\sqrt{8}$ is between A and B.",
+        "$\\sqrt{8}$ is between B and C."
+      ],
+      "correct": 3,
+      "explain": "The distance from 0 to 8 is divided into 6 equal segments. Each segment has a length of $\\frac{8}{6} = \\frac{4}{3} \\approx 1.33$. The values of the points are: $A \\approx 1.33$, $B = 2.67$, $C = 4$, $D \\approx 5.33$, $E \\approx 6.67$. We need to estimate $\\sqrt{8}$. Since $2^2 = 4$ and $3^2 = 9$, $\\sqrt{8}$ is slightly less than 3 (approx $2.83$). This value falls between point B (2.67) and point C (4).",
+      "exam": "Mathematics Practice Test 2",
+      "subject": "Mathematics",
+      "topic": "Number Sense (Square Roots)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

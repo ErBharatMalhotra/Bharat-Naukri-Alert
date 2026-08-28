@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Area Under Curves",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Area Under Curves",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-oa9z90",
+      "q": "The area of the region $\\{(x, y) : y \\le \\pi - |x|, y \\le |x \\sin x|, y \\ge 0\\}$ is:",
+      "options": [
+        "$1 + \\frac{\\pi^2}{8}$",
+        "$2 + \\frac{\\pi^2}{4}$",
+        "$\\frac{\\pi^2}{8} - 1$",
+        "$4 + \\frac{\\pi^2}{2}$"
+      ],
+      "correct": 1,
+      "explain": "Since both $|x \\sin x|$ and $\\pi - |x|$ are even functions, the region is symmetric about the y-axis.\nFor $x \\ge 0$, the constraints are $y \\le \\pi - x$, $y \\le x \\sin x$, and $y \\ge 0$.\nConsider the functions $y = \\pi - x$ and $y = x \\sin x$ in the interval $x \\in [0, \\pi]$.\nThey intersect at $x = \\frac{\\pi}{2}$ since $\\frac{\\pi}{2} \\sin \\frac{\\pi}{2} = \\frac{\\pi}{2}$ and $\\pi - \\frac{\\pi}{2} = \\frac{\\pi}{2}$.\nFor $0 \\le x \\le \\frac{\\pi}{2}$, $x \\sin x \\le x < \\frac{\\pi}{2} \\le \\pi - x$, so $x \\sin x$ is the tighter upper bound.\nFor $\\frac{\\pi}{2} \\le x \\le \\pi$, $\\pi - x$ is the tighter upper bound.\nThus, Area on right side $= \\int_0^{\\pi/2} x \\sin x \\, dx + \\int_{\\pi/2}^{\\pi} (\\pi - x) \\, dx$.\n$\\int x \\sin x \\, dx = \\sin x - x \\cos x$.\n$\\int_0^{\\pi/2} x \\sin x \\, dx = (1 - 0) - (0 - 0) = 1$.\n$\\int_{\\pi/2}^{\\pi} (\\pi - x) \\, dx = \\left[ -\\frac{(\\pi - x)^2}{2} \\right]_{\\pi/2}^{\\pi} = 0 - \\left(-\\frac{\\pi^2}{8}\\right) = \\frac{\\pi^2}{8}$.\nThe area for $x \\ge 0$ is $1 + \\frac{\\pi^2}{8}$.\nTotal area due to symmetry is $2 \\left( 1 + \\frac{\\pi^2}{8} \\right) = 2 + \\frac{\\pi^2}{4}$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Area Under Curves",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

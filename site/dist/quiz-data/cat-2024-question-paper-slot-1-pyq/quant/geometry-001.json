@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, PYQ) - Quant - Geometry ",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+  "subject": "Quant",
+  "topic": "Geometry ",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-1gpl115",
+      "q": "$ABCD$ is a rectangle with sides $AB = 56$ cm and $BC = 45$ cm, and $E$ is the midpoint of side $CD$. Then, the length, in cm, of the radius of the incircle of $\\Delta ADE$ is",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 1,
+      "explain": "In rectangle ABCD, $AD = BC = 45$, and $CD = AB = 56$. $E$ is the midpoint of $CD$, so $DE = 56 / 2 = 28$. $\\Delta ADE$ is a right-angled triangle at $D$. The legs are $AD = 45$ and $DE = 28$. The hypotenuse $AE = \\sqrt{45^2 + 28^2} = \\sqrt{2025 + 784} = \\sqrt{2809} = 53$. The radius of the incircle of a right triangle is $r = \\frac{\\text{leg}_1 + \\text{leg}_2 - \\text{hypotenuse}}{2} = \\frac{45 + 28 - 53}{2} = \\frac{20}{2} = 10$ cm.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "Quant",
+      "topic": "Geometry / Circles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

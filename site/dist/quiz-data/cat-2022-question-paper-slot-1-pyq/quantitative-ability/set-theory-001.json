@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2022 Question Paper (Slot 1, PYQ) - Quantitative Ability - Set Theory",
+  "titleHi": "",
+  "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Set Theory",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2022-question-paper-(slot-1,-pyq)-kdfc3w",
+      "q": "In a class of 100 students, 73 like coffee, 80 like tea and 52 like lemonade. It may be possible that some students do not like any of these three drinks. Then the difference between the maximum and minimum possible number of students who like all the three drinks is",
+      "options": [
+        "52",
+        "53",
+        "48",
+        "47"
+      ],
+      "correct": 3,
+      "explain": "Maximum number of students liking all three is bounded by the smallest individual group, which is 52. The minimum can be found by evaluating the maximum exclusion: $100 - ( (100-73) + (100-80) + (100-52) ) = 100 - (27 + 20 + 48) = 100 - 95 = 5$. The minimum is 5. Difference = $52 - 5 = 47$.",
+      "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Set Theory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2022,
+      "tags": []
+    }
+  ]
+}

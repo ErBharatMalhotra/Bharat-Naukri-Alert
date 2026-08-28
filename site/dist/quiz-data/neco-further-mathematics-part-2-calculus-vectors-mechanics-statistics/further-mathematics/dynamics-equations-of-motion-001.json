@@ -1,0 +1,71 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Dynamics - Equations of Motion",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Dynamics - Equations of Motion",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-16eo94o",
+      "q": "A car accelerates uniformly from rest to a velocity of $20\\text{ m s}^{-1}$ in $10\\text{ s}$. Calculate the distance traveled during this time.",
+      "options": [
+        "$100\\text{ m}$",
+        "$200\\text{ m}$",
+        "$50\\text{ m}$",
+        "$10\\text{ m}$"
+      ],
+      "correct": 0,
+      "explain": "Using the equation of motion that relates distance, initial velocity, final velocity, and time:\n$$s = \\left(\\frac{u + v}{2}\\right)t$$\nGiven:\nInitial velocity, $u = 0\\text{ m s}^{-1}$ (from rest)\nFinal velocity, $v = 20\\text{ m s}^{-1}$\nTime, $t = 10\\text{ s}$\n\nSubstitute the values:\n$$s = \\left(\\frac{0 + 20}{2}\\right) \\times 10$$\n$$s = 10 \\times 10 = 100\\text{ m}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Equations of Motion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-wa5a86",
+      "q": "A train moving at $30\\text{ m s}^{-1}$ is brought to rest by a constant braking force over a distance of $50\\text{ m}$. What is the retardation of the train?",
+      "options": [
+        "$4.5\\text{ m s}^{-2}$",
+        "$9.0\\text{ m s}^{-2}$",
+        "$18.0\\text{ m s}^{-2}$",
+        "$0.6\\text{ m s}^{-2}$"
+      ],
+      "correct": 1,
+      "explain": "Using the equation of motion $v^2 = u^2 + 2as$:\nGiven:\nInitial velocity, $u = 30\\text{ m s}^{-1}$\nFinal velocity, $v = 0\\text{ m s}^{-1}$ (brought to rest)\nDistance, $s = 50\\text{ m}$\n\nSubstitute the values:\n$$0^2 = 30^2 + 2 \\times a \\times 50$$\n$$0 = 900 + 100a$$\n$$100a = -900$$\n$$a = -9.0\\text{ m s}^{-2}$$\n\nRetardation is the negative of acceleration, so the retardation is $9.0\\text{ m s}^{-2}$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Equations of Motion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1lhalc0",
+      "q": "A particle is projected vertically upwards with a velocity of $25\\text{ m s}^{-1}$. Find the times at which it is $20\\text{ m}$ above the point of projection. (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$1\\text{ s}$ and $4\\text{ s}$",
+        "$2\\text{ s}$ and $3\\text{ s}$",
+        "$1\\text{ s}$ and $5\\text{ s}$",
+        "$2\\text{ s}$ and $4\\text{ s}$"
+      ],
+      "correct": 0,
+      "explain": "Using the equation of motion under gravity: $s = ut - \\frac{1}{2}gt^2$\nGiven:\n$s = 20\\text{ m}$\n$u = 25\\text{ m s}^{-1}$\n$g = 10\\text{ m s}^{-2}$\n\nSubstitute the values:\n$$20 = 25t - \\frac{1}{2}(10)t^2$$\n$$20 = 25t - 5t^2$$\n\nDivide the entire equation by 5 and rearrange into a standard quadratic form:\n$$t^2 - 5t + 4 = 0$$\n\nFactorize the quadratic equation:\n$$(t - 1)(t - 4) = 0$$\n\nTherefore, $t = 1\\text{ s}$ or $t = 4\\text{ s}$. The particle is at $20\\text{ m}$ on its way up at $1\\text{ s}$ and on its way down at $4\\text{ s}$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Equations of Motion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

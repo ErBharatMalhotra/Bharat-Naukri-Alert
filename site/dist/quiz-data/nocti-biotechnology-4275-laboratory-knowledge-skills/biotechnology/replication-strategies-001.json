@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills - Biotechnology - Replication strategies",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+  "subject": "Biotechnology",
+  "topic": "Replication strategies",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-xk2myg",
+      "q": "When designing a statistically rigorous experiment, researchers must distinguish between biological and technical replicates. Which of the following scenarios specifically describes the use of **biological replicates**?",
+      "options": [
+        "A technician extracts RNA from a single cancerous mouse tumor and runs the RNA extract through three separate qPCR reactions.",
+        "A scientist measures the absorbance of a single enzyme sample three times in a row using the exact same spectrophotometer cuvette.",
+        "A researcher treats three separate groups of uniquely genetically diverse mice with the same experimental drug and measures their individual responses.",
+        "A laboratory worker prepares a bulk Master Mix and pipettes it evenly into a 96-well plate to test pipetting accuracy."
+      ],
+      "correct": 2,
+      "explain": "**Biological replicates** involve performing the same test on entirely separate biological entities (like different mice, different plants, or independent cell cultures) to account for natural biological variation. Option 'c' fits this perfectly. \n\n**Technical replicates**, on the other hand, involve testing the exact same biological sample multiple times (like Options 'a', 'b', and 'd') to measure the precision and reproducibility of the laboratory equipment and human pipetting technique. Technical replicates cannot account for biological variation.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Replication strategies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-13riyf4",
+      "q": "A student aims to evaluate the protein content in locally grown soybeans. They mash a single soybean, extract the protein into a $10 \\text{ mL}$ solution, and then prepare 5 identical Bradford assay tubes from that single $10 \\text{ mL}$ source tube. What type of replication strategy does this represent, and what specific source of error does it measure?",
+      "options": [
+        "Biological replicates; measures the natural genetic variation between different soybeans.",
+        "Technical replicates; measures the variability and precision of the assay protocol and equipment.",
+        "Positive controls; ensures that the Bradford reagent is successfully binding to proteins.",
+        "Longitudinal replicates; measures the degradation of the protein over a specified time course."
+      ],
+      "correct": 1,
+      "explain": "Because all 5 tests came from the exact same starting source (one single mashed soybean), these are **technical replicates**. \n\nTechnical replicates cannot tell you anything about soybeans as a population (which rules out Option 'a'). Instead, they evaluate the repeatability of the measurement itself—testing whether the student pipetted accurately, whether the spectrophotometer gave consistent readings, and whether the Bradford reagent reacted consistently.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Replication strategies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-1vd8d1b",
+      "q": "In biomanufacturing, it is universally recommended that experiments utilize a sample size ($N$) of at least $3$ independent replicates ($N \\ge 3$). From a data analysis perspective, what is the primary mathematical reason a minimum of three biological replicates is required?",
+      "options": [
+        "Three replicates are strictly required by the FDA to file an investigational new drug (IND) application.",
+        "Three replicates mathematically eliminate 100% of human error during sample preparation.",
+        "$N=3$ is the absolute minimum number required to calculate a standard deviation and perform reliable statistical significance testing (like a t-test).",
+        "It provides enough pooled volume to ensure the final sample can be detected by standard analytical balances."
+      ],
+      "correct": 2,
+      "explain": "While an $N=1$ gives you a single data point, and an $N=2$ allows you to calculate a simple average (mean) or range, you cannot reliably calculate variance or a **standard deviation** with fewer than three distinct points. \n\nWithout standard deviation, you cannot perform statistical tests (like t-tests or ANOVA) to determine if a result is statistically significant, or if the variance simply represents random noise. Therefore, $N=3$ is the minimum baseline for basic statistical rigor in biological science.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Replication strategies",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

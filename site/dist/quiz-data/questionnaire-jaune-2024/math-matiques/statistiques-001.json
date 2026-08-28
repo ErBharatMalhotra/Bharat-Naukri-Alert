@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Mathématiques - Statistiques",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Mathématiques",
+  "topic": "Statistiques",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-uu0arp",
+      "q": "Étant donné un nombre réel $x$, on considère les deux séries statistiques suivantes :\nSérie 1 : $x - 2 ; x - 1 ; x ; x + 1 ; x + 2$\nSérie 2 : $x ; x + 1 ; x + 2 ; x + 3 ; x + 4$\nParmi les propositions suivantes concernant les deux séries, laquelle est vraie ?",
+      "options": [
+        "Il est impossible de comparer les écarts-type des deux séries sans connaître $x$",
+        "L’écart-type de la série 1 est identique à celui de la série 2",
+        "L’écart-type de la série 1 est plus grand que celui de la série 2",
+        "L’écart-type de la série 1 est plus petit que celui de la série 2"
+      ],
+      "correct": 1,
+      "explain": "La série 2 est une translation (un décalage) de la série 1, avec un ajout de constante (exactement +2 pour chaque terme). L'écart-type est une mesure de dispersion autour de la moyenne ; il n'est pas affecté par une translation de toutes les données. Par conséquent, les deux séries ont le même écart-type.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Mathématiques",
+      "topic": "Statistiques",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

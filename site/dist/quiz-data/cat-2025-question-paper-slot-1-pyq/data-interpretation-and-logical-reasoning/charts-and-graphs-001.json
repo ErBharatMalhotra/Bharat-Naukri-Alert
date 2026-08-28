@@ -1,0 +1,91 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 1, PYQ) - Data Interpretation and Logical Reasoning - Charts and Graphs",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+  "subject": "Data Interpretation and Logical Reasoning",
+  "topic": "Charts and Graphs",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-68whrs",
+      "q": "**Directions for questions 30 to 33:**\n\nFive countries engage in trade with each other. Each country levies import tariffs on the other countries. The import tariff levied by Country X on Country Y is calculated by multiplying the corresponding tariff percentage with the total imports of Country X from Country Y.\n\nAssume that imports from one country to another equals the exports from the latter to the former.\nTrade surplus = Exports from Country X to Country Y – Imports to Country X from Country Y.\nA negative trade surplus is called trade deficit.\n\nThe charts provided in the paper have been synthesized into the following exact data tables:\n\n**Table 1: Import Tariff Percentage Charged BY the Importer (Row) ON the Exporter (Column)**\n| Importer \\ Exporter | US | France | India | Japan | UK |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **US** | 0% | 20% | 40% | 30% | 30% |\n| **France** | 30% | 0% | 50% | 30% | 20% |\n| **India** | 20% | 40% | 0% | 50% | 20% |\n| **Japan** | 40% | 20% | 10% | 0% | 30% |\n| **UK** | 20% | 30% | 20% | 40% | 0% |\n\n**Table 2: Import Tariff in Billion USD Charged BY the Importer (Row) ON the Exporter (Column)**\n| Importer \\ Exporter | US | France | India | Japan | UK |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **US** | 0 | 6 | 4 | 7 | 3 |\n| **France** | 5 | 0 | 7 | 4 | 4 |\n| **India** | 9 | 5 | 0 | 3.5 | 6 |\n| **Japan** | 4 | 4 | 7 | 0 | 4 |\n| **UK** | 2.5 | 4 | 3 | 6 | 0 |\n\n**Question:**\nHow much is Japan's export to India worth?",
+      "options": [
+        "1.75 Billion USD",
+        "16.0 Billion USD",
+        "8.5 Billion USD",
+        "7.0 Billion USD"
+      ],
+      "correct": 3,
+      "explain": "Japan's export to India is exactly India's import from Japan. \nUsing the formula: Tariff = Tariff % * Imports. \nImports by India from Japan = (Tariff charged by India on Japan) / (Tariff % charged by India on Japan). \nFrom Table 2, India charges 3.5 Billion USD on Japan. \nFrom Table 1, India's tariff % on Japan is 50% (0.50). \nTherefore, Imports = 3.5 / 0.50 = 7.0 Billion USD.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Charts and Graphs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-1xn1c54",
+      "q": "*(Refer to the tables provided in Question 30)*\n\nWhich among the following is the highest?",
+      "options": [
+        "Imports by US from France",
+        "Exports by Japan to UK",
+        "Imports by France from India",
+        "Exports by France to Japan"
+      ],
+      "correct": 0,
+      "explain": "Let's calculate each value using the tables (Value = Tariff in Billion USD / Tariff %):\n1) Imports by US from France = (US tariff on France) / (US% on France) = $6 / 0.20 = 30$ Billion USD.\n2) Exports by Japan to UK (i.e., UK imports from Japan) = (UK tariff on Japan) / (UK% on Japan) = $6 / 0.40 = 15$ Billion USD.\n3) Imports by France from India = (France tariff on India) / (France% on India) = $7 / 0.50 = 14$ Billion USD.\n4) Exports by France to Japan (i.e., Japan imports from France) = (Japan tariff on France) / (Japan% on France) = $4 / 0.20 = 20$ Billion USD.\nThe highest is Imports by US from France (30 Billion USD).",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Charts and Graphs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-ynkjc",
+      "q": "*(Refer to the tables provided in Question 30)*\n\nWhat is the trade surplus/trade deficit of India with UK?",
+      "options": [
+        "Deficit of 10.0 Billion USD",
+        "Surplus of 15.0 Billion USD",
+        "Deficit of 15.0 Billion USD",
+        "Surplus of 10.0 Billion USD"
+      ],
+      "correct": 2,
+      "explain": "Trade surplus of India with UK = (Exports from India to UK) - (Imports by India from UK).\nExports from India to UK = Imports by UK from India = (UK tariff on India) / (UK% on India) = $3 / 0.20 = 15$ Billion USD.\nImports by India from UK = (India tariff on UK) / (India% on UK) = $6 / 0.20 = 30$ Billion USD.\nSurplus = $15 - 30 = -15$ Billion USD. A negative surplus indicates a deficit of 15.0 Billion USD.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Charts and Graphs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-1qzj3c4",
+      "q": "*(Refer to the tables provided in Question 30)*\n\nAmong France and UK, who has/have trade surplus(es) with US?",
+      "options": [
+        "Both France and UK",
+        "Only France",
+        "Neither France nor UK",
+        "Only UK"
+      ],
+      "correct": 1,
+      "explain": "Let's check the surplus for both with the US:\nFrance Surplus with US = (France exports to US) - (France imports from US).\nFrance exports to US = US imports from France = $6 / 0.20 = 30$.\nFrance imports from US = $5 / 0.30 \\approx 16.66$.\nFrance Surplus = $30 - 16.66 = +13.34$ (Surplus).\n\nUK Surplus with US = (UK exports to US) - (UK imports from US).\nUK exports to US = US imports from UK = $3 / 0.30 = 10$.\nUK imports from US = $2.5 / 0.20 = 12.5$.\nUK Surplus = $10 - 12.5 = -2.5$ (Deficit).\nTherefore, only France has a trade surplus with the US.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Charts and Graphs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

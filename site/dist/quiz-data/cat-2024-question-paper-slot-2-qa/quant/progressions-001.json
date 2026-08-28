@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 2, QA) - Quant - Progressions",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+  "subject": "Quant",
+  "topic": "Progressions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-zp96wo",
+      "q": "The sum of the infinite series $\\frac{1}{5}(\\frac{1}{5}-\\frac{1}{7})+(\\frac{1}{5})^2((\\frac{1}{5})^2-(\\frac{1}{7})^2)+(\\frac{1}{5})^3((\\frac{1}{5})^3-(\\frac{1}{7})^3)+\\cdots$ is equal to",
+      "options": [
+        "$\\frac{5}{408}$",
+        "$\\frac{7}{816}$",
+        "$\\frac{7}{408}$",
+        "$\\frac{5}{816}$"
+      ],
+      "correct": 0,
+      "explain": "The series can be rewritten as $\\sum_{n=1}^{\\infty} (\\frac{1}{5})^n [(\\frac{1}{5})^n - (\\frac{1}{7})^n] = \\sum (\\frac{1}{25})^n - \\sum (\\frac{1}{35})^n$. Both are infinite geometric series. The sum of the first is $\\frac{1/25}{1-1/25} = \\frac{1/25}{24/25} = 1/24$. The sum of the second is $\\frac{1/35}{1-1/35} = \\frac{1/35}{34/35} = 1/34$. The total sum is $\\frac{1}{24} - \\frac{1}{34} = \\frac{34-24}{24 \\times 34} = \\frac{10}{816} = \\frac{5}{408}$.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Progressions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

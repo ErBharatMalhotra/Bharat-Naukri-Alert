@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Electrostatics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Electrostatics",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-12u0yks",
+      "q": "Two charged conducting spheres $S_1$ and $S_2$ of radii $8\\text{ cm}$ and $18\\text{ cm}$ are connected to each other by a wire. After equilibrium is established, the ratio of electric fields on $S_1$ and $S_2$ spheres are $E_{S_1}$ and $E_{S_2}$ respectively. The value of $\\frac{E_{S_1}}{E_{S_2}}$ is _______.",
+      "options": [
+        "$\\frac{3}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{9}$",
+        "$\\frac{9}{4}$"
+      ],
+      "correct": 3,
+      "explain": "When two conducting spheres are connected by a wire, charge flows until their electric potentials become equal. \nThus, $V_1 = V_2 \\implies \\frac{k q_1}{r_1} = \\frac{k q_2}{r_2}$.\nThe electric field at the surface of a conducting sphere is given by $E = \\frac{k q}{r^2}$.\nWe can rewrite the electric field in terms of potential as $E = \\frac{V}{r}$.\nThe ratio of the electric fields is therefore:\n$\\frac{E_{S_1}}{E_{S_2}} = \\frac{V_1 / r_1}{V_2 / r_2}$\nSince $V_1 = V_2$, this simplifies to:\n$\\frac{E_{S_1}}{E_{S_2}} = \\frac{r_2}{r_1}$\nGiven $r_1 = 8\\text{ cm}$ and $r_2 = 18\\text{ cm}$:\n$\\frac{E_{S_1}}{E_{S_2}} = \\frac{18}{8} = \\frac{9}{4}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-m43quh",
+      "q": "![Two mutually perpendicular dipoles](https://cracku.in/media/uploads/image_ym0nAW9.png)\nTwo short electric dipoles $A$ and $B$ having dipole moment $p_1$ and $p_2$ respectively are placed with their axis mutually perpendicular as shown in the figure. The resultant electric field at a point $x$ is making an angle of $60^\\circ$ with the line joining points $O$ and $x$. The ratio of the dipole moments $p_2/p_1$ is _______.",
+      "options": [
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$2\\sqrt{3}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\sqrt{3}$"
+      ],
+      "correct": 1,
+      "explain": "Point $x$ lies on the axis of dipole $A$ ($p_1$) and on the equatorial line of dipole $B$ ($p_2$).\nLet the distance from the origin $O$ to point $x$ be $r$.\nThe electric field at point $x$ due to the axial dipole $p_1$ is directed along the line joining them (the $x$-axis):\n$E_1 = \\frac{2kp_1}{r^3}$\nThe electric field at point $x$ due to the equatorial dipole $p_2$ is directed perpendicular to the line (parallel to $p_2$'s axis but opposite in direction if we consider pure vectors, yielding a $y$-component):\n$E_2 = \\frac{kp_2}{r^3}$\nThe resultant electric field makes an angle of $60^\\circ$ with the axis joining $O$ and $x$ (the direction of $E_1$).\n$\\tan \\theta = \\frac{E_{perpendicular}}{E_{parallel}} = \\frac{E_2}{E_1}$\n$\\tan 60^\\circ = \\frac{kp_2 / r^3}{2kp_1 / r^3} = \\frac{p_2}{2p_1}$\n$\\sqrt{3} = \\frac{p_2}{2p_1}$\nTherefore, the ratio $\\frac{p_2}{p_1} = 2\\sqrt{3}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "NOCTI Biotechnology 4275: Knowledge of Biotechnology - Biotechnology - Forensic",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+  "subject": "Biotechnology",
+  "topic": "Forensic",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-knowledge-of-biotechnology-iqew9o",
+      "q": "A forensic scientist is processing a minute, partially degraded blood sample recovered from a crime scene. To successfully generate a genetic profile that can be uploaded to the FBI's CODIS database, which specific molecular biotechnology approach is the current industry standard?",
+      "options": [
+        "Digesting the entire genome with restriction enzymes to create a Restriction Fragment Length Polymorphism (RFLP) Southern blot.",
+        "Performing a multiplex PCR to simultaneously amplify 20 standard Short Tandem Repeat (STR) loci, followed by capillary electrophoresis.",
+        "Utilizing CRISPR-Cas9 to specifically edit and identify the mutated alleles in the suspect's genomic DNA.",
+        "Conducting whole-genome shotgun sequencing on the sample using Next-Generation Sequencing (NGS) platforms."
+      ],
+      "correct": 1,
+      "explain": "The modern standard for forensic DNA fingerprinting is the amplification of **Short Tandem Repeats (STRs)**. \n\nBecause forensic samples are often tiny and degraded, PCR is required to amplify the DNA. Scientists use multiplex PCR to amplify exactly 20 specific, highly variable STR loci defined by the **CODIS** system. The amplified fragments are then rapidly sorted by size using automated capillary electrophoresis. \n> RFLP (Option 'a') is a historically important but obsolete technique that requires massive amounts of pristine DNA. NGS (Option 'd') is generally too slow, expensive, and unnecessary for basic identification.",
+      "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+      "subject": "Biotechnology",
+      "topic": "Forensic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-knowledge-of-biotechnology-xvs94c",
+      "q": "Forensic anthropologists working on a 50-year-old cold case recover heavily weathered, sun-bleached bone fragments from a desert. Standard nuclear STR profiling fails entirely due to massive DNA degradation. Why would the forensic team pivot to analyzing the mitochondrial DNA (mtDNA) instead?",
+      "options": [
+        "Mitochondrial DNA is chemically composed of highly stable RNA bases, making it immune to environmental UV degradation.",
+        "Mitochondrial DNA contains massively long tandem repeats that are easier to amplify than nuclear DNA.",
+        "A single human cell contains hundreds to thousands of copies of the mitochondrial genome, statistically increasing the chance that intact fragments survive.",
+        "Mitochondrial DNA is encapsulated in a protective thick peptidoglycan cell wall inside the human cell."
+      ],
+      "correct": 2,
+      "explain": "The primary advantage of **mitochondrial DNA (mtDNA)** in forensics is its **high copy number**. \n\nWhile a cell only has two copies of nuclear DNA (one from each parent), it has hundreds of mitochondria, each containing multiple copies of the mtDNA genome. In severely degraded samples (old bones, hair shafts, teeth), the sheer abundance of mtDNA makes it much more likely that some intact fragments survive to be sequenced. Notably, mtDNA only provides maternal lineage, making it less specific than nuclear STRs, but invaluable when nuclear DNA is destroyed.",
+      "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+      "subject": "Biotechnology",
+      "topic": "Forensic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

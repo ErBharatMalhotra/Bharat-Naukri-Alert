@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Physics - Semiconductors and Communication Systems",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Physics",
+  "topic": "Semiconductors and Communication Systems",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-12xkpl4",
+      "q": "![Logic Circuit](https://media.prothomalo.com/prothomalo-bangla%2F2024-06%2Fce1509fc-78f5-4418-9e69-ac9205df9873%2F1%20(2).png?w=622&auto=format%2Ccompress&fmt=avif)\nTwo 4 bits binary numbers, $A = 1101$ and $B = 1010$ are given in the inputs of a logic circuit shown in figure below. The output $(Y)$ will be:\n(Note: The circuit is an OR gate where input B has an inverter/NOT bubble).",
+      "options": [
+        "$Y = 1101$",
+        "$Y = 0010$",
+        "$Y = 0111$",
+        "$Y = 1000$"
+      ],
+      "correct": 0,
+      "explain": "Based on the circuit schematic, the top input $A$ enters directly, and the bottom input $B$ goes through a NOT gate (denoted by a bubble) before entering the OR gate.\nThe logic equation is $Y = A \\lor \\bar{B}$.\nGiven inputs are:\n$A = 1101$\n$B = 1010 \\implies \\bar{B} = 0101$\nBitwise OR operation: $1101 \\lor 0101 = 1101$.\nThus, the output is $Y = 1101$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Semiconductors and Communication Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-jez18o",
+      "q": "![Diode Circuit](https://cracku.in/media/uploads/image_f7pe4AR.png)\nConsider a circuit consisting of a capacitor ($20 \\text{ } \\mu\\text{F}$), resistor ($100 \\text{ } \\Omega$) and two identical diodes as shown in figure. (A parallel combination of an upward and downward pointing diode, all in series with the R and C). The resistance of diode under forward biasing condition is $10 \\text{ } \\Omega$. The time constant of the circuit is $\\alpha \\times 10^{-3} \\text{ s}$. The value of $\\alpha$ is _____",
+      "options": [
+        "$2.2$",
+        "$2.0$",
+        "$2.1$",
+        "$2.4$"
+      ],
+      "correct": 0,
+      "explain": "The two diodes are in anti-parallel configuration. In either half-cycle of the AC source, exactly one diode is forward biased while the other is reverse biased (open circuit).\nThus, the equivalent resistance of the diode pair at any time during conduction is purely the forward resistance of one diode, which is $10 \\text{ } \\Omega$.\nThe total effective resistance of the circuit in series with the capacitor is $R_{eq} = R_{\\text{resistor}} + R_{\\text{diode}} = 100 \\text{ } \\Omega + 10 \\text{ } \\Omega = 110 \\text{ } \\Omega$.\nThe time constant $\\tau$ for an RC circuit is given by $\\tau = R_{eq} C$.\n$\\tau = 110 \\times (20 \\times 10^{-6}) = 2200 \\times 10^{-6} \\text{ s} = 2.2 \\times 10^{-3} \\text{ s}$.\nMatching this to $\\alpha \\times 10^{-3} \\text{ s}$, we obtain $\\alpha = 2.2$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Semiconductors and Communication Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

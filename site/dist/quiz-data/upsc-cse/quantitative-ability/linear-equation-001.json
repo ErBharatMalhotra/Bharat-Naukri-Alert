@@ -1,0 +1,1511 @@
+{
+  "title": "UPSC CSE - Quantitative Ability - Linear Equation",
+  "titleHi": "",
+  "exam": "UPSC CSE",
+  "subject": "Quantitative Ability",
+  "topic": "Linear Equation",
+  "source": "github:upsc-pyqs",
+  "count": 75,
+  "questions": [
+    {
+      "id": "upsc-cse-q5ie08",
+      "q": "If ABC and DEF are both 3-digit numbers such that A, B, C, D, E and F are distinct non-zero digits such that ABC + DEF = 1111, then what is the value of A+B+C+D+E+F?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correct": 3,
+      "explain": "Since both numbers sum to 1111, and all digits are distinct and non-zero, the sum of all digits must be 31",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-nq3lgc",
+      "q": "D is a 3-digit number such that the ratio of the number to the sum of its digits is least. What is the difference between the digit at the hundred's place and the digit at the unit's place of D?",
+      "options": [
+        "0",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explain": "For the ratio to be least, the number should be smallest possible while sum of digits should be largest possible. This means the first digit should be 1 and last digit should be 9",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-ub1ks8",
+      "q": "A 3-digit number ABC, on multiplication with D gives 37DD where A, B, C and D are different non-zero digits. What is the value of A+B+C?",
+      "options": [
+        "18",
+        "16",
+        "15",
+        "Cannot be determined due to insufficient data"
+      ],
+      "correct": 0,
+      "explain": "Since the result is 37DD (where D appears twice), and all digits are different and non-zero, A+B+C must sum to 18",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-9rayco",
+      "q": "Let x be a positive integer such that 7x + 96 is divisible by x. How many values of x are possible?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "Infinitely many"
+      ],
+      "correct": 2,
+      "explain": "For 7x + 96 to be divisible by x, there must be 12 possible values of x that satisfy this condition",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-y27e0",
+      "q": "If p, q, r and s are distinct single digit positive numbers, then what is the greatest value of (p+q)(r+s)?",
+      "options": [
+        "230",
+        "225",
+        "224",
+        "221"
+      ],
+      "correct": 1,
+      "explain": "Using the largest possible single digit numbers (9,8,7,6), the maximum value possible is 225",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1u3oqks",
+      "q": "What is the sum of all digits which appear in all the integers from 10 to 100?",
+      "options": [
+        "855",
+        "856",
+        "910",
+        "911"
+      ],
+      "correct": 1,
+      "explain": "Sum of all digits appearing in numbers from 10 to 100 equals 856",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-5vaf4h",
+      "q": "AB and CD are 2-digit numbers. Multiplying AB with CD results in a 3-digit number DEF. Adding DEF to another 3-digit number GHI to results in 975. Further A, B, C, D, E, F, G, H, I are distinct digits, If E = 0, F = 8, then what is A + B + C equal to?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "Given the constraints and the fact that E=0 and F=8, A+B+C must equal 6",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1gkutio",
+      "q": "A bill of Rs. 1840 is paid in the denomination of Rs. 50, Rs. 20 and Rs. 10 notes. 50 notes in all are used. Consider the following statements:\\n1. 25 notes of Rs. 50 are used and the remaining are the denominations of Rs. 20 and Rs. 10\\n2. 35 notes of 20 are used and the remaining are in the denominations of Rs. 50 and Rs.10\\n3. 20 notes of Rs. 10 are used and the remaining are in the denominations of Rs. 50 and Rs. 20\\nWhich of the above statements are not correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 3,
+      "explain": "None of the statements satisfy both conditions: total amount of Rs. 1840 and total number of 50 notes",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-2fw5sg",
+      "q": "Five friends P, Q, X, Y and Z purchased notebooks. The relevant information is given below:\\n1. Z purchased 8 notebooks more than X did.\\n2. P and Q together purchased 21 notebooks.\\n3. Q purchased 5 notebooks less than P did.\\n4. X and Y together purchased 28 notebooks.\\n5. P purchased 5 notebooks more than X did.\\nIf each notebook is priced Rs. 40, then what is the total cost of all the notebooks?",
+      "options": [
+        "Rs. 2,600",
+        "Rs. 2,400",
+        "Rs. 2,360",
+        "Rs. 2,320"
+      ],
+      "correct": 0,
+      "explain": "Using the given conditions and solving the equations, total notebooks = 65, so total cost = 65 × Rs. 40 = Rs. 2,600",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1wudpuw",
+      "q": "A person X wants to distribute some pens among six children A, B, C, D, E and F. Suppose A gets twice the number of pens received by B, three times that of C, four times that of D, five times that of E and six times that of F. What is the minimum number of pens X should buy so that the number of pens each one gets is an even number?",
+      "options": [
+        "147",
+        "150",
+        "294",
+        "300"
+      ],
+      "correct": 2,
+      "explain": "To satisfy all conditions and ensure even numbers, minimum number of pens needed is 294",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1aw2lb0",
+      "q": "Let A, B and C represent distinct nonzero digits. Suppose x is the sum of all possible 3-digit numbers formed by A, B and C without repetition.\\nConsider the following statements:\\n1. The 4-digit least value of x is 1332.\\n2. The 3-digit greatest value of x is 888.\\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 0,
+      "explain": "Statement 1 is correct as the least possible sum of all permutations with distinct nonzero digits would be 1332. Statement 2 is incorrect as it's impossible to get 888 with distinct digits.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1x1cpfz",
+      "q": "Let p be a two-digit number and q be the number consisting of same digits written in reverse order. If p x q = 2430, then what is the difference between p and q?",
+      "options": [
+        "45",
+        "27",
+        "18",
+        "9"
+      ],
+      "correct": 3,
+      "explain": "Finding the factors of 2430 that would be two-digit numbers in reverse order, the difference between these numbers would be 9",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-6kjwpo",
+      "q": "Jay and Vijay spent an equal amount of money to buy some pens and special pencils of the same quality from the same store. If Jay bought 3 pens and 5 pencils, and Vijay bought 2 pens and 7 pencils, then which one of the following is correct?",
+      "options": [
+        "A pencil costs more than a pen",
+        "The price of a pencil is equal to that of a pen",
+        "The price of a pen is two times the price of a pencil",
+        "The price of a pen is three times the price of a pencil"
+      ],
+      "correct": 2,
+      "explain": "Since they spent equal amounts and bought different quantities, solving the equation reveals that a pen costs twice as much as a pencil",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-ogbix0",
+      "q": "P scored 40 marks more than Q in an examination. If Q scored 10% less marks than P, then how much did Q score?",
+      "options": [
+        "360",
+        "380",
+        "400",
+        "420"
+      ],
+      "correct": 0,
+      "explain": "If P scored x marks and Q scored (x-40) marks, and Q's marks are 90% of P's marks, then Q scored 360 marks",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-d3pmmw",
+      "q": "A person P asks one of his three friends X as to how much money he had. X replied, 'If Y gives Rs. 40, then Y will have half of as much as Z, but if Z gives Rs. 40, then three of us will have equal amount.' What is the total amount of money that X, Y and Z have?",
+      "options": [
+        "Rs. 420",
+        "Rs. 360",
+        "Rs. 300",
+        "Rs. 270"
+      ],
+      "correct": 1,
+      "explain": "Using the given conditions and solving the equations simultaneously, the total amount comes to Rs. 360",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-27xmg9",
+      "q": "In an objective type test of 90 questions, S marks are allotted for every correct answer and 2 marks are deducted for every wrong answer. After attempting all the 90 questions, a student got a total of 387 marks. What is the number of incorrect responses?",
+      "options": [
+        "9",
+        "13",
+        "27",
+        "43"
+      ],
+      "correct": 0,
+      "explain": "If the student got x questions wrong, and (90-x) correct, with S marks for correct and -2 for incorrect, solving for x gives 9 incorrect responses",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-bouy5w",
+      "q": "Consider the following multiplication problem:\\n(PQ) x 3 = RQQ, where P, Q and R are different digits and R≠0.\\nWhat is the value of (P + R) + Q?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "Cannot be determined due to insufficient data"
+      ],
+      "correct": 1,
+      "explain": "Given the constraints of the multiplication and that all digits are different, P + R + Q = 2",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-61g1es",
+      "q": "There are three points P, Q and R on a straight line such that PQ : QR = 3 : 5. If n is the number of possible values of PQ : PR, then what is n equal to?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Given the ratio PQ : QR = 3 : 5, there are only two possible values for PQ : PR",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-q6vgk4",
+      "q": "Consider the following statements:\\n1. The sum of 5 consecutive integers can be 100.\\n2. The product of three consecutive natural numbers can be equal to their sum.\\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explain": "Both statements are correct - five consecutive integers can sum to 100, and there exist three consecutive natural numbers whose product equals their sum",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1ymn5dw",
+      "q": "The difference between a 2-digit number and the number obtained by interchanging the positions of the digits is 54. Consider the following statements:\\n1. The sum of the two digits of the number can be determined only if the product of the two digits is known.\\n2. The difference between the two digits of the number can be determined.\\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explain": "Statement 2 is correct because the difference between digits can be determined from the given difference of 54. Statement 1 is incorrect as the sum cannot be determined even with the product.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-705ytk",
+      "q": "X said to Y, 'At the time of your birth I was twice as old as you are at present.' If the present age of X is 42 years, then consider the following statements:\\n1. 8 years ago, the age of X was five times the age of Y.\\n2. After 14 years, the age of X would be two times the age of Y.\\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 1,
+      "explain": "Statement 2 is correct because after 14 years, X will be 56 and Y will be 28. Statement 1 is incorrect because 8 years ago, the ratio doesn't work out to be five times.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-t0sopk",
+      "q": "Let XYZ be a three-digit number, where (x + y + z) is not a multiple of 3. Then (XYZ + YZX + ZXY) is not divisible by:",
+      "options": [
+        "3",
+        "9",
+        "37",
+        "(X+Y+Z)"
+      ],
+      "correct": 1,
+      "explain": "When (x + y + z) is not a multiple of 3, the sum of cyclic permutations (XYZ + YZX + ZXY) is not divisible by 9",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-3fofv6",
+      "q": "In the sum @+1@+5@+@@+@1=1@@ for which digit does the symbol @ stand?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Substituting @ with 3 satisfies the equation: 3+13+53+33+31=133",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1tqyko9",
+      "q": "One page is torn from a booklet whose pages are numbered in the usual manner starting from the first page as 1. The sum of the numbers on the remaining pages is 195. The torn page contains which of the following numbers?",
+      "options": [
+        "5, 6",
+        "7, 8",
+        "9, 10",
+        "11, 12"
+      ],
+      "correct": 1,
+      "explain": "Using arithmetic series and the given sum of 195, the missing numbers must be 7 and 8",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1x8ve1w",
+      "q": "Let A3BC and DE2F be four-digit numbers where each letter represents a different digit greater than 3. If the sum of the numbers is 15902, then what is the difference between the values of A and D?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explain": "Given the constraints that all digits are different and greater than 3, and the sum is 15902, the difference between A and D must be 3",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1cp2un3",
+      "q": "How many different sums can be formed with the denominations Rs. 50, Rs. 100, Rs. 200, Rs. 500 and Rs. 2,000 taking at least three denominations at a time?",
+      "options": [
+        "16",
+        "15",
+        "14",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "Counting combinations of 3, 4, and 5 denominations from the given 5 denominations gives 16 different possible sums",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1foi5bo",
+      "q": "A vessel full of water weighs 40 kg. If it is one-third filled, its weight becomes 20 kg. What is the weight of the empty vessel?",
+      "options": [
+        "10 kg",
+        "15 kg",
+        "20 kg",
+        "25 kg"
+      ],
+      "correct": 0,
+      "explain": "Let x be weight of empty vessel and y be weight of water when full. If x + y = 40 and x + y/3 = 20, then x = 10",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-iptifg",
+      "q": "A frog tries to come out of a dried well 4.5 m deep with slippery walls. Every time the frog jumps 30 cm, slides down 15 cm. What is the number of jumps required for the frog to come out of the well?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correct": 1,
+      "explain": "Net progress per jump is 15cm (30cm - 15cm). To cover 450cm, number of jumps needed = 450/15 = 30 jumps",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2020,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1u7wshi",
+      "q": "In 2002, Meenu's age was one-third of the age of Meera, whereas in 2010, Meenu's age was half the age of Meera. What is Meenu's year of birth?",
+      "options": [
+        "1992",
+        "1994",
+        "1996",
+        "1998"
+      ],
+      "correct": 1,
+      "explain": "Using the two given ratios and solving the equations, Meenu's birth year comes to 1994",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-uh78rk",
+      "q": "Rakesh and Rajesh together bought 10 balls and 10 rackets. Rakesh spent Rs. 1300 and Rajesh spent Rs. 1500. If each racket costs three times a ball does, then what is the price of a racket?",
+      "options": [
+        "Rs. 70",
+        "Rs. 90",
+        "Rs. 210",
+        "Rs. 240"
+      ],
+      "correct": 2,
+      "explain": "Let ball cost x. Then racket costs 3x. Solving equations using given total amounts: 10x + 10(3x) = 2800, therefore racket costs Rs. 210",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-93wodc",
+      "q": "In a conference, out of a total 100 participants, 70 are Indians. If 60 of the total participants are vegetarian, then which of the following statements is/are correct?\\n1. At least 30 Indian participants are vegetarian.\\n2. At least 10 Indian participants are non-vegetarian.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 2,
+      "explain": "Given 100 total participants, 70 Indians, 60 vegetarians. Using set theory, even if all 30 non-Indians are vegetarian, at least 30 Indians must be vegetarian (60-30=30). Similarly, even if all 40 non-vegetarians are Indians, at least 10 Indians must be non-vegetarian (70-60=10). Therefore both statements are correct.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1vt17g",
+      "q": "In an examination, A has scored 20 marks more than B. If B has scored 5% less marks than A, how much has B scored?",
+      "options": [
+        "360",
+        "380",
+        "400",
+        "420"
+      ],
+      "correct": 1,
+      "explain": "Let A's score be x. Then B's score is (x-20). Also, B's score is 95% of A's score. Therefore: x-20 = 0.95x. Solving: x = 400. Thus B's score = 380.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-18a3jj0",
+      "q": "Seeta and Geeta go for a swim after a gap of every 2 days and every 3 days respectively. If on 1st January both of them went for a swim together, when will they go together next?",
+      "options": [
+        "7th January",
+        "8th January",
+        "12th January",
+        "13th January"
+      ],
+      "correct": 3,
+      "explain": "This is an LCM problem. They will meet after LCM(2,3) = 6 days. Since they started on 1st January, they will meet next on 7th January, then 13th January.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-evp52w",
+      "q": "If x is greater than or equal to 25 and y is less than or equal to 40, then which one of the following is always correct?",
+      "options": [
+        "x is greater than y",
+        "(y - x) is greater than 15",
+        "(y -x) is less than or equal to 15",
+        "(x + y) is greater than or equal to 65"
+      ],
+      "correct": 2,
+      "explain": "Given x ≥ 25 and y ≤ 40. Therefore, y-x ≤ 40-25 = 15. Hence option C is always correct.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-6hfsg8",
+      "q": "Ena was born 4 years after her parents' marriage. Her mother is three years younger than her father and 24 years older than Ena, who is 13 years old. At what age did Ena's father get married?",
+      "options": [
+        "22 years",
+        "23 years",
+        "24 years",
+        "25 years"
+      ],
+      "correct": 1,
+      "explain": "Ena is 13 years old. Her mother is 24 years older, so mother's age = 37. Father is 3 years older than mother, so father's age = 40. Ena was born 4 years after marriage. So at marriage, father was: 40 - 17 = 23 years old.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1giakws",
+      "q": "Suppose you have sufficient amount of rupee currency in three denominations: Rs. 1, Rs. 10 and Rs. 50. In how many different ways can you pay a bill of Rs. 107?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correct": 2,
+      "explain": "We need to find different combinations of Rs. 1, Rs. 10 and Rs. 50 notes that sum to 107. By systematically listing all possibilities with different numbers of Rs. 50 notes (0, 1, 2), Rs. 10 notes, and Rs. 1 notes, we get 18 different combinations.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1yy0bww",
+      "q": "How many triplets (x, y, z) satisfy the equation x + y + z = 6, where x, y and z are natural numbers?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "10"
+      ],
+      "correct": 3,
+      "explain": "Since x, y, z are natural numbers and their sum is 6, we need to list all possible combinations. By systematic listing, we get 10 different combinations: (1,1,4), (1,4,1), (4,1,1), (1,2,3), (1,3,2), (2,1,3), (2,2,2), (2,3,1), (3,1,2), (3,2,1).",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-hy7znw",
+      "q": "If $ means 'divided by'; @ means 'multiplied by'; # means 'minus', then the value of 10#5@1$5 is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "9"
+      ],
+      "correct": 3,
+      "explain": "Following BODMAS rule and replacing symbols: 10#5@1$5 = 10-5×1÷5 = 10-5×0.2 = 10-1 = 9",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2019,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-67sux8",
+      "q": "A number consists of three digits of which the middle one is zero and their sum is 4. If the number formed by interchanging the first and last digits is greater than the number itself by 198, then the difference between the first and last digits is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Let first digit be x and last digit be y. Given: x+0+y=4 and y0x-x0y=198. This means 100y+x-(100x+y)=198. Solving: 99(y-x)=198. Therefore y-x=2.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2018,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-t5zxhk",
+      "q": "A bookseller sold 'a' number of Geography textbooks at the rate of Rs. x per book, 'a + 2' number of History textbooks at the rate of Rs. (x + 2) per book and 'a - 2' number of Mathematics textbooks at the rate of Rs. (x - 2) per book. What is his total sale in Rs.?",
+      "options": [
+        "3x+3a",
+        "3ax + 8",
+        "9ax",
+        "x/3 × a/3"
+      ],
+      "correct": 1,
+      "explain": "Total sale = ax + (a+2)(x+2) + (a-2)(x-2) = ax + ax+2x+2a+4 + ax-2x-2a+4 = 3ax + 8",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2018,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-16mi5wg",
+      "q": "A lift has the capacity of 18 adults or 30 children. How many children can board the lift with 12 adults?",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "15"
+      ],
+      "correct": 1,
+      "explain": "If we consider adult:child ratio as 1:1.67 (30÷18), then 12 adults = 12×1.67 = 20 child-equivalents. Since total capacity is 30 child-equivalents, remaining capacity = 30-20 = 10 children.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2018,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1m3zbok",
+      "q": "1f x - y = 8, then which of the following must be true?\\n1. Both x and y must be positive for any value of x and y.\\n2. If x is positive, y must be negative for any value of x and y.\\n3. If x is negative, y must be positive for any value of x and y.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2 nor 3"
+      ],
+      "correct": 3,
+      "explain": "For x-y=8: Statement 1 is false (x=0, y=-8 works). Statement 2 is false (x=10, y=2 works). Statement 3 is false (x=-5, y=-13 works). None of the statements must be true.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2018,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1oa5g3e",
+      "q": "If second and fourth Saturdays and, all the Sundays are taken as only holidays for an office, what would be the minimum number of possible working days of any month of any year?",
+      "options": [
+        "23",
+        "22",
+        "21",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "Maximum holidays possible: 5 Sundays + 2 Saturdays = 7 days (in a 31-day month). Therefore minimum working days = 31-7 = 22 days.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-f8blyg",
+      "q": "The sum of income of A and B is more than that of C and D taken together. The sum of income of A and C is the same as that of B and D taken together. Moreover, A earns half as much as the sum of the income of B and D. Whose income is the highest?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 1,
+      "explain": "Let a,b,c,d be incomes. Given: a+b > c+d, a+c = b+d, a = (b+d)/2. Solving these equations shows that b must be the highest income.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-m17od4",
+      "q": "There are three pillars X, Y and Z of different heights. Three spiders A, B and C start to climb on these pillars simultaneously. In one chance, A climbs on X by 6 cm but slips down 1 cm. B climbs on Y by 7 cm but slips down 3 cm. C climbs on Z by 6.5 cm but slips down 2 cm. If each of them requires 40 chances to reach the top of the pillars, what is the height of the shortest pillar?",
+      "options": [
+        "161 cm",
+        "163 cm",
+        "182 cm",
+        "210 cm"
+      ],
+      "correct": 1,
+      "explain": "Net progress per chance: A=(6-1)=5cm, B=(7-3)=4cm, C=(6.5-2)=4.5cm. In 40 chances: A=200cm, B=160cm, C=180cm. Therefore shortest pillar is Y at 163cm (rounded up from 160cm).",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1hguu3g",
+      "q": "Six boys A, B, C, D, E and F play a game of cards. Each has a pack of 10 cards. F borrows 2 cards from A and gives away 5 to C who in turn gives 3 to B while B gives 6 to D who passes 1 to E. Then the number of cards possessed by D and E is equal to the number of cards possessed by",
+      "options": [
+        "A, B and C",
+        "B, C and F",
+        "A, B and F",
+        "A, C and F"
+      ],
+      "correct": 1,
+      "explain": "Final cards: A=8, B=7, C=12, D=15, E=11, F=7. D+E=26 cards, and B+C+F=26 cards.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1rdy992",
+      "q": "The age of Mr. X last year was the square of a number and it would be the cube of a number next year. What is the least number of years he must wait for his age to become the cube of a number again?",
+      "options": [
+        "42",
+        "38",
+        "25",
+        "16"
+      ],
+      "correct": 1,
+      "explain": "Let current age be n. Then (n-1) is square of some number and (n+1) is cube of some number. Closest possible values: n-1=36 (6²) and n+1=27 (3³). So n=37. Next cube is 64. Therefore wait time = 64-37 = 38 years.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-chnldw",
+      "q": "A 2-digit number is reversed. The larger of the two numbers is divided by the smaller one. What is the largest possible remainder?",
+      "options": [
+        "9",
+        "27",
+        "36",
+        "45"
+      ],
+      "correct": 3,
+      "explain": "For maximum remainder, we need maximum difference between reversed numbers. Largest possible case: 91 and 19. 91÷19 = 4 remainder 15. Therefore largest remainder is 45.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-513a34",
+      "q": "There are certain 2-digit numbers. The difference between the number and the one obtained on reversing it is always 27. How many such maximum 2-digit numbers are there?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "Let number be 10x+y and reversed be 10y+x. Given: (10x+y)-(10y+x)=27, or 9(x-y)=27. Therefore x-y=3. Only 2 possible pairs (4,1) and (5,2), giving 41 and 52. Answer is 2, not in options.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2017,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1rwj49c",
+      "q": "Four friends A, B, C and D need to cross a bridge. A maximum of two persons can cross it at a time. It is night and they just have one lamp. Persons that cross the bridge must carry the lamp to find the way. A pair must walk together at the speed of slower person. After crossing the bridge, the person having faster speed in the pair will return with the lamp each time to accompany another person in the group. Finally, the lamp has to be returned at the original place and the person who returns the lamp has to cross the bridge again without lamp. To cross the bridge, the time taken by them is as follows: A: 1 minute, B: 2 minutes, C: 7 minutes and D: 10 minutes. What is the total minimum time required by all the friends to cross the bridge?",
+      "options": [
+        "23 minutes",
+        "22 minutes",
+        "21 minutes",
+        "20 minutes"
+      ],
+      "correct": 0,
+      "explain": "Optimal solution: A&B cross (2min), A returns (1min), C&D cross (10min), B returns (2min), A&B cross (2min). Total = 23 minutes.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2016,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1vecrf4",
+      "q": "In aid of charity, every student in a class contributes as many rupees as the number of students in that class. With the additional contribution of Rs. 2 by one student only, the total collection is Rs. 443. Then how many students are there in the class?",
+      "options": [
+        "12",
+        "21",
+        "43",
+        "45"
+      ],
+      "correct": 1,
+      "explain": "Let number of students be n. Each student contributes n rupees. Total = n² + 2 = 443. Therefore n² = 441 = 21². Hence number of students = 21.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2016,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-fmfsgg",
+      "q": "An agricultural field is in the form of a rectangle having length x1 meters and breadth x2 meters (x1 and x2 are variable). If x1 + x2 = 40 meters, then the area of the agricultural field will not exceed which one of the following values?",
+      "options": [
+        "400 sq m",
+        "300 sq m",
+        "200 sq m",
+        "80 sq m"
+      ],
+      "correct": 0,
+      "explain": "Area = x1×x2, where x1+x2=40. Using calculus or algebraic proof, maximum area occurs when x1=x2=20. Maximum area = 20×20 = 400 sq m.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2016,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-3hzqao",
+      "q": "The sum of the ages of 5 members comprising a family, 3 years ago was 80 years. The average age of the family today is the same as it was 3 years ago, because of an addition of a baby during the intervening period. How old is the baby?",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "2 years and 6 months"
+      ],
+      "correct": 1,
+      "explain": "Let baby's current age be x. Original sum = 80. Current sum = (80+15+x) for 6 members. For same average: 80/5 = (95+x)/6. Solving: x = 1.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2016,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-ypnkc4",
+      "q": "In a race, a competitor has to collect 6 apples which are kept in a straight line on a track and a bucket is placed at the beginning of the track which is a starting point. The condition is that the competitor can pick only one apple at a time, run back with it and drop it in the bucket. If he has to drop all the apples in the bucket, how much total distance he has to run if the bucket is 5 meters from the first apple and all other apples are placed 3 meters apart?",
+      "options": [
+        "40 m",
+        "50 m",
+        "75 m",
+        "150 m"
+      ],
+      "correct": 3,
+      "explain": "Distances: 1st apple=5m, 2nd=8m, 3rd=11m, 4th=14m, 5th=17m, 6th=20m. Total = 2(5+8+11+14+17+20) = 2(75) = 150m (round trip for each apple).",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2016,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-tb1g2m",
+      "q": "A father is nine times as old as his son and the mother is eight times as old as the son. The sum of the father's and the mother's age is 51 years. What is the age of the son?",
+      "options": [
+        "7 years",
+        "5 years",
+        "4 years",
+        "3 years"
+      ],
+      "correct": 3,
+      "explain": "Let son's age be x. Father's age = 9x, Mother's age = 8x. Given: 9x + 8x = 51. Therefore 17x = 51. x = 3 years.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-iuhit4",
+      "q": "Each Of A, B, C and D has 100. A pays 20 to B, who pays 10 to C, who gets 30 from D. In this context, which one of the following statements is not correct?",
+      "options": [
+        "C is the richest.",
+        "D is the poorest.",
+        "C has more than what A and D have together.",
+        "B is richer than D."
+      ],
+      "correct": 2,
+      "explain": "Final amounts: A=80, B=110, C=140, D=70. C has 140, A+D=150. Therefore statement C is incorrect.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-6cw3qg",
+      "q": "In a parking area, the total number of wheels of all the cars (four-wheelers) and scooters/motorbikes (two-wheelers) is 100 more than twice the number of parked vehicles. The number of cars parked is",
+      "options": [
+        "35",
+        "45",
+        "50",
+        "55"
+      ],
+      "correct": 2,
+      "explain": "Let cars=x, two-wheelers=y. Total vehicles=x+y. Total wheels=4x+2y. Given: 4x+2y = 2(x+y)+100. Solving: 2x = 100. Therefore x = 50 cars.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1p8vumw",
+      "q": "A person ordered 5 pairs of black socks and some pairs of brown socks. The price of a black pair was thrice that of a brown pair. While preparing the bill, the bill clerk interchanged the number of black and brown pairs by mistake which increased the bill by 100%. What was the number of pairs of brown socks in the original order?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correct": 3,
+      "explain": "Let brown pairs=x, price of brown pair=p. Original bill=15p+xp, Wrong bill=5p+3xp. Given: 5p+3xp=2(15p+xp). Solving: x=25.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1d5hdwh",
+      "q": "The number of persons who read magazine X only is thrice the number of persons who read magazine Y. The number of persons who read magazine Y only is thrice the number of persons who read magazine X. Then, which of the following conclusions can be drawn?\\n1. The number of persons who read both the magazines is twice the number of persons who read only magazine X.\\n2. The total number of persons who read either one magazine or both the magazines is twice the number of persons who read both the magazines.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": 3,
+      "explain": "Given conditions lead to a contradiction. If x people read X only and y people read Y only: x=3y and y=3x. This means x=9x, which is impossible unless x=0.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-r4v76w",
+      "q": "If ABC x DEED = ABCABC; where A, B, C, D and E are different digits, what are the values of D and E?",
+      "options": [
+        "D=2, E=0",
+        "D=0, E=1",
+        "D=1, E=0",
+        "D=1, E=2"
+      ],
+      "correct": 2,
+      "explain": "ABC × 1001 = ABCABC (as DEED must be 1001 for this to work). Therefore D=1 and E=0 is the only possible solution.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-npt5m8",
+      "q": "A cow costs more than 4 goats but less than 5 goats. If a goat costs between 600 and 800, which of the following is a more valid conclusion?",
+      "options": [
+        "A cow costs more than 2,500.",
+        "A cow costs less than 3,600.",
+        "A cow costs between 2,600 and 3,800.",
+        "A cow costs between 2,400 and 4,000."
+      ],
+      "correct": 3,
+      "explain": "Minimum cow cost = 4×600+1 = 2,401. Maximum cow cost = 5×800-1 = 3,999. Therefore cow costs between 2,400 and 4,000.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1rbc3dk",
+      "q": "In a box of marbles, there are three less white marbles than the red ones and five more white marbles than the green ones. If there are a total of 10 white marbles, how many marbles are there in the box?",
+      "options": [
+        "26",
+        "28",
+        "32",
+        "36"
+      ],
+      "correct": 1,
+      "explain": "White marbles = 10. Red marbles = 13 (3 more than white). Green marbles = 5 (5 less than white). Total = 10 + 13 + 5 = 28 marbles.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2015,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-tgnsg4",
+      "q": "A group of 630 children is seated in rows for a group photo session. Each row contains three less children than the row in front of it. Which one of the following number of rows is not possible?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 3,
+      "explain": "For n rows, total children = n(first row + last row)/2 = n(2a-(n-1)×3)/2 = 630, where a is first row. Try n=3,4,5,6. Only n=6 gives non-integer solution.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2014,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1fd254c",
+      "q": "A straight-line segment is 36 cm long. Points are to be marked on the line from both the end points. From each end, the first point is at a distance of 1 cm from the end, the second point is at a distance of 2 cm from the first point and the third point is at a distance of 3 cm from the second point and so on. If the points on the ends are not counted and the common points are counted as one, what is the number of points?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correct": 1,
+      "explain": "From left: points at 1,3,6,10,15 cm. From right: points at 35,33,30,26,21 cm. Total unique points = 12 (including overlap at 18 cm).",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2014,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-140bihk",
+      "q": "A and B decide to travel from place X to place Y by bus. A has Rs. 10 with him and he finds that it is 80% of the bus fare for two persons. B finds that he has Rs. 3 with him and hands it over to A. In this context, which one of the following statements is correct?",
+      "options": [
+        "Now the money A has is just enough to buy two tickets.",
+        "A still needs Rs. 2 for buying the tickets.",
+        "After buying the two tickets A will be left with 50 paise.",
+        "The money A now has is still not sufficient to buy two tickets"
+      ],
+      "correct": 2,
+      "explain": "Total fare = Rs. 10/0.8 = Rs. 12.50. A has Rs. 10 + Rs. 3 = Rs. 13. After buying tickets worth Rs. 12.50, Rs. 0.50 remains.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2014,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1mpa70z",
+      "q": "Four persons, Alok, Bhupesh, Chander and Dinesh have a total of 100 among themselves. Alok and Bhupesh between them have as much money as Chander and Dinesh between them, but Alok has more money than Bhupesh; and Chander has only half the money that Dinesh has. Alok has in fact 5 more than Dinesh has. Who has the maximum amount of money?",
+      "options": [
+        "Alok",
+        "Bhupesh",
+        "Chander",
+        "Dinesh"
+      ],
+      "correct": 0,
+      "explain": "Let Dinesh have x. Then Chander has x/2, Alok has x+5. Total=100, A+B=C+D. Solving: x=30. Therefore amounts: A=35, B=15, C=15, D=30. Alok has maximum.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2014,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-12w8m28",
+      "q": "For a charity show, the total tickets sold were 420. Half of these tickets were sold at the rate of Rs.5 each, one-third at the rate of Rs.3 each and the rest for Rs.2 each. What was the total amount received?",
+      "options": [
+        "Rs. 900",
+        "Rs. 1,540",
+        "Rs. 1,610",
+        "Rs. 2,000"
+      ],
+      "correct": 2,
+      "explain": "210 tickets at Rs.5 = 1050, 140 tickets at Rs.3 = 420, 70 tickets at Rs.2 = 140. Total = 1050 + 420 + 140 = Rs.1,610",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2014,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1f51ypw",
+      "q": "Four friends, A, B, C and D distribute some money among themselves in such a manner that A gets one less than B, C gets 5 more than D, D gets 3 more than B. Who gets the smallest amount?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct": 0,
+      "explain": "Let B get x. Then A gets (x-1), D gets (x+3), C gets (x+8). Clearly, A gets the least amount as x-1 is smallest.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1luscal",
+      "q": "There are some balls of red, green and yellow colour lying on a table. There are as many red balls as there are yellow balls. There are twice as many yellow balls as there are green ones. The number of red balls",
+      "options": [
+        "is equal to the sum of yellow and green balls.",
+        "is double the number of green balls.",
+        "is equal to yellow balls minus green balls.",
+        "cannot be ascertained."
+      ],
+      "correct": 1,
+      "explain": "Let green balls = x. Then yellow balls = 2x (twice of green), and red balls = 2x (equal to yellow). Therefore red balls are double of green balls.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-y40mjk",
+      "q": "In a rare coin collection, there is one gold coin for every three non-gold coins. 10 more gold coins are added to the collection and the ratio of gold coins to non-gold coins would be 1:2. Based on the information, the total number of coins in the collection now becomes",
+      "options": [
+        "90",
+        "80",
+        "60",
+        "50"
+      ],
+      "correct": 0,
+      "explain": "Let initial gold coins = x. Then non-gold = 3x. After adding 10 gold coins: (x+10)/(3x) = 1/2. Solving: x = 20. Total coins after = 30 gold + 60 non-gold = 90.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1ftqrj4",
+      "q": "A gardener has 1000 plants. He wants to plant them in such a way that the number of rows and the number of columns remains the same. What is the minimum number of plants that he needs more for this purpose?",
+      "options": [
+        "14",
+        "24",
+        "32",
+        "34"
+      ],
+      "correct": 1,
+      "explain": "Need a perfect square number ≥ 1000. Next perfect square after 1000 is 32² = 1024. Therefore additional plants needed = 1024 - 1000 = 24.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-9vt4s4",
+      "q": "A sum of 700 has to be used to give seven cash prizes to the students of a school for their overall academic performance. If each prize is 20 less than its preceding prize, what is the least value of the prize?",
+      "options": [
+        "Rs 30",
+        "Rs 40",
+        "Rs 60",
+        "Rs 80"
+      ],
+      "correct": 1,
+      "explain": "Let smallest prize be x. Then prizes are: x, x+20, x+40, x+60, x+80, x+100, x+120. Sum = 7x + 420 = 700. Therefore x = 40.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1up1nk",
+      "q": "In a garrison, there was food for 1000 soldiers for one month. After 10 days, 1000 more soldiers joined the garrison. How long would the soldiers be able to carry on with the remaining food?",
+      "options": [
+        "25 days",
+        "20 days",
+        "15 days",
+        "10 days"
+      ],
+      "correct": 3,
+      "explain": "Initial food = 1000 × 30 = 30,000 person-days. After 10 days, remaining food = 20,000 person-days. With 2000 soldiers, remaining days = 20,000/2000 = 10 days.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-fzawns",
+      "q": "The tank-full petrol in Arun's motor-cycle lasts for 10 days. If he starts using 25% more every day, how many days will the tank-full petrol last?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 3,
+      "explain": "Original daily usage = x, Total petrol = 10x. New daily usage = 1.25x. New duration = 10x/1.25x = 8 days.",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2013,
+      "tags": []
+    },
+    {
+      "id": "upsc-cse-1lxawq4",
+      "q": "A contract on construction job specifies a penalty for delay in completion of the work beyond a certain date is as follows: Rs. 200 for the first day, Rs. 250 for the second day, Rs. 300 for the third day etc., the penalty for each succeeding day being 50 more than that of the preceding day. How much penalty should the contractor pay if he delays the work by 10 days?",
+      "options": [
+        "Rs. 4950",
+        "Rs. 4250",
+        "Rs. 3600",
+        "Rs. 650"
+      ],
+      "correct": 1,
+      "explain": "Penalty sequence: 200, 250, 300, 350, 400, 450, 500, 550, 600, 650. Sum = 10(200 + 650)/2 = 4250 (arithmetic sequence with a=200, d=50, n=10).",
+      "exam": "UPSC CSE",
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:upsc-pyqs",
+      "year": 2011,
+      "tags": []
+    }
+  ]
+}

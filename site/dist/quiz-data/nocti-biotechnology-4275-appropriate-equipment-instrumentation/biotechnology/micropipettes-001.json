@@ -1,0 +1,51 @@
+{
+  "title": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation - Biotechnology - Micropipettes",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+  "subject": "Biotechnology",
+  "topic": "Micropipettes",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-appropriate-equipment-&-instrumentation-15lsmjg",
+      "q": "A technician needs to measure exactly $14.5 \\ \\mu\\text{L}$ of a DNA polymerase master mix. They select a P20 micropipette (which measures from $2 \\ \\mu\\text{L}$ to $20 \\ \\mu\\text{L}$). When adjusting the volume dial, what digits should appear on the three-digit vertical display window (read from top to bottom)?",
+      "options": [
+        "Top: **1**, Middle: **4**, Bottom: **5**",
+        "Top: **0**, Middle: **1**, Bottom: **4** (with the dial turned halfway to 5)",
+        "Top: **1**, Middle: **4**, Bottom: **0**",
+        "Top: **1**, Middle: **4**, Bottom: **5** (with a zero implied at the end for thousands)"
+      ],
+      "correct": 0,
+      "explain": "To correctly set a micropipette, you must know what order of magnitude the top digit represents. \n\nOn a **P20 micropipette**, the maximum volume is $20.0 \\ \\mu\\text{L}$. \n- The top digit represents **tens**.\n- The middle digit represents **ones**.\n- The bottom digit (often colored red or separated by a horizontal line) represents **tenths** ($0.1 \\ \\mu\\text{L}$).\nTherefore, to dial in $14.5 \\ \\mu\\text{L}$, the window must explicitly read 1 (tens), 4 (ones), 5 (tenths).",
+      "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+      "subject": "Biotechnology",
+      "topic": "Micropipettes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-appropriate-equipment-&-instrumentation-1bpg1cu",
+      "q": "A student researcher requires $1,150 \\ \\mu\\text{L}$ of sterile water for a dilution. To save time from performing two separate pipetting steps, they take a standard P1000 micropipette and forcibly crank the volume dial up past its maximum limit to read '115'. What is the most severe consequence of this action?",
+      "options": [
+        "The pipette will accurately dispense $1,150 \\ \\mu\\text{L}$, but the tip will heavily overflow, contaminating the barrel.",
+        "The internal piston mechanism will break or strip, permanently destroying the calibration and accuracy of the instrument.",
+        "The internal HEPA filter will rupture due to over-pressurization.",
+        "The instrument will automatically switch to a low-viscosity continuous-flow mode."
+      ],
+      "correct": 1,
+      "explain": "Micropipettes are highly sensitive, precision-machined instruments. \n\nCranking the dial beyond the manufacturer's maximum (or minimum) stated volume forces the internal threaded piston outside of its physical design limits. This strips the gears, jams the spring mechanism, and completely destroys the calibration. A P1000 cannot safely draw or measure above $1000 \\ \\mu\\text{L}$ under any circumstances; the technician must either use a larger device (like a serological pipette) or perform two separate pipetting actions.",
+      "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+      "subject": "Biotechnology",
+      "topic": "Micropipettes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Waves",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Waves",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-ik577g",
+      "q": "The equation of a plane progressive wave is given by $y = 5 \\cos \\pi \\left(200t - \\frac{x}{150}\\right)$ where $x$ and $y$ are in cm and $t$ is in second. The velocity of the wave is _______ m/s.",
+      "options": [
+        "120",
+        "150",
+        "200",
+        "300"
+      ],
+      "correct": 3,
+      "explain": "The standard equation of a travelling wave is $y = A \\cos(\\omega t - k x)$.\nComparing it with the given equation $y = 5 \\cos \\left(200\\pi t - \\frac{\\pi x}{150}\\right)$, we find:\nAngular frequency $\\omega = 200\\pi\\text{ rad/s}$\nWave number $k = \\frac{\\pi}{150}\\text{ cm}^{-1}$\nThe velocity of the wave is given by $v = \\frac{\\omega}{k}$:\n$v = \\frac{200\\pi}{\\pi / 150} = 200 \\times 150 = 30000\\text{ cm/s}$\nConverting to meters per second:\n$v = 300\\text{ m/s}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Waves",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

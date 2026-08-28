@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Mathematics - Quadratic Equations",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Quadratic Equations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-xiurdg",
+      "q": "Let $\\alpha, \\alpha + 2, \\alpha \\in \\mathbb{Z}$, be the roots of the quadratic equation $x(x + 2) + (x + 1)(x + 3) + (x + 2)(x + 4) + \\dots + (x + n - 1)(x + n + 1) = 4n$ for some $n \\in \\mathbb{N}$. Then $n + \\alpha$ is equal to :",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2,
+      "explain": "The given equation is $\\sum_{k=0}^{n-1} (x+k)(x+k+2) = 4n$.\n\n$\\sum_{k=0}^{n-1} (x^2 + 2kx + 2x + k^2 + 2k) = 4n$\n$n x^2 + 2x \\frac{(n-1)n}{2} + 2x n + \\sum_{k=0}^{n-1} k(k + 2) = 4n$\nThis simplifies to:\n$n x^2 + n(n+1)x + \\frac{(n-1)n(2n-1)}{6} + \\frac{2(n-1)n}{2} - 4n = 0$\nDivide by $n$: $x^2 + (n+1)x + \\frac{(n-1)(2n-1)}{6} + (n-1) - 4 = 0$\nSum of roots = $2\\alpha + 2 = -(n+1) \\implies 2\\alpha = -(n+3)$. Since $\\alpha$ is an integer, $n$ must be an odd integer.\nProduct of roots = $\\alpha(\\alpha+2) = \\frac{2n^2 - 3n + 1 + 6n - 30}{6} = \\frac{2n^2 + 3n - 29}{6}$\nFrom $n = -2\\alpha - 3$, $(n+3)/2 = -\\alpha$. Then $\\alpha(\\alpha+2) = \\frac{-(n+3)}{2} \\cdot \\frac{-(n-1)}{2} = \\frac{n^2+2n-3}{4}$.\nEquating the two expressions for the product:\n$\\frac{n^2+2n-3}{4} = \\frac{2n^2+3n-29}{6}$\n$3n^2 + 6n - 9 = 4n^2 + 6n - 58 \\implies n^2 = 49 \\implies n = 7$ (since $n \\in \\mathbb{N}$).\nThen $2\\alpha = -10 \\implies \\alpha = -5$.\nSo $n + \\alpha = 7 - 5 = 2$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

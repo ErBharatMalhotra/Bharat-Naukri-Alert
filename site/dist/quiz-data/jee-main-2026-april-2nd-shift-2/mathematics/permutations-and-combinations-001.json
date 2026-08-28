@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Permutations and Combinations",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Permutations and Combinations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-h304so",
+      "q": "Let $p_n$ denote the total number of triangles formed by joining the vertices of an $n$-sided regular polygon. If $p_{n+1} - p_n = 66$, then the sum of all distinct prime divisors of $n$ is:",
+      "options": [
+        "$7$",
+        "$8$",
+        "$5$",
+        "$6$"
+      ],
+      "correct": 2,
+      "explain": "The number of triangles formed by joining vertices of an $n$-sided polygon is $p_n = \\binom{n}{3}$.\n$p_{n+1} - p_n = \\binom{n+1}{3} - \\binom{n}{3} = \\binom{n}{2}$.\nGiven $\\binom{n}{2} = 66 \\implies \\frac{n(n-1)}{2} = 66 \\implies n(n-1) = 132$. Thus, $n = 12$.\nDistinct prime divisors of $12$ are $2$ and $3$. Their sum is $2 + 3 = 5$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Permutations and Combinations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

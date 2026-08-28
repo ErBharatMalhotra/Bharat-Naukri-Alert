@@ -1,0 +1,171 @@
+{
+  "title": "BECE Mathematics Numerical Literacy - Mathematics - Binary System (Base 2)",
+  "titleHi": "",
+  "exam": "BECE Mathematics Numerical Literacy",
+  "subject": "Mathematics",
+  "topic": "Binary System (Base 2)",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "bece-mathematics-numerical-literacy-1q672go",
+      "q": "Convert $13_{10}$ to a binary number.",
+      "options": [
+        "$1101_2$",
+        "$1011_2$",
+        "$1110_2$",
+        "$1001_2$"
+      ],
+      "correct": 0,
+      "explain": "Divide 13 by 2 repeatedly: \n13/2 = 6 r 1 \n6/2 = 3 r 0 \n3/2 = 1 r 1 \n1/2 = 0 r 1 \nReading remainders upwards: $1101_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-89t1a0",
+      "q": "Convert $1010_2$ to a base 10 number.",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 1,
+      "explain": "$1 \\times 2^3 + 0 \\times 2^2 + 1 \\times 2^1 + 0 \\times 2^0 = 8 + 0 + 2 + 0 = 10$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-18ty1v4",
+      "q": "Calculate $110_2 + 101_2$.",
+      "options": [
+        "$1011_2$",
+        "$1001_2$",
+        "$1111_2$",
+        "$1101_2$"
+      ],
+      "correct": 0,
+      "explain": "$0+1=1$, $1+0=1$, $1+1=10$ (write 0 carry 1), Carry drops down. Result: $1011_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-1l6s7vu",
+      "q": "Subtract $11_2$ from $111_2$.",
+      "options": [
+        "$10_2$",
+        "$11_2$",
+        "$101_2$",
+        "$100_2$"
+      ],
+      "correct": 3,
+      "explain": "Column subtraction: $1-1=0$, $1-1=0$, $1-0=1$. Result: $100_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-exz6ha",
+      "q": "Multiply $11_2$ by $10_2$.",
+      "options": [
+        "$110_2$",
+        "$101_2$",
+        "$111_2$",
+        "$1001_2$"
+      ],
+      "correct": 0,
+      "explain": "$11_2$ represents 3. $10_2$ represents 2. $3 \\times 2 = 6$, which is $110_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-1tok6m8",
+      "q": "Which of the following numbers is the binary equivalent of 4?",
+      "options": [
+        "$11_2$",
+        "$100_2$",
+        "$101_2$",
+        "$110_2$"
+      ],
+      "correct": 1,
+      "explain": "$4 = 1 \\times 2^2 + 0 \\times 2^1 + 0 \\times 2^0$, which is $100_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-lrmzq2",
+      "q": "Find the missing value: $111_2 + x = 1000_2$.",
+      "options": [
+        "$0_2$",
+        "$1_2$",
+        "$10_2$",
+        "$11_2$"
+      ],
+      "correct": 1,
+      "explain": "$1000_2$ is 8. $111_2$ is 7. $8 - 7 = 1$, which is $1_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "bece-mathematics-numerical-literacy-ywzxkw",
+      "q": "Evaluate $100_2 \\div 10_2$.",
+      "options": [
+        "$10_2$",
+        "$1_2$",
+        "$11_2$",
+        "$100_2$"
+      ],
+      "correct": 0,
+      "explain": "$100_2 = 4$. $10_2 = 2$. $4 \\div 2 = 2$. $2​$ in binary is $10_2$.",
+      "exam": "BECE Mathematics Numerical Literacy",
+      "subject": "Mathematics",
+      "topic": "Binary System (Base 2)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

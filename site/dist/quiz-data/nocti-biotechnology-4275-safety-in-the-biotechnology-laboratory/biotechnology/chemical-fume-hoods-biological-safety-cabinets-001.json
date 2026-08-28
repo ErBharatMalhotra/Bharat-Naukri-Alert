@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Safety in the Biotechnology Laboratory - Biotechnology - Chemical fume hoods, biological safety cabinets",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Safety in the Biotechnology Laboratory",
+  "subject": "Biotechnology",
+  "topic": "Chemical fume hoods, biological safety cabinets",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-safety-in-the-biotechnology-laboratory-1obcko0",
+      "q": "Which of the following highly specific laboratory procedures MUST strictly be performed inside a certified Chemical Fume Hood rather than a Class II Biological Safety Cabinet (BSC)?",
+      "options": [
+        "Extracting total RNA from human tissue using a lysis buffer containing a highly volatile and deeply toxic organic solvent like beta-mercaptoethanol.",
+        "Aseptically passaging a fully characterized human HeLa cell line into a new, sterile T-75 culture flask.",
+        "Preparing a standard, non-toxic batch of liquid Luria-Bertani (LB) agar in a glass flask to pour plastic petri dishes.",
+        "Performing a routine polymerase chain reaction (PCR) utilizing totally harmless, synthetic oligonucleotide DNA primers."
+      ],
+      "correct": 0,
+      "explain": "A standard **Class II Biological Safety Cabinet (BSC)** protects the worker and the sample from biological particulates, but it recirculates a portion of the HEPA-filtered air back into the room. Because HEPA filters do *not* capture chemical gases, attempting to evaporate volatile, toxic organics (like beta-mercaptoethanol or chloroform) inside a standard BSC will actively pump toxic fumes directly into the technician's face. \n\nA **Chemical Fume Hood** is hard-ducted, pulling air away from the user and safely exhausting $100\\%$ of the toxic vapors entirely outside the building.",
+      "exam": "NOCTI Biotechnology 4275: Safety in the Biotechnology Laboratory",
+      "subject": "Biotechnology",
+      "topic": "Chemical fume hoods, biological safety cabinets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-safety-in-the-biotechnology-laboratory-19zngwo",
+      "q": "To ensure a Chemical Fume Hood provides maximum aerodynamic protection to the operator during chemical manipulation, the sliding glass front window (the sash) must be correctly positioned. Where is the absolute safest operational height for the sash during active experimental work?",
+      "options": [
+        "Completely open to the highest possible vertical point, mathematically maximizing the intake of fresh room air.",
+        "Pulled down exactly to the designated, certified operational sticker marking (usually leaving an 18-inch opening).",
+        "Closed completely tight so that the operator is forced to awkwardly reach under the glass frame to manipulate the chemicals.",
+        "Raised to the halfway mark strictly during summer months to help cool the ambient laboratory environment."
+      ],
+      "correct": 1,
+      "explain": "A fume hood's protective capability is dictated entirely by its \"face velocity\"—the speed at which air is actively pulled past the technician and into the hood. \n\nIf the sash is wide open (Option 'a'), the face velocity drops, allowing toxic fumes to easily spill out into the room. If it is completely closed, the technician cannot work. Annual safety certifiers mathematically balance the airflow and place a specific **certified operational sticker** on the side of the hood (usually around 18 inches). The sash must remain precisely at this height during work to guarantee safe vapor capture and provide a physical splash barrier to the face.",
+      "exam": "NOCTI Biotechnology 4275: Safety in the Biotechnology Laboratory",
+      "subject": "Biotechnology",
+      "topic": "Chemical fume hoods, biological safety cabinets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-safety-in-the-biotechnology-laboratory-kbqro",
+      "q": "A novice technician mistakenly attempts to evaporate a large open beaker of highly toxic, highly volatile chloroform inside a standard Class II Biological Safety Cabinet (BSC) instead of a chemical fume hood. Why does the BSC critically fail to protect the technician's health in this specific scenario?",
+      "options": [
+        "The BSC operates with continuous positive pressure, which forcibly blows the fumes directly outward into the technician's face like a fan.",
+        "The BSC relies entirely on HEPA filters; these filters effortlessly trap physical biological particulates but are completely incapable of capturing or stopping molecular hazardous chemical vapors.",
+        "The BSC lacks the heavy steel structural integrity to withstand the rapid expansion of evaporating solvent, creating an immense explosion risk.",
+        "The BSC continuously utilizes an internal UV Bunsen burner to sterilize the air, which will immediately and catastrophically ignite the chloroform."
+      ],
+      "correct": 1,
+      "explain": "Standard Class II BSCs rely exclusively on **High-Efficiency Particulate Air (HEPA) filters**. \n\nHEPA filters are woven webs of fiberglass designed to trap physical *particulates* (like dust, spores, and bacteria) larger than $0.3 \\ \\mu\\text{m}$. Chemical vapors and toxic gases exist at the molecular level, far smaller than the microscopic web of the filter. Therefore, toxic gases flow perfectly unobstructed straight through the HEPA filter and are exhausted right back into the laboratory, poisoning the technician.",
+      "exam": "NOCTI Biotechnology 4275: Safety in the Biotechnology Laboratory",
+      "subject": "Biotechnology",
+      "topic": "Chemical fume hoods, biological safety cabinets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

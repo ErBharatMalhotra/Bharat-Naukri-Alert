@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Chemistry - Solutions",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Chemistry",
+  "topic": "Solutions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-182al2s",
+      "q": "A non-volatile, non-electrolyte solid solute when dissolved in $40$ g of a solvent, the vapour pressure of the solvent decreased from $760$ mm Hg to $750$ mm Hg. If the same solution boils at $320$ K, then the number of moles of the solvent present in the solution is \\_\\_\\_\\_\\_. (Nearest integer)\n[Given: boiling point of the pure solvent $= 319.5$ K, $K_b$ of the solvent $= 0.3$ K kg mol$^{-1}$]",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "correct": 2,
+      "explain": "Applying Raoult's law for lowering of vapor pressure:\n$\\frac{P^\\circ - P_s}{P^\\circ} = x_{\\text{solute}} \\implies \\frac{760 - 750}{760} = \\frac{10}{760} = \\frac{1}{76}$.\nLet $n$ be the moles of the solute and $N$ be the moles of the solvent.\nMole fraction of solute, $x_{\\text{solute}} = \\frac{n}{n + N} = \\frac{1}{76}$.\n$n + N = 76n \\implies N = 75n$.\nThe elevation in boiling point is given by $\\Delta T_b = T_b - T_b^\\circ = 320 - 319.5 = 0.5$ K.\n$\\Delta T_b = K_b \\times m$, where molality $m = \\frac{\\text{Moles of solute } (n)}{\\text{Mass of solvent in kg}} = \\frac{n}{0.040}$.\n$0.5 = 0.3 \\times \\frac{n}{0.040}$.\nSolving for $n$: $n = \\frac{0.5 \\times 0.040}{0.3} = \\frac{0.020}{0.3} = \\frac{1}{15}$ moles.\nUsing the relationship derived from mole fraction: $N = 75n = 75 \\times \\left(\\frac{1}{15}\\right) = 5$ moles.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Solutions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

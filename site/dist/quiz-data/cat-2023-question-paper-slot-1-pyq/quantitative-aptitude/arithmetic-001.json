@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2023 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Arithmetic",
+  "titleHi": "",
+  "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Arithmetic",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-1rtnj3k",
+      "q": "In an examination, the average marks of 4 girls and 6 boys is 24. Each of the girls has the same marks while each of the boys has the same marks. If the marks of any girl is at most double the marks of any boy, but not less than the marks of any boy, then the number of possible distinct integer values of the total marks of 2 girls and 6 boys is",
+      "options": [
+        "20",
+        "22",
+        "21",
+        "19"
+      ],
+      "correct": 2,
+      "explain": "Let the girls' score be $g$ and the boys' score be $b$. The sum of their scores is $4g + 6b = 240 \\implies 2g + 3b = 120$. We are also given $b \\le g \\le 2b$. \nSubstituting $g \\ge b$ into the equation gives $2b + 3b \\le 120 \\implies 5b \\le 120 \\implies b \\le 24$. \nSubstituting $g \\le 2b$ gives $4b + 3b \\ge 120 \\implies 7b \\ge 120 \\implies b \\ge 120/7 \\approx 17.14$. \nThe total marks of 2 girls and 6 boys is $T = 2g + 6b$. From $2g + 3b = 120$, we have $2g = 120 - 3b$, so $T = (120 - 3b) + 6b = 120 + 3b$. \nTo find the range of $T$, plug in the bounds of $b$: \nMin $T = 120 + 3(120/7) = 1200/7 \\approx 171.4$. \nMax $T = 120 + 3(24) = 192$. \nThus, integer $T$ values range from $172$ to $192$. The number of possible distinct integer values of $T$ is $192 - 172 + 1 = 21$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Arithmetic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    }
+  ]
+}

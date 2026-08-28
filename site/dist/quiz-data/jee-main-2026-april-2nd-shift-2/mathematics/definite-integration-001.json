@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Definite Integration",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Definite Integration",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1jx95w8",
+      "q": "The value of $\\int_0^{20\\pi} (\\sin^4 x + \\cos^4 x) dx$ is equal to:",
+      "options": [
+        "$\\frac{15\\pi}{2}$",
+        "$25\\pi$",
+        "$15\\pi$",
+        "$\\frac{25\\pi}{2}$"
+      ],
+      "correct": 2,
+      "explain": "The integrand simplifies to $\\sin^4 x + \\cos^4 x = (\\sin^2 x + \\cos^2 x)^2 - 2\\sin^2 x \\cos^2 x = 1 - \\frac{1}{2} \\sin^2 2x = 1 - \\frac{1}{4} (1 - \\cos 4x) = \\frac{3}{4} + \\frac{1}{4} \\cos 4x$.\nThus $\\int_0^{20\\pi} (\\frac{3}{4} + \\frac{1}{4} \\cos 4x) dx = \\left[ \\frac{3}{4}x + \\frac{1}{16}\\sin 4x \\right]_0^{20\\pi}$.\nSince $\\sin(80\\pi) = 0$, the value is just $\\frac{3}{4} \\times 20\\pi = 15\\pi$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Definite Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

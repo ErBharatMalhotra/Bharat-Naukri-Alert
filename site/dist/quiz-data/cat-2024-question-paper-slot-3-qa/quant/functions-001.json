@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Functions",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Functions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-dh6f5s",
+      "q": "For any non-zero real number ${x}$, let $f(x)+2 f(\\frac{1}{x})=3 x$. Then, the sum of all possible values of ${x}$ for which $f(x)=3$, is:",
+      "options": [
+        "2",
+        "-3",
+        "-2",
+        "3"
+      ],
+      "correct": 1,
+      "explain": "First, solve for f(x). Replace x with 1/x to get a second equation: $f(1/x) + 2f(x) = 3/x$. Solve the system for f(x) to get $f(x) = 2/x - x$. Set $f(x)=3$, so $2/x - x = 3$. This leads to $x^2+3x-2=0$. The sum of roots is -b/a = -3.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

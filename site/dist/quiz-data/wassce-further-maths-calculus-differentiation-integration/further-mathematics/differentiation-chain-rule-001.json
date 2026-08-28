@@ -1,0 +1,91 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Differentiation (Chain Rule)",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Differentiation (Chain Rule)",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1kc7dns",
+      "q": "Find $\\frac{d}{dx} (3x^2 - 5)^4$.",
+      "options": [
+        "$24x(3x^2 - 5)^3$",
+        "$12x(3x^2 - 5)^3$",
+        "$4(3x^2 - 5)^3$",
+        "$24(3x^2 - 5)^3$"
+      ],
+      "correct": 0,
+      "explain": "Using the chain rule (function of a function), let $u = 3x^2 - 5$, meaning $y = u^4$. We find $\\frac{dy}{du} = 4u^3$ and $\\frac{du}{dx} = 6x$. Multiplying these gives $\\frac{dy}{dx} = 4(3x^2 - 5)^3 \\times 6x = 24x(3x^2 - 5)^3$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Chain Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1u6q518",
+      "q": "Find the derivative of $y = \\sqrt{4x + 1}$.",
+      "options": [
+        "$\\frac{4}{\\sqrt{4x+1}}$",
+        "$\\frac{2}{\\sqrt{4x+1}}$",
+        "$\\frac{1}{2\\sqrt{4x+1}}$",
+        "$\\frac{1}{\\sqrt{4x+1}}$"
+      ],
+      "correct": 1,
+      "explain": "Rewrite $y = (4x + 1)^{1/2}$. Applying the chain rule, $\\frac{dy}{dx} = \\frac{1}{2}(4x + 1)^{-1/2} \\cdot \\frac{d}{dx}(4x + 1)$. This equals $\\frac{1}{2}(4x + 1)^{-1/2} \\cdot 4 = 2(4x + 1)^{-1/2} = \\frac{2}{\\sqrt{4x+1}}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Chain Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1pk1ycg",
+      "q": "Differentiate $y = \\ln(x^2 + 3x)$ with respect to $x$.",
+      "options": [
+        "$\\frac{1}{x^2+3x}$",
+        "$\\frac{2x+3}{x^2+3x}$",
+        "$\\frac{2x}{x^2+3x}$",
+        "$(2x+3)\\ln(x^2+3x)$"
+      ],
+      "correct": 1,
+      "explain": "Apply the chain rule. The derivative of $\\ln(u)$ is $\\frac{1}{u} \\cdot u'$. Let $u = x^2 + 3x$, then $u' = 2x + 3$. The result is $\\frac{1}{x^2 + 3x} \\cdot (2x + 3) = \\frac{2x+3}{x^2+3x}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Chain Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1b4cphc",
+      "q": "If $y = (2x - 3)^5$, what is the value of $\\frac{dy}{dx}$ when $x = 2$?",
+      "options": [
+        "$5$",
+        "$10$",
+        "$20$",
+        "$0$"
+      ],
+      "correct": 1,
+      "explain": "Using the chain rule, $\\frac{dy}{dx} = 5(2x - 3)^4 \\times (2) = 10(2x - 3)^4$. When $x=2$, the value is $10(2(2) - 3)^4 = 10(4 - 3)^4 = 10(1)^4 = 10$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Chain Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

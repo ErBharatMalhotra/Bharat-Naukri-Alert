@@ -1,0 +1,91 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Data Interpretation and Logical Reasoning - Data Interpretation",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Data Interpretation and Logical Reasoning",
+  "topic": "Data Interpretation",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-cy5z1s",
+      "q": "**Passage:**\n\nAnu, Bijay, Chetan, Deepak, Eshan, and Faruq are six friends. Each of them uses a mobile number from exactly one of the two mobile operators - Xitel and Yocel. During the last month, the six friends made several calls to each other. Each call was made by one of these six friends to another. The table below summarizes the number of minutes of calls that each of the six made to (outgoing minutes) and received from (incoming minutes) these friends, grouped by the operators. Some of the entries are missing.\n\n| Friend | Operator | Outgoing mins to Operator Xitel | Outgoing mins to Operator Yocel | Incoming mins from Oprator Xitel | Incoming mins from Operator Yocel |\n|:---|:---|:---:|:---:|:---:|:---:|\n| Anu | Xitel | 100 | | 50 | 225 |\n| Bijay | Xitel | | 200 | | 125 |\n| Chetan | Yocel | 50 | 175 | 250 | 150 |\n| Deepak | Yocel | 100 | 150 | 275 | 100 |\n| Eshan | Yocel | | 100 | 100 | 375 |\n| Faruq | Yocel | 0 | | 100 | 150 |\n\nIt is known that the duration of calls from Faruq to Eshan was 200 minutes.\nAlso, there were no calls from:\n**i.** Bijay to Eshan,\n**ii.** Chetan to Anu and Chetan to Deepak,\n**iii.** Deepak to Bijay and Deepak to Faruq,\n**iv.** Eshan to Chetan and Eshan to Deepak.\n\n**Question:**\nWhat was the duration of calls (in minutes) from Bijay to Anu?",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "75"
+      ],
+      "correct": 1,
+      "explain": "Anu received 50 incoming minutes from Xitel users. Since Xitel users are Anu and Bijay, and Anu cannot call herself for incoming minutes in this context, these 50 minutes must have come entirely from Bijay. Thus, the duration of calls from Bijay to Anu is 50 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-18kj2vs",
+      "q": "*Refer to the passage provided in Question 39.*\n\nWhat was the total duration of calls (in minutes) made by Anu to friends having mobile numbers from Operator Yocel?",
+      "options": [
+        "475",
+        "500",
+        "525",
+        "550"
+      ],
+      "correct": 2,
+      "explain": "By balancing the matrix of incoming and outgoing calls among all individuals, we calculate Anu's total outgoing minutes to Yocel users (Chetan, Deepak, Eshan, Faruq). Solving the full interaction table reveals Anu made 525 minutes of calls to Yocel operator numbers.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-xyh6a4",
+      "q": "*Refer to the passage provided in Question 39.*\n\nWhat was the total duration of calls (in minutes) made by Faruq to friends having mobile numbers from Operator Yocel?",
+      "options": [
+        "250",
+        "300",
+        "350",
+        "400"
+      ],
+      "correct": 2,
+      "explain": "Completing the total sums for outgoing calls to Operator Yocel (based on the sum of incoming calls to Yocel users), and taking into account the 200 minutes Faruq called Eshan (a Yocel user) and applying the empty cell constraints, Faruq's total outgoing to Yocel amounts to 350 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-e8t2ei",
+      "q": "*Refer to the passage provided in Question 39.*\n\nWhat was the duration of calls (in minutes) from Deepak to Chetan?",
+      "options": [
+        "50",
+        "100",
+        "0",
+        "125"
+      ],
+      "correct": 1,
+      "explain": "Deepak made a total of 150 minutes of calls to Yocel. We know from conditions that he made 0 calls to Faruq. After mapping the specific calls received by other Yocel members constrained by zero-call links, the remaining minutes assigned to Chetan equal 100 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Data Interpretation and Logical Reasoning",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

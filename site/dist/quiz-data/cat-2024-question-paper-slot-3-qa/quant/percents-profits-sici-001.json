@@ -1,0 +1,91 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Percents Profits SICI",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Percents Profits SICI",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-c0l0ps",
+      "q": "In a group of 250 students, the percentage of girls was at least 44% and at most 60%. The rest of the students were boys. Each student opted for either swimming or running or both. If 50% of the boys and 80% of the girls opted for swimming while 70% of the boys and 60% of the girls opted for running, then the minimum and maximum possible number of students who opted for both swimming and running, are:",
+      "options": [
+        "72 and 80, respectively",
+        "75 and 90, respectively",
+        "72 and 88, respectively",
+        "75 and 96, respectively"
+      ],
+      "correct": 0,
+      "explain": "The number of students who opted for both is given by (Number swimming) + (Number running) - (Total students). This must be calculated for the minimum and maximum number of girls (110 and 150) to find the range.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-1d2xidd",
+      "q": "After two successive increments, Gopal's salary became 187.5% of his initial salary. If the percentage of salary increase in the second increment was twice of that in the first increment, then the percentage of salary increase in the first increment was:",
+      "options": [
+        "27.5",
+        "30",
+        "25",
+        "20"
+      ],
+      "correct": 2,
+      "explain": "Let the first increment be x%. The new salary is $S(1+x/100)(1+2x/100) = 1.875S$. Solving $(1+x/100)(1+2x/100) = 1.875$ for x gives x=25.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-1brzme0",
+      "q": "Aman invests Rs 4000 in a bank at a certain rate of interest, compounded annually. If the ratio of the value of the investment after 3 years to the value of the investment after 5 years is 25 : 36, then the minimum number of years required for the value of the investment to exceed Rs 20000 is:",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct": 1,
+      "explain": "The ratio of amounts gives $P(1+r)^3 / P(1+r)^5 = 25/36$, which simplifies to $(1+r)^-2 = 25/36$, so $1+r = 6/5 = 1.2$. The rate is 20%. We need to find n such that $4000(1.2)^n > 20000$, or $(1.2)^n > 5$. By testing values, we find $1.2^8 \\approx 4.3$ and $1.2^9 \\approx 5.15$. So, n=9 years.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-1dykn18",
+      "q": "Gopi marks a price on a product in order to make 20% profit. Ravi gets 10% discount on this marked price, and thus saves Rs 15. Then, the profit, in rupees, made by Gopi by selling the product to Ravi, is:",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "Let Cost Price (CP) be C. Marked Price (MP) = 1.2C. Discount = 10% of MP = 15. So, 0.10 * (1.2C) = 15, which means 0.12C = 15, and C = 125. Selling Price (SP) = MP - Discount = 1.2C - 15 = 1.2*125 - 15 = 150 - 15 = 135. Profit = SP - CP = 135 - 125 = 10.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Geometry",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Geometry",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-13hw2dk",
+      "q": "If the area of a regular hexagon is equal to the area of an equilateral triangle of side 12 cm, then the length, (in cm), of each side of the hexagon is",
+      "options": [
+        "$2\\sqrt{6}$",
+        "$4\\sqrt{6}$",
+        "$\\sqrt{6}$",
+        "$6\\sqrt{6}$"
+      ],
+      "correct": 0,
+      "explain": "Area of an equilateral triangle of side 12 cm = $\\frac{\\sqrt{3}}{4} \\times 12^2 = 36\\sqrt{3}$ cm$^2$.\nA regular hexagon is made up of 6 equilateral triangles. If its side is $a$, its area = $6 \\times \\frac{\\sqrt{3}}{4} a^2 = \\frac{3\\sqrt{3}}{2} a^2$.\nEquating the areas: $\\frac{3\\sqrt{3}}{2} a^2 = 36\\sqrt{3}$\n$a^2 = 36 \\times \\frac{2}{3} = 24$\n$a = \\sqrt{24} = 2\\sqrt{6}$ cm.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-rfa8vw",
+      "q": "Suppose the length of each side of a regular hexagon ABCDEF is 2 cm. If T is the mid point of CD, then the length of AT, in cm, is",
+      "options": [
+        "$\\sqrt{15}$",
+        "$\\sqrt{14}$",
+        "$\\sqrt{13}$",
+        "$\\sqrt{12}$"
+      ],
+      "correct": 2,
+      "explain": "Let the center of the hexagon be at the origin $(0,0)$. By orienting the hexagon appropriately, coordinates for A can be $(0, 2)$, B $(\\sqrt{3}, 1)$, C $(\\sqrt{3}, -1)$, D $(0, -2)$.\nWait, an easier setup is placing A at the origin $(0,0)$ and extending the perimeter. \nAlternatively, use the law of cosines. In $\\triangle ACD$, $AC = 2\\sqrt{3}$. The interior angle of a regular hexagon is $120^\\circ$. The angle $\\angle ACD = 90^\\circ$. \nLet's map it. Triangle AC is the diagonal across one angle, its length is $2\\sqrt{3}$. Triangle ACD is a right triangle at C with legs AC $= 2\\sqrt{3}$ and CD $= 2$. T is the midpoint of CD, so CT $= 1$.\nIn right $\\triangle ACT$, $AT^2 = AC^2 + CT^2 = (2\\sqrt{3})^2 + 1^2 = 12 + 1 = 13$.\n$AT = \\sqrt{13}$ cm.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1880s4t",
+      "q": "A circle of diameter 8 inches is inscribed in a triangle ABC where $\\angle ABC = 90^\\circ$. If $BC = 10$ inches then the area of the triangle in square inches is",
+      "options": [
+        "90",
+        "100",
+        "120",
+        "150"
+      ],
+      "correct": 2,
+      "explain": "Let $BC = a = 10$, $AB = c$, and hypotenuse $AC = b$.\nThe inradius of a right-angled triangle is given by $r = \\frac{a + c - b}{2}$.\nGiven diameter is 8, so $r = 4$.\n$4 = \\frac{10 + c - b}{2} \\implies c - b = -2 \\implies b - c = 2$.\nBy Pythagoras theorem: $b^2 - c^2 = a^2 = 10^2 = 100$.\nUsing difference of squares: $(b - c)(b + c) = 100$.\nSubstitute $b - c = 2 \\implies 2(b + c) = 100 \\implies b + c = 50$.\nAdding $b - c = 2$ and $b + c = 50$, we get $2b = 52 \\implies b = 26$.\nThus, $c = 24$.\nThe area of the right-angled triangle = $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times c \\times a = \\frac{1}{2} \\times 24 \\times 10 = 120$ sq inches.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Geometry",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Geometry",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-emal4g",
+      "q": "Let $ABCDEF$ be a regular hexagon and $P$ and $Q$ be the midpoints of $AB$ and $CD$, respectively. Then, the ratio of the areas of trapezium $PBCQ$ and hexagon $ABCDEF$ is",
+      "options": [
+        "7 : 24",
+        "5 : 24",
+        "6 : 19",
+        "6 : 25"
+      ],
+      "correct": 1,
+      "explain": "By dissecting the regular hexagon into 24 congruent small equilateral triangles (by dividing it into 6 large ones, and then connecting midpoints), analyzing the coordinates or visually counting the area units of trapezium $PBCQ$ shows that its area comprises exactly 5 of these 24 structural triangular units. Thus, the ratio of the areas is $5:24$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-17wx6cc",
+      "q": "In a $\\Delta ABC$, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is",
+      "options": [
+        "9 : 4",
+        "7 : 4",
+        "15 : 4",
+        "11 : 4"
+      ],
+      "correct": 3,
+      "explain": "Using mass point geometry, we assign masses to the vertices A, B, and C such that T is the center of mass.\nGiven AD : AT = 4 : 3, we have AT : TD = 3 : 1. Therefore, the mass at D is $3 \\times$ mass at A.\nGiven BE : BT = 5 : 4, we have BT : TE = 4 : 1. Therefore, the mass at E is $4 \\times$ mass at B.\nThe mass at D is the sum of masses at B and C: $m_B + m_C = 3 m_A$.\nThe mass at E is the sum of masses at A and C: $m_A + m_C = 4 m_B$.\nFrom the second equation, $m_C = 4 m_B - m_A$. Substituting this into the first equation: $m_B + (4 m_B - m_A) = 3 m_A \\implies 5 m_B = 4 m_A \\implies m_A = \\frac{5}{4} m_B$.\nNow, substitute $m_A$ to find $m_C$: $m_C = 4 m_B - \\frac{5}{4} m_B = \\frac{11}{4} m_B$.\nPoint D divides side BC in the ratio of the masses at its endpoints inversely, so BD : CD = $m_C : m_B = \\frac{11}{4} m_B : m_B = 11 : 4$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-cwjze1",
+      "q": "Two tangents drawn from a point P touch a circle with center O at points Q and R. Points A and B lie on PQ and PR, respectively, such that AB is also a tangent to the same circle. If $\\angle AOB = 50^\\circ$, then $\\angle APB$, in degrees, equals",
+      "options": [
+        "40",
+        "50",
+        "80",
+        "100"
+      ],
+      "correct": 2,
+      "explain": "Let the point of contact of tangent AB on the circle be T.\nIn tangents drawn from an external point, the angle subtended by the tangent segment at the center is related to the main tangent points: $\\angle AOT = \\frac{1}{2}\\angle QOT$ and $\\angle BOT = \\frac{1}{2}\\angle ROT$.\nThus, $\\angle AOB = \\angle AOT + \\angle BOT = \\frac{1}{2}(\\angle QOT + \\angle ROT) = \\frac{1}{2}\\angle QOR$.\nGiven $\\angle AOB = 50^\\circ$, we have $\\frac{1}{2}\\angle QOR = 50^\\circ \\implies \\angle QOR = 100^\\circ$.\nIn quadrilateral PQOR, angles at Q and R are $90^\\circ$ (tangent and radius). Thus, $\\angle P + \\angle QOR = 180^\\circ$.\n$\\angle APB = \\angle P = 180^\\circ - 100^\\circ = 80^\\circ$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Semiconductors",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Semiconductors",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-n8utys",
+      "q": "For a given circuit the time dependent input voltage $v_{in}(t)$ is a sine wave alternating between $20\\text{V}$ and $-20\\text{V}$. The corresponding output $v_o(t)$ is clipped flat at $+5\\text{V}$ and $-5\\text{V}$. Identify the components that are used in the circuit in the parallel branch between points X and Y to produce this clipped output.",
+      "options": [
+        "A resistor and a standard p-n junction diode",
+        "Two standard p-n junction diodes connected back-to-back",
+        "A resistor and a Zener diode",
+        "Two Zener diodes connected back-to-back"
+      ],
+      "correct": 3,
+      "explain": "The output voltage $v_o(t)$ is a clipped version of the input, restricted symmetrically to $+5\\text{V}$ and $-5\\text{V}$. \nTo achieve bidirectional symmetric voltage clipping, two Zener diodes must be connected back-to-back (in series, but pointing in opposite directions) across the output terminals.\nDuring the positive half-cycle, one Zener diode is forward biased and acts like a normal diode, while the other is reverse biased and experiences Zener breakdown at its $V_Z = 5\\text{V}$, holding the voltage constant.\nDuring the negative half-cycle, their roles reverse, successfully clipping the output at $-5\\text{V}$. Thus, two back-to-back Zener diodes are required.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Semiconductors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

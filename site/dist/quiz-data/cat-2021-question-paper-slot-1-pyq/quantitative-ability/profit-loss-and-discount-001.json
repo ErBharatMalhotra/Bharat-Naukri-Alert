@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Profit, Loss and Discount",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Profit, Loss and Discount",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-lctr7a",
+      "q": "Amal purchases some pens at ₹ 8 each. To sell these, he hires an employee at a fixed wage. He sells 100 of these pens at ₹ 12 each. If the remaining pens are sold at ₹ 11 each, then he makes a net profit of ₹ 300, while he makes a net loss of ₹ 300 if the remaining pens are sold at ₹ 9 each. The wage of the employee, in INR, is",
+      "options": [
+        "800",
+        "900",
+        "1000",
+        "1100"
+      ],
+      "correct": 2,
+      "explain": "Let the total number of pens be $100 + x$ and the employee's wage be $W$.\nCost Price of all pens = $8(100 + x) = 800 + 8x$.\nCase 1 (remaining sold at ₹ 11): Revenue = $12(100) + 11x = 1200 + 11x$.\nProfit = Revenue - (Cost Price + Wage) = $(1200 + 11x) - (800 + 8x + W) = 400 + 3x - W = 300$.\nThus, $3x - W = -100$.\nCase 2 (remaining sold at ₹ 9): Revenue = $12(100) + 9x = 1200 + 9x$.\nLoss = 300 $\\implies$ Profit = -300.\n$(1200 + 9x) - (800 + 8x + W) = 400 + x - W = -300$.\nThus, $x - W = -700$.\nSubtracting the two equations:\n$(3x - W) - (x - W) = -100 - (-700) \\implies 2x = 600 \\implies x = 300$.\nSubstitute $x = 300$ into the second equation:\n$300 - W = -700 \\implies W = 1000$.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Profit, Loss and Discount",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

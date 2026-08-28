@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Ethics - Biotechnology - Data protection and integrity",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Ethics",
+  "subject": "Biotechnology",
+  "topic": "Data protection and integrity",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-ethics-1wo279k",
+      "q": "During a routine spectrophotometer assay to determine protein concentration, a technician notices that well $A3$ contains an obvious air bubble. Predictably, the absorbance reading for well $A3$ is drastically lower than its technical replicates. To maintain strict data integrity according to Good Laboratory Practices (GLP), how should the technician handle this anomalous reading?",
+      "options": [
+        "Delete the well $A3$ reading from the software completely so the final report only displays the visually consistent replicates.",
+        "Record all raw data in the lab notebook, explicitly document the air bubble as a known protocol deviation, and provide statistical justification if excluding it from the final mean.",
+        "Manually adjust the raw absorbance value of well $A3$ in the spreadsheet to match the mathematical average of the successful replicates.",
+        "Discard the entire plate without documenting the failure and discreetly run a fresh assay later in the day."
+      ],
+      "correct": 1,
+      "explain": "Core principles of **data integrity (such as ALCOA+)** dictate that *all* raw data must be recorded exactly as generated. \n\nDeleting data (Option 'a'), altering data to look better (Option 'c'), or hiding failed runs (Option 'd') constitutes scientific misconduct and data falsification. The ethical and GLP-compliant action is to record the anomalous reading but document the physical cause (the bubble) in the lab notebook, which legally and scientifically justifies excluding that specific outlier during final statistical analysis.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Data protection and integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-ethics-1sehehc",
+      "q": "A biomanufacturing facility utilizes an Electronic Laboratory Notebook (ELN) and a Laboratory Information Management System (LIMS) for all quality control data. To comply with FDA regulations regarding electronic data integrity (specifically 21 CFR Part 11), which of the following features is absolutely mandatory for these software systems?",
+      "options": [
+        "A secure, time-stamped audit trail that tracks the identity of the user creating, modifying, or deleting any record.",
+        "An automated data-smoothing algorithm that automatically removes statistical outliers prior to saving the file.",
+        "An open-access portal allowing anyone on the facility's local network to overwrite unapproved data files.",
+        "A rolling purge feature that permanently deletes raw assay data older than 90 days to preserve server space."
+      ],
+      "correct": 0,
+      "explain": "Under the FDA's **21 CFR Part 11**, electronic records and signatures must be trustworthy and reliable equivalents to paper records. \n\nThe most critical requirement is a secure, computer-generated, time-stamped **audit trail**. This trail independently records the date, time, and identity of operators creating or modifying records, and prevents users from altering data without leaving a permanent digital footprint. Deleting old data (Option 'd') or altering data automatically (Option 'b') directly violates FDA retention and integrity mandates.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Data protection and integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-ethics-18i2c2k",
+      "q": "A principal investigator runs a massive high-throughput screening assay testing 100 different plant extracts for antimicrobial properties. Only Extract #42 shows a statistically significant zone of inhibition ($p < 0.05$). The investigator subsequently publishes a paper stating that the experiment was explicitly designed solely to test Extract #42, omitting any mention of the other 99 failed extracts. Which specific breach of research ethics has occurred?",
+      "options": [
+        "Data fabrication",
+        "Plagiarism",
+        "Selective reporting (HARKing / P-hacking)",
+        "Conflict of interest"
+      ],
+      "correct": 2,
+      "explain": "This scenario describes **selective reporting**, specifically a form of data dredging often related to HARKing (Hypothesizing After the Results are Known) or \"cherry-picking.\"\n\nBy testing 100 random compounds, standard probability dictates a few might show a false-positive significant result just by chance ($100 \\times 0.05 = 5$ expected false positives). By omitting the 99 negative results and pretending the study only looked at the successful one, the investigator is misrepresenting the statistical validity of the finding. The data wasn't made up (fabrication), stolen (plagiarism), or driven by financial gain (COI), but it was unethically filtered.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Data protection and integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

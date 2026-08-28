@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Permutation and Combination",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Permutation and Combination",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1e4l1qc",
+      "q": "The number of groups of three or more distinct numbers that can be chosen from 1, 2, 3, 4, 5, 6, 7 and 8 so that the groups always include 3 and 5, while 7 and 8 are never included together is",
+      "options": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "correct": 2,
+      "explain": "We need to form subsets of size $\\ge 3$ from {1, 2, 3, 4, 5, 6, 7, 8} containing 3 and 5, but not both 7 and 8.\nSince 3 and 5 are strictly included, the base group is {3, 5} (size 2). \nWe must choose elements from the remaining 6 numbers: {1, 2, 4, 6, 7, 8}.\nSince the final group must have at least 3 numbers, we must pick at least 1 number from the remaining 6.\nTotal subsets of the 6 remaining numbers = $2^6 = 64$.\nThe empty set (choosing 0 numbers) leaves the group at {3, 5} (size 2, invalid). Thus, $64 - 1 = 63$ valid subsets if no other restriction.\nNow we exclude subsets that contain BOTH 7 and 8.\nIf we fix 7 and 8 in the selection, we can freely choose from the other 4 numbers {1, 2, 4, 6}. There are $2^4 = 16$ such combinations.\nAll 16 of these have size $\\ge 2$ (so they never intersect with the empty set).\nValid groups = Total subsets (64) - Empty set (1) - Sets containing both 7 & 8 (16) = $64 - 1 - 16 = 47$.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Permutation and Combination",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

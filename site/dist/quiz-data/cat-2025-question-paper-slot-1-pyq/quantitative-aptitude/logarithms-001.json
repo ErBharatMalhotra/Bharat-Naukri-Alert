@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Logarithms",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Logarithms",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-aah8jp",
+      "q": "The number of distinct integers $n$ for which $\\log_{\\frac{1}{4}}(n^2 - 7n + 11) > 0$, is",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "infinite"
+      ],
+      "correct": 1,
+      "explain": "For $\\log_{b}(A) > 0$ when $0 < b < 1$, we must have $0 < A < 1$.\nApplying this, $0 < n^2 - 7n + 11 < 1$.\nRight side: $n^2 - 7n + 11 < 1 \\implies n^2 - 7n + 10 < 0 \\implies (n-2)(n-5) < 0 \\implies 2 < n < 5$. The integer candidates are 3 and 4.\nLeft side: $A > 0 \\implies n^2 - 7n + 11 > 0$. \nTesting the candidates:\nIf $n = 3$, $n^2 - 7n + 11 = 9 - 21 + 11 = -1$ (not greater than 0, logarithm undefined).\nIf $n = 4$, $n^2 - 7n + 11 = 16 - 28 + 11 = -1$ (not greater than 0, logarithm undefined).\nTherefore, NO integer satisfies the domain restriction of the logarithm. There are mathematically 0 valid integers. *(Note: The exam's official answer key mapping indicates '2', likely overlooking the strict $A > 0$ logarithm domain requirement which invalidates $n=3,4$. mathematically, '0' is correct.)*",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Logarithms",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

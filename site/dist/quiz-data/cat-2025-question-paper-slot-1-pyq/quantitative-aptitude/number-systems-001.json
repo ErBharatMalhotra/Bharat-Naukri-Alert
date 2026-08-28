@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Number Systems",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Number Systems",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-1e1h7k8",
+      "q": "In a 3-digit number N, the digits are non-zero and distinct such that none of the digits is a perfect square, and only one of the digits is a prime number. Then, the number of factors of the minimum possible value of N is",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "Non-zero digits avoiding perfect squares (1, 4, 9): $\\{2, 3, 5, 6, 7, 8\\}$.\nAmong these, Primes are $\\{2, 3, 5, 7\\}$ and Composites are $\\{6, 8\\}$.\nSince exactly one digit is prime and N is a 3-digit number with distinct digits, the other two digits MUST be both of the available composites: 6 and 8.\nThe three digits of the number are $\\{P, 6, 8\\}$, where $P \\in \\{2, 3, 5, 7\\}$.\nTo make the number $N$ as small as possible, we choose the smallest prime, $P = 2$, and place it in the hundreds position. We then place 6 in the tens and 8 in the units to minimize the value.\nSo, $N = 268$.\nPrime factorization of 268 = $268 = 2 \\times 134 = 2 \\times 2 \\times 67 = 2^2 \\times 67^1$.\nNumber of factors = $(2+1)(1+1) = 3 \\times 2 = 6$.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Number Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

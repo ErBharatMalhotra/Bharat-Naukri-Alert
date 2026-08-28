@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Mathématiques - Systèmes d'équations",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Mathématiques",
+  "topic": "Systèmes d'équations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-ua1ai8",
+      "q": "Étant donné un paramètre $\\beta$ réel, on considère le système suivant :\n$$\\begin{cases} \\beta x + \\beta y = 1 \\\\ 1 + \\beta y = 1 \\end{cases}$$\noù $x$ et $y$ sont les inconnues.\n\nParmi les propositions suivantes, laquelle est correcte ?",
+      "options": [
+        "Le système admet plusieurs solutions quel que soit $\\beta$",
+        "Le système admet une solution unique quel que soit $\\beta$",
+        "Le système n’admet pas de solution quel que soit $\\beta$",
+        "Le système n’admet pas de solution pour certaine(s) valeur(s) de $\\beta$ uniquement"
+      ],
+      "correct": 3,
+      "explain": "La deuxième équation du système est $1 + \\beta y = 1 \\implies \\beta y = 0$. Si $\\beta = 0$, la première équation devient $0 \\times x + 0 = 1$, ce qui est impossible ($0 = 1$). Le système n'a donc pas de solution pour $\\beta = 0$. Si $\\beta \\neq 0$, alors $y = 0$, ce qui donne $\\beta x = 1 \\implies x = 1/\\beta$, offrant une solution unique. Par conséquent, l'absence de solution se produit uniquement pour certaine(s) valeur(s) de $\\beta$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Mathématiques",
+      "topic": "Systèmes d'équations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}
