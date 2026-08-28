@@ -1,0 +1,151 @@
+{
+  "title": "GATE - Python Programming - Encapsulation",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Encapsulation",
+  "source": "indiabix.com",
+  "count": 7,
+  "questions": [
+    {
+      "id": "gate-aimkjo",
+      "q": "What is the purpose of the double underscore prefix in Python, as in __variable?",
+      "options": [
+        "To indicate a protected variable",
+        "To indicate a private variable",
+        "To indicate a global variable",
+        "To indicate a constant variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pb8e8a",
+      "q": "Which of the following best describes encapsulation?",
+      "options": [
+        "Combining data and methods into a single unit and allowing unrestricted access to internal details",
+        "Hiding implementation details of an object and exposing only the necessary functionalities",
+        "Inheriting attributes and behaviors from another class",
+        "Using global variables for data encapsulation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11kzh28",
+      "q": "How can encapsulation be achieved?",
+      "options": [
+        "By using public access specifiers for all class members",
+        "By allowing unrestricted access to the internal details of an object",
+        "By using access specifiers to control access to class members",
+        "By avoiding the use of classes and objects"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-afww0c",
+      "q": "Which access specifier in Python is used to indicate that a variable or method should be accessible by subclasses?",
+      "options": [
+        "Public",
+        "Private",
+        "Protected",
+        "Global"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rrqu6j",
+      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.__balance = balance def get_balance(self): return self.__balance def deposit(self, amount): self.__balance += amount def withdraw(self, amount): if amount What concept of encapsulation is demonstrated in this code?",
+      "options": [
+        "Public access specifier",
+        "Private access specifier",
+        "Protected access specifier",
+        "Global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12ya124",
+      "q": "Consider the following Python code: class Square: def __init__(self, __side_length): self.__side_length = __side_length def calculate_area(self): return self.__side_length ** 2 What is the purpose of the calculate_area() method?",
+      "options": [
+        "To retrieve the area of the square",
+        "To set a new area for the square",
+        "To calculate the area of the square",
+        "To expose all internal details of the class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bhi124",
+      "q": "In Python, what is the benefit of using a private variable with a double underscore prefix, such as __song_count? class MusicLibrary: __song_count = 0 def update_count(self, count): MusicLibrary.__song_count += count",
+      "options": [
+        "It improves code maintainability by hiding implementation details",
+        "It allows unrestricted access to __song_count",
+        "It exposes all internal details of __song_count",
+        "It creates a global variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Encapsulation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

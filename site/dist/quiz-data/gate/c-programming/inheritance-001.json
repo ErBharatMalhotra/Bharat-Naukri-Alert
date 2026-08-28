@@ -1,0 +1,301 @@
+{
+  "title": "GATE - C# Programming - Inheritance",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C# Programming",
+  "topic": "Inheritance",
+  "source": "indiabix.com",
+  "count": 15,
+  "questions": [
+    {
+      "id": "gate-cm9fso",
+      "q": "Multiple inheritance is different from multiple levels of inheritance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ussgsg",
+      "q": "An object of a derived class cannot access private members of base class.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ale22w",
+      "q": "The way a derived class member function can access base class public members, the base class member functions can access public member functions of derived class.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1799b3f",
+      "q": "There is no private or protected inheritance in C#.NET.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-igxr0",
+      "q": "We can derive a class from a base class even if the base class's source code is not available.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19q9iu0",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class Baseclass { public void fun() { Console.Write(\"Base class\" + \" \"); } } class Derived1: Baseclass { new void fun() { Console.Write(\"Derived1 class\" + \" \"); } } class Derived2: Derived1 { new void fun() { Console.Write(\"Derived2 class\" + \" \"); } } class Program { public static void Main(string[ ] args) { Derived2 d = new Derived2(); d.fun(); } } }",
+      "options": [
+        "Base class",
+        "Derived1 class",
+        "Derived2 class",
+        "Base class Derived1 class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cs8mq4",
+      "q": "Which of the following should be used to implement a 'Has a' relationship between two entities?",
+      "options": [
+        "Polymorphism",
+        "Templates",
+        "Containership",
+        "Encapsulation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18f01rd",
+      "q": "Which of the following is correct about the C#.NET snippet given below? namespace IndiabixConsoleApplication { class Baseclass { public void fun() { Console.WriteLine(\"Hi\" + \" \"); } public void fun(int i) { Console.Write(\"Hello\" + \" \"); } } class Derived: Baseclass { public void fun() { Console.Write(\"Bye\" + \" \"); } } class MyProgram { static void Main(string[ ] args) { Derived d; d = new Derived(); d.fun(); d.fun(77); } } }",
+      "options": [
+        "The program gives the output as: Hi Hello Bye",
+        "The program gives the output as: Bye Hello",
+        "The program gives the output as: Hi Bye Hello",
+        "Error in the program"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wkojsc",
+      "q": "In an inheritance chain which of the following members of base class are accessible to the derived class members? static protected private shared public",
+      "options": [
+        "1, 3",
+        "2, 5",
+        "3, 4",
+        "4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17dz4xw",
+      "q": "Which of the following are reuse mechanisms available in C#.NET? Inheritance Encapsulation Templates Containership Polymorphism",
+      "options": [
+        "1, 4",
+        "1, 3",
+        "2, 4",
+        "3, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jrypi5",
+      "q": "Which of the following should be used to implement a 'Like a' or a 'Kind of' relationship between two entities?",
+      "options": [
+        "Polymorphism",
+        "Containership",
+        "Templates",
+        "Encapsulation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2hgw1c",
+      "q": "How can you prevent inheritance from a class in C#.NET ?",
+      "options": [
+        "Declare the class as shadows.",
+        "Declare the class as overloads.",
+        "Declare the class as sealed.",
+        "Declare the class as suppress."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x8t1k",
+      "q": "Which of the following statements are correct about Inheritance in C#.NET? A derived class object contains all the base class data. Inheritance cannot suppress the base class functionality. A derived class may not be able to access all the base class data. Inheritance cannot extend the base class functionality. In inheritance chain construction of object happens from base towards derived.",
+      "options": [
+        "1, 2, 4",
+        "2, 4, 5",
+        "1, 3, 5",
+        "2, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tz4mdk",
+      "q": "Assume class B is inherited from class A. Which of the following statements is correct about construction of an object of class B?",
+      "options": [
+        "While creating the object firstly the constructor of class B will be called followed by constructor of class A.",
+        "While creating the object firstly the constructor of class A will be called followed by constructor of class B.",
+        "The constructor of only class B will be called.",
+        "The constructor of only class A will be called."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9afg0s",
+      "q": "Which of the following statements is correct about the C#.NET program given below? namespace IndiabixConsoleApplication { class Baseclass { int i; public Baseclass(int ii) { i = ii; Console.Write(\"Base \"); } } class Derived : Baseclass { public Derived(int ii) : base(ii) { Console.Write(\"Derived \"); } } class MyProgram { static void Main(string[ ] args) { Derived d = new Derived(10); } } }",
+      "options": [
+        "The program will work correctly only if we implement zero-argument constructors in Baseclass as well as Derived class.",
+        "The program will output: Derived Base",
+        "The program will report an error in the statement base(ii).",
+        "The program will work correctly if we replace base(ii) with base.Baseclass(ii)."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "GATE - C# Programming - Collection Classes",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C# Programming",
+  "topic": "Collection Classes",
+  "source": "indiabix.com",
+  "count": 6,
+  "questions": [
+    {
+      "id": "gate-1vlssdw",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? Stack st = new Stack(); st.Push(\"hello\"); st.Push(8.2); st.Push(5); st.Push('b'); st.Push(true);",
+      "options": [
+        "Dissimilar elements like \"hello\", 8.2, 5 cannot be stored in the same Stack collection.",
+        "Boolean values can never be stored in Stack collection.",
+        "In the fourth call to Push(), we should write \"b\" in place of 'b'.",
+        "To store dissimilar elements in a Stack collection, a method PushAnyType() should be used in place of Push()."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y3oki8",
+      "q": "Which of the following statements are correct about the Stack collection? It can be used for evaluation of expressions. All elements in the Stack collection can be accessed using an enumerator. It is used to maintain a FIFO list. All elements stored in a Stack collection must be of similar type. Top-most element of the Stack collection can be accessed using the Peek() method.",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 5 only",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8hkae0",
+      "q": "A HashTable t maintains a collection of names of states and capital city of each state. Which of the following is the correct way to find out whether \"Kerala\" state is present in this collection or not?",
+      "options": [
+        "t.ContainsKey(\"Kerala\");",
+        "t.HasValue(\"Kerala\");",
+        "t.HasKey(\"Kerala\");",
+        "t.ContainsState(\"Kerala\");"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1aceorw",
+      "q": "Which of the following is the correct way to access all elements of the Queue collection created using the C#.NET code snippet given below? Queue q = new Queue(); q.Enqueue(\"Sachin\"); q.Enqueue('A'); q.Enqueue(false); q.Enqueue(38); q.Enqueue(5.4);",
+      "options": [
+        "IEnumerator e; e = q.GetEnumerator(); while (e.MoveNext()) Console.WriteLine(e.Current);",
+        "IEnumerable e; e = q.GetEnumerator(); while (e.MoveNext()) Console.WriteLine(e.Current);",
+        "IEnumerator e; e = q.GetEnumerable(); while (e.MoveNext()) Console.WriteLine(e.Current);",
+        "IEnumerator e; e = Queue.GetEnumerator(); while (e.MoveNext()) Console.WriteLine(e.Current);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ybmobg",
+      "q": "Which of the following is NOT an interface declared in System.Collections namespace?",
+      "options": [
+        "IComparer",
+        "IEnumerable",
+        "IEnumerator",
+        "IDictionaryComparer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ahc5xo",
+      "q": "Which of the following statements are correct about the Collection Classes available in Framework Class Library?",
+      "options": [
+        "Elements of a collection cannot be transmitted over a network.",
+        "Elements stored in a collection can be retrieved but cannot be modified.",
+        "It is not easy to adopt the existing Collection classes for newtype of objects.",
+        "Elements stored in a collection can be modified only if allelements are of similar types."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Collection Classes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "title": "GATE - Database - Managing Databases With Sql Server 2000",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Database",
+  "topic": "Managing Databases With Sql Server 2000",
+  "source": "indiabix.com",
+  "count": 15,
+  "questions": [
+    {
+      "id": "gate-sjvp6c",
+      "q": "There is only one way to create and modify tables in SQL Server. Write SQL code using either the CREATE or ALTER statements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jofros",
+      "q": "SQL Server automatically creates an index on all primary and foreign keys.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12oroj4",
+      "q": "An SQL Server reserved word must be placed in brackets. If the word is not in brackets, SQL Server will try to interpret it as the name of one of its special words.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8gxfla",
+      "q": "With SQL Server, parameters and variables in T-SQL start with the \"%\" sign.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-accyjs",
+      "q": "Nonclustered indexes are faster than clustered indexes for retrieval.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6jtrko",
+      "q": "Which type of SQL Server cursor concurrency places an update lock on a row when the row is read?",
+      "options": [
+        "READ_ONLY",
+        "SCROLL_LOCK",
+        "OPTIMISTIC",
+        "READCOMMITTED"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1or9yf4",
+      "q": "Which of the three possible types of triggers does SQL Server support?",
+      "options": [
+        "INSTEAD OF only",
+        "AFTER only",
+        "BEFORE only",
+        "INSTEAD OF and AFTER only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sj1l5c",
+      "q": "Which of the following is a way to create and modify tables using SQL Server?",
+      "options": [
+        "Write SQL code using either CREATE or ALTER SQL statements only.",
+        "Use the graphical facilities of SQL Server Enterprise Manager only.",
+        "Both of the two methods above will work.",
+        "Neither of the two methods above will work."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pg889k",
+      "q": "With which type of SQL Server recovery model, is no logging done?",
+      "options": [
+        "Differential recovery",
+        "Full recovery",
+        "Bulk-logged recovery",
+        "Simple recovery"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17seyv8",
+      "q": "SQL Server 2000 stored procedures can:",
+      "options": [
+        "never be kept within the database.",
+        "be kept within the database and invoked by application programs.",
+        "be stored on the users' computer.",
+        "support BEFORE, INSTEAD OF and AFTER types."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sal3hk",
+      "q": "With which type of SQL Server recovery model are all database changes logged?",
+      "options": [
+        "Differential recovery",
+        "Full recovery",
+        "Simple recovery",
+        "Bulk-logged recovery"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qhe4wu",
+      "q": "SQL Server automatically creates an index on:",
+      "options": [
+        "primary keys only.",
+        "foreign key only.",
+        "both primary and foreign keys.",
+        "SQL Server never automatically creates an index."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vybh4o",
+      "q": "Which of the following is not a factor in determining the concurrency control behavior of SQL Server?",
+      "options": [
+        "Lock level",
+        "Transaction isolation level",
+        "Cursor concurrency setting",
+        "Locking hints"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m0atc",
+      "q": "SQL Server program code that is executed after an SQL command has been processed is called a(n):",
+      "options": [
+        "INSTEAD OF trigger.",
+        "BEFORE trigger.",
+        "AFTER trigger.",
+        "BEGIN trigger."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18m5cw0",
+      "q": "Which of the following refers to the SQL Server transaction isolation level which places and holds locks on all rows that are read?",
+      "options": [
+        "REPEATABLE READ",
+        "SERIALIZABLE",
+        "READ COMMITTED",
+        "READ UNCOMMITTED"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Managing Databases With Sql Server 2000",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

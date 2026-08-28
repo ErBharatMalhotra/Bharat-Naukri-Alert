@@ -1,0 +1,211 @@
+{
+  "title": "GATE - C Programming - Const",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Const",
+  "source": "indiabix.com",
+  "count": 10,
+  "questions": [
+    {
+      "id": "gate-k0u2v4",
+      "q": "Point out the error in the program. #include&lt;stdio.h&gt; #define MAX 128 int main() { char mybuf[] = \"India\"; char yourbuf[] = \"BIX\"; char *const ptr = mybuf; *ptr = 'a'; ptr = yourbuf; return 0; }",
+      "options": [
+        "Error: unknown pointer conversion",
+        "Error: cannot convert ptr const value",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fmu2ac",
+      "q": "Point out the error in the program (in Turbo-C). #include&lt;stdio.h&gt; #define MAX 128 int main() { const int max=128; char array[max]; char string[MAX]; array[0] = string[0] = 'A'; printf(\"%c %c\\n\", array[0], string[0]); return 0; }",
+      "options": [
+        "Error: unknown max in declaration/Constant expression required",
+        "Error: invalid array string",
+        "None of above",
+        "No error. It prints A A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xqxzgg",
+      "q": "Point out the error in the program. #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; union employee { char name[15]; int age; float salary; }; const union employee e1; int main() { strcpy(e1.name, \"K\"); printf(\"%s\", e1.name); e1.age=85; printf(\"%d\", e1.age); printf(\"%f\", e1.salary); return 0; }",
+      "options": [
+        "Error: RValue required",
+        "Error: cannot modify const object",
+        "Error: LValue required in strcpy",
+        "No error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o7nr0",
+      "q": "Point out the error in the program. #include&lt;stdio.h&gt; const char *fun(); int main() { char *ptr = fun(); return 0; } const char *fun() { return \"Hello\"; }",
+      "options": [
+        "Error: Lvalue required",
+        "Error: cannot convert 'const char *' to 'char *'.",
+        "No error and No output",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ft1p3w",
+      "q": "Point out the error in the program. #include&lt;stdio.h&gt; int main() { const int x; x=128; printf(\"%d\\n\", x); return 0; }",
+      "options": [
+        "Error: unknown data type const int",
+        "Error: const variable have been initialised when declared.",
+        "Error: stack overflow in x",
+        "No error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7htw5k",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { const char *s = \"\"; char str[] = \"Hello\"; s = str; while(*s) printf(\"%c\", *s++); return 0; }",
+      "options": [
+        "Error",
+        "H",
+        "Hello",
+        "Hel"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lazhbm",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int get(); int main() { const int x = get(); printf(\"%d\", x); return 0; } int get() { return 20; }",
+      "options": [
+        "Garbage value",
+        "Error",
+        "20",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l4o8r4",
+      "q": "What will be the output of the program (in Turbo C)? #include&lt;stdio.h&gt; int fun(int *f) { *f = 10; return 0; } int main() { const int arr[5] = {1, 2, 3, 4, 5}; printf(\"Before modification arr[3] = %d\", arr[3]); fun(&amp;arr[3]); printf(\"\\nAfter modification arr[3] = %d\", arr[3]); return 0; }",
+      "options": [
+        "Before modification arr[3] = 4 After modification arr[3] = 10",
+        "Error: cannot convert parameter 1 from const int * to int *",
+        "Error: Invalid parameter",
+        "Before modification arr[3] = 4 After modification arr[3] = 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-llstic",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { const int i=0; printf(\"%d\\n\", i++); return 0; }",
+      "options": [
+        "10",
+        "11",
+        "No output",
+        "Error: ++needs a value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17sb8r8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { const c = -11; const int d = 34; printf(\"%d, %d\\n\", c, d); return 0; }",
+      "options": [
+        "Error",
+        "-11, 34",
+        "11, 34",
+        "None of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Const",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

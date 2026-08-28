@@ -1,0 +1,151 @@
+{
+  "title": "GATE - Networking - Ip Routing",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Networking",
+  "topic": "Ip Routing",
+  "source": "indiabix.com",
+  "count": 7,
+  "questions": [
+    {
+      "id": "gate-keir2s",
+      "q": "What command is used to stop RIP routing updates from exiting out an interface but still allow the interface to receive RIP route updates?",
+      "options": [
+        "Router(config-if)# no routing",
+        "Router(config-if)# passive-interface",
+        "Router(config-router)# passive-interface s0",
+        "Router(config-router)# no routing updates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zypoak",
+      "q": "Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a higher-cost path to a network already in its routing table?",
+      "options": [
+        "The updated information will be added to the existing routing table.",
+        "The update will be ignored and no further action will occur.",
+        "The updated information will replace the existing routing table entry.",
+        "The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach convergence."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e7ktcq",
+      "q": "You type debug ip rip on your router console and see that 172.16.10.0 is being advertised to you with a metric of 16. What does this mean?",
+      "options": [
+        "The route is 16 hops away.",
+        "The route has a delay of 16 microseconds.",
+        "The route is inaccessible.",
+        "The route is queued at 16 messages a second."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vewno",
+      "q": "The Corporate router receives an IP packet with a source IP address of 192.168.214.20 and a destination address of 192.168.22.3. Looking at the output from the Corporate router, what will the router do with this packet? Corp#sh ip route [output cut] R 192.168.215.0 [120/2] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.115.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.30.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 C 192.168.20.0 is directly connected, Serial0/0 C 192.168.214.0 is directly connected, FastEthernet0/0",
+      "options": [
+        "The packet will be discarded.",
+        "The packet will be routed out the S0/0 interface.",
+        "The router will broadcast looking for the destination.",
+        "The packet will be routed out the Fa0/0 interface."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ndmeyg",
+      "q": "If your routing table has a static, a RIP, and an IGRP route to the same network, which route will be used to route packets by default?",
+      "options": [
+        "Any available route",
+        "RIP route",
+        "Static route",
+        "IGRP route"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11i804w",
+      "q": "IGRP uses which of the following as default parameters for finding the best path to a remote network? Hop count MTU Cumulative interface delay STP Path bandwidth value",
+      "options": [
+        "1 and 3",
+        "3 and 5",
+        "2, 3 and 5",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ub1sg0",
+      "q": "Network 206.143.5.0 was assigned to the Acme Company to connect to its ISP. The administrator of Acme would like to configure one router with the commands to access the Internet. Which commands could be configured on the Gateway router to allow Internet access to the entire network? Gateway(config)# ip route 0.0.0.0 0.0.0.0 206.143.5.2 Gateway(config)# router rip Gateway(config-router)# network 206.143.5.0 Gateway(config-router)# network 206.143.5.0 default",
+      "options": [
+        "1 only",
+        "3 only",
+        "1, 2 and 4",
+        "1 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "GATE - C# Programming - Generics",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C# Programming",
+  "topic": "Generics",
+  "source": "indiabix.com",
+  "count": 4,
+  "questions": [
+    {
+      "id": "gate-1epzhx4",
+      "q": "For the code snippet given below, which of the following statements is valid? public class Generic&lt;T&gt; { public T Field; } class Program { static void Main(string[ ] args) { Generic&lt;String&gt; g = new Generic&lt;String&gt;(); g.Field = \"Hello\"; Console.WriteLine(g.Field); } }",
+      "options": [
+        "It will print string \"Hello\" on the console.",
+        "Name Generic cannot be used as a class name because it's a keyword.",
+        "Compiler will give an error.",
+        "Member Field of class Generic is not accessible directly."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Generics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-34ajio",
+      "q": "For the code snippet given below, which of the following statements are valid? public class MyContainer&lt;T&gt; where T: IComparabte { // Insert code here } Class MyContainer requires that it's type argument must implement IComparabte interface. Type argument of class MyContainer must be IComparabte. Compiler will report an error for this block of code. This requirement on type argument is called as constraint.",
+      "options": [
+        "1 and 2 Only",
+        "1, 2 and 3 Only",
+        "1 and 4 Only",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Generics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c0e1z4",
+      "q": "For the code snippet given below, which of the following statements are valid? public class MyContainer&lt;T&gt; where T: class, IComparable { //Insert code here } Class MyContainer requires that it's type argument must implement IComparable interface. Compiler will report an error for this block of code. There are multiple constraints on type argument to MyContainer class. Class MyContainer requires that its type argument must be a reference type and it must implement IComparable interface.",
+      "options": [
+        "1 and 2 Only",
+        "3 and 4 Only",
+        "2 and 3 Only",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Generics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cx8t4k",
+      "q": "Which of the following statements is valid about advantages of generics?",
+      "options": [
+        "Generics shift the burden of type safety to the programmer rather than compiler.",
+        "Generics require use of explicit type casting.",
+        "Generics provide type safety without the overhead of multiple implementations.",
+        "Generics eliminate the possibility of run-time errors."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Generics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

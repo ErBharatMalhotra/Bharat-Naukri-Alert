@@ -1,0 +1,211 @@
+{
+  "title": "GATE - Networking - Subnetting",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Networking",
+  "topic": "Subnetting",
+  "source": "indiabix.com",
+  "count": 10,
+  "questions": [
+    {
+      "id": "gate-ijvkt4",
+      "q": "You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1twtot8",
+      "q": "If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?",
+      "options": [
+        "172.16.112.0",
+        "172.16.0.0",
+        "172.16.96.0",
+        "172.16.255.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14aqymg",
+      "q": "You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?",
+      "options": [
+        "6",
+        "8",
+        "30",
+        "32"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vw3z7g",
+      "q": "What is the subnetwork number of a host with an IP address of 172.16.66.0/21?",
+      "options": [
+        "172.16.36.0",
+        "172.16.48.0",
+        "172.16.64.0",
+        "172.16.0.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qj6fo8",
+      "q": "The network address of 172.16.0.0/19 provides how many subnets and hosts?",
+      "options": [
+        "7 subnets, 30 hosts each",
+        "8 subnets, 8,190 hosts each",
+        "8 subnets, 2,046 hosts each",
+        "7 subnets, 2,046 hosts each"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w2jym0",
+      "q": "If a host on a network has the address 172.16.45.14/30, what is the subnetwork this host belongs to?",
+      "options": [
+        "172.16.45.0",
+        "172.16.45.4",
+        "172.16.45.8",
+        "172.16.45.12"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nbh12w",
+      "q": "Using the following illustration, what would be the IP address of E0 if you were using the eighth subnet? The network ID is 192.168.10.0/28 and you need to use the last available IP address in the range. The zero subnet should not be considered valid for this question.",
+      "options": [
+        "192.168.10.142",
+        "192.168.10.66",
+        "192.168.100.254",
+        "192.168.10.143"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z6v94o",
+      "q": "Which configuration command must be in effect to allow the use of 8 subnets if the Class C subnet mask is 255.255.255.224?",
+      "options": [
+        "Router(config)#ip classless",
+        "Router(config)#no ip classful",
+        "Router(config)#ip unnumbered",
+        "Router(config)#ip subnet-zero"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kjqz0m",
+      "q": "Using the illustration from the previous question, what would be the IP address of S0 if you were using the first subnet? The network ID is 192.168.10.0/28 and you need to use the last available IP address in the range. Again, the zero subnet should not be considered valid for this question.",
+      "options": [
+        "192.168.10.24",
+        "192.168.10.62",
+        "192.168.10.30",
+        "192.168.10.127"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uddlkw",
+      "q": "What is the subnetwork address for a host with the IP address 200.10.5.68/28?",
+      "options": [
+        "200.10.5.56",
+        "200.10.5.32",
+        "200.10.5.64",
+        "200.10.5.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Subnetting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

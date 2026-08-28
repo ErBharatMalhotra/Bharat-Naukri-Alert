@@ -1,0 +1,221 @@
+{
+  "title": "GATE - C Programming - Typedef",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Typedef",
+  "source": "indiabix.com",
+  "count": 11,
+  "questions": [
+    {
+      "id": "gate-exvqhs",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { enum color{red, green, blue}; typedef enum color mycolor; mycolor m = red; printf(\"%d\", m); return 0; }",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "red"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-26s8wy",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { typedef int arr[5]; arr iarr = {1, 2, 3, 4, 5}; int i; for(i=0; i&lt;4; i++) printf(\"%d,\", iarr[i]); return 0; }",
+      "options": [
+        "1, 2, 3, 4",
+        "1, 2, 3, 4, 5",
+        "No output",
+        "Error: Cannot use typedef with an array"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rv37m0",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { typedef int LONG; LONG a=4; LONG b=68; float c=0; c=b; b+=a; printf(\"%d,\", b); printf(\"%f\\n\", c); return 0; }",
+      "options": [
+        "72, 68.000000",
+        "72.000000, 68",
+        "68.000000, 72.000000",
+        "68, 72.000000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19ewk6g",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { typedef float f; static f *fptr; float fval = 90; fptr = &amp;fval; printf(\"%f\\n\", *fptr); return 0; }",
+      "options": [
+        "9",
+        "0",
+        "90.000000",
+        "90"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1j77w2g",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; typedef struct error {int warning, err, exception;} ERROR; int main() { ERROR e; e.err=1; printf(\"%d\\n\", e.err); return 0; }",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11ildp8",
+      "q": "In the following code snippet can we declare a new typedef named ptr even though struct employee has not been completely declared while using typedef? typedef struct employee *ptr; struct employee { char name[20]; int age; ptr next; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ngv16i",
+      "q": "Point out the error in the following code? typedef struct { int data; NODEPTR link; }*NODEPTR;",
+      "options": [
+        "Error: in *NODEPTR",
+        "Error: typedef cannot be used until it is defined",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1le2f2k",
+      "q": "Is the following declaration acceptable? typedef long no, *ptrtono; no n; ptrtono p;",
+      "options": [
+        "Yes",
+        "NO"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ybe154",
+      "q": "Is there any difference in the #define and typedef in the following code? typedef char * string_t; #define string_d char *; string_t s1, s2; string_d s3, s4;",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-retluw",
+      "q": "Are the properties of i, j and x, y in the following program same? typedef unsigned long int uli; uli i, j; unsigned long int x, y;",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r9mj70",
+      "q": "typedef's have the advantage that they obey scope rules, that is they can be declared local to a function or a block whereas #define's always have a global effect.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Typedef",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

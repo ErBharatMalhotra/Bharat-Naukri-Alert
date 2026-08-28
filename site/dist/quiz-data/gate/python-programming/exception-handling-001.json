@@ -1,0 +1,151 @@
+{
+  "title": "GATE - Python Programming - Exception Handling",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Exception Handling",
+  "source": "indiabix.com",
+  "count": 7,
+  "questions": [
+    {
+      "id": "gate-1ynif1k",
+      "q": "What does the try and except blocks in Python exception handling allow you to do?",
+      "options": [
+        "Define custom exception classes",
+        "Raise exceptions intentionally",
+        "Handle and catch exceptions",
+        "Terminate the program"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wlgt0o",
+      "q": "Consider the following Python code: try: num = int(\"abc\") except ValueError: print(\"Invalid conversion\") else: print(\"Conversion successful\") What will be the output of this code?",
+      "options": [
+        "Invalid conversion",
+        "Conversion successful",
+        "ValueError: invalid literal for int() with base 10: 'abc'",
+        "No output, it will raise an exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ff3cyk",
+      "q": "Which of the following is NOT a built-in exception in Python for handling errors related to accessing a key that does not exist in a dictionary?",
+      "options": [
+        "KeyError",
+        "ValueError",
+        "NoSuchKeyError",
+        "NameError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4enadg",
+      "q": "In Python, what will happen if an exception is not caught?",
+      "options": [
+        "The program will continue executing normally",
+        "The program will terminate immediately",
+        "The program will prompt the user to handle the exception",
+        "The program will enter an infinite loop"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d1jdas",
+      "q": "What is the purpose of the finally block in Python exception handling?",
+      "options": [
+        "Define custom exception classes",
+        "Terminate the program",
+        "Execute code regardless of whether an exception is raised or not",
+        "Raise exceptions intentionally"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12o6y90",
+      "q": "Which of the following is a built-in exception in Python for handling errors related to importing modules that do not exist?",
+      "options": [
+        "ImportError",
+        "ModuleNotFoundError",
+        "NoSuchModuleError",
+        "ModuleImportError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yjn9ho",
+      "q": "What is the purpose of the with statement in Python for file handling?",
+      "options": [
+        "It raises exceptions",
+        "It terminates the program",
+        "It ensures proper resource cleanup",
+        "It defines custom exception classes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

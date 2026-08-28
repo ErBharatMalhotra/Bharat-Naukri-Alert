@@ -1,0 +1,169 @@
+{
+  "title": "GATE - C# Programming - Structures",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C# Programming",
+  "topic": "Structures",
+  "source": "indiabix.com",
+  "count": 8,
+  "questions": [
+    {
+      "id": "gate-t0rgok",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? class Trial { int i; Decimal d; } struct Sample { private int x; private Single y; private Trial z; } Sample ss = new Sample();",
+      "options": [
+        "ss will be created on the heap.",
+        "Trial object referred by z will be created on the stack.",
+        "z will be created on the heap.",
+        "Both ss and z will be created on the heap."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ocatio",
+      "q": "How many bytes will the structure variable samp occupy in memory if it is defined as shown below? class Trial { int i; Decimal d; } struct Sample { private int x; private Single y; private Trial z; } Sample samp = new Sample();",
+      "options": [
+        "20 bytes",
+        "12 bytes",
+        "8 bytes",
+        "16 bytes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1el3ncz",
+      "q": "Which of the following will be the correct result of the statement b = a in the C#.NET code snippet given below? struct Address { private int plotno; private String city; } Address a = new Address(); Address b; b = a;",
+      "options": [
+        "All elements of a will get copied into corresponding elements of b.",
+        "Address stored in a will get copied into b.",
+        "Once assignment is over a will get garbage collected.",
+        "Once assignment is over a will go out of scope, hence will die."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dfr24l",
+      "q": "Which of the following statements are correct? A struct can contain properties. A struct can contain constructors. A struct can contain protected data members. A struct cannot contain methods. A struct cannot contain constants.",
+      "options": [
+        "1, 2",
+        "3, 4",
+        "1, 2, 4",
+        "3, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u95r78",
+      "q": "C#.NET structures are always value types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t1eoxk",
+      "q": "Which of the following are true about classes and struct? A class is a reference type, whereas a struct is a value type. Objects are created using new, whereas structure variables can be created either using new or without using new. A structure variable will always be created slower than an object. A structure variable will die when it goes out of scope. An object will die when it goes out of scope.",
+      "options": [
+        "1, 2, 4",
+        "3, 5",
+        "2, 4",
+        "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o1m9f0",
+      "q": "Which of the following will be the correct output for the program given below? namespace IndiabixConsoleApplication { struct Sample { public int i; } class MyProgram { static void Main(string[] args) { Sample x = new Sample(); Sample y; x.i = 9; y = x; y.i = 5; Console.WriteLine(x.i + \" \" + y.i); } } }",
+      "options": [
+        "9 9",
+        "9 5",
+        "5 5",
+        "5 9"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2nfxmg",
+      "q": "Which of the following statements are correct about Structures used in C#.NET? A Structure can be declared within a procedure. Structs can implement an interface but they cannot inherit from another struct. struct members cannot be declared as protected. A Structure can be empty. It is an error to initialize an instance field in a struct.",
+      "options": [
+        "1, 2, 4",
+        "2, 3, 5",
+        "2, 4",
+        "1, 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

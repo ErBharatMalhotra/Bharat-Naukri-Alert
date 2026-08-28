@@ -1,0 +1,211 @@
+{
+  "title": "GATE - Python Programming - Tuples",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Tuples",
+  "source": "indiabix.com",
+  "count": 10,
+  "questions": [
+    {
+      "id": "gate-qswwvw",
+      "q": "Which of the following statements about tuples in Python is correct?",
+      "options": [
+        "Tuples allow in-place modification of elements.",
+        "Tuples can be nested to any level.",
+        "Tuples can only contain elements of the same data type.",
+        "Tuples support random access of elements by index."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-101e2pk",
+      "q": "How do you convert a list to a tuple?",
+      "options": [
+        "tuple(list)",
+        "list.to_tuple()",
+        "(tuple)list",
+        "list.as_tuple()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g382g6",
+      "q": "What is the result of the expression (1, 2, 3) + (4, 5, 6)?",
+      "options": [
+        "(1, 2, 3, 4, 5, 6)",
+        "((1, 2, 3), (4, 5, 6))",
+        "[1, 2, 3, 4, 5, 6]",
+        "(5, 7, 9)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-570t9k",
+      "q": "Which method is used to find the index of a specific element in a tuple?",
+      "options": [
+        "index()",
+        "find()",
+        "get_index()",
+        "search()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1agxczw",
+      "q": "What is the output of len((1, [2, 3], 'hello'))?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-167rtn7",
+      "q": "How do you convert a tuple to a string?",
+      "options": [
+        "str(tuple)",
+        "tuple.toString()",
+        "tuple.join('')",
+        "string(tuple)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o02ho0",
+      "q": "What is the result of the expression tuple((1, 2, 3)) * 3?",
+      "options": [
+        "(1, 2, 3, 1, 2, 3, 1, 2, 3)",
+        "((1, 2, 3), (1, 2, 3), (1, 2, 3))",
+        "[1, 2, 3, 1, 2, 3, 1, 2, 3]",
+        "(1, 2, 3, (1, 2, 3), (1, 2, 3))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1557coi",
+      "q": "What does the tuple() function do when given a list as an argument?",
+      "options": [
+        "Creates a tuple containing the entire list as a single element.",
+        "Converts the list into a tuple.",
+        "Raises a TypeError since lists and tuples are incompatible.",
+        "Appends the list to an existing tuple."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4yjqg7",
+      "q": "What is the result of the expression len(('apple',))?",
+      "options": [
+        "5",
+        "1",
+        "('apple',)",
+        "Raises a TypeError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fnpgnc",
+      "q": "How can you check if two tuples are equal?",
+      "options": [
+        "tuple1.equals(tuple2)",
+        "tuple1 == tuple2",
+        "tuple1.compare(tuple2)",
+        "tuple1 is tuple2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

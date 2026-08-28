@@ -1,0 +1,171 @@
+{
+  "title": "GATE - Python Programming - Console Io",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Console Io",
+  "source": "indiabix.com",
+  "count": 8,
+  "questions": [
+    {
+      "id": "gate-1v0jp3q",
+      "q": "How can you clear the screen in a Python console application?",
+      "options": [
+        "console.clear()",
+        "os.clear()",
+        "clear()",
+        "os.system(\"clear\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rlu4sc",
+      "q": "What is the purpose of the sys.stdin stream?",
+      "options": [
+        "Reading input from the console",
+        "Writing output to the console",
+        "Standard error input",
+        "Redirecting output to a file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-161k8ps",
+      "q": "Which of the following is used to format the output?",
+      "options": [
+        "format()",
+        "print_format()",
+        "string.format()",
+        "f-string"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4gbvuq",
+      "q": "How can you convert a string input from the console to an integer?",
+      "options": [
+        "int(input())",
+        "convert_int(input())",
+        "input().to_int()",
+        "parse_int(input())"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qylllk",
+      "q": "What will happen if you try to concatenate a string and an integer using the + operator?",
+      "options": [
+        "Error: Cannot concatenate string and integer",
+        "The integer will be converted to a string and concatenated",
+        "The string will be converted to an integer and concatenated",
+        "The program will terminate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-r2bfrs",
+      "q": "How can you prompt the user to enter a series of numbers until they enter a negative number, and then print the sum of the positive numbers?",
+      "options": [
+        "positive_sum(get_positive_numbers())",
+        "sum_positive_numbers(input(\"Enter numbers (negative to stop): \"))",
+        "total = 0; while True: num = int(input(\"Enter a number: \")); if num",
+        "print(\"Sum of positives:\", calculate_positive_sum(get_input_numbers()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mj0c58",
+      "q": "How can you read a string from the console, count the number of vowels and consonants, and print the result?",
+      "options": [
+        "vowel_consonant_count(input(\"Enter a string: \"))",
+        "print(count_vowels_consonants(get_user_string()))",
+        "string_input = input(\"Enter a string: \"); print(\"Vowels:\", count_vowels(string_input), \"Consonants:\", count_consonants(string_input))",
+        "print(\"Vowels:\", vowels_count(input(\"Enter a string: \")), \"Consonants:\", consonants_count(input()))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-59dfsg",
+      "q": "How can you prompt the user to enter a list of words, sort them alphabetically, and print the result?",
+      "options": [
+        "sorted_words(get_user_words())",
+        "print(\"Sorted words:\", sort_alphabetically(input(\"Enter words separated by spaces: \").split()))",
+        "words = input(\"Enter words separated by spaces: \").split(); print(\"Sorted words:\", sort_words(words))",
+        "sort_input_words(input(\"Enter a list of words: \"))"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Console Io",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

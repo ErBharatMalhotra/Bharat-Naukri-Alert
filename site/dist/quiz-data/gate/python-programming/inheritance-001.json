@@ -1,0 +1,211 @@
+{
+  "title": "GATE - Python Programming - Inheritance",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Inheritance",
+  "source": "indiabix.com",
+  "count": 10,
+  "questions": [
+    {
+      "id": "gate-1v45moc",
+      "q": "How does Python support encapsulation in the context of inheritance?",
+      "options": [
+        "By making all attributes public",
+        "By using private attributes and methods",
+        "By restricting inheritance",
+        "By removing the need for constructors"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5hvlts",
+      "q": "What is the purpose of the issubclass() function?",
+      "options": [
+        "To check if an object is an instance of a specific class",
+        "To create a new instance of a class",
+        "To check if a class is a subclass of another class",
+        "To access class attributes directly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rybs15",
+      "q": "What is the purpose of the __init__ method in Python classes?",
+      "options": [
+        "To define class attributes",
+        "To create a new instance of the class",
+        "To initialize class attributes and perform setup operations",
+        "To access superclass attributes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vk89tf",
+      "q": "What is the diamond problem in the context of multiple inheritance?",
+      "options": [
+        "A naming conflict in class attributes",
+        "Difficulty in determining method resolution order",
+        "Ambiguity caused by a class inheriting from two classes with a common ancestor",
+        "Inability to use private attributes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qufo85",
+      "q": "In Python, what is the purpose of the super(type, obj) function?",
+      "options": [
+        "To call the superclass constructor",
+        "To create a new instance of the subclass",
+        "To access class attributes directly",
+        "To explicitly specify the superclass"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12zfk1g",
+      "q": "In Python, what is the purpose of the __str__() method in a class?",
+      "options": [
+        "To define class attributes",
+        "To create a new instance of the class",
+        "To represent the object as a string for debugging",
+        "To provide a human-readable string representation of the object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-stwu4y",
+      "q": "Consider the following code: class Bird: def __init__(self, species): self.species = species class Parrot(Bird): def __init__(self, species, color): super().__init__(species) self.color = color What is the primary purpose of using super().__init__(species) in the Parrot class constructor?",
+      "options": [
+        "To call the constructor of the Parrot class",
+        "To create a new instance of the Bird class",
+        "To initialize attributes of the Bird class in the Parrot class",
+        "To access superclass attributes directly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qiiayy",
+      "q": "In Python, what is the purpose of the @property decorator?",
+      "options": [
+        "To create a new instance of the class",
+        "To define a method that can be accessed like an attribute",
+        "To access class attributes directly",
+        "To define a method that can be accessed as a read-only attribute"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-172r0jk",
+      "q": "How does Python handle multiple inheritance conflicts for attribute resolution?",
+      "options": [
+        "By automatically resolving conflicts using the first defined attribute",
+        "By raising an error and requiring explicit resolution using super()",
+        "By using the C3 linearization algorithm to determine attribute resolution order",
+        "Multiple inheritance conflicts are not allowed in Python"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-q6bw8g",
+      "q": "What is the purpose of the __slots__ attribute in Python classes?",
+      "options": [
+        "To define class attributes",
+        "To create a new instance of the class",
+        "To restrict the set of attributes that can be assigned to instances",
+        "To access superclass attributes directly"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Inheritance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

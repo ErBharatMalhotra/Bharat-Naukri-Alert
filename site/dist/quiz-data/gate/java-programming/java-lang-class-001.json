@@ -1,0 +1,191 @@
+{
+  "title": "GATE - Java Programming - Java Lang Class",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Java Programming",
+  "topic": "Java Lang Class",
+  "source": "indiabix.com",
+  "count": 9,
+  "questions": [
+    {
+      "id": "gate-1ry7v1g",
+      "q": "What will be the output of the program? String x = new String(\"xyz\"); String y = \"abc\"; x = x + y; How many String objects have been created?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ut4znk",
+      "q": "What will be the output of the program? public class WrapTest { public static void main(String [] args) { int result = 0; short s = 42; Long x = new Long(\"42\"); Long y = new Long(42); Short z = new Short(\"42\"); Short x2 = new Short(s); Integer y2 = new Integer(\"42\"); Integer z2 = new Integer(42); if (x == y) /* Line 13 */ result = 1; if (x.equals(y) ) /* Line 15 */ result = result + 10; if (x.equals(z) ) /* Line 17 */ result = result + 100; if (x.equals(x2) ) /* Line 19 */ result = result + 1000; if (x.equals(z2) ) /* Line 21 */ result = result + 10000; System.out.println(\"result = \" + result); } }",
+      "options": [
+        "result = 1",
+        "result = 10",
+        "result = 11",
+        "result = 11010"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dqp12k",
+      "q": "What will be the output of the program? public class BoolTest { public static void main(String [] args) { int result = 0; Boolean b1 = new Boolean(\"TRUE\"); Boolean b2 = new Boolean(\"true\"); Boolean b3 = new Boolean(\"tRuE\"); Boolean b4 = new Boolean(\"false\"); if (b1 == b2) /* Line 10 */ result = 1; if (b1.equals(b2) ) /* Line 12 */ result = result + 10; if (b2 == b4) /* Line 14 */ result = result + 100; if (b2.equals(b4) ) /* Line 16 */ result = result + 1000; if (b2.equals(b3) ) /* Line 18 */ result = result + 10000; System.out.println(\"result = \" + result); } }",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "10010"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fwv8vs",
+      "q": "What will be the output of the program? public class ObjComp { public static void main(String [] args ) { int result = 0; ObjComp oc = new ObjComp(); Object o = oc; if (o == oc) result = 1; if (o != oc) result = result + 10; if (o.equals(oc) ) result = result + 100; if (oc.equals(o) ) result = result + 1000; System.out.println(\"result = \" + result); } }",
+      "options": [
+        "1",
+        "10",
+        "101",
+        "1101"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hmgpw",
+      "q": "What will be the output of the program? public class Example { public static void main(String [] args) { double values[] = {-2.3, -1.0, 0.25, 4}; int cnt = 0; for (int x=0; x &lt; values.length; x++) { if (Math.round(values[x] + .5) == Math.ceil(values[x])) { ++cnt; } } System.out.println(\"same results \" + cnt + \" time(s)\"); } }",
+      "options": [
+        "same results 0 time(s)",
+        "same results 2 time(s)",
+        "same results 4 time(s)",
+        "Compilation fails."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lnghz4",
+      "q": "Which statement is true given the following? Double d = Math.random();",
+      "options": [
+        "0.0 &lt; d &lt;= 1.0",
+        "0.0 &lt;= d &lt; 1.0",
+        "Compilation fail",
+        "Cannot say."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cfblc7",
+      "q": "Which two statements are true about wrapper or String classes? If x and y refer to instances of different wrapper classes, then the fragment x.equals(y) will cause a compiler failure. If x and y refer to instances of different wrapper classes, then x == y can sometimes be true. If x and y are String references and if x.equals(y) is true, then x == y is true. If x, y, and z refer to instances of wrapper classes and x.equals(y) is true, and y.equals(z) is true, then z.equals(x) will always be true. If x and y are String references and x == y is true, then y.equals(x) will be true.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "4 and 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-37hqdk",
+      "q": "Which of the following will produce an answer that is closest in value to a double, d, while not being greater than d?",
+      "options": [
+        "(int)Math.min(d);",
+        "(int)Math.max(d);",
+        "(int)Math.abs(d);",
+        "(int)Math.floor(d);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ngkln4",
+      "q": "What two statements are true about the result obtained from calling Math.random()? The result is less than 0.0. The result is greater than or equal to 0.0.. The result is less than 1.0. The result is greater than 1.0. The result is greater than or equal to 1.0.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "4 and 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Java Lang Class",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

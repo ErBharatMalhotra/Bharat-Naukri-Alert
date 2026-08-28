@@ -1,0 +1,191 @@
+{
+  "title": "GATE - Python Programming - Generators",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Generators",
+  "source": "indiabix.com",
+  "count": 9,
+  "questions": [
+    {
+      "id": "gate-1ta7nuv",
+      "q": "What is the purpose of the next() function when working with generators?",
+      "options": [
+        "It generates the next random number",
+        "It retrieves the next element from the generator",
+        "It initializes the generator function",
+        "It terminates the generator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14a4uq4",
+      "q": "How does a generator handle large datasets compared to a list?",
+      "options": [
+        "Generators are slower than lists for large datasets",
+        "Generators consume more memory than lists",
+        "Generators are not suitable for large datasets",
+        "Generators are more memory-efficient than lists"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19p2koi",
+      "q": "What will happen if a generator function reaches the end of its execution?",
+      "options": [
+        "It raises a StopIteration exception",
+        "It automatically restarts from the beginning",
+        "It continues to the next iteration",
+        "It raises a GeneratorExit exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-124bfdy",
+      "q": "What is the advantage of using the yield from statement in a generator function?",
+      "options": [
+        "It replaces the yield keyword",
+        "It simplifies the generator function syntax",
+        "It allows delegation to another generator",
+        "It is used for generator initialization"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jcb38m",
+      "q": "What is the main difference between a generator and a list comprehension?",
+      "options": [
+        "Generators are used for creating lists, while list comprehensions produce iterators",
+        "List comprehensions create lists in memory, while generators produce values on-the-fly",
+        "List comprehensions can only be used with numerical data, while generators work with any data type",
+        "Generators use the list() constructor, while list comprehensions use generator()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vkkuyx",
+      "q": "How does the itertools.tee() function behave when used with a generator that contains mutable objects?",
+      "options": [
+        "It raises a TypeError",
+        "It creates independent iterators, and changes in one iterator affect the others",
+        "It creates independent iterators, and changes in one iterator do not affect the others",
+        "It raises a ValueError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mc2m5u",
+      "q": "How does the itertools.count() function behave when used with a specified step value?",
+      "options": [
+        "It raises a TypeError",
+        "It creates an infinite sequence of integers with the specified step value",
+        "It stops after reaching the specified step value",
+        "It raises a ValueError"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1csxt7w",
+      "q": "How does the itertools.zip_longest() function behave when used with generators of unequal lengths?",
+      "options": [
+        "It raises a TypeError",
+        "It stops when the shortest generator is exhausted",
+        "It raises a ValueError",
+        "It continues until the longest generator is exhausted, filling in missing values with a specified fillvalue"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4s1hl1",
+      "q": "What does the yield from statement do when used in a generator?",
+      "options": [
+        "It yields a single value from the generator",
+        "It raises a TypeError",
+        "It delegates part of the generator's operation to another generator or iterable",
+        "It stops the generator and raises a StopIteration exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Generators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

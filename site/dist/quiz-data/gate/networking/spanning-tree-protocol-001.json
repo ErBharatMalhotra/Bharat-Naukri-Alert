@@ -1,0 +1,131 @@
+{
+  "title": "GATE - Networking - Spanning Tree Protocol",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Networking",
+  "topic": "Spanning Tree Protocol",
+  "source": "indiabix.com",
+  "count": 6,
+  "questions": [
+    {
+      "id": "gate-1pzvd68",
+      "q": "Which of the following statement is true?",
+      "options": [
+        "A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
+        "A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+        "A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well.",
+        "A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11s6vsg",
+      "q": "You have two switches connected together with two crossover cables for redundancy, and STP is disabled. Which of the following will happen between the switches?",
+      "options": [
+        "The routing tables on the switches will not update.",
+        "The MAC forward/filter table will not update on the switch.",
+        "Broadcast storms will occur on the switched network.",
+        "The switches will automatically load-balance between the two links."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18gw5os",
+      "q": "Layer 2 switching provides which of the following? Hardware-based bridging (ASIC) Wire speed Low latency Low cost",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "1, 2 and 4",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fdgkn8",
+      "q": "Your switch has a port status LED that is alternating between green and amber. What could this indicate?",
+      "options": [
+        "The port is experiencing errors.",
+        "The port is shut down.",
+        "The port is in STP blocking mode.",
+        "Nothing; this is normal."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10vp334",
+      "q": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
+      "options": [
+        "Switch(config)# spanning-tree mode rapid-pvst",
+        "Switch# spanning-tree mode rapid-pvst",
+        "Switch(config)# spanning-tree mode 802.1w",
+        "Switch# spanning-tree mode 802.1w"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w2oufo",
+      "q": "What are the distinct functions of layer 2 switching that increase available bandwidth on the network? Address learning Routing Forwarding and filtering Creating network loops Loop avoidance IP addressing",
+      "options": [
+        "1, 3 and 5",
+        "2, 4 and 6",
+        "2 and 6",
+        "3 and 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}
