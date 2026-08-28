@@ -420,19 +420,23 @@ function showResults(){clearInterval(timer);var pct=data.questions.length?Math.r
 var grade=pct>=80?'Excellent!':pct>=60?'Good Job!':pct>=40?'Keep Practicing!':'Needs Improvement';
 el.innerHTML='<div class="quiz-final"><h3>Quiz Complete!</h3><p class="quiz-grade">'+grade+'</p><p class="quiz-final-score">Score: '+score+' / '+data.questions.length+' ('+pct+'%)</p>'+(mode==='mock'?'<p class="quiz-time-taken">Time: '+fmt(Math.round((data.questions.length*60)-timeLeft))+'</p>':'')+'<button class="btn btn-pri" id="qRestart">Try Again</button></div>';
 var rb=el.querySelector('#qRestart');if(rb)rb.addEventListener('click',function(){startQuiz(mode);});}
+function esc(s){var d=document.createElement('div');d.textContent=s||'';return d.innerHTML;}
 function render(){
 if(!data||!data.questions.length){el.innerHTML='<p>No questions available.</p>';return;}
 var q=data.questions[qIdx];
+var qText=q.q||q.question||'';
 var pct=Math.round((qIdx/data.questions.length)*100);
 var h='<div class="quiz-hud"><span class="quiz-prog">'+(qIdx+1)+' / '+data.questions.length+'</span><span class="quiz-score">Score: '+score+'</span>'+(mode==='mock'?'<span class="quiz-timer">'+fmt(timeLeft)+'</span>':'')+'</div>';
 h+='<div class="quiz-bar"><div class="quiz-fill" style="width:'+pct+'%"></div></div>';
-h+='<div class="quiz-q" data-reveal>'+q.q+'</div>';
+h+='<div class="quiz-q" data-reveal>'+esc(qText)+'</div>';
 h+='<div class="quiz-opts">';
-q.options.forEach(function(o,i){h+='<button class="quiz-opt" data-idx="'+i+'">'+o+'</button>';});
+(q.options||[]).forEach(function(o,i){h+='<button class="quiz-opt" data-idx="'+i+'">'+esc(o)+'</button>';});
 h+='</div>';
 if(answered){
-var correct=q.correct===parseInt(el.querySelector('.quiz-opt.active')?.dataset.idx);
-h+='<div class="quiz-explain '+(correct?'q-correct':'q-wrong')+'">'+(correct?'✓ Correct!':'✗ Wrong!')+' '+q.explain+'</div>';
+var activeOpt=el.querySelector('.quiz-opt.active');
+var correct=activeOpt&&q.correct===parseInt(activeOpt.dataset.idx);
+var exp=q.explain||q.explanation||'';
+h+='<div class="quiz-explain '+(correct?'q-correct':'q-wrong')+'">'+(correct?'✓ Correct!':'✗ Wrong!')+' '+(exp?esc(exp):'')+'</div>';
 if(qIdx<data.questions.length-1){h+='<button class="btn btn-pri quiz-next" id="qNext">Next Question →</button>';}
 else{showResults();return;}
 }
