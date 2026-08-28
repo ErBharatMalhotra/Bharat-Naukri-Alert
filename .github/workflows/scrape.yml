@@ -69,8 +69,8 @@ jobs:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
-          git config user.name "BNA Bot"
-          git config user.email "bot@bharat-naukri-alert.pages.dev"
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
           git push origin main
@@ -83,8 +83,8 @@ jobs:
           rm -rf site/dist
           mkdir -p site/dist
           cp -r $GITHUB_WORKSPACE/core/site/dist/* site/dist/
-          git config user.name "BNA Bot"
-          git config user.email "bot@bharat-naukri-alert.pages.dev"
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
           git push origin main

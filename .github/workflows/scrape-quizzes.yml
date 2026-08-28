@@ -41,8 +41,8 @@ jobs:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
-          git config user.name "Quiz Bot"
-          git config user.email "bot@bharat-naukri-alert.pages.dev"
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add data/quiz-bank/
           git diff --cached --quiet || git commit -m "update quiz-bank: $(date -u +%Y-%m-%d) (+${{ steps.quiz.outputs.new }} CA MCQs)"
           git push https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git main
