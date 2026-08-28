@@ -428,7 +428,7 @@ var qText=q.q||q.question||'';
 var pct=Math.round((qIdx/data.questions.length)*100);
 var h='<div class="quiz-hud"><span class="quiz-prog">'+(qIdx+1)+' / '+data.questions.length+'</span><span class="quiz-score">Score: '+score+'</span>'+(mode==='mock'?'<span class="quiz-timer">'+fmt(timeLeft)+'</span>':'')+'</div>';
 h+='<div class="quiz-bar"><div class="quiz-fill" style="width:'+pct+'%"></div></div>';
-h+='<div class="quiz-q" data-reveal>'+esc(qText)+'</div>';
+h+='<div class="quiz-q">'+esc(qText)+'</div>';
 h+='<div class="quiz-opts">';
 (q.options||[]).forEach(function(o,i){h+='<button class="quiz-opt" data-idx="'+i+'">'+esc(o)+'</button>';});
 h+='</div>';
