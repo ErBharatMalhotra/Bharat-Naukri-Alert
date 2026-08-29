@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Interfacing To The Analog World",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-f1hyzj",
-      "q": "The amount of deviation of the measured step size from the ideal step size is a measure of linearity.",
+      "id": "gate-uekf4f",
+      "q": "The DAC0808 and the MC1408 are very popular and inexpensive 8-bit D/A converters.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1p3umis",
-      "q": "When analog inputs from several sources are to be converted, a multiplexing technique can be used so that one ADC may be time-shared.",
+      "id": "gate-15jnm1k",
+      "q": "The delay between a change on the digital input of a DAC and the appearance of the change on the output is called settling time.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1v7k2c4",
-      "q": "An AD7524 is an eight-bit D/A converter that uses an R/2R ladder network.",
+      "id": "gate-jayu2g",
+      "q": "The main advantage of the SAR ADC method is its high speed.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-112wc0g",
-      "q": "Voltage-to-frequency ADC is more complicated than other ADCs.",
+      "id": "gate-n6lf2s",
+      "q": "One way to determine the resolution of a DAC is to calculate the ratio of one step voltage to the maximum output voltage.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-dqz76w",
-      "q": "Two characteristics of ideal operational amplifiers are very high input impedance and very high voltage gain.",
+      "id": "gate-1aj4pww",
+      "q": "The output voltage or current of a digital-to-analog converter is truly an analog signal.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-unv5gg",
-      "q": "When the analog input to a tracking A/D converter is at a constant level, the digital output will oscillate.",
+      "id": "gate-1b717md",
+      "q": "There are many applications in which analog data must be digitized and transferred into a computer's memory. The process by which the computer acquires these digitized analog data is referred to as ________.",
       "options": [
-        "True",
-        "False"
+        "sampling",
+        "multiplexing",
+        "data acquisition",
+        "prescaling"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hrwza0",
-      "q": "To be useful, A/D or D/A converters must have meaningful representation of the analog quantity and a digital representation and the digital quantity as an analog representation.",
+      "id": "gate-oqlzrk",
+      "q": "When analog inputs from several sources are to be converted, a(n) ________ technique can be used.",
       "options": [
-        "True",
-        "False"
+        "demultiplexing",
+        "multiplexing",
+        "R/2R",
+        "comparator"
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q0n6bx",
-      "q": "A light bulb and a switch are examples of an analog circuit.",
+      "id": "gate-18xwai8",
+      "q": "The output of the circuit in the given figure (a) at point X on figure (b) will be ________.",
       "options": [
-        "True",
-        "False"
+        "1.011 V",
+        "2.75 V",
+        "&#8211;1.011 V",
+        "&#8211;2.75 V"
       ],
       "correct": 0,
       "explain": "",
@@ -152,109 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1k6hjbf",
-      "q": "When a DAC output shows a deviation of the measured step size from the ideal step size, this error is called nonlinearity.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oxp0rs",
-      "q": "In a digital storage scope, when memory is full, the next data point is lost.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-76im1s",
-      "q": "On a binary-weighted D/A converter the least significant binary input ________.",
-      "options": [
-        "connects to the smallest resistor",
-        "supplies the least voltage",
-        "connects to a 1 k resistor",
-        "connects to the largest resistor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-boj3n0",
-      "q": "________ ADCs use no clock signal, because there is no timing or sequencing required.",
-      "options": [
-        "Actuator",
-        "Dual",
-        "Flash",
-        "Bipolar"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15movkk",
-      "q": "The input of an analog-to-digital converter is ________.",
-      "options": [
-        "a voltage level",
-        "a clock pulse",
-        "a binary number",
-        "any of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rqtfte",
-      "q": "The AD7524, a CMOS IC available from several IC manufacturers, is an eight-bit D/A converter that uses a(n) ________.",
+      "id": "gate-f03ug",
+      "q": "The stability of the ADC process can be improved by using a(n) ________ to hold the analog voltage constant while the A/D conversion is taking place.",
       "options": [
         "sample-and-hold circuit",
-        "R/2R ladder network",
-        "multiplexer",
-        "10 s clock"
+        "op-amp comparator",
+        "NPN amp",
+        "current loop"
       ],
       "correct": 0,
       "explain": "",
@@ -268,173 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-w6iqzk",
-      "q": "________ ADCs have a fixed value of conversion time that is not dependent on the value of the analog input.",
+      "id": "gate-ldbn28",
+      "q": "The characteristic that a change of one binary step on the input of a DAC should cause exactly one step change on the output is called ________.",
       "options": [
-        "Substandard",
-        "Dual",
-        "Recessive-approximation",
-        "Successive-approximation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vy9p3k",
-      "q": "A digital voltmeter converts an analog voltage to its ________ representation.",
-      "options": [
-        "BCD-code",
-        "decimal",
-        "digital",
-        "alias"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1m0mjeh",
-      "q": "The number of binary bits at the input of a DAC or the output of an ADC is known as ________.",
-      "options": [
-        "accuracy",
-        "linearity",
         "resolution",
-        "monotonicity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1muqf58",
-      "q": "If an analog signal is to be converted to an 8-bit resolution, how many comparators are used in a parallel-encoded ADC?",
-      "options": [
-        "127",
-        "128",
-        "255",
-        "256"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d1k3ag",
-      "q": "A transducer is a device that:",
-      "options": [
-        "converts a physical variable to an electrical variable",
-        "converts analog data to meaningful data",
-        "controls a physical variable",
-        "stores digital data and then processes that data according to a set of specified instructions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r7wvem",
-      "q": "How many different voltages can be output from a DAC with a 6-bit resolution?",
-      "options": [
-        "6",
-        "16",
-        "32",
-        "64"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sof4jo",
-      "q": "A 4-bit R/2R D/A converter has a reference of 5 V. What is the analog output for the input code 0101?",
-      "options": [
-        "3.125 V",
-        "0.3125 V",
-        "0.78125 V",
-        "&#8211;3.125 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sggz82",
-      "q": "Which of the following describes the basic operation of a single-slope A/D converter.",
-      "options": [
-        "The input voltage is used to set the frequency of a voltage-controlled oscillator (VCO). The VCO quits changing frequency when the input voltage stabilizes. The frequency of the VCO, which is proportional to the analog input voltage, is measured and is displayed on the digital display as a voltage reading.",
-        "A ramp generator is used to enable a counter through a comparator. When the ramp voltage equals the input voltage the counter is latched and then reset. The counter reading is proportional to the input voltage since the ramp is changing at a constant V/second rate.",
-        "A ramp voltage and analog input voltage are applied to a comparator. As the input voltage causes the integrating capacitor to charge, it will at some point equal the ramp voltage. The ramp voltage is measured and displayed on the digital panel meter.",
-        "Any of the above could be correct, depending on the specific type of A/D converter involved."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n57meg",
-      "q": "The process by which a computer acquires digitized analog data is referred to as ________.",
-      "options": [
-        "data acquisition",
+        "linearity",
         "monotonicity",
-        "analog resolution",
-        "systematic digital conversion"
+        "accuracy"
       ],
       "correct": 0,
       "explain": "",
@@ -448,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hj8x98",
-      "q": "What is the output voltage of the given circuit if the inputs are as follows: 20 = 1, 21 = 1, 22 = 0, 23 = 0?",
+      "id": "gate-3x9fpt",
+      "q": "The main advantage of the successive-approximation A/D converter over the counter-ramp A/D converter is its:",
       "options": [
-        "&#8211;3.115 volts",
-        "&#8211;2.8025 volts",
-        "&#8211;1.875 volts",
-        "&#8211;1.24 volts"
+        "more complex circuitry",
+        "less complex circuitry",
+        "longer conversion time",
+        "shorter conversion time"
       ],
       "correct": 0,
       "explain": "",
@@ -468,8 +218,128 @@
       "tags": []
     },
     {
-      "id": "gate-1u7lhfo",
-      "q": "Describe offset error for a DAC.",
+      "id": "gate-1s0xlgi",
+      "q": "What is the current in the feedback resistor for the circuit given below?",
+      "options": [
+        "0.625 mA",
+        "1.25 mA",
+        "1.875 mA",
+        "1.625 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dqsh30",
+      "q": "The quantization error in an analog-to-digital converter can be reduced by:",
+      "options": [
+        "increasing the number of bits in the counter and DAC.",
+        "decreasing the number of bits in the counter and increasing the number of bits in the DAC.",
+        "increasing the number of bits in the counter and decreasing the number of bits in the DAC.",
+        "decreasing the number of bits in the counter and DAC."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-isocgd",
+      "q": "One disadvantage of the tracking A/D converter is:",
+      "options": [
+        "that it requires two counters&#8212;one for up and one for down.",
+        "that the binary output will oscillate between two binary states when the analog input is constant.",
+        "the need for an accurate clock reference for the counter.",
+        "the need for a latch and its associated control circuit."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1135iw0",
+      "q": "If the range of output voltage of a 6-bit DAC is 0 to 15 volts, what is the step voltage of the output?",
+      "options": [
+        "0.117 volt/step",
+        "0.234 volt/step",
+        "2.13 volts/step",
+        "4.26 volts/step"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2d7hna",
+      "q": "Why is a binary-weighted DAC usually limited to 4-bit binary conversion?",
+      "options": [
+        "too many pins on the IC",
+        "too many op amps needed",
+        "too many different values of capacitors",
+        "too many different values of resistors"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12dzl2i",
+      "q": "What is the resolution of a D/A converter?",
+      "options": [
+        "It is the reciprocal of the number of discrete steps in the D/A output.",
+        "It is the comparison between the actual output of the converter and its expected output.",
+        "It is the deviation between the ideal straight-line output and the actual output of the converter.",
+        "It is the converter's ability to resolve between forward and reverse steps when sequenced over its entire range of inputs."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Interfacing To The Analog World",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xqqf2o",
+      "q": "What is gain error in a DAC?",
       "options": [
         "missing codes",
         "error in the slope of the output staircase waveform",
@@ -487,13 +357,13 @@
       "tags": []
     },
     {
-      "id": "gate-1k001k4",
-      "q": "Two principal advantages of the dual-slope ADC are its:",
+      "id": "gate-kut7f8",
+      "q": "An actuator is usually a device that:",
       "options": [
-        "high speed and low cost.",
-        "high sensitivity to noise and low cost.",
-        "low sensitivity to noise and high speed.",
-        "low sensitivity to noise and low cost."
+        "converts analog data to meaningful digital data.",
+        "controls a physical variable.",
+        "stores digital data and then processes that data according to a set of specified instructions.",
+        "converts a physical variable to an electrical variable."
       ],
       "correct": 0,
       "explain": "",
@@ -507,1419 +377,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rbj1jn",
-      "q": "________ are the most linear of all the temperature transducers.",
+      "id": "gate-mpsxyw",
+      "q": "The circuit shown below is a(n) ________.",
       "options": [
-        "Thermistors",
-        "Thermocouples",
-        "IC temperature sensors",
-        "Resistance temperature detectors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8fody0",
-      "q": "The primary disadvantage of the simultaneous A/D converter is:",
-      "options": [
-        "that it requires the input voltage to be applied to the inputs simultaneously",
-        "the long conversion time required",
-        "the large number of output lines required to simultaneously decode the input voltage",
-        "the large number of comparators required to represent a reasonable sized binary number"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11hv579",
-      "q": "What is the output voltage for the circuit shown below?",
-      "options": [
-        "10 V",
-        "20 V",
-        "30 V",
-        "40 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-72wlj8",
-      "q": "Three characteristics of op amps make them almost ideal amplifiers: very high input impedance, very low impedance, and ________.",
-      "options": [
-        "very high voltage gain",
-        "unlimited bandwidth",
-        "a low slew rate",
-        "very high current gain"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9exmtc",
-      "q": "Sample-and-hold circuits in A/D converters are designed to:",
-      "options": [
-        "sample and hold the output of the binary counter during the conversion process",
-        "stabilize the comparator's threshold voltage during the conversion process",
-        "stabilize the input analog signal during the conversion process",
-        "sample and hold the D/A converter staircase waveform during the conversion process"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ezavsm",
-      "q": "What is the main disadvantage of the counter-ramp A/D converter?",
-      "options": [
-        "It requires a counter.",
-        "The counter must count up from zero at the beginning of each conversion sequence, and the conversion time will vary depending on the input voltage.",
-        "It requires a precision clock in order for the conversion to be reliable.",
-        "The counter must count up from zero at the beginning of each conversion sequence, and the conversion time will vary depending on the input voltage. It requires a precision clock in order for the conversion to be reliable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-29qgzq",
-      "q": "Electrical quantities can be interpreted without conditioning by a digital computer.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jdovlc",
-      "q": "It is possible to develop more than 16 different analog levels using 4-bit resolution.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1smbi9g",
-      "q": "A simultaneous, multiple comparator, or flash converter uses parallel encoding.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-av6cf4",
-      "q": "A DAC is monotonic if its output increases as its binary input is incremented from one value to the next.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iqpsls",
-      "q": "An operational amplifier is used as a comparator.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zbo28",
-      "q": "A sample-and-hold circuit is used in D/A conversion.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-v6vifw",
-      "q": "The output of an analog-to-digital converter is a voltage level.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g22e5c",
-      "q": "A CD player probably uses a sigma/delta D/A converter.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-orz759",
-      "q": "When the inputs of a four-bit D/A converter are connected to a binary up-counter, the output looks like an upward sloping line.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1li1bzo",
-      "q": "The current across the MSB \"rung\" of a 4-bit R/2R ladder DAC if the reference voltage is 5 v and R is 8 is 625 A.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b0j4ko",
-      "q": "A counter-ramp ADC uses a comparator to compare the input voltage with ________.",
-      "options": [
-        "a binary number",
-        "the output of a counter",
-        "the output of a DAC",
-        "a voltage divider network"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ar6tlq",
-      "q": "A binary-weighter resistor DAC is practical only up to a resolution of ________.",
-      "options": [
-        "10 bits",
-        "2 bits",
-        "8 bits",
-        "4 bits"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1djab19",
-      "q": "A simultaneous A/D converter is also known as a(n) ________ A/D converter.",
-      "options": [
-        "flash",
-        "synchronous",
-        "comparator",
-        "asynchronous"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-184w3lc",
-      "q": "The figure given below represents a ________.",
-      "options": [
-        "successive-approximation A/D converter",
-        "dual-slope A/D converter",
-        "tracking A/D converter",
-        "dual-approximation D/A comparator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ffs3vs",
-      "q": "A 4-bit stairstep-ramp A/D converter has a clock frequency of 100 kHz and a maximum input of 10 V, and has 6 V applied to the input. The conversion time will be ________.",
-      "options": [
-        "10 microseconds",
-        "160 microseconds",
-        "90 microseconds",
-        "6250 seconds"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dsssm0",
-      "q": "A major application for DSP is in ________ and ________ of analog signals.",
-      "options": [
-        "sending, receiving",
-        "digitizing, weighting",
-        "filtering, conditioning",
-        "leveling, translating"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wpucjf",
-      "q": "The fastest analog-to-digital converter is the ________.",
-      "options": [
-        "counter ADC",
-        "successive-approximation ADC",
-        "dual slope ADC",
-        "parallel ADC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1oohsng",
-      "q": "The main advantage of the tracking A/D converter over the stairstep-ramp A/D converter is that ________.",
-      "options": [
-        "it does not require a counter",
-        "it uses an up/down counter to indicate the polarity of the input voltage",
-        "it uses an up/down counter to measure both positive and negative voltages",
-        "it is faster"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ywnile",
-      "q": "A counter-ramp ADC stops counting when ________.",
-      "options": [
-        "the input voltage equals the DAC staircase voltage",
-        "the counter reaches a maximum count",
-        "the input voltage equals 5 volts",
-        "the DAC staircase voltage equals 5 volts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qdtpmd",
-      "q": "The basic approach to testing D/A converters is to:",
-      "options": [
-        "apply a sequence of binary codes covering the full range of input values to the circuit input while observing the output on an oscilloscope. The output should consist of a linear stairstep ramp.",
-        "single-step the device through its full input range while checking the output with a DMM.",
-        "check the output with zero input and then full input. The output of the converter should extend from zero to its maximum value. If so, then everything in between can be assumed to be operating properly.",
-        "apply the correct input to the analog terminal and then check to see if the proper binary code exists on the digital inputs."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-obbgk4",
-      "q": "What is the maximum output voltage for the circuit shown below?",
-      "options": [
-        "&#8211;20 volts",
-        "&#8211;5 volts",
-        "&#8211;9.375 volts",
-        "&#8211;2.1775 volts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8bx488",
-      "q": "One major difference between a counter-ramp A/D converter and a successive-approximation converter is:",
-      "options": [
-        "the counter-ramp A/D converter is much faster than the successive-approximation converter",
-        "with the successive-approximation converter the final binary result is always slightly less than the equivalent analog input, whereas with the counter-ramp A/D converter it is slightly more",
-        "with the successive-approximation converter the final binary result is always slightly more than the equivalent analog input, whereas with the counter-ramp A/D converter it is slightly less",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-udi0en",
-      "q": "Which of the following characterizes an analog quantity?",
-      "options": [
-        "Discrete levels represent changes in a quantity.",
-        "Its values follow a logarithmic response curve.",
-        "It can be described with a finite number of steps.",
-        "It has a continuous set of values over a given range."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ykunpo",
-      "q": "Referring to the given figure, what appears to be wrong, if anything, with the output of the D/A converter?",
-      "options": [
-        "The input signal is probably noisy.",
-        "There appears to be some nonlinearity in the scope display.",
-        "The converter has a nonmonotonic output error.",
-        "It appears that certain input codes are incorrect; double-check the input coding."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xfm7o6",
-      "q": "What is the maximum conversion time for a counter-ramp ADC with 8-bit resolution and a clock frequency of 20 kHz?",
-      "options": [
-        "12.8 ms",
-        "6.4 ms",
-        "0.05 ms",
-        "0.4 ms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g7sqdr",
-      "q": "A test system using the GPIB is being used to monitor a potentially dangerous crash test from a distance of 200 feet. The engineer decides to have you fabricate a special cable, rather than order one, since all the materials are on hand and the tests are already behind schedule. When the tests are run, the test system is erratic and the data is almost useless. What has gone wrong?",
-      "options": [
-        "The engineer is probably not using the correct data format for the specific instruments being used to collect the data.",
-        "The GPIB cable is too long; a bus extender should be used.",
-        "The cable should be shielded and properly grounded.",
-        "The tests themselves probably produced extraneous signals that confused the instruments, resulting in unusable data."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7j847o",
-      "q": "A certain digital-to-analog converter has a step size of 0.25 V and a full-scale output of 7.75 V. Determine the percent of resolution and the number of input binary bits.",
-      "options": [
-        "31%, 4 bits",
-        "3.23%, 4 bits",
-        "31%, 5 bits",
-        "3.23%, 5 bits"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yiqjq0",
-      "q": "Resolution in the analog output of a DAC is primarily dependent on the number of input binary bits.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1199xok",
-      "q": "The primary disadvantage of the flash A/D converter is the large number of comparators required.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xu07ww",
-      "q": "A summing op-amp can be used for DAC.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ppn1cg",
-      "q": "A data acquisition system may communicate via two common buses: the data bus and the control bus.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bu3xrs",
-      "q": "The time required to complete a conversion cycle is called conversion time.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qtx1h4",
-      "q": "One form of a sigma/delta modulator circuit is designed to convert a continuous analog signal into a modulated bit stream (A/D).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kg4xms",
-      "q": "In a binary-weighted D/A converter the sum of all the currents from the binary weighted resistors flows through the operational amplifier.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wmt3cx",
-      "q": "An eight-bit D/A converter has a resolution of 0.125.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-w2i2cw",
-      "q": "In a counter-ramp A/D converter, the end-of-conversion line must be tied back to the clear input of the counter to change the circuit to perform continuous conversions.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3ofxk0",
-      "q": "D/A conversion is the process of taking a voltage or current and converting it to a digital code.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rs8cjk",
-      "q": "The DSO ________, ________, and ________ analog waveforms.",
-      "options": [
-        "filters, conditions, sends",
-        "levels, stores, weighs",
-        "sends, receives, translates",
-        "digitizes, stores, displays"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-56s4s4",
-      "q": "A signal ________ is produced by sampling the signal at a rate less than the minimum rate identified by Nyquist.",
-      "options": [
-        "Nyquist",
-        "sampling frequency",
-        "basis",
-        "alias"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xglg9s",
-      "q": "For each bit that is added to a digital ramp ADC, the conversion time ________.",
-      "options": [
-        "doubles",
-        "triples",
-        "decreases by one-third",
-        "decreases by one-half"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jmcnfl",
-      "q": "________ DACs produce both positive and negative output values.",
-      "options": [
-        "Tristate",
-        "Double",
-        "Bipolar",
-        "Unilateral"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rie2p0",
-      "q": "A DAC is ________ if its output increases as the binary input increments from one value to the next.",
-      "options": [
-        "monotonic",
-        "self adjusting",
-        "accurate",
-        "broken"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1onxxyw",
-      "q": "What is the conversion time of a flash converter?",
-      "options": [
-        "20 s",
-        "10 s",
-        "1 s",
-        "The conversion takes place continuously."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sgdgz0",
-      "q": "What is the speed of the up/down digital-ramp ADC (tracking ADC)?",
-      "options": [
-        "20 s",
-        "10 s",
-        "1 s",
-        "Relatively slow"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ejge98",
-      "q": "What is the major advantage of the R/2R ladder DAC as compared to a binary-weighted-input DAC?",
-      "options": [
-        "It has fewer parts for the same number of inputs.",
-        "It is much easier to analyze its operation.",
-        "It uses only two different resistor values.",
-        "The virtual ground is eliminated and the circuit is therefore easier to understand and troubleshoot."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x8fnrc",
-      "q": "An analog-to-digital converter has a four-bit output. How many analog values can it represent?",
-      "options": [
-        "4",
-        "1/4",
-        "16",
-        "0.0625"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p37nw6",
-      "q": "What is the linearity of a D/A converter?",
-      "options": [
-        "It is the reciprocal of the number of discrete steps in the D/A output.",
-        "It is the comparison between the actual output of the converter and its expected output.",
-        "It is the converter's ability to resolve between forward and reverse steps when sequenced over its entire range of inputs.",
-        "It is the deviation between the ideal straight-line output and the actual output of the converter."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c2ccpo",
-      "q": "Referring to the given figure, what should the display on the scope look like if the A/D converter is working properly?",
-      "options": [
-        "It should be a circular Lissajous pattern resulting from the simultaneous application of ramps to the vertical and horizontal inputs of the oscilloscope.",
-        "The pattern should be a straight line across the screen due to the equal but opposite voltages being applied to the scope inputs.",
-        "A uniform stairstep pattern should be displayed.",
-        "The scope should display a sequential binary count with the LSB on the left and the MSB on the right side of the display."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qb6854",
-      "q": "What is the acquisition time of the AD1154 sample-and-hold IC?",
-      "options": [
-        "1.5 s",
-        "2.5 s",
-        "3.5 s",
-        "4.5 s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r68rxk",
-      "q": "What type of DAC is shown below?",
-      "options": [
-        "binary-weighted",
-        "R-2R ladder"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5d4dam",
-      "q": "What is the disadvantage to using a counter-ramp type ADC?",
-      "options": [
-        "complex circuit",
-        "high cost",
-        "very slow"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1foawck",
-      "q": "Generally speaking, DACs with a current output will have a shorter settling time than those with voltage outputs.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zl4r3w",
-      "q": "A D/A converter changes things such as temperature variations into digital quantities.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sgbc54",
-      "q": "If the least significant bit (LSB) of a four-bit binary-weighted resistor D/A converter connects to a 200 resistor, then the resistor needed for the next bit is 100 .",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i73zu8",
-      "q": "Flash A/D converters depend on an input clock pulse to perform each conversion.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cc0vf4",
-      "q": "Linearity error is the maximum deviation in step size from the ideal step size.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6zkvms",
-      "q": "When comparing the conversions from digital-to-analog and analog-to-digital, the A/D conversion is generally:",
-      "options": [
-        "less complicated but more time consuming than the D/A conversion.",
-        "more complicated and more time consuming than the D/A conversion.",
-        "less complicated and less time consuming than the D/A conversion.",
-        "more complicated but less time consuming than the D/A conversion."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1izhh1s",
-      "q": "Which of the statements below best describes the basic operation of a dual-slope A/D converter?",
-      "options": [
-        "The input voltage is used to set the frequency of a voltage-controlled oscillator (VCO). The VCO quits changing frequency when the input voltage stabilizes. The frequency of the VCO, which is proportional to the analog input voltage, is measured and is displayed on the digital display as a voltage reading.",
-        "A ramp generator is used to enable a counter through a comparator. When the ramp voltage equals the input voltage, the counter is latched and then reset. The counter reading is proportional to the input voltage since the ramp is changing at a constant V/second rate.",
-        "A ramp voltage and analog input voltage are applied to a comparator. As the input voltage causes the integrating capacitor to charge, it will at some point equal the ramp voltage. The ramp voltage is measured and displayed on the digital panel meter.",
-        "Two ramps are generated: one by the input voltage and the other by a reference voltage. The input voltage ramp charges the integrating capacitor, while the reference voltage discharges the capacitor and enables the counter until the capacitor is discharged, at which time the counter value is loaded into the output latches."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ngpid0",
-      "q": "The output of a basic 4-bit input digital-to-analog converter would be capable of outputting:",
-      "options": [
-        "16 different values of voltage or current that are not proportional to the input binary number",
-        "16 different values of voltage or current that are proportional to the input binary number",
-        "32 different values of voltage or current that are not proportional to the input binary number",
-        "32 different values of voltage or current that are proportional to the input binary number"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-frnn48",
-      "q": "Referring to the given figure, what appears to be wrong, if anything, with the D/A converter and what should be done to correct the problem?",
-      "options": [
-        "There is nothing wrong with the converter.",
-        "There is an offset error; if no provision is made for adjusting the offset, the op-amp may need to be changed.",
-        "There is a nonlinearity error; the op-amp must be changed.",
-        "The power supply voltage appears to be too high; adjust the power supply to the correct value."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mylktc",
-      "q": "What is one advantage to using a parallel-encoded (flash) ADC?",
-      "options": [
-        "less expensive",
-        "very fast conversion",
-        "less complicated circuit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13bi8sc",
-      "q": "If the same analog signal is to be converted to an 8-bit resolution using a counter-ramp ADC, how many comparator circuits would be used?",
-      "options": [
-        "1",
-        "8",
-        "127",
-        "255"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19cq948",
-      "q": "What is the major advantage of the R/2R ladder D/A converter as compared to a binary-weighted D/A converter?",
-      "options": [
-        "It has fewer parts for the same number of inputs.",
-        "It is much easier to analyze its operation.",
-        "It uses only two different resistor values.",
-        "The virtual ground is eliminated and the circuit is therefore easier to understand and troubleshoot."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gcb50w",
-      "q": "What is the main disadvantage of the stairstep-ramp A/D converter?",
-      "options": [
-        "The counter must count up from zero at the beginning of each conversion sequence, and the conversion time will vary depending on the input voltage.",
-        "It requires a counter.",
-        "It requires a precision clock in order for the conversion to be reliable.",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15tcx6s",
-      "q": "What is the purpose of a sample-and-hold circuit?",
-      "options": [
-        "To keep temporary memory",
-        "To hold a voltage constant so an ADC has time to produce an output",
-        "To hold a voltage constant so a DAC has time to produce an output",
-        "To hold data after a multiplexer has selected an output"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18hl8nw",
-      "q": "What is the current in R1 and the current in R2 for the circuit shown below?",
-      "options": [
-        "I1&nbsp;=&nbsp;0.416 mA, I2&nbsp;=&nbsp;0.416 mA",
-        "I1&nbsp;=&nbsp;0.357 mA, I2&nbsp;=&nbsp;0.357 mA",
-        "I1&nbsp;=&nbsp;1.25 mA, I2&nbsp;=&nbsp;0.625 mA",
-        "I1&nbsp;=&nbsp;0.625 mA, I2&nbsp;=&nbsp;1.25 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wi71kq",
-      "q": "A 4-bit stairstep-ramp A/D converter has a clock frequency of 100 kHz and maximum input voltage of 10 V.",
-      "options": [
-        "The maximum number of samples per second will be 6250.",
-        "The maximum sample rate will be 100,000 samples/second.",
-        "The minimum sample rate will be 6250 samples/second.",
-        "The minimum sample rate will be 100,000 samples/second."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Interfacing To The Analog World",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n1w9fs",
-      "q": "What is the accuracy of a D/A converter?",
-      "options": [
-        "It is the reciprocal of the number of discrete steps in the D/A output.",
-        "It is the comparison between the actual output of the converter and its expected output.",
-        "It is the converter's ability to resolve between forward and reverse steps when sequenced over its entire range of inputs.",
-        "It is the deviation between the ideal straight-line output and the actual output of the converter."
+        "R/2R ladder D/A converter",
+        "four-bit decoder",
+        "binary-weighted-input DAC",
+        "four-bit A/D converter"
       ],
       "correct": 0,
       "explain": "",

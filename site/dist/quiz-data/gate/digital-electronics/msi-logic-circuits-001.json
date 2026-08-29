@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Msi Logic Circuits",
   "source": "indiabix.com",
-  "count": 68,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-px1c1g",
-      "q": "A four-line multiplexer must have as inputs four data inputs and two select inputs.",
+      "id": "gate-nelbpz",
+      "q": "A device that selects one of several inputs to be placed on the output is a multiplexer.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-uywyhk",
-      "q": "In HDL, a process is usually thought of as a wire connecting two points in a circuit.",
+      "id": "gate-1e29bjk",
+      "q": "A logic circuit that determines if one input is equal to another is called a comparator.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1x0yplu",
-      "q": "A demultiplexer is a device that converts some code to a recognizable number or character.",
+      "id": "gate-728058",
+      "q": "A VARIABLE can be thought of as a piece of scrap paper used to write down some numbers that can be used later.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1xj7pc",
-      "q": "Output 6 of a 74138 octal decoder is selected when it is enabled by a data input of: A0 = 1 A1 = 1 A2 = 0",
+      "id": "gate-jqbatk",
+      "q": "Output 3 of a 74138 octal decoder is selected when it is enabled by a data input of: A0 = 1 A1 = 1 A2 = 0",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-2g3fy0",
-      "q": "A circuit that converts some binary code into a singular active output representing its numerical value is a comparator.",
+      "id": "gate-w4evb0",
+      "q": "When data input I1 of a 74148 octal-to-binary encoder is active, the data output is: A0 = 0 A1 = 0 A2 = 1",
       "options": [
         "True",
         "False"
@@ -98,1211 +98,253 @@
       "tags": []
     },
     {
-      "id": "gate-15es66w",
-      "q": "When data input I5 of a 74148 octal-to-binary encoder is active, the data output is: A0 = 1 A1 = 0 A2 = 0",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tg6yx4",
-      "q": "Basically, a multiplexer changes parallel data inputs to a serial output.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o8jqy",
-      "q": "The 74139 dual four-line demultiplexer functions as a demultiplexer if data input is on the line.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ti8mcm",
-      "q": "Modern computers transfer data between different devices over a common set of connecting lines called a data bus.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-161tki4",
-      "q": "The select inputs to a multiplexer may also be called address lines.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zufhny",
-      "q": "The 74139 dual four-line demultiplexer functions as a decoder if ________.",
-      "options": [
-        "the line is grounded",
-        "data input is on the line",
-        "data input is on the A0 line",
-        "the A0 line is grounded"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ll6ako",
-      "q": "In HDL, the operation of the DEMUX is exactly described using a ________.",
-      "options": [
-        "function",
-        "process",
-        "variable type",
-        "number of conditional signal assignment statements"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-swsh4f",
-      "q": "When an application, such as an encoder, calls for a unique response from a circuit corresponding to a combination of its input variables, the two methods that best serve this purpose are the ________ and the ________.",
-      "options": [
-        "CASE construct, truth TABLE",
-        "if then statement, elsif statement",
-        "VARIABLE, PROCESS",
-        "FUNCTION, TYPE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p4bmki",
-      "q": "A(n) ________ is a logic circuit that accepts a set of inputs that represents a binary number, and activates only the output that corresponds to that input number.",
-      "options": [
-        "decoder",
-        "LED",
-        "encoder",
-        "demultiplexer"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xfcrts",
-      "q": "A 1-of-8 octal decoder has eight outputs and decodes an input of ________ bit(s).",
-      "options": [
-        "three",
-        "two",
-        "four",
-        "one"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u43w11",
-      "q": "A(n) ________ has a number of input lines, only one of which is activated at a given time, and produces on N-bit output code, depending on which input is activated.",
-      "options": [
-        "encoder",
-        "code converter",
-        "demultiplexer",
-        "decoder"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1czt8lc",
-      "q": "The device shown in below is a ________ and for the waveforms shown in the accompanying diagram, the ________ output at point X will be ________ and all others will be ________.",
-      "options": [
-        "multiplexer, D4, HIGH, LOW",
-        "demultiplexer, D3, LOW, HIGH",
-        "demultiplexer, D3, HIGH, LOW",
-        "decoder, D12, LOW, LOW"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bxwcnz",
-      "q": "The normal outputs of a magnitude comparator are ________.",
-      "options": [
-        "A B, A = B, and A > B",
-        "Sum, difference, and carry",
-        "Cin, Cout, and Sum",
-        "A = B, A + B, and carry"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t0chco",
-      "q": "An eight-line multiplexer must have as inputs ________.",
-      "options": [
-        "four data inputs and three select inputs",
-        "eight data inputs and two select inputs",
-        "eight data inputs and three select inputs",
-        "eight data inputs and four select inputs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h5ha4",
-      "q": "Which statement below best describes the function of a decoder?",
-      "options": [
-        "A decoder will convert a decimal number into the proper binary equivalent.",
-        "A decoder will convert a binary number into a specific output representing a particular character or digit.",
-        "Decoders are used to prevent improper operation of digital systems.",
-        "Decoders are special ICs that are used to make it possible for one brand of computer to talk to another."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18knk8g",
-      "q": "One can safely state that the output lines for a demultiplexer are under the direct control of the:",
-      "options": [
-        "input data select lines.",
-        "the internal AND gates.",
-        "the internal OR gate.",
-        "Input data line."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y31iw0",
-      "q": "Refer to the figure given below. The logic function generator being implemented with the multiplexer in this circuit produces a constant LOW on the output. The ABC inputs are checked and appear to be pulsing; also, the 0&#8211;7 and EN inputs are checked with the scope and all appear to be at 0 V. A check with the DMM confirms that power is on. What is the problem, and what should be done to correct it?",
-      "options": [
-        "The output is shorted to Vcc; replace the IC.",
-        "The scope's vertical input is in the AC mode and the common connection for the 0,2,3 and 5 inputs is bad. Set the scope's vertical input mode to DC, and repair the bad solder connection.",
-        "Power has not been applied to the circuit; apply power.",
-        "The output is shorted to ground; replace the IC."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y9ucdg",
-      "q": "Refer to the keyboard encoder in figure (a). Sometimes when the 5 key is pressed, the system attached to the keypad does not respond. The 5 input on the 74147 is monitored with a digital storage scope while repeatedly pressing the 5 key, and the waveform in figure (b) is obtained; the P above the trace indicates the points at which the technician pressed the key. What is most likely wrong with the circuit?",
-      "options": [
-        "The switches on the 5 key are intermittent; the contacts need to be cleaned or the switch replaced.",
-        "The pull-up resistor connected to the 5 key is bad and should be replaced.",
-        "The common ground connection at the bottom of the 0 key has a bad solder connection; repair the connection.",
-        "The 74147 is intermittent, possibly due to high temperature, and should be replaced."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tnur4g",
-      "q": "The BCD/DEC decoder shown in figure (a) is examined with a logic analyzer and the results are shown in the waveforms in figure (b). What, if anything, is wrong with the circuit?",
-      "options": [
-        "The \"2\" output is shorted to Vcc.",
-        "The A1 input is internally open.",
-        "The A1 input node is internally stuck LOW.",
-        "Nothing is wrong with the circuit."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qkpugs",
-      "q": "It is suspected that the comparator in the figure given below has a problem. The inputs are activated in the table shown below and the corresponding outputs noted. What is most likely wrong with the circuit? For P0 &#8211; P3 = 1 and Q0 &#8211; Q3 = 0, P > Q = 1, P = Q = 1, P Q = 0 For P0 &#8211; P3 = 0 and Q0 &#8211; Q3 = 1, P > Q = 0, P = Q = 1, P Q = 1 For P0 &#8211; P3 = 1 and Q0 &#8211; Q3 = 1, P > Q = 0, P = Q = 1, P Q = 0",
-      "options": [
-        "The P0&#8211;P3 inputs are defective.",
-        "One or more of the Q inputs is bad.",
-        "The P = Q output is shorted to Vcc.",
-        "Nothing is wrong; the circuit is functioning properly."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11r5e8a",
-      "q": "Which statement best describes the given figure, and what is the function of the terminal labeled EN?",
-      "options": [
-        "Quad two-input multiplexer. EN is the enable input, which requires an active LOW for the device to work.",
-        "Quad two-bit multiplier, EN is the active HIGH trigger.",
-        "Dual quad-input multiplexer, which requires an active LOW on the EN terminal for the device to work.",
-        "Quad two-input AND gate, which requires an active LOW on the EN input to enable all the gates."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1op4luw",
-      "q": "The data transmission system shown in below has a problem; the parity error output is always high. A logic analyzer is used to examine the system and shows that the DATA IN on the left matches the DATA OUT on right. What might be causing the problem?",
-      "options": [
-        "The error gate could be defective.",
-        "The storage circuit could be defective.",
-        "The parity checker could be bad.",
-        "Any of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18h91r0",
-      "q": "The IEEE/ANSI symbol for a decoder has the internal designation bcd/dec. This means the decoder is a:",
-      "options": [
-        "decimal-to-BCD decoder with ten inputs and four outputs.",
-        "BCD-to-decimal decoder with ten inputs and four outputs.",
-        "decimal-to-BCD decoder with four inputs and ten outputs.",
-        "BCD-to-decimal decoder with four inputs and ten outputs."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ufy7g0",
-      "q": "Multiplexing of digital signals is usually required when:",
-      "options": [
-        "moving data internally within a microprocessor.",
-        "moving data between memory and storage registers in a microprocessor.",
-        "moving data over long distance transmission lines.",
-        "moving data internally within a microprocessor or between memory and storage registers."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1muk3o0",
-      "q": "In an AHDL BCD to binary code converter, how is multiplication by 10 accomplished?",
-      "options": [
-        "By using the shifting of bits",
-        "By using the library multiplication function",
-        "By using integer types",
-        "By using the multiplication operator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cv64zo",
-      "q": "What is the HDL key issue in the design of the MUX and DEMUX?",
-      "options": [
-        "Having the MUX and DEMUX part of the library",
-        "Using the case statement in the process",
-        "Describing the functions",
-        "Assigning signals under certain conditions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b812ru",
-      "q": "Why are control inputs included in an HDL magnitude comparator?",
-      "options": [
-        "For cascading the chips",
-        "For control signal input",
-        "For signal control",
-        "For internal interconnections"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qobt32",
-      "q": "What VHDL techniques are used to describe a priority encoder?",
-      "options": [
-        "Integer outputs and priority coding",
-        "Signal outputs and priority coding",
-        "Tristate outputs and priority coding",
-        "Variables and priority coding"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pwy8pg",
-      "q": "What is an important attribute of the conditional signal assignment statement?",
-      "options": [
-        "Its tristate outputs",
-        "Its sequential evaluation",
-        "Its use of library components",
-        "Its fast activation times"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1izzrm8",
-      "q": "All outputs of the 74138 octal decoder are disabled (HIGH) when the enable inputs are:",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q1wsjw",
-      "q": "Incandescent 7-segment displays are especially well suited for use in portable battery-operated devices.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vin8ia",
-      "q": "The device that is an application of SOP logic is a multiplexer.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b88jac",
-      "q": "ADHL does not offer a multiplication operator.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qedd88",
-      "q": "The outputs of a 7485 four-bit magnitude comparator when the inputs are A = 0110 and B = 1010 are: A B is 1 A = B is 0 A > B is 1",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oy2j19",
-      "q": "In order to select data input I1 of a 74151 eight-line multiplexer, the select inputs must be:",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o37lly",
-      "q": "A device that determines which of two numbers is greater is a comparator.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cnb950",
-      "q": "When outputs a, b, c, d, and g of a 7447 BCD-to-seven-segment code converter are active, the number displayed is 5.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5zsnic",
-      "q": "When data input I4 of a 74148 octal-to-binary encoder is active, the data output is: A0 = 1 A1 = 1 A2 = 0",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tsi1tc",
-      "q": "It is normal for more than one decoder output to be active at the same time.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f66x8s",
-      "q": "An everyday illustration of a multiplexer is ________.",
-      "options": [
-        "the volume control in a stereo receiver",
-        "the function switch on a stereo receiver",
-        "the balance control on a stereo receiver",
-        "the treble-bass control on a stereo receiver"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13apf49",
-      "q": "The binary value of the BCD number 1000 0001 (81) is ________.",
-      "options": [
-        "0101 0001",
-        "0110 0011",
-        "0100 0001",
-        "1000 0000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1l3liy9",
-      "q": "A decimal-to-BCD encoder has ________ data inputs.",
-      "options": [
-        "two",
-        "four",
-        "five",
-        "ten"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oc3bfk",
-      "q": "For the inputs shown in the given figure, the output is ________.",
-      "options": [
-        "1",
-        "0&nbsp;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ho40gk",
-      "q": "The diagram given below shows a ________ being used as a(n) ________ and Y = ________.",
-      "options": [
-        "multiplier, divider, 2.25",
-        "multiplexer, encoder, 7641",
-        "multiplexer, logic function generator, ABC + ABC + ABC + ABC",
-        "logic function generator, multiplexer, 1467"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2heif8",
-      "q": "For the inputs shown in the given figure, the outputs for P > Q, P = Q, and P Q are ____, ____, and ____, respectively.",
-      "options": [
-        "1,1,1",
-        "1,0,1",
-        "1,0,0",
-        "0,1,0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uf070s",
-      "q": "A 75154 1-of-16 decoder has 16 outputs and decodes an input of ________ bits.",
-      "options": [
-        "two",
-        "three",
-        "four",
-        "six"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sfsy6s",
-      "q": "In an AHDL BCD to binary coded converter, multiplication by 10 is performed by ________.",
-      "options": [
-        "a multiplication operator",
-        "shifting bits",
-        "a library function",
-        "a variable type"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5dn2vk",
-      "q": "A(n) ________ display controls the reflection of available light.",
-      "options": [
-        "MOS",
-        "LCD",
-        "LED",
-        "LSC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c9y39g",
-      "q": "The device that places its input data onto one of several outputs is a ________.",
+      "id": "gate-mi4e0z",
+      "q": "A(n) ________ is a combinational logic circuit that compares two input binary quantities and generates outputs to indicate which one has the greater magnitude.",
       "options": [
         "demultiplexer",
-        "multiplexer",
-        "comparator",
-        "counter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-irztoo",
-      "q": "Referring to the figure given below, what output code will appear on the output (A3,A2,A1,A0) when the 5 key is pressed?",
-      "options": [
-        "1010",
-        "0101",
-        "1101",
-        "1011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1l0z46c",
-      "q": "What type of device is shown in the given figure, and what inputs (A3,A2,A1,A0) are required to produce the output levels as shown?",
-      "options": [
-        "A binary-to-decimal encoder; 0,1,1,1",
-        "A decimal-to-binary decoder; 1,1,1,0",
-        "A BCD-to-decimal decoder; 0,1,1,1",
-        "A decimal-to-BCD encoder; 1,1,1,0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ma3fn0",
-      "q": "What are the outputs of a 7485 four-bit magnitude comparator when the inputs are A = 1001 and B = 1010?",
-      "options": [
-        "A B is 1 A = B is 0 A > B is 1",
-        "A B is 0 A = B is 1 A > B is 0",
-        "A B is 0 A = B is 0 A > B is 1",
-        "A B is 1 A = B is 0 A > B is 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1aoe2hs",
-      "q": "Determine the correct output for the multiplexer and its associated timing diagram given below.",
-      "options": [
-        "Ya",
-        "Yb",
-        "Yc",
-        "Yd"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p07m2q",
-      "q": "Which is the decimal number for the BCD number, 10110110?",
-      "options": [
-        "182",
-        "36",
-        "116",
-        "10110110 is not a valid BCD number."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dy9lpk",
-      "q": "In order to select data input I3 of a 74151 eight-line multiplexer, the select inputs must be:",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v8da0w",
-      "q": "A very important attribute of the conditional signal assignment statement is its sequential operation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kxhhv3",
-      "q": "The outputs of the 74138 octal decoder are enabled when the enable inputs are .",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wpn5tk",
-      "q": "A multiplexer is a device that converts some code into a recognizable number or character.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1edpbzk",
-      "q": "A demultiplexer takes an input and turns it into a binary number.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6ex3bo",
-      "q": "In most modern computers, the transfer of data takes place over a common set of connecting lines called a ________.",
-      "options": [
-        "data bus",
-        "bus line",
-        "bus cable",
-        "data line"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ugrmzs",
-      "q": "An octal-to-binary encoder has eight data inputs and encodes an output of ________ bits.",
-      "options": [
-        "two",
-        "three",
-        "four",
-        "five"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uoufxo",
-      "q": "A typical AHDL comparator follows an algorithm described as ________.",
-      "options": [
-        "FUNCTION constructs",
-        "CASE constructs",
-        "IF/ELSE constructs",
-        "PROCESS constructs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Msi Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yp2ayw",
-      "q": "Another name for a multiplexer is ________.",
-      "options": [
-        "encoder",
-        "decoder",
         "code converter",
-        "data selector"
+        "magnitude comparator",
+        "E-MOS"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qyjfus",
+      "q": "If by chance more than one of the inputs in an HDL encoder is activated at the same time, the priority encoder ________.",
+      "options": [
+        "enters a fault mode",
+        "ignores the least significant input",
+        "resamples the data",
+        "finds some other input"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bhrly5",
+      "q": "The diagram given below shows a ________, and in order for the decimal number 3 to be displayed, terminals ________ must be ________.",
+      "options": [
+        "common-cathode seven-segment display, ef, LOW",
+        "common-anode seven-segment display, abcdg, HIGH",
+        "common-anode seven-segment display, abcdg, LOW",
+        "common-cathode seven-segment display, abcdg, HIGH"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u9jkps",
+      "q": "The device that generates a coded output from a single active numeric input line is ________.",
+      "options": [
+        "a decoder",
+        "a multiplexer",
+        "a comparator",
+        "an encoder"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s8zvyg",
+      "q": "A 16-input multiplexer is to be used to perform parallel-to-serial data conversion. Which of the following counters would be required to provide the data select inputs?",
+      "options": [
+        "MOD 8",
+        "MOD 16",
+        "MOD 4",
+        "MOD 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xd4z0g",
+      "q": "A breadboard-circuit design using a BCD-to-decimal decoder has a problem wherein the operation of the system is erratic. The technician uses his scope to examine the waveforms throughout the system and doesn't really see any problems. While he's scratching his head, what helpful advice can you offer him as to what might be wrong and what to do to correct the problem?",
+      "options": [
+        "The decoder is thermally intermittent; replace it.",
+        "There is probably a bad connection on the wire wrap protoboard; recheck the wiring.",
+        "Glitches are probably the culprit; strobe the decoder.",
+        "The decoder is thermally intermittent and must be replaced; or there is probably a bad connection on the wire wrap protoboard, and the wiring must be rechecked."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ynf9p2",
+      "q": "How is the number one (1) indicated on the outputs of a 7447 BCD-to-seven-segment code converter?",
+      "options": [
+        "Segment a is active.",
+        "Segment b is active.",
+        "Segments a and b are active.",
+        "Segments b and c are active."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3end5g",
+      "q": "For the input values (A0&#8211;A3, B0&#8211;B3, Data Select = 1) given for the circuit given below, what will be indicated on the displays?",
+      "options": [
+        "A = 0, B = 5",
+        "A = 5, B = 0",
+        "A = 6, B = 0",
+        "A = 0, B = 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-p5e9og",
+      "q": "There appears to be a problem with a 7-segment display on a DMM sometimes skipping certain numbers. How would you test the display?",
+      "options": [
+        "Remove the display unit and check each segment diode with an ohmmeter. Replace the defective segments.",
+        "Apply 5 V directly to each segment of the display and check for individual segment operation. Replace any segment that has voltage applied but is not lit.",
+        "Tie all of the segments together and connect to Vcc; the number 8 should appear on the display. Now check the display supply voltage to determine if the display is receiving the correct voltage.",
+        "Connect the DMM to a variable supply and very slowly increase the voltage, while observing for missing digits. Then check the segment voltage to determine whether the display or the display driver is bad."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-54govd",
+      "q": "What is the purpose of a decoder's inputs?",
+      "options": [
+        "To allow the decoder to respond to the inputs to activate the correct output gate.",
+        "To disable the decoder outputs so that all outputs will be inactive.",
+        "To disable the inputs and activate all outputs.",
+        "To allow the decoder to respond to the inputs to activate the correct output gate, and to disable the inputs and activate all outputs."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bfp4u4",
+      "q": "Refer to the display multiplexer given below. The MSD display is blank, while the LSD seems to be OK. The input and output lines to the 74157 and 7449 are checked with a scope and can be seen changing levels. The A input on the 74139 also changes; however, the 0 output on the 74139 is always LOW and the 1 output is always HIGH. The B and EN inputs on the 74139 are always LOW. What could cause the problem and what should be done to correct it?",
+      "options": [
+        "The 74139 is defective; replace it.",
+        "The EN pin on the 74139 could have a bad connection; check the connection.",
+        "The 74139 is defective and must be replaced; or the EN pin on the 74139 could have a bad connection, which should be checked.",
+        "The MSD display is bad; replace it."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kz6ks3",
+      "q": "The circuit in Figure 9-8 is defective; data is not appearing on the output lines. A check with the scope shows data pulses on the serial data line and multiplex control lines, S0&#8211;S2; no parity error is indicated. A further check with a logic probe indicates that Vcc and ground appear to be present. What might be wrong with the circuit?",
+      "options": [
+        "The demultiplexer may be bad.",
+        "The parity checker is defective.",
+        "The parity generator may be bad.",
+        "The parity checker is defective, or the parity generator may be bad."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Msi Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-41mwo7",
+      "q": "What must be done in the given figure in order to use two 7485 4-bit comparators to compare two 8-bit numbers?",
+      "options": [
+        "The P Q, P = Q, and P > Q outputs of COMP A must be connected to the same outputs of COMP B.",
+        "The P Q, P = Q, and P > Q outputs of COMP A must be connected to the inputs of COMP B.",
+        "The = input of COMP A must be connected to Vcc, and the inputs must be connected to ground.",
+        "The P Q, P = Q, and P > Q outputs of COMP A must be connected to the inputs of COMP B, the = input of COMP A must be connected to Vcc, and the inputs must be connected to ground."
       ],
       "correct": 0,
       "explain": "",

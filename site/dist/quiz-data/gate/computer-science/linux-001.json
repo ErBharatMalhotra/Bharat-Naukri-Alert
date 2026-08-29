@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Linux",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-1bidkww",
-      "q": "What type of addressing format is used by Class A network.",
+      "id": "gate-1xf2ebc",
+      "q": "What command is used to save the standard output in a file, as well as display it on the terminal?",
       "options": [
-        "Net.Net.Net.Node",
-        "Net.Net.Node.Node",
-        "Net.Node.Net.Node",
-        "Net.Node.Node.Node"
+        "tee",
+        "grep",
+        "cat",
+        "more"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,253 @@
       "tags": []
     },
     {
-      "id": "gate-bmyed4",
-      "q": "What types of installations require a special boot disk?",
+      "id": "gate-15rv2hc",
+      "q": "What command is used to count just the number of lines contained in a file?",
+      "options": [
+        "wc - r",
+        "wc - w",
+        "wc - c",
+        "wc - l"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xtuj44",
+      "q": "In OSI network architecture, the routing is performed by",
+      "options": [
+        "session layer",
+        "transport layer",
+        "data link layer",
+        "network layer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15btqtw",
+      "q": "The 32-bit internet address 10000000 00001010 00000010 00011110 will be written in dotted decimal notation as",
+      "options": [
+        "128.10.2.30",
+        "210.20.2.64",
+        "164.100.9.61",
+        "148.20.2.30"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t9wdwo",
+      "q": "Which class network is used for a collection of a small number of networks with a large number of nodes?",
+      "options": [
+        "Class A",
+        "Class B",
+        "Class C",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ola7zy",
+      "q": "What command is used to sort the lines of data in a file in reverse order?",
+      "options": [
+        "sort - r",
+        "st",
+        "sh",
+        "sort"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pcyf0b",
+      "q": "What command is used to print a file?",
+      "options": [
+        "lp",
+        "pg",
+        "prn",
+        "print"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19q2v3s",
+      "q": "The command chmod 761 letter is equivalent to",
+      "options": [
+        "chmod 4=7, g = 6, o = 1 letter",
+        "chmod a = 761 letter",
+        "chmod u = rwx, g = rw, o = x letter",
+        "chmod 167 letter"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-atb0zc",
+      "q": "What command is used with vi editor to move forward to the end of a word?",
+      "options": [
+        "c",
+        "d",
+        "b",
+        "e"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2hxaci",
+      "q": "The IP address are based on",
+      "options": [
+        "16-bit addresses",
+        "32-bit addresses",
+        "64-bit addresses",
+        "8-bit addresses"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xsjy4k",
+      "q": "The physical layer of a network",
+      "options": [
+        "constructs packets of data and sends them across the network",
+        "controls error detection and correction",
+        "defines the electrical characteristics of signals passed between the computer and communication devices",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cfdpov",
+      "q": "What TCP/IP protocol is used for remote terminal connection service?",
+      "options": [
+        "UDP",
+        "RARP",
+        "FTP",
+        "TELNET"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10a898q",
+      "q": "How many networks and nodes per network, are allowed by the Class B network?",
+      "options": [
+        "127 networks and 16,777,216 nodes per network",
+        "16,384 networks and 65,534 nodes per network",
+        "2,097,152 networks and 254 nodes per network",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Linux",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-75em3g",
+      "q": "What service is used to translate domain names to IP addresses?",
       "options": [
         "NFS",
-        "FTP",
-        "PCMCIA",
-        "All of the above"
+        "SMB",
+        "NIS",
+        "DNS"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-p870hk",
-      "q": "What command is used to query for a specific package with RPM?",
+      "id": "gate-fzd65f",
+      "q": "Which of the following command is used to create a Linux installation boot floppy?",
       "options": [
-        "rpm -q",
-        "rpm -a",
-        "rpm -d",
-        "rpm -1"
+        "mkboot disk",
+        "bootfp disk",
+        "ww and rawwrite",
+        "dd and rawrite"
       ],
       "correct": 0,
       "explain": "",
@@ -68,553 +308,13 @@
       "tags": []
     },
     {
-      "id": "gate-sb2k2o",
-      "q": "What script is run for setting bash global defaults for all users?",
+      "id": "gate-1ngt798",
+      "q": "Layer one of the OSI model is",
       "options": [
-        "/etc/.profile",
-        "/etc/.bashrc",
-        "/etc/.log",
-        "/etc/profile"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uxorgm",
-      "q": "What command can be used to get information about yourself?",
-      "options": [
-        "which",
-        "pwd",
-        "i /4",
-        "who am i"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k83rw8",
-      "q": "What layer protocol is responsible for user and the application programme support such as passwords, resource sharing, file transfer and network management?",
-      "options": [
-        "Layer 4 protocols",
-        "Layer 5 protocols",
-        "Layer 6 protocols",
-        "Layer 7 protocols"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9w0c1s",
-      "q": "What package group will you select during the custom configuration to enable the machine to communicate with Windows clients?",
-      "options": [
-        "SMB (Samba) Connectivity",
-        "IPX/NetWare Connectivity",
-        "Dial-up Workstation",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yqbvu4",
-      "q": "Which of the following tool allows you to change your default X Window desktop?",
-      "options": [
-        "switchdesk",
-        "intrc",
-        "xinitre",
-        "Xchange"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i1fic8",
-      "q": "Which of the following is the main Apache configuration file?",
-      "options": [
-        "httpd.conf",
-        "apache.con",
-        "/etc/profile",
-        "system.ini"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b36ntk",
-      "q": "What TCP/IP protocol is used for file transfer with minimal capability and minimal overhead?",
-      "options": [
-        "TELNET",
-        "TFTP",
-        "FTP",
-        "RARP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yhtvq",
-      "q": "What TCP/IP protocol is used for transferring electronic mail messages from one machine to another?",
-      "options": [
-        "FTP",
-        "SNMP",
-        "SMTP",
-        "RPC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rleali",
-      "q": "What command is used to halt a Linux system?",
-      "options": [
-        "init 0",
-        "Shutdown -t",
-        "Shutdown -g -y0",
-        "Ctrl+Alt+Del"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r0zxvy",
-      "q": "Which daemon is used for the Apache server?",
-      "options": [
-        "apached",
-        "httpd",
-        "html",
-        "shttp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cjo720",
-      "q": "GNOME is based on",
-      "options": [
-        "CORBA toolkit",
-        "COM/DCOM toolkit",
-        "ORE toolkit",
-        "OLE DB toolkit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wakdlw",
-      "q": "Which of the following format of partition tables does Linux use?",
-      "options": [
-        "Linux",
-        "BSD",
-        "UnixWare",
-        "DOS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z5yk9s",
-      "q": "Which of the following NIS clients returns the name of the NIS server used by the NIS client?",
-      "options": [
-        "ypwhich",
-        "ypbind",
-        "ypcat",
-        "yppoll"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11xl14",
-      "q": "What command is used to count the total number of lines, words, and characters contained in a file?",
-      "options": [
-        "countw",
-        "wcount",
-        "wc",
-        "count p"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ye4rls",
-      "q": "What command is used to remove files?",
-      "options": [
-        "dm",
-        "rm",
-        "delete",
-        "erase"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3j07ck",
-      "q": "What command is used to remove the directory?",
-      "options": [
-        "rdir",
-        "remove",
-        "rd",
-        "rmdir"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1np89g0",
-      "q": "What command is used with vi editor to delete a single character?",
-      "options": [
-        "x",
-        "y",
-        "a",
-        "z"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-phmrms",
-      "q": "What hardware architectures are not supported by Red Hat?",
-      "options": [
-        "SPARC",
-        "IBM-compatible",
-        "Alpha",
-        "Macintosh"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ekmg2s",
-      "q": "How can you add Amit, a new user, to your system?",
-      "options": [
-        "Using useradd",
-        "Using adduser",
-        "Using linuxconf",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8ahyfc",
-      "q": "What file specifies the order in which to use specified name services?",
-      "options": [
-        "/etc/services",
-        "/etc/nsorder",
-        "/etc/nsswitch.conf",
-        "/etc/hosts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ubvxaw",
-      "q": "How many primary partitions can exist on one drive?",
-      "options": [
-        "16",
-        "4",
-        "2",
-        "1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ihlnn0",
-      "q": "In which directory can you store system user default files used for creating user directories?",
-      "options": [
-        "/usr/tmp",
-        "/etc/default",
-        "/etc/skel",
-        "/etc/users"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rc8hj9",
-      "q": "How could you install the file ipchains-1.3.9-5.i386.rpm?",
-      "options": [
-        "rpm -qip ipchains",
-        "rpm -Uvh ipchains",
-        "rpm -i ipchains* .i386.rpm",
-        "rpm -e ipchains-1.3.9-5.i386.rpm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i6c594",
-      "q": "What shell's wild-card is used to match any number of characters including none?",
-      "options": [
-        "*",
-        "?",
-        "[!ijk]",
-        "[ijk]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15nrj28",
-      "q": "What command is used to list contents of directories?",
-      "options": [
-        "tar",
-        "dir",
-        "lp",
-        "ls"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6s2f4",
-      "q": "What command is used with vi editor to append text at end of line?",
-      "options": [
-        "I",
-        "i",
-        "a",
-        "A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t9d0zg",
-      "q": "What command is used to copy directory structures in and out?",
-      "options": [
-        "copy",
-        "cp - p",
-        "cpio",
-        "cp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yd2e2e",
-      "q": "In OSI network architecture, the dialogue control and token management are responsible of",
-      "options": [
-        "data link layer",
-        "transport layer",
         "network layer",
-        "session layer"
+        "transport layer",
+        "link layer",
+        "physical layer"
       ],
       "correct": 0,
       "explain": "",
@@ -628,13 +328,13 @@
       "tags": []
     },
     {
-      "id": "gate-s7jlc8",
-      "q": "Who founded the Linux Kernel?",
+      "id": "gate-3h4kw0",
+      "q": "What layer of OSI determines the interface of the system with the user?",
       "options": [
-        "Bill Gates",
-        "Ben Thomas",
-        "Richard Stallman",
-        "Linus Torvalds"
+        "Session",
+        "Data-link",
+        "Application",
+        "Network"
       ],
       "correct": 0,
       "explain": "",
@@ -648,368 +348,8 @@
       "tags": []
     },
     {
-      "id": "gate-1g9u9gc",
-      "q": "Which of the following is not a part of default Red Hat Linux email system?",
-      "options": [
-        "Pine",
-        "The MTA",
-        "The MUA",
-        "procmail"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1trbvlw",
-      "q": "_____ tool allows you to change your default X Window desktop.",
-      "options": [
-        "utilinux",
-        "cempre",
-        "switchdesk",
-        "window"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-87umpg",
-      "q": "In what file can you specify which users are not allowed to access a system via FTP?",
-      "options": [
-        "/etc/ftpusers",
-        "/etc/hosts.deny",
-        "/etc/ftpaccess",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-607840",
-      "q": "Which program is used to schedule particular jobs or programs at particular times on the system?",
-      "options": [
-        "vi",
-        "Outlook",
-        "Scheduler",
-        "cron"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ulm4w",
-      "q": "Where can system and mail logs be found in Ret Hat Linux?",
-      "options": [
-        "/var/log",
-        "/etc/log",
-        "/mail",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-enteqw",
-      "q": "What command is used to display and create files?",
-      "options": [
-        "lyrix",
-        "ed",
-        "vi",
-        "cat"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pl16dk",
-      "q": "Which of the following command can be used to rename a file in UNIX?",
-      "options": [
-        "ren",
-        "mv",
-        "remove",
-        "change"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1055074",
-      "q": "What command is used to remove a file?",
-      "options": [
-        "del",
-        "mv",
-        "rm",
-        "remove"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lt4w5c",
-      "q": "What command is used to display the top of the file?",
-      "options": [
-        "grep",
-        "more",
-        "head",
-        "cat"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14q71nc",
-      "q": "What can he used to set up a firewall on a Linux system?",
-      "options": [
-        "netstat",
-        "route",
-        "trace",
-        "ipchains"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6vlba1",
-      "q": "Which program is used to automatically install Red Mat Linux on identical hardware?",
-      "options": [
-        "bzimage.img",
-        "tar",
-        "ghost",
-        "mkkickstart"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1njfcao",
-      "q": "What service is not monitored by inetd ?",
-      "options": [
-        "SSH",
-        "time",
-        "ntalk",
-        "finger"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w7ya5k",
-      "q": "Who founded the FSF?",
-      "options": [
-        "Linus Torvalds",
-        "Richard Stallman",
-        "Bob Young",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1newbgw",
-      "q": "What shell's wild-card is used to match a single character?",
-      "options": [
-        "[!ijk]",
-        "[ijk]",
-        "?",
-        "*"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uywue1",
-      "q": "What command is used with file named 'letter' to remove the executable permission from the user and assign read permission to the group and others?",
-      "options": [
-        "chmod go + x, u - x letter",
-        "chmod g - x, uo + r letter",
-        "chmod go + r, u + x letter",
-        "chmod u - x, go + r letter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-znmfzs",
-      "q": "What command is used to assign executable permission to the owner of the file named \"letter\"?",
-      "options": [
-        "chmod ugo + x letter",
-        "chmod u + x letter",
-        "chmod u + w letter",
-        "chmod g + x letter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e1ijgx",
-      "q": "What command is used to compare the files?",
-      "options": [
-        "ccp",
-        "du",
-        "cmp",
-        "comp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-d60wj",
-      "q": "What command is used to summarize the disk usage?",
-      "options": [
-        "disk",
-        "du",
-        "fdisk",
-        "chkdsk"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8ocixk",
-      "q": "What command is used to list the jobs currently in print queues?",
+      "id": "gate-v8rh7j",
+      "q": "What command is used to remove jobs from the print queue?",
       "options": [
         "lpq",
         "lpr",
@@ -1028,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-mh0b4g",
-      "q": "What does FSF stand for?",
+      "id": "gate-p1olhs",
+      "q": "How can you navigate around virtual consoles?",
       "options": [
-        "Free Software File",
-        "File Server First",
-        "First Serve First",
-        "Free Software Foundation"
+        "Alt+Function Key",
+        "Ctrl+Function Key",
+        "Ctrl+Alt+Del",
+        "Alt+a+w+Function Key"
       ],
       "correct": 0,
       "explain": "",
@@ -1048,953 +388,13 @@
       "tags": []
     },
     {
-      "id": "gate-m3tm53",
-      "q": "Which of the following is a valid format for mounting a CD-ROM drive?",
+      "id": "gate-1v4aa68",
+      "q": "Which of the following NIS clients, finds and stores information about an NIS domain and server?",
       "options": [
-        "mount -t iso9660 /dev/cdrom / mnt/cdrom",
-        "mount /dev/cdrom",
-        "mount /mnt/cdrom",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1z39xs",
-      "q": "What command do you use to create Linux file systems?",
-      "options": [
-        "fdisk",
-        "mkfs",
-        "fsck",
-        "mount"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15qw3tk",
-      "q": "Which of the following command can you execute to count the number of lines in a file?",
-      "options": [
-        "lc",
-        "wc - l",
-        "cl",
-        "count"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-182h6g",
-      "q": "Which of the following command is used to access an SMB share on a Linux system?",
-      "options": [
-        "NFS",
-        "SMD",
-        "smbclient",
-        "smbserver"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gvffpq",
-      "q": "Which of the following command is used to see the services running in NFS server?",
-      "options": [
-        "rpcinfo",
-        "serverinfo",
-        "NFSinfo",
-        "infserv"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mt1hj0",
-      "q": "In which tcp_wrappers file can you specify to allow all connections from all hosts?",
-      "options": [
-        "/etc/hosts.allow",
-        "/etc/hosts.deny",
-        "/etc/hosts",
-        "/etc/tcp.conf"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3ieak0",
-      "q": "What does GNU stand for?",
-      "options": [
-        "GNU's not Unix",
-        "Greek Needed Unix",
-        "General Unix",
-        "General Noble Unix"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vo9avk",
-      "q": "Which command can force all buffers to disk?",
-      "options": [
-        "save",
-        "sync",
-        "edbuff",
-        "flush"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ck5e2x",
-      "q": "How many extended partitions can exist on one drive?",
-      "options": [
-        "16",
-        "4",
-        "2",
-        "1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-147bfwc",
-      "q": "For you to create a swap partition by using fdisk, what must the partition's system ID type be?",
-      "options": [
-        "83",
-        "82",
-        "5",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lmbdqg",
-      "q": "What file contains the list of port numbers (and associated names) monitored by inetd?",
-      "options": [
-        "/etc/services",
-        "/etc/nsorder",
-        "/etc/nsswitch.conf/",
-        "/etc/hosts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2z0uuk",
-      "q": "The location of some system configuration and system administrator executable files, is:",
-      "options": [
-        "/home",
-        "/proc",
-        "/var",
-        "/sbin"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4450fc",
-      "q": "What does OSS stand for?",
-      "options": [
-        "Open System Software",
-        "Original Source Software",
-        "Open Source Software",
-        "Original System Server"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yrzp2s",
-      "q": "Which of the following subdirectory(ies) contains the device files?",
-      "options": [
-        "/dev",
-        "/bin",
-        "/etc",
-        "/home"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1euhi1c",
-      "q": "Which of the following subdirectory(ies) contains the system boot scripts.",
-      "options": [
-        "/dev",
-        "/bin",
-        "/etc",
-        "/home"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wcc9n4",
-      "q": "What of the following tool is used to check and repair Linux file systems?",
-      "options": [
-        "mkfs",
-        "fdisk",
-        "fsck",
-        "mount"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uogn9k",
-      "q": "Which of the following tool is used to partition your hard drive?",
-      "options": [
-        "mkfs",
-        "fdisk",
-        "fsck",
-        "mount"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8xycew",
-      "q": "What command is used to copy a file?",
-      "options": [
-        "tar",
-        "cpio",
-        "cp",
-        "copy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6w4gzf",
-      "q": "What command is used to display your current working directory?",
-      "options": [
-        "path",
-        "pwd",
-        "prompt $p$g",
-        "dir"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yvjr2q",
-      "q": "What command is used with vi editor to move the cursor to the left?",
-      "options": [
-        "h",
-        "k",
-        "j",
-        "i"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m2b0mb",
-      "q": "What command do you use to add routes to a Linux router?",
-      "options": [
-        "addroute",
-        "route",
-        "netstat",
-        "net"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g7n1j4",
-      "q": "Which of the following command is used to mount NFS filesystems?",
-      "options": [
-        "nfsmount",
-        "knfsd",
-        "mount",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oglhys",
-      "q": "What command do you use to delete a file?",
-      "options": [
-        "rename",
-        "delete",
-        "rm",
-        "cp"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17gllj3",
-      "q": "Which of the following command lists the last 10 lines of a file?",
-      "options": [
-        "grep",
-        "tail",
-        "head",
-        "cat"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ybvtxs",
-      "q": "What command is used to terminate a process?",
-      "options": [
-        "kill",
-        "cancel",
-        "haltsys",
-        "shutdown"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5rkav4",
-      "q": "What command is used with vi editor to delete three words?",
-      "options": [
-        "3$d",
-        "3 dw",
-        "3 x",
-        "3 dd"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gy9yx4",
-      "q": "What command is used to assign only read permission to all three categories of the file'letter'?",
-      "options": [
-        "chmod u + r, g + r, o - x letter",
-        "chmod ugo = r letter",
-        "chmod a - rw letter",
-        "chmod go + r letter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2lo17o",
-      "q": "What command is used to display the characteristics of a process?",
-      "options": [
-        "au",
-        "ps",
-        "du",
-        "pid"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4qywrg",
-      "q": "What command is not used to list the files chap01, chap02 and chap04?",
-      "options": [
-        "ls chap*",
-        "ls chap[124]",
-        "ls - x chap0[124]",
-        "ls chap0[124]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vx6gg8",
-      "q": "What command is used with vi editor to replace text from cursor to right",
-      "options": [
-        "S",
-        "s",
-        "R",
-        "r"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ru2e8c",
-      "q": "What sign is used to back up over typing errors in vi?",
-      "options": [
-        "!",
-        "$",
-        "#",
-        "@"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rs4ccc",
-      "q": "What sign is used to erase or kill an entire line you have typed and start you are on a new line (but not display a new prompt)?",
-      "options": [
-        "!",
-        "$",
-        "#",
-        "@"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9mhcqg",
-      "q": "What protocol(s) is(are) allowed a user to retrieve her/his mail from the mail server to her/his mail reader?",
-      "options": [
-        "POP3",
-        "FTP",
-        "MAP",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kxchf8",
-      "q": "What project is currently developing X server support?",
-      "options": [
-        "XFree86 Project, Inc.",
-        "RHAD Labs",
-        "GNOME Project",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qtuiqb",
-      "q": "What X-based tool is available for configuring the X Window system?",
-      "options": [
-        "XConfigurator",
-        "XF86Setup",
-        "xf86config",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ck82q4",
-      "q": "Which of the following server is used with the BIND package?",
-      "options": [
-        "httpd",
-        "shttp",
-        "dns",
-        "named"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p8k95w",
-      "q": "What port does squid listen, by default?",
-      "options": [
-        "4322",
-        "2314",
-        "7334",
-        "3128"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jp2kpp",
-      "q": "The location for subdirectories for local programs and executables for user and administrative commands, is:",
-      "options": [
-        "/usr",
-        "/tmp",
-        "/opt",
-        "/mnt"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w0lv7x",
-      "q": "Which of the following is not a filter command?",
-      "options": [
-        "sort",
-        "wc",
-        "grep",
-        "cat"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8erlwc",
-      "q": "What command is used to display a file contents in octal form?",
-      "options": [
-        "oct",
-        "of",
-        "od",
-        "cd"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i47gu2",
-      "q": "What command is used to assign executable permission to all of the files named \"report\"?",
-      "options": [
-        "chmod ugo + x report",
-        "chmod u + x report",
-        "chmod ugo + rw report",
-        "chmod ugo + r report"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ovny31",
-      "q": "What command is used to change the working directory?",
-      "options": [
-        "cdir",
-        "chdir",
-        "changedir",
-        "cd"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18fla25",
-      "q": "What command is used to set user and group quotas?",
-      "options": [
-        "/sbin/usrquota",
-        "/sbin/edquota",
-        "/sbin/quotaon",
-        "/sbin/quota"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k4lh0g",
-      "q": "In order to increase the amount of memory available for a system, what is the maximum size of a swap partition (with kernel version 2.2.x)?",
-      "options": [
-        "2GB",
-        "128MB",
-        "64MB",
-        "32MB"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4um4jk",
-      "q": "Which file is used to configure which filesystems are mounted?",
-      "options": [
-        "/etc/mount.sys",
-        "/etc/filesys",
-        "/etc/sysconfig",
-        "/etc/fstab"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1157ms8",
-      "q": "Who has developed the Linux?",
-      "options": [
-        "Bob Young",
-        "Mark Eving",
-        "Richard Stallman",
-        "Linus Torvalds"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ifdff0",
-      "q": "To build a modularized kernel, the kernel-headers and kernel-source packages must first be installed. Where will you find the kernel-headers and kernel-source?",
-      "options": [
-        "/usr/local",
-        "/usr/src/linux",
-        "/usr/sre/redhat",
-        "/usr/bin"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Linux",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u8073w",
-      "q": "After you have compiled your kernel, what do you have to edit to boot your new kernel image?",
-      "options": [
-        "/boot/lilo.conf",
-        "/etc/conf.modules",
-        "/etc/named.boot",
-        "/etc/lilo.conf"
+        "ypwhich",
+        "ypbind",
+        "ypcat",
+        "yppoll"
       ],
       "correct": 0,
       "explain": "",

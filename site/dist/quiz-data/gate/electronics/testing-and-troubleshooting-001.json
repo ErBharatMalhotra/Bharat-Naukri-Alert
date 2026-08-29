@@ -5,16 +5,14 @@
   "subject": "Electronics",
   "topic": "Testing And Troubleshooting",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 16,
   "questions": [
     {
-      "id": "gate-1alc03o",
-      "q": "The results of internal IC failures will usually be noticed during the ______ phase of troubleshooting.",
+      "id": "gate-1y1mw94",
+      "q": "The three basic steps for fixing a failure are ISOLATE, DIAGNOSE, and REPAIR.",
       "options": [
-        "diagnostic",
-        "isolation",
-        "repair",
-        "final test"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +26,11 @@
       "tags": []
     },
     {
-      "id": "gate-w33bcg",
-      "q": "Erratic or unexplained digital circuit activity is often due to _________.",
+      "id": "gate-1kqzab8",
+      "q": "An internal logic gate that shorts to either +VCC or ground will cause the inputs or output to be stuck either LOW or FLOATING.",
       "options": [
-        "a glitch",
-        "a random pulse",
-        "clock frequency changes",
-        "a change in slew rate"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -48,133 +44,269 @@
       "tags": []
     },
     {
-      "id": "gate-1p99bfy",
-      "q": "The device that would best aid in open track detection is a(n) ________.",
+      "id": "gate-69f6f0",
+      "q": "A noise problem in a digital circuit is often called a glitch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ps5khw",
+      "q": "The time interval between the start of two consecutive pulses is called pulse repetition time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-anatv8",
+      "q": "\"Train\" and \"single\" is the mode selection for a _______.",
+      "options": [
+        "multimeter",
+        "logic probe",
+        "current tracer",
+        "logic pulser"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rl1saw",
+      "q": "The use of a logic probe may be improved through the use of a(n) ________.",
+      "options": [
+        "logic clip",
+        "frequency counter",
+        "oscilloscope",
+        "current tracer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fduci0",
+      "q": "The control of digital circuits is usually achieved with _________.",
+      "options": [
+        "random pulses",
+        "clock signals",
+        "sophisticated gating",
+        "selected frequencies"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m7esd7",
+      "q": "In order for a logic probe to operate, its red and black leads must first be connected to a ________.",
+      "options": [
+        "logic clip",
+        "HIGH or TRUE signal",
+        "power source",
+        "logic pulser"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-its604",
+      "q": "The ideal test equipment to use for locating shorts in digital circuitry is the ________ and _______.",
+      "options": [
+        "logic probe, clip",
+        "logic pulser, logic probe",
+        "current tracer, logic pulser",
+        "current tracer, logic clip"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x20iyo",
+      "q": "Which test equipment best allows a comparison between input and output signals?",
+      "options": [
+        "an oscilloscope",
+        "a logic probe",
+        "a spectrum analyzer",
+        "a multitrace oscilloscope"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-brbsm4",
+      "q": "The duty cycle of a pulse is determined by which formula?",
+      "options": [
+        "Duty Cycle =",
+        "Duty Cycle =",
+        "Duty Cycle =",
+        "Duty Cycle ="
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xja2e4",
+      "q": "What is the next step after discovering a faulty gate within an IC?",
+      "options": [
+        "repair the gate",
+        "resolder the tracks",
+        "replace the IC involved",
+        "recheck the power source"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ji3kbw",
+      "q": "The use of a multimeter with digital circuits allows the measurement of:",
+      "options": [
+        "pulse width",
+        "voltage or resistance",
+        "current",
+        "pulse trains"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gjz3qk",
+      "q": "The use of triggered sweep when using an oscilloscope provides more accuracy in which area?",
+      "options": [
+        "frequency",
+        "amplitude",
+        "graticule activity",
+        "timing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1veiti9",
+      "q": "The time needed for a pulse to increase from 10% to 90% of its amplitude defines:",
+      "options": [
+        "pulse width",
+        "propagation delay",
+        "rise time",
+        "duty cycle"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Testing And Troubleshooting",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sb51c4",
+      "q": "Which device would best aid in shorted track detection?",
       "options": [
         "multimeter",
         "current tracer",
-        "logic probe",
+        "logic pulser",
         "oscilloscope"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c5k94s",
-      "q": "A check of all power supply voltages should be made during the ________ method of troubleshooting.",
-      "options": [
-        "half-split",
-        "diagnosis",
-        "repair",
-        "final test"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1g1dnlk",
-      "q": "A series of gradually decreasing sine wave oscillations is called:",
-      "options": [
-        "ringing",
-        "slew",
-        "overshooting",
-        "undershooting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-eyebug",
-      "q": "The determination of a digital signal's frequency and waveshape is best accomplished with which test equipment?",
-      "options": [
-        "an oscilloscope",
-        "a multimeter",
-        "a spectrum analyzer",
-        "a frequency generator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pzaygs",
-      "q": "A logic probe is placed on the output of a gate and the display indicator is dim. A logic pulser is used on each of the input terminals, but the output indication does not change. What is wrong?",
-      "options": [
-        "The dim indication on the logic probe indicates that the supply voltage is probably low.",
-        "The output of the gate appears to be open.",
-        "The LOW indication is the result of a bad ground connection on the logic probe.",
-        "The gate is a tri-state device."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nrxeeo",
-      "q": "A +5 V PCB power source that has been \"pulled down\" to a +3.4 V level may be due to:",
-      "options": [
-        "a circuit open",
-        "a faulty regulator",
-        "the half-split method",
-        "a circuit short"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Testing And Troubleshooting",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nvefwk",
-      "q": "Measurement of pulse width should be taken at a 50% mean of the:",
-      "options": [
-        "overshoot and undershoot",
-        "rise and fall",
-        "damping and ringing",
-        "leading and trailing amplitude"
       ],
       "correct": 0,
       "explain": "",

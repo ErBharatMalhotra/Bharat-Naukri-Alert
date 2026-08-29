@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Combinational Logic Circuits",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-1sc3t9i",
-      "q": "An AND gate and two INVERTERs can be connected to act as a basic decoder.",
+      "id": "gate-12wds2b",
+      "q": "A multiplexer is a device that outputs a fixed sequence of binary states on each clock pulse.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-aooppo",
-      "q": "Parity checking can only detect an odd number of errors.",
+      "id": "gate-1sx81dk",
+      "q": "The general function of a decoder is to activate one or more circuit outputs upon detection of a particular digital state.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1r1i4s9",
-      "q": "A sixteen-input multiplexer will need three data select input control lines.",
+      "id": "gate-id1ey1",
+      "q": "An encoder circuit is designed to generate specific codes.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1h3g4pc",
-      "q": "A hexadecimal decoder selects one of sixteen outputs depending on the 8-bit binary input applied.",
+      "id": "gate-6d7n77",
+      "q": "A decoder with two inputs will have two outputs for the decoded value.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-3jmty0",
-      "q": "A multiplexer is a device that chooses which output to send an input to by means of select lines.",
+      "id": "gate-gn5xho",
+      "q": "A magnitude comparator outputs the highest or lowest value of its inputs depending on control signals.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-vhwyv4",
-      "q": "How many inputs are required for a 1-of-10 BCD decoder?",
+      "id": "gate-njkg9d",
+      "q": "A technique that can be used in multiple-digit numerical displays to control suppression or display of leading or trailing zeros in the display is called _________.",
       "options": [
-        "4",
-        "8",
-        "10",
-        "1"
+        "advanced zero control",
+        "time division multiplexing",
+        "parity generation",
+        "ripple blanking"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-wvk16d",
-      "q": "Most demultiplexers facilitate which of the following?",
+      "id": "gate-1h5frvg",
+      "q": "Parity systems are defined as either_____ or _____ and will add an extra _____ to the digital information being transmitted.",
       "options": [
-        "decimal to hexadecimal",
-        "single input, multiple outputs",
-        "ac to dc",
-        "odd parity to even parity"
+        "positive, negative, byte",
+        "odd, even, bit",
+        "upper, lower, digit",
+        "on, off, decimal"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-14gugro",
-      "q": "One application of a digital multiplexer is to facilitate:",
+      "id": "gate-eewkm8",
+      "q": "A device that uses a binary decoder to direct a digital signal from a single source to one of several destinations is a ________.",
       "options": [
-        "code conversion",
-        "parity checking",
-        "parallel-to-serial data conversion",
-        "data generation"
+        "multiplexer",
+        "demultiplexer",
+        "encoder",
+        "comparator"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,193 @@
       "tags": []
     },
     {
-      "id": "gate-u5au0e",
-      "q": "A multiplexed display:",
+      "id": "gate-2mskwk",
+      "q": "A code in which each individual digit of a decimal number is represented by a 4-bit binary number is _________.",
       "options": [
-        "accepts data inputs from one line and passes this data to multiple output lines",
-        "uses one display to present two or more pieces of information",
-        "accepts data inputs from multiple lines and passes this data to multiple output lines",
-        "accepts data inputs from several lines and multiplexes this input data to four BCD lines"
+        "binary coded decimal",
+        "binary",
+        "hexadecimal",
+        "seven-segment code"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zahjgc",
+      "q": "The diodes in a seven-segment display where all cathodes are tied together and grounded are illuminated when a logic ____________________ is applied to the ____________________.",
+      "options": [
+        "LOW, anodes",
+        "LOW, count down control line",
+        "HIGH, anode",
+        "HIGH, count up control line"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vp7gkw",
+      "q": "When two or more inputs are active simultaneously, the process is called:",
+      "options": [
+        "first-in, first-out processing",
+        "priority encoding",
+        "ripple blanking",
+        "priority decoding"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pkbl84",
+      "q": "Which type of decoder will select one of sixteen outputs, depending on the 4-bit binary input value?",
+      "options": [
+        "hexadecimal",
+        "dual octal outputs",
+        "binary-to-hexadecimal",
+        "hexadecimal-to-binary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d2zw4c",
+      "q": "A magnitude comparator determines:",
+      "options": [
+        "A B and if A B or A >> B",
+        "A B and if A > B or A < b",
+        "A = B and if A > B or A < b",
+        "A B and if A B"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m9t2ew",
+      "q": "A circuit that responds to a specific set of signals to produce a related digital signal output is called a(n):",
+      "options": [
+        "BCD matrix",
+        "display driver",
+        "encoder",
+        "decoder"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xzcbit",
+      "q": "Which digital system translates coded characters into a more intelligible form?",
+      "options": [
+        "encoder",
+        "display",
+        "counter",
+        "decoder"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fvy5br",
+      "q": "A basic multiplexer principle can be demonstrated through the use of a:",
+      "options": [
+        "single-pole relay",
+        "DPDT switch",
+        "rotary switch",
+        "linear stepper"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gp344k",
+      "q": "In a BCD-to-seven-segment converter, why must a code converter be utilized?",
+      "options": [
+        "No conversion is necessary.",
+        "to convert the 4-bit BCD into gray code",
+        "to convert the 4-bit BCD into 10-bit code",
+        "to convert the 4-bit BCD into 7-bit code"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Combinational Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14a182w",
+      "q": "Select one of the following statements that best describes the parity method of error detection:",
+      "options": [
+        "Parity checking is best suited for detecting single-bit errors in transmitted codes.",
+        "Parity checking is best suited for detecting double-bit errors that occur during the transmission of codes from one location to another.",
+        "Parity checking is not suitable for detecting single-bit errors in transmitted codes.",
+        "Parity checking is capable of detecting and correcting errors in transmitted codes."
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Polymorphism",
   "source": "indiabix.com",
-  "count": 8,
+  "count": 4,
   "questions": [
     {
-      "id": "gate-1ze5f8",
-      "q": "Which of the following unary operators can be overloaded? true false + new is",
+      "id": "gate-240rxa",
+      "q": "Which of the following is the correct way to overload + operator?",
       "options": [
-        "1, 2, 3",
-        "3, 4, 5",
-        "3 only",
-        "5 only"
+        "public sample operator + ( sample a, sample b )",
+        "public abstract operator + ( sample a, sample b)",
+        "public abstract sample operator + (sample a, sample b )",
+        "public static sample operator + ( sample a, sample b )"
       ],
       "correct": 0,
       "explain": "",
@@ -28,73 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c0pcr0",
-      "q": "A derived class can stop virtual inheritance by declaring an override as",
-      "options": [
-        "inherits",
-        "extends",
-        "inheritable",
-        "not inheritable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-72qobf",
-      "q": "Which of the following keyword is used to change the data and behavior of a base class by replacing a member of a base class with a new derived member?",
-      "options": [
-        "new",
-        "base",
-        "overloads",
-        "override"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jsensv",
-      "q": "Which of the following keyword is used to overload user-defined types by defining static member functions?",
-      "options": [
-        "op",
-        "opoverload",
-        "operator",
-        "operatoroverload"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z5hl7u",
-      "q": "Which of the following operators cannot be overloaded? true false new ~ sizeof",
+      "id": "gate-1rlrx8w",
+      "q": "Which of the following statements are correct? All operators in C#.NET can be overloaded. We can use the new modifier to modify a nested type if the nested type is hiding another type. In case of operator overloading all parameters must be of the different type than the class or struct that declares the operator. Method overloading is used to create several methods with the same name that performs similar tasks on similar data types. Operator overloading permits the use of symbols to represent computations for a type.",
       "options": [
         "1, 3",
         "2, 4",
-        "3, 5",
-        "All of the above"
+        "2, 5",
+        "3, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1la1odx",
-      "q": "Which of the following modifier is used when a virtual method is redefined by a derived class?",
+      "id": "gate-kc9znw",
+      "q": "Which of the following statement is correct about the C#.NET code snippet given below? public class Sample { public int x; public virtual void fun() { } } public class DerivedSample : Sample { new public void fun() { } }",
       "options": [
-        "overloads",
-        "override",
-        "overridable",
-        "virtual"
+        "DerivedSample class hides the fun() method of base class.",
+        "The DerivedSample class version of fun() method gets called using Sample class reference which holds DerivedSample class object.",
+        "The code replaces the DerivedSample class version of fun() method with its Sample class version.",
+        "It is not possible to hide Sample class version of fun() method without use of new in DerivedSample class."
       ],
       "correct": 0,
       "explain": "",
@@ -128,33 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1a0nsgc",
-      "q": "In order for an instance of a derived class to completely take over a class member from a base class, the base class has to declare that member as",
+      "id": "gate-12t3zv8",
+      "q": "Which of the following are necessary for Run-time Polymorphism? The overridden base method must be virtual, abstract or override. Both the override method and the virtual method must have the same access level modifier. An override declaration can change the accessibility of the virtual method. An abstract inherited property cannot be overridden in a derived class. An abstract method is implicitly a virtual method.",
       "options": [
-        "new",
-        "base",
-        "virtual",
-        "overrides"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-apjy5o",
-      "q": "Which of the following can be declared as a virtual in a class? Methods Properties Events Fields Static fields",
-      "options": [
-        "1, 2, 3",
-        "3, 5",
-        "2, 4",
-        "2, 3, 5"
+        "1, 3",
+        "1, 2, 5",
+        "2, 3, 4",
+        "4 only"
       ],
       "correct": 0,
       "explain": "",

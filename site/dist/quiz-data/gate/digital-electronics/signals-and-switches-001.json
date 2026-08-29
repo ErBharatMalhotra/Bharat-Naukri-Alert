@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Signals And Switches",
   "source": "indiabix.com",
-  "count": 35,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-t32jts",
-      "q": "The ability to manufacture smaller, more dense components has been fulfilled by SMD.",
+      "id": "gate-1qb4s2s",
+      "q": "Precise timing is not important in digital signals.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1cslwic",
-      "q": "An electromechanical relay is operated manually.",
+      "id": "gate-1ru3l68",
+      "q": "A plot of voltage versus time is called a timing diagram.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-3plk74",
-      "q": "Serial communications cannot be sped up.",
+      "id": "gate-ksv8b8",
+      "q": "The CMOS uses bipolar transistors instead of MOSFET.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-zfemo",
-      "q": "Manual switches and relays have identical ON and OFF resistances.",
+      "id": "gate-14idwj4",
+      "q": "Most modern digital systems are based on semiconductor technology.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-15bacsg",
-      "q": "The frequency of the clock waveform is defined as the reciprocal of the clock period.",
+      "id": "gate-10y3x0g",
+      "q": "The SO package is available for the most popular TTL and CMOS digital logic and analog IC devices.",
       "options": [
         "True",
         "False"
@@ -98,232 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-11bhwd8",
-      "q": "Why does the TTL family use a totem-pole circuit on the output?",
+      "id": "gate-aavmdg",
+      "q": "Why is parallel data transmission preferred over serial data transmission for most applications?",
       "options": [
-        "It provides active pull-up.",
-        "It provides active pull-down.",
-        "It provides active pull-up and active pull-down."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c9ck38",
-      "q": "What is the frequency of a clock waveform if the period of that waveform is1.25 s?",
-      "options": [
-        "8 kHz",
-        "0.8 kHz",
-        "0.8 MHz",
-        "8 MHz"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-f9zuqw",
-      "q": "Why is the given circuit called an inverter?",
-      "options": [
-        "The output is the opposite (inverse) of the input.",
-        "The output is in phase with the input.",
-        "The output is the same as the input.",
-        "There is no output."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o7mka8",
-      "q": "The hexadecimal number 4B16 is transmitted as an 8-bit word in parallel. What is the time required for this transmission if the clock frequency is 2.25 MHz?",
-      "options": [
-        "444 ns",
-        "444 s",
-        "3.55 s",
-        "3.55 ms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14z2gew",
-      "q": "Internally, a computer's binary data are almost always transmitted on parallel channels, commonly referred to as the:",
-      "options": [
-        "parallel bus",
-        "serial bus",
-        "data bus",
-        "memory bus"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bedvig",
-      "q": "How long will it take to serially transmit the hexadecimal number C316 if the clock frequency is 1.5 MHz?",
-      "options": [
-        "4.69 ms",
-        "4.69 s",
-        "5.33 ms",
-        "5.33 s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-es7f9c",
-      "q": "What is the output voltage from the circuit in the given figure?",
-      "options": [
-        "+15 V",
-        "+12 V",
-        "+3 V",
-        "0 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-63d4gk",
-      "q": "The family of logic that is composed of bipolar junction transistors is ____.",
-      "options": [
-        "TTL",
-        "CMOS",
-        "DIP",
-        "BJT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nydufv",
-      "q": "What can a relay provide between the triggering source and the output that semiconductor switching devices cannot?",
-      "options": [
-        "total isolation",
-        "faster",
-        "higher current rating",
-        "total isolation and higher current rating"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m25kxz",
-      "q": "Determine the output voltage Vout for the circuit in the given figure.",
-      "options": [
-        "&#8211;0.5 V",
-        "0 V",
-        "+5 V",
-        "+4.3 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ddwulb",
-      "q": "What is the minimum voltage required before a diode will allow current to flow between the cathode and the anode?",
-      "options": [
-        "0.7 V",
-        "0.07 V",
-        "4.3 V",
-        "0.2 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mgk7ai",
-      "q": "What is the advantage of using serial data transmission over parallel data transmission?",
-      "options": [
-        "It is slower.",
-        "Only one pair of wires is required.",
+        "It is much slower.",
+        "It is cheaper.",
         "More people use it.",
-        "It is faster."
+        "It is much faster."
       ],
       "correct": 0,
       "explain": "",
@@ -337,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1eksvr3",
-      "q": "A TTL totem-pole circuit is designed so that the output transistors:",
+      "id": "gate-1c81dps",
+      "q": "Determine if diodes D1 and D2 in the given figure are forward or reverse biased.",
       "options": [
-        "are always on together",
-        "provide phase splitting",
-        "provide voltage regulation",
-        "are never on together"
+        "D1 forward and D2 reverse",
+        "D2 forward and D1 reverse",
+        "D1 and D2 reverse",
+        "D1 and D2 forward"
       ],
       "correct": 0,
       "explain": "",
@@ -357,12 +138,108 @@
       "tags": []
     },
     {
-      "id": "gate-1jvmnjo",
-      "q": "What is the advantage of using CMOS logic over TTL?",
+      "id": "gate-ns8oqc",
+      "q": "With surface-mount technology (SMT), the devices should:",
       "options": [
-        "It switches faster.",
+        "utilize transistor outline connections",
+        "mount directly",
+        "have parallel connecting pins",
+        "require holes and pads"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Signals And Switches",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sfb7cj",
+      "q": "To forward bias a diode, a ________ potential is needed on the ________ and a ________ is needed on the ________.",
+      "options": [
+        "negative, cathode, positive, anode",
+        "negative, anode, positive, cathode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Signals And Switches",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1plwzw8",
+      "q": "Why, in most applications, are transistor switches used in place of relays?",
+      "options": [
+        "They consume less power.",
+        "They are faster.",
+        "They are quieter and smaller.",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Signals And Switches",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gepiqw",
+      "q": "Determine the voltage on the collector Vc of the given transistor circuit.",
+      "options": [
+        "0 V",
+        "+10 V",
+        "+4.7 V",
+        "+0.5 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Signals And Switches",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w8jqso",
+      "q": "The period of a waveform is the percentage of time the signal is HIGH.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Signals And Switches",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15w2jx0",
+      "q": "What is a disadvantage of CMOS in place of TTL?",
+      "options": [
+        "It switches slower.",
         "It uses less power.",
-        "It is larger.",
+        "It is smaller.",
         "cost"
       ],
       "correct": 0,
@@ -377,306 +254,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t6ddu0",
-      "q": "What is used to graphically show the time relationship between two or more digital waveforms?",
+      "id": "gate-h8rv4d",
+      "q": "The units for the HIGH time for a periodic wave are ________.",
       "options": [
-        "reference diagram",
-        "timing diagram",
-        "voltage curve",
-        "load line"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-whogig",
-      "q": "The serial format for transmitting binary information uses:",
-      "options": [
-        "a single conductor",
-        "multiple conductors",
-        "infrared technology",
-        "fiber-optic"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n4gr7x",
-      "q": "Which device(s) have almost ideal ON and OFF resistances?",
-      "options": [
-        "electromechanical relays",
-        "manual switches",
-        "semiconductor devices (diodes and transistors)",
-        "electromechanical relays and manual switches"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-s1l704",
-      "q": "A diode placed in parallel across a relay coil serves what function?",
-      "options": [
-        "to regulate input voltage",
-        "to protect the coil from arcing",
-        "to ensure most of the current passes through the coil",
-        "to reduce arcing across the relay contacts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r18r7g",
-      "q": "Serial communication can be sped up by:",
-      "options": [
-        "using silver or gold conductors instead of copper",
-        "using high-speed clock signals",
-        "adjusting the duty cycle of the binary information",
-        "using silver or gold conductors instead of copper and high-speed clock signals"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wyh012",
-      "q": "What is the period of a clock waveform that has a frequency of 15.4 kHz?",
-      "options": [
-        "649 s",
-        "6.49 s",
-        "64.9 s",
-        "0.649 s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vr3mxg",
-      "q": "If the input voltage on the base of the transistor in the given figure is changed to +10 V, what is the new voltage at the collector Vc?",
-      "options": [
-        "Not enough information is provided.",
-        "Vc = 10 V",
-        "Vc = 0 V",
-        "Vc = 5 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qmb7q4",
-      "q": "Is the transistor in the given figure considered ON or OFF?",
-      "options": [
-        "OFF",
-        "ON",
-        "Not enough information is provided."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vymwoy",
-      "q": "Normal operation of an NPN bipolar transistor requires the base to be ________ with respect to the emitter, and ________ with respect to the collector.",
-      "options": [
-        "positive, negative",
-        "positive, positive",
-        "negative, positive",
-        "negative, negative"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e7wxgk",
-      "q": "The abbreviation NO, when used with respect to electromechanical relays, stands for not operational.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12jhdnw",
-      "q": "In a graphical representation of voltage versus time, ________ is displayed on the ________ axis and ________ is displayed on the ________ axis.",
-      "options": [
-        "time, y, voltage, x",
-        "voltage, y, time, x"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u7q5y0",
-      "q": "TTL logic chips must have connections to Vcc and ground, even if all inputs and outputs are properly used and tied to valid signals.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ostvvk",
-      "q": "What is the output voltage Vout for the given circuit if the input voltage changes to 0 V?",
-      "options": [
-        "+12 V",
-        "+15 V",
-        "+3 V",
-        "0 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2k9wto",
-      "q": "If the input voltage on D1 in the given figure is changed to 0 V, what is the output voltage Vout?",
-      "options": [
-        "&#8211;5 V",
-        "0 V",
-        "+5 V",
-        "+4.3 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15p8390",
-      "q": "An indication of cutoff in an NPN bipolar transistor is that the:",
-      "options": [
-        "collector current is maximum",
-        "collector-to-emitter voltage equals zero",
-        "base-to-emitter voltage equals 0.7 V",
-        "collector to emitter appears to be open"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Signals And Switches",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fsrey0",
-      "q": "When an IC has two rows of parallel connecting pins, the device is referred to as a:",
-      "options": [
-        "QFP",
-        "DIP",
-        "TSSOP",
-        "CMOS"
+        "seconds",
+        "hertz",
+        "cycles",
+        "&#37;"
       ],
       "correct": 0,
       "explain": "",

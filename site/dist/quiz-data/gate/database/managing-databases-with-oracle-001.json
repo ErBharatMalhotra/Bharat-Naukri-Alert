@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Managing Databases With Oracle",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-1mp6in0",
-      "q": "The semicolon terminates a SQL statement (and executes it).",
+      "id": "gate-4xc8hr",
+      "q": "Indexes are created to enforce uniqueness on columns and to enable fast retrieval by column values.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-81mpx0",
-      "q": "SQL*Plus is a text editor.",
+      "id": "gate-4dswac",
+      "q": "Money is defined in Oracle with the Currency data type.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-13f2a2r",
-      "q": "When you type Start FILENAME, the statement in your file will be executed automatically.",
+      "id": "gate-ot3lw",
+      "q": "The default extension for SQL*Plus is .sql.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-90jvwi",
-      "q": "You can check on the status of tables with the DESCRIBE or DESC command.",
+      "id": "gate-1u9i0k0",
+      "q": "The left-leaning slash tells Oracle to execute whatever statement is in the buffer.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1w2llsw",
-      "q": "Oracle directly supports the definition of surrogate keys.",
+      "id": "gate-1v2k0zj",
+      "q": "Oracle maintains a System Change Number (SCN) which is a database-wide value that is incremented by Oracle whenever database changes are made.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-ih0fa0",
-      "q": "Oracle commands, column names, table names, view names and all other database elements are case sensitive.",
+      "id": "gate-103gbhc",
+      "q": "Which of the following is not true of SQL views?",
       "options": [
-        "True",
-        "False"
+        "Oracle views cannot use the ORDER BY clause in view definitions.",
+        "Oracle views are created using the standard SQL-92 CREATE VIEW command.",
+        "Oracle views can by queried.",
+        "The SQL-92 standard does not allow the use of the ORDER BY clause in view definitions."
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-k62tu7",
-      "q": "If there is only one statement and no ambiguity about what is wanted, Oracle will treat the semicolon and slash as the same.",
+      "id": "gate-b521ho",
+      "q": "SQL*Plus will finish the statement and execute it when the user types in this:",
       "options": [
-        "True",
-        "False"
+        "A left slash ( \\ ) followed by [Enter].",
+        "A colon ( : ) followed by [Enter].",
+        "A semicolon ( ; ) followed by [Enter].",
+        "A period ( . ) followed by [Enter]."
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-udex90",
-      "q": "The only time that case matters is inside quotation marks of strings.",
+      "id": "gate-vl3wwn",
+      "q": "Which of the following is NOT an Oracle-supported trigger?",
       "options": [
-        "True",
-        "False"
+        "BEFORE",
+        "DURING",
+        "AFTER",
+        "INSTEAD OF"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-sbjo6z",
-      "q": "You can use the DROP statement to remove structures from the database.",
+      "id": "gate-1phwo4q",
+      "q": "After a table has been created, its structure can be modified using the SQL command:",
       "options": [
-        "True",
-        "False"
+        "UPDATE TABLE [TableName].",
+        "MODIFY TABLE [TableName].",
+        "ALTER TABLE [TableName].",
+        "CHANGE TABLE [TableName]."
       ],
       "correct": 0,
       "explain": "",
@@ -170,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-esv6jn",
-      "q": "Oracle, the world's most popular DBMS, is powerful and robust, running on many different operating systems.",
+      "id": "gate-poo49k",
+      "q": "Which of the following is not true about modifying table columns?",
       "options": [
-        "True",
-        "False"
+        "You can drop a column at any time.",
+        "You can add a column at any time as long as it is a NULL column.",
+        "You can increase the number of characters in character columns or the number of digits in numeric columns",
+        "You cannot increase or decrease the number of decimal places."
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-12uw61a",
-      "q": "What type of failure occurs when Oracle fails due to an operating system or computer hardware failure?",
+      "id": "gate-1aaa6rk",
+      "q": "You have linked SQL*Plus to an external text editor. To invoke the text editor for use within SQL*Plus, which command do you use?",
       "options": [
-        "Application failure",
-        "Instance Failure",
-        "Media Failure",
-        "Rollback failure"
+        "Open [FileName]",
+        "Show [FileName]",
+        "Alter [FileName]",
+        "Edit [FileName]"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1l3pzys",
-      "q": "Which statement about sequences is not true?",
+      "id": "gate-16e3o3g",
+      "q": "The default extension for an Oracle SQL*Plus file is:",
       "options": [
-        "A sequence is an object that generates a sequential series of unique numbers.",
-        "Sequences are most often used to provide values for surrogate keys.",
-        "NextVal and CurrVal are both sequence methods.",
-        "Sequences guarantee valid surrogate key values."
+        ".txt.",
+        ".pls.",
+        ".ora.",
+        ".sql."
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-13b94af",
-      "q": "Which prefixes are available to Oracle triggers?",
+      "id": "gate-11m4rih",
+      "q": "An Oracle System Change Number (SCN):",
       "options": [
-        ":new only",
-        ":old only",
-        "Both :new and :old",
-        "Neither :new nor :old"
+        "is a value that is incremented whenever a dirty read occurs.",
+        "is incremented whenever a deadlock occurs.",
+        "is a value that keeps track of explicit locks.",
+        "is a value that is incremented whenever database changes are made."
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ahpr1k",
-      "q": "In creating a procedure, you may get a message if you have compile errors. Which of the following is true?",
+      "id": "gate-1bvh2ro",
+      "q": "To obtain the structure of an Oracle table, the command to use is:",
       "options": [
-        "The line numbers reported match the line numbers you see in your text editor.",
-        "SQL*Plus will automatically show the errors to you.",
-        "To see the errors, enter SHOW ERRORS in SQL*Plus.",
-        "If there are no syntax errors, you will receive the message \"NO ERRORS.\""
+        "STRUCTURE [TableName].",
+        "DESCRIBE [TableName].",
+        "DESCRIBE STRUCTURE [TableName].",
+        "DESC TABLE [TableName]."
       ],
       "correct": 0,
       "explain": "",
@@ -268,203 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-vx54wc",
-      "q": "Which of the following is not true about indexes?",
+      "id": "gate-11hzmao",
+      "q": "To see the contents of the SQL*Plus buffer, type:",
       "options": [
-        "Indexes are created to enforce uniqueness on columns.",
-        "Indexes are created to enable fast retrieval by column values.",
-        "Columns that are frequently used with equal conditions in WHERE clauses are good candidates for indexes.",
-        "Indexes are created with the ALTER TABLE command."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ng8hyh",
-      "q": "Of the three ways to create an Oracle database, which one is the easiest and most recommended?",
-      "options": [
-        "Using the Oracle Database Configuration Assistant.",
-        "Using the Oracle-supplied database creation procedures.",
-        "Using the SQL CREATE DATABASE command.",
-        "None of the above is correct."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1oz3svg",
-      "q": "What Oracle backup and recover file contains user and system data?",
-      "options": [
-        "Control file",
-        "Datafile",
-        "OnLine ReDo file",
-        "Offline ReDo file"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pm40ap",
-      "q": "When using SQL*Plus, Oracle commands, column names, table names and all other database elements:",
-      "options": [
-        "are case insensitive.",
-        "are case sensitive.",
-        "must always be in lower case.",
-        "must always be in upper case."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jmjxfk",
-      "q": "Which SQL phrase is not supported by Oracle?",
-      "options": [
-        "ON DELETE CASCADE",
-        "ON UPDATE CASCADE",
-        "CREATE SEQUENCE [SequenceName]",
-        "DROP SEQUENCE [SequenceName]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kchwhw",
-      "q": "What is the type of Oracle backup in which all uncommitted changes have been removed from the datafiles?",
-      "options": [
-        "Full backup",
-        "Consistent backup",
-        "Inconsistent backup",
-        "Differential backup"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1axv8fc",
-      "q": "When you type into SQL*Plus and press enter, the statement will be finished and executed.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gwcros",
-      "q": "Oracle allows the ORDER BY clause in view definitions.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7w6if0",
-      "q": "Oracle does NOT support a CASCADE UPDATE constraint.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i7g3y8",
-      "q": "Sequences guarantee valid surrogate key values.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Oracle",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v4n1c",
-      "q": "Oracle will let you define Notepad as your default editor, and whenever you type NOTEPAD, SQL*Plus will invoke Notepad.",
-      "options": [
-        "True",
-        "False"
+        "CONTENTS.",
+        "BUFFER.",
+        "CURRENT.",
+        "LIST."
       ],
       "correct": 0,
       "explain": "",

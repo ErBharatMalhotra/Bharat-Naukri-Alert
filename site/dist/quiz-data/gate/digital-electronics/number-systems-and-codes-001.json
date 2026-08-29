@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Number Systems And Codes",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 17,
   "questions": [
     {
-      "id": "gate-1evzb1g",
-      "q": "The binary number system is fundamental to all digital computers.",
+      "id": "gate-19k3n7w",
+      "q": "In ASCII code, the hexadecimal sequence 53 54 55 44 45 4E 54 decodes to STUDENT.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1643ers",
-      "q": "Repeated division-by-10 is used to convert decimal numbers to binary numbers.",
+      "id": "gate-1e4ao8o",
+      "q": "A decimal number is converted to BCD by replacing each decimal digit with the appropriate 3-bit binary code.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1633ick",
-      "q": "The largest single BCD digit has a binary value of 15.",
+      "id": "gate-ijiko",
+      "q": "A decimal fraction can be converted to binary by using the repeated division-by-2 method.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-139h70w",
-      "q": "A byte has 8 bits.",
+      "id": "gate-11xhd3s",
+      "q": "1510 = 11112 = F16 = 00010101 BCD",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qmtdxs",
-      "q": "A binary number can be converted to a decimal number by summing the decimal values of the weights of all the 1s in the binary number.",
+      "id": "gate-15qkvft",
+      "q": "Hex is often used in digital applications as a shorthand way to represent strings of bits.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-10ko22g",
-      "q": "Adding an odd-parity bit to ASCII hex code 2B results in 10101011.",
+      "id": "gate-59j33c",
+      "q": "A complete alphanumeric code would include 26 lowercase letters, 26 uppercase letters, 10 numeric digits, 7 punctuation marks, and anywhere from ________ to ________ other characters.",
       "options": [
-        "True",
-        "False"
+        "5, 10",
+        "10, 15",
+        "10, 20",
+        "20, 40"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-5j93nw",
-      "q": "Octal-to-binary conversion is accomplished by simply replacing each octal digit with its 4-bit binary equivalent.",
+      "id": "gate-1m2hkwn",
+      "q": "Hex 4B5258 is ________ in ASCII code.",
       "options": [
-        "True",
-        "False"
+        "FGM",
+        "KLM",
+        "KRX",
+        "JQW"
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-o8ohxn",
-      "q": "The hexadecimal numbering system uses base 15.",
+      "id": "gate-rwqlb8",
+      "q": "Most computers store data in strings of ________ bits called a ________.",
       "options": [
-        "True",
-        "False"
+        "8, word",
+        "8, byte",
+        "16, word",
+        "16, byte"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w8jzc9",
-      "q": "Manufacturers of computers utilize 3-bit codes to indicate operations or instructions.",
+      "id": "gate-1cxisag",
+      "q": "The ________ code represents alphanumeric characters as seven-bit binary numbers.",
       "options": [
-        "True",
-        "False"
+        "ASCII",
+        "octal",
+        "alphanumeric",
+        "Boy Scout"
       ],
       "correct": 0,
       "explain": "",
@@ -170,231 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-ltv2io",
-      "q": "A computer will use ASCII code to store information internally.",
+      "id": "gate-puxl90",
+      "q": "Hexadecimal 16 is ________ in decimal.",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1eeh85k",
-      "q": "Hexadecimal F2 is ________ in binary.",
-      "options": [
-        "11100011",
-        "10100001",
-        "11110010",
-        "11111100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t8o3na",
-      "q": "The ________ number system has a base of sixteen.",
-      "options": [
-        "Johnson",
-        "hexadecimal",
-        "binary",
-        "octal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qz9eng",
-      "q": "Binary 0010111101111110 is ________ in hexadecimal.",
-      "options": [
-        "77F216",
-        "4EEE16",
-        "2F7E16",
-        "2F7716"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hzeiyg",
-      "q": "The decimal equivalent of the BCD number 1010 is ________.",
-      "options": [
-        "8",
-        "10",
-        "12",
-        "invalid"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z48ang",
-      "q": "The largest unsigned decimal number that can be represented in binary using six bits is ________.",
-      "options": [
-        "63",
-        "64",
-        "127",
-        "128"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ip07ks",
-      "q": "Even-parity 01101000 binary is ________in hexadecimal.",
-      "options": [
-        "C816",
-        "6816",
-        "D016",
-        "Nothing. Parity does not check."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a29upw",
-      "q": "The column weight of the \"1\" in the hexadecimal number 1AB is ________.",
-      "options": [
-        "64",
-        "256",
-        "512",
-        "1024"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y5exlo",
-      "q": "In binary, the decimal number 93 converts to ________ digits.",
-      "options": [
-        "seven",
-        "eight",
-        "11",
-        "five"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-47lrgw",
-      "q": "The 2's complement of the binary number 1000 is ________.",
-      "options": [
-        "111",
-        "0110",
-        "1110",
-        "1000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2hs9ay",
-      "q": "Hexadecimal 44 is ________ in decimal.",
-      "options": [
-        "6810",
-        "7410",
-        "7710",
-        "9810"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x64v9w",
-      "q": "Convert hexadecimal value 16 to decimal.",
-      "options": [
+        "3210",
         "2210",
-        "1610",
-        "1010",
-        "2010"
+        "2510",
+        "2710"
       ],
       "correct": 0,
       "explain": "",
@@ -408,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-op5nqc",
-      "q": "Convert the following decimal number to 8-bit binary.187",
+      "id": "gate-t6656k",
+      "q": "Decode the following ASCII message. 1010011101010010101011000100101100101000001001000100000110100101000100",
       "options": [
-        "101110112",
-        "110111012",
-        "101111012",
-        "101111002"
+        "STUDYHARD",
+        "STUDY HARD",
+        "stydyhard",
+        "study hard"
       ],
       "correct": 0,
       "explain": "",
@@ -428,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-b98864",
-      "q": "Convert binary 111111110010 to hexadecimal.",
+      "id": "gate-jr5w2w",
+      "q": "One hex digit is sometimes referred to as a(n):",
       "options": [
-        "EE216",
-        "FF216",
-        "2FE16",
-        "FD216"
+        "byte",
+        "nibble",
+        "grouping",
+        "instruction"
       ],
       "correct": 0,
       "explain": "",
@@ -448,513 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-glho0",
-      "q": "Convert the following binary number to decimal. 010112",
+      "id": "gate-1t1wne8",
+      "q": "Which of the following is the most widely used alphanumeric code for computer input and output?",
       "options": [
-        "11",
-        "35",
-        "15",
-        "10"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kz6zng",
-      "q": "Convert the binary number 1001.00102 to decimal.",
-      "options": [
-        "90.125",
-        "9.125",
-        "125",
-        "12.5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s1upi4",
-      "q": "Convert 59.7210 to BCD.",
-      "options": [
-        "111011",
-        "01011001.01110010",
-        "1110.11",
-        "0101100101110010"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1svqqc8",
-      "q": "Convert 8B3F16 to binary.",
-      "options": [
-        "35647",
-        "011010",
-        "1011001111100011",
-        "1000101100111111"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15hd80c",
-      "q": "Which is typically the longest: bit, byte, nibble, word?",
-      "options": [
-        "Bit",
-        "Byte",
-        "Nibble",
-        "Word"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j8ezc4",
-      "q": "Assign the proper odd parity bit to the code 111001.",
-      "options": [
-        "1111011",
-        "1111001",
-        "0111111",
-        "0011111"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10bymhk",
-      "q": "Convert decimal 64 to binary.",
-      "options": [
-        "01010010",
-        "01000000",
-        "00110110",
-        "01001000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13yswf8",
-      "q": "Alphanumeric codes should include as a minimum:",
-      "options": [
-        "the capacity to represent the alphabet upper- and lowercase characters and the decimal numbers in a straight binary format.",
-        "the capacity to code all possible decimal numbers in a direct octal representation of BCD codes.",
-        "the alphabet upper- and lowercase letters, the decimal digits, the seven punctuation marks, and other characters or symbols.",
-        "the ability to represent decimal numbers greater than 12810 in a straight binary format."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2pe7os",
-      "q": "Convert 52716 to binary.",
-      "options": [
-        "343",
-        "001101000111",
-        "010100100111",
-        "011100100101"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m8otxo",
-      "q": "Convert 5278 to binary.",
-      "options": [
-        "011100111",
-        "101010111",
-        "343",
-        "111010101"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19qw8fc",
-      "q": "The base of the hexadecimal system is:",
-      "options": [
-        "eight.",
-        "sixteen.",
-        "ten.",
-        "two."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hhbauz",
-      "q": "Assign the proper even parity bit to the code 1100001.",
-      "options": [
-        "11100001",
-        "1100001",
-        "01100001",
-        "01110101"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17yizmb",
-      "q": "Binary-coded-decimal numbers use only binary numbers between 0000 and 1001.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-79rv84",
-      "q": "A good example of the use of a digital representation of an analog quantity is the audio recording of music.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e4not0",
-      "q": "Each position in a decimal multidigit number will have a weighting factor based on a power of only 10.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x1izfz",
-      "q": "The BCD equivalent of 73 is 01001001.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-s1130s",
-      "q": "Digital systems operate only on discrete digits that represent numbers, letters, or symbols.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19apmws",
-      "q": "The 2's complement of a binary number is derived by adding 1 to the 1's complement.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6gh23o",
-      "q": "A positive binary number is represented by a 1 sign bit.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yig8pc",
-      "q": "The ASCII code is a special code that represents all alphanumeric data.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m91uk0",
-      "q": "Many digital electronic systems work in hexadecimal instead of binary.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vmte4g",
-      "q": "In even parity, the sum of the individual bits in the code group must be even.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vpmwws",
-      "q": "The two digits in the binary number system are ___ and ___.",
-      "options": [
-        "1, 2",
-        "H, L",
-        "T, F",
-        "0, 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pvmolg",
-      "q": "Decimal 37 is ________ in binary with an even parity bit.",
-      "options": [
-        "00100101",
-        "10100101",
-        "11000100",
-        "01001011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jmzyhc",
-      "q": "The decimal fraction 1/4 can be written in binary as________.",
-      "options": [
-        "0.010",
-        "0.100",
-        "0.110",
-        "0.011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6hbgz4",
-      "q": "Decimal 474 is ________ in BCD.",
-      "options": [
-        "0100 0111 0100",
-        "0100 1011 0101",
-        "0100 1001 0011",
-        "0110 1011 1001"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-193kja4",
-      "q": "An unweighted code in which only one bit changes from one code number to the next is ________.",
-      "options": [
-        "BCD",
-        "Excess-3",
         "Gray",
-        "ASCII"
+        "ASCII",
+        "Parity",
+        "EBCDIC"
       ],
       "correct": 0,
       "explain": "",
@@ -968,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-fypaj5",
-      "q": "The MSB of 11001 is ________.",
+      "id": "gate-1ori89c",
+      "q": "If a typical PC uses a 20-bit address code, how much memory can the CPU address?",
       "options": [
-        "1",
-        "1100",
-        "C",
-        "1916"
+        "20 MB",
+        "10 MB",
+        "1 MB",
+        "580 MB"
       ],
       "correct": 0,
       "explain": "",
@@ -988,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-s3l5lo",
-      "q": "________ symbols are needed to represent all digits in hexadecimal.",
+      "id": "gate-1y7188s",
+      "q": "Which of the following is the primary advantage of using the BCD code instead of straight binary coding?",
       "options": [
-        "Six",
-        "Ten",
-        "Twelve",
-        "Sixteen"
+        "Fewer bits are required to represent a decimal number with the BCD code.",
+        "The relative ease of converting to and from decimal.",
+        "BCD codes are easily converted to hexadecimal codes.",
+        "BCD codes are easily converted to straight binary codes."
       ],
       "correct": 0,
       "explain": "",
@@ -1008,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-pxx6o5",
-      "q": "Each hexadecimal digit converts to ________ binary digits.",
+      "id": "gate-lqa6r0",
+      "q": "How many BCD code bits and how many straight binary bits would be required to represent the decimal number 643?",
       "options": [
-        "four",
-        "eight",
-        "12",
-        "six"
+        "12 BCD, 12 binary",
+        "12 BCD, 10 binary",
+        "12 BCD, 9 binary",
+        "16 BCD, 9 binary"
       ],
       "correct": 0,
       "explain": "",
@@ -1028,897 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-ic9ld9",
-      "q": "In the decimal number 481, the powers-of-10 weight of the digit 4 is ________.",
+      "id": "gate-1m0y6g0",
+      "q": "When using the repeated division by 2 method of converting from decimal to binary, one must write the first remainder as the:",
       "options": [
-        "400",
-        "102",
-        "104",
-        "100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-w32fv4",
-      "q": "Decimal 2875 is ________ bytes in binary.",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15152rs",
-      "q": "Convert hexadecimal value C1 to binary.",
-      "options": [
-        "11000001",
-        "1000111",
-        "111000100",
-        "111000001"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v0qi84",
-      "q": "Convert the following octal number to decimal. 178",
-      "options": [
-        "51",
-        "82",
-        "57",
-        "15"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h7k1yo",
-      "q": "Convert the following binary number to octal. 0101111002",
-      "options": [
-        "1728",
-        "2728",
-        "1748",
-        "2748"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iwyggg",
-      "q": "How many binary digits are required to count to 10010?",
-      "options": [
-        "7",
-        "2",
-        "3",
-        "100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yuc7l4",
-      "q": "The BCD number for decimal 347 is ________.",
-      "options": [
-        "1100 1011 1000",
-        "0011 0100 0111",
-        "0011 0100 0001",
-        "1100 1011 0110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-aufizk",
-      "q": "Convert the following decimal number to octal.39",
-      "options": [
-        "638",
-        "368",
-        "478",
-        "748"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k5d9g6",
-      "q": "The American Standard Code for Information Interchange (ASCII) uses how many individual pulses for any given character?",
-      "options": [
-        "1",
-        "2",
-        "7",
-        "8"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ey4npz",
-      "q": "Convert the following hexadecimal number to decimal.B516",
-      "options": [
-        "212",
-        "197",
-        "165",
-        "181"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9j11bs",
-      "q": "The BCD number for decimal 16 is ________.",
-      "options": [
-        "00010110",
-        "00010000",
-        "00010010",
-        "11100000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1juxyhw",
-      "q": "The octal number system consists of eight digits, 0 through 7.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1liqw9s",
-      "q": "The Gray code has a base of eight.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rv0oyu",
-      "q": "The hexadecimal equivalent of a decimal number would produce a larger number than the original decimal number.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14sw7us",
-      "q": "ASCII stands for American Standard Code for Information Interchange.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h8qa7o",
-      "q": "When converting from decimal to binary by the repeated division-by-two method, the initial remainder becomes the MSD.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g241m8",
-      "q": "Most computers store binary data in groups of 32 bits called Dwords.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3ey0s8",
-      "q": "The word size is defined as the number of bits in the binary word that a digital system operates on.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vn6xvm",
-      "q": "The hexadecimal number system consists of 16 digits, 0&#8211;15.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4blmmg",
-      "q": "The 1's complement of a binary number is derived by changing 0s to 1s and 1s to 0s.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-msxk6c",
-      "q": "A binary number with four digits has a maximum value of 15.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nx5bvk",
-      "q": "Binary 10111111 is ________ in hexadecimal.",
-      "options": [
-        "BF16",
-        "FB16",
-        "27716",
-        "10111111"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10jaxo4",
-      "q": "Hexadecimal 44 is ________ in binary.",
-      "options": [
-        "01000100",
-        "10011010",
-        "01011000",
-        "10001100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dn7jgw",
-      "q": "Resistors&#8212;usually 300 apiece&#8212;inserted between a decoder and a 7-segment display are ________.",
-      "options": [
-        "pull-up resistors to keep logic HIGH when the input is open",
-        "sense resistors to enable a test of logic levels",
-        "current limiting resistors for the 7-segment display",
-        "surge resistors to prevent damage from power-line variations"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p439q4",
-      "q": "Adding a zero to the leftmost bit of an ASCII code is called ________.",
-      "options": [
-        "extra zero",
-        "zero padding"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19s5tck",
-      "q": "The largest BCD number that can be represented with four binary bits is ________.",
-      "options": [
-        "9",
-        "10",
-        "15",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p9hj70",
-      "q": "Whenever information is transmitted from one device to another, there is a possibility that ________.",
-      "options": [
-        "one device is off",
-        "errors will occur",
-        "there is a full moon",
-        "the data will be received as transmitted"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fswh0k",
-      "q": "Odd-parity 9E16 is ________ decimal.",
-      "options": [
-        "30",
-        "158",
-        "78",
-        "Nothing. Parity does not check."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dyooy8",
-      "q": "Hexadecimal 12 is ________in binary.",
-      "options": [
-        "00010111",
-        "00010100",
-        "00010010",
-        "00100001"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xuv4po",
-      "q": "Overflow can occur if two signed numbers are added and ________.",
-      "options": [
-        "they have opposite signs",
-        "they have the same sign",
-        "both of the above",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1npacxo",
-      "q": "A typical CD-ROM can store ________ of digital data.",
-      "options": [
-        "90 minutes",
-        "analog portions",
-        "650 megabytes",
-        "octal bytes"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wa2luw",
-      "q": "The binary number for octal 458 is ________.",
-      "options": [
-        "100010",
-        "100101",
-        "110101",
-        "100100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-f1r8lk",
-      "q": "The sum of 11101 + 10111 equals ________.",
-      "options": [
-        "110011",
-        "100001",
-        "110100",
-        "100100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vj8nwo",
-      "q": "Convert the following binary number to decimal. 100110102",
-      "options": [
-        "154",
-        "155",
-        "153",
-        "157"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-79t67o",
-      "q": "The decimal number 188 is equal to the binary number ________.",
-      "options": [
-        "10111100",
-        "0111000",
-        "1100011",
-        "1111000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gsmbb4",
-      "q": "Convert the following binary number to octal. 0011010112",
-      "options": [
-        "1538",
-        "3518",
-        "2538",
-        "3528"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ivjaac",
-      "q": "Convert the following decimal number to hexadecimal.74",
-      "options": [
-        "A416",
-        "B416",
-        "4A16",
-        "4B16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1g54zao",
-      "q": "Convert hexadecimal C0B to binary.",
-      "options": [
-        "110000001011",
-        "110000001001",
-        "110000001100",
-        "110100001011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1933vao",
-      "q": "Convert binary 1001 to hexadecimal.",
-      "options": [
-        "916",
-        "1116",
-        "10116",
-        "1016"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sfzn0w",
-      "q": "Convert 73116 to decimal.",
-      "options": [
-        "216.4",
-        "985",
-        "3D9",
-        "1841"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3ik0ta",
-      "q": "3C1D16 = 111100000111012",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ggp358",
-      "q": "Zeros may be added to the left of the MSB to produce even groups of 4 bits when converting from binary to hexadecimal.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qb5n7o",
-      "q": "Digital electronics must use a numbering system that has more than ten digits.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19zw6rs",
-      "q": "A debugging utility is used to take the \"bugs\" out of a program.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-icdlgo",
-      "q": "The primary advantage of the hexadecimal numbering system is the ease in conversion between the binary and hexadecimal systems.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hd3gs0",
-      "q": "Hexadecimal is used to encode BCD numbers.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qv4ryg",
-      "q": "A method of converting decimal to binary is by successive division.",
-      "options": [
-        "True",
-        "False"
+        "MSB",
+        "MSB, provided the following sequence of remainders are written in descending order until the final remainder is achieved.",
+        "LSB",
+        "LSB, provided the final remainder is used to replace the original LSB, which is then moved to the MSB position."
       ],
       "correct": 0,
       "explain": "",

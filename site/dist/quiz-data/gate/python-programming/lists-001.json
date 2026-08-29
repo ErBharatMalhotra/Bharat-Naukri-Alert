@@ -5,15 +5,55 @@
   "subject": "Python Programming",
   "topic": "Lists",
   "source": "indiabix.com",
-  "count": 53,
+  "count": 9,
   "questions": [
     {
-      "id": "gate-1pyq595",
-      "q": "How do you remove an element from a list in Python?",
+      "id": "gate-1wd4fmo",
+      "q": "Which of the following methods is used to insert an element at a specific index in a list?",
+      "options": [
+        "add(index, element)",
+        "insert(index, element)",
+        "append(index, element)",
+        "push(index, element)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vrjr6g",
+      "q": "How can you reverse the order of elements in a list in Python?",
+      "options": [
+        "reverse()",
+        "list.reverse()",
+        "reversed(list)",
+        "list.reversed()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1itzm98",
+      "q": "Which method is used to remove the first occurrence of a specific element from a list?",
       "options": [
         "remove(element)",
-        "pop(index)",
         "delete(element)",
+        "pop(element)",
         "discard(element)"
       ],
       "correct": 0,
@@ -28,13 +68,33 @@
       "tags": []
     },
     {
-      "id": "gate-z411dk",
-      "q": "Which method is used to add elements from one list to another in Python?",
+      "id": "gate-udbsnq",
+      "q": "What is the correct way to create a new list by multiplying each element of an existing list by 2 in Python?",
       "options": [
-        "concat()",
-        "merge()",
-        "extend()",
-        "append()"
+        "new_list = list * 2",
+        "new_list = [element * 2 for element in old_list]",
+        "new_list = old_list.multiply(2)",
+        "new_list = old_list * 2"
+      ],
+      "correct": 1,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r9qz80",
+      "q": "What does the list.pop(3) method do in Python?",
+      "options": [
+        "Removes the element at index 3.",
+        "Removes the element with the value 3.",
+        "Raises an error because index 3 does not exist.",
+        "Removes all occurrences of the value 3."
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-vr1g2g",
-      "q": "What is the correct way to sort a list in descending order in Python?",
+      "id": "gate-1yvw7wy",
+      "q": "How can you concatenate two lists in Python?",
       "options": [
-        "list.sort()",
-        "sorted(list, reverse=True)",
-        "list.sort(reverse=True)",
-        "sorted(list)"
+        "list1.append(list2)",
+        "list1.extend(list2)",
+        "list1.concat(list2)",
+        "list1 + list2"
       ],
       "correct": 0,
       "explain": "",
@@ -68,588 +128,8 @@
       "tags": []
     },
     {
-      "id": "gate-yxyg28",
-      "q": "What does the index method of a list return in Python?",
-      "options": [
-        "The first occurrence of the specified element.",
-        "The last occurrence of the specified element.",
-        "The index of the specified element.",
-        "The count of occurrences of the specified element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mua6fk",
-      "q": "Which function is used to create a shallow copy of a list in Python?",
-      "options": [
-        "copy()",
-        "clone()",
-        "duplicate()",
-        "replicate()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nv1bws",
-      "q": "What is the purpose of the index method in Python lists?",
-      "options": [
-        "To find the index of the last occurrence of a specific element.",
-        "To find the index of the first occurrence of a specific element.",
-        "To find the total number of elements in the list.",
-        "To find the index of the maximum element in the list."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jkjsli",
-      "q": "How can you check if a specific element is present in a list in Python?",
-      "options": [
-        "check(element) in my_list",
-        "element in my_list",
-        "contains(element, my_list)",
-        "my_list.contains(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1j7znyc",
-      "q": "What is the purpose of the clear method in Python lists?",
-      "options": [
-        "To remove the last element from the list.",
-        "To remove all occurrences of a specific element.",
-        "To remove all elements from the list.",
-        "To remove elements from the list based on a condition."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y7qy4",
-      "q": "What is the purpose of the copy method in Python lists?",
-      "options": [
-        "To create a deep copy of the list.",
-        "To create a shallow copy of the list.",
-        "To copy elements from one list to another.",
-        "To concatenate two lists."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kclze1",
-      "q": "What is the purpose of the list.count() method in Python?",
-      "options": [
-        "Returns the total number of elements in the list.",
-        "Counts the occurrences of a specific element in the list.",
-        "Counts the number of unique elements in the list.",
-        "Returns the index of the first occurrence of a specific element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-f60eb2",
-      "q": "How can you remove all occurrences of a specific element from a list in Python?",
-      "options": [
-        "list.remove_all(element)",
-        "list.delete(element)",
-        "list.remove_all_occurrences(element)",
-        "list = [x for x in list if x != element]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2smomi",
-      "q": "What will the list.reverse() method do in Python?",
-      "options": [
-        "Sorts the list in descending order.",
-        "Reverses the order of elements in the list.",
-        "Removes duplicate elements from the list.",
-        "Appends the list to itself."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2ux8q",
-      "q": "How can you check if a list is empty in Python?",
-      "options": [
-        "if list.is_empty()",
-        "if len(list) == 0",
-        "if list.empty()",
-        "if not list"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yxxte6",
-      "q": "What is the purpose of the list.copy() method in Python?",
-      "options": [
-        "Creates a deep copy of the list.",
-        "Creates a shallow copy of the list.",
-        "Copies elements from one list to another.",
-        "Concatenates two lists."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ehsdog",
-      "q": "How can you remove the last element from a list in Python?",
-      "options": [
-        "list.remove(-1)",
-        "list.pop()",
-        "list.delete(-1)",
-        "list.trim()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wpg41w",
-      "q": "What is the difference between the remove and pop methods in Python lists?",
-      "options": [
-        "remove removes by value, pop removes by index.",
-        "remove removes by index, pop removes by value.",
-        "Both remove and pop remove by index.",
-        "Both remove and pop remove by value."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-osxw5g",
-      "q": "What does the reverse() method do in Python lists?",
-      "options": [
-        "Sorts the list in descending order.",
-        "Reverses the order of elements in the list.",
-        "Removes duplicate elements from the list.",
-        "Appends the list to itself."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jx51xa",
-      "q": "What is the purpose of the list() constructor in Python?",
-      "options": [
-        "Creates an empty list.",
-        "Converts a tuple to a list.",
-        "Converts a string to a list.",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1srhvhs",
-      "q": "How can you find the maximum value in a list in Python?",
-      "options": [
-        "max_value(list)",
-        "list.max()",
-        "max(list)",
-        "list.find_max()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l7tytc",
-      "q": "What does the list.remove(42) method do in Python?",
-      "options": [
-        "Removes the element with the value 42.",
-        "Removes the first occurrence of 42.",
-        "Raises an error if the element 42 is not found.",
-        "Removes all occurrences of 42."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k834kk",
-      "q": "How can you reverse the order of elements in a list without modifying the original list?",
-      "options": [
-        "reversed_list = list.reverse()",
-        "reversed_list = list[::-1]",
-        "reversed_list = list.reverse_copy()",
-        "reversed_list = list.reverse(True)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o3g6gp",
-      "q": "What will the list.extend([7, 8, 9]) method do?",
-      "options": [
-        "Adds a single element [7, 8, 9] to the list.",
-        "Adds individual elements 7, 8, 9 to the end of the list.",
-        "Merges the list with [7, 8, 9] creating a new list.",
-        "Inserts [7, 8, 9] at the beginning of the list."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17yntzk",
-      "q": "How can you find the frequency of each element in a list in Python?",
-      "options": [
-        "list.count(element)",
-        "list.frequency(element)",
-        "dict(Counter(list))",
-        "list.freq(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-327siw",
-      "q": "How can you create a list containing only the unique elements from another list in Python?",
-      "options": [
-        "list.distinct()",
-        "list.unique()",
-        "list(set(list))",
-        "list.remove_duplicates()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hs4kns",
-      "q": "Which method is used to add an element at the end of a list in Python?",
-      "options": [
-        "list.append(element)",
-        "list.insert(-1, element)",
-        "list.add_last(element)",
-        "list.push(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uhcnro",
-      "q": "What does the copy() method do in Python lists?",
-      "options": [
-        "Creates a deep copy of the list.",
-        "Creates a shallow copy of the list.",
-        "Copies the elements to a new list.",
-        "Copies the list to another list."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t3adek",
-      "q": "What is the purpose of the extend method in Python lists?",
-      "options": [
-        "Adds a specified element to the list.",
-        "Extends the list by appending elements from an iterable.",
-        "Increases the length of the list.",
-        "Concatenates two lists."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m58550",
-      "q": "How can you remove all occurrences of a specific element from a list?",
-      "options": [
-        "list.remove_all(element)",
-        "list.delete(element)",
-        "list.remove(element, all=True)",
-        "list = [x for x in list if x != element]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19uaki0",
-      "q": "What does the list.index(42) method do in Python?",
-      "options": [
-        "Finds the index of the first occurrence of 42.",
-        "Removes the element with the value 42.",
-        "Raises an error because index 42 does not exist.",
-        "Finds the index of the last occurrence of 42."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7row8e",
-      "q": "How can you check if two lists are not equal in Python?",
-      "options": [
-        "list1.is_not_equal(list2)",
-        "list1 != list2",
-        "list1.ne(list2)",
-        "list1 <> list2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1svherm",
-      "q": "What is the purpose of the list.sort() method in Python?",
-      "options": [
-        "Reverses the order of elements.",
-        "Sorts the list in descending order.",
-        "Removes duplicate elements.",
-        "Sorts the list in ascending order."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-w7ueyk",
-      "q": "How can you find the minimum value in a numeric list in Python?",
-      "options": [
-        "list.min()",
-        "min_value(list)",
-        "list.minimum()",
-        "min(list)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ypmbb4",
-      "q": "What will the list.clear() method do in Python?",
+      "id": "gate-1k00h08",
+      "q": "What will the list.clear() method do?",
       "options": [
         "Removes the last element from the list.",
         "Removes all occurrences of a specific element.",
@@ -668,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1k9sa9g",
-      "q": "What is the purpose of the reverse() method in Python lists?",
+      "id": "gate-1gnp8kw",
+      "q": "How can you find the index of the last occurrence of a specific element in a list?",
       "options": [
-        "Sorts the list in descending order.",
-        "Reverses the order of elements in the list.",
-        "Removes duplicate elements from the list.",
-        "Appends the list to itself."
+        "list.last_index(element)",
+        "list.index_last(element)",
+        "list.index(element, -1)",
+        "list.find_last(element)"
       ],
       "correct": 0,
       "explain": "",
@@ -688,373 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1luszpe",
-      "q": "How can you find the sum of all elements in a list in Python?",
+      "id": "gate-ett4hq",
+      "q": "What does the list.reverse_copy() method do in Python?",
       "options": [
-        "sum(list)",
-        "list.total()",
-        "list.sum()",
-        "total(list)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6oxt2c",
-      "q": "What will the list.remove(42) method do?",
-      "options": [
-        "Removes the element at index 42.",
-        "Removes the element with the value 42.",
-        "Raises an error because index 42 does not exist.",
-        "Removes all occurrences of the value 42."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9j4hc",
-      "q": "What does the count() method of a list return in Python?",
-      "options": [
-        "The total number of elements in the list.",
-        "The number of occurrences of a specific element.",
-        "The sum of all elements in the list.",
-        "The index of the last occurrence of a specific element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1j91dk",
-      "q": "How can you check if a specific element exists in a Python list?",
-      "options": [
-        "element in list",
-        "list.contains(element)",
-        "list.find(element)",
-        "list.has(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9kdq88",
-      "q": "What is the purpose of the list.reverse() method in Python?",
-      "options": [
-        "Sorts the list in descending order.",
-        "Reverses the order of elements in the list.",
-        "Removes duplicate elements from the list.",
-        "Appends the list to itself."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n1kr78",
-      "q": "What does the list.pop() method do without providing an index?",
-      "options": [
-        "Removes the last element from the list.",
-        "Removes the first element from the list.",
-        "Raises an error as an index is required.",
-        "Removes all occurrences of a specific element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pjpfww",
-      "q": "How can you create a list of squared values from another list in Python?",
-      "options": [
-        "squared_list = list.square_values()",
-        "squared_list = [x^2 for x in original_list]",
-        "squared_list = list.map(lambda x: x**2, original_list)",
-        "squared_list = [x**2 for x in original_list]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13tjiko",
-      "q": "What does the clear() method do in Python lists?",
-      "options": [
-        "Removes the last element from the list.",
-        "Removes all occurrences of a specific element.",
-        "Removes all elements from the list.",
-        "Removes elements from the list based on a condition."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14ve610",
-      "q": "What is the purpose of the sort() method in Python lists?",
-      "options": [
-        "Reverses the order of elements.",
-        "Sorts the list in ascending order.",
-        "Removes duplicate elements.",
-        "Appends elements to the end of the list."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14xzt28",
-      "q": "How can you find the average of elements in a numeric list in Python?",
-      "options": [
-        "average(list)",
-        "sum(list) / len(list)",
-        "mean(list)",
-        "list.average()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dun0m8",
-      "q": "How can you create a new list containing only the unique elements from an existing list in Python?",
-      "options": [
-        "new_list = list.unique()",
-        "new_list = list.distinct()",
-        "new_list = list(set(list))",
-        "new_list = list.remove_duplicates()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xsrhzs",
-      "q": "What does the list.count() method return in Python?",
-      "options": [
-        "The total number of elements in the list.",
-        "The number of occurrences of a specific element.",
-        "The sum of all elements in the list.",
-        "The index of the last occurrence of a specific element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11tax88",
-      "q": "What is the purpose of the list.extend() method in Python?",
-      "options": [
-        "Adds a specified element to the list.",
-        "Extends the list by appending elements from an iterable.",
-        "Increases the length of the list.",
-        "Concatenates two lists."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ykqare",
-      "q": "How can you remove the first occurrence of a specific element from a list in Python?",
-      "options": [
-        "list.delete(element)",
-        "list.pop(element)",
-        "list.remove(element)",
-        "list.exclude(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ual4u0",
-      "q": "How can you check if two lists are equal in Python?",
-      "options": [
-        "list1.is_equal(list2)",
-        "list1 == list2",
-        "list1.equals(list2)",
-        "list1.compare(list2)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i7kmms",
-      "q": "What is the purpose of the insert() method in Python lists?",
-      "options": [
-        "Appends an element at the end of the list.",
-        "Inserts an element at a specified index in the list.",
-        "Removes the first occurrence of a specific element.",
-        "Deletes an element at a specified index in the list."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gq8n0c",
-      "q": "How can you find the length of a list in Python?",
-      "options": [
-        "length(list)",
-        "list.length()",
-        "len(list)",
-        "list.size()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pauap9",
-      "q": "What will the list.pop(2) method do?",
-      "options": [
-        "Removes the element at index 2.",
-        "Removes the element with the value 2.",
-        "Raises an error because index 2 does not exist.",
-        "Removes all occurrences of the value 2."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Lists",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dz9un1",
-      "q": "How can you check if a list contains only numeric elements in Python?",
-      "options": [
-        "all(isinstance(x, int) for x in my_list)",
-        "my_list.isnumeric()",
-        "numeric(my_list)",
-        "if my_list.has_numbers()"
+        "Creates a reversed copy of the list.",
+        "Reverses the order of elements in the original list.",
+        "Raises an error as there is no such method.",
+        "Copies the list in reverse without modifying the original list."
       ],
       "correct": 0,
       "explain": "",

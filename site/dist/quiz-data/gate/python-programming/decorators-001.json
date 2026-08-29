@@ -5,36 +5,16 @@
   "subject": "Python Programming",
   "topic": "Decorators",
   "source": "indiabix.com",
-  "count": 24,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-16vxsie",
-      "q": "How does the @property decorator differ from regular methods in a Python class?",
+      "id": "gate-18df0aw",
+      "q": "Which decorator can be used to measure the execution time of a Python function?",
       "options": [
-        "It defines a read-only property without a setter method",
-        "It marks a method as a class method",
-        "It is used to create private methods",
-        "It enables dynamic method invocation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dsvyg",
-      "q": "Which of the following decorators is used to cache the result of a function to improve performance?",
-      "options": [
-        "@staticmethod",
-        "@property",
         "@functools.lru_cache",
-        "@classmethod"
+        "@functools.singledispatch",
+        "@functools.wraps",
+        "@functools.timer"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-19eqkg0",
-      "q": "What does the @wraps decorator do?",
+      "id": "gate-zizh5g",
+      "q": "What is the primary purpose of the @functools.singledispatch decorator?",
       "options": [
-        "Marks a method as a static method",
-        "Provides a way to document and maintain the original function's metadata",
         "Converts a method to a class method",
-        "Indicates a method is an instance method"
+        "Enables function overloading based on argument types",
+        "Indicates a method is an instance method",
+        "Decorates a method with dynamic behavior"
       ],
       "correct": 0,
       "explain": "",
@@ -68,11 +48,11 @@
       "tags": []
     },
     {
-      "id": "gate-3kw5un",
-      "q": "Which built-in decorator is used to enforce that a function is only called once?",
+      "id": "gate-15qqs88",
+      "q": "Which decorator is used to ensure that a function is only executed after a certain condition is met?",
       "options": [
-        "@staticmethod",
         "@functools.lru_cache",
+        "@functools.wraps",
         "@functools.singledispatch",
         "@functools.singledispatchmethod"
       ],
@@ -88,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-mwlg68",
-      "q": "What happens when you use the @classmethod decorator on a method in a Python class?",
+      "id": "gate-1xyhux9",
+      "q": "How can you create a decorator that takes arguments?",
       "options": [
-        "Marks the method as a static method",
-        "Converts the method to a class method",
-        "Indicates the method is an instance method",
-        "Decorates the method with dynamic behavior"
+        "Using the @staticmethod decorator",
+        "Using the @functools.wraps decorator",
+        "By defining a higher-order function that returns the actual decorator",
+        "By using the @classmethod decorator"
       ],
       "correct": 0,
       "explain": "",
@@ -108,11 +88,31 @@
       "tags": []
     },
     {
-      "id": "gate-w5hlq4",
-      "q": "What is the primary purpose of the @contextmanager decorator?",
+      "id": "gate-1d7xris",
+      "q": "When using the @functools.lru_cache decorator, what is the purpose of the maxsize parameter?",
+      "options": [
+        "Sets the maximum number of cache entries",
+        "Controls the cache eviction policy",
+        "Determines the cache timeout duration",
+        "Specifies the maximum recursion depth for caching"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Decorators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-167g3ds",
+      "q": "What is the purpose of the @contextlib.asynccontextmanager decorator?",
       "options": [
         "Converts a method to a class method",
-        "Creates a context manager for resource management",
+        "Enables the use of the 'with' statement for resource management in asynchronous code",
         "Marks a method as a static method",
         "Decorates a method with dynamic behavior"
       ],
@@ -128,91 +128,51 @@
       "tags": []
     },
     {
-      "id": "gate-c6j8op",
-      "q": "Which decorator is commonly used for memoization in Python and can be applied to instance methods?",
-      "options": [
-        "@staticmethod",
-        "@functools.lru_cache",
-        "@classmethod",
-        "@property"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sdotb8",
-      "q": "What does the @staticmethod decorator do when applied to a method inside a class?",
-      "options": [
-        "Converts the method to a class method",
-        "Marks the method as a static method",
-        "Indicates the method is an instance method",
-        "Decorates the method with dynamic behavior"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mtfo7l",
-      "q": "Which decorator is used to declare abstract methods in a Python class?",
-      "options": [
-        "@abstractmethod",
-        "@staticmethod",
-        "@classmethod",
-        "@property"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mtb4z4",
-      "q": "How does the @staticmethod decorator differ from the @classmethod decorator?",
-      "options": [
-        "@staticmethod is used for dynamic method invocation, while @classmethod is used for class-level attribute access.",
-        "@staticmethod can be called on instances and the class itself, while @classmethod is only callable on instances.",
-        "@staticmethod is used to convert a method to a class method, while @classmethod is used to mark a method as a static method.",
-        "@staticmethod is used to indicate a method is an instance method, while @classmethod is used for dynamic method invocation."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xxnjc8",
-      "q": "What is the primary purpose of the @contextlib.contextmanager decorator?",
+      "id": "gate-117z5o2",
+      "q": "What is the primary use case for the @contextlib.suppress decorator?",
       "options": [
         "Converts a method to a class method",
-        "Enables the use of the 'with' statement for resource management",
+        "Marks a method as a static method",
+        "Suppresses specified exceptions within a context",
+        "Decorates a method with dynamic behavior"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Decorators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-167mbw6",
+      "q": "What is the purpose of the @functools.lru_cache decorator's maxsize parameter?",
+      "options": [
+        "The maximum number of unique arguments to be cached",
+        "The maximum size of the cache in bytes",
+        "The maximum number of function calls to be cached",
+        "The maximum number of distinct values to be cached"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Decorators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-716vs8",
+      "q": "What is the primary use case for the @contextlib.ExitStack?",
+      "options": [
+        "Converts a method to a class method",
+        "Manages a stack of cleanup callbacks for managing resources",
         "Marks a method as a static method",
         "Decorates a method with dynamic behavior"
       ],
@@ -228,253 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-qw8k54",
-      "q": "What does the @functools.cmp_to_key decorator do?",
+      "id": "gate-h5zr0q",
+      "q": "What is the primary use case for the @contextlib.redirect_stdout decorator?",
       "options": [
         "Converts a method to a class method",
-        "Enables the use of the 'with' statement for resource management",
-        "Converts an old-style comparison function to a key function",
-        "Marks a method as a static method"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d1mpko",
-      "q": "What is the primary purpose of the @functools.cached_property decorator?",
-      "options": [
-        "Caches the results of function calls to improve performance",
-        "Converts a method to a class method",
-        "Declares an abstract method in a Python class",
-        "Marks a method as a static method"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6cpfis",
-      "q": "How does the @functools.partialmethod decorator differ from @functools.partial?",
-      "options": [
-        "@functools.partialmethod is applied to methods, while @functools.partial is applied to functions.",
-        "@functools.partialmethod is used for class-level attribute access.",
-        "@functools.partialmethod is used for dynamic method invocation.",
-        "@functools.partialmethod is used to create partially-applied functions with fixed arguments."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-114t4aq",
-      "q": "How does the @contextlib.asynccontextmanager decorator differ from @contextlib.contextmanager?",
-      "options": [
-        "@contextlib.asynccontextmanager is used for asynchronous context managers.",
-        "@contextlib.asynccontextmanager is used for synchronous context managers.",
-        "There is no difference; they serve the same purpose.",
-        "@contextlib.contextmanager is used for decorators."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rcs4wg",
-      "q": "Which decorator is commonly used for retrying a function with a specified delay in case of failure?",
-      "options": [
-        "@functools.retry",
-        "@functools.retry_on_fail",
-        "@functools.retriable",
-        "@functools.retry_with_delay"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k3szcg",
-      "q": "How does the @property decorator differ from the @staticmethod decorator?",
-      "options": [
-        "@property is used for dynamic property access, while @staticmethod is used for class-level attribute access.",
-        "@property is used to define read-only properties, while @staticmethod is used to convert a method to a class method.",
-        "@property is used for dynamic method invocation, while @staticmethod is used to indicate a method is an instance method.",
-        "@property is used to convert a method to a class method, while @staticmethod is used for dynamic method invocation."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nohj8h",
-      "q": "Which decorator is commonly used for rate-limiting function calls?",
-      "options": [
-        "@functools.ratelimit",
-        "@functools.limitrate",
-        "@functools.ratelimiter",
-        "@functools.limitcalls"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19pewyg",
-      "q": "What is the purpose of the @functools.lru_cache decorator's typed parameter?",
-      "options": [
-        "It enforces strong typing for the cached values.",
-        "It uses a different cache for each data type.",
-        "It enables caching for functions with different argument types.",
-        "It specifies the maximum size of the cache."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-atmo3u",
-      "q": "What is the primary purpose of the @functools.total_ordering decorator?",
-      "options": [
-        "Converts a method to a class method",
-        "Enables automatic generation of rich comparison methods",
+        "Redirects standard output to a specified file or file-like object",
         "Marks a method as a static method",
         "Decorates a method with dynamic behavior"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13opnfe",
-      "q": "What is the purpose of the @functools.retry decorator?",
-      "options": [
-        "Retries a function with a specified delay in case of failure",
-        "Converts a method to a class method",
-        "Decorates a method with dynamic behavior",
-        "Provides a way to document and maintain the original function's metadata"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4e2yoo",
-      "q": "What is the purpose of the @functools.singledispatchmethod decorator?",
-      "options": [
-        "Converts a method to a class method",
-        "Enables function overloading based on argument types",
-        "Marks a method as a static method",
-        "Decorates a method with dynamic behavior"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lcqtp0",
-      "q": "What does the @functools.cached_property decorator do when applied to a method inside a class?",
-      "options": [
-        "Converts the method to a class method",
-        "Marks the method as a static method",
-        "Caches the result of the method and returns the cached value",
-        "Decorates the method with dynamic behavior"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Decorators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kab1x7",
-      "q": "How does the @functools.singledispatch decorator differ from @functools.singledispatchmethod?",
-      "options": [
-        "@functools.singledispatch is used for functions, while @functools.singledispatchmethod is used for methods.",
-        "@functools.singledispatch is used for static methods, while @functools.singledispatchmethod is used for instance methods.",
-        "@functools.singledispatch is used for class-level attribute access, while @functools.singledispatchmethod is used for dynamic method invocation.",
-        "There is no difference; they serve the same purpose."
       ],
       "correct": 0,
       "explain": "",

@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-1hh6olk",
-      "q": "Databases that are stored on computers at multiple locations and are not interconnected by a network are known as distributed databases.",
+      "id": "gate-ge0nt4",
+      "q": "With failure transparency, all of the actions of a transaction are committed or none of them are committed.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-14hkkxg",
-      "q": "An increasingly popular option for data distribution as well as for fault tolerance of any database is to store a separate copy of the database at each of two or more sites.",
+      "id": "gate-12nzn1i",
+      "q": "Each site (or node) in a distributed system is subject to the same types of failure as in a centralized system.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-iv8hc0",
-      "q": "Asynchronous technology can result in unsatisfactorily slow response time because the distributed DBMS is spending considerable time checking that an update is accurately and completely propagated across the network.",
+      "id": "gate-1ofik30",
+      "q": "Replication may use either synchronous or asynchronous distributed database technologies, although asynchronous technologies are more typical in a replicated environment.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-ptjyac",
-      "q": "A distributed unit of work allows various statements within a unit of work to refer to multiple remote DBMS locations.",
+      "id": "gate-akbqgs",
+      "q": "Synchronization for pull replication is less disruptive and occurs only when needed by each site, not when a central master site thinks it is best to update.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-qh8di0",
-      "q": "The purpose of timestamping is to avoid the use of locks.",
+      "id": "gate-14mf8rc",
+      "q": "With asynchronous technology, if any copy of a data item is updated anywhere on the network, the same update is immediately applied to all other copies or it is aborted.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-116fw3k",
-      "q": "Data replication is favored where most process requests are read-only and where the data are relatively static.",
+      "id": "gate-xaytev",
+      "q": "Some of the columns of a relation are at different sites is which of the following?",
       "options": [
-        "True",
-        "False"
+        "Data Replication",
+        "Horizontal Partitioning",
+        "Vertical Partitioning",
+        "Horizontal and Vertical Partitioning"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-tj0zuh",
-      "q": "The cost to perform a snapshot refresh may depend on whether the snapshot is simple or complex.",
+      "id": "gate-1smxqem",
+      "q": "Which of the following is true concerning a global transaction?",
       "options": [
-        "True",
-        "False"
+        "The required data are at one local site and the distributed DBMS routes requests as necessary.",
+        "The required data are located in at least one nonlocal site and the distributed DBMS routes requests as necessary.",
+        "The required data are at one local site and the distributed DBMS passes the request to only the local DBMS.",
+        "The required data are located in at least one nonlocal site and the distributed DBMS passes the request to only the local DBMS."
       ],
       "correct": 0,
       "explain": "",
@@ -134,147 +138,153 @@
       "tags": []
     },
     {
-      "id": "gate-ekwq7c",
-      "q": "The semijoin approach saves network traffic.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dk6qk8",
-      "q": "In a semijoin, only the joining attribute is sent from one site to another, and then only the required rows are returned.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cybp5k",
-      "q": "The problem of concurrency control is more complex in a distributed database.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gn1sy8",
-      "q": "A distributed database has which of the following advantages over a centralized database?",
-      "options": [
-        "Software cost",
-        "Software complexity",
-        "Slow Response",
-        "Modular growth"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4xl170",
-      "q": "An autonomous homogenous environment is which of the following?",
-      "options": [
-        "The same DBMS is at each node and each DBMS works independently.",
-        "The same DBMS is at each node and a central DBMS coordinates database access.",
-        "A different DBMS is at each node and each DBMS works independently.",
-        "A different DBMS is at each node and a central DBMS coordinates database access."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k5wkr0",
-      "q": "A transaction manager is which of the following?",
-      "options": [
-        "Maintains a log of transactions",
-        "Maintains before and after database images",
-        "Maintains appropriate concurrency control",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3itzrk",
-      "q": "Location transparency allows for which of the following?",
-      "options": [
-        "Users to treat the data as if it is at one location",
-        "Programmers to treat the data as if it is at one location",
-        "Managers to treat the data as if it is at one location",
-        "All of the above."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Distributed Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lbslaw",
-      "q": "A heterogeneous distributed database is which of the following?",
+      "id": "gate-16zd36s",
+      "q": "A homogenous distributed database is which of the following?",
       "options": [
         "The same DBMS is used at each location and data are not distributed across all nodes.",
         "The same DBMS is used at each location and data are distributed across all nodes.",
         "A different DBMS is used at each location and data are not distributed across all nodes.",
         "A different DBMS is used at each location and data are distributed across all nodes."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-czkyy8",
+      "q": "Replication should be used when which of the following exist?",
+      "options": [
+        "When transmission speeds and capacity in a network prohibit frequent refreshing of large tables.",
+        "When using many nodes with different operating systems and DBMSs and database designs.",
+        "The application's data can be somewhat out-of-date.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gn1c83",
+      "q": "Storing a separate copy of the database at multiple locations is which of the following?",
+      "options": [
+        "Data Replication",
+        "Horizontal Partitioning",
+        "Vertical Partitioning",
+        "Horizontal and Vertical Partitioning"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tcn38w",
+      "q": "A distributed database is which of the following?",
+      "options": [
+        "A single logical database that is spread to multiple locations and is interconnected by a network",
+        "A loose collection of file that is spread to multiple locations and is interconnected by a network",
+        "A single logical database that is limited to one location.",
+        "A loose collection of file that is limited to one location."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1td4brc",
+      "q": "A semijoin is which of the following?",
+      "options": [
+        "Only the joining attributes are sent from one site to another and then all of the rows are returned.",
+        "All of the attributes are sent from one site to another and then only the required rows are returned.",
+        "Only the joining attributes are sent from one site to another and then only the required rows are returned.",
+        "All of the attributes are sent from one site to another and then only the required rows are returned."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13cxmq2",
+      "q": "Which of the following is a disadvantage of replication?",
+      "options": [
+        "Reduced network traffic",
+        "If the database fails at one site, a copy can be located at another site.",
+        "Each site must have the same storage capacity.",
+        "Each transaction may proceed without coordination across the network."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cls20s",
+      "q": "A distributed database can use which of the following strategies?",
+      "options": [
+        "Totally centralized at one location and accessed by many sites",
+        "Partially or totally replicated across sites",
+        "Partitioned into segments at different sites",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Distributed Databases",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5bvns0",
+      "q": "Which of the following is not one of the stages in the evolution of distributed DBMS?",
+      "options": [
+        "Unit of work",
+        "Remote unit of work",
+        "Distributed unit of Work",
+        "Distributed request"
       ],
       "correct": 0,
       "explain": "",

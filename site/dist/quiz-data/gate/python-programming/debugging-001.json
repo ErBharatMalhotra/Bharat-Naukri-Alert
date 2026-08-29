@@ -5,136 +5,16 @@
   "subject": "Python Programming",
   "topic": "Debugging",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 6,
   "questions": [
     {
-      "id": "gate-1sgv3ck",
-      "q": "What is the purpose of the Python pdb module?",
+      "id": "gate-2w8uvc",
+      "q": "What is the purpose of the Python input() function during debugging?",
       "options": [
-        "To perform database operations",
-        "To debug and interactively explore code",
-        "To parse and manipulate XML data",
-        "To handle exceptions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lzp60k",
-      "q": "Which Python module provides a graphical user interface (GUI) for interactive debugging?",
-      "options": [
-        "pdb",
-        "debugger",
-        "debugtools",
-        "pydebug"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qe7u6z",
-      "q": "In Python, what does the sys.settrace() function do?",
-      "options": [
-        "Sets the system timezone for debugging purposes",
-        "Enables trace functions for the entire system",
-        "Sets a custom exception handler",
-        "Sets a trace function for all thread events"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xru3m0",
-      "q": "What does the Python step command do in a debugger like pdb?",
-      "options": [
-        "Skips the current line of code",
-        "Steps into a function or method call",
-        "Exits the debugger",
-        "Continues execution until the next breakpoint"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y89gna",
-      "q": "Which Python module allows you to set breakpoints and inspect variables interactively during program execution?",
-      "options": [
-        "sys",
-        "trace",
-        "debugger",
-        "pdb"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rfk3pp",
-      "q": "What does the Python locals() function provide during debugging?",
-      "options": [
-        "A list of all global variables",
-        "A dictionary of all local variables in the current scope",
-        "Information about the call stack",
-        "A list of all imported modules"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r258e8",
-      "q": "In Python, what does the breakpoint() function do?",
-      "options": [
-        "Exits the program immediately",
-        "Inserts a breakpoint in the code for debugging",
+        "Pauses the program execution and waits for user input",
         "Prints debugging information to the console",
-        "Skips the next loop iteration"
+        "Exits the program immediately",
+        "Sets a breakpoint in the code"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1176om4",
-      "q": "What does the Python globals() function provide during debugging?",
+      "id": "gate-1hnqz9f",
+      "q": "In Python, what does the traceback module provide?",
       "options": [
-        "A list of all global variables",
-        "A dictionary of all local variables in the current scope",
-        "Information about the call stack",
-        "A list of all imported modules"
+        "A way to change the execution flow of the program",
+        "Information about the flow of control and call stack during an error",
+        "The ability to insert breakpoints in the code",
+        "A graphical user interface for debugging"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y3i4bg",
-      "q": "What is the purpose of the pdb.set_trace() function in the pdb module?",
+      "id": "gate-1k4wqe6",
+      "q": "In Python, what is the purpose of the pdb.set_trace() function?",
       "options": [
         "To insert a breakpoint in the code for debugging",
-        "To terminate the program immediately",
         "To print debugging information to the console",
-        "To skip the next loop iteration"
+        "To exit the program immediately",
+        "To step into a function or method call"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-lx996g",
-      "q": "What does the Python traceback.print_exc() function do?",
+      "id": "gate-1vm3a1u",
+      "q": "What does the Python __debug__ variable control during program execution?",
       "options": [
-        "Terminates the program immediately",
-        "Prints debugging information to the console",
-        "Inserts a breakpoint in the code",
-        "Prints the exception traceback to the console"
+        "It enables or disables debugging globally",
+        "It determines whether assertions are executed or ignored",
+        "It checks if the Python interpreter is in debug mode",
+        "It sets the verbosity level of debugging output"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-pltpel",
-      "q": "What does the Python pdb.run() function do?",
+      "id": "gate-1tnn0e0",
+      "q": "What is the purpose of the Python yield statement in relation to debugging?",
       "options": [
-        "Executes the Python script without any debugging",
-        "Launches an external debugger for the entire script",
-        "Runs the Python script with an embedded debugger",
-        "Terminates the program immediately"
+        "It sets a breakpoint in the code",
+        "It enables the debugger for a specific block of code",
+        "It signals the end of a debugging session",
+        "It facilitates the creation of generators for step-by-step debugging"
       ],
       "correct": 0,
       "explain": "",
@@ -228,73 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-a8zer3",
-      "q": "What does the Python inspect module provide in terms of debugging?",
+      "id": "gate-60gky2",
+      "q": "What is the purpose of the Python pdb.pm() function?",
       "options": [
-        "A way to insert breakpoints in the code",
-        "Information about the call stack and code introspection",
-        "A graphical user interface for debugging",
-        "A custom exception handler"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iruw6j",
-      "q": "What does the Python set_trace() function do in the pdb module?",
-      "options": [
-        "Exits the program immediately",
-        "Inserts a breakpoint in the code for debugging",
-        "Prints debugging information to the console",
-        "Skips the next loop iteration"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p4p1wi",
-      "q": "What is the purpose of the Python traceback.format_exc() function?",
-      "options": [
-        "Terminates the program immediately",
-        "Prints debugging information to the console",
-        "Formats the exception traceback as a string",
-        "Inserts a breakpoint in the code"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Debugging",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o7tml4",
-      "q": "What is the purpose of the Python pdb.post_mortem() function?",
-      "options": [
-        "Exits the program immediately",
-        "Creates a post-mortem debugger session after an unhandled exception",
-        "Steps into a function or method call",
-        "Inserts a breakpoint in the code"
+        "Python Debugger Post-Mortem",
+        "Print Message",
+        "Program Monitor",
+        "Post-Mortem Debugger"
       ],
       "correct": 0,
       "explain": "",

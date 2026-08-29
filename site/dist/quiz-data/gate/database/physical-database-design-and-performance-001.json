@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-rrryc8",
-      "q": "When storage space is scarce and physical records cannot span pages, creating multiple physical records from one logical relation will minimize wasted storage space.",
+      "id": "gate-zkelsc",
+      "q": "Two basic constructs to link one piece of data with another piece of data: sequential storage and pointers.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-oi5coz",
-      "q": "A field represents each component of a composite attribute.",
+      "id": "gate-1cvwvqw",
+      "q": "Denormalization and clustering can work well to minimize data access time for small records.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-tvuf0w",
-      "q": "Some advantages of partitioning include: efficiency, security, and load balancing.",
+      "id": "gate-ra0phd",
+      "q": "Hashing algorithm converts a primary key value into a record address.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1nfipwv",
-      "q": "A pointer is a detailed coding scheme recognized by system software for representing organizational data.",
+      "id": "gate-nnc6m3",
+      "q": "The primary goal of physical database design is data processing efficiency.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-olci1x",
-      "q": "Distributing the columns of a table into several separate physical records is known as horizontal partitioning.",
+      "id": "gate-1kaf4r8",
+      "q": "A bitmap index is an index on columns from two or more tables that come from the same domain of values.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-o2r33c",
-      "q": "An extent is a contiguous section of disk storage space.",
+      "id": "gate-pi06dt",
+      "q": "The blocking factor is:",
       "options": [
-        "True",
-        "False"
+        "a group of fields stored in adjacent memory.",
+        "the number of physical records per page.",
+        "attributes grouped together by the same primary key.",
+        "attributes grouped together by the same secondary key."
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-16grez0",
-      "q": "The three newest database architectures in use today are relational, multidimensional and hierarchical.",
+      "id": "gate-1s8fd7w",
+      "q": "Which of the following improves a query's processing time?",
       "options": [
-        "True",
-        "False"
+        "Write complex queries.",
+        "Combine a table with itself.",
+        "Query one query within another.",
+        "Use compatible data types."
       ],
       "correct": 0,
       "explain": "",
@@ -134,86 +138,12 @@
       "tags": []
     },
     {
-      "id": "gate-13h70l4",
-      "q": "Data-volume and frequency-of-use statistics are not critical inputs to the physical database design process.",
+      "id": "gate-1r7q94o",
+      "q": "Which of the following are integrity controls that a DBMS may support?",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Physical Database Design And Performance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-daknos",
-      "q": "In general, larger block sizes are used for online transaction processing applications and smaller block sizes are used for databases with a decision support or data warehousing system.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Physical Database Design And Performance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fejws8",
-      "q": "It is usually not very important to design the physical database to minimize the time required by users to interact with the information systems.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Physical Database Design And Performance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y54wow",
-      "q": "If a denormalization situation exists with a one-to-one binary relationship, which of the following is true?",
-      "options": [
-        "All fields are stored in one relation.",
-        "All fields are stored in two relations.",
-        "All fields are stored in three relations.",
-        "All fields are stored in four relations."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Physical Database Design And Performance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-spvm28",
-      "q": "Selecting a data type involves which of the following?",
-      "options": [
-        "Maximize storage space",
-        "Represent most values",
-        "Improve data integrity",
+        "Assume a default value in a field unless a user enters a value for that field.",
+        "Limit the set of permissible values that a field may assume.",
+        "Limit the use of null values in some fields.",
         "All of the above."
       ],
       "correct": 0,
@@ -228,8 +158,28 @@
       "tags": []
     },
     {
-      "id": "gate-q4utrg",
-      "q": "What is the best data type definition for Oracle when a field is alphanumeric and has a length that can vary?",
+      "id": "gate-1up0xko",
+      "q": "Which of the following is not a factor to consider when switching from small to large block size?",
+      "options": [
+        "The length of all of the fields in a table row.",
+        "The number of columns",
+        "Block contention",
+        "Random row access speed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Physical Database Design And Performance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-106i9ew",
+      "q": "What is the best data type definition for Oracle when a field is alphanumeric and has a fixed length?",
       "options": [
         "VARCHAR2",
         "CHAR",
@@ -248,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-kkon40",
-      "q": "If a denormalization situation exists with a many-to-many or associative binary relationship, which of the following is true?",
+      "id": "gate-1ewl4s",
+      "q": "A secondary key is which of the following?",
       "options": [
-        "All fields are stored in one relation.",
-        "All fields are stored in two relations.",
-        "All fields are stored in three relations.",
-        "All fields are stored in four relations."
+        "Nonunique key",
+        "Primary key",
+        "Useful for denormalization decisions",
+        "Determines the tablespace required"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +218,73 @@
       "tags": []
     },
     {
-      "id": "gate-14h0kto",
-      "q": "Which of the following is an advantage of partitioning?",
+      "id": "gate-1e76b10",
+      "q": "The fastest read/write time and most efficient data storage of any disk array type is:",
       "options": [
-        "Complexity",
-        "Inconsistent access speed",
-        "Extra space",
-        "Security"
+        "RAID-0.",
+        "RAID-1.",
+        "RAID-2.",
+        "RAID-3."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Physical Database Design And Performance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sqp574",
+      "q": "A rule of thumb for choosing indexes for a relational database includes which of the following?",
+      "options": [
+        "Indexes are more useful on smaller tables.",
+        "Indexes are more useful for columns that do not appear frequently in the WHERE clause in queries.",
+        "Do not specify a unique index for the primary key of each table.",
+        "Be careful indexing attributes that have null values."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Physical Database Design And Performance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6avkei",
+      "q": "Sequential retrieval on a primary key for sequential file storage has which of the following features?",
+      "options": [
+        "Very fast",
+        "Moderately fast",
+        "Slow",
+        "Impractical"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Physical Database Design And Performance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e06mq8",
+      "q": "A multidimensional database model is used most often in which of the following models?",
+      "options": [
+        "Data warehouse",
+        "Relational",
+        "Hierarchical",
+        "Network"
       ],
       "correct": 0,
       "explain": "",

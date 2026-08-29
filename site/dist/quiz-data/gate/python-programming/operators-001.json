@@ -8,13 +8,13 @@
   "count": 9,
   "questions": [
     {
-      "id": "gate-4tcf58",
-      "q": "What is the result of the following operation: 10 / 3 ?",
+      "id": "gate-15oau0w",
+      "q": "Which operator is used for concatenating two strings?",
       "options": [
-        "3",
-        "3.0",
-        "3.333333",
-        "3.3333333333333335"
+        "+",
+        "~",
+        ".",
+        "|"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-ek8z2h",
-      "q": "What is the result of the following operation: 2 ** 3?",
+      "id": "gate-1xud0ve",
+      "q": "Which operator is used for performing Bitwise AND operation?",
       "options": [
-        "6",
-        "8",
-        "16",
-        "64"
+        "&&",
+        "&",
+        "||",
+        "|"
       ],
       "correct": 0,
       "explain": "",
@@ -48,48 +48,8 @@
       "tags": []
     },
     {
-      "id": "gate-69p620",
-      "q": "What is the result of the following operation: 5 % 2?",
-      "options": [
-        "1",
-        "2",
-        "2.5",
-        "0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-145vacg",
-      "q": "What is the result of the following operation: not (3 ?",
-      "options": [
-        "True",
-        "False",
-        "Error",
-        "None"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-aw5ph4",
-      "q": "What is the output of the following code? x = 10 y = 5 result = x != y and x > y print(result)",
+      "id": "gate-1lfws1s",
+      "q": "What is the output of the following code? num1 = 10 num2 = 20 num3 = 30 result = num1 num2 print(result)",
       "options": [
         "True",
         "False",
@@ -108,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-ya5ys8",
-      "q": "What is the output of the following code? a = 5 b = 3 c = 7 print(a + b * c)",
+      "id": "gate-gkunmy",
+      "q": "Which bitwise operator is used for the \"exclusive or\" (XOR)?",
       "options": [
-        "26",
-        "56",
-        "22",
-        "36"
+        "and",
+        "or",
+        "not",
+        "^"
       ],
       "correct": 0,
       "explain": "",
@@ -128,28 +88,8 @@
       "tags": []
     },
     {
-      "id": "gate-1kzbe0w",
-      "q": "What is the result of the following code? a = 8 b = 3 print(a / b)",
-      "options": [
-        "2.6666666666666665",
-        "2.6666666666666667",
-        "2.67",
-        "2.6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1whh9ik",
-      "q": "What is the result of the expression: True and False ?",
+      "id": "gate-55gcig",
+      "q": "What is the output of the following code? x = True y = False result = not x or y print(result)",
       "options": [
         "True",
         "False",
@@ -168,8 +108,68 @@
       "tags": []
     },
     {
-      "id": "gate-15kseqw",
-      "q": "What is the result of the expression 5 == \"5\"?",
+      "id": "gate-13ezakl",
+      "q": "Which of the following operators is used to perform floor division?",
+      "options": [
+        "//",
+        "%",
+        "/",
+        "*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-140enlm",
+      "q": "What is the output of the following code snippet? x = \"Hello\" y = \"World\" z = x + y print(z)",
+      "options": [
+        "Hello World",
+        "HelloWorld",
+        "Hello + World",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vep86o",
+      "q": "Which of the following is an example of a comparison operator?",
+      "options": [
+        "+",
+        "or",
+        "and",
+        "=="
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d313l4",
+      "q": "What is the result of the following expression in Python: 7 != '7'?",
       "options": [
         "True",
         "False",

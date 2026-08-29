@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Integrated Circuit Logic Families",
   "source": "indiabix.com",
-  "count": 63,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-sv40ng",
-      "q": "The principal advantage of MOS ICs over TTL ICs is their fast operating speed.",
+      "id": "gate-8tmo0o",
+      "q": "The major advantage of TTL logic circuits over CMOS is lower propagation delay.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-lu6v5c",
-      "q": "The CMOS series that is pin-compatible with the TTL family is the 4000 series.",
+      "id": "gate-1p0c9j2",
+      "q": "The data sheet for the 74 series of TTL ICs shows that Vcc has a range of 4.5 V to 5.5 V.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-14u9njw",
-      "q": "The maximum output voltage recognized as a LOW by a TTL gate is 2.0 V.",
+      "id": "gate-1ltxd60",
+      "q": "The major advantage of CMOS logic circuits over TTL is very low power consumption.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-gt6b48",
-      "q": "Usually P-MOS and N-MOS circuits are identical with the exception of the voltage polarities.",
+      "id": "gate-1ik2i8g",
+      "q": "The dc noise margins calculated using the proper values from a standard TTL data sheet are the worst-case margins. The typical dc noise margins are usually somewhat higher.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1nxijjw",
-      "q": "A major drawback in using ECL logic circuits in conjunction with TTL and MOS circuits is its negative supply voltages and logic levels.",
+      "id": "gate-xx73e",
+      "q": "The noise margin for TTL is 0.8 V.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r7wshs",
-      "q": "The maximum current for a LOW output on a standard TTL gate is 100 A.",
+      "id": "gate-sfh5lk",
+      "q": "When the outputs of several open-collector TTL gates are connected together, the gate outputs ________.",
       "options": [
-        "True",
-        "False"
+        "usually burn out",
+        "produce more voltage",
+        "are ANDed together",
+        "produce more fan-out"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-uydvx8",
-      "q": "Power-supply decoupling uses a radio-frequency capacitor to short out high frequency spikes.",
+      "id": "gate-yhkrz4",
+      "q": "Propagation delay is important because ________.",
       "options": [
-        "True",
-        "False"
+        "the logic gates must be given a short break during each clock cycle or else they will overheat",
+        "it limits the maximum operating frequency of a gate",
+        "it is a measure of how long the clock must be applied to the gate before it will make the required decision",
+        "all the gates in a system must have the same propagation times in order to be compatible"
       ],
       "correct": 0,
       "explain": "",
@@ -134,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-w31cj0",
-      "q": "Several manufacturers have developed logic that combines the best features of TTL and CMOS. This is called ________.",
+      "id": "gate-1cws6lv",
+      "q": "________ output levels would not be a valid LOW for a TTL gate.",
       "options": [
-        "12L",
-        "BiCMOS",
-        "74ACT",
-        "74HCT"
+        "0.2 V",
+        "0.3 V",
+        "0.5 V",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -154,153 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t1nc3k",
-      "q": "The power dissipation of a CMOS IC will ________.",
+      "id": "gate-3ef82x",
+      "q": "The minimum input voltage recognized as HIGH by a TTL gate is ________.",
       "options": [
-        "decrease with frequency",
-        "increase with gate size",
-        "decrease with gate size",
-        "increase with frequency"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1watf8o",
-      "q": "When VGS = 0 on an N-channel MOSFET switch, there is no ________ between the source and the drain.",
-      "options": [
-        "voltage drop",
-        "conductive channel",
-        "capacitance",
-        "inductance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k2vhp4",
-      "q": "The number of gates that can be connected to a single output without exceeding the current ratings of the gate is called ________.",
-      "options": [
-        "fan-out",
-        "propagation",
-        "dissipation",
-        "SSI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xo1tew",
-      "q": "The ________ is defined as the maximum number of standard logic inputs that an output can drive reliably.",
-      "options": [
-        "fan-drive",
-        "fan-out",
-        "fan-in",
-        "open-collector"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-157r1r8",
-      "q": "________ is ideally suited for applications using battery power or battery backup power.",
-      "options": [
-        "MOS",
-        "P-MOS",
-        "N-MOS",
-        "CMOS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vau2wg",
-      "q": "A logic probe is placed on the output of a digital circuit and the probe lamp is dimly lit. This display indicates ________.",
-      "options": [
-        "that an open or bad logic level exists",
-        "a high level output",
-        "a high-frequency pulse train",
-        "that the supply voltage is low"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ms8tdh",
-      "q": "A logic probe is placed on the input of a digital circuit and the probe lamp blinks slowly, indicating ________.",
-      "options": [
-        "that an open or bad logic level exists",
-        "a high level output",
-        "a high-frequency pulse train",
-        "that the supply voltage is low"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vhkjcs",
-      "q": "The HIGH logic level for a standard TTL output must be at least ________.",
-      "options": [
+        "2.0 V",
         "2.4 V",
-        "2 V",
         "0.8 V",
-        "5 V"
+        "5.0 V"
       ],
       "correct": 0,
       "explain": "",
@@ -314,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1khtcmw",
-      "q": "Which of the following logic families has the highest maximum clock frequency?",
+      "id": "gate-1o2xlu0",
+      "q": "The propagation delay of standard TTL gates is approximately ________.",
       "options": [
-        "S-TTL",
-        "AS-TTL",
-        "HS-TTL",
-        "HCMOS"
+        "2 s",
+        "1 s",
+        "4 ns",
+        "10 ns"
       ],
       "correct": 0,
       "explain": "",
@@ -334,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-mutjkm",
-      "q": "Why is the fan-out of CMOS gates frequency dependent?",
+      "id": "gate-1uj5grk",
+      "q": "Which of the following summarizes the important features of ECL?",
       "options": [
-        "Each CMOS input gate has a specific propagation time and this limits the number of different gates that can be connected to the output of a CMOS gate.",
-        "When the frequency reaches the critical value, the gate will only be capable of delivering 70% of the normal output voltage and consequently the output power will be one-half of normal; this defines the upper operating frequency.",
-        "The higher the number of gates attached to the output, the more frequently they will have to be serviced, thus reducing the frequency at which each will be serviced with an input signal.",
-        "The input gates of the FETs are predominantly capacitive, and as the signal frequency increases the capacitive loading also increases, thereby limiting the number of loads that may be attached to the output of the driving gate."
+        "Low noise margin, low output voltage swing, negative voltage operation, fast, and high power consumption",
+        "Good noise immunity, negative logic, high frequency capability, low power dissipation, and short propagation time",
+        "Slow propagation time, high frequency response, low power consumption, and high output voltage swings",
+        "Poor noise immunity, positive supply voltage operation, good low frequency operation, and low power"
       ],
       "correct": 0,
       "explain": "",
@@ -354,53 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f39irg",
-      "q": "Logic circuits that are designated as buffers, drivers, or buffer/drivers are designed to have:",
-      "options": [
-        "a greater current/voltage capability than an ordinary logic circuit.",
-        "greater input current/voltage capability than an ordinary logic circuit.",
-        "a smaller output current/voltage capability than an ordinary logic.",
-        "greater input and output current/voltage capability than an ordinary logic circuit."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o51gl1",
-      "q": "Which of the following will not normally be found on a data sheet?",
-      "options": [
-        "Minimum HIGH level output voltage",
-        "Maximum LOW level output voltage",
-        "Minimum LOW level output voltage",
-        "Maximum HIGH level input current"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9s6l2g",
-      "q": "What must be done to interface CMOS to TTL?",
+      "id": "gate-l0hh48",
+      "q": "What must be done to interface TTL to CMOS?",
       "options": [
         "A dropping resistor must be used on the CMOS 12 V supply to reduce it to 5 V for the TTL.",
-        "As long as the CMOS supply voltage is 5 V, they can be interfaced; however, the fan-out of the CMOS is limited to two TTL gates.",
+        "As long as the CMOS supply voltage is 5 V, they can be interfaced; however, the fan-out of the TTL is limited to five CMOS gates.",
         "A 5 V Zener diode must be placed across the inputs of the TTL gates in order to protect them from the higher output voltages of the CMOS gates.",
-        "The two series cannot be interfaced without the use of special interface buffers designed for that purpose, such as the open-collector buffers."
+        "A pull-up resistor must be used between the TTL output-CMOS input node and Vcc; the value of RP will depend on the number of CMOS gates connected to the node."
       ],
       "correct": 0,
       "explain": "",
@@ -414,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pvck7w",
-      "q": "What is the static charge that can be stored by your body as you walk across a carpet?",
+      "id": "gate-fxbvwo",
+      "q": "What causes low-power Schottky TTL to use less power than the 74XX series TTL?",
       "options": [
-        "300 volts",
-        "3,000 volts",
-        "30,000 volts",
-        "Over 30,000 volts"
+        "The Schottky-clamped transistor",
+        "Nothing. The 74XX series uses less power.",
+        "A larger value resistor",
+        "Using NAND gates"
       ],
       "correct": 0,
       "explain": "",
@@ -434,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mbcsns",
-      "q": "What type of circuit is shown below, and how is the output ordinarily connected?",
+      "id": "gate-1c2xfwx",
+      "q": "What are the major differences between the 5400 and 7400 series of ICs?",
       "options": [
-        "It is an open-collector gate and is used to drive loads that cannot be connected directly to Vcc due to high noise levels.",
-        "It represents an active-LOW inverter and is used in negative logic systems.",
-        "It is an open-collector gate. An external load must be connected between the output terminal and an appropriate supply voltage.",
-        "Any of the above could be correct, depending on the specific application involved."
+        "The 5400 series are military grade and require tighter supply voltages and temperatures.",
+        "The 5400 series are military grade and allow for a wider range of supply voltages and temperatures.",
+        "The 7400 series are an improvement over the original 5400s.",
+        "The 7400 series was originally developed by Texas Instruments. The 5400 series was brought out by National Semiconductors after TI's patents expired, as a second supply source."
       ],
       "correct": 0,
       "explain": "",
@@ -454,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-iexzi2",
-      "q": "What type of circuit is represented in the given figure, and which statement best describes its operation?",
+      "id": "gate-1j5e8xc",
+      "q": "Which of the following statements apply to CMOS devices?",
       "options": [
-        "It is a tristate inverter. When the ENABLE input is HIGH, the output is effectively an open circuit&#8212;it is neither LOW nor HIGH.",
-        "It is a programmable inverter. It can be programmed to function as either an active LOW or an active HIGH inverter.",
-        "It is an active LOW buffer, which can be turned on and off by the ENABLE input.",
-        "None of the above."
+        "The devices should not be inserted into circuits with the power on.",
+        "All tools, test equipment, and metal workbenches should be tied to earth ground.",
+        "The devices should be stored and shipped in antistatic tubes or conductive foam.",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -474,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-2ho6f4",
-      "q": "Which of the following logic families has the highest noise margin?",
+      "id": "gate-sm7w3k",
+      "q": "What is unique about TTL devices such as the 74S00?",
       "options": [
-        "TTL",
-        "LS TTL",
-        "CMOS",
-        "HCMOS"
+        "The gate transistors are silicon (S), and the gates therefore have lower values of leakage current.",
+        "The S denotes the fact that a single gate is present in the IC rather than the usual package of 2&#8211;6 gates.",
+        "The S denotes a slow version of the device, which is a consequence of its higher power rating.",
+        "The devices use Schottky transistors and diodes to prevent them from going into saturation; this results in faster turn on and turn off times, which translates into higher frequency operation."
       ],
       "correct": 0,
       "explain": "",
@@ -494,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-o27m6o",
-      "q": "Whenever a totem-pole TTL output goes from LOW to HIGH, a high-amplitude current spike is drawn from the Vcc supply. How is this effect corrected to a digital circuit?",
+      "id": "gate-1cuzd78",
+      "q": "Refer to the figure given below. What type of device is shown and what input levels are required to turn the LED off?",
       "options": [
-        "By connecting a radio-frequency capacitor from Vcc to ground.",
-        "By using a switching power supply",
-        "By connecting a capacitor from Vout to ground",
-        "By connecting a large resistor from Vcc to Vout"
+        "The device is an open-collector AND gate and requires both inputs to be HIGH in order to turn the LED off.",
+        "The device is a Schottky AND gate and requires only one low input to turn the LED off.",
+        "The device is an open-collector AND gate and requires only one low input to turn the LED off.",
+        "The device is a Schottky open-collector AND gate and requires a low on both inputs to turn the LED off."
       ],
       "correct": 0,
       "explain": "",
@@ -514,13 +338,13 @@
       "tags": []
     },
     {
-      "id": "gate-yh83ce",
-      "q": "What type of circuit is shown below and which statement best describes its operation?",
+      "id": "gate-6mwqeq",
+      "q": "Generally, the voltage measured at an unused TTL input would typically be measured between:",
       "options": [
-        "It is a two-input CMOS AND gate with open drain.",
-        "It is a two-input CMOS buffer with tristate output.",
-        "It is a CMOS inverter with tristate output.",
-        "It is a hybrid TTL-CMOS inverter with FET totem-pole output."
+        "1.4 to 1.8 V.",
+        "0 to 5 V.",
+        "0 to 1.8 V.",
+        "0.8 to 5 V."
       ],
       "correct": 0,
       "explain": "",
@@ -534,13 +358,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w3xyww",
-      "q": "What is the increase in switching speed between 74LS series TTL and 74HC/HCT (High-Speed CMOS)?",
+      "id": "gate-78ynz8",
+      "q": "The IEEE/ANSI notation of an internal underlined diamond denotes:",
       "options": [
-        "5",
-        "10",
-        "50",
-        "100"
+        "totem-pole outputs.",
+        "open-collector outputs.",
+        "quadrature amplifiers.",
+        "tristate buffers."
       ],
       "correct": 0,
       "explain": "",
@@ -554,665 +378,13 @@
       "tags": []
     },
     {
-      "id": "gate-p7f5l",
-      "q": "A logic signal experiences a delay in going through a circuit. The two propagation delay times are defined as:",
+      "id": "gate-20pc2s",
+      "q": "The bipolar TTL logic family that was developed to increase switching speed by preventing transistor saturation is:",
       "options": [
-        "tPLH and tPHL.",
-        "tDLH and tDHL.",
-        "tHPL and tlph.",
-        "tLDH and tHDL."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o41dr4",
-      "q": "What does ECL stand for?",
-      "options": [
-        "It stands for electron-coupled logic; all of the devices used within the gates are N-type transistors.",
-        "It stands for emitter-coupled logic; all of the inputs are coupled into the device through the emitters of the input transistors.",
-        "It stands for emitter-coupled logic; all of the emitters of the input transistors are connected together and each transistor functions as an emitter follower.",
-        "It stands for energy-coupled logic; the input energy is amplified by the input transistors and allows the device to deliver higher output currents."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b6d5vc",
-      "q": "An unused input of a NAND gate can be left unconnected, pulled high by a pull-up resistor and tied together with another input and not change the logic output.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1g2l18s",
-      "q": "The logic family with the highest maximum clock frequency is HS-TTL.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uu3q4c",
-      "q": "The output current capability for a HIGH output condition is called a source current.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19ddtjk",
-      "q": "The 74XX series TTL operates using saturated switching in which many of the transistors, when conducting, will be in the saturated condition.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1660cn8",
-      "q": "The noise immunity of a logic circuit refers to the circuit's ability to tolerate noise by causing spurious charges in the output voltage.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ubtto8",
-      "q": "CMOS stands for \"complementary metal-oxide semiconductors\" and the FETs are normally enhancement mode devices.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12kokc",
-      "q": "A common means for measuring and comparing the overall performance of an IC family is the speed-power product.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sifz2o",
-      "q": "The time it takes for a square wave to go from 10% to 90% of its voltage level is called propagation delay.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jyczyw",
-      "q": "When the outputs of several standard TTL gates are connected together, the gate outputs produce more fan-out.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vp7pf4",
-      "q": "The output current for a LOW output is called a(n) ________.",
-      "options": [
-        "sink current",
-        "ground current",
-        "exit current",
-        "fan-out"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1haqs0w",
-      "q": "________ TTL allows three possible output states.",
-      "options": [
-        "Triswitch",
-        "Triinput",
-        "Tristate",
-        "Trident"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t40zvo",
-      "q": "The proliferation of small handheld consumer equipment such as digital video cameras, cellular phones, handheld computers (________), portable audio systems, and other devices has created a need for logic circuits in very small packages.",
-      "options": [
-        "HDLs",
-        "GDAs",
-        "PDAs",
-        "TTLs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ujll30",
-      "q": "The lower transistor of a totem-pole output is saturated when the gate output is ________.",
-      "options": [
-        "overdriven",
-        "HIGH",
-        "LOW",
-        "malfunctioning"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vgbtes",
-      "q": "The 74F-Fast TTL integrated-circuit fabrication technique uses reduced interdevice ________ to achieve reduced propagation delays.",
-      "options": [
-        "noise",
-        "resistance",
-        "capacitance",
-        "inductance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-141y5pr",
-      "q": "In a DIP the spacing between pins is typically ________.",
-      "options": [
-        "5 mils",
-        "10 mils",
-        "50 mils",
-        "100 mils"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19jhpro",
-      "q": "________ is about twice as fast as P-MOS.",
-      "options": [
-        "CMOS",
-        "DMOS",
-        "MOD",
-        "N-MOS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3z7atk",
-      "q": "P-MOS and N-MOS ________.",
-      "options": [
-        "represent MOSFET devices utilizing either P-channel or N-channel devices exclusively within a given gate",
-        "are enhancement-type CMOS devices used to produce a series of high-speed logic known as 74HC",
-        "represent positive and negative MOS-type devices that can be operated from differential power supplies and are compatible with operational amplifiers",
-        "None of the above are."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1psj7xc",
-      "q": "The output stage of a TTL gate is a special design called ________.",
-      "options": [
-        "multiemitter",
-        "totem-pole",
-        "MSI",
-        "DIP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rta7gx",
-      "q": "A \"floating\" TTL input may be defined as:",
-      "options": [
-        "unused input that is tied to Vcc through a 1 k resistor.",
-        "unused input that is tied to used inputs.",
-        "unused input that is tied to the ground.",
-        "unused input that is not connected."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ahox44",
-      "q": "Which of the logic families listed below allows the highest operating frequency?",
-      "options": [
-        "74AS",
-        "ECL",
-        "HCMOS",
-        "54S"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qoapuw",
-      "q": "Refer to the given figure. What type of output arrangement is being used for the output?",
-      "options": [
-        "Complementary-symmetry",
-        "Push-pull",
-        "Quasi push-pull",
-        "Totem-pole"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mx2ic8",
-      "q": "Refer the given figure. Which of the following describes the operation of the circuit?",
-      "options": [
-        "A LOW input turns Q1 and Q3 on; Q2 and Q4 are off.",
-        "A LOW input turns Q1 and Q4 off; Q2 and Q3 are on.",
-        "A HIGH input turns Q1, Q2, and Q3 off, and Q4 is on.",
-        "A HIGH input turns Q1, Q2, and Q4 on; Q3 is off."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jt8gms",
-      "q": "What type of logic circuit is shown below and what logic function is being performed?",
-      "options": [
-        "It is an NMOS AND gate.",
-        "It is a CMOS AND gate.",
-        "It is a CMOS NOR gate.",
-        "It is a PMOS NAND gate."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mqyn8h",
-      "q": "The abbreviated designator for a HIGH input voltage is VIH.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fpypgg",
-      "q": "A current-sourcing transistor may also be referred to as a pull-down transistor.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kmofu8",
-      "q": "Most TTL gates use the totem-pole output arrangement.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18xx4ok",
-      "q": "The fan-out of CMOS gates is frequency dependent.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yxy9aa",
-      "q": "The upper transistor of a totem-pole output is OFF when the gate output is low.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uvdfug",
-      "q": "A ________ is a testing and troubleshooting tool that generates a short-duration pulse when manually activated, usually by depressing a push button.",
-      "options": [
-        "cattle prod",
-        "jimmy rod",
-        "logic pulser",
-        "bilateral switch"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r8ypt1",
-      "q": "Fan-out for a typical TTL gate is ________.",
-      "options": [
-        "100",
-        "54",
-        "10",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-55842g",
-      "q": "An open-collector TTL gate ________.",
-      "options": [
-        "can source current but cannot sink current",
-        "can sink current but cannot source current",
-        "cannot source or sink current",
-        "can sink more current than a standard TTL gate"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11pm6c",
-      "q": "One advantage that MOSFET transistors have over bipolar transistors is ________.",
-      "options": [
-        "high input impedance",
-        "higher switching speed",
-        "low input impedance",
-        "reduced propagation delay"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Integrated Circuit Logic Families",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7far5c",
-      "q": "The time it takes for an input signal to pass through internal circuitry and generate the appropriate output effect is known as ________.",
-      "options": [
-        "fan-out",
-        "propagation delay",
-        "rise time",
-        "fall time"
+        "emitter-coupled logic (ECL).",
+        "current-mode logic (CML).",
+        "transistor-transistor logic (TTL).",
+        "emitter-coupled logic (ECL) and transistor-transistor logic (TTL)."
       ],
       "correct": 0,
       "explain": "",

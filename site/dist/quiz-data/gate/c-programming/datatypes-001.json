@@ -5,35 +5,15 @@
   "subject": "C# Programming",
   "topic": "Datatypes",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 7,
   "questions": [
     {
-      "id": "gate-1g6s5vw",
-      "q": "Which of the following statements are correct about data types? If the integer literal exceeds the range of byte, a compilation error will occur. We cannot implicitly convert non-literal numeric types of larger storage size to byte. Byte cannot be implicitly converted to float. A char can be implicitly converted to only int data type. We can cast the integral character codes.",
+      "id": "gate-1tp45d4",
+      "q": "Which of the following does not store a sign?",
       "options": [
-        "1, 3, 5",
-        "2, 4",
-        "3, 5",
-        "1, 2, 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Datatypes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5hbvdm",
-      "q": "Which of the following is an 8-byte Integer?",
-      "options": [
-        "Char",
-        "Long",
         "Short",
+        "Integer",
+        "Long",
         "Byte"
       ],
       "correct": 0,
@@ -48,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tx7wty",
-      "q": "Which of the following is NOT an Integer?",
+      "id": "gate-1xbhbcg",
+      "q": "What is the size of a Decimal?",
       "options": [
-        "Char",
-        "Byte",
-        "Integer",
-        "Short"
+        "4 byte",
+        "8 byte",
+        "16 byte",
+        "32 byte"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-jxz9x8",
-      "q": "Which of the following are value types? Integer Array Single String Long",
+      "id": "gate-1kbsb83",
+      "q": "What will be the output of the following code snippet when it is executed? int x = 1; float y = 1.1f; short z = 1; Console.WriteLine((float) x + y * z - (x += (short) y));",
       "options": [
-        "1, 2, 5",
-        "1, 3, 5",
-        "2, 4",
-        "3, 5"
+        "0.1",
+        "1.0",
+        "1.1",
+        "11"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-15j4614",
-      "q": "Which of the following statements are correct? We can assign values of any type to variables of type object. When a variable of a value type is converted to object, it is said to be unboxed. When a variable of type object is converted to a value type, it is said to be boxed. Boolean variable cannot have a value of null. When a value type is boxed, an entirely new object must be allocated and constructed.",
+      "id": "gate-1ky56zy",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? short s1 = 20; short s2 = 400; int a; a = s1 * s2;",
       "options": [
-        "2, 5",
-        "1, 5",
-        "3, 4",
-        "2, 3"
+        "A value 8000 will be assigned to a.",
+        "A negative value will be assigned to a.",
+        "During arithmetic if the result exceeds the high or low value of the range the value wraps around till the other side of the range.",
+        "An error is reported as widening conversion cannot takes place."
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-bcd564",
-      "q": "Which of the following is the correct ways to set a value 3.14 in a variable pi such that it cannot be modified?",
+      "id": "gate-1bl7ht0",
+      "q": "Which of the following is the correct size of a Decimal datatype?",
       "options": [
-        "float pi = 3.14F;",
-        "#define pi 3.14F;",
-        "const float pi = 3.14F;",
-        "const float pi; pi = 3.14F;"
+        "8 Bytes",
+        "4 Bytes",
+        "10 Bytes",
+        "16 Bytes"
       ],
       "correct": 0,
       "explain": "",
@@ -128,33 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-wsalib",
-      "q": "Which of the following statements are correct about data types? Each value type has an implicit default constructor that initializes the default value of that type. It is possible for a value type to contain the null value. All value types are derived implicitly from System.ValueType class. It is not essential that local variables in C# must be initialized before being used. Variables of reference types referred to as objects and store references to the actual data.",
+      "id": "gate-1o3a2eg",
+      "q": "Which of the following statements are correct about datatypes in C#.NET? Every datatype is either a value type or a reference type. Value types are always created on the heap. Reference types are always created on the stack. Mapping of every value type to a type in Common Type System facilitates Interoperability in C#.NET. Every reference type gets mapped to a type in Common Type System.",
       "options": [
-        "1, 3, 5",
-        "2, 4",
-        "3, 5",
-        "2, 3, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Datatypes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g883gc",
-      "q": "Which of the following are the correct way to initialise the variables i and j to a value 10 each? int i = 10; int j = 10; int i, j; i = 10 : j = 10; int i = 10, j = 10; int i, j = 10; int i = j = 10;",
-      "options": [
-        "2, 4",
         "1, 3",
-        "3, 5",
-        "4, 5"
+        "2, 5",
+        "1, 4",
+        "3, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-mwm7bh",
-      "q": "Which of the following statement correctly assigns a value 33 to a variable c? byte a = 11, b = 22, c;",
+      "id": "gate-1s58kvc",
+      "q": "Which of the following is the correct default value of a Boolean type?",
       "options": [
-        "c = (byte) (a + b);",
-        "c = (byte) a + (byte) b;",
-        "c = (int) a + (int) b;",
-        "c = (int)(a + b);"
+        "0&nbsp;",
+        "1",
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",

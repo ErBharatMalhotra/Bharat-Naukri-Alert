@@ -1,0 +1,1295 @@
+{
+  "title": "General - c program - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "c program",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "Will the following C code compile without any error? #include &lt;stdio.h> int main() { for (int k = 0; k",
+      "options": [
+        "Yes",
+        "No",
+        "Depends on the C standard implemented by compilers",
+        "Error"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Variable name resolution (number of significant characters for the uniqueness of variable) depends on . . . . . . . .",
+      "options": [
+        "Compiler and linker implementations",
+        "Assemblers and loaders implementations",
+        "C language",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the final values of a and c in the following C statement? (Initial values: a = 2, c = 1) c = (c) ? a = 0 : 2;",
+      "options": [
+        "a = 0, c = 0;",
+        "a = 2, c = 1;",
+        "a = 2, c = 2;",
+        "a = 1, c = 2;"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the final value of j in the following C code? #include &lt;stdio.h> int main() { int i = 10, j = 0; if (i || (j = i + 10)) //do something ; }",
+      "options": [
+        "20",
+        "Compile time error",
+        "Depends on language standard"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of an int data type?",
+      "options": [
+        "4 Bytes",
+        "8 Bytes",
+        "Depends on the system/compiler",
+        "Cannot be determined"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Pick the incorrect statement with respect to enums.",
+      "options": [
+        "Two enum symbols cannot have the same value",
+        "Only integer constants are allowed in enums",
+        "It is not possible to change the value of enum symbols",
+        "Enum variables are automatically assigned values if no value is specified"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "One of the major difference between typedef and #define is that typedef interpretation is performed by the . . . . . . . . whereas #define interpretation is performed by the . . . . . . . .",
+      "options": [
+        "pre-processor, compiler",
+        "user, pre-processor",
+        "compiler, pre-processor",
+        "compiler, user"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following typecasting is accepted by C?",
+      "options": [
+        "Widening conversions",
+        "Narrowing conversions",
+        "Widening & Narrowing conversions",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a ternary operator?",
+      "options": [
+        "&&",
+        ">>=",
+        "?:",
+        "->"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Operation \"a = a * b + a\" can also be written as . . . . . . . .",
+      "options": [
+        "a *= b + 1;",
+        "(c = a * b)!=(a = c + a);",
+        "a = (b + 1)* a;",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an invalid assignment operator?",
+      "options": [
+        "a %= 10;",
+        "a /= 10;",
+        "a |= 10;",
+        "None of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following are unary operators?",
+      "options": [
+        "sizeof",
+        "++",
+        "all of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following data type will throw an error on modulus operation(%)?",
+      "options": [
+        "char",
+        "short",
+        "int",
+        "float"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following cannot be a variable name in C?",
+      "options": [
+        "volatile",
+        "true",
+        "friend",
+        "export"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which type of conversion is NOT accepted?",
+      "options": [
+        "From char to int",
+        "From float to char pointer",
+        "From negative int to char",
+        "From double to char"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "A variable declared in a function can be used in main().",
+      "options": [
+        "True",
+        "False",
+        "True if it is declared static",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "function tolower(c) defined in library works for . . . . . . . .",
+      "options": [
+        "Ascii character set",
+        "Unicode character set",
+        "Ascii and utf-8 but not EBCDIC character set",
+        "Any character set"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Associativity of an operator is . . . . . . . .",
+      "options": [
+        "Right to Left",
+        "Left to Right",
+        "Random fashion",
+        "Both Right to Left and Left to Right"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the data type of the following expression? (Initial data type: a = int, var1 = double, var2 = float) expression (a",
+      "options": [
+        "int",
+        "float",
+        "double",
+        "Cannot be determined"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Why do variable names beginning with the underscore is not encouraged?",
+      "options": [
+        "It is not standardized",
+        "To avoid conflicts since assemblers and loaders use such names",
+        "To avoid conflicts since library routines use such names",
+        "To avoid conflicts with environment variables of an operating system"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following method is accepted for assignment?",
+      "options": [
+        "5 = a = b = c = d;",
+        "a = b = c = d = 5;",
+        "a = b = 5 = c = d;",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will happen if the following C code is executed? #include &lt;stdio.h> int main() { int main = 3; printf(\"%d\", main); return 0; }",
+      "options": [
+        "It will cause a compile-time error",
+        "It will cause a run-time error",
+        "It will run without any error and prints 3",
+        "It will experience infinite looping"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the highest index for an array with 10 elements in C?",
+      "options": [
+        "10",
+        "11"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to declare a character array in C?",
+      "options": [
+        "str",
+        "character",
+        "arr",
+        "char"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of an integer array declared as int arr[5] in bytes?",
+      "options": [
+        "10",
+        "20"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to compare two strings in C?",
+      "options": [
+        "strcmp",
+        "strcat",
+        "strlen",
+        "strcomp"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How do you access the first element of an array arr in C?",
+      "options": [
+        "arr[1]",
+        "arr[0]",
+        "arr[2]",
+        "arr[10]"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which type of loop is commonly used to iterate through an array in C?",
+      "options": [
+        "if loop",
+        "switch loop",
+        "for loop",
+        "while loop"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the maximum number of elements that can be stored in an array in C?",
+      "options": [
+        "Depends on memory",
+        "256",
+        "1000",
+        "Unlimited"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to find the length of a string in C?",
+      "options": [
+        "lenstr",
+        "strsize",
+        "strlength",
+        "stringlen"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the term for accessing elements of an array using an index in C?",
+      "options": [
+        "Enumeration",
+        "Indexing",
+        "Pointer",
+        "Structures"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How can you initialize an array in C at the time of declaration?",
+      "options": [
+        "Using the init keyword",
+        "Using the initialize function",
+        "Using a loop",
+        "Providing a list of values"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to concatenate two strings in C?",
+      "options": [
+        "strcat",
+        "strconcat",
+        "stradd",
+        "concatstr"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare and initialize a string in C?",
+      "options": [
+        "char str[10] = \"Hello\";",
+        "char str = \"Hello\";",
+        "string str = \"Hello\";",
+        "str = \"Hello\";"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the term for a character array that is used to store text in C?",
+      "options": [
+        "char array",
+        "text array",
+        "string",
+        "char sequence"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How can you find the length of an array in C?",
+      "options": [
+        "Use the length property",
+        "Use the size property",
+        "Use the sizeof operator",
+        "Use the lengthof function"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to copy one string to another in C?",
+      "options": [
+        "strcopy",
+        "strcp",
+        "strcpy",
+        "strduplicate"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How do you access the last element of an array arr with n elements in C?",
+      "options": [
+        "arr[n]",
+        "arr[n-1]",
+        "arr[n+1]",
+        "arr[last]"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the fgets function in C?",
+      "options": [
+        "Read a file",
+        "Read a string from the console",
+        "Write to a file",
+        "Write to the console"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What does the strtok function do in C?",
+      "options": [
+        "Tokenizes a string",
+        "Copies a string",
+        "Compares two strings",
+        "Concatenates two strings"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How do you declare a two-dimensional integer array in C with 3 rows and 4 columns?",
+      "options": [
+        "int arr[3,4];",
+        "int arr[3][4];",
+        "int[3,4] arr;",
+        "int[4][3] arr;"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to find the first occurrence of a character in a string in C?",
+      "options": [
+        "strchr",
+        "strstr",
+        "strfind",
+        "strsearch"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How do you declare a string in C that can store up to 50 characters?",
+      "options": [
+        "string str[50];",
+        "char str[50];",
+        "char[] str = \"50\";",
+        "string = 50;"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the strncpy function in C?",
+      "options": [
+        "Concatenate two strings",
+        "Copy a portion of a string",
+        "Compare two strings",
+        "Initialize a string"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to convert a string to an integer in C?",
+      "options": [
+        "strint",
+        "str2int",
+        "atoi",
+        "toint"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What does the fgets function in C do when it encounters a newline character?",
+      "options": [
+        "Removes the newline character",
+        "Stops reading",
+        "Replaces the newline with a space",
+        "Continues reading"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "How can you check if two strings are equal in C?",
+      "options": [
+        "Use the == operator",
+        "Use the strcmp function",
+        "Use the equals function",
+        "Use the = operator"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is right way to Initialize array?",
+      "options": [
+        "int num[6] = { 2, 4, 12, 5, 45, 5 };",
+        "int n{} = { 2, 4, 12, 5, 45, 5 };",
+        "int n{6} = { 2, 4, 12 };",
+        "int n(6) = { 2, 4, 12, 5, 45, 5 };"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the program? #include&lt;stdio.h> void main() { int a[5] = {5, 1, 15, 20, 25}; int i, j, m; i = ++a[1]; j = a[1]++; m = a[i++]; printf(\"%d, %d, %d\", i, j, m); }",
+      "options": [
+        "3, 2, 15",
+        "2, 3, 20",
+        "2, 1, 15",
+        "1, 2, 5"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of following program code? #include &lt;stdio.h> int main(void) { char p; char buf[10] = {1, 2, 3, 4, 5, 6, 9, 8}; p = (buf + 1)[5]; printf(\"%d\", p); return 0; }",
+      "options": [
+        "Error",
+        "E.",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "An array elements are always stored in ________ memory locations.",
+      "options": [
+        "Sequential",
+        "Random",
+        "Sequential and Random",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Let x be an array. Which of the following operations are illegal? I. ++x II. x+1 III. x++ IV. x*2",
+      "options": [
+        "I and II",
+        "I, II and III",
+        "II and III",
+        "I, III and IV"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the maximum number of dimensions an array in C may have?",
+      "options": [
+        "20",
+        "50",
+        "E.",
+        "Theoratically no limit. The only practical limits are memory size and compilers."
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Size of the array need not be specified, when",
+      "options": [
+        "Initialization is a part of definition",
+        "It is a declaratrion",
+        "It is a formal parameter",
+        "All of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Consider the following type definition. typedef char x[10]; x myArray[5]; What will sizeof(myArray) be ? (Assume one character occupies 1 byte)",
+      "options": [
+        "15",
+        "10",
+        "50",
+        "30"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be printed after execution of the following code? void main() { int arr[10] = {1,2,3,4,5}; printf(\"%d\", arr[5]); }",
+      "options": [
+        "Garbage Value",
+        "E.",
+        "None of these"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following program? void main() { char str1[] = \"abcd\"; char str2[] = \"abcd\"; if(str1==str2) printf(\"Equal\"); else printf(\"Unequal\"); }",
+      "options": [
+        "Equal",
+        "Unequal",
+        "Error",
+        "None of these."
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following code? void main() { int a[10]; printf(\"%d %d\", a[-1], a[12]); }",
+      "options": [
+        "0 0",
+        "Garbage value 0",
+        "0 Garbage Value",
+        "Garbage vlaue Garbage Value"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What does the following declaration mean? int (*ptr)[10];",
+      "options": [
+        "ptr is array of pointers to 10 integers",
+        "ptr is a pointer to an array of 10 integers",
+        "ptr is an array of 10 integers",
+        "ptr is an pointer to array"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Array passed as an argument to a function is interpreted as",
+      "options": [
+        "Address of the array.",
+        "Values of the first elements of the array.",
+        "Address of the first element of the array.",
+        "Number of element of the array."
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the program if the array begins at 65472 and each integer occupies 2 bytes? #include&lt;stdio.h> void main() { int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0}; printf(\"%u, %u\", a+1, &a+1); }",
+      "options": [
+        "65474, 65488",
+        "65480, 65488",
+        "65480, 65496",
+        "65474, 65476"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is correct way to define the function fun() in the below program? #include&lt;stdio.h> void main() { int a[3][4]; fun(a); }",
+      "options": [
+        "void fun(int p[][4]){}",
+        "void fun(int *p[4]){}",
+        "void fun(int *p[][4]){}",
+        "void fun(int *p[3][4]){}"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statements are correct about the program below? #include&lt;stdio.h> void main() { int size, i; scanf(\"%d\", &size); int arr[size]; for(i=1; i",
+      "options": [
+        "The code is erroneous since the statement declaring array is invalid.",
+        "The code is erroneous since the subscript for array used in for loop is in the range 1 to size.",
+        "The code is correct and runs successfully.",
+        "The code is erroneous since the values of array are getting scanned through the loop."
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statements are correct about an array? 1. The array int num[26]; can store 26 elements. 2. The expression num[1] designates the very first element in the array. 3. It is necessary to initialize the array at the time of declaration. 4. The declaration num[SIZE] is allowed if SIZE is a macro.",
+      "options": [
+        "1, 4",
+        "2, 3",
+        "2, 4",
+        "E."
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "If the two strings are identical, then strcmp() function returns",
+      "options": [
+        "-1",
+        "true",
+        "E.",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The library function used to find the last occurrence of a character in a string is",
+      "options": [
+        "laststr()",
+        "strstr()",
+        "strnstr()",
+        "strrchr()"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following function is used to find the first occurrence of a given string in another string?",
+      "options": [
+        "strchr()",
+        "strrchr()",
+        "strstr()",
+        "strnset()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following function is more appropriate for reading in a multi-word string?",
+      "options": [
+        "scanf()",
+        "gets()",
+        "printf()",
+        "puts()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following correctly accesses the seventh element stored in arr, an array with 100 elements?",
+      "options": [
+        "arr[6]",
+        "arr[7]",
+        "arr{6}",
+        "arr{7}"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the return value of the following statement if it is placed in C program? strcmp(\"ABC\", \"ABC\");",
+      "options": [
+        "33",
+        "-1",
+        "E.",
+        "Compilation Error"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "int a[5] = {1,2,3} What is the value of a[4]?",
+      "options": [
+        "E.",
+        "Garbage Value"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the correct output of the following program? #include&lt;string.h> void main() { char str[] = \"C EXAMINATION\", rev[17]; int i = strlen(str), j=0; for( ; i>=0; rev[j++] = str[i--]) rev[j] = str[j] ; puts(rev); }",
+      "options": [
+        "NOITANIMAXE C",
+        "NOITANIMAXE",
+        "No output at all.",
+        "E."
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The function sprintf() works like printf(), but operates on ..........",
+      "options": [
+        "Data file",
+        "stderr",
+        "string",
+        "stdin"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "String concatenation means -",
+      "options": [
+        "Combining two strings.",
+        "Extracting a substring out of a string.",
+        "Partitioning the string into two strings.",
+        "Merging two strings."
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "errno causes trouble in two subtler ways(vague and explicit).",
+      "options": [
+        "true",
+        "false"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What do the following C function do? int isgraph(int c);",
+      "options": [
+        "tests for only space character",
+        "tests for only digit",
+        "tests for only lower case",
+        "tests for any printing character"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function tests for any character for which isalpha or isdigit is true.",
+      "options": [
+        "isxdigit()",
+        "isspace()",
+        "isalnum()",
+        "isupper()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "There are two groups of string functions defined in the header &lt;string.h>. What are they?",
+      "options": [
+        "first group names beginning with str; second group names beginning with mem",
+        "first group names beginning with str; second group names beginning with is",
+        "first group names beginning with string; second group names beginning with mem",
+        "first group names beginning with str; second group names beginning with type"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What error occurs when a result is unde?ned for a given argument value?",
+      "options": [
+        "significance loss",
+        "underflow",
+        "overflow",
+        "domain"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the prototype of strcoll() function?",
+      "options": [
+        "int strcoll(const char *s1,const char *s2)",
+        "int strcoll(const char *s1)",
+        "int strcoll(const *s1,const *s2)",
+        "int strcoll(const *s1)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the return value of strxfrm()?",
+      "options": [
+        "length of the transformed string, not including the terminating null-character",
+        "length of the transformed string, including the terminating null-character",
+        "display the transformed string, not including the terminating null character",
+        "display the transformed string, not including the terminating null-character"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which among the following is Copying function?",
+      "options": [
+        "memcpy()",
+        "strcopy()",
+        "memcopy()",
+        "strxcpy()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function tests for any character that is an uppercase letter.",
+      "options": [
+        "iscntrl()",
+        "ispunct()",
+        "isdigit()",
+        "isupper()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "No library function will store a zero in errno.",
+      "options": [
+        "true",
+        "false"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function tests for any hexadecimal-digit character.",
+      "options": [
+        "iscntrl()",
+        "ispunct()",
+        "isgraph()",
+        "isxdigit()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What does the following C code do? int iscntrl( int c);",
+      "options": [
+        "checks if character is upper case",
+        "checks if character is lower case",
+        "tests for any control character",
+        "no function as such"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which of the given function is used to return a pointer to the located character?",
+      "options": [
+        "strrchr()",
+        "strxfrm()",
+        "memchar()",
+        "strchar()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will the following C code do? char * strrchr(const char *s, int c ) char ch = c; char *sc; for(sc = NULL; ; ++s) if(*s == ch) SC = 9; i f (*s =='\\O' ) return (( char *) s);",
+      "options": [
+        "find last occurrence of c in char s[ ].",
+        "find first occurrence of c in char s[ ].",
+        "find the current location of c in char s[ ].",
+        "There is error in the given code"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which function returns true only for the characters defined as lowercase letters?",
+      "options": [
+        "islow()",
+        "islower()",
+        "isalpa()",
+        "isalnum()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function returns the number of characters that are present before the terminating null character.",
+      "options": [
+        "strlength()",
+        "strlen()",
+        "strlent()",
+        "strchr()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function appends not more than n characters.",
+      "options": [
+        "strcat()",
+        "strcon()",
+        "strncat()",
+        "memcat()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C code? const char str1[10]=\"Helloworld\"; const char str2[10] = \"world\"; char *mat; mat = strstr(str1, str2); printf(\"The substring is:%s\\n\", mat);",
+      "options": [
+        "The substring is:world",
+        "The substring is:Hello",
+        "The substring is:Helloworld",
+        "error in the code"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C code? char ch[ ] = \"0xC\"; if(isxdigit(ch[ ])) printf(\"ch = %s is hexadecimal character \\n\",ch); else printf(\"ch = %s is not hexadecimal character \\n\",ch);",
+      "options": [
+        "ch = 0xC is hexadecimal character",
+        "ch = 0xC is not hexadecimal character",
+        "compile error",
+        "run-time error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will strcmp() function do?",
+      "options": [
+        "compares the first n characters of the object",
+        "compares the string",
+        "undefined function",
+        "copies the string"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "The C library function . . . . . . . . breaks string s1 into a series of tokens using the delimiter s2.",
+      "options": [
+        "char *strtok(char *s1,const char *s2);",
+        "char *strtok(char *s2,const char *s1);",
+        "char *strstr(char *s1,const char *s2);",
+        "char *strstr(char *s2,const char *s1);"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What is the function of void *memset(s, c, n)?",
+      "options": [
+        "places character s into first n characters of c, return c",
+        "places character c into first n characters of s, return s",
+        "places character s into first n characters of c, return s",
+        "places character c into first n character of s, return c"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Which among the given options compares atmost n characters of string ch to string s?",
+      "options": [
+        "int strncmp(ch, s, n)",
+        "int strcmp(ch, s)",
+        "int strncmp(s, ch, n)",
+        "int strcmp(s, ch)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "Is there any function declared as strstr()?",
+      "options": [
+        "true",
+        "false"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "fgetc, getc, getchar are all declared in . . . . . . . .",
+      "options": [
+        "stdio. h",
+        "ctype. h",
+        "assert. h",
+        "stdarg. h"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C code? void *memset(void *c, int c, size-t n) unsigned char ch = c; unsigned char *su; for (su = s; 0 *su = ch; &lt;br>",
+      "options": [
+        "store c throughout unsigned char s[n]",
+        "store c throughout signed char s[n]",
+        "find first occurrence of c in s[n]",
+        "find last occurrence of c in s[n]"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c program",
+      "language": "en"
+    }
+  ]
+}

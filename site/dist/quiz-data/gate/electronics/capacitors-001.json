@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Capacitors",
   "source": "indiabix.com",
-  "count": 98,
+  "count": 19,
   "questions": [
     {
-      "id": "gate-1mf7u2b",
-      "q": "Ceramic capacitors have higher voltage ratings than electrolytic capacitors.",
+      "id": "gate-cm1sok",
+      "q": "Capacitive reactance is inversely proportional with frequency.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-aveu40",
-      "q": "Between any two time constants, the charge on a capacitor changes about 63%.",
+      "id": "gate-1tgxygk",
+      "q": "To find the total capacitance of capacitors in parallel, sum the values of the individual capacitors.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ldzt3s",
-      "q": "The term &#147;integrator&#148; is derived from a mathematical function in trigonometry.",
+      "id": "gate-tvmzh8",
+      "q": "The total capacitance in the given circuit is larger than the value of C4.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gkjbfa",
-      "q": "In an RC series circuit VS = VC + VR.",
+      "id": "gate-vhcjp8",
+      "q": "A capacitor is charged when one of its plates has more electrons than the other plate.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-wkmboo",
-      "q": "When a capacitor is charging, current will flow through its dielectric.",
+      "id": "gate-k066qq",
+      "q": "A 10 F capacitor will have more capacitive reactance than a 20 F capacitor in a 60 Hz circuit.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-8ksfx0",
-      "q": "A capacitor can be fully charged in 4 time constants.",
+      "id": "gate-1e0hpts",
+      "q": "If a 5 V, 60 Hz voltage is applied to a 4.7 F capacitor, the circuit current will be ______ .",
       "options": [
-        "True",
-        "False"
+        "0.886 mA",
+        "8.86 mA",
+        "8.86 A",
+        "88.6 A"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-h4vo1s",
-      "q": "Capacitors are often used as filters.",
+      "id": "gate-5puadk",
+      "q": "___ capacitors have the highest values of capacitance.",
       "options": [
-        "True",
-        "False"
+        "Electrolytic",
+        "Ceramic",
+        "Plastic-film",
+        "Mica"
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-wqpgx2",
-      "q": "Capacitors in parallel have a higher total value than any individual capacitor.",
+      "id": "gate-1eqt98s",
+      "q": "The basic capacitor is made up of ___ that separates two conductive plates.",
       "options": [
-        "True",
-        "False"
+        "a conductor",
+        "a spacer",
+        "a dielectric",
+        "an electrode"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1lugis5",
-      "q": "A high-pass filter heavily attenuates the higher frequencies.",
+      "id": "gate-1kwzfak",
+      "q": "The total circuit reactance is ______ in the given circuit.",
       "options": [
-        "True",
-        "False"
+        "50",
+        "140",
+        "265",
+        "676"
       ],
       "correct": 0,
       "explain": "",
@@ -170,31 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-mng9xe",
-      "q": "The impedance of an RC series circuit is (R2 +C2)1/2.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kggg09",
-      "q": "The term ______ is derived from a mathematical function in calculus.",
+      "id": "gate-17sirqg",
+      "q": "A circuit whose output voltage is proportional to the rate of change of the input voltage is called a(n) ______ .",
       "options": [
         "differentiator",
         "integrator",
-        "filter",
-        "voltage-divider"
+        "curve averager",
+        "mixer"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-7o7l38",
-      "q": "A capacitor takes ___ time constants to charge to 95% of its capacity.",
+      "id": "gate-1rl0kso",
+      "q": "When a 4.7 F capacitor is connected to a 1 kHz source, what is its capacitive reactance?",
       "options": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "4.7 ohms",
+        "29.5 ohms",
+        "34 ohms",
+        "213 ohms"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-2tk1wo",
-      "q": "The ___ of a capacitor affects the time it takes to charge and discharge.",
+      "id": "gate-1es4zz0",
+      "q": "What is the total capacitance?",
       "options": [
-        "package style",
-        "lead arrangement",
-        "plate area",
-        "voltage rating"
+        "1 F",
+        "12 F",
+        "0.615 F",
+        "8 F"
       ],
       "correct": 0,
       "explain": "",
@@ -248,1102 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-on9109",
-      "q": "The ______ the area of the plates, the greater the number of electrons and ______ that can be stored.",
-      "options": [
-        "larger, charge",
-        "smaller, charge",
-        "larger, polarity",
-        "smaller, polarity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1910ejg",
-      "q": "A discharged capacitor has ______ charges on its plates.",
-      "options": [
-        "no",
-        "unequal",
-        "equal",
-        "negative"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12sylmg",
-      "q": "A ___ capacitor allows ac signals to pass while blocking dc signals.",
-      "options": [
-        "filter",
-        "bypass",
-        "decoupling",
-        "coupling"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e2urge",
-      "q": "The rate of charge or discharge of a capacitor is based on ___ function.",
-      "options": [
-        "an exponential",
-        "a linear",
-        "a parabolic",
-        "a trigonometric"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f9dxfq",
-      "q": "The given image is a _____ capacitor.",
-      "options": [
-        "0.33 pF",
-        "0.00033 F",
-        "33,000 pF",
-        "0.33 F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pb6jco",
-      "q": "The reactance of C2 is _____ in the given circuit.",
-      "options": [
-        "66",
-        "80",
-        "199",
-        "398"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a3i3kg",
-      "q": "In a 20 Vac series RC circuit, if 20 V is measured across the resistor and 40 V is measured across the capacitor, the applied voltage is:",
-      "options": [
-        "45 V",
-        "50 V",
-        "55 V",
-        "60 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cdq051",
-      "q": "Select the equation below that represents the relationship between charge, capacitance, and voltage for a capacitor.",
-      "options": [
-        "Q = CV",
-        "C = QV",
-        "V = IR"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w8d9eo",
-      "q": "When is a capacitor fully charged?",
-      "options": [
-        "when the voltage across its plates is of the voltage from ground to one of its plates",
-        "when the current through the capacitor is the same as when the capacitor is discharged",
-        "when the voltage across the plates is 0.707 of the input voltage",
-        "when the current through the capacitor is directly proportional to the area of the plates"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qabun4",
-      "q": "What is the reactive power in the given circuit?",
-      "options": [
-        "0 VAR",
-        "691 VAR",
-        "44.23 mVAR",
-        "1.45 kVAR"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1itqzx8",
-      "q": "What is the angle theta value for a 5.6 F capacitor and a 50-ohm resistor in series with a 1.1 kHz, 5 Vac source?",
-      "options": [
-        "27.3 degrees",
-        "62.7 degrees",
-        "&#8211;27.3 degrees",
-        "&#8211;62.7 degrees"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vy08xs",
-      "q": "A capacitor's rate of charge is considered:",
-      "options": [
-        "magnetic",
-        "a current block",
-        "linear",
-        "exponential"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ofgvyw",
-      "q": "A resistor and an output capacitor form a series circuit with a square wave applied. The circuit is:",
-      "options": [
-        "an integrator",
-        "a differentiator",
-        "a multiplier",
-        "a divider"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ceqirc",
-      "q": "If an open capacitor is checked with an ohmmeter, the needle will:",
-      "options": [
-        "stay on zero",
-        "stay on infinity",
-        "move from zero to infinity",
-        "move from infinity to zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vlbh72",
-      "q": "What is the circuit's total current?",
-      "options": [
-        "4.57 mA",
-        "9.327 mA",
-        "11.570 mA",
-        "13.830 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15joixc",
-      "q": "As a capacitor is being charged, current flowing into the capacitor will:",
-      "options": [
-        "increase",
-        "decrease",
-        "remain the same",
-        "cannot tell"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qrncrw",
-      "q": "A capacitor and an output resistor form a series circuit with a square wave applied. The circuit is:",
-      "options": [
-        "an integrator",
-        "a differentiator",
-        "a multiplier",
-        "a divider"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k968pm",
-      "q": "Capacitive reactance values connected in series offer",
-      "options": [
-        "an increase in total XC",
-        "a decrease in total XC",
-        "no change in total XC",
-        "total opposition to voltage in the circuit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y2uix8",
-      "q": "The quantity that represents an ideal capacitor dissipating 0 W of power is",
-      "options": [
-        "instantaneous power",
-        "true power",
-        "reactive power",
-        "resistive power"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2qm2up",
-      "q": "If a capacitor is placed across a 20 V source, what will be the amount of charge after 5 tc?",
-      "options": [
-        "5.0 V",
-        "12.8 V",
-        "13.5 V",
-        "20 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xsx7gk",
-      "q": "What is the impedance of an ac RC parallel circuit if the resistance is 12 ohms and the capacitive reactance equals 5 ohms?",
-      "options": [
-        "0.2 ohms",
-        "3.5 ohms",
-        "4.6 ohms",
-        "13 ohms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-151cnp6",
-      "q": "In the given circuit, the voltage across the capacitor 1 ms after the switch is closed is 11.61 V.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vky2tn",
-      "q": "The frequency response curve illustrates that as the frequency of the input increases, the voltage of the output will decrease.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9v0we8",
-      "q": "In a series capacitive circuit the smallest capacitor will have the largest voltage drop across it.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vxigq5",
-      "q": "Capacitance is directly proportional to the dielectric constant and the distance between its plates and inversely proportional to the area of the plates.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rp9dyo",
-      "q": "The impedance in an RC parallel circuit is",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7am98c",
-      "q": "A capacitor stores electric energy in the form of an electric field.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pxi3tg",
-      "q": "The frequency response curve for a low-pass filter illustrates that as the frequency of the input increases, the voltage of the output will decrease.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4ou2r4",
-      "q": "The phase angle of an RC series circuit is = invtan (XC/R) = invtan (VC/VR).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-es16c6",
-      "q": "The true power in an RC series circuit is PR = I2 x R.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-aeawhs",
-      "q": "This circuit is a low-pass filter.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iflrbk",
-      "q": "What is the phase shift between the voltage across the resistor and the voltage from the source?",
-      "options": [
-        "VR leads VS by 17&#176;",
-        "VR leads VS by 73&#176;",
-        "VR lags VS by 73&#176;",
-        "VR lags VS by 17&#176;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i2tlb8",
-      "q": "A capacitor stores energy within a dielectric between the conducting plates in the form of:",
-      "options": [
-        "a magnetic field",
-        "positive voltage",
-        "negative voltage",
-        "an electric field"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r3j39g",
-      "q": "As a capacitor is being charged, the voltage across its terminals will:",
-      "options": [
-        "increase",
-        "decrease",
-        "remain the same",
-        "oppose the source"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13py3ap",
-      "q": "With a 500 kHz signal source, what would be the value of a capacitor yielding a capacitive reactance of 1 k ?",
-      "options": [
-        "318 pF",
-        "2 nF",
-        "3.18 F",
-        "2 F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m6l3s0",
-      "q": "After a capacitor has charged for 1 tc, what percentage of current remains in the resistor?",
-      "options": [
-        "63.2",
-        "36.8",
-        "13.5",
-        "5.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16s3v0g",
-      "q": "The strength of an electric field at a given point is proportional to the potential difference on the plates and inversely proportional to the:",
-      "options": [
-        "plate separation",
-        "negative plate only",
-        "field strength",
-        "charge difference"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vhnhk4",
-      "q": "How is ac current related to ac voltage in a purely capacitive circuit?",
-      "options": [
-        "AC current is 0.707 of the ac voltage.",
-        "AC current lags ac voltage.",
-        "AC current is 0.637 of the ac voltage.",
-        "AC current leads ac voltage."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10p0ohs",
-      "q": "What is the voltage across the capacitor?",
-      "options": [
-        "7.07 V",
-        "1.11 V",
-        "111 mV",
-        "7.07 mV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10yhq58",
-      "q": "For a given charge difference, electrostatic field strength varies according to:",
-      "options": [
-        "plate differential",
-        "plate area",
-        "plate distance",
-        "dielectric quantity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-185fh4j",
-      "q": "A capacitor has 25 V across its plates and a stored charge of 1500 C. What is the capacitance value?",
-      "options": [
-        "60 pF",
-        "60 F",
-        "16.67 mF",
-        "37.5 mF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w18gk8",
-      "q": "The unit of capacitance is a farad; one farad stores one coulomb of charge or 6.24 x 1018 electrons.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b3hcyw",
-      "q": "The opposition to ac from a capacitor is called reluctance.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u36rfs",
-      "q": "The greater the distance between the plates of a capacitor, the smaller the capacitance value.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dwlk9s",
-      "q": "An ohmmeter can be used to test a capacitor.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ma2ex",
-      "q": "This circuit is an RC integrator.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gq0ils",
-      "q": "If a current of 40 mA flows through a series circuit consisting of a 0.4 F capacitor and a resistor in series with a 4 kHz, 40 Vac source, what is the total circuit impedance?",
-      "options": [
-        "10",
-        "100",
-        "1 k",
-        "1 M"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hjbrnk",
-      "q": "What is the capacitance of the circuit shown in the given circuit?",
-      "options": [
-        "0.066 F",
-        "0.9 F",
-        "65.97 pF",
-        "900 pF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-74he74",
-      "q": "In an ac circuit, an output capacitor and a resistor are connected in series with an ac signal. What filter action will be the result?",
-      "options": [
-        "bandpass",
-        "low-pass",
-        "high-pass",
-        "band-stop"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ru05a9",
-      "q": "What is the total opposition to current in a series RC circuit called?",
-      "options": [
-        "impedance",
-        "inductance",
-        "reactance",
-        "resistance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fkuie8",
-      "q": "Which of the following is the reference vector for parallel RC circuits?",
-      "options": [
-        "R",
-        "I",
-        "C",
-        "V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d6pddo",
-      "q": "What do variable capacitors use for dielectric?",
-      "options": [
-        "ceramic, electrolytic, mica, or paper",
-        "air, ceramic, mica, or plastic",
-        "ceramic, paper, plastic, or mica",
-        "mica, ceramic, plastic, or electrolytic"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-evyq08",
-      "q": "If a charged capacitor is disconnected from a circuit, it will:",
-      "options": [
-        "immediately discharge",
-        "recharge",
-        "remain charged",
-        "leak the charge"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fdrfcs",
-      "q": "What is the total current for a 5 MHz, 1 Vac circuit that consists of a 27 pF capacitor and a 1 k resistor connected in parallel?",
-      "options": [
-        "459 A",
-        "647 A",
-        "1.31 mA",
-        "1.85 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-139tkxp",
-      "q": "What is the value of a capacitor that can store two coulombs of charge when 500 volts is applied across its plates?",
-      "options": [
-        "4 F",
-        "250 F",
-        "4,000 F",
-        "250 F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g5byvw",
-      "q": "In a capacitive circuit, current flow is limited to",
-      "options": [
-        "charging periods",
-        "discharging periods",
-        "neither charging periods nor discharging periods",
-        "both charging periods and discharging periods"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-se7nkg",
-      "q": "What circuit has the following frequency response?",
+      "id": "gate-w3cq2c",
+      "q": "What is this circuit?",
       "options": [
         "bandpass filter",
         "high-pass filter",
         "low-pass filter",
-        "integrator"
+        "differentiator"
       ],
       "correct": 0,
       "explain": "",
@@ -1357,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1s0c0l5",
-      "q": "A capacitor is constructed of two parallel:",
+      "id": "gate-j07enc",
+      "q": "After which time constant can a capacitor be considered to be fully charged?",
       "options": [
-        "conductors",
-        "semiconductors",
-        "inductors",
-        "dielectrics"
+        "first",
+        "third",
+        "fifth",
+        "seventh"
       ],
       "correct": 0,
       "explain": "",
@@ -1377,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-ro2y0m",
-      "q": "Which of the following determines the capacitance of a capacitor?",
+      "id": "gate-ww89z0",
+      "q": "You could increase the time constant of an RC circuit by",
       "options": [
-        "Plate area, dielectric strength, and plate separation",
-        "Voltage rating, dielectric constant, and temperature coefficient",
-        "Temperature coefficient, plate area, and plate separation",
-        "Plate area, dielectric constant, and plate separation"
+        "adding a resistor in parallel with the circuit resistance",
+        "adding a capacitor in parallel with the circuit capacitance",
+        "increasing the amplitude of the input voltage",
+        "exchanging the position of the resistor and capacitor in the circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -1397,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-2x0p0g",
-      "q": "Most older types of paper capacitors have been replaced by which type of construction?",
+      "id": "gate-1n01g9o",
+      "q": "What will a 1 F capacitor store?",
       "options": [
-        "electrolytic",
-        "plastic film",
-        "oxide casing",
-        "waxed paper"
+        "one coulomb of charge",
+        "6.24 x 1012 electrons",
+        "one volt",
+        "one A of current"
       ],
       "correct": 0,
       "explain": "",
@@ -1417,13 +318,12 @@
       "tags": []
     },
     {
-      "id": "gate-140nlvw",
-      "q": "What is the circuit's impedance?",
+      "id": "gate-1bp3w91",
+      "q": "In an RC circuit, true power (PR) equals:",
       "options": [
-        "1192",
-        "843",
-        "723",
-        "511"
+        "VS &#215; I",
+        "I2R",
+        "VT &#215; RT"
       ],
       "correct": 0,
       "explain": "",
@@ -1437,13 +337,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tvhid4",
-      "q": "In an ac circuit, a capacitor and an output resistor are connected in series with an ac signal. What filter action will be the result?",
+      "id": "gate-gvlhw9",
+      "q": "What is the power factor if the apparent power of a circuit is 5 W, while the true power is 4 W?",
       "options": [
-        "bandpass",
-        "low-pass",
-        "high-pass",
-        "band-stop"
+        "0.0 W",
+        "0.8 W",
+        "1.0 W",
+        "1.25 W"
       ],
       "correct": 0,
       "explain": "",
@@ -1457,453 +357,13 @@
       "tags": []
     },
     {
-      "id": "gate-yqt4l2",
-      "q": "What is the impedance of this circuit?",
+      "id": "gate-ej9z3c",
+      "q": "If the reactive power of a circuit is 50 mW while the apparent power is 64 mW, then what is the true power of the circuit?",
       "options": [
-        "5928",
-        "2000",
-        "1902",
-        "1798"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9bc3pc",
-      "q": "What is the reactive power?",
-      "options": [
-        "6.8 mW",
-        "9.8 mW",
-        "12.8 mW",
-        "15.8 mW"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vnv9hk",
-      "q": "A practical capacitor",
-      "options": [
-        "is a short to dc",
-        "looks like a capacitor in parallel with a resistor",
-        "is an open to ac",
-        "stores energy in a magnetic field"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16mrv90",
-      "q": "If C1, a 4.7 F capacitor, and C2, a 3.3 F capacitor are in series with 18 Vdc applied, what is the voltage across C1?",
-      "options": [
-        "3.3 V",
-        "7.4 V",
-        "6.6 V",
-        "9.4 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n45gbk",
-      "q": "What is the impedance of a series RC circuit that consists of a 0.22 F capacitor and a 200-ohm resistor connected to a 3 kHz source?",
-      "options": [
-        "214 ohms",
-        "313 ohms",
-        "414 ohms",
-        "880 ohms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yrk2b4",
-      "q": "What is the reactance value for a capacitor installed in a dc circuit?",
-      "options": [
-        "zero",
-        "moderate",
-        "infinite",
-        "cannot tell"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s2b8b0",
-      "q": "In a purely capacitive circuit,",
-      "options": [
-        "current leads voltage by 90&#176;",
-        "voltage leads current by 90&#176;",
-        "current lags voltage by 90&#176;",
-        "current and voltage have a phase relationship of 0&#176;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-75na20",
-      "q": "How long would it take the capacitor in the given circuit to completely discharge if the switch was in position 2?",
-      "options": [
-        "22 ms",
-        "69 ms",
-        "345 ms",
-        "420 ms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-51ysjo",
-      "q": "How long would it take the capacitor in the given circuit to completely charge if the switch was in position 1?",
-      "options": [
-        "22 ms",
-        "69 ms",
-        "345 ms",
-        "440 ms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mmj5ga",
-      "q": "An 8 V power source is charging a capacitor. How many volts will be across the capacitor at the second time constant?",
-      "options": [
-        "1 volt",
-        "3 volts",
-        "5 volts",
-        "7 volts"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w5648s",
-      "q": "The material used between the plates of a capacitor is called its:",
-      "options": [
-        "insulation material",
-        "dielectric material",
-        "separation material",
-        "plate-divider material"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16q059w",
-      "q": "When a circuit consists of a capacitor and a resistor in series with a voltage source, and the voltage across the resistor is zero, then the capacitor is:",
-      "options": [
-        "charging",
-        "discharging",
-        "fully charged",
-        "fully discharged"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pkdt2o",
-      "q": "Which material has the highest dielectric strength?",
-      "options": [
-        "Air",
-        "Paper",
-        "Mica",
-        "Oil"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rb54vu",
-      "q": "What is the capacitive reactance if I = 1 amp, V = 2 volts, C = 5 F, and frequency = 10 Hz?",
-      "options": [
-        "0.2",
-        "0.5",
-        "0.02",
-        "0.003"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sdutde",
-      "q": "What is wrong with a leaky capacitor?",
-      "options": [
-        "It is open.",
-        "It is shorted.",
-        "The dielectric resistance has increased.",
-        "The dielectric resistance has decreased."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w8s0fs",
-      "q": "What is the value of a capacitor labeled 102?",
-      "options": [
-        "10,000 pF",
-        "1000 pF",
-        "1000 F",
-        "10,000 F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o43qbc",
-      "q": "If the dielectric constant of a capacitor is decreased, then its capacitance will:",
-      "options": [
-        "increase",
-        "decrease",
-        "remain the same",
-        "be destroyed"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uhrbbs",
-      "q": "What is the dielectric constant for ceramic?",
-      "options": [
-        "between 6 and 8000",
-        "5.0",
-        "between 5 and 1000",
-        "3000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ekj6d0",
-      "q": "What is the voltage across a capacitor after being charged from a 100 V source for a period of one time constant?",
-      "options": [
-        "37.8 V",
-        "38 V",
-        "63 V",
-        "101 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rl1osc",
-      "q": "What is the dc charging/discharging time constant for the circuit?",
-      "options": [
-        "294 ps",
-        "13.5 ms",
-        "21.25 ms",
-        "2.16 Gs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-47a3x",
-      "q": "Power stored from the source and then returned to the source is called:",
-      "options": [
-        "apparent power",
-        "impedance power",
-        "reactive power",
-        "true power"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12epuss",
-      "q": "Capacitor value markings are usually:",
-      "options": [
-        "alphanumeric",
-        "color dabs",
-        "standard",
-        "white print"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Capacitors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bjbt9s",
-      "q": "A source voltage across a capacitor will:",
-      "options": [
-        "lead the current by 90 degrees",
-        "lead the current by 180 degrees",
-        "lag the current by 90 degrees",
-        "lag the current by 180 degrees"
+        "14 mW",
+        "36 mW",
+        "40 mW",
+        "114 mW"
       ],
       "correct": 0,
       "explain": "",

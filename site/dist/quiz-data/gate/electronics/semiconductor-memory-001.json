@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Semiconductor Memory",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-325o8g",
-      "q": "When a binary word is stored in a memory location of a ROM, the process is called burning in.",
+      "id": "gate-1n8mdl8",
+      "q": "An SRAM storage cell is less complex than a DRAM storage cell.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-u6p5ao",
-      "q": "Storage density is a term used to compare the memory storage ability of one device to that of another.",
+      "id": "gate-122hi18",
+      "q": "The key advantage of the EPROM is its ability to erase only a single byte of stored data.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1x1qqyr",
-      "q": "A memory map is an address-listing diagram that shows the boundaries of the address space.",
+      "id": "gate-1oh7wr8",
+      "q": "Memory configuration refers to the organization of storage bits within a memory.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-7bdyq8",
-      "q": "The number that is a unique representation of the location of data is its address.",
+      "id": "gate-wgh5xk",
+      "q": "ROM stands for read-only memory.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-lomol4",
-      "q": "PROMs are volatile.",
+      "id": "gate-13zoezw",
+      "q": "To avoid data loss, SRAM must be refreshed every few milliseconds.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fen9o0",
-      "q": "In general, _________ are used when a small amount of read/write is required.",
+      "id": "gate-jhkhd0",
+      "q": "The binary data stored in an EEPROM is___________.",
       "options": [
-        "EEPROMs",
-        "PROMs",
-        "SRAMs",
-        "DRAMs"
+        "volatile",
+        "permanent",
+        "refreshed",
+        "erasable"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-fdmk",
-      "q": "The process of entering data into the ROM is called ___________.",
+      "id": "gate-wb9x84",
+      "q": "The data stored in a Mask ROM (MROM) is ___________.",
       "options": [
-        "burning in",
-        "configuration",
-        "internal decoding",
-        "addressing"
+        "permanent",
+        "volatile",
+        "erasable",
+        "temporary"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-yinrks",
-      "q": "To reduce the number of pins on the IC package, manufacturers often use ___________.",
+      "id": "gate-sjh061",
+      "q": "A technique of addressing storage cells on a dynamic RAM that sequentially uses the same inputs for the row and column addresses of the cell is called________.",
       "options": [
-        "MOSFET architecture",
+        "flash conversion",
+        "dynamic refresh",
         "address multiplexing",
-        "address decoding",
-        "address demultiplexing"
+        "address strobe"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-11ae9ik",
-      "q": "The periodic recharging of DRAM memory cells is called ___________.",
+      "id": "gate-1mn368",
+      "q": "Refreshing DRAM typically must occur every ________.",
       "options": [
-        "multiplexing",
-        "bootstrapping",
-        "refreshing",
-        "flashing"
+        "2 s",
+        "2 ms",
+        "8 s",
+        "8 ms"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,133 @@
       "tags": []
     },
     {
-      "id": "gate-okhzz8",
-      "q": "________ is an example of read/write memory.",
+      "id": "gate-1x7j14k",
+      "q": "The time interval between the memory receiving a new address input and the data being available is called _________.",
       "options": [
-        "PROM",
+        "access time",
+        "bus speed",
+        "read/write speed",
+        "write/data speed"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s39jaj",
+      "q": "Select the best description of read-only memory (ROM).",
+      "options": [
+        "nonvolatile, used to store information that changes during system operation",
+        "nonvolatile, used to store information that does not change during system operation",
+        "volatile, used to store information that changes during system operation",
+        "volatile, used to store information that does not change during system operation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16aashc",
+      "q": "Advantage(s) of an EEPROM over an EPROM is (are):",
+      "options": [
+        "the EPROM can be erased with ultraviolet light in much less time than an EEPROM",
+        "the EEPROM can be erased and reprogrammed without removal from the circuit",
+        "the EEPROM has the ability to erase and reprogram individual words",
+        "the EEPROM can erase and reprogram individual words without removal from the circuit"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mgw1zg",
+      "q": "Which of the following RAM timing parameters determine(s) its operating speed?",
+      "options": [
+        "tacc",
+        "taa and tacs",
+        "t1 and t3",
+        "trc and twc"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oevv5s",
+      "q": "Memory that loses its contents when power is lost is:",
+      "options": [
+        "nonvolatile",
+        "volatile",
+        "random",
+        "static"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-108wlys",
+      "q": "Select the best description of the fusible-link PROM.",
+      "options": [
+        "user programmable, one-time programmable",
+        "manufacturer programmable, one-time programmable",
+        "user programmable, reprogrammable",
+        "manufacturer programmable, reprogrammable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Semiconductor Memory",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c5lva8",
+      "q": "A nonvolatile type of memory that can be programmed and erased in sectors, rather than one byte at a time is:",
+      "options": [
+        "flash memory",
+        "EPROM",
         "EEPROM",
-        "RAM",
-        "MROM"
+        "MPROM"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-fioxg0",
-      "q": "A computerized self-diagnostic for a ROM test uses:",
+      "id": "gate-1svjlgg",
+      "q": "Which of the following best describes static memory devices?",
       "options": [
-        "the check-sum method",
-        "a ROM listing",
-        "ROM comparisons",
-        "a checkerboard test"
+        "memory devices that are magnetic in nature and do not require constant refreshing",
+        "semiconductor memory devices in which stored data is retained as long as power is applied",
+        "memory devices that are magnetic in nature and require constant refreshing",
+        "semiconductor memory devices in which stored data will not be retained with the power applied unless constantly refreshed"
       ],
       "correct": 0,
       "explain": "",
@@ -218,73 +338,13 @@
       "tags": []
     },
     {
-      "id": "gate-ca3txe",
-      "q": "How many storage locations are available when a memory device has twelve address lines?",
+      "id": "gate-zy9o99",
+      "q": "What is the principal advantage of using address multiplexing with DRAM memory?",
       "options": [
-        "144",
-        "512",
-        "2048",
-        "4096"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Semiconductor Memory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18rkszs",
-      "q": "Which of the following memories uses a MOSFET and a capacitor as its memory cell?",
-      "options": [
-        "SRAM",
-        "DRAM",
-        "ROM",
-        "DROM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Semiconductor Memory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10vpj4k",
-      "q": "Which of the following best describes nonvolatile memory?",
-      "options": [
-        "memory that retains stored information when electrical power is removed",
-        "memory that loses stored information when electrical power is removed",
-        "magnetic memory",
-        "nonmagnetic memory"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Semiconductor Memory",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ssj0dk",
-      "q": "The access time (tacc) of a memory IC is governed by the IC's:",
-      "options": [
-        "internal address buffer",
-        "internal address decoder",
-        "volatility",
-        "internal address decoder and volatility"
+        "reduced memory access time",
+        "reduced requirement for constant refreshing of the memory contents",
+        "reduced pin count and decrease in package size",
+        "no requirement for a chip-select input line, thereby reducing the pin count"
       ],
       "correct": 0,
       "explain": "",

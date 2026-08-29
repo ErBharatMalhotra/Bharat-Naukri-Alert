@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Windows 2000 Server",
   "source": "indiabix.com",
-  "count": 47,
+  "count": 11,
   "questions": [
     {
-      "id": "gate-1ljap9z",
-      "q": "How can you assign an application to one processor exclusively?",
+      "id": "gate-1d1dmf5",
+      "q": "The network uses TCP/IP as the only network protocol. You configure the remote access server on the network. Some users report that when they connect to the server they receive the following message |\" IPX SPX compatible computer deported error 733\" The EPP control network protocol for the network is not available. If the users allow the connection to continue they are able to connect to the services that use TCP/IP. You want to prevent this message from being displayed. What should you do?",
       "options": [
-        "Right click on application executable, select properties and select assign processor",
-        "Right click on application process in Task Manager, select Set Affinity, and select the appropriate processor",
-        "Open Task Manager, chose options from task bar, select processor and assign processes to appropriate processor",
-        "Open Task Manager, chose Performance, chose view all processors, assign processes to appropriate processor"
+        "Configure a client computer to use only TCP/IP for the connections to the remote access server",
+        "Configure the client computer to use a defined IPX network address for the connection to the remote access servers",
+        "Configure the remote access server to allow IPX based remote access demand dial connections",
+        "Configure the remote access server to disable multi-link connection"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mgnub0",
-      "q": "You install your boot volume on volume C on your Windows 2000 Server computer. You mirror volume C on dynamic Disk 1. Two years later, during routine server maintenance, you open Disk Management and find that the status of volume C is Failed Redundancy. The status of Disk 1 is Missing. You attempt to reactivate Disk 1, but the status of volume C does not return to Healthy. What should you do next?",
+      "id": "gate-1me99mo",
+      "q": "You are the administrator of your company's network. You are configuring the security policy for a group of users in the finance organizational unit (OU). You need to configure a group policy so that future changes to group policy will be applied within 15 minutes to any computers that are log on to the network. What should you do?",
       "options": [
-        "Replace Disk 1 and restart the computer. The mirror will automatically regenerate",
-        "Remove the mirror on Disk 1, replace the disk, and then add back the mirror to the new Disk 1",
-        "Replace Disk 1 and copy all data from volume C to a new NTFS primary partition on the new Disk 1. Restart the computer",
-        "Rescan the disks, remove the mirror, and delete the data on Disk 1. Then re-create the mirror"
+        "Enable the background refresh settings to use the default group policy refresh date",
+        "Enable the asynchronous group policy application settings",
+        "Enable and configure the group policy refresh interval for domain controller",
+        "Enable and configure the group policy refresh interval for computers"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nnrp0w",
-      "q": "You want to install Windows 2000 server on 15 new computers. You want to install, configure and test all 2000 servers before shipping them to your branch offices. You want the users at the branch offices to enter the serial numbers and computer names once they receive the computers. What should you do?",
+      "id": "gate-1rikb20",
+      "q": "Your network contains 10 domain controllers, 10 member servers, and approximately 1,000 client computers. All the servers run Windows 2000 Server, and all the client computers run Windows 2000 Professional. Two of the domain controllers act as DNS servers. Users of client computers use file sharing to grant access to files stored locally. The network has 10 subnets and uses TCP/IP as the only network protocol. You want to configure the network so that all computers can resolve the addresses of all other computers by using DNS. Client computers must be able to register and resolve addresses if a server fails. How should you configure the DNS servers?",
       "options": [
-        "Install Windows 2000 server on the computers. Use Sysprep.exe to create the Unattend.txt file, place file on the root of the drive",
-        "Install Windows 2000 server on the computers. Use Setup Manager to create a sysprep.inf file for use with sysprep.exe Place the sysprep.inf on the computers and run sysprep -noidgen",
-        "Create an Unattend.txt file by using Setup Manager. Create a UDF file that identifies the names of the new computers",
-        "Create a UDF file by using setup manager. Create an Unattend.txt file that identifies the names of the new computers"
+        "Configure one server with a standard primary zone for the domain, and configure at least one server with standard secondary zone",
+        "Configure one server with a standard primary zone for the domain, and configure at least one server with an Active Directory integrated primary zone",
+        "Configure one server with an Active directory integrated primary zone for the domain, and configure at least one server with a standard secondary zone",
+        "Configure at least two servers with Active Directory integrated primary zones for the domain"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jadgk4",
-      "q": "You are the administrator of a Windows 2000 server computer. The server has a single hard disk with two partitions. An application that runs on your server creates a very large log file in the SystemrootYTemp folder. There is not enough free space on the system partition to accommodate the log file. The application does not provide a way to change the path to the log file. You want to run the application on your server. What should you do?",
+      "id": "gate-n1hufk",
+      "q": "You are the network administrator for your company. The company has numerous branch offices, and each office uses Internet Connecting Sharing to connect to the Internet. A new employee named David Johnson is configuring a Windows 2000 Server computer as a file server. When David uses Windows update for the first time and select Product Update, he receives an error message stating that access is denied. David needs to be able to update the file by using his account. What should you do?",
       "options": [
-        "On the second partition, create a shared folder named Temp",
-        "In the systemroot folder, create a shortcut named Temp that points to the second partition on the disk",
-        "Add a second hard disk. Create and format a partition from the free space on the second hard disk. Create a Temp folder on the new partition. Mount the system partition as the Temp folder on the new partition",
-        "Add a second hard disk. Delete the contents of the SystemrootYTemp folder. Create and format a partition from the free space on the second hard disk. Mount the partition as the SystemrootYTemp folder"
+        "Configure the settings for Internet Connecting Sharing to allow POP3 access",
+        "Configure the settings for Internet Connecting Sharing to allow SMTP access",
+        "Give David's user account administrator privileges on the Windows 2000 Server computer",
+        "Instruct David to log on as a domain administrator on the Windows 2000 Server computer"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f27yjo",
-      "q": "You are the administrator of a network that consists of a single Windows NT 4.0 domain. The network contains five Windows NT Server domain controllers and 1,000 Windows NT Workstation client computers. You want to install Windows 2000 Server on a new computer. You want the new computer to act as a domain controller in the existing domain. What should you do?",
+      "id": "gate-zc3tq1",
+      "q": "You install Terminal Services on a Windows 2000 domain controller. You install Terminal Services Client on users' client computers. Users report that when they try to connect to the Terminal server, they receive the following error message: \"The local policy of this system does not allow you to logon interactively.\" When you attempt to log on to the Terminal server as an administrator from a user's computer, you log on successfully. You want users to be able to log on to the Terminal server. What should you do?",
       "options": [
-        "On the new computer, install Windows NT Server 4.0 and designate the computer as a BDC in the existing domain. Promote the computer to the PDC of the domain. Upgrade the computer to Windows 2000 Server",
-        "On the new computer, install Windows NT Server 4.0 and designate the computer as a PDC in a new domain that has the same NetBIOS name as the existing Windows NT domain. Upgrade the computer to Windows 2000 Server. Use Active Directory Sites and Services to force synchronization of the domain controllers",
-        "Shut down the PDC of the existing Windows NT domain from the network. On the new computer, install Windows 2000 Server, and then run the Active Directory Installation wizard to install Active Directory, specifying the same NetBIOS name for the Windows2000 domain as the existing Windows NT domain",
-        "Shut down the PDC of the existing Windows NT domain from the network. On the new computer, install Windows 2000 Server, and then run the Active Directory Installation wizard to install Active Directory as a replica in the existing Windows NT domain. Promote the new computer to the PDC of the domain. Restart the Windows NT PDC on the network and demote it to a BDC"
+        "Grant the users the right to log on as a service",
+        "Grant the users the right to log on locally",
+        "Grant the users the right to log on over the network",
+        "Copy the users' prpfiles to the Terminal server"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1187wu4",
-      "q": "You install a Windows 2000 Server computer on your network. You place several shared folders on a 12-GB primary partition formatted by FAT32. During nine months of continuous operation, the number of users who access the server and their access frequency remains constant. The average size of the files on the server remains approximately constant. After the server runs continuous for nine months, users report that the server does not retrieve files from the shared folders as fast as when you first installed the server. What should you do to resolve the problem?",
+      "id": "gate-1jq6sd0",
+      "q": "You are the administrator of a Windows 2000 domain that has three domain controllers. Each day, you use Windows Backup to perform full backups of each domain controller. You run a script to make changes to account information in Active Directory. As a result of errors in the script, the incorrect user accounts are modified. Active Directory replication then replicates the changes to the other two domain controllers. You want to revert Active Directory to the version that was backed up the previous day. What should you do?",
       "options": [
-        "Convert the disk that contains the shared folders to a dynamic disk",
-        "Convert the partition that contains the shared folders to NTFS",
-        "Defragment the disk that contains the shared folders",
-        "Move the paging file to the partition that contains the shared folders"
+        "On a single domain controller, use Windows Backup to restore the System State data. Shut down and restart the computer",
+        "Shut down and restart a single domain controller in directory services restore mode. Use Windows Backup to restore the System State data. Run the Ntdsutil utility. Restart the computer",
+        "Shut down, and restart a single domain controller by using the Recovery Console. Use Windows Backup to restore the System State data. Exit the Recovery Console. Restart the computer",
+        "Shut down and restart each domain controller by using the Recovery Console. Use Windows Backup to restore the Sysvol folder. Exit the Recovery Console. Restart the computer"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-isd6ni",
-      "q": "You install a new multiple-process database application named Application on your Windows 2000 Server computer. Two days later, users begin to report that the new application has suddenly stopped responding to queries. You verify that the server is operation and decide that you need to restart the application. What should you do before you restart the application?",
+      "id": "gate-uipoyo",
+      "q": "Your network uses TCP/IP as the only network protocol. Devices on the network are configured to use IP address from the private 10.0.0.0 range. All the client computers on the network runs Windows 2000 Professional. The network includes Windows 2000 Server computers and UNIX servers. User's print jobs are sent to shared printers on a Windows 2000 Server computer named PrintServ that directs the print jobs to print devices attached directly to the network. You have a high-capacity print device that is attached to one of the UNIX servers. The UNIX computer uses the LPR printing protocol, and it's IP address is 10.1.1.99. The name of the printer queue is GIANT. You want users to be able to connect to this printer from their computers. What should you do?",
       "options": [
-        "End the task named Application",
-        "End the Application.exe process",
-        "End the Application.exe process tree",
-        "End both the Explorer.exe process and the Application.exe process"
+        "Install Microsoft Print Services for Unix on PrintServ. Create a network printer on users' computers, and specify that the printer URL is LPR://10.1.1.99/ GIANT",
+        "Install Microsoft Print Services for Unix on users* Computers. Create a network printer, and specify that the printer name is \\\\10.1.1.99\\GIANT",
+        "Create a network printer on PrintServ, and specify that the printer name is \\\\16.1.1.99\\GIANT. Share this printer and connect to it from users computers",
+        "Create a local printer on PrintServ. Create a new TCP/IP port for an LPR server at address 10.1.1.99 with a queue name of GIANT. Share this printer and connect to it from users' computers"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-170cy48",
-      "q": "You are the administrator of Windows 2000 Server network. On each server you format a separate system partition and a separate boot partition as NTFS. Several months later you shut down one of the computers for maintenance. When you try to restart the computer you receive the following error message \"NTLDR is missing, press any key to restart\". You want to install a new NTLDR file on the computer but you do not want to loose any settings you made since the installation. What should you do?",
+      "id": "gate-1pyn4kc",
+      "q": "You are the administrator of a Windows 2000 Server computer. The server hosts several web sites that have logging enabled. You use a third-party reporting utility to analyze the log files produced by the web sites. You notice that all data from 7:00pm to midnight each night is included in the following day's logfile. You want all data to be included in the correct day's log file. What should you do?",
       "options": [
-        "Start the computer by using Windows 2000 Server computer CD-ROM and choose tools to repair the installation. Select recovery console and copy the NTLDR file on the CD-ROM to the root of the system volume",
-        "Start the computer by using the Windows 2000 server CD- ROM, choose to reinstall. When the installation is complete copy the NTLDR to the root of the boot volume",
-        "Start the computer by using the Windows 2000 bootable floppy disk. From a command prompt run the sfc/scanboot command",
-        "Start the computer by using Windows 2000 bootable floppy disk. Run the file signature verification utility"
+        "Ensure that the log type is set to W3C",
+        "Change the log rollover property in the website's logging properties",
+        "Change the time zone setting in the time properties on the web server",
+        "Configure the time service on the web server to use local system account"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-y6v5zk",
-      "q": "Five Lakes Publishing has a Windows 2000 network serving 200 users. A server named User_srv is used to hold users' files. User_srv is configured with a single, large NTFS volume. Every user has a home folder on User_srv. Users can also use a shared folder named IN_PROGRESS to store files for books that are being prepared. The network administrator at Five Lakes Publishing configured disk quotas for the NTFS volume on User_srv. All users have a default limit of 100 MB, and the option to deny space to users who exceed their limit has been enabled. When a user named Amy Jones attempts to save a chapter of a new book to her home folder on the server, she receives the following error message: \"The disk is full or too many files are open.\" What should Amy do to allow this document to be saved?",
+      "id": "gate-1uy6oed",
+      "q": "You are the administrator responsible for security and user desktop settings on your network. You need to configure a custom registry entry for all users. You want to add the custom registry entry into a Group Policy object (GPO) with the least amount of administrative effort What should you do?",
       "options": [
-        "Compress the files in her home folder to save disk space",
-        "Change the security setting of some of the files in her home folder to grant Full Control permission to a user who has not reached the quota level",
-        "Move some of the files from her home folder to the IN_PROGRESS shared folder",
-        "Remove files from her home folder until the total uncompressed file size is less than 100 MB"
+        "Configure an ADM template and add the template to the GPO",
+        "Configure,an INF policy and add the policy to the GPO",
+        "Configure a Microsoft Windows Installer package and add the package to the GPO",
+        "Configure RIS to include the registry entry"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-qfg32g",
-      "q": "Your Windows 2000 Server computer contains a stripe set with parity on a four-disk array. You convert the stripe set with parity to a dynamic RAID-5 volume. Six months later, users report that disk access on the server is slower than it had been on the previous day. You use Disk Management and discover that the status of the third disk in the array is missing. You want to recover the failed RAID-5 volume. What should you do first?",
+      "id": "gate-7b2uns",
+      "q": "You want to provide complete redundancy for all data stored on your hardware RAID 5 array. You install second h/w Raid 5. You want to create a mirror set of the original array. However when you right click the free space on new array you see no option to create a new volume or mirrrored volume. What should you do?",
       "options": [
-        "Replace the third disk and restart the server. Use Disk Management to repair the volume",
-        "Ensure that the third disk is attached to the server and has power. Use Disk Management to reactivate the disk",
-        "Ensure that the third disk is attached to the server and has power. Use Disk Management to repair the volume",
-        "Install a new disk and create a single extended partition on the new disk. Restart the computer and allow Windows 2000 to automatically repair the volume on the extended partition"
+        "Convert both to dynamic disks",
+        "Create an empty extended partition on new disk",
+        "Create a single unformatted primary partition on new array",
+        "Format new disk array as a single NTFS primary partition"
       ],
       "correct": 0,
       "explain": "",
@@ -208,733 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pzazt1",
-      "q": "You are the administrator of a Windows 2000 Server computer that has FIVE hard disks. Four 100 GB hard disks on the server are configured as a single stripe volume. You want to reconfigure the fourth disk so that the volume is fault tolerant and has as much space possible available for storing data. You want to use only existing hardware. What should you do?",
+      "id": "gate-1sbw7zo",
+      "q": "Your network is configured as shown in the exhibit. \"Engineering! and Salesl have DHCP installed up them.\" All the servers are Windows 2000 Server computers that use TCP/IP as the only network protocol. The sales department uses one subnet and has servers named Salesl and Sales2. The engineering department uses another subnet and has servers named Engineeringl and Engineering2. Salesl and Engineeringl are configured to act as DHCP servers. The router that joins the two subnets is not RFC 1542 compliant and does not support DHCP/BOOTP relay. You want to allow Salesl and Engineeringl to support client computers on each other's subnets. What should you do?",
       "options": [
-        "Convert the disk to dynamic disk shut doWn and restart the server",
-        "Backup the data on the stripe volume and delete the stripe volume. Create a raidS volume on the four disks, restore the data to the new raid5 volume",
-        "Backup the data on the stripe volume and delete the stripe volume. Create a mirror volume, shut down and restart the server. Restore the data to new mirror volumes",
-        "Backup the data on the stripe volume and delete the stripe"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iyvra8",
-      "q": "You are the administrator of a Windows 2000 Server network that runs in mixed mode. You install a new Windows 2000 Server computer. You create and share a new HP LaserJet 4L printer. Your Windows 2000 Professional client computers can print to the new printer successfully. However, when users try to connect to the printer from Windows NT Workstation 4.0 client computers, they receive the dialog box shown in the exhibit. \"The server on which the printer resides does not have a suitable HP LaserJet printer driver installed\". You want the printer driver to be installed automatically on the Windows NT Workstation computers. What should you do?",
-      "options": [
-        "Copy the Windows NT 4.0 Printer Drivers to the Net logon shared folders on all Windows NT Server 4.0 computers still configured as BDCs",
-        "Copy the Windows NT 4.0 printer drivers to the Net logon shared folder on the PDC emulator",
-        "Change the sharing options on the printer to install additional drivers for Windows NT 4.0 or Windows 2000",
-        "Copy the Windows NT 4.0 printer drivers to the Winnt\\System32\\ pri liter s\\dri vers folder on the Windows 2000 print server"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ksois0",
-      "q": "Your company's network includes Windows 3.1 client computers, Windows 95 client computers, and Windows 2000 Professional client computers. The company's manufacturing facilities run 24 hours per day. The company has developed its own 32-bit application that collects information from the manufacturing process so that workers on one shift can find out that was manufactured during the previous shift. The company wants to make the application available on all of the client computers by using Terminal Service on a Windows 2000 Server computer. This server will not run as a domain controller. You install Terminal Services. The information technology (IT) department needs to be able to remote control users' sessions to support and troubleshoot the application. What should you do to enable the IT department to control users' sessions?",
-      "options": [
-        "Configure the Terminal server to run in Remote Administration mode",
-        "Grant the IT department Full Control permission to the Remote Desktop Protocol (RDP) on the Terminal server",
-        "Add the members of the IT department to the Power Users group on the Terminal server",
-        "Use third-party software to enable remote control of users' sessions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18u9io8",
-      "q": "You are the administrator of contoso.local domain. You organize the domain into organizational units as shown in the EXHIBIT. You configure the local security options and other settings for the default domain policy object You delegate administration of Michigan and Florida OU. You want to prevent those administrators from creating any other group policy objects with settings that conflict with those you configured.What should you do?",
-      "options": [
-        "From the group policy options from the contoso.local domains set the option not override",
-        "From the group policy options from the Michigan and Florida OU, set the option not override",
-        "Block the group policy inheritance for the contoso.local domain",
-        "Block the group policy inheritance for Michigan and Florida OU"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ajakao",
-      "q": "You are the administrator of a Windows 2000 Server computer. The server contains one network adapter and is a file and print server for critical company resources. You install a second network adpater in the server and connect it to the same network subnet as the first adapter. You want to ensure that the first adapter is used for all network traffic and the second adapter is used only if the first adapter fails or is disconnected from the network. You also want to ensure that the server always has network connectivity even if one network adapter fails. What should you do?",
-      "options": [
-        "Set the second adapters status to disable",
-        "Configure the first adapter to use a TCP/IP metric of 100",
-        "Configure the second adapter to use a TCP/IP metric of 25",
-        "Configure the binding order on the second adapter to bind TCP/IP last"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-veo651",
-      "q": "Computer accounts and user accounts in your domain have been seperated into OUs for administrative purpose. You want to require strong passwords for the local user accounts only. What should you do?",
-      "options": [
-        "Set a Group Policy on each local computer to enable the passwords must meet complexity requirements policy",
-        "Set a Group Policy on the domain to enable the passwords must meet complexity requirements policy",
-        "Set a Group Policy on all OUs containing computer accounts to enable the passwords must meet complexity requirements policy",
-        "Set a Group Policy on all OUs containing user accounts to enable the passwords must meet complexity requirements policy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k7srt8",
-      "q": "You are the network administrator for your company. Mike Nash is a member of the Administration group, and Nate Sun is a member of the Intern group. Both groups are in the same domain. On the intranet server, the Administration group is placed in the Security group, and the Intern group is placed in the Nonsecurity group. The Security group is then granted Full Control permission for the Sales virtual directory. Nate needs to update new sales information that is located on the Sales virtual directory. What should you do so that Nate can perform this task?",
-      "options": [
-        "Enable Anonymous access for the intranet server",
-        "Enable Anonymous access for the Sales virtual directory",
-        "Remove Nate fmm the Intern group",
-        "Make Nate a member of the Security group"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dwexgo",
-      "q": "You are the administrator of a Windows 2000 Server computer that has one hard disk. This computer runs a custom application that writes a large number of small temporary files in a single directory to support request from client computers. To improve performance of the application, you add three new 100-GB SCSI disks to the server to hold these temporary files. You want to ensure that the application can use all 300 GB of space with a single drive letter. You also want to ensure the fastest possible performance when writing the temporary files. How should you configure the three disks?",
-      "options": [
-        "Convert all three disks to dynamic disks. Create a striped volume",
-        "Convert all three disks to dynamic disks. Create a RAID-5 volume",
-        "Create a single volume on each of the three disks. Format each volume as NTFS. Mount the roots of Disk 2 and Disk 3 in the root folder of Disk 1",
-        "Create a single volume on Disk 1. Format the volume as NTFS. Extend the volume to create a spanned volume that includes the space on all three disks"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ni4mmg",
-      "q": "You are the administrator of Windows 2000 Server computer. Your computer has a span volume that consists of areas on three physical hard disks on the server. The three disks support hot swapping. You regularly backup the span volume by using windows backup. One of the disk fail, you replace the disk with a new un-partitioned disk. You want to recover the span volume and disk data as soon as possible. What should you do?",
-      "options": [
-        "Extend the span volume to include the new disk, rescan the disk",
-        "Extend the span volume to include the new disk, shut down and restart the server, use windows backup to restore the data",
-        "Re scan the disk, format the span volume. Use windows back up to restore the data",
-        "Re scan the disk, extend the span volume to include the new disk. Shut down and restart the server, use windows backup to restore the new data"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1chso7o",
-      "q": "You have configured a Group Policy Object (GPO) for the marketing oranization unit (OU) to prevent users from accessing My Network Places and from running System in Control Panel. You want the Managers Domain Local Group to be able to access My Network Places, but you still want to prevent them from running System in Control Panel. What should you do?",
-      "options": [
-        "Add the Managers group to the access control list of the GPO. Disable the permission of the managers group to read and apply the Group Policy",
-        "Add the Managers group to the access control list of the GPO. Deny the permission of the managers group to read and apply the Group Policy",
-        "Create a second GPO in the OU. Add the Managers group to the access control list. Allow the managers group to apply the Group Policy. Deny the Authenticated Users group permission to read and apply the Group Policy. Configure the new GPO to deny the ability to run system Control Policy Panel. Give the original GPO a higher priority than the new GPO",
-        "Create a second GPO in the OU. Add the Managers group to the access control list. Allow the managers group to apply the Group Policy. Disable the Authenticated Users group permission to read and apply the Group Policy. Configure the new GPO to allow access to My Network Places. Give the original GPO a higher priority than the new GPO"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1thj8s0",
-      "q": "How can you recreate the PTR record in your Windows 2000 DNS server from you Windows 2000 client?",
-      "options": [
-        "Run ipconfig /registerdns from the client",
-        "Run ipconfig all /registerdns from the DNS server",
-        "Start the DNS Dynamic service on your client computer",
-        "Create a host file with the #DYNAMIC command on the client computer"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xtb3hc",
-      "q": "You want to provide Internet access for the clients on your network. You decide to use Network Address Translation (NAT). You have a Windows 2000 computer you try to establish a secure Virtual Private Networking session with. You try connecting to the Remote Windows 2000 computer using L2TP. You are unable to establish a connection with the remote node using L2TP. You are able to make a connection with another computer in your same office. Why are you unable to make a connection.to the remote location?",
-      "options": [
-        "NAT does not allow for remote networking",
-        "L2TP does not work with Windows 2000 computers",
-        "You can not establish a L2TP connection behind a computer running NAT. The L2TP session fails because the IP Security packets become corrupted",
-        "You have not configured the NAT server to translate the IP Security packets"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b613d8",
-      "q": "You are configuring a Windows 2000 Server computer as a Routing and Remote Access server for a Branch office. You discover that an incorrect driver was installed during the installation of the modem. You attempt to remove the modem by using Phone and Modem Options in Control Panel. After each attempt to remove the modem by using this method, the computer stops responding. You restart the computer again. You must install the correct driver for the modem as quickly as possible. What should you do?",
-      "options": [
-        "Use the Add/Remove Hardware wizard to uninstall the modem. Restart the server",
-        "Shut down the server, remove the modem card, and restart the server. Shut down the server again, insert the modem card, and restart the server",
-        "Delete all references to modems in the registry",
-        "Run the Modem troubleshooter and remove the modem when prompted. Restart the server"
-      ],
-      "correct": 2,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ndc5hd",
-      "q": "You want to improve the TCP transmission speed of a Windows 2000 Server computer. You also want to remove an unused registry key. You use Regedit32 to edit the registry of the Windows 2000 Server. You insert a value in the registry named TCPWindowSize, and you remove the unused key. You restart the computer, but the computer stops responding before the logon screen appears. You want to return the computer to its previous configuration. What should you do?",
-      "options": [
-        "Restart the computer in safe mode. Then restart the computer again",
-        "Restart the computer by using the Recovery Console. Run the Fixboot c: command, and then run the Exit command",
-        "Restart the computer by using the Recovery Console. Run the enable winlogon service_auto_start command, and then run the Exit command",
-        "Restart the computer by using the last known good configuration"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dyyolw",
-      "q": "Your network consists of Windows 2000 file servers, Windows 2000 print servers, Windows 2000 professional computers, Windows 2000 file servers. You must prevent any unsigned drivers from being installed on any computer in your Windows 2000 network. What should you do?",
-      "options": [
-        "Configure a Group policy for the Domain that blocks all unsigned drivers",
-        "Configure a Group policy for the Default Domain Controller to block all unsigned drivers",
-        "Configure the Windows 2000 file servers, Windows 2000 print servers, Windows 2000 professional computers and Windows 2000 file servers to block unsigned drivers",
-        "Do nothing, this is the default setting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xfmjz8",
-      "q": "You are installing Windows 2000 Server on a multiprocessor computer. The manufacturer has provided a customized HAL to use with the computer. The HAL is on the floppy disk. You want to install the customized HAL design for the computer. What should you do?",
-      "options": [
-        "During the text mode portion of the Windows 2000 setup install the customized HAL",
-        "After text mode portion of Windows 2000 setup is complete use the recovery console to copy the customized HAL to the system32 folder on the boot partition",
-        "After the text mode portion your windows 2000 setup is complete use the emergency repair process to replace the existing HAL with the customized HAL and then continue the windows 2000 setup",
-        "After the Windows 2000 setup is complete use the device manager to scan for Hardware changes when prompted install the customized HAL"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8cs3bk",
-      "q": "A Windows 2000 Server computer named server2 runs numerous 32bit applications and two 16bit applications. Users start the 16bit applications by running APP1.EXE for one application and APP2.EXE for another application. The 16bit applications are configured to run in the separate memory space. You want to create a performance base like chart in the system monitor for all the applications on server2. You add all of 32bit applications and now you want to add two 16bit applications. What should you do?",
-      "options": [
-        "Add the APP1 and APP2 instances to the processor time counter for the process object",
-        "Add the NTVDM, APP1 and APP2 instances for the processor time counter for the process object",
-        "Add only the NTVDM instance for the percent processor time counter for the process object",
-        "Add the NTVDM 1 and NTVDM #2 instances for processor time counter for the process object"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qg1iqs",
-      "q": "Your Windows 2000 Server computer includes an integrated 10-MB Ethernet adapter. You are replacing the integrated adapter with a new 100-MB Ethernet adapter. You install the new adapter in an available PCI slot. When you restart the computer, you receive error messages in the System log stating that the new adapter Is missing or is not working. What should you do to resolve the problem?",
-      "options": [
-        "Create a new hardware profile",
-        "Use Device Manager to remove the integrated 10-MB Ethernet adapter",
-        "Use Device Manager to disable the integrated 10-MB Ethernet adapter",
-        "Delete the device driver for the integrated 10-MB Ethernet adapter from the Systemroot\\system32\\Driver Cache folder"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cmv814",
-      "q": "Your Windows 2000 server Computer contains data files that users of client computers access throughout the day. You install a driver for the new tape drive on the computer. After restarting the computer you log on as an administrator, shortly after you log on you receive the following stop error \"irql_not_less_6r_equal\". You need to bring the server back on line as quickly and reliably as possible. What should you do?",
-      "options": [
-        "Restart the computer by using the last known good menu option",
-        "Perform an emergency repair and select fast repair, restart the computer",
-        "Restart the computer in the safe mode, remove the driver and restart the computer",
-        "Restart the computer by using the recovery console, disable the driver. Restart the computer, remove the driver"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13axdzk",
-      "q": "You are the administrator of a Windows 2000 Server computer named Intra. Intra is a member of an Active Directory domain and hosts an Intranet Web-Ske for your company. Company policy requires that only authenticated users have access to the intranet site. All company users have a user account in the Active Directory domain. You configure directory security for the Web Site to use integrated security. However, you discover that users can access the Web Site without authentication. You need to ensure that only authenticated users can access the web site. What should you do?",
-      "options": [
-        "Install Active Directory on the server",
-        "Select Basic Authentication check box",
-        "Clear the Allow Anonymous Connection check box",
-        "Disable the IUSE_inta user account on Intra"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lvw77a",
-      "q": "You are the administrator of a Windows 2000 Server computer. You configure the server to audit all access to files that are places in shared folders. One week after you configured the server, users report that the server has stopped responding. You investigate the problem and discover a stop error with the error message: Stop C0000244 (Audit Failed) An attempt to generate a security audit failed. You restart the computer. You need to ensure that you can keep a record of all files access on the server. You also need to ensure that the stop error will not occur again.",
-      "options": [
-        "Set the CrashonAuditFail registry key to 0",
-        "Set the Security Log to overwrite events as needed",
-        "Delete the Liscense Trial registry key",
-        "Increase the size of the security log"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rszugo",
-      "q": "You have just configured two Windows NT Servers, Monitor 1 and Monitor 2 with no other software installed. You have an application server that needs to be monitored for performance to figure out what it's problem is, or to get some kind of baseline. You install Network Monitor on Monitor 2. What would you do to monitor Application server?",
-      "options": [
-        "Install Network Monitor on Monitor 1",
-        "Install Network Monitor on Application Server",
-        "Configure the network monitor ECP port something for TCP",
-        "Configure the network monitor EDP port something for UDP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mdhs00",
-      "q": "You install and run a third-party 32-bit application named Application on your Windows 2000 Server computer. After several days, the application stops responding. You open Task Manager and find that the CPU usage is at 100 percent. The normal range of CPU usage on the server is from 20 percent to 30 percent You end the application. However, you see that the CPU on the server is still at 100 percent. Task Manager shows no other applications running. You then examine the Processes page in Task Manager and confirm that the Application.exe process is no longer running. You want to return the CPU usage to its normal range. What should you do?",
-      "options": [
-        "Use Computer Management to stop and restart the Server service",
-        "Use Computer Management to stop and restart the Workstation service",
-        "Use Task Manager to end any related child processes",
-        "Use Task Manager to end and automatically restart the Explorer.exe process"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ekr0p8",
-      "q": "You are the administrator of Windows 2000 domain and TWO Windows NT domains. The Windows 2000 domains trust each of the Windows NT domains. Each of Windows NT domains trust the Windows 2000 domain. A Windows 2000 domain controller named DC1 is configured to use a highly secure domain controller template. Users in the Windows NT domain report that they cannot access DC1. You need to allow the users of computers in the Windows NT domain to access resources on DC1. What should you do?",
-      "options": [
-        "Apply a less restrictive custom security template to DC1",
-        "Apply a less restrictive custom policy to Windows NT domain controller",
-        "Ensure the Windows 2000 domain is configured in the mixed mode",
-        "Ensure the Windows 2000 domain is configured to run in the native mode"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hdd2dk",
-      "q": "You install the Routing and Remote Access service on a Windows 2000 Server computer in your network. Your network is not directly connected to the Internet and uses the private IP address range 192.168.0.0. When you use Routing and Remote Access to dial in to the server, your computer connects successfully, but you are unable to access any resources. When you try to piiig servers by using their IP addresses, you receive the following message: \"Request timed out.\" When you run the ipconfig command, it shows that your dial-up connection has been given the IP address 169.254.75.182. What should you do to resolve the problem?",
-      "options": [
-        "Configure the remote access server with the address of a DHCP server",
-        "Authorize the remote access server to receive multiple addresses from a DHCP server",
-        "Configure the remote access server to act as a DHCP Relay Agent",
-        "Ensure that the remote access server is able to connect to a DHCP server that has a scope for its subnet"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-125k2qx",
-      "q": "You configure your Windows 2000 Server as a print server. You install a second PnP Network adapter to improve the performance. The first adapter uses IRQ11, and the second adapter uses IRQ5. The server is now unable to print to print devices connected to a non-PnP LPT2 port adapter. You want to continue to use the print devices connected to your print server. What should you do?",
-      "options": [
-        "Use device manager to change the IRQ for LPT1 to IRQ10",
-        "Use device manager to change the IRQ for LPT2 to IRQ7",
-        "Edit the CMOS setting of the servers BIOS to reserve IRQ7 for non-PnP devices",
-        "Edit the CMOS setting of the servers BIOS to reserve IRQ5 for non-PnP devices"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mqjy6x",
-      "q": "Your computer has a mirrored volume and you wish to now install the Recovery Console for future troubleshooting. How do you do this?",
-      "options": [
-        "Reinstall Windows, this can only be applied during the installation",
-        "Break the mirror, run X:\\i386\\winnt32.exe /cmdcons Reestablish the mirror",
-        "Run X:\\i386\\winnt32.exe / cmdcons",
-        "Run the add and remove programs and add the recovery console"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jywrh5",
-      "q": "Your Windows 2000 Server computer uses a non-Plug and Play ISA modem configured to use IRQ 5. You add a PCI modem and restart the computer. Device Manager reports an IRQ conflict between the two modems. Both modem are trying to use IRQ 5. You want to resolve the problem. What should you do?",
-      "options": [
-        "Use Device Manager to change the IRQ for the original modem to IRQ 9",
-        "Use Device Manager to change the IRQ for the original modem to IRQ 10",
-        "Edit the CMOS settings on the computer to reserve IRQ 5 for non-Plug and Play devices",
-        "Edit the CMOS settings on the computer to reserve IRQ 10 for non-Plug and Play devices"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pw6e5s",
-      "q": "Your network contains NetWare 4.0 Servers. You have successfully installed Client Service for NetWare on Windows 2000 Professional computers, and Gateway Service for NetWare on Windows 2000 Server Computers. You recently added a new Windows 2000 Server computer to the network and installed Gateway Service for NetWare on it. However, the server is unable to connect to any NetWare servers. What should you do on the new Windows 2000 Server computer to resolve this problem?",
-      "options": [
-        "Enable NWLink NetBIOS",
-        "Configure the NWLink IPX/SPX/ NetBIOS Compatible Transport Protocol to use the correct Ethernet frame type",
-        "Install RIP routing for IPX",
-        "Install the SAP Agent"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gxuyvs",
-      "q": "You install Internet Information Services 5.0 on a computer running Windows 2000 Server. You create two new department web sites for the Human Resources and Sales departments. You use host headers to define these two new sites. You stop the Sales web site while a developer updates the contents of the site. If a user attempts to access the Sales site while it is stopped, what response will the user receive?",
-      "options": [
-        "The user will be redirected to an alternate default page for the Sales site's home directory",
-        "The user will be redirected to the Default Web site home page",
-        "The user will receive a 403.2 -Read Access Forbidden error message",
-        "The user will receive a 404 - File Not Found error message"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t98iu4",
-      "q": "You have a machine with two hard disk and you add an extra 100 GB hard disk for a specific Client-Server application to run on, because the application gets very slow returning query data. You want to have the fastest possible access for the Client-Server App to the HDD's. Which Raid should you apply?",
-      "options": [
-        "RAID0",
-        "RAID1",
-        "RAIDS",
-        "RAID2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iep3s",
-      "q": "You are the administrator of a Windows 2000 Server computer. The server has a single hard disk with a single NTFS partition. You use a third-party tool to add a new partition to the disk. When you restart the server, you received the following error message: \"Windows 2000 could not start because the following file is missing or corrupt: \\system32\\ntoskrnl.exe. Please re-install a copy of the above file.\" What should you do to resolve the problem?",
-      "options": [
-        "Start the computer by using the Recovery Console. Run System File Checker",
-        "Start the computer by using the Recovery Console. Modify the Partition parameter in the operating system path in C:\\Boot.ini",
-        "Start the emergency repair process. Choose the option to repair system files",
-        "Start the computer in safe mode with command prompt. Modify the Partition parameter in the operating system path in C:\\boot.ini"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-91c35c",
-      "q": "You are a network administrator for your company. The company is currently configuring its branch offices with a Windows 2000 Server computer at each office. Each branch office has a technical-support department but not a network administrator. You want to configure the remote Windows 2000 Server computers so that whenever a new Microsoft driver becomes available, the branch offices are notified automaticaly when the administrator logs onto the server. What should you do?",
-      "options": [
-        "Install the Windows 2000 Resource Kit",
-        "Install Windows critical update notification",
-        "Configure system file checker to notify the branch offices",
-        "Configure Windows file protection to notify the branch offices"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11nhv54",
-      "q": "Some applications on your company network use defined domain user accounts as their service accounts. Each computer that runs one of these applications should have the respective service account in the Local Administrators Group. Currently, you individually place these service accounts in the Local Administrators Group on the appropriate Windows 2000 Professional computers. You need to centralize this process. What should you do?",
-      "options": [
-        "Add the applications service accounts to the Domain Administrator Group",
-        "Add the applications service accounts to the Local Administrator Group. Use the Restricted Groups option in each computer's local group policy",
-        "Add the applications service accounts to the Local Administrator Group. Use the Restricted Groups option in an OU Group Policy",
-        "Add the applications service accounts to the Local Administrator Group. Use the Restricted Groups option in a Domain Group Policy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ubuovo",
-      "q": "You are the administrator of the Windows 2000 Server network shown in the exhibit. Users in the Research group and the Executive group have permission to access the Internet through a Windows 2000 Server computer running Microsoft Proxy Server. These users must enter their proxy server user names and passwords to connect to the proxy server, to the Internet, and to your local intranet server. The users who do not access the Internet do not have user accounts on the proxy server and, therefore, cannot connect to the intranet server. You want all users to be able to connect to the intranet server without entering a separate user name and password. What should you do?",
-      "options": [
-        "Move the intranet server to the client segment of the network",
-        "Move the proxy server to the server segment of the network",
-        "Configure each client computer to bypass the proxy server for local addresses",
-        "Configure each client computer to use port 81 for the proxy server"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nv9us8",
-      "q": "You are the administrator of a network that consists of Windows 2000 Server computers and Windows 2000 Professional computers. You want to configure the deployment of the most recent Windows 2000 service pack so that users of the Windows 2000 Professional computers receive the service pack automatically when they log on to the domain. What should you do?",
-      "options": [
-        "Create a Microsoft Windows installer package for the service pack. Configure RIS to use the package",
-        "Create a Microsoft Windows Installer package for the service pack. Configure the package in a Group Policy",
-        "Create a Microsoft -Windows Installer package for the service pack. Configure the package in the Local Computer Policy",
-        "Place the service pack in a Distributed file system (Dfs)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Windows 2000 Server",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pm3fq0",
-      "q": "You enable the Routing and Remote Access Service (RRAS) on a computer running Windows 2000 Server. You configure the computer as a RAS server. You want to provide mutual authentication between the RAS server and RAS clients. You also want to ensure that data passing between the RAS server and RAS clients is encrypted. Which authentication method should you use for your incoming connections to support mutual authentication and data encryption?",
-      "options": [
-        "CHAP",
-        "MS-CHAP v2",
-        "PAP",
-        "SPAP"
+        "Set the router option in the DHCP Scopes to 192.168.2.1 for Engineeringl and 192.168.1.1 for Salesl",
+        "On Engineering2 and Sales2, install Routing and Remote Access, and configure RIP as a routing protocol",
+        "On Engineering2 and Sales2, install and configure the DHCP Relay Agent service",
+        "Configure Engineering2 and Sales2 as DHCP servers without any scopes"
       ],
       "correct": 0,
       "explain": "",

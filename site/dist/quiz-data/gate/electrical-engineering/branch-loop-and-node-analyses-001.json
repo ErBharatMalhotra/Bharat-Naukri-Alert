@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Branch Loop And Node Analyses",
   "source": "indiabix.com",
-  "count": 12,
+  "count": 11,
   "questions": [
     {
-      "id": "gate-u5btxk",
-      "q": "Generally, the mesh current method results in fewer equations than the node voltage method.",
+      "id": "gate-1hdv2zo",
+      "q": "The node voltage method is based on Kirchhoff's voltage law.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-i6djug",
-      "q": "Third-order determinants are evaluated by the expansion method or by the cofactor method.",
+      "id": "gate-t1jm1h",
+      "q": "A loop current is an actual current in a branch.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-psd7wp",
-      "q": "Second-order determinants are evaluated by subtracting the signed cross-products.",
+      "id": "gate-11v3gd0",
+      "q": "The mesh current method is based on Kirchhoff's current law.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-16pb0bo",
-      "q": "The mesh method can be applied to circuits with any number of loops.",
+      "id": "gate-1nncfjs",
+      "q": "The branch current method is based on Kirchhoff's voltage law and Kirchhoff's current law.",
       "options": [
         "True",
         "False"
@@ -80,13 +80,11 @@
       "tags": []
     },
     {
-      "id": "gate-2nrb8s",
-      "q": "Find the node voltage VA.",
+      "id": "gate-1j0jvmg",
+      "q": "When assigning branch currents, you need not be concerned with the direction you choose.",
       "options": [
-        "6 V",
-        "12 V",
-        "4.25 V",
-        "3 V"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -100,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-tn9n9k",
-      "q": "What is the current through R2?",
+      "id": "gate-j7afqs",
+      "q": "What is the voltage drop across R1?",
       "options": [
-        "3.19 A",
-        "319 mA",
-        "1.73 A",
-        "173 mA"
+        "850 mV",
+        "7.82 V",
+        "9.18 V",
+        "918 mV"
       ],
       "correct": 0,
       "explain": "",
@@ -120,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f8ewgc",
-      "q": "Find branch current IR2.",
+      "id": "gate-jha1fs",
+      "q": "What is the voltage drop across R2?",
       "options": [
-        "5.4 mA",
-        "&#8211;5.4 mA",
-        "113.0 mA",
-        "119.6 mA"
+        "3.5 V",
+        "4.18 V",
+        "1.5 V",
+        "145 mV"
       ],
       "correct": 0,
       "explain": "",
@@ -140,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-vn0d6k",
-      "q": "Find I2. 4I1 + 4I2 = 2 6I1 + 7I2 = 4",
+      "id": "gate-1fstwst",
+      "q": "In assigning the direction of branch currents,",
       "options": [
-        "1 A",
-        "&#8211;1 A",
-        "100 mA",
-        "&#8211;100 mA"
+        "the directions are critical",
+        "the directions are not critical",
+        "they must point into a node",
+        "they must point out of a node"
       ],
       "correct": 0,
       "explain": "",
@@ -160,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ckfanp",
-      "q": "The first row of a certain determinant has the numbers 3 and 5. The second row has the numbers 7 and 2. The value of this determinant is",
+      "id": "gate-1nlop2k",
+      "q": "Find I1. 4I1 + 4I2 = 2 6I1 + 7I2 = 4",
       "options": [
-        "31",
-        "&#8211;31",
-        "39",
-        "&#8211;29"
+        "0.5 A",
+        "50 mA",
+        "&#8211;0.5 A",
+        "&#8211;50 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -180,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dppfg4",
-      "q": "The first row of a certain determinant has the numbers 10 and 6. The second row has the numbers 3 and 5. The value of this determinant is",
+      "id": "gate-14haij8",
+      "q": "Using the mesh current method, find the branch current, IR1, in the above figure.",
       "options": [
-        "18",
-        "50",
-        "32",
-        "&#8211;32"
+        "115 mA",
+        "12.5 mA",
+        "12.5 A",
+        "135 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -200,33 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-jr9n4o",
-      "q": "What is the voltage drop across R3?",
+      "id": "gate-lu37xh",
+      "q": "The branch current method uses",
       "options": [
-        "112 mV",
-        "11.25 V",
-        "180 mV",
-        "1.80 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Branch Loop And Node Analyses",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h8x24g",
-      "q": "The expansion method for evaluating determinants is",
-      "options": [
-        "better than any other method",
-        "good for only one determinant",
-        "more flexible than the cofactor method",
-        "good for second- and third-order determinants"
+        "Kirchhoff's voltage and current laws",
+        "Thevenin's theorem and Ohm's law",
+        "Kirchhoff's current law and Ohm's law",
+        "the superposition theorem and Thevenin's theorem"
       ],
       "correct": 0,
       "explain": "",

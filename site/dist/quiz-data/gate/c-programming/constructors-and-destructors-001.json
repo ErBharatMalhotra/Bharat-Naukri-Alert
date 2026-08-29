@@ -5,15 +5,35 @@
   "subject": "C++ Programming",
   "topic": "Constructors And Destructors",
   "source": "indiabix.com",
-  "count": 41,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-jdj0og",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int *p; public: IndiaBix(int xx, char ch) { p = new int(); *p = xx + int(ch); cout&lt;&lt; *p; } ~IndiaBix() { delete p; } }; int main() { IndiaBix objBix(10, 'B'); return 0; }",
+      "id": "gate-fcx360",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int x; public: IndiaBix(int xx, float yy) { cout&lt;&lt; char(yy); } }; int main() { IndiaBix *p = new IndiaBix(35, 99.50f); return 0; }",
       "options": [
-        "The program will print the output 76.",
-        "The program will print the output 108.",
-        "The program will print the output garbage value.",
+        "99",
+        "ASCII value of 99",
+        "Garbage value",
+        "99.50"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-141k83g",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { public: IndiaBix() { cout&lt;&lt; \"India\"; } ~IndiaBix() { cout&lt;&lt; \"Bix\"; } }; int main() { IndiaBix objBix; return 0; }",
+      "options": [
+        "The program will print the output India.",
+        "The program will print the output Bix.",
+        "The program will print the output IndiaBix.",
         "The program will report compile time error."
       ],
       "correct": 0,
@@ -28,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-i5ij8g",
-      "q": "Which of the following constructor is used in the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix(int xx = 10, int yy = 20 ) { x = xx; y = yy; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl; } ~IndiaBix() { } }; int main() { IndiaBix objBix; objBix.Display(); return 0; }",
+      "id": "gate-eat308",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class Bix { int x; public: Bix(); ~Bix(); void Show() const; }; Bix::Bix() { x = 25; } void Bix::Show() const { cout&lt;&lt; x; } int main() { Bix objB; objB.Show(); return 0; }",
       "options": [
-        "Copy constructor",
-        "Simple constructor",
-        "Non-parameterized constructor",
-        "Default constructor"
+        "The program will print the output 25.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error.",
+        "The program will report runtime error."
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xsrmzg",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixBase { public: BixBase() { cout&lt;&lt; \"Base OK. \"; } }; class BixDerived: public BixBase { public: BixDerived() { cout&lt;&lt; \"Derived OK. \"; } ~BixDerived() { cout&lt;&lt; \"Derived DEL. \"; } }; int main() { BixBase objB; BixDerived objD; objD.~BixDerived(); return 0; }",
+      "id": "gate-1qdkgyc",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class Bix { int x; public: Bix(); void Show() const; ~Bix(){} }; Bix::Bix() { x = 5; } void Bix::Show() const { cout&lt;&lt; x; } int main() { Bix objB; objB.Show(); return 0; }",
       "options": [
-        "Base OK. Derived OK. Derived DEL.",
-        "Base OK. Base OK. Derived OK. Derived DEL.",
-        "Base OK. Derived OK. Derived DEL. Derived DEL.",
-        "Base OK. Base OK. Derived OK. Derived DEL. Derived DEL."
+        "The program will print the output 5.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error.",
+        "The program will report runtime error."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y3yr6s",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix(int xx) { x = ++xx; } ~IndiaBix() { cout&lt;&lt; x - 1 &lt;&lt; \" \"; } void Display() { cout&lt;&lt; --x + 1 &lt;&lt; \" \"; } }; int main() { IndiaBix objBix(5); objBix.Display(); int *p = (int*) &amp;objBix; *p = 40; objBix.Display(); return 0; }",
+      "id": "gate-1cqo9yo",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; int val = 0; class IndiaBix { public: IndiaBix() { cout&lt;&lt; ++val; } ~IndiaBix() { cout&lt;&lt; val--; } }; int main() { IndiaBix objBix1, objBix2, objBix3; { IndiaBix objBix4; } return 0; }",
       "options": [
-        "6 6 4",
-        "6 6 5",
-        "5 40 38",
-        "6 40 38"
+        "1234",
+        "4321",
+        "12344321",
+        "12341234"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-13b18v4",
-      "q": "What is the technical word for the function ~IndiaBix() defined in the following program? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix(int xx = 10, int yy = 20 ) { x = xx; y = yy; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl; } ~IndiaBix() { } }; int main() { IndiaBix objBix; objBix.Display(); return 0; }",
+      "id": "gate-7rzszr",
+      "q": "Which constructor function is designed to copy objects of the same class type?",
       "options": [
-        "Constructor",
-        "Destructor",
-        "Default Destructor",
-        "Function Template"
+        "Create constructor",
+        "Object constructor",
+        "Dynamic constructor",
+        "Copy constructor"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-t6fts",
-      "q": "What will be the out of the following program? #include&lt;iostream.h&gt; class BixBase { protected: int x, y; public: BixBase(int xx = 0, int yy = 0) { x = xx; y = yy; } void Show() { cout&lt;&lt; x * this-&gt;y &lt;&lt; endl; } }; class BixDerived { private: BixBase objBase; public: BixDerived(int xx, int yy) : objBase(xx, yy) { objBase.Show(); } ~BixDerived() { } }; int main() { BixDerived objDev(10, 20); return 0; }",
+      "id": "gate-1bys4n8",
+      "q": "When are the Global objects destroyed?",
       "options": [
-        "0",
-        "100",
-        "200",
-        "400"
+        "When the control comes out of the block in which they are being used.",
+        "When the program terminates.",
+        "When the control comes out of the function in which they are being used.",
+        "As soon as local objects die."
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1h9bps",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; public: IndiaBix() { x = 0; } IndiaBix(int xx) { x = xx; } IndiaBix(IndiaBix &amp;objB) { x = objB.x; } void Display() { cout&lt;&lt; x &lt;&lt; \" \"; } }; int main() { IndiaBix objA(25); IndiaBix objB(objA); IndiaBix objC = objA; objA.Display(); objB.Display(); objC.Display(); return 0; }",
+      "id": "gate-1uvb817",
+      "q": "Copy constructor must receive its arguments by __________ .",
       "options": [
-        "The program will print the output 25 25 25 .",
-        "The program will print the output 25 Garbage 25 .",
-        "The program will print the output Garbage 25 25 .",
-        "The program will report compile time error."
+        "either pass-by-value or pass-by-reference",
+        "only pass-by-value",
+        "only pass-by-reference",
+        "only pass by address"
       ],
       "correct": 0,
       "explain": "",
@@ -148,171 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-vt1kew",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x, y; public: IndiaBix() { x = 0; y = 0; } IndiaBix(int xx, int yy) { x = xx; y = yy; } IndiaBix(IndiaBix *objB) { x = objB-&gt;x; y = objB-&gt;y; } void Display() { cout&lt;&lt; x &lt;&lt; \" \" &lt;&lt; y; } }; int main() { IndiaBix objBix( new IndiaBix(20, 40) ); objBix.Display(); return 0; }",
-      "options": [
-        "The program will print the output 0 0 .",
-        "The program will print the output 20 40 .",
-        "The program will print the output Garbage Garbage .",
-        "The program will report compile time error."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xt23gg",
-      "q": "What will be the out of the following program? #include&lt;iostream.h&gt; class BixBase { public: int x, y; public: BixBase(int xx = 0, int yy = 0) { x = xx; y = yy; } }; class BixDerived : public BixBase { private: BixBase objBase; public: BixDerived(int xx, int yy) : BixBase(xx), objBase(yy) { cout &lt;&lt; this-&gt;x &lt;&lt; \" \" &lt;&lt; this-&gt;y &lt;&lt; \" \" &lt;&lt; objBase.x &lt;&lt; \" \" &lt;&lt; objBase.y &lt;&lt; \" \"; } ~BixDerived() { } }; int main() { BixDerived objDev(11, 22); return 0; }",
-      "options": [
-        "11 22 0 0",
-        "11 0 0 22",
-        "11 0 22 0",
-        "11 22 11 22"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fgp2hc",
-      "q": "What will be the out of the following program? #include&lt;iostream.h&gt; class BixBase { public: int x, y; public: BixBase(int xx = 0, int yy = 0) { x = xx; y = yy; } }; class BixDerived : public BixBase { private: BixBase objBase; public: BixDerived(int xx, int yy) : BixBase(xx), objBase(yy) { cout &lt;&lt; x &lt;&lt; \" \" &lt;&lt; this-&gt;x &lt;&lt; \" \" &lt;&lt; BixBase::x &lt;&lt; \" \" &lt;&lt; this-&gt;objBase.x ; } ~BixDerived() { } }; int main() { BixDerived objDev(11, 22); return 0; }",
-      "options": [
-        "11 22 0 0",
-        "11 11 0 22",
-        "11 11 11 0",
-        "11 11 11 22"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x5gf5s",
-      "q": "A constructor that accepts __________ parameters is called the default constructor.",
-      "options": [
-        "one",
-        "two",
-        "no",
-        "three"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ilgsbs",
-      "q": "What happens when a class with parameterized constructors and having no default constructor is used in a program and we create an object that needs a zero-argument constructor?",
-      "options": [
-        "Compile-time error.",
-        "Preprocessing error.",
-        "Runtime error.",
-        "Runtime exception."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1eqe4a9",
-      "q": "Can a class have virtual destructor?",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11i2b6o",
-      "q": "Destructor has the same name as the constructor and it is preceded by ______ .",
-      "options": [
-        "!",
-        "?",
-        "~",
-        "$"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14qgbgk",
-      "q": "For automatic objects, constructors and destructors are called each time the objects",
-      "options": [
-        "enter and leave scope",
-        "inherit parent class",
-        "are constructed",
-        "are destroyed"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y37eag",
-      "q": "A function with the same name as the class, but preceded with a tilde character (~) is called __________ of that class.",
+      "id": "gate-9bwjvo",
+      "q": "Which of the following gets called when an object is being created?",
       "options": [
         "constructor",
+        "virtual function",
         "destructor",
-        "function",
-        "object"
+        "main"
       ],
       "correct": 0,
       "explain": "",
@@ -326,33 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mz2xq4",
-      "q": "A union that has no constructor can be initialized with another union of __________ type.",
+      "id": "gate-iijyg",
+      "q": "To ensure that every object in the array receives a destructor call, always delete memory allocated as an array with operator __________ .",
       "options": [
-        "different",
-        "same",
-        "virtual",
-        "class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k50kow",
-      "q": "Which of the following gets called when an object goes out of scope?",
-      "options": [
-        "constructor",
         "destructor",
-        "main",
-        "virtual function"
+        "delete",
+        "delete[]",
+        "kill[]"
       ],
       "correct": 0,
       "explain": "",
@@ -366,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ifew4n",
-      "q": "__________ used to make a copy of one class object from another class object of the same class type.",
+      "id": "gate-ldpx93",
+      "q": "Which of the following statement is correct about constructors?",
       "options": [
-        "constructor",
-        "copy constructor",
-        "destructor",
-        "default constructor"
+        "A constructor has a return type.",
+        "A constructor cannot contain a function call.",
+        "A constructor has no return type.",
+        "A constructor has a void return type."
       ],
       "correct": 0,
       "explain": "",
@@ -386,433 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-1326pqo",
-      "q": "A class's __________ is called when an object is destroyed.",
+      "id": "gate-i2nwek",
+      "q": "Which of the following statement is correct whenever an object goes out of scope?",
       "options": [
-        "constructor",
-        "destructor",
-        "assignment function",
-        "copy constructor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t0o0ya",
-      "q": "Destructors __________ for automatic objects if the program terminates with a call to function exit or function abort.",
-      "options": [
-        "are called",
-        "are inherited",
-        "are not called",
-        "are created"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13g2ix4",
-      "q": "Which of the following statements are correct?",
-      "options": [
-        "Constructor is always called explicitly.",
-        "Constructor is called either implicitly or explicitly, whereas destructor is always called implicitly.",
-        "Destructor is always called explicitly.",
-        "Constructor and destructor functions are not called at all as they are always inline."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lpowfs",
-      "q": "How many times a constructor is called in the life-time of an object?",
-      "options": [
-        "Only once",
-        "Twice",
-        "Thrice",
-        "Depends on the way of creation of object"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tcoz20",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; public: IndiaBix(short ss) { cout&lt;&lt; \"Short\" &lt;&lt; endl; } IndiaBix(int xx) { cout&lt;&lt; \"Int\" &lt;&lt; endl; } IndiaBix(char ch) { cout&lt;&lt; \"Char\" &lt;&lt; endl; } ~IndiaBix() { cout&lt;&lt; \"Final\"; } }; int main() { IndiaBix *ptr = new IndiaBix('B'); return 0; }",
-      "options": [
-        "The program will print the output Short .",
-        "The program will print the output Int .",
-        "The program will print the output Char .",
-        "The program will print the output Final ."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dfetog",
-      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { int x; public: IndiaBix(short ss) { cout&lt;&lt; \"Short\" &lt;&lt; endl; } IndiaBix(int xx) { cout&lt;&lt; \"Int\" &lt;&lt; endl; } IndiaBix(float ff) { cout&lt;&lt; \"Float\" &lt;&lt; endl; } ~IndiaBix() { cout&lt;&lt; \"Final\"; } }; int main() { IndiaBix *ptr = new IndiaBix('B'); return 0; }",
-      "options": [
-        "The program will print the output Short .",
-        "The program will print the output Int .",
-        "The program will print the output Float .",
-        "The program will print the output Final ."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-d5ccrs",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixBase { public: BixBase() { cout&lt;&lt; \"Base OK. \"; } ~BixBase() { cout&lt;&lt; \"Base DEL. \"; } }; class BixDerived: public BixBase { public: BixDerived() { cout&lt;&lt; \"Derived OK. \"; } ~BixDerived() { cout&lt;&lt; \"Derived DEL. \"; } }; int main() { BixBase *basePtr = new BixDerived(); delete basePtr; return 0; }",
-      "options": [
-        "Base OK. Derived OK.",
-        "Base OK. Derived OK. Base DEL.",
-        "Base OK. Derived OK. Derived DEL.",
-        "Base OK. Derived OK. Derived DEL. Base DEL."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vy5weq",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixBase { public: BixBase() { cout&lt;&lt; \"Base OK. \"; } virtual ~BixBase() { cout&lt;&lt; \"Base DEL. \"; } }; class BixDerived: public BixBase { public: BixDerived() { cout&lt;&lt; \"Derived OK. \"; } ~BixDerived() { cout&lt;&lt; \"Derived DEL. \"; } }; int main() { BixBase *basePtr = new BixDerived(); delete basePtr; return 0; }",
-      "options": [
-        "Base OK. Derived OK.",
-        "Base OK. Derived OK. Base DEL.",
-        "Base OK. Derived OK. Derived DEL.",
-        "Base OK. Derived OK. Derived DEL. Base DEL."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17gbrus",
-      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class BixBase { public: int x, y; BixBase(int xx = 0, int yy = 5) { x = ++xx; y = --yy; } void Display() { cout&lt;&lt; --y; } ~BixBase(){} }; class BixDerived : public BixBase { public: void Increment() { y++; } void Display() { cout&lt;&lt; --y; } }; int main() { BixDerived objBix; objBix.Increment(); objBix.Display(); return 0; }",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "Garbage-value"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zaq3k2",
-      "q": "Constructors __________ to allow different approaches of object construction.",
-      "options": [
-        "cannot overloaded",
-        "can be overloaded",
-        "can be called",
-        "can be nested"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sajkz8",
-      "q": "Which of the following cannot be declared as virtual?",
-      "options": [
-        "Constructor",
-        "Destructor",
-        "Data Members",
-        "Both A and C"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13ipi68",
-      "q": "If the copy constructor receives its arguments by value, the copy constructor would",
-      "options": [
-        "call one-argument constructor of the class",
-        "work without any problem",
-        "call itself recursively",
-        "call zero-argument constructor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2esvtw",
-      "q": "Which of the following are NOT provided by the compiler by default?",
-      "options": [
-        "Zero-argument Constructor",
-        "Destructor",
-        "Copy Constructor",
-        "Copy Destructor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10uzrdp",
-      "q": "Which of the following implicitly creates a default constructor when the programmer does not explicitly define at least one constructor for a class?",
-      "options": [
-        "Preprocessor",
-        "Linker",
-        "Loader",
-        "Compiler"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rwj430",
-      "q": "A destructor takes __________ arguments.",
-      "options": [
-        "one",
-        "two",
-        "three",
-        "no"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1whyc1w",
-      "q": "Destructor calls are made in which order of the corresponding constructor calls?",
-      "options": [
-        "Reverse order",
-        "Forward order",
-        "Depends on how the object is constructed",
-        "Depends on how many objects are constructed"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kvxbk0",
-      "q": "Which of the following never requires any arguments?",
-      "options": [
-        "Member function",
-        "Friend function",
-        "Default constructor",
-        "const function"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jwh7io",
-      "q": "It is a __________ error to pass arguments to a destructor.",
-      "options": [
-        "logical",
-        "virtual",
-        "syntax",
-        "linker"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6sezbw",
-      "q": "If the programmer does not explicitly provide a destructor, then which of the following creates an empty destructor?",
-      "options": [
-        "Preprocessor",
-        "Compiler",
-        "Linker",
-        "main() function"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-heilkd",
-      "q": "A __________ is a constructor that either has no parameters, or if it has parameters, all the parameters have default values.",
-      "options": [
-        "default constructor",
-        "copy constructor",
-        "Both A and B",
-        "None of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8m6qaf",
-      "q": "How many default constructors per class are possible?",
-      "options": [
-        "Only one",
-        "Two",
-        "Three",
-        "Unlimited"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C++ Programming",
-      "topic": "Constructors And Destructors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qwjguo",
-      "q": "Which of the following statement is correct about destructors?",
-      "options": [
-        "A destructor has void return type.",
-        "A destructor has integer return type.",
-        "A destructor has no return type.",
-        "A destructors return type is always same as that of main()."
+        "The default constructor of the object is called.",
+        "The parameterized destructor is called.",
+        "The default destructor of the object is called.",
+        "None of the above."
       ],
       "correct": 0,
       "explain": "",

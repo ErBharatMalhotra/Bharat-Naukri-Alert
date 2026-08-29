@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Classes",
   "source": "indiabix.com",
-  "count": 33,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-1nwhpb8",
-      "q": "What is the purpose of the __init__ method in a Python class?",
+      "id": "gate-1uyuppq",
+      "q": "What is the purpose of the @classmethod decorator?",
       "options": [
-        "It is used to initialize the class variables.",
-        "It is a reserved method for object initialization.",
-        "It defines the constructor of the class.",
-        "It is required for defining instance methods."
+        "It defines a class method that can be called on an instance.",
+        "It is used to create a static method in a class.",
+        "It marks a method as abstract and must be implemented in derived classes.",
+        "It indicates a method that takes the class as its first parameter."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-12gzlp8",
-      "q": "In Python, what does the term self refer to in a class method?",
+      "id": "gate-1x6uvw0",
+      "q": "In Python, what is the purpose of the super() function within a subclass method?",
       "options": [
-        "It represents the instance of the class.",
-        "It refers to the superclass object.",
-        "It is a keyword for defining class variables.",
-        "It is used for static method declaration."
+        "It calls the constructor of the superclass.",
+        "It returns the superclass object.",
+        "It initializes the subclass attributes.",
+        "It creates a copy of the superclass."
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1m7i2bc",
-      "q": "How can you create a class variable?",
+      "id": "gate-dnwpgl",
+      "q": "What is encapsulation in the context of object-oriented programming?",
       "options": [
-        "Define it inside a method with the keyword var.",
-        "Declare it outside any method in the class with the keyword static.",
-        "Use the self keyword inside a method.",
-        "Define it inside the constructor using __init__."
+        "It refers to the process of creating an instance of a class.",
+        "It is the mechanism of bundling the data and the methods that operate on the data.",
+        "It signifies the inheritance hierarchy of classes.",
+        "It is the process of hiding the implementation details of an object and exposing only what is necessary."
       ],
       "correct": 0,
       "explain": "",
@@ -68,293 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1o8ku3w",
-      "q": "What is the purpose of the __str__ method?",
-      "options": [
-        "It converts an object to a string representation.",
-        "It is used to define a string variable in a class.",
-        "It represents the string type in Python.",
-        "It is required for string concatenation."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-127gue1",
-      "q": "How can you inherit a class?",
-      "options": [
-        "Using the inherit keyword.",
-        "By using the extends keyword.",
-        "Using the inherits keyword.",
-        "By placing the parent class name in parentheses after the child class name."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lmqd4k",
-      "q": "What is the purpose of the @property decorator?",
-      "options": [
-        "It defines a property of a class that can be accessed using dot notation.",
-        "It marks a method as a getter for a class attribute.",
-        "It is used to create an instance variable in a class.",
-        "It indicates a method that can only be accessed by the class itself."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lyf3el",
-      "q": "In Python, what is the purpose of the __slots__ attribute in a class?",
-      "options": [
-        "It specifies the names of class methods.",
-        "It defines the list of attributes that instances of the class can have.",
-        "It indicates the inheritance hierarchy of the class.",
-        "It is used to declare static variables in a class."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mkxwmk",
-      "q": "What is the purpose of the @abstractmethod decorator?",
-      "options": [
-        "It creates an abstract class in Python.",
-        "It indicates a method that must be implemented by any concrete (non-abstract) subclass.",
-        "It is used to define a method that cannot be overridden.",
-        "It marks a method as private and inaccessible from outside the class."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4ny3vc",
-      "q": "What is the primary purpose of the __doc__ attribute?",
-      "options": [
-        "It stores the documentation string for a module, class, or function.",
-        "It is used to access the private documentation of a class.",
-        "It indicates the default values of the class attributes.",
-        "It defines the documentation for a class constructor."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7zgn77",
-      "q": "Consider the following Python code: class Shape: def __init__(self, name): self.name = name def display_info(self): print(f\"I am a {self.name}\") class Square(Shape): def __init__(self, name, side_length): super().__init__(name) self.side_length = side_length def display_info(self): super().display_info() print(f\"My side length is {self.side_length}\") # Create an instance of the Square class my_square = Square(\"Square\", 4) # Call the display_info method my_square.display_info() What will be the output of the code?",
-      "options": [
-        "I am a Square \\n My side length is 4",
-        "My side length is 4 \\n I am a Square",
-        "I am a Square",
-        "My side length is 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14dhtb7",
-      "q": "Consider the following Python code: class Vehicle: def __init__(self, brand): self.brand = brand def start_engine(self): print(f\"The {self.brand} engine is starting\") class ElectricCar(Vehicle): def __init__(self, brand, battery_capacity): super().__init__(brand) self.battery_capacity = battery_capacity def start_engine(self): print(f\"The electric car with {self.battery_capacity} kWh battery is starting\") # Create an instance of the ElectricCar class my_electric_car = ElectricCar(\"Tesla\", 75) # Call the start_engine method my_electric_car.start_engine() What will be the output of the code?",
-      "options": [
-        "The electric car with 75 kWh battery is starting",
-        "The Tesla engine is starting",
-        "The electric car is starting",
-        "The Tesla with 75 kWh battery engine is starting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lsytyc",
-      "q": "Consider the following Python code: class Person: def __init__(self, name, age): self.name = name self.age = age class Student(Person): def __init__(self, name, age, student_id): super().__init__(name, age) self.student_id = student_id # Create an instance of the Student class my_student = Student(\"Alice\", 20, \"S12345\") # Access and print attributes print(my_student.name) print(my_student.age) print(my_student.student_id) What will be the output of the code?",
-      "options": [
-        "Alice \\n 20 \\n S12345",
-        "S12345 \\n Alice \\n 20",
-        "Alice \\n S12345 \\n 20",
-        "20 \\n Alice \\n S12345"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-armnv3",
-      "q": "Consider the following Python code: class Animal: def __init__(self, species): self.species = species class Bird(Animal): def __init__(self, species, wingspan): super().__init__(species) self.wingspan = wingspan # Create an instance of the Bird class my_bird = Bird(\"Eagle\", 2.5) # Access and print attributes print(my_bird.species) print(my_bird.wingspan) What will be the output of the code?",
-      "options": [
-        "Eagle \\n 2.5",
-        "2.5 \\n Eagle",
-        "Eagle",
-        "2.5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5rs9ha",
-      "q": "Consider the following Python code: class CoffeeShop: def __init__(self, name): self.name = name class EspressoBar(CoffeeShop): def __init__(self, name, serves_alcohol): super().__init__(name) self.serves_alcohol = serves_alcohol # Create an instance of the EspressoBar class my_espresso_bar = EspressoBar(\"Java Junction\", False) # Access and print attributes print(my_espresso_bar.name) print(my_espresso_bar.serves_alcohol) What will be the output of the code?",
-      "options": [
-        "Java Junction \\n False",
-        "False \\n Java Junction",
-        "Java Junction",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kp6n9s",
-      "q": "What does the term \"polymorphism\" mean in the context of object-oriented programming?",
-      "options": [
-        "It refers to the ability of a class to inherit from multiple classes.",
-        "It signifies the encapsulation of data and methods within a class.",
-        "It is the ability of different classes to be used interchangeably.",
-        "It defines the hierarchy of classes in a program."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s6e8s",
-      "q": "In Python, what is the purpose of the @classmethod decorator in a subclass?",
-      "options": [
-        "It creates a static method in the subclass.",
-        "It defines a class method specific to the subclass.",
-        "It indicates a method that takes both the class and instance as parameters.",
-        "It allows the subclass to override the method in the superclass."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-89leho",
-      "q": "What is the purpose of the __eq__ method?",
-      "options": [
-        "It is called when an object is equal to another object using the == operator.",
-        "It defines the equality check for class attributes.",
-        "It is used to compare the memory addresses of two objects.",
-        "It signifies the end of an object's lifecycle."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kr69r4",
-      "q": "What is the purpose of the __len__ method?",
+      "id": "gate-1scsin0",
+      "q": "What is the purpose of the __del__ method?",
       "options": [
         "It is called when an object is created.",
-        "It defines the length of a string attribute in a class.",
-        "It is used to calculate the length of an object, typically for sequences.",
-        "It signifies the length of an object's lifecycle."
+        "It is used to delete a class variable.",
+        "It is called when an object is about to be destroyed and its memory released.",
+        "It defines the destructor of the class."
       ],
       "correct": 0,
       "explain": "",
@@ -368,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-fhbo1c",
-      "q": "Consider the following Python code: class Animal: def __init__(self, species): self.species = species class Dog(Animal): def __init__(self, species, breed): super().__init__(species) self.breed = breed # Create an instance of the Dog class my_dog = Dog(\"Canine\", \"Labrador\") # Access and print attributes print(my_dog.species) print(my_dog.breed) What will be the output of the code?",
+      "id": "gate-1yvfpsc",
+      "q": "Consider the following Python code: class Car: def __init__(self, make, model, year): self.make = make self.model = model self.year = year # Create an instance of the Car class my_car = Car(\"Toyota\", \"Camry\", 2022) # What does the 'my_car' instance represent?",
       "options": [
-        "Canine \\n Labrador",
-        "Labrador \\n Canine",
-        "Canine",
-        "Labrador"
+        "Car class",
+        "Toyota class",
+        "Camry class",
+        "An individual car object"
       ],
       "correct": 0,
       "explain": "",
@@ -388,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-6x8pw0",
-      "q": "Consider the following Python code: class Shape: def __init__(self, name): self.name = name def display_info(self): print(f\"I am a {self.name}\") class Circle(Shape): def __init__(self, name, radius): super().__init__(name) self.radius = radius def display_info(self): super().display_info() print(f\"My radius is {self.radius}\") # Create an instance of the Circle class my_circle = Circle(\"Circle\", 5) # Call the display_info method my_circle.display_info() What will be the output of the code?",
+      "id": "gate-1dmr0dm",
+      "q": "Consider the following Python code: class Book: def __init__(self, title, author): self.title = title self.author = author # Create an instance of the Book class my_book = Book(\"Python Programming\", \"John Doe\") # What does the 'my_book' instance represent?",
       "options": [
-        "I am a Circle \\n My radius is 5",
-        "My radius is 5 \\n I am a Circle",
-        "I am a Circle",
-        "My radius is 5"
+        "Book class",
+        "Python Programming class",
+        "John Doe class",
+        "An individual book object"
       ],
       "correct": 0,
       "explain": "",
@@ -408,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-o4yxko",
-      "q": "Consider the following Python code: class Car: def __init__(self, brand, model): self.brand = brand self.model = model def display_info(self): print(f\"{self.brand} {self.model}\") class ElectricCar(Car): def __init__(self, brand, model, battery_capacity): super().__init__(brand, model) self.battery_capacity = battery_capacity def display_info(self): super().display_info() print(f\"Battery Capacity: {self.battery_capacity} kWh\") # Create an instance of the ElectricCar class my_electric_car = ElectricCar(\"Tesla\", \"Model S\", 100) # Call the display_info method my_electric_car.display_info() What will be the output of the code?",
+      "id": "gate-19zigok",
+      "q": "Consider the following Python code: class Rectangle: def __init__(self, length, width): self.length = length self.width = width def calculate_area(self): return self.length * self.width # Create an instance of the Rectangle class my_rectangle = Rectangle(5, 8) # What does the 'my_rectangle.calculate_area()' represent?",
       "options": [
-        "Tesla Model S \\n Battery Capacity: 100 kWh",
-        "Battery Capacity: 100 kWh \\n Tesla Model S",
-        "Tesla Model S",
-        "Battery Capacity: 100 kWh"
+        "The Rectangle class",
+        "The area of a rectangle",
+        "A specific length of a rectangle",
+        "An individual rectangle object"
       ],
       "correct": 0,
       "explain": "",
@@ -428,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vsz2tr",
-      "q": "Consider the following Python code: class Book: def __init__(self, title, author): self.title = title self.author = author class EBook(Book): def __init__(self, title, author, format_type): super().__init__(title, author) self.format_type = format_type # Create an instance of the EBook class my_ebook = EBook(\"Python Basics\", \"John Doe\", \"PDF\") # Access and print attributes print(my_ebook.title) print(my_ebook.author) print(my_ebook.format_type) What will be the output of the code?",
+      "id": "gate-vmw7fw",
+      "q": "Consider the following Python code: class Animal: def __init__(self, species): self.species = species # Create an instance of the Animal class my_animal = Animal(\"Lion\") # What does the 'my_animal.species' represent?",
       "options": [
-        "Python Basics \\n John Doe \\n PDF",
-        "PDF \\n Python Basics \\n John Doe",
-        "Python Basics \\n PDF \\n John Doe",
-        "John Doe \\n Python Basics \\n PDF"
+        "Animal class",
+        "Lion class",
+        "An individual animal object",
+        "A specific species of animal"
       ],
       "correct": 0,
       "explain": "",
@@ -448,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-3hqfuc",
-      "q": "Consider the following Python code: class Animal: def __init__(self, species): self.species = species class Fish(Animal): def swim(self): print(f\"{self.species} is swimming\") # Create an instance of the Fish class my_fish = Fish(\"Goldfish\") # Call the swim method my_fish.swim() What will be the output of the code?",
+      "id": "gate-8sojkg",
+      "q": "Consider the following Python code: class Laptop: def __init__(self, brand, model): self.brand = brand self.model = model # Create an instance of the Laptop class my_laptop = Laptop(\"Dell\", \"XPS 13\") # What does the 'my_laptop.brand' represent?",
       "options": [
-        "Goldfish is swimming",
-        "Fish is swimming",
-        "Goldfish",
-        "Goldfish is moving"
+        "Laptop class",
+        "Dell class",
+        "XPS 13 class",
+        "An individual laptop object"
       ],
       "correct": 0,
       "explain": "",
@@ -468,193 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1f9fwi0",
-      "q": "Consider the following Python code: class Animal: def speak(self): return \"Animal speaks\" class Dog(Animal): def speak(self): return \"Dog barks\" What is the concept illustrated in this code?",
+      "id": "gate-v1y9k",
+      "q": "In Python, what is the purpose of the __iter__ method in a class?",
       "options": [
-        "Encapsulation",
-        "Inheritance",
-        "Polymorphism",
-        "Abstraction"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u08wci",
-      "q": "Consider the following Python code: class Shape: def area(self): pass class Rectangle(Shape): def __init__(self, length, width): self.length = length self.width = width def area(self): return self.length * self.width What principle of object-oriented programming is applied here?",
-      "options": [
-        "Abstraction",
-        "Polymorphism",
-        "Encapsulation",
-        "Inheritance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12cihmo",
-      "q": "Consider the following Python code: class Car: def __init__(self, brand): self.brand = brand class ElectricCar(Car): def __init__(self, brand, battery_capacity): super().__init__(brand) self.battery_capacity = battery_capacity What is the purpose of using `super().__init__(brand)` in the `ElectricCar` class?",
-      "options": [
-        "It initializes the battery capacity.",
-        "It calls the constructor of the superclass to set the brand attribute.",
-        "It creates an instance of the `Car` class.",
-        "It defines the constructor for the `ElectricCar` class."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mfl2a4",
-      "q": "Consider the following Python code: class Circle: def __init__(self, radius): self.radius = radius def area(self): return 3.14 * self.radius**2 class ColoredCircle(Circle): def __init__(self, radius, color): super().__init__(radius) self.color = color What concept of object-oriented programming is exemplified in this code?",
-      "options": [
-        "Encapsulation",
-        "Polymorphism",
-        "Abstraction",
-        "Inheritance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13dtwu4",
-      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.balance = balance def withdraw(self, amount): self.balance -= amount class SavingsAccount(BankAccount): def __init__(self, balance, interest_rate): super().__init__(balance) self.interest_rate = interest_rate def add_interest(self): self.balance += self.balance * self.interest_rate Which object-oriented principle is evident in the code?",
-      "options": [
-        "Polymorphism",
-        "Encapsulation",
-        "Inheritance",
-        "Abstraction"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nhhpkk",
-      "q": "Consider the following Python code: class Vehicle: def __init__(self, brand): self.brand = brand class Car(Vehicle): def __init__(self, brand, model): super().__init__(brand) self.model = model What concept of object-oriented programming is demonstrated in this code?",
-      "options": [
-        "Polymorphism",
-        "Encapsulation",
-        "Inheritance",
-        "Abstraction"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e885l0",
-      "q": "Consider the following Python code: class Employee: def __init__(self, name, salary): self.name = name self.salary = salary def display_info(self): return f\"{self.name} earns {self.salary} per month.\" class Manager(Employee): def __init__(self, name, salary, team_size): super().__init__(name, salary) self.team_size = team_size Which object-oriented principle is applied in this code?",
-      "options": [
-        "Encapsulation",
-        "Inheritance",
-        "Polymorphism",
-        "Abstraction"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v0navh",
-      "q": "Consider the following Python code: class Shape: def area(self): pass class Triangle(Shape): def __init__(self, base, height): self.base = base self.height = height def area(self): return 0.5 * self.base * self.height What principle of object-oriented programming is applied here?",
-      "options": [
-        "Abstraction",
-        "Polymorphism",
-        "Encapsulation",
-        "Inheritance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dfswhd",
-      "q": "Consider the following Python code: class Fruit: def __init__(self, color): self.color = color class Apple(Fruit): def __init__(self, color, variety): super().__init__(color) self.variety = variety What is the purpose of `super().__init__(color)` in the `Apple` class?",
-      "options": [
-        "It initializes the color attribute of the Apple class.",
-        "It defines the constructor for the Apple class.",
-        "It creates an instance of the Fruit class.",
-        "It calls the constructor of the superclass to set the color attribute."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Classes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vgm22g",
-      "q": "Consider the following Python code: class Book: def __init__(self, title, author): self.title = title self.author = author class EBook(Book): def __init__(self, title, author, format_type): super().__init__(title, author) self.format_type = format_type What object-oriented principle is evident in this code?",
-      "options": [
-        "Polymorphism",
-        "Encapsulation",
-        "Inheritance",
-        "Abstraction"
+        "It initializes an iterator for the class.",
+        "It defines the behavior of the class when used in a loop.",
+        "It is called when an object is instantiated.",
+        "It indicates the inheritance hierarchy of the class."
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Time Response Of Reactive Circuits",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-1yogab0",
-      "q": "If the capacitor in an integrator opens, the output has the same voltage as the input.",
+      "id": "gate-kqvhbg",
+      "q": "The flat portions of a pulse waveform contain low-frequency components.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-cu4jq",
-      "q": "The rising and falling edges of a pulse waveform contain the higher frequency component.",
+      "id": "gate-1xslt8g",
+      "q": "In an RL differentiating circuit, the output voltage is taken across the resistor.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-13gxo68",
-      "q": "In an electric circuit, the reaction of a circuit to a given pulse input is known as the pulse response.",
+      "id": "gate-1y8no20",
+      "q": "In an RC integrating circuit, the output voltage is taken across the capacitor.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1blxx8c",
-      "q": "In an RC differentiating circuit, the output voltage is taken across the resistor.",
+      "id": "gate-1yoyqoo",
+      "q": "A dc component is the peak value of a pulse waveform.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1vd82mk",
-      "q": "In an integrator, when the pulse width of the input is much less than the transient time, the output voltage approaches the shape of the input.",
+      "id": "gate-13es1da",
+      "q": "In an RL integrating circuit, the output voltage is taken across the inductor.",
       "options": [
         "True",
         "False"
@@ -98,33 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-2g0evh",
-      "q": "When a 15 V input pulse with a width equal to two time constants is applied to an RC integrator, the capacitor charges to",
+      "id": "gate-1rxkbcg",
+      "q": "Referring this circuit, determine the maximum output voltage when a single pulse is applied as shown. The total resistance is 60 .",
       "options": [
-        "15 V",
-        "12.9 V",
-        "8.6 V",
-        "19.45 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gc9nff",
-      "q": "An integrator consists of a 3.3 k resistor and a 2 F capacitor. A single 30 V, 6 ms pulse is applied to the input. How much will the capacitor charge?",
-      "options": [
-        "10.3 V",
+        "2.73 V",
+        "27.33 V",
         "30 V",
-        "12.09 V",
-        "17.91 V"
+        "2.67 V"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-rff77s",
-      "q": "Referring to Problem 5, how long will it take the capacitor to discharge if the internal resistance of the pulse source is 100 ?",
+      "id": "gate-1b4csnc",
+      "q": "A steady-state condition is reached when",
       "options": [
-        "300 s",
-        "600 s",
-        "900 s",
-        "1.5 ms"
+        "the output voltage reaches the average value of the input voltage",
+        "the output voltage reaches the input voltage",
+        "the output voltage reaches approximately 63% of the input voltage",
+        "the output voltage reaches the effective value of the input voltage"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yztgev",
-      "q": "With an RL integrator, at the instant of the rising pulse edge,",
+      "id": "gate-1ugijjc",
+      "q": "Referring to the give circuit, the output will",
       "options": [
-        "all the input voltage is across the resistor",
-        "all the input voltage is across the inductor",
-        "63 percent of the input voltage is across the resistor",
-        "63 percent of the input voltage is across the inductor"
+        "decay to zero at the end of the pulse",
+        "reach 6 V at the end of the pulse",
+        "reach 3.78 V at the end of the pulse",
+        "reach 5.16 V at the end of the pulse"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-oaz924",
-      "q": "When a 12 V input pulse with a width equal to one time constant is applied to an RC integrator, the capacitor charges to",
+      "id": "gate-dlwj0s",
+      "q": "A single 6 V pulse with a width of 600 s is applied to an integrator consisting of a 150 k resistor and a 0.002 F capacitor. To what voltage will the capacitor charge?",
       "options": [
         "0 V",
-        "12 V",
-        "6.3 V",
-        "7.56 V"
+        "3.78 V",
+        "5.16 V",
+        "6 V"
       ],
       "correct": 0,
       "explain": "",
@@ -198,12 +178,12 @@
       "tags": []
     },
     {
-      "id": "gate-1wvoo",
-      "q": "If the capacitor in an integrator becomes leaky,",
+      "id": "gate-1nizzso",
+      "q": "To understand how the output voltage is shaped by a differentiator, you must consider",
       "options": [
-        "the time constant will be effectively reduced",
-        "the waveshape of the output voltage across C is altered",
-        "the amplitude of the output is reduced",
+        "the response to the rising pulse edge",
+        "the response between the rising and falling edges",
+        "the response to the falling pulse edge",
         "all of the above"
       ],
       "correct": 0,
@@ -218,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-zy9x94",
-      "q": "Referring to the above figure, determine the voltage level that the output will reach during the pulse.",
+      "id": "gate-u6orzc",
+      "q": "If a periodic pulse waveform has a pulse width and the time between pulses each equal to or greater than five time constants, the capacitor will",
       "options": [
-        "0 V",
-        "15 V",
-        "6.3 V",
-        "9.45 V"
+        "partially charge and fully discharge during each period of the input waveform",
+        "fully charge and partially discharge during each period of the input waveform",
+        "fully charge and fully discharge during each period of the input waveform",
+        "partially charge and partially discharge during each period of the input waveform"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bg43oj",
-      "q": "An RC differentiator acts as a",
+      "id": "gate-1r7pmyc",
+      "q": "What is the highest frequency contained in a pulse that has a rise and fall time equal to 10 microseconds (10 s)?",
       "options": [
-        "low-pass filter",
-        "high-pass filter",
-        "band-pass filter",
-        "band-stop filter"
+        "35 kHz",
+        "3.5 kHz",
+        "10 kHz",
+        "100 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nrehmc",
-      "q": "In an RL differentiator, when the input pulse goes from its low level to its high level,",
+      "id": "gate-3x69i4",
+      "q": "In electronic systems, repetitive-pulse waveforms are encountered",
       "options": [
-        "the inductor prevents a sudden change in voltage",
-        "the inductor prevents a sudden change in current",
-        "voltage across the inductor instantly reaches 63% of input voltage",
-        "voltage across the inductor is zero"
+        "more often than single pulses",
+        "less often than single pulses",
+        "about as often as single pulses",
+        "twice as often as single pulses"
       ],
       "correct": 0,
       "explain": "",
@@ -278,113 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jy8nwg",
-      "q": "Referring this figure, on the falling edge,",
+      "id": "gate-zix75c",
+      "q": "In an RC differentiator, the capacitor",
       "options": [
-        "the resistor voltage drops to &#8211;5 V and then goes back to zero exponentially",
-        "the resistor voltage jumps to &#8211;5 V and then goes back to zero exponentially",
-        "the capacitor voltage remains constant",
-        "the resistor voltage jumps to +5 V and then decreases exponentially to zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13a5dg8",
-      "q": "In an RC differentiator, responding to repetitive pulses, the average value of the output",
-      "options": [
-        "is zero",
-        "is equal to the input voltage",
-        "is 63 percent of the input voltage",
-        "cannot be determined"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14s9t4g",
-      "q": "The output of an RC integrator is taken across the",
-      "options": [
-        "diode",
-        "capacitor",
-        "resistor",
-        "source"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wv6j4w",
-      "q": "In an RC differentiator, the sum of the capacitor voltage and the resistor voltage at any instant",
-      "options": [
-        "must be zero",
-        "must be equal to the applied voltage",
-        "is less than the applied voltage but greater than zero",
-        "cannot be determined"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k2ixf8",
-      "q": "When a 24 V input pulse with a width equal to five time constants is applied to an RC integrator, the capacitor charges to",
-      "options": [
-        "24 V",
-        "15.12 V",
-        "20.64 V",
-        "12 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-125gdvg",
-      "q": "If the RC time constant of an integrator is increased, as the time constant is increased",
-      "options": [
-        "the capacitor charges more during a pulse and discharges less between pulses",
-        "the capacitor charges less during a pulse and discharges more between pulses",
-        "the capacitor charges more during a pulse and discharges more between pulses",
-        "the capacitor charges less during a pulse and discharges less between pulses"
+        "charges exponentially at a rate depending on the RC time constant",
+        "charges exponentially at a rate depending on the input voltage",
+        "charges when the input voltage is decreasing",
+        "charges to approximately one time constant"
       ],
       "correct": 0,
       "explain": "",

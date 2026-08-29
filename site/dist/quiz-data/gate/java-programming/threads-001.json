@@ -8,13 +8,13 @@
   "count": 18,
   "questions": [
     {
-      "id": "gate-1c7s9ro",
-      "q": "What will be the output of the program? class s1 extends Thread { public void run() { for(int i = 0; i &lt; 3; i++) { System.out.println(\"A\"); System.out.println(\"B\"); } } } class Test120 extends Thread { public void run() { for(int i = 0; i &lt; 3; i++) { System.out.println(\"C\"); System.out.println(\"D\"); } } public static void main(String args[]) { s1 t1 = new s1(); Test120 t2 = new Test120(); t1.start(); t2.start(); } }",
+      "id": "gate-1o2iuwi",
+      "q": "What will be the output of the program? class MyThread extends Thread { MyThread() { System.out.print(\" MyThread\"); } public void run() { System.out.print(\" bar\"); } public void run(String s) { System.out.println(\" baz\"); } } public class TestThreads { public static void main (String [] args) { Thread t = new MyThread() { public void run() { System.out.println(\" foo\"); } }; t.start(); } }",
       "options": [
-        "Compile time Error There is no start() method",
-        "Will print in this order AB CD AB...",
-        "Will print but not be able to predict the Order",
-        "Will print in this order ABCD...ABCD..."
+        "foo",
+        "MyThread foo",
+        "MyThread bar",
+        "foo bar"
       ],
       "correct": 0,
       "explain": "",
@@ -28,113 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t9bkji",
-      "q": "What will be the output of the program? class s implements Runnable { int x, y; public void run() { for(int i = 0; i &lt; 1000; i++) synchronized(this) { x = 12; y = 12; } System.out.print(x + \" \" + y + \" \"); } public static void main(String args[]) { s run = new s(); Thread t1 = new Thread(run); Thread t2 = new Thread(run); t1.start(); t2.start(); } }",
+      "id": "gate-gnjcc8",
+      "q": "What will be the output of the program? class MyThread extends Thread { public static void main(String [] args) { MyThread t = new MyThread(); t.start(); System.out.print(\"one. \"); t.start(); System.out.print(\"two. \"); } public void run() { System.out.print(\"Thread \"); } }",
       "options": [
-        "DeadLock",
-        "It print 12 12 12 12",
-        "Compilation Error",
-        "Cannot determine output."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Threads",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ge1kmn",
-      "q": "What will be the output of the program? public class ThreadDemo { private int count = 1; public synchronized void doSomething() { for (int i = 0; i &lt; 10; i++) System.out.println(count++); } public static void main(String[] args) { ThreadDemo demo = new ThreadDemo(); Thread a1 = new A(demo); Thread a2 = new A(demo); a1.start(); a2.start(); } } class A extends Thread { ThreadDemo demo; public A(ThreadDemo td) { demo = td; } public void run() { demo.doSomething(); } }",
-      "options": [
-        "It will print the numbers 0 to 19 sequentially",
-        "It will print the numbers 1 to 20 sequentially",
-        "It will print the numbers 1 to 20, but the order cannot be determined",
-        "The code will not compile."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Threads",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4majo1",
-      "q": "What will be the output of the program? public class WaitTest { public static void main(String [] args) { System.out.print(\"1 \"); synchronized(args) { System.out.print(\"2 \"); try { args.wait(); /* Line 11 */ } catch(InterruptedException e){ } } System.out.print(\"3 \"); } }",
-      "options": [
-        "It fails to compile because the IllegalMonitorStateException of wait() is not dealt with in line 11.",
-        "1 2 3",
-        "1 3",
-        "1 2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Threads",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1itll3k",
-      "q": "What will be the output of the program? public class SyncTest { public static void main (String [] args) { Thread t = new Thread() { Foo f = new Foo(); public void run() { f.increase(20); } }; t.start(); } } class Foo { private int data = 23; public void increase(int amt) { int x = data; data = x + amt; } } and assuming that data must be protected from corruption, whatâ€”if anythingâ€”can you add to the preceding code to ensure the integrity of data?",
-      "options": [
-        "Synchronize the run method.",
-        "Wrap a synchronize(this) around the call to f.increase().",
-        "The existing code will cause a runtime exception.",
-        "Synchronize the increase() method"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Threads",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vxgwqk",
-      "q": "What will be the output of the program? public class Test107 implements Runnable { private int x; private int y; public static void main(String args[]) { Test107 that = new Test107(); (new Thread(that)).start(); (new Thread(that)).start(); } public synchronized void run() { for(int i = 0; i &lt; 10; i++) { x++; y++; System.out.println(\"x = \" + x + \", y = \" + y); /* Line 17 */ } } }",
-      "options": [
-        "Compilation error.",
-        "Will print in this order: x = 1 y = 1 x = 2 y = 2 x = 3 y = 3 x = 4 y = 4 x = 5 y = 5... but the output will be produced by both threads running simultaneously.",
-        "Will print in this order: x = 1 y = 1 x = 2 y = 2 x = 3 y = 3 x = 4 y = 4 x = 5 y = 5... but the output will be produced by first one thread then the other. This is guaranteed by the synchronised code.",
-        "Will print in this order x = 1 y = 2 x = 3 y = 4 x = 5 y = 6 x = 7 y = 8..."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Threads",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gnj8nw",
-      "q": "What will be the output of the program? public class Test { public static void main (String [] args) { final Foo f = new Foo(); Thread t = new Thread(new Runnable() { public void run() { f.doStuff(); } }); Thread g = new Thread() { public void run() { f.doStuff(); } }; t.start(); g.start(); } } class Foo { int x = 5; public void doStuff() { if (x &lt; 10) { // nothing to do try { wait(); } catch(InterruptedException ex) { } } else { System.out.println(\"x is \" + x++); if (x &gt;= 10) { notify(); } } } }",
-      "options": [
-        "The code will not compile because of an error on notify(); of class Foo.",
-        "The code will not compile because of some other error in class Test.",
+        "Compilation fails",
         "An exception occurs at runtime.",
-        "It prints \"x is 5 x is 6\"."
+        "It prints \"Thread one. Thread two.\"",
+        "The output cannot be determined."
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-p79dkc",
-      "q": "What will be the output of the program? class MyThread extends Thread { public static void main(String [] args) { MyThread t = new MyThread(); Thread x = new Thread(t); x.start(); /* Line 7 */ } public void run() { for(int i = 0; i &lt; 3; ++i) { System.out.print(i + \"..\"); } } }",
+      "id": "gate-unnxmw",
+      "q": "What will be the output of the program? class MyThread extends Thread { MyThread() {} MyThread(Runnable r) {super(r); } public void run() { System.out.print(\"Inside Thread \"); } } class MyRunnable implements Runnable { public void run() { System.out.print(\" Inside Runnable\"); } } class Test { public static void main(String[] args) { new MyThread().start(); new MyThread(new MyRunnable()).start(); } }",
       "options": [
-        "Compilation fails.",
-        "1..2..3..",
-        "0..1..2..3..",
-        "0..1..2.."
+        "Prints \"Inside Thread Inside Thread\"",
+        "Prints \"Inside Thread Inside Runnable\"",
+        "Does not compile",
+        "Throws exception at runtime"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hyj58w",
-      "q": "What is the name of the method used to start a thread execution?",
+      "id": "gate-iwskmc",
+      "q": "What will be the output of the program? class s1 implements Runnable { int x = 0, y = 0; int addX() {x++; return x;} int addY() {y++; return y;} public void run() { for(int i = 0; i &lt; 10; i++) System.out.println(addX() + \" \" + addY()); } public static void main(String args[]) { s1 run1 = new s1(); s1 run2 = new s1(); Thread t1 = new Thread(run1); Thread t2 = new Thread(run2); t1.start(); t2.start(); } }",
       "options": [
-        "init();",
-        "start();",
-        "run();",
-        "resume();"
+        "Compile time Error: There is no start() method",
+        "Will print in this order: 1 1 2 2 3 3 4 4 5 5...",
+        "Will print but not exactly in an order (e.g: 1 1 2 2 1 1 3 3...)",
+        "Will print in this order: 1 2 3 4 5 6... 1 2 3 4 5 6..."
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +88,33 @@
       "tags": []
     },
     {
-      "id": "gate-ijoy2s",
-      "q": "Which two are valid constructors for Thread? Thread(Runnable r, String name) Thread() Thread(int priority) Thread(Runnable r, ThreadGroup g) Thread(Runnable r, int priority)",
+      "id": "gate-11d9fw8",
+      "q": "What will be the output of the program? public class Q126 implements Runnable { private int x; private int y; public static void main(String [] args) { Q126 that = new Q126(); (new Thread(that)).start( ); /* Line 8 */ (new Thread(that)).start( ); /* Line 9 */ } public synchronized void run( ) /* Line 11 */ { for (;;) /* Line 13 */ { x++; y++; System.out.println(\"x = \" + x + \"y = \" + y); } } }",
       "options": [
-        "1 and 3",
-        "2 and 4",
+        "An error at line 11 causes compilation to fail",
+        "Errors at lines 8 and 9 cause compilation to fail.",
+        "The program prints pairs of values for x and y that might not always be the same on the same line (for example, \"x=2, y=1\")",
+        "The program prints pairs of values for x and y that are always the same on the same line (for example, \"x=1, y=1\". In addition, each value appears once (for example, \"x=1, y=1\" followed by \"x=2, y=2\")"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Threads",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hh4e8",
+      "q": "Which two can be used to create a new Thread? Extend java.lang.Thread and override the run() method. Extend java.lang.Runnable and override the start() method. Implement java.lang.Thread and implement the run() method. Implement java.lang.Runnable and implement the run() method. Implement java.lang.Thread and implement the start() method.",
+      "options": [
         "1 and 2",
-        "2 and 5"
+        "2 and 3",
+        "1 and 4",
+        "3 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mqxru3",
-      "q": "Which three are methods of the Object class? notify(); notifyAll(); isInterrupted(); synchronized(); interrupt(); wait(long msecs); sleep(long msecs); yield();",
+      "id": "gate-wfawgs",
+      "q": "Which two statements are true? Deadlock will not occur if wait()/notify() is used A thread will resume execution as soon as its sleep duration expires. Synchronization can prevent two objects from being accessed by the same thread. The wait() method is overloaded to accept a duration. The notify() method is overloaded to accept a duration. Both wait() and notify() must be called from a synchronized context.",
       "options": [
-        "1, 2, 4",
-        "2, 4, 5",
-        "1, 2, 6",
-        "2, 3, 4"
+        "1 and 2",
+        "3 and 5",
+        "4 and 6",
+        "1 and 3"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bws8tw",
-      "q": "class X implements Runnable { public static void main(String args[]) { /* Missing code? */ } public void run() {} } Which of the following line of code is suitable to start a thread ?",
+      "id": "gate-3n8vrw",
+      "q": "The following block of code creates a Thread using a Runnable target: Runnable target = new MyRunnable(); Thread myThread = new Thread(target); Which of the following classes can be used to create the target, so that the preceding code compiles correctly?",
       "options": [
-        "Thread t = new Thread(X);",
-        "Thread t = new Thread(X); t.start();",
-        "X run = new X(); Thread t = new Thread(run); t.start();",
-        "Thread t = new Thread(); x.run();"
+        "public class MyRunnable extends Runnable{public void run(){}}",
+        "public class MyRunnable extends Object{public void run(){}}",
+        "public class MyRunnable implements Runnable{public void run(){}}",
+        "public class MyRunnable implements Runnable{void run(){}}"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-vmrrcc",
-      "q": "Which cannot directly cause a thread to stop executing?",
+      "id": "gate-7w7u7s",
+      "q": "Which two of the following methods are defined in class Thread? start() wait() notify() run() terminate()",
       "options": [
-        "Calling the SetPriority() method on a Thread object.",
-        "Calling the wait() method on an object.",
-        "Calling notify() method on an object.",
-        "Calling read() method on an InputStream object."
+        "1 and 4",
+        "2 and 3",
+        "3 and 4",
+        "2 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-dsn69o",
-      "q": "What will be the output of the program? class Happy extends Thread { final StringBuffer sb1 = new StringBuffer(); final StringBuffer sb2 = new StringBuffer(); public static void main(String args[]) { final Happy h = new Happy(); new Thread() { public void run() { synchronized(this) { h.sb1.append(\"A\"); h.sb2.append(\"B\"); System.out.println(h.sb1); System.out.println(h.sb2); } } }.start(); new Thread() { public void run() { synchronized(this) { h.sb1.append(\"D\"); h.sb2.append(\"C\"); System.out.println(h.sb2); System.out.println(h.sb1); } } }.start(); } }",
+      "id": "gate-13mxhmc",
+      "q": "Which three guarantee that a thread will leave the running state? yield() wait() notify() notifyAll() sleep(1000) aLiveThread.join() Thread.killThread()",
       "options": [
-        "ABBCAD",
-        "ABCBCAD",
-        "CDADACB",
-        "Output determined by the underlying platform."
+        "1, 2 and 4",
+        "2, 5 and 6",
+        "3, 4 and 7",
+        "4, 5 and 7"
       ],
       "correct": 0,
       "explain": "",
@@ -288,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c2mot4",
-      "q": "class Test { public static void main(String [] args) { printAll(args); } public static void printAll(String[] lines) { for(int i = 0; i &lt; lines.length; i++) { System.out.println(lines[i]); Thread.currentThread().sleep(1000); } } } the static method Thread.currentThread() returns a reference to the currently executing Thread object. What is the result of this code?",
+      "id": "gate-i1rw6o",
+      "q": "Which of the following will directly stop the execution of a Thread?",
       "options": [
-        "Each String in the array lines will output, with a 1-second pause.",
-        "Each String in the array lines will output, with no pause in between because this method is not executed in a Thread.",
-        "Each String in the array lines will output, and there is no guarantee there will be a pause because currentThread() may not retrieve this thread.",
-        "This code will not compile."
+        "wait()",
+        "notify()",
+        "notifyall()",
+        "exits synchronized code"
       ],
       "correct": 0,
       "explain": "",
@@ -308,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-3z8zgg",
-      "q": "What will be the output of the program? class MyThread extends Thread { public static void main(String [] args) { MyThread t = new MyThread(); /* Line 5 */ t.run(); /* Line 6 */ } public void run() { for(int i=1; i &lt; 3; ++i) { System.out.print(i + \"..\"); } } }",
+      "id": "gate-1ehtb67",
+      "q": "Which method must be defined by a class implementing the java.lang.Runnable interface?",
       "options": [
-        "This code will not compile due to line 5.",
-        "This code will not compile due to line 6.",
-        "1..2..",
-        "1..2..3.."
+        "void run()",
+        "public void run()",
+        "public void start()",
+        "void run(int priority)"
       ],
       "correct": 0,
       "explain": "",
@@ -328,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vmdgew",
-      "q": "What will be the output of the program? class Test116 { static final StringBuffer sb1 = new StringBuffer(); static final StringBuffer sb2 = new StringBuffer(); public static void main(String args[]) { new Thread() { public void run() { synchronized(sb1) { sb1.append(\"A\"); sb2.append(\"B\"); } } }.start(); new Thread() { public void run() { synchronized(sb1) { sb1.append(\"C\"); sb2.append(\"D\"); } } }.start(); /* Line 28 */ System.out.println (sb1 + \" \" + sb2); } }",
+      "id": "gate-yy3vcc",
+      "q": "Which will contain the body of the thread?",
       "options": [
-        "main() will finish before starting threads.",
-        "main() will finish in the middle of one thread.",
-        "main() will finish after one thread.",
-        "Cannot be determined."
+        "run();",
+        "start();",
+        "stop();",
+        "main();"
       ],
       "correct": 0,
       "explain": "",
@@ -348,13 +268,93 @@
       "tags": []
     },
     {
-      "id": "gate-14jlgu4",
-      "q": "What will be the output of the program? public class ThreadTest extends Thread { public void run() { System.out.println(\"In run\"); yield(); System.out.println(\"Leaving run\"); } public static void main(String []argv) { (new ThreadTest()).start(); } }",
+      "id": "gate-oa7zm6",
+      "q": "Which method registers a thread in a thread scheduler?",
       "options": [
-        "The code fails to compile in the main() method",
-        "The code fails to compile in the run() method",
-        "Only the text \"In run\" will be displayed",
-        "The text \"In run\" followed by \"Leaving run\" will be displayed"
+        "run();",
+        "construct();",
+        "start();",
+        "register();"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Threads",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ovecww",
+      "q": "Assume the following method is properly synchronized and called from a thread A on an object B: wait(2000); After calling this method, when will the thread A become a candidate to get another turn at the CPU?",
+      "options": [
+        "After thread A is notified, or after two seconds.",
+        "After the lock on B is released, or after two seconds.",
+        "Two seconds after thread A is notified.",
+        "Two seconds after lock B is released."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Threads",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5hai1g",
+      "q": "Which of the following will not directly cause a thread to stop?",
+      "options": [
+        "notify()",
+        "wait()",
+        "InputStream access",
+        "sleep()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Threads",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nm8r58",
+      "q": "Which class or interface defines the wait(), notify(),and notifyAll() methods?",
+      "options": [
+        "Object",
+        "Thread",
+        "Runnable",
+        "Class"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Threads",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1znsjg",
+      "q": "public class MyRunnable implements Runnable { public void run() { // some code here } } which of these will create and start this thread?",
+      "options": [
+        "new Runnable(MyRunnable).start();",
+        "new Thread(MyRunnable).run();",
+        "new Thread(new MyRunnable()).start();",
+        "new MyRunnable().start();"
       ],
       "correct": 0,
       "explain": "",

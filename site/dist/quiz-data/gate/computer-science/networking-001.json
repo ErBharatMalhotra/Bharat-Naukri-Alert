@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Networking",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 46,
   "questions": [
     {
-      "id": "gate-nq5hb4",
-      "q": "Computers cannot communicate with each other directly over telephone lines because they use digital pulses whereas telephone lines use analog sound frequencies. What is the name of the device which permits digital to analog conversion at the start of a long distance transmission?",
+      "id": "gate-4tjwyk",
+      "q": "Which of the following refers to the terms \"residual error rate\"?",
       "options": [
-        "Interface",
-        "Modem",
-        "Attenuation",
-        "Teleprocessor"
+        "the number of bit errors per twenty four hours of continuous operation on an asynchronous line",
+        "The probability that one or more errors will be undetected when an error detection scheme is used",
+        "the probability that one or more errors will be detected when an error detection mechanism is used",
+        "signal to noise ratio divided by the ratio of energy per bit to noise per hertz"
       ],
       "correct": 0,
       "explain": "",
@@ -28,708 +28,8 @@
       "tags": []
     },
     {
-      "id": "gate-a6q5jc",
-      "q": "What is the usual number of bits transmitted simultaneously in parallel data transmission used by microcomputers?",
-      "options": [
-        "16",
-        "9",
-        "8",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7bfjhk",
-      "q": "The receive equalizer reduces delay distortions using a",
-      "options": [
-        "tapped delay lines",
-        "gearshift",
-        "descrambler",
-        "difference engine"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-efexwo",
-      "q": "Four routers have to be interconnected in a point-to-point Network. Each pair of root us may connected by a high-speed line, a medium speed line or a low speed line. Find the total number of topologies.",
-      "options": [
-        "12",
-        "81",
-        "48",
-        "729"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gpkwu8",
-      "q": "A network consists of eight NT servers. You are planning to move servers to different segments of your network, what utility should be used at each server to determine which server generates the most traffic?",
-      "options": [
-        "NBTSTAT",
-        "NETSTAT.EXE",
-        "Performance Monitor",
-        "Network Monitor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tx5we0",
-      "q": "Which network topology is considered passive?",
-      "options": [
-        "Cross",
-        "Ring",
-        "Star",
-        "Mesh"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wibvqo",
-      "q": "If a firm wanted to transmit data from 1,000 punched cards to a remote computer, they would use a(n)",
-      "options": [
-        "POS terminal",
-        "data collection terminal",
-        "batch processing terminal",
-        "intelligent terminal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ex3hbs",
-      "q": "Which address is the loopback address?",
-      "options": [
-        "0.0.0.1",
-        "127.0.0.0",
-        "127.0.0.1",
-        "255.255.255.255"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ut4jo4",
-      "q": "Error rate is",
-      "options": [
-        "an error-detecting code based on a summation operation performed on the bits to be checked.",
-        "a check bit appended to an array of binary digits to make the sum of all the binary digits.",
-        "a code in which each expression conforms to specific rules of construction, so that if certain errors occur in an expression, the resulting expression will not conform to the rules of construction and thus the presence of the errors is detected.",
-        "the ratio of the number of data units in error to the total number of data units"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uqqhji",
-      "q": "Intranets and extranets can use their network fire walls and other security features to establish secure Internet links within an enterprise or with its trading partners. Select the best fit for answer:",
-      "options": [
-        "Network Server",
-        "Virtual Private Network",
-        "Network operating system",
-        "OSI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1j6uoko",
-      "q": "Bandlimited signal is",
-      "options": [
-        "transmission of signals without modulation",
-        "a signal all of whose energy is contained within a finite frequency range",
-        "simultaneous transmission of data to a number of stations",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tlp0x0",
-      "q": "Computers in a LAN can be interconnected by radio and infrared technologies.",
-      "options": [
-        "Wireless LANs",
-        "Network Topologies",
-        "Multiplexer",
-        "Modem"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gc8vsq",
-      "q": "You have a network ID of 134.57.0.0 and you need to divide it into multiple subnets in which at least 600 host IDs for each subnet are available. You desire to have the largest amount of subnets available. Which subnet mask should you assign?",
-      "options": [
-        "255.255.224.0",
-        "255.255.240.0",
-        "255.255.248.0",
-        "255.255.255.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vcfekb",
-      "q": "How many digits of the Network User Address are known as the DNIC (Data Network Identification Code)?",
-      "options": [
-        "first three",
-        "first four",
-        "first five",
-        "first seven"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1457ah4",
-      "q": "Which of the following is the address of the router?",
-      "options": [
-        "The IP address",
-        "The TCP address",
-        "The subnet mask",
-        "The default gateway"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dt8jnt",
-      "q": "You are working with a network that has the network ID 192.168.10.0. What subnet should you use that supports four subnets and a maximum number of hosts?",
-      "options": [
-        "255.255.255.192",
-        "255.255.255.224",
-        "255.255.255.240",
-        "255.255.255.248"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ufk39w",
-      "q": "Establishing a virtual connection is functionally equivalent to",
-      "options": [
-        "Connecting as virtual memory",
-        "Physically connecting a DTE and DCE",
-        "Placing a telephone call prior to a conversation",
-        "Placing a modem prior to a conversation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ecup1o",
-      "q": "The first step in troubleshooting many problems is to verify which of the following?",
-      "options": [
-        "The subnet mask is valid",
-        "TCP/IP is installed correctly on the client",
-        "The WINS server is running",
-        "The BDC is operable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17youtw",
-      "q": "You are working with a network that is 172.16.0.0 and would like to have the maximum number of hosts per subnet. This assumes support for eight subnets. What subnet mask should you use?",
-      "options": [
-        "255.255.192.0",
-        "255.255.224.0",
-        "255.255.240.0",
-        "255.255.248.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r9ods8",
-      "q": "Which of the following files is used for NetBIOS name resolution?",
-      "options": [
-        "HOSTS",
-        "LMHOSTS",
-        "ARP",
-        "FQDN"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1is312e",
-      "q": "Which of the following device copies electrical signals from one Ethernet to another?",
-      "options": [
-        "bridge",
-        "repeater",
-        "hub",
-        "passive hub"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9ejpcw",
-      "q": "Stephanie is in charge of a small network and wants to make it simple but secure. The users want to have full control over their data and still be able to share data with the rest of the office. The networking knowledge of the office staff is basic. Which network(s) would be the best for Stephanie to set up?",
-      "options": [
-        "Peer-to-peer",
-        "Master domain",
-        "Server-based",
-        "WAN"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ixsp4g",
-      "q": "When UPC is used, the price of the item is located",
-      "options": [
-        "on the item",
-        "on the item and on the shelf",
-        "in computer storage",
-        "on the shelf and in computer storage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ijufrw",
-      "q": "Error control is needed at the transport layer because of potential errors occurring _____.",
-      "options": [
-        "from transmission line noise",
-        "in routers",
-        "from out-of-sequence delivery",
-        "from packet losses."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tqc07o",
-      "q": "Which of the following provides a storage mechanism for incoming mail but does not allow a user to download messages selectively?",
-      "options": [
-        "SMTP",
-        "DHCP",
-        "IMAP",
-        "POP3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kmizg8",
-      "q": "On a class C network with a subnet mask of 192, how many subnets are available?",
-      "options": [
-        "254",
-        "62",
-        "30",
-        "14"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14ozer4",
-      "q": "Ethernet and Token-Ring are the two most commonly used network architectures in the world. Jim has heard of the different topologies for networks and wants to choose the architecture that will provide him with the most options. Which of the following would that be? Choose the most correct answer.",
-      "options": [
-        "Token-Ring because it currently can run at both 4Mbps and 16Mbps. This means that it can be used in any topology",
-        "Ethernet, because it is cabled using fiber-optic cable",
-        "Token-Ring, because it uses a MAU",
-        "Ethernet, because it can be set up with most topologies and can use multiple transfer speeds"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pyiq58",
-      "q": "A 4 KHz noiseless channel with one sample every 125 per sec, is used to transmit digital signals. Find the bit rate (bits per second) that are sent, if CCITT 2.048 Mbps encoding is used.",
-      "options": [
-        "500 Kbps",
-        "32 Kbps",
-        "8 Kbps",
-        "64 Kbps."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l3k4sp",
-      "q": "How can you see the address of the DHCP server from which a client received its IP address?",
-      "options": [
-        "By using Advanced Properties of TCP/IP",
-        "By using IPCONFIG/ALL",
-        "By using DHCPINFO",
-        "By pinging DHCP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-eyssgt",
-      "q": "The main difference between TCP and UDP is",
-      "options": [
-        "UDP is connection oriented where as TCP is datagram service",
-        "TCP is an Internet protocol where as UDP is an ATM protocol",
-        "UDP is a datagram where as TCP is a connection oriented service",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ps92wk",
-      "q": "What operates in the Data Link and the Network layer?",
-      "options": [
-        "NIC",
-        "Bridge",
-        "Brouter",
-        "Router"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a67kto",
-      "q": "What is the name of the computer based EMMS that provides a common forum where users can check in at their convenience, post messages, actively exchange ideas and participate in ongoing discussions?",
-      "options": [
-        "E-mail",
-        "Bulletin board system (BBS)",
-        "Teleconferencing",
-        "Videoconferencing"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-khmjs8",
-      "q": "Devices on one network can communicate with devices on another network via a",
-      "options": [
-        "file server",
-        "utility server",
-        "printer server",
-        "gateway"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ybdl7k",
-      "q": "Which of the following items is not used in Local Area Networks (LANs)?",
-      "options": [
-        "Computer",
-        "Modem",
-        "Printer",
-        "Cable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wrcjqw",
-      "q": "Error detection at a data link level is achieved by",
-      "options": [
-        "bit stuffing",
-        "cyclic redundancy codes",
-        "Hamming codes",
-        "equalization"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dmxctc",
-      "q": "A subdivision of main storage created by operational software is referred to as a:",
-      "options": [
-        "compartment",
-        "time-shared program",
-        "divided core",
-        "partition"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b1r2w8",
-      "q": "Which of the following summation operation is performed on the bits to check an error-detecting code?",
+      "id": "gate-1s6l5nc",
+      "q": "Which of the following summation operations is performed on the bits to check an error-detecting code?",
       "options": [
         "Codec",
         "Coder-decoder",
@@ -748,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n84wqg",
-      "q": "The standard suit of protocols used by the Internet, intranets, extranets, and some other networks.",
+      "id": "gate-g0vgsm",
+      "q": "The research and development department at your office has been experimenting with different technologies to help improve the performance of the network. One group has been examining the use of a broadband network versus a based band network. Select the correct statement about broadband and baseband.",
       "options": [
-        "TCP/IP",
-        "Protocol",
-        "Open Systems",
-        "Internetwork processor"
+        "Broadband networks carry several channels on a single cable, whereas in a baseband network several cables carry one channel",
+        "Baseband networks carry a single channel on a single cable, whereas broadband networks carry several channels on a single cable",
+        "Baseband refers to local area networks, and broadband refers to wide area networks.",
+        "Baseband operates at a standard bit rate, whereas broadband may operate at different rates as needed"
       ],
       "correct": 0,
       "explain": "",
@@ -768,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-jhzwt8",
-      "q": "Networks that follow the 802.5 standard appear to be in a star topology but are actually operating in what type of topology?",
+      "id": "gate-njo58w",
+      "q": "An error-detecting code inserted as a field in a block of data to be transmitted is known as",
       "options": [
-        "Linear bus",
-        "Modified star",
-        "Modified ring",
-        "Ring"
+        "Frame check sequence",
+        "Error detecting code",
+        "Checksum",
+        "flow control"
       ],
       "correct": 0,
       "explain": "",
@@ -788,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-kov4pf",
-      "q": "A communications device that combines transmissions from several 1/ O devices into one line is a:",
+      "id": "gate-owos4g",
+      "q": "Modem is used in data transmission. When was it invented and in which country?",
       "options": [
-        "concentrator",
-        "modifier",
-        "multiplexer",
-        "full-duplex line"
+        "1963, USA",
+        "1965, Germany",
+        "1950, USA",
+        "1950, Japan"
       ],
       "correct": 0,
       "explain": "",
@@ -808,772 +108,12 @@
       "tags": []
     },
     {
-      "id": "gate-10ysiak",
-      "q": "The main difference between synchronous and asynchronous transmission is",
+      "id": "gate-1i2uevk",
+      "q": "Which of the following technique is used for Time-To-Line (TTL)?",
       "options": [
-        "the clocking is derived from the data in synchronous transmission",
-        "the clocking is mixed with the data in asynchronous transmission",
-        "the pulse height is different.",
-        "the bandwidth required is different"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q25nho",
-      "q": "In geosynchronous orbit, satellite",
-      "options": [
-        "remains in a fixed position so that as earth rotates, it can fully cover the earth",
-        "remains in a fixed position related to points on earth",
-        "moves faster than the earth's rotation so that it can cover larger portion of earth.",
-        "moves simultaneously"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z4mnc",
-      "q": "A proposed network infrastructure of interconnected local, regional, and global networks that would support universal interactive multimedia communications. Select the best fit for answer:",
-      "options": [
-        "Internetworked enterprise",
-        "Information super highway",
-        "Business applications of telecommunications",
-        "Client/Server networks"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xurfis",
-      "q": "What does 240 translate to in binary?",
-      "options": [
-        "11110000",
-        "00011110",
-        "00001111",
-        "11100000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15ddgy4",
-      "q": "You are working with a network that has the network ID 10.9.0.0 and contains 73 networks. In the next year, you will be adding an additional 27 branch offices to your company. For simplified management, you want to keep the most possible hosts per subnet. Which subnet mask should you management, you want to keep the most possible hosts per subnet. Which subnet mask should you use?",
-      "options": [
-        "255.224.0.0",
-        "255.240.0.0",
-        "255.248.0.0",
-        "255.252.0.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nwgx4",
-      "q": "A group of 2m - 1 routers are interconnected in a centralized binary tree, with router at each tree node. Router I communicate with router J by sending a message to the root of the tree. The root then sends the message back down to J. Then find the mean router-router path length.",
-      "options": [
-        "2 (m - 2)",
-        "2 (2m - 1)",
-        "m - 1",
-        "(2m - l)/mJ"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iagszs",
-      "q": "A modulator converts a _____ signal to a(n) _____ signal.",
-      "options": [
-        "FSK; PSK",
-        "PSK; FSK",
-        "analog; digital",
-        "digital; analog"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i974qo",
-      "q": "The birthplace of the World Wide Web is considered to be",
-      "options": [
-        "the Department of Defense",
-        "CERN",
-        "ARPA",
-        "Netscape"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b2qz8s",
-      "q": "You have purchased a MAU (Multistation Access Unit) from your computer supplier and now must decide what type of network card you should install in the workstations. Which of the following would be the most appropriate?",
-      "options": [
-        "Fast SCSI Wide",
-        "Token-Ring",
-        "ArcServe",
-        "Ethernet"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16xyzao",
-      "q": "What is the loopback address?",
-      "options": [
-        "127.0.0.1",
-        "255.0.0.0",
-        "255.255.0.0",
-        "255.255.255.255.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ujn3eo",
-      "q": "An ROP would be attached to a",
-      "options": [
-        "simplex channel",
-        "duplex channel",
-        "half duplex channel",
-        "full duplex channel"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pu0f68",
-      "q": "Number of bits per symbol used in Baudot code is",
-      "options": [
-        "1",
-        "5",
-        "8",
-        "9"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-os8kug",
-      "q": "Working of the WAN generally involves",
-      "options": [
-        "telephone lines",
-        "microwaves",
-        "satellites",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6vmdsu",
-      "q": "What does the acronym ISDN stand for?",
-      "options": [
-        "Indian Standard Digital Network",
-        "Integrated Services Digital Network",
-        "Intelligent Services Digital Network",
-        "Integrated Services Data Network"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-omszd4",
-      "q": "Which of the following services dynamically resolves NetBIOS-to-IP resolution?",
-      "options": [
-        "DNS",
-        "DHCP",
-        "WINS",
-        "LMHOSTS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-olsnow",
-      "q": "An example of a medium-speed, switched communications service is",
-      "options": [
-        "Series 1000",
-        "Dataphone 50",
-        "DDD",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ccnz4",
-      "q": "With telecommunications and a personal computer you can",
-      "options": [
-        "\"download\" free public domain programs",
-        "send letters to be printed and delivered by the post office",
-        "order goods at a substantial discount",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qo55o4",
-      "q": "What does 224 translate to in binary?",
-      "options": [
-        "11110000",
-        "00011110",
-        "00001111",
-        "11100000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u399aw",
-      "q": "What can cause a problem with communication with a client by name but not by IP address?",
-      "options": [
-        "The IP address",
-        "Static files such as an LMHOSTS file or a DNS database",
-        "Subnet mask",
-        "The default gateway"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-106yot4",
-      "q": "Which of the following is an important characteristic of LAN?",
-      "options": [
-        "application independent interfaces",
-        "unlimited expansion",
-        "low cost access for low bandwidth channels",
-        "parallel transmission"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dqoytc",
-      "q": "Which of the following is a wrong example of network layer:",
-      "options": [
-        "Internet Protocol (IP) ARPANET",
-        "X. 25 Packet Level Protocol (PLP) - ISO",
-        "Source routing and Domain naming - Usenet",
-        "X.25 level 2 - ISO"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cm16h4",
-      "q": "A 2000-character text file has to be transmitted by using a 1,200 baud modem. Can you tell how long will it take?",
-      "options": [
-        "2 seconds",
-        "20 seconds",
-        "120 seconds",
-        "12 seconds"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rb828",
-      "q": "We can receive data either through our television aerial or down our telephone lines and display this data on our television screen. What is the general name given to this process?",
-      "options": [
-        "Viewdata",
-        "Teletext",
-        "Telesoftware",
-        "Videotex"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r9aqys",
-      "q": "ASK, PSK, FSK, and QAM are examples of _____ encoding.",
-      "options": [
-        "digital-to-digital",
-        "digital-to-analog",
-        "analog-to-analog",
-        "analog-to-digital"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kqo7xg",
-      "q": "The data-link layer, in reference to the OSI model, specifies",
-      "options": [
-        "data link procedures that provide for the exchange of data via frames that can be sent and received",
-        "the interface between the X.25 network and packet mode device",
-        "the virtual circuit interface to packet-switched service",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p9sf32",
-      "q": "What function does a serial interface perform in data communication?",
-      "options": [
-        "Converts serial data into audio signals",
-        "Converts analog signals into digital signals",
-        "Converts parallel data into a stream of bits",
-        "Decodes incoming signals into computer data"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lr6jf0",
-      "q": "You need to determine whether IP information has been assigned to your Windows NT. Which utility should you use?",
-      "options": [
-        "NBTSTAT",
-        "NETSTAT",
-        "IPCONFIG",
-        "WINIPCFG"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pacn88",
-      "q": "Which utility is an all-purpose tool for troubleshooting TCP/IP problems?",
-      "options": [
-        "NBTSTAT",
-        "Netstat",
-        "PING",
-        "Hostname"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7o67r0",
-      "q": "In communication satellite, multiple repeaters are known as",
-      "options": [
-        "detector",
-        "modulator",
-        "stations",
-        "transponders"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c579n4",
-      "q": "How many digits of the DNIC (Data Network Identification Code) identify the country?",
-      "options": [
-        "first three",
-        "first four",
-        "first five",
-        "first six"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k77g2c",
-      "q": "A station in a network forwards incoming packets by placing them on its shortest output queue. What routing algorithm is being used?",
-      "options": [
-        "hot potato routing",
-        "flooding",
-        "static routing",
-        "delta routing"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-db7tis",
-      "q": "The probability that a single bit will be in error on a typical public telephone line using 4800 bps modem is 10 to the power -3. If no error detection mechanism is used, the residual error rate for a communication line using 9-bit frames is approximately equal to",
-      "options": [
-        "0.003",
-        "0.009",
-        "0.991",
-        "0.999"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k48wwj",
-      "q": "Frames from one LAN can be transmitted to another LAN via the device",
-      "options": [
-        "Router",
-        "Bridge",
-        "Repeater",
-        "Modem"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15hjryq",
-      "q": "Which of the following condition is used to transmit two packets over a medium at the same time?",
-      "options": [
-        "Contention",
-        "Collision",
-        "Synchronous",
-        "Asynchronous"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z39j6d",
-      "q": "The Internet Control Message Protocol (ICMP)",
-      "options": [
-        "allows gateways to send error a control messages to other gateways or hosts",
-        "provides communication between the Internet Protocol Software on one machine and the Internet Protocol Software on another",
-        "reports error conditions to the original source, the source must relate errors to individual application programs and take action to correct the problem",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dsg6p0",
-      "q": "Your company has a LAN in its downtown office and has now set up a LAN in the manufacturing plant in the suburbs. To enable everyone to share data and resources between the two LANs, what type of device(s) are needed to connect them? Choose the most correct answer.",
-      "options": [
-        "Modem",
-        "Cable",
-        "Hub",
-        "Router"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13ncxiw",
-      "q": "The term 'duplex' refers to the ability of the data receiving stations to echo back a confirming message to the sender. In full duplex data transmission, both the sender and the receiver",
-      "options": [
-        "cannot talk at once",
-        "can receive and send data simultaneously",
-        "can send or receive data one at a time",
-        "can do one way data transmission only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ilcd8w",
-      "q": "How many hosts are attached to each of the local area networks at your site?",
-      "options": [
-        "128",
-        "254",
-        "256",
-        "64"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Networking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-123jyg8",
-      "q": "Which of the following technique is used for fragment?",
-      "options": [
-        "a technique used in best-effort delivery systems to avoid endlessly looping packets",
+        "a technique used in best-effort delivery system to avoid endlessly looping packets.",
         "a technique used by protocols in which a lower level protocol accepts a message from a higher level protocol and places it in the data portion of the low level frame",
-        "one of the pieces that results when an IP gateway divides an IP datagram into smaller pieces for transmission across a network that cannot handle the original datagram size",
+        "One of the pieces that results when an IP gateway divides an IP datagram into smaller pieces for transmission across a network that cannot handle the original datagram size.",
         "All of the above"
       ],
       "correct": 0,
@@ -1588,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1art5sk",
-      "q": "How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communications with the host?",
+      "id": "gate-1cgnds5",
+      "q": "Communication network is",
       "options": [
-        "16 - bits",
-        "32 - bits",
-        "48 - bits",
-        "64 - bits"
+        "one or more conductors that serve as a common connection for a related group of devices",
+        "a continuous frequency capable of being modulated or impressed with a second signal",
+        "the condition with two or more stations attempt to use the same channel at the same time",
+        "a collection of interconnected functional units that provides a data communications service among stations attached to the network"
       ],
       "correct": 0,
       "explain": "",
@@ -1608,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-655hw0",
-      "q": "With an IP address of 100, you currently have 80 subnets. What subnet mask should you use to maximize the number of available hosts?",
+      "id": "gate-1wp8fyo",
+      "q": "Which of the following is an advantage to using fiber optics data transmission?",
       "options": [
-        "192",
-        "224",
-        "240",
-        "248"
+        "resistance to data theft",
+        "fast data transmission rate",
+        "low noise level",
+        "few transmission errors"
       ],
       "correct": 0,
       "explain": "",
@@ -1628,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-hjvpo8",
-      "q": "Which of the following types of channels moves data relatively slowly?",
+      "id": "gate-vaax68",
+      "q": "What protocol is used between E-Mail servers?",
       "options": [
-        "wideband channel",
-        "voiceband channel",
-        "narrowband channel",
-        "broadband channel"
+        "FTP",
+        "SMTP",
+        "SNMP",
+        "POP3"
       ],
       "correct": 0,
       "explain": "",
@@ -1648,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-56loig",
-      "q": "Which of the following is required to communicate between two computers?",
+      "id": "gate-1jum8n8",
+      "q": "If you configure the TCP/IP address and other TCP/IP parameters manually, you can always verify the configuration through which of the following? Select the best answer.",
       "options": [
-        "communications software",
-        "protocol",
-        "communications hardware",
-        "access to transmission medium"
+        "Network Properties dialog box",
+        "Server Services dialog box",
+        "DHCPINFO command-line utility",
+        "Advanced Properties tab of TCP/ IP Info."
       ],
       "correct": 0,
       "explain": "",
@@ -1668,13 +208,13 @@
       "tags": []
     },
     {
-      "id": "gate-k6rzfh",
-      "q": "Which of the following does not allow multiple users or devices to share one communications line?",
+      "id": "gate-parnpo",
+      "q": "In a PC to telephone hookup for long distance communication, modem is connected between the telephone line and",
       "options": [
-        "doubleplexer",
-        "multipplexer",
-        "concentrator",
-        "controller"
+        "PC",
+        "synchronous port",
+        "crossover cable",
+        "asynchronous port"
       ],
       "correct": 0,
       "explain": "",
@@ -1688,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bem1ys",
-      "q": "Sending a file from your personal computer's primary memory or disk to another computer is called",
+      "id": "gate-1fxws2k",
+      "q": "Which of the following communications service provides message preparation and transmission facilities?",
       "options": [
-        "uploading",
-        "downloading",
-        "logging on",
-        "hang on"
+        "Teletex",
+        "Teletext",
+        "x400",
+        "Fax"
       ],
       "correct": 0,
       "explain": "",
@@ -1708,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-145brj8",
-      "q": "What is the name of the software package that allows people to send electronic mail along a network of computers and workstations?",
+      "id": "gate-16p73v4",
+      "q": "Four bits are used for packet sequence numbering in a sliding window protocol used in a computer network. What is the maximum window size?",
       "options": [
-        "Memory resident package",
-        "Project management package",
-        "Data communication package",
-        "Electronic mail package"
+        "4",
+        "8",
+        "15",
+        "16"
       ],
       "correct": 0,
       "explain": "",
@@ -1728,13 +268,13 @@
       "tags": []
     },
     {
-      "id": "gate-v7ryzo",
-      "q": "The communication mode that supports two-way traffic but only one direction at a time is",
+      "id": "gate-epawj4",
+      "q": "In a synchronous modem, the receive equalizer is known as",
       "options": [
-        "simplex",
-        "duplex",
-        "half duplex",
-        "multiplex"
+        "adaptive equalizer",
+        "impairment equalizer",
+        "statistical equalizer",
+        "compromise equalizer"
       ],
       "correct": 0,
       "explain": "",
@@ -1748,13 +288,13 @@
       "tags": []
     },
     {
-      "id": "gate-8q7ww0",
-      "q": "HMP (Host Monitoring Protocol) is:",
+      "id": "gate-1rf0t5w",
+      "q": "Alex is required to provide information on how many people are using the network at any one time. Which network will enable him to do so?",
       "options": [
-        "a TCP/IP protocol used to dynamically bind a high level IP Address to a low-level physical hardware address",
-        "a TCP/IP high level protocol for transferring files from one machine to another.",
-        "a protocol used to monitor computers",
-        "a protocol that handles error and control messages"
+        "Server-based",
+        "Token-Ring",
+        "Ethernet",
+        "Star"
       ],
       "correct": 0,
       "explain": "",
@@ -1768,13 +308,13 @@
       "tags": []
     },
     {
-      "id": "gate-z30n6s",
-      "q": "Which of the following is a voiceband channel?",
+      "id": "gate-1uex6k4",
+      "q": "Now-a-days computers all over the world can talk to each other. Which is one of the special accessories essential for this purpose?",
       "options": [
-        "Telephone line",
-        "Telegraph line",
-        "Coaxial cable",
-        "Microwave systems"
+        "Keyboard",
+        "Modem",
+        "Scanner",
+        "Fax"
       ],
       "correct": 0,
       "explain": "",
@@ -1788,13 +328,13 @@
       "tags": []
     },
     {
-      "id": "gate-1by3sef",
-      "q": "With an IP address set starting with 150, you currently have six offices that you are treating as subnets. Plans are in place to open 10 more offices before the end of the year. What subnet mask should you use to satisfy the needed number of subnets and maximize the number of hosts available at each site?",
+      "id": "gate-148qo4r",
+      "q": "To make possible the efficient on-line servicing of many teleprocessing system users on large computer systems, designers are developing",
       "options": [
-        "192",
-        "224",
-        "240",
-        "248"
+        "communication systems",
+        "multiprogramming systems",
+        "virtual storage systems",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -1808,13 +348,13 @@
       "tags": []
     },
     {
-      "id": "gate-xykzp0",
-      "q": "A machine that connects to two or more electronic mail systems and transfers mail messages among them is known as",
+      "id": "gate-u4b2wg",
+      "q": "Which of the following best describes the scopes on each DHCP server, in the absence of configuration problems with DHCP addresses, if you use multiple DHCP servers in your environment?",
       "options": [
-        "Gateways",
-        "mail gateway",
-        "bridges",
-        "User Agent"
+        "Unique to that subnet only",
+        "For different subnets",
+        "For no more than two subnets",
+        "For no subnets"
       ],
       "correct": 0,
       "explain": "",
@@ -1828,13 +368,13 @@
       "tags": []
     },
     {
-      "id": "gate-19kjbjw",
-      "q": "If digital data rate of 9600 bps is encoded using 8-level phase shift keying (PSK) method, the modulation rate is",
+      "id": "gate-2vkh78",
+      "q": "RS-449/442-A/423-A is",
       "options": [
-        "1200 bands",
-        "3200 bands",
-        "4800 bands",
-        "9600 bands"
+        "a set of physical layer standards developed by EIA and intended to replace RS-232-C.",
+        "a check bit appended to an array of binary digits to make the sum of the all the binary digits",
+        "a code in which each expression conforms to specific rules of construction, so that if certain errors occur in an expression the resulting expression will not conform to the rules of construction and thus the presence of the errors is detected",
+        "the ratio of the number of data units in error to the total number of data units"
       ],
       "correct": 0,
       "explain": "",
@@ -1848,13 +388,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jh2p5o",
-      "q": "When the computer provides the manager with a multiple choice of possible answers, the prompting technique is",
+      "id": "gate-8rp0sg",
+      "q": "Which of the following digits are known as the area code of the Network User Address (NUA)?",
       "options": [
-        "question and answer",
-        "form filling",
-        "open-ended question",
-        "menu selection"
+        "5-7",
+        "1-4",
+        "8-12",
+        "13-14"
       ],
       "correct": 0,
       "explain": "",
@@ -1868,8 +408,208 @@
       "tags": []
     },
     {
-      "id": "gate-18robpc",
-      "q": "Thorough planning must take place when setting up an 802.3 network. A maximum number of segments can separate any two nodes on the network. What is the maximum number of segments allowed between two nodes?",
+      "id": "gate-ma9xrc",
+      "q": "End-to-end connectivity is provided from host-to-host in:",
+      "options": [
+        "Network layer",
+        "Session layer",
+        "Data link layer",
+        "Transport layer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vk121w",
+      "q": "A form of modulation In which the amplitude of a carrier wave is varied in accordance with some characteristic of the modulating signal, is known as",
+      "options": [
+        "Aloha",
+        "Angle modulation",
+        "Amplitude modulation",
+        "modem"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10d6gsw",
+      "q": "CSMA (Carrier Sense Multiple Access) is",
+      "options": [
+        "a method of determining which device has access to the transmission medium at any time",
+        "a method access control technique for multiple-access transmission media.",
+        "a very common bit-oriented data link protocol issued by ISO.",
+        "network access standard for connecting stations to a circuit-switched network"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jz4l7i",
+      "q": "Most networks are connected to other local area or wide area networks. Select the best fit for answer:",
+      "options": [
+        "Internet works",
+        "The Internet",
+        "Internet revolution",
+        "Internet technologies"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ul8mkw",
+      "q": "You are working with a network that is 172.16.0.0 and would like to support 600 hosts per subnet. What subnet mask should you use?",
+      "options": [
+        "255.255.192.0",
+        "255.255.224.0",
+        "255.255.240.0",
+        "255.255.248.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17rb2wc",
+      "q": "A 6-MHz channel is used by a digital signaling system utilizing 4-level signals. What is the maximum possible transmission rate?",
+      "options": [
+        "1.5 Mbaud/sec",
+        "6 Mband/sec",
+        "12 Mbaud/sec",
+        "24 Mbaud/sec"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u4icov",
+      "q": "Which of the following digits are known as the sub-address digits (for use by the user) of the Network User Address (NUA)?",
+      "options": [
+        "5-7",
+        "1-4",
+        "8-12",
+        "13-14"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ouq1uc",
+      "q": "Error detecting code is",
+      "options": [
+        "an error-detecting code based on a summation operation performed on the bits to be checked",
+        "a check bit appended to an array of binary digits to make the sum of all the binary digits.",
+        "a code in which each expression conforms to specify rules of construction, so that if certain errors occur in an expression, the resulting expression will not conform to the rules of construction and thus the presence of the error is detected.",
+        "the ratio of the data units in error to the total number of data units"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ahrzx",
+      "q": "A devices that links two homogeneous packet-broadcast local networks, is",
+      "options": [
+        "gateway",
+        "repeater",
+        "bridge",
+        "hub"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10a7oyk",
+      "q": "A computer that handles resource sharing and network management in a local area network. Select the best fit for answer:",
+      "options": [
+        "Network Server",
+        "Virtual Private Network",
+        "Network operating system",
+        "OSI"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-yedod4",
+      "q": "Repeaters are often used on an 802.3 network to help strengthen the signals being transmitted. As with the length of segments and the number of segments, a limit exists as to how many repeaters can be used between any two nodes. What is the maximum number of repeaters that can be used?",
       "options": [
         "Five",
         "Two",
@@ -1888,13 +628,13 @@
       "tags": []
     },
     {
-      "id": "gate-12fes7o",
-      "q": "Identify the odd term amongst the following group:",
+      "id": "gate-oq4cf4",
+      "q": "How much power (roughly) a light-emitting diode can couple into an optical fiber?",
       "options": [
-        "Coaxial cable",
-        "Optical fibre",
-        "Twisted pair wire",
-        "Microwaves"
+        "100 microwatts",
+        "440 microwatts",
+        "100 picowatts",
+        "10 milliwatts"
       ],
       "correct": 0,
       "explain": "",
@@ -1908,12 +648,12 @@
       "tags": []
     },
     {
-      "id": "gate-qfuxws",
-      "q": "Which of the following divides the high speed signal into frequency bands?",
+      "id": "gate-exyaia",
+      "q": "A modem that is attached to the telephone system by jamming the phone's handset into two flexible receptacles in the coupler?",
       "options": [
-        "t-switch",
-        "modem",
-        "frequency-division multiplexer",
+        "gateway",
+        "bridge",
+        "acoustic coupler",
         "time-division multiplexer"
       ],
       "correct": 0,
@@ -1928,13 +668,13 @@
       "tags": []
     },
     {
-      "id": "gate-lxwlrk",
-      "q": "What is the first octet range for a class C IP address?",
+      "id": "gate-vt9gds",
+      "q": "Telecommunications networks come in a wide range of speed and capacity capabilities. Select the best fit for answer:",
       "options": [
-        "192 - 255",
-        "192 - 223",
-        "192 - 226",
-        "128 - 191"
+        "Bandwidth alternatives",
+        "Switching alternating",
+        "Inter organizational networks",
+        "Extranets"
       ],
       "correct": 0,
       "explain": "",
@@ -1948,13 +688,13 @@
       "tags": []
     },
     {
-      "id": "gate-l4wi4s",
-      "q": "The transmission signal coding method of TI carrier is called",
+      "id": "gate-1bx94c5",
+      "q": "A modem is connected in between a telephone line and a",
       "options": [
-        "Bipolar",
-        "NRZ",
-        "Manchester",
-        "Binary"
+        "network",
+        "computer",
+        "communication adapter",
+        "serial port"
       ],
       "correct": 0,
       "explain": "",
@@ -1968,13 +708,13 @@
       "tags": []
     },
     {
-      "id": "gate-f2ggys",
-      "q": "You are working with a network that has the network ID 192.168.10.0 and require nine subsets for your company and the maximum number of hosts. What subnet mask should you use?",
+      "id": "gate-1ib013o",
+      "q": "What frequency range is used for TV transmission and low power microwave applications?",
       "options": [
-        "255.255.255.192",
-        "255.255.255.224",
-        "255.255.255.240",
-        "255.255.255.248"
+        "Very Low Frequency : 3 kHz to 30 kHz",
+        "Medium Frequency : 300 kHz to 3 MHz",
+        "Ultra High Frequency : 300 MHz to 3000 MHz",
+        "Super High Frequency : 3000 MHz to 30000 MHz"
       ],
       "correct": 0,
       "explain": "",
@@ -1988,13 +728,193 @@
       "tags": []
     },
     {
-      "id": "gate-19zoke8",
-      "q": "Messages from one computer terminal can be sent to another by using data networks. The message to be sent is converted to an electronic digital signal, transmitted via a cable, telephone or satellite and then converted back again at the receiving end. What is this system of sending messages called?",
+      "id": "gate-1j3jyoa",
+      "q": "You have a class A network address 10.0.0.0 with 40 subnets, but are required to add 60 new subnets very soon. You would like to still allow for the largest possible number of host IDs per subnet. Which subnet mask should you assign?",
       "options": [
-        "Paperless office",
-        "Electronic mail",
-        "Global network",
-        "Electronic newspaper"
+        "255.240.0.0",
+        "255.248.0.0",
+        "255.252.0.0",
+        "255.254.0.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s7zj1i",
+      "q": "What are the most commonly used transmission speeds in BPS used in data communication?",
+      "options": [
+        "300",
+        "1200",
+        "2400",
+        "9600"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b9m5qf",
+      "q": "What is the default subnet mask for a class C network?",
+      "options": [
+        "127.0.0.1",
+        "255.0.0.0",
+        "255.255.0.0",
+        "255.255.255.0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16x97qo",
+      "q": "Which of the following is used for modulation and demodulation?",
+      "options": [
+        "modem",
+        "protocols",
+        "gateway",
+        "multiplexer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hs6s72",
+      "q": "Which of the following is not a disadvantage of wireless LAN?",
+      "options": [
+        "Slower data transmission",
+        "higher error rate",
+        "interference of transmissions from different computers",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t8gm20",
+      "q": "The geostationary satellite used for communication systems",
+      "options": [
+        "rotates with the earth",
+        "remains stationary relative to the earth",
+        "is positioned over equator",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fqona4",
+      "q": "Telecommunication networks frequently interconnect an organization with its customers and suppliers. Select the best fit for answer:",
+      "options": [
+        "Bandwidth alternatives",
+        "Switching alternating",
+        "Inter organizational networks",
+        "Extranets"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wxlopo",
+      "q": "The packets switching concept was first proposed",
+      "options": [
+        "in the late 1980s for the Defense Ministry of US.",
+        "in the early 1960s for military communication systems, mainly to handle speech",
+        "in the late 1950s for Defense Ministry of US",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1itl9l8",
+      "q": "The _____ houses the switches in token ring.",
+      "options": [
+        "transceiver",
+        "nine-pin connector",
+        "MAU",
+        "NIC"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Networking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1w1yllg",
+      "q": "What device separates a single network into two segments but lets the two segments appear as one to higher protocols?",
+      "options": [
+        "Switch",
+        "Bridge",
+        "Gateway",
+        "Router"
       ],
       "correct": 0,
       "explain": "",

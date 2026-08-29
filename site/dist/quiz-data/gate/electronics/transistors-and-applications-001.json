@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Transistors And Applications",
   "source": "indiabix.com",
-  "count": 11,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-rs0txa",
-      "q": "A certain amplifier has a voltage gain of 210. That gain expressed in decibels is 46.4 dB.",
+      "id": "gate-9ax34c",
+      "q": "If the drain, source, and channel of a MOSFET are all a p-type material, and it operates in both modes, this is an n-channel D-MOSFET.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-gzmnfo",
-      "q": "A decrease in base current of a CE amplifier causes the voltage measured between the emitter and the collector to increase.",
+      "id": "gate-bmk6gy",
+      "q": "A practical CE amplifier has the input on the base and the output taken off the emitter.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-rcvjuk",
-      "q": "In an n-type JFET, current will flow when a positive voltage is applied to the drain and a negative voltage is applied to the source.",
+      "id": "gate-o98qgg",
+      "q": "The maximum peak-to-peak output voltage in the given circuit is 15 V.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fjac5s",
-      "q": "An essential requirement of a feedback oscillator is a phase shift around the feedback loop of 360&#176;.",
+      "id": "gate-haktxz",
+      "q": "Base currents are usually small because of the physical construction of the thin and lightly doped base.",
       "options": [
         "True",
         "False"
@@ -80,13 +80,11 @@
       "tags": []
     },
     {
-      "id": "gate-143z81c",
-      "q": "A(n) ___ has a conductive channel only when it is biased properly.",
+      "id": "gate-11h6fhg",
+      "q": "The beta of a BJT is the ratio of collector current to emitter current.",
       "options": [
-        "p-channel JFET",
-        "n-channel D-MOSFET",
-        "p-channel D-MOSFET",
-        "n-channel E-MOSFET"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -100,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yre9qg",
-      "q": "The collector current in a class A amplifier flows for ________ of the ac input signal.",
+      "id": "gate-wkq29k",
+      "q": "The gate-source junction of a JFET must be ________ for proper linear operation.",
       "options": [
-        "< 180&#176;",
-        "180&#176;",
-        "< 360&#176;",
-        "360&#176;"
+        "forward-biased",
+        "reverse-biased",
+        "either forward-biased or reverse-biased",
+        "neutral"
       ],
       "correct": 0,
       "explain": "",
@@ -120,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-3akork",
-      "q": "Removing a bypass capacitor from a common-emitter amplifier circuit will _________ voltage gain and ________ input resistance.",
+      "id": "gate-15qyayk",
+      "q": "The ___ oscillator takes advantage of the piezoelectric effect.",
       "options": [
-        "increase, decrease",
-        "decrease, increase",
-        "decrease, decrease",
-        "increase, increase"
+        "crystal",
+        "Hartley",
+        "Colpitts",
+        "RC"
       ],
       "correct": 0,
       "explain": "",
@@ -140,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-33hqzg",
-      "q": "The gain of a BJT is called _______ and the gain of a JFET is called _______.",
+      "id": "gate-19wntfd",
+      "q": "In order to sustain oscillations in a feedback oscillator, the gain should be _________ so the product of Av &#215; B equals_______.",
       "options": [
-        "beta, alpha",
-        "transconductance, beta",
-        "beta, transconductance",
-        "transconductance, transconductance"
+        "reduced, one",
+        "reduced, less than one",
+        "increased, more than one",
+        "increased, much greater than one"
       ],
       "correct": 0,
       "explain": "",
@@ -160,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t63oog",
-      "q": "The primary function of the bias circuit is to",
+      "id": "gate-xnwsnm",
+      "q": "VCE approximately equals _______ when a transistor is in saturation.",
       "options": [
-        "hold the circuit stable at VCC",
-        "hold the circuit stable at vin",
-        "ensure proper gain is achieved",
-        "hold the circuit stable at the designed Q-point"
+        "VCC",
+        "VB",
+        "0.2 V",
+        "0.7 V"
       ],
       "correct": 0,
       "explain": "",
@@ -180,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1m5ystk",
-      "q": "A source follower has a voltage gain (Av) of",
+      "id": "gate-npqpp7",
+      "q": "The power gain (Ap) of any transistor amplifier circuit equals the ___________.",
       "options": [
-        "AV = gmRd",
-        "AV = gmRS"
+        "current gain squared",
+        "current gain times the voltage gain",
+        "voltage gain times the output resistance",
+        "current gain plus the voltage gain"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,191 @@
       "tags": []
     },
     {
-      "id": "gate-1dwvqtq",
-      "q": "The capacitor that produces an ac ground is called a(n)",
+      "id": "gate-uxxp46",
+      "q": "In a class B push-pull amplifier, the transistors are biased slightly above cutoff to avoid",
       "options": [
-        "coupling capacitor",
-        "dc open",
-        "bypass capacitor",
-        "ac open"
+        "crossover distortion",
+        "unusually high efficiency",
+        "negative feedback",
+        "a low input impedance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9uo22g",
+      "q": "The depletion-mode MOSFET",
+      "options": [
+        "can operate with only positive gate voltages",
+        "can operate with only negative gate voltages",
+        "cannot operate in the ohmic region",
+        "can operate with positive as well as negative gate voltages"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bwx11s",
+      "q": "Three different points are shown on a dc load line. The upper point represents the",
+      "options": [
+        "minimum current gain",
+        "quiescent point",
+        "saturation point",
+        "cutoff point"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t2lchs",
+      "q": "Which of the following conditions are needed to properly bias an npn transistor amplifier?",
+      "options": [
+        "Forward bias the base/emitter junction and reverse bias the base/collector junction.",
+        "Forward bias the collector/base junction and reverse bias the emitter/base junction.",
+        "Apply a positive voltage on the n-type material and a negative voltage on the p-type material.",
+        "Apply a large voltage on the base."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-khlz7o",
+      "q": "Often a common-collector will be the last stage before the load; the main function of this stage is to",
+      "options": [
+        "provide voltage gain",
+        "buffer the voltage amplifiers from the low-resistance load",
+        "provide phase inversion",
+        "provide a high-frequency path to improve the frequency response"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1f52qqw",
+      "q": "In order for feedback oscillators to have any practical value, the gain has to be",
+      "options": [
+        "< 1",
+        "self-adjusting",
+        "stabilized",
+        "nonlinear"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f8lozs",
+      "q": "To get a negative gate-source voltage in a self-biased JFET circuit, you must use a",
+      "options": [
+        "voltage divider",
+        "source resistor",
+        "ground",
+        "negative gate supply voltage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i8zy7k",
+      "q": "The voltage measured from the collector to the emitter is the sum of the voltage base-emitter plus the voltage collector-base.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r77ojz",
+      "q": "A _______________ JFET amplifier provides a voltage gain of less than one.",
+      "options": [
+        "common-source",
+        "common-channel",
+        "common-drain",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Transistors And Applications",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16cnlfi",
+      "q": "Changing ________ can control the voltage gain of a common-source amplifier.",
+      "options": [
+        "the input voltage",
+        "gm",
+        "VDD",
+        "RS"
       ],
       "correct": 0,
       "explain": "",

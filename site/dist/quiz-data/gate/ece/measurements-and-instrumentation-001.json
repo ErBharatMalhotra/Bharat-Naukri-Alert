@@ -5,11 +5,51 @@
   "subject": "ECE",
   "topic": "Measurements And Instrumentation",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 55,
   "questions": [
     {
-      "id": "gate-1plhdoo",
-      "q": "Electrostatic voltmeter is suitable only for low voltages.",
+      "id": "gate-b5t7i8",
+      "q": "Kelvin's double bridge is used to measure low resistances because",
+      "options": [
+        "it has high sensitivity",
+        "there is no thermoelectric emf",
+        "resistance variation due to temperature",
+        "effect of contact and lead resistances is eliminated"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t4dm8w",
+      "q": "Assertion (A): Shunt of an ammeter has a low resistance.Reason (R): Shunt may be connected in series or in parallel with ammeter.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15bmja2",
+      "q": "The scale of hot wire instrument is linear.",
       "options": [
         "True",
         "False"
@@ -26,13 +66,13 @@
       "tags": []
     },
     {
-      "id": "gate-11ac2j0",
-      "q": "An accelerometer has a seismic mass of 0.05 kg and spring constant of 3 x 105 N/m. If maximum displacement of mass is &plusmn; 1 mm, the maximum acceleration which can be measured is",
+      "id": "gate-98xqo7",
+      "q": "The D'Arsonval- movement can be converted into audio frequency ac ammeter by adding a",
       "options": [
-        "30 m/s2",
-        "60 m/s2",
-        "90 m/s2",
-        "120 m/s2"
+        "thermocouple",
+        "transducer",
+        "chopper",
+        "rectifier"
       ],
       "correct": 0,
       "explain": "",
@@ -46,13 +86,13 @@
       "tags": []
     },
     {
-      "id": "gate-gneqbc",
-      "q": "If an inductance L is connected in one arm of bridge and resistance R1, R2, R3 in other three arms",
+      "id": "gate-1nsvhf0",
+      "q": "The resistance of a 125 &ohm; strain gauge changes by 1 ohm for 4000 micro strain. The gauge factor is",
       "options": [
-        "the bridge cannot be balanced",
-        "the bridge can be balanced",
-        "the bridge is balanced for some specified value of frequency",
-        "the bridge is balanced for some specific values of R1, R2, R3"
+        "1.5",
+        "2",
+        "2.5",
+        "3"
       ],
       "correct": 0,
       "explain": "",
@@ -66,13 +106,13 @@
       "tags": []
     },
     {
-      "id": "gate-k9poz4",
-      "q": "A moving iron voltmeter reads 250 V when connected to 250 V dc. If connected to 250 V 50 Hz, the voltmeter reading is likely to be",
+      "id": "gate-dz7kk0",
+      "q": "The current in a circuit is measured using a 150 : 1 CT If the ammeter reads 0.6 A, the circuit current is",
       "options": [
-        "250 V",
-        "252 V",
-        "248 V",
-        "210 V"
+        "250 A",
+        "90 A",
+        "156 A",
+        "144 A"
       ],
       "correct": 0,
       "explain": "",
@@ -86,108 +126,8 @@
       "tags": []
     },
     {
-      "id": "gate-ryore5",
-      "q": "A single element strain gauge bridge has two fixed resistances R1 and R1 of 120 &ohm; each and a variable resistance which gives full deflection at 120 &ohm; for zero strain and 120.6 &ohm; for straine e. If gauge factor is 2, strain e is",
-      "options": [
-        "0.0025",
-        "0.0035",
-        "0.005",
-        "0.0075"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16euuaw",
-      "q": "A meter having 0-1000 &mu;A range and 1000 &ohm; resistance is required to be changed to 0-100 mA meter. The value of shunt resistance is about",
-      "options": [
-        "1 &ohm;",
-        "10 &ohm;",
-        "99 &ohm;",
-        "100 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nujhv6",
-      "q": "An induction wattmeter can be used for",
-      "options": [
-        "dc only",
-        "50 Hz ac only",
-        "both ac and dc",
-        "high frequency ac only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vqbfig",
-      "q": "In the balanced bridge shown in figure. X should be",
-      "options": [
-        "a self inductance having resistance",
-        "a capacitance",
-        "a non-inductive resistance",
-        "an inductance and capacitance in parallel"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1krloxo",
-      "q": "If the current in a capacitor leads the voltage by 80&deg;, the loss angle of capacitor is",
-      "options": [
-        "80&deg;",
-        "10&deg;",
-        "100&deg;",
-        "170&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o7tk0k",
-      "q": "In an induction wattmeter, the shading bands are made of non conducting material.",
+      "id": "gate-1q9zxgk",
+      "q": "A volt ratio box should have low resistance.",
       "options": [
         "True",
         "False"
@@ -204,13 +144,13 @@
       "tags": []
     },
     {
-      "id": "gate-90zny8",
-      "q": "The loss of charge method can be used to measure",
+      "id": "gate-1atwzrc",
+      "q": "A Hall effect transducer has KH = - 1 x 10-8. If B = 1 Wb/m2, I = 3 A and bismuth slab is 2 mm wide, the Hall voltage is",
       "options": [
-        "resistance of shunt",
-        "insulation resistance of cable",
-        "resistance of shunt winding",
-        "both (b) and (c)"
+        "-7.5 x 10-6 V",
+        "-15 x 10-6",
+        "-20 x 10-4 V",
+        "-22.5 x 10-4 V"
       ],
       "correct": 0,
       "explain": "",
@@ -224,13 +164,13 @@
       "tags": []
     },
     {
-      "id": "gate-flqyko",
-      "q": "Assertion (A): Maxwell bridge is for measuring inductance of medium magnitude.Reason (R): In Maxwell's bridge the unknown inductance is measured by comparing it with a capacitance.",
+      "id": "gate-xpud7k",
+      "q": "Two ammeters A and B both 0-10 A have internal resistance of 1 &ohm; and 0.5 &ohm; respectively. They are connected in parallel. If total current is 15 A, then",
       "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
+        "IA = IB = 7.5 A",
+        "IA = 5 A, IB = 10 A",
+        "IA = 10 A, IB = 5 A",
+        "IA = 9 A, IB = 6 A"
       ],
       "correct": 0,
       "explain": "",
@@ -244,13 +184,13 @@
       "tags": []
     },
     {
-      "id": "gate-1layeom",
-      "q": "Assertion (A): A semiconductor strain gauge is more accurate than a resistance strain gauge.Reason (R): The gauge factor of a semiconductor strain gauge is about 100 where as the gauge factor of a resistance strain gauge is only about 2.",
+      "id": "gate-uxt398",
+      "q": "Which of the following is not correct?",
       "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
+        "Voltmeter should have a very high resistance",
+        "An ammeter should have a very low resistance",
+        "A shunt should have a very low resistance",
+        "An electronic voltmeter draws appreciable current from source"
       ],
       "correct": 0,
       "explain": "",
@@ -264,13 +204,13 @@
       "tags": []
     },
     {
-      "id": "gate-6n9lu8",
-      "q": "Current density has the dimensions",
+      "id": "gate-1wk4204",
+      "q": "A 1 mA meter is to be converted to 1 A ammeter. The meter resistance is 100 &ohm;. The value of shunt resistance is",
       "options": [
-        "IL",
-        "IL-2",
-        "IL-3",
-        "I2L-2"
+        "0.001 &ohm;",
+        "0.1001 &ohm;",
+        "100 &ohm;",
+        "1000 &ohm;"
       ],
       "correct": 0,
       "explain": "",
@@ -284,13 +224,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y5h2mo",
-      "q": "The resistance of a dc galvanometer is 20 &ohm;. A current of 10 mA causes full scale deflection. To convert it into 0-300 V voltmeter, we have to use a series resistance of",
+      "id": "gate-o4oje8",
+      "q": "The use of thermocouple meters for ac measurement leads to a scale which is",
       "options": [
-        "30000 &ohm;",
-        "29980 &ohm;",
-        "6000 &ohm;",
-        "15 &ohm;"
+        "linear",
+        "square law",
+        "logarithmic",
+        "exponential"
       ],
       "correct": 0,
       "explain": "",
@@ -304,68 +244,8 @@
       "tags": []
     },
     {
-      "id": "gate-xpb0zo",
-      "q": "Consider the following statements Thermistor is more sensitive than platinum resistance thermometerThe resistance of thermistor is solely a function of its absolute temperature whether the source of heat is external or internalThermistor has linear temperature-resistance relationshipThermistor has linear negative temperature coefficient Of the Statements, the correct statements are",
-      "options": [
-        "1 and 2",
-        "3 and 4",
-        "1, 2, 3, 4",
-        "1, 2 and 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u0poel",
-      "q": "A moving coil meter has 10 &ohm; resistance and requires 40 mA for full scale deflection. The shunt resistance required to convert it into 0-2 A ammeter is",
-      "options": [
-        "0.1021 &ohm;",
-        "0.2041 &ohm;",
-        "0.256 &ohm;",
-        "0.4210 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jxp3ng",
-      "q": "Which of the following instruments can be used for dc as well ac upto a few MHz? Moving iron instrumentThermocouple instrumentInduction instrumentMoving coil instrument Select the correct answer as per following codes",
-      "options": [
-        "2 only",
-        "2 and 3 only",
-        "1, 2 and 3 only",
-        "2 and 4 only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rmvl1k",
-      "q": "Assertion (A): Strain measurement using strain gauge invariably requires a dummy strain gauge.Reason (R): The resistance of strain gauge depends on temperature.",
+      "id": "gate-1275czq",
+      "q": "Assertion (A): A low power factor wattmeter has special constructional features to ensure accurate measurement.Reason (R): Extension of wattmeter range in dc circuit can be easily done by using current and potential transformer.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not correct explanation of A",
@@ -384,128 +264,8 @@
       "tags": []
     },
     {
-      "id": "gate-19wlfmo",
-      "q": "If a shunt of 200 &ohm; resistance is used with a galvanometer of 1000 &ohm; resistance, the multiplying power is",
-      "options": [
-        "6",
-        "5",
-        "1/5",
-        "1/6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16tm1t8",
-      "q": "The most commonly used moving iron instruments are",
-      "options": [
-        "repulsion type",
-        "attraction type",
-        "a combination of attraction and repulsion type",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1emd59u",
-      "q": "A moving iron instrument can be used for",
-      "options": [
-        "dc only",
-        "ac only",
-        "both dc and ac",
-        "dc and high frequency ac"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z15yf4",
-      "q": "Two voltmeters are each 0-300 V range. Their internal resistances are 10 k&ohm; and 20 k&ohm; They are connected is series and a voltage of 400 V is applied. Their readings respectively will be",
-      "options": [
-        "266.6 and 133.3 V",
-        "133.3 and 266.6 V",
-        "200 V each",
-        "100 and 300 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qqvnfc",
-      "q": "A 300 V voltmeter has an accuracy of &plusmn; 2% of full scale deflection. When the reading is 222 V, the actual voltage",
-      "options": [
-        "lies between 217.56 and 226.44 V",
-        "lies between 217.4 and 226.6 V",
-        "lies between 216 and 228 V",
-        "is exact 222 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rmxphg",
-      "q": "In a thermocouple two metal junctions between metals M1 and M2 are kept at temperature T1 and T2. The thermocouple emf is produced because",
-      "options": [
-        "M1, M2 are similar and T1, T2 are equal",
-        "M1, M2 are similar but T1, T2 are unequal",
-        "M1, M2 are dissimilar but T1, T2 are equal",
-        "M1, M2 are dissimilar but T1, T2 are unequal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rofub0",
-      "q": "Hay's bridge is suitable for inductances having low L/R ratio.",
+      "id": "gate-1bdvj5u",
+      "q": "The scale of dynamometer wattmeter is non linear.",
       "options": [
         "True",
         "False"
@@ -522,11 +282,13 @@
       "tags": []
     },
     {
-      "id": "gate-s56z8g",
-      "q": "Moving iron instrument can be used for ac only.",
+      "id": "gate-17xtibs",
+      "q": "Magnetic deflection is inversely proportional to",
       "options": [
-        "True",
-        "False"
+        "voltage",
+        "(voltage)0.5",
+        "(voltage)1.5",
+        "(voltage)2"
       ],
       "correct": 0,
       "explain": "",
@@ -540,144 +302,8 @@
       "tags": []
     },
     {
-      "id": "gate-1taaxvv",
-      "q": "In electronic voltmeters the measuring device is a",
-      "options": [
-        "moving coil instrument",
-        "moving iron instrument",
-        "dynamometer instrument",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iwz4bc",
-      "q": "An ammeter has a resistance of 50 ohms and a shunt of 0.01 &ohm;. The deflection is &theta;. If the shunt resistance is increased to 0.02 &ohm;, the deflection will be.",
-      "options": [
-        "&theta;",
-        "2&theta;",
-        "0.5&theta;",
-        "0.25&theta;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r34gzw",
-      "q": "The ac bridge in figure is balanced. Z1 = 100&ang;30&deg;, Z2 = 150&ang;0&deg;, Z3 = 250&ang; - 40&deg; Then Z4 =",
-      "options": [
-        "375&ang;70&deg; &ohm;",
-        "375&ang; - 70&deg; &ohm;",
-        "150&ang;0&deg; &ohm;",
-        "150&ang;20&deg; &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nsz8bk",
-      "q": "An induction wattmeter can be used for ac only.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-169bp7c",
-      "q": "To measure a resistance of about 8 ohms we should use",
-      "options": [
-        "Kelvin's double bridge",
-        "Wheatstone bridge",
-        "Meggar",
-        "Either (b) or (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cwjgn0",
-      "q": "For measuring temperatures below 800&deg;C with high accuracy, the best instrument is",
-      "options": [
-        "optical pyrometer",
-        "thermistor based thermometer",
-        "GaAs junction diode thermometer",
-        "platinum resistance thermometer"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18m7n8s",
-      "q": "Panel instruments are generally mounted vertically.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hz5ll4",
-      "q": "Assertion (A): Many instruments use eddy current damping.Reason (R): Eddy currents set up a magnetic flux which opposes the original movement which generates them.",
+      "id": "gate-1rlwokw",
+      "q": "Assertion (A): If the resistance of shunt of an ammeter is increased, the range of ammeter is reduced.Reason (R): If the series resistance of a voltmeter is increased, the range of voltmeter is increased.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not correct explanation of A",
@@ -696,13 +322,13 @@
       "tags": []
     },
     {
-      "id": "gate-yitnck",
-      "q": "When deflecting torque and braking torque in an energy meter are zero,",
+      "id": "gate-1v7mb4s",
+      "q": "Two sinusoidal signals of equal amplitude and frequency are applied to X and Y plate of CRO respectively. The observed Lissajous pattern is a straight line. The phase shift between signals is",
       "options": [
-        "the disc rotates at steady speed",
-        "the disc is stationary",
-        "the disc accelerates",
-        "the disc retards"
+        "zero",
+        "90&deg;",
+        "either zero or 180&deg;",
+        "either 90&deg; or 270&deg;"
       ],
       "correct": 0,
       "explain": "",
@@ -716,13 +342,13 @@
       "tags": []
     },
     {
-      "id": "gate-12veo2o",
-      "q": "The sensitivity of a voltmeter using 0-5 mA meter movement is",
+      "id": "gate-hg1k20",
+      "q": "The scale of a dynamometer is linear when used as",
       "options": [
-        "50 &ohm;/V",
-        "100 &ohm;/V",
-        "200 &ohm;/V",
-        "500 &ohm;/V"
+        "ammeter",
+        "voltmeter",
+        "wattmeter",
+        "both (a) and (c)"
       ],
       "correct": 0,
       "explain": "",
@@ -736,926 +362,12 @@
       "tags": []
     },
     {
-      "id": "gate-1srzrym",
-      "q": "Two meters X and Y require 40 mA and 50 mA for full scale deflection. Then",
+      "id": "gate-gkria1",
+      "q": "Three phase four wire induction energy meter is used to measure",
       "options": [
-        "X is more sensitive",
-        "Y is more sensitive",
-        "both are equally sensitive",
-        "it is not possible to determine from given data"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2fhu8s",
-      "q": "A dual trace CRO has",
-      "options": [
-        "one electron gun",
-        "two electron guns",
-        "one electron gun with one two pole switch",
-        "two electron guns with one two pole switch"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e06q84",
-      "q": "For measuring mutual inductance we can use",
-      "options": [
-        "Anderson bridge",
-        "Maxwell's bridge",
-        "Heaviside bridge",
-        "Either (a) or (b)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uunetw",
-      "q": "Which of these instruments is dynamometers type?",
-      "options": [
-        "Wattmeter",
-        "Power factor meter",
-        "Frequency meter",
-        "Both (a) and (b)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pre8n1",
-      "q": "The instrument used to check insulation of household wiring is",
-      "options": [
-        "megger",
-        "ohmmeter",
-        "multimeter",
-        "high resistance voltmeter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1foopdm",
-      "q": "Watthour meter is an integrating instrument",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-woe6zw",
-      "q": "An ammeter is",
-      "options": [
-        "secondary instrument",
-        "absolute instrument",
-        "recording instrument",
-        "integrating instrument"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-69nlig",
-      "q": "It is required to measure temperature in the range of 1300-1520&deg;C. The most suitable thermocouple is",
-      "options": [
-        "chromel constantan",
-        "iron constantan",
-        "chromel aluminium",
-        "platinum-rhodium"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7ixvhx",
-      "q": "Assertion (A): When frequencies of signals fed to X and Y plates of CRO are multiples of each other, Lissajous pattern is displayed on screen.Reason (R): In a CRO, the vertical deflection is proportional to voltage applied to Y plates.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12c13yg",
-      "q": "In portable instruments, damping is provided by",
-      "options": [
-        "spring",
-        "gravity",
-        "eddy current",
-        "either (a) or (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tqxq8k",
-      "q": "The sensitivity of electromagnetic digital flow meter can be increased by increasing",
-      "options": [
-        "circumferential width of rotor teeth",
-        "radial depth of rotor teeth",
-        "thickness of rotor teeth",
-        "number of teeth"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vchiko",
-      "q": "The increase in intensity of trace in a CRO causes a change in",
-      "options": [
-        "beam current",
-        "frequency of time base",
-        "gain of Y amplifier",
-        "accelerating voltage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hogohg",
-      "q": "A diode peak reading VTVM and thermocouple meter are connected across output of an amplitude modulated circuit. In the absence of modulation both meters read 10 V. When sinusoidal AM is applied, VTVM reads 15V The reading of thermocouple meter will be",
-      "options": [
-        "10 V",
-        "12.5 V",
-        "14.1 V",
-        "15 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cf7u1s",
-      "q": "A digital voltmeter can count from 0 to 9999. If full scale reading is 9.999 V, the resolution of full scale reading is",
-      "options": [
-        "0.001",
-        "1000",
-        "2 digit",
-        "1 mV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hwc6no",
-      "q": "The most serious problems in ac bridge measurement is",
-      "options": [
-        "eddy currents",
-        "leakage current",
-        "residual magnetism",
-        "stray fields"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cdnv00",
-      "q": "Assertion (A): An electrostatic voltmeter is free from hysteresis and eddy current errors.Reason (R): An electrostatic voltmeter has a number of fixed and moving vanes in parallel.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e295xg",
-      "q": "The pointer of an indicating instrument should be",
-      "options": [
-        "very light",
-        "very heavy",
-        "neither heavy nor light",
-        "heavy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-s4r54o",
-      "q": "The resistance of resistance strain gauge is about",
-      "options": [
-        "5 &ohm;",
-        "50 &ohm;",
-        "120 &ohm;",
-        "0.5 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dsfxti",
-      "q": "If M is mutual inductance between fixed and moving coils and &theta; is deflection of dynamometer instrument, then",
-      "options": [
-        "&theta; &prop; M",
-        "&theta; &prop; M2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ues2q8",
-      "q": "The switch board instruments",
-      "options": [
-        "should be mounted in vertical position",
-        "should be mounted in horizontal position",
-        "should be mounted at about 45&deg;",
-        "should be mounted at about 80&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i6e8jk",
-      "q": "Radiation pyrometer is used to measure temperature in the range of",
-      "options": [
-        "-200 to 500&deg; C",
-        "0 to 500&deg; C",
-        "500 to 1200&deg; C",
-        "1200 to 2500&deg; C"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tgzgsm",
-      "q": "The electromagnets of an induction wattmeter",
-      "options": [
-        "are laminated",
-        "are not laminated",
-        "may be laminated",
-        "must not be laminated"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9uc9f2",
-      "q": "In a vibrating reed frequency meter the natural frequency of two adjacent reeds have a difference of",
-      "options": [
-        "0.25 Hz",
-        "0.5 Hz",
-        "1.25 Hz",
-        "1 Hz"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gtjqis",
-      "q": "Burden of an instrument transformer is expressed in",
-      "options": [
-        "A",
-        "V-A",
-        "&ohm;",
-        "watt"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ohq8i4",
-      "q": "Which of the following devices should be used for accurate measurement of a low dc voltage?",
-      "options": [
-        "Small range moving coil voltmeter",
-        "Dc potentiometer",
-        "Small range thermocouple voltmeter",
-        "Hot wire instrument"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-41vqd4",
-      "q": "If &sigma; is standard deviation, variation is",
-      "options": [
-        "&sigma; - 1",
-        "&sigma;1.5",
-        "&sigma;2",
-        "&sigma;3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uh5aww",
-      "q": "An electrodynamometer instrument has the advantage of",
-      "options": [
-        "freedom from hysteresis and eddy currents because air cored coils are used",
-        "freedom from hysteresis and eddy currents because cores of coils have special ferromagnetic material",
-        "high torque/weight ratio",
-        "low cost"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gkgc27",
-      "q": "The dimensions of permittivity are",
-      "options": [
-        "L-3M-1T2Q2",
-        "L-1M-1T2Q2",
-        "L2MT-1Q-1",
-        "L-2M-1T2Q2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-opjj00",
-      "q": "The advantage of LVDT over inductive bridge type transducer is that",
-      "options": [
-        "it gives high output for small changes in core position",
-        "it can be used over a temperature range of - 265&deg;C to 600&deg;C",
-        "it can measure displacement of moving object",
-        "the error due to stray magnetic field is less"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u0allq",
-      "q": "In a Weston synchronoscope the deflecting torque is zero when",
-      "options": [
-        "currents in fixed and moving coils are in phase",
-        "currents in fixed and moving coils are out of phase by 90&deg;",
-        "currents in fixed and moving coils are out of phase by 60&deg;",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1puk2s",
-      "q": "Assertion (A): Megger is used to check insulation resistance of cables. Reason (R): Insulation resistance of cables is very high.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fh55vo",
-      "q": "Assertion (A): A power factor meter operates on dynamometer principle. Reason (R): A power factor meter does not have a control spring.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-paeciw",
-      "q": "Assertion (A): A radiation pyrometer is very suitable for high temperature measurement.Reason (R): When temperature is high, a physical contact between hot body and thermometer is not desirable.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7bwm6o",
-      "q": "The operating voltage of a megger is about",
-      "options": [
-        "100 V",
-        "12 V",
-        "6 V",
-        "1 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mieu0w",
-      "q": "An ohmmeter is a",
-      "options": [
-        "moving coil instrument",
-        "moving iron instrument",
-        "dynamometer instrument",
-        "induction instrument"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-auvcec",
-      "q": "Loading effect is primarily caused by instruments having",
-      "options": [
-        "high resistance",
-        "high sensitivity",
-        "low sensitivity",
-        "high range"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qy6bou",
-      "q": "Capacitive transducer is superior to inductive type for measurement of capacitance because of",
-      "options": [
-        "absence of non-linearity",
-        "high frequency response",
-        "small size",
-        "high accuracy"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17bu5ns",
-      "q": "Which of the following effects is used in measurement of magnetic flux?",
-      "options": [
-        "Hall effect",
-        "Seeback effect",
-        "Piezo electric effect",
-        "Photoelectric effect"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i0pap8",
-      "q": "In a CRO the Y plates are oriented",
-      "options": [
-        "horizontally",
-        "vertically",
-        "at an angle of 20&deg; of horizontal",
-        "at an angle of 70&deg; of horizontal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1radbyh",
-      "q": "The accuracy of an instrument is determined by",
-      "options": [
-        "closeness of indicated value to the actual value",
-        "repeatability of measured value",
-        "speed with which the reading approaches final value",
-        "least value which can be measured"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-loceoa",
-      "q": "If &sigma; standard deviation, probable error",
-      "options": [
-        "&sigma;",
-        "&plusmn; 1.19 &sigma;",
-        "&plusmn; 0.6745 &sigma;",
-        "&plusmn; 0.4125 &sigma;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hzlb2k",
-      "q": "Assertion (A): In two wattmeter method of 3 phase power measurement, one of the wattmeters would read negative if power factor of load is less than 0.5.Reason (R): In two wattmeter method of 3 phase power measurement, both the wattmeters would show equal readings if power factor of load is unity.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not correct explanation of A",
-        "A is true R is false",
-        "A is false R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12t58bw",
-      "q": "In a megger the moving coil meter has a permanent magnet.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yhvxr8",
-      "q": "If Eb is the potential of accelerating anode, the energy of electrons as they emerge from electron gun is proportional to",
-      "options": [
-        "Eb",
-        "Eb",
-        "Eb1.5",
-        "Eb2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5dhtsg",
-      "q": "A moving iron instrument has",
-      "options": [
-        "two iron vanes, one fixed and one movable",
-        "two movable iron vanes",
-        "two aluminium vanes, one fixed and one movable",
-        "two vanes, one fixed made of Aluminium and the other movable made of iron"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zjf48k",
-      "q": "The temperature coefficient of resistance for a thermistor is",
-      "options": [
-        "low and negative",
-        "low and positive",
-        "high and negative",
-        "high and positive"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ufng1y",
-      "q": "To measure an unknown ac voltage by an ac potentiometer it is desirable that supply for the potentiometer is taken",
-      "options": [
-        "from a battery",
-        "from a source which is not the same as unknown voltage",
-        "from the same source as the unknown voltage",
+        "energy in 3 phase balanced star load",
+        "energy in 3 phase balanced delta load",
+        "energy in 3 phase unbalanced load",
         "either (a) or (b)"
       ],
       "correct": 0,
@@ -1670,13 +382,13 @@
       "tags": []
     },
     {
-      "id": "gate-1i4hb2o",
-      "q": "A linear displacement digital transducer generally uses",
+      "id": "gate-tywtqc",
+      "q": "Thermistors are made of",
       "options": [
-        "straight binary code",
-        "BCD",
-        "gray code",
-        "hexadecimal code"
+        "pure metals",
+        "pure insulators",
+        "tintered mixture of metallic oxides",
+        "pure semiconductors"
       ],
       "correct": 0,
       "explain": "",
@@ -1690,13 +402,13 @@
       "tags": []
     },
     {
-      "id": "gate-p3j0ck",
-      "q": "An electrostatic voltmeter is suitable for",
+      "id": "gate-dfr97o",
+      "q": "The Y plates of a CRO are excited by a voltage 2 sin 100 t and the X plates are not connected. The display would be",
       "options": [
-        "low voltage at high frequency",
-        "high voltage",
-        "low voltage at low frequency",
-        "all ac and dc voltages"
+        "a vertical line",
+        "a horizontal line",
+        "sine wave",
+        "slant line"
       ],
       "correct": 0,
       "explain": "",
@@ -1710,13 +422,13 @@
       "tags": []
     },
     {
-      "id": "gate-8suyqs",
-      "q": "The flow rate of electrically conducting liquid without any suspended particle can not be measured by",
+      "id": "gate-13n8xyz",
+      "q": "Heating effect of current is used in",
       "options": [
-        "turbine flow meter",
-        "electromagnetic flow meter",
-        "ultrasonic flow meter",
-        "thermistor based heat flow meter"
+        "ammeters",
+        "voltmeters",
+        "both ammeters and voltmeters",
+        "wattmeters"
       ],
       "correct": 0,
       "explain": "",
@@ -1730,8 +442,8 @@
       "tags": []
     },
     {
-      "id": "gate-wuvkrk",
-      "q": "While calibrating an ammeter by a dc potentiometer it is necessary to use a standard resistance.",
+      "id": "gate-1cdgycg",
+      "q": "The coils of Drysdale polar potentiometer are wound non-inductively.",
       "options": [
         "True",
         "False"
@@ -1748,13 +460,13 @@
       "tags": []
     },
     {
-      "id": "gate-aj7nqc",
-      "q": "The term 'Poisson's ratio' is connected with",
+      "id": "gate-1vhazkl",
+      "q": "In figure the output V0 is",
       "options": [
-        "strain gauge",
-        "LVDT",
-        "Bourden tube",
-        "capacitance transducer"
+        "2V1 + V2 - 2V3",
+        "2(V1 + V2) - V3",
+        "V1 + V2 + V3",
+        "V1 + 2V2 - V3"
       ],
       "correct": 0,
       "explain": "",
@@ -1768,13 +480,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xvihrk",
-      "q": "To increase Q factor of a coil, the wire should be",
+      "id": "gate-16lprx6",
+      "q": "Magnetic effect of current is used in",
       "options": [
-        "long",
-        "thin",
-        "thick",
-        "long and thin"
+        "ammeters",
+        "voltmeters",
+        "wattmeters",
+        "ammeters, voltmeters, wattmeters and energy meters"
       ],
       "correct": 0,
       "explain": "",
@@ -1788,13 +500,11 @@
       "tags": []
     },
     {
-      "id": "gate-6t04vw",
-      "q": "An ammeter of 0-25 A range has a guaranteed accuracy of 1% of full scale reading. The current measured is 5 A. The limiting error is",
+      "id": "gate-1diwgp4",
+      "q": "A single phase energy meter operates on induction principle.",
       "options": [
-        "2%",
-        "2.5%",
-        "4%",
-        "5%"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -1808,13 +518,13 @@
       "tags": []
     },
     {
-      "id": "gate-ngy0g8",
-      "q": "The coil of a moving iron instrument has a resistance of 500 &ohm; and an inductance of 1 H. It reads 250 V when a 250 V dc is applied. If series resistance is 2000 &ohm;, its reading when fed by 250 V, 50 Hz ac will be",
+      "id": "gate-c8bqsw",
+      "q": "The accuracy of measurement using CRO is about",
       "options": [
-        "260 V",
-        "252 V",
-        "250 V",
-        "248 V"
+        "&plusmn; 0.5%",
+        "&plusmn; 0.05 %",
+        "&plusmn; 1%",
+        "&plusmn; 3%"
       ],
       "correct": 0,
       "explain": "",
@@ -1828,13 +538,13 @@
       "tags": []
     },
     {
-      "id": "gate-1h66n78",
-      "q": "In 3 phase power measurement by two wattmeter method, the reading of one wattmeter is zero. The power factor of load is",
+      "id": "gate-1uzgtfc",
+      "q": "The channel required for FM telemetry is",
       "options": [
-        "1",
-        "0.5",
-        "0",
-        "0.8"
+        "same as required for AM telemetry",
+        "smaller than that required by AM telemetry",
+        "100 times that required for AM telemetry",
+        "10 times that required for AM telemetry"
       ],
       "correct": 0,
       "explain": "",
@@ -1848,88 +558,8 @@
       "tags": []
     },
     {
-      "id": "gate-dr0720",
-      "q": "In a CRO which of the following is not a part of electron gun",
-      "options": [
-        "cathode",
-        "grid",
-        "accelerating anode",
-        "X - Y plates"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w7ov1k",
-      "q": "A moving coil instrument has a resistance of 0.6 &ohm; and full scale deflection at 0.1 A. To convert it into an ammeter of 0-15 A range, the resistance of shunt should be",
-      "options": [
-        "0.6 &ohm;",
-        "0.06 &ohm;",
-        "0.1 &ohm;",
-        "0.004 &ohm;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-85l4g0",
-      "q": "A piezoelectric force transducer has a charge sensitivity of 20 pC/N. It is connected to a charge amplifier and overall gain of transducer and amplifier is 50 mV/N. The gain of amplifier is",
-      "options": [
-        "1 mV/pC",
-        "1.5 mV/pC",
-        "2.5 mV/pC",
-        "4 mV/pC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h1cukk",
-      "q": "An LVDT is used to measure displacement. The LVDT feeds a Voltmeter of 0-5 V range through a 250 gain amplifier. For a displacement 0.5 mm the output of LVDT is 2 mV. The sensitivity of instrument is",
-      "options": [
-        "0.1 V/mm",
-        "0.5 V/mm",
-        "1 V/mm",
-        "5 V/mm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Measurements And Instrumentation",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wqn1go",
-      "q": "Assertion (A): When a wattmeter is used for low impedance loads, the pressure coil is connected across the load.Reason (R): A wattmeter measures apparent power.",
+      "id": "gate-14zgyh4",
+      "q": "Assertion (A): Absolute instruments are used in standard laboratories.Reason (R): Absolute instruments do not require calibration.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not correct explanation of A",
@@ -1948,8 +578,68 @@
       "tags": []
     },
     {
-      "id": "gate-vg1b8t",
-      "q": "As per BIS there are 6 accuracy classes of instruments.",
+      "id": "gate-1132dpf",
+      "q": "Assertion (A): A 3 phase wattmeter consists of two wattmeters mounted in one case.Reason (R): Power measurement in a 3 phase circuit can be conveniently done by two wattmeter method.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-57hnm7",
+      "q": "Assertion (A): CRO can be used to study waveshape accurately.Reason (R): Input impedance of a CRO is very high.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h9y8xg",
+      "q": "LVDT is used to measure",
+      "options": [
+        "displacement",
+        "pressure",
+        "temperature",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lxykve",
+      "q": "The scale of PMMC instrument is linear.",
       "options": [
         "True",
         "False"
@@ -1966,13 +656,431 @@
       "tags": []
     },
     {
-      "id": "gate-1eqywm4",
-      "q": "Which of the following measurements using a dc potentiometer do not require standardisation of potentiometer?",
+      "id": "gate-1g4lpq0",
+      "q": "Assertion (A): Thermistors are commonly used to measure hot spot temperatures in electric machines.Reason (R): Thermistor has the advantages of high temperature coefficient, small size and high speed of response.",
       "options": [
-        "Measurement of unknown voltage",
-        "Measurement of resistance",
-        "Measurement of unknown current",
-        "Calibration of voltmeter"
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nj5ke8",
+      "q": "Absolute instruments are used in",
+      "options": [
+        "laboratories",
+        "industries",
+        "power houses",
+        "standard laboratories"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ykr768",
+      "q": "The output of a Piezoelectric crystal has",
+      "options": [
+        "low amplitude and low impedance",
+        "high amplitude and low impedance",
+        "low amplitude and high impedance",
+        "high amplitude and high impedance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pdzcjc",
+      "q": "The pressure coil of a wattmeter should be connected to the supply side of the current coil when",
+      "options": [
+        "load impedance in high",
+        "load impedance is low",
+        "voltage is high",
+        "voltage is low"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ke528k",
+      "q": "A universal RLC bridge uses",
+      "options": [
+        "Maxwell bridge for measurement of inductance and De Sauty's bridge for measurement of capacitance",
+        "Maxwell's bridge for measurement of inductance and modified De Sauty bridge for measurement of capacitance",
+        "Maxwell Wien bridge for measurement of inductance and modified De Sauty bridge for measurement of inductance",
+        "Maxwell Wien bridge for measurement of inductance and Wien bridge for measurement of capacitance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10c37u0",
+      "q": "If &phi;sh is flux of shunt magnet, &phi;se is flux of series magnet, ish is eddy current due to &phi;se, the torque in an induction wattmeter is proportional to",
+      "options": [
+        "&phi;se ise + &phi;sh ish",
+        "&phi;sh ise - &phi;se ish",
+        "&phi;sh ish - &phi;se ise",
+        "&phi;sh ish + &phi;se ise"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12azug2",
+      "q": "If C is spring constant and &theta; is deflection, controlling torque is",
+      "options": [
+        "C&theta;",
+        "C/&theta;",
+        "&theta;/C",
+        "C2&theta;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i3vhvg",
+      "q": "A direct current can be measured",
+      "options": [
+        "directly by dc potentiometer",
+        "by dc potentiometer in conjunction with a standard resistance",
+        "by dc potentiometer in conjunction with volt ratio box",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zubis0",
+      "q": "Consider the following galvanometers D'ArsonvalBallisticVibration Which of these are permanent magnet moving coil instruments?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bwrhk4",
+      "q": "Assertion (A): Hall effect is observed in all metals but is very appreciable in semiconductors.Reason (R): Hall effect transducer is very suitable for measurement of magnetic flux density.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-107j3m3",
+      "q": "Assertion (A): The trigger circuit of a CRO is excited by the same signal as Y plates.Reason (R): The time base generator develops a saw tooth voltage.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ikquu4",
+      "q": "A data signal having frequency components from dc to 50 Hz is to be sent through pulse code modulation using an 8 digit code. The minimum carrier channel bandwidth is",
+      "options": [
+        "1 kHz",
+        "2 kHz",
+        "4 kHz",
+        "8 kHz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kfsy28",
+      "q": "If reference sound pressure P0 is 2 x 10-5 N/m2, a sound pressure of 90 dB is equal to",
+      "options": [
+        "0.632 N/m2",
+        "0.707 N/m2",
+        "0.835 N/m2",
+        "0.925 N/m2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ifu5xg",
+      "q": "Which of the following voltmeters would you use for measuring voltage across 20 k&ohm; resistance?",
+      "options": [
+        "Voltmeter having a resistance of 5 k&ohm;",
+        "Voltmeter having a sensitivity of 1 kW/V",
+        "Voltmeter having sensitivity of 10 kW/V",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xi2pik",
+      "q": "A single phase energy meter has the rating 1200 resolutions/ kWh. If a 500 W electric gadget is used for 4 hours, the energy meter will make",
+      "options": [
+        "1200 revolutions",
+        "1800 revolutions",
+        "2100 revolutions",
+        "2400 revolutions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eqzlx0",
+      "q": "Assertion (A): De sauty's bridge is suitable only for pure capacitor.Reason (R): Capacitors are mostly perfect.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not correct explanation of A",
+        "A is true R is false",
+        "A is false R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uzsc1g",
+      "q": "In which of the transformer is the secondary nearly short circuited under normal operating conditions?",
+      "options": [
+        "CT",
+        "PT",
+        "Distribution transformer",
+        "Power transformer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-bw6ph8",
+      "q": "A dynamometer wattmeter is connected in ac circuit. The measured power is",
+      "options": [
+        "rms power",
+        "average power",
+        "peak power",
+        "instantaneous power"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3pgxsw",
+      "q": "Loss of charge method is suitable for medium resistances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6bq5q0",
+      "q": "In two wattmeter method of 3 phase power measurement, when does one wattmeter read negative",
+      "options": [
+        "when power factor is less than 0.5 lagging",
+        "when power factor is greater than 0.5 lagging",
+        "when power factor is less than 0.5",
+        "when power factor is unity"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-195lix4",
+      "q": "It is required to measure angular position. Out of the transducers Circular potentiometerLVDTE pick upSynchro The proper devices are",
+      "options": [
+        "1, 2, 3, 4",
+        "2 and 3",
+        "1, 2, 4",
+        "1 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Measurements And Instrumentation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s56iik",
+      "q": "In figure the bridge is balanced when Z4 is",
+      "options": [
+        "120&ang;70&deg;",
+        "187.5&ang; - 10&deg;",
+        "187.5&ang; - 70&deg;",
+        "333.3&ang; - 70&deg;"
       ],
       "correct": 0,
       "explain": "",

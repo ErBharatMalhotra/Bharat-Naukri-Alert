@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Logic Gates",
   "source": "indiabix.com",
-  "count": 6,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-ly0k34",
-      "q": "A NAND gate consists of an AND gate and an OR gate connected in series with each other.",
+      "id": "gate-1q5wqow",
+      "q": "The output of an exclusive-OR (XOR) gate is 1 only when the inputs are different.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-ojtokg",
-      "q": "The exclusive-NOR (XNOR) gate is simply an OR gate followed by a NOT gate.",
+      "id": "gate-yq4wia",
+      "q": "If the output of a gate is OFF when the inputs are the same, and ON when they are different, the gate must be an exclusive-OR.",
       "options": [
         "True",
         "False"
@@ -44,13 +44,11 @@
       "tags": []
     },
     {
-      "id": "gate-1gkk3so",
-      "q": "The output will be a LOW for any case when one or more inputs are zero in a(n):",
+      "id": "gate-1c68q5s",
+      "q": "The output of a NAND gate is the same as the inverted output of an AND gate.",
       "options": [
-        "OR gate",
-        "NOT gate",
-        "AND gate",
-        "NAND gate"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -64,13 +62,11 @@
       "tags": []
     },
     {
-      "id": "gate-11v1615",
-      "q": "A single transistor can be used to build which of the following digital logic gates?",
+      "id": "gate-1sagekc",
+      "q": "Logic gate circuits contain predictable gate functions that open their outputs.",
       "options": [
-        "AND gates",
-        "OR gates",
-        "NOT gates",
-        "NAND gates"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -84,13 +80,11 @@
       "tags": []
     },
     {
-      "id": "gate-50aibi",
-      "q": "The logic gate that will have HIGH or \"1\" at its output when any one of its inputs is HIGH is a(n):",
+      "id": "gate-vjxk3b",
+      "q": "If both inputs are required to be ON for the output to be ON, the gate must be an AND gate.",
       "options": [
-        "OR gate",
-        "AND gate",
-        "NOR gate",
-        "NOT gate"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -104,13 +98,173 @@
       "tags": []
     },
     {
-      "id": "gate-1bsewzk",
-      "q": "How many NAND circuits are contained in a 7400 NAND IC?",
+      "id": "gate-1u0jea3",
+      "q": "A logic circuit whose output is LOW when at least one input is HIGH is a(n) _________ gate.",
       "options": [
-        "1",
-        "2",
+        "NOR",
+        "AND",
+        "NAND",
+        "exclusive-OR gate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xzp925",
+      "q": "The AND function can be used to ___________ and the OR function can be used to _____________.",
+      "options": [
+        "enable, disable",
+        "disable, enable",
+        "synchronize, energize",
+        "detect, invert"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dmgayw",
+      "q": "The dependency notation \" 1\" inside a block stands for the ________ operation.",
+      "options": [
+        "OR",
+        "XOR",
+        "AND",
+        "XNOR"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3pve31",
+      "q": "If we use an AND gate to inhibit a signal from passing, one of the inputs must be _________.",
+      "options": [
+        "LOW",
+        "HIGH",
+        "inverted",
+        "floating"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lcknp4",
+      "q": "Exclusive-OR (XOR) logic gates can be constructed from what other logic gates?",
+      "options": [
+        "OR gates only",
+        "AND gates and NOT gates",
+        "AND gates, OR gates, and NOT gates",
+        "OR gates and NOT gates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j2bvbc",
+      "q": "How many truth table entries are necessary for a four-input circuit?",
+      "options": [
         "4",
-        "8"
+        "8",
+        "12",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z1pf30",
+      "q": "A NAND gate has:",
+      "options": [
+        "LOW inputs and a LOW output",
+        "HIGH inputs and a HIGH output",
+        "LOW inputs and a HIGH output",
+        "None of the these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wu8tfv",
+      "q": "The basic logic gate whose output is the complement of the input is the:",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "INVERTER gate",
+        "comparator"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Logic Gates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e2ne2w",
+      "q": "What input values will cause an AND logic gate to produce a HIGH output?",
+      "options": [
+        "At least one input is HIGH.",
+        "At least one input is LOW.",
+        "All inputs are HIGH.",
+        "All inputs are LOW."
       ],
       "correct": 0,
       "explain": "",

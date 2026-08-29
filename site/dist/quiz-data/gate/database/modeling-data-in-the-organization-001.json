@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-orlc24",
-      "q": "A relationship is an association representing the interaction between attributes.",
+      "id": "gate-m4voxs",
+      "q": "An attribute is a person, place, object, event in a user environment.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fkx1sw",
-      "q": "A binary relationship is a relationship between two or more entities.",
+      "id": "gate-1fsp1ts",
+      "q": "Output reports should be included as part of an ERD.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-alofm8",
-      "q": "Some business rules cannot be represented in common data modeling notation.",
+      "id": "gate-8dhf24",
+      "q": "Cardinality specifies the number of instances of one entity that can be associated with each instance of another entity.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1kyx2hs",
-      "q": "A time stamp is a time value that is associated with a data value.",
+      "id": "gate-1tc5fp0",
+      "q": "Relationships cannot have attributes.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-10hdrik",
-      "q": "A logical representation of the data for an organization or for a business area is known as an entity-relationship model.",
+      "id": "gate-1xv49xs",
+      "q": "Business rules and policies are universal.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-4gzepg",
-      "q": "A derived attribute is an attribute whose values can be calculated from a related relationship.",
+      "id": "gate-1aywavk",
+      "q": "A rectangle represents which of the following in an ERD?",
       "options": [
-        "True",
-        "False"
+        "Attribute",
+        "Entity",
+        "Optional One",
+        "Relationship"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y0inso",
-      "q": "A fact is a word or phrase that has a specific meaning for the business.",
+      "id": "gate-1xyf7f8",
+      "q": "An entity name should be which of the following?",
       "options": [
-        "True",
-        "False"
+        "A singular noun",
+        "Specific to the organization",
+        "Concise",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1shzq9c",
-      "q": "A strong entity is an entity whose existence depends on some other entity type.",
+      "id": "gate-1vu8idk",
+      "q": "An oval represents which of the following in an ERD?",
       "options": [
-        "True",
-        "False"
+        "Attribute",
+        "Entity",
+        "Optional One",
+        "Relationship"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-10iqt8",
-      "q": "Multiple and binary relationships are the same thing.",
+      "id": "gate-1k7dcho",
+      "q": "When the minimum and maximum number of instances of an entity is one, you know which of the following?",
       "options": [
-        "True",
-        "False"
+        "Mandatory one",
+        "Optional one",
+        "Mandatory many",
+        "Cannot tell"
       ],
       "correct": 0,
       "explain": "",
@@ -170,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-g3rk0s",
-      "q": "No two attributes of the same entity type should have the same name.",
+      "id": "gate-17n7qjx",
+      "q": "An attribute name should be which of the following?",
       "options": [
-        "True",
-        "False"
+        "Singular verb or verb phrase",
+        "Follow a standard format",
+        "Use a alias",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1i1ekmc",
-      "q": "A binary relationship is which of the following?",
+      "id": "gate-1wyqs7w",
+      "q": "A composite attribute is which of the following?",
       "options": [
-        "A relationship between two attributes",
-        "A relationship between two entities",
-        "An attribute with two different relationships",
-        "An entity with two different relationships"
+        "An attribute that can be broken into components",
+        "An attribute that cannot be broken into components",
+        "Multiple attributes",
+        "An identifier"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-t95qzo",
-      "q": "If there are two entities with a relationship between them, and one of the entities is completely dependent on the other, then which of the following must exist?",
+      "id": "gate-ttw5k",
+      "q": "A binary relationship cannot be which of the following?",
       "options": [
-        "Derived attribute",
-        "Optional one cardinality",
-        "Multi-valued attribute",
-        "Weak entity"
+        "One-to-One",
+        "One-to-Many",
+        "Many-to-Many",
+        "Zero-to-Zero"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hn7568",
-      "q": "A relationship is which of the following?",
+      "id": "gate-19xna7h",
+      "q": "A ternary relationship involves how many entities?",
       "options": [
-        "A person, place, or thing",
-        "Property or characteristic of an entity",
-        "Link between entities",
-        "Weak entity"
+        "3 or less",
+        "3",
+        "More than 3",
+        "3 or more"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ky8gu4",
-      "q": "Which of the following conditions should exist if you want to convert a relationship to an associative entity?",
+      "id": "gate-azx6nh",
+      "q": "When the minimum number of instances of an entity is one, you know which of the following?",
       "options": [
-        "Some of the relationships for the participating entities are \"many\".",
-        "The resulting associative entity has an independent meaning.",
-        "The resulting associative entity has no attributes.",
-        "All of the above"
+        "Mandatory one",
+        "Optional one",
+        "Mandatory many",
+        "Cannot tell"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-czfxqk",
-      "q": "A good identifier is which of the following?",
+      "id": "gate-iigpz0",
+      "q": "A good business rule is which of the following?",
       "options": [
-        "One that can change over time",
-        "Can be null",
-        "One that is unique",
-        "Be intelligent"
+        "Declarative",
+        "Imprecise",
+        "Redundant",
+        "Compound"
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Managing Multiuser Databases",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-d3pytk",
-      "q": "When one transaction reads a changed record that has not been committed to the database a filthy read occurs.",
+      "id": "gate-13ullg",
+      "q": "Resource locking is a process to prevent multiple applications from obtaining copies of the same record when the record is about to be changed.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-10pkw2r",
-      "q": "The size of a lock is referred to as lock sizing.",
+      "id": "gate-17w7m7s",
+      "q": "The overall responsibility of the DBA is to facilitate the development and use of the database.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-15zdiz8",
-      "q": "When two transactions are being processed against the database at the same time they are termed concurrent transactions.",
+      "id": "gate-1yxgxcb",
+      "q": "The size of the lock is referred to as the lock granularity.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-bqvz44",
-      "q": "Locks placed by the DBMS are explicit locks.",
+      "id": "gate-17hqb0s",
+      "q": "A durable transaction is one in which all committed changes are permanent.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-9rchx6",
-      "q": "In optimistic locking, the assumption is made that conflict will occur.",
+      "id": "gate-vq701s",
+      "q": "An ACID transaction is one that is atomic, consistent isolated, and durable.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-r4qd48",
-      "q": "The goal of database security is to ensure that only authorized users can perform authorized activities at authorized times.",
+      "id": "gate-fu0zsi",
+      "q": "Which of the following occurs when a transaction rereads data it has previously read and finds modification or deletions caused by a committed transaction?",
       "options": [
-        "True",
-        "False"
+        "Nonrepeatable read",
+        "Phantom read",
+        "Dirty read",
+        "Consistent read"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1phl01c",
-      "q": "A phantom read occurs when a transaction rereads data it has previously read and finds modifications or deletions caused by a committed transaction.",
+      "id": "gate-12zyyo4",
+      "q": "The advantage of optimistic locking is that:",
       "options": [
-        "True",
-        "False"
+        "the lock is obtained only after the transaction has processed.",
+        "the lock is obtained before the transaction has processed.",
+        "the lock never needs to be obtained.",
+        "transactions that are best suited are those with a lot of activity."
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dbj7jw",
-      "q": "A transaction is a series of actions to be taken on the database so that either all of them are performed successfully or none of them are performed at all.",
+      "id": "gate-107bsp0",
+      "q": "Which of the following refers to a cursor type that when the cursor is opened, a primary key value is saved for each row in the recordset; when the application accesses a row, the key is used to fetch the current values of the row?",
       "options": [
-        "True",
-        "False"
+        "Forward only",
+        "Static",
+        "Keyset",
+        "Dynamic"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-zt5rm8",
-      "q": "A point of synchronization between the database and the transaction log is generally referred to as a stop point.",
+      "id": "gate-i0ry0w",
+      "q": "Which of the following refers to a cursor type where changes of any type and from any source are visible?",
       "options": [
-        "True",
-        "False"
+        "Forward only",
+        "Static",
+        "Keyset",
+        "Dynamic"
       ],
       "correct": 0,
       "explain": "",
@@ -170,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-vsjc7g",
-      "q": "An exclusive lock locks the item from change but not from read.",
+      "id": "gate-rzrmfo",
+      "q": "Which of the following disallows both dirty reads and nonrepeatable reads, but allows phantom reads?",
       "options": [
-        "True",
-        "False"
+        "Read committed",
+        "Read uncommitted",
+        "Repeatable read",
+        "Serializable"
       ],
       "correct": 0,
       "explain": "",
@@ -188,28 +198,8 @@
       "tags": []
     },
     {
-      "id": "gate-1rbzpk0",
-      "q": "Locks placed by command are called ________ .",
-      "options": [
-        "implicit locks",
-        "explicit locks",
-        "exclusive locks",
-        "shared locks"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wx5du8",
-      "q": "Which of the following locks the item from change but not from read?",
+      "id": "gate-1jl21l0",
+      "q": "Which of the following locks the item from access of any type?",
       "options": [
         "Implicit lock",
         "Explicit lock",
@@ -228,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-z9q1y0",
-      "q": "Which of the following occurs when a transaction rereads data and finds new rows that were inserted by a command transaction since the prior read?",
+      "id": "gate-1blzrb8",
+      "q": "The size of a lock is called:",
       "options": [
-        "Nonrepeatable read",
-        "Phantom read",
-        "Dirty read",
-        "Consistent read"
+        "implicit lock.",
+        "lock granularity.",
+        "exclusive lock.",
+        "shared lock."
       ],
       "correct": 0,
       "explain": "",
@@ -248,88 +238,8 @@
       "tags": []
     },
     {
-      "id": "gate-13qtj64",
-      "q": "A transaction for which all committed changes are permanent is called:",
-      "options": [
-        "atomic.",
-        "consistent.",
-        "isolated.",
-        "durable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1foj25o",
-      "q": "In this instance, dirty reads are disallowed, while nonrepeatable reads and phantom reads are allowed.",
-      "options": [
-        "Read committed",
-        "Read uncommitted",
-        "Repeatable read",
-        "Serializable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lnbbps",
-      "q": "Dirty read, nonrepeatable, and phantom reads are not possible in this instance.",
-      "options": [
-        "Read committed",
-        "Read uncommitted",
-        "Repeatable read",
-        "Serializable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mhj6b0",
-      "q": "A transaction in which either all of the database actions occur or none of them do is called:",
-      "options": [
-        "atomic.",
-        "consistent.",
-        "isolated.",
-        "durable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xha310",
-      "q": "A cursor type in which the application can only move forward through the recordset is called:",
+      "id": "gate-ab7d88",
+      "q": "A cursor type in which the application sees the data as they were at the time the cursor was opened is called:",
       "options": [
         "forward only.",
         "static.",
@@ -348,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1uvdg6o",
-      "q": "Which of the following occurs when one transaction reads a changed record that has not been committed to the database?",
+      "id": "gate-1pzcos",
+      "q": "What is the overall responsibility of the DBA?",
       "options": [
-        "Nonrepeatable read",
-        "Phantom read",
-        "Dirty read",
-        "Consistent read"
+        "Facilitate the development and use of the database",
+        "Create and populate tables",
+        "Development, operation, and maintenance of the database and its applications",
+        "Both the first and third answers above are correct."
       ],
       "correct": 0,
       "explain": "",
@@ -368,103 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ow7yfk",
-      "q": "Which of the following allows dirty reads, nonrepeatable reads and phantom reads to occur?",
+      "id": "gate-2b2yes",
+      "q": "Locks placed by the DBMS are called ________ .",
       "options": [
-        "Read committed",
-        "Read uncommitted",
-        "Repeatable read",
-        "Serializable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kmzud5",
-      "q": "Two transactions that run concurrently and generate results that are consistent with the results that would have occurred if they had run separately are referred to as serializable transactions.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dk1cks",
-      "q": "The lost update problem is when User A reads data that have been processed by a portion of a transaction from User B.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9qd3w",
-      "q": "The transaction log contains a copy of every database record (or page) after it has changed. These records are called before images.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-82imru",
-      "q": "Database administration refers to a function that applies to the entire organization.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Multiuser Databases",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7ddr0s",
-      "q": "Locks placed by command are implicit locks.",
-      "options": [
-        "True",
-        "False"
+        "implicit locks",
+        "explicit locks",
+        "exclusive locks",
+        "shared locks"
       ],
       "correct": 0,
       "explain": "",

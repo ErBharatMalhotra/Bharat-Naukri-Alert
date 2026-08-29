@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Field Effect Transistors",
   "source": "indiabix.com",
-  "count": 34,
+  "count": 14,
   "questions": [
     {
-      "id": "gate-5orxl2",
-      "q": "In a voltage-divider JFET circuit, ID is a maximum when VGS = 0 V.",
+      "id": "gate-1dz8hks",
+      "q": "Breakdown voltage and pinch-off voltage of a JFET are different terms for the same voltage level.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-r6ucqa",
-      "q": "The amount of gate voltage needed to turn the JFET completely off is called VGS(OFF).",
+      "id": "gate-137a5m8",
+      "q": "A JFET can be either a current-controlled device or a voltage-controlled device.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-14sevqo",
-      "q": "A common-drain configured JFET is also called a source-follower.",
+      "id": "gate-1xjjt5j",
+      "q": "A JFET has 3 terminals: gate, drain, and source.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-120f8us",
-      "q": "If the drain, source, and channel are all a p-type material, and the transistor operates in both modes, this is a p-channel E-MOSFET.",
+      "id": "gate-2ftwgw",
+      "q": "An enhancement-type MOSFET or E-MOSFET can be turned on when the channel is depleted.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-386008",
-      "q": "A D-MOSFET cannot be biased using zero biasing.",
+      "id": "gate-zn3ra9",
+      "q": "The charge carriers in a junction field effect transistor (JFET) will flow from source to drain in a p-channel and from drain to source in an n-channel.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-x7jtyg",
-      "q": "Transconductance is also called mutual conductance.",
+      "id": "gate-sbic44",
+      "q": "One advantage of voltage-divider bias is that the dependency of drain current, ID, on the range of Q points is _________.",
       "options": [
-        "True",
-        "False"
+        "reduced",
+        "increased",
+        "not affected",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-13fhuek",
-      "q": "A JFET is very similar to a BJT.",
+      "id": "gate-1ylm540",
+      "q": "A __________ change in VDS will produce a __________ change in ID.",
       "options": [
-        "True",
-        "False"
+        "small, large",
+        "large, small",
+        "large, large",
+        "small, small"
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-e1dvk7",
-      "q": "A MOSFET has an isolated gate.",
+      "id": "gate-dc6imq",
+      "q": "When testing an n-channel D-MOSFET, resistance G to D = , resistance G to S = , resistance D to SS = and 500 , depending on the polarity of the ohmmeter, and resistance D to S = 500 . What is wrong?",
       "options": [
-        "True",
-        "False"
+        "short D to S",
+        "open G to D",
+        "open D to SS",
+        "nothing"
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1c4wxrg",
-      "q": "The gate-biased JFET characteristic curve includes IDS.",
+      "id": "gate-16q2nyg",
+      "q": "In the constant-current region, how will the IDS change in an n-channel JFET?",
       "options": [
-        "True",
-        "False"
+        "As VGS decreases ID decreases.",
+        "As VGS increases ID increases.",
+        "As VGS decreases ID remains constant.",
+        "As VGS increases ID remains constant."
       ],
       "correct": 0,
       "explain": "",
@@ -170,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vez44o",
-      "q": "Junction Field Effect Transistors (JFET) contain how many diodes?",
+      "id": "gate-184zlys",
+      "q": "A MOSFET has how many terminals?",
       "options": [
-        "4",
+        "2 or 3",
         "3",
-        "2",
-        "1"
+        "4",
+        "3 or 4"
       ],
       "correct": 0,
       "explain": "",
@@ -190,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-r96k3w",
-      "q": "When an input delta of 2 V produces a transconductance of 1.5 mS, what is the drain current delta?",
+      "id": "gate-izypd",
+      "q": "IDSS can be defined as:",
       "options": [
-        "666 mA",
-        "3 mA",
-        "0.75 mA",
-        "0.5 mA"
+        "the minimum possible drain current",
+        "the maximum possible current with VGS held at &#8211;4 V",
+        "the maximum possible current with VGS held at 0 V",
+        "the maximum drain current with the source shorted"
       ],
       "correct": 0,
       "explain": "",
@@ -210,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-774rqa",
-      "q": "When not in use, MOSFET pins are kept at the same potential through the use of:",
+      "id": "gate-1piizao",
+      "q": "What is the input impedance of a common-gate configured JFET?",
       "options": [
-        "shipping foil",
-        "nonconductive foam",
-        "conductive foam",
-        "a wrist strap"
+        "very low",
+        "low",
+        "high",
+        "very high"
       ],
       "correct": 0,
       "explain": "",
@@ -230,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ulj1fo",
-      "q": "D-MOSFETs are sometimes used in series to construct a cascode high-frequency amplifier to overcome the loss of:",
+      "id": "gate-hyneyj",
+      "q": "Which component is considered to be an \"OFF\" device?",
       "options": [
-        "low output impedance",
-        "capacitive reactance",
-        "high input impedance",
-        "inductive reactance"
+        "transistor",
+        "JFET",
+        "D-MOSFET",
+        "E-MOSFET"
       ],
       "correct": 0,
       "explain": "",
@@ -250,413 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-ehamu0",
-      "q": "A \"U\" shaped, opposite-polarity material built near a JFET-channel center is called the:",
+      "id": "gate-gcrssk",
+      "q": "In an n-channel JFET, what will happen at the pinch-off voltage?",
       "options": [
-        "gate",
-        "block",
-        "drain",
-        "heat sink"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1j901mo",
-      "q": "JFET terminal \"legs\" are connections to the drain, the gate, and the:",
-      "options": [
-        "channel",
-        "source",
-        "substrate",
-        "cathode"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3q2x2w",
-      "q": "A very simple bias for a D-MOSFET is called:",
-      "options": [
-        "self biasing",
-        "gate biasing",
-        "zero biasing",
-        "voltage-divider biasing"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10fy3g0",
-      "q": "With the E-MOSFET, when gate input voltage is zero, drain current is:",
-      "options": [
-        "at saturation",
-        "zero",
-        "IDSS",
-        "widening the channel"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f9hf36",
-      "q": "With a 30-volt VDD, and an 8-kilohm drain resistor, what is the E-MOSFET Q point voltage, with ID = 3 mA?",
-      "options": [
-        "6 V",
-        "10 V",
-        "24 V",
-        "30 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k4xteo",
-      "q": "When an input signal reduces the channel size, the process is called:",
-      "options": [
-        "enhancement",
-        "substrate connecting",
-        "gate charge",
-        "depletion"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-84z0aw",
-      "q": "The transconductance curve of a JFET is a graph of:",
-      "options": [
-        "IS versus VDS",
-        "IC versus VCE",
-        "ID versus VGS",
-        "ID &#215; RDS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bjwibk",
-      "q": "The common-source JFET amplifier has:",
-      "options": [
-        "a very high input impedance and a relatively low voltage gain",
-        "a high input impedance and a very high voltage gain",
-        "a high input impedance and a voltage gain less than 1",
-        "no voltage gain"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-brexv8",
-      "q": "Using voltage-divider biasing, what is the voltage at the gate VGS?",
-      "options": [
-        "5.2 V",
-        "4.2 V",
-        "3.2 V",
-        "2.2 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sleqdg",
-      "q": "The overall input capacitance of a dual-gate D-MOSFET is lower because the devices are usually connected:",
-      "options": [
-        "in parallel",
-        "with separate insulation",
-        "with separate inputs",
-        "in series"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q9gjja",
-      "q": "What is the transconductance of an FET when ID = 1 mA and VGS = 1 V?",
-      "options": [
-        "1 kS",
-        "1 mS",
-        "1 k",
-        "1 m"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dvf20s",
-      "q": "Which JFET configuration would connect a high-resistance signal source to a low-resistance load?",
-      "options": [
-        "source follower",
-        "common-source",
-        "common-drain",
-        "common-gate"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pi0pnw",
-      "q": "How will electrons flow through a p-channel JFET?",
-      "options": [
-        "from source to drain",
-        "from source to gate",
-        "from drain to gate",
-        "from drain to source"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15ke3s5",
-      "q": "When VGS = 0 V, a JFET is:",
-      "options": [
-        "saturated",
-        "an analog device",
-        "an open switch",
-        "cut off"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xc4xsc",
-      "q": "When applied input voltage varies the resistance of a channel, the result is called:",
-      "options": [
-        "saturization",
-        "polarization",
-        "cutoff",
-        "field effect"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14st9ik",
-      "q": "When is a vertical channel E-MOSFET used?",
-      "options": [
-        "for high frequencies",
-        "for high voltages",
-        "for high currents",
-        "for high resistances"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k0ncdr",
-      "q": "When the JFET is no longer able to control the current, this point is called the:",
-      "options": [
-        "breakdown region",
-        "depletion region",
-        "saturation point",
-        "pinch-off region"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tc8ru4",
-      "q": "With a JFET, a ratio of output current change against an input voltage change is called:",
-      "options": [
-        "transconductance",
-        "siemens",
-        "resistivity",
-        "gain"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qmz71o",
-      "q": "Which type of JFET bias requires a negative supply voltage?",
-      "options": [
-        "feedback",
-        "source",
-        "gate",
-        "voltage divider"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ryempc",
-      "q": "How will a D-MOSFET input impedance change with signal frequency?",
-      "options": [
-        "As frequency increases input impedance increases.",
-        "As frequency increases input impedance is constant.",
-        "As frequency decreases input impedance increases.",
-        "As frequency decreases input impedance is constant."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Field Effect Transistors",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19tbpo8",
-      "q": "The type of bias most often used with E-MOSFET circuits is:",
-      "options": [
-        "constant current",
-        "drain-feedback",
-        "voltage-divider",
-        "zero biasing"
+        "the value of VDS at which further increases in VDS will cause no further increase in ID",
+        "the value of VGS at which further decreases in VGS will cause no further increases in ID",
+        "the value of VDG at which further decreases in VDG will cause no further increases in ID",
+        "the value of VDS at which further increases in VGS will cause no further increases in ID"
       ],
       "correct": 0,
       "explain": "",

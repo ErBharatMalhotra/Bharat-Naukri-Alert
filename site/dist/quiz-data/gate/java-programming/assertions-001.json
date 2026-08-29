@@ -5,16 +5,56 @@
   "subject": "Java Programming",
   "topic": "Assertions",
   "source": "indiabix.com",
-  "count": 1,
+  "count": 3,
   "questions": [
     {
-      "id": "gate-e4ua3k",
-      "q": "Which three statements are true? Assertion checking is typically enabled when a program is deployed. It is never appropriate to write code to handle failure of an assert statement. Assertion checking is typically enabled during program development and testing. Assertion checking can be selectively enabled or disabled on a per-package basis, but not on a per-class basis. Assertion checking can be selectively enabled or disabled on both a per-package basis and a per-class basis.",
+      "id": "gate-175xtbr",
+      "q": "Which statement is true about assertions in the Java programming language?",
       "options": [
-        "1, 2 and 4",
-        "2, 3 and 5",
-        "3, 4 and 5",
-        "1, 2 and 5"
+        "Assertion expressions should not contain side effects.",
+        "Assertion expression values can be any primitive type.",
+        "Assertions should be used for enforcing preconditions on public methods.",
+        "An AssertionError thrown as a result of a failed assertion should always be handled by the enclosing method."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Assertions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2r4l2w",
+      "q": "public class Test2 { public static int x; public static int foo(int y) { return y * 2; } public static void main(String [] args) { int z = 5; assert z &gt; 0; /* Line 11 */ assert z &gt; 2: foo(z); /* Line 12 */ if ( z &lt; 7 ) assert z &gt; 4; /* Line 14 */ switch (z) { case 4: System.out.println(\"4 \"); case 5: System.out.println(\"5 \"); default: assert z &lt; 10; } if ( z &lt; 10 ) assert z &gt; 4: z++; /* Line 22 */ System.out.println(z); } } which line is an example of an inappropriate use of assertions?",
+      "options": [
+        "Line 11",
+        "Line 12",
+        "Line 14",
+        "Line 22"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Assertions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qdurgk",
+      "q": "public class Test { public void foo() { assert false; /* Line 5 */ assert false; /* Line 6 */ } public void bar() { while(true) { assert false; /* Line 12 */ } assert false; /* Line 14 */ } } What causes compilation to fail?",
+      "options": [
+        "Line 5",
+        "Line 6",
+        "Line 12",
+        "Line 14"
       ],
       "correct": 0,
       "explain": "",

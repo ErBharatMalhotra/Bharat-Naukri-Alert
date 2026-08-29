@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Series Parallel Circuits",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-qmikls",
-      "q": "The higher the range setting, the less the internal resistance and the greater the load effect of the voltmeter on a circuit.",
+      "id": "gate-febr4n",
+      "q": "A smaller-value load resistor will cause the output voltage to change more than a larger-value one.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-jgt3dg",
-      "q": "Using Kirchhoff's voltage law, you can find the voltages across certain parts of a series-parallel circuit.",
+      "id": "gate-udt3mw",
+      "q": "Using the current-divider formula, you can find the current in any branch of a series-parallel circuit.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-33wd4k",
-      "q": "A Wheatstone bridge consists of four resistors in parallel.",
+      "id": "gate-1u2nh4o",
+      "q": "To derive 18 V and 12 V from a 24 V supply requires a voltage divider with three taps.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1r96oq1",
-      "q": "Two equal-value resistors in series will divide the source voltage equally.",
+      "id": "gate-1k7xzty",
+      "q": "A Wheatstone bridge is often shown in a \"diamond\" configuration.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-hl82vo",
-      "q": "A galvanometer is a meter that measures small amounts of voltage.",
+      "id": "gate-e2vvs0",
+      "q": "A resistor ladder network is a special type of series-parallel circuit.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-mescdw",
-      "q": "The internal resistance of a 20,000 ohm/volt voltmeter set on its 5 V range is",
+      "id": "gate-10u6020",
+      "q": "Three 10 k resistors are connected in series. A 20 k resistor is connected in parallel across one of the 10 k resistors. The voltage source is 24 V. The total current in the circuit is",
       "options": [
-        "20,000",
-        "100,000",
-        "200,000",
-        "1,000,000"
+        "900 A",
+        "9 mA",
+        "90 mA",
+        "800 A"
       ],
       "correct": 0,
       "explain": "",
@@ -118,53 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1acb274",
-      "q": "Two 1.2 k resistors are in series and this series combination is in parallel with a 3.3 k resistor. The total resistance is",
-      "options": [
-        "138",
-        "1,389",
-        "5,700",
-        "880"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jx94fs",
-      "q": "The output of a certain voltage divider is 12 V with no load. When a load is connected, the output voltage",
-      "options": [
-        "decreases",
-        "increases",
-        "remains the same",
-        "becomes zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12babt4",
-      "q": "A certain voltage divider consists of two 12 k resistors in series. Which of the following load resistors will have the most effect on the output voltage?",
+      "id": "gate-vq8ykj",
+      "q": "A certain voltage divider consists of three 1 k resistors in series. Which of the following load resistors will have the least effect on the output voltage?",
       "options": [
         "1 M",
-        "24 k",
-        "18 k",
-        "12 k"
+        "100 k",
+        "1 k",
+        "330"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +138,73 @@
       "tags": []
     },
     {
-      "id": "gate-z8x75p",
-      "q": "A voltage divider consists of two 68 k resistors and a 24 V source. The unknown output voltage is",
+      "id": "gate-12bw5ec",
+      "q": "The parallel combination of a 470 resistor and a 1.5 k resistor is in series with the parallel combination of five 1 k resistors. The source voltage is 50 V. The percentage of the load current through any single 1 k resistor is",
       "options": [
+        "25%",
+        "20%",
+        "100%",
+        "50%"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mr8p4",
+      "q": "A certain Wheatstone bridge has the following resistor values: R1 = 10 k, R2 = 720 , and R4 = 2.4 k. The unknown resistance is",
+      "options": [
+        "24",
+        "2.4",
+        "300",
+        "3,000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xy7rhc",
+      "q": "On which of the following voltage range settings will a voltmeter present the minimum load on a circuit?",
+      "options": [
+        "1 V",
+        "50 V",
+        "500 V",
+        "1,000 V"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Series Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18ua0s0",
+      "q": "A voltage divider consists of two 100 k resistors and a 12 V source. What will the output voltage be if a load resistor of 1 M is connected to the output?",
+      "options": [
+        "0.57 V",
+        "6 V",
         "12 V",
-        "24 V",
-        "0 V",
-        "6 V"
+        "5.7 V"
       ],
       "correct": 0,
       "explain": "",
@@ -198,193 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-t1d7zw",
-      "q": "The internal resistance of a 30,000 ohm/volt voltmeter set on its 50 V range is",
+      "id": "gate-19fg0uu",
+      "q": "The parallel combination of a 470 resistor and a 1.2 k resistor is in series with the parallel combination of three 3 k resistors. A 200 V source is connected across the circuit. The resistor with the most current has a value of",
       "options": [
-        "15,000",
-        "150,000",
-        "1,500,000",
-        "15,000,000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bvwls8",
-      "q": "The parallel combination of a 6.8 k resistor and a 10 k resistor is in series with the parallel combination of a 2.2 k resistor and a 1 k resistor. A 100 V source is connected across the circuit. The resistor(s) with the greatest voltage drop is (are)",
-      "options": [
-        "6.8 k",
-        "2.2 k",
-        "6.8 k and 10 k",
-        "2.2 k and 1 k"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5l4pww",
-      "q": "When a load resistance is removed from the output of a voltage divider circuit, the current drawn from the source",
-      "options": [
-        "decreases",
-        "increases",
-        "remains the same",
-        "is cut off"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jdp358",
-      "q": "A certain circuit is composed of two parallel resistors. The total resistance is 1,403 . One of the resistors is 2 k. The other resistor value is",
-      "options": [
-        "1,403",
-        "4.7 k",
-        "2 k",
-        "3,403"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h0bekd",
-      "q": "The parallel combination of a 470 resistor and a 680 resistor is in series with the parallel combination of four 2 k resistors. The total resistance is",
-      "options": [
-        "1,650",
-        "1,078",
-        "77.8",
-        "778"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1evan5s",
-      "q": "A 12 k resistor, a 15 k resistor, and a 22 k resistor are in series with two 10 k resistors that are in parallel. The source voltage is 75 V. Current through the 15 k resistor is approximately",
-      "options": [
-        "14 mA",
-        "1.4 mA",
-        "5 mA",
-        "50 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cg9e54",
-      "q": "A 6 V battery output is divided down to obtain two output voltages. Three 2.2 k resistors are used to provide the two taps. The two output voltages are",
-      "options": [
-        "2 V, 4 V",
-        "2 V, 2 V",
-        "2 V, 6 V",
-        "4 V, 6 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-acpoz8",
-      "q": "Two 3.3 k resistors are in series and this series combination is in parallel with a 4.7 k resistor. The voltage across one of the 3.3 k resistors is 12 V. The voltage across the 4.7 k resistor is",
-      "options": [
-        "24 V",
-        "12 V",
-        "0 V",
-        "6 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-msbybc",
-      "q": "A balanced Wheatstone bridge consists of an RV of 3,500 , an R2 of 200 , and an R3 of 680 . The value of RUNK is",
-      "options": [
-        "680",
-        "1,029",
-        "200",
-        "880"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a3iykw",
-      "q": "In a certain five-step R/2R ladder network, the smallest resistor value is 1 k. The largest value is",
-      "options": [
-        "indeterminable",
-        "2 k",
-        "10 k",
-        "20 k"
+        "470 or 1.2 k",
+        "3 k",
+        "470",
+        "1.2 k"
       ],
       "correct": 0,
       "explain": "",

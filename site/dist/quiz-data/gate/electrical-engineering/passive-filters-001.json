@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Passive Filters",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-95q443",
-      "q": "In an RC low-pass filter, the output voltage is taken across the resistor and the output lags the input voltage.",
+      "id": "gate-1tuockz",
+      "q": "The roll-off rate of a basic RC or RL filter is 20 dB per decade.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-clbbp8",
-      "q": "In an RL low-pass filter, the output voltage is taken across the inductor and the output lags the input.",
+      "id": "gate-1qqjqq4",
+      "q": "In an RL high-pass filter, the output is taken across the inductor and the output leads the input.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-opy3jw",
-      "q": "A band-pass filter rejects all frequencies within a band between a lower and an upper critical frequency and passes all others.",
+      "id": "gate-1tmkjjg",
+      "q": "In an RC high-pass filter, the output is taken across the resistor and the output leads the input.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-f017ts",
-      "q": "A band-stop filter passes frequencies between its lower and upper critical frequencies and rejects all others.",
+      "id": "gate-1v0p6dk",
+      "q": "Critical frequencies are also called &#8211;3 dB frequencies.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1wgo9rx",
-      "q": "The output voltage is 63.3% of its maximum at the critical frequencies.",
+      "id": "gate-2xlgir",
+      "q": "The bandwidth of a resonant filter is determined by the quality factor (Q) of the circuit and the resonant frequency.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-6a91ys",
-      "q": "In a certain parallel resonant band-pass filter, the resonant frequency is 14 kHz. If the bandwidth is 4 kHz, the lower frequency",
+      "id": "gate-1vdqhv4",
+      "q": "An RL high-pass filter consists of a 470 resistor and a 600 mH coil. The output is taken across the coil. The circuit's critical frequency is",
       "options": [
-        "is 7 kHz",
-        "is 10 kHz",
-        "is 12 kHz",
-        "cannot be determined"
+        "125 Hz",
+        "1,250 Hz",
+        "564 Hz",
+        "5,644 Hz"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fcddwg",
-      "q": "An RL low-pass filter consists of a 5.6 mH coil and a 3.3 k resistor. The output voltage is taken across the resistor. The circuit's critical frequency is",
+      "id": "gate-zftxk0",
+      "q": "A parallel resonant band-pass filter consists of a 6.8 resistor in series with a parallel network made up of an 8 H coil and a 120 pF capacitor. The output is taken across the capacitor/coil. Assume RW = 0 . What is the center frequency of the filter?",
       "options": [
-        "93.8 kHz",
-        "93.8 Hz",
-        "861 Hz",
-        "86.12 kHz"
+        "5.14 MHz",
+        "514 kHz",
+        "5.03 MHz",
+        "503 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-pbmj80",
-      "q": "In a series resonant band-pass filter, a lower value of Q results in",
+      "id": "gate-1qh5tlm",
+      "q": "A series resonant band-pass filter consists of a 2 mH coil, a 0.005 F capacitor, and a 120 resistor. The winding resistance of the coil is 12 . The output voltage is taken off the resistor. Input voltage is 12 Vrms. What is the output voltage magnitude at the center frequency (f0)?",
       "options": [
-        "a higher resonant frequency",
-        "a smaller bandwidth",
-        "a higher impedance",
-        "a larger bandwidth"
+        "10.9 V",
+        "1.09 V",
+        "1.1 V",
+        "12 V"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-8ofvld",
-      "q": "The maximum output voltage of a certain low-pass filter is 15 V. The output voltage at the critical frequency is",
+      "id": "gate-1ru7ubg",
+      "q": "An RC low-pass filter consists of a 120 resistor and a 0.002 F capacitor. The output is taken across the capacitor. The circuit's critical frequency is",
       "options": [
-        "0 V",
-        "15 V",
-        "10.60 V",
-        "21.21 V"
+        "333 kHz",
+        "633 kHz",
+        "331 kHz",
+        "60 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-ogx90g",
-      "q": "A parallel resonant band-pass filter consists of a 90 resistor in series with a parallel network made up of a 60 mH coil and a 0.02 F capacitor. The output is taken across the capacitor/coil. The coil winding has a resistance of 20 . What is the center frequency of the filter?",
+      "id": "gate-1kacjyw",
+      "q": "Referring to Problem 15, if the input voltage is a 6 V sine wave with a dc level of 10 V, what is the output voltage magnitude?",
       "options": [
-        "459 Hz",
-        "4,591 Hz",
-        "999 Hz",
-        "2,176 Hz"
+        "6 V",
+        "597 mV",
+        "5.97 V",
+        "0 V"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-suudy0",
-      "q": "In a certain low-pass filter, fc = 3.5 kHz. Its passband is",
+      "id": "gate-l40ckc",
+      "q": "At a certain frequency, the output voltage of a filter is 6 V and the input is 12 V. The voltage ratio in decibels is",
       "options": [
-        "0 Hz to 3.5 kHz",
-        "0 Hz",
-        "3.5 kHz",
-        "7 kHz"
+        "6.02 dB",
+        "&#8211;6.02 dB",
+        "12.04 dB",
+        "&#8211;12.04 dB"
       ],
       "correct": 0,
       "explain": "",
@@ -218,73 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kp0ih4",
-      "q": "An RC high-pass filter consists of an 820 resistor. What is the value of C so that Xc is ten times less than R at an input frequency of 12 kHz?",
+      "id": "gate-1xjpqso",
+      "q": "An RC high-pass filter consists of a 0.2 F capacitor and a 220 resistor. The output is taken across the resistor. The circuit's critical frequency is",
       "options": [
-        "81 F",
-        "161 F",
-        "0.161 F",
-        "220 F"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Passive Filters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nqfnkg",
-      "q": "A series resonant band-stop filter consists of a 68 resistor, a 110 mH coil, and a 0.02 F capacitor. The internal resistance, RW, of the coil is 4 . Input voltage is 200 mV. Output voltage is taken across the coil and capacitor in series. What is the output voltage magnitude at f0?",
-      "options": [
-        "1.1 mV",
-        "11.1 mV",
-        "111 mV",
-        "200 mV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Passive Filters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-owdmqo",
-      "q": "A sinusoidal voltage with a peak-to-peak value of 18 V is applied to an RC low-pass filter. If the reactance at the input frequency is zero, the output voltage is",
-      "options": [
-        "18 V peak-to-peak",
-        "zero",
-        "9 V peak-to-peak",
-        "12.74 V peak-to-peak"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Passive Filters",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vyqk4",
-      "q": "Vout = 500 mV, and Vin = 1.3 V. The ratio Vout/ Vin expressed in dB is",
-      "options": [
-        "0 dB",
-        "8.30 dB",
-        "&#8211;8.30 dB",
-        "0.8 dB"
+        "723 Hz",
+        "7,234 Hz",
+        "362 Hz",
+        "3,617 Hz"
       ],
       "correct": 0,
       "explain": "",

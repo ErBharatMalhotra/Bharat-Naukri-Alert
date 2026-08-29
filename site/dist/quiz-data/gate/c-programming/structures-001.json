@@ -5,14 +5,16 @@
   "subject": "C# Programming",
   "topic": "Structures",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-idjj2h",
-      "q": "The space required for structure variables is allocated on stack.",
+      "id": "gate-t0rgok",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? class Trial { int i; Decimal d; } struct Sample { private int x; private Single y; private Trial z; } Sample ss = new Sample();",
       "options": [
-        "True",
-        "False"
+        "ss will be created on the heap.",
+        "Trial object referred by z will be created on the stack.",
+        "z will be created on the heap.",
+        "Both ss and z will be created on the heap."
       ],
       "correct": 0,
       "explain": "",
@@ -26,11 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-k79rr4",
-      "q": "Creating empty structures is allowed in C#.NET.",
+      "id": "gate-1ocatio",
+      "q": "How many bytes will the structure variable samp occupy in memory if it is defined as shown below? class Trial { int i; Decimal d; } struct Sample { private int x; private Single y; private Trial z; } Sample samp = new Sample();",
       "options": [
-        "True",
-        "False"
+        "20 bytes",
+        "12 bytes",
+        "8 bytes",
+        "16 bytes"
       ],
       "correct": 0,
       "explain": "",
@@ -44,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1kcshyf",
-      "q": "Which of the following will be the correct output for the C#.NET program given below? namespace IndiabixConsoleApplication { struct Sample { public int i; } class MyProgram { static void Main() { Sample x = new Sample(); x.i = 10; fun(x); Console.Write(x.i + \" \"); } static void fun(Sample y) { y.i = 20; Console.Write(y.i + \" \"); } } }",
+      "id": "gate-1el3ncz",
+      "q": "Which of the following will be the correct result of the statement b = a in the C#.NET code snippet given below? struct Address { private int plotno; private String city; } Address a = new Address(); Address b; b = a;",
       "options": [
-        "10 20",
-        "10 10",
-        "20 10",
-        "20 20"
+        "All elements of a will get copied into corresponding elements of b.",
+        "Address stored in a will get copied into b.",
+        "Once assignment is over a will get garbage collected.",
+        "Once assignment is over a will go out of scope, hence will die."
       ],
       "correct": 0,
       "explain": "",
@@ -64,113 +68,91 @@
       "tags": []
     },
     {
-      "id": "gate-5klv88",
-      "q": "Which of the following is the correct way of setting values into the structure variable e defined below? struct Emp { public String name; public int age; public Single sal; } Emp e = new Emp();",
-      "options": [
-        "e.name = \"Amol\"; e.age = 25; e.sal = 5500;",
-        "With e { .name = \"Amol\"; .age = 25; .sal = 5500; }",
-        "With emp e { .name = \"Amol\"; .age = 25; .sal = 5500; }",
-        "e -&gt; name = \"Amol\"; e -&gt; age = 25; e -&gt; sal = 5500;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Structures",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pthoxw",
-      "q": "Which of the following is the correct way to define a variable of the type struct Emp declared below? struct Emp { private String name; private int age; private Single sal; } Emp e(); e = new Emp(); Emp e = new Emp; Emp e; e = new Emp; Emp e = new Emp(); Emp e;",
-      "options": [
-        "1, 3",
-        "2, 5",
-        "4, 5",
-        "1, 2, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Structures",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yjliq4",
-      "q": "When would a structure variable get destroyed?",
-      "options": [
-        "When no reference refers to it, it will get garbage collected.",
-        "Depends upon whether it is created using new or without using new.",
-        "When it goes out of scope.",
-        "Depends upon the Project Settings made in Visual Studio.NET."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Structures",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iw6034",
-      "q": "Which of the following statements is correct about the C#.NET code snippet given below? struct Book { private String name; private int noofpages; private Single price; } Book b = new Book();",
-      "options": [
-        "The structure variable b will be created on the heap.",
-        "We can add a zero-argument constructor to the above structure.",
-        "When the program terminates, variable b will get garbage collected.",
-        "The structure variable b will be created on the stack."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Structures",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bh39e7",
-      "q": "Which of the following will be the correct output for the C#.NET program given below? namespace IndiabixConsoleApplication { struct Sample { public int i; } class MyProgram { static void Main(string[] args) { Sample x = new Sample(); x.i = 10; fun(ref x); Console.Write(x.i + \" \"); } public static void fun(ref Sample y) { y.i = 20; Console.Write(y.i + \" \"); } } }",
-      "options": [
-        "20 10",
-        "10 20",
-        "10 10",
-        "20 20"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Structures",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13vbusv",
-      "q": "Which of the following statements are correct about the structure declaration given below? struct Book { private String name; protected int totalpages; public Single price; public void Showdata() { Console.WriteLine(name + \" \" + totalpages + \" \" + price); } Book() { name = \" \"; totalpages = 0; price = 0.0f; } } Book b = new Book(); We cannot declare the access modifier of totalpages as protected. We cannot declare the access modifier of name as private. We cannot define a zero-argument constructor inside a structure. We cannot declare the access modifier of price as public. We can define a Showdata() method inside a structure.",
+      "id": "gate-1dfr24l",
+      "q": "Which of the following statements are correct? A struct can contain properties. A struct can contain constructors. A struct can contain protected data members. A struct cannot contain methods. A struct cannot contain constants.",
       "options": [
         "1, 2",
-        "1, 3, 5",
+        "3, 4",
+        "1, 2, 4",
+        "3, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u95r78",
+      "q": "C#.NET structures are always value types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1t1eoxk",
+      "q": "Which of the following are true about classes and struct? A class is a reference type, whereas a struct is a value type. Objects are created using new, whereas structure variables can be created either using new or without using new. A structure variable will always be created slower than an object. A structure variable will die when it goes out of scope. An object will die when it goes out of scope.",
+      "options": [
+        "1, 2, 4",
+        "3, 5",
         "2, 4",
         "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-o1m9f0",
+      "q": "Which of the following will be the correct output for the program given below? namespace IndiabixConsoleApplication { struct Sample { public int i; } class MyProgram { static void Main(string[] args) { Sample x = new Sample(); Sample y; x.i = 9; y = x; y.i = 5; Console.WriteLine(x.i + \" \" + y.i); } } }",
+      "options": [
+        "9 9",
+        "9 5",
+        "5 5",
+        "5 9"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Structures",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2nfxmg",
+      "q": "Which of the following statements are correct about Structures used in C#.NET? A Structure can be declared within a procedure. Structs can implement an interface but they cannot inherit from another struct. struct members cannot be declared as protected. A Structure can be empty. It is an error to initialize an instance field in a struct.",
+      "options": [
+        "1, 2, 4",
+        "2, 3, 5",
+        "2, 4",
+        "1, 3"
       ],
       "correct": 0,
       "explain": "",

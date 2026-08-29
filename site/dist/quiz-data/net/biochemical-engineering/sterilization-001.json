@@ -5,16 +5,16 @@
   "subject": "Biochemical Engineering",
   "topic": "Sterilization",
   "source": "indiabix.com",
-  "count": 30,
+  "count": 6,
   "questions": [
     {
-      "id": "net-mg4dxk",
-      "q": "The sterilization method depends",
+      "id": "net-1mw64g4",
+      "q": "The overall del factor (&Delta;) may be represented as",
       "options": [
-        "nature of additive",
-        "volume and feed rate",
-        "both (a) and (b)",
-        "none of these"
+        "&Delta;overall = &Delta;heating + &Delta;holding- &Delta;cooling",
+        "&Delta;overall = &Delta;heating + &Delta;holding+ &Delta;cooling",
+        "&Delta;overall = &Delta;heating - &Delta;holding+ &Delta;cooling",
+        "&Delta;overall = &Delta;heating - &Delta;holding- &Delta;cooling"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "net-gk6l24",
-      "q": "The specific death rate of an organism can be expressed as",
+      "id": "net-25bewo",
+      "q": "The filter material used for air filtration system is/are",
       "options": [
-        "ln 2/D",
-        "D/ln2",
-        "D.ln2",
-        "2.0.3/ln2"
+        "glass wool",
+        "glass fibre",
+        "norite",
+        "all of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "net-1aue3dz",
-      "q": "The interception efficiency can be expressed as (where dp is the particle diameter and Dc cylindrical collection diameter)",
+      "id": "net-dtd9wn",
+      "q": "The deviation from ideal plug flow due to axial mixing can be described by the",
       "options": [
-        "dp/Dc",
-        "dp x Dc",
-        "dp/Dc x 100",
-        "dpDc/100"
+        "dispersion model",
+        "Langmuir model",
+        "Friedlander model",
+        "Pasceri model"
       ],
       "correct": 0,
       "explain": "",
@@ -68,51 +68,11 @@
       "tags": []
     },
     {
-      "id": "net-135a7h4",
-      "q": "The relationship between the del factor, temperature and time is given as",
+      "id": "net-9lx59o",
+      "q": "The collection efficiency by diffusion increases with",
       "options": [
-        "&Delta; = A.t. e-E/RT",
-        "&Delta; = 1/(A.t. e-E/RT)",
-        "&Delta; = A.t. eE/RT",
-        "&Delta; = A.t.T"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-fvc60g",
-      "q": "The del factor (&Delta;) increases as the final number of cells",
-      "options": [
-        "decreases",
-        "increases",
-        "zero",
-        "constant"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-ylttij",
-      "q": "The collection efficiency by interception increases with the",
-      "options": [
-        "increasing particle diameter",
-        "increasing air flow velocity",
+        "decreasing particle size",
+        "decreasing air velocity",
         "both (a) and (b)",
         "increasing particle size"
       ],
@@ -128,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "net-c3xdvc",
-      "q": "For indirect heating, the plate and frame heat exchanger is generally more effective than the shell and tube heat transfer due to its",
+      "id": "net-2qhyq0",
+      "q": "Glass fibers are favorable as a filter medium because they give a",
       "options": [
-        "larger heat transfer area",
-        "smaller heat transfer area",
-        "lesser cost",
-        "more number of plates"
+        "lower pressure drop and are less liable to wetting or combustion",
+        "more pressure drop and are less liable to wetting or combustion",
+        "lower pressure drop and are more liable to wetting or combustion",
+        "more pressure drop and are more liable to wetting or combustion"
       ],
       "correct": 0,
       "explain": "",
@@ -148,453 +108,13 @@
       "tags": []
     },
     {
-      "id": "net-1wpujho",
-      "q": "The mechanism of air filtration in fibrous filter is",
+      "id": "net-17y5ob0",
+      "q": "Typical aeration rates for aerobic fermentation are",
       "options": [
-        "electrostatic attraction",
-        "impaction",
-        "interception",
-        "all of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1izbo5k",
-      "q": "If the packing density (&alpha;) is defined as the volume of the fiber unit volume of filter bed, the velocity within the filter void space is equal to (where V is velocity in fluid void space and V0 is undisturbed fluid velocity)",
-      "options": [
-        "V = V0/(1-&alpha;)",
-        "V-V0 = 1 - &alpha;",
-        "V = V0(1 - &alpha;)",
-        "V = V0/(1 + &alpha;)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-atsrxt",
-      "q": "For the turbulent flow, the dispersion coefficient is correlated as a function of",
-      "options": [
-        "Reynolds number",
-        "Sherwood number",
-        "Schmidt number",
-        "Grashof number"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1j4w39y",
-      "q": "The K used in the equation for X10=2.303/K depends upon",
-      "options": [
-        "nature of the filter material",
-        "linear velocity of the air passing through filter",
-        "both (a) and (b)",
-        "thickness of the filter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-qpdl6p",
-      "q": "The mechanical means of accomplishing sterilization of fermentation media/equipment is",
-      "options": [
-        "ultrasonic",
-        "radiation",
-        "chemical agents",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1agzihz",
-      "q": "The radius of the filter with a depth of 14 cm required for a volumetric airflow rate of 10 m3/min is approximately",
-      "options": [
-        "1.6 m",
-        "0.6 m",
-        "3",
-        "6 m"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-4h0pwb",
-      "q": "The moist heat is more effective than the dry heat because the intrinsic heat resistance of vegetative cells is greatly",
-      "options": [
-        "increased in a dry state",
-        "decreased in a dry state",
-        "increased in a wet state",
-        "decreased in a wet state"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-z4lp0o",
-      "q": "The destruction of microorganisms by steam may be described as",
-      "options": [
-        "first order chemical reaction",
-        "zero order chemical reaction",
-        "second order chemical reaction",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-24l6rg",
-      "q": "In sterilization process, spore of which of the following organism is considered as control?",
-      "options": [
-        "Bacillus subtilis",
-        "Clostridium botulinum",
-        "Bacillus stearothermophilus",
-        "Aspergillus niger"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1y630q0",
-      "q": "Analogus to the molecular diffusion, the x-directional flux of microorganisms suspended in a medium due to the axial mixing can be represented as (where Jn is flux component 'n', cn is concentration of'n')",
-      "options": [
-        "Jn = -dcn/dx",
-        "Jn = dcn/dx",
-        "Jn = -D dcn/dx",
-        "Jn = D dcn/dx"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-191n3uk",
-      "q": "The typical size of particles collected by diffusion mechanism is",
-      "options": [
-        "&lt;0.25&mu;m",
-        "&lt;0.5&mu;m",
-        "&lt;0.75&mu;m",
-        "&lt;1&mu;m"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-jg1k84",
-      "q": "The X90 value for a filtration system is",
-      "options": [
-        "the time required to reduce microbial population by 90%",
-        "the time required to traverse survivor curve by one log cycle.",
-        "the depth required to reduce population by 90%",
-        "the depth of the filter required to reduce population by 99%"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1ajevx5",
-      "q": "The value of K",
-      "options": [
-        "increases with increase in air velocity",
-        "decreases with increase in air velocity",
-        "increases to an optimum with increase in air velocity and decreases on further increase of air velocity",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-198fxjl",
-      "q": "The reduction of number of cells from 1010 to one will result into the del factor (&Delta;) of",
-      "options": [
-        "1",
-        "10",
-        "23",
-        "103"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-699n5k",
-      "q": "Sterilization can be carried out by",
-      "options": [
-        "heat",
-        "radiation",
-        "chemical agents",
-        "all of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-90j1i8",
-      "q": "The collection efficiency by the inertial impaction mechanism is the function of",
-      "options": [
-        "Stokes and Reynolds number",
-        "Stokes and Schmidt number",
-        "Grashoff and Reynolds number",
-        "Stokes and Grashof number"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-tllbr2",
-      "q": "The heated medium passes through a holding section, which is usually maintained in",
-      "options": [
-        "adiabatic conditions",
-        "isothermal conditions",
-        "isotropic conditions",
-        "isobaric conditions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-42unrh",
-      "q": "The highest temperature which appears to be feasible for batch sterilization is",
-      "options": [
-        "121&deg;C",
-        "100&deg;C",
-        "105&deg;C",
-        "130&deg;C"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-9abrbk",
-      "q": "Model proposed by the Friedlander, correlating the air filtration efficiency by impaction can be expressed as (where NSt is the Stokes number)",
-      "options": [
-        "&eta;imp = 0.075NSt1.2",
-        "&eta;imp = 0.75NSt1.2",
-        "&eta;imp = 0.25NSt1.2",
-        "&eta;imp = 0.025NSt1.2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-9l9npk",
-      "q": "The collection efficiency by impaction increases with",
-      "options": [
-        "increasing particle diameter",
-        "increasing air flow velocity",
-        "both (a) and (b)",
-        "increasing particle size"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1nxr8xr",
-      "q": "The efficiency of fibrous filter by combined mechanism is given by(where &eta;imp,&eta;int,&eta;dif are the efficiencies by impaction, interception and diffusion respectively)",
-      "options": [
-        "1 - &eta;imp&eta;int&eta;dif",
-        "1 - (1 - &eta;imp)(1 - &eta;int)( 1 - &eta;dif)",
-        "1 - ( &eta;imp&eta;int/&eta;dif)",
-        "None of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-1qce199",
-      "q": "The heat conduction in dry air is",
-      "options": [
-        "less rapid than in steam",
-        "more rapid than in steam",
-        "similar to steam",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "NET",
-      "subject": "Biochemical Engineering",
-      "topic": "Sterilization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "net-rcqcs0",
-      "q": "For laminar flow of Newtonian fluid through a smooth round pipe, the ratio of average fluid velocity to the maximum velocity is",
-      "options": [
-        "0.5",
-        "0.75",
-        "0.87",
-        "0.37"
+        "0 - 0.5 vvm",
+        "0.5 - 1.0 vvm",
+        "1.0 - 1.5 vvm",
+        "1.5 - 2.0 vvm"
       ],
       "correct": 0,
       "explain": "",

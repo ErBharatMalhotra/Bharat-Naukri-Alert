@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Parallel Circuits",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-d2mdny",
-      "q": "The total resistance for two resistors in parallel is equal to the sum of the two resistors.",
+      "id": "gate-w7bgso",
+      "q": "The sum of the currents into a junction is equal to the sum of the currents out of that junction.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1x3oh0w",
-      "q": "The total current divides among parallel resistors in a manner directly proportional to the resistance values.",
+      "id": "gate-3lbv0c",
+      "q": "When an open circuit occurs in a parallel branch, the total resistance decreases.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1rdn5gm",
-      "q": "A parallel circuit acts as a current divider.",
+      "id": "gate-149vrg8",
+      "q": "Parallel resistors are connected between the same two points.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-4mawrg",
-      "q": "Addition of resistors in parallel increases total resistance and decreases total current.",
+      "id": "gate-3qtm2w",
+      "q": "In a parallel circuit, the branch with the lowest resistance has the most current.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-prohds",
-      "q": "Total power in a parallel circuit is found by adding up the power of all the individual resistors.",
+      "id": "gate-1tb8qqk",
+      "q": "The number of current paths equals the number of resistors in parallel.",
       "options": [
         "True",
         "False"
@@ -98,33 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1djf964",
-      "q": "An ammeter has an internal resistance of 50 . The meter movement itself can handle up to 1 mA. If 10 mA is applied to the meter, the shunt resistor, RSH1, is approximately",
+      "id": "gate-1k1imiw",
+      "q": "If there are a total of 120 mA into a parallel circuit consisting of three branches, and two of the branch currents are 40 mA and 10 mA, the third branch current is",
       "options": [
-        "55",
-        "5.5",
-        "50",
-        "9"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vukic8",
-      "q": "The total resistance of a parallel circuit is 50 . If the total current is 120 mA, the current through the 270 resistor that makes up part of the parallel circuit is approximately",
-      "options": [
-        "22 mA",
+        "50 mA",
+        "70 mA",
         "120 mA",
-        "220 mA",
-        "50 mA"
+        "40 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-l61v5g",
-      "q": "The currents into a junction flow along two paths. One current is 4 A and the other is 3 A. The total current out of the junction is",
+      "id": "gate-1k7cpmc",
+      "q": "Three lights are connected in parallel across a 120 volt source. If one light burns out,",
       "options": [
-        "1 A",
-        "7 A",
-        "unknown",
-        "the larger of the two"
+        "the remaining two will glow dimmer",
+        "the remaining two will glow brighter",
+        "the remaining two will not light",
+        "the remaining two will glow with the same brightness as before"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +138,113 @@
       "tags": []
     },
     {
-      "id": "gate-1ja3db0",
-      "q": "When an additional resistor is connected across an existing parallel circuit, the total resistance",
+      "id": "gate-8uw6xo",
+      "q": "Four equal-value resistors are connected in parallel. Ten volts are applied across the parallel circuit and 2 mA are measured from the source. The value of each resistor is",
       "options": [
+        "12.5",
+        "200",
+        "20 K",
+        "50"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-91fo1v",
+      "q": "A set of Christmas tree lights is connected in parallel across a 110 V source. The filament of each light bulb is 1.8 k. The current through each bulb is approximately",
+      "options": [
+        "610 mA",
+        "18 mA",
+        "110 mA",
+        "61 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ft27jk",
+      "q": "The power dissipation in each of four parallel branches is 1.2 W. The total power dissipation is",
+      "options": [
+        "1.2 W",
+        "4.8 W",
+        "0.3 W",
+        "12 W"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19fdnns",
+      "q": "There is a total of 800 mA of current into four parallel resistors. The currents through three of the resistors are 40 mA, 70 mA, and 200 mA. The current through the fourth resistor is",
+      "options": [
+        "490 mA",
+        "800 mA",
+        "310 mA",
+        "0 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ke5rtc",
+      "q": "Four resistors are connected in parallel. Fifteen mA flows through resistor R. If the second resistor is 2R, the third resistor 3R, and the fourth resistor 4R, the total current in the circuit is",
+      "options": [
+        "60 mA",
+        "15 mA",
+        "135 mA",
+        "31.25 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Parallel Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qt6h30",
+      "q": "If one of the resistors in a parallel circuit is removed, the total resistance",
+      "options": [
+        "decreases",
+        "increases",
         "remains the same",
-        "decreases by the value of the added resistor",
-        "increases by the value of the added resistor",
-        "decreases"
+        "doubles"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-18pi2k0",
-      "q": "When a 1.6 k resistor and a 120 resistor are connected in parallel, the total resistance is",
+      "id": "gate-44ihbk",
+      "q": "Six resistors are in parallel. The two lowest-value resistors are both 1.2 k. The total resistance",
       "options": [
-        "greater than 1.6 k",
-        "greater than 120 but less than 1.6 k",
-        "less than 120 but greater than 100",
-        "less than 100"
+        "is less than 6 k",
+        "is greater than 1.2 k",
+        "is less than 1.2 k",
+        "is less than 600"
       ],
       "correct": 0,
       "explain": "",
@@ -198,193 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gnaiun",
-      "q": "A 470 resistor, a 220 resistor, and a 100 resistor are all in parallel. The total resistance is approximately",
+      "id": "gate-cyqfm8",
+      "q": "In a five-branch parallel circuit, there are 12 mA of current in each branch. If one of the branches opens, the current in each of the other four branches is",
       "options": [
-        "790",
-        "470",
-        "60",
-        "30"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8q8gyz",
-      "q": "Five light bulbs are connected in parallel across 110 V. Each bulb is rated at 200 W. The current through each bulb is approximately",
-      "options": [
-        "2.2 A",
-        "137 mA",
-        "1.8 A",
-        "9.09 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bjock8",
-      "q": "Four resistors of equal value are connected in parallel. If the total voltage is 15 V and the total resistance is 600 , the current through each parallel resistor is",
-      "options": [
-        "25 mA",
-        "100 mA",
-        "6.25 mA",
-        "200 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4337qk",
-      "q": "Five 100 resistors are connected in parallel. If one resistor is removed, the total resistance is",
-      "options": [
-        "25",
-        "500",
-        "100",
-        "20"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y0wxc0",
-      "q": "Four 8 speakers are connected in parallel to the output of an audio amplifier. If the maximum voltage to the speakers is 12 V, the amplifier must be able to deliver to the speakers",
-      "options": [
-        "18 W",
-        "1.5 W",
-        "48 W",
-        "72 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lzd0no",
-      "q": "In a certain three-branch parallel circuit, R1 has 12 mA through it, R2 has 15 mA through it, and R3 has 25 mA through it. After measuring a total of 27 mA, you can say that",
-      "options": [
-        "R3 is open",
-        "R1 is open",
-        "R2 is open",
-        "the circuit is operating properly"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uf2puf",
-      "q": "A sudden increase in the total current into a parallel circuit may indicate",
-      "options": [
-        "a drop in source voltage",
-        "an open resistor",
-        "an increase in source voltage",
-        "either a drop in source voltage or an open resistor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vww7ys",
-      "q": "The following currents are measured in the same direction in a three-branch parallel circuit: 200 mA, 340 mA, and 700 mA. The value of the current into the junction of these branches is",
-      "options": [
-        "200 mA",
-        "540 mA",
-        "1.24 A",
-        "900 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tdjk20",
-      "q": "The following resistors are in parallel across a voltage source: 220 , 470 , and 560 . The resistor with the least current is",
-      "options": [
-        "220",
-        "470",
-        "560",
-        "impossible to determine without knowing the voltage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Parallel Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jfjrlc",
-      "q": "Three 47 resistors are connected in parallel across a 110 volt source. The current drawn from the source is approximately",
-      "options": [
-        "2.3 A",
-        "780 mA",
-        "47 mA",
-        "7.06 A"
+        "48 mA",
+        "12 mA",
+        "0 A",
+        "3 mA"
       ],
       "correct": 0,
       "explain": "",

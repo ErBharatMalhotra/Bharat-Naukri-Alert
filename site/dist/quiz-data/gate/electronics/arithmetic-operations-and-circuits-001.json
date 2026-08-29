@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Arithmetic Operations And Circuits",
   "source": "indiabix.com",
-  "count": 12,
+  "count": 19,
   "questions": [
     {
-      "id": "gate-171hkk4",
-      "q": "A full adder adds three bits, a half adder adds 1-1/2 bits.",
+      "id": "gate-frgiq4",
+      "q": "Signed binary numbers have one bit that represents the sign, with the remaining bits representing the magnitude.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-rtucbk",
-      "q": "Using the two's complement number system we can add numbers with like signs and obtain the correct result.",
+      "id": "gate-1mjwo2s",
+      "q": "The operands in a subtraction operation are the subend and the minuend.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1s6eofk",
-      "q": "Two half adders can be combined to form a full adder with no additional gates.",
+      "id": "gate-f39z0k",
+      "q": "A technique to speed parallel addition by eliminating the delay caused by the carry bit propagation is called fast carry, or look-ahead carry.",
       "options": [
         "True",
         "False"
@@ -62,13 +62,11 @@
       "tags": []
     },
     {
-      "id": "gate-1v7ht78",
-      "q": "The bits of a number that tell how large the number is are called ____________________.",
+      "id": "gate-1aci6zt",
+      "q": "End around carry is an operation in 1's complement subtraction where a 1 is added to the sum of the 1's complement of both numbers.",
       "options": [
-        "carry bits",
-        "magnitude bits",
-        "sign bits",
-        "most significant bits"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -82,13 +80,11 @@
       "tags": []
     },
     {
-      "id": "gate-ag608o",
-      "q": "Two 4-bit adders could be cascaded to form a(n) ___________.",
+      "id": "gate-ge6oqw",
+      "q": "The operands in an addition operation consist of the augend and the addend.",
       "options": [
-        "16-bit parallel-adder circuit",
-        "8-bit parallel-adder circuit",
-        "full-adder circuit",
-        "arithmetic-logic unit"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -102,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-v45inj",
-      "q": "An input to the mode pin of an arithmetic-logic unit (ALU) determines if the function will be _________.",
+      "id": "gate-zrgex8",
+      "q": "One advantage of using the 2's complement system to represent signed numbers is that you ___________.",
       "options": [
-        "one's complemented",
-        "positive or negative",
-        "with or without carry",
-        "arithmetic or logic"
+        "can perform subtraction by performing addition",
+        "can perform addition by performing subtraction",
+        "can perform division through repeated subtraction",
+        "none of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -122,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vqcx18",
-      "q": "In binary number systems the sign of a number is indicated by _________.",
+      "id": "gate-196kzcm",
+      "q": "The 1's complement of 1010102 is _________.",
       "options": [
-        "using a 0 (zero) bit in front of negative numbers",
-        "inverting the bits if the number is negative",
-        "including a sign bit along with the magnitude bits",
-        "placing a negative sign in front of the number"
+        "0101102",
+        "0101012",
+        "1101112",
+        "1010112"
       ],
       "correct": 0,
       "explain": "",
@@ -142,13 +138,73 @@
       "tags": []
     },
     {
-      "id": "gate-s3bhms",
-      "q": "When 1100010 is divided by 0101, what will be the decimal remainder?",
+      "id": "gate-kemgx",
+      "q": "All digital systems that perform arithmetic operations must indicate _______ and ________ for numbers.",
       "options": [
-        "2",
-        "3",
+        "size, base",
+        "sign, magnitude",
+        "sign, base",
+        "magnitude, base"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nq4q9g",
+      "q": "The carry propagation delay in 4-bit full-adder circuits ____________.",
+      "options": [
+        "is normally not a consideration because the delays are usually in the nanosecond range",
+        "is cumulative for each stage and limits the speed at which arithmetic operations are performed",
+        "decreases in direct ratio to the total number of full-adder stages",
+        "increases in direct ratio to the total number of full-adder stages, but is not a factor in limiting the speed of arithmetic operations"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rgqddo",
+      "q": "The 2's complement of 1101102 is _________.",
+      "options": [
+        "1101002",
+        "1010102",
+        "0010112",
+        "0010102"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fmjbhz",
+      "q": "How many basic binary subtraction operations are possible?",
+      "options": [
         "4",
-        "6"
+        "3",
+        "2",
+        "1"
       ],
       "correct": 0,
       "explain": "",
@@ -162,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-hss8jk",
-      "q": "What are the two types of basic adder circuits?",
+      "id": "gate-1rlemvk",
+      "q": "How many basic binary subtraction combinations are possible?",
       "options": [
-        "half adder and full adder",
-        "half adder and parallel adder",
-        "asynchronous and synchronous",
-        "one's complement and two's complement"
+        "4",
+        "3",
+        "2",
+        "1"
       ],
       "correct": 0,
       "explain": "",
@@ -182,28 +238,8 @@
       "tags": []
     },
     {
-      "id": "gate-g3e07w",
-      "q": "Adding the two's complement of &#8211;11 + (&#8211;2) will yield which two's complement answer?",
-      "options": [
-        "1110 1101",
-        "1111 1001",
-        "1111 0011",
-        "1110 1001"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ft7lx8",
-      "q": "The two's complement system is to be used to add the signed numbers 11110010 and 11110011. Determine, in decimal, the sign and value of each number and their sum.",
+      "id": "gate-1usgzwg",
+      "q": "Use the two's complement system to add the signed numbers 11110010 and 11110011. Determine, in decimal, the sign and value of each number and their sum.",
       "options": [
         "&#8211;14 and &#8211;13; &#8211;27",
         "&#8211;113 and &#8211;114; 227",
@@ -222,13 +258,113 @@
       "tags": []
     },
     {
-      "id": "gate-eo5rw4",
-      "q": "The fast carry or look-ahead carry circuits found in most 4-bit parallel-adder circuits:",
+      "id": "gate-63go5r",
+      "q": "The selector inputs to an arithmetic-logic unit (ALU) determine the:",
       "options": [
-        "increase ripple delay",
-        "add a 1 to complemented inputs",
-        "reduce propagation delay",
-        "determine sign and magnitude"
+        "selection of the IC",
+        "arithmetic or logic function",
+        "data word selection",
+        "clock frequency to be used"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dfm0xa",
+      "q": "Adding in binary, the decimal values 26 + 27 will produce a sum of:",
+      "options": [
+        "111010",
+        "110110",
+        "110101",
+        "101011"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2w2qgs",
+      "q": "Binary subtraction of a decimal 15 from 43 will utilize which two's complement?",
+      "options": [
+        "101011",
+        "110000",
+        "011100",
+        "110001"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4zsnwo",
+      "q": "When multiplying in binary the decimal values 13 &#215; 11, what is the third partial product?",
+      "options": [
+        "100000",
+        "100001",
+        "0000",
+        "1011"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jj5ess",
+      "q": "The range of an 8-bit two's complement word is from:",
+      "options": [
+        "+12810 to &#8211;12810",
+        "&#8211;12810 to +12710",
+        "+12810 to &#8211;12710",
+        "+12710 to &#8211;12710"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ju79bo",
+      "q": "A full adder adds ____.",
+      "options": [
+        "two 2-bit binary numbers",
+        "two 4-bit binary numbers",
+        "two single bits and one carry bit",
+        "two 2-bit numbers and one carry bit"
       ],
       "correct": 0,
       "explain": "",

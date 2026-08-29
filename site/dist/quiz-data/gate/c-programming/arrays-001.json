@@ -5,16 +5,76 @@
   "subject": "C# Programming",
   "topic": "Arrays",
   "source": "indiabix.com",
-  "count": 4,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-132n4o2",
-      "q": "Which of the following statements are correct about the C#.NET code snippet given below? int[ , ] intMyArr = {{7, 1, 3}, {2, 9, 6}}; intMyArr represents rectangular array of 2 rows and 3 columns. intMyArr.GetUpperBound(1) will yield 2. intMyArr.Length will yield 24. intMyArr represents 1-D array of 5 integers. intMyArr.GetUpperBound(0) will yield 2.",
+      "id": "gate-4bajck",
+      "q": "Which of the following is the correct output of the C#.NET code snippet given below? int[ , , ] a = new int[ 3, 2, 3 ]; Console.WriteLine(a.Length);",
+      "options": [
+        "20",
+        "4",
+        "18",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wvq1fc",
+      "q": "Which of the following statements are correct about arrays used in C#.NET? Arrays can be rectangular or jagged. Rectangular arrays have similar rows stored in adjacent memory locations. Jagged arrays do not have an access to the methods of System.Array Class. Rectangular arrays do not have an access to the methods of System.Array Class. Jagged arrays have dissimilar rows stored in non-adjacent memory locations.",
       "options": [
         "1, 2",
+        "1, 3, 5",
+        "3, 4",
+        "1, 2, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zkxmc8",
+      "q": "Which of the following statements are correct about the C#.NET code snippet given below? int[][]intMyArr = new int[2][]; intMyArr[0] = new int[4]{6, 1, 4, 3}; intMyArr[1] = new int[3]{9, 2, 7};",
+      "options": [
+        "intMyArr is a reference to a 2-D jagged array.",
+        "The two rows of the jagged array intMyArr are stored in adjacent memory locations.",
+        "intMyArr[0] refers to the zeroth 1-D array and intMyArr[1] refers to the first 1-D array.",
+        "intMyArr refers to intMyArr[0] and intMyArr[1]."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1p8a6eg",
+      "q": "Which of the following are the correct ways to define an array of 2 rows and 3 columns? int[ , ] a; a = new int[2, 3]{{7, 1, 3},{2, 9, 6}}; int[ , ] a; a = new int[2, 3]{}; int[ , ] a = {{7, 1, 3}, {2, 9,6 }}; int[ , ] a; a = new int[1, 2]; int[ , ] a; a = new int[1, 2]{{7, 1, 3}, {2, 9, 6}};",
+      "options": [
+        "1, 2 , 3",
+        "1, 3",
         "2, 3",
-        "2, 5",
-        "1, 4"
+        "2, 4, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +88,53 @@
       "tags": []
     },
     {
-      "id": "gate-1gf1qof",
-      "q": "Which of the following statements are correct about the C#.NET code snippet given below? int[] a = {11, 3, 5, 9, 4}; The array elements are created on the stack. Refernce a is created on the stack. The array elements are created on the heap. On declaring the array a new array class is created which is derived from System.Array Class. Whether the array elements are stored in the stack or heap depends upon the size of the array.",
+      "id": "gate-s7sn0q",
+      "q": "Which of the following statements is correct about the array declaration given below? int[][][] intMyArr = new int[2][][];",
+      "options": [
+        "intMyArr refers to a 2-D jagged array containing 2 rows.",
+        "intMyArr refers to a 2-D jagged array containing 3 rows.",
+        "intMyArr refers to a 3-D jagged array containing 2 2-D jagged arrays.",
+        "intMyArr refers to a 3-D jagged array containing three 2-D jagged arrays."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l1hnpg",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? int[] intMyArr = {11, 3, 5, 9, 4};",
+      "options": [
+        "intMyArr is a reference to an object of System.Array Class.",
+        "intMyArr is a reference to an object of a class that the compiler derives from System.Array Class.",
+        "intMyArr is a reference to an array of integers.",
+        "intMyArr is a reference to an object created on the stack."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n63gb3",
+      "q": "Which of the following is the correct way to define and initialise an array of 4 integers? int[] a = {25, 30, 40, 5}; int[] a; a = new int[3]; a[0] = 25; a[1] = 30; a[2] = 40; a[3] = 5; int[] a; a = new int{25, 30, 40, 5}; int[] a; a = new int[4]{25, 30, 40, 5}; int[] a; a = new int[4]; a[0] = 25; a[1] = 30; a[2] = 40; a[3] = 5;",
       "options": [
         "1, 2",
-        "2, 3, 4",
-        "2, 3, 5",
-        "4, 5"
+        "3, 4",
+        "1, 4, 5",
+        "2, 4, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-2ic360",
-      "q": "If a is an array of 5 integers then which of the following is the correct way to increase its size to 10 elements?",
+      "id": "gate-554ywc",
+      "q": "Which of the following is the correct output of the C#.NET code snippet given below? int[][] a = new int[2][]; a[0] = new int[4]{6, 1, 4, 3}; a[1] = new int[3]{9, 2, 7}; Console.WriteLine(a[1].GetUpperBound(0));",
       "options": [
-        "int[] a = new int[5]; int[] a = new int[10];",
-        "int[] a = int[5]; int[] a = int[10];",
-        "int[] a = new int[5]; a.Length = 10 ;",
-        "int[] a = new int[5]; a = new int[10];"
+        "3",
+        "4",
+        "7",
+        "9"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +168,33 @@
       "tags": []
     },
     {
-      "id": "gate-1rekh6k",
-      "q": "How will you complete the foreach loop in the C#.NET code snippet given below such that it correctly prints all elements of the array a? int[][]a = new int[2][]; a[0] = new int[4]{6, 1 ,4, 3}; a[1] = new int[3]{9, 2, 7}; foreach (int[ ] i in a) { /* Add loop here */ Console.Write(j + \" \"); Console.WriteLine(); }",
+      "id": "gate-fids24",
+      "q": "Which of the following is the correct way to obtain the number of elements present in the array given below? int[] intMyArr = {25, 30, 45, 15, 60}; intMyArr.GetMax; intMyArr.Highest(0); intMyArr.GetUpperBound(0); intMyArr.Length; intMyArr.GetMaxElements(0);",
       "options": [
-        "foreach (int j = 1; j &lt; a(0).GetUpperBound; j++)",
-        "foreach (int j = 1; j &lt; a.GetUpperBound (0); j++)",
-        "foreach (int j in a.Length)",
-        "foreach (int j in i)"
+        "1, 2",
+        "3, 4",
+        "3, 5",
+        "1, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Arrays",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n256zs",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { int i, j; int[ , ] arr = new int[ 2, 2 ]; for(i = 0; i &lt; 2; ++i) { for(j = 0; j &lt; 2; ++j) { arr[i, j] = i * 17 + i * 17; Console.Write(arr[ i, j ] + \" \"); } } } } }",
+      "options": [
+        "0 0 34 34",
+        "0 0 17 17",
+        "0 0 0 0",
+        "17 17 0 0"
       ],
       "correct": 0,
       "explain": "",

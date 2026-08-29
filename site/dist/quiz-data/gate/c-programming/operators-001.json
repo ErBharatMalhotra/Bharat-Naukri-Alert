@@ -5,16 +5,156 @@
   "subject": "C# Programming",
   "topic": "Operators",
   "source": "indiabix.com",
-  "count": 9,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-11fiuvw",
-      "q": "Which of the following are the correct ways to increment the value of variable a by 1? ++a++; a += 1; a ++ 1; a = a +1; a = +1;",
+      "id": "gate-11v5lxc",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? int d; d = Convert.ToInt32( !(30 &lt; 20) );",
+      "options": [
+        "A value 0 will be assigned to d.",
+        "A value 1 will be assigned to d.",
+        "A value -1 will be assigned to d.",
+        "The code reports an error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uunlxe",
+      "q": "Which of the following is the correct output for the C#.NET code snippet given below? Console.WriteLine(13 / 2 + \" \" + 13 % 2);",
+      "options": [
+        "6.5 1",
+        "6.5 0",
+        "6 0",
+        "6 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t3fn4",
+      "q": "Which of the following statements are correct about the Bitwise &amp; operator used in C#.NET? The &amp; operator can be used to Invert a bit. The &amp; operator can be used to put ON a bit. The &amp; operator can be used to put OFF a bit. The &amp; operator can be used to check whether a bit is ON. The &amp; operator can be used to check whether a bit is OFF.",
+      "options": [
+        "1, 2, 4",
+        "2, 3, 5",
+        "3, 4",
+        "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15y1rnt",
+      "q": "Which of the following are Logical operators in C#.NET? &amp;&amp; || ! Xor %",
+      "options": [
+        "1, 2, 3",
+        "1, 3, 4",
+        "2, 4, 5",
+        "3, 4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vw5qbw",
+      "q": "Suppose n is a variable of the type Byte and we wish, to check whether its fourth bit (from right) is ON or OFF. Which of the following statements will do this correctly?",
+      "options": [
+        "if ((n&amp;16) == 16) Console.WriteLine(\"Fourth bit is ON\");",
+        "if ((n&amp;8) == 8) Console.WriteLine(\"Fourth bit is ON\");",
+        "if ((n ! 8) == 8) Console.WriteLine(\"Fourth bit is ON\");",
+        "if ((n ^ 8) == 8) Console.WriteLine(\"Fourth bit is ON\");"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pdu4ik",
+      "q": "What will be the output of the C#.NET code snippet given below? int i, j = 1, k; for (i = 0; i &lt; 5; i++) { k = j++ + ++j; Console.Write(k + \" \"); }",
+      "options": [
+        "8 4 16 12 20",
+        "4 8 12 16 20",
+        "4 8 16 32 64",
+        "2 4 6 8 10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-93y0ps",
+      "q": "What will be the output of the C#.NET code snippet given below? int a = 10, b = 20, c = 30; int res = a &lt; b ? a &lt; c ? c : a : b; Console.WriteLine(res);",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "Compile Error / Syntax Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Operators",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14ehbrc",
+      "q": "Which of the following statements are correct about the following code snippet? int a = 10; int b = 20; bool c; c = !(a &gt; b); There is no error in the code snippet. An error will be reported since ! can work only with an int. A value 1 will be assigned to c. A value True will be assigned to c. A value False will be assigned to c.",
       "options": [
         "1, 3",
         "2, 4",
-        "3, 5",
-        "4, 5"
+        "4, 5",
+        "1, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tkhkvs",
-      "q": "What will be the output of the C#.NET code snippet given below? byte b1 = 0xF7; byte b2 = 0xAB; byte temp; temp = (byte)(b1 &amp; b2); Console.Write (temp + \" \"); temp = (byte)(b1^b2); Console.WriteLine(temp);",
+      "id": "gate-1udx2o8",
+      "q": "Which of the following statements is correct about Bitwise ^ operator used in C#.NET?",
       "options": [
-        "163 92",
-        "92 163",
-        "192 63",
-        "0 1"
+        "The ^ operator can be used to put ON a bit.",
+        "The ^ operator can be used to put OFF a bit.",
+        "The ^ operator can be used to Invert a bit.",
+        "The ^ operator can be used to check whether a bit is ON."
       ],
       "correct": 0,
       "explain": "",
@@ -48,133 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-a729wg",
-      "q": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+      "id": "gate-13p9a4",
+      "q": "Which of the following statements are correct? The conditional operator (?:) returns one of two values depending on the value of a Boolean expression. The as operator in C#.NET is used to perform conversions between compatible reference types. The &amp;* operator is also used to declare pointer types and to dereference pointers. The -&gt; operator combines pointer dereferencing and member access. In addition to being used to specify the order of operations in an expression, brackets [ ] are used to specify casts or type conversions.",
       "options": [
-        "**",
-        "+",
-        "/",
-        "%"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qykr5k",
-      "q": "Which of the following are NOT Relational operators in C#.NET? &gt;= != Not &lt;= &lt;&gt;=",
-      "options": [
-        "1, 3",
-        "2, 4",
-        "3, 5",
-        "4, 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ful0k",
-      "q": "Which of the following is NOT a Bitwise operator in C#.NET?",
-      "options": [
-        "&amp;",
-        "|",
-        "&lt;&lt;",
-        "^"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ehtr2",
-      "q": "What will be the output of the C#.NET code snippet given below? int num = 1, z = 5; if (!(num &lt;= 0)) Console.WriteLine( ++num + z++ + \" \" + ++z ); else Console.WriteLine( --num + z-- + \" \" + --z );",
-      "options": [
-        "5 6",
-        "6 5",
-        "6 6",
-        "7 7"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10lol1k",
-      "q": "Suppose n is a variable of the type Byte and we wish to put OFF its fourth bit (from right) without disturbing any other bits. Which of the following statements will do this correctly?",
-      "options": [
-        "n = n &amp;&amp; HF7",
-        "n = n &amp; 16",
-        "n = n &amp; 0xF7",
-        "n = n &amp; HexF7"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1up7hrs",
-      "q": "What will be the output of the C#.NET code snippet given below? byte b1 = 0xAB; byte b2 = 0x99; byte temp; temp = (byte)~b2; Console.Write(temp + \" \"); temp = (byte)(b1 &lt;&lt; b2); Console.Write (temp + \" \"); temp = (byte) (b2 &gt;&gt; 2); Console.WriteLine(temp);",
-      "options": [
-        "102 1 38",
-        "108 0 32",
-        "102 0 38",
-        "1 0 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Operators",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mhky0w",
-      "q": "Which of the following is NOT an Assignment operator in C#.NET?",
-      "options": [
-        "\\=",
-        "/=",
-        "*=",
-        "+="
+        "1, 2, 4",
+        "2, 3, 5",
+        "3, 4, 5",
+        "1, 3, 5"
       ],
       "correct": 0,
       "explain": "",

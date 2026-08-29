@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "Declarations And Initializations",
   "source": "indiabix.com",
-  "count": 15,
+  "count": 31,
   "questions": [
     {
-      "id": "gate-m1wioo",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int X=40; int main() { int X=20; printf(\"%d\\n\", X); return 0; }",
+      "id": "gate-1fhb114",
+      "q": "What is the output of the program given below ? #include&lt;stdio.h&gt; int main() { enum status { pass, fail, atkt}; enum status stud1, stud2, stud3; stud1 = pass; stud2 = atkt; stud3 = fail; printf(\"%d, %d, %d\\n\", stud1, stud2, stud3); return 0; }",
       "options": [
-        "20",
-        "40",
-        "Error",
-        "No Output"
+        "0, 1, 2",
+        "1, 2, 3",
+        "0, 2, 1",
+        "1, 3, 2"
       ],
       "correct": 0,
       "explain": "",
@@ -28,112 +28,32 @@
       "tags": []
     },
     {
-      "id": "gate-1ipkxbs",
-      "q": "What is the output of the program #include&lt;stdio.h&gt; int main() { int x = 10, y = 20, z = 5, i; i = x &lt; y &lt; z; printf(\"%d\\n\", i); return 0; }",
+      "id": "gate-1vyj3k8",
+      "q": "What will be the output of the program in 16 bit platform (Turbo C under DOS)? #include&lt;stdio.h&gt; int main() { extern int i; i = 20; printf(\"%d\\n\", sizeof(i)); return 0; }",
       "options": [
+        "2",
+        "4",
+        "vary from compiler",
+        "Linker Error : Undefined symbol 'i'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y0i1ns",
+      "q": "What is the output of the program? #include&lt;stdio.h&gt; int main() { extern int a; printf(\"%d\\n\", a); return 0; } int a=20;",
+      "options": [
+        "20",
         "0",
-        "1",
-        "Error",
-        "None of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15wdmw4",
-      "q": "What is the output of the program #include&lt;stdio.h&gt; int main() { extern int fun(float); int a; a = fun(3.14); printf(\"%d\\n\", a); return 0; } int fun(int aa) { return (int)++aa; }",
-      "options": [
-        "3",
-        "3.14",
-        "0&nbsp;",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ffo0x4",
-      "q": "What is the output of the program #include&lt;stdio.h&gt; int main() { int a[5] = {2, 3}; printf(\"%d, %d, %d\\n\", a[2], a[3], a[4]); return 0; }",
-      "options": [
-        "Garbage Values",
-        "2, 3, 3",
-        "3, 2, 2",
-        "0, 0, 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1prv59c",
-      "q": "What is the output of the program? #include&lt;stdio.h&gt; int main() { union a { int i; char ch[2]; }; union a u; u.ch[0] = 3; u.ch[1] = 2; printf(\"%d, %d, %d\\n\", u.ch[0], u.ch[1], u.i); return 0; }",
-      "options": [
-        "3, 2, 515",
-        "515, 2, 3",
-        "3, 2, 5",
-        "None of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yys3bs",
-      "q": "In the following program how long will the for loop get executed? #include&lt;stdio.h&gt; int main() { int i=5; for(;scanf(\"%s\", &amp;i); printf(\"%d\\n\", i)); return 0; }",
-      "options": [
-        "The for loop would not get executed at all",
-        "The for loop would get executed only once",
-        "The for loop would get executed 5 times",
-        "The for loop would get executed infinite times"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dfk8h8",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int X=40; { int X=20; printf(\"%d \", X); } printf(\"%d\\n\", X); return 0; }",
-      "options": [
-        "40 40",
-        "20 40",
-        "20",
+        "Garbage Value",
         "Error"
       ],
       "correct": 0,
@@ -148,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1e0ymx4",
-      "q": "1 : typedef long a;extern int a c; 2 : typedef long a;extern a int c; 3 : typedef long a;extern a c;",
+      "id": "gate-gkrfs8",
+      "q": "What is the output of the program in Turbo C (in DOS 16-bit OS)? #include&lt;stdio.h&gt; int main() { char *s1; char far *s2; char huge *s3; printf(\"%d, %d, %d\\n\", sizeof(s1), sizeof(s2), sizeof(s3)); return 0; }",
       "options": [
-        "1 correct",
-        "2 correct",
-        "3 correct",
-        "1, 2, 3 are correct"
+        "2, 4, 6",
+        "4, 4, 2",
+        "2, 4, 4",
+        "2, 2, 2"
       ],
       "correct": 0,
       "explain": "",
@@ -168,11 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1apby2z",
-      "q": "Size of short integer and long integer would vary from one platform to another.",
+      "id": "gate-1c7jqa8",
+      "q": "What is the output of the program #include&lt;stdio.h&gt; int main() { struct emp { char name[20]; int age; float sal; }; struct emp e = {\"Tiger\"}; printf(\"%d, %f\\n\", e.age, e.sal); return 0; }",
       "options": [
-        "True",
-        "False"
+        "0, 0.000000",
+        "Garbage values",
+        "Error",
+        "None of above"
       ],
       "correct": 0,
       "explain": "",
@@ -186,90 +108,12 @@
       "tags": []
     },
     {
-      "id": "gate-1tip6oc",
-      "q": "Range of float id -2.25e+308 to 2.25e+308",
+      "id": "gate-1v8w0n3",
+      "q": "Point out the error in the following program (if it is compiled with Turbo C compiler). #include&lt;stdio.h&gt; int main() { display(); return 0; } void display() { printf(\"IndiaBIX.com\"); }",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-148edks",
-      "q": "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?",
-      "options": [
-        "rem = 3.14 % 2.1;",
-        "rem = modf(3.14, 2.1);",
-        "rem = fmod(3.14, 2.1);",
-        "Remainder cannot be obtain in floating point division."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k3zzg5",
-      "q": "What are the types of linkages?",
-      "options": [
-        "Internal and External",
-        "External, Internal and None",
-        "External and None",
-        "Internal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14er45k",
-      "q": "Which of the following special symbol allowed in a variable name?",
-      "options": [
-        "* (asterisk)",
-        "| (pipeline)",
-        "- (hyphen)",
-        "_ (underscore)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Declarations And Initializations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hnzs2q",
-      "q": "Is there any difference between following declarations? 1 : extern int fun(); 2 : int fun();",
-      "options": [
-        "Both are identical",
-        "No difference, except extern int fun(); is probably in another file",
-        "int fun(); is overrided with extern int fun();",
+        "No error",
+        "display() doesn't get invoked",
+        "display() is called before it is defined",
         "None of these"
       ],
       "correct": 0,
@@ -284,13 +128,473 @@
       "tags": []
     },
     {
-      "id": "gate-h53120",
-      "q": "How would you round off a value from 1.66 to 2.0?",
+      "id": "gate-bw92r4",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; int main() { void v = 0; printf(\"%d\", v); return 0; }",
       "options": [
-        "ceil(1.66)",
-        "floor(1.66)",
-        "roundup(1.66)",
-        "roundto(1.66)"
+        "Error: Declaration syntax error 'v' (or) Size of v is unknown or zero.",
+        "Program terminates abnormally.",
+        "No error.",
+        "None of these."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r84mdo",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; struct emp { char name[20]; int age; }; int main() { emp int xx; int a; printf(\"%d\\n\", &amp;a); return 0; }",
+      "options": [
+        "Error: in printf",
+        "Error: in emp int xx;",
+        "No error.",
+        "None of these."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-twqzo6",
+      "q": "Which of the following is correct about err used in the declaration given below? typedef enum error { warning, test, exception } err;",
+      "options": [
+        "It is a typedef for enum error.",
+        "It is a variable of type enum error.",
+        "The statement is erroneous.",
+        "It is a structure."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t6j8xw",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; int main() { int (*p)() = fun; (*p)(); return 0; } int fun() { printf(\"IndiaBix.com\\n\"); return 0; }",
+      "options": [
+        "Error: in int(*p)() = fun;",
+        "Error: fun() prototype not defined",
+        "No error",
+        "None of these"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nwpgc",
+      "q": "Which of the declaration is correct?",
+      "options": [
+        "int length;",
+        "char int;",
+        "int long;",
+        "float double;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6mocr0",
+      "q": "Which of the following operations are INCORRECT?",
+      "options": [
+        "int i = 35; i = i%5;",
+        "short int j = 255; j = j;",
+        "long int k = 365L; k = k;",
+        "float a = 3.14; a = a%3;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bk1tyk",
+      "q": "Which of the following correctly represents a long double constant?",
+      "options": [
+        "6.68",
+        "6.68L",
+        "6.68f",
+        "6.68LF"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-se6fko",
+      "q": "Which of the structure is incorrcet? 1 : struct aa { int a; float b; }; 2 : struct aa { int a; float b; struct aa var; }; 3 : struct aa { int a; float b; struct aa *var; };",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1, 2, 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ilmsr0",
+      "q": "Which of the structure is correct? 1 : struct book { char name[10]; float price; int pages; }; 2 : struct aa { char name[10]; float price; int pages; } 3 : struct aa { char name[10]; float price; int pages; }",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "All of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14opbie",
+      "q": "A long double can be used if range of a double is not enough to accommodate a real number.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1r7wbus",
+      "q": "A float is 4 bytes wide, whereas a double is 8 bytes wide.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a9dshc",
+      "q": "If the definition of the external variable occurs in the source file before its use in a particular function, then there is no need for an extern declaration in the function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m7zudc",
+      "q": "Size of short integer and long integer can be verified using the sizeof() operator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lem1pl",
+      "q": "Range of double is -1.7e-38 to 1.7e+38 (in 16 bit platform - Turbo C under DOS)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i9coyw",
+      "q": "Is there any difference in the following declarations? int myfun(int arr[]);int myfun(arr[20]);",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oscpsg",
+      "q": "Suppose a program is divided into three files f1, f2 and f3, and a variable is defined in the file f1 but used in files f2 and f3. In such a case would we need the extern declaration for the variables in the files f2 and f3?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3jxfrs",
+      "q": "Global variable are available to all functions. Does there exist a mechanism by way of which it available to some and not to others.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13qsxa0",
+      "q": "Is it true that a global variable may have several declarations, but only one definition?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xlc99u",
+      "q": "Is it true that a function may have several declarations, but only one definition?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tbidsb",
+      "q": "By default a real number is treated as a",
+      "options": [
+        "float",
+        "double",
+        "long double",
+        "far double"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8duxaw",
+      "q": "Which of the following is not user defined data type? 1 : struct book { char name[10]; float price; int pages; }; 2 : long int l = 2.35; 3 : enum day {Sun, Mon, Tue, Wed};",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Both 1 and 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16ryrl4",
+      "q": "Is the following statement a declaration or definition? extern int i;",
+      "options": [
+        "Declaration",
+        "Definition",
+        "Function",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2u2qes",
+      "q": "Identify which of the following are declarations 1 : extern int x; 2 : float square ( float x ) { ... } 3 : double pow(double, double);",
+      "options": [
+        "1",
+        "2",
+        "1 and 3",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-reu8bk",
+      "q": "In the following program where is the variable a getting defined and where it is getting declared? #include&lt;stdio.h&gt; int main() { extern int a; printf(\"%d\\n\", a); return 0; } int a=20;",
+      "options": [
+        "extern int a is declaration, int a = 20 is the definition",
+        "int a = 20 is declaration, extern int a is the definition",
+        "int a = 20 is definition, a is not defined",
+        "a is declared, a is not defined"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Declarations And Initializations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y6ioga",
+      "q": "When we mention the prototype of a function?",
+      "options": [
+        "Defining",
+        "Declaring",
+        "Prototyping",
+        "Calling"
       ],
       "correct": 0,
       "explain": "",

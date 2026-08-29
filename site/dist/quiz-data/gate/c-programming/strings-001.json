@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Strings",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 7,
   "questions": [
     {
-      "id": "gate-pt3nz4",
-      "q": "Which of the following statements are true about the C#.NET code snippet given below? String s1, s2; s1 = \"Hi\"; s2 = \"Hi\"; String objects cannot be created without using new. Only one object will get created. s1 and s2 both will refer to the same object. Two objects will get created, one pointed to by s1 and another pointed to by s2. s1 and s2 are references to the same object.",
+      "id": "gate-1swc22s",
+      "q": "If s1 and s2 are references to two strings, then which of the following is the correct way to compare the two references?",
       "options": [
-        "1, 2, 4",
-        "2, 3, 5",
-        "3, 4",
-        "2, 5"
+        "s1 is s2",
+        "s1 = s2",
+        "s1 == s2",
+        "strcmp(s1, s2)"
       ],
       "correct": 0,
       "explain": "",
@@ -28,131 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-esrxle",
-      "q": "Which of the following will be the correct output for the C#.NET code snippet given below? String s1 = \"ALL MEN ARE CREATED EQUAL\"; String s2; s2 = s1.Substring(12, 3); Console.WriteLine(s2);",
-      "options": [
-        "ARE",
-        "CRE",
-        "CR",
-        "REA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-680zmy",
-      "q": "Which of the following statements will correctly copy the contents of one string into another ?",
-      "options": [
-        "String s1 = \"String\"; String s2; s2 = s1;",
-        "String s1 = \"String\" ; String s2; s2 = String.Concat(s1, s2);",
-        "String s1 = \"String\"; String s2; s2 = String.Copy(s1);",
-        "String s1 = \"String\"; String s2; s2 = s1.Replace();"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a2fs6c",
-      "q": "The string built using the String class are immutable (unchangeable), whereas, the ones built- using the StringBuilder class are mutable.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-105j8wg",
-      "q": "Which of the following will be the correct output for the C#.NET code snippet given below? String s1 = \"Nagpur\"; String s2; s2 = s1.Insert(6, \"Mumbai\"); Console.WriteLine(s2);",
-      "options": [
-        "NagpuMumbair",
-        "Nagpur Mumbai",
-        "Mumbai",
-        "Nagpur"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cvothc",
-      "q": "Which of the following statements about a String is correct?",
-      "options": [
-        "A String is created on the stack.",
-        "Whether a String is created on the stack or the heap depends on the length of the String.",
-        "A String is a primitive.",
-        "A String can be created by using the statement String s1 = new String;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m6lf18",
-      "q": "Which of the following statement is correct about a String in C#.NET?",
-      "options": [
-        "A String is mutable because it can be modified once it has been created.",
-        "Methods of the String class can be used to modify the string.",
-        "A number CANNOT be represented in the form of a String.",
-        "A String has a zero-based index."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Strings",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n1xk4x",
-      "q": "Which of the following will be the correct output for the C#.NET code snippet given below? String s1 = \"Five Star\"; String s2 = \"FIVE STAR\"; int c; c = s1.CompareTo(s2); Console.WriteLine(c);",
+      "id": "gate-w8hswn",
+      "q": "What will be the output of the C#.NET code snippet given below? namespace IndiabixConsoleApplication { class SampleProgram { static void Main(string[ ] args) { string str= \"Hello World!\"; Console.WriteLine( String.Compare(str, \"Hello World?\" ).GetType() ); } } }",
       "options": [
         "0",
         "1",
-        "2",
-        "-1"
+        "String",
+        "Hello World?"
       ],
       "correct": 0,
       "explain": "",
@@ -166,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-10orihi",
-      "q": "If s1 and s2 are references to two strings then which of the following are the correct ways to find whether the contents of the two strings are equal? if(s1 = s2) if(s1 == s2) int c; c = s1.CompareTo(s2); if( strcmp(s1, s2) ) if (s1 is s2)",
+      "id": "gate-jjrxky",
+      "q": "Which of the following snippets are the correct way to convert a Single into a String? Single f = 9.8f; String s; s = (String) (f); Single f = 9.8f; String s; s = Convert.ToString(f); Single f = 9.8f; String s; s = f.ToString(); Single f = 9.8f; String s; s = Clnt(f); Single f = 9.8f; String s; s = CString(f);",
       "options": [
         "1, 2",
         "2, 3",
-        "4, 5",
-        "3, 5"
+        "1, 3, 5",
+        "2, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -186,13 +68,73 @@
       "tags": []
     },
     {
-      "id": "gate-5v3ht4",
-      "q": "Which of the following statements are correct about the String Class in C#.NET? Two strings can be concatenated by using an expression of the form s3 = s1 + s2; String is a primitive in C#.NET. A string built using StringBuilder Class is Mutable. A string built using String Class is Immutable. Two strings can be concatenated by using an expression of the form s3 = s1&amp;s2;",
+      "id": "gate-et298",
+      "q": "Which of the following will be the correct output for the C#.NET code snippet given below? String s1=\"Kicit\"; Console.Write(s1.IndexOf('c') + \" \"); Console.Write(s1.Length);",
       "options": [
-        "1, 2, 5",
+        "3 6",
+        "2 5",
+        "3 5",
+        "2 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Strings",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l0oswp",
+      "q": "Which of the following is correct way to convert a String to an int? String s = \"123\"; int i; i = (int)s; String s = \"123\"; int i; i = int.Parse(s); String s = \"123\"; int i; i = Int32.Parse(s); String s = \"123\"; int i; i = Convert.ToInt32(s); String s = \"123\"; int i; i = CInt(s);",
+      "options": [
+        "1, 3, 5",
         "2, 4",
-        "1, 3, 4",
-        "3, 5"
+        "3, 5",
+        "2, 3, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Strings",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2qk7yw",
+      "q": "Which of the following statements are correct? String is a value type. String literals can contain any character literal including escape sequences. The equality operators are defined to compare the values of string objects as well as references. Attempting to access a character that is outside the bounds of the string results in an IndexOutOfRangeException. The contents of a string object can be changed after the object is created.",
+      "options": [
+        "1, 3",
+        "3, 5",
+        "2, 4",
+        "1, 2, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Strings",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1eimwqw",
+      "q": "Which of the following is the correct way to find out the index of the second 's' in the string \"She sells sea shells on the sea-shore\"?",
+      "options": [
+        "String str = \"She sells sea shells on the sea-shore\"; int i; i = str.SecondIndexOf(\"s\");",
+        "String str = \"She sells sea shells on the sea-shore\"; int i, j; i = str.FirstIndexOf(\"s\"); j = str.IndexOf(\"s\", i + 1);",
+        "String str = \"She sells sea shells on the sea-shore\"; int i, j; i = str.IndexOf(\"s\"); j = str.IndexOf(\"s\", i + 1);",
+        "String str = \"She sells sea shells on the sea-shore\"; int i, j; i = str.LastIndexOf(\"s\"); j = str.IndexOf(\"s\", i - 1);"
       ],
       "correct": 0,
       "explain": "",

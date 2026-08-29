@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Circuit Theorems In Ac Analysis",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 13,
   "questions": [
     {
-      "id": "gate-1u0fmg",
-      "q": "In an ac circuit, power to the load peaks at the frequency at which the load impedance is the complex conjugate of the output impedance.",
+      "id": "gate-3owrt0",
+      "q": "One circuit is equivalent to another, in the context of Thevenin's theorem, when the circuits produce the same voltage.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-yplx5s",
-      "q": "In order to get maximum power transfer from a capacitive source, the load must have an impedance that is the complex conjugate of the source impedance.",
+      "id": "gate-15n2934",
+      "q": "Norton's theorem provides a method for the reduction of any ac circuit to an equivalent form consisting of an equivalent voltage source in series with an equivalent impedance.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-7q46is",
-      "q": "Thevenin's theorem provides a method for the reduction of any ac circuit to an equivalent form consisting of an equivalent current source in parallel with an equivalent impedance.",
+      "id": "gate-51attk",
+      "q": "A Thevenin ac equivalent circuit always consists of an equivalent ac voltage source and an equivalent capacitance.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-16m03jo",
-      "q": "The superposition theorem is useful for the analysis of single-source circuits.",
+      "id": "gate-1adyiyw",
+      "q": "The superposition theorem is useful for circuit analysis only in ac circuits.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-m1v364",
-      "q": "Like Thevenin's theorem, Norton's theorem provides a method of reducing a more complex circuit to a simpler, more manageable form for analysis.",
+      "id": "gate-xjynzk",
+      "q": "An equivalent circuit is one that produces the same voltage and current to a given load as the original circuit that it replaces.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1e93sgi",
-      "q": "Determine VTH when R1 is 180 and XL is 90 .",
+      "id": "gate-z4i59g",
+      "q": "Determine VTH for the circuit external to RL in the given figure.",
       "options": [
         "13563.4&deg; V",
         "13.563.4&deg; V",
-        "12.20&deg; V",
-        "1220&deg; V"
+        "13.50&deg; V",
+        "1350&deg; V"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-14e9aoe",
-      "q": "For the given circuit, find VTH for the circuit external to RL.",
+      "id": "gate-1myr8io",
+      "q": "Referring to the given figure, determine ZTH as seen by RL if R1 is changed to 3.3 k.",
       "options": [
-        "4.6951.3&deg; V",
-        "4.6938.7&deg; V",
-        "46938.7&deg; mV",
-        "60&deg; V"
+        "1488&#8211;70.7&deg;",
+        "3859 &#8211;31.2&deg;",
+        "5180 &#8211;50.5&deg;",
+        "1828&#8211;50.2&deg;"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,33 @@
       "tags": []
     },
     {
-      "id": "gate-13u75fo",
-      "q": "Referring to the given circuit, find ZTH if R is 15 k and RL is 38 k.",
+      "id": "gate-d6a9s4",
+      "q": "The two basic components of a Thevenin equivalent ac circuit are",
       "options": [
-        "89.82 &#8211;51.3&deg; k",
-        "19.2 &#8211;38.3&deg; k",
+        "the equivalent voltage source and the equivalent series impedance",
+        "the equivalent voltage source and the equivalent series resistance",
+        "the equivalent voltage source and the equivalent parallel impedance",
+        "the equivalent voltage source and the equivalent parallel resistance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Circuit Theorems In Ac Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-80dd66",
+      "q": "Referring to the given circuit, find ZTH if VS is 180&deg; V.",
+      "options": [
+        "9.82 &#8211;51.3&deg; k",
         "9.38&#8211;51.3&deg; k",
-        "180 &#8211;38.3&deg; k"
+        "180 &#8211;38.3&deg; k",
+        "19.2 &#8211;38.3&deg; k"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-16fear2",
-      "q": "For the circuit shown, determine ZTH for the portion of the circuit external to RL.",
+      "id": "gate-1tjdsm8",
+      "q": "In applying the superposition theorem,",
       "options": [
-        "66.7 &#8211;33.7&deg; k",
-        "6.67&#8211;333.7&deg; k",
-        "14.4 &#8211;56.3&deg; k",
-        "1.44 &#8211;33.7&deg; k"
+        "the sources are considered one at a time with all others replaced by their internal impedance",
+        "all sources are considered independently",
+        "all sources are considered simultaneously",
+        "the sources are considered one at a time with all others replaced by their internal resistance"
       ],
       "correct": 0,
       "explain": "",
@@ -178,193 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1l85hz4",
-      "q": "Referring to the given circuit, what is ZTH if R1 is changed to 220 ?",
-      "options": [
-        "22512.1&deg;",
-        "22577.9&deg;",
-        "4677.9&deg;",
-        "4612.1&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iz3fry",
-      "q": "If two currents are in the same direction at any instant of time in a given branch of a circuit, the net current at that instant",
-      "options": [
-        "is zero",
-        "is the sum of the two currents",
-        "is the difference between the two currents",
-        "cannot be determined"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1046e5g",
-      "q": "The Thevenin equivalent voltage is",
-      "options": [
-        "equal to the source voltage",
-        "the same as the load voltage",
-        "the open circuit voltage",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jjip3w",
-      "q": "Referring to the given circuit, L",
-      "options": [
-        "must be in parallel with RL",
-        "must be placed in parallel with VS",
-        "must have a reactance equal to XC",
-        "has no effect on the result"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sxldq0",
-      "q": "Referring to the given circuit, find ZTH for the part of the circuit that is external to RL.",
-      "options": [
-        "12921.4&deg;",
-        "43.768.6&deg;",
-        "43.721.4&deg;",
-        "12.968.6&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-voo8ac",
-      "q": "In order to get maximum power transfer from a capacitive source, the load must",
-      "options": [
-        "have a capacitive reactance equal to circuit resistance",
-        "have an impedance that is the complex conjugate of the source impedance",
-        "be as capacitive as it is inductive",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lqihws",
-      "q": "Referring to the given circuit, determine ZTH as seen by RL.",
-      "options": [
-        "1444&#8211;48.5&deg;",
-        "4176 &#8211;73.3&deg;",
-        "956 &#8211;48.5&deg;",
-        "1444 &#8211;73.3&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qjwcuw",
-      "q": "Referring to the given circuit, how much power, in watts, is delivered to the speaker at the determined frequency if VS = 4.5 VRMS?",
-      "options": [
-        "226 mW",
-        "2.26 mW",
-        "4.24 mW",
-        "424 mW"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vqq4nh",
-      "q": "The Norton equivalent current is",
-      "options": [
-        "the current through the load",
-        "the open-current from the source",
-        "the short circuit current",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Circuit Theorems In Ac Analysis",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b4hc8s",
-      "q": "Determine VTH if R1 is changed to 3.3 k.",
+      "id": "gate-jqrkss",
+      "q": "For the circuit given, determine the Thevenin voltage as seen by RL.",
       "options": [
         "0.57416.7&deg; V",
-        "4.6316.7&deg; V",
-        "4.6339.5&deg; V",
-        "0.46339.5&deg; V"
+        "5.7416.7&deg; V",
+        "0.574 &#8211;16.7&deg; V",
+        "5.74&#8211;16.7&deg; V"
       ],
       "correct": 0,
       "explain": "",
@@ -378,13 +218,33 @@
       "tags": []
     },
     {
-      "id": "gate-10c6e6q",
-      "q": "Referring to the given circuit, what is VTH if VS = 120&deg; V?",
+      "id": "gate-o003o5",
+      "q": "Determine the frequency at which the maximum power is transferred from the amplifier to the speaker in the given figure.",
       "options": [
-        "4.6938.7&deg; V",
-        "9.3838.7&deg; V",
-        "120&deg; V",
-        "60&deg; V"
+        "1,027 Hz",
+        "10,270 Hz",
+        "6,330 Hz",
+        "63,330 Hz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Circuit Theorems In Ac Analysis",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xqyo6y",
+      "q": "Norton's theorem gives",
+      "options": [
+        "an equivalent current source in parallel with an equivalent impedance",
+        "an equivalent current source in series with an equivalent impedance",
+        "an equivalent voltage source in parallel with an equivalent impedance",
+        "an equivalent voltage source in series with an equivalent impedance"
       ],
       "correct": 0,
       "explain": "",

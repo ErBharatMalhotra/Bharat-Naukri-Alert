@@ -5,15 +5,15 @@
   "subject": "Java Programming",
   "topic": "Objects And Collections",
   "source": "indiabix.com",
-  "count": 12,
+  "count": 17,
   "questions": [
     {
-      "id": "gate-wuhaea",
-      "q": "What will be the output of the program? public class Test { private static float[] f = new float[2]; public static void main (String[] args) { System.out.println(\"f[0] = \" + f[0]); } }",
+      "id": "gate-1pb90o8",
+      "q": "What will be the output of the program? public class Test { public static void main (String[] args) { String foo = args[1]; String bar = args[2]; String baz = args[3]; System.out.println(\"baz = \" + baz); /* Line 8 */ } } And the command line invocation: &gt; java Test red green blue",
       "options": [
-        "f[0] = 0",
-        "f[0] = 0.0",
-        "Compile Error",
+        "baz =",
+        "baz = null",
+        "baz = blue",
         "Runtime Exception"
       ],
       "correct": 0,
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1sscb1y",
-      "q": "What will be the output of the program? import java.util.*; class H { public static void main (String[] args) { Object x = new Vector().elements(); System.out.print((x instanceof Enumeration)+\",\"); System.out.print((x instanceof Iterator)+\",\"); System.out.print(x instanceof ListIterator); } }",
+      "id": "gate-1nntjeu",
+      "q": "What will be the output of the program? public class Test { public static void main (String args[]) { String str = NULL; System.out.println(str); } }",
       "options": [
-        "Prints: false,false,false",
-        "Prints: false,false,true",
-        "Prints: false,true,false",
-        "Prints: true,false,false"
+        "NULL",
+        "Compile Error",
+        "Code runs but no output",
+        "Runtime Exception"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-7wzu30",
-      "q": "What will be the output of the program? TreeSet map = new TreeSet(); map.add(\"one\"); map.add(\"two\"); map.add(\"three\"); map.add(\"four\"); map.add(\"one\"); Iterator it = map.iterator(); while (it.hasNext() ) { System.out.print( it.next() + \" \" ); }",
+      "id": "gate-184dc13",
+      "q": "What will be the output of the program? package foo; import java.util.Vector; /* Line 2 */ private class MyVector extends Vector { int i = 1; /* Line 5 */ public MyVector() { i = 2; } } public class MyNewVector extends MyVector { public MyNewVector () { i = 4; /* Line 15 */ } public static void main (String args []) { MyVector v = new MyNewVector(); /* Line 19 */ } }",
       "options": [
-        "one two three four",
-        "four three two one",
-        "four one three two",
-        "one two three four one"
+        "Compilation will succeed.",
+        "Compilation will fail at line 3.",
+        "Compilation will fail at line 5.",
+        "Compilation will fail at line 15."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-dh9830",
-      "q": "What will be the output of the program? public static void main(String[] args) { Object obj = new Object() { public int hashCode() { return 42; } }; System.out.println(obj.hashCode()); }",
+      "id": "gate-maks5w",
+      "q": "What will be the output of the program? public class Test { private static int[] x; public static void main(String[] args) { System.out.println(x[0]); } }",
       "options": [
-        "42",
-        "Runtime Exception",
-        "Compile Error at line 2",
-        "Compile Error at line 5"
+        "0&nbsp;",
+        "null",
+        "Compile Error",
+        "NullPointerException at runtime"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gk9h2g",
-      "q": "x = 0; if (x1.hashCode() != x2.hashCode() ) x = x + 1; if (x3.equals(x4) ) x = x + 10; if (!x5.equals(x6) ) x = x + 100; if (x7.hashCode() == x8.hashCode() ) x = x + 1000; System.out.println(\"x = \" + x); and assuming that the equals() and hashCode() methods are properly implemented, if the output is \"x = 1111\", which of the following statements will always be true?",
+      "id": "gate-u7wugc",
+      "q": "What will be the output of the program? import java.util.*; class I { public static void main (String[] args) { Object i = new ArrayList().iterator(); System.out.print((i instanceof List)+\",\"); System.out.print((i instanceof Iterator)+\",\"); System.out.print(i instanceof ListIterator); } }",
       "options": [
-        "x2.equals(x1)",
-        "x3.hashCode() == x4.hashCode()",
-        "x5.hashCode() != x6.hashCode()",
-        "x8.equals(x7)"
+        "Prints: false, false, false",
+        "Prints: false, false, true",
+        "Prints: false, true, false",
+        "Prints: false, true, true"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-1espm6g",
-      "q": "Which of the following are true statements? The Iterator interface declares only three methods: hasNext, next and remove. The ListIterator interface extends both the List and Iterator interfaces. The ListIterator interface provides forward and backward iteration capabilities. The ListIterator interface provides the ability to modify the List during iteration. The ListIterator interface provides the ability to determine its position in the List.",
+      "id": "gate-1ttsxt8",
+      "q": "class Test1 { public int value; public int hashCode() { return 42; } } class Test2 { public int value; public int hashcode() { return (int)(value^5); } } which statement is true?",
       "options": [
-        "2, 3, 4 and 5",
-        "1, 3, 4 and 5",
-        "3, 4 and 5",
-        "1, 2 and 3"
+        "class Test1 will not compile.",
+        "The Test1 hashCode() method is more efficient than the Test2 hashCode() method.",
+        "The Test1 hashCode() method is less efficient than the Test2 hashCode() method.",
+        "class Test2 will not compile."
       ],
       "correct": 0,
       "explain": "",
@@ -128,8 +128,8 @@
       "tags": []
     },
     {
-      "id": "gate-el8n4w",
-      "q": "Which statement is true for the class java.util.ArrayList?",
+      "id": "gate-icok20",
+      "q": "Which statement is true for the class java.util.HashSet?",
       "options": [
         "The elements in the collection are ordered.",
         "The collection is guaranteed to be immutable.",
@@ -148,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-11cu2e8",
-      "q": "Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?",
+      "id": "gate-1x62pgs",
+      "q": "Which of the following statements about the hashcode() method are incorrect? The value returned by hashcode() is used in some collection classes to help locate objects. The hashcode() method is required to return a positive int value. The hashcode() method in the String class is the one inherited from Object. Two new empty String objects will produce identical hashcodes.",
       "options": [
-        "TreeMap",
-        "HashMap",
-        "LinkedHashMap",
-        "The answer depends on the implementation of the existing instance."
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 4"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +168,13 @@
       "tags": []
     },
     {
-      "id": "gate-15dg0ro",
-      "q": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?",
+      "id": "gate-1cx73qo",
+      "q": "What two statements are true about properly overridden hashCode() and equals() methods? hashCode() doesn't have to be overridden if equals() is. equals() doesn't have to be overridden if hashCode() is. hashCode() can always return the same value, regardless of the object that invoked it. equals() can be true even if it's comparing different objects.",
       "options": [
-        "java.lang.String",
-        "java.lang.Double",
-        "java.lang.StringBuffer",
-        "java.lang.Character"
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 3"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-b8in8c",
-      "q": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+      "id": "gate-1lfwbeb",
+      "q": "Which two statements are true about comparing two instances of the same class, given that the equals() and hashCode() methods have been properly overridden? If the equals() method returns true, the hashCode() comparison == must return true. If the equals() method returns false, the hashCode() comparison != must return true. If the hashCode() comparison == returns true, the equals() method must return true. If the hashCode() comparison == returns true, the equals() method might return true.",
       "options": [
-        "java.util.HashSet",
-        "java.util.LinkedHashSet",
-        "java.util.List",
-        "java.util.ArrayList"
+        "1 and 4",
+        "2 and 3",
+        "3 and 4",
+        "1 and 3"
       ],
       "correct": 0,
       "explain": "",
@@ -208,33 +208,133 @@
       "tags": []
     },
     {
-      "id": "gate-2x9a0",
-      "q": "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
-      "options": [
-        "java.util.Map",
-        "java.util.Set",
-        "java.util.List",
-        "java.util.Collection"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Objects And Collections",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ymzwea",
-      "q": "Which interface does java.util.Hashtable implement?",
+      "id": "gate-xamqdq",
+      "q": "Which interface provides the capability to store objects using a key-value pair?",
       "options": [
         "Java.util.Map",
+        "Java.util.Set",
         "Java.util.List",
-        "Java.util.HashTable",
         "Java.util.Collection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pwx8o",
+      "q": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?",
+      "options": [
+        "java.util.ArrayList",
+        "java.util.LinkedHashMap",
+        "java.util.HashMap",
+        "java.util.TreeMap"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oaiy7t",
+      "q": "Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?",
+      "options": [
+        "java.util.SortedMap",
+        "java.util.TreeMap",
+        "java.util.TreeSet",
+        "java.util.Hashtable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14hxwrs",
+      "q": "Which is valid declaration of a float?",
+      "options": [
+        "float f = 1F;",
+        "float f = 1.0;",
+        "float f = \"1\";",
+        "float f = 1.0d;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-csq158",
+      "q": "/* Missing Statement ? */ public class foo { public static void main(String[]args)throws Exception { java.io.PrintWriter out = new java.io.PrintWriter(); new java.io.OutputStreamWriter(System.out,true); out.println(\"Hello\"); } } What line of code should replace the missing statement to make this program compile?",
+      "options": [
+        "No statement required.",
+        "import java.io.*;",
+        "include java.io.*;",
+        "import java.io.PrintWriter;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vc32qi",
+      "q": "What is the numerical range of char?",
+      "options": [
+        "0 to 32767",
+        "0 to 65535",
+        "-256 to 255",
+        "-32768 to 32767"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lbmlas",
+      "q": "Which of the following are Java reserved words? run import default implement",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "2 and 4"
       ],
       "correct": 0,
       "explain": "",

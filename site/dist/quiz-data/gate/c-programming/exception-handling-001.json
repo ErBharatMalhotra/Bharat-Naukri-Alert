@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Exception Handling",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-adgmbc",
-      "q": "Which of the following is NOT a .NET Exception class?",
+      "id": "gate-1of9amg",
+      "q": "Which of the following statements are correct about exception handling in C#.NET? If our program does not catch an exception then the .NET CLR catches it. It is possible to create user-defined exceptions. All types of exceptions can be caught using the Exception class. CLRExceptions is the base class for all exception classes. For every try block there must be a corresponding finally block.",
       "options": [
-        "Exception",
-        "StackMemoryException",
-        "DivideByZeroException",
-        "OutOfMemoryException"
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "4 and 5 only",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -28,93 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-14385bq",
-      "q": "Which of the following statements is correct about an Exception?",
-      "options": [
-        "It occurs during compilation.",
-        "It occurs during linking.",
-        "It occurs at run-time.",
-        "It occurs during Just-In-Time compilation."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Exception Handling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lqgog",
-      "q": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
-      "options": [
-        "Compiler",
-        "CLR",
-        "Linker",
-        "Loader"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Exception Handling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wrhrbk",
-      "q": "Which of the following statements is correct about the C#.NET program given below? using System; namespace IndiabixConsoleApplication { class MyProgram { static void Main(string[] args) { int index = 6; int val = 44; int[] a = new int[5]; try { a[index] = val ; } catch(IndexOutOfRangeException e) { Console.Write(\"Index out of bounds \"); } Console.Write(\"Remaining program\"); } } }",
-      "options": [
-        "Value 44 will get assigned to a[6].",
-        "It will output: Index out of bounds",
-        "It will output: Remaining program",
-        "It will not produce any output."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Exception Handling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v75wsw",
-      "q": "Which of the following statements are correct about exception handling in C#.NET? If an exception occurs then the program terminates abruptly without getting any chance to recover from the exception. No matter whether an exception occurs or not, the statements in the finally clause (if present) will get executed. A program can contain multiple finally clauses. A finally clause is written outside the try block. finally clause is used to perform clean up operations like closing the network/database connections.",
-      "options": [
-        "1 only",
-        "2 only",
-        "2 and 5 only",
-        "3 and 4 only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Exception Handling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ogpjts",
-      "q": "Which of the following statements are correct about exception handling in C#.NET? try blocks cannot be nested. In one function, there can be only one try block. An exception must be caught in the same function in which it is thrown. All values set up in the exception object are available in the catch block. While throwing a user-defined exception multiple values can be set in the exception, object.",
+      "id": "gate-897ee8",
+      "q": "Which of the following statements are correct about the exception reported below? Unhandled Exception: System.lndexOutOfRangeException: Index was outside the bounds of the array: at IndiabixConsoleApplication.MyProgram.SetVal(Int32 index, Int32 val) in D:\\Sample\\IndiabixConsoleApplication\\MyProgram.cs:line 26 at IndiabixConsoleApplication.MyProgram.Main(String[] args) in D:\\Sample\\IndiabixConsoleApplication\\MyProgram.cs:line 20 The CLR failed to handle the exception. The class MyProgram belongs to the namespace MyProgram. The function SetVal() was called from Main() in line number 20. The exception occurred in line number 26 in the function SetVal() The runtime exception occurred in the project IndiabixConsoleApplication.",
       "options": [
         "1 only",
         "1 and 2 only",
-        "3 only",
-        "4 and 5 only"
+        "3, 4 and 5 only",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -128,11 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xvv72i",
-      "q": "Exceptions can be thrown even from a constructor, whereas error codes cannot be returned from a constructor.",
+      "id": "gate-120d8og",
+      "q": "Which of the following is the Object Oriented way of handling run-time errors?",
       "options": [
-        "True",
-        "False"
+        "OnError",
+        "HERESULT",
+        "Exceptions",
+        "Error codes"
       ],
       "correct": 0,
       "explain": "",
@@ -146,13 +68,73 @@
       "tags": []
     },
     {
-      "id": "gate-15gimok",
-      "q": "Which of the following statements is correct about the C#.NET program given below if a value \"6\" is input to it? using System; namespace IndiabixConsoleApplication { class MyProgram { static void Main (string[] args) { int index; int val = 66; int[] a = new int[5]; try { Consote.Write(\"Enter a number: \"); index = Convert.ToInt32(Console.ReadLine()); a[index] = val; } catch(Exception e) { Console.Write(\"Exception occurred \"); } Console.Write(\"Remaining program \"); } } }",
+      "id": "gate-1mezuig",
+      "q": "Which of the following statements is correct about the C#.NET program given below if a value \"6\" is input to it? using System; namespace IndiabixConsoleApplication { class MyProgram { static void Main(string[] args) { int index; int val = 44; int[] a = new int[5]; try { Console.Write(\"Enter a number:\"); index = Convert.Tolnt32(Console.ReadLine()); a[index] = val; } catch(FormatException e) { Console.Write(\"Bad Format\"); } catch(IndexOutOfRangeException e) { Console.Write(\"Index out of bounds\"); } Console.Write(\"Remaining program\"); } } }",
+      "options": [
+        "It will output: Index out of bounds Remaining program",
+        "It will output: Bad Format Remaining program",
+        "It will output: Bad Format",
+        "It will output: Remaining program"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iv060w",
+      "q": "Which of the following statements are correct about the exception reported below? Unhandled Exception: System.lndexOutOfRangeException: Index was outside the bounds of the array. at IndiabixConsoleApplication.Program.Main(String[] args) in D:\\ConsoleApplication\\Program.cs:line 14 The program did not handle an exception called IndexOutOfRangeException. The program execution continued after the exception occurred. The exception occurred in line number 14. In line number 14, the program attempted to access an array element which was beyond the bounds of the array. The CLR could not handle the exception.",
+      "options": [
+        "1 only",
+        "1, 2 and 3 only",
+        "2 and 5 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ohtll8",
+      "q": "Which of the following is NOT an Exception?",
+      "options": [
+        "StackOverflow",
+        "Division By Zero",
+        "Insufficient Memory",
+        "Incorrect Arithmetic Expression"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Exception Handling",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mcqqsw",
+      "q": "Which of the following statements is correct about the C#.NET program given below if a value \"ABCD\" is input to it? using System; namespace IndiabixConsoleApplication { class MyProgram { static void Main(string[] args) { int index; int vat = 88; int[] a = new int(5]; try { Console.Write(\"Enter a number: \"); index = Convert.Toint32(Console.ReadLine()); a[index] = val; } catch(Exception e) { Console.Write(\"Exception occurred\"); } Console.Write(\"Remaining program\"); } } }",
       "options": [
         "It will output: Exception occurred",
         "It will output: Remaining program",
-        "It will output: Exception occurred Remaining program",
-        "It will output: Remaining program Exception occurred"
+        "It will output: Remaining program Exception occurred",
+        "It will output: Exception occurred Remaining program"
       ],
       "correct": 0,
       "explain": "",
@@ -166,28 +148,8 @@
       "tags": []
     },
     {
-      "id": "gate-t0f5hw",
-      "q": "Which of the following statements is correct about the C#.NET program given below if a value \"ABCD\" is input to it? using System; namespace IndiabixConsoleApplication { class MyProgram { static void Main(string[] args) { int index; int val = 55; int[] a = new int[5]; try { Console.Write(\"Enter a number: \"); index = Convert.ToInt32(Console.ReadLine()); a[index] = val; } catch(FormatException e) { Console.Write(\"Bad Format \"); } catch(IndexOutOfRangeException e) { Console.Write(\"Index out of bounds \"); } Console.Write(\"Remaining program \"); } } }",
-      "options": [
-        "It will output: Bad Format",
-        "It will output: Remaining program",
-        "It will output: Index out of bounds",
-        "It will output: Bad Format Remaining program"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Exception Handling",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3tqyw8",
-      "q": "All code inside finally block is guaranteed to execute irrespective of whether an exception occurs in the protected block or not.",
+      "id": "gate-10s8dnc",
+      "q": "It is compulsory for all classes whose objects can be thrown with throw statement to be derived from System.Exception class.",
       "options": [
         "True",
         "False"

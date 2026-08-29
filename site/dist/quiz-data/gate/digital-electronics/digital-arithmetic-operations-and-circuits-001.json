@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Digital Arithmetic Operations And Circuits",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 19,
   "questions": [
     {
-      "id": "gate-1jbv41g",
-      "q": "A binary sum is made up of only 1s and 0s.",
+      "id": "gate-1l9zuyt",
+      "q": "An ALU is a multipurpose device capable of providing several different logic operations.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-fhp6uc",
-      "q": "Overflow indicators in ALU circuits indicate when add or subtract operations produce results that are too large to fit into four bits.",
+      "id": "gate-31ym2w",
+      "q": "BCD arithmetic is performed using base 10 numbers.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1c24go6",
-      "q": "The inputs of a full adder are labeled A1, B1, and Cin.",
+      "id": "gate-17jwgf6",
+      "q": "A full adder has a carry-in.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1d94nvg",
-      "q": "Larger number capacities may be obtained from 2-bit adders by paralleling them.",
+      "id": "gate-1xdd38g",
+      "q": "Hexadecimal is a base 4 numbering system.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-visqoa",
-      "q": "If [A] = 10 and [B] = 01, then [A] + [B] = [ ].",
+      "id": "gate-6h0jls",
+      "q": "The solution to the binary problem 00110110 &#8211; 00011111 is 00011000.",
       "options": [
         "True",
         "False"
@@ -98,1383 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1yzumu0",
-      "q": "The range of negative numbers when using an eight-bit two's-complement system is &#8211;1 to &#8211;128.",
+      "id": "gate-160f2qk",
+      "q": "In VHDL, the architecture declaration always begins with the ________ of variable signals or components that will be used in the concurrent description between BEGIN and END.",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12v2rzo",
-      "q": "If no bits are designated inside square braces, [ ], it means the variable is the null set.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o6h4ms",
-      "q": "This logic gate is used to produce an arithmetic sum XOR.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cbyess",
-      "q": "The solution to the binary problem 0101 + 1111 is 10100.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jh6zmd",
-      "q": "ALU circuits cannot be cascaded to perform functions on more than four bits.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pwtd8n",
-      "q": "FC48 &#8211; AB91 = ________.",
-      "options": [
-        "5B77",
-        "5267",
-        "50B7",
-        "5077"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12ff00o",
-      "q": "In BCD addition, the value ________ is added to any invalid code group.",
-      "options": [
-        "010101",
-        "0U812",
-        "100110",
-        "0110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-akpmww",
-      "q": "In AHDL macrofunctions, the first thing that should go into any source file is ________ your code.",
-      "options": [
-        "a field of comments that documents",
-        "a library of",
-        "a function name of",
-        "the universal global definition of"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1253zje",
-      "q": "The circuit shown is a(n) ________.",
-      "options": [
-        "multiplexer",
-        "adder",
-        "comparator",
-        "converter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q32e4c",
-      "q": "The binary subtraction 1 &#8211; 1 = ________.",
-      "options": [
-        "difference = 0borrow = 0",
-        "difference = 1borrow = 0",
-        "difference = 1borrow = 1",
-        "difference = 0borrow = 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12v5sao",
-      "q": "When subtracting 6 from 9 using 2's-complement methods, the ________ is 2's complemented before the addition.",
-      "options": [
-        "six",
-        "multiplier",
-        "nine",
-        "two"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i8e3uu",
-      "q": "When performing binary addition using the 2's-complement method, an ________ can occur if ________ are of the same ________; the error is indicated by a(n) ________.",
-      "options": [
-        "error, both numbers, magnitude, negative sign",
-        "overflow, both numbers, sign, incorrect sign bit",
-        "overflow, signs, magnitude, incorrect sum",
-        "error, the signs, polarity, incorrect polarity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-61wgb6",
-      "q": "Negation is performed by simply performing the ________ operation.",
-      "options": [
-        "1's-complement",
-        "sign",
-        "surrogate",
-        "2's-complement"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zuflys",
-      "q": "Solve this BCD problem: 0101 + 0110 = ________.",
-      "options": [
-        "00010111BCD",
-        "00001001BCD",
-        "00010001BCD",
-        "00010011BCD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xc2d8k",
-      "q": "For a 4-bit parallel adder, if the carry-in is connected to a logical HIGH, the result is:",
-      "options": [
-        "the same as if the carry-in is tied LOW since the least significant carry-in is ignored.",
-        "that carry-out will always be HIGH.",
-        "a one will be added to the final result.",
-        "the carry-out is ignored."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1371b9s",
-      "q": "What is the first thing you will need if you are going to use a macrofunction?",
-      "options": [
-        "A complicated design project",
-        "An experienced design engineer",
-        "Good documentation",
-        "Experience in HDL"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xxm8fg",
-      "q": "Perform subtraction on each of the following binary numbers by taking the two's-complement of the number being subtracted and then adding it to the first number.01001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0110000011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;00111",
-      "options": [
-        "01100&nbsp;&nbsp;&nbsp;&nbsp;10011",
-        "00110&nbsp;&nbsp;&nbsp;&nbsp;00101",
-        "10110&nbsp;&nbsp;&nbsp;&nbsp;10101",
-        "00111&nbsp;&nbsp;&nbsp;&nbsp;00100"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qhpg0g",
-      "q": "Solving &#8211;11 + (&#8211;2) will yield which two's-complement answer?",
-      "options": [
-        "1110 1101",
-        "1111 1001",
-        "1111 0011",
-        "1110 1001"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wjbt4o",
-      "q": "Multiply the following binary numbers. 1010 &nbsp 1011 &nbsp 1001 &#215;0011 &nbsp &#215;0111 &nbsp &#215;1010",
-      "options": [
-        "0001&nbsp;&nbsp;1110&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;1101&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1011",
-        "0001&nbsp;&nbsp;1110&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;1100&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1010",
-        "0001&nbsp;&nbsp;1110&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;1101&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1010",
-        "0001&nbsp;&nbsp;1101&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;1101&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1010"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2wcxvk",
-      "q": "The most commonly used system for representing signed binary numbers is the:",
-      "options": [
-        "2's-complement system.",
-        "1's-complement system.",
-        "10's-complement system.",
-        "sign-magnitude system."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ajnhdt",
-      "q": "What is the major difference between half-adders and full-adders?",
-      "options": [
-        "Nothing basically; full-adders are made up of two half-adders.",
-        "Full adders can handle double-digit numbers.",
-        "Full adders have a carry input capability.",
-        "Half adders can handle only single-digit numbers."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oatz0w",
-      "q": "The decimal value for E16 is:",
-      "options": [
-        "1210",
-        "1310",
-        "1410",
-        "1510"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xdcumx",
-      "q": "Fast-look-ahead carry circuits found in most 4-bit full-adder circuits:",
-      "options": [
-        "determine sign and magnitude",
-        "reduce propagation delay",
-        "add a 1 to complemented inputs",
-        "increase ripple delay"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-104xbni",
-      "q": "Add the following hex numbers: 011016 + 1001016",
-      "options": [
-        "1012016",
-        "1002016",
-        "1112016",
-        "0012016"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5330y0",
-      "q": "Subtract the following hexadecimal numbers. 47 &nbsp 34 &nbsp FA &#8211;25 &nbsp &#8211;1C &nbsp &#8211;2F",
-      "options": [
-        "22&nbsp;&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;&nbsp;CB",
-        "22&nbsp;&nbsp;&nbsp;&nbsp;17&nbsp;&nbsp;&nbsp;&nbsp;CB",
-        "22&nbsp;&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;&nbsp;&nbsp;CB",
-        "22&nbsp;&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;&nbsp;CC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r7u0i0",
-      "q": "What is the correct output of the adder in the given figure, with the outputs in the order:",
-      "options": [
-        "10111",
-        "11101",
-        "01101",
-        "10011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j52yeo",
-      "q": "Solve this binary problem:",
-      "options": [
-        "11001001",
-        "10010000",
-        "01101110",
-        "01110110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1646uxx",
-      "q": "The BCD addition of 910 and 710 will give initial code groups of 1001 + 0111. Addition of these groups generates a carry to the next higher position. The correct solution to this problem would be to:",
-      "options": [
-        "ignore the lowest order code group because 0000 is a valid code group and prefix the carry with three zeros",
-        "add 0110 to both code groups to validate the carry from the lowest order code group",
-        "disregard the carry and add 0110 to the lowest order code group",
-        "add 0110 to the lowest order code group because a carry was generated and then prefix the carry with three zeros"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ct4w6o",
-      "q": "Subtract the following binary numbers. 0101 1000 &nbsp 1010 0011 &nbsp 1101 1110 &#8211;0010 0011 &nbsp &#8211;0011 1000 &nbsp &#8211;0101 0111",
-      "options": [
-        "0011&nbsp;&nbsp;0100&nbsp;&nbsp;&nbsp;&nbsp;0110&nbsp;&nbsp;1010&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;0110",
-        "0011&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;0110&nbsp;&nbsp;1011&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;0111",
-        "0011&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;0110&nbsp;&nbsp;1010&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;0111",
-        "0011&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;0110&nbsp;&nbsp;1010&nbsp;&nbsp;&nbsp;&nbsp;1000&nbsp;&nbsp;0110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r6sbt8",
-      "q": "111010002 is the 2's-complement representation of &#8211;24.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17afgdk",
-      "q": "The look-ahead-carry adder is slower than the ripple-carry adder because it requires additional logic circuits.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dix864",
-      "q": "The solution to the binary problem 1011 &#215; 0110 is 01100110.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8dv7w4",
-      "q": "The solution to the BCD problem 0101 + 0100 is 00001001BCD.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fjmybw",
-      "q": "A macrofunction is a self-contained description of a logic circuit with all of its inputs, outputs, and operational characteristics defined.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qc283k",
-      "q": "The two's-complement method is used in computer systems that perform arithmetic.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pr6mpo",
-      "q": "Digital computers use an easier method to subtract binary numbers, called one's complement.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wfossk",
-      "q": "Binary multiplication is like decimal multiplication except you deal only with 1s and 0s.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-shyrec",
-      "q": "The solution to the binary problem 1011 &#8211; 0111 is 1000.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hlst3j",
-      "q": "A 74HC283 can be used to implement a 4-bit full adder.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ndt4ks",
-      "q": "The binary addition of 1 + 1 = ________.",
-      "options": [
-        "sum = 1carry = 1",
-        "sum = 0carry = 0",
-        "sum = 1carry = 0",
-        "sum = 0carry = 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wo2snm",
-      "q": "A 74HC283 can be used to implement a(n) ________ adder.",
-      "options": [
-        "4-bit BCD",
-        "8-bit BCD",
-        "4-bit full",
-        "8-bit full"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7m1frt",
-      "q": "The two's complement of 00001111 is ________.",
-      "options": [
-        "11111111",
-        "11110000",
-        "11110001",
-        "11110111"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nhi404",
-      "q": "Inside a computer all arithmetic operations take place in the ________.",
-      "options": [
-        "accumulator register",
-        "ALU",
-        "CPU",
-        "B register"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c1cvm4",
-      "q": "&#8211;910 represented in eight-bit two's-complement notation is ________.",
-      "options": [
-        "11110111",
-        "11111001",
-        "11110110",
-        "01111101"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fbhp8",
-      "q": "34FC + AD31 = ________.",
-      "options": [
-        "E22D",
-        "E31D",
-        "E21D",
-        "E42D"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13cpvvc",
-      "q": "Solve this binary problem: 1001 &#215; 1100 = ________.",
-      "options": [
-        "01110001",
-        "01111000",
-        "01101100",
-        "01101110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fnn8bs",
-      "q": "A four-bit adder can perform ________.",
-      "options": [
-        "addition",
-        "subtraction",
-        "logical AND",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r0gexc",
-      "q": "The concurrent section of the hardware description is where the ________ are interconnected.",
-      "options": [
-        "functions",
-        "components",
-        "circuits",
-        "macrofunctions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ashgbg",
-      "q": "The contents of the A register after is ________.",
-      "options": [
-        "0000",
-        "0001",
-        "1001",
-        "1010"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h658zw",
-      "q": "The binary subtraction 0 &#8211; 0 =",
-      "options": [
-        "difference = 0borrow = 0",
-        "difference = 1borrow = 0",
-        "difference = 1borrow = 1",
-        "difference = 0borrow = 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xgfov4",
-      "q": "Convert each of the decimal numbers to 8-bit two's-complement form and then perform subtraction by taking the two's-complement and adding.",
-      "options": [
-        "0001&nbsp;&nbsp;0011",
-        "0000&nbsp;&nbsp;1110",
-        "0010&nbsp;&nbsp;1110",
-        "1110&nbsp;&nbsp;0000"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vm2igq",
-      "q": "Adding in binary, a decimal 26 + 27 will produce a sum of:",
-      "options": [
-        "111010",
-        "110110",
-        "110101",
-        "101011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1roo75c",
-      "q": "Convert each of the following signed binary numbers (two's-complement) to a signed decimal number.00000101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11111100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11111000",
-      "options": [
-        "&#8211;5&nbsp;&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;&nbsp;+8",
-        "+5&nbsp;&nbsp;&nbsp;&nbsp;&#8211;4&nbsp;&nbsp;&nbsp;&nbsp;&#8211;8",
-        "&#8211;5&nbsp;&nbsp;&nbsp;&nbsp;+252&nbsp;&nbsp;&nbsp;&nbsp;+248",
-        "+5&nbsp;&nbsp;&nbsp;&nbsp;&#8211;252&nbsp;&nbsp;&nbsp;&nbsp;&#8211;248"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1unjlr4",
-      "q": "Convert each of the decimal numbers to two's-complement form and perform the addition in binary. +13&nbsp&#8211;10 add &#8211;7&nbspadd +15",
-      "options": [
-        "0001&nbsp;&nbsp;0100&nbsp;&nbsp;&nbsp;&nbsp;0000&nbsp;&nbsp;0101",
-        "0000&nbsp;&nbsp;0110&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;1001",
-        "0000&nbsp;&nbsp;0110&nbsp;&nbsp;&nbsp;&nbsp;0000&nbsp;&nbsp;0101",
-        "1111&nbsp;&nbsp;0110&nbsp;&nbsp;&nbsp;&nbsp;1111&nbsp;&nbsp;0101"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zpbzk8",
-      "q": "Add the following binary numbers. 0010 0110 &nbsp 0011 1011 &nbsp 0011 1100 +0101 0101 &nbsp +0001 1110 &nbsp +0001 1111",
-      "options": [
-        "0111 1011&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;0001&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1011",
-        "0111 1011&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1001&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1011",
-        "0111 0111&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1001&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1011",
-        "0111 0111&nbsp;&nbsp;&nbsp;&nbsp;0100&nbsp;&nbsp;0001&nbsp;&nbsp;&nbsp;&nbsp;0101&nbsp;&nbsp;1011"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13vhcd4",
-      "q": "The carry propagation delay in full-adder circuits:",
-      "options": [
-        "is normally not a consideration because the delays are usually in the nanosecond range.",
-        "decreases in a direct ratio to the total number of FA stages.",
-        "is cumulative for each stage and limits the speed at which arithmetic operations are performed.",
-        "increases in a direct ratio to the total number of FA stages but is not a factor in limiting the speed of arithmetic operations."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-28lkw0",
-      "q": "What is the difference between a full-adder and a half-adder?",
-      "options": [
-        "Half-adder has a carry-in.",
-        "Full-adder has a carry-in.",
-        "Half-adder does not have a carry-out.",
-        "Full-adder does not have a carry-out."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zpo4p8",
-      "q": "The summing outputs of a half- or full-adder are designated by which Greek symbol?",
-      "options": [
-        "omega",
-        "theta",
-        "lambda",
-        "sigma"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-22bzy8",
-      "q": "A half-adder circuit would normally be used each time a carry input is required in an adder circuit.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u7ytuo",
-      "q": "The binary subtraction 0 &#8211; 1 = isdifference = 1borrow = 0",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17l0xko",
-      "q": "A sign bit of \"1\" in the difference of a 2's-complement subtraction problem indicates the magnitude is negative and in true binary form.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6ye4to",
-      "q": "Constants must be included in a package.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xbo4kk",
-      "q": "10011100 in two's-complement notation has a decimal value of &#8211;100.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g17b9c",
-      "q": "When the 2's-complement system is used, the number to be subtracted is changed to its 2's complement and then added to the minuend.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ajrp6o",
-      "q": "Full adders can add two numbers and need not have a carry input or a carry output.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14pelo",
-      "q": "The VHDL compiler requires libraries to be specified at the beginning of the code if components from those libraries are being used.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-e8tmxg",
-      "q": "The carry-out of a binary adder is identified using the summation symbol, sigma.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-72d3g8",
-      "q": "The 74LS382 ALU is a 24-pin arithmetic/logic unit.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ow2bas",
-      "q": "Solve this binary problem: 01011000 &#247; 00001011 = ________.",
-      "options": [
-        "1010",
-        "0110",
-        "1000",
-        "1110"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xx6aqy",
-      "q": "Binary numbers can be added together in a basic parallel-adder circuit when ________.",
-      "options": [
-        "negative numbers are in 2's-complement form",
-        "negative numbers are in 1's-complement form",
-        "all carry pins are grounded",
-        "all negative numbers are noted"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pmkrtw",
-      "q": "To make an eight-bit adder from two four-bit adders you must connect ________.",
-      "options": [
-        "the high-order carry-in to ground",
-        "the low-order carry-out to the high-order carry-in",
-        "the high-order carry-out to ground",
-        "the low-order sum to the high-order data input"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kmp7yg",
-      "q": "Packages are used to contain ________ and other information that must be available to all entities in the design file.",
-      "options": [
-        "types",
+        "type",
         "vectors",
-        "components",
-        "variables"
+        "functions",
+        "declarations"
       ],
       "correct": 0,
       "explain": "",
@@ -1488,150 +118,32 @@
       "tags": []
     },
     {
-      "id": "gate-q8k59c",
-      "q": "If [A] = 1011 1010, [B] = 0011 0110, and [C] = [A] &#149; [B], what is [C 4..2] in decimal?",
+      "id": "gate-1ee4in",
+      "q": "When decimal numbers with several digits are to be added together using BCD adders ________.",
+      "options": [
+        "a separated BCD adder is required for each digit position",
+        "the BCD adders must have the carry-outs grounded",
+        "the BCD's must be grouped in twos",
+        "full adders are also used"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ra75tc",
+      "q": "The binary adder circuit is designed to add ________ binary number(s) at a time.",
       "options": [
         "1",
-        "2",
         "3",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qodo3c",
-      "q": "Using 4-bit adders to create a 1See Section 6-bit adder:",
-      "options": [
-        "requires 16 adders.",
-        "requires 4 adders.",
-        "requires the carry-out of the less significant adder to be connected to the carry-in of the next significant adder.",
-        "requires 4 adders and the connection of the carry out of the less significant adder to the carry-in of the next significant adder."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qsxpjc",
-      "q": "When performing subtraction by addition in the 2's-complement system:",
-      "options": [
-        "the minuend and the subtrahend are both changed to the 2's-complement.",
-        "the minuend is changed to 2's-complement and the subtrahend is left in its original form.",
-        "the minuend is left in its original form and the subtrahend is changed to its 2's-complement.",
-        "the minuend and subtrahend are both left in their original form."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ntsqk8",
-      "q": "When 1100010 is divided by 0101, what is the decimal remainder?",
-      "options": [
         "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jw7ify",
-      "q": "Could the sum output of a full-adder be used as a two-bit parity generator?",
-      "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6bn5ey",
-      "q": "In VHDL, what is a GENERATE statement?",
-      "options": [
-        "The start statement of a program",
-        "Not used in VHDL or ADHL",
-        "A way to get the computer to generate a program from a circuit diagram",
-        "A way to tell the compiler to replicate several components"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ci6sp8",
-      "q": "Which of the following is the primary advantage of using binary-coded decimal (BCD) instead of straight binary coding?",
-      "options": [
-        "Fewer bits are required to represent a decimal number with the BCD code.",
-        "BCD codes are easily converted from decimal.",
-        "the relative ease of converting to and from decimal",
-        "BCD codes are easily converted to straight binary codes."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lgyjns",
-      "q": "How many inputs must a full-adder have?",
-      "options": [
-        "2",
-        "3",
-        "4",
         "5"
       ],
       "correct": 0,
@@ -1646,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t37qqw",
-      "q": "There are four possible combinations for subtracting two binary numbers.",
+      "id": "gate-23v8d5",
+      "q": "The 74HC382 ALU can perform ________ operations.",
       "options": [
-        "True",
-        "False"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "correct": 0,
       "explain": "",
@@ -1664,104 +178,12 @@
       "tags": []
     },
     {
-      "id": "gate-1dx4von",
-      "q": "It is not necessary to have the same number of bits when adding or subtracting signed binary numbers in the 2's-complement system.",
+      "id": "gate-2atxls",
+      "q": "Subtraction of the 2's-complement system actually involves the operation of ________.",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c8w154",
-      "q": "Full adder results are typically stored in registers.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cz6648",
-      "q": "The representation of &#8211;110 in eight-bit two's-complement notation is 11110111.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ppgt3l",
-      "q": "Binary division and decimal division use the same procedure.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-htxtkv",
-      "q": "One way to make a four-bit adder perform subtraction is by:",
-      "options": [
-        "inverting the output.",
-        "inverting the carry-in.",
-        "inverting the B inputs.",
-        "grounding the B inputs."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Digital Arithmetic Operations And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rzfowk",
-      "q": "What is the most important operation in binary-coded decimal (BCD) arithmetic?",
-      "options": [
-        "addition",
-        "subtraction",
         "multiplication",
+        "subtraction",
+        "addition",
         "division"
       ],
       "correct": 0,
@@ -1776,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1345cto",
-      "q": "The range of positive numbers when using an eight-bit two's-complement system is:",
+      "id": "gate-xr1dfo",
+      "q": "Add the following BCD numbers. 0110 &nbsp 0111 &nbsp 1001 0101 &nbsp 1000 &nbsp 1000",
       "options": [
-        "0 to 64",
-        "0 to 100",
-        "0 to 127",
-        "0 to 256"
+        "0000&nbsp;&nbsp;1011&nbsp;&nbsp;&nbsp;&nbsp;0000&nbsp;&nbsp;1111&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0001",
+        "0001&nbsp;&nbsp;0001&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0001",
+        "0000&nbsp;&nbsp;1011&nbsp;&nbsp;&nbsp;&nbsp;0000&nbsp;&nbsp;1111&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0111",
+        "0001&nbsp;&nbsp;0001&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0101&nbsp;&nbsp;&nbsp;&nbsp;0001&nbsp;&nbsp;0111"
       ],
       "correct": 0,
       "explain": "",
@@ -1796,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-qeobzk",
-      "q": "The truth table for a full adder is shown below. What are the values of X, Y, and Z?",
+      "id": "gate-ipji8c",
+      "q": "Add the following hexadecimal numbers. 3C &nbsp 14 &nbsp 3B +25 &nbsp +28 &nbsp +DC",
       "options": [
-        "X = 0, Y = 1, Z = 1",
-        "X = 1, Y = 1, Z = 1",
-        "X = 1, Y = 0, Z = 1",
-        "X = 0, Y = 0, Z = 1"
+        "60&nbsp;&nbsp;&nbsp;&nbsp;3C&nbsp;&nbsp;&nbsp;&nbsp;116",
+        "62&nbsp;&nbsp;&nbsp;&nbsp;3C&nbsp;&nbsp;&nbsp;&nbsp;118",
+        "61&nbsp;&nbsp;&nbsp;&nbsp;3C&nbsp;&nbsp;&nbsp;&nbsp;117",
+        "61&nbsp;&nbsp;&nbsp;&nbsp;3D&nbsp;&nbsp;&nbsp;&nbsp;117"
       ],
       "correct": 0,
       "explain": "",
@@ -1816,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1jzx7ef",
-      "q": "Which of the statements below best describes the given figure?",
+      "id": "gate-161pdq0",
+      "q": "Solve this BCD problem: 0100 + 0110 =",
       "options": [
-        "Half-carry adder; Sum = 0, Carry = 1",
-        "Half-carry adder; Sum = 1, Carry = 0",
-        "Full-carry adder; Sum = 1, Carry = 0",
-        "Full-carry adder; Sum = 1, Carry = 1"
+        "00010000BCD",
+        "00010111BCD",
+        "00001011BCD",
+        "00010011BCD"
       ],
       "correct": 0,
       "explain": "",
@@ -1836,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-8usg50",
-      "q": "An 8-bit register may provide storage for two's-complement codes within which decimal range?",
+      "id": "gate-1jh5obs",
+      "q": "What are constants in VHDL code?",
       "options": [
-        "+128 to &#8211;128",
-        "&#8211;128 to +127",
-        "+128 to &#8211;127",
-        "+127 to &#8211;127"
+        "Fixed numbers represented by a name",
+        "Fixed variables used in functions",
+        "Fixed number types",
+        "Constants do not exist in VHDL code."
       ],
       "correct": 0,
       "explain": "",
@@ -1856,11 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-52k04w",
-      "q": "A half-adder circuit would normally be used each time a carry input is required in an added circuit.",
+      "id": "gate-srmazo",
+      "q": "The 2's-complement system is to be used to add the signed binary numbers 11110010 and 11110011. Determine, in decimal, the sign and value of each number and their sum.",
       "options": [
-        "True",
-        "False"
+        "&#8211;113 and &#8211;114, &#8211;227",
+        "&#8211;14 and &#8211;13, &#8211;27",
+        "&#8211;11 and &#8211;16, &#8211;27",
+        "&#8211;27 and &#8211;13, &#8211;40"
       ],
       "correct": 0,
       "explain": "",
@@ -1874,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xhn2as",
-      "q": "If B[7..0] = 10100101, what is the value of B[6..2]?",
+      "id": "gate-1yv6buw",
+      "q": "Why is a fast-look-ahead carry circuit used in the 7483 4-bit full-adder?",
       "options": [
-        "10100",
-        "01001",
-        "10010",
-        "00101"
+        "to decrease the cost",
+        "to make it smaller",
+        "to slow down the circuit",
+        "to speed up the circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -1894,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y6fx8k",
-      "q": "Determine the two's-complement of each binary number.00110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;00011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11101",
+      "id": "gate-1616ai",
+      "q": "Find the 2's complement of &#8211;1101102.",
       "options": [
-        "11001&nbsp;&nbsp;&nbsp;&nbsp;11100&nbsp;&nbsp;&nbsp;&nbsp;00010",
-        "00111&nbsp;&nbsp;&nbsp;&nbsp;00010&nbsp;&nbsp;&nbsp;&nbsp;00010",
-        "00110&nbsp;&nbsp;&nbsp;&nbsp;00011&nbsp;&nbsp;&nbsp;&nbsp;11101",
-        "11010&nbsp;&nbsp;&nbsp;&nbsp;11101&nbsp;&nbsp;&nbsp;&nbsp;00011"
+        "1101002",
+        "1010102",
+        "0010012",
+        "0010102"
       ],
       "correct": 0,
       "explain": "",
@@ -1914,13 +338,33 @@
       "tags": []
     },
     {
-      "id": "gate-6172h6",
-      "q": "Convert the decimal numbers 275 and 965 to binary-coded decimal (BCD) and add. Select the BCD code groups that reflect the final answer.",
+      "id": "gate-17rtcg",
+      "q": "What logic function is the sum output of a half-adder?",
       "options": [
-        "1101 1110 1010",
-        "1110 1010 1110",
-        "0001 0010 0100 0000",
-        "0010 0011 0100 0000"
+        "AND",
+        "exclusive-OR",
+        "exclusive-NOR",
+        "NAND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Digital Arithmetic Operations And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kesg8k",
+      "q": "The binary adder circuit is designed to add ________ binary numbers at the same time.",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
       ],
       "correct": 0,
       "explain": "",

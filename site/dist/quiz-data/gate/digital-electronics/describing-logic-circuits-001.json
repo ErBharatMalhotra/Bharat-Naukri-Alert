@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Describing Logic Circuits",
   "source": "indiabix.com",
-  "count": 37,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-19oizy",
-      "q": "In VHDL, local signals are declared in the VARIABLE section, which is placed between the SUBDESIGN section and the logic section.",
+      "id": "gate-19qglzc",
+      "q": "A LOW placed on the input of an inverter will produce a HIGH output.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1dyih7k",
-      "q": "The given figure shows the correct logic implementation of the distributive law.",
+      "id": "gate-1g58vdw",
+      "q": "The SUBDESIGN section defines the input and output of the logic circuit block.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-16k2z17",
-      "q": "Boolean algebra was first applied to the analysis of digital circuits by Claude Shannon at Stanford University.",
+      "id": "gate-jalfdt",
+      "q": "The NAND gate is an example of combinational logic.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-lmngss",
-      "q": "The timing diagram for a two-input NAND gate is shown below. The gate is working correctly.",
+      "id": "gate-mrhs3g",
+      "q": "The symbol shown below is an AND gate.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-kmi0ss",
-      "q": "The OR gate performs like two switches wired in a series.",
+      "id": "gate-1fq04eo",
+      "q": "The complement of 1 is 0.",
       "options": [
         "True",
         "False"
@@ -98,102 +98,8 @@
       "tags": []
     },
     {
-      "id": "gate-37e1ts",
-      "q": "The inputs to an AND gate are: A = 1, B = 0, C = 1. The output will be LOW.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i1xfew",
-      "q": "In Boolean algebra, 1 &#183; 0 = 0.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p6v76o",
-      "q": "VHDL is not a new language.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iaxwfs",
-      "q": "What is the basic difference between AHDL and VHDL?",
-      "options": [
-        "ADHL is used in all PLD's.",
-        "VHDL is used in all PLD's.",
-        "ADHL is proprietary.",
-        "VHDL is proprietary."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hiwjxo",
-      "q": "A small circle on the output of a logic gate is used to represent the:",
-      "options": [
-        "Comparator operation.",
-        "OR operation.",
-        "NOT operation.",
-        "AND operation."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ollywc",
-      "q": "For a three-input OR gate, with the input waveforms as shown below, which output waveform is correct?",
+      "id": "gate-1l943cb",
+      "q": "Which of the figures (a to d) is the DeMorgan equivalent of Figure (e)?",
       "options": [
         "a",
         "b",
@@ -212,8 +118,8 @@
       "tags": []
     },
     {
-      "id": "gate-9c2vxs",
-      "q": "Which of the figures given below represents a NOR gate?",
+      "id": "gate-1pgizws",
+      "q": "Which of the figures in figure (a to d) is equivalent to figure (e)?",
       "options": [
         "a",
         "b",
@@ -232,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-dto5c8",
-      "q": "Which of the examples below expresses the associative law of addition:",
+      "id": "gate-ic1fis",
+      "q": "In VHDL, the mode of a port does not define:",
       "options": [
-        "A + (B + C) = (A + B) + C",
-        "A + (B + C) = A + (BC)",
-        "A(BC) = (AB) + C",
-        "ABC = A + B + C"
+        "an input.",
+        "an output.",
+        "both an input and an output.",
+        "the TYPE of the bit."
       ],
       "correct": 0,
       "explain": "",
@@ -252,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ybr9go",
-      "q": "How are the statements between BEGIN and END not evaluated in VHDL?",
+      "id": "gate-jlla4c",
+      "q": "Which of the following equations would accurately describe a 4-input OR gate when A = 1, B = 1, C = 0, and D = 0?",
       "options": [
-        "Constantly",
-        "Simultaneously",
-        "Concurrently",
-        "Sequentially"
+        "1 + 1 + 0 + 0 = 1",
+        "1 + 1 + 0 + 0 = 01",
+        "1 + 1 + 0 + 0 = 0",
+        "1 + 1 + 0 + 0 = 00"
       ],
       "correct": 0,
       "explain": "",
@@ -272,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-19141ic",
-      "q": "Which logic gate does this truth table describe?",
+      "id": "gate-1bu9tck",
+      "q": "Which of the examples below expresses the distributive law?",
       "options": [
-        "AND",
-        "OR",
-        "NAND",
-        "NOR"
+        "(A + B) + C = A + (B + C)",
+        "A(B + C) = AB + AC",
+        "A + (B + C) = AB + AC",
+        "A(BC) = (AB) + C"
       ],
       "correct": 0,
       "explain": "",
@@ -292,407 +198,33 @@
       "tags": []
     },
     {
-      "id": "gate-1m3o3ws",
-      "q": "For a 3-input NAND gate, with the input waveforms as shown below, which output waveform is correct?",
+      "id": "gate-4hm2pz",
+      "q": "Which step in this reduction process is using DeMorgan's theorem?",
+      "options": [
+        "STEP 1",
+        "STEP 2",
+        "STEP 3",
+        "STEP 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Describing Logic Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v6uq1c",
+      "q": "For a three-input NOR gate, with the input waveforms as shown below, which output waveform is correct?",
       "options": [
         "a",
         "b",
         "c",
         "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o73muw",
-      "q": "Which of the figures given below represents a NAND gate?",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-352qwn",
-      "q": "Which of the symbols shown below represents an AND gate?",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ool3rw",
-      "q": "For a three-input AND gate, with the input waveforms as shown below, which output waveform is correct?",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yugrh0",
-      "q": "An OR gate with inverted inputs functions as:",
-      "options": [
-        "an AND gate.",
-        "a NAND gate.",
-        "a NOR gate.",
-        "an inverter."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tnykts",
-      "q": "The special software application that translates from HDL into a grid of 1's and 0's, which can be loaded into a PLD, is called a:",
-      "options": [
-        "formatter.",
-        "compiler.",
-        "programmable wiring.",
-        "CPU."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pcxwr7",
-      "q": "The truth table shown below describes the operation of a NOR gate.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cjwkno",
-      "q": "A two-input NAND gate has inputs of 1 and 0; the output is 0.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fo2wak",
-      "q": "In an expression containing both AND and OR operations, the AND operations are performed first (unless parentheses indicate otherwise).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mr4k6g",
-      "q": "In a text-based language, the circuit being described must be given a name.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mcg0dw",
-      "q": "The output of a NAND gate is the inverse of the output for an AND gate for all possible input combinations.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5rwhf4",
-      "q": "NOR gates can be used to construct AND gates.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j2rbaa",
-      "q": "The commutative law of Boolean addition states that A + B = A &#183; B.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kj4h6w",
-      "q": "The figure given below is an example of the implementation of AND-OR-INVERT logic.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7et5wg",
-      "q": "Which timing diagram shown below is correct for an inverter?",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6kvdco",
-      "q": "A NOR gate with one HIGH input and one LOW input:",
-      "options": [
-        "will output a HIGH",
-        "functions as an AND",
-        "will not function",
-        "will output a LOW"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3x7jwg",
-      "q": "Which of the figures given below represents an OR gate?",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14xqxp6",
-      "q": "The effect of an inverted output being connected to the inverting input of another gate is to effectively eliminate one of the inversions, resulting in a single inversion.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-144a6o4",
-      "q": "A minimum of three universal NOR gates would be required to perform the logical operation of a 2-input AND gate.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i3lmr0",
-      "q": "The Boolean expression for a three-input AND gate is X = ABC.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j0xdl8",
-      "q": "Output logic levels for certain input conditions of a logic circuit may often be determined without using the Boolean expression.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Describing Logic Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oef94c",
-      "q": "The comments in ADHL are enclosed between # characters.",
-      "options": [
-        "True",
-        "False"
       ],
       "correct": 0,
       "explain": "",

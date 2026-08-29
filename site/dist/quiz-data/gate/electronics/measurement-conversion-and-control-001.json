@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Measurement Conversion And Control",
   "source": "indiabix.com",
-  "count": 17,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-1rbb8gs",
-      "q": "Thermocouple connections must be taken into account to ensure a high degree of accuracy.",
+      "id": "gate-1vyr9vk",
+      "q": "A resistance temperature detector produces a voltage for a given change in temperature.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1k3lg6e",
-      "q": "The change in value of the analog signal during the sampling process produces what is called the quantization error.",
+      "id": "gate-e95g5e",
+      "q": "The triac provides better dc power control than the SCR.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1quz1hs",
-      "q": "Pressure transducers are devices that exhibit a change in resistance inversely proportional to a change in pressure.",
+      "id": "gate-4tmkn4",
+      "q": "The SCR is ideal for ac applications.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-b352xe",
-      "q": "A basic sample-and-hold circuit consists of an analog switch, a capacitor, and an instrumentation amplifier.",
+      "id": "gate-1ok2usv",
+      "q": "Displacement, velocity, and acceleration can all be measured by using specific motion transducers.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-gpvyz4",
-      "q": "Noncontacting displacement transducers include optical and capacitive transducers.",
+      "id": "gate-nnadrk",
+      "q": "A strain gauge uses the principle of capacitance for its operation.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-4un3s8",
-      "q": "A thermistor's temperature characteristic is essentially _________.",
+      "id": "gate-14kuuri",
+      "q": "All triacs operate in __________.",
       "options": [
-        "linear",
-        "logarithmic",
-        "nonlinear",
-        "geometric"
+        "quadrant 1 and quadrant 2",
+        "quadrant 1 and quadrant 3",
+        "quadrant 2 and quadrant 4",
+        "quadrant 3 and quadrant 4"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-rjmx2w",
-      "q": "The three types of relative pressure measurement are ________.",
+      "id": "gate-1jb1m71",
+      "q": "The number of bits in a digital word determines the number of digital combinations that will be represented. The number of combinations can be calculated by ________.",
       "options": [
-        "exact, reflective, and referenced",
-        "absolute, exact, and differential",
-        "absolute, gauge, and reflective",
-        "absolute, gauge, and differential"
+        "raising 2 to the number of bits in the analog word",
+        "raising 2 to the number of bits in the digital word",
+        "multiplying 2 by the number of bits in the analog word",
+        "determining the range of the analog word"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-iykwqb",
-      "q": "The two most common types of analog-to-digital converters discussed in this chapter were the ______.",
+      "id": "gate-1gj5o10",
+      "q": "A(n) _____ can be rapidly switched on and off remotely by another controlling circuit.",
       "options": [
-        "linear converter and the analog converter",
-        "linear converter and the successive approximation converter",
-        "flash converter and the analog converter",
-        "flash converter and the successive approximation converter"
+        "triac",
+        "diac",
+        "RTD",
+        "zero-voltage switch"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-dwicd8",
-      "q": "The voltage produced by a thermocouple is called the _________.",
+      "id": "gate-4hlkx8",
+      "q": "A sample-and-hold circuit consists of _________.",
       "options": [
-        "hot junction voltage",
-        "cold junction voltage",
-        "Seebeck voltage",
-        "Hooke voltage"
+        "an op-amp, an analog switch, and an inductor",
+        "an op-amp, an analog switch, and a capacitor",
+        "two op-amps, an analog switch, and a variable resistor",
+        "two op-amps, an analog switch, and a capacitor"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1nx3mrk",
-      "q": "The ________ are two types of acceleration transducers.",
+      "id": "gate-qrqwrt",
+      "q": "RTDs, strain gauges, and pressure transducers are _____ devices.",
       "options": [
-        "LVDT and the piezoelectric",
-        "magnetic and the piezoelectric",
-        "RTD and the magnetic",
-        "LVDT and the RTD"
+        "resistive",
+        "inductive",
+        "capacitive",
+        "solid-state"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1r3g974",
-      "q": "A triac is different from an SCR because ________.",
+      "id": "gate-1unh5v2",
+      "q": "What is the zero-voltage switch used for?",
       "options": [
-        "it can handle large current flows",
-        "it can handle large voltages",
-        "the gate signal can turn off the current flow",
-        "it allows current flow in both directions"
+        "To reduce radiation of high frequencies during turn-on of a high current to a load",
+        "To control low-voltage circuits",
+        "To provide power to a circuit when power is lost",
+        "For extremely low-voltage applications"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-3ec3f8",
-      "q": "The ______ is composed of a transformer with a movable core, a primary, and two secondaries.",
+      "id": "gate-728l9s",
+      "q": "Temperature sensing can be achieved by the use of",
       "options": [
-        "LVDT",
-        "strain gauge",
-        "accelerometer",
-        "transformer displacement sensor"
+        "thermocouples",
+        "RTDs",
+        "thermistors",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-pqvim8",
-      "q": "What device is similar to an RTD but has a negative temperature coefficient?",
+      "id": "gate-1d8nt2w",
+      "q": "The purpose of compensation for a thermocouple is",
       "options": [
-        "Strain gauge",
-        "Thermistor",
-        "Negative-type RTD",
-        "Thermocouple"
+        "to decrease temperature sensitivity",
+        "to increase voltage output",
+        "to cancel unwanted voltage output of a thermocouple",
+        "used for high-temperature circuits"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1t26vxo",
-      "q": "The resistive change of a strain gauge",
+      "id": "gate-7ultb4",
+      "q": "The change in value of an analog signal during the conversion process produces what is called the",
       "options": [
-        "is based on the weight placed upon it, but can be many thousands of ohms",
-        "is usually no more than 100",
-        "is based on the gauge factor, but is typically less than an ohm",
-        "has a positive temperature coefficient"
+        "quantization error",
+        "resolution error",
+        "Nyquist error",
+        "sampling error"
       ],
       "correct": 0,
       "explain": "",
@@ -278,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cuk6lc",
-      "q": "The silicon-controlled rectifier can be turned off",
+      "id": "gate-1a8tn90",
+      "q": "Which of the following performance specifications applies to a sample-and-hold circuit?",
       "options": [
-        "by a negative gate pulse",
-        "by forced commutation",
-        "with the off switch",
-        "when the breakover voltage is exceeded"
+        "Aperture time",
+        "Aperture droop",
+        "Feedback",
+        "Acquisition jitter"
       ],
       "correct": 0,
       "explain": "",
@@ -298,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gnm4ss",
-      "q": "The output voltage of a typical thermocouple is",
+      "id": "gate-nuq0iw",
+      "q": "RTDs are typically connected with other fixed resistors",
       "options": [
-        "less than 100 mV",
-        "greater than 1 V",
-        "Thermocouples vary resistance, not voltage.",
-        "None of the above"
+        "in a pi configuration",
+        "in a bridge configuration",
+        "and variable resistors",
+        "and capacitors in a filter-type circuit"
       ],
       "correct": 0,
       "explain": "",
@@ -318,13 +318,33 @@
       "tags": []
     },
     {
-      "id": "gate-85gpxw",
-      "q": "The connections to a thermocouple",
+      "id": "gate-1w97mul",
+      "q": "Holding current for an SCR is best described as",
       "options": [
-        "can produce an unwanted thermocouple effect, which must be compensated for",
-        "produce an extra desirable thermocouple effect",
-        "must be protected, since high voltages are present",
-        "produce an extra desirable thermocouple effect and must be protected, since high voltages are present"
+        "the minimum current required for turn-off",
+        "the current required before an SCR will turn on",
+        "the amount of current required to maintain conduction",
+        "the gate current required to maintain conduction"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Measurement Conversion And Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c90o",
+      "q": "What is the moving part of a linear variable differential transformer?",
+      "options": [
+        "Primary",
+        "Secondary",
+        "Diaphragm",
+        "Core"
       ],
       "correct": 0,
       "explain": "",

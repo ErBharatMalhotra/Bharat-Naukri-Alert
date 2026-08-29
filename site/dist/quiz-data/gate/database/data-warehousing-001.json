@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-crjuwo",
-      "q": "Joining is the process of partitioning data according to predefined criteria.",
+      "id": "gate-psa9tw",
+      "q": "A data mart is designed to optimize the performance for well-defined and predicable uses.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1mupbxo",
-      "q": "The role of the ETL process is to identify erroneous data and to fix them.",
+      "id": "gate-1e83z30",
+      "q": "Successful data warehousing requires that a formal program in total quality management (TQM) be implemented.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-yrfcu8",
-      "q": "Data in the data warehouse are loaded and refreshed from operational systems.",
+      "id": "gate-yaceic",
+      "q": "Data in operational systems are typically fragmented and inconsistent.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-vz299w",
-      "q": "Star schema is suited to online transaction processing, and therefore is generally used in operational systems, operational data stores, or an EDW.",
+      "id": "gate-k16c9b",
+      "q": "Most operational systems are based on the use of transient data.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1xddeco",
-      "q": "Periodic data are data that are physically altered once added to the store.",
+      "id": "gate-1t36pqg",
+      "q": "Independent data marts are often created because an organization focuses on a series of short-term business objectives.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-19xb980",
-      "q": "Both status data and event data can be stored in a database.",
+      "id": "gate-1qlkpkg",
+      "q": "A snowflake schema is which of the following types of tables?",
       "options": [
-        "True",
-        "False"
+        "Fact",
+        "Dimension",
+        "Helper",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -116,100 +118,8 @@
       "tags": []
     },
     {
-      "id": "gate-13yl8b0",
-      "q": "Static extract is used for ongoing warehouse maintenance.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Warehousing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8wmvt8",
-      "q": "Data scrubbing can help upgrade data quality; it is not a long-term solution to the data quality problem.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Warehousing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hsuoog",
-      "q": "Every key used to join the fact table with a dimensional table should be a surrogate key.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Warehousing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pmwrbw",
-      "q": "Derived data are detailed, current data intended to be the single, authoritative source for all decision support applications.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Warehousing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-beh17w",
-      "q": "Data scrubbing is which of the following?",
-      "options": [
-        "A process to reject data from the data warehouse and to create the necessary indexes",
-        "A process to load the data in the data warehouse and to create the necessary indexes",
-        "A process to upgrade the quality of data after it is moved into a data warehouse",
-        "A process to upgrade the quality of data before it is moved into a data warehouse"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data Warehousing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1aop5uc",
-      "q": "The @active data warehouse architecture includes which of the following?",
+      "id": "gate-11mqw64",
+      "q": "The generic two-level data warehouse architecture includes which of the following?",
       "options": [
         "At least one data mart",
         "Data that can extracted from numerous internal and external sources",
@@ -228,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-je4p07",
-      "q": "A goal of data mining includes which of the following?",
+      "id": "gate-snev88",
+      "q": "Fact tables are which of the following?",
       "options": [
-        "To explain some observed event or condition",
-        "To confirm that data exists",
-        "To analyze data for expected relationships",
-        "To create a new data warehouse"
+        "Completely denoralized",
+        "Partially denoralized",
+        "Completely normalized",
+        "Partially normalized"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-15dw60k",
-      "q": "An operational system is which of the following?",
+      "id": "gate-16mqvt1",
+      "q": "Data transformation includes which of the following?",
       "options": [
-        "A system that is used to run the business in real time and is based on historical data.",
-        "A system that is used to run the business in real time and is based on current data.",
-        "A system that is used to support decision making and is based on current data.",
-        "A system that is used to support decision making and is based on historical data."
+        "A process to change data from a detailed level to a summary level",
+        "A process to change data from a summary level to a detailed level",
+        "Joining data from one source into various sources of data",
+        "Separating data from one source into various sources of data"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +178,113 @@
       "tags": []
     },
     {
-      "id": "gate-9udey4",
-      "q": "A data warehouse is which of the following?",
+      "id": "gate-vedsms",
+      "q": "Reconciled data is which of the following?",
       "options": [
-        "Can be updated by end users.",
-        "Contains numerous naming conventions and formats.",
-        "Organized around important subject areas.",
-        "Contains only current data."
+        "Data stored in the various operational systems throughout the organization.",
+        "Current data intended to be the single source for all decision support systems.",
+        "Data stored in one operational system in the organization.",
+        "Data that has been selected and formatted for end-user support applications."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Warehousing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k7cr6f",
+      "q": "The load and index is which of the following?",
+      "options": [
+        "A process to reject data from the data warehouse and to create the necessary indexes",
+        "A process to load the data in the data warehouse and to create the necessary indexes",
+        "A process to upgrade the quality of data after it is moved into a data warehouse",
+        "A process to upgrade the quality of data before it is moved into a data warehouse"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Warehousing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6pxt6c",
+      "q": "The extract process is which of the following?",
+      "options": [
+        "Capturing all of the data contained in various operational systems",
+        "Capturing a subset of the data contained in various operational systems",
+        "Capturing all of the data contained in various decision support systems",
+        "Capturing a subset of the data contained in various decision support systems"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Warehousing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xjck6o",
+      "q": "A star schema has what type of relationship between a dimension and fact table?",
+      "options": [
+        "Many-to-many",
+        "One-to-one",
+        "One-to-many",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Warehousing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ei5f6w",
+      "q": "Transient data is which of the following?",
+      "options": [
+        "Data in which changes to existing records cause the previous version of the records to be eliminated",
+        "Data in which changes to existing records do not cause the previous version of the records to be eliminated",
+        "Data that are never altered or deleted once they have been added",
+        "Data that are never deleted once they have been added"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data Warehousing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c3x4q0",
+      "q": "A multifield transformation does which of the following?",
+      "options": [
+        "Converts data from one field into multiple fields",
+        "Converts data from multiple fields into one field",
+        "Converts data from multiple fields into multiple fields",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",

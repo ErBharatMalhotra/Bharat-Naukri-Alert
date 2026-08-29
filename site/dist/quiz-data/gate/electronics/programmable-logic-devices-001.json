@@ -5,16 +5,14 @@
   "subject": "Electronics",
   "topic": "Programmable Logic Devices",
   "source": "indiabix.com",
-  "count": 5,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-xtyhlf",
-      "q": "Which type of PLD should be used to program basic logic functions?",
+      "id": "gate-1bte1i8",
+      "q": "There are five steps in the PLD prototyping process.",
       "options": [
-        "PLA",
-        "PAL",
-        "CPLD",
-        "SLD"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +26,11 @@
       "tags": []
     },
     {
-      "id": "gate-5zhxvw",
-      "q": "The content of a simple programmable logic device (PLD) consists of:",
+      "id": "gate-1wqekq4",
+      "q": "SLDs and PLDs are digital logic ICs that can have their function changed through programming.",
       "options": [
-        "fuse-link arrays",
-        "thousands of basic logic gates",
-        "advanced sequential logic functions",
-        "thousands of basic logic gates and advanced sequential logic functions"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +44,11 @@
       "tags": []
     },
     {
-      "id": "gate-wpxdj0",
-      "q": "Once a PAL has been programmed:",
+      "id": "gate-x4wjyc",
+      "q": "Both the AND and OR arrays in a PAL are programmable.",
       "options": [
-        "it cannot be reprogrammed.",
-        "its outputs are only active HIGHs",
-        "its outputs are only active LOWs",
-        "its logic capacity is lost"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +62,11 @@
       "tags": []
     },
     {
-      "id": "gate-1p7o9lk",
-      "q": "The complex programmable logic device (CPLD) contains several PLD blocks and:",
+      "id": "gate-tuksp8",
+      "q": "CAD software can be used to create a detailed logic circuit that will perform like an actual PLD.",
       "options": [
-        "field-programmable switches",
-        "AND/OR arrays",
-        "a global interconnection matrix",
-        "a language compiler"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +80,71 @@
       "tags": []
     },
     {
-      "id": "gate-k5nw0s",
-      "q": "PLAs, CPLDs, and FPGAs are all which type of device?",
+      "id": "gate-iv0jwp",
+      "q": "A FPGA is an array of programmable logic blocks that are interconnected by OR gates.",
       "options": [
-        "SLD",
-        "PLD",
-        "EPROM",
-        "SRAM"
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Programmable Logic Devices",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-e7c6k8",
+      "q": "The OR array in a PAL is ________.",
+      "options": [
+        "fixed",
+        "programmable",
+        "nonexistent; there is no OR array in a PAL",
+        "floating"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Programmable Logic Devices",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1azw3zw",
+      "q": "The basic programmable logic array (PLA) contains a set of _____ gates, _____ gates, and ______ gates.",
+      "options": [
+        "NOT, NAND, OR",
+        "NOT, AND, OR",
+        "NAND, AND, NOR",
+        "OR, NOR, AND"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Programmable Logic Devices",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hhu1jc",
+      "q": "The difference between a PLA and a PAL is:",
+      "options": [
+        "the PLA has a programmable OR plane and a programmable AND plane, while the PAL only has a programmable AND plane",
+        "the PAL has a programmable OR plane and a programmable AND plane, while the PLA only has a programmable AND plane",
+        "the PAL has more possible product terms than the PLA",
+        "PALs and PLAs are the same thing."
       ],
       "correct": 0,
       "explain": "",

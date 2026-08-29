@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "The Relational Model And Normalization",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-17ri8tc",
-      "q": "A candidate key is a determinant that determines all the other columns is a relation.",
+      "id": "gate-c5r6h",
+      "q": "In a relation, the order of the rows matters.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-5kuf4l",
-      "q": "The only reason for the existence of relations is to store instances of functional dependencies.",
+      "id": "gate-ovjck0",
+      "q": "In a relation, the rows are sometimes called \"records.\"",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-shbxku",
-      "q": "A relation is in 5NF when multivalued dependencies are isolated in their own relation.",
+      "id": "gate-tlsgs0",
+      "q": "A relation is a two-dimensional table.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-f4vf7i",
-      "q": "The functional dependency R &rarr; S means that the value of S can be determined when we are given a value of R.",
+      "id": "gate-53ah20",
+      "q": "Any table that meets the definition of a relation is said to be in first normal form.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fxxvox",
-      "q": "In a relation, the columns are sometimes called \"attributes.\"",
+      "id": "gate-14rvhpt",
+      "q": "Given the functional dependency R &rarr; (S,T) , then it is also true that R &rarr; S.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1g3zo0w",
-      "q": "A primary key is a composite key that was selected to be the main identifier for the relation.",
+      "id": "gate-t2x8pk",
+      "q": "Which of the following is a group of one or more attributes that uniquely identifies a row?",
       "options": [
-        "True",
-        "False"
+        "Key",
+        "Determinant",
+        "Tuple",
+        "Relation"
       ],
       "correct": 0,
       "explain": "",
@@ -116,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-mvdmuk",
-      "q": "Every time attribute A appears, it is matched with the same value of attribute B, but not the same value of attribute C. Therefore, it is true that:",
+      "id": "gate-1fay408",
+      "q": "When the values in one or more attributes being used as a foreign key must exist in another set of one or more attributes in another table, we have created a(n):",
       "options": [
-        "A &rarr; B.",
-        "A &rarr; C.",
-        "A &rarr; (B,C).",
-        "(B,C) &rarr; A."
+        "transitive dependency.",
+        "insertion anomaly.",
+        "referential integrity constraint.",
+        "normal form."
       ],
       "correct": 0,
       "explain": "",
@@ -136,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hlb8rs",
-      "q": "The different classes of relations created by the technique for preventing modification anomalies are called:",
+      "id": "gate-dybh2w",
+      "q": "A relation is considered a:",
       "options": [
-        "normal forms.",
-        "referential integrity constraints.",
-        "functional dependencies.",
-        "None of the above is correct."
+        "Column.",
+        "one-dimensional table.",
+        "two-dimensional table.",
+        "three-dimensional table."
       ],
       "correct": 0,
       "explain": "",
@@ -156,48 +158,8 @@
       "tags": []
     },
     {
-      "id": "gate-107wfrs",
-      "q": "A relation is in this form if it is in BCNF and has no multivalued dependencies:",
-      "options": [
-        "second normal form.",
-        "third normal form.",
-        "fourth normal form.",
-        "domain/key normal form."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11ljxjp",
-      "q": "Row is synonymous with the term:",
-      "options": [
-        "record.",
-        "relation.",
-        "column.",
-        "field."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zhxqyo",
-      "q": "The primary key is selected from the:",
+      "id": "gate-gwrwt3",
+      "q": "In the relational model, relationships between relations or tables are created by using:",
       "options": [
         "composite keys.",
         "determinants.",
@@ -216,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ww25q0",
-      "q": "Table is synonymous with the term:",
+      "id": "gate-1wd9d7w",
+      "q": "A functional dependency is a relationship between or among:",
       "options": [
-        "record.",
-        "relation.",
-        "column.",
-        "field."
+        "tables.",
+        "rows.",
+        "relations.",
+        "attributes."
       ],
       "correct": 0,
       "explain": "",
@@ -236,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-vfilig",
-      "q": "Which of the following is not a restriction for a table to be a relation?",
+      "id": "gate-16l552k",
+      "q": "A relation in this form is free of all modification anomalies.",
       "options": [
-        "The cells of the table must contain a single value.",
-        "All of the entries in any column must be of the same kind.",
-        "The columns must be ordered.",
-        "No two rows in a table may be identical."
+        "First normal form",
+        "Second normal form",
+        "Third normal form",
+        "Domain/key normal form"
       ],
       "correct": 0,
       "explain": "",
@@ -256,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-184v31g",
-      "q": "For some relations, changing the data can have undesirable consequences called:",
+      "id": "gate-6vh96g",
+      "q": "If attributes A and B determine attribute C, then it is also true that:",
       "options": [
-        "referential integrity constraints.",
-        "modification anomalies.",
-        "normal forms.",
-        "transitive dependencies."
+        "A &rarr; C.",
+        "B &rarr; C.",
+        "(A,B) is a composite determinant.",
+        "C is a determinant."
       ],
       "correct": 0,
       "explain": "",
@@ -276,8 +238,8 @@
       "tags": []
     },
     {
-      "id": "gate-5q52ns",
-      "q": "An attribute is a(n):",
+      "id": "gate-zdhola",
+      "q": "A tuple is a(n):",
       "options": [
         "column of a table.",
         "two dimensional table.",
@@ -296,11 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1oum95c",
-      "q": "In a relation, the order of the columns does not matter.",
+      "id": "gate-fggmlo",
+      "q": "If attribute A determines both attributes B and C, then it is also true that:",
       "options": [
-        "True",
-        "False"
+        "A &rarr; B.",
+        "B &rarr; A.",
+        "C &rarr; A.",
+        "(B,C) &rarr; A."
       ],
       "correct": 0,
       "explain": "",
@@ -314,155 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dlwb7c",
-      "q": "A functional dependency is a relationship between or among attributes.",
+      "id": "gate-qixhe4",
+      "q": "One solution to the multivalued dependency constraint problem is to:",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-auswxs",
-      "q": "A key is a group of one or more attributes that uniquely identifies a row.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b2vh9s",
-      "q": "Keys made up of two or more attributes are called composite keys.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-abqdwk",
-      "q": "Given the functional dependency R &rarr; S , R is called the determinant.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1navkm4",
-      "q": "Relations are categorized into normal forms according to the referential integrity constraints that they have.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c67dhc",
-      "q": "A relation is in Boyce-Codd Normal Form (BCNF) if every determinant is a composite key.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1viisq0",
-      "q": "A functional dependency is always an equation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ou02o4",
-      "q": "A relation has cells that hold multi-value entries.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "The Relational Model And Normalization",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15uu6bs",
-      "q": "In a relation, the rows are sometimes called \"fields.\"",
-      "options": [
-        "True",
-        "False"
+        "split the relation into two relations, each with a single theme.",
+        "change the theme.",
+        "create a new theme.",
+        "add a composite key."
       ],
       "correct": 0,
       "explain": "",

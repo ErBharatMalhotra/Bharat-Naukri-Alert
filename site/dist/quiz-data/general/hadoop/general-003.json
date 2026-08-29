@@ -1,0 +1,739 @@
+{
+  "title": "General - hadoop - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "hadoop",
+  "topic": "General",
+  "source": "unknown",
+  "count": 56,
+  "questions": [
+    {
+      "q": "HDFS, by default, replicates each data block . . . . . . . . times on different nodes and on at least . . . . . . . . racks.",
+      "options": [
+        "3, 2",
+        "1, 2",
+        "2, 3",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . stores its metadata on multiple disks that typically include a non-local file server.",
+      "options": [
+        "DataNode",
+        "NameNode",
+        "ActionNode",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . codec uses Google's Snappy compression library.",
+      "options": [
+        "null",
+        "snappy",
+        "deflate",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following supports splittable compression?",
+      "options": [
+        "LZO",
+        "Bzip2",
+        "Gzip",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Gzip (short for GNU zip) generates compressed files that have a . . . . . . . . extension.",
+      "options": [
+        ".gzip",
+        ".gz",
+        ".gzp",
+        ".g"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The LZO compression format is composed of approximately . . . . . . . . blocks of compressed data.",
+      "options": [
+        "128k",
+        "256k",
+        "24k",
+        "36k"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the slowest compression technique?",
+      "options": [
+        "LZO",
+        "Bzip2",
+        "Gzip",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Mapper class in a MapReduce application?",
+      "options": [
+        "Generate intermediate key-value pairs",
+        "Read and parse input data",
+        "Aggregate values on the reducer side",
+        "Execute MapReduce jobs"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce job, what does the term \"Reducer\" refer to?",
+      "options": [
+        "Task that processes the Map output",
+        "Task that processes the Reduce output",
+        "Task that processes the Map input",
+        "Task that processes the Reduce input"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Partitioner in a MapReduce application?",
+      "options": [
+        "Distribute data across multiple nodes",
+        "Sort and shuffle data",
+        "Combine intermediate key-value pairs on the mapper side",
+        "Determine the reducer for each key"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce program, what is the purpose of the Hadoop Configuration object?",
+      "options": [
+        "Manage computation resources",
+        "Set job-level configurations",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Reducer class in a MapReduce job?",
+      "options": [
+        "Aggregate values on the reducer side",
+        "Generate intermediate key-value pairs",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What does the term \"InputFormat\" represent in the context of a MapReduce job?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce program, what is the role of the Hadoop Job object?",
+      "options": [
+        "Manages computation resources",
+        "Manages task execution in MapReduce jobs",
+        "Manages metadata of HDFS",
+        "Executes MapReduce jobs"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the significance of the Hadoop RecordReader in a MapReduce job?",
+      "options": [
+        "Reads and parses input data",
+        "Manages computation resources",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce application, what is the purpose of the Hadoop OutputFormat?",
+      "options": [
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines how input data is read",
+        "Defines the partitioning logic"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop JobClient in a MapReduce job?",
+      "options": [
+        "Manage computation resources",
+        "Manage task execution in MapReduce jobs",
+        "Execute MapReduce jobs",
+        "Manage Hadoop ecosystem tools"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce program, what does the term \"InputSplit\" represent?",
+      "options": [
+        "Represents a chunk of input data",
+        "Combine intermediate key-value pairs on the mapper side",
+        "Aggregate values on the reducer side",
+        "Convert data into a binary format"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary purpose of the Hadoop OutputCommitter?",
+      "options": [
+        "Manage storage layer",
+        "Manage computation resources",
+        "Execute MapReduce jobs",
+        "Manage Hadoop ecosystem tools"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce job, what is the function of the Hadoop TaskAttemptContext?",
+      "options": [
+        "Manages computation resources",
+        "Manages task execution in MapReduce jobs",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop Mapper.Context in a MapReduce application?",
+      "options": [
+        "Generate intermediate key-value pairs",
+        "Manages computation resources",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Hadoop Reducer.Context in a MapReduce application?",
+      "options": [
+        "Aggregate values on the reducer side",
+        "Manages computation resources",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce program, what is the purpose of the Hadoop Mapper.Context?",
+      "options": [
+        "Generate intermediate key-value pairs",
+        "Manages computation resources",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop Job object in a MapReduce application?",
+      "options": [
+        "Manages computation resources",
+        "Manages task execution in MapReduce jobs",
+        "Manages metadata of HDFS",
+        "Executes MapReduce jobs"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce job, what does the term \"Combiner\" represent?",
+      "options": [
+        "Combine intermediate key-value pairs on the mapper side",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data",
+        "Distribute data to reducers"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Hadoop Partitioner in a MapReduce application?",
+      "options": [
+        "Distribute data across multiple nodes",
+        "Combine intermediate key-value pairs on the mapper side",
+        "Sort and shuffle data",
+        "Determine the reducer for each key"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop TaskInputOutputContext in a MapReduce job?",
+      "options": [
+        "Manages computation resources",
+        "Manages task execution in MapReduce jobs",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce application, what does the term \"InputFormat\" represent?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the significance of the Hadoop JobClient in a MapReduce job?",
+      "options": [
+        "Manage computation resources",
+        "Manage task execution in MapReduce jobs",
+        "Execute MapReduce jobs",
+        "Manage Hadoop ecosystem tools"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce program, what is the purpose of the Hadoop OutputCommitter?",
+      "options": [
+        "Manage storage layer",
+        "Manage computation resources",
+        "Execute MapReduce jobs",
+        "Manage Hadoop ecosystem tools"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the function of the Hadoop Mapper.Context in a MapReduce application?",
+      "options": [
+        "Generate intermediate key-value pairs",
+        "Manages computation resources",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In a MapReduce application, what is the role of the Hadoop Job object?",
+      "options": [
+        "Manages computation resources",
+        "Manages task execution in MapReduce jobs",
+        "Manages metadata of HDFS",
+        "Executes MapReduce jobs"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop RecordReader in a MapReduce job?",
+      "options": [
+        "Reads and parses input data",
+        "Manages computation resources",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Hadoop Reducer class in a MapReduce application?",
+      "options": [
+        "Aggregate values on the reducer side",
+        "Generate intermediate key-value pairs",
+        "Execute MapReduce jobs",
+        "Read and parse input data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . specifies the number of segments on disk to be merged at the same time.",
+      "options": [
+        "mapred.job.shuffle.merge.percent",
+        "mapred.job.reduce.input.buffer.percen",
+        "mapred.inmem.merge.threshold",
+        "io.sort.factor"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The Mapper implementation processes one line at a time via . . . . . . . . method.",
+      "options": [
+        "map",
+        "reduce",
+        "mapper",
+        "reducer"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Map output larger than . . . . . . . . percent of the memory allocated to copying map outputs.",
+      "options": [
+        "10",
+        "15",
+        "25",
+        "35"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Jobs can enable task JVMs to be reused by specifying the job configuration . . . . . . . .",
+      "options": [
+        "mapred.job.recycle.jvm.num.tasks",
+        "mapissue.job.reuse.jvm.num.tasks",
+        "mapred.job.reuse.jvm.num.tasks",
+        "all of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Applications can use the . . . . . . . . to report progress and set application-level status messages.",
+      "options": [
+        "Partitioner",
+        "OutputSplit",
+        "Reporter",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The Hadoop MapReduce framework spawns one map task for each . . . . . . . . generated by the InputFormat for the job.",
+      "options": [
+        "OutputSplit",
+        "InputSplit",
+        "InputSplitStream",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following partitions the key space?",
+      "options": [
+        "Partitioner",
+        "Compactor",
+        "Collector",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . can change the maximum number of cells of a column family.",
+      "options": [
+        "set",
+        "reset",
+        "alter",
+        "select"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following parameter is the threshold for the accounting and serialization buffers?",
+      "options": [
+        "io.sort.spill.percent",
+        "io.sort.record.percent",
+        "io.sort.mb",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a table scope operator?",
+      "options": [
+        "MEMSTORE_FLUSH",
+        "MEMSTORE_FLUSHSIZE",
+        "MAX_FILESIZE",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The right level of parallelism for maps seems to be around . . . . . . . . maps per-node.",
+      "options": [
+        "1-10",
+        "10-100",
+        "100-150",
+        "150-200"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . class adds HBase configuration files to its object.",
+      "options": [
+        "Configuration",
+        "Collector",
+        "Component",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the main configuration file of HBase.",
+      "options": [
+        "hbase.xml",
+        "hbase-site.xml",
+        "hbase-site-conf.xml",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "HBase uses the . . . . . . . . File System to store its data.",
+      "options": [
+        "Hive",
+        "Imphala",
+        "Hadoop",
+        "Scala"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "You can delete a column family from a table using the method . . . . . . . . of HBAseAdmin class.",
+      "options": [
+        "delColumn()",
+        "removeColumn()",
+        "deleteColumn()",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is percentage of memory relative to the maximum heap size in which map outputs may be retained during the reduce.",
+      "options": [
+        "mapred.job.shuffle.merge.percent",
+        "mapred.job.reduce.input.buffer.percen",
+        "mapred.inmem.merge.threshold",
+        "io.sort.factor"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The standard output (stdout) and error (stderr) streams of the task are read by the TaskTracker and logged to . . . . . . . .",
+      "options": [
+        "${HADOOP_LOG_DIR}/user",
+        "${HADOOP_LOG_DIR}/userlogs",
+        "${HADOOP_LOG_DIR}/logs",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the default Partitioner for Mapreduce?",
+      "options": [
+        "MergePartitioner",
+        "HashedPartitioner",
+        "HashPartitioner",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . class provides the getValue() method to read the values from its instance.",
+      "options": [
+        "Get",
+        "Result",
+        "Put",
+        "Value"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the primary interface by which user-job interacts with the JobTracker.",
+      "options": [
+        "JobConf",
+        "JobClient",
+        "JobServer",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Maximum virtual memory of the launched child-task is specified using . . . . . . . .",
+      "options": [
+        "mapv",
+        "mapred",
+        "mapvim",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is used to filter log files from the output directory listing.",
+      "options": [
+        "OutputLog",
+        "OutputLogFilter",
+        "DistributedLog",
+        "DistributedJars"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    }
+  ]
+}

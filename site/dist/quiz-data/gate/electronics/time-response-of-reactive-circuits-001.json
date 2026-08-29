@@ -8,8 +8,8 @@
   "count": 17,
   "questions": [
     {
-      "id": "gate-pkzxmo",
-      "q": "If the output of an RC integrator is zero volts, the capacitor might be open.",
+      "id": "gate-1m41ims",
+      "q": "A repetitive pulse with a 50% duty cycle is being applied to the input of an RC integrator. If one time constant is less than one-fifth the pulse width, the capacitor will be able to fully charge and discharge.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-ss7ox1",
-      "q": "During the steady-state condition of a differentiator, the average output voltage is zero volts.",
+      "id": "gate-mp81uk",
+      "q": "The output of an RL differentiator is taken from across the inductor.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-b6412s",
-      "q": "The voltage across a capacitor in an RC integrator circuit cannot change exponentially; it can change only instantaneously.",
+      "id": "gate-1j657uk",
+      "q": "The output voltage of an RC integrator will eventually equal the voltage of a single input pulse if the input pulse width is less than 5 time constants.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-169lsvk",
-      "q": "The output voltage of a differentiator goes negative on the falling edge of the input pulse.",
+      "id": "gate-1xvg9yp",
+      "q": "The output of a differentiator could be considered a spike when the input pulse width is much longer than 5 time constants.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-2jfrq4",
-      "q": "If a repetitive-pulse waveform is applied to an RC integrator, the output waveshape depends on the relationship of the circuit time constant and the duty cycle of the input pulses.",
+      "id": "gate-j6a6n4",
+      "q": "The output of an RC differentiator is taken from across the capacitor.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-16wxhr3",
-      "q": "The steady-state condition of an integrator is reached after 5 time constants regardless of the number of input pulses that occur in that amount of time.",
+      "id": "gate-1o4b1lf",
+      "q": "The output voltage in the given circuit is _____ at the end of the second pulse.",
       "options": [
-        "True",
-        "False"
+        "1.06 V",
+        "7.56 V",
+        "3.32 V",
+        "12 V"
       ],
       "correct": 0,
       "explain": "",
@@ -116,71 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-x9c1m4",
-      "q": "A differentiator circuit can be used to convert a pulse input to a nearly constant dc output.",
+      "id": "gate-e9oj9e",
+      "q": "It takes ______ for the output voltage in the given circuit to reach its maximum value.",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-omju0c",
-      "q": "The voltage across the capacitor in the given circuit is _______ at the beginning of the second pulse. Assume the capacitor is initially uncharged.",
-      "options": [
-        "0 V",
-        "427.74 mV",
-        "2.8 V",
-        "7.56 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1odwhrw",
-      "q": "If the pulse width were cut in half in the given circuit, the voltage across the resistor would be ______ at the end of the pulse.",
-      "options": [
-        "0 V",
-        "0.36 V",
-        "0.46 V",
-        "0.9 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Time Response Of Reactive Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vk2sdg",
-      "q": "If the pulse source has an internal resistance of 80 in the given circuit, it will take ______ for the output voltage to decrease to zero.",
-      "options": [
+        "0 s",
+        "243.9 s",
         "1 ms",
-        "1.1 ms",
-        "1.2 ms",
-        "2.5 ms"
+        "1.22 ms"
       ],
       "correct": 0,
       "explain": "",
@@ -194,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-bcz488",
-      "q": "A(n) _____ will decrease the time constant in an RC integrator or differentiator.",
+      "id": "gate-ffaed8",
+      "q": "For a capacitor to completely charge in an RC integrator, the pulse width must be _____ 5 time constants.",
       "options": [
-        "open resistor",
-        "open capacitor",
-        "shorted capacitor",
-        "leaky capacitor"
+        "less than",
+        "greater than",
+        "equal to",
+        "greater than or equal to"
       ],
       "correct": 0,
       "explain": "",
@@ -214,12 +158,72 @@
       "tags": []
     },
     {
-      "id": "gate-11i6ery",
-      "q": "If the component positions were switched in the given circuit, the circuit would be an ______.",
+      "id": "gate-1e8e1i4",
+      "q": "The _____ is the time it takes for a capacitor to fully charge or discharge.",
       "options": [
-        "RL differentiator",
-        "RC differentiator",
+        "transient time",
+        "pulse response",
+        "time constant",
+        "steady state"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Time Response Of Reactive Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y3hdag",
+      "q": "After the rising edge of the input pulse occurs, it takes ______ for the voltage across the resistor to decrease to zero in the given circuit.",
+      "options": [
+        "0 s",
+        "68 s",
+        "340 s",
+        "500 s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Time Response Of Reactive Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vokm8g",
+      "q": "In the given circuit, what must the pulse width and time between pulses be to allow the capacitor to completely charge by the end of each pulse and to completely discharge between each pulse?",
+      "options": [
+        "940 s",
+        "2.82 ms",
+        "3.76 ms",
+        "4.7 ms"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Time Response Of Reactive Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vz1hnw",
+      "q": "The given circuit is an",
+      "options": [
         "RL integrator",
+        "RC differentiator",
+        "RL differentiator",
         "RC integrator"
       ],
       "correct": 0,
@@ -234,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-6cj1eg",
-      "q": "What voltage will the capacitor charge up to in the given circuit for the single input pulse shown?",
+      "id": "gate-13siywe",
+      "q": "Which of the following is true for a capacitor?",
       "options": [
-        "3.15 V",
-        "4.3 V",
-        "4.75 V",
-        "4.9 V"
+        "A capacitor acts like a short to instantaneous changes in current.",
+        "A capacitor's voltage cannot change instantaneously.",
+        "A capacitor acts like an open to dc.",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -254,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ihby3c",
-      "q": "If a periodic pulse waveform is applied to an RC differentiating circuit, which two conditions are possible?",
+      "id": "gate-eadvm0",
+      "q": "If the capacitor in an RC integrator shorts, the output",
       "options": [
-        "tw 5 or tw > 5",
-        "tw = 5 or tw > 5",
-        "tw 5 or tw",
-        "tw 5 or tw"
+        "is at ground",
+        "would measure the same as the input",
+        "would measure zero volts",
+        "None of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -274,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-qk1mzc",
-      "q": "An RL integrator and an RC differentiator can act as what types of filters, respectively?",
+      "id": "gate-10ve0os",
+      "q": "What has the voltage across the resistor decayed to by the end of the pulse in the given circuit?",
       "options": [
-        "low-pass, low-pass",
-        "low-pass, high-pass",
-        "high-pass, high-pass",
-        "high-pass, low-pass"
+        "0 V",
+        "0.75 V",
+        "5.55 V",
+        "14.25 V"
       ],
       "correct": 0,
       "explain": "",
@@ -294,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-2b54t6",
-      "q": "In a repetitive-pulse RC integrator circuit, what would the steady-state voltage equal at the end of the fifth pulse? Assume a Vin of 20 V.",
+      "id": "gate-185bnyk",
+      "q": "How long will it take the capacitor in the given circuit to discharge?",
       "options": [
-        "1.46 V",
-        "14.62 V",
-        "20 V",
-        "0 V"
+        "16.4 s",
+        "32.8 s",
+        "65.6 s",
+        "82 s"
       ],
       "correct": 0,
       "explain": "",
@@ -314,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cgpzkw",
-      "q": "What is a circuit that produces short-duration spikes?",
+      "id": "gate-831sx0",
+      "q": "What is the voltage across the inductor in the given circuit on the falling edge of the first input pulse?",
       "options": [
-        "A trigger pulse generator",
-        "An RL integrator",
-        "A timing circuit",
-        "A pulse waveform-to-dc converter"
+        "&#8211;0.2 V",
+        "0.2 V",
+        "&#8211;9.8 V",
+        "9.8 V"
       ],
       "correct": 0,
       "explain": "",

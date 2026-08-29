@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Rc Circuits",
   "source": "indiabix.com",
-  "count": 18,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-1vwb2y5",
-      "q": "When a series RC circuit is used as a low-pass filter, the output is taken from across the capacitor.",
+      "id": "gate-1xyka9z",
+      "q": "A 10 k capacitive reactance equals a 100 &#181;S capacitive susceptance.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-n3cbky",
-      "q": "If the resistor drops 6 V and the capacitor drops 8 V in a series RC circuit, the source voltage equals 10 V.",
+      "id": "gate-bxcdnk",
+      "q": "In a purely capacitive ac circuit, the amount of energy converted to heat is proportional to the circuit's current.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1cl641c",
-      "q": "The current lags the source voltage in a series RC circuit.",
+      "id": "gate-143f672",
+      "q": "Resistance is the same as impedance in an RC circuit.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-a5jt24",
-      "q": "If the frequency increases in a parallel RC circuit, the phase angle decreases.",
+      "id": "gate-1t2prrg",
+      "q": "The magnitude of the impedance in the given circuit is approximately 500 .",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-5pqep4",
-      "q": "The output voltage from an RC high-pass filter increases as the frequency decreases.",
+      "id": "gate-8gni8g",
+      "q": "In parallel RC circuits, the larger the value of C, the larger the phase angle.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-yiictc",
-      "q": "If a 100 resistance is connected to a 100 capacitive reactance in a series RC circuit, the impedance equals 200 .",
+      "id": "gate-r0gj30",
+      "q": "The phase angle in the given circuit equals___.",
       "options": [
-        "True",
-        "False"
+        "90&#176;",
+        "36.87&#176;",
+        "0&#176;",
+        "53.13&#176;"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-iire5k",
-      "q": "If the bandwidth of an RC low-pass filter is 20 kHz, the cutoff frequency is also 20 kHz.",
+      "id": "gate-a6341g",
+      "q": "Connecting the oscilloscope as shown in the given figure will _____.",
       "options": [
-        "True",
-        "False"
+        "measure the voltage across the source",
+        "measure the voltage across C1, R2, and C2",
+        "short R1",
+        "short C1, R2, and C2"
       ],
       "correct": 0,
       "explain": "",
@@ -134,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-qky0rx",
-      "q": "The true power in the given circuit equals ___.",
+      "id": "gate-1xex20w",
+      "q": "If the given circuit is used as a filter, the cutoff frequency is _____.",
       "options": [
-        "48.48 mW",
-        "296.93 mW",
-        "280.64 mW",
-        "96.98 mW"
+        "5 kHz",
+        "14.47 kHz",
+        "less than 5 kHz",
+        "more than 20 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -154,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-yvuo80",
-      "q": "In a series RC circuit, the phase difference between the current and the source voltage _____.",
+      "id": "gate-1g8nx1h",
+      "q": "In a series RC circuit, the phase difference between the capacitor and the resistor voltages ___.",
       "options": [
         "depends on the values of R and C",
         "equals 0&#176;",
         "equals 90&#176;",
-        "depends on the amplitude of the input voltage"
+        "depends on the value of the input voltage"
       ],
       "correct": 0,
       "explain": "",
@@ -174,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v1g118",
-      "q": "The hypotenuse of the right triangle of a vector diagram for R and XC is _______________.",
+      "id": "gate-1pq4fpo",
+      "q": "If the impedance equals 2 k in a parallel RC circuit, the admittance equals ___.",
       "options": [
-        "impedance",
-        "current",
-        "voltage",
-        "power"
+        "More information is needed in order to find the admittance.",
+        "2 kS",
+        "4 kS",
+        "500 &#181;S"
       ],
       "correct": 0,
       "explain": "",
@@ -194,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q2bms0",
-      "q": "The magnitude of the impedance in the given circuit equals _____.",
+      "id": "gate-17e0acg",
+      "q": "Calculate the magnitude of the impedance in the given circuit.",
       "options": [
-        "17.14",
-        "24",
-        "70",
-        "More information is needed in order to find the impedance."
+        "24.1 M",
+        "10 M",
+        "26.1 M",
+        "0"
       ],
       "correct": 0,
       "explain": "",
@@ -214,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gvd2ec",
-      "q": "When the resistance is greater than the capacitive reactance in a series RC circuit, the phase angle is ___.",
+      "id": "gate-oq3f2k",
+      "q": "Calculate the phase angle in the given circuit.",
       "options": [
         "0&#176;",
-        "between 0&#176; and 45&#176;",
-        "between 45&#176; and 90&#176;",
-        "45&#176;"
+        "90&#176;",
+        "22.52&#176;",
+        "67.48&#176;"
       ],
       "correct": 0,
       "explain": "",
@@ -234,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1u1ye3w",
-      "q": "______________ is shuttled back and forth between the source and load.",
+      "id": "gate-oksam0",
+      "q": "What is the phase angle for a parallel circuit consisting of a 500 kHz, 5 Vac source with a 47 pF capacitor, and a 4.7 k resistor in parallel?",
       "options": [
-        "True power",
-        "Reactive power",
-        "Apparent power",
-        "Impedance power"
+        "55.3&#176;",
+        "&#8211;55.3&#176;",
+        "34.8&#176;",
+        "&#8211;34.8&#176;"
       ],
       "correct": 0,
       "explain": "",
@@ -254,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qz2c9x",
-      "q": "If a series RC circuit contains a 120 k resistance and a 160 k capacitive reactance, the impedance equals _____.",
+      "id": "gate-1ovgyqw",
+      "q": "Which circuit is represented by the frequency response curve in the given figure?",
       "options": [
-        "280 k",
-        "120 k",
-        "160 k",
-        "200 k"
+        "High-pass filter",
+        "Low-pass filter",
+        "Band-pass filter",
+        "Band-stop filter"
       ],
       "correct": 0,
       "explain": "",
@@ -274,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-suwff8",
-      "q": "In a 20 Vac series RC circuit, if 20 V is read across the resistor and 40 V is measured across the capacitor, the applied voltage is",
+      "id": "gate-l2beo4",
+      "q": "What is the phase angle in the given circuit?",
       "options": [
-        "45 Vac",
-        "50 Vac",
-        "60 Vac",
-        "65 Vac"
+        "14.95&#176;",
+        "36.88&#176;",
+        "0&#176;",
+        "90&#176;"
       ],
       "correct": 0,
       "explain": "",
@@ -294,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-sb89q0",
-      "q": "What is the voltage drop across R1 in the given circuit?",
+      "id": "gate-im9uv4",
+      "q": "What is the current through XC1 in the given circuit?",
       "options": [
-        "10 V",
-        "4.80 V",
-        "4.00 V",
-        "5.80 V"
+        "32.2 mA",
+        "16 mA",
+        "12 mA",
+        "48 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -314,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-1x52cgk",
-      "q": "Power that is measured in volt-amperes is called",
+      "id": "gate-m0eb0s",
+      "q": "What is the total current in the given circuit?",
       "options": [
-        "impedance power",
-        "reactive power",
-        "true power",
-        "apparent power"
+        "0.28 A",
+        "0.399 A",
+        "909 A",
+        "0.2 A"
       ],
       "correct": 0,
       "explain": "",
@@ -334,13 +338,53 @@
       "tags": []
     },
     {
-      "id": "gate-1hbdkco",
-      "q": "As frequency increases",
+      "id": "gate-iuggc8",
+      "q": "Which statement about a series RC circuit is true?",
       "options": [
-        "both series and parallel RC impedance decrease",
-        "series RC impedance decreases and parallel RC impedance increases",
-        "series RC impedance increases and parallel RC impedance decreases",
-        "both series and parallel RC impedance increase"
+        "The capacitor's voltage drop is in phase with the resistor's voltage drop.",
+        "The current leads the source voltage.",
+        "The current lags the source voltage.",
+        "The resistor voltage lags the current."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rc Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e1s1uc",
+      "q": "If the frequency increases in the given circuit, how would the total current change?",
+      "options": [
+        "The total current would increase.",
+        "The total current would decrease.",
+        "The total current would remain the same.",
+        "More information is needed in order to predict how the total current would change."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Rc Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-egzx30",
+      "q": "What is the effect of increasing the resistance in a series RC circuit?",
+      "options": [
+        "There will be no effect at all.",
+        "The current will increase.",
+        "The phase shift will decrease.",
+        "The input voltage will increase."
       ],
       "correct": 0,
       "explain": "",

@@ -5,11 +5,11 @@
   "subject": "Electronics",
   "topic": "Number Systems And Codes",
   "source": "indiabix.com",
-  "count": 11,
+  "count": 18,
   "questions": [
     {
-      "id": "gate-14c8t0w",
-      "q": "When using the excess-3 code a value of 3 is added to each column of decimal digits before it is converted to a 4-bit binary code.",
+      "id": "gate-fglyxo",
+      "q": "Decimal numbers can be converted into binary by dividing by two and recording the remainders.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1nxw46k",
-      "q": "ASCII codes are used strictly for representing the letters in the alphabet.",
+      "id": "gate-g93t6w",
+      "q": "In the gray code, each number is 3 greater than the binary representation of that number.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1rvcc3k",
-      "q": "64 hexadecimal equals 100 decimal.",
+      "id": "gate-1vnrvr4",
+      "q": "The process of converting a decimal number to its binary equivalent is called binary conversion.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-9id42g",
-      "q": "The addition 1 + 0 doesn't generate a carry bit; one does not exist.",
+      "id": "gate-h0ckfw",
+      "q": "Base is the same as radix.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-17r66e0",
-      "q": "If you borrow from a position that contains a 0, you must borrow from the more significant bit that contains a 1. All 0s up to that point become 1s, and the digit last borrowed from becomes a 0.",
+      "id": "gate-c6we88",
+      "q": "The most significant digit is the rightmost, largest-weight digit in a number.",
       "options": [
         "True",
         "False"
@@ -98,33 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-pqmmqs",
-      "q": "The __________ code is a nonweighted binary code.",
+      "id": "gate-s982d4",
+      "q": "Digital electronics is based on the _________ numbering system.",
       "options": [
-        "excess-3",
-        "gray",
-        "multibit",
-        "minival"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electronics",
-      "topic": "Number Systems And Codes",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lkudgo",
-      "q": "Base 10 refers to which number system?",
-      "options": [
-        "binary coded decimal",
         "decimal",
-        "octal",
-        "hexadecimal"
+        "hexadecimal",
+        "binary",
+        "octal"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-vxvg1k",
-      "q": "Convert the decimal number 151.75 to binary.",
+      "id": "gate-i7d7xs",
+      "q": "A BCD code that represents each digit of a decimal number by a binary number derived by adding 3 to its 4-bit true binary value is _________.",
       "options": [
-        "10000111.11",
-        "11010011.01",
-        "00111100.00",
-        "10010111.11"
+        "9's complement code",
+        "excess-3 code",
+        "8421 code",
+        "gray code"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-7fbl5c",
-      "q": "Convert the binary number 1011010 to hexadecimal.",
+      "id": "gate-ywbfsc",
+      "q": "A binary code that progresses such that only one bit changes between two successive codes is _________.",
       "options": [
-        "5B",
-        "5F",
-        "5A",
-        "5C"
+        "9's complement code",
+        "excess-3 code",
+        "8421 code",
+        "gray code"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +158,53 @@
       "tags": []
     },
     {
-      "id": "gate-i9gzr5",
-      "q": "The number of bits used to store a BCD digit is:",
+      "id": "gate-qx1xas",
+      "q": "A binary number's value changes most drastically when the ____ is changed.",
       "options": [
-        "8",
-        "4",
+        "LSB",
+        "duty cycle",
+        "MSB",
+        "frequency"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hs6xxq",
+      "q": "The binary coded decimal (BCD) code is a system that represents each of the 10 decimal digits as a(n) ____________.",
+      "options": [
+        "4-bit binary code",
+        "8-bit binary code",
+        "16-bit binary code",
+        "ASCII code"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sjj45w",
+      "q": "The weight of the LSB as a binary number is:",
+      "options": [
         "1",
-        "2"
+        "2",
+        "3",
+        "4"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +218,133 @@
       "tags": []
     },
     {
-      "id": "gate-8r2dam",
-      "q": "Sample-and-hold circuits in ADCs are designed to:",
+      "id": "gate-632t4g",
+      "q": "What is the difference between binary coding and binary coded decimal?",
       "options": [
-        "sample and hold the output of the binary counter during the conversion process",
-        "stabilize the ADCs threshold voltage during the conversion process",
-        "stabilize the input analog signal during the conversion process",
-        "sample and hold the ADC staircase waveform during the conversion process"
+        "Binary coding is pure binary.",
+        "BCD is pure binary.",
+        "Binary coding has a decimal format.",
+        "BCD has no decimal format."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bx7dy4",
+      "q": "Convert the binary number 1001.0010 to decimal.",
+      "options": [
+        "125",
+        "12.5",
+        "90.125",
+        "9.125"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-38n3w8",
+      "q": "Convert 110010012 (binary) to decimal.",
+      "options": [
+        "201",
+        "2001",
+        "20",
+        "210"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hwl8v9",
+      "q": "What is the decimal value of the hexadecimal number 777?",
+      "options": [
+        "191",
+        "1911",
+        "19",
+        "19111"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10369qo",
+      "q": "What is the resultant binary of the decimal problem 49 + 1 = ?",
+      "options": [
+        "01010101",
+        "00110101",
+        "00110010",
+        "00110001"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5ry5ds",
+      "q": "3428 is the decimal value for which of the following binary coded decimal (BCD) groupings?",
+      "options": [
+        "11010001001000",
+        "11010000101000",
+        "011010010000010",
+        "110100001101010"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electronics",
+      "topic": "Number Systems And Codes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lfosh4",
+      "q": "What is the result when a decimal 5238 is converted to base 16?",
+      "options": [
+        "327.375",
+        "12166",
+        "1388",
+        "1476"
       ],
       "correct": 0,
       "explain": "",

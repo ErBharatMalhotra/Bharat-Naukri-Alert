@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Rl Circuits",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-17bwva9",
-      "q": "In an RL circuit, the impedance is determined by both the resistance and the inductive reactance combined.",
+      "id": "gate-17v8ys",
+      "q": "Total current in an RL circuit always lags the source voltage.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-g3vzn4",
-      "q": "The impedance of an RL circuit varies inversely with frequency.",
+      "id": "gate-1pz1l30",
+      "q": "The resistor voltage in an RL circuit is always out of phase with the current.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gyts1z",
-      "q": "The phase angle (&#952) of a series RL circuit varies directly with frequency.",
+      "id": "gate-8ao263",
+      "q": "A filter passes certain frequencies and rejects others.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-178yugo",
-      "q": "In an RL circuit, part of the power is resistive and part is reactive.",
+      "id": "gate-xldvf4",
+      "q": "The power factor indicates how much of the apparent power is reactive power.",
       "options": [
         "True",
         "False"
@@ -80,13 +80,11 @@
       "tags": []
     },
     {
-      "id": "gate-1ncd2no",
-      "q": "A 1.5 k resistor and a coil with a 2.2 k inductive reactance are in series across an 18 V ac source. The power factor is",
+      "id": "gate-wl3xdw",
+      "q": "A power factor of 1 indicates a purely reactive circuit, and a power factor of 0 indicates a purely resistive circuit.",
       "options": [
-        "564",
-        "0.564",
-        "6.76",
-        "55.7"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -100,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1bt1zvc",
-      "q": "The voltages in Problem 5 are measured at a certain frequency. To make the resistor voltage less than the inductor voltage, the frequency is",
+      "id": "gate-1dvps8x",
+      "q": "A 1.2 k resistor is in series with a 15 mH coil across a 10 kHz ac source. The magnitude of the total impedance is",
       "options": [
-        "increased",
-        "decreased",
-        "doubled",
-        "not a factor"
+        "152.6",
+        "1,526",
+        "1,200",
+        "942"
       ],
       "correct": 0,
       "explain": "",
@@ -120,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-iroed4",
-      "q": "In a series RL circuit, 12 V rms is measured across the resistor, and 14 V rms is measured across the inductor. The peak value of the source voltage is",
+      "id": "gate-18ho9y0",
+      "q": "When the frequency is decreased, the impedance of a parallel RL circuit",
       "options": [
-        "18.4 V",
-        "26.0 V",
-        "2 V",
-        "20 V"
+        "increases",
+        "decreases",
+        "remains constant",
+        "is not a factor"
       ],
       "correct": 0,
       "explain": "",
@@ -140,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-px4xmr",
-      "q": "To increase the current in a series RL circuit, the frequency",
+      "id": "gate-3b4qyk",
+      "q": "A 470 resistor and a 200 mH coil are in parallel. Both components are across a 1.5 kHz ac source. The total admittance of the circuit, in polar form, is",
       "options": [
-        "should be increased",
-        "should be decreased",
-        "should be constant",
-        "cannot be determined without values"
+        "12.60 &#8211;76&deg; mS",
+        "12.1876&deg; mS",
+        "218 &#8211;76&deg; mS",
+        "12.18 &#8211;76&deg; mS"
       ],
       "correct": 0,
       "explain": "",
@@ -160,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vod2gc",
-      "q": "A 470 resistor and a coil with 125 inductive reactance are in parallel. Both components are across a 15 V ac voltage source. Current through the inductor is",
+      "id": "gate-1r6ap9o",
+      "q": "Referring to Problem 23, the reactive power is",
       "options": [
-        "152 mA",
-        "32 mA",
-        "12 mA",
-        "120 mA"
+        "10 mVAR",
+        "100 mVAR",
+        "6.76 mVAR",
+        "148 mVAR"
       ],
       "correct": 0,
       "explain": "",
@@ -180,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-yioqpo",
-      "q": "A 140 resistor is in parallel with an inductor having 60 inductive reactance. Both components are across a 12 V ac source. The magnitude of the total impedance is",
+      "id": "gate-7w1ckp",
+      "q": "A 12 k resistor is in series with a 90 mH coil across an 8 kHz ac source. Current flow in the circuit, expressed in polar form, is I = 0.30&deg; mA. The source voltage, expressed in polar form, is",
       "options": [
-        "5.51",
-        "55.15",
-        "90",
-        "200"
+        "3.8420.6&deg; V",
+        "12.820.6&deg; V",
+        "0.320.6&deg; V",
+        "13.8469.4&deg; V"
       ],
       "correct": 0,
       "explain": "",
@@ -200,8 +198,48 @@
       "tags": []
     },
     {
-      "id": "gate-19gz7nm",
-      "q": "When the frequency of the voltage applied to a series RL circuit is decreased, the impedance",
+      "id": "gate-6ht0bk",
+      "q": "Which of the following power factors results in less energy loss in an RL circuit?",
+      "options": [
+        "1",
+        "0.8",
+        "0.4",
+        "0.2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wi85yd",
+      "q": "A 3.3 k resistor and a 120 mH coil are in parallel. Both components are across a 2 kHz, 12 V ac source. The total current in the circuit is",
+      "options": [
+        "8.74 mA",
+        "874 mA",
+        "874 A",
+        "8.74 A"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Electrical Engineering",
+      "topic": "Rl Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sgoqew",
+      "q": "When the frequency of the voltage applied to a series RL circuit is increased, the phase angle",
       "options": [
         "decreases",
         "increases",
@@ -220,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1swg7oc",
-      "q": "In a parallel RL circuit, there are 3 A rms in the resistive branch and 3 A rms in the inductive branch. The total rms current is",
+      "id": "gate-cqrz84",
+      "q": "If a load is purely inductive and the reactive power is 12 VAR, the apparent power is",
       "options": [
-        "6 A",
-        "424 mA",
-        "4.24 A",
-        "42.4 A"
+        "0 VA",
+        "12 VA",
+        "6 VA",
+        "24 VA"
       ],
       "correct": 0,
       "explain": "",
@@ -240,33 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1hp8kr0",
-      "q": "A 47 resistor is in series with an inductive reactance of 120 across an ac source. The impedance, expressed in polar form, is",
+      "id": "gate-9px63w",
+      "q": "If the frequency is halved and the resistance is doubled, the impedance of a series RL circuit",
       "options": [
-        "4768.6&deg;",
-        "12068.6&deg;",
-        "12931.4&deg;",
-        "12968.6&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rl Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-25jy4z",
-      "q": "When the resistor voltage in a series RL circuit becomes less than the inductor voltage, the phase angle",
-      "options": [
-        "increases",
-        "decreases",
-        "is not affected",
-        "cannot be determined"
+        "doubles",
+        "halves",
+        "remains constant",
+        "cannot be determined without values"
       ],
       "correct": 0,
       "explain": "",

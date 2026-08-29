@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Tuples",
   "source": "indiabix.com",
-  "count": 36,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-199468r",
-      "q": "What is the key characteristic of a tuple?",
+      "id": "gate-qswwvw",
+      "q": "Which of the following statements about tuples in Python is correct?",
       "options": [
-        "Mutable",
-        "Ordered",
-        "Dynamic",
-        "Indexed"
+        "Tuples allow in-place modification of elements.",
+        "Tuples can be nested to any level.",
+        "Tuples can only contain elements of the same data type.",
+        "Tuples support random access of elements by index."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-18sorwg",
-      "q": "How do you create an empty tuple?",
+      "id": "gate-101e2pk",
+      "q": "How do you convert a list to a tuple?",
       "options": [
-        "empty_tuple = ()",
-        "empty_tuple = [ ]",
-        "empty_tuple = new Tuple()",
-        "empty_tuple = {}"
+        "tuple(list)",
+        "list.to_tuple()",
+        "(tuple)list",
+        "list.as_tuple()"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1y3po8g",
-      "q": "Which of the following statements about tuples is true?",
+      "id": "gate-g382g6",
+      "q": "What is the result of the expression (1, 2, 3) + (4, 5, 6)?",
       "options": [
-        "Tuples can be resized after creation.",
-        "Tuples do not allow duplicate elements.",
-        "Elements of a tuple cannot be accessed by index.",
-        "Tuples can contain a mix of data types."
+        "(1, 2, 3, 4, 5, 6)",
+        "((1, 2, 3), (4, 5, 6))",
+        "[1, 2, 3, 4, 5, 6]",
+        "(5, 7, 9)"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-q0jggg",
-      "q": "What happens when you try to modify a tuple?",
+      "id": "gate-570t9k",
+      "q": "Which method is used to find the index of a specific element in a tuple?",
       "options": [
-        "Raises a TypeError",
-        "Automatically converts it to a list.",
-        "Adds the new element to the end of the tuple.",
-        "Modifies the element at the specified index."
+        "index()",
+        "find()",
+        "get_index()",
+        "search()"
       ],
       "correct": 0,
       "explain": "",
@@ -88,453 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-iylnin",
-      "q": "What is the purpose of the tuple.count() method?",
-      "options": [
-        "Counts the number of elements in the tuple.",
-        "Counts the occurrences of a specific element in the tuple.",
-        "Returns the index of the first occurrence of a specific element.",
-        "Checks if a specific element exists in the tuple."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dpph34",
-      "q": "How can you check if a specific element exists in a tuple?",
-      "options": [
-        "element in tuple",
-        "tuple.exists(element)",
-        "tuple.contains(element)",
-        "element.exist_in(tuple)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xu39oo",
-      "q": "What is the purpose of the tuple.index() method?",
-      "options": [
-        "Returns the total number of elements in the tuple.",
-        "Finds the index of the last occurrence of a specific element.",
-        "Finds the index of the first occurrence of a specific element.",
-        "Adds a new element to the end of the tuple."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yl6wk",
-      "q": "How can you create a tuple with a single element?",
-      "options": [
-        "single_tuple = (1)",
-        "single_tuple = (1,)",
-        "single_tuple = 1",
-        "single_tuple = tuple(1)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qhwbo0",
-      "q": "What happens if you try to concatenate two tuples using the '+' operator?",
-      "options": [
-        "Raises a TypeError",
-        "Merges the tuples into a single tuple.",
-        "Creates a list containing both tuples.",
-        "Concatenates the tuples into a new tuple."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1aqmq3v",
-      "q": "How can you delete an entire tuple?",
-      "options": [
-        "delete(tuple)",
-        "del tuple",
-        "tuple.delete()",
-        "tuple.clear()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3wq0zs",
-      "q": "What is the purpose of the tuple.extend() method?",
-      "options": [
-        "Extends the size of the tuple.",
-        "Adds elements to the end of the tuple.",
-        "Merges two tuples into a new one.",
-        "Raises a TypeError"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13yd518",
-      "q": "What is the output of the expression tuple('python')[::-1]?",
-      "options": [
-        "('n', 'o', 'h', 't', 'y', 'p')",
-        "('p', 'y', 't', 'h', 'o', 'n')",
-        "['n', 'o', 'h', 't', 'y', 'p']",
-        "('n', 'o', 'h', 't', 'y', 'p')"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a6wanc",
-      "q": "What is the purpose of the tuple.__contains__(element) method?",
-      "options": [
-        "Checks if the tuple contains the specified element.",
-        "Adds the specified element to the tuple.",
-        "Removes the specified element from the tuple.",
-        "Returns the count of occurrences of the specified element."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yo1wes",
-      "q": "How can you find the index of the last occurrence of a specific element in a tuple?",
-      "options": [
-        "tuple.last_index(element)",
-        "tuple.index_last(element)",
-        "tuple.index(element, -1)",
-        "tuple.find_last(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1eckim2",
-      "q": "What is the result of the expression (1, 2, 3) * 2?",
-      "options": [
-        "(1, 2, 3, 1, 2, 3)",
-        "((1, 2, 3), (1, 2, 3))",
-        "[1, 2, 3, 1, 2, 3]",
-        "(2, 4, 6)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12u7a1c",
-      "q": "What is the primary difference between tuples and lists?",
-      "options": [
-        "Tuples are mutable, while lists are immutable.",
-        "Tuples are ordered, while lists are unordered.",
-        "Tuples allow duplicate elements, while lists do not.",
-        "Tuples are immutable, while lists are mutable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6z5kig",
-      "q": "How do you create a tuple with the elements from 1 to 5?",
-      "options": [
-        "new_tuple = (1, 2, 3, 4, 5)",
-        "new_tuple = tuple(range(1, 6))",
-        "new_tuple = (1 to 5)",
-        "new_tuple = [1, 2, 3, 4, 5]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fsbl2w",
-      "q": "Which method is used to remove the first occurrence of a specific element in a tuple?",
-      "options": [
-        "tuple.delete(element)",
-        "tuple.remove(element)",
-        "tuple.discard(element)",
-        "tuple.pop(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hm1oro",
-      "q": "How do you find the length of a tuple?",
-      "options": [
-        "tuple.length()",
-        "tuple.size()",
-        "len(tuple)",
-        "length(tuple)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ohq1i0",
-      "q": "What is the result of the expression tuple(('a', 'b', 'c'))[::-1]?",
-      "options": [
-        "('a', 'b', 'c')",
-        "('c', 'b', 'a')",
-        "['c', 'b', 'a']",
-        "('c', 'b', 'a')"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2johm7",
-      "q": "Which of the following methods is used to find the index of the first occurrence of a specific element in a tuple?",
-      "options": [
-        "tuple.find(element)",
-        "tuple.search(element)",
-        "tuple.index(element)",
-        "tuple.locate(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rf4noa",
-      "q": "What is the result of the expression tuple(('cat', 'dog', 'rabbit')) * 2?",
-      "options": [
-        "('cat', 'dog', 'rabbit', 'cat', 'dog', 'rabbit')",
-        "['cat', 'dog', 'rabbit', 'cat', 'dog', 'rabbit']",
-        "(('cat', 'dog', 'rabbit'), ('cat', 'dog', 'rabbit'))",
-        "('catdograbbit', 'catdograbbit')"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cxowlc",
-      "q": "What is the correct way to access the second element of a tuple?",
-      "options": [
-        "tuple[2]",
-        "tuple.get(1)",
-        "tuple[1]",
-        "tuple.element(2)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w78u3s",
-      "q": "What does the sorted() function return when applied to a tuple?",
-      "options": [
-        "A sorted list",
-        "A sorted tuple",
-        "Raises a TypeError",
-        "An error, as tuples cannot be sorted"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k1uegd",
-      "q": "How do you create a tuple with repeated elements?",
-      "options": [
-        "new_tuple = (1, 2, 1, 2, 1, 2)",
-        "new_tuple = tuple(1, 2, 1, 2, 1, 2)",
-        "new_tuple = (1, 2) * 3",
-        "new_tuple = tuple.repeat(1, 2)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ly6mmn",
-      "q": "Which of the following methods is used to find the total number of occurrences of a specific element in a tuple?",
-      "options": [
-        "tuple.total(element)",
-        "tuple.count(element)",
-        "tuple.find(element)",
-        "tuple.occurrences(element)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18t3qz8",
-      "q": "What is the result of the expression len(('apple', 'orange', 'banana'))?",
+      "id": "gate-1agxczw",
+      "q": "What is the output of len((1, [2, 3], 'hello'))?",
       "options": [
         "3",
-        "6",
-        "16",
-        "1"
+        "4",
+        "5",
+        "6"
       ],
       "correct": 0,
       "explain": "",
@@ -548,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-bdi6g5",
-      "q": "What is the purpose of the tuple() constructor?",
+      "id": "gate-167rtn7",
+      "q": "How do you convert a tuple to a string?",
       "options": [
-        "Creates an empty tuple.",
-        "Converts a list to a tuple.",
-        "Converts a string to a tuple.",
-        "All of the above."
+        "str(tuple)",
+        "tuple.toString()",
+        "tuple.join('')",
+        "string(tuple)"
       ],
       "correct": 0,
       "explain": "",
@@ -568,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1comwg8",
-      "q": "What is the result of the expression (1, 2, 3) + (4,)?",
+      "id": "gate-1o02ho0",
+      "q": "What is the result of the expression tuple((1, 2, 3)) * 3?",
       "options": [
-        "(1, 2, 3, 4)",
-        "((1, 2, 3), (4,))",
-        "[1, 2, 3, 4]",
-        "(1, 2, 3, (4,))"
+        "(1, 2, 3, 1, 2, 3, 1, 2, 3)",
+        "((1, 2, 3), (1, 2, 3), (1, 2, 3))",
+        "[1, 2, 3, 1, 2, 3, 1, 2, 3]",
+        "(1, 2, 3, (1, 2, 3), (1, 2, 3))"
       ],
       "correct": 0,
       "explain": "",
@@ -588,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-z19qik",
-      "q": "Which of the following methods is used to find the index of the last occurrence of a specific element in a tuple?",
+      "id": "gate-1557coi",
+      "q": "What does the tuple() function do when given a list as an argument?",
       "options": [
-        "tuple.last_index(element)",
-        "tuple.index_last(element)",
-        "tuple.index(element, -1)",
-        "tuple.find_last(element)"
+        "Creates a tuple containing the entire list as a single element.",
+        "Converts the list into a tuple.",
+        "Raises a TypeError since lists and tuples are incompatible.",
+        "Appends the list to an existing tuple."
       ],
       "correct": 0,
       "explain": "",
@@ -608,12 +168,12 @@
       "tags": []
     },
     {
-      "id": "gate-1aoyj7f",
-      "q": "What is the output of the expression max(('apple', 'orange', 'banana'))?",
+      "id": "gate-4yjqg7",
+      "q": "What is the result of the expression len(('apple',))?",
       "options": [
-        "'apple'",
-        "'banana'",
-        "'orange'",
+        "5",
+        "1",
+        "('apple',)",
         "Raises a TypeError"
       ],
       "correct": 0,
@@ -628,93 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-tl2cy4",
-      "q": "What is the result of the expression tuple('hello')?",
+      "id": "gate-1fnpgnc",
+      "q": "How can you check if two tuples are equal?",
       "options": [
-        "('h', 'e', 'l', 'l', 'o')",
-        "(104, 101, 108, 108, 111)",
-        "('hello')",
-        "['h', 'e', 'l', 'l', 'o']"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xfkuyk",
-      "q": "How can you create a shallow copy of a tuple?",
-      "options": [
-        "new_tuple = old_tuple.copy()",
-        "new_tuple = old_tuple.clone()",
-        "new_tuple = copy(old_tuple)",
-        "new_tuple = old_tuple[:]"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b1aa8o",
-      "q": "Which method is used to remove all occurrences of a specific element from a tuple?",
-      "options": [
-        "tuple.remove_all(element)",
-        "tuple.clear(element)",
-        "tuple.removeAll(element)",
-        "tuple = tuple.replace(element, ())"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11bzh0k",
-      "q": "What is the output of the expression min(('apple', 'orange', 'banana'))?",
-      "options": [
-        "'apple'",
-        "'banana'",
-        "'orange'",
-        "Raises a TypeError"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Tuples",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vnew0c",
-      "q": "How do you unpack the elements of a tuple into separate variables?",
-      "options": [
-        "var1, var2, var3 = tuple",
-        "var1 = tuple[0], var2 = tuple[1], var3 = tuple[2]",
-        "var1 = unpack(tuple)",
-        "var1, var2, var3 = unpack(tuple)"
+        "tuple1.equals(tuple2)",
+        "tuple1 == tuple2",
+        "tuple1.compare(tuple2)",
+        "tuple1 is tuple2"
       ],
       "correct": 0,
       "explain": "",

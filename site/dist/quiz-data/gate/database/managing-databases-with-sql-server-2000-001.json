@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Managing Databases With Sql Server 2000",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-1yna5ww",
-      "q": "SQL Server supports INSTEAD OF, AFTER and BEFORE triggers.",
+      "id": "gate-sjvp6c",
+      "q": "There is only one way to create and modify tables in SQL Server. Write SQL code using either the CREATE or ALTER statements.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1226p98",
-      "q": "SQL Server supports two kinds of indexes: clustered and nonclustered.",
+      "id": "gate-1jofros",
+      "q": "SQL Server automatically creates an index on all primary and foreign keys.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1621s5z",
-      "q": "SQL Server indexes are special data structures used to improve performance.",
+      "id": "gate-12oroj4",
+      "q": "An SQL Server reserved word must be placed in brackets. If the word is not in brackets, SQL Server will try to interpret it as the name of one of its special words.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fksyjk",
-      "q": "SQL Server supports a language called Transact-SQL (also called T-SQL).",
+      "id": "gate-8gxfla",
+      "q": "With SQL Server, parameters and variables in T-SQL start with the \"%\" sign.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1lqqoe8",
-      "q": "The .NET languages are the most popular languages for writing stored procedures in SQL Server 2000.",
+      "id": "gate-accyjs",
+      "q": "Nonclustered indexes are faster than clustered indexes for retrieval.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-mgflld",
-      "q": "Better security occurs if Windows-only authentication is selected.",
+      "id": "gate-6jtrko",
+      "q": "Which type of SQL Server cursor concurrency places an update lock on a row when the row is read?",
       "options": [
-        "True",
-        "False"
+        "READ_ONLY",
+        "SCROLL_LOCK",
+        "OPTIMISTIC",
+        "READCOMMITTED"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-q2jdo8",
-      "q": "SQL Server AFTER Triggers may be assigned views.",
+      "id": "gate-1or9yf4",
+      "q": "Which of the three possible types of triggers does SQL Server support?",
       "options": [
-        "True",
-        "False"
+        "INSTEAD OF only",
+        "AFTER only",
+        "BEFORE only",
+        "INSTEAD OF and AFTER only"
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-rldaos",
-      "q": "'dbo' stands for database object.",
+      "id": "gate-sj1l5c",
+      "q": "Which of the following is a way to create and modify tables using SQL Server?",
       "options": [
-        "True",
-        "False"
+        "Write SQL code using either CREATE or ALTER SQL statements only.",
+        "Use the graphical facilities of SQL Server Enterprise Manager only.",
+        "Both of the two methods above will work.",
+        "Neither of the two methods above will work."
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rd3wkk",
-      "q": "With SQL Server optimistic locking, an update lock is placed on the row when the row is read.",
+      "id": "gate-1pg889k",
+      "q": "With which type of SQL Server recovery model, is no logging done?",
       "options": [
-        "True",
-        "False"
+        "Differential recovery",
+        "Full recovery",
+        "Bulk-logged recovery",
+        "Simple recovery"
       ],
       "correct": 0,
       "explain": "",
@@ -170,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-u4mdtz",
-      "q": "By default, SQL Server will create one data file and one log file for each newly created database.",
+      "id": "gate-17seyv8",
+      "q": "SQL Server 2000 stored procedures can:",
       "options": [
-        "True",
-        "False"
+        "never be kept within the database.",
+        "be kept within the database and invoked by application programs.",
+        "be stored on the users' computer.",
+        "support BEFORE, INSTEAD OF and AFTER types."
       ],
       "correct": 0,
       "explain": "",
@@ -188,8 +198,8 @@
       "tags": []
     },
     {
-      "id": "gate-vn4inc",
-      "q": "With which type of SQL Server recovery model are all database changes logged except those that cause large log entries?",
+      "id": "gate-sal3hk",
+      "q": "With which type of SQL Server recovery model are all database changes logged?",
       "options": [
         "Differential recovery",
         "Full recovery",
@@ -208,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-17r212w",
-      "q": "Using SQL Server 2000, which of the following symbols is used to indicate parameters in stored procedures?",
+      "id": "gate-qhe4wu",
+      "q": "SQL Server automatically creates an index on:",
       "options": [
-        "#",
-        "%",
-        "&",
-        "@"
+        "primary keys only.",
+        "foreign key only.",
+        "both primary and foreign keys.",
+        "SQL Server never automatically creates an index."
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-qb2caj",
-      "q": "What mode of authentication does SQL Server NOT provide?",
+      "id": "gate-vybh4o",
+      "q": "Which of the following is not a factor in determining the concurrency control behavior of SQL Server?",
       "options": [
-        "Windows-only security",
-        "Both SQL Server and Windows-only security",
-        "Mixed security",
-        "SQL Server only security"
+        "Lock level",
+        "Transaction isolation level",
+        "Cursor concurrency setting",
+        "Locking hints"
       ],
       "correct": 0,
       "explain": "",
@@ -248,28 +258,8 @@
       "tags": []
     },
     {
-      "id": "gate-1j7aw6s",
-      "q": "The strictest transaction isolation level provided by SQL Server is called:",
-      "options": [
-        "REPEATABLE READ.",
-        "SERIALIZABLE.",
-        "READ COMMITTED.",
-        "READ UNCOMMITTED."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hvgmt4",
-      "q": "SQL Server program code that is executed instead of an SQL command that needs to be processed is called a(n):",
+      "id": "gate-1m0atc",
+      "q": "SQL Server program code that is executed after an SQL command has been processed is called a(n):",
       "options": [
         "INSTEAD OF trigger.",
         "BEFORE trigger.",
@@ -288,183 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-7hxoj8",
-      "q": "With this type of SQL Server cursor concurrency no lock is obtained until the user updates the data.",
+      "id": "gate-18m5cw0",
+      "q": "Which of the following refers to the SQL Server transaction isolation level which places and holds locks on all rows that are read?",
       "options": [
-        "READ_ONLY",
-        "SCROLL_LOCK",
-        "OPTIMISTIC",
-        "PESSIMISTIC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-56dnj4",
-      "q": "An SQL Server 2000 language that adds programming elements like parameters, variables, IF, WHILE loops, and so forth, to the basic capabilities of SQL is called:",
-      "options": [
-        "COBOL.",
-        "VB.NET.",
-        "TRANSACT SQL.",
-        "Visual Basic."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cfrd1s",
-      "q": "With this type of index, the data are stored in the bottom level of the index and in the same order as that index.",
-      "options": [
-        "Nonclustered",
-        "Clustered",
-        "Primary",
-        "Secondary"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dgs08l",
-      "q": "In SQL Server 2000, which of the following makes a copy of the changes that have been made to the database since the last complete backup?",
-      "options": [
-        "Complete backup",
-        "Transaction Log",
-        "Differential backup",
-        "None of the above is correct."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m0ih7c",
-      "q": "With this type of index, the bottom level of an index does not contain data, but rather it contains pointers to data.",
-      "options": [
-        "Nonclustered",
-        "Clustered",
-        "Primary",
-        "Secondary"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tp8hwc",
-      "q": "READ COMMITTED is the default isolation level.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xismiz",
-      "q": "A differential backup makes a copy of the entire database.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cm5sbc",
-      "q": "SQL Server supports three recovery modes: simple, full and Bulk.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uxdcz8",
-      "q": "SERIALIZABLE is the strictest isolation level.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Managing Databases With Sql Server 2000",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1phd9aw",
-      "q": "With SQL Server pessimistic locking, no lock is obtained until the user updates the data.",
-      "options": [
-        "True",
-        "False"
+        "REPEATABLE READ",
+        "SERIALIZABLE",
+        "READ COMMITTED",
+        "READ UNCOMMITTED"
       ],
       "correct": 0,
       "explain": "",

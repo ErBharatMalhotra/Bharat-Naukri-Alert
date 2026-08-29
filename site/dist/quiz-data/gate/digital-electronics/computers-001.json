@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Computers",
   "source": "indiabix.com",
-  "count": 21,
+  "count": 17,
   "questions": [
     {
-      "id": "gate-cpcwlg",
-      "q": "The original Pentium was the first CPU to feature separate data and instruction caches.",
+      "id": "gate-1nzvwu8",
+      "q": "Chip designers are always trying to increase the clock speed.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1uj3whs",
-      "q": "The PCI bus is a good example of an external bus for personal computers.",
+      "id": "gate-svaf7k",
+      "q": "Instructions for the 80X86 family are downward compatible.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-6h57j3",
-      "q": "The Power PC can effectively execute up to ten instructions per clock cycle.",
+      "id": "gate-49cq1s",
+      "q": "The Pentium can execute two instructions at once.",
       "options": [
         "True",
         "False"
@@ -62,26 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1f4ub8",
-      "q": "Polling is the process of pausing the normal sequence of instructions to cause the processor to execute a separate set of I/O instructions instead.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hukvz4",
-      "q": "The ADD, CMP, and MUL instructions are all part of which type of instruction?",
+      "id": "gate-1uv36rc",
+      "q": "The AND, OR, and TEST instructions are all part of which type of instruction?",
       "options": [
         "Data transfer",
         "Arithmetic",
@@ -100,12 +82,12 @@
       "tags": []
     },
     {
-      "id": "gate-rdktv0",
-      "q": "Instructions that allow direct control of the processor's flags are called ________ instructions.",
+      "id": "gate-1qutsdi",
+      "q": "A mini-program that can be used repeatedly, but is programmed only once is called a(n) ________.",
       "options": [
-        "data transfer",
-        "arithmetic",
-        "bit manipulation",
+        "string",
+        "subroutine",
+        "interrupt",
         "processor control"
       ],
       "correct": 0,
@@ -120,13 +102,13 @@
       "tags": []
     },
     {
-      "id": "gate-8w05m6",
-      "q": "The MOV, PUSH, and POP instructions are all part of which type of instruction?",
+      "id": "gate-1fcnmpg",
+      "q": "Contiguous sequences of bytes or words are called ________.",
       "options": [
-        "Data transfer",
-        "Arithmetic",
-        "Bit manipulation",
-        "Loops and jumps"
+        "data transfer",
+        "arithmetic",
+        "loops and jumps",
+        "strings"
       ],
       "correct": 0,
       "explain": "",
@@ -140,13 +122,13 @@
       "tags": []
     },
     {
-      "id": "gate-jpz4cp",
-      "q": "The JNZ, JA, and LOOP instructions are all part of which type of instruction?",
+      "id": "gate-16ass3k",
+      "q": "An interrupt method that requires the CPU to test each peripheral device in sequence is called ________.",
       "options": [
-        "Data transfer",
-        "Arithmetic",
-        "Bit manipulation",
-        "Loops and jumps"
+        "vectored I/O",
+        "polled I/O",
+        "programmed interrupt",
+        "interrupt-driven I/O"
       ],
       "correct": 0,
       "explain": "",
@@ -160,12 +142,12 @@
       "tags": []
     },
     {
-      "id": "gate-1671mix",
-      "q": "During a memory read operation, the CPU fetches ________.",
+      "id": "gate-3fmo3v",
+      "q": "An example of a unidirectional bus in a microcomputer system is the ________.",
       "options": [
-        "a program instruction",
-        "an address",
-        "data",
+        "address bus",
+        "data bus",
+        "control bus",
         "all of the above"
       ],
       "correct": 0,
@@ -180,13 +162,13 @@
       "tags": []
     },
     {
-      "id": "gate-1785312",
-      "q": "Which method bypasses the CPU for certain types of data transfer?",
+      "id": "gate-pweike",
+      "q": "The first microprocessor had a(n)________.",
       "options": [
-        "Software interrupts",
-        "Interrupt-driven I/O",
-        "Polled I/O",
-        "Direct memory access (DMA)"
+        "1-bit data bus",
+        "2-bit data bus",
+        "4-bit data bus",
+        "8-bit data bus"
       ],
       "correct": 0,
       "explain": "",
@@ -200,173 +182,13 @@
       "tags": []
     },
     {
-      "id": "gate-ny9ako",
-      "q": "Which of the following is not an enhancement to the Pentium that was unavailable in the 8086/8088?",
+      "id": "gate-1nwotf4",
+      "q": "Which microprocessor has multiplexed data and address lines?",
       "options": [
-        "\"Pipelined\" architecture",
-        "Expansion of cache memory",
-        "Inclusion of an internal math coprocessor",
-        "Data/address line multiplexing"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19badg3",
-      "q": "DMA is particularly suited for data transfer between the ________.",
-      "options": [
-        "disk drive and CPU",
-        "disk drive and RAM",
-        "disk drive and ROM",
-        "disk drive and I/O"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6dyheg",
-      "q": "What is occurring when two or more sources of data attempt to use the same bus?",
-      "options": [
-        "Bus contention",
-        "Direct memory access",
-        "Bus interruption",
-        "PPI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gcwc3c",
-      "q": "Which of the following is not a jump instruction?",
-      "options": [
-        "JB (jump back)",
-        "JA (jump above)",
-        "JO (jump if overflow)",
-        "JMP (unconditional jump)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ce2r4g",
-      "q": "Which of the following was not a design improvement for the 8086/8088 over the 8085?",
-      "options": [
-        "Execution unit (EU)",
-        "16-bit data bus",
-        "Arithmetic logic unit (ALU)",
-        "Bus interface unit (BIU)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a437ju",
-      "q": "Polled I/O works best when ________.",
-      "options": [
-        "there are no priority considerations",
-        "priority considerations are frequent",
-        "the polling rate exceeds 1000 s",
-        "the polling rate is below 1000 s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-plzmgr",
-      "q": "Which of the following is not an arithmetic instruction?",
-      "options": [
-        "INC (increment)",
-        "CMP (compare)",
-        "DEC (decrement)",
-        "ROL (rotate left)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q0d0xo",
-      "q": "During a read operation the CPU fetches ________.",
-      "options": [
-        "a program instruction",
-        "another address",
-        "data itself",
-        "all of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Computers",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vjyif4",
-      "q": "The first Intel microprocessor to contain on-board cache memory was the ________.",
-      "options": [
+        "8086/8088",
+        "80286",
         "80386",
-        "80486",
-        "Pentium",
-        "Pentium Pro"
+        "Pentium"
       ],
       "correct": 0,
       "explain": "",
@@ -380,13 +202,13 @@
       "tags": []
     },
     {
-      "id": "gate-d1inx6",
-      "q": "Which of the following is not an 8086/8088 general-purpose register?",
+      "id": "gate-1lwmeek",
+      "q": "Which is not an operand?",
       "options": [
-        "Code segment (CS)",
-        "Data segment (DS)",
-        "Stack segment (SS)",
-        "Address segment (AS)"
+        "Variable",
+        "Register",
+        "Memory location",
+        "Assembler"
       ],
       "correct": 0,
       "explain": "",
@@ -400,13 +222,113 @@
       "tags": []
     },
     {
-      "id": "gate-1wl3oyr",
-      "q": "With interrupt-driven I/O, if two or more devices request service at the same time, ________.",
+      "id": "gate-ir6n4c",
+      "q": "Which is not part of the execution unit (EU)?",
       "options": [
-        "the device closest to the CPU gets priority",
-        "the device that is fastest gets priority",
-        "the device assigned the highest priority is serviced first",
-        "the system is likely to crash"
+        "Arithmetic logic unit (ALU)",
+        "Clock",
+        "General registers",
+        "Flags"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ahf8js",
+      "q": "A 20-bit address bus can locate ________.",
+      "options": [
+        "1,048,576 locations",
+        "2,097,152 locations",
+        "4,194,304 locations",
+        "8,388,608 locations"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-k1lgl4",
+      "q": "The Pentium can address ________.",
+      "options": [
+        "1 MB",
+        "1 GB",
+        "2 GB",
+        "4 GB"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13egcxw",
+      "q": "Which of the following is not a computer functional block?",
+      "options": [
+        "Analog-to-digital converter",
+        "Central-processing unit",
+        "Memory",
+        "Input/output ports"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nsy34i",
+      "q": "The Pentium microprocessor has a data bus of ________.",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Digital Electronics",
+      "topic": "Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-z3f0j8",
+      "q": "The process of jointly establishing communication is called ________.",
+      "options": [
+        "DMA",
+        "bidirectional addressing",
+        "multiplexing",
+        "handshaking"
       ],
       "correct": 0,
       "explain": "",

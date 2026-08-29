@@ -5,16 +5,16 @@
   "subject": "C Programming",
   "topic": "Expressions",
   "source": "indiabix.com",
-  "count": 14,
+  "count": 13,
   "questions": [
     {
-      "id": "gate-ood2v4",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i=4, j=-1, k=0, w, x, y, z; w = i || j || k; x = i &amp;&amp; j &amp;&amp; k; y = i || j &amp;&amp;k; z = i &amp;&amp; j || k; printf(\"%d, %d, %d, %d\\n\", w, x, y, z); return 0; }",
+      "id": "gate-xfakgo",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i=-3, j=2, k=0, m; m = ++i &amp;&amp; ++j &amp;&amp; ++k; printf(\"%d, %d, %d, %d\\n\", i, j, k, m); return 0; }",
       "options": [
-        "1, 1, 1, 1",
-        "1, 1, 0, 1",
-        "1, 0, 0, 1",
-        "1, 0, 1, 1"
+        "-2, 3, 1, 1",
+        "2, 3, 1, 2",
+        "1, 2, 3, 1",
+        "3, 3, 1, 2"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-sead9s",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int x=4, y, z; y = --x; z = x--; printf(\"%d, %d, %d\\n\", x, y, z); return 0; }",
+      "id": "gate-d71d0k",
+      "q": "Assuming, integer is 2 byte, What will be the output of the program? #include&lt;stdio.h&gt; int main() { printf(\"%x\\n\", -2&lt;&lt;2); return 0; }",
       "options": [
-        "4, 3, 3",
-        "4, 3, 2",
-        "3, 3, 2",
-        "2, 3, 3"
+        "ffff",
+        "0 &nbsp;",
+        "fff8",
+        "Error"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ngng60",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i=3; i = i++; printf(\"%d\\n\", i); return 0; }",
+      "id": "gate-3t1ny8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int x=12, y=7, z; z = x!=4 || y == 2; printf(\"z=%d\\n\", z); return 0; }",
       "options": [
-        "3",
-        "4",
-        "5",
-        "6"
+        "z=0",
+        "z=1",
+        "z=4",
+        "z=2"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-176lbc0",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int a=100, b=200, c; c = (a == 100 || b &gt; 200); printf(\"c=%d\\n\", c); return 0; }",
+      "id": "gate-nql2nw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { static int a[20]; int i = 0; a[i] = i ; printf(\"%d, %d, %d\\n\", a[0], a[1], i); return 0; }",
       "options": [
-        "c=100",
-        "c=200",
-        "c=1",
-        "c=300"
+        "1, 0, 1",
+        "1, 1, 1",
+        "0, 0, 0",
+        "0, 1, 0"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,11 @@
       "tags": []
     },
     {
-      "id": "gate-1ts17vs",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int x=55; printf(\"%d, %d, %d\\n\", x&lt;=55, x=40, x&gt;=10); return 0; }",
+      "id": "gate-12o43qc",
+      "q": "Associativity has no role to play unless the precedence of operator is same.",
       "options": [
-        "1, 40, 1",
-        "1, 55, 1",
-        "1, 55, 0",
-        "1, 1, 1"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +106,11 @@
       "tags": []
     },
     {
-      "id": "gate-hl2vtc",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i=2; printf(\"%d, %d\\n\", ++i, ++i); return 0; }",
+      "id": "gate-1i3j7hg",
+      "q": "The expression of the right hand side of || operators doesn't get evaluated if the left hand side determines the outcome.",
       "options": [
-        "3, 4",
-        "4, 3",
-        "4, 4",
-        "Output may vary from compiler to compiler"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +124,11 @@
       "tags": []
     },
     {
-      "id": "gate-1ai7z7s",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int k, num=30; k = (num&gt;5 ? (num &lt;=10 ? 100 : 200): 500); printf(\"%d\\n\", num); return 0; }",
+      "id": "gate-fddbv8",
+      "q": "In the expression a=b=5 the order of Assignment is NOT decided by Associativity of operators",
       "options": [
-        "200",
-        "30",
-        "100",
-        "500"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +142,11 @@
       "tags": []
     },
     {
-      "id": "gate-l1t5sc",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { char ch; ch = 'A'; printf(\"The letter is\"); printf(\"%c\", ch &gt;= 'A' &amp;&amp; ch &lt;= 'Z' ? ch + 'a' - 'A':ch); printf(\"Now the letter is\"); printf(\"%c\\n\", ch &gt;= 'A' &amp;&amp; ch &lt;= 'Z' ? ch : ch + 'a' - 'A'); return 0; }",
+      "id": "gate-fodohg",
+      "q": "Associativity of an operator is either Left to Right or Right to Left.",
       "options": [
-        "The letter is aNow the letter is A",
-        "The letter is ANow the letter is a",
-        "Error",
-        "None of above"
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +160,11 @@
       "tags": []
     },
     {
-      "id": "gate-z2t9zc",
-      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i=2; int j = i + (1, 2, 3, 4, 5); printf(\"%d\\n\", j); return 0; }",
+      "id": "gate-1fazhxs",
+      "q": "Are the following two statement same? 1. a &lt;= 20 ? (b = 30): (c = 30); 2. (a &lt;=20) ? b : (c = 30);",
       "options": [
-        "4",
-        "7",
-        "6",
-        "5"
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +178,11 @@
       "tags": []
     },
     {
-      "id": "gate-1didiok",
-      "q": "Which of the following is the correct order of evaluation for the below expression?z = x + y * z / 4 % 2 - 1",
+      "id": "gate-1owxsc3",
+      "q": "Two different operators would always have different Associativity.",
       "options": [
-        "* / % + - =",
-        "= * / % + -",
-        "/ * % - + =",
-        "* % / - + ="
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +196,11 @@
       "tags": []
     },
     {
-      "id": "gate-1m4t4a8",
-      "q": "Which of the following correctly shows the hierarchy of arithmetic operations in C?",
+      "id": "gate-1de2pp6",
+      "q": "Will the expression *p = p be disallowed by the compiler?",
       "options": [
-        "/ + * -",
-        "* - / +",
-        "+ - / *",
-        "/ * + -"
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +214,11 @@
       "tags": []
     },
     {
-      "id": "gate-1yzr4jo",
-      "q": "Which of the following is the correct usage of conditional operators used in C?",
+      "id": "gate-18mzef3",
+      "q": "Every operator has an Associativity",
       "options": [
-        "a&gt;b ? c=30 : c=40;",
-        "a&gt;b ? c=30;",
-        "max = a&gt;b ? a&gt;c?a:c:b&gt;c?b:c",
-        "return (a&gt;b)?(a:b)"
+        "Yes",
+        "No"
       ],
       "correct": 0,
       "explain": "",
@@ -248,33 +232,13 @@
       "tags": []
     },
     {
-      "id": "gate-1rpe24w",
-      "q": "Which of the following is the correct order if calling functions in the below code? a = f1(23, 14) * f2(12/4) + f3();",
+      "id": "gate-1rt0u2y",
+      "q": "In which order do the following gets evaluated 1. Relational 2. Arithmetic 3. Logical 4. Assignment",
       "options": [
-        "f1, f2, f3",
-        "f3, f2, f1",
-        "Order may vary from compiler to compiler",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Expressions",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ewp9k0",
-      "q": "Which of the following are unary operators in C? 1. ! 2. sizeof 3. ~ 4. &amp;&amp;",
-      "options": [
-        "1, 2",
-        "1, 3",
-        "2, 4",
-        "1, 2, 3"
+        "2134",
+        "1234",
+        "4321",
+        "3214"
       ],
       "correct": 0,
       "explain": "",

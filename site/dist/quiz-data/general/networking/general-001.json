@@ -1,0 +1,997 @@
+{
+  "title": "General - networking - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "networking",
+  "topic": "General",
+  "source": "unknown",
+  "count": 76,
+  "questions": [
+    {
+      "q": "Protocols are",
+      "options": [
+        "Agreements on how communication components and DTE",
+        "Logical communication channels used for transferri",
+        "Physical communication channels used for transferr",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The method of communication in which transmission takes place in both directions, but only one direction at a time is called",
+      "options": [
+        "Simplex",
+        "Four wire circuit",
+        "Full Duplex",
+        "Half Duplex"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The topology with highest reliability is:",
+      "options": [
+        "Bus topology",
+        "Star topology",
+        "Ring topology",
+        "Mesh topology"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "\"BAUD\" rate means",
+      "options": [
+        "The number of bits transmitted per unit time.",
+        "The number of bytes transmitted per unit time.",
+        "The rate at which the signal changes.",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Start and stop bits are used in serial communication for",
+      "options": [
+        "Error detection",
+        "Error correction",
+        "Synchronization",
+        "Slowing down the communication"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Unmodulated signal coming from a transmitter is know as",
+      "options": [
+        "Carrier signal",
+        "Baseband signal",
+        "Primary signal",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "How many Character per sec(7bits + 1parity) can be transmitted over a 2400 bps line if the transfer is synchronous (1 \"Start\" and 1 \"stop\" bit)?",
+      "options": [
+        "300",
+        "240",
+        "250",
+        "275"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which one of the following network uses dynamic or adaptive routing?",
+      "options": [
+        "TYMNET",
+        "ARPANET",
+        "SNA(IBM's System Network Architechture)",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The number of cross point needed for 10 lines in a cross point switch which is full duplex in nature and there are no self connection is",
+      "options": [
+        "100",
+        "45",
+        "50",
+        "90"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "A terminal multiplexer has six 1200 bps terminals and &#39;n&#39; 300bps terminals connected to it. The outgoing line is 9600bps. What is the maximum value of n?",
+      "options": [
+        "16",
+        "28"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Maximum data rate of a channel for a noiseless 3-kHz binary channel is",
+      "options": [
+        "3000bps",
+        "6000 bps",
+        "1500 bps",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The ________ measures the number of lost or garbled messages as a fraction of the total sent in the sampling period.",
+      "options": [
+        "Residual Error Rate.",
+        "Transfer Failure Probability.",
+        "Connection release failure probability.",
+        "Connection establish."
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "In session layer, during data transfer, the data stream responsible for the \"control\" purpose (i.e control of the session layer itself) is",
+      "options": [
+        "Regular Data",
+        "Typed data",
+        "Capability Data",
+        "Expedited Data"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "A high speed communication equipment typically would not be needed for",
+      "options": [
+        "E-mail",
+        "Transferring large volume of data",
+        "Supporting communication between nodes in a LAN",
+        "All of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following ISO level is more closely related to the physical communications facilities?",
+      "options": [
+        "Application",
+        "Session",
+        "Networking",
+        "Data Link"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "which of the following is not a field in the Ethernet Message packet?",
+      "options": [
+        "Type",
+        "Data",
+        "Pin-code",
+        "Address"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The Network topology that supports bi-directional links between each possible node is",
+      "options": [
+        "Ring",
+        "Star",
+        "Tree",
+        "Mesh"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "In a broad Sense, a railway track is an example of",
+      "options": [
+        "Simplex",
+        "Half Duplex",
+        "Full Duplex",
+        "All of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which network has connectivity range up to 10 meters?",
+      "options": [
+        "LAN",
+        "PAN",
+        "MAN",
+        "WAN"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What is Unicode?",
+      "options": [
+        "Represents symbol or characters used in any langua",
+        "Only few languages are supported",
+        "Supports only few characters",
+        "Characters from A to Z"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "For data communications to occur, the communicating devices must be part of a communication system made up of a combination of?",
+      "options": [
+        "WAN and LAN",
+        "Hardware and software",
+        "Full duplex and half duplex",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Correct method for full duplex mode of communication is:",
+      "options": [
+        "Both stations can transmit and receive data at the",
+        "One device can send other device can only accepts.",
+        "One device sends and other device receives and vic",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Data communications system depends on four fundamental characteristics",
+      "options": [
+        "Receiver",
+        "Sender",
+        "Timeliness",
+        "Medium"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "A data communications system has:",
+      "options": [
+        "4 components",
+        "5 components",
+        "6 components",
+        "7 components"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "00 represents a pixel that pixel is known as :",
+      "options": [
+        "Black pixel",
+        "Light gray",
+        "White pixel",
+        "Dark gray pixel"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Select correct type of line configuration:",
+      "options": [
+        "Multi-point",
+        "Single point",
+        "Link",
+        "Dedicated point"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Select the wrong data communication system component:",
+      "options": [
+        "Medium",
+        "Protocol",
+        "Receiver",
+        "Transits"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Time required for a message to travel from one device to another is known as:",
+      "options": [
+        "Transit time",
+        "Dialogue time",
+        "Response time",
+        "Wait time"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "If one link fails, only that link is affected. All other links remain active. Which topology does this?",
+      "options": [
+        "Mesh topology",
+        "Star topology",
+        "Bus topology",
+        "Physical topology"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "OSI model means:",
+      "options": [
+        "Open systems interconnection",
+        "Operating system interconnection",
+        "Open source interconnection",
+        "Operating source interconnection"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Select the correct cable that transport signals in the form of light:",
+      "options": [
+        "Twisted-Pair cable",
+        "Fiber optic cable",
+        "Coaxial Cable",
+        "Shielded Twisted Pair cable"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Twisted pair wires, coaxial cable, optical fiber cables are the examples of:",
+      "options": [
+        "Wired Media",
+        "Wireless Media",
+        "Both A & B",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the followings is used in communications is referred to as unshielded twisted-pair (UTP)?",
+      "options": [
+        "Coaxial cable",
+        "Fiber-optic cable",
+        "Twisted-pair cable",
+        "None of these"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What is Cladding?",
+      "options": [
+        "Cables with shield",
+        "Coxial Cable",
+        "A typical optical fiber consists of a very narrow",
+        "None of these"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which network is a cross between circuits switched network and a data-gram network?",
+      "options": [
+        "Circuit-switched network",
+        "Virtual-circuit network",
+        "Virtual-circuit identifier",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Select the cable that uses copper conductor, accept and transport signals in the form of electric current?",
+      "options": [
+        "Fiber-optic cable",
+        "Metallic cable",
+        "Twisted pair cable",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Switching at the network layer in the Internet uses the datagram approach to:",
+      "options": [
+        "Message switching",
+        "Circuit switching",
+        "IP switching",
+        "Packet switching"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which is also known as a connectionless protocol for a packet-switching network that uses the Datagram approach?",
+      "options": [
+        "IPV5",
+        "IPV4",
+        "IPV6",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which switch is a multistage switch with micro switches at each stage that route the packets based on the output port represented as a binary string?",
+      "options": [
+        "Banyan switch",
+        "Crossbar switch",
+        "Multistage crossbar",
+        "Packet switch"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "You have a class A network address 10.0.0.0 with 40 subnets, but are required to add 60 new subnets very soon. You would like to still allow for the largest possible number of host IDs per subnet. Which subnet mask should you assign?",
+      "options": [
+        "255.240.0.0",
+        "255.248.0.0",
+        "255.252.0.0",
+        "255.254.0.0"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What are the most commonly used transmission speeds in BPS used in data communication?",
+      "options": [
+        "300",
+        "1200",
+        "2400",
+        "9600"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What is the default subnet mask for a class C network?",
+      "options": [
+        "127.0.0.1",
+        "255.0.0.0",
+        "255.255.0.0",
+        "255.255.255.0"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used for modulation and demodulation?",
+      "options": [
+        "modem",
+        "protocols",
+        "gateway",
+        "multiplexer"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a disadvantage of wireless LAN?",
+      "options": [
+        "Slower data transmission",
+        "higher error rate",
+        "interference of transmissions from different computers",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The geostationary satellite used for communication systems",
+      "options": [
+        "rotates with the earth",
+        "remains stationary relative to the earth",
+        "is positioned over equator",
+        "All of the above"
+      ],
+      "correct": 4,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Telecommunication networks frequently interconnect an organization with its customers and suppliers. Select the best fit for answer:",
+      "options": [
+        "Bandwidth alternatives",
+        "Switching alternating",
+        "Inter organizational networks",
+        "Extranets"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The packets switching concept was first proposed",
+      "options": [
+        "in the late 1980s for the Defense Ministry of US.",
+        "in the early 1960s for military communication systems, mainly to handle speech",
+        "in the late 1950s for Defense Ministry of US",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "A communications device that combines transmissions from several I/O devices into one line is a:",
+      "options": [
+        "concentrator",
+        "modifier",
+        "multiplexer",
+        "full-duplex line"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Layer one of the OSI model is",
+      "options": [
+        "physical layer",
+        "link layer",
+        "transport layer",
+        "network layer"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What are the two main types of access control lists (ACLs)? 1. Standard 2. IEEE 3. Extended 4. Specialized",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "3 and 4",
+        "1 and 2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the valid host range for the subnet on which the IP address 192.168.168.188 255.255.255.192 resides?",
+      "options": [
+        "192.168.168.129-190",
+        "192.168.168.129-191",
+        "192.168.168.128-190",
+        "192.168.168.128-192"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "To back up an IOS, what command will you use?",
+      "options": [
+        "backup IOS disk",
+        "copy ios tftp",
+        "copy tftp flash",
+        "copy flash tftp"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What protocol does PPP use to identify the Network layer protocol?",
+      "options": [
+        "NCP",
+        "ISDN",
+        "HDLC",
+        "LCP"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following commands will allow you to set your Telnet password on a Cisco router?",
+      "options": [
+        "line telnet 0 4",
+        "line aux 0 4",
+        "line vty 0 4",
+        "line con 0"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following services use TCP? 1. DHCP 2. SMTP 3. HTTP 4. TFTP 5. FTP",
+      "options": [
+        "1 and 2",
+        "2, 3 and 5",
+        "1, 2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following describe the DHCP Discover message? 1. It uses FF:FF:FF:FF:FF:FF as a layer 2 broadcast. 2. It uses UDP as the Transport layer protocol. 3. It uses TCP as the Transport layer protocol. 4. It does not use a layer 2 destination address.",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "3 and 4",
+        "4 only"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following allows a router to respond to an ARP request that is intended for a remote host?",
+      "options": [
+        "Gateway DP",
+        "Reverse ARP (RARP)",
+        "Proxy ARP",
+        "Inverse ARP (IARP)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?",
+      "options": [
+        "Application",
+        "Host-to-Host",
+        "Internet",
+        "Network Access"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following services use UDP? 1. DHCP 2. SMTP 3. SNMP 4. FTP 5. HTTP 6. TFTP",
+      "options": [
+        "1, 3 and 6",
+        "2 and 4",
+        "1, 2 and 4",
+        "All of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which class of IP address provides a maximum of only 254 host addresses per network ID?",
+      "options": [
+        "Class A",
+        "Class B",
+        "Class C",
+        "Class D"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "If you use either Telnet or FTP, which is the highest layer you are using to transmit data?",
+      "options": [
+        "Application",
+        "Presentation",
+        "Session",
+        "Transport"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "You type the following command into the router and receive the following output: Router#show serial 0/0 ^ % Invalid input detected at '^' marker.",
+      "options": [
+        "You need to be in privileged mode.",
+        "You cannot have a space between serial and 0/0.",
+        "The router does not have a serial0/0 interface.",
+        "Part of the command is missing."
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following commands will display the current IP addressing and the layer 1 and 2 status of an interface? 1. show version 2. show protocols 3. show interfaces 4. show controllers 5. show ip interface",
+      "options": [
+        "1, 2 and 4",
+        "2, 3 and 5",
+        "3 and 4 only",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "You type show running-config and get this output: [output cut] Line console 0 Exec-timeout 1 35 Password BIXPASSWD Login [output cut]",
+      "options": [
+        "If no command has been typed in 35 seconds, the console connection will be closed.",
+        "If no router activity has been detected in 1 hour and 35 minutes, the console will be locked out.",
+        "If no commands have been typed in 1 minute and 35 seconds, the console connection will be closed.",
+        "If you're connected to the router by a Telnet connection, input must be detected within 1 minute and 35 seconds or the connection will be closed."
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following commands displays the configurable parameters and statistics of all interfaces on a router?",
+      "options": [
+        "show running-config",
+        "show startup-config",
+        "show interfaces",
+        "show versions"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following commands will configure all the default VTY ports on a router?",
+      "options": [
+        "Router#line vty 0 4",
+        "Router (config) #line vty 0 4",
+        "Router (config-if) #line console 0",
+        "Router (config) #line vty all"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "You need to find the broadcast address used on a LAN on your router. What command will you type into the router from user mode to find the broadcast address?",
+      "options": [
+        "show running-config",
+        "show startup-config",
+        "show interfaces",
+        "show protocols"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which command will delete the contents of NVRAM on a router?",
+      "options": [
+        "delete NVRAM",
+        "delete startup-config",
+        "erase NVRAM",
+        "erase start"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What keystroke will terminate setup mode?",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+^",
+        "Ctrl+C",
+        "Ctrl+Shift+^"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statements are true regarding the command ip route 172.16.4.0 255.255.255.0 192.168.4.2? 1. The command is used to establish a static route. 2. The default administrative distance is used. 3. The command is used to configure the default route. 4. The subnet mask for the source address is 255.255.255.0.",
+      "options": [
+        "1 and 2",
+        "2 and 4",
+        "3 and 4",
+        "All of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Which statement is true regarding classless routing protocols? 1. The use of discontiguous networks is not allowed. 2. The use of variable length subnet masks is permitted. 3. RIPv1 is a classless routing protocol. 4. IGRP supports classless routing within the same autonomous system. 5. RIPv2 supports classless routing.",
+      "options": [
+        "1, 3 and 5",
+        "3 and 4",
+        "2 and 5",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "What command is used to stop RIP routing updates from exiting out an interface but still allow the interface to receive RIP route updates?",
+      "options": [
+        "Router (config-if) # no routing",
+        "Router (config-if) # passive-interface",
+        "Router (config-router) # passive-interface s0",
+        "Router (config-router) # no routing updates"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a higher-cost path to a network already in its routing table?",
+      "options": [
+        "The updated information will be added to the existing routing table.",
+        "The update will be ignored and no further action will occur.",
+        "The updated information will replace the existing routing table entry.",
+        "The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach convergence."
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "You type debug ip rip on your router console and see that 172.16.10.0 is being advertised to you with a metric of 16. What does this mean?",
+      "options": [
+        "The route is 16 hops away.",
+        "The route has a delay of 16 microseconds.",
+        "The route is inaccessible.",
+        "The route is queued at 16 messages a second."
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "The Corporate router receives an IP packet with a source IP address of 192.168.214.20 and a destination address of 192.168.22.3. Looking at the output from the Corporate router, what will the router do with this packet? Corp#sh ip route [output cut] R 192.168.215.0 [120/2] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.115.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.30.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 C 192.168.20.0 is directly connected, Serial0/0 C 192.168.214.0 is directly connected, FastEthernet0/0",
+      "options": [
+        "The packet will be discarded.",
+        "The packet will be routed out the S0/0 interface.",
+        "The router will broadcast looking for the destination.",
+        "The packet will be routed out the Fa0/0 interface."
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    },
+    {
+      "q": "If your routing table has a static, a RIP, and an IGRP route to the same network, which route will be used to route packets by default?",
+      "options": [
+        "Any available route",
+        "RIP route",
+        "Static route",
+        "IGRP route"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "networking",
+      "language": "en"
+    }
+  ]
+}

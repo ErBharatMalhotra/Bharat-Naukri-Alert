@@ -5,16 +5,15 @@
   "subject": "ECE",
   "topic": "Signals And Systems",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 44,
   "questions": [
     {
-      "id": "gate-ynvlf4",
-      "q": "If Laplace transform of f(t) is F(s), then &pound; f(t - a) u (t - a)= 0",
+      "id": "gate-fu7w0w",
+      "q": "An ac circuit has an impedance of (2 - j 9) &Omega; for third harmonic. The impedance for fundamental is",
       "options": [
-        "eas F(s)",
-        "e-as F(s)",
-        "- eas F(s)",
-        "- e -as F(s)"
+        "6 - j 27 &Omega;",
+        "2 - j 27 &Omega;",
+        "2 - j 3 &Omega;"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +27,13 @@
       "tags": []
     },
     {
-      "id": "gate-5j1a7k",
-      "q": "Assertion (A): L[af1(t) + bf2(t)] = aF1(s) - bF2(s)Reason (R): Initial value theroem enables us to find the value of f(t) at t = 0 directly from F(s)",
+      "id": "gate-j05oo",
+      "q": "The ROC of sequence x[n] = (0.8)n &cup;[n] + (0.4)n &cup;[n]",
       "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
+        "|z| &gt; 0.8",
+        "|z| &gt; 0.4",
+        "0.4 &lt; |z| &lt; 0.8",
+        "|z| &lt; 0.8"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +47,13 @@
       "tags": []
     },
     {
-      "id": "gate-187c3ww",
-      "q": "The Laplace transform of impulse &delta;(t) is",
+      "id": "gate-10ucavs",
+      "q": "Pick the odd one",
       "options": [
-        "1",
-        "1/s",
-        "s",
-        "1/s2"
+        "variance",
+        "standard deviation",
+        "expectation",
+        "chebyshev inequality"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +67,13 @@
       "tags": []
     },
     {
-      "id": "gate-fyvaaj",
-      "q": "Assertion (A): The modified ramp function of the given figure can be represented s sum of two ramp functions of the given figure Reason (R): If f(t) = t, F(s) = 1",
+      "id": "gate-17g7zju",
+      "q": "Transfer function of a linear system is 200 e-j10&omega; The system is a",
       "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
+        "distortionless Attenuator",
+        "amplifier with Phase distortion",
+        "distortionless Amplifier",
+        "attenuator with Phase distortion"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +87,13 @@
       "tags": []
     },
     {
-      "id": "gate-15fxi5a",
-      "q": "Assertion (A): For the function shown in figureLaplace transform is Reason (R):",
+      "id": "gate-mfwp2s",
+      "q": "which one is discrete time periodic signal?",
       "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
+        "sin 3pn",
+        "cos 2pn",
+        "sin 3pn",
+        "all"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +107,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v3o140",
-      "q": "The energy of constant amplitude complex valued exponential sequence is ...",
+      "id": "gate-13s9344",
+      "q": "Frequency domain of a periodic triangular function is a",
       "options": [
-        "A2",
-        "&infin;",
-        "1",
-        "0"
+        "discrete sinc function",
+        "continuous sampling function",
+        "discrete sampling function",
+        "continuous sampling square function"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +127,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w8vc0",
-      "q": "The value of Integral &delta;(t) sin t dt is equal to",
+      "id": "gate-hgqycx",
+      "q": "The inverse Laplace transform of",
       "options": [
-        "zero",
-        "1",
-        "infinite",
-        "undefined"
+        "eat",
+        "-eat",
+        "1 - eat",
+        "-1 + eat"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +147,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ds8o8c",
-      "q": "Assertion (A): If Reason (R):",
+      "id": "gate-1828shi",
+      "q": "If f(t) is in volts, then F(j&omega;) is in",
       "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
+        "volts",
+        "volt seconds",
+        "volts/sec",
+        "volt-sec2"
       ],
       "correct": 0,
       "explain": "",
@@ -168,131 +167,13 @@
       "tags": []
     },
     {
-      "id": "gate-rqnyig",
-      "q": "A rectangular pulse train s(t) is shown in figure is convolved with the signal cos2(4p x 103t). The convolved signal will be a",
-      "options": [
-        "DC",
-        "12 kHZ sinusoidal",
-        "8 kHZ sinusoidal",
-        "14 kHZ sinusoidal"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18f8by",
-      "q": "The effective value of the waveform in the given figure is",
-      "options": [
-        "5",
-        "2.5",
-        "2.5",
-        "5.0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t6d5g4",
-      "q": "Which one of following is a static system?",
-      "options": [
-        "y(t) = x(t - 1)",
-        "y(t) = ex(t)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wqmw58",
-      "q": "If f(t) = - f(- t) satisfies Drichlet conditions, then f(t) can be expanded in Fourier series containing",
-      "options": [
-        "only sine terms",
-        "only cosine terms",
-        "cosine terms and constant",
-        "sine terms and constant"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tizn3s",
-      "q": "In terms of signum function sgn(t), unit step function u(t) =",
-      "options": [
-        "1 + sgn(t)",
-        "1 - sgn(t)",
-        "0.5 + 0.5 sgn(t)",
-        "0.5 - 0.5 sgn(t)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o1ls8u",
-      "q": "Choose correct option",
-      "options": [
-        "var (X + Y) = Var (X) + Var (Y)",
-        "var (X - Y) = Var (X) + Var (Y)",
-        "var (X + Y) = Var (X) x Var (Y)",
-        "Both (a) and (b)"
-      ],
-      "correct": 3,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gyw8es",
-      "q": "If I(s) = , fnal value of i(t) is",
+      "id": "gate-1q7dm4h",
+      "q": "A voltage V(t) which is a Gaussian ergodic random process with a mean of zero and a variance of 4 volt2 is measured by a true rms meter. The reading will be",
       "options": [
         "0",
-        "2.5",
-        "12.5",
-        "&infin;"
+        "4",
+        "2",
+        "16"
       ],
       "correct": 0,
       "explain": "",
@@ -306,13 +187,13 @@
       "tags": []
     },
     {
-      "id": "gate-ufbq78",
-      "q": "If sequence y(n) = x(-n) then it is",
+      "id": "gate-km656a",
+      "q": "Assertion (A): If , the final value of i(t) = 10Reason (R): If , the initial value i(t) = 2",
       "options": [
-        "Causal",
-        "Non-Causal",
-        "Depends on x(-n)",
-        "None"
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R are correct but R is not correct explanation of A",
+        "A is true, R is false",
+        "A is false, R is true"
       ],
       "correct": 0,
       "explain": "",
@@ -326,13 +207,13 @@
       "tags": []
     },
     {
-      "id": "gate-10ydxjo",
-      "q": "In the given figure 15.6 shows a series, R - C circuit fed by a current source i(t). There is an initial voltage v0. across the capacitor. The system",
+      "id": "gate-uqghv1",
+      "q": "An ac circuit has an impedance of (3 + j6) ohm for fundamental. The impedance for fifth harmonic is",
       "options": [
-        "is linear",
-        "is non linear",
-        "may be linear or non linear",
-        "is linear only if v0 is zero"
+        "(15 + j 30) &Omega;",
+        "(15 + j 6) &Omega;",
+        "(3 + j 30) &Omega;",
+        "(3 + j 1.2) &Omega;"
       ],
       "correct": 0,
       "explain": "",
@@ -346,12 +227,148 @@
       "tags": []
     },
     {
-      "id": "gate-rov12w",
-      "q": "Laplace transform of unit doublet is",
+      "id": "gate-1e8dtwe",
+      "q": "Which of following is recursive system?",
       "options": [
-        "1/s",
-        "s2",
-        "s",
+        "y(n - 1)",
+        "y(n + 1)",
+        "y(n)",
+        "y(n) + y(n + 1)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-krruxc",
+      "q": "check the following system for causality y[n] = x[n] + 2x[n - 1]y[n] = x[n - k]y[n] = x[2n]",
+      "options": [
+        "(1) and (2)",
+        "(2) and (3)",
+        "(1) omly",
+        "(1) and (3)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18svpu1",
+      "q": "If the system transfer function of a discrete time system then system is",
+      "options": [
+        "stable",
+        "unstable",
+        "stable at z = 1",
+        "unstable at z = 1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vscq4k",
+      "q": "Two rectangular waveforms of duration t1 and t2 seconds are convolved. What is the shape of the resulting waveform?",
+      "options": [
+        "Triangular",
+        "Rectangular",
+        "Trapezoidal",
+        "Semi-circular"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oq5jkn",
+      "q": "The function Ae(s + j&omega;)t represens a rotating phasor having a magnitude increasing with time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-h77so8",
+      "q": "For a wave v = V 1m sin (&omega;t + &theta;1 ) - V3m sin (3&omega;t + &theta;3), the rms value is (0.5 V21m + 0.5 V23m)0.5",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fzuymq",
+      "q": "The function in the given figure can be written as",
+      "options": [
+        "u(t - 1) sin p ( t - 1) - u(t - 3) sin p (t - 3) + u(t - 4) sin p (t - 4) - u(t - 6) sin p (t - 6)",
+        "u(t - 1) sin p ( t - 1) - u(t - 3) sin p (t - 3) + u(t - 4) sin p (t - 4)",
+        "u(t - 1) sin p ( t - 1) + u(t - 4) sin p (t - 4)",
+        "u(t - 1) sin 2p ( t - 1) + u(t - 4) sin 2p (t - 4)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1og5nts",
+      "q": "F.T. of continuous non-periodic signal is",
+      "options": [
+        "aperiodic",
+        "periodic",
+        "a and b",
         "none"
       ],
       "correct": 0,
@@ -366,231 +383,12 @@
       "tags": []
     },
     {
-      "id": "gate-1qvvzfk",
-      "q": "Highest value of autocorrelation function 100 sin 50 pt is",
+      "id": "gate-1h0mv0g",
+      "q": "Which of the following is/are not a property/properties power spectral density function Sx(&omega;)?",
       "options": [
-        "50",
-        "zero",
-        "100",
-        "100/p"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r55xlg",
-      "q": "A unit impulse voltage is applied to an inductance at t = 0. The current at t = 0 will be",
-      "options": [
-        "0",
-        "L amperes",
-        "&infin;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14w8w94",
-      "q": "A voltage wave containing 10% third harmonic is applied to a scries R-L circuit. The percentage third harmonic content in the current wave will be",
-      "options": [
-        "more than 10%",
-        "10% or less than 10%",
-        "less than 10%",
-        "10% or more or less"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tear7w",
-      "q": "If f1(t)&lt;&lt; F1(j&omega;) and f2(t)&harr; F2(j&omega;), then [a1 f1(t) + a2f2(t)]&harr;",
-      "options": [
-        "a1F1(j&omega;) + a2F2(j&omega;)",
-        "a1a2F1(j&omega;) + F2(j&omega;)",
-        "a1F1(j&omega;) - a2F2(j&omega;)",
-        "a1F1*(j&omega;) + a2F2*(j&omega;)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p2rrno",
-      "q": "The signal x(t) = A cos (&omega;0t + &phi;) is",
-      "options": [
-        "energy signal",
-        "power signal",
-        "energy Power",
-        "none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pjv2ew",
-      "q": "The inverse Fourier transform of &delta;(t) is",
-      "options": [
-        "&cup;(t)",
-        "1",
-        "&delta;(t)",
-        "ej2pt"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nqwlp6",
-      "q": "Which one of the following is the correct statement of the system characterized by the equation y(t) = ax(t) + b?",
-      "options": [
-        "linear for any value of b",
-        "linear if b &gt; 0",
-        "linear if b &lt; 0",
-        "non-linear"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y6g14o",
-      "q": "FIR filter Passes __________ Phase.",
-      "options": [
-        "non-linear phase",
-        "linear phase",
-        "variable phase",
-        "none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3qlvpw",
-      "q": "A trigonometric series has",
-      "options": [
-        "single sided spectra",
-        "zero",
-        "sync function",
-        "undefined"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hngmc",
-      "q": "If a number of odd functions are added, the resultant sum is",
-      "options": [
-        "even function",
-        "odd funtion",
-        "either even or odd function",
-        "mixture of odd amd even functions"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1na3dmw",
-      "q": "In what range should Re(s) remains so that Laplace transform of the function e(a + 2)t + 5 exists?",
-      "options": [
-        "Re(s) &gt; a + 2",
-        "Re(s) &gt; a + 7",
-        "Re(s) &lt; a",
-        "Re(s) &gt; a + 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ijig73",
-      "q": "Which one of the following rules determines the mapping of s-plane to z-plane?",
-      "options": [
-        "Right half of the s-plane maps into outside of the unit circle in z-plane",
-        "Left half of the s-plane maps into outside of the unit circle.",
-        "Imaginary axis in s-plane maps in to the circumference of the unit circle.",
+        "Sx(&omega;) is real function of &omega;",
+        "Sx(&omega;) is a even function of &omega;",
+        "Sx(&omega;) is non-positive function of &omega;Sx(&omega;) &le; 0 for all &omega;",
         "All of the above"
       ],
       "correct": 0,
@@ -605,13 +403,13 @@
       "tags": []
     },
     {
-      "id": "gate-1sjdrx0",
-      "q": "consider the following as regards probability distribution function f(x)f(x) = 0 for all xcumulative distribution function which of the above are correct?",
+      "id": "gate-1sk79yo",
+      "q": "A casual LTI system is described by the difference equation 2y[n] = ay[n - 2] - 2x[n] + &beta;x[n -1] The system is stable only if",
       "options": [
-        "1 only",
-        "1 and 2 only",
-        "1, 2 and 3",
-        "1 and 3 only"
+        "|a| = 2 |&beta;| &lt; 2",
+        "|a| &gt; 2 |&beta;| &gt; 2",
+        "|a| &lt; 2 any value of &beta;",
+        "|&beta;| &lt; 2, any value of a"
       ],
       "correct": 0,
       "explain": "",
@@ -625,13 +423,13 @@
       "tags": []
     },
     {
-      "id": "gate-8nmrng",
-      "q": "Inverse Fourier transform of '1' is",
+      "id": "gate-1r69sis",
+      "q": "The discrete time system describes by y(n) = x(n2) is",
       "options": [
-        "U(t)",
-        "&delta;(t)",
-        "'0'",
-        "infinite"
+        "casual, Linear, time varying",
+        "casual, non-linear, timevari",
+        "non-casual, Linear, time invariant",
+        "non-casual, non-linear, time variant"
       ],
       "correct": 0,
       "explain": "",
@@ -645,13 +443,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ao5ozc",
-      "q": "Pick out the odd one",
+      "id": "gate-6978dk",
+      "q": "A system is stable if ROC",
       "options": [
-        "stochastic variable",
-        "stochastic function",
-        "random variable",
-        "random experiment"
+        "include the unit circle",
+        "exclude the unit circle",
+        "lies on Circle",
+        "entire plane"
       ],
       "correct": 0,
       "explain": "",
@@ -665,13 +463,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wmlc8u",
-      "q": "X and Y are two random variables and Z = X + Y . Letmz, mz, mx, my represent mean of Z, X and Y. Then",
+      "id": "gate-ltpy8g",
+      "q": "The Laplace transform of a unit step function is",
       "options": [
-        "mz = mx + my",
-        "mz &le; mx + my",
-        "mz&lt; mx + my",
-        "mz &gt; mx + my"
+        "1",
+        "1 / s",
+        "s",
+        "1 / s2"
       ],
       "correct": 0,
       "explain": "",
@@ -685,12 +483,13 @@
       "tags": []
     },
     {
-      "id": "gate-580wcd",
-      "q": "The two inputs to an analogue multiplier are x(t) and y(t) with fourier transforms X(f) and Y(f) respectively. The output Z(t) will have a transform Z(f) given by",
+      "id": "gate-1xfhnlr",
+      "q": "The minimum sampling frequency in sample/sec. required to reconstruct the following signal from its samples wuthout distortion would be",
       "options": [
-        "X(f). Y(f)",
-        "X(f)+ Y(f)",
-        "X(f) / Y(f)"
+        "2 x 103",
+        "4 x 103",
+        "6 x 103",
+        "8 x 103"
       ],
       "correct": 0,
       "explain": "",
@@ -704,13 +503,13 @@
       "tags": []
     },
     {
-      "id": "gate-m98vic",
-      "q": "The units of the spectrum obtained be Fourier transforming the covariance function of a stationery Stochastic Process is",
+      "id": "gate-vkb2yw",
+      "q": "The total area under the probability distribution curve is",
       "options": [
-        "Power per Hz",
-        "energy per Hz",
-        "Power per sec",
-        "Energy per second"
+        "1",
+        "0",
+        "depend upon curve equation",
+        "&infin;"
       ],
       "correct": 0,
       "explain": "",
@@ -724,13 +523,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ytn67y",
-      "q": "FIR digital filter having __________ stability than FIR filter.",
+      "id": "gate-8cl0k4",
+      "q": "Which one of following is correct condition to check the stability of system?",
       "options": [
-        "good stability",
-        "poor stability",
-        "stability not guarnteed",
-        "poor stability"
+        "Bounded I/P unbounded O/P",
+        "Bounded I/P and O/P",
+        "Bounded O/P and I/P",
+        "Bounded I/P Bounded O/P"
       ],
       "correct": 0,
       "explain": "",
@@ -744,12 +543,172 @@
       "tags": []
     },
     {
-      "id": "gate-1hyemv9",
-      "q": "A voltage v(t) which is a gaussian ergodic random process witha mean of zero and a varance of 4 volt2 is measured by a meter which first square and then reads its dc component. The reading will be",
+      "id": "gate-1iuh85o",
+      "q": "The inverse Fourier transform of the function F(&omega;) = is",
+      "options": [
+        "sin &omega;t",
+        "cos &omega;t",
+        "sgnt",
+        "u(t)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-unznu8",
+      "q": "Let f1(t) = G1(t) + 4, f2(t) = G2(t) + 3. If G1(t) and G2(t) are uncorrected then the correlation between f1(t) and f2(t) are",
+      "options": [
+        "12",
+        "7",
+        "6",
+        "zero"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6lcons",
+      "q": "If p is the probability of success and q is the probability of failure, then the probability that there are r successes in n trails is",
+      "options": [
+        "ncr pr qn - r",
+        "ncr pn - r qr",
+        "ncr pr qn + r",
+        "ncr pn qn - r"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v1etoz",
+      "q": "If F(j&omega;) is the Fourier transform of f(t), then",
+      "options": [
+        "&pound; f(- t) = F(j&omega;)",
+        "&pound; f(- t) = F* (j&omega;)",
+        "&pound; f(- t) = F(- j&omega;)",
+        "&pound; f(- t) = F* (- j&omega;)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1abucmk",
+      "q": "Assertion (A): Heaviside partial expansion gives a simple procedure to find inverse Laplace transform of the terms having a complex conjugate pair of roots.Reason (R): If I(s) = P(s)/Q(s) and all roots of Q(s) = 0 are simple, i(t) will have terms with exponentials having real exponents only.",
+      "options": [
+        "Both A and R are correct and R is correct explanation of A",
+        "Both A and R are correct but R is not correct explanation of A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1al0uto",
+      "q": "An impulse train is",
+      "options": [
+        "a number of pulses",
+        "a number of pulses spaced from each other",
+        "a number of pulses all originating together",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c0oap8",
+      "q": "For formation of state equations, the inductors and current sources",
+      "options": [
+        "should be in tree",
+        "should be in cotree",
+        "may be in tree or cotree",
+        "should be in both tree and cotree"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1h2u132",
+      "q": "If f(t) = 1, F(j&omega;) =",
+      "options": [
+        "2p",
+        "p",
+        "2p&delta; (p)",
+        "p&delta; (&omega;)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Signals And Systems",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-22war1",
+      "q": "A voltage V(t) is a Gaussian ergodic random process with a mean of zero and a variance of 4 volt2. If it is measured by a dc meter. The reading will be",
       "options": [
         "0",
         "4",
-        "16",
+        "2",
         "2"
       ],
       "correct": 0,
@@ -764,15 +723,15 @@
       "tags": []
     },
     {
-      "id": "gate-miyzcw",
-      "q": "An excitation is applied to a system at t = T and the response in zero for -&infin; &lt; t &lt; T. This system is",
+      "id": "gate-6oesds",
+      "q": "A first order system will never be able to give a __________ response band stopband passall pass Choose the correct option",
       "options": [
-        "non casual",
-        "stable",
-        "casual",
-        "unstable"
+        "1, 2, 3 true",
+        "1 and 3 true, 2 false",
+        "1, 2 are true 3 is false",
+        "1, 2 are false, 3 is true"
       ],
-      "correct": 0,
+      "correct": 3,
       "explain": "",
       "exam": "GATE",
       "subject": "ECE",
@@ -784,127 +743,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ob26yd",
-      "q": "For the wave i = I0 + I1m sin &omega;t + I3m sin 3&omega;t, the rms value is",
-      "options": [
-        "I = (I20 + I21m + I23m)0.5",
-        "I = 0.707 (I20 + I21m + I23m)0.5",
-        "none of these"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g2qso4",
-      "q": "The signumm function written as [sgn(t)] is defined as",
-      "options": [
-        "sgn(t) = - 1 for t &lt; 0, = 0 for t = 0 and = 1 for t &gt; 0",
-        "sgn(t) = 1 for t &lt; 0, = 0 for t = 0 and = - 1 for t &gt; 0",
-        "sgn(t) = 0 for t &lt; 0, = 1 for t = 0 and = 0 for t &gt; 0",
-        "sgn(t) = 0 for t &lt; 0, = 1 for t3 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k2auqi",
-      "q": "For Ergodic Process",
-      "options": [
-        "ensemble Average equal to time Average",
-        "ensemble Average is not equal to time Average",
-        "ensemble Average &gt; Time Average",
-        "ensemble Average &lt; Time Average"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qhrs9q",
-      "q": "Assertion (A): A non-sinusoidal wave can be expressed in terms of sine waves of different frequencies which are multiples of the frequency of fundamental.Reason (R): If negative half of a complex wave is a reproduction of the positive half, the even harmonics are absent.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t3xklv",
-      "q": "A function will have only sine terms if",
-      "options": [
-        "f(t) = - f(t)",
-        "f(-t) = f(t)",
-        "f(-t) = -f(t)",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hc3xfw",
-      "q": "If ROC of x[n] is R1 then ROC of an x[n] is",
-      "options": [
-        "R1a",
-        "R1/a",
-        "a/R1",
-        "R1 + a"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r1kanc",
-      "q": "x = AX + Bu is a state equation.",
+      "id": "gate-ehdpbk",
+      "q": "In the given figure the ratio T/d is the duty factor.",
       "options": [
         "True",
         "False"
@@ -921,11 +761,11 @@
       "tags": []
     },
     {
-      "id": "gate-rxkh6m",
-      "q": "The standard deviation of a set of observations is the rms value of the deviation from the arithmetic mean.",
+      "id": "gate-klixd4",
+      "q": "If &pound;[f(t)] = F(s), then &pound;[f(t - T)] =",
       "options": [
-        "True",
-        "False"
+        "est F(s)",
+        "e-st F(s)"
       ],
       "correct": 0,
       "explain": "",
@@ -939,13 +779,13 @@
       "tags": []
     },
     {
-      "id": "gate-gai7rc",
-      "q": "The function shown in the given Figure can be written as",
+      "id": "gate-13598k8",
+      "q": "Which one is a causal system?",
       "options": [
-        "sum of two sinusoidal functions",
-        "sum of two sinusoidal functions one originating at t = 0 and the other at t = 1",
-        "difference of two sinusoidal functions one originating at t = 0 and the other at t = 1",
-        "none of the above"
+        "y(n) = 3x[n] - 2x[n - 1]",
+        "y(n) = 3x[n] + 2x[n + 1]",
+        "y(n) = 3x[n + 1] + 2x[n - 1]",
+        "y(n) = 3x[n + 1] 2x[n - 1] + x[n]"
       ],
       "correct": 0,
       "explain": "",
@@ -959,111 +799,13 @@
       "tags": []
     },
     {
-      "id": "gate-1puieou",
-      "q": "Which one of following is a stataic system?",
+      "id": "gate-zbn4tk",
+      "q": "If , the coefficient of term e-t in f(t) will be",
       "options": [
-        "y(n) = x(n) - x(n - 1)",
-        "y(n) = x(2n) - x(2n-1)",
-        "y(n) = x(n - 1)",
-        "y(n) = ex(n)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kvkurt",
-      "q": "The impulse response of the DT - LTI system is given below &nbsp; &nbsp; &nbsp; Check whether the system is StableCasualDynamic.",
-      "options": [
-        "1 and 2",
-        "2 and 3",
-        "1 and 3",
-        "1, 2 and 3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ojx8fs",
-      "q": "If R(t) is autocorrelation of a waveform v(t) and R(0) is autocorrelation for t = 0, then",
-      "options": [
-        "R(0) &gt; R(t)",
-        "R(0) &ge; R(t)",
-        "R(0) &lt; R(t)",
-        "R(0) &le; R(t)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-162p3ug",
-      "q": "Assertion (A): Impulse function is an important function in network analysis.Reason (R): Convolution integral enables us to find the response of a network to an arbitary input in terms of the impulse response.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-54dlmo",
-      "q": "For the single rectangular pulse of the given figureF(j&omega;) = [Ad sin (&omega;d/2)]/(&omega;d/2).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rvv1wo",
-      "q": "A signal m(t) with bandwidth 500 Hz is first multiplied by a signal g(t) where The resulting signal is then passed through on ideal low pass filter with bandwidth 1 kHz. The output of the low pass filter would me",
-      "options": [
-        "&delta;(t)",
-        "m(t)",
+        "1",
         "0",
-        "m(t) &delta;(t)"
+        "0.5",
+        "2/3"
       ],
       "correct": 0,
       "explain": "",
@@ -1077,13 +819,13 @@
       "tags": []
     },
     {
-      "id": "gate-1qn0kvw",
-      "q": "ROC of sequence x[n] = &delta;[n] is",
+      "id": "gate-190sokw",
+      "q": "Double integration of a unit step function would lead to",
       "options": [
-        "Not exist",
-        "z = 0",
-        "Entire Plane",
-        "Entire Plane expect z = 0, z = &infin;"
+        "an impulse",
+        "a parabola",
+        "a ramp",
+        "a doublet"
       ],
       "correct": 0,
       "explain": "",
@@ -1097,12 +839,13 @@
       "tags": []
     },
     {
-      "id": "gate-l7odz8",
-      "q": "The unit step response of a system is (1 - eat) u(t). Then its impulse response is",
+      "id": "gate-1qv4dlc",
+      "q": "If f(t) = A d(t - a), F(s) is",
       "options": [
-        "e- at u(t)",
-        "ae- at u(t)",
-        "- ae- at u(t)"
+        "A e-as",
+        "A eas",
+        "A a e-as",
+        "Aa eas"
       ],
       "correct": 0,
       "explain": "",
@@ -1116,858 +859,12 @@
       "tags": []
     },
     {
-      "id": "gate-138cei8",
-      "q": "The output of a linear system for any input can be computed in which of the following ways?",
+      "id": "gate-2lo7l4",
+      "q": "If is the Laplace transform of f(t) then f(0+) is",
       "options": [
-        "Only by summation of inpulse response by convolution integral",
-        "Only by summation of step response by superposition integral",
-        "Neither a nor b",
-        "Either (a) or (b)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11q1d3g",
-      "q": "which of the following is not true for impulse function &delta;(t)?",
-      "options": [
-        "&delta;(t) = 0 for r &ne; 0",
-        "&delta;(t) is undefined for t = 0",
-        "Laplace transform is"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qtf8bg",
-      "q": "In the given figure the phase angle of Fn is either 0 or &Pi;.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b81q7w",
-      "q": "The signal m(t) = 10 cos 100 pt is sampled at the rate of Fs = 75 Hz, then determine signal after sampling.",
-      "options": [
-        "4 cos 100 pt + 8 sin 200 pt",
-        "4 cos 100 pt + 8 sin 200 pt + cos 75 pt",
-        "4 cos 25 pt + 8 sin 50 pt + cos 75 pt",
-        "none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yco2i0",
-      "q": "The tree selected for the formation of state equations contains",
-      "options": [
-        "all voltage sources",
-        "all capacitors",
-        "all inductors and current sources",
-        "all voltage sources and maximum number of capacitors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1m0ukco",
-      "q": "The power in the signal s(t) = 8 cos (20 p - p/2) + 4 sin (15 pt) is",
-      "options": [
-        "40",
-        "41",
-        "42",
-        "82"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hxv9cg",
-      "q": "If f(t) &harr; F(j&omega;), f(- t) &harr;",
-      "options": [
-        "- F(j&omega;)",
-        "F(- j&omega;)",
-        "F(j&omega;)",
-        "0.5 F(j&omega;)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x0jfnd",
-      "q": "Assertion (A): Transient analysis uses Laplace transformation.Reason (R): Laplace transform method is suitable for solution of integro differential equations.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hv4qu0",
-      "q": "The minor Mij of an n x n matrix is the determinant of (n - 1) x (n - 1) matrix formed by deleting the ith row and j the column of n x n matrix.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11wz57t",
-      "q": "Assertion (A): The function kest with both &sigma; and &omega; positive and s &gt; 0 depicts a sinusoid whose amplitude increases with time. Reason (R): If &sigma; = 0, kest becomes a sinusoid.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1g63ojq",
-      "q": "What about the stability of system in",
-      "options": [
-        "system is stable",
-        "unstable",
-        "stable at 0.4",
-        "cant say"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w9l21s",
-      "q": "Which one most appropriate dynamic system?",
-      "options": [
-        "y(n) + y(n - 1) + y(n + 1)",
-        "y(n) + y(n - 1)",
-        "y(n) = x(n)",
-        "y(n) + y(n - 1) + y(n + 3) = 0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-inc3yc",
-      "q": "An energy signal has G(f) = 10. Its energy density spectrum is",
-      "options": [
-        "10",
-        "100",
-        "50",
-        "20"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rs353c",
-      "q": "Consider Pole zero diagram as shown, If two Poles are moved in opposite direction towards &omega; = p/2 and -p/2, the filter will be",
-      "options": [
-        "change to high pass filter",
-        "change to Band Pass filter",
-        "remains same",
-        "change to LPF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uovh4f",
-      "q": "In an ac circuit the fundamental component of current wave lags the corresponding voltage wave by 20&deg;. The third harmonic component of current wave lags the corresponding voltage by an angle.",
-      "options": [
-        "less than 20&deg;",
-        "more than 20&deg;",
-        "equal to 20&deg;",
-        "equal to or more than 20&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-887oz4",
-      "q": "The z-transform of a particular signal is given whereThe system after implementation will be",
-      "options": [
-        "casual and stable",
-        "non-casual and stable",
-        "non-casual and unstable",
-        "casual and unstable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1byvgls",
-      "q": "The system with given pole-zero diagram is",
-      "options": [
-        "casual",
-        "non-casual",
-        "both sided",
-        "not-possible"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ycip10",
-      "q": "A pole zero pattern of a certain filter is shown in figure. This filter must be",
-      "options": [
-        "LPF",
-        "BFP",
-        "HPF",
-        "APF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13slk5w",
-      "q": "If transfer function of a system is H(z) = 6 + z-1 + z-2 then system is",
-      "options": [
-        "minimun phase",
-        "maximum phase",
-        "mixed phase",
-        "none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1b94zk",
-      "q": "The period of the function cos is",
-      "options": [
-        "8s",
-        "4s"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u9aq54",
-      "q": "A signal g(t) = A then g(t) is a",
-      "options": [
-        "energy signal",
-        "power signal",
-        "neither energy nor power signal",
-        "insufficient data"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2oxtns",
-      "q": "The Fourier series of an odd periodic function contains",
-      "options": [
-        "odd harmonics only",
-        "even harmonics only",
-        "cosine harmonics only",
-        "sine harmonics only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ohdd08",
-      "q": "If , the terms in f(t) will have",
-      "options": [
-        "e-t and e-2t",
-        "et and e2t",
-        "te-t and te-2t",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vit8ya",
-      "q": "An impulse function consist of",
-      "options": [
-        "pure dc",
-        "pure a.c",
-        "entire frequency range with constant phase",
-        "infinite bandwidth with linear phase vaariations"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2b6t9l",
-      "q": "As per time displacement theorem in Laplace transformation, displacement in the time domain by T becomes",
-      "options": [
-        "division by s in the s domain",
-        "division by e-sT in the s domain",
-        "multiplication by s in the s domain",
-        "multiplication by e-sT in the s domain"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-182eqn0",
-      "q": "The trignometric Fourier series of an even function of time does not have",
-      "options": [
-        "dc term",
-        "cosine term",
-        "sine term",
-        "odd harmonic terms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5v88h2",
-      "q": "Z transformer of",
-      "options": [
-        "aX(z) - bY(z)",
-        "aX(z) + bY(z)",
-        "aX(z) + bY(z) + a/b",
-        "aX(z) + bY(z) + bY(z) - a/b"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gt3kzs",
-      "q": "An ac wave with superimposed dc is symmetrical about x - axis.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lq9mkc",
-      "q": "Assertion (A): If a wave v = A1 + A2 sin &omega;t is applied to a pure capacitor the current wave isi = A3 sin(&omega;t + 90&deg;) Reason (R): A capacitor presents infinite impedance to dc.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c60l9o",
-      "q": "State variables which describe a system are a unique set.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-upki64",
-      "q": "Let be the Fourier transform of y(n), then y(ej0) is",
-      "options": [
-        "1/4",
-        "2",
-        "4",
-        "4/3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h2aylo",
-      "q": "The Laplace transform of a vlotage across a capacitor is Vc (s) = . If capacitor is 0.5 F, The current through capacitor at t = 0+ is",
-      "options": [
-        "0 A",
-        "2 A",
-        "0.5 A",
-        "1 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18wdcw",
-      "q": "The value of Integral (t2 + 2) &delta;(t - 3)dt is equal to",
-      "options": [
-        "11",
-        "3",
-        "9",
-        "0"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sj87ku",
-      "q": "The z transform of sequence x[n] = {2, 4, 3, 2}",
-      "options": [
-        "2z-1 + 4z-2 + 3 + 2z+1",
-        "2z-1 + 3 + 4z+1 + + 2z+2",
-        "2z+1 + 3z-1 + 4z-2 + 2z-3",
-        "3 + 2z-1 + 4z-2 + 2z-1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mt3oos",
-      "q": "If i(t) is a time varying current, is",
-      "options": [
-        "initial current",
-        "initial charge",
-        "initial flux leakages",
-        "initial voltage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gjj7vb",
-      "q": "For the discrete time system of the given figure",
-      "options": [
-        "yk = 0.5 uk - 2 - uk - 0.25 yk - 1",
-        "yk = 0.5 uk - 1 - uk - 0.25 yk - 1",
-        "yk = 0.5 uk - uk - 1 - 0.25 yk - 1",
-        "yk = 0.5 uk - 1 - uk - 1 - 0.25 yk - 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g2q4rs",
-      "q": "The signal is",
-      "options": [
-        "periodic for t &gt; 0",
-        "non-periodic",
-        "periodic for t &lt; 0",
-        "depends on t"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ihxcn5",
-      "q": "In the state equation x = AX + Bu is a n x m matrix.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dsdlzs",
-      "q": "If the poles of H(z) are at",
-      "options": [
-        "z = 1 and z = 3",
-        "z = -1 and z = -3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zda2co",
-      "q": "A voltage v = 5 + 50 sin &omega;t/ + 5 sin 5 &omegat is applied to a pure capacitor of capacitance 1 &omega;F. If f/= 314 rad/sec, current is",
-      "options": [
-        "1 + 0.0157 cos 314 t + 0.00785 cos 1570 t",
-        "0.0157 cos 314 t + 0.00785 cos 1570 t",
-        "0.0157 sin 314 t + 0.00785 sin 1570 t",
-        "0.0157 sin (314 t / + 45&deg;) + 0.00785 sin (1570 t + 45&deg;)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d8kvkw",
-      "q": "The stationary process has",
-      "options": [
-        "all the statistical Properties dependent on time.",
-        "all the statistical Properties independent of time.",
-        "aime average is equal to ensemble average.",
-        "zero variance."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1atvax8",
-      "q": "If x1(t) = 2 sin pt + cos 4 pt and x2(t) = sin 5 pt + 3 sin 13 pt then",
-      "options": [
-        "x1, x2 both periodic",
-        "x1 x2 both not periodic",
-        "x1 periodic, x2 not periodic",
-        "x1 is not periodic ; but x2 is periodic"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1w8trw8",
-      "q": "An ac network has a power factor of 0.8 leading if the applied wave is of fundamental frequency. If the applied wave contains third and fifth harmonics, the overall power factor will be",
-      "options": [
-        "0.8 leading",
-        "less than 0.8 leading",
-        "more than 0.8 leading",
-        "0.8 leading or more"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Signals And Systems",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12h70co",
-      "q": "Assertion (A): A sweep circuit operates by virtue of recurring transient phenomenon.Reason (R): Transients are always undesirable.",
-      "options": [
-        "Both A and R are correct and R is correct explanation of A",
-        "Both A and R are correct but R is not correct explanation of A",
-        "A is true, R is false",
-        "A is false, R is true"
+        "0",
+        "27",
+        "&infin;"
       ],
       "correct": 0,
       "explain": "",

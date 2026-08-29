@@ -5,15 +5,115 @@
   "subject": "Networking",
   "topic": "Ip Routing",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 7,
   "questions": [
     {
-      "id": "gate-39vmfw",
-      "q": "Which of the following statements are true regarding the command ip route 172.16.4.0 255.255.255.0 192.168.4.2? The command is used to establish a static route. The default administrative distance is used. The command is used to configure the default route. The subnet mask for the source address is 255.255.255.0.",
+      "id": "gate-keir2s",
+      "q": "What command is used to stop RIP routing updates from exiting out an interface but still allow the interface to receive RIP route updates?",
       "options": [
-        "1 and 2",
-        "2 and 4",
-        "3 and 4",
+        "Router(config-if)# no routing",
+        "Router(config-if)# passive-interface",
+        "Router(config-router)# passive-interface s0",
+        "Router(config-router)# no routing updates"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zypoak",
+      "q": "Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a higher-cost path to a network already in its routing table?",
+      "options": [
+        "The updated information will be added to the existing routing table.",
+        "The update will be ignored and no further action will occur.",
+        "The updated information will replace the existing routing table entry.",
+        "The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach convergence."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1e7ktcq",
+      "q": "You type debug ip rip on your router console and see that 172.16.10.0 is being advertised to you with a metric of 16. What does this mean?",
+      "options": [
+        "The route is 16 hops away.",
+        "The route has a delay of 16 microseconds.",
+        "The route is inaccessible.",
+        "The route is queued at 16 messages a second."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vewno",
+      "q": "The Corporate router receives an IP packet with a source IP address of 192.168.214.20 and a destination address of 192.168.22.3. Looking at the output from the Corporate router, what will the router do with this packet? Corp#sh ip route [output cut] R 192.168.215.0 [120/2] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.115.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 R 192.168.30.0 [120/1] via 192.168.20.2, 00:00:23, Serial0/0 C 192.168.20.0 is directly connected, Serial0/0 C 192.168.214.0 is directly connected, FastEthernet0/0",
+      "options": [
+        "The packet will be discarded.",
+        "The packet will be routed out the S0/0 interface.",
+        "The router will broadcast looking for the destination.",
+        "The packet will be routed out the Fa0/0 interface."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ndmeyg",
+      "q": "If your routing table has a static, a RIP, and an IGRP route to the same network, which route will be used to route packets by default?",
+      "options": [
+        "Any available route",
+        "RIP route",
+        "Static route",
+        "IGRP route"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Ip Routing",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11i804w",
+      "q": "IGRP uses which of the following as default parameters for finding the best path to a remote network? Hop count MTU Cumulative interface delay STP Path bandwidth value",
+      "options": [
+        "1 and 3",
+        "3 and 5",
+        "2, 3 and 5",
         "All of the above"
       ],
       "correct": 0,
@@ -28,173 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-1wpwys4",
-      "q": "Which command displays RIP routing updates?",
-      "options": [
-        "show ip route",
-        "debug ip rip",
-        "show protocols",
-        "debug ip route"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10b87so",
-      "q": "Which statement is true regarding classless routing protocols? The use of discontiguous networks is not allowed. The use of variable length subnet masks is permitted. RIPv1 is a classless routing protocol. IGRP supports classless routing within the same autonomous system. RIPv2 supports classless routing.",
-      "options": [
-        "1, 3 and 5",
-        "3 and 4",
-        "2 and 5",
-        "None of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9jugc",
-      "q": "You have the following routing table. Which of the following networks will not be placed in the neighbor routing table? R 192.168.30.0/24 [120/1] via 192.168.40.1, 00:00:12, Serial0 C 192.168.40.0/24 is directly connected, Serial0 172.16.0.0/24 is subnetted, 1 subnets C 172.16.30.0 is directly connected, Loopback0 R 192.168.20.0/24 [120/1] via 192.168.40.1, 00:00:12, Serial0 R 10.0.0.0/8 [120/15] via 192.168.40.1, 00:00:07, Serial0 C 192.168.50.0/24 is directly connected, Ethernet0",
-      "options": [
-        "172.16.30.0",
-        "192.168.30.0",
-        "10.0.0.0",
-        "All of them will be placed in the neighbor routing table."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rzroqy",
-      "q": "What is split horizon?",
-      "options": [
-        "Information about a route should not be sent back in the direction from which the original update came.",
-        "It splits the traffic when you have a large bus (horizon) physical network.",
-        "It holds the regular updates from broadcasting to a downed link.",
-        "It prevents regular update messages from reinstating a route that has gone down."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-f0m5zu",
-      "q": "What is route poisoning?",
-      "options": [
-        "It sends back the protocol received from a router as a poison pill, which stops the regular updates.",
-        "It is information received from a router that can't be sent back to the originating router.",
-        "It prevents regular update messages from reinstating a route that has just come up.",
-        "It describes when a router sets the metric for a downed link to infinity."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4jcp30",
-      "q": "Which of the following is true regarding RIPv2?",
-      "options": [
-        "It has a lower administrative distance than RIPv1.",
-        "It converges faster than RIPv1.",
-        "It has the same timers as RIPv1.",
-        "It is harder to configure than RIPv1."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-iarced",
-      "q": "A network administrator views the output from the show ip route command. A network that is advertised by both RIP and IGRP appears in the routing table flagged as an IGRP route. Why is the RIP route to this network not used in the routing table?",
-      "options": [
-        "IGRP has a faster update timer.",
-        "IGRP has a lower administrative distance.",
-        "RIP has a higher metric value for that route.",
-        "The IGRP route has fewer hops."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x1vu08",
-      "q": "What does RIPv2 use to prevent routing loops? CIDR Split horizon Authentication Classless masking Holddown timers",
-      "options": [
-        "1 and 3",
-        "2, 3 and 5",
-        "2 and 5",
-        "3 and 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Ip Routing",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bjs5rr",
-      "q": "Which two of the following are true regarding the distance-vector and link-state routing protocols? Link state sends its complete routing table out all active interfaces on periodic time intervals. Distance vector sends its complete routing table out all active interfaces on periodic time intervals. Link state sends updates containing the state of its own links to all routers in the internetwork. Distance vector sends updates containing the state of its own links to all routers in the internetwork.",
+      "id": "gate-ub1sg0",
+      "q": "Network 206.143.5.0 was assigned to the Acme Company to connect to its ISP. The administrator of Acme would like to configure one router with the commands to access the Internet. Which commands could be configured on the Gateway router to allow Internet access to the entire network? Gateway(config)# ip route 0.0.0.0 0.0.0.0 206.143.5.2 Gateway(config)# router rip Gateway(config-router)# network 206.143.5.0 Gateway(config-router)# network 206.143.5.0 default",
       "options": [
         "1 only",
         "3 only",
-        "2 and 3 only",
-        "None of the above"
+        "1, 2 and 4",
+        "1 and 4"
       ],
       "correct": 0,
       "explain": "",

@@ -8,12 +8,52 @@
   "count": 10,
   "questions": [
     {
-      "id": "gate-1a490yu",
-      "q": "Which layer 1 devices can be used to enlarge the area covered by a single LAN segment? Switch NIC Hub Repeater RJ45 transceiver",
+      "id": "gate-18w94lg",
+      "q": "What are the decimal and hexadecimal equivalents for the binary number 10110111?",
       "options": [
-        "1 only",
-        "1 and 3",
-        "3 and 4",
+        "69/0x2102",
+        "183/B7",
+        "173/A6",
+        "83/0xC5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Internetworking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nokiyw",
+      "q": "What is the purpose of flow control?",
+      "options": [
+        "To ensure that data is retransmitted if an acknowledgment is not received.",
+        "To reassemble segments in the correct order at the destination device.",
+        "To provide a means for the receiver to govern the amount of data sent by the sender.",
+        "To regulate the size of each segment."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Internetworking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hyso80",
+      "q": "Which three statements are true about the operation of a full-duplex Ethernet network? There are no collisions in full-duplex mode. A dedicated switch port is required for each full-duplex node. Ethernet hub ports are preconfigured for full-duplex mode. In a full-duplex environment, the host network card must check for the availability of the network media before transmitting. The host network card and the switch port must be capable of operating in full-duplex mode.",
+      "options": [
+        "1, 2, and 5",
+        "2 and 4",
+        "2, 3 and 4",
         "5 only"
       ],
       "correct": 0,
@@ -28,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tjg2i0",
-      "q": "Routers operate at layer _____. LAN switches operate at layer _____. Ethernet hubs operate at layer _____. Word processing operates at layer _____.",
+      "id": "gate-1vkk98",
+      "q": "Which of the following are types of flow control? Buffering Cut-through Windowing Congestion avoidance",
       "options": [
-        "3, 3, 1, 7",
-        "3, 2, 1, none",
-        "3, 2, 1, 7",
-        "3, 3, 2, none"
+        "1 and 2",
+        "1, 3 and 4",
+        "2 only",
+        "3 only"
       ],
       "correct": 0,
       "explain": "",
@@ -48,73 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1i7tmzo",
-      "q": "Which of the following describe router functions?",
-      "options": [
-        "Packet switching",
-        "Packet filtering",
-        "Internetwork communication",
-        "Path selection"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Internetworking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qoe7vg",
-      "q": "Why does the data communication industry use the layered OSI reference model? It divides the network communication process into smaller and simpler components, thus aiding component development, design, and troubleshooting. It enables equipment from different vendors to use the same electronic components, thus saving research and development funds. It supports the evolution of multiple competing standards and thus provides business opportunities for equipment manufacturers. It encourages industry standardization by defining what functions occur at each layer of the model.",
+      "id": "gate-1a73hw7",
+      "q": "What are two purposes for segmentation with a bridge? To add more broadcast domains. To create more collision domains. To add more bandwidth for users. To allow more broadcasts for users.",
       "options": [
         "1 only",
-        "1 and 4",
         "2 and 3",
-        "3 only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Internetworking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u6vk0g",
-      "q": "A receiving host has failed to receive all of the segments that it should acknowledge. What can the host do to improve the reliability of this communication session?",
-      "options": [
-        "Send a different source port number.",
-        "Restart the virtual circuit.",
-        "Decrease the sequence number.",
-        "Decrease the window size."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Internetworking",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pnpr50",
-      "q": "How does a host on an Ethernet LAN know when to transmit after a collision has occurred? In a CSMA/CD collision domain, multiple stations can successfully transmit data simultaneously. In a CSMA/CD collision domain, stations must wait until the media is not in use before transmitting. You can improve the CSMA/CD network by adding more hubs. After a collision, the station that detected the collision has first priority to resend the lost data. After a collision, all stations run a random backoff algorithm. When the backoff delay period has expired, all stations have equal priority to transmit data.",
-      "options": [
-        "1 and 3",
         "2 and 4",
-        "1,3 and 4",
-        "2 and 5"
+        "4 only"
       ],
       "correct": 0,
       "explain": "",
@@ -128,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-17pid6s",
-      "q": "Which of the following types of connections can use full duplex? Hub to hub Switch to switch Host to host Switch to hub Switch to host",
+      "id": "gate-1dpxmxg",
+      "q": "How to implement a network medium that is not susceptible to EMI. Which type of cabling should you use?",
       "options": [
-        "1, 2 and 4",
-        "3 and 4",
-        "3 and 5",
-        "2, 3 and 5"
+        "Thicknet coax",
+        "Thinnet coax",
+        "Category 5 UTP cable",
+        "Fiber-optic cable"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-9ntcq8",
-      "q": "Acknowledgments, sequencing, and flow control are characteristics of which OSI layer?",
+      "id": "gate-1bj2lhc",
+      "q": "Segmentation of a data stream happens at which layer of the OSI model?",
       "options": [
-        "Layer 2",
-        "Layer 3",
-        "Layer 4",
-        "Layer 7"
+        "Physical",
+        "Data Link",
+        "Network",
+        "Transport"
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +148,33 @@
       "tags": []
     },
     {
-      "id": "gate-1yf08bs",
-      "q": "Which fields are contained within an IEEE Ethernet frame header? Source and destination MAC address Source and destination network address Source and destination MAC address and source and destination network address FCS field",
+      "id": "gate-1ix29iw",
+      "q": "When data is encapsulated, which is the correct order?",
       "options": [
-        "1 and 4",
+        "Data, frame, packet, segment, bit",
+        "Segment, data, packet, frame, bit",
+        "Data, segment, packet, frame, bit",
+        "Data, segment, frame, packet, bit"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Internetworking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xey6qs",
+      "q": "Which of the following are unique characteristics of half-duplex Ethernet when compared to full-duplex Ethernet? Half-duplex Ethernet operates in a shared collision domain. Half-duplex Ethernet operates in a private collision domain. Half-duplex Ethernet has higher effective throughput. Half-duplex Ethernet has lower effective throughput.",
+      "options": [
         "2 only",
-        "2 and 3 only",
-        "3 only"
+        "1,2 and 3",
+        "1 and 4",
+        "4 only"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +188,13 @@
       "tags": []
     },
     {
-      "id": "gate-1w4cm5u",
-      "q": "What type of RJ45 UTP cable do you use to connect a PC's COM port to a router or switch console port?",
+      "id": "gate-i2ov0c",
+      "q": "What type of RJ45 UTP cable is used between switches?",
       "options": [
         "Straight-through",
         "Crossover cable",
         "Crossover with a CSU/DSU",
-        "Rolled"
+        "Crossover with a router in between the two switches"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "ECE",
   "topic": "Electronic Devices And Circuits",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 85,
   "questions": [
     {
-      "id": "gate-x7gkz9",
-      "q": "An one sided abrupt junction has 1021/m3 of dopants on the lightly doped side, zero bias voltage and a built-in potential of 0.2 V. The depletion width of abrupt junction.(q = 1.6 x 10-19 C, &epsilon;r =16, &epsilon;0 = 8.87 x 10-12 F/m) is",
+      "id": "gate-hlhotg",
+      "q": "An incremental model of a solid state device is one which represents the",
       "options": [
-        "0.036 nm",
-        "0.6 &mu;m",
-        "3 mm",
-        "1.5 mm"
+        "ac property of the device at desired operating point",
+        "dc property of the device at all operating points",
+        "complete ac and dc behaviour at all operating points",
+        "ac property of the device at all operating points"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-zy7mm8",
-      "q": "In all metals",
+      "id": "gate-123ko8w",
+      "q": "What is the correct sequence of the following step in the fabrication of a monolithic, Bipolar junction transistor? Emitter diffusionBase diffusionBuried layer formationE pi-layer formation Select the correct answer using the codes given below:",
       "options": [
-        "conductivity decreases with increase in temperature",
-        "current flow by electrons as well as by holes",
-        "resistivity decreases with increase in temperature",
-        "the gap between valence and conduction bands is small"
+        "3, 4, 1, 2",
+        "4, 3, 1, 2",
+        "3, 4, 2, 1",
+        "4, 3, 2, 1"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-jvhick",
-      "q": "The voltage across a zener diode",
+      "id": "gate-2imu1o",
+      "q": "For an n-channel enhancement type MOSFET, if the source is connected at a higher potential than that of the bulk (VSB &gt; 0), the threshold voltage VT of the MOSFET will",
       "options": [
-        "is constant in forward direction",
-        "is constant in reverse direction",
-        "is constant in both forward and reverse directions",
-        "none of the above"
+        "remain unchanged",
+        "decrease",
+        "change Polarity",
+        "increase"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-oyqzn0",
-      "q": "Assertion (A): Two transistors one n-p-n and the other p-n-p are identical in all respects (doping, construction, shape, size). The n-p-n transistor will have better frequency response. Reason (R): The electron mobility is higher than hole mobility.",
+      "id": "gate-1r71v8",
+      "q": "Which of the following is used for generating time varying wave forms?",
       "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not a correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
+        "MOSFET",
+        "PIN diode",
+        "Tunnel diode",
+        "UJT"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-ljz3lg",
-      "q": "Which statement is false as regards holes",
+      "id": "gate-19sjjc4",
+      "q": "Calculate the resistivity of n-type semiconductor from the following data, Density of holes = 5 x 1012 cm-3. Density of electrons = 8 x 1013 cm-3, mobility of conduction electron = 2.3 x 104 cm2/ V-sec and mobility of holes = 100 cm2/V-sec.",
       "options": [
-        "Holes exist in conductors as well as semiconductors",
-        "Holes constitute positive charges",
-        "Holes exist only in semiconductors",
-        "Holes and electrons recombine"
+        "0.43 &ohm;-m",
+        "0.34 &ohm;-m",
+        "0.42 &ohm;-m",
+        "0.24 &ohm;-m"
       ],
       "correct": 0,
       "explain": "",
@@ -108,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-8meyn4",
-      "q": "Photo electric emission can occur only if",
+      "id": "gate-kru1fk",
+      "q": "Which of these has 3 layers?",
       "options": [
-        "wave length of incident radiation is equal to threshold value",
-        "wave length of incident radiation is less than threshold value",
-        "frequency of incident radiation is less than threshold frequency",
-        "none of the above"
+        "PIN diode",
+        "Zener diode",
+        "Schottky diode",
+        "Photo diode"
       ],
       "correct": 0,
       "explain": "",
@@ -128,8 +128,68 @@
       "tags": []
     },
     {
-      "id": "gate-1g5klvk",
-      "q": "The reverse saturation current of a diode does not depend on temperature.",
+      "id": "gate-5zlhn4",
+      "q": "As per Einstein's equation, the velocity of emitted electron in photoelectric emission is given by the equation",
+      "options": [
+        "mv2 = hf - Uw",
+        "mv2 &le; hf - Uw",
+        "mv2 = hf + Uw",
+        "mv2 &le; hf + Uw"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y91jdk",
+      "q": "For an P-channel enhancement type MOSFET determine the drain current if K = 0.278 x 10-3A/V2, VGS = -4V, VT = -2V, Voltage equivalent at 27&deg;C = 26 mV.",
+      "options": [
+        "10 mA",
+        "1.11 mA",
+        "0.751 mA",
+        "46.98 mA"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xdsf50",
+      "q": "The skin depth of copper is found to be 66 mm at 1 MHz at a certain temperature. At the same temperature and at 2 MHz, the skin depth would be approximately",
+      "options": [
+        "47 &mu;m",
+        "33 &mu;m",
+        "92 &mu;m",
+        "1.22 &mu;m"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fqbp8e",
+      "q": "When p-n junction is reverse biased the holes in p material move towards the junction and electrons in n material move away from the junction.",
       "options": [
         "True",
         "False"
@@ -146,13 +206,13 @@
       "tags": []
     },
     {
-      "id": "gate-1h89ye0",
-      "q": "In a piezoelectric crystal, application of a mechanical stress would produce",
+      "id": "gate-k279fj",
+      "q": "An increase in junction temperature of a semiconductor diode",
       "options": [
-        "plastic deformation of the crystal",
-        "magnetic Dipoles in the crystal",
-        "electric polarization in the crystal",
-        "shift in the Fermi level"
+        "causes a small increase in reverse saturation current",
+        "causes a large increase in reverse saturation current",
+        "does not affect reverse saturation current",
+        "may cause an increase or decrease in reverse saturation current depending on rating of diode"
       ],
       "correct": 0,
       "explain": "",
@@ -166,13 +226,13 @@
       "tags": []
     },
     {
-      "id": "gate-25ftrs",
-      "q": "The value of a in a transistor",
+      "id": "gate-k3z758",
+      "q": "An air gap provided in the iron core of an inductor prevents",
       "options": [
-        "is always equal to 1",
-        "is less than 1 but more than 0.9",
-        "is about 0.4",
-        "is about 0.1"
+        "flux leakage",
+        "hysteresis loss",
+        "core saturation",
+        "heat generation"
       ],
       "correct": 0,
       "explain": "",
@@ -186,13 +246,13 @@
       "tags": []
     },
     {
-      "id": "gate-1i2aceg",
-      "q": "A semiconductor diode is biased in forward direction and carrying current I. The current due to holes in p material is",
+      "id": "gate-1x0tecs",
+      "q": "Generally, the gain of a transistor amplifier falls at high frequency due to the",
       "options": [
-        "I",
-        "0",
-        "less than I",
-        "0.5"
+        "internal capacitance of the device",
+        "coupling capacitor at the I/P",
+        "skin effect",
+        "coupling capacitor at the O/P"
       ],
       "correct": 0,
       "explain": "",
@@ -206,93 +266,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gajc88",
-      "q": "Between which regions does BJT act like switch?",
-      "options": [
-        "Cut off and saturation",
-        "Cut off and forward active",
-        "Forward active and cut off",
-        "Saturation and active"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h4fjcs",
-      "q": "Assertion (A): When a photoconductive device is exposed to light, its bulk resistance increases. Reason (R): When exposed to light, electron hole pairs are generated in the photoconductive device.",
-      "options": [
-        "Both A and R are true and R is correct explanation of A",
-        "Both A and R are true but R is not a correct explanation of A",
-        "A is true but R is false",
-        "A is false but R is true"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c07aws",
-      "q": "Which of the following elements act as donor impurities? GoldPhosphorusBoronAntimonyArsenicIndium Select the answer using the following codes :",
-      "options": [
-        "1, 2 and 3",
-        "1, 2, 4, and 6",
-        "3, 4, 5 and 6",
-        "2, 4 and 5"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qk71tw",
-      "q": "Light dependent resistor is",
-      "options": [
-        "photo resistive device",
-        "photo voltaic device",
-        "photo emissive device",
-        "either (a) or (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i0dby4",
-      "q": "Which of the following is basically a voltage controlled capacitance?",
+      "id": "gate-1q29mhk",
+      "q": "Which of these has a layer of intrinsic semiconductor?",
       "options": [
         "Zener diode",
-        "Diode",
-        "Varactor diode",
-        "LED"
+        "PIN diode",
+        "Photo diode",
+        "Schottky diode"
       ],
       "correct": 0,
       "explain": "",
@@ -306,108 +286,8 @@
       "tags": []
     },
     {
-      "id": "gate-1xi2fdg",
-      "q": "When the i-v curve of a photodiode passes through origin the illumination is",
-      "options": [
-        "maximum",
-        "minimum",
-        "zero",
-        "equal to rated value"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x01yd",
-      "q": "An n type silicon bar 0.1 cm long and 100 &mu;m2 in cross-sectional area has a majority carrier concentration of 5 x 1020/m3 and the carrier mobility is 0.13 m0/V-s at 300k. If the charge of an electron is 1.6 x 10-19 coulomb, then the resistance of the bar is",
-      "options": [
-        "106 ohm",
-        "104 ohm",
-        "10-1 ohm",
-        "10-4 ohm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4b8r9s",
-      "q": "The threshold voltage of a MOSFET can be lowered by using thin gate oxidereducing the substrate concentrationincreasing the substrate concentration. Of the above statement",
-      "options": [
-        "3 alone is correct",
-        "1 and 2 are correct",
-        "1 and 3 are correct",
-        "2 alone is correct"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nnhv9k",
-      "q": "In which device does the extent of light controls the conduction",
-      "options": [
-        "photovoltaic cell",
-        "photo electric relay",
-        "LED",
-        "photo sensitive device"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1teivu4",
-      "q": "A Si sample is doped with a fixed number of group N impurities. The electron density n is measured from 4 K to 1200 k for the sample. Which one of the following is correct?",
-      "options": [
-        "n remains constant over the temperature range",
-        "n increases monotonicaliy with increasing temp",
-        "n increases first remains constant over a range and again increases with increasing temperature",
-        "n increases show a peak and then decrease with temperature"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f075ov",
-      "q": "Assertion (A): In design of circuit using BJT, a derating factor is used. Reason (R): As the ambient temperature increases, heat dissipation becomes slower.",
+      "id": "gate-qbveqo",
+      "q": "Assertion (A): When Diode used as rectifier the reverse breakdown voltage should not be exceeded. Reason (R): A high inverse voltage can destroy a p-n junction.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not a correct explanation of A",
@@ -426,13 +306,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mkegbd",
-      "q": "If the drift velocity of holes under a field gradient of 100 V/m is 5m/sec. Their mobility is",
+      "id": "gate-1hp5vps",
+      "q": "A JFET operates in ohmic region when",
       "options": [
-        "0.05",
-        "0.5",
-        "50",
-        "500"
+        "VGS = 0",
+        "VGS is less than pinch off voltage",
+        "VGS = is Positive",
+        "VGS = VDS"
       ],
       "correct": 0,
       "explain": "",
@@ -446,13 +326,13 @@
       "tags": []
     },
     {
-      "id": "gate-c6oykl",
-      "q": "In a P type silicon sample, the hole concentration is 2.25 x 1015 / cm3. If the intrinsic carrier concentration is 1.5 x 1010/ cm3 the electron concentration is",
+      "id": "gate-q80txw",
+      "q": "In CE connection, the leakage current of a transistor is about",
       "options": [
-        "zero",
-        "1010/cm3",
-        "105/cm3",
-        "1.5 x 1025/cm3"
+        "10 x 10-9 A",
+        "5 x 10-6 A",
+        "200 x 10-6 A",
+        "5 x 10-3 A"
       ],
       "correct": 0,
       "explain": "",
@@ -466,13 +346,13 @@
       "tags": []
     },
     {
-      "id": "gate-srhsx2",
-      "q": "The behaviour of a JFET is similar to that of",
+      "id": "gate-1vxzhmb",
+      "q": "The early effect in a BJT is caused by",
       "options": [
-        "NPN transistor",
-        "PNP transistor",
-        "SCR",
-        "Vacuum triode"
+        "fast turn on",
+        "fast turn off",
+        "large collector base reverse bias",
+        "large emitter base forward bias"
       ],
       "correct": 0,
       "explain": "",
@@ -486,13 +366,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ou39y4",
-      "q": "Consider the following statements: The function of oxide layer in an IC device is to mask against diffusion or non implantinsulate the surface electricallyincrease the melting point of siliconproduce a chemically stable protective layer Of these statements:",
+      "id": "gate-1ppmn5h",
+      "q": "In a common emitter BJT amplifier, the maximum usable supply voltage is limited by",
       "options": [
-        "1, 2, 3 are correct",
-        "1, 3, 4 are correct",
-        "2, 3, 4 are correct",
-        "1, 2, 4 are correct"
+        "avalanche Beakdown of Base-Emitter junction",
+        "collector emitter breakdown voltage with base open(&beta;VCEO)",
+        "collector emitter breakdown voltage with emitter open(&beta;VCEO)",
+        "zener break down voltage of the emitter base junction"
       ],
       "correct": 0,
       "explain": "",
@@ -506,68 +386,8 @@
       "tags": []
     },
     {
-      "id": "gate-1hum6g4",
-      "q": "An extrinsic semiconductor sample has 6 billion silicon atoms and 3 million pentavalent impurity atoms. The number of electrons and holes is",
-      "options": [
-        "3 million each",
-        "6 billion each",
-        "3 million free electrons and very small number of holes",
-        "3 million holes and very small number of free electrons"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yk99tw",
-      "q": "In a reverse biased p-n junction, the reverse bias is 4V. The junction capacitance is about",
-      "options": [
-        "0.1 F",
-        "4 &mu;F",
-        "10 nF",
-        "20 pF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9o4kod",
-      "q": "Photoconductive devices uses",
-      "options": [
-        "metallic conductors",
-        "good quality insulators",
-        "semiconductors",
-        "either (a) or (c)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vhgb50",
-      "q": "Assertion (A): Oxide coated cathodes are very commonly used. Reason (R): Work function of oxide coated cathode is 1 eV whereas it is 4.5 eV for pure tungsten.",
+      "id": "gate-jz1a3s",
+      "q": "Assertion (A): In active region of CE output characteristics of BJT, collector current is nearly constant. Reason (R): Base current in CE connection is very small.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not a correct explanation of A",
@@ -586,13 +406,13 @@
       "tags": []
     },
     {
-      "id": "gate-applbc",
-      "q": "The temperature of cathode is increased from 2500K to 2600K. The increase in thermionic emission current is about",
+      "id": "gate-unxlpp",
+      "q": "In P-N junction, the region containing the uncompensated acceptor and donor ions is called",
       "options": [
-        "0.1%",
-        "4%",
-        "50%",
-        "150%"
+        "transition zone",
+        "depletion region",
+        "neutral region",
+        "active region"
       ],
       "correct": 0,
       "explain": "",
@@ -606,90 +426,12 @@
       "tags": []
     },
     {
-      "id": "gate-cqnr2w",
-      "q": "Consider the following statement: At finite temperature, magnetic dipoles in a material are randomly oriented giving low magnetization. When magnetic field H is applied, the magnetization? Increases with HDecreases with HDecreases with temp for constant H Which of the statement given above is/are correct?",
+      "id": "gate-en63ex",
+      "q": "In a photodiode the current is due to",
       "options": [
-        "1",
-        "2",
-        "2, 3",
-        "1 and 3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r59d7k",
-      "q": "Eg is the band gap, A is pre-factor, k is Boltzmann constant? Which one of the following is the remaining grade of paper used in paper capacitor, besides the other two grade of paper-low and extra low loss?",
-      "options": [
-        "Strong dielectric",
-        "Regular",
-        "Rough",
-        "High loss"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kq85p1",
-      "q": "Barkhausen criterion of oscillation is",
-      "options": [
-        "A&beta; &gt; 1",
-        "A&beta; = 1",
-        "A&beta; = &lt; 1",
-        "A&beta; &le; 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a7hkv8",
-      "q": "Fermi level in intrinsic semiconductor is at the centre of forbidden energy band.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18afzld",
-      "q": "In a photo transistor the photocurrent is",
-      "options": [
-        "emitter base junction",
-        "collector base junction",
-        "collector",
+        "majority carriers",
+        "minority carriers",
+        "both majority and minority carriers",
         "either (a) or (b)"
       ],
       "correct": 0,
@@ -704,13 +446,13 @@
       "tags": []
     },
     {
-      "id": "gate-b1gcs9",
-      "q": "In photoelectric emission the maximum kinetic energy of emitted electron is proportional to",
+      "id": "gate-rs8kg4",
+      "q": "Consider the following statements Acceptor level lies close the valence band.Donor level lies close to the valence band.n type semiconductor behaves as an insulator at 0 K.p type semiconductor behaves as an insulator at 0 K. Of these statements:",
       "options": [
-        "f",
-        "f",
-        "f2",
-        "f3"
+        "2 and 3 are correct",
+        "1 and 3 are correct",
+        "1 and 4 are correct",
+        "3 and 4 are correct"
       ],
       "correct": 0,
       "explain": "",
@@ -724,13 +466,13 @@
       "tags": []
     },
     {
-      "id": "gate-1691k72",
-      "q": "Hall effect is observed in a specimen when it is carrying current and is placed in a magnetic field. The resulting electric field inside the speciment will be in",
+      "id": "gate-1n12ye6",
+      "q": "If the temperature of on extrinsic semiconductor is increased so that the intrinsic carrier concentration is doubled, then",
       "options": [
-        "direction normal to both current and magnetic field",
-        "the direction of current",
-        "direction antiparallel to magnetic field",
-        "an arbitrary direction depend upon conductivity"
+        "the majority carrier density doubles",
+        "the minority carrier density doubles",
+        "the minority carrier density becomes 4 times the original value",
+        "both majority and minority carrier densities double"
       ],
       "correct": 0,
       "explain": "",
@@ -744,862 +486,8 @@
       "tags": []
     },
     {
-      "id": "gate-1p4k7v3",
-      "q": "The conductivity of materials found in nature ranges from 109 ohm-1m-1 to nearly 1018 ohm-1 m-1 from this it can be concluded that the conductivity of silicon in ohm-1 cm-1 will be nearly",
-      "options": [
-        "0.5 x 10-15",
-        "0.5 x 10-21",
-        "0.5 x 10-12",
-        "0.5 x 10-3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dm7ve4",
-      "q": "At any point on the v-i characteristics of a semiconductor diode, the slope of v-i characteristics is called",
-      "options": [
-        "resistance of diode",
-        "conductance of diode",
-        "incremental resistance of diode",
-        "incremental conductance of diode"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-180dpqs",
-      "q": "The collector to emitter cutoff current (ICE0) of a transmitter is related to collector to base cut off current (ICB0) as",
-      "options": [
-        "ICE0 = ICB0",
-        "ICE0 = a ICB0",
-        "ICE0 =",
-        "ICE0 ="
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ksc17c",
-      "q": "Which of the following statement about the photo electric emission is incorrect?",
-      "options": [
-        "The maximum velocity of emission varies with the frequency of incident light",
-        "The maximum velocity of emission varies with the intensity of light",
-        "The amount of photoelectric emission is directly proportional to the intensity of light",
-        "The quantum yield depends on the frequency and not the intensity of incident light"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6fr39q",
-      "q": "In a semiconductor avalanche breakdown occurs when",
-      "options": [
-        "reverse bias exceeds the limiting value",
-        "forward bias exceeds the limiting value",
-        "forward current exceeds the limiting value",
-        "potential barrier is reduced to zero"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lo9j01",
-      "q": "Which of the following exhibits negative resistance in a portion of its characteristics?",
-      "options": [
-        "Tunnel diode",
-        "Zener diode",
-        "JFET",
-        "MOSFET and tunnel diode"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3debwx",
-      "q": "The emission of light is LED due to",
-      "options": [
-        "emission of holes",
-        "emission of electrons",
-        "generation of electromagnetic radiations",
-        "conversion of heat energy into illumination"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nqao3s",
-      "q": "The sum of two or more arbitrary sinusoidal is",
-      "options": [
-        "always periodic",
-        "periodic under certain conditions",
-        "never periodic",
-        "periodic only if all the sinusoidals are identical in frequency and phase"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ag05y0",
-      "q": "Which of the following is used as a passive component in electronic circuits?",
-      "options": [
-        "Tunnel diode",
-        "Capacitor",
-        "Transistor",
-        "Vacuum tube"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tlf2ou",
-      "q": "Resistivity of metals is expressed in terms of",
-      "options": [
-        "&mu; ohm",
-        "&mu; ohm/cm",
-        "&mu; ohm-cm",
-        "&mu; ohm-cm/&deg;C"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q7ksmk",
-      "q": "Figure shows characteristics curves for bipolar transistor. These curves are",
-      "options": [
-        "output characteristics of n-p-n transistor (common base)",
-        "output characteristics of p-n-p transistor (common base)",
-        "output characteristics of n-p-n transistor (common emitter)",
-        "output characteristics of p-n-p transistor (common emitter)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1j137dk",
-      "q": "Zener diode is invariably used with",
-      "options": [
-        "forward bias",
-        "reverse bias",
-        "either (a) or (b)",
-        "zero bias"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1344jhs",
-      "q": "The relation between plate current and plate voltage of a vacuum diode is called",
-      "options": [
-        "Richardson Dushman equation",
-        "Langmuir Child law",
-        "Ohm's law",
-        "Boltzmann's law"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tldpn0",
-      "q": "Given that the band gap of cadmium sulphide is 2.5 eV, the maximum photon wavelength, for e--hole pair generation will be",
-      "options": [
-        "5400 mm",
-        "540 mm",
-        "5400 &Aring;",
-        "540 &Aring;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17o996g",
-      "q": "It is required to trace the output characteristics of a CE bipolar transistor on a CRO screen. The proper method is",
-      "options": [
-        "apply the voltage drop across collector resistance to Y input, disconnect sweep generator and apply VCE to X input",
-        "apply voltage drop across collector resistance to Y input",
-        "apply VCE to X input",
-        "apply VCE to Y input, disconnect the sweep generator and apply voltage drop across collector resistance to X input"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c382fo",
-      "q": "Atomic number of germanium is",
-      "options": [
-        "24",
-        "28",
-        "32",
-        "36"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cqr44s",
-      "q": "The resistivity of ferrites is",
-      "options": [
-        "very much lower than that of the ferromagnetic metals",
-        "slightly lower than that of the ferromagnetic materials",
-        "slightly higher than that of the ferromagnetic metals",
-        "very much higher than that of the ferromagnetic metals"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ewpmbe",
-      "q": "In monostable multivibrator",
-      "options": [
-        "has no stable state",
-        "has one stable state",
-        "has two stable states",
-        "switches automatically from one state to other state"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yzd9zc",
-      "q": "In a JFET, the drain current is maximum when",
-      "options": [
-        "VGS = 0",
-        "VGS is not zero but is slightly negative",
-        "VGS is negative",
-        "VGS is negative and equal to VDS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-voe3c4",
-      "q": "A potential difference is developed across a current carrying metal strip when the strip is placed in a transverse magnetic field. The above effect is known as",
-      "options": [
-        "Fermi's effect",
-        "Photo electric effect",
-        "Joule's effect",
-        "Hall's effect"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o7eg08",
-      "q": "In a zener diode",
-      "options": [
-        "forward voltage rating is high",
-        "negative resistance characteristics exists",
-        "sharp breakdown occurs at low reverse voltage",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16qwtn1",
-      "q": "Which one of the following bipolar transistors has the highest current gain bandwidth Product (fr) for similar geometry?",
-      "options": [
-        "NPN germanium transistor",
-        "NPN silicon transistor",
-        "PNP germanium transistor",
-        "PNP silicon transistor"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-98ld4",
-      "q": "The depletion layer across a P+ n junction lies",
-      "options": [
-        "mostly in the P+ region",
-        "mostly in n region",
-        "equally in both the P+ and n-region",
-        "entirely in the P+ region"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11yvdqw",
-      "q": "Highest resistivity of the following is",
-      "options": [
-        "nichrome",
-        "constantan",
-        "metal",
-        "manganin"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-129nmhc",
-      "q": "Lowest noise can be expected in case of",
-      "options": [
-        "carbon composition resistors",
-        "carbon film resistors",
-        "tin oxide resistors",
-        "metal film resistors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1v7qmn4",
-      "q": "For a BJT, under the saturation condition,",
-      "options": [
-        "IC = &beta;IB",
-        "IC = aIB",
-        "IC is independent of all other parameters",
-        "IC &lt; &beta;IB"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pjr9wk",
-      "q": "When a semiconductor bar is heated at one end, a voltage across the bar is developed. If the heated is positive the semiconductor is",
-      "options": [
-        "P-type",
-        "n-type",
-        "intrinsic",
-        "highly degenerate"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12p87r4",
-      "q": "Electric breakdown strength of a material depends on its",
-      "options": [
-        "composition",
-        "moisture content",
-        "thickness",
-        "all of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sqg33s",
-      "q": "The atomic weight of an atom is determined by",
-      "options": [
-        "the number of protons",
-        "the number of neutrons",
-        "the number of protons and neutrons",
-        "the number of electrons and protons"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5x7pi4",
-      "q": "The minimum charge carried by an ion is",
-      "options": [
-        "zero",
-        "equal to the change of an electron",
-        "equal to the change of a pair of electrons",
-        "equal to the change of electrons left in the atom"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7s0hq2",
-      "q": "In intrinsic semiconductor at 300 K, the magnitude of free electron concentration in silicon is about",
-      "options": [
-        "15 x 104 per cm3",
-        "5 x 1012 per cm3",
-        "1.45 x 1010 per cm3",
-        "1.45 x 106 per cm3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1djv3kg",
-      "q": "EG for silicon is 1.12 eV and that for germanium is 0.72 eV. Therefore it can be concluded that",
-      "options": [
-        "more number of electron-hole pairs will be generated in silicon than in germanium at room temperature",
-        "less number of electron hole pairs will be generated in silicon than in germanium at room temperature",
-        "equal number of electron-hole pairs will be generated in both at lower temperatures",
-        "equal number of electron-hole pairs will be generated in both at higher temperatures"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vkwyty",
-      "q": "In n type semiconductor, the free electron concentration",
-      "options": [
-        "is nearly equal to density of donor atoms",
-        "is much greater than density of donor atoms",
-        "is much less than density of donor atoms",
-        "may be equal to or more or less than density of donor atoms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7np0ia",
-      "q": "If both emitter base and collector base junctions of a BJT are forward biased, the transistor is in",
-      "options": [
-        "active region",
-        "saturated region",
-        "cut off region",
-        "inverse mode"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r6q1h4",
-      "q": "Which of the following can be operated with positive as well as negative gate voltage?",
-      "options": [
-        "JFET",
-        "Both JFET and MOSFET",
-        "MOSFET",
-        "Neither JFET nor MOSFET"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cfdqj9",
-      "q": "The reverse breakdown voltage of a diode depends on the extent of doping.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a73h2o",
-      "q": "Measurement of Hall coefficient enables the determination of",
-      "options": [
-        "mobility of charge carriers",
-        "type of the conductivity and concentration of charge carriers",
-        "temperature coefficient and thermal conductivity",
-        "fermi level and forbidden energy gap"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fgvhmt",
-      "q": "As the temperature of an intrinsic semiconductor material is increased",
-      "options": [
-        "protons get excited",
-        "neutrons acquire charge",
-        "energy of the atom is increased",
-        "additional holes are created in the conduction band"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u2xi62",
-      "q": "In an insulated gate FET, the polarity of inversion layer is the same as that of",
-      "options": [
-        "minority carriers in source",
-        "majority carriers in source",
-        "charge on gate electrode",
-        "minority carriers in drain"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lk7vns",
-      "q": "Hall effect can be used to find the type of semiconductor.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ce6xc",
-      "q": "The conductivity of germanium increases by about 6 percent per degree increase in temperature.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1slzxyd",
-      "q": "The range of visible light is",
-      "options": [
-        "300 to 2000 &Aring;",
-        "200 - 4000 &Aring;",
-        "4000 to 7700 &Aring;",
-        "more than 10000 &Aring;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16j2jhu",
-      "q": "Photoelectric emitters in photo tubes are generally made of",
-      "options": [
-        "alkali metals",
-        "metals",
-        "semiconductors",
-        "metal and semiconductors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vkfc4w",
-      "q": "Assertion (A): Power transistors are more commonly of silicon npn type. Reason (R): The fabrication of silicon npn transistors is easy.",
+      "id": "gate-mud570",
+      "q": "Assertion (A): The conductivity of an n type semiconductor increases with increase in temperature and increase in density of donor atoms. Reason (R): Diffusion of carriers occurs in semiconductors.",
       "options": [
         "Both A and R are true and R is correct explanation of A",
         "Both A and R are true but R is not a correct explanation of A",
@@ -1618,13 +506,13 @@
       "tags": []
     },
     {
-      "id": "gate-7p4oqq",
-      "q": "In N-type semiconductor",
+      "id": "gate-1rpvfg4",
+      "q": "Lowest resistivity of the following is",
       "options": [
-        "electrons are majority carriers while holes are minority carriers",
-        "electrons are majority carriers while holes are majority carriers",
-        "both electrons as well as holes are majority carriers",
-        "both electrons as well as holes are minority carriers"
+        "constantan",
+        "german silver",
+        "manganin",
+        "nichrome"
       ],
       "correct": 0,
       "explain": "",
@@ -1638,13 +526,13 @@
       "tags": []
     },
     {
-      "id": "gate-pw5npg",
-      "q": "The addition of n type impurity to intrinsic material creates allowable energy levels.",
+      "id": "gate-1dnii1e",
+      "q": "Peak inverse voltage will be highest for",
       "options": [
-        "slightly below conduction band",
-        "slightly above conduction band",
-        "slightly below valence band",
-        "slightly above valence band"
+        "half wave rectifier",
+        "full wave rectifier",
+        "bridge rectifier",
+        "three phase full wave rectifier"
       ],
       "correct": 0,
       "explain": "",
@@ -1658,13 +546,13 @@
       "tags": []
     },
     {
-      "id": "gate-wg80zg",
-      "q": "Which of the following elements act as donor impurities? GoldPhosphorusBoronAntimonyArsenicIndium Select the correct answer using the codes given below:",
+      "id": "gate-1ttlgm4",
+      "q": "In CE configuration, the output characteristics of a bipolar junction transistor is drawn between",
       "options": [
-        "1, 2, 3",
-        "1, 2, 4, 6",
-        "3, 4, 5, 6",
-        "2, 4, 5"
+        "IC and VCB",
+        "IE and VCB",
+        "IC and VCE",
+        "IE and VCE"
       ],
       "correct": 0,
       "explain": "",
@@ -1678,13 +566,13 @@
       "tags": []
     },
     {
-      "id": "gate-1j9x1y4",
-      "q": "Gold is often diffused into silicon P-N junction devices to",
+      "id": "gate-jvoiqk",
+      "q": "Assertion (A): The reverse current in a p-n junction is nearly constant. Reason (R): The reverse breakdown voltage of a p-n diode depends on the extent of doping.",
       "options": [
-        "increase recombination rate",
-        "reduce recombination rate",
-        "make silicon a direct gap semiconductor",
-        "make silicon semimetal"
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
       ],
       "correct": 0,
       "explain": "",
@@ -1698,13 +586,13 @@
       "tags": []
     },
     {
-      "id": "gate-1myjvr9",
-      "q": "In a solar cell, the photovoltaic voltages is the voltage at which the resultant current is",
+      "id": "gate-ctva1g",
+      "q": "An n type semiconductor is illuminated by a steady flux of photons with energy greater than the band gap energy. The change in conductivity &Delta;&sigma; obeys which relation? [ Here, e is the electron charge, &mu;n electron mobility, &mu;p hole mobility, &Delta;n (&Delta;p) is the excess electron (hole) density ].",
       "options": [
-        "positive",
-        "zero",
-        "negative",
-        "rated current"
+        "&Delta;&sigma; = 0",
+        "&Delta;&sigma; = e(&sigma;n + &sigma;p) &Delta;n",
+        "&Delta;&sigma; = e(&mu;n&Delta;n - &mu;p&Delta;p)",
+        "&Delta;&sigma; = e &mu;n&Delta;n"
       ],
       "correct": 0,
       "explain": "",
@@ -1718,13 +606,13 @@
       "tags": []
     },
     {
-      "id": "gate-134mijk",
-      "q": "The forbidden energy gap between the valence band and conduction band will be wide in case of",
+      "id": "gate-172jvvc",
+      "q": "Assertion (A): Hall effect is used to find the type of semiconductor. Reason (R): When a specimen of semiconductor carrying current I lies in a magnetic field the force on electrons and holes is in opposite directions.",
       "options": [
-        "semiconductors",
-        "all metals",
-        "good conductors of electricity",
-        "insulators"
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
       ],
       "correct": 0,
       "explain": "",
@@ -1738,88 +626,8 @@
       "tags": []
     },
     {
-      "id": "gate-1cs0m48",
-      "q": "At 0 K the forbidden energy gap in intrinsic semi conductor is about",
-      "options": [
-        "10 eV",
-        "6 eV",
-        "1 eV",
-        "0.2 eV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jbmdss",
-      "q": "The Ni-Zn ferrites are used for audio and TV transformers is that",
-      "options": [
-        "they have large saturation magnetisation",
-        "they are easy to fabricate by rolling",
-        "they are free from pores and voids",
-        "they have high electro-resistivity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fqov9b",
-      "q": "Hall's effect can be used to measure",
-      "options": [
-        "magnetic field intensity",
-        "average number of holes",
-        "carriers concentration",
-        "electrostatic field intensity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jg4mxs",
-      "q": "For insulators the energy gap is of the order of",
-      "options": [
-        "0.1 eV",
-        "0.7 eV",
-        "1.1 eV to 1.2 eV",
-        "5 to 15 eV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "ECE",
-      "topic": "Electronic Devices And Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-v1kd9e",
-      "q": "When electronic emission occurs due to bombardment of high velocity electrons on a metal surface, it is called secondary emission.",
+      "id": "gate-19yzh8c",
+      "q": "When a p-n junction is forward biased. The width of depletion layer decreases.",
       "options": [
         "True",
         "False"
@@ -1836,8 +644,68 @@
       "tags": []
     },
     {
-      "id": "gate-55cb3t",
-      "q": "The reverse saturation current depends on the reverse bias.",
+      "id": "gate-1t04dt0",
+      "q": "In which of the following case the rating of the transformer to deliver 100 watts of d.c. power to a load, will be least?",
+      "options": [
+        "Half wave rectifier",
+        "Full wave rectifier",
+        "Bridge type full wave rectifier",
+        "Three phase full wave rectifier"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-kjpgj4",
+      "q": "When a p-n Junction is forward biased",
+      "options": [
+        "the current flow is due to electrons only",
+        "the majority carriers in both p and n materials are driven toward the junction.",
+        "the majority carriers in both p and n materials are away from the junction.",
+        "both (a) and (c)."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a3tjg6",
+      "q": "The O/P char, of a FET is given in the figure. In which region is the device biased for small signal amplification?",
+      "options": [
+        "AB",
+        "BC",
+        "CD",
+        "BD"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gs73ec",
+      "q": "Photoelectric effect occurs only in semiconductors and not in metals.",
       "options": [
         "True",
         "False"
@@ -1854,8 +722,88 @@
       "tags": []
     },
     {
-      "id": "gate-1cjrhru",
-      "q": "The energy of one quantum of light equal to hf.",
+      "id": "gate-cdy7p3",
+      "q": "Which of these has peak and valley points in v-i curve?",
+      "options": [
+        "Tunnel diode",
+        "Zener diode",
+        "PIN diode",
+        "Schottky diode"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zuplww",
+      "q": "The scaling factor of an MOS device using constant voltage scaling model, the gate area of the device will be scaled as",
+      "options": [
+        "1/a",
+        "1/a2",
+        "1/a3",
+        "1/a4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-gnva1g",
+      "q": "A full wave bridge rectifier is supplied voltage at 50 Hz. The lowest ripple frequency will be",
+      "options": [
+        "400 Hz",
+        "200 Hz",
+        "100 Hz",
+        "50 Hz"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19u3jeu",
+      "q": "At a P-N junction, the potential barrier is due to the charges on either side of the junction, which consists of",
+      "options": [
+        "fixed donor and acceptor ions",
+        "majority carriers only",
+        "minority carriers only",
+        "both majority and minority carriers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-108v4a3",
+      "q": "In a vacuum triode &mu; = rpgm.",
       "options": [
         "True",
         "False"
@@ -1872,13 +820,13 @@
       "tags": []
     },
     {
-      "id": "gate-1s49aua",
-      "q": "For most metals, Fermi level EF is less than",
+      "id": "gate-pt0a2w",
+      "q": "The material which has zero temperature coefficient of resistance is",
       "options": [
-        "0.1 eV",
-        "2 eV",
-        "5 eV",
-        "10 eV"
+        "manganin",
+        "porcelain",
+        "carbon",
+        "aluminium"
       ],
       "correct": 0,
       "explain": "",
@@ -1892,13 +840,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gg084n",
-      "q": "The spins in a ferrimagnetic material are",
+      "id": "gate-nf6564",
+      "q": "When the light falling on a photodiode increases, the reverse minority current",
       "options": [
-        "all aligned parallel",
-        "partially aligned antiparallel without exactly cancelling out sublattice magnetisation",
-        "randomly oriented",
-        "all aligned antiparallel such that the sublattice cancels out exactly"
+        "increases",
+        "increases or decreases",
+        "decreases",
+        "remains the same"
       ],
       "correct": 0,
       "explain": "",
@@ -1912,13 +860,13 @@
       "tags": []
     },
     {
-      "id": "gate-rabn1o",
-      "q": "The permeability of soft iron can be increased by",
+      "id": "gate-mq4rgk",
+      "q": "When a ferromagnetic substance is magnetised, small changes in dimensions occur. Such a phenomenon is known as",
       "options": [
-        "purifying it",
-        "reducing carbon percentage",
-        "alloying with cobalt",
-        "increasing percentage"
+        "magnetic hystresis",
+        "magnetic expansion",
+        "magneto striction",
+        "magneto calorisation"
       ],
       "correct": 0,
       "explain": "",
@@ -1932,13 +880,13 @@
       "tags": []
     },
     {
-      "id": "gate-1a6hkfw",
-      "q": "All of the following elements have three valence electrons EXCEPT",
+      "id": "gate-juocza",
+      "q": "The depletion layer in a reverse biased p-n junction is due to the presence of",
       "options": [
-        "boron",
-        "indium",
-        "gallium",
-        "arsenic"
+        "electrons",
+        "holes",
+        "both electrons and holes",
+        "immobile ions"
       ],
       "correct": 0,
       "explain": "",
@@ -1952,13 +900,13 @@
       "tags": []
     },
     {
-      "id": "gate-tv7fgx",
-      "q": "The main purpose of using transformer coupling in a class A amplifier is to make it more",
+      "id": "gate-1po5qps",
+      "q": "Which materials find application in MASER?",
       "options": [
-        "efficient",
-        "less costly",
-        "less bulky",
-        "distortion free"
+        "Diamagnetic",
+        "Paramagnetic",
+        "Ferromagnetic",
+        "Ferrimagnetic"
       ],
       "correct": 0,
       "explain": "",
@@ -1972,13 +920,769 @@
       "tags": []
     },
     {
-      "id": "gate-1o7e3ok",
-      "q": "The effective channel length of a MOSFET in saturation decreases with increase in",
+      "id": "gate-qbg2c8",
+      "q": "An electrically neutral semiconductor has",
       "options": [
-        "gate voltage",
-        "drain voltage",
-        "source voltage",
-        "body voltage"
+        "no free charges",
+        "no majority carriers",
+        "no minority carriers",
+        "equal number of positive and negative charges"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nkkslw",
+      "q": "Magnetic recording tape is most commonly made from",
+      "options": [
+        "small particles of iron",
+        "silicon iron",
+        "ferric-oxide",
+        "silver nitrate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-habao0",
+      "q": "The circuit shown in the figure is best described as a",
+      "options": [
+        "bridge rectifier",
+        "ring modulator",
+        "frequency discriminator",
+        "voltage doubler"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v3qa58",
+      "q": "One electron volt is equivalent to",
+      "options": [
+        "1.6 x 10-10 joule",
+        "1.6 x 10-13 joule",
+        "1.6 x 10-16 joule",
+        "1.6 x 10-19 joule"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-snbd0z",
+      "q": "Resistivity of electrical conductors is most affected by",
+      "options": [
+        "Pressure",
+        "temperature",
+        "composition",
+        "ageing"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rgqxz9",
+      "q": "Wiedemann-Franz law correlates",
+      "options": [
+        "electrical and thermal conductivities",
+        "electron arrangement in shells",
+        "temperature and photo electric emission",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11lap68",
+      "q": "Holes and electrons move in opposite directions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ulcvjk",
+      "q": "A Darlington emitter follower circuit is some times used in the output stage of a TTL gate in order to",
+      "options": [
+        "increase its IQL",
+        "reduce its I0H",
+        "increase its speed of operation",
+        "reduce power dissipation"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ci2p2o",
+      "q": "Assertion (A): At room temperature the fermi level in p type semiconductor lies nearer to the valence band and in n type semiconductor it lies nearer to the conduction band. Reason (R): At room temperature, the p type semiconductor is rich in holes and n type semiconductor is rich in electrons.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pfncng",
+      "q": "The drift velocity of electrons and holes is proportional to electric field strength.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13pkq74",
+      "q": "In an n channel MOSFET, the substrate is connected",
+      "options": [
+        "to negative terminal of battery",
+        "to positive terminal of battery",
+        "to either positive or negative terminal of battery",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ha30m6",
+      "q": "Piezoelectric materials serves as a source of",
+      "options": [
+        "microwaves",
+        "ultrasonic waves",
+        "musical waves",
+        "resonant waves"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g13brc",
+      "q": "The ratio of impurity atoms to intrinsic semiconductor atoms in an extrinsic semiconductor is about.",
+      "options": [
+        "1 : 10",
+        "1 : 1000",
+        "1 : 100000",
+        "1 : 108"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qa6bcc",
+      "q": "To ensure that a zener diode does not get destroyed",
+      "options": [
+        "the applied voltage should not exceed breakdown voltage",
+        "the current should not exceed rated current",
+        "the current should be less than magnitude of barrier potential",
+        "both (a) and (b)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jxvyg",
+      "q": "SCR turns of from conducting state to blocking state on",
+      "options": [
+        "reducing gate current",
+        "reversing gate voltage",
+        "reducing anode current below holding current value",
+        "applying ac to the gate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lpku20",
+      "q": "The kinetic energy of free electrons in a metal is (where k is the de-Broglie wave number of the electron)",
+      "options": [
+        "inversely proportional to k",
+        "inversely proportional to square of k",
+        "proportional to k",
+        "proportional to the square of k"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19hg9ts",
+      "q": "The turn on time of an SCR is 5 micro second. Its trigger pulse should have",
+      "options": [
+        "short rise time with pulse width = 2.5 &mu;s",
+        "long rise time with pulse width = 3 &mu;s",
+        "short rise time with pulse width = 4 &mu;s",
+        "long rise time with pulse width = 4 &mu;s"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lt4tvg",
+      "q": "The product kT (where k is Boltzmann's constant and T is absolute temperature) at room temperature is about",
+      "options": [
+        "0.051 eV",
+        "0.026 eV",
+        "0.01 eV",
+        "0.001 eV"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19j8pzr",
+      "q": "If E is energy level of electron and EF is fermi level, and T = 0 and E &gt; EF, then",
+      "options": [
+        "the probability of finding an occupied quantum state of energy higher than EF is zero",
+        "all quantum states with energies greater than EF are occupied",
+        "some quantum states with energies greater than EF are occupied",
+        "majority of quantum states with energies greater than EF are occupied"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8j1p0s",
+      "q": "Which variety of copper has the best conductivity?",
+      "options": [
+        "Pure annealed copper",
+        "Hard drawn copper",
+        "Induction hardened copper",
+        "Copper containing traces of silicon"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iamy3w",
+      "q": "The number of valence electrons in a silicon atom is",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v49gdu",
+      "q": "In a JFET VDS exceeds the rated value. Then it operates in",
+      "options": [
+        "active region",
+        "ohmic region",
+        "cut off region",
+        "either cut off or active region"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xlvahw",
+      "q": "Voltage series feedback (Also called series-shunt feedback) results in",
+      "options": [
+        "increase in both I/P and O/P impedances",
+        "decrease in both I/P and O/P impedances",
+        "increase in I/P impedance and decrease in O/P impedance",
+        "decrease in I/P impedance and increase in O/P impedance"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dpufot",
+      "q": "How many free electrons does a p type semiconductor has?",
+      "options": [
+        "only those produced by thermal energy",
+        "only those produced by doping",
+        "those produced by doping as well as thermal energy",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sjiso8",
+      "q": "Which of the following has highest resistivity?",
+      "options": [
+        "Mica",
+        "Paraffin wax",
+        "Air",
+        "Mineral oil"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dnx6f5",
+      "q": "Assertion (A): In p-n-p transistor collector current is termed negative. Reason (R): In p-n-p transistor holes are majority carriers.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ms0wnk",
+      "q": "The sensitivity of human eyes is maximum at",
+      "options": [
+        "white portion of spectrum",
+        "green portion of spectrum",
+        "red portion of spectrum",
+        "violet portion of spectrum"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-5lkt2n",
+      "q": "In p-n-p transistor the current IE has two components viz. IEP due to injection of holes from p-region to n-region and IE due to injection of electrons from n-region to p-region. Then",
+      "options": [
+        "IEp and IEn are almost equal",
+        "IEp &gt;&gt; IEn",
+        "IEn &gt;&gt; IEp",
+        "either (a) or (c)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-6n04x9",
+      "q": "In an n channel JFET, the gate is",
+      "options": [
+        "n type",
+        "p type",
+        "either n or p",
+        "partially n & partially p"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qwq62o",
+      "q": "The amount of photoelectric emission current depends on",
+      "options": [
+        "frequency of incident radiation",
+        "intensity of incident radiation",
+        "both frequency and intensity of incident radiation",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-19uuums",
+      "q": "Assertion (A): A p-n junction has high resistance in reverse direction. Reason (R): When a reverse bias is applied to p-n junction, the width of depletion layer increases.",
+      "options": [
+        "Both A and R are true and R is correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iq35kk",
+      "q": "In the circuit of figure the function of resistor R and diode D are",
+      "options": [
+        "to limit the current and to protect LED against over voltage",
+        "to limit the voltage and to protect LED against over current",
+        "to limit the current and protect LED against reverse breakdown voltage.",
+        "none of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4a1r1",
+      "q": "A p-n junction diode has",
+      "options": [
+        "low forward and high reverse resistance",
+        "a non-linear v-i characteristics",
+        "zero forward current till the forward voltage reaches cut in value",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y4j7lc",
+      "q": "Which of the following is true as regards photo emission?",
+      "options": [
+        "Velocity of emitted electrons is dependent on light intensity",
+        "Rate of photo emission is inversely proportional to light intensity",
+        "Maximum velocity of electron increases with decreasing wave length",
+        "Both holes and electrons are produced"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nd7r3i",
+      "q": "The power dissipation in a transistor is the product of",
+      "options": [
+        "emitter current and emitter to base voltage",
+        "emitter current and collector to emitter voltage",
+        "collector current and collector to emitter voltage",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18gtkzl",
+      "q": "The normal operation of JFET is",
+      "options": [
+        "constant voltage region",
+        "constant current region",
+        "both constant voltage and constant current regions",
+        "either constant voltage or constant current region"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-du2fps",
+      "q": "The minority carrier life time and diffusion constant in a semiconductor material are respectively 100 microsecond and 100 cm2/sec. The diffusion length is",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.0141 cm",
+        "1 cm"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10a2cvk",
+      "q": "A 2 bit binary multiplier can be implemented using",
+      "options": [
+        "2 I/P only",
+        "2 I/P XORs and 4 I/P and gates only",
+        "two 2 I/Ps NOR and one XNOR gate",
+        "XOR gates and shift Register"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "ECE",
+      "topic": "Electronic Devices And Circuits",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v8jghk",
+      "q": "In standard TTL, the 'totem pole' stage refers to",
+      "options": [
+        "the multi-emitter I/P stage",
+        "phase splitter",
+        "the O/P buffer",
+        "open collector O/P stage"
       ],
       "correct": 0,
       "explain": "",

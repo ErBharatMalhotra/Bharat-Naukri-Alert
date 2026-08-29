@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Rc Circuits",
   "source": "indiabix.com",
-  "count": 30,
+  "count": 12,
   "questions": [
     {
-      "id": "gate-cfqdg0",
-      "q": "The impedance of a series RC circuit varies directly with frequency.",
+      "id": "gate-1sukjfg",
+      "q": "A complex number represents a phasor quantity.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1u687uk",
-      "q": "In a lag network, the output voltage lags the input voltage in phase.",
+      "id": "gate-kfekvo",
+      "q": "Complex numbers can be added and subtracted but not multiplied or divided.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-11fira0",
-      "q": "Positive numbers can be represented by points to the right of the origin on the horizontal axis of a graph.",
+      "id": "gate-jxjr80",
+      "q": "The power factor (PF) indicates how much of the apparent power is true power.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-8c41z6",
-      "q": "An imaginary number is one that exists only in the mind of the mathematician.",
+      "id": "gate-2bmw3w",
+      "q": "In an RC circuit, the impedance is determined by both the resistance and the capacitive reactance combined.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-p1kndo",
-      "q": "The resistor voltage is always out of phase with the current.",
+      "id": "gate-olxdxg",
+      "q": "The polar form of a complex number consists of a real part and a j part.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-f5s8tw",
-      "q": "The circuit phase angle is the angle between the total current and the applied (source) voltage.",
+      "id": "gate-10i9o",
+      "q": "A 6 kHz sinusoidal voltage is applied to a series RC circuit. The frequency of the voltage across the resistor is",
       "options": [
-        "True",
-        "False"
+        "0 Hz",
+        "12 kHz",
+        "6 kHz",
+        "18 kHz"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-wlgvhk",
-      "q": "Apparent power is expressed in watts.",
+      "id": "gate-7czg1s",
+      "q": "The voltages in Problem 4 are measured at a certain frequency. To make the capacitor voltage greater than the resistor voltage, the frequency",
       "options": [
-        "True",
-        "False"
+        "must be increased",
+        "must be decreased",
+        "is held constant",
+        "has no effect"
       ],
       "correct": 0,
       "explain": "",
@@ -134,62 +138,8 @@
       "tags": []
     },
     {
-      "id": "gate-jukq41",
-      "q": "A filter passes all frequencies.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bup81g",
-      "q": "Total current in an RC circuit always leads the source voltage.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hy44h0",
-      "q": "The capacitor voltage always leads the current by 90&deg;.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-t8ccew",
-      "q": "In the complex plane, the number 14 &#8211; j5 is located in the",
+      "id": "gate-i0ffs8",
+      "q": "In the complex plane, the number 4 + j3 is located in the",
       "options": [
         "first quadrant",
         "second quadrant",
@@ -208,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-r10dwp",
-      "q": "Point +4 on the complex plane is",
+      "id": "gate-1ev4no4",
+      "q": "When the frequency of the source voltage decreases, the impedance of a parallel RC circuit",
       "options": [
-        "4 units above the origin on the j axis",
-        "4 units below the origin on the j axis",
-        "4 units right of the origin on the real axis",
-        "4 units left of the origin on the real axis"
+        "increases",
+        "decreases",
+        "does not change",
+        "decreases to zero"
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-8dbprd",
-      "q": "A 470 resistor and a 0.2 F capacitor are in parallel across a 2.5 kHz ac source. The admittance, Y, in rectangular form, is",
+      "id": "gate-1wfm6ms",
+      "q": "A 47 resistor and a capacitor with a capacitive reactance of 120 are in series across an ac source. What is the circuit impedance, Z?",
       "options": [
-        "212",
-        "2.12 mS + j3.14 mS",
-        "3.14 mS + j2.12 mS",
-        "318.3"
+        "129",
+        "12.9",
+        "167",
+        "73"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v6bak8",
-      "q": "A positive angle of 30&deg; is equivalent to a negative angle of",
+      "id": "gate-mabyb4",
+      "q": "A capacitor with 150 of capacitive reactance is across an ac source. The impedance, expressed in polar form, is",
       "options": [
-        "&#8211;30&deg;",
-        "&#8211;330&deg;",
-        "&#8211;60&deg;",
-        "&#8211;180&deg;"
+        "Z = 150",
+        "Z = 15090&deg",
+        "Z = 150 &#8211;90&deg;",
+        "Z = 150180&deg"
       ],
       "correct": 0,
       "explain": "",
@@ -268,313 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1q4rn8k",
-      "q": "In a series RC circuit, 12 V(rms) is measured across the resistor and 15 V(rms) is measured across the capacitor. The rms source voltage is",
-      "options": [
-        "3 V",
-        "27 V",
-        "19.2 V",
-        "1.9 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n1aybk",
-      "q": "What is the value of the hypotenuse of a right triangle whose sides are 12 and 18?",
-      "options": [
-        "4.24",
-        "3.46",
-        "2.16",
-        "21.63"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-f483h4",
-      "q": "The complex number 6 + j6 is equivalent to",
-      "options": [
-        "645&deg;",
-        "3645&deg;",
-        "8.4845&deg;",
-        "8.4890&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a8vxf8",
-      "q": "In a parallel RC circuit, there is 100 mA through the resistive branch and 100 mA through the capacitive branch. The total rms current is",
-      "options": [
-        "200 mA",
-        "100 mA",
-        "282 mA",
-        "141 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q048hg",
-      "q": "An ac circuit consists of a resistor and a capacitor. To increase the phase angle above 45&deg;, the following condition must exist:",
-      "options": [
-        "R = XC",
-        "R > XC",
-        "R XC",
-        "R = 5XC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bfhcxo",
-      "q": "What is the angular difference between +j4 and &#8211;j4?",
-      "options": [
-        "30&deg;",
-        "90&deg;",
-        "180&deg;",
-        "270&deg;"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-muwd0t",
-      "q": "A 12 k resistor is in series with a 0.02 F capacitor across a 1.2 kHz ac source. If the current is expressed in polar form as I = 0.30&deg; mA, what is the source voltage expressed in polar form?",
-      "options": [
-        "45.6 V",
-        "411.3 V",
-        "0.411 V",
-        "4.11 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k2kgqw",
-      "q": "The complex number 40 55&deg; is equivalent to",
-      "options": [
-        "55 + j55",
-        "40 + j40",
-        "45.88 + j65.52",
-        "22.94 + j32.76"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-117xyv8",
-      "q": "A 120 resistor is in parallel with a capacitor with a capacitive reactance of 40 . Both components are across a 12 V ac source. What is the magnitude of the total impedance?",
-      "options": [
-        "37.9",
-        "3.7",
-        "14,400",
-        "4,800"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-puzk1s",
-      "q": "A 47 resistor and a capacitor with 150 of capacitive reactance are in series across an ac source. The impedance, expressed in rectangular form, is",
-      "options": [
-        "Z = 47 + j150",
-        "Z = 47 &#8211; j150",
-        "Z = 197",
-        "Z = 103"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-kx570l",
-      "q": "A 2 k resistor and a 0.002 F capacitor are in series across an ac source. Current in the circuit is 6.50 mA. The true power is",
-      "options": [
-        "84.5 mW",
-        "845 mW",
-        "13 mW",
-        "130 mW"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-eqo9vc",
-      "q": "A resistor and a capacitor are in series across a 20 V ac source. Circuit impedance is 4.33 k. Current flow in the circuit is",
-      "options": [
-        "9.2 mA",
-        "92 mA",
-        "4.6 mA",
-        "460 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1etnxqt",
-      "q": "For a certain load, the true power is 150 W and the reactive power is 125 VAR. The apparent power is",
-      "options": [
-        "19.52 W",
-        "195.2 W",
-        "275 W",
-        "25 W"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wfgsjc",
-      "q": "When the frequency of the voltage applied to a series RC circuit is increased, the phase angle",
+      "id": "gate-1qbjgt3",
+      "q": "When the frequency of the voltage applied to a series RC circuit is decreased, the impedance",
       "options": [
         "increases",
         "decreases",
         "remains the same",
-        "becomes erratic"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ry4ibg",
-      "q": "In a series RC circuit, when the frequency and the resistance are halved, the impedance",
-      "options": [
-        "doubles",
-        "is halved",
-        "is reduced to one-fourth",
-        "cannot be determined without values"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rc Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-keiibw",
-      "q": "A 2 k resistor is in series with a 0.015 F capacitor across a 15 kHz ac source. What is the magnitude of the total impedance and the phase angle?",
-      "options": [
-        "73.4 and &#952 = &#8211;19.5&deg;",
-        "707 and &#952 = &#8211;19.5&deg;",
-        "2121 and &#952 = &#8211;19.5&deg;",
-        "734 and &#952 = &#8211;38.9&deg;"
+        "doubles"
       ],
       "correct": 0,
       "explain": "",

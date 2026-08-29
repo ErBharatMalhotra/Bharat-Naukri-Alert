@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Delegates",
   "source": "indiabix.com",
-  "count": 5,
+  "count": 9,
   "questions": [
     {
-      "id": "gate-nzq66k",
-      "q": "Which of the following statements is incorrect about delegate?",
+      "id": "gate-1f01zwk",
+      "q": "Which of the following is the correct way to call subroutine MyFun() of the Sample class given below? class Sample { public void MyFun(int i, Single j) { Console.WriteLine(\"Welcome to IndiaBIX !\"); } }",
       "options": [
-        "Delegates are reference types.",
-        "Delegates are object oriented.",
-        "Delegates are type-safe.",
-        "Delegates serve the same purpose as function pointers in C and pointers to member function operators in C++."
+        "delegate void del(int i); Sample s = new Sample(); del d = new del(ref s.MyFun); d(10, 1.1f);",
+        "delegate void del(int i, Single j); del d; Sample s = new Sample(); d = new del(ref s.MyFun); d(10, 1.1f);",
+        "Sample s = new Sample(); delegate void d = new del(ref MyFun); d(10, 1.1f);",
+        "delegate void del(int i, Single]); Sample s = new Sample(); del = new delegate(ref MyFun); del(10, 1.1f);"
       ],
       "correct": 0,
       "explain": "",
@@ -28,12 +28,32 @@
       "tags": []
     },
     {
-      "id": "gate-n7cvw8",
-      "q": "In which of the following areas are delegates commonly used? Remoting Serialization File Input/Output Multithreading Event handling",
+      "id": "gate-1t1hh52",
+      "q": "Which of the following statements are correct about a delegate? Inheritance is a prerequisite for using delegates. Delegates are type-safe. Delegates provide wrappers for function pointers. The declaration of a delegate must match the signature of the method that we intend to call using it. Functions called using delegates are always late-bound.",
       "options": [
         "1 and 2 only",
-        "1 and 5 only",
         "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Delegates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m8v6ba",
+      "q": "Which of the following statements are correct about delegates? Delegates are not type-safe. Delegate is a user-defined type. Only one method can be bound with one delegate object. Delegates can be used to implement callback notification. Delegates permit execution of a method on a secondary thread in an asynchronous manner.",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "2, 4 and 5 only",
         "4 and 5 only"
       ],
       "correct": 0,
@@ -48,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-k0tdlg",
-      "q": "Which of the following is the necessary condition for implementing delegates?",
+      "id": "gate-1cyudqt",
+      "q": "Which of the following statements are correct about delegates?",
       "options": [
-        "Class declaration",
-        "Inheritance",
-        "Run-time Polymorphism",
-        "Exceptions"
+        "Delegates cannot be used to call a static method of a class.",
+        "Delegates cannot be used to call procedures that receive variable number of arguments.",
+        "If signatures of two methods are same they can be called through the same delegate object.",
+        "Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-f3xx34",
-      "q": "Which of the following statements are correct about the delegate declaration given below? delegate void del(int i); On declaring the delegate a class called del will get created. The signature of del need not be same as the signature of the method that we intend to call using it. The del class will be derived from the MulticastDelegate class. The method that can be called using del should not be a static method. The del class will contain a one-argument constructor and an lnvoke() method.",
+      "id": "gate-1re2m28",
+      "q": "Which of the following are the correct ways to declare a delegate for calling the function func() defined in the sample class given below? class Sample { public int func(int i, Single j) { /* Add code here. */ } }",
       "options": [
-        "1, 2 and 3 only",
-        "1, 3 and 5 only",
-        "2 and 4 only",
-        "4 only"
+        "delegate d(int i, Single j);",
+        "delegate void d(int, Single);",
+        "delegate int d(int i, Single j);",
+        "delegate void (int i, Single j);"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +108,73 @@
       "tags": []
     },
     {
-      "id": "gate-1qx0zw0",
-      "q": "Which of the following is the correct way to call the function MyFun() of the Sample class given below? class Sample { public int MyFun(int i) { Console.WriteLine(\"Welcome to IndiaBIX.com !\" ); return 0; } }",
+      "id": "gate-pqmxtc",
+      "q": "Suppose on pushing a button an object is to be notified, but it is not known until runtime which object should be notified. Which of the following programming constructs should be used to implement this idea?",
       "options": [
-        "delegate void del(int i); Sample s = new Sample(); deld = new del(ref s.MyFun); d(10);",
-        "delegate int del(int i); Sample s = new Sample(.); del = new delegate(ref MyFun); del(10);",
-        "Sample s = new Sample(); delegate void del = new delegate(ref MyFun); del(10);",
-        "delegate int del(int i); del d; Sample s = new Sample(); d = new del(ref s.MyFun); d(10);"
+        "Attribute",
+        "Delegate",
+        "Namespace",
+        "Interface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Delegates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vxhwww",
+      "q": "Which of the following statements is incorrect about a delegate?",
+      "options": [
+        "A single delegate can invoke more than one method.",
+        "Delegates can be shared.",
+        "Delegate is a value type.",
+        "Delegates are type-safe wrappers for function pointers."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Delegates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ych78o",
+      "q": "Suppose a Generic class called SortObjects is to be made capable of sorting objects of any type (Integer, Single, Byte etc.). Which of the following programming constructs should be used to implement the comparision function?",
+      "options": [
+        "Namespace",
+        "Interface",
+        "Encapsulation",
+        "Delegate"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Delegates",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2qj1hk",
+      "q": "With which of the following can the ref keyword be used? Static data Instance data Static function/subroutine Instance function/subroutine",
+      "options": [
+        "1, 2",
+        "3, 4",
+        "1, 3",
+        "2, 4"
       ],
       "correct": 0,
       "explain": "",

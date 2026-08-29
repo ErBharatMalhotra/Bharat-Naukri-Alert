@@ -5,16 +5,216 @@
   "subject": "C Programming",
   "topic": "Structures Unions Enums",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 24,
   "questions": [
     {
-      "id": "gate-1txa3uw",
-      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { enum status {pass, fail, absent}; enum status stud1, stud2, stud3; stud1 = pass; stud2 = absent; stud3 = fail; printf(\"%d %d %d\\n\", stud1, stud2, stud3); return 0; }",
+      "id": "gate-hxrbl4",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { union a { int i; char ch[2]; }; union a u; u.ch[0]=3; u.ch[1]=2; printf(\"%d, %d, %d\\n\", u.ch[0], u.ch[1], u.i); return 0; }",
       "options": [
-        "0, 1, 2",
+        "3, 2, 515",
+        "515, 2, 3",
+        "3, 2, 5",
+        "515, 515, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uwdebs",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { union var { int a, b; }; union var v; v.a=10; v.b=20; printf(\"%d\\n\", v.a); return 0; }",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y0hpu4",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { struct value { int bit1:1; int bit3:4; int bit4:4; }bit={1, 2, 13}; printf(\"%d, %d, %d\\n\", bit.bit1, bit.bit3, bit.bit4); return 0; }",
+      "options": [
+        "1, 2, 13",
+        "1, 4, 4",
+        "-1, 2, -3",
+        "-1, -2, -13"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1galhrk",
+      "q": "What will be the output of the program in 16 bit platform (Turbo C under DOS) ? #include&lt;stdio.h&gt; int main() { struct value { int bit1:1; int bit3:4; int bit4:4; }bit; printf(\"%d\\n\", sizeof(bit)); return 0; }",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fq00qw",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { enum days {MON=-1, TUE, WED=6, THU, FRI, SAT}; printf(\"%d, %d, %d, %d, %d, %d\\n\", MON, TUE, WED, THU, FRI, SAT); return 0; }",
+      "options": [
+        "-1, 0, 1, 2, 3, 4",
+        "-1, 2, 6, 3, 4, 5",
+        "-1, 0, 6, 2, 3, 4",
+        "-1, 0, 6, 7, 8, 9"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ixs0ak",
+      "q": "Point out the error in the program? struct emp { int ecode; struct emp *e; };",
+      "options": [
+        "Error: in structure declaration",
+        "Linker Error",
+        "No Error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mthtda",
+      "q": "Point out the error in the program? typedef struct data mystruct; struct data { int x; mystruct *b; };",
+      "options": [
+        "Error: in structure declaration",
+        "Linker Error",
+        "No Error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wztnfc",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { struct a { float category:5; char scheme:4; }; printf(\"size=%d\", sizeof(struct a)); return 0; }",
+      "options": [
+        "Error: invalid structure member in printf",
+        "Error in this float category:5; statement",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1d7gf6k",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { struct emp { char name[20]; float sal; }; struct emp e[10]; int i; for(i=0; i&lt;=9; i++) scanf(\"%s %f\", e[i].name, &amp;e[i].sal); return 0; }",
+      "options": [
+        "Error: invalid structure member",
+        "Error: Floating point formats not linked",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-98f5tk",
+      "q": "Which of the following statements correct about the below program? #include&lt;stdio.h&gt; int main() { struct emp { char name[25]; int age; float sal; }; struct emp e[2]; int i=0; for(i=0; i&lt;2; i++) scanf(\"%s %d %f\", e[i].name, &amp;e[i].age, &amp;e[i].sal); for(i=0; i&lt;2; i++) scanf(\"%s %d %f\", e[i].name, e[i].age, e[i].sal); return 0; }",
+      "options": [
+        "Error: scanf() function cannot be used for structures elements.",
+        "The code runs successfully.",
+        "Error: Floating point formats not linked Abnormal program termination.",
+        "Error: structure variable must be initialized."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Structures Unions Enums",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1u0j1uy",
+      "q": "Which of the following statements correct about the below program? #include&lt;stdio.h&gt; int main() { union a { int i; char ch[2]; }; union a u1 = {512}; union a u2 = {0, 2}; return 0; } 1: u2 CANNOT be initialized as shown. 2: u1 can be initialized as shown. 3: To initialize char ch[] of u2 '.' operator should be used. 4: The code causes an error 'Declaration syntax error'",
+      "options": [
+        "1, 2",
+        "2, 3",
         "1, 2, 3",
-        "0, 2, 1",
-        "1, 3, 2"
+        "1, 3, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +228,13 @@
       "tags": []
     },
     {
-      "id": "gate-14i1m6w",
-      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { int i=4, j=8; printf(\"%d, %d, %d\\n\", i|j&amp;j|i, i|j&amp;j|i, i^j); return 0; }",
+      "id": "gate-ldh5ts",
+      "q": "Which of the following statements correctly assigns 12 to month using pointer variable pdt? #include&lt;stdio.h&gt; struct date { int day; int month; int year; }; int main() { struct date d; struct date *pdt; pdt = &amp;d; return 0; }",
       "options": [
-        "12, 12, 12",
-        "112, 1, 12",
-        "32, 1, 12",
-        "-64, 1, 12"
+        "pdt.month = 12",
+        "&amp;pdt.month = 12",
+        "d.month = 12",
+        "pdt-&gt;month = 12"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +248,13 @@
       "tags": []
     },
     {
-      "id": "gate-gluzls",
-      "q": "What will be the output of the program in Turbo C (under DOS)? #include&lt;stdio.h&gt; int main() { struct emp { char *n; int age; }; struct emp e1 = {\"Dravid\", 23}; struct emp e2 = e1; strupr(e2.n); printf(\"%s\\n\", e1.n); return 0; }",
+      "id": "gate-11d0t8g",
+      "q": "Which of the following statements correct about the below code? maruti.engine.bolts=25;",
       "options": [
-        "Error: Invalid structure assignment",
-        "DRAVID",
-        "Dravid",
-        "No output"
+        "Structure bolts is nested within structure engine.",
+        "Structure engine is nested within structure maruti.",
+        "Structure maruti is nested within structure engine.",
+        "Structure maruti is nested within structure bolts."
       ],
       "correct": 0,
       "explain": "",
@@ -68,208 +268,8 @@
       "tags": []
     },
     {
-      "id": "gate-5f70kc",
-      "q": "What will be the output of the program in 16-bit platform (under DOS)? #include&lt;stdio.h&gt; int main() { struct node { int data; struct node *link; }; struct node *p, *q; p = (struct node *) malloc(sizeof(struct node)); q = (struct node *) malloc(sizeof(struct node)); printf(\"%d, %d\\n\", sizeof(p), sizeof(q)); return 0; }",
-      "options": [
-        "2, 2",
-        "8, 8",
-        "5, 5",
-        "4, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fcaqss",
-      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { struct byte { int one:1; }; struct byte var = {1}; printf(\"%d\\n\", var.one); return 0; }",
-      "options": [
-        "1",
-        "-1",
-        "0",
-        "Error"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-x5oq0k",
-      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; struct course { int courseno; char coursename[25]; }; int main() { struct course c[] = { {102, \"Java\"}, {103, \"PHP\"}, {104, \"DotNet\"} }; printf(\"%d \", c[1].courseno); printf(\"%s\\n\", (*(c+2)).coursename); return 0; }",
-      "options": [
-        "103 DotNet",
-        "102 Java",
-        "103 PHP",
-        "104 DotNet"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dj0z4q",
-      "q": "What will be the output of the program given below in 16-bit platform ? #include&lt;stdio.h&gt; int main() { enum value{VAL1=0, VAL2, VAL3, VAL4, VAL5} var; printf(\"%d\\n\", sizeof(var)); return 0; }",
-      "options": [
-        "1",
-        "2",
-        "4",
-        "10"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x9zgbc",
-      "q": "Point out the error in the program? #include&lt;stdio.h&gt; #include&lt;string.h&gt; void modify(struct emp*); struct emp { char name[20]; int age; }; int main() { struct emp e = {\"Sanjay\", 35}; modify(&amp;e); printf(\"%s %d\", e.name, e.age); return 0; } void modify(struct emp *p) { p -&gt;age=p-&gt;age+2; }",
-      "options": [
-        "Error: in structure",
-        "Error: in prototype declaration unknown struct emp",
-        "No error",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-puqgeg",
-      "q": "Point out the error in the program in 16-bit platform? #include&lt;stdio.h&gt; int main() { struct bits { int i:40; }bit; printf(\"%d\\n\", sizeof(bit)); return 0; }",
-      "options": [
-        "4",
-        "2",
-        "Error: Bit field too large",
-        "Error: Invalid member access in structure"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x8ggtk",
-      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { union a { int i; char ch[2]; }; union a z1 = {512}; union a z2 = {0, 2}; return 0; }",
-      "options": [
-        "Error: invalid union declaration",
-        "Error: in Initializing z2",
-        "No error",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uwvihk",
-      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { struct emp { char n[20]; int age; }; struct emp e1 = {\"Dravid\", 23}; struct emp e2 = e1; if(e1 == e2) printf(\"The structure are equal\"); return 0; }",
-      "options": [
-        "Prints: The structure are equal",
-        "Error: Structure cannot be compared using '=='",
-        "No output",
-        "None of above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1sf1ls8",
-      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { struct bits { float f:2; }bit; printf(\"%d\\n\", sizeof(bit)); return 0; }",
-      "options": [
-        "4",
-        "2",
-        "Error: cannot set bit field for float",
-        "Error: Invalid member access in structure"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j7c69w",
-      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { struct emp { char name[25]; int age; float bs; }; struct emp e; e.name = \"Suresh\"; e.age = 25; printf(\"%s %d\\n\", e.name, e.age); return 0; }",
-      "options": [
-        "Error: Lvalue required/incompatible types in assignment",
-        "Error: invalid constant expression",
-        "Error: Rvalue required",
-        "No error, Output: Suresh 25"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wo9qyj",
-      "q": "The '.' operator can be used access structure elements using a structure variable.",
+      "id": "gate-749t2v",
+      "q": "A union cannot be nested in a structure",
       "options": [
         "True",
         "False"
@@ -286,8 +286,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ma4c98",
-      "q": "Union elements can be of different sizes.",
+      "id": "gate-1gznyrc",
+      "q": "Nested unions are allowed",
       "options": [
         "True",
         "False"
@@ -304,8 +304,8 @@
       "tags": []
     },
     {
-      "id": "gate-frf80x",
-      "q": "A structure can contain similar or dissimilar elements",
+      "id": "gate-1xbaisg",
+      "q": "Bit fields CANNOT be used in union.",
       "options": [
         "True",
         "False"
@@ -322,8 +322,8 @@
       "tags": []
     },
     {
-      "id": "gate-qvb6mx",
-      "q": "The '-&gt;' operator can be used to access structures elements using a pointer to a structure variable only",
+      "id": "gate-1psa7bc",
+      "q": "one of elements of a structure can be a pointer to the same structure.",
       "options": [
         "True",
         "False"
@@ -340,8 +340,8 @@
       "tags": []
     },
     {
-      "id": "gate-hasodk",
-      "q": "It is not possible to create an array of pointer to structures.",
+      "id": "gate-1yvzvl8",
+      "q": "A structure can be nested inside another structure.",
       "options": [
         "True",
         "False"
@@ -358,8 +358,8 @@
       "tags": []
     },
     {
-      "id": "gate-192951k",
-      "q": "Is there easy way to print enumeration values symbolically?",
+      "id": "gate-14v1mtk",
+      "q": "If the following structure is written to a file using fwrite(), can fread() read it back successfully? struct emp { char *n; int age; }; struct emp e={\"IndiaBIX\", 15}; FILE *fp; fwrite(&amp;e, sizeof(e), 1, fp);",
       "options": [
         "Yes",
         "No"
@@ -376,8 +376,8 @@
       "tags": []
     },
     {
-      "id": "gate-vmjrnd",
-      "q": "By default structure variable will be of auto storage class",
+      "id": "gate-17s7x9q",
+      "q": "size of union is size of the longest element in the union",
       "options": [
         "Yes",
         "No"
@@ -394,8 +394,8 @@
       "tags": []
     },
     {
-      "id": "gate-1ct0ni0",
-      "q": "Is it necessary that the size of all elements in a union should be same?",
+      "id": "gate-16n6cms",
+      "q": "The elements of union are always accessed using &amp; operator",
       "options": [
         "Yes",
         "No"
@@ -412,8 +412,8 @@
       "tags": []
     },
     {
-      "id": "gate-2tb6y0",
-      "q": "Can we have an array of bit fields?",
+      "id": "gate-7j0d64",
+      "q": "Will the following code work? #include&lt;stdio.h&gt; #include&lt;malloc.h&gt; struct emp { int len; char name[1]; }; int main() { char newname[] = \"Rahul\"; struct emp *p = (struct emp *) malloc(sizeof(struct emp) -1 + strlen(newname)+1); p-&gt;len = strlen(newname); strcpy(p -&gt; name, newname); printf(\"%d %s\\n\", p-&gt;len, p-&gt;name); return 0; }",
       "options": [
         "Yes",
         "No"
@@ -430,8 +430,8 @@
       "tags": []
     },
     {
-      "id": "gate-1d5ra9s",
-      "q": "Will the following declaration work? typedef struct s { int a; float b; }s;",
+      "id": "gate-12n94t4",
+      "q": "A pointer union CANNOT be created",
       "options": [
         "Yes",
         "No"
@@ -448,29 +448,13 @@
       "tags": []
     },
     {
-      "id": "gate-dnjvka",
-      "q": "Can a structure can point to itself?",
+      "id": "gate-1pzvd68",
+      "q": "Which of the following statement is True?",
       "options": [
-        "Yes",
-        "No"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C Programming",
-      "topic": "Structures Unions Enums",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1al1u5t",
-      "q": "If a char is 1 byte wide, an integer is 2 bytes wide and a long integer is 4 bytes wide then will the following structure always occupy 7 bytes? struct ex { char ch; int i; long int a; };",
-      "options": [
-        "Yes",
-        "No"
+        "User has to explicitly define the numeric value of enumerations",
+        "User has a control over the size of enumeration variables.",
+        "Enumeration can have an effect local to the block, if desired",
+        "Enumerations have a global effect throughout the file."
       ],
       "correct": 0,
       "explain": "",

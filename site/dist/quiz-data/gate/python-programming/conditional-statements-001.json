@@ -5,355 +5,15 @@
   "subject": "Python Programming",
   "topic": "Conditional Statements",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-13lavd0",
-      "q": "What is the purpose of the if statement?",
+      "id": "gate-4ygi8g",
+      "q": "Which logical operator is used to combine multiple conditions in an if statement?",
       "options": [
-        "To declare a variable",
-        "To define a function",
-        "To control the flow of a program based on a condition",
-        "To create a loop"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lqjlm2",
-      "q": "Which keyword is used to introduce the else block in an if-else statement?",
-      "options": [
-        "elif",
-        "else",
-        "then",
-        "or"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y40lgq",
-      "q": "What will be the output of the following code? x = 10 y = 5 if x > y: print(\"x is greater\") else: print(\"y is greater\")",
-      "options": [
-        "x is greater",
-        "y is greater",
-        "No output",
-        "Syntax Error"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1spposw",
-      "q": "Which of the following is the correct syntax for an if statement with multiple conditions?",
-      "options": [
-        "if condition1: # code block if condition2: # code block",
-        "if condition1: # code block elif condition2: # code block",
-        "if condition1: # code block else if condition2: # code block",
-        "if condition1: # code block else condition2: # code block"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uenru4",
-      "q": "What will happen if the following code is executed? temperature = 25 if temperature > 30: print(\"It's hot!\") elif temperature > 20: print(\"It's warm.\") else: print(\"It's cool.\")",
-      "options": [
-        "It will print \"It's hot!\"",
-        "It will print \"It's warm.\"",
-        "It will print \"It's cool.\"",
-        "It will print nothing (no output)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6mnphd",
-      "q": "Which of the following statements is used for handling exceptions?",
-      "options": [
-        "try-case",
-        "for-in",
-        "while-break",
-        "try-except"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h333pc",
-      "q": "What does the continue statement do in a loop?",
-      "options": [
-        "Exits the loop",
-        "Skips the remaining code in the loop and moves to the next iteration",
-        "Repeats the loop indefinitely",
-        "Skips the remaining code and exits the loop"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z0yfqg",
-      "q": "How can you combine multiple conditions using the logical OR operator?",
-      "options": [
-        "||",
-        "or",
         "&&",
-        "and"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-btiw0g",
-      "q": "What is the purpose of the assert statement?",
-      "options": [
-        "To handle exceptions",
-        "To display the current status of the program",
-        "To assign None value to an existing object in memory",
-        "To check if a condition is true, and if not, raise an AssertionError"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u73csn",
-      "q": "What is the output of the following code? value = None if value: print(\"Value is None\") else: print(\"Value is not None\")",
-      "options": [
-        "Value is None",
-        "Value is not None",
-        "Error",
-        "No output"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ge5wme",
-      "q": "Which of the following is the correct syntax for a nested if statement?",
-      "options": [
-        "if condition1: if condition2: # code block",
-        "if condition1: else: # code block",
-        "if condition1: elif condition2: # code block",
-        "if condition1: then condition2: # code block"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8jhapj",
-      "q": "What does the with statement in Python primarily facilitate?",
-      "options": [
-        "Exception handling",
-        "File handling and resource management",
-        "Loop control",
-        "Conditional statements"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-111miy8",
-      "q": "What will be the output of the following code? value = True result = \"Yes\" if value else \"No\" print(result)",
-      "options": [
-        "Yes",
-        "No",
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1348fov",
-      "q": "Which built-in function is used to check the type of an object?",
-      "options": [
-        "typeof()",
-        "type()",
-        "otype()",
-        "istypeof()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11nzemy",
-      "q": "What does the elif statement stand for?",
-      "options": [
-        "Else If",
-        "End Loop If",
-        "Execute Last If",
-        "Exit Loop If"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hweacg",
-      "q": "Which keyword is used to exit a loop prematurely?",
-      "options": [
-        "end",
-        "finish",
-        "exit",
-        "break"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-513ryw",
-      "q": "What does the pass statement do in an if block?",
-      "options": [
-        "Skips the current iteration of a loop",
-        "Raises an exception",
-        "Terminates the program",
-        "Serves as a placeholder for empty code block"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5jddic",
-      "q": "Which of the following is used to compare both value and type?",
-      "options": [
-        "===",
-        "is",
-        "equals",
+        "||",
+        "and",
         "in"
       ],
       "correct": 0,
@@ -368,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1st6la8",
-      "q": "What is the purpose of the finally block in a try-except-finally statement?",
+      "id": "gate-bhf1j4",
+      "q": "What will be the output of the following code? num = 0 if num > 0: print(\"Positive\") elif num",
       "options": [
-        "To handle exceptions",
-        "To define the main body of the code",
-        "To always execute code, whether an exception occurs or not",
-        "To terminate the program"
+        "Positive",
+        "Negative",
+        "Zero",
+        "No output"
       ],
       "correct": 0,
       "explain": "",
@@ -388,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-15rmaxi",
-      "q": "Which of the following statements is used to raise a custom exception?",
+      "id": "gate-1asb71s",
+      "q": "In Python, how can you represent the logical NOT operator in an if statement?",
       "options": [
-        "assert",
-        "throw",
-        "raise",
-        "custom"
+        "!=",
+        "not",
+        "<>",
+        "nor"
       ],
       "correct": 0,
       "explain": "",
@@ -408,11 +68,51 @@
       "tags": []
     },
     {
-      "id": "gate-2ck5pg",
-      "q": "What will be the output of the following code? number = 15 result = \"Even\" if number % 2 == 0 else \"Odd\" print(result)",
+      "id": "gate-tw5uhb",
+      "q": "Which comparison operator is used to check for equality?",
       "options": [
-        "Even",
-        "Odd",
+        "=",
+        "==",
+        "===",
+        "equals"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Conditional Statements",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1kqacw0",
+      "q": "What does the in keyword check in Python conditional statements?",
+      "options": [
+        "Object identity",
+        "Membership in a sequence or collection",
+        "Inequality",
+        "Division"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Conditional Statements",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14bqu4k",
+      "q": "What will be the output of the following code? num = 0 if num: print(\"Non-zero\") else: print(\"Zero\")",
+      "options": [
+        "Non-zero",
+        "Zero",
         "Error",
         "No output"
       ],
@@ -428,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-5wztb0",
-      "q": "How can you iterate over both the index and the elements of a list in a for loop?",
+      "id": "gate-1xmj068",
+      "q": "Which of the following is the correct way to handle multiple exceptions in a try-except block?",
       "options": [
-        "Using for i in range(len(my_list))",
-        "Using for element in my_list",
-        "Using for i, element in enumerate(my_list)",
-        "Using for i, element in range(len(my_list))"
+        "try: # code block except Exception1: # handle Exception1 except Exception2: # handle Exception2",
+        "try: # code block except Exception1, Exception2: # handle exceptions",
+        "try: # code block except (Exception1, Exception2): # handle exceptions",
+        "try: # code block catch Exception1: # handle Exception1 catch Exception2: # handle Exception2"
       ],
       "correct": 0,
       "explain": "",
@@ -448,53 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-164qcvs",
-      "q": "Which of the following is the correct syntax for a while loop?",
+      "id": "gate-1j6402g",
+      "q": "How can you check if a key exists in a dictionary?",
       "options": [
-        "while condition: # code block",
-        "while (condition) # code block",
-        "do while condition: # code block",
-        "for condition in while: # code block"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-af1lir",
-      "q": "What does the else block in a try-except-else statement execute?",
-      "options": [
-        "It always executes, regardless of whether an exception occurs or not.",
-        "It executes only if an exception is raised in the try block.",
-        "It executes only if no exception is raised in the try block.",
-        "It handles specific exceptions raised in the try block."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Conditional Statements",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xk59nq",
-      "q": "What is the purpose of the is keyword?",
-      "options": [
-        "Checks for equality",
-        "Checks for inequality",
-        "Tests object identity",
-        "Performs mathematical operations"
+        "Using if key in dict",
+        "Using if exists(dict[key])",
+        "Using if contains(dict, key)",
+        "Using if key: dict"
       ],
       "correct": 0,
       "explain": "",

@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Attributes",
   "source": "indiabix.com",
-  "count": 5,
+  "count": 10,
   "questions": [
     {
-      "id": "gate-1fkngwk",
-      "q": "The [Serializable()] attribute gets inspected at",
+      "id": "gate-1d5o4fd",
+      "q": "Which of the following statements are correct about Attributes used in C#.NET?",
       "options": [
-        "Compile-time",
-        "Run-time",
-        "Design-time",
-        "Linking-time"
+        "If there is a custom attribute BugFixAttribute then the compiler will look ONLY for the BugFix attribute in the code that uses this attribute.",
+        "To create a custom attribute we need to create a custom attribute structure and derive it from System.Attribute.",
+        "To create a custom attribute we need to create a class and implement IAttribute interface in it.",
+        "If a BugFixAttribute is to receive three parameters then the BugFixAttribute class should implement a zero-argument constructor."
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-11gcxwk",
-      "q": "Which of the following are correct ways to specify the targets for a custom attribute?",
+      "id": "gate-1s6yvqo",
+      "q": "Which of the following forms of applying an attribute is correct?",
       "options": [
-        "By applying AttributeUsage to the custom attribute's class definition.",
-        "By applying UsageAttribute to the custom attribute's class definition.",
-        "Once an attribute is declared it applies to all the targets.",
-        "By applying AttributeUsageAttribute to the custom attribute's class definition."
+        "&lt; Serializable() &gt; class sample { /* ... */ }",
+        "(Serializable()) class sample { /* ... */ }",
+        "[ Serializable() ] class sample { /* ... */ }",
+        "Serializablef) class sample { /* ... */ }"
       ],
       "correct": 0,
       "explain": "",
@@ -48,12 +48,12 @@
       "tags": []
     },
     {
-      "id": "gate-1lx7jmk",
-      "q": "Which of the following are correct ways to pass a parameter to an attribute? By value By reference By address By position By name",
+      "id": "gate-tman30",
+      "q": "Which of the following statements are correct about Attributes in C#.NET? On compiling a C#.NET program the attibutes applied are recorded in the metadata of the assembly. On compilation all the attribute's tags are deleted from the program. It is not possible to create custom attributes.. The attributes applied can be read from an assembly using Reflection class. An attribute can have parameters.",
       "options": [
-        "1, 2",
-        "1, 2, 3",
-        "4, 5",
+        "1 and 2 only",
+        "2 and 4 only",
+        "1, 4 and 5 only",
         "All of the above"
       ],
       "correct": 0,
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-9vyhhc",
-      "q": "Which of the following statements are correct about inspecting an attribute in C#.NET? An attribute can be inspected at link-time. An attribute can be inspected at compile-time. An attribute can be inspected at run-time. An attribute can be inspected at design-time.",
+      "id": "gate-1y4cta4",
+      "q": "Which of the following correctly describes the contents of the filename AssemblyInfo.cs?",
       "options": [
-        "1, 2",
-        "3, 4",
-        "1, 3, 4",
-        "All of the above"
+        "It contains method-level attributes.",
+        "It contains class-level attributes.",
+        "It contains assembly-level attributes.",
+        "It contains structure-level attributes."
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,113 @@
       "tags": []
     },
     {
-      "id": "gate-crunig",
-      "q": "Which of the following is correct ways of applying an attribute?",
+      "id": "gate-po1rrc",
+      "q": "It possible to create a custom attribute that can be applied only to specific programming element(s) like ____ .",
       "options": [
-        "[WebService (Name = \"IndiaBIX\", Description = \"BIX WebService\")] class AuthenticationService: WebService { /* .... */}",
-        "&lt;WebService ( Name : \"IndiaBIX\", Description : \"BIX WebService\" )&gt; class AuthenticationService: inherits WebService { /* .... */}",
-        "&lt;WebService ( Name = \"IndiaBIX\", Description = \"BIX WebService\" )&gt; class AuthenticationService: extends WebService { /* .... */}",
-        "[WebService ( Name := \"IndiaBIX\", Description := \"BIX WebService\")] class AuthenticationService: inherits WebService { /* .... */}"
+        "Classes",
+        "Methods",
+        "Classes and Methods",
+        "Classes, Methods and Member-Variables"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Attributes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-fn91j7",
+      "q": "Which of the following CANNOT be a target for a custom attribute?",
+      "options": [
+        "Enum",
+        "Event",
+        "Delegate",
+        "Interface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Attributes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-oebfqs",
+      "q": "Once applied which of the following CANNOT inspect the applied attribute?",
+      "options": [
+        "CLR",
+        "Linker",
+        "ASP.NET Runtime",
+        "Visual Studio.NET"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Attributes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8tun3s",
+      "q": "Which of the following is the correct way to apply an attribute to an Assembly?",
+      "options": [
+        "[ AssemblyDescription(\"DCube Component Library\") ]",
+        "[ assembly : AssemblyDescription(\"DCube Component Library\") ]",
+        "[ Assemblylnfo : AssemblyDescription(\"DCube Component Library\") ]",
+        "&lt; Assembly: AssemblyDescription(\"DCube Component Library\") &gt;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Attributes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18ywldw",
+      "q": "Which of the following is the correct way of applying the custom attribute called Tested which receives two-arguments - name of the tester and the testgrade? Custom attribute cannot be applied to an assembly. [assembly: Tested(\"Sachin\", testgrade.Good)] [Tested(\"Virat\", testgrade.Excellent)] class customer { /* .... */ } Custom attribute cannot be applied to a method. Custom attribute cannot be applied to a class.",
+      "options": [
+        "1 only",
+        "1, 5",
+        "2, 3",
+        "4, 5"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Attributes",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17wc3w0",
+      "q": "Attributes can be applied to Method Class Assembly Namespace Enum",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3",
+        "4 and 5 only",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",

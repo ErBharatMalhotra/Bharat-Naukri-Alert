@@ -5,16 +5,16 @@
   "subject": "Networking",
   "topic": "Spanning Tree Protocol",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 5,
   "questions": [
     {
-      "id": "gate-17jmfbe",
-      "q": "What is the purpose of Spanning Tree Protocol in a switched LAN?",
+      "id": "gate-11s6vsg",
+      "q": "You have two switches connected together with two crossover cables for redundancy, and STP is disabled. Which of the following will happen between the switches?",
       "options": [
-        "To provide a mechanism for network monitoring in switched environments",
-        "To prevent routing loops in networks with redundant paths",
-        "To prevent switching loops in networks with redundant switched paths",
-        "To manage the VLAN database across multiple switches"
+        "The routing tables on the switches will not update.",
+        "The MAC forward/filter table will not update on the switch.",
+        "Broadcast storms will occur on the switched network.",
+        "The switches will automatically load-balance between the two links."
       ],
       "correct": 0,
       "explain": "",
@@ -28,113 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-n4ox5o",
-      "q": "Which statement describes a spanning-tree network that has converged?",
-      "options": [
-        "All switch and bridge ports are in the forwarding state.",
-        "All switch and bridge ports are assigned as either root or designated ports.",
-        "All switch and bridge ports are in either the forwarding or blocking state.",
-        "All switch and bridge ports are either blocking or looping."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Spanning Tree Protocol",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7axfj4",
-      "q": "What does a switch do when a frame is received on an interface and the destination hardware address is unknown or not in the filter table?",
-      "options": [
-        "Forwards the switch to the first available link",
-        "Drops the frame",
-        "Floods the network with the frame looking for the device",
-        "Sends back a message to the originating station asking for a name resolution"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Spanning Tree Protocol",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e34ayw",
-      "q": "In which circumstance are multiple copies of the same unicast frame likely to be transmitted in a switched LAN?",
-      "options": [
-        "During high-traffic periods",
-        "After broken links are reestablished",
-        "When upper-layer protocols require high reliability",
-        "In an improperly implemented redundant topology"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Spanning Tree Protocol",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15f69rk",
-      "q": "If you want to disable STP on a port connected to a server, which command would you use?",
-      "options": [
-        "disable spanning-tree",
-        "spanning-tree off",
-        "spanning-tree security",
-        "spanning-tree portfast"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Spanning Tree Protocol",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dgvpk8",
-      "q": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
-      "options": [
-        "VTP",
-        "STP",
-        "RIP",
-        "CDP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Networking",
-      "topic": "Spanning Tree Protocol",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rkq15t",
-      "q": "You need to allow one host to be permitted to attach dynamically to each switch interface. Which two commands must you configure on your catalyst switch to meet this policy? Switch(config-if)# ip access-group 10 Switch(config-if)# switchport port-security maximum 1 Switch(config)# access-list 10 permit ip host 1 Switch(config-if)# switchport port-security violation shutdown Switch(config)# mac-address-table secure",
+      "id": "gate-18gw5os",
+      "q": "Layer 2 switching provides which of the following? Hardware-based bridging (ASIC) Wire speed Low latency Low cost",
       "options": [
         "1 and 3",
         "2 and 4",
-        "2, 3 and 5",
-        "4 and 5"
+        "1, 2 and 4",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -148,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-urdr4b",
-      "q": "What command will display the forward/filter table?",
+      "id": "gate-fdgkn8",
+      "q": "Your switch has a port status LED that is alternating between green and amber. What could this indicate?",
       "options": [
-        "show mac filter",
-        "show run",
-        "show mac address-table",
-        "show mac filter-table"
+        "The port is experiencing errors.",
+        "The port is shut down.",
+        "The port is in STP blocking mode.",
+        "Nothing; this is normal."
       ],
       "correct": 0,
       "explain": "",
@@ -168,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ur94kn",
-      "q": "If a switch receives a frame and the source MAC address is not in the MAC address table but the destination address is, what will the switch do with the frame?",
+      "id": "gate-10vp334",
+      "q": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
       "options": [
-        "Discard it and send an error message back to the originating host",
-        "Flood the network with the frame",
-        "Add the source address and port to the MAC address table and forward the frame out the destination port",
-        "Add the destination to the MAC address table and then forward the frame"
+        "Switch(config)# spanning-tree mode rapid-pvst",
+        "Switch# spanning-tree mode rapid-pvst",
+        "Switch(config)# spanning-tree mode 802.1w",
+        "Switch# spanning-tree mode 802.1w"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-habc4c",
-      "q": "What is the result of segmenting a network with a bridge (switch)? It increases the number of collision domains. It decreases the number of collision domains. It increases the number of broadcast domains. It decreases the number of broadcast domains. It makes smaller collision domains. It makes larger collision domains.",
+      "id": "gate-w2oufo",
+      "q": "What are the distinct functions of layer 2 switching that increase available bandwidth on the network? Address learning Routing Forwarding and filtering Creating network loops Loop avoidance IP addressing",
       "options": [
-        "1 and 5",
-        "2, 3 and 5",
-        "3, 4 and 6",
-        "1, 3 and 6"
+        "1, 3 and 5",
+        "2, 4 and 6",
+        "2 and 6",
+        "3 and 5"
       ],
       "correct": 0,
       "explain": "",

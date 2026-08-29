@@ -8,13 +8,13 @@
   "count": 10,
   "questions": [
     {
-      "id": "gate-1i6aqeh",
-      "q": "Which of the following statements are TRUE about the .NET CLR? It provides a language-neutral development &amp; execution environment. It ensures that an application would not be able to access memory that it is not authorized to access. It provides services to run \"managed\" applications. The resources are garbage collected. It provides services to run \"unmanaged\" applications.",
+      "id": "gate-13biuio",
+      "q": "Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?",
       "options": [
-        "Only 1 and 2",
-        "Only 1, 2 and 4",
-        "1, 2, 3, 4",
-        "Only 4 and 5"
+        ".NET class libraries",
+        "Common Language Runtime",
+        "Common Language Infrastructure",
+        "Component Object Model"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,73 @@
       "tags": []
     },
     {
-      "id": "gate-1scg5tk",
-      "q": "Which of the following are valid .NET CLR JIT performance counters? Total memory used for JIT compilation Average memory used for JIT compilation Number of methods that failed to compile with the standard JIT Percentage of processor time spent performing JIT compilation Percentage of memory currently dedicated for JIT compilation",
+      "id": "gate-2qkde4",
+      "q": "Which of the following jobs are NOT performed by Garbage Collector? Freeing memory on the stack. Avoiding memory leaks. Freeing memory occupied by unreferenced objects. Closing unclosed database collections. Closing unclosed files.",
       "options": [
-        "1, 5",
+        "1, 2, 3",
+        "3, 5",
+        "1, 4, 5",
+        "3, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ue57u8",
+      "q": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+      "options": [
+        "Common Language Infrastructure",
+        "CLR",
+        "Garbage Collector",
+        "Class Loader"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8lm5hg",
+      "q": "Which of the following statements correctly define .NET Framework?",
+      "options": [
+        "It is an environment for developing, building, deploying and executing Desktop Applications, Web Applications and Web Services.",
+        "It is an environment for developing, building, deploying and executing only Web Applications.",
+        "It is an environment for developing, building, deploying and executing Distributed Applications.",
+        "It is an environment for developing, building, deploying and executing Web Services."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-j49btk",
+      "q": "Which of the following constitutes the .NET Framework? ASP.NET Applications CLR Framework Class Library WinForm Applications Windows Services",
+      "options": [
+        "1, 2",
+        "2, 3",
         "3, 4",
-        "1, 2",
-        "4, 5"
+        "2, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-c3fz9w",
-      "q": "Which of the following statements is correct about Managed Code?",
+      "id": "gate-v9iu9g",
+      "q": "Which of the following security features can .NET applications avail? PIN Security Code Access Security Role Based Security Authentication Security Biorhythm Security",
       "options": [
-        "Managed code is the code that is compiled by the JIT compilers.",
-        "Managed code is the code where resources are Garbage Collected.",
-        "Managed code is the code that runs on top of Windows.",
-        "Managed code is the code that is written to target the services of the CLR."
+        "1, 4, 5",
+        "2, 5",
+        "2, 3",
+        "3, 4"
       ],
       "correct": 0,
       "explain": "",
@@ -68,133 +128,73 @@
       "tags": []
     },
     {
-      "id": "gate-1io9884",
-      "q": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
-      "options": [
-        "gacutil",
-        "ngen",
-        "sn",
-        "dumpbin"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19sm8ag",
-      "q": "Which of the following are NOT true about .NET Framework? It provides a consistent object-oriented programming environment whether object code is stored and executed locally, executed locally but Internet-distributed, or executed remotely. It provides a code-execution environment that minimizes software deployment and versioning conflicts. It provides a code-execution environment that promotes safe execution of code, including code created by an unknown or semi-trusted third party. It provides different programming models for Windows-based applications and Web-based applications. It provides an event driven programming model for building Windows Device Drivers.",
-      "options": [
-        "1, 2",
-        "2, 4",
-        "4, 5",
-        "1, 2, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o82jaz",
-      "q": "Which of the following assemblies can be stored in Global Assembly Cache?",
-      "options": [
-        "Private Assemblies",
-        "Friend Assemblies",
-        "Shared Assemblies",
-        "Public Assemblies"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-21z2sk",
-      "q": "Code that targets the Common Language Runtime is known as",
-      "options": [
-        "Unmanaged",
-        "Distributed",
-        "Legacy",
-        "Managed Code"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c120d8",
-      "q": "Which of the following statements is correct about the .NET Framework?",
-      "options": [
-        ".NET Framework uses DCOM for achieving language interoperability.",
-        ".NET Framework is built on the DCOM technology.",
-        ".NET Framework uses DCOM for making transition between managed and unmanaged code.",
-        ".NET Framework uses DCOM for creating unmanaged applications."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xd87jr",
-      "q": "Which of the following is the root of the .NET type hierarchy?",
-      "options": [
-        "System.Object",
-        "System.Type",
-        "System.Base",
-        "System.Parent"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Dot Net Framework",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vd5e10",
-      "q": "Which of the following benefits do we get on running managed code under CLR? Type safety of the code running under CLR is assured. It is ensured that an application would not access the memory that it is not authorized to access. It launches separate process for every application running under it. The resources are Garbage collected.",
+      "id": "gate-9n8zto",
+      "q": "Which of the following jobs are done by Common Language Runtime? It provides core services such as memory management, thread management, and remoting. It enforces strict type safety. It provides Code Access Security. It provides Garbage Collection Services.",
       "options": [
         "Only 1 and 2",
-        "Only 2, 3 and 4",
-        "Only 1, 2 and 4",
-        "Only 4"
+        "Only 3, 4",
+        "Only 1, 3 and 4",
+        "Only 2, 3 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zig1tk",
+      "q": "Which of the following statements are correct about a .NET Assembly? It is the smallest deployable unit. Each assembly has only one entry point - Main(), WinMain() or DLLMain(). An assembly can be a Shared assembly or a Private assembly. An assembly can contain only code and data. An assembly is always in the form of an EXE file.",
+      "options": [
+        "1, 2, 3",
+        "2, 4, 5",
+        "1, 3, 5",
+        "1, 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8tns0k",
+      "q": "Which of the following statements are correct about JIT? JIT compiler compiles instructions into machine code at run time. The code compiler by the JIT compiler runs under CLR. The instructions compiled by JIT compilers are written in native code. The instructions compiled by JIT compilers are written in Intermediate Language (IL) code. The method is JIT compiled even if it is not called",
+      "options": [
+        "1, 2, 3",
+        "2, 4",
+        "3, 4, 5",
+        "1, 2"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Dot Net Framework",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-y2yd8m",
+      "q": "Which of the following are parts of the .NET Framework? The Common Language Runtime (CLR) The Framework Class Libraries (FCL) Microsoft Published Web Services Applications deployed on IIS Mobile Applications",
+      "options": [
+        "Only 1, 2, 3",
+        "Only 1, 2",
+        "Only 1, 2, 4",
+        "Only 4, 5"
       ],
       "correct": 0,
       "explain": "",

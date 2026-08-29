@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Disk Operating System Dos",
   "source": "indiabix.com",
-  "count": 71,
+  "count": 16,
   "questions": [
     {
-      "id": "gate-uzapl8",
-      "q": "While working with MS-DOS, which command is used to specify the size of the disk to format.",
+      "id": "gate-coae1s",
+      "q": "Which command is used to send the contents of file named REPORT/TXT to the standard printing device?",
       "options": [
-        "FORMAT/F : size",
-        "FORMAT/N : sector",
-        "FORMAT/T : tracks",
-        "FORMAT/V"
+        "TYPE REPORT.TXT TO PRINTER",
+        "TYPE REPORT.TXT &gt; PRN",
+        "TYPE REPORT.TXT | PRN",
+        "TYPE REPORT.TXT | PRINTER"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v0pic4",
-      "q": "While working with MS-DOS, which command is used to force DOS to recheck all clusters when reformatting a disk?",
+      "id": "gate-17840d4",
+      "q": "HIMEM.SYS controls:",
       "options": [
-        "FORMAT/B",
-        "FORMAT/S",
-        "FORMAT/8",
-        "FORMAT/C"
+        "DOS=HIGH",
+        "RMDRIVE.SYS",
+        "SMARTDRV.SYS",
+        "Extended Memory"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dx8tpo",
-      "q": "The _____ switch instructs DOS to display the directory list in a wide format.",
+      "id": "gate-1mu4rdc",
+      "q": "Where would you load the mouse driver mouse.sys?",
       "options": [
-        "/W",
-        "/O",
-        "/P",
-        "/B"
+        "config.sys",
+        "autoexec.bat",
+        "win.ini",
+        "io.sys"
       ],
       "correct": 0,
       "explain": "",
@@ -68,1353 +68,253 @@
       "tags": []
     },
     {
-      "id": "gate-1xw1vq1",
-      "q": "Which of the following applies to Internal DOS commands?",
-      "options": [
-        "Internal commands can be run whenever the DOS prompt is displayed",
-        "Internal commands are reserved for DOS-level programming",
-        "Internal commands can only be executed from a batch file",
-        "Internal commands are stored on disk separately from COMMAND.COM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-146fefo",
-      "q": "In DOS, what key would you press to step through the Config.sys and Autoexec.bat?",
-      "options": [
-        "F1",
-        "F3",
-        "F5",
-        "F8"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1slk46o",
-      "q": "Which command is used to delete the directory and all its contents in one step?",
-      "options": [
-        "DEL *.*",
-        "RD",
-        "DELTREE",
-        "CD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wdzskg",
-      "q": "Which internal DOS command clears the screen and places the DOS prompt in the upper left corner of the screen?",
-      "options": [
-        "cls",
-        "close",
-        "quit",
-        "exit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pm42nw",
-      "q": "After searching the current directory where does command.com search next?",
-      "options": [
-        "C:\\DOS\\UTILITIES",
-        "Config.sys",
-        "Autoexec.bat",
-        "The Path Statement"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cuc9gu",
-      "q": "Which DOS command will configure a serial printing port?",
-      "options": [
-        "Parallel serial",
-        "Mode LPT1=C0M1",
-        "Direct LPTl=COMl",
-        "Mode printer ()-serial ()"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rlnt0w",
-      "q": "Which command below will instruct DOS to do a \"quick format\".",
-      "options": [
-        "FORMAT A: /QUICK",
-        "FORMAT A: /Q",
-        "FORMAT A: /QU",
-        "FORMAT A: /QF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12mqliw",
-      "q": "While working with MS-DOS, which command is used to display a list of deleted files that DOS can undelete?",
-      "options": [
-        "UNDELETE *.*",
-        "UNDELETE/ALL",
-        "UNDELETE/LIST",
-        "UNDELETE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vsgnps",
-      "q": "Which file executes commands in DOS?",
-      "options": [
-        "MS-DOS.SYS",
-        "CONFIG.SYS",
-        "COMMAND.COM",
-        "SYSTEM.INI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15l2hdc",
-      "q": "What switch would you use to view Smartdrive statistics?",
-      "options": [
-        "/x",
-        "/e:",
-        "/s",
-        "/o:n"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1107eb0",
-      "q": "Which two commands enable you to move between directories?",
-      "options": [
-        "CD",
-        "CHDIR",
-        "MOVE",
-        "MOVE DIR"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o9w1ro",
-      "q": "The autoexec.bat configuration file",
-      "options": [
-        "Is run after config.sys on system boot-up",
-        "Contains all windows configuration files",
-        "Is also known as config.sys",
-        "Checks for system polarity"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hcilvw",
-      "q": "Which command of MS-DOS is used to copy only files that have been modified on or after the date you specify?",
-      "options": [
-        "XCOPY/D : date",
-        "COPY/D : date",
-        "COPY/M",
-        "XCOPY/V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bh8ghw",
-      "q": "Which DOS command will format a floppy disk and transfer the system files",
-      "options": [
-        "SYS C: A:",
-        "SYS A:",
-        "FORMAT A: /S",
-        "FORMAT A: /T"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h7v2l8",
-      "q": "While working with MS-DOS, which command is used to restore files that were backed up using the BACKUP command?",
-      "options": [
-        "COPY",
-        "DISKCOPY",
-        "RESTORE",
-        "STORE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y8jwno",
-      "q": "The term TSR is an abbreviation for:",
-      "options": [
-        "Terminate Stay Ready",
-        "Testing System Read",
-        "Terminal Still Ready",
-        "Terminate Stay Resident"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nm1j3c",
-      "q": "Using the _____ switch causes FDISK to display the partition status of your hard disk without executing FDISK.",
-      "options": [
-        "/show",
-        "/display",
-        "/status",
-        "/part"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lp9b1s",
-      "q": "Which of the following is loaded for CD-ROM support?",
-      "options": [
-        "VLM.EXE",
-        "CDDEX.EXE",
-        "DOSKEY.EXE",
-        "MSCDEX.EXE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pnw4c",
-      "q": "Suppose you had an incurable computer virus and decided to wipe out all the data and partitions on your hard drive and reformat. What is the order in which you must delete the partitions?",
-      "options": [
-        "Extended, Logical, Primary",
-        "Primary, Extended, Logical",
-        "Logical, Extended, Primary",
-        "Logical, Primary, Extended"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p28gfs",
-      "q": "While working with MS-DOS, which command is used to display the contents of a file and pause the display after each screenful of information?",
-      "options": [
-        "TYPE filename | MORE",
-        "CAT filename | MORE",
-        "CAT filename | pg",
-        "MORE filename"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zdggzw",
-      "q": "The MODE command of MS-DOS is used to",
-      "options": [
-        "display information about several types of devices installed in your computer",
-        "provide various types of control over your printers",
-        "make changes of the current display",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-osg2r0",
-      "q": "Which of the following applies to external DOS commands?",
-      "options": [
-        "External commands reside in RAM until called",
-        "External commands are stored on disk separately from COMMAND.COM",
-        "External commands must always be used with the /e switch",
-        "External commands can only be executed from a batch file."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fm76qc",
-      "q": "Which command is used to delete the directory that is empty?",
-      "options": [
-        "DEL *.*",
-        "RD",
-        "ERASE",
-        "MD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dwpjuw",
-      "q": "Which command will be used to display file and directory names only, without size, date, and time information?",
-      "options": [
-        "DIR/W",
-        "DIR A:",
-        "DIR/B",
-        "DIR/S"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tk3fx0",
-      "q": "To organize files on a disk, MS-DOS separates them into areas called _____",
-      "options": [
-        "directories",
-        "buckets",
-        "areas",
-        "area directories"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1m1uu80",
-      "q": "What command can you add to the AUTOEXEC.BAT file so that your computer temporarily stops in the execution of the file before continuing?",
-      "options": [
-        "Pause",
-        "Halt",
-        "Wait x.xx seconds",
-        "Wait until Files=\"x\""
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uzi0fw",
-      "q": "While working with MS-DOS, which command is used to sort the file in ascending order?",
-      "options": [
-        "SORT filename",
-        "SORT &lt; filename",
-        "SORT &gt; filename",
-        "SORT | filename"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14iqxew",
-      "q": "What is the order in which Command.Com searches for programs to execute?",
-      "options": [
-        "EXE, COM, BAT",
-        "EXE, BAT, COM",
-        "COM, EXE, BAT",
-        "BAT, COM, EXE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j42cet",
-      "q": "The COPY command of MS-DOS, is used to:",
-      "options": [
-        "copying files from one floppy disk to another floppy disk",
-        "copying one or more files on the same disk or directory",
-        "copying two or more files into a single file",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1icbguc",
-      "q": "While working with MS-DOS, which command is used to compare the disk in drive A with the disk in drive B, specifying to compare only first side of each disk, and only the first 8 sectors of each track?",
-      "options": [
-        "DISKCOPY A: B:/8",
-        "DISKCOMP A: B:/l/8",
-        "DISKCOMP A: B:/8",
-        "DISKCOMP A: B:/l"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-312bzs",
-      "q": "While working with MS-DOS, which command will you use to display the version?",
-      "options": [
-        "DATE Command",
-        "VER Command",
-        "DISK Command",
-        "FORMAT Command"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11zu507",
-      "q": "What type of commands are individual programs kept, as separate files on the hard disk (DOS diskette)?",
-      "options": [
-        "External",
-        "Internal",
-        "Change",
-        "File"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fyd05k",
-      "q": "Each time you turn the power switch on, which control files will the computer check?",
-      "options": [
-        "COMMAND.COM, IO.SYS",
-        "COMMAND.COM, DATE.COM, TIME.COM",
-        "C0MMAND.COM, IO.SYS, MSDOS.SYS",
-        "CHKDSK.EXE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s6ui7k",
-      "q": "While working with MS-DOS, which command is used to combine FILE1 plus FILE2 into new file named FILE3?",
-      "options": [
-        "COPY FILE3 FILE1+FILE2",
-        "COPY FILE1+FILE2 FILE3",
-        "COPY FILE1+FILE2+FILE3",
-        "COPY FILE2 FILE1+FILE3"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-a27ztk",
-      "q": "Which two of the following DOS commands are used to display or set the date and time of your computer's infernal clock?",
-      "options": [
-        "VER",
-        "HOUR",
-        "DATE",
-        "DAY"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19r6i7n",
-      "q": "When MS-DOS formats a disk, it automatically creates the main directory on your disk, which is called the _____ directory.",
-      "options": [
-        "main",
-        "root",
-        "area",
-        "border"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d8sy2w",
-      "q": "Which command will prevent subsequent changes to the file CBT.EXE?",
-      "options": [
-        "RENAME + r CBT.EXE",
-        "ATTRIB + r CBT.EXE",
-        "COPY + r CBT.EXE",
-        "MODE + r CBT.EXE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1x73em8",
-      "q": "Filename extensions help identify certain files. What filename extension identifies executable files?",
-      "options": [
-        "INF",
-        "PRO",
-        "EXE",
-        "SYS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3warr4",
-      "q": "Which combination of keys allows you to perform a warm boot?",
-      "options": [
-        "Ctrl+ESC",
-        "Ctrl+Alt+DEL",
-        "Ctrl+Shift+DEL",
-        "Ctrl+Shift+ENTER"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ew2u7f",
-      "q": "You suspect that your automatic modem dialer is not working correctly. Which of the following commands will manually dial the number 123-4567?",
-      "options": [
-        "AT1234567",
-        "ATDT1234567",
-        "AT1234567DL",
-        "ATM 1234567"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i12vhg",
-      "q": "Which command is used to copy all files from drive A with extension .TXT to the currently logged drive and directory?",
-      "options": [
-        "COPY a: *.TXT",
-        "COPY *.TXT A:",
-        "COPY *.TXT C:",
-        "COPY *.TXT ALL.TXT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h3xhj8",
-      "q": "While working with MS-DOS, which command is used to switch to the monochrome display from color display?",
-      "options": [
-        "MODE BLACK",
-        "MODE B/W",
-        "MODE MONO",
-        "MODE CO40"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gsbqhs",
-      "q": "Which DOS command is used to detect, diagnose and repair logical and physical disk errors on both, uncompressed and Double space compressed drive?",
-      "options": [
-        "DEFRAG",
-        "DBLSPACE",
-        "SCANDISK",
-        "MSAV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pjog",
-      "q": "What command would you type to list all of the files in the current directory?",
-      "options": [
-        "DIR",
-        "LIST ALL",
-        "SHOW",
-        "SHOW ME"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rc53su",
-      "q": "While working with MS-DOS, which command is used to move file from one directory to another?",
-      "options": [
-        "RENAME",
-        "COPY",
-        "MOVE",
-        "CP"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-neb0ne",
-      "q": "A _____ boot is when DOS is restarted without turning off the computer.",
-      "options": [
-        "warm",
-        "reboot",
-        "shutdown",
-        "system up"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1feqn00",
-      "q": "While using the DIR command, you can use certain switches with it. Which one of the following cannot be used with DIR?",
-      "options": [
-        "/P",
-        "/W",
-        "/S",
-        "/T"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bt3co",
-      "q": "After upgrading your computer to a new DOS version, an older application displays the error message \"Incorrect DOS version\". What should you do to run this application?",
-      "options": [
-        "Use the DOS+ command",
-        "Use the SETVER command",
-        "Restore the old DOS version",
-        "Contact the application's vendor support line"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n5llv4",
-      "q": "When executed from a bootable hard drive, which command will make a formatted floppy disk bootable?",
-      "options": [
-        "COPY C:\\DOS\\COMMAND.COM A:\\",
-        "ATTRIB C:\\*.SYS A:\\",
-        "XCOPY C:\\DOS\\*.* A:\\",
-        "SYS C: A:"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-l1ofb4",
-      "q": "Which of the following commands allows you to make a directory?",
-      "options": [
-        "MAKE",
-        "DIR",
-        "MD",
-        "DD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pf5thy",
-      "q": "While working with MS-DOS, which command is used to specify the colour display, 40 columns and color?",
-      "options": [
-        "MODE COLOUR",
-        "MODE/C",
-        "MODE CO40",
-        "MODE CHANGE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jgbyh",
-      "q": "Which DOS command allows you to compress existing disks and to create new compressed volumes?",
-      "options": [
-        "DEFRAG",
-        "DBLSPACE",
-        "SCANDISK",
-        "MSAV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hoxg8i",
-      "q": "Which command is executed before the others when a computer is first turned on?",
-      "options": [
-        "Device=c:\\emm386.exe",
-        "Device=c:\\dos\\himem.sys",
-        "Prompt=$p$g",
-        "Patch c:\\dos"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1btdzvp",
-      "q": "Where do you load the CD Rom drivers?",
-      "options": [
-        "Autoexec.bat",
-        "Control Panel/Drivers",
-        "Into Upper memory",
-        "Config.sys"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pkdlbd",
-      "q": "Which of the following represents a correct sequence for the boot process on a DOS machine?",
-      "options": [
-        "AUTOEXECBAT, CONFIG.SYS",
-        "CONFIG.SYS, AUTOEXEC.BAT",
-        "AUTOEXECBAT COMMAND.COM",
-        "CONFIG.BAT, AUTOEXEC.BAT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b6zjs4",
-      "q": "When you create a subdirectory within a directory, the process is known as _____",
-      "options": [
-        "directing",
-        "making",
-        "backing",
-        "nesting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r3r2gx",
-      "q": "Which command will be used to display a column file compression ratio for each file of Double spaced disk?",
-      "options": [
-        "DIR/W",
-        "DIR/S",
-        "DIR/B",
-        "DIR /C (/C switch introduced in DOS version 6.00)"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-j5fb58",
-      "q": "While working with MS-DOS, which command is used to copy all files from the currently logged drive and directory with the extension .TXT to the drive A?",
-      "options": [
-        "COPY A: *.TXT",
-        "COPY *.TXT A:",
-        "COPY *.TXT C:",
-        "COPY *.TXT ALL.TXT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i6v81c",
-      "q": "Which command of DOS is used to compare two floppy disks?",
-      "options": [
-        "DISKCOPY",
-        "DISKCOMP",
-        "DISKCOPY A: B/V",
-        "FORMAT A: B:"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i2en2y",
-      "q": "Which command of DOS is used to sort the file in reverse order?",
-      "options": [
-        "SORT &gt; filename",
-        "SORT &lt; filename",
-        "SORT/R &lt; filename",
-        "SORT/V &lt; filename"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6z91qw",
-      "q": "Which DOS command would allow you to redirect a printer?",
-      "options": [
-        "Type",
-        "Capture",
-        "Mode",
-        "Print"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u18ud4",
-      "q": "DOS uses letters of the alphabet to designate disk drives. How many disk drives can DOS address (recognize)?",
-      "options": [
-        "4",
-        "26",
-        "1",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1htpl4f",
-      "q": "The PATH command is usually found as part of your _____ file.",
-      "options": [
-        "CONFIG.SYS",
-        "CONFIG.BAT",
-        "AUTOEXEC.SYS",
-        "AUTOEXEC.BAT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-162309k",
-      "q": "Which command is used to display the subdirectory structure of the currently logged drive and pause the screen display after each screenful of information?",
-      "options": [
-        "TREE",
-        "DELTREE/F",
-        "DIR | MORE",
-        "TREE | MORE"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q397c8",
-      "q": "If you do not know the current time, which command will you use to display the time?",
-      "options": [
-        "COPY",
-        "VER",
-        "TIME",
-        "FORMAT"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vsokcw",
-      "q": "What is a TSR?",
-      "options": [
-        "test status request",
-        "terminate and stay resident program",
-        "take status request",
-        "token set ready"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1y63d8l",
-      "q": "What does MSCDEX.EXE do?",
-      "options": [
-        "Configures hard drives",
-        "it's a SCSI driver",
-        "BIOS setup",
-        "it's a CD-ROM DOS driver"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Disk Operating System Dos",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-y6281k",
-      "q": "Batch files contain a group of MS-DOS commands that are run in successive order. What filename extension identifies batch files?",
+      "id": "gate-1kgtjs",
+      "q": "Filename extensions help identify certain files. What filename extension identifies command files?",
       "options": [
         "COM",
         "BAT",
         "EXE",
         "SYS"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14qxrpc",
+      "q": "Which DOS command is used to remove and scan memory and disk from viruses?",
+      "options": [
+        "MSAV",
+        "DEFRAG",
+        "SCANDISK",
+        "VSAFE"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-qbdt2s",
+      "q": "To conserve battery power on your laptop computer. What DOS v6.x command should you use?",
+      "options": [
+        "Powermon.exe",
+        "Power.exe",
+        "Idel.com",
+        "Pw.sys"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1l7xcyw",
+      "q": "The Fdisk command in DOS _____ .",
+      "options": [
+        "Partitions the hard drive for use",
+        "Fixes erroneous hard drive",
+        "Formats data sectors on a hard drive",
+        "Checks hard drive for lost clusters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-log8kz",
+      "q": "While working with MS-DOS, which command is used to restore only those files modified since the last backup, from the drive A to the currently logged drive or directory?",
+      "options": [
+        "RESTORE A: *.*/S",
+        "RESTORE A: *.*/M",
+        "RESTORE A: *.*/N",
+        "RESTORE A: *.*/L"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jt9sfc",
+      "q": "While working with MS-DOS, which command is used to undelete a bunch of files with extension DOC that you have just deleted?",
+      "options": [
+        "UNDELETE",
+        "UNDELETE *.DOC",
+        "UNDELETE/ALL",
+        "UNDELETE/LIST"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1b6dop1",
+      "q": "In DOS, which of the following keys will bypass the CONFIG.SYS and AUTOEXEC.BAT files?",
+      "options": [
+        "F8",
+        "F5",
+        "F4",
+        "Fl"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-190j8gg",
+      "q": "You want to view the contents of autoexec.bat on the screen using the \"type\" command, but it scrolls by too quickly, what switch do you use to make it pause?",
+      "options": [
+        "type c:\\autoexec.bat /p",
+        "type c:\\autoexec.bat/more",
+        "type c:\\autoexec.bat|pause",
+        "type c:\\autoexec.bat|more."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-x9pe5k",
+      "q": "What file contains commands that configure systems devices?",
+      "options": [
+        "Command.com",
+        "Config.sys",
+        "Autoexec.bat",
+        "Win.ini"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f55zxo",
+      "q": "Which command is used to suppress the prompt that asks you to confirm that you want to delete the directory?",
+      "options": [
+        "DELTREE",
+        "DELTREE/F",
+        "DEL*.*",
+        "ERASE *.*"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-t1ztwo",
+      "q": "The _____ command allows you to modify the default prompt to provide other information",
+      "options": [
+        "prompt",
+        "windows",
+        "cursor",
+        "click"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xfpuw8",
+      "q": "What DOS program can you run to see which serial ports are detected?",
+      "options": [
+        "comdiag",
+        "MSD",
+        "command.com",
+        "SDET"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Disk Operating System Dos",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-forbc0",
+      "q": "Which of the following commands will take you directly to the root directory no matter what subdirectory you are currently in?",
+      "options": [
+        "CD \\root",
+        "CD\\",
+        "CD\\..",
+        "CD.."
       ],
       "correct": 0,
       "explain": "",

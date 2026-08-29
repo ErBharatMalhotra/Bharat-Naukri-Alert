@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Programmable Logic Device",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 19,
   "questions": [
     {
-      "id": "gate-b1mzic",
-      "q": "SPLD is a program language used by PLD software.",
+      "id": "gate-mudf78",
+      "q": "The JTAG signals are named TDI, TDO, TMS, and TCK.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-up0eyk",
-      "q": "The Boolean sum of the four product terms is called the sum-of-products.",
+      "id": "gate-1a5p633",
+      "q": "The programming technologies that are used in CPLD devices are all nonvolatile.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-11iowrs",
-      "q": "CPLDs and FPGAs are often referred to as high-capacity programmable logic devices (HCPLDs).",
+      "id": "gate-1em0s4s",
+      "q": "Generally, PLDs can be described as being one of four different types.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1c2zjp4",
-      "q": "In a PLD, a blown fuse at an OR gate is a LOW and a blown fuse at an AND gate is a HIGH.",
+      "id": "gate-lqic1s",
+      "q": "The programming technologies that are used in FPGA devices include SRAM, flash, and antifuse, with flash being most common.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1s1ttg",
-      "q": "The hard core portions of FPGAs are reprogrammable in the field.",
+      "id": "gate-3ozwt0",
+      "q": "The Altera UPIX educational development board contains an EP10K60 device in a 280-pin package.",
       "options": [
         "True",
         "False"
@@ -98,1361 +98,11 @@
       "tags": []
     },
     {
-      "id": "gate-3kfa04",
-      "q": "Based on the high-density architecture of logic cells, FLEX10K devices are generally classified as HCPLDs.",
+      "id": "gate-15ji1xz",
+      "q": "A unit of logic in an FPGA that is made up of multiple smaller logic modules and a local programmer interconnect that is used to connect internal logic modules is called a ________.",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h5iqg4",
-      "q": "A CPLD is basically a simplified PLD.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-o66wpk",
-      "q": "The GAL22V10 has 12 outputs pins and 10 input pins.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n88izo",
-      "q": "The GAL16V8 has 32 input variables.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fohojo",
-      "q": "Xilinx software uses triangular symbols called buffers to define pins as input or output.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16bih0",
-      "q": "A GAL22V10 ________.",
-      "options": [
-        "has up to 32 inputs and 10 outputs",
-        "is a type of SPLD",
-        "has 10 inputs and 22 outputs",
-        "is downloadable from the manufacturer's Web site"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8f3abs",
-      "q": "Most FPGA logic modules utilize a(n) ________ approach to create the desired logic functions.",
-      "options": [
-        "AND array",
-        "Look-up table",
-        "OR array",
-        "AND and OR array"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m5igfl",
-      "q": "An EPM 7128S in a ________ PQFP package has 12 I/O per LAB plus 4 additional input-only pins for a total of 100 pins.",
-      "options": [
-        "100-pin",
-        "120-pin",
-        "140-pin",
-        "160-pin"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jt6oxh",
-      "q": "A macrocell is ________.",
-      "options": [
-        "part of a PAL or GAL",
-        "a type of one-time programmable SPLD",
-        "an example of intellectual property",
-        "a logic array block"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3gny0",
-      "q": "The final step in a design flow in which the logic design is implemented in the target device is called ________.",
-      "options": [
-        "design entry",
-        "simulation",
-        "downloading",
-        "compiling"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18oc60g",
-      "q": "In the MAX7000S device up to ________ signals can feed each LAB from the PIA.",
-      "options": [
-        "0",
-        "18",
-        "36",
-        "72"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xf3y1c",
-      "q": "FLEX10K devices are generally classified as ________.",
-      "options": [
-        "PLDs",
-        "FPGAs",
-        "HCPLDs",
-        "CPLDs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hwghne",
-      "q": "The major structures in the MAX7000S are the ________ and ________.",
-      "options": [
-        "LUT, PIA",
-        "FMUX, LAB",
-        "LAB, PIA",
-        "LUT, FMUX"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jxe46k",
-      "q": "Four subcategories of ASIC devices are available to create digital systems. These are PLDs, gate arrays, standard cells, and ________.",
-      "options": [
-        "HCPLDs",
-        "full custom",
-        "GAL",
-        "FPLDs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1p8wnt6",
-      "q": "The Boolean expression AB + CD is an example of ________.",
-      "options": [
-        "PAL",
-        "GAL",
-        "SOP",
-        "POS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b9432w",
-      "q": "ALM is the acronym for ________.",
-      "options": [
-        "Array Logic Matrix",
-        "Arithmetic Logic Module",
-        "Asynchronous Local Modulator",
-        "Adaptive Logic Module"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8bgor0",
-      "q": "The GAL16V8 has:",
-      "options": [
-        "16 dedicated inputs.",
-        "8 special function pins.",
-        "8 pins that are used as inputs or outputs.",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1oiw3k",
-      "q": "PALs tend to execute ________ logic.",
-      "options": [
-        "SAP",
-        "SOP",
-        "PLA",
-        "SPD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ta6ul4",
-      "q": "How many pins are in an EDF10K70 package?",
-      "options": [
-        "70",
-        "140",
-        "240",
-        "532"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bcpgoc",
-      "q": "A(n) ________ consists of a programmable array of AND gates that connects to a fixed array of OR gates and is usually OTP.",
-      "options": [
-        "GAL",
-        "CPLD",
-        "PAL",
-        "SPLD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13yotl4",
-      "q": "What is another name for digital circuitry called sequential logic?",
-      "options": [
-        "logic macrocell",
-        "logic array",
-        "flip-flop memory circuitry",
-        "inverter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5yxa00",
-      "q": "When did the first PLD appear?",
-      "options": [
-        "More than 10 years ago",
-        "More than 20 years ago",
-        "More than 30 years ago",
-        "More than 40 years ago"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hhwbn8",
-      "q": "SPLDs, CPLDs, and FPGAs are all which type of device?",
-      "options": [
-        "PAL",
-        "PLD",
-        "EPROM",
-        "SRAM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-118vkbw",
-      "q": "Cascade chains are closely associated with ________.",
-      "options": [
-        "CLBs",
-        "SOP functions",
-        "logic expansion",
-        "all of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b71ooa",
-      "q": "How many macrocells are in a MAX700S LAB?",
-      "options": [
-        "8",
-        "16",
-        "32",
-        "64"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2tnumo",
-      "q": "Which is not a type of PLD?",
-      "options": [
-        "SPLD",
-        "HPLD",
-        "CPLD",
-        "FPGA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rkn0gw",
-      "q": "An SPLD listed as 16H8 would have ________.",
-      "options": [
-        "active-HIGH outputs",
-        "active-LOW outputs",
-        "variable-level outputs",
-        "latches at the outputs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-115eh54",
-      "q": "Which type of PLD could be used to program basic logic functions?",
-      "options": [
-        "PLA",
-        "PAL",
-        "CPLD",
-        "all the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ah689g",
-      "q": "The complex programmable logic device (CPLD) contains several PAL-type simple programmable logic devices (SPLDs) called:",
-      "options": [
-        "macrocells",
-        "microcells",
-        "AND/OR arrays",
-        "fuse-link arrays"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14ct36m",
-      "q": "The FPLA has a programmable AND array and a programmable OR array.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16puuyo",
-      "q": "The PAL structure is able to perform any sum-of-products (SOP) operation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xopavs",
-      "q": "Using a hardware solution for your digital system design is always faster than a software solution.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10htde4",
-      "q": "A GAL is a programmable/reprogrammable PAL.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ybhioo",
-      "q": "Altera Corporation and Xilinx Corporation are the two leading PLD manufacturers.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8weqe4",
-      "q": "LUT is an acronym for look-up table.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lzcys8",
-      "q": "A PAL uses a programmable OR array followed by a fixed AND array.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bbdg6n",
-      "q": "The SRAM technology is volatile.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ni2z1k",
-      "q": "The major structures of the MAX7000S are the logic array block (LAB) and the programmable intermediate array (PIA).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jpg8hc",
-      "q": "All I/O pins in the MAX7000S family have a tristate buffer.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cvn1t8",
-      "q": "In the GAL16V8, the ________ controls the tristate buffer's enable input.",
-      "options": [
-        "FMUX",
-        "OMUX",
-        "PTMUX",
-        "TMUX"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18c9bi8",
-      "q": "All inputs to the MAX7000S device and all macrocell outputs feed the ________.",
-      "options": [
-        "LUT",
-        "PIA",
-        "LAB",
-        "PIA and LAB"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1eyuu4w",
-      "q": "In the GAL16V8, the ________ selects the signal that is fed back into the input matrix.",
-      "options": [
-        "FMUX",
-        "OMUX",
-        "PTMUX",
-        "TSMUX"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-10z7jvc",
-      "q": "An application program in the development software package that controls the operation of the software is called a ________.",
-      "options": [
-        "compiler",
         "bed-of-nails",
         "boundary scan",
-        "primitive"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19rer9c",
-      "q": "Most complex digital designs include ________.",
-      "options": [
-        "standard logic devices",
-        "ASIC devices",
-        "microprocessor/DSP devices",
-        "a mix of different hardware categories"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fxxie3",
-      "q": "The field programmable logic array was the first ________ programmable logic device.",
-      "options": [
-        "understandable",
-        "logic array",
-        "multifunction",
-        "nonmemory"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hcckro",
-      "q": "The GAL16V8 has architecture that is very similar to the ________ device.",
-      "options": [
-        "PAL",
-        "PROM",
-        "PLD",
-        "SPLD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zw05wg",
-      "q": "In a GAL16V8, the D flip-flops contained in the OLMCs have ________ and ________.",
-      "options": [
-        "asynchronous reset, synchronous preset",
-        "asynchronous preset, synchronous reset",
-        "asynchronous clear, synchronous set",
-        "asynchronous set, synchronous clear"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hhorvw",
-      "q": "In a programmable logic device circuit diagram, the inputs to each of the OR gates are designated by ________.",
-      "options": [
-        "a dot",
-        "a bus",
-        "a single line",
-        "4 inputs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ow27fk",
-      "q": "The SPLD classification includes the ________ PLD devices.",
-      "options": [
-        "earliest",
-        "smallest",
-        "largest",
-        "newest"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1oxfozc",
-      "q": "A(n) ________ is a section of embedded logic that is commonly found in FPGAs.",
-      "options": [
-        "LUT",
-        "core",
-        "DSP",
-        "PI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16jmrmc",
-      "q": "In a FLEX10K, what two outputs will the LE produce?",
-      "options": [
-        "The LAB and the fast track",
-        "ON and OFF",
-        "Hi-Z and ON",
-        "Hi-Z and OFF"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fisf1x",
-      "q": "What is the major downfall of microprocessor/DSP systems?",
-      "options": [
-        "Speed&#8212;they are too fast",
-        "Speed&#8212;they are too slow",
-        "Too much flexibility",
-        "Not enough flexibility"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h0dmb0",
-      "q": "ASIC stands for:",
-      "options": [
-        "advanced speed integrated circuit.",
-        "advanced standard integrated circuit.",
-        "application specific integrated circuit.",
-        "application speedy integrated circuit."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1esavf0",
-      "q": "What is an EPM7128S?",
-      "options": [
-        "An Altera MAX7000S CPLD",
-        "An Altera UP2",
-        "A DeVry eSOC",
-        "A BSR PL DT-2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fpfj2p",
-      "q": "An SPLD listed as 22V10 has ________.",
-      "options": [
-        "10 inputs, 10 outputs, and requires a 22 V power source",
-        "11 inputs, 11 outputs, and requires a 10 V power source",
-        "22 inputs and 10 outputs",
-        "10 inputs and 22 outputs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i8522w",
-      "q": "The Altera MAX 7000 series ________.",
-      "options": [
-        "uses an E2PROM process technology",
-        "can have between 2 and 16 LABS and I/O control blocks",
-        "is available with DC supply voltages between 2.5 V and 5 V",
-        "all of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o87zjk",
-      "q": "A macrocell basically contains ________.",
-      "options": [
-        "a programmable AND-OR gate array and some input buffers",
-        "an OR-gate array and some output logic",
-        "an AND-OR gate array and some output logic",
-        "licensed programming"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hqpemb",
-      "q": "The complex programmable logic device (CPLD) features a(n) ________ type of memory.",
-      "options": [
-        "volatile",
-        "nonvolatile",
-        "EPROM",
-        "volitile EPROM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4nxsac",
-      "q": "The PAL has an AND and OR structure similar to a PROM, but in the PAL the inputs to the AND gates are programmable, whereas the inputs to the OR gate are hard-wired.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-64hqgg",
-      "q": "Gate arrays are ULSI circuits that offer hundreds of thousands of gates.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-116al80",
-      "q": "Schematic capture is a process performed by PLD software.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vl0j4c",
-      "q": "An expensive form of programmable logic is SPLD.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-90anbt",
-      "q": "Most PAL devices have a tristate buffer driving the input pins.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-orcwr0",
-      "q": "PLDs did not gain widespread acceptance with digital until the mid-1980s, when a device called a PAL was introduced.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yaf6iy",
-      "q": "Expanders make it possible to increase the number of terms in a programmable SOP operation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-sjfa6g",
-      "q": "The GAL16V8 has eight dedicated input pins.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1py1ess",
-      "q": "In the FLEX10K device, the LE can produce two outputs to drive local (LAB) and global (fast track) interconnects on the chip.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i1l11s",
-      "q": "The architecture of a PAL differs slightly from that of a PROM.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zuvgmg",
-      "q": "Using a hardware solution for a digital system is always ________ than a software solution.",
-      "options": [
-        "slower",
-        "harder",
-        "easier",
-        "faster"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6nk554",
-      "q": "The programming technologies that are used in FPGA devices include SRAM, flash, and antifuse, with ________ being the most common.",
-      "options": [
-        "SRAM",
-        "flash",
-        "antifuse",
-        "SRAM and flash"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13h788w",
-      "q": "A method for the automated testing of printed circuit boards is called a(n) ________.",
-      "options": [
-        "bed-of-nails",
-        "LUT",
         "CLB",
         "CPLD"
       ],
@@ -1468,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-ukxiuw",
-      "q": "In a MAX7000S device, when an I/O pin is configured as an input, the associated macrocell can be used for ________.",
+      "id": "gate-wn53ew",
+      "q": "In a FLEX10K device, the carry chain provides a fast carry forward function between ________.",
       "options": [
-        "buried logic",
-        "another output",
-        "extra speed",
-        "in-system testing"
+        "LUTs",
+        "EABs",
+        "LEs",
+        "LABs"
       ],
       "correct": 0,
       "explain": "",
@@ -1488,33 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-9ybyg4",
-      "q": "The process or sequence of all operations carried out to ultimately program a target device is called the ________.",
+      "id": "gate-1dc4t8k",
+      "q": "The Boolean expression (A + B)(C + D) is an example of ________.",
       "options": [
-        "graphic entry",
         "LAB",
-        "downloading",
-        "design flow"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3t0et",
-      "q": "The ________ can generate any possible logic function of the input variables because it generates every possible AND product term.",
-      "options": [
-        "GAL",
+        "LUT",
         "SOP",
-        "PROM",
-        "LAB"
+        "POS"
       ],
       "correct": 0,
       "explain": "",
@@ -1528,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-p0wee0",
-      "q": "The EPM 7128S is a(n) ________ device.",
+      "id": "gate-5kdu09",
+      "q": "An Altera FLEX10K device uses a(n) ________ architecture.",
       "options": [
-        "PLD",
-        "JTAG",
-        "EEPROM",
-        "ISP"
+        "OR array",
+        "AND array",
+        "OR and AND array",
+        "look-up table"
       ],
       "correct": 0,
       "explain": "",
@@ -1548,28 +178,8 @@
       "tags": []
     },
     {
-      "id": "gate-1gepeqc",
-      "q": "The distinction between CPLDs and FPGAs is ________.",
-      "options": [
-        "well known",
-        "very small",
-        "often fuzzy",
-        "very large"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cdw568",
-      "q": "________ is a mature technology consisting of numerous subfamilies that have been developed over many years of use.",
+      "id": "gate-9od1iy",
+      "q": "The ________ is the most popular standard logic device family today.",
       "options": [
         "TTL",
         "CMOS",
@@ -1588,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-63yz4h",
-      "q": "The flexibility of the GAL16V8 is in its ________.",
+      "id": "gate-1d7rvqo",
+      "q": "A GAL is essentially a ________.",
       "options": [
-        "AND/OR array",
-        "D flip-flops",
-        "programmable output logic macro cells",
-        "EEPROM"
+        "non-reprogrammable PAL",
+        "PAL that is programmed only by the manufacturer",
+        "very large PAL",
+        "reprogrammable PAL"
       ],
       "correct": 0,
       "explain": "",
@@ -1608,11 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-q1cynk",
-      "q": "A look-up table is simply a truth table with all the possible output connections listed with their desired input response.",
+      "id": "gate-1e7rr6g",
+      "q": "What is an OTP device?",
       "options": [
-        "True",
-        "False"
+        "Optical transporting port",
+        "Octal transmitting pixel",
+        "Operational topical portable",
+        "One-time programmable"
       ],
       "correct": 0,
       "explain": "",
@@ -1626,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-u9e6o5",
-      "q": "The final step in the device programming sequence is ________.",
+      "id": "gate-tnq6ra",
+      "q": "How many product terms can a MAX+Plus II compiler borrow from adjacent macrocells in the same LAB?",
       "options": [
-        "compiling",
-        "downloading",
-        "simulation",
-        "synthesis"
+        "0",
+        "5",
+        "10",
+        "20"
       ],
       "correct": 0,
       "explain": "",
@@ -1646,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xrshpd",
-      "q": "Most look-up tables in field-programmable gate arrays (FGPAs) use ________ inputs, resulting in ________ possible outputs.",
+      "id": "gate-1qnzp8m",
+      "q": "Each programmable array logic (PAL) gate product is applied to an OR gate and, if combinational logic is desired, the product is ORed and then:",
       "options": [
-        "4,16",
-        "8,16",
-        "4,12",
-        "6,12"
+        "the polarity fuse is restored",
+        "sent to an inverter for output",
+        "sent immediately to an output pin",
+        "passed to the AND function for output"
       ],
       "correct": 0,
       "explain": "",
@@ -1666,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tz5pqh",
-      "q": "What is the defining difference between microprocessor/DSP systems and other digital systems?",
+      "id": "gate-n8zzto",
+      "q": "________ are used at the inputs of PAL/GAL devices in order to prevent input loading from a large number of AND gates.",
       "options": [
-        "The digital system follows a programmed sequence of instructions that the designer specified.",
-        "The microprocessor follows a programmed sequence of instructions that the designer specified.",
-        "The digital system is faster.",
-        "The microprocessor/DSP is faster."
+        "Simplified AND gates",
+        "Fuses",
+        "Buffers",
+        "Latches"
       ],
       "correct": 0,
       "explain": "",
@@ -1686,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-11reejk",
-      "q": "Why have PLDs taken over so much of the market?",
+      "id": "gate-14he2u8",
+      "q": "Which is not a part of a GAL16V8's OLMC?",
       "options": [
-        "One PLD does the work of many ICs.",
-        "The PLDs are cheaper.",
-        "Less power is required.",
-        "All of the above"
+        "TSMUX",
+        "OMUX",
+        "FMUX",
+        "PSMUX"
       ],
       "correct": 0,
       "explain": "",
@@ -1706,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-sfabno",
-      "q": "What is the status of a tristate output buffer on a MAX7000S family device?",
+      "id": "gate-trzesc",
+      "q": "What is PROM?",
       "options": [
-        "It is permanently enabled or disabled.",
-        "It is controlled by one of the two global output enable pins.",
-        "It is controlled by other inputs or functions generated by other macrocells.",
-        "All of the above"
+        "SPLD",
+        "QPLD",
+        "HPLD",
+        "PLD"
       ],
       "correct": 0,
       "explain": "",
@@ -1726,13 +338,13 @@
       "tags": []
     },
     {
-      "id": "gate-uv924",
-      "q": "GAL is an acronym for ________.",
+      "id": "gate-1jtspqi",
+      "q": "A slice consists of ________.",
       "options": [
-        "Generic Array Logic",
-        "General Array Logic",
-        "Giant Array Logic",
-        "Generic Analysis Logic"
+        "only two logic cells",
+        "between 2 and 8 logic cells",
+        "up to 16 logic cells",
+        "a single CLB"
       ],
       "correct": 0,
       "explain": "",
@@ -1746,177 +358,13 @@
       "tags": []
     },
     {
-      "id": "gate-y5mfg",
-      "q": "What gives a GAL its flexibility?",
+      "id": "gate-1r92nlo",
+      "q": "Product terms are the outputs of which type of gate within a PLD array?",
       "options": [
-        "Its speed",
-        "Its reprogrammable EPROM",
-        "Its large logic arrays",
-        "Its programmable OLMCs"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-4tga51",
-      "q": "What programmable technology is used in FPGA devices?",
-      "options": [
-        "SRAM",
-        "FLASH",
-        "Antifuse",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-u2kcto",
-      "q": "The schematic editor allows you to connect with predefined logic symbols.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dyam3w",
-      "q": "VHDL code is divided into three sections: library declaration, entity declaration, and architecture body.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wymdu6",
-      "q": "All inputs to the MAX7000S device and all macrocell outputs feed the PIA.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-113anew",
-      "q": "Sum-of-products is two or more product terms that are NANDed together.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1evvj6o",
-      "q": "Most complex digital designs include a mix of different hardware categories.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-spisw8",
-      "q": "The MAX+PLUS II compiler will automatically program a macrocell to borrow up to six product terms from each of three adjacent macrocells in the same LAB.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-56sh33",
-      "q": "Antifuse devices are volatile.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Programmable Logic Device",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-33tpro",
-      "q": "With microcomputer/DSP systems, devices can be electronically controlled and data can be manipulated by executing a program of instructions that has been written for the application.",
-      "options": [
-        "True",
-        "False"
+        "OR",
+        "XOR",
+        "AND",
+        "flip-flop"
       ],
       "correct": 0,
       "explain": "",

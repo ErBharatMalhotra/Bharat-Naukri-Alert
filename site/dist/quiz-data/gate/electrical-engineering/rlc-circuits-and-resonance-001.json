@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Rlc Circuits And Resonance",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 11,
   "questions": [
     {
-      "id": "gate-1g4g2fj",
-      "q": "In a series RLC circuit, the current is minimum at resonance.",
+      "id": "gate-1n60ltk",
+      "q": "Resonance is a condition in a series RLC circuit in which the capacitive and inductive reactances are equal in magnitude.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-y9hu3c",
-      "q": "At series resonance, the inductive reactance and capacitive reactance are never equal.",
+      "id": "gate-xn8914",
+      "q": "In a series RLC circuit, the larger reactance determines the net reactance of the circuit.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-o9h0l4",
-      "q": "A lower Q produces a narrower bandwidth.",
+      "id": "gate-1bd4fpc",
+      "q": "The reactive voltages, VL and VC, cancel at resonance.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-xpnpno",
-      "q": "A series resonant circuit is commonly called a tank circuit.",
+      "id": "gate-1yz4c5i",
+      "q": "The quality factor (Q) is the ratio of true power to apparent power.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1fhdz00",
-      "q": "XL and XC have opposing effects in an RLC circuit.",
+      "id": "gate-1a4a1yg",
+      "q": "In a parallel RLC circuit, the smaller reactance determines the net reactance of the circuit.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-15ufgk9",
-      "q": "A 10 resistor, a 90 mH coil, and a 0.015 F capacitor are in series across an ac source. The impedance magnitude at 1,200 Hz below fr is",
+      "id": "gate-9gfyv8",
+      "q": "The impedance at the resonant frequency of a series RLC circuit with L = 20 mH, C = 0.02 F, and RW = 90 is",
       "options": [
-        "1,616",
-        "161",
-        "3,387",
-        "1,771"
+        "0",
+        "90",
+        "20 k",
+        "40 k"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-zrwmms",
-      "q": "In a series RLC circuit that is operating above the resonant frequency, the current",
+      "id": "gate-2qrvyx",
+      "q": "A 6.8 k resistor, a 7 mH coil, and a 0.02 F capacitor are in parallel across a 17 kHz ac source. The coil's internal resistance, RW, is 30 . The equivalent parallel resistance, Rp(eq), is",
       "options": [
-        "lags the applied voltage",
-        "leads the applied voltage",
-        "is in phase with the applied voltage",
-        "is zero"
+        "1,878",
+        "18,780",
+        "18,750",
+        "626"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1gklw3u",
-      "q": "A 15 resistor, a 220 H coil, and a 60 pF capacitor are in series across an ac source. What is the bandwidth of the circuit?",
+      "id": "gate-1yg6fj8",
+      "q": "Referring to Problem 20, what is the total parallel resistance (Rp(tot))?",
       "options": [
-        "138 MHz",
-        "10,866 Hz",
-        "1,907 Hz",
-        "138 kHz"
+        "4.99",
+        "499",
+        "4,992",
+        "6,800"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-kkna9c",
-      "q": "A resistor of 3 k, a 0.05 F capacitor, and a 120 mH coil are in series across a 5 kHz, 20 V ac source. What is the impedance, expressed in polar form?",
+      "id": "gate-128izpk",
+      "q": "A 200 resistor, a coil with 30 of reactance, and a capacitor of unknown reactance are in series across an ac source. The circuit is at resonance. Circuit impedance",
       "options": [
-        "636",
-        "3,769",
-        "433",
-        "4,337"
+        "is 230",
+        "is 170",
+        "is 200",
+        "cannot be determined"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-slp0k",
-      "q": "A 12 resistor, a 40 F capacitor, and an 8 mH coil are in series across an ac source. The resonant frequency is",
+      "id": "gate-lnx2b0",
+      "q": "Referring to Problem 8, the total current is",
       "options": [
-        "28.1 Hz",
-        "281 Hz",
-        "2,810 Hz",
-        "10 kHz"
+        "1.5 A",
+        "573 mA",
+        "5.73 A",
+        "1.19 A"
       ],
       "correct": 0,
       "explain": "",
@@ -198,193 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-1oakmtk",
-      "q": "If the resistance in parallel with a parallel resonant circuit is reduced, the bandwidth",
+      "id": "gate-43wz1k",
+      "q": "A certain series RLC circuit with a 200 Hz, 15 V ac source has the following values: R = 12 , C = 80 F, and L = 10 mH. The total impedance, expressed in polar form, is",
       "options": [
-        "disappears",
-        "becomes sharper",
-        "increases",
-        "decreases"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9ykp5g",
-      "q": "A 90 resistor, a coil with 30 of reactance, and a capacitor with 50 of reactance are in series across a 12 V ac source. The current through the resistor is",
-      "options": [
-        "9 mA",
-        "90 mA",
-        "13 mA",
-        "130 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ygth0w",
-      "q": "A resonant circuit has a lower critical frequency of 7 kHz and an upper critical frequency of 13 kHz. The bandwidth of the circuit is",
-      "options": [
-        "7 kHz",
-        "13 kHz",
-        "20 kHz",
-        "6 kHz"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-r3qf4g",
-      "q": "If the value of C in a series RLC circuit is decreased, the resonant frequency",
-      "options": [
-        "is not affected",
-        "increases",
-        "is reduced to zero",
-        "decreases"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hwq1gs",
-      "q": "A 24 resistor, an inductor with a reactance of 120 , and a capacitor with a reactance of 120 are in series across a 60 V source. The circuit is at resonance. The voltage across the inductor is",
-      "options": [
-        "60 V",
-        "660 V",
-        "30 V",
-        "300 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-udqpih",
-      "q": "To tune a parallel resonant circuit to a higher frequency, the capacitance should be",
-      "options": [
-        "increased",
-        "decreased",
-        "left alone",
-        "replaced with inductance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-adfsnc",
-      "q": "In a certain series resonant circuit, VC = 125 V, VL = 125 V, and VR = 40 V. The value of the source voltage is",
-      "options": [
-        "125 V",
-        "250 V",
-        "290 V",
-        "40 V"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k8pexk",
-      "q": "A certain series resonant circuit has a bandwidth of 2 kHz. If the existing coil is replaced with one having a higher value of Q, the bandwidth will",
-      "options": [
-        "increase",
-        "remain the same",
-        "decrease",
-        "be less selective"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1luzk3w",
-      "q": "A 9 mH coil is in parallel with a 0.015 F capacitor across an 18 kHz ac source. The coil's internal resistance, RW, is 60 . The circuit impedance is",
-      "options": [
-        "17,340",
-        "1,734",
-        "290",
-        "1,018"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Rlc Circuits And Resonance",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gpf0g4",
-      "q": "A 15 resistor, an inductor with 8 inductive reactance, and a capacitor with 12 capacitive reactance are in parallel across an ac voltage source. The circuit impedance is",
-      "options": [
-        "12.7",
-        "127",
-        "4,436",
-        "6,174"
+        "12.2812.34&deg;",
+        "12.5712.34&deg;",
+        "9.9512.34&deg;",
+        "12.6212.34&deg;"
       ],
       "correct": 0,
       "explain": "",

@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-c44u8k",
-      "q": "A workgroup typically comprises between 25 and 100 persons.",
+      "id": "gate-1rf6yup",
+      "q": "All enterprise resource planning (ERP) systems are heavily dependent on databases to store the data required by the ERP applications.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qhmzb8",
-      "q": "The source of the data is sometimes called the system of record.",
+      "id": "gate-pd5uek",
+      "q": "Database management systems were first introduced in the 1950s.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-xn6qp0",
-      "q": "Data quality problems currently cost U.S. businesses some $60 million each year (Hudica, 2003).",
+      "id": "gate-1yhavz4",
+      "q": "Databases that contain historical and summarized information are usually called data warehouses.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1khfs7j",
-      "q": "Stand-alone databases exhibit many of the same advantages common to file processing systems.",
+      "id": "gate-p502xs",
+      "q": "An advantage of the database approach is the creation of maximum data redundancy.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1m0bj9m",
-      "q": "The database approach requires additional costs and risks.",
+      "id": "gate-xzbwj8",
+      "q": "An enterprise data model is a relational model that shows the high-level entities for the organization and associations among those entities.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-15owfso",
-      "q": "Data descriptions are stored in a central location called the depository.",
+      "id": "gate-8woik",
+      "q": "A database application can perform which of the following activities?",
       "options": [
-        "True",
-        "False"
+        "Add records",
+        "Read records",
+        "Update records",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ddug9s",
-      "q": "Stored representations of objects and events that have meaning and importance in the user's environment are known as a database.",
+      "id": "gate-yzibuo",
+      "q": "An enterprise data model is:",
       "options": [
-        "True",
-        "False"
+        "a graphical model that shows the high-level entities for an organization.",
+        "a graphical model that shows all entities for an organization.",
+        "a non-graphical model that shows the high-level entities for an organization.",
+        "a non-graphical model that shows the all entities for an organization."
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-1drav07",
-      "q": "Another name for multimedia data is unstructured data.",
+      "id": "gate-g72rtw",
+      "q": "A shared database should:",
       "options": [
-        "True",
-        "False"
+        "be accurate and available.",
+        "provide for backup and recovery.",
+        "be secure.",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -152,11 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-xj3xxm",
-      "q": "The most common source of database failures in an organization is the failure to implement a strong database administration function.",
+      "id": "gate-1yv3k2y",
+      "q": "Data administrators are responsible for:",
       "options": [
-        "True",
-        "False"
+        "physical database design.",
+        "managing technical issues in the database environment.",
+        "overall management of data resources in an organization.",
+        "writing application programs."
       ],
       "correct": 0,
       "explain": "",
@@ -170,11 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1p5k64c",
-      "q": "The primary mechanism for providing context for data is metadata.",
+      "id": "gate-6l2vvy",
+      "q": "Which of the following types of databases are the most common?",
       "options": [
-        "True",
-        "False"
+        "Personal",
+        "Workgroup",
+        "Department",
+        "Enterprise"
       ],
       "correct": 0,
       "explain": "",
@@ -188,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-fsok8s",
-      "q": "A data warehouse uses:",
+      "id": "gate-19vlos0",
+      "q": "Which of the following is true for a relational database?",
       "options": [
-        "partial operational data.",
-        "historical operational data.",
-        "future operational data.",
-        "health care data."
+        "Data is represented by tables.",
+        "It is difficult to access data.",
+        "Complex programs have to be written for simple queries.",
+        "All of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -208,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ogfi3o",
-      "q": "Metadata enables database designers and users to do all of the following except:",
+      "id": "gate-19soeng",
+      "q": "Some advantages of the database approach include all, but:",
       "options": [
-        "sample data.",
-        "understand what data exist.",
-        "what the fine distinctions are between similar data items.",
-        "what the data mean."
+        "minimal data redundancy.",
+        "improved data consistency.",
+        "improved data sharing.",
+        "program-data dependency."
       ],
       "correct": 0,
       "explain": "",
@@ -228,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-p8db24",
-      "q": "Duplicate data often results in loss of data integrity because:",
+      "id": "gate-juy7gs",
+      "q": "An enterprise database is which of the following?",
       "options": [
-        "the data formats may be inconsistent.",
-        "data values may not agree.",
-        "Both A & B.",
-        "Neither A & B."
+        "A database designed to support only users external to an organization",
+        "A database designed to support an entire organization",
+        "A database designed to support a relatively small group",
+        "A database designed to support a single PC"
       ],
       "correct": 0,
       "explain": "",
@@ -248,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1h9z6wk",
-      "q": "Legacy data is which of the following?",
+      "id": "gate-1ejtq2c",
+      "q": "Structured data may include which of the following?",
       "options": [
-        "Data contained in a newly-installed system",
-        "Data rejected during the installation of a new system",
-        "Data contained in a file system",
-        "Data contained by a system used prior to the installation of a new system"
+        "Photo image",
+        "Video clip",
+        "Dates",
+        "None of the above."
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-pdy2qr",
-      "q": "A database management system (DBMS) is a:",
+      "id": "gate-l22dnw",
+      "q": "An extranet is which of the following?",
       "options": [
-        "hardware system used to create, maintain, and provide controlled access to a database.",
-        "hardware system used to create, maintain, and provide uncontrolled access to a database.",
-        "software system used to create, maintain, and provide controlled access to a database.",
-        "software system used to create, maintain, and provide uncontrolled access to a database."
+        "The use of Internet protocols with limited access to company data by the company's customers and suppliers.",
+        "The use of Internet protocols with unlimited access to company data by the company's customers and suppliers.",
+        "The use of Internet protocols with limited access to company data by people within an organization.",
+        "The use of Internet protocols with unlimited access to company data by people within an organization."
       ],
       "correct": 0,
       "explain": "",

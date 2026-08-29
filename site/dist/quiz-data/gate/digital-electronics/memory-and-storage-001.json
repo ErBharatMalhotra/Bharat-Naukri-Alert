@@ -5,11 +5,11 @@
   "subject": "Digital Electronics",
   "topic": "Memory And Storage",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 20,
   "questions": [
     {
-      "id": "gate-17awqek",
-      "q": "If a memory design allows a storage location to be accessed without first sequencing through other locations, it is called Random Access Memory.",
+      "id": "gate-3zw9bo",
+      "q": "Static memory will maintain storage even if power is removed.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-94m70k",
-      "q": "An optical disk is an example of magnetic storage.",
+      "id": "gate-duv5p8",
+      "q": "Static RAMs (SRAMs) use internal capacitors as basic storage elements.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-wx44h8",
-      "q": "The address-decoding scheme for a 16K-byte EPROM memory system requires a 1-to-8-address decoder when 4K &#215; 8 memory is used.",
+      "id": "gate-fmfz5s",
+      "q": "A burst refresh and a normal memory operation of a DRAM can be interspersed.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-1qgs15s",
-      "q": "The time from the beginning of a read cycle to the point when the data output is valid is called propagation delay.",
+      "id": "gate-teg00w",
+      "q": "ROMs are used to store data that generally cannot be easily changed.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-kmbivc",
-      "q": "Due to their ability to be easily erased and reused, magnetic memory devices are widely used for RAM.",
+      "id": "gate-1yw6rs4",
+      "q": "RAM stands for Readily Accessible Memory.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1azxtp0",
-      "q": "The main advantage of bipolar (TTL) memories over MOS memories is speed.",
+      "id": "gate-qydvmg",
+      "q": "Assume a ROM to be tested is compared with a known good ROM. If the checksums differ, the ROM is ________.",
       "options": [
-        "True",
-        "False"
+        "very likely to be good",
+        "definitely good",
+        "very likely to be bad",
+        "definitely bad"
       ],
       "correct": 0,
       "explain": "",
@@ -116,120 +118,8 @@
       "tags": []
     },
     {
-      "id": "gate-1c4w5ys",
-      "q": "Testing and troubleshooting the decoding logic will not reveal problems with the memory chips and their connections to the CPU busses.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1z00qxw",
-      "q": "Once a PROM is programmed it can be changed by applying a small electrical charge.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-su0q12",
-      "q": "In a register stack, data moves up but not down.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11k22d4",
-      "q": "Most flash chips use a bulk erase operation in which all cells on the chip are erased simultaneously.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f0oagg",
-      "q": "A type of memory that is accessed serially (one location after the other) is a ________.",
-      "options": [
-        "ROM",
-        "read/write memory",
-        "shift register",
-        "PLD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18ndbn4",
-      "q": "The basic purpose of tristate or open-collector outputs on a memory is to ________.",
-      "options": [
-        "isolate devices connected to a common bus",
-        "simplify the circuitry",
-        "provide faster transitions of the output",
-        "increase the output current"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yb7s6k",
-      "q": "The checksum method is used to test ________.",
+      "id": "gate-16c5hwc",
+      "q": "The checkerboard pattern test is used to test ________.",
       "options": [
         "ROM",
         "EEPROM",
@@ -248,113 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-rk9bw9",
-      "q": "Because 4096 = 212, a 4K &#215; 1 RAM requires ________ address bits to access all locations.",
+      "id": "gate-je6k4b",
+      "q": "Information that is stored in an EEPROM ________.",
       "options": [
-        "4096",
-        "10",
-        "12",
-        "1024"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rkv3b4",
-      "q": "To reduce the number of pins on high-capacity DRAM chips, address ________ is used so that a single pin can accommodate two different address bits.",
-      "options": [
-        "conversion",
-        "programming",
-        "multiplexing",
-        "firmware"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-xc7hxw",
-      "q": "Read-only memory is memory ________.",
-      "options": [
-        "that has unlimited storage capacity",
-        "whose data can never be altered by the user",
-        "that must be refreshed periodically or it will lose storage",
-        "that maintains storage as long as power is applied"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-w59dn4",
-      "q": "A ________ is user-programmable memory that cannot be erased and reprogrammed.",
-      "options": [
-        "ROM",
-        "EPROM",
-        "EEPROM",
-        "PROM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-844ubq",
-      "q": "A device that needs constant refreshing to avoid losing data is a(n) ________.",
-      "options": [
-        "SRAM",
-        "DRAM",
-        "ROM",
-        "EPROM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9tfgxo",
-      "q": "Information that is stored in a mask ROM ________.",
-      "options": [
-        "can be modified by using special equipment",
+        "can be modified by performing a memory write operation",
         "is stored by the manufacturer and cannot be changed",
         "is lost if power is interrupted",
-        "can be modified by using special equipment and is lost if power is interrupted"
+        "can be erased by applying high voltage to each storage location"
       ],
       "correct": 0,
       "explain": "",
@@ -368,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1dgubd8",
-      "q": "Flash memories are so called because of the rapid ________ times.",
+      "id": "gate-mh03jc",
+      "q": "The difference between RAM and ROM is that ________.",
       "options": [
-        "read and write",
-        "format and erase",
-        "erase and read",
-        "erase and write"
+        "RAM has a read/write signal and ROM doesn't",
+        "RAM will lose data when the power is removed and ROM won't",
+        "RAM has random address access and ROM uses sequential address access",
+        "RAM has a read/write signal and ROM doesn't; RAM will lose data when the power is removed and ROM won't."
       ],
       "correct": 0,
       "explain": "",
@@ -388,513 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-1n9zvvw",
-      "q": "How many address bits are needed to select all memory locations in the 2118 16K &#215; 1 RAM?",
-      "options": [
-        "8",
-        "10",
-        "14",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-thcdsb",
-      "q": "The check sum method of testing a ROM:",
-      "options": [
-        "indicates if the data in more than one memory location is incorrect.",
-        "provides a means for locating and correcting data errors in specific memory locations.",
-        "allows data errors to be pinpointed to a specific memory location.",
-        "simply indicates that the contents of the ROM are incorrect."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15kyeu4",
-      "q": "Refer to the given figures (a) and (b). A logic analyzer is used to check the circuit in figure (a) and displays the waveforms shown in figure (b). The actual analyzer display shows all four data outputs, Q0-Q3. The analyzer's cursor is placed at position X and all four of the data output lines show a LOW level output. What is wrong, if anything, with the circuit?",
-      "options": [
-        "Nothing is wrong, according to the display. The outputs are in the open state and should show zero output voltage.",
-        "The circuit is in the READ mode and the outputs, Q0-Q3, should reflect the contents of the memory at that address. The chip is defective; replace the chip.",
-        "The circuit is in the mode and should be writing the contents of the selected address to Q0&#8211;Q3.",
-        "The Q0&#8211;Q3 lines can be either LOW or HIGH, since the chip is in the tristate mode in which case their level is unpredictable."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-47wz77",
-      "q": "What is the meaning of RAM, and what is its primary role?",
-      "options": [
-        "Readily Available Memory; it is the first level of memory used by the computer in all of its operations.",
-        "Random Access Memory; it is memory that can be reached by any sub- system within a computer, and at any time.",
-        "Random Access Memory; it is the memory used for short-term temporary data storage within the computer.",
-        "Resettable Automatic Memory; it is memory that can be used and then automatically reset, or cleared, after being read from or written to."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-83k084",
-      "q": "The storage element for a static RAM is the ________.",
-      "options": [
-        "diode",
-        "resistor",
-        "capacitor",
-        "flip-flop"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yra1p6",
-      "q": "A 64-bit word consists of ________.",
-      "options": [
-        "4 bytes",
-        "8 bytes",
-        "10 bytes",
-        "12 bytes"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ffiuyk",
-      "q": "Which of the following RAM timing parameters determine its operating speed?",
-      "options": [
-        "tACC",
-        "tAA and tACS",
-        "tCO and tOD",
-        "tRC and tWC"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-s4i2ms",
-      "q": "The reason the data outputs of most ROM ICs are tristate outputs is to:",
-      "options": [
-        "allow for three separate data input lines.",
-        "allow the bidirectional flow of data between the bus lines and the ROM registers.",
-        "permit the connection of many ROM chips to a common data bus.",
-        "isolate the registers from the data bus during read operations."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c63868",
-      "q": "Select the statement that best describes Read-Only Memory (ROM).",
-      "options": [
-        "nonvolatile, used to store information that changes during system operation",
-        "nonvolatile, used to store information that does not change during system operation",
-        "volatile, used to store information that changes during system operation",
-        "volatile, used to store information that does not change during system operation"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gyxdv4",
-      "q": "How many 2K &#215; 8 ROM chips would be required to build a 16K &#215; 8 memory system?",
-      "options": [
-        "2",
-        "4",
-        "8",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17xe5n4",
-      "q": "The ideal memory ________.",
-      "options": [
-        "has high storage capacity",
-        "is nonvolatile",
-        "has in-system read and write capacity",
-        "has all of the above characteristics"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-dvkzik",
-      "q": "To which pin on the RAM chip does the address decoder connect in order to signal which memory chip is being accessed?",
-      "options": [
-        "The address input",
-        "The output enable",
-        "The chip enable",
-        "The data input"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-s2wn5v",
-      "q": "EEPROM stands for ________.",
-      "options": [
-        "encapsulated electrical programmable read-only memory",
-        "elementary electrical programmable read-only memory",
-        "electrically erasable programmable read-only memory",
-        "elementary erasable programmable read-only memory"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1csijss",
-      "q": "L1 is known as ________.",
-      "options": [
-        "primary cache",
-        "secondary cache",
-        "DRAM",
-        "SRAM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s305qm",
-      "q": "Describe the timing diagram of a write operation.",
-      "options": [
-        "First the data is set on the data bus and the address is set, then the write pulse stores the data.",
-        "First the address is set, then the data is set on the data bus, and finally the read pulse stores the data.",
-        "First the write pulse stores the data, then the address is set, and finally the data is set on the data bus.",
-        "First the data is set on the data bus, then the write pulse stores the data, and finally the address is set."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qd4clw",
-      "q": "The TMS44100 4M &#215; 1 DRAM does not have a chip select (SC) input.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pfxxfs",
-      "q": "The highest-speed magnetic storage is achieved by using a floppy disk.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-7r5ewc",
-      "q": "The floating-gate MOSFET is the actual storage element for EEPROMs. An electron charge will remain on the floating gate for more than 10 years unless drained off electrically.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-20qzrx",
-      "q": "ROMs are used to store data on a permanent basis.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qr5s60",
-      "q": "The time delay called access time, tac, is a measure of the ROM's operating speed.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5yae7z",
-      "q": "A CD player is an example of a device that has random access capability.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1691zb4",
-      "q": "The most widespread application of ROMs is in the storage of data and program codes that must be available on power-down in the microprocessor-based systems. These data and program codes are called firmware because they are firmly stored in hardware.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17fyirc",
-      "q": "One of the advantages of DRAMs is their ability to store data without needing periodic refreshment of the memory contents.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q9s5w8",
-      "q": "A typical RAM will write (store data internally) whenever the Chip Select line is active and the Write Enable line is inactive.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17bubus",
-      "q": "When two or more devices try to send their own digital levels to a shared data bus at the same time, bus contention will take place.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1f0h88c",
-      "q": "The number of 16k &#215; 4 memories needed to construct a 128k &#215; 8 memory is ________.",
-      "options": [
-        "4",
-        "8",
-        "12",
-        "16"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18itdz8",
-      "q": "The minimum number of address lines needed for a 64K memory is ________.",
+      "id": "gate-f5te8k",
+      "q": "The TMS44100 has ________ address inputs.",
       "options": [
         "10",
+        "11",
         "12",
-        "14",
-        "16"
+        "13"
       ],
       "correct": 0,
       "explain": "",
@@ -908,132 +198,12 @@
       "tags": []
     },
     {
-      "id": "gate-aj8jbg",
-      "q": "The 2147 4K &#215; 1 static RAM contains 4096 storage locations storing one bit each. ________ 2147 RAM memory chip(s) is/are needed to configure an 8K &#215; 8 memory.",
+      "id": "gate-mc50x4",
+      "q": "In a DRAM, what is the state of R/W during a read operation?",
       "options": [
-        "One",
-        "Four",
-        "Eight",
-        "Sixteen"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wnfxj4",
-      "q": "A CD-ROM is a form of read-only memory in which data are stored as ________.",
-      "options": [
-        "magnetic \"bubbles\"",
-        "magnetized spots",
-        "\"pits\" on an optical disk",
-        "tiny \"pinholes\" in an opaque substance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1q8lfv4",
-      "q": "A type of read/write memory available with MOS technology is ________.",
-      "options": [
-        "SRAM",
-        "DRAM",
-        "both of the above",
-        "none of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-av3ijg",
-      "q": "A FIFO ________.",
-      "options": [
-        "allows data to be clocked in and out at different clock rates",
-        "outputs the data in the same order that it was input",
-        "can be used to smooth out bursts of data into a continuous stream",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-741pbw",
-      "q": "PROMs are programmed by ________ fuses.",
-      "options": [
-        "zapping",
-        "blowing",
-        "charging",
-        "inputting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xgaj5o",
-      "q": "When a computer is executing a program of instructions, the CPU will ________ memory locations as dictated by the program instructions.",
-      "options": [
-        "format",
-        "scan",
-        "store data into",
-        "verify"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-102rk4o",
-      "q": "A DRAM has a RAS and a CAS because ________.",
-      "options": [
-        "the address lines are multiplexed to reduce pin count",
-        "the RAS determines the operation mode and the CAS enables the tristate outputs",
-        "the RAS latches in the address and the CAS latches in data",
+        "Low",
+        "High",
+        "Hi-Z",
         "None of the above"
       ],
       "correct": 0,
@@ -1048,551 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-krsb7s",
-      "q": "Floppy disks are organized into concentric rings called ________.",
-      "options": [
-        "tracks",
-        "arrays",
-        "sectors",
-        "cells"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16bip8c",
-      "q": "For the given circuit, which of the following is correct?",
-      "options": [
-        "The number 5 is being written to the memory at address location 203.",
-        "The chip has not been enabled, since the EN terminal is 0; therefore, nothing will be written to the chip and the output is tri-stated.",
-        "Decimal 10 is being written into memory location 211.",
-        "The read/write line is LOW; therefore, decimal 5 is being stored at memory location 211."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-teuaag",
-      "q": "What is the significance of the inverted triangles on the outputs of the device in the given figure?",
-      "options": [
-        "They represent inverters and mean that the outputs are active-LOW.",
-        "They represent buffers and mean that the outputs can drive 40 TTL loads, instead of the normal 10.",
-        "It means that the outputs will be active only if a change has occurred at that memory location since the last read/write cycle.",
-        "The outputs are tristated."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12vplt8",
-      "q": "What is the maximum time required before a dynamic RAM must be refreshed?",
-      "options": [
-        "2 ms",
-        "4 ms",
-        "8 ms",
-        "10 ms"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-fgeupc",
-      "q": "Which of the following best describes random-access memory (RAM)?",
-      "options": [
-        "a type of memory in which access time depends on memory location",
-        "a type of memory that can be written to only once but can be read from an infinite number of times",
-        "a type of memory in which access time is the same for each memory location",
-        "mass memory"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-8r3a6b",
-      "q": "Why are ROMs called nonvolatile memory?",
-      "options": [
-        "They lose memory when power is removed.",
-        "They do not lose memory when power is removed."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vywqnk",
-      "q": "How can UV erasable PROMs be recognized?",
-      "options": [
-        "There is a small window on the chip.",
-        "They will have a small violet dot next to the #1 pin.",
-        "Their part number always starts with a \"U\", such as in U12.",
-        "They are not readily identifiable, since they must always be kept under a small cover."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-b7tibs",
-      "q": "What part of a Flash memory architecture manages all chip functions?",
-      "options": [
-        "I/O pins",
-        "floating-gate MOSFET",
-        "command code",
-        "program verify code"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-se76as",
-      "q": "An 8-bit address code can select ________.",
-      "options": [
-        "8 locations in memory",
-        "256 locations in memory",
-        "65,536 locations in memory",
-        "131,072 locations in memory"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-170up7k",
-      "q": "Eight bits of digital data are normally referred to as a:",
-      "options": [
-        "group.",
-        "byte.",
-        "word.",
-        "cell."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fvfjpo",
-      "q": "Which is not a hard disk performance parameter?",
-      "options": [
-        "Seek time",
-        "Break time",
-        "Latency period",
-        "Access time"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13c4ys8",
-      "q": "A typical RAM will read (place stored data on its outputs) whenever the Chip Select line is active and the Write Enable line is inactive.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i46q7s",
-      "q": "A group of 6 bits is also known as 1 byte.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-17d6080",
-      "q": "Erasing or programming a flash memory device is a one-step operation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zglz5f",
-      "q": "EEPROM and Flash memory are electrically erasable.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pizir0",
-      "q": "RAMs must have a input, in addition to data in.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wpzeik",
-      "q": "ROM is a type of memory in which data are stored permanently or semipermanently.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i7hbwc",
-      "q": "EEPROMS can be electrically erased and reused.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d12ws2",
-      "q": "DRAM uses a cross-transistor configuration.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rcnptx",
-      "q": "Main computer memory is usually DRAM because of its high density and low cost; cache memory is usually SRAM because of its high speed.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xov9pw",
-      "q": "Information stored in an EPROM can be erased by prolonged exposure to ultraviolet light.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-tkmdcc",
-      "q": "All rows in a 2118 dynamic RAM need to be refreshed ________.",
-      "options": [
-        "every second",
-        "every millisecond",
-        "every 50 milliseconds",
-        "every 2 milliseconds"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-61cy20",
-      "q": "ROM access time is defined as ________.",
-      "options": [
-        "how long it takes to program the ROM chip",
-        "being the difference between the READ and WRITE times",
-        "the time it takes to get valid output data after a valid address is applied",
-        "the time required to activate the address lines after the ENABLE line is at a valid level"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fz6dey",
-      "q": "In DRAM operations, it is assumed that R/W is in its ________ state during a ________ operation.",
-      "options": [
-        "HIGH, read",
-        "Hi-Z, write",
-        "HIGH, write",
-        "Hi-Z, read"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-103jclk",
-      "q": "The major advantage of dynamic RAM over static RAM is ________.",
-      "options": [
-        "cost",
-        "speed",
-        "storage density",
-        "cost and storage density"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11xmiuc",
-      "q": "The address space of a RAM memory can be expanded using a decoder and additional memory ICs. The output of the decoder should be connected to which input line of the memory?",
-      "options": [
-        "The most significant address inputs",
-        "The most significant data inputs",
-        "The read/write line",
-        "The chip enable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t1dcxo",
-      "q": "When the term RAM is used with semiconductor memories, it usually means ________ as opposed to ROM.",
-      "options": [
-        "Random-Access Memory",
-        "Read/Write Memory (RWM)",
-        "flash memory",
-        "temporary storage"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13p2l98",
-      "q": "Dynamic RAMs store information by using ________.",
-      "options": [
-        "magnetism",
-        "flip-flops",
-        "latches",
-        "capacitors"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-137yl5o",
-      "q": "When more than one IC is used to provide all the addressable locations in a memory, a technique called ________ is used to identify which IC is being accessed.",
+      "id": "gate-tovhmk",
+      "q": "The condition occurring when two or more devices try to write data to a bus simultaneously is called ________.",
       "options": [
         "address decoding",
-        "memory refresh",
-        "data encoding",
-        "memory paging"
+        "bus contention",
+        "bus collisions",
+        "address multiplexing"
       ],
       "correct": 0,
       "explain": "",
@@ -1606,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-11skph8",
-      "q": "The periodic recharging of dynamic RAM memory cells is called ________.",
+      "id": "gate-12n3688",
+      "q": "Which is/are the basic refresh mode(s) for dynamic RAM?",
       "options": [
-        "reinstalling",
-        "revitalizing",
-        "refreshing",
-        "reinstating"
+        "Burst refresh",
+        "Distributed refresh",
+        "Open refresh",
+        "Burst refresh and distributed refresh"
       ],
       "correct": 0,
       "explain": "",
@@ -1626,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pttkfw",
-      "q": "A(n) ________ is user programmable and can also be erased electronically and reprogrammed as often as desired.",
+      "id": "gate-1xegip0",
+      "q": "For the given circuit, what memory location is being addressed?",
       "options": [
-        "PROM",
-        "ROM",
-        "EEPROM",
-        "EPROM"
+        "10111",
+        "249",
+        "5",
+        "157"
       ],
       "correct": 0,
       "explain": "",
@@ -1646,11 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1vtnfi4",
-      "q": "A CD-R disk is created by applying heat to special chemicals on the disk and these chemicals reflect less light than the areas that are not burned, thus creating the same effect as a pit does on a regular CD.",
+      "id": "gate-d7eftc",
+      "q": "One of the most important specifications on magnetic media is the ________.",
       "options": [
-        "True",
-        "False"
+        "rotation speed",
+        "tracks per inch",
+        "data transfer rate",
+        "polarity reversal rate"
       ],
       "correct": 0,
       "explain": "",
@@ -1664,13 +298,13 @@
       "tags": []
     },
     {
-      "id": "gate-1975bs4",
-      "q": "The device shown in the given figure is checked with a logic probe and the output is HIGH.",
+      "id": "gate-3odzzc",
+      "q": "What is the bit storage capacity of a ROM with a 1024 &#215; 8 organization?",
       "options": [
-        "The device is working properly.",
-        "For the input conditions shown the output should be LOW; the input is shorted to ground.",
-        "For the input conditions shown the output should be neither HIGH nor LOW; the device is shorted to .",
-        "The device is probably alright; the problem is most likely caused by the stage connected to the output of the device."
+        "1024",
+        "2048",
+        "4096",
+        "8192"
       ],
       "correct": 0,
       "explain": "",
@@ -1684,13 +318,13 @@
       "tags": []
     },
     {
-      "id": "gate-jpkslb",
-      "q": "Which is not a removable drive?",
+      "id": "gate-1aw1a50",
+      "q": "Which of the following is one of the basic characteristics of DRAMs?",
       "options": [
-        "Zip",
-        "Jaz",
-        "Hard",
-        "SuperDisk"
+        "DRAMs must have a constantly changing input.",
+        "DRAMs must be periodically refreshed in order to be able to retain data.",
+        "DRAMs have a broader \"dynamic\" storage range than other types of memories.",
+        "DRAMs are simpler devices than other types of memories."
       ],
       "correct": 0,
       "explain": "",
@@ -1704,13 +338,13 @@
       "tags": []
     },
     {
-      "id": "gate-ij8ysw",
-      "q": "Which of the following best describes EPROMs?",
+      "id": "gate-us7zns",
+      "q": "The main advantage of semiconductor RAM is its ability to:",
       "options": [
-        "EPROMs can be programmed only once.",
-        "EPROMs can be erased by UV.",
-        "EPROMs can be erased by shorting all inputs to the ground.",
-        "All of the above."
+        "retain stored data when power is interrupted or turned off",
+        "be written to and read from rapidly",
+        "be randomly accessed",
+        "be sequentially accessed"
       ],
       "correct": 0,
       "explain": "",
@@ -1724,13 +358,13 @@
       "tags": []
     },
     {
-      "id": "gate-otv4r1",
-      "q": "The mask ROM is ________.",
+      "id": "gate-hi3qy4",
+      "q": "Which of the following describes the action of storing a bit of data in a mask ROM?",
       "options": [
-        "MOS technology",
-        "diode technology",
-        "resistor-diode technology",
-        "DROM technology"
+        "A 1 is stored in a bipolar cell by opening the base connection to the address line.",
+        "A 0 is stored in a bipolar cell by shorting the base connection to the address line.",
+        "A 1 is stored by connecting the gate of a MOS cell to the address line.",
+        "A 0 is stored by connecting the gate of a MOS cell to the address line."
       ],
       "correct": 0,
       "explain": "",
@@ -1744,181 +378,13 @@
       "tags": []
     },
     {
-      "id": "gate-i87i0y",
-      "q": "Which of the following is not a flash memory mode or operation?",
+      "id": "gate-del7oi",
+      "q": "Address decoding for dynamic memory chip control may also be used for:",
       "options": [
-        "Burst",
-        "Read",
-        "Erase",
-        "Programming"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1i47rpo",
-      "q": "For the given circuit, what is the bit length of the output data word?",
-      "options": [
-        "3",
-        "4",
-        "8",
-        "32"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rbg4kg",
-      "q": "The smallest unit of binary data is the ________.",
-      "options": [
-        "bit",
-        "nibble",
-        "byte",
-        "word"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1flt9mg",
-      "q": "Select the statement that best describes the fusible-link PROM.",
-      "options": [
-        "user-programmable, one-time programmable",
-        "manufacturer-programmable, one-time programmable",
-        "user-programmable, reprogrammable",
-        "manufacturer-programmable, reprogrammable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-h81d6s",
-      "q": "The EPROM is strictly a MOS device.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1yqx5x8",
-      "q": "A term often used commercially to refer to read/write memory is sequential-access memory.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g8l2zg",
-      "q": "DRAM chips can be combined for larger capacity and word sizes using the same methods as for other memory types.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rsm524",
-      "q": "More than one bit of data can occupy each memory cell.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ljh9v4",
-      "q": "Flash memories are frequently used in place of floppy or small-capacity hard disk drives in portable computers.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Digital Electronics",
-      "topic": "Memory And Storage",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-788crl",
-      "q": "Address multiplexing is used to reduce the number of address lines.",
-      "options": [
-        "True",
-        "False"
+        "controlling refresh circuits",
+        "read and write control",
+        "chip selection and address location",
+        "memory mapping"
       ],
       "correct": 0,
       "explain": "",

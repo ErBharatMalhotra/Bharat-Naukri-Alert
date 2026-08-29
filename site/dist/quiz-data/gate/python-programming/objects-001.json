@@ -5,16 +5,16 @@
   "subject": "Python Programming",
   "topic": "Objects",
   "source": "indiabix.com",
-  "count": 17,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-1153zjc",
-      "q": "Which of the following is the correct way to create an object?",
+      "id": "gate-1wrg1mo",
+      "q": "Consider the following Python code: class Circle: def __init__(self, radius): self.radius = radius def calculate_area(self): return 3.14 * self.radius * self.radius How would you create an instance of the Circle class with a radius of 5?",
       "options": [
-        "new Object()",
-        "Object.create()",
-        "obj = object()",
-        "obj = Object()"
+        "circle_instance = Circle.create(5)",
+        "circle_instance = Circle(radius=5)",
+        "circle_instance = new Circle(5)",
+        "circle_instance = Circle(5)"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-1v3iqfg",
-      "q": "What is the role of the self parameter in Python class methods?",
+      "id": "gate-12y0594",
+      "q": "Which method is automatically called when an object is created?",
       "options": [
-        "It represents the class itself",
-        "It is used to create a new instance of the class",
-        "It refers to the current object instance",
-        "It initializes the class attributes"
+        "__new__",
+        "__create__",
+        "__init__",
+        "__construct__"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-u0445g",
-      "q": "In Python, how can you access the attributes of an object?",
+      "id": "gate-12tt5ef",
+      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.balance = balance def withdraw(self, amount): if amount What does the withdraw method return if the withdrawal is successful?",
       "options": [
-        "Using the object.attributes syntax",
-        "Using the object[attribute] syntax",
-        "Using the object.attribute syntax",
-        "Using the get(object, attribute) function"
+        "True",
+        "False",
+        "The updated balance",
+        "None"
       ],
       "correct": 0,
       "explain": "",
@@ -68,72 +68,12 @@
       "tags": []
     },
     {
-      "id": "gate-1xuqt4w",
-      "q": "What happens when you call the del statement on an object's attribute?",
+      "id": "gate-xc7nwn",
+      "q": "Consider the following Python code: class Student: def __init__(self, name, age): self.name = name self.age = age def birthday(self): self.age += 1 If you create an instance of the Student class called john with age 20 and then call john.birthday(), what will be the updated age?",
       "options": [
-        "The entire object is deleted",
-        "The attribute is set to None",
-        "The attribute is removed from the object",
-        "The attribute is set to its default value"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9f2p5i",
-      "q": "Consider the following Python code: class Rectangle: def __init__(self, length, width): self.length = length self.width = width def calculate_perimeter(self): return 2 * (self.length + self.width) If you create an instance of the `Rectangle` class called `my_rectangle` with length 4 and width 6, what will be the result of calling my_rectangle.calculate_perimeter()?",
-      "options": [
-        "10",
         "20",
-        "24",
-        "30"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t7n5lw",
-      "q": "What is the primary purpose of the __str__ method in Python classes?",
-      "options": [
-        "To create a string representation of the object",
-        "To compare objects for equality",
-        "To initialize the object's attributes",
-        "To perform object serialization"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6hjxpw",
-      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.balance = balance def deposit(self, amount): self.balance += amount return self.balance If you create an instance of the `BankAccount` class called my_account with an initial balance of 100 and then call my_account.deposit(50), what will be the updated balance?",
-      "options": [
-        "150",
-        "100",
-        "50",
+        "21",
+        "19",
         "None"
       ],
       "correct": 0,
@@ -148,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-dujr6o",
-      "q": "In Python, what is the purpose of the __del__ method in a class?",
+      "id": "gate-1iy7yo0",
+      "q": "Consider the following Python code: class Vehicle: def __init__(self, brand, model): self.brand = brand self.model = model def display_info(self): return f\"{self.brand} {self.model}\" If you create an instance of the `Vehicle` class called car with brand \"Toyota\" and model \"Camry\", what will be the result of calling car.display_info()?",
       "options": [
-        "To create a new instance of the class",
-        "To destroy the class object",
-        "To define class attributes",
-        "To delete a specific attribute"
+        "\"Toyota Camry\"",
+        "\"Camry Toyota\"",
+        "\"Toyota\"",
+        "\"Camry\""
       ],
       "correct": 0,
       "explain": "",
@@ -168,173 +108,53 @@
       "tags": []
     },
     {
-      "id": "gate-6hx35c",
-      "q": "Consider the following Python code: class Temperature: def __init__(self, celsius): self.celsius = celsius def to_fahrenheit(self): return (self.celsius * 9/5) + 32 If you create an instance of the `Temperature` class called my_temp with a Celsius value of 25 and then call my_temp.to_fahrenheit(), what will be the result?",
+      "id": "gate-jjajbc",
+      "q": "What is the purpose of the __contains__ method in Python classes?",
       "options": [
-        "32",
-        "77",
+        "To check if an element is present",
+        "To calculate the length of an object",
+        "To define class attributes",
+        "To delete the class object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1drnq58",
+      "q": "Consider the following Python code: class Book: def __init__(self, title, author): self.title = title self.author = author def __str__(self): return f\"{self.title} by {self.author}\" If you create an instance of the `Book` class called my_book with title \"The Great Gatsby\" and author \"F. Scott Fitzgerald\", what will be the result of calling str(my_book)?",
+      "options": [
+        "\"The Great Gatsby F. Scott Fitzgerald\"",
+        "\"F. Scott Fitzgerald The Great Gatsby\"",
+        "\"The Great Gatsby by F. Scott Fitzgerald\"",
+        "\"F. Scott Fitzgerald by The Great Gatsby\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cw7jji",
+      "q": "Consider the following Python code: class Point: def __init__(self, x, y): self.x = x self.y = y def distance_from_origin(self): return (self.x ** 2 + self.y ** 2) ** 0.5 If you create an instance of the `Point` class called p with coordinates (3, 4), what will be the result of calling p.distance_from_origin()?",
+      "options": [
+        "7",
         "25",
-        "57.2"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16nkkg8",
-      "q": "Consider the following Python code: class Animal: def __init__(self, species, legs): self.species = species self.legs = legs def sound(self): return \"Unknown sound\" If you create an instance of the `Animal` class called dog with species \"Dog\" and legs 4, what will be the result of calling dog.sound()?",
-      "options": [
-        "\"Meow\"",
-        "\"Woof\"",
-        "\"Unknown sound\"",
-        "None"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-enzgu8",
-      "q": "What does the __repr__ method in Python classes typically represent?",
-      "options": [
-        "String representation for print()",
-        "Length of the object",
-        "Equality comparison",
-        "Object serialization"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1co0h68",
-      "q": "Consider the following Python code: class Circle: def __init__(self, radius): self.radius = radius def calculate_circumference(self): return 2 * 3.14 * self.radius If you create an instance of the `Circle` class called small_circle with a radius of 2, what will be the result of calling small_circle.calculate_circumference()?",
-      "options": [
-        "6.28",
-        "12.56",
-        "18.84",
-        "25.12"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1uu78oc",
-      "q": "Consider the following Python code: class Employee: def __init__(self, name, salary): self.name = name self.salary = salary def give_raise(self, amount): self.salary += amount If you create an instance of the `Employee` class called john with a salary of 50000 and then call john.give_raise(5000), what will be the updated salary?",
-      "options": [
-        "55000",
-        "5000",
-        "45000",
-        "None"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ua8044",
-      "q": "Consider the following Python code: class Person: def __init__(self, name, age): self.name = name self.age = age def celebrate_birthday(self): self.age += 1 If you create an instance of the `Person` class called john with age 30 and then call john.celebrate_birthday(), what will be the updated age?",
-      "options": [
-        "30",
-        "31",
-        "29",
-        "None"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14cdkn7",
-      "q": "Consider the following Python code: class Square: def __init__(self, side_length): self.side_length = side_length def calculate_area(self): return self.side_length ** 2 If you create an instance of the `Square` class called small_square with a side length of 3, what will be the result of calling small_square.calculate_area()?",
-      "options": [
-        "6",
-        "9",
-        "12",
-        "27"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-m3qawu",
-      "q": "In Python, what is the purpose of the __eq__ method in a class?",
-      "options": [
-        "To check if two objects are equal",
-        "To create a new instance of the class",
-        "To define class attributes",
-        "To delete a specific attribute"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Objects",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vtgd5v",
-      "q": "Consider the following Python code: class Product: def __init__(self, name, price): self.name = name self.price = price def apply_discount(self, discount_percentage): discounted_price = self.price * (1 - discount_percentage / 100) return discounted_price If you create an instance of the `Product` class called laptop with a price of 1000 and then call laptop.apply_discount(20), what will be the discounted price?",
-      "options": [
-        "800",
-        "900",
-        "1000",
-        "1200"
+        "5",
+        "10"
       ],
       "correct": 0,
       "explain": "",

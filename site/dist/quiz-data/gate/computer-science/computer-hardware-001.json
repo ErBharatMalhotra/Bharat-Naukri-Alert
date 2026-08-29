@@ -5,16 +5,16 @@
   "subject": "Computer Science",
   "topic": "Computer Hardware",
   "source": "indiabix.com",
-  "count": 100,
+  "count": 42,
   "questions": [
     {
-      "id": "gate-1d7y16e",
-      "q": "An anti static strap uses a small _____ to make sure you do not become the least path of resistance to the ground?",
+      "id": "gate-f8yj4o",
+      "q": "What's the best way to protect your hard drive data?",
       "options": [
-        "capacitor",
-        "diode",
-        "transistor",
-        "resistor"
+        "regular backups",
+        "periodically defrag it",
+        "run chkdsk at least once a week",
+        "run scandisk at least once a week"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,13 @@
       "tags": []
     },
     {
-      "id": "gate-qf79to",
-      "q": "If the memory slots have 30 pins then the chip is a?",
+      "id": "gate-woawyk",
+      "q": "On a dot matrix printer, you should never lubricate which part?",
       "options": [
-        "DIMM",
-        "SIMM",
-        "SDRAM",
-        "All of the above"
+        "carriage rails",
+        "printhead pins",
+        "paper advance bearings",
+        "carriage bearings"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +48,13 @@
       "tags": []
     },
     {
-      "id": "gate-p58w2z",
-      "q": "Laser Jet printer speeds are measured in pages per minute (ppm) what do we use to measure dot-matrix printers?",
+      "id": "gate-jtndr0",
+      "q": "How many devices can be used on a single SCSI bus? Keep in mind that the SCSI host adapter counts as a device.",
       "options": [
-        "lines per inch",
-        "lines per sheet",
-        "characters per inch",
-        "characters per second"
+        "1",
+        "8",
+        "20",
+        "10"
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-tnmebz",
-      "q": "Which values are held in CMOS for the hard drive",
+      "id": "gate-firm9k",
+      "q": "Match the device driver HIMEM.SYS to its operation.",
       "options": [
-        "size (heads, cylinders, sectors)",
-        "IRQ",
-        "Free space",
-        "Virus alert"
+        "Supports (ANSI) terminal emulation",
+        "Manages the use of extended memory",
+        "Uses expanded memory on a 80386 processor",
+        "Supports code page switching"
       ],
       "correct": 0,
       "explain": "",
@@ -88,13 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-1mf5agw",
-      "q": "When connecting two internal SCSI hard disks to a computer, where do you connect the second hard drive?",
+      "id": "gate-1qhq9i9",
+      "q": "_____ help prevent power surges.",
       "options": [
-        "Any open SCSI port on the computer",
-        "A Serial port on the first host adapter",
-        "An open parallel port on the computer",
-        "An open SCSI port on the first hard drive"
+        "Surge suppressor",
+        "Spike protector",
+        "UPS system",
+        "High-grade multi-meter"
       ],
       "correct": 0,
       "explain": "",
@@ -108,132 +108,12 @@
       "tags": []
     },
     {
-      "id": "gate-i3mavs",
-      "q": "When connecting a ribbon cable to a connector, how do you know which direction to plug it in?",
+      "id": "gate-1csogtc",
+      "q": "Which common bus specification provides the fastest data transfer rate?",
       "options": [
-        "The red line in the cable goes to the highest pin number",
-        "The colored line in the cable goes to pin #1",
-        "It does not matter",
-        "The blue or red line in the cable goes away from the power connector"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-neh518",
-      "q": "What is the first step in diagnosing a completely dead computer at the client site that was working the day before.",
-      "options": [
-        "Test the power supply",
-        "replace the CMOS battery",
-        "check the AC outlet",
-        "reseat the hard drive controller cable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ohp5to",
-      "q": "What specification covers PC hard cards?",
-      "options": [
-        "SCSI",
+        "VL bus",
         "ISA",
-        "PCMCIA",
-        "MFM"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3v88po",
-      "q": "You see the message \"invalid media device\" after installing a new hard drive. What do you do next?",
-      "options": [
-        "Format",
-        "Fdisk",
-        "Partition",
-        "Add the OS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hh2rhg",
-      "q": "What is the modem hang up command?",
-      "options": [
-        "ATHU",
-        "ATH",
-        "ATZ",
-        "ATX"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-oag0t0",
-      "q": "What expansion types do most pll/plll motherboards support?",
-      "options": [
-        "MCA, PCI",
-        "ISA, EISA",
-        "ISA, PCI, AGP",
-        "ISA, VESA, PCI"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1pyfm4",
-      "q": "When installing an internal modem, all of the following IRQ's can be used except?",
-      "options": [
-        "5",
-        "10",
-        "14",
+        "PCI",
         "All of the above"
       ],
       "correct": 0,
@@ -248,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-17u080t",
-      "q": "An IRQ allow interface cards to:",
+      "id": "gate-y9xgc6",
+      "q": "Modems use transmission.",
       "options": [
-        "Interrupt the CPU to request service",
-        "Pass data to the CPU to be processed",
-        "Pass data from one card to another",
-        "Pass data to the computers memory"
+        "synchronous",
+        "asynchronous",
+        "timed interval",
+        "ata"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-1ol3c00",
-      "q": "A 25-pin female connector on the back of your computer will typically be:",
+      "id": "gate-1u3vlw8",
+      "q": "A 6xx indicates a problem with the:",
       "options": [
-        "Serial port 1",
-        "A parallel port",
-        "Docking",
-        "COM2 port"
+        "floppy drive",
+        "hard drive",
+        "keyboard",
+        "CD ROM"
       ],
       "correct": 0,
       "explain": "",
@@ -288,11 +168,131 @@
       "tags": []
     },
     {
-      "id": "gate-hcznkw",
-      "q": "In the Binary numbering system, a (1) represents a jumper being shorted and a (0) represents a jumper being open. On a three-bit jumper block on a SCSI drive, how would an ID of logical 3 be set?",
+      "id": "gate-12omk50",
+      "q": "A sound card typically uses which IRQ?",
       "options": [
+        "6",
+        "5",
+        "15",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hq2vu0",
+      "q": "During preventative maintenance on a dot matrix printer, do NOT lubricate:",
+      "options": [
+        "Platen assembly",
+        "Print head pulley",
+        "Print head pins",
+        "Paper advance gear bushings"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ysqxyz",
+      "q": "The digital multimeter is set for DC, Ohm and 20k. You will read _____ while measuring a good 2 amp fuse.",
+      "options": [
+        "0.00",
+        "0.02",
+        "0.20",
+        "2.00"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bj0ui8",
+      "q": "IDE cables have how many pins?",
+      "options": [
+        "25",
+        "50",
         "100",
+        "40"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ysgpw0",
+      "q": "What is the recommended way to fix the registry description for the printer driver",
+      "options": [
+        "Delete the spool file",
+        "Run regedit.exe and remove any reference to the printers",
+        "Run sysedit.exe and remove any reference to the printers",
+        "Remove the printer driver and reÂ¬install it"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jet7ug",
+      "q": "An important first step in troubleshooting which component in a laser printer is causing a jam is to:",
+      "options": [
+        "note where in the paper path the paper stops",
+        "check all voltages",
+        "look up error codes",
+        "turn the printer off, then on again"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vpsd8c",
+      "q": "What is the jumper setting on a SCSI device to configure it to use the fourth SCSI id? Remember, SCSI ids start with zero.",
+      "options": [
         "010",
+        "110",
         "011",
         "101"
       ],
@@ -308,13 +308,53 @@
       "tags": []
     },
     {
-      "id": "gate-gms1pc",
-      "q": "What can you use to ensure power is not interrupted, resulting in corrupted data?",
+      "id": "gate-cktcod",
+      "q": "What tool is used to test serial and parallel ports?",
       "options": [
-        "UPS",
-        "Proper grounding",
+        "high volt probe",
+        "cable scanner",
+        "loop backs (wrap plugs)",
+        "sniffer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11zrlxs",
+      "q": "Which best describes a fragmented hard drive:",
+      "options": [
+        "The platters are bad",
+        "Data files are corrupted",
+        "Clusters of data are damaged",
+        "Files are not stored in consecutive clusters"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xmu6w0",
+      "q": "What device prevents power interruptions, resulting in corrupted data?",
+      "options": [
+        "Battery back-up unit",
         "Surge protector",
-        "Nuclear powered thermal protective underwear"
+        "Multiple SIMMs strips",
+        "Data guard system"
       ],
       "correct": 0,
       "explain": "",
@@ -328,368 +368,8 @@
       "tags": []
     },
     {
-      "id": "gate-hv8dzq",
-      "q": "The POST routine, which counts system board RAM first, is stored in:",
-      "options": [
-        "RAM",
-        "microprocessor",
-        "ROM BIOS",
-        "CMOS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t5j8lk",
-      "q": "Which of the following items would require you t.o comply with EPA disposal guidelines?",
-      "options": [
-        "Keyboard",
-        "System board",
-        "Power supply",
-        "Battery"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e6euho",
-      "q": "What should you replace if the brightness or contrast adjustments were malfunctioning on a laptop?",
-      "options": [
-        "fuse",
-        "led display",
-        "adjustment switch",
-        "led display cable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yl85u4",
-      "q": "One of the major components of a PC is the Central Processing Unit (CPU) which can be best described as:",
-      "options": [
-        "The device that sends the monitor signals telling it what to display",
-        "The area that regulates all of the system power usage",
-        "The area where all the of the Basic input/output routines are stored",
-        "The area where all of the processing takes place"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-z8eo74",
-      "q": "On a leased line installation a known good external modem shows no carrier detect light. Where is the problem most likely to be?",
-      "options": [
-        "In the modem",
-        "In the phone line",
-        "In the computer",
-        "In the DTC equipment"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12fc1ja",
-      "q": "What IRQ is used for COM 2?",
-      "options": [
-        "4",
-        "3",
-        "2",
-        "1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6nfqr4",
-      "q": "ESD potential decreases with the use of:",
-      "options": [
-        "De-ionizing fans",
-        "A wrist strap",
-        "Rubber gloves with matching cap",
-        "A static meter"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-wsup5d",
-      "q": "With a dot matrix printer, light then dark print is most commonly caused by:",
-      "options": [
-        "Erratic paper advancement",
-        "Erratic ribbon advancement",
-        "Misalligned print head",
-        "Overheating print head"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3q5a68",
-      "q": "How many DMA channels are there in an AT class PC?",
-      "options": [
-        "3",
-        "4",
-        "7",
-        "8"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yylrc1",
-      "q": "Every video card must have?",
-      "options": [
-        "CMOS",
-        "RAM",
-        "CPU",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cuwree",
-      "q": "ISDN stands for:",
-      "options": [
-        "internal select data nulls",
-        "integrated services digital network",
-        "interval set down next",
-        "interior sector direct none"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1h3ny5w",
-      "q": "ISDN uses _____ technology.",
-      "options": [
-        "only digital",
-        "digital and analog",
-        "only analog",
-        "neither digital nor analog"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18ojs9y",
-      "q": "Which is LEAST likely to interfere with upgrading to a newer DOS version?",
-      "options": [
-        "ROM BIOS",
-        "Video controller",
-        "Compressed drives",
-        "Existing backup files"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1we3zn8",
-      "q": "A laser printer generates a totally black page, what is the cause?",
-      "options": [
-        "malfunctioning imaging laser",
-        "low level in the toner cartridge",
-        "no power to transfer corona",
-        "no power to the primary corona"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1a5f6rw",
-      "q": "You must service the laser printer in your office. Which part of the printer shoud you avoid touching because it is hot?",
-      "options": [
-        "fuser",
-        "printer head",
-        "primary corona",
-        "high-voltage power supply"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jc6abs",
-      "q": "IBM's Micro Channel Architecture (MCA) specifies which type of the following bit access widths?",
-      "options": [
-        "8 bit &amp; 16 bit",
-        "16 bit &amp; 24 bit",
-        "16 bit &amp; 32 bit",
-        "32 bit &amp; 64 bit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19t136k",
-      "q": "Which type of pc card (PCMCIA) slot will allow the insertion of a hard drive?",
-      "options": [
-        "type I",
-        "type II",
-        "type III",
-        "type IV"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1essy0c",
-      "q": "During the fusing process, toner is:",
-      "options": [
-        "dry pressed into the paper",
-        "electrically bonded to the paper",
-        "melted into the paper",
-        "glued to the paper"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-agdqhb",
-      "q": "Before sending data, a modem sends a request to send signal, or RTS.",
+      "id": "gate-1qyy9tb",
+      "q": "If a computer's BIOS allows it, you can boot from a CD-ROM.",
       "options": [
         "True",
         "False"
@@ -706,13 +386,13 @@
       "tags": []
     },
     {
-      "id": "gate-on4sbo",
-      "q": "When a bearing in the power supply fan goes out, what should you replace?",
+      "id": "gate-15jya9c",
+      "q": "A PCMCIA measuring 10.5mm is what type?",
       "options": [
-        "fan",
-        "case",
-        "bearing",
-        "power supply"
+        "type 1",
+        "type 2",
+        "type 1 and 3",
+        "type 3"
       ],
       "correct": 0,
       "explain": "",
@@ -726,13 +406,13 @@
       "tags": []
     },
     {
-      "id": "gate-1d38cjz",
-      "q": "During the boot process, a system first counts memory from where?",
+      "id": "gate-btt1s",
+      "q": "What component would most likely cause a \"parity error\"?",
       "options": [
-        "Expansion memory board",
-        "Video adapter",
-        "System board",
-        "Cache"
+        "bad hard disk",
+        "bad controller",
+        "bad RAM",
+        "bad software"
       ],
       "correct": 0,
       "explain": "",
@@ -746,13 +426,13 @@
       "tags": []
     },
     {
-      "id": "gate-1xr68k0",
-      "q": "What command is used to reset a MODEM when using the",
+      "id": "gate-17xb4l4",
+      "q": "Whenever you have a hardware resource conflict, it will more likely be an IRQ conflict rather than an i/o conflict because:",
       "options": [
-        "ATR",
-        "ATZ",
-        "DTR",
-        "DCE"
+        "there are a lot more I/O addresses than IRQs.",
+        "the BIOS sometimes has more of a problem controlling IRQs",
+        "I/O addresses cannot conflict",
+        "software tends to correct I/O conflicts"
       ],
       "correct": 0,
       "explain": "",
@@ -766,13 +446,13 @@
       "tags": []
     },
     {
-      "id": "gate-1iykpz0",
-      "q": "What should he used to extinguish a computer fire?",
+      "id": "gate-10ttomr",
+      "q": "You have just installed a new internal PCI modem on you desktop. It will not dial out. what is the problem?",
       "options": [
-        "fire hose",
-        "class a extinguisher",
-        "class c extinguisher",
-        "silver foam water"
+        "The port speed is set too high",
+        "the modem has not been set up in control panel properties",
+        "the phone line is plugged into the line-in port on the modem card",
+        "the phone line out of the wall is plugged into the phone port on the modem card"
       ],
       "correct": 0,
       "explain": "",
@@ -786,13 +466,13 @@
       "tags": []
     },
     {
-      "id": "gate-18tgbxc",
-      "q": "You are testing the resistance in Ohms of a fuse on a 2 amp systems. If the fuse is good, the meter should read?",
+      "id": "gate-t139fc",
+      "q": "After you service a laser printer, you notice dirty print. Which of the following would correct the problem.",
       "options": [
-        "2.0",
-        "5.0",
-        "0.0",
-        "0.2"
+        "Clean the developer tank",
+        "Reset the printer",
+        "Run several blank pages",
+        "Clean the laser diode"
       ],
       "correct": 0,
       "explain": "",
@@ -806,12 +486,112 @@
       "tags": []
     },
     {
-      "id": "gate-1ilnt70",
-      "q": "To prevent the computer from overheating you should?",
+      "id": "gate-15430h6",
+      "q": "In ROM BIOS, the acronym BIOS stands for:",
       "options": [
-        "Remove the slot cover from the back",
-        "Keep the computer cover closed",
-        "Remove the CPU fan",
+        "Basic Intuitive Output Set",
+        "Basic Input Organizational System",
+        "Basic Input Output System",
+        "Basic Industry Operating System"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qow02o",
+      "q": "How many pins on a VGA?",
+      "options": [
+        "15.",
+        "9",
+        "25",
+        "32"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x2woow",
+      "q": "What is modified when changing the system start-up boot sequence?",
+      "options": [
+        "BIOS/CMOS",
+        "CONFIG.SYS",
+        "autoexec.bat",
+        "COMMAND.COM"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-2s0hfs",
+      "q": "Which is NOT typically a Field Replaceable Unit?",
+      "options": [
+        "System ROM",
+        "Power supply",
+        "System chassis",
+        "Video controller"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-pp4owm",
+      "q": "What are the most likely conditions for ESD?",
+      "options": [
+        "Cold and wet",
+        "Cold and dry",
+        "Hot and wet",
+        "Hot and dry"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Computer Hardware",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1g17i0o",
+      "q": "Which Motherboard form factor uses one 20 pin connector",
+      "options": [
+        "ATX",
+        "AT",
+        "BABY AT",
         "All of the above"
       ],
       "correct": 0,
@@ -826,13 +606,13 @@
       "tags": []
     },
     {
-      "id": "gate-m8ek5s",
-      "q": "How many devices does USB support?",
+      "id": "gate-1vz0m5g",
+      "q": "A hard disk is divided into tracks which are further subdivided into:",
       "options": [
-        "127",
-        "125",
-        "100",
-        "225"
+        "clusters",
+        "sectors",
+        "vectors",
+        "heads"
       ],
       "correct": 0,
       "explain": "",
@@ -846,13 +626,13 @@
       "tags": []
     },
     {
-      "id": "gate-jsj468",
-      "q": "You're on your PC at midnight and an electric storm pops up. What's the best way to protect your PC.",
+      "id": "gate-4cei5o",
+      "q": "A wrist grounding strap contains which of the following:",
       "options": [
-        "you don't worry; you have a lightning rod on your house",
-        "you don't worry; you've got a surge protector on your PC",
-        "you don't worry; you've got a surge protector on your PC and phone line to your modem",
-        "unplug the PC and remove phone line from the modem"
+        "Surge protector",
+        "Capacitor",
+        "Voltmeter",
+        "Resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -866,13 +646,13 @@
       "tags": []
     },
     {
-      "id": "gate-1tc2da4",
-      "q": "Which type of system hoard is the MOST likely candidate for processor upgrading if you want maximum performance and future compatibility?",
+      "id": "gate-lu7yio",
+      "q": "Which standard govern parallel communications?",
       "options": [
-        "ML",
-        "PCI",
-        "ISA",
-        "EISA"
+        "RS232",
+        "RS-232a",
+        "CAT 5",
+        "IEEE 1284"
       ],
       "correct": 0,
       "explain": "",
@@ -886,13 +666,13 @@
       "tags": []
     },
     {
-      "id": "gate-6rxh3s",
-      "q": "In which mode can two or more applications be stored in memory at the same time?",
+      "id": "gate-1lefkwg",
+      "q": "In laser printer technology, what happens during the conditioning stage?",
       "options": [
-        "Segmented Mode",
-        "Unprotected Mode",
-        "Real Mode",
-        "Protected Mode"
+        "The corona wire places a uniform positive charge on the paper",
+        "A uniform negative charge is placed on the photosensitive drum",
+        "A uniform negative charge is placed on the toner",
+        "All of the above"
       ],
       "correct": 0,
       "explain": "",
@@ -906,13 +686,13 @@
       "tags": []
     },
     {
-      "id": "gate-1on2avc",
-      "q": "How does a parallel port communicate information to a peripheral device?",
+      "id": "gate-9jxzvo",
+      "q": "What is the best ground for a conductive work bench?",
       "options": [
-        "one bit at a time",
-        "8 bytes at a time",
-        "one byte at a time",
-        "16,555 bytes at a time"
+        "AC outlet",
+        "Ground to bend",
+        "To another device",
+        "Chassis ground"
       ],
       "correct": 0,
       "explain": "",
@@ -926,13 +706,13 @@
       "tags": []
     },
     {
-      "id": "gate-14rnsa0",
-      "q": "You suspect a virus has entered your computer. What will not be affected by the virus?",
+      "id": "gate-8l2qs4",
+      "q": "Topically, how many type III PC cards can you insert in a laptop",
       "options": [
-        "CMOS",
-        "Boot sector",
-        "Floppy disks",
-        "Program files"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correct": 0,
       "explain": "",
@@ -946,13 +726,13 @@
       "tags": []
     },
     {
-      "id": "gate-7q7q0w",
-      "q": "On PC power supplies, the wire attached to pin one is usually:",
+      "id": "gate-66dvvk",
+      "q": "What is the first thing you could do to check for damage to a printer after receiving it?",
       "options": [
-        "blue or red",
-        "blue or white",
-        "red or black",
-        "red or white"
+        "Run MSD diagnostics",
+        "Attach it to a PC and print something",
+        "Check the cables",
+        "Unbox it and examine it for physical damage"
       ],
       "correct": 0,
       "explain": "",
@@ -966,13 +746,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fdaqh8",
-      "q": "To find out how much memory is available, you could type _____",
+      "id": "gate-12am7i8",
+      "q": "You have a system that periodically locks up. You have ruled out software, and now suspect that it is hardware. What should you do first that could help you narrow it down to the component at fault?",
       "options": [
-        "EMM",
-        "MEM",
-        "CHKDSK",
-        "MEMMAKER"
+        "rotate the RAM",
+        "replace the RAM",
+        "replace the level 2 cache SIMM",
+        "disable the CPU cache in CMOS"
       ],
       "correct": 0,
       "explain": "",
@@ -986,13 +766,13 @@
       "tags": []
     },
     {
-      "id": "gate-1fynyew",
-      "q": "During the laser printer's conditioning phase a uniform charge of _____ is placed on the photosensitive drum.",
+      "id": "gate-j5ctt4",
+      "q": "A system has two IDE hard drives that are each divided into primary and extended partitions, which drive letter is assigned to the primary partition of the second drive?",
       "options": [
-        "+1000 volt",
-        "+600 volts",
-        "-600 volts",
-        "-1000 volts"
+        "C",
+        "D",
+        "E",
+        "F"
       ],
       "correct": 0,
       "explain": "",
@@ -1006,13 +786,13 @@
       "tags": []
     },
     {
-      "id": "gate-17c7br0",
-      "q": "A dialog box with a bomb appears oh a Macintosh screen. What type of problem has occurred?",
+      "id": "gate-p26uy",
+      "q": "After doing a low-level format, what would be the next step in configuring the hard drive in a system?",
       "options": [
-        "A RAM problem",
-        "A software problem",
-        "A ROM problem",
-        "An ADB problem"
+        "Format DOS partition",
+        "Install operating system",
+        "Configure DMA channel and back-up interrupt",
+        "Partition hard disk"
       ],
       "correct": 0,
       "explain": "",
@@ -1026,192 +806,12 @@
       "tags": []
     },
     {
-      "id": "gate-1e8n2g4",
-      "q": "From what location are the 1st computer instructions available on boot up?",
+      "id": "gate-jxnm0",
+      "q": "After trying to unload a TSR, you get an error message saying that other TSRs were loaded after the one you tried to remove. Which of the following commands could you use to see the current load order?",
       "options": [
-        "ROM BIOS",
-        "CPU",
-        "boot.ini",
-        "CONFIG.SYS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jdk81g",
-      "q": "What could cause a fixed disk error.",
-      "options": [
-        "No-CD installed",
-        "bad ram",
-        "slow processor",
-        "Incorrect CMOS settings"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18qkkzo",
-      "q": "Missing slot covers on a computer can cause?",
-      "options": [
-        "over heat",
-        "power surges",
-        "EMI.",
-        "incomplete path for ESD"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1aa0vlg",
-      "q": "When installing PCI NICS you can check the IRQ availability by looking at",
-      "options": [
-        "dip switches",
-        "CONFIG.SYS",
-        "jumper settings",
-        "motherboard BIOS"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i0tpo9",
-      "q": "With respect to a network interface card, the term 10/100 refers to",
-      "options": [
-        "protocol speed",
-        "a fiber speed",
-        "megabits per seconds",
-        "minimum and maximum server speed"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15pt2mm",
-      "q": "What product is used to clean smudged keys on a keyboard?",
-      "options": [
-        "TMC solvent",
-        "Silicone spray",
-        "Denatured alcohol",
-        "All-purpose cleaner"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-p9i75e",
-      "q": "ESD would cause the most damage to which component?",
-      "options": [
-        "Power supply",
-        "Expansion board",
-        "Monitor",
-        "Keyboard"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dobpzv",
-      "q": "To view any currently running Terminate Stay Resident (TSR's) programs you could type:",
-      "options": [
-        "Memory",
-        "MEM",
-        "SYS /M",
-        "Memmaker"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1iym36c",
-      "q": "Which type of system board is the MOST likely candidate for processor upgrading if you want maximum performance and future compatibility?",
-      "options": [
-        "ML",
-        "PCI",
-        "ISA",
-        "EISA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-goetso",
-      "q": "Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs) that will resolve the problem. What should you do after turning the power off?",
-      "options": [
-        "Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock",
-        "Replace all of the indicated FRUs at once and return the machine to the customer if the problem is resolved",
-        "Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem",
+        "MEM /P",
+        "MEMMAKER",
+        "MEM /C (A SYS:",
         "None of the above"
       ],
       "correct": 0,
@@ -1226,770 +826,13 @@
       "tags": []
     },
     {
-      "id": "gate-7bu2nr",
-      "q": "On the PC side, the printer port is a:",
+      "id": "gate-2pnt78",
+      "q": "How would you allow device drivers and TSR's to be loaded into Upper Memory Blocks ?",
       "options": [
-        "25 pin female serial connector",
-        "15 pin female parallel connector",
-        "25 pin male serial connector",
-        "15 pin female serial connector"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-grqx4o",
-      "q": "You were installing an application in Windows 95, and the computer crashes, what do you do?",
-      "options": [
-        "press alt + Ctrl + delete, twice",
-        "press alt + Ctrl + delete, and end task",
-        "press the reset button on the computer",
-        "turn off computer and boot from a floppy disk"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lfay6p",
-      "q": "RS-232 is a standard that applies to:",
-      "options": [
-        "serial ports",
-        "parallel ports",
-        "game ports",
-        "networks"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k4lxoc",
-      "q": "You just installed a new IDE hard drive, but your system BIOS will not recognize the new drive, what should you check first.",
-      "options": [
-        "cable sequence",
-        "jumpers on the hard drive",
-        "drivers that need to be loaded",
-        "hard drive manufacturer web site information"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ofa8hw",
-      "q": "During boot-up, the memory test:",
-      "options": [
-        "Is a superfluous step that should be ignored",
-        "Checks and verifies that contiguous memory is installed",
-        "Is an operational error",
-        "Displays what memory is installed, but nothing else"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-zz1x3l",
-      "q": "Which of the following would be a logical first step in troubleshooting a PC?",
-      "options": [
-        "Check the computer CMOS",
-        "Define the circumstances of the problem",
-        "Call the vendor",
-        "Define what applications are being used"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-cvnd90",
-      "q": "Which DOS driver is used to emulate expanded memory?",
-      "options": [
-        "Himem.sys",
-        "EMM386.exe",
-        "Mem386.sys",
-        "Ramdrive.sys"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wfizq8",
-      "q": "For a Macintosh to print successfully, the System Folder must contain:",
-      "options": [
-        "File sharing software",
-        "A printer enabler",
-        "The apple Garamond font set",
-        "A printer driver"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11y0cij",
-      "q": "Which component must be vacuumed or replaced during preventative maintenance on a laser printer?",
-      "options": [
-        "Scanning mirror",
-        "Toner cartridge",
-        "Ozone filter",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g3scf8",
-      "q": "Which device uses a DMA channel?",
-      "options": [
-        "Modem",
-        "Network Card",
-        "Sound Card",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-144bsc4",
-      "q": "Which of the following FRUs would be considered both an input/output device?",
-      "options": [
-        "Video board",
-        "SCSI host adapter",
-        "System board CPU",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nhttlk",
-      "q": "A COM port is a _____ port.",
-      "options": [
-        "parallel",
-        "serial",
-        "static",
-        "multi"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-37gze0",
-      "q": "Which device is on IRQ 6?",
-      "options": [
-        "Keyboard",
-        "IDE",
-        "Floppy drive",
-        "Video card"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1o9mw10",
-      "q": "What is the most significant difference between the USB and IEEE1394 standards?",
-      "options": [
-        "IEEE 1394 is faster",
-        "USB does not support USB",
-        "USB is plug and play",
-        "IEEE 1394 is hot swappable"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13adag8",
-      "q": "A workstation has just been installed on an Ethernet LAN, but cannot communicate with the network. What should you check first?",
-      "options": [
-        "reinstall the network protocols",
-        "reinstall the network interface card driver",
-        "verify the ip configuration on the workstation",
-        "verify the link status on the computer's network card"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gsptje",
-      "q": "What is the i/o address for com2?",
-      "options": [
-        "2vb",
-        "2f8",
-        "8f8",
-        "330"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1l7lul4",
-      "q": "The ESD wrist strap is designed to protect PC Components or Service Technicians ?",
-      "options": [
-        "PC Components",
-        "Service Technicians",
-        "Both"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5q0ka5",
-      "q": "You can have EISA and MCA devices in the same PC.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gydchk",
-      "q": "The ATAPI compliance is stands for?",
-      "options": [
-        "CDROM",
-        "Bus mastering",
-        "Mass storage device",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1c9t2cs",
-      "q": "A dialog box with a bomb appears on a Macintosh screen. What type of problem has occurred?",
-      "options": [
-        "A RAM problem",
-        "A software problem",
-        "A ROM problem",
-        "An ADB problem"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9riqqu",
-      "q": "Capacitance is measured in units of:",
-      "options": [
-        "volts",
-        "amps",
-        "farads",
-        "neutrinos"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-w2own6",
-      "q": "When not in use, it is very important to keep 5 1/4 diskettes in _____.",
-      "options": [
-        "Their protective sleeves",
-        "In a plastic bag",
-        "On a shelf in an upright position",
-        "In the floppy drive"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mh2bfo",
-      "q": "What is the size of the reserved memory area?",
-      "options": [
-        "64 kb",
-        "384 kb",
-        "640 kb",
-        "1024 kb"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19dmahp",
-      "q": "Which would you have to upgrade to install an EIDE drive?",
-      "options": [
-        "RAM BIOS",
-        "A 286 CPU",
-        "Controller board",
-        "ISA motherboard"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18zbwi5",
-      "q": "Dust in a computer actually increases the size of the magnetic fields inside it. This is not good, so you must occasionaiy dust, I trust. What's the best way to do this?",
-      "options": [
-        "reverse vacuum",
-        "any small vacuum device",
-        "blow real hard on the system board",
-        "use a lint-free cloth and wipe gently"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1cza1ps",
-      "q": "A parity error usually indicates a problem with:",
-      "options": [
-        "memory",
-        "hard drive",
-        "hard drive controller",
-        "I/O controller"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1giq7uf",
-      "q": "What is the i/o address for com1?",
-      "options": [
-        "3e8",
-        "3bc",
-        "5f8",
-        "3f8"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uawjvg",
-      "q": "A PC with a 486DX2 processor runs internally at 50Mhz. What speed would its external logic be running?",
-      "options": [
-        "l0Mhz",
-        "25Mhz",
-        "50Mhz",
-        "100 Mhz"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16ug2cg",
-      "q": "A capacitor is measured in which of the following units?",
-      "options": [
-        "Volts",
-        "Ohms",
-        "Farads",
-        "Resistance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-yfyls0",
-      "q": "Which REQUIRES an anti-static bag for transport?",
-      "options": [
-        "Monitor",
-        "Floppy disks",
-        "Power supply",
-        "I/O controller"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qzu3wk",
-      "q": "Static electricity thrives is which type of environment?",
-      "options": [
-        "cold and humid",
-        "warm and humid",
-        "warm and dry",
-        "cold and warm"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1bwws10",
-      "q": "The acronym HDI stands for:",
-      "options": [
-        "Half duplex interface",
-        "Hard disk interface",
-        "Head to disk interference",
-        "Help desk interference"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1kr19rc",
-      "q": "You are testing the resistance in Ohms of a fuse on a 5 amp system. If the fuse is good, the meter should read?",
-      "options": [
-        "5.0",
-        "0.5",
-        "0.0",
-        "All of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vud3vs",
-      "q": "During the normal PC boot process, which of the following is active first?",
-      "options": [
-        "RAM BIOS",
-        "CMOS",
-        "ROM BIOS",
-        "Hard disk information"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1nv7gjs",
-      "q": "When configuring a new network interface card for installation, which of the following would be a valid I/O address?",
-      "options": [
-        "378",
-        "2F8",
-        "3F8",
-        "360"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-3l4a9k",
-      "q": "Which device should not be plugged into a standard ups?",
-      "options": [
-        "monitor",
-        "laser printer",
-        "ink-jet printer",
-        "an external modem"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1xyze4a",
-      "q": "When not in use, it is very important to keep 5 VA diskettes in _____.",
-      "options": [
-        "Their protective sleeves",
-        "In a plastic bag",
-        "On a shelf in an upright position",
-        "In the floppy drive"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-174pda2",
-      "q": "Which I/O port belongs to LPT2?",
-      "options": [
-        "378H",
-        "278H",
-        "3f8h",
-        "2e8h"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Computer Science",
-      "topic": "Computer Hardware",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-bqgd96",
-      "q": "What resistence in ohms should be displayed ehen testing a speaker in a computer?",
-      "options": [
-        "0 Ohms",
-        "16 Ohms",
-        "-200 Ohms",
-        "Unlimited Ohms"
+        "DOS=High",
+        "devicehigh=",
+        "loadhigh=",
+        "DOS=UMB"
       ],
       "correct": 0,
       "explain": "",

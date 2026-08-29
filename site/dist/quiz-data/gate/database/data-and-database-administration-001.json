@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-2i3w5k",
-      "q": "Information repositories are replacing data dictionaries in many organizations.",
+      "id": "gate-1olbero",
+      "q": "To build a data warehouse and develop business intelligence applications, it is important that an organization build and maintain a comprehensive repository.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-6a17x0",
-      "q": "Mirrored databases are almost always provided in high-availability systems.",
+      "id": "gate-1nt4wb8",
+      "q": "Failure to control confidentiality may lead to loss of competitiveness.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-1c3rwmw",
-      "q": "Databases are not the property of a single function or individual within the organization.",
+      "id": "gate-cle0b4",
+      "q": "Authorization tables contain highly sensitive data and should be protected by stringent security rules.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-93bitc",
-      "q": "Queries that do full table scans should be avoided.",
+      "id": "gate-1pcuszc",
+      "q": "A transaction log shows before and after images of records that have been modified by transactions.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-tprjs8",
-      "q": "The restore/rerun technique involves reprocessing the day's transactions up to the point of failure.",
+      "id": "gate-1tlikfw",
+      "q": "The greatest threat to business security is often internal rather than external.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-10q71xg",
-      "q": "Backward recovery is used to reverse the changes made by transactions that have aborted, or terminated abnormally.",
+      "id": "gate-ip69tg",
+      "q": "The transaction log includes which of the following?",
       "options": [
-        "True",
-        "False"
+        "The before-image of a record",
+        "The after-image of a record",
+        "The before and after-image of a record",
+        "The essential data of the record"
       ],
       "correct": 0,
       "explain": "",
@@ -116,84 +118,12 @@
       "tags": []
     },
     {
-      "id": "gate-k0pcs8",
-      "q": "A disaster recovery plan does not need to include the shipment of database backups to other sites.",
+      "id": "gate-djg47v",
+      "q": "Which of the following could cause data to be unavailable?",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data And Database Administration",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1lzpwwg",
-      "q": "With concurrent processing involving updates, a database with concurrency control will be compromised due to interference between users.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data And Database Administration",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-75ez4",
-      "q": "Data modeling and database design are key responsibilities of data and data base administration.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data And Database Administration",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-hxokrk",
-      "q": "Incorrect data is easy to detect.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Data And Database Administration",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ogu01g",
-      "q": "Poor data administration can lead to which of the following?",
-      "options": [
-        "A single definition of the same data entity",
-        "Familiarity with existing data",
-        "Missing data elements",
+        "Data becoming lost or inaccurate",
+        "The database server",
+        "Planned database maintenance activities",
         "All of the above."
       ],
       "correct": 0,
@@ -208,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-4wbbx4",
-      "q": "A traditional data administrator performs which of the following roles?",
+      "id": "gate-10w17zm",
+      "q": "A shared lock allows which of the following types of transactions to occur?",
       "options": [
-        "Tune database performance",
-        "Establish backup and recovery procedures",
-        "Resolve data ownership issues",
-        "Protect the security of the database."
+        "Delete",
+        "Insert",
+        "Read",
+        "Update"
       ],
       "correct": 0,
       "explain": "",
@@ -228,12 +158,12 @@
       "tags": []
     },
     {
-      "id": "gate-hj50jk",
-      "q": "If both data and database administration exist in an organization, the database administrator is responsible for which of the following?",
+      "id": "gate-1e4agfo",
+      "q": "Locking may cause which of the following problems?",
       "options": [
-        "Data modeling",
-        "Database design",
-        "Metadata",
+        "Erroneous updates",
+        "Deadlock",
+        "Versioning",
         "All of the above."
       ],
       "correct": 0,
@@ -248,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-17t3bdw",
-      "q": "Which of the following is part of an administrative policy to secure a database?",
+      "id": "gate-1brgcj8",
+      "q": "Performance analysis and tuning is which of the following?",
       "options": [
-        "Authentication policies",
-        "Limiting particular areas within a building to only authorized people",
-        "Ensure appropriate responses rates are in external maintenance agreements",
-        "All of the above."
+        "Undertaken one time at the time of a DBMS installation",
+        "Undertaken one time at the time of the implementation of a new application",
+        "Undertaken as an ongoing part of the backup of a database",
+        "Undertaken as an ongoing part of managing a database"
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +198,93 @@
       "tags": []
     },
     {
-      "id": "gate-1i88y14",
-      "q": "Backward recovery is which of the following?",
+      "id": "gate-1y12iv4",
+      "q": "Which of the following is the preferred way to recover a database after a transaction in progress terminates abnormally?",
       "options": [
-        "Where the before-images are applied to the database",
-        "Where the after-images are applied to the database",
-        "Where the after-images and before-images are applied to the database",
-        "Switching to an existing copy of the database"
+        "Rollback",
+        "Rollforward",
+        "Switch to duplicate database",
+        "Reprocess transactions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data And Database Administration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1upo8fw",
+      "q": "Which of the following is true concerning open-source DBMS?",
+      "options": [
+        "Is free or nearly free database software whose source code is publicly available",
+        "Is free or nearly free database software whose source code is not publicly available",
+        "Is not competitive against PC-oriented packages and is fully SQL compliant",
+        "Is competitive against PC-oriented packages and is not fully SQL compliant"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data And Database Administration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hajvx0",
+      "q": "Concurrency control is important for which of the following reasons?",
+      "options": [
+        "To ensure data integrity when updates occur to the database in a multiuser environment",
+        "To ensure data integrity when updates occur to the database in a single-user environment",
+        "To ensure data integrity while reading data occurs to the database in a multiuser environment",
+        "To ensure data integrity while reading data occurs to the database in a single-user environment"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data And Database Administration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1khbjjx",
+      "q": "Which of the following is the preferred way to recover a database after a system failure?",
+      "options": [
+        "Rollback",
+        "Rollforward",
+        "Switch to duplicate database",
+        "Reprocess transactions"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Data And Database Administration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xm0xrp",
+      "q": "A data warehouse administrator is concerned with which of the following?",
+      "options": [
+        "The time to make a decision but not the typical roles of a database administrator",
+        "The time to make a decision and the typical roles of a database administrator",
+        "The typical roles of a data administrator and redesigning existing applications",
+        "The typical roles of a database administrator and redesigning existing applications"
       ],
       "correct": 0,
       "explain": "",

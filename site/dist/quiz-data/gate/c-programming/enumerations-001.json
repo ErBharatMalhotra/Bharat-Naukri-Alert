@@ -5,16 +5,16 @@
   "subject": "C# Programming",
   "topic": "Enumerations",
   "source": "indiabix.com",
-  "count": 10,
+  "count": 7,
   "questions": [
     {
-      "id": "gate-cpr79c",
-      "q": "Which of the following statements are correct about an enum used inC#.NET? By default the first enumerator has the value equal to the number of elements present in the list. The value of each successive enumerator is decreased by 1. An enumerator contains white space in its name. A variable cannot be assigned to an enum element. Values of enum elements cannot be populated from a database.",
+      "id": "gate-vkjdtj",
+      "q": "Which of the following will be the correct output for the C#.NET code snippet given below? enum color : int { red = -3, green, blue } Console.Write( (int) color.red + \", \"); Console.Write( (int) color.green + \", \"); Console.Write( (int) color.blue );",
       "options": [
-        "1, 2",
-        "3, 4",
-        "4, 5",
-        "1, 4"
+        "-3, -2, -1",
+        "-3, 0, 1",
+        "0, 1, 2",
+        "red, green, blue"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +28,11 @@
       "tags": []
     },
     {
-      "id": "gate-ts6l74",
-      "q": "Which of the following statements is correct about the C#.NET code snippet given below? int a = 10; int b = 20; int c = 30; enum color: byte { red = a, green = b, blue = c }",
+      "id": "gate-137h530",
+      "q": "An enum that is declared inside a class, struct, namespace or interface is treated as public.",
       "options": [
-        "Variables cannot be assigned to enum elements.",
-        "Variables can be assigned to any one of the enum elements.",
-        "Variables can be assigned only to the first enum element.",
-        "Values assigned to enum elements must always be successive values."
+        "True",
+        "False"
       ],
       "correct": 0,
       "explain": "",
@@ -48,13 +46,13 @@
       "tags": []
     },
     {
-      "id": "gate-12szdf8",
-      "q": "Which of the following statements is true about an enum used in C#.NET?",
+      "id": "gate-1lczm1k",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? enum per { married, unmarried, divorced, spinster } per.married = 10; Console.WriteLine(per.unmarried);",
       "options": [
-        "An implicit cast is needed to convert from enum type to an integral type.",
-        "An enum variable cannot have a public access modifier.",
-        "An enum variable cannot have a private access modifier.",
-        "An enum variable can be defined inside a class or a namespace."
+        "The program will output a value 11.",
+        "The program will output a value 1.",
+        "The program will output a value 2.",
+        "The program will report an error since an enum element cannot be assigned a value outside the enum declaration."
       ],
       "correct": 0,
       "explain": "",
@@ -68,13 +66,13 @@
       "tags": []
     },
     {
-      "id": "gate-negrw0",
-      "q": "Which of the following is the correct output for the C#.NET code snippet given below? enum color { red, green, blue } color c; c = color.red; Console.WriteLine(c);",
+      "id": "gate-1fvg3a5",
+      "q": "Which of the following is the correct output for the C#.NET code snippet given below? enum color: int { red, green, blue = 5, cyan, magenta = 10, yellow } Console.Write( (int) color.green + \", \" ); Console.Write( (int) color.yellow );",
       "options": [
-        "1",
-        "-1",
-        "red",
-        "0"
+        "2, 11",
+        "1, 11",
+        "2, 6",
+        "1, 5"
       ],
       "correct": 0,
       "explain": "",
@@ -88,113 +86,51 @@
       "tags": []
     },
     {
-      "id": "gate-1b5t8nw",
-      "q": "Which of the following statements are correct about an enum used inC#.NET? To use the keyword enum, we should either use [enum] or System.Enum. enum is a keyword. Enum is class declared in System.Type namespace. Enum is a class declared in the current project's root namespace. Enum is a class declared in System namespace.",
+      "id": "gate-1pil2z8",
+      "q": "An enum can be declared inside a class, struct, namespace or interface.",
       "options": [
-        "1, 3",
-        "2, 4",
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Enumerations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-121cs9s",
+      "q": "Which of the following statements is correct about an enum used in C#.NET?",
+      "options": [
+        "enum is a reference type.",
+        "enum is a value type.",
+        "Whether it a value type or a reference type depends upon size.",
+        "Whether it a value type or a reference type depends upon a Project Setting made in Visual Stiiclio.NET."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Enumerations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ldrt88",
+      "q": "Which of the following statements are correct about an enum used in C#.NET? An enum can be declared inside a class. An enum can take Single, Double or Decimal values. An enum can be declared outside a class. An enum can be declared inside/outside a namespace. An object can be assigned to an enum variable.",
+      "options": [
+        "1, 3, 4",
         "2, 5",
-        "3, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Enumerations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1fttdfo",
-      "q": "Which of the following CANNOT be used as an underlying datatype for an enum in C#.NET?",
-      "options": [
-        "byte",
-        "short",
-        "float",
-        "int"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Enumerations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-vpjfe4",
-      "q": "Which of the following statements are correct about enum used in C#.NET? Every enum is derived from an Object class. Every enum is a value type. There does not exist a way to print an element of an enum as a string. Every enum is a reference type. The default underlying datatype of an enum is int.",
-      "options": [
-        "1, 2, 5",
-        "1, 4",
-        "3, 5",
-        "2, 3, 4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Enumerations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-c4ya9g",
-      "q": "Which of the following statements is correct about the C#.NET code snippet given below? enum color : byte { red = 500, green = 1000, blue = 1500 }",
-      "options": [
-        "byte values cannot be assigned to enum elements.",
-        "enum elements should always take successive values.",
-        "Since 500, 1000, 1500 exceed the valid range of byte compiler will report an error.",
-        "enum must always be of int type."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Enumerations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-13geog",
-      "q": "Which of the following is the correct output for the C#.NET code snippet given below? enum color { red, green, blue } color c = color.red; Type t; t = c.GetType(); string[ ]str; str = Enum.GetNames(t); Console.WriteLine(str[ 0 ]);",
-      "options": [
-        "red",
-        "0",
-        "1",
-        "-1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "C# Programming",
-      "topic": "Enumerations",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1t6aj5o",
-      "q": "Which of the following statements are correct about the C#.NET code snippet given below? namespace IndiabixConsoleApplication ( class Sample { private enum color : int { red, green, blue } public void fun() { Console.WriteLine(color.red); } } class Program { static void Main(string[ ] args) { // Use enum color here } } } To define a variable of type enum color in Main(), we should use the statement, color c; . enum color being private it cannot be used in Main(). We must declare enum color as public to be able to use it outside the class Sample. To define a variable of type enum color in Main(), we should use the statement, Sample.color c; . We must declare private enum color outside the class to be able to use it in Main().",
-      "options": [
-        "1, 2, 3",
-        "2, 3, 4",
         "3, 4",
-        "4, 5"
+        "2, 4, 5"
       ],
       "correct": 0,
       "explain": "",

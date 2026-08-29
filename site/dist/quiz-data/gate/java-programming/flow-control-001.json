@@ -5,16 +5,56 @@
   "subject": "Java Programming",
   "topic": "Flow Control",
   "source": "indiabix.com",
-  "count": 16,
+  "count": 5,
   "questions": [
     {
-      "id": "gate-1cef9as",
-      "q": "What will be the output of the program? public class Switch2 { final static short x = 2; public static int y = 0; public static void main(String [] args) { for (int z=0; z &lt; 3; z++) { switch (z) { case y: System.out.print(\"0 \"); /* Line 11 */ case x-1: System.out.print(\"1 \"); /* Line 12 */ case x: System.out.print(\"2 \"); /* Line 13 */ } } } }",
+      "id": "gate-u0hbz4",
+      "q": "What will be the output of the program? int i = 1, j = -1; switch (i) { case 0, 1: j = 1; /* Line 4 */ case 2: j = 2; default: j = 0; } System.out.println(\"j = \" + j);",
+      "options": [
+        "j = -1",
+        "j = 0",
+        "j = 1",
+        "Compilation fails."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Flow Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n7gf6g",
+      "q": "What will be the output of the program? int i = 1, j = 10; do { if(i &gt; j) { break; } j--; } while (++i &lt; 5); System.out.println(\"i = \" + i + \" and j = \" + j);",
+      "options": [
+        "i = 6 and j = 5",
+        "i = 5 and j = 5",
+        "i = 6 and j = 4",
+        "i = 5 and j = 6"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Flow Control",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7rpgjk",
+      "q": "What will be the output of the program? public class Switch2 { final static short x = 2; public static int y = 0; public static void main(String [] args) { for (int z=0; z &lt; 3; z++) { switch (z) { case x: System.out.print(\"0 \"); case x-1: System.out.print(\"1 \"); case x-2: System.out.print(\"2 \"); } } } }",
       "options": [
         "0 1 2",
         "0 1 2 1 2 2",
-        "Compilation fails at line 11.",
-        "Compilation fails at line 12."
+        "2 1 0 1 0 0",
+        "2 1 2 0 1 2"
       ],
       "correct": 0,
       "explain": "",
@@ -28,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-fci0us",
-      "q": "What will be the output of the program? public class If1 { static boolean b; public static void main(String [] args) { short hand = 42; if ( hand &lt; 50 &amp;&amp; !b ) /* Line 7 */ hand++; if ( hand &gt; 50 ); /* Line 9 */ else if ( hand &gt; 40 ) { hand += 7; hand++; } else --hand; System.out.println(hand); } }",
+      "id": "gate-1b9m708",
+      "q": "What will be the output of the program? public class SwitchTest { public static void main(String[] args) { System.out.println(\"value =\" + switchIt(4)); } public static int switchIt(int x) { int j = 1; switch (x) { case l: j++; case 2: j++; case 3: j++; case 4: j++; case 5: j++; default: j++; } return j + x; } }",
       "options": [
-        "41",
-        "42",
-        "50",
-        "51"
+        "value = 2",
+        "value = 4",
+        "value = 6",
+        "value = 8"
       ],
       "correct": 0,
       "explain": "",
@@ -48,273 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-l5lr4g",
-      "q": "What will be the output of the program? public class Test { public static void main(String [] args) { int I = 1; do while ( I &lt; 1 ) System.out.print(\"I is \" + I); while ( I &gt; 1 ) ; } }",
+      "id": "gate-eebukg",
+      "q": "What will be the output of the program? public class If2 { static boolean b1, b2; public static void main(String [] args) { int x = 0; if ( !b1 ) /* Line 7 */ { if ( !b2 ) /* Line 9 */ { b1 = true; x++; if ( 5 &gt; 6 ) { x++; } if ( !b1 ) x = x + 10; else if ( b2 = true ) /* Line 19 */ x = x + 100; else if ( b1 | b2 ) /* Line 21 */ x = x + 1000; } } System.out.println(x); } }",
       "options": [
-        "I is 1",
-        "I is 1 I is 1",
-        "No output is produced.",
-        "Compilation error"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ybomm8",
-      "q": "What will be the output of the program? int x = l, y = 6; while (y--) { x++; } System.out.println(\"x = \" + x +\" y = \" + y);",
-      "options": [
-        "x = 6 y = 0",
-        "x = 7 y = 0",
-        "x = 6 y = -1",
-        "Compilation fails."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-14qu6rn",
-      "q": "What will be the output of the program? int I = 0; outer: while (true) { I++; inner: for (int j = 0; j &lt; 10; j++) { I += j; if (j == 3) continue inner; break outer; } continue outer; } System.out.println(I);",
-      "options": [
+        "0",
         "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uwj5ho",
-      "q": "What will be the output of the program? int I = 0; label: if (I &lt; 2) { System.out.print(\"I is \" + I); I++; continue label; }",
-      "options": [
-        "I is 0",
-        "I is 0 I is 1",
-        "Compilation fails.",
-        "None of the above"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1u61eib",
-      "q": "What will be the output of the program? for (int i = 0; i &lt; 4; i += 2) { System.out.print(i + \" \"); } System.out.println(i); /* Line 5 */",
-      "options": [
-        "0 2 4",
-        "0 2 4 5",
-        "0 1 2 3 4",
-        "Compilation fails."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-jfjbww",
-      "q": "What will be the output of the program? int x = 3; int y = 1; if (x = y) /* Line 3 */ { System.out.println(\"x =\" + x); }",
-      "options": [
-        "x = 1",
-        "x = 3",
-        "Compilation fails.",
-        "The code runs with no output."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gg59eg",
-      "q": "What will be the output of the program? Float f = new Float(\"12\"); switch (f) { case 12: System.out.println(\"Twelve\"); case 0: System.out.println(\"Zero\"); default: System.out.println(\"Default\"); }",
-      "options": [
-        "Zero",
-        "Twelve",
-        "Default",
-        "Compilation fails"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15xh5ic",
-      "q": "What will be the output of the program? int i = 0; while(1) { if(i == 4) { break; } ++i; } System.out.println(\"i = \" + i);",
-      "options": [
-        "i = 0",
-        "i = 3",
-        "i = 4",
-        "Compilation fails."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-gqitew",
-      "q": "What will be the output of the program? public class Delta { static boolean foo(char c) { System.out.print(c); return true; } public static void main( String[] argv ) { int i = 0; for (foo('A'); foo('B') &amp;&amp; (i &lt; 2); foo('C')) { i++; foo('D'); } } }",
-      "options": [
-        "ABDCBDCB",
-        "ABCDABCD",
-        "Compilation fails.",
-        "An exception is thrown at runtime."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5vu7vp",
-      "q": "What will be the output of the program? for(int i = 0; i &lt; 3; i++) { switch(i) { case 0: break; case 1: System.out.print(\"one \"); case 2: System.out.print(\"two \"); case 3: System.out.print(\"three \"); } } System.out.println(\"done\");",
-      "options": [
-        "done",
-        "one two done",
-        "one two three done",
-        "one two three two three done"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-18zm6dc",
-      "q": "What will be the output of the program? public class Test { public static void main(String args[]) { int i = 1, j = 0; switch(i) { case 2: j += 6; case 4: j += 1; default: j += 2; case 0: j += 4; } System.out.println(\"j = \" + j); } }",
-      "options": [
-        "j = 0",
-        "j = 2",
-        "j = 4",
-        "j = 6"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1mmdmz0",
-      "q": "What will be the output of the program? boolean bool = true; if(bool = false) /* Line 2 */ { System.out.println(\"a\"); } else if(bool) /* Line 6 */ { System.out.println(\"b\"); } else if(!bool) /* Line 10 */ { System.out.println(\"c\"); /* Line 12 */ } else { System.out.println(\"d\"); }",
-      "options": [
-        "a",
-        "b",
-        "c",
-        "d"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-19hqscm",
-      "q": "What will be the output of the program? public class Switch2 { final static short x = 2; public static int y = 0; public static void main(String [] args) { for (int z=0; z &lt; 4; z++) { switch (z) { case x: System.out.print(\"0 \"); default: System.out.print(\"def \"); case x-1: System.out.print(\"1 \"); break; case x-2: System.out.print(\"2 \"); } } } }",
-      "options": [
-        "0 def 1",
-        "2 1 0 def 1",
-        "2 1 0 def def",
-        "2 1 0 def 1 def 1"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Java Programming",
-      "topic": "Flow Control",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11gt5i4",
-      "q": "What will be the output of the program? int i = 0, j = 5; tp: for (;;) { i++; for (;;) { if(i &gt; --j) { break tp; } } System.out.println(\"i =\" + i + \", j = \" + j);",
-      "options": [
-        "i = 1, j = 0",
-        "i = 1, j = 4",
-        "i = 3, j = 4",
-        "Compilation fails."
+        "101",
+        "111"
       ],
       "correct": 0,
       "explain": "",

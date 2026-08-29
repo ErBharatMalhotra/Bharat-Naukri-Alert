@@ -5,11 +5,11 @@
   "subject": "Electrical Engineering",
   "topic": "Series Circuits",
   "source": "indiabix.com",
-  "count": 20,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-uxjsv0",
-      "q": "A series circuit acts as a voltage divider.",
+      "id": "gate-vgpz79",
+      "q": "The term series opposing means that sources are in series with opposite polarities.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-408s7w",
-      "q": "The sum of all the voltage drops around a single closed loop in a circuit is zero.",
+      "id": "gate-4emfgs",
+      "q": "If you know the current anywhere in a series circuit, you know the current everywhere in a series circuit.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-19yemks",
-      "q": "A short in a series circuit prevents current.",
+      "id": "gate-5xb6uk",
+      "q": "In a series circuit, the individual powers are additive.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-xngs9s",
-      "q": "A series circuit acts as a current divider.",
+      "id": "gate-d28rcf",
+      "q": "The total resistance of a series circuit is equal to the difference between the largest and smallest value resistors.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1hr219x",
-      "q": "Series aiding is a term sometimes used to describe voltage sources of the same polarity in series.",
+      "id": "gate-1sog8x0",
+      "q": "The voltage at one point in a circuit is always measured relative to another point.",
       "options": [
         "True",
         "False"
@@ -98,13 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1cn0fek",
-      "q": "When a fourth resistor is connected in series with three resistors, the total resistance",
+      "id": "gate-r30wv4",
+      "q": "When one of three series resistors is removed from a circuit and the circuit is reconnected, the current",
       "options": [
-        "increases by one-fourth",
         "increases",
-        "decreases",
-        "remains the same"
+        "increases by one-third",
+        "decreases by one-third",
+        "decreases by the amount of current through the removed resistor"
       ],
       "correct": 0,
       "explain": "",
@@ -118,13 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-s1f55w",
-      "q": "A string of five series resistors is connected across a 6 V battery. Zero voltage is measured across all resistors except R3. The voltage across R3 is",
+      "id": "gate-ux9ywg",
+      "q": "The total power in a certain circuit is 12 W. Each of the four equal-value series resistors making up the circuit dissipates",
       "options": [
-        "0 V",
-        "1.2 V",
-        "6 V",
-        "0.6 V"
+        "12 W",
+        "48 W",
+        "3 W",
+        "8 W"
       ],
       "correct": 0,
       "explain": "",
@@ -138,13 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-qojdf0",
-      "q": "A series circuit consists of three resistors with values of 120 , 270 , and 330 . The total resistance is",
+      "id": "gate-yos008",
+      "q": "The following resistors (one each) are connected in a series circuit: 470 , 680 , 1 k, and 1.2 k. The voltage source is 20 V. Current through the 680 resistor is approximately",
       "options": [
-        "less than 120",
-        "the average of the values",
-        "720",
-        "120"
+        "60 mA",
+        "30 mA",
+        "6 mA",
+        "300 mA"
       ],
       "correct": 0,
       "explain": "",
@@ -158,13 +158,13 @@
       "tags": []
     },
     {
-      "id": "gate-1aegh90",
-      "q": "A certain series circuit consists of a 1/8 W resistor, a 1/4 W resistor, and a 1/2 W resistor. The total resistance is 1200 . If each resistor is operating in the circuit at its maximum power dissipation, total current flow is",
+      "id": "gate-4kt9j4",
+      "q": "A series circuit consists of a 4.7 k, a 12 k, and a 2.2 k resistor. The resistor that has the most voltage drop is",
       "options": [
-        "27 mA",
-        "2.7 mA",
-        "19 mA",
-        "190 mA"
+        "the 12 k",
+        "the 2.2 k",
+        "the 4.7 k",
+        "impossible to determine from the given information"
       ],
       "correct": 0,
       "explain": "",
@@ -178,13 +178,13 @@
       "tags": []
     },
     {
-      "id": "gate-g5e6z4",
-      "q": "Which of the following series combinations dissipates the most power when connected across a 120 V source?",
+      "id": "gate-1e0ricx",
+      "q": "All the voltage drops and the source voltage added together in a series circuit is equal to",
       "options": [
-        "one 220 resistor",
-        "two 220 resistors",
-        "three 220 resistors",
-        "four 220 resistors"
+        "the total of the voltage drops",
+        "the source voltage",
+        "zero",
+        "the total of the source voltage and the voltage drops"
       ],
       "correct": 0,
       "explain": "",
@@ -198,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-leradc",
-      "q": "Two resistors are in series: a 5.6 k resistor and a 4.7 k resistor. The voltage drop across the 5.6 k resistor is 10 V. The voltage across the 4.7 k resistor is",
+      "id": "gate-18nr3hy",
+      "q": "A series circuit consists of three resistors. Two resistors are 1.2 k each. The total resistance is 12 k. The value of the third resistor",
       "options": [
-        "8.39 V",
-        "10 V",
-        "2.32 V",
-        "0 V"
+        "is 9,600",
+        "is 960",
+        "is 1.2 k",
+        "cannot be determined"
       ],
       "correct": 0,
       "explain": "",
@@ -218,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-pygkkg",
-      "q": "Three 680 resistors are connected in series with a 470 V source. Current in the circuit is",
+      "id": "gate-1dho1xk",
+      "q": "Four equal-value resistors are in series with a 12 V battery and 13.63 mA are measured. The value of each resistor is",
       "options": [
-        "69 mA",
-        "230 mA",
-        "23 mA",
-        "690 mA"
+        "22",
+        "220",
+        "880",
+        "88"
       ],
       "correct": 0,
       "explain": "",
@@ -238,13 +238,13 @@
       "tags": []
     },
     {
-      "id": "gate-1h10zy8",
-      "q": "There are five resistors in a given series circuit and each resistor has 6 V dropped across it. The source voltage",
+      "id": "gate-1foudm8",
+      "q": "Two 1.5 V cells are connected series opposing across two 100 resistors in series. Total current flow is",
       "options": [
-        "is 6 V",
-        "depends on the current flow",
-        "depends on the resistor values",
-        "is 30 V"
+        "15 mA",
+        "5 mA",
+        "2 mA",
+        "0 A"
       ],
       "correct": 0,
       "explain": "",
@@ -258,13 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-mhhhlg",
-      "q": "If a 6 V and a 9 V source are connected series aiding, the total voltage is",
+      "id": "gate-29hzm0",
+      "q": "The total resistance of a circuit is 680 . The percentage of the total voltage appearing across a 47 resistor that makes up part of the total series resistance is",
       "options": [
-        "6 V",
-        "9 V",
-        "3 V",
-        "15 V"
+        "68%",
+        "47%",
+        "69%",
+        "6.91%"
       ],
       "correct": 0,
       "explain": "",
@@ -278,113 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-1x6ekbh",
-      "q": "Five resistors are connected in a series and there is a current of 3 A into the first resistor. The amount of current into the second resistor is",
+      "id": "gate-vj5a5s",
+      "q": "Two 6 V batteries are connected series aiding across two 1.2 k resistors in series. Current through each resistor is",
       "options": [
-        "3 A",
-        "1 A",
-        "4 A",
-        "0.3 A"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-owe01c",
-      "q": "The total resistance of eight 5.6 k resistors in series is",
-      "options": [
-        "8",
-        "5,600",
-        "4,480",
-        "44,800"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-ckb3pg",
-      "q": "A series circuit has a 24 V source and a total resistance of 120 . The current through each resistor is",
-      "options": [
-        "24 mA",
-        "200 mA",
-        "120 mA",
-        "20 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-waauwg",
-      "q": "To measure the current out of the second resistor in a circuit consisting of four resistors, an ammeter can be placed",
-      "options": [
-        "between the second and third resistors",
-        "at the negative terminal of the source",
-        "between the third and fourth resistors",
-        "at any point in the circuit"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1dcs2tp",
-      "q": "A 12 V battery is connected across a series combination of 68 , 47 , 220 , and 33 . The amount of current is",
-      "options": [
-        "326 mA",
-        "16.3 mA",
-        "32.6 mA",
-        "163 mA"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Electrical Engineering",
-      "topic": "Series Circuits",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-182tehc",
-      "q": "If a 24 V and a 6 V battery are series opposing, the total voltage is",
-      "options": [
-        "30 V",
-        "24 V",
-        "18 V",
-        "0 V"
+        "5 mA",
+        "10 mA",
+        "0 A",
+        "2.5 mA"
       ],
       "correct": 0,
       "explain": "",

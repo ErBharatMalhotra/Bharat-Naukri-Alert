@@ -5,11 +5,11 @@
   "subject": "Database",
   "topic": "Transforming Data Models Into Database Designs",
   "source": "indiabix.com",
-  "count": 25,
+  "count": 15,
   "questions": [
     {
-      "id": "gate-c19ui8",
-      "q": "When the parent entity is required, a new child row can always be inserted.",
+      "id": "gate-srfnpo",
+      "q": "A foreign key is used to implement relationships between tables.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-qq6qus",
-      "q": "All primary keys are required.",
+      "id": "gate-1vevus4",
+      "q": "The terms alternate key and candidate key mean the same thing.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-vyus39",
-      "q": "Intersection tables are ID-dependent on both their parent tables.",
+      "id": "gate-ectdzs",
+      "q": "In 1:N relationships, which entity becomes the parent entity is arbitrary.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-b1cc7g",
-      "q": "For every relationship, there are six possible sets of minimum cardinalities.",
+      "id": "gate-hz8hvs",
+      "q": "When the parent entity is required, cascading updates and cascading deletions should be allowed or the associated actions on the parent should be prohibited.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-iwi9rc",
-      "q": "An intersection table is required to represent M:N relationships.",
+      "id": "gate-1mc8rhw",
+      "q": "In a 1:1 relationship, the primary key placement is arbitrary.",
       "options": [
         "True",
         "False"
@@ -98,11 +98,13 @@
       "tags": []
     },
     {
-      "id": "gate-1639a1i",
-      "q": "(STREET ADDRESS, CITY, STATE, ZIP) is an ideal primary key.",
+      "id": "gate-1xwabh4",
+      "q": "Which of the following situation requires the use of ID-dependent entities?",
       "options": [
-        "True",
-        "False"
+        "Association relationships only",
+        "Multivalued attributes only",
+        "Archetype/instance relationships only",
+        "All of the above use ID dependent entities"
       ],
       "correct": 0,
       "explain": "",
@@ -116,11 +118,13 @@
       "tags": []
     },
     {
-      "id": "gate-ml8pw",
-      "q": "When the parent entity is required and the parent has a surrogate key, update actions can be ignored.",
+      "id": "gate-d3alh0",
+      "q": "A foreign key is:",
       "options": [
-        "True",
-        "False"
+        "a column containing the primary key of another table.",
+        "used to define data types.",
+        "used to define null status.",
+        "all of the above are above correct."
       ],
       "correct": 0,
       "explain": "",
@@ -134,11 +138,13 @@
       "tags": []
     },
     {
-      "id": "gate-th13ok",
-      "q": "When the parent entity is required, a new parent row can always be inserted.",
+      "id": "gate-51dnbk",
+      "q": "Which of the following columns is(are) are required in a table?",
       "options": [
-        "True",
-        "False"
+        "A foreign key",
+        "An alternate key",
+        "A primary key",
+        "A surrogate key."
       ],
       "correct": 0,
       "explain": "",
@@ -152,64 +158,8 @@
       "tags": []
     },
     {
-      "id": "gate-goezlc",
-      "q": "For every relationship, there are six possible referential integrity actions.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-mvvvp8",
-      "q": "An ideal primary key is short, numeric and seldom changing.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-acxw68",
-      "q": "Which of the following data constraints would be used to specify that the value of cells in a column must be one of a specific set of possible values?",
-      "options": [
-        "A domain constraint",
-        "A range constraint",
-        "An intrarelation constraint",
-        "An interrelation constraint"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qxuyk0",
-      "q": "In a 1:N relationship, the foreign key is placed in:",
+      "id": "gate-tdbayo",
+      "q": "In a 1:1 relationship, the foreign key is placed in:",
       "options": [
         "either table without specifying parent and child tables.",
         "the parent table.",
@@ -228,8 +178,8 @@
       "tags": []
     },
     {
-      "id": "gate-11h8anc",
-      "q": "Which of the following column properties specifies whether or not cells in a column must contain a data value?",
+      "id": "gate-ctvdd0",
+      "q": "Which of the following column properties would be used to specify that cells in a column must be immediately filled with a monetary value of $10,000?",
       "options": [
         "Null status",
         "Data type",
@@ -248,13 +198,13 @@
       "tags": []
     },
     {
-      "id": "gate-kidks0",
-      "q": "A primary key should be defined as:",
+      "id": "gate-14bm91s",
+      "q": "Which constraint requires that the binary relationship indicate all combinations that must appear in the ternary relationship?",
       "options": [
-        "NULL.",
-        "NOT NULL.",
-        "Either of the above can be used.",
-        "None of the above are correct."
+        "MUST COVER",
+        "MUST NOT",
+        "Both of the above.",
+        "None of the above is correct."
       ],
       "correct": 0,
       "explain": "",
@@ -268,13 +218,13 @@
       "tags": []
     },
     {
-      "id": "gate-1snrraw",
-      "q": "Which of the following column properties would be used to specify that cells in a column must contain a monetary value?",
+      "id": "gate-xfy59k",
+      "q": "Each entity is represented as a(n):",
       "options": [
-        "Null status",
-        "Data type",
-        "Default value",
-        "Data constraints"
+        "tuple.",
+        "table.",
+        "attribute.",
+        "file."
       ],
       "correct": 0,
       "explain": "",
@@ -288,88 +238,8 @@
       "tags": []
     },
     {
-      "id": "gate-1hrpkso",
-      "q": "The identifier of an entity will become the ________ of the new table.",
-      "options": [
-        "foreign key",
-        "main attribute",
-        "primary key",
-        "identity key"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1gdcpc3",
-      "q": "Which of the following data constraints would be used to specify that the value of a cell in one column must be less than the value of a cell in another column in the same row of the same table?",
-      "options": [
-        "A domain constraint",
-        "A range constraint",
-        "An intrarelation constraint",
-        "An interrelation constraint"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1hmyhby",
-      "q": "A unique, DBMS-supplied identifier used as the primary key of a relation is called a(n):",
-      "options": [
-        "primary key.",
-        "foreign key.",
-        "composite key.",
-        "surrogate key."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ohgkdr",
-      "q": "Which is not true about surrogate keys?",
-      "options": [
-        "They are short.",
-        "They are fixed.",
-        "They have meaning to the user.",
-        "They are numeric."
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ln0uys",
-      "q": "For every relationship, how many possible types of actions are there when enforcing minimum cardinalities?",
+      "id": "gate-b06nbd",
+      "q": "For every relationship, how many possible sets of minimum cardinalities are there?",
       "options": [
         "Two",
         "Three",
@@ -388,11 +258,13 @@
       "tags": []
     },
     {
-      "id": "gate-skc4is",
-      "q": "The DBMS allows surrogate keys to be changed.",
+      "id": "gate-1lvoyc4",
+      "q": "If a relationship has a cascade updates constraint, then if ________ in the parent table is changed, then the same change will automatically be made to any corresponding foreign key value.",
       "options": [
-        "True",
-        "False"
+        "the primary key",
+        "any alternate key",
+        "a surrogate key",
+        "a foreign key"
       ],
       "correct": 0,
       "explain": "",
@@ -406,65 +278,13 @@
       "tags": []
     },
     {
-      "id": "gate-vxswt5",
-      "q": "Cascading updates refers to child rows being automatically deleted when a parent row is deleted.",
+      "id": "gate-1r0n06w",
+      "q": "Which of the following column properties would be used to specify that cells in a column must contain a monetary value that is less than another monetary value in the same row?",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-n1jpqk",
-      "q": "When transforming an entity-relationship model into a relational database design, each entity is represented as a table.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1n6mio0",
-      "q": "Surrogate keys have much meaning for users.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Transforming Data Models Into Database Designs",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1tvmd7o",
-      "q": "When the child entity is required, we are restricted from creating a new parent row without also creating a corresponding child row at the same time.",
-      "options": [
-        "True",
-        "False"
+        "Null status",
+        "Data type",
+        "Default value",
+        "Data constraints"
       ],
       "correct": 0,
       "explain": "",

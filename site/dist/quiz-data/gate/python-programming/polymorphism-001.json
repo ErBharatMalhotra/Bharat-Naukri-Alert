@@ -5,115 +5,15 @@
   "subject": "Python Programming",
   "topic": "Polymorphism",
   "source": "indiabix.com",
-  "count": 50,
+  "count": 8,
   "questions": [
     {
-      "id": "gate-1meqy3g",
-      "q": "In Python, what is polymorphism?",
+      "id": "gate-cf53z7",
+      "q": "What is operator overloading?",
       "options": [
-        "The ability of a class to inherit from multiple classes",
         "The ability of a function to take different types of arguments",
+        "The ability of a class to inherit from multiple classes",
         "The ability of an object to take on multiple forms or types",
-        "The ability to create instances of a class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1at2598",
-      "q": "Which of the following statements about method overloading in Python is correct?",
-      "options": [
-        "Python supports method overloading with different return types",
-        "Python supports method overloading with the same method name but different parameters",
-        "Method overloading is not allowed in Python",
-        "Python supports method overloading by explicitly specifying the data type of parameters"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jwps38",
-      "q": "Consider the following code: class Shape: def area(self): pass class Circle(Shape): def area(self, radius): return 3.14 * radius * radius class Rectangle(Shape): def area(self, length, width): return length * width What is this example illustrating?",
-      "options": [
-        "Operator overloading",
-        "Method overloading",
-        "Method overriding",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k64gls",
-      "q": "How is polymorphism achieved?",
-      "options": [
-        "Through method overloading",
-        "Through method overriding",
-        "Through both method overloading and overriding",
-        "Through the use of classes and inheritance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-g2mpc0",
-      "q": "What is the purpose of the __len__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To customize the behavior when the len() function is called on an instance",
-        "To access superclass attributes directly",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1r32o4j",
-      "q": "What is dynamic polymorphism?",
-      "options": [
-        "The ability of a function to take different types of arguments",
-        "The ability of a class to inherit from multiple classes",
-        "The ability of an object to take on multiple forms or types at runtime",
         "The ability to define custom behavior for operators in a class"
       ],
       "correct": 0,
@@ -128,332 +28,12 @@
       "tags": []
     },
     {
-      "id": "gate-f5qouo",
-      "q": "Which of the following is an example of operator overloading?",
+      "id": "gate-1xk8gv9",
+      "q": "Which of the following is an example of method overloading?",
       "options": [
         "Defining a method with the same name in a class",
         "Defining a method with the same name but different parameters in a class",
         "Defining a method with the same name but different return types in a class",
-        "Defining the __add__() method in a class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1wfkj0w",
-      "q": "Consider the following code: class Vehicle: def drive(self): pass class Car(Vehicle): def drive(self): return \"Car is driving\" class Bicycle(Vehicle): def drive(self): return \"Bicycle is pedaling\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-txf7o0",
-      "q": "How does Python achieve polymorphism through method overloading?",
-      "options": [
-        "By allowing a function to take different types of arguments",
-        "By automatically resolving conflicts using the first defined method",
-        "By using the C3 linearization algorithm to determine method resolution order",
-        "Python does not support method overloading"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1olfmwo",
-      "q": "What is the purpose of the __getitem__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To customize the behavior when an instance is deleted",
-        "To customize the behavior when an item is accessed using square brackets on an instance",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i8vo9c",
-      "q": "What is the output of the following Python code? class Shape: def draw(self): return \"Drawing a shape\" class Circle(Shape): def draw(self): return \"Drawing a circle\" class Square(Shape): def draw(self): return \"Drawing a square\" def display_shape_info(shape): return shape.draw() circle = Circle() square = Square() print(display_shape_info(circle)) print(display_shape_info(square))",
-      "options": [
-        "Drawing a shape\\nDrawing a shape",
-        "Drawing a circle\\nDrawing a square",
-        "Drawing a square\\nDrawing a circle",
-        "Drawing a circle\\nDrawing a circle"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-aeswfo",
-      "q": "In Python, what is the purpose of the __str__() method in the context of polymorphism?",
-      "options": [
-        "To customize the behavior when an instance is checked for equality using the == operator",
-        "To represent the object as a string for display purposes",
-        "To define class attributes",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-khngk8",
-      "q": "Consider the following Python code: class Sports: def play(self): return \"Generic sports activity\" class Football(Sports): def play(self): return \"Playing football\" class Basketball(Sports): def play(self): return \"Playing basketball\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-12oqdvf",
-      "q": "What is static polymorphism?",
-      "options": [
-        "The ability of a function to take different types of arguments",
-        "The ability of an object to take on multiple forms or types at runtime",
-        "The ability to define custom behavior for operators in a class",
-        "The ability to resolve method calls at compile-time"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1k0vho4",
-      "q": "Which of the following statements about polymorphism in Python is correct?",
-      "options": [
-        "Polymorphism is achieved through method overloading only",
-        "Polymorphism is achieved through method overriding only",
-        "Polymorphism is achieved through both method overloading and overriding",
-        "Polymorphism is achieved through operator overloading only"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1qjfhkw",
-      "q": "Consider the following code: class Shape: def area(self): pass class Triangle(Shape): def area(self, base, height): return 0.5 * base * height class Square(Shape): def area(self, side): return side * side What concept is demonstrated in this code?",
-      "options": [
-        "Operator overloading",
-        "Method overloading",
-        "Method overriding",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16fhv57",
-      "q": "What is the purpose of the __call__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To create a new instance of the class",
-        "To customize the behavior when an instance is called as a function",
-        "To customize the behavior when an instance is deleted",
-        "To access superclass attributes directly"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1d61fgc",
-      "q": "Which of the following is an example of polymorphism through operator overloading?",
-      "options": [
-        "Using the + operator to concatenate strings",
-        "Using the + operator to add two numbers",
-        "Using the + operator to access a list element",
-        "Using the + operator to define a custom behavior in a class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-15o8yl0",
-      "q": "What is the output of the following Python code? class Vehicle: def start(self): return \"Generic vehicle starting\" class Car(Vehicle): def start(self): return \"Car starting\" class Bike(Vehicle): def start(self): return \"Bike starting\" def drive(vehicle): return vehicle.start() car = Car() bike = Bike() print(drive(car)) print(drive(bike))",
-      "options": [
-        "Generic vehicle starting\\nCar starting",
-        "Car starting\\nBike starting",
-        "Bike starting\\nCar starting",
-        "Car starting\\nCar starting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1e7k8oo",
-      "q": "In Python, what is the purpose of the __call__() method in the context of polymorphism?",
-      "options": [
-        "To customize the behavior when an instance is checked for membership using the in keyword",
-        "To customize the behavior when the instance is called as a function",
-        "To define class attributes",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-awg7av",
-      "q": "Consider the following code: class Animal: def sound(self): return \"Generic animal sound\" class Duck(Animal): def sound(self): return \"Quack!\" class Lion(Animal): def sound(self): return \"Roar!\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5zxxrs",
-      "q": "What is the purpose of the __str__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To create a new instance of the class",
-        "To represent the object as a string for display purposes",
-        "To access superclass attributes directly"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-rxbxms",
-      "q": "Which of the following is an example of polymorphism through method overloading?",
-      "options": [
-        "Defining a method with the same name but different parameters in a class",
-        "Defining a method with the same name but different return types in a class",
-        "Defining a method with the same name in a class",
         "Defining a method with different access modifiers in a class"
       ],
       "correct": 0,
@@ -468,8 +48,8 @@
       "tags": []
     },
     {
-      "id": "gate-4lgqjc",
-      "q": "Consider the following code: class Animal: def speak(self): pass class Duck(Animal): def speak(self): return \"Quack!\" class Cow(Animal): def speak(self): return \"Moo!\" What concept is demonstrated in this code?",
+      "id": "gate-13fa0ef",
+      "q": "Consider the following code: class Animal: def speak(self): pass class Dog(Animal): def speak(self): return \"Woof!\" class Cat(Animal): def speak(self): return \"Meow!\" What concept is demonstrated in this code?",
       "options": [
         "Method overloading",
         "Method overriding",
@@ -488,13 +68,13 @@
       "tags": []
     },
     {
-      "id": "gate-1pms9oc",
-      "q": "In Python, what is method overloading?",
+      "id": "gate-158gp1i",
+      "q": "How is polymorphism different from encapsulation?",
       "options": [
-        "Defining multiple methods with the same name but different parameters in a class",
-        "Defining a method with the same name but different return types in a class",
-        "Overriding a method in a subclass with the same name as in the superclass",
-        "Defining a method with the same name in a class"
+        "Polymorphism is the ability to hide implementation details, while encapsulation is the ability of an object to take on multiple forms.",
+        "Polymorphism is the ability to define custom behavior for operators, while encapsulation is the bundling of data and methods that operate on the data.",
+        "Polymorphism is the ability of a function to take different types of arguments, while encapsulation is the ability to represent data and the methods that operate on the data within a single unit.",
+        "Polymorphism is the ability of an object to take on multiple forms or types, while encapsulation is the ability to restrict access to certain details of an object and only expose what is necessary."
       ],
       "correct": 0,
       "explain": "",
@@ -508,273 +88,13 @@
       "tags": []
     },
     {
-      "id": "gate-6g5k1s",
-      "q": "In Python, what is the purpose of the __getitem__() method in the context of polymorphism?",
+      "id": "gate-o3r9sc",
+      "q": "What is the purpose of the __iter__() method in Python classes in the context of polymorphism?",
       "options": [
-        "To define class attributes",
-        "To customize the behavior when an item is checked for membership using the in keyword",
-        "To customize the behavior when an item is accessed using square brackets on an instance",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-q4jm44",
-      "q": "Consider the following code: class Shape: def draw(self): return \"Drawing a shape\" class Triangle(Shape): def draw(self): return \"Drawing a triangle\" class Rectangle(Shape): def draw(self): return \"Drawing a rectangle\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-185m99x",
-      "q": "Consider the following code: class Shape: def area(self): pass class Circle(Shape): def area(self, radius): return 3.14 * radius * radius class Rectangle(Shape): def area(self, length, width): return length * width What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vlrcj9",
-      "q": "How does Python achieve polymorphism through method overriding?",
-      "options": [
-        "By allowing a function to take different types of arguments",
-        "By automatically resolving conflicts using the first defined method",
-        "By using the C3 linearization algorithm to determine method resolution order",
-        "By allowing a subclass to provide a specific implementation for a method defined in the superclass"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-k5qdp0",
-      "q": "What is the purpose of the __add__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To customize the behavior when an instance is added to another instance",
-        "To customize the behavior when an item is accessed using square brackets on an instance",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-uji9kw",
-      "q": "What does the following Python code demonstrate? class Animal: def speak(self): pass class Dog(Animal): def speak(self): return \"Woof!\" class Cat(Animal): def speak(self): return \"Meow!\" def pet_sound(animal): return animal.speak() dog = Dog() cat = Cat() print(pet_sound(dog)) print(pet_sound(cat))",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-i2jku0",
-      "q": "What is the output of the following Python code? class Car: def start(self): return \"Car starting\" class ElectricCar(Car): def start(self): return \"Electric car starting\" def drive(car): return car.start() car = Car() electric_car = ElectricCar() print(drive(car)) print(drive(electric_car))",
-      "options": [
-        "Car starting\\nCar starting",
-        "Electric car starting\\nElectric car starting",
-        "Car starting\\nElectric car starting",
-        "Electric car starting\\nCar starting"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-5c78ig",
-      "q": "Consider the following Python code: class Bird: def fly(self): return \"Bird flying\" class Penguin(Bird): def fly(self): return \"Penguin can't fly\" def display_flying_ability(bird): return bird.fly() bird = Bird() penguin = Penguin() print(display_flying_ability(bird)) print(display_flying_ability(penguin))",
-      "options": [
-        "Bird flying\\nPenguin can't fly",
-        "Penguin can't fly\\nBird flying",
-        "Bird flying\\nBird flying",
-        "Penguin can't fly\\nPenguin can't fly"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1goysl8",
-      "q": "In Python, what is the purpose of the __len__() method in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To customize the behavior when an instance is checked for equality using the == operator",
-        "To customize the behavior when the len() function is called on an instance",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1ulx2zb",
-      "q": "Consider the following code: class MusicInstrument: def play(self): return \"Playing music instrument\" class Guitar(MusicInstrument): def play(self): return \"Strumming the guitar\" class Piano(MusicInstrument): def play(self): return \"Playing the piano\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-6qbqig",
-      "q": "Consider the following code: class Animal: def sound(self): pass class Dog(Animal): def sound(self): return \"Woof!\" class Cat(Animal): def sound(self): return \"Meow!\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1jfxkof",
-      "q": "How is polymorphism related to the concept of \"duck typing\"?",
-      "options": [
-        "Polymorphism in Python is based on the idea of explicitly specifying data types",
-        "\"Duck typing\" refers to the ability of objects to take on multiple forms, which is a form of polymorphism",
-        "Polymorphism in Python is achieved through static typing",
-        "\"Duck typing\" refers to the use of explicit type declarations in Python"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-16pyqbo",
-      "q": "In Python, what is operator overloading?",
-      "options": [
-        "Defining multiple methods with the same name but different parameters in a class",
-        "Overriding a method in a subclass with the same name as in the superclass",
-        "Defining custom behavior for operators in a class",
-        "Defining a method with the same name but different return types in a class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1vlddis",
-      "q": "What is the purpose of the __eq__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To customize the behavior when an instance is checked for equality using the == operator",
         "To create a new instance of the class",
-        "To define class attributes",
-        "To customize the behavior when an item is accessed using square brackets on an instance"
+        "To customize the behavior when an instance is deleted",
+        "To customize the behavior when the iter() function is called on an instance",
+        "To access superclass attributes directly"
       ],
       "correct": 0,
       "explain": "",
@@ -788,113 +108,13 @@
       "tags": []
     },
     {
-      "id": "gate-hx82fk",
-      "q": "Consider the following code: class Book: def __init__(self, title, author): self.title = title self.author = author def __eq__(self, other): return self.title == other.title and self.author == other.author What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Operator overloading",
-        "Method overriding",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1da2ab0",
-      "q": "Which of the following is an example of polymorphism through function overloading?",
-      "options": [
-        "Defining a function with the same name but different parameters in a module",
-        "Defining a function with the same name but different return types in a module",
-        "Defining a function with the same name in a module",
-        "Defining a function with different access modifiers in a module"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2fiwnw",
-      "q": "What is the purpose of the __sub__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To customize the behavior when an instance is subtracted from another instance",
-        "To create a new instance of the class",
-        "To define class attributes",
-        "To customize the behavior when an item is accessed using square brackets on an instance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-184rrdk",
-      "q": "In Python, what is the purpose of the __str__() method?",
-      "options": [
-        "To define class attributes",
-        "To create a new instance of the class",
-        "To represent the object as a string for display purposes",
-        "To customize the behavior when an item is accessed using square brackets on an instance"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-2oelh0",
-      "q": "Consider the following code: class Point: def __init__(self, x, y): self.x = x self.y = y def __sub__(self, other): return Point(self.x - other.x, self.y - other.y) What concept is demonstrated in this code?",
-      "options": [
-        "Operator overloading",
-        "Method overloading",
-        "Method overriding",
-        "Polymorphism"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1s54pgg",
-      "q": "How does Python achieve polymorphism through \"parametric polymorphism\"?",
+      "id": "gate-1m6h5s4",
+      "q": "How does Python achieve polymorphism through \"operator overloading\"?",
       "options": [
         "By explicitly specifying data types for objects",
-        "By using static typing to enforce object compatibility",
         "By allowing objects to take on multiple forms based on their behavior",
-        "By defining functions or classes that can operate on different data types"
+        "By defining custom behavior for operators in a class",
+        "By using static typing to enforce object compatibility"
       ],
       "correct": 0,
       "explain": "",
@@ -908,13 +128,13 @@
       "tags": []
     },
     {
-      "id": "gate-ywbmzg",
-      "q": "What is the purpose of the __floordiv__() method in Python classes in the context of polymorphism?",
+      "id": "gate-vrumuc",
+      "q": "Which of the following is an example of polymorphism through \"function overriding\"?",
       "options": [
-        "To customize the behavior when an instance is divided using floor division by another instance",
-        "To create a new instance of the class",
-        "To define class attributes",
-        "To customize the behavior when an item is accessed using square brackets on an instance"
+        "Defining a function with the same name but different parameters in a module",
+        "Defining a function with different access modifiers in a module",
+        "Defining a function with the same name in a module",
+        "Defining a function with the same name but different return types in a module"
       ],
       "correct": 0,
       "explain": "",
@@ -928,73 +148,13 @@
       "tags": []
     },
     {
-      "id": "gate-m09jog",
-      "q": "In Python, what is the purpose of the __contains__() method?",
+      "id": "gate-gj1vs",
+      "q": "What is the output of the following Python code? class Animal: def make_sound(self): return \"Generic animal sound\" class Dog(Animal): def make_sound(self): return \"Woof!\" class Cat(Animal): def make_sound(self): return \"Meow!\" def pet_sounds(animals): for animal in animals: print(animal.make_sound()) dog = Dog() cat = Cat() pet_sounds([dog, cat])",
       "options": [
-        "To define class attributes",
-        "To customize the behavior when an item is checked for membership using the in keyword",
-        "To create a new instance of the class",
-        "To customize the behavior when an instance is compared using the == operator"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1rdr25s",
-      "q": "How is polymorphism related to the concept of \"parametric polymorphism\"?",
-      "options": [
-        "Polymorphism in Python is based on explicit type declarations",
-        "\"Parametric polymorphism\" refers to the ability of objects to take on multiple forms, which is a form of polymorphism",
-        "Polymorphism in Python is achieved through static typing",
-        "\"Parametric polymorphism\" refers to defining functions or classes that can operate on different data types"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-lsj537",
-      "q": "What is the purpose of the __mul__() method in Python classes in the context of polymorphism?",
-      "options": [
-        "To define class attributes",
-        "To customize the behavior when an instance is multiplied by another instance",
-        "To customize the behavior when an item is accessed using square brackets on an instance",
-        "To create a new instance of the class"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Python Programming",
-      "topic": "Polymorphism",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-nvhe6g",
-      "q": "Consider the following code: class Guitar: def play(self): pass class ElectricGuitar(Guitar): def play(self): return \"Distorted sound!\" class AcousticGuitar(Guitar): def play(self): return \"Harmonious sound!\" What concept is demonstrated in this code?",
-      "options": [
-        "Method overloading",
-        "Method overriding",
-        "Operator overloading",
-        "Polymorphism"
+        "Generic animal sound\\nWoof!\\nMeow!",
+        "Woof!\\nMeow!\\nGeneric animal sound",
+        "Woof!\\nMeow!\\nMeow!",
+        "Generic animal sound\\nGeneric animal sound\\nGeneric animal sound"
       ],
       "correct": 0,
       "explain": "",

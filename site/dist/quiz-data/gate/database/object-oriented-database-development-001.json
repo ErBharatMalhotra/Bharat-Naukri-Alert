@@ -8,8 +8,8 @@
   "count": 15,
   "questions": [
     {
-      "id": "gate-9ytv3l",
-      "q": "Literals do not have identifiers, and, therefore, cannot be individually referenced like objects.",
+      "id": "gate-h7vbah",
+      "q": "ODL supports the abstract keyword for classes and operations.",
       "options": [
         "True",
         "False"
@@ -26,8 +26,8 @@
       "tags": []
     },
     {
-      "id": "gate-66gy01",
-      "q": "A collection of literals or object types is called a bag.",
+      "id": "gate-1gdu7i8",
+      "q": "The ODMG Object Model requires that a relationship be specified in both directions.",
       "options": [
         "True",
         "False"
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "id": "gate-pimvls",
-      "q": "An attribute's value is either a literal or an object identifier.",
+      "id": "gate-jplqh0",
+      "q": "Before specifying a key for a class, you must specify its extent.",
       "options": [
         "True",
         "False"
@@ -62,8 +62,8 @@
       "tags": []
     },
     {
-      "id": "gate-c8jzuo",
-      "q": "Database objects are almost always transient.",
+      "id": "gate-4i8h40",
+      "q": "The Object Model supports different literal types, but does not support atomic literals, collection literals, and structured literals.",
       "options": [
         "True",
         "False"
@@ -80,8 +80,8 @@
       "tags": []
     },
     {
-      "id": "gate-1w6bafw",
-      "q": "An attribute's value is always literal.",
+      "id": "gate-vo9n7c",
+      "q": "The ODMG Object Model supports only unary and binary relationships.",
       "options": [
         "True",
         "False"
@@ -98,142 +98,12 @@
       "tags": []
     },
     {
-      "id": "gate-9b2jep",
-      "q": "Specifying a key ensures that no two objects belonging to a class have the same value for the key attribute(s).",
+      "id": "gate-1l5rxms",
+      "q": "The object definition language (ODL) is which of the following?",
       "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-27ygdo",
-      "q": "If you know all the possible values that an attribute can have, you can enumerate those values in ODL.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-afpyrg",
-      "q": "You may specify an object identifier with only one unique tag name.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-qqa1d0",
-      "q": "In ODL, you specify an operation using parentheses after its name.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-1go3y2w",
-      "q": "An ordered collection of elements of the same type are called sets.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-11arq34",
-      "q": "ODL supports which of the following types of association relationships?",
-      "options": [
-        "Unary",
-        "Unary and Binary",
-        "Unary and Binary and Ternary",
-        "Unary and Binary and Ternary and higher"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-9haxec",
-      "q": "An extent is which of the following?",
-      "options": [
-        "A keyword that indicates that the subclass inherits from a superclass",
-        "A keyword that indicates that the superclass inherits from a subclass",
-        "The set of all instances of a class within a database",
-        "Only one instance of a class within a database"
-      ],
-      "correct": 0,
-      "explain": "",
-      "exam": "GATE",
-      "subject": "Database",
-      "topic": "Object Oriented Database Development",
-      "difficulty": "medium",
-      "language": "en",
-      "source": "indiabix.com",
-      "year": 2026,
-      "tags": []
-    },
-    {
-      "id": "gate-pupx1c",
-      "q": "Identify the class name for the following code: ABC123 course();",
-      "options": [
-        "ABC123",
-        "course",
-        "course()",
+        "Used to develop logical schemas",
+        "A data definition language for OODB",
+        "A method to implement a logical schema",
         "All of the above."
       ],
       "correct": 0,
@@ -248,12 +118,12 @@
       "tags": []
     },
     {
-      "id": "gate-1bhgwac",
-      "q": "Using ODL, you can define which of the following?",
+      "id": "gate-v32oi4",
+      "q": "An atomic literal is which of the following?",
       "options": [
-        "Attribute",
-        "Structure",
-        "Operation",
+        "Strings",
+        "Boolean",
+        "Long",
         "All of the above."
       ],
       "correct": 0,
@@ -268,13 +138,153 @@
       "tags": []
     },
     {
-      "id": "gate-1p41rvc",
-      "q": "The keyword \"inverse\" is used in which of the following?",
+      "id": "gate-1shu7nd",
+      "q": "Which of the following is true concerning an ODBMS?",
       "options": [
-        "Class",
-        "Attribute",
-        "Relationship",
+        "They have the ability to store complex data types on the Web.",
+        "They are overtaking RDBMS for all applications.",
+        "They are most useful for traditional, two-dimensional database table applications.",
         "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vemax0",
+      "q": "The reserved word enum is used for which of the following?",
+      "options": [
+        "To define a range for an attribute.",
+        "To define a range for a class.",
+        "To define a range for a relationship.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-l7rn04",
+      "q": "Which of the following is an unordered collection of elements that may contain duplicates?",
+      "options": [
+        "Set",
+        "Bag",
+        "List",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ov99vw",
+      "q": "Which of the following is true concerning the following statement: class Manager extends Employee",
+      "options": [
+        "Manager is a concrete class and a superclass.",
+        "Manager is a concrete class and a subclass.",
+        "Manager is an abstract class and a superclass.",
+        "Manager is an abstract class and a subclass."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1biqr4k",
+      "q": "Which of the following is an ordered collection of elements of the same type?",
+      "options": [
+        "Set",
+        "Bag",
+        "List",
+        "Dictionary"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lqn5dk",
+      "q": "A relationship should be specified how in the ODL?",
+      "options": [
+        "One direction starting with the first class",
+        "One direction starting with the second class",
+        "Neither direction.",
+        "Both directions."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uhbtik",
+      "q": "Using OQL, you may do which of the following?",
+      "options": [
+        "Return an entire collection of elements including duplicates.",
+        "Return a collection of elements without duplicates.",
+        "Return a specific subset of elements using a given criteria.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Object Oriented Database Development",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11qiw3g",
+      "q": "The Object Query Language is which of the following\"?",
+      "options": [
+        "Similar to SQL and uses a select-from-where structure",
+        "Similar to SQL and uses a select-where structure",
+        "Similar to SQL and uses a from-where structure",
+        "Not similar to SQL"
       ],
       "correct": 0,
       "explain": "",
