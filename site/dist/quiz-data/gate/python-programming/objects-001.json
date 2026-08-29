@@ -1,0 +1,171 @@
+{
+  "title": "GATE - Python Programming - Objects",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Python Programming",
+  "topic": "Objects",
+  "source": "indiabix.com",
+  "count": 8,
+  "questions": [
+    {
+      "id": "gate-1wrg1mo",
+      "q": "Consider the following Python code: class Circle: def __init__(self, radius): self.radius = radius def calculate_area(self): return 3.14 * self.radius * self.radius How would you create an instance of the Circle class with a radius of 5?",
+      "options": [
+        "circle_instance = Circle.create(5)",
+        "circle_instance = Circle(radius=5)",
+        "circle_instance = new Circle(5)",
+        "circle_instance = Circle(5)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12y0594",
+      "q": "Which method is automatically called when an object is created?",
+      "options": [
+        "__new__",
+        "__create__",
+        "__init__",
+        "__construct__"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-12tt5ef",
+      "q": "Consider the following Python code: class BankAccount: def __init__(self, balance): self.balance = balance def withdraw(self, amount): if amount What does the withdraw method return if the withdrawal is successful?",
+      "options": [
+        "True",
+        "False",
+        "The updated balance",
+        "None"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xc7nwn",
+      "q": "Consider the following Python code: class Student: def __init__(self, name, age): self.name = name self.age = age def birthday(self): self.age += 1 If you create an instance of the Student class called john with age 20 and then call john.birthday(), what will be the updated age?",
+      "options": [
+        "20",
+        "21",
+        "19",
+        "None"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1iy7yo0",
+      "q": "Consider the following Python code: class Vehicle: def __init__(self, brand, model): self.brand = brand self.model = model def display_info(self): return f\"{self.brand} {self.model}\" If you create an instance of the `Vehicle` class called car with brand \"Toyota\" and model \"Camry\", what will be the result of calling car.display_info()?",
+      "options": [
+        "\"Toyota Camry\"",
+        "\"Camry Toyota\"",
+        "\"Toyota\"",
+        "\"Camry\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jjajbc",
+      "q": "What is the purpose of the __contains__ method in Python classes?",
+      "options": [
+        "To check if an element is present",
+        "To calculate the length of an object",
+        "To define class attributes",
+        "To delete the class object"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1drnq58",
+      "q": "Consider the following Python code: class Book: def __init__(self, title, author): self.title = title self.author = author def __str__(self): return f\"{self.title} by {self.author}\" If you create an instance of the `Book` class called my_book with title \"The Great Gatsby\" and author \"F. Scott Fitzgerald\", what will be the result of calling str(my_book)?",
+      "options": [
+        "\"The Great Gatsby F. Scott Fitzgerald\"",
+        "\"F. Scott Fitzgerald The Great Gatsby\"",
+        "\"The Great Gatsby by F. Scott Fitzgerald\"",
+        "\"F. Scott Fitzgerald by The Great Gatsby\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cw7jji",
+      "q": "Consider the following Python code: class Point: def __init__(self, x, y): self.x = x self.y = y def distance_from_origin(self): return (self.x ** 2 + self.y ** 2) ** 0.5 If you create an instance of the `Point` class called p with coordinates (3, 4), what will be the result of calling p.distance_from_origin()?",
+      "options": [
+        "7",
+        "25",
+        "5",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Python Programming",
+      "topic": "Objects",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

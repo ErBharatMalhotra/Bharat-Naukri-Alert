@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Chemistry - Structure of Atom",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Chemistry",
+  "topic": "Structure of Atom",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1tiu7n0",
+      "q": "What is the ratio of wave number of first line (lowest energy line) of Balmer series of H atomic spectrum to first line of its Brackett series?",
+      "options": [
+        "$5 : 1$",
+        "$5 : 0.81$",
+        "$5 : 1.75$",
+        "$5 : 27$"
+      ],
+      "correct": 1,
+      "explain": "Wave number $\\bar{\\nu}$ is given by the Rydberg formula: $\\bar{\\nu} = R_H \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$.\nFor the first line of the Balmer series, $n_1 = 2$ and $n_2 = 3$:\n$\\bar{\\nu}_{Balmer} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = R_H \\left( \\frac{1}{4} - \\frac{1}{9} \\right) = R_H \\left( \\frac{5}{36} \\right)$.\nFor the first line of the Brackett series, $n_1 = 4$ and $n_2 = 5$:\n$\\bar{\\nu}_{Brackett} = R_H \\left( \\frac{1}{4^2} - \\frac{1}{5^2} \\right) = R_H \\left( \\frac{1}{16} - \\frac{1}{25} \\right) = R_H \\left( \\frac{9}{400} \\right)$.\nThe ratio is $\\frac{\\bar{\\nu}_{Balmer}}{\\bar{\\nu}_{Brackett}} = \\frac{5/36}{9/400} = \\frac{5 \\times 400}{36 \\times 9} = \\frac{2000}{324} = \\frac{500}{81} = \\frac{5}{0.81}$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Structure of Atom",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1f2o3is",
+      "q": "Which of the following is correct set of $4$ quantum numbers of $19^{\\text{th}}$ electron in Chromium (Atomic number $= 24$) in accordance with Aufbau principle?",
+      "options": [
+        "$n = 3, l = 2, m = +2, s = +\\frac{1}{2}$",
+        "$n = 3, l = 2, m = -2, s = +\\frac{1}{2}$",
+        "$n = 4, l = 1, m = 0, s = +\\frac{1}{2}$",
+        "$n = 4, l = 0, m = 0, s = +\\frac{1}{2}$"
+      ],
+      "correct": 3,
+      "explain": "According to the Aufbau principle, electrons fill atomic orbitals in order of increasing energy level. The filling order is $1s, 2s, 2p, 3s, 3p, 4s, 3d, \\dots$\nThe first $18$ electrons fill up to the $3p$ subshell (Argon core: $1s^2 2s^2 2p^6 3s^2 3p^6$).\nThe $19^{\\text{th}}$ electron will enter the $4s$ orbital.\nFor the $4s$ orbital: principal quantum number $n = 4$, azimuthal quantum number $l = 0$, magnetic quantum number $m = 0$, and spin $s = +\\frac{1}{2}$ or $-\\frac{1}{2}$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Structure of Atom",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

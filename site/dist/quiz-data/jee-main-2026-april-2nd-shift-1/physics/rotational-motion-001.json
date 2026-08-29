@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Rotational Motion",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Rotational Motion",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-inf4zt",
+      "q": "The position of an object having mass $0.1\\text{ kg}$ as a function of time $t$ is given as $\\vec{r} = (10t^2\\hat{i} + 5t^3\\hat{j})\\text{ m}$. At $t = 1\\text{ s}$, which of the following statements are correct?\nA. The linear momentum $\\vec{p} = (2\\hat{i} + 1.5\\hat{j})\\text{ kg\\cdot m/s}$.\nB. The force acting on the object $\\vec{F} = (2\\hat{i} + 3\\hat{j})\\text{ N}$.\nC. The angular momentum of the object about its origin $\\vec{L} = 15\\hat{k}\\text{ J\\cdot s}$.\nD. The torque acting on the object about its origin $\\vec{\\tau} = 20\\hat{k}\\text{ N\\cdot m}$.\n\nChoose the correct answer from the options given below :",
+      "options": [
+        "A, B and C only",
+        "B, C and D only",
+        "A, C and D only",
+        "A, B and D only"
+      ],
+      "correct": 3,
+      "explain": "Given $m = 0.1\\text{ kg}$ and $\\vec{r}(t) = 10t^2\\hat{i} + 5t^3\\hat{j}$.\nVelocity $\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = 20t\\hat{i} + 15t^2\\hat{j}$. At $t=1$, $\\vec{v} = 20\\hat{i} + 15\\hat{j}$.\nAcceleration $\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = 20\\hat{i} + 30t\\hat{j}$. At $t=1$, $\\vec{a} = 20\\hat{i} + 30\\hat{j}$.\nLinear momentum $\\vec{p} = m\\vec{v} = 0.1(20\\hat{i} + 15\\hat{j}) = 2\\hat{i} + 1.5\\hat{j}$. (Statement A is correct)\nForce $\\vec{F} = m\\vec{a} = 0.1(20\\hat{i} + 30\\hat{j}) = 2\\hat{i} + 3\\hat{j}$. (Statement B is correct)\nAngular momentum $\\vec{L} = \\vec{r} \\times \\vec{p} = (10\\hat{i} + 5\\hat{j}) \\times (2\\hat{i} + 1.5\\hat{j}) = 10(1.5)\\hat{k} - 5(2)\\hat{k} = 15\\hat{k} - 10\\hat{k} = 5\\hat{k}$. (Statement C is incorrect; it should be 5$\\hat{k}$)\nTorque $\\vec{\\tau} = \\vec{r} \\times \\vec{F} = (10\\hat{i} + 5\\hat{j}) \\times (2\\hat{i} + 3\\hat{j}) = 10(3)\\hat{k} - 5(2)\\hat{k} = 30\\hat{k} - 10\\hat{k} = 20\\hat{k}$. (Statement D is correct)\nThus, only statements A, B, and D are correct.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

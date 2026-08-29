@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Chemistry - Chemical Kinetics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Chemistry",
+  "topic": "Chemical Kinetics",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1fxn38w",
+      "q": "Consider the reaction $aX \\rightarrow bY$, for which the rate constant at $30^\\circ\\text{C}$ is $1 \\times 10^{-3}\\text{ mol}^{-1}\\text{ L s}^{-1}$. Which of the following statements are true?\nA. When concentration of 'X' is increased to four times, the rate of reaction becomes 16 times.\nB. The reaction is a second order reaction.\nC. The half-life period is independent of the concentration of X.\nD. Decomposition of $\\text{N}_2\\text{O}_5$ is an example of the above reaction.\nE. $\\ln \\frac{[R_o]}{[R]}$ vs time is valid for the above reaction.\nChoose the correct answer from the options given below:",
+      "options": [
+        "A and B Only",
+        "A, B and C Only",
+        "A, B, D and E Only",
+        "C and D Only"
+      ],
+      "correct": 0,
+      "explain": "The unit of the rate constant $k$ is $\\text{L mol}^{-1}\\text{ s}^{-1}$ (or $\\text{M}^{-1}\\text{ s}^{-1}$), which indicates that it is a second-order reaction. Thus, statement B is true.\nFor a second-order reaction, Rate = $k[X]^2$. If $[X]$ is increased $4$ times, Rate becomes $(4)^2 = 16$ times. Thus, statement A is true.\nThe half-life of a second-order reaction is $t_{1/2} = \\frac{1}{k[X]_0}$, which depends on the initial concentration. Thus, statement C is false.\nThe decomposition of $\\text{N}_2\\text{O}_5$ is a well-known first-order reaction. Thus, statement D is false.\nThe equation $\\ln \\frac{[R_o]}{[R]} = kt$ is the integrated rate law for a first-order reaction. For second-order, it is $\\frac{1}{[R]} - \\frac{1}{[R_0]} = kt$. Thus, statement E is false.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1r0l65c",
+      "q": "Consider the following gas phase reaction being carried out in a closed vessel at $25^\\circ\\text{C}$.\n$2A(g) \\rightarrow 4B(g) + C(g)$\nAt time $30\\text{ min}$, the total pressure of the system is $300\\text{ mm Hg}$. At time $t = \\infty$, the total pressure is $600\\text{ mm Hg}$. The pressure of $C(g)$ at $30\\text{ minutes}$ time interval would be _______ mm Hg.",
+      "options": [
+        "$10$",
+        "$20$",
+        "$30$",
+        "$40$"
+      ],
+      "correct": 1,
+      "explain": "Let initial pressure of A be $P_0$.\nAt $t = \\infty$, reactant A is completely consumed. 2 moles of A yield 5 moles of gaseous products (4B + 1C).\nSo, final pressure $P_\\infty = \\frac{5}{2} P_0 = 600 \\implies P_0 = 240\\text{ mm Hg}$.\nAt $t = 30\\text{ min}$, let $2p$ be the drop in pressure of A.\n$P_A = 240 - 2p$, $P_B = 4p$, $P_C = p$.\nTotal pressure $P_{total} = (240 - 2p) + 4p + p = 240 + 3p$.\nGiven $P_{total} = 300\\text{ mm Hg}$ at $30\\text{ min}$.\n$240 + 3p = 300 \\implies 3p = 60 \\implies p = 20\\text{ mm Hg}$.\nSince $P_C = p$, the pressure of C at $30\\text{ minutes}$ is $20\\text{ mm Hg}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

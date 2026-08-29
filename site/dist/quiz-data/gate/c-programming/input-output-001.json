@@ -1,0 +1,531 @@
+{
+  "title": "GATE - C Programming - Input Output",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Input Output",
+  "source": "indiabix.com",
+  "count": 27,
+  "questions": [
+    {
+      "id": "gate-167zh7k",
+      "q": "What will be the content of 'file.c' after executing the following program? #include&lt;stdio.h&gt; int main() { FILE *fp1, *fp2; fp1=fopen(\"file.c\", \"w\"); fp2=fopen(\"file.c\", \"w\"); fputc('A', fp1); fputc('B', fp2); fclose(fp1); fclose(fp2); return 0; }",
+      "options": [
+        "B",
+        "AB",
+        "BB",
+        "Error in opening file 'file1.c'"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18jgra4",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { int k=1; printf(\"%d == 1 is\" \"%s\\n\", k, k==1?\"TRUE\":\"FALSE\"); return 0; }",
+      "options": [
+        "k == 1 is TRUE",
+        "1 == 1 is TRUE",
+        "1 == 1 is FALSE",
+        "K == 1 is FALSE"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-g9j82o",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; char *str = \"char *str = %c%s%c; main(){ printf(str, 34, str, 34);}\"; int main() { printf(str, 34, str, 34); return 0; }",
+      "options": [
+        "char *str = \"char *str = %c%s%c; main(){ printf(str, 34, str, 34);}\"; main(){ printf(str, 34, str, 34);}",
+        "char *str = %c%s%c; main(){ printf(str, 34, str, 34);}",
+        "No output",
+        "Error in program"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1288pqg",
+      "q": "If the file 'source.txt' contains a line \"Be my friend\" which of the following will be the output of below program? #include&lt;stdio.h&gt; int main() { FILE *fs, *ft; char c[10]; fs = fopen(\"source.txt\", \"r\"); c[0] = getc(fs); fseek(fs, 0, SEEK_END); fseek(fs, -3L, SEEK_CUR); fgets(c, 5, fs); puts(c); return 0; }",
+      "options": [
+        "friend",
+        "frien",
+        "end",
+        "Error in fseek();"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zw8vpw",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { float a=3.15529; printf(\"%2.1f\\n\", a); return 0; }",
+      "options": [
+        "3.00",
+        "3.15",
+        "3.2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-nuyo4g",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { unsigned char; FILE *fp; fp=fopen(\"trial\", \"r\"); if(!fp) { printf(\"Unable to open file\"); exit(1); } fclose(fp); return 0; }",
+      "options": [
+        "Error: in unsigned char statement",
+        "Error: unknown file pointer",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-15uakfs",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { char ch; int i; scanf(\"%c\", &amp;i); scanf(\"%d\", &amp;ch); printf(\"%c %d\", ch, i); return 0; }",
+      "options": [
+        "Error: suspicious char to in conversion in scanf()",
+        "Error: we may not get input for second scanf() statement",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rwmux4",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; int main() { FILE *fp; fp=fopen(\"trial\", \"r\"); fseek(fp, \"20\", SEEK_SET); fclose(fp); return 0; }",
+      "options": [
+        "Error: unrecognised Keyword SEEK_SET",
+        "Error: fseek() long offset value",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dug788",
+      "q": "Point out the error in the program? #include&lt;stdio.h&gt; /* Assume there is a file called 'file.c' in c:\\tc directory. */ int main() { FILE *fp; fp=fopen(\"c:\\tc\\file.c\", \"r\"); if(!fp) printf(\"Unable to open file.\"); fclose(fp); return 0; }",
+      "options": [
+        "No error, No output.",
+        "Program crashes at run time.",
+        "Output: Unable to open file.",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7asbc0",
+      "q": "Point out the error/warning in the program? #include&lt;stdio.h&gt; int main() { unsigned char ch; FILE *fp; fp=fopen(\"trial\", \"r\"); while((ch = getc(fp))!=EOF) printf(\"%c\", ch); fclose(fp); return 0; }",
+      "options": [
+        "Error: in unsigned char declaration",
+        "Error: while statement",
+        "No error",
+        "It prints all characters in file \"trial\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-urfnsy",
+      "q": "Which of the following statement is correct about the program? #include&lt;stdio.h&gt; int main() { FILE *fp; char ch; int i=1; fp = fopen(\"myfile.c\", \"r\"); while((ch=getc(fp))!=EOF) { if(ch == '\\n') i++; } fclose(fp); return 0; }",
+      "options": [
+        "The code counts number of characters in the file",
+        "The code counts number of words in the file",
+        "The code counts number of blank lines in the file",
+        "The code counts number of lines in the file"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wxali8",
+      "q": "Which of the following statement is correct about the program? #include&lt;stdio.h&gt; int main() { FILE *fp; char str[11], ch; int i=0; fp = fopen(\"INPUT.TXT\", \"r\"); while((ch=getc(fp))!=EOF) { if(ch == '\\n' || ch == ' ') { str[i]='\\0'; strrev(str); printf(\"%s\", str); i=0; } else str[i++]=ch; } fclose(fp); return 0; }",
+      "options": [
+        "The code writes a text to a file",
+        "The code reads a text files and display its content in reverse order",
+        "The code writes a text to a file in reverse order",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s4s5xe",
+      "q": "Point out the correct statements about the program? #include&lt;stdio.h&gt; int main() { FILE *fptr; char str[80]; fptr = fopen(\"f1.dat\", \"w\"); if(fptr == NULL) printf(\"Cannot open file\"); else { while(strlen(gets(str))>0) { fputs(str, fptr); fputs(\"\\n\", fptr); } fclose(fptr); } return 0; }",
+      "options": [
+        "The code copies the content of one file to another",
+        "The code writes strings that are read from the keyboard into a file.",
+        "The code reads a file",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jrscns",
+      "q": "While calling the fprintf() function in the format string conversion specifier %s can be used to write a character string in capital letters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14i1klm",
+      "q": "A text stream is an ordered sequence of characters composed into lines, each line consisting of zero or more characters plus a terminating new-line character.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xquk3q",
+      "q": "Offset used in fseek() function call can be a negative number.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zheyr6",
+      "q": "We should not read after a write to a file without an intervening call to fflush(), fseek() or rewind()",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ne1lk8",
+      "q": "In a call to printf() function the format specifier %b can be used to print binary equivalent of an integer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zin8f0",
+      "q": "stderr, stdin, stdout are FILE pointers",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jenruj",
+      "q": "A file written in text mode can be read back correctly in binary mode.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13zfka6",
+      "q": "Will the following program work? #include&lt;stdio.h&gt; int main() { int n=5; printf(\"n=%*d\\n\", n, n); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gd2d48",
+      "q": "Can we specify a variable filed width in a scanf() format string?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11fn7ru",
+      "q": "Which files will get closed through the fclose() in the following program? #include&lt;stdio.h&gt; int main() { FILE *fs, *ft, *fp; fp = fopen(\"A.C\", \"r\"); fs = fopen(\"B.C\", \"r\"); ft = fopen(\"C.C\", \"r\"); fclose(fp, fs, ft); return 0; }",
+      "options": [
+        "\"A.C\" \"B.C\" \"C.C\"",
+        "\"B.C\" \"C.C\"",
+        "\"A.C\"",
+        "Error in fclose()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-11laae0",
+      "q": "On executing the below program what will be the contents of 'target.txt' file if the source file contains a line \"To err is human\"? #include&lt;stdio.h&gt; int main() { int i, fss; char ch, source[20] = \"source.txt\", target[20]=\"target.txt\", t; FILE *fs, *ft; fs = fopen(source, \"r\"); ft = fopen(target, \"w\"); while(1) { ch=getc(fs); if(ch==EOF) break; else { fseek(fs, 4L, SEEK_CUR); fputc(ch, ft); } } return 0; }",
+      "options": [
+        "r n",
+        "Trh",
+        "err",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13s0pig",
+      "q": "To scan a and b given below, which of the following scanf() statement will you use? #include&lt;stdio.h&gt; float a; double b;",
+      "options": [
+        "scanf(\"%f %f\", &amp;a, &amp;b);",
+        "scanf(\"%Lf %Lf\", &amp;a, &amp;b);",
+        "scanf(\"%f %Lf\", &amp;a, &amp;b);",
+        "scanf(\"%f %lf\", &amp;a, &amp;b);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7061us",
+      "q": "Out of fgets() and gets() which function is safe to use?",
+      "options": [
+        "gets()",
+        "fgets()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ufu2ow",
+      "q": "Consider the following program and what will be content of t? #include&lt;stdio.h&gt; int main() { FILE *fp; int t; fp = fopen(\"DUMMY.C\", \"w\"); t = fileno(fp); printf(\"%d\\n\", t); return 0; }",
+      "options": [
+        "size of \"DUMMY.C\" file",
+        "The handle associated with \"DUMMY.C\" file",
+        "Garbage value",
+        "Error in fileno()"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Input Output",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

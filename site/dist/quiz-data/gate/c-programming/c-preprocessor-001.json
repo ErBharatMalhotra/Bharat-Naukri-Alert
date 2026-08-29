@@ -1,0 +1,371 @@
+{
+  "title": "GATE - C Programming - C Preprocessor",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "C Preprocessor",
+  "source": "indiabix.com",
+  "count": 19,
+  "questions": [
+    {
+      "id": "gate-t5e7zc",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define MAN(x, y) ((x)&gt;(y)) ? (x):(y); int main() { int i=10, j=5, k=0; k = MAN(++i, j++); printf(\"%d, %d, %d\\n\", i, j, k); return 0; }",
+      "options": [
+        "12, 6, 12",
+        "11, 5, 11",
+        "11, 5, Garbage",
+        "12, 6, Garbage"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-rcc81g",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define SQUARE(x) x*x int main() { float s=10, u=30, t=2, a; a = 2*(s-u*t)/SQUARE(t); printf(\"Result = %f\", a); return 0; }",
+      "options": [
+        "Result = -100.000000",
+        "Result = -25.000000",
+        "Result = 0.000000",
+        "Result = 100.000000"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ad3bd8",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define SQR(x)(x*x) int main() { int a, b=3; a = SQR(b+2); printf(\"%d\\n\", a); return 0; }",
+      "options": [
+        "25",
+        "11",
+        "Error",
+        "Garbage value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-b430ey",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define JOIN(s1, s2) printf(\"%s=%s %s=%s \\n\", #s1, s1, #s2, s2); int main() { char *str1=\"India\"; char *str2=\"BIX\"; JOIN(str1, str2); return 0; }",
+      "options": [
+        "str1=IndiaBIX str2=BIX",
+        "str1=India str2=BIX",
+        "str1=India str2=IndiaBIX",
+        "Error: in macro substitution"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-54nack",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #define CUBE(x) (x*x*x) int main() { int a, b=3; a = CUBE(b++); printf(\"%d, %d\\n\", a, b); return 0; }",
+      "options": [
+        "9, 4",
+        "27, 4",
+        "27, 6",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w9l4g4",
+      "q": "Point out the error in the program #include&lt;stdio.h&gt; #define SI(p, n, r) float si; si=p*n*r/100; int main() { float p=2500, r=3.5; int n=3; SI(p, n, r); SI(1500, 2, 2.5); return 0; }",
+      "options": [
+        "26250.00 7500.00",
+        "Nothing will print",
+        "Error: Multiple declaration of si",
+        "Garbage values"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cradt4",
+      "q": "Point out the error in the program #include&lt;stdio.h&gt; int main() { int i; #if A printf(\"Enter any number:\"); scanf(\"%d\", &i); #elif B printf(\"The number is odd\"); return 0; }",
+      "options": [
+        "Error: unexpected end of file because there is no matching #endif",
+        "The number is odd",
+        "Garbage values",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-m7v1ru",
+      "q": "Which of the following are correct preprocessor directives in C? 1: #ifdef 2: #if 3: #elif 4: #undef",
+      "options": [
+        "1, 2",
+        "4",
+        "1, 2, 4",
+        "1, 2, 3, 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-aykh7c",
+      "q": "Which of the following are correctly formed #define statements in C?",
+      "options": [
+        "#define CUBE (X) (X*X*X);",
+        "#define CUBE(x) (X*X*X)",
+        "#define CUBE(X)(X*X*X)",
+        "#define CUBE(X) {X*X*X}"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-krqhy8",
+      "q": "If the file to be included doesn't exist, the preprocessor flashes an error message.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ll41mg",
+      "q": "Preprocessor directive #undef can be used only on a macro that has been #define earlier",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wrtoo4",
+      "q": "There exists a way to prevent the same file from getting #included twice in the same program.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1fbxn62",
+      "q": "A preprocessor directive is a message from programmer to the preprocessor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cxruhr",
+      "q": "Macro calls and function calls work exactly similarly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16fpuug",
+      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; #define X (4+Y) #define Y (X+3) int main() { printf(\"%d\\n\", 4*X+2); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ka0cpo",
+      "q": "Would the following typedef work? typedef #include l;",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hwv780",
+      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; int main() { printf(\"India\" \"BIX\\n\"); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18naw6",
+      "q": "It is necessary that a header files should have a .h extension?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1c3vogw",
+      "q": "Will the program compile successfully? #include&lt;stdio.h&gt; int main() { #ifdef NOTE int a; a=10; #else int a; a=20; #endif printf(\"%d\\n\", a); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "C Preprocessor",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

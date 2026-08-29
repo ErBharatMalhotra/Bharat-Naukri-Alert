@@ -1,0 +1,191 @@
+{
+  "title": "GATE - C# Programming - Interfaces",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C# Programming",
+  "topic": "Interfaces",
+  "source": "indiabix.com",
+  "count": 9,
+  "questions": [
+    {
+      "id": "gate-1oa5mw",
+      "q": "Which of the following statements is correct about an interface used in C#.NET?",
+      "options": [
+        "If a class implements an interface partially, then it should be an abstract class.",
+        "A class cannot implement an interface partially.",
+        "An interface can contain static methods.",
+        "An interface can contain static data."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-utsruo",
+      "q": "Which of the following statements is correct about an interface?",
+      "options": [
+        "One interface can be implemented in another interface.",
+        "An interface can be implemented by multiple classes in the same program.",
+        "A class that implements an interface can explicitly implement members of that interface.",
+        "The functions declared in an interface have a body."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cvtbm8",
+      "q": "Which of the following statements are correct about an interface in C#.NET? A class can implement multiple interfaces. Structures cannot inherit a class but can implement an interface. In C#.NET, : is used to signify that a class member implements a specific interface. An interface can implement multiple classes. The static attribute can be used with a method that implements an interface declaration.",
+      "options": [
+        "1, 2, 3",
+        "2, 4",
+        "3, 5",
+        "None of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7nixl3",
+      "q": "Which of the following is the correct implementation of the interface given below? interface IMyInterface { double MyFun(Single i); }",
+      "options": [
+        "class MyClass { double MyFun(Single i) as IMyInterface.MyFun { // Some code } }",
+        "class MyClass { MyFun (Single i) As Double { // Some code } }",
+        "class MyClass: implements IMyInterface { double fun(Single si) implements IMyInterface.MyFun() { //Some code } }",
+        "class MyClass: IMyInterface { double IMyInterface.MyFun(Single i) { // Some code } }"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-4bhzur",
+      "q": "Which of the following statements are correct about an interface used in C#.NET? An interface can contain properties, methods and events. The keyword must implement forces implementation of an interface. Interfaces can be overloaded. Interfaces can be implemented by a class or a struct. Enhanced implementations of an interface can be developed without breaking existing code.",
+      "options": [
+        "1, 2",
+        "1, 4, 5",
+        "3, 4",
+        "3 only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vymlrg",
+      "q": "Which of the following can implement an interface? Data Class Enum Structure Namespace",
+      "options": [
+        "1, 3",
+        "2, 4",
+        "3, 5",
+        "4 only"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-28fdao",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? interface IMyInterface { void fun1(); void fun2(); } class MyClass: IMyInterface { private int i; void IMyInterface.fun1() { // Some code } }",
+      "options": [
+        "Class MyClass is an abstract class.",
+        "Class MyClass cannot contain instance data.",
+        "Class MyClass fully implements the interface IMyInterface.",
+        "Interface IMyInterface should be inherited from the Object class."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10u4948",
+      "q": "Which of the following statements is correct about the C#.NET code snippet given below? interface IPerson { String FirstName { get; set; } String LastName { get; set; } void Print(); void Stock(); int Fun(); }",
+      "options": [
+        "Properties cannot be declared inside an interface.",
+        "This is a perfectly workable interface.",
+        "The properties in the interface must have a body.",
+        "Subroutine in the interface must have a body."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1txzo55",
+      "q": "Which of the following is the correct way to implement the interface given below? interface IPerson { String FirstName { get; set; } }",
+      "options": [
+        "class Employee : IPerson { private String str; public String FirstName { get { return str; } set { str = value; } } }",
+        "class Employee { private String str; public String IPerson.FirstName { get { return str; } set { str = value; } } }",
+        "class Employee : implements IPerson { private String str; public String FirstName { get { return str; } set { str = value; } } }",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C# Programming",
+      "topic": "Interfaces",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

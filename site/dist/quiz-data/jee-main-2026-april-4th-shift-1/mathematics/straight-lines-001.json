@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Straight Lines",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Straight Lines",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1005zfk",
+      "q": "Let the line $L_1 : x + 3 = 0$ intersect the lines $L_2 : x - y = 0$ and $L_3 : 3x + y = 0$ at the points $A$ and $B$, respectively. Let the bisector of the obtuse angle between the lines $L_2$ and $L_3$ intersect the line $L_1$ at the point $C$. Then $BC^2 : AC^2$ is equal to:",
+      "options": [
+        "$5 : 1$",
+        "$1 : 5$",
+        "$2 : 3$",
+        "$3 : 2$"
+      ],
+      "correct": 0,
+      "explain": "Intersection of $L_1$ and $L_2$: $x = -3 \\implies y = -3$. Thus, $A = (-3, -3)$.\nIntersection of $L_1$ and $L_3$: $x = -3 \\implies -9 + y = 0 \\implies y = 9$. Thus, $B = (-3, 9)$.\n$L_2$ and $L_3$ intersect at the origin $O(0, 0)$. The angle between $L_2$ and $L_3$ at $O$ defines $\\Delta AOB$.\nLet's check the angle between vectors $\\vec{OA} = (-3, -3)$ and $\\vec{OB} = (-3, 9)$.\n$\\vec{OA} \\cdot \\vec{OB} = (-3)(-3) + (-3)(9) = 9 - 27 = -18 < 0$.\nSince the dot product is negative, $\\angle AOB$ is obtuse.\nThus, the bisector of the obtuse angle between $L_2$ and $L_3$ is the internal angle bisector of $\\angle AOB$.\nBy the Angle Bisector Theorem, the internal bisector at $O$ divides the opposite side $AB$ at $C$ in the ratio of the adjacent sides:\n$\\frac{AC}{BC} = \\frac{OA}{OB}$.\nLengths are $OA = \\sqrt{(-3)^2 + (-3)^2} = 3\\sqrt{2}$, and $OB = \\sqrt{(-3)^2 + 9^2} = \\sqrt{90} = 3\\sqrt{10}$.\n$\\frac{AC}{BC} = \\frac{3\\sqrt{2}}{3\\sqrt{10}} = \\frac{1}{\\sqrt{5}}$.\nSquaring both sides yields $\\frac{AC^2}{BC^2} = \\frac{1}{5}$, or $BC^2 : AC^2 = 5 : 1$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Straight Lines",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Mathematics - Circles",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Circles",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-yk7sux",
+      "q": "Let a circle $C$ have its centre in the first quadrant, intersect the coordinate axes at exactly three points and cut off equal intercepts from the coordinate axes. If the length of the chord of $C$ on the line $x + y = 1$ is $\\sqrt{14}$, then the square of the radius of $C$ is _______.",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "14"
+      ],
+      "correct": 1,
+      "explain": "A circle cutting the coordinate axes at exactly three points implies that it passes through the origin $(0,0)$ and intersects each axis exactly once more. Because the intercepts it makes on the axes are equal, its intersections with the $x$ and $y$ axes must be $(a,0)$ and $(0,a)$. Thus, the intercepts are $a$.\nSince the centre is in the first quadrant, $a > 0$.\nThe centre of the circle is at $(r, r)$ and since it passes through the origin, the radius $R$ is given by $R^2 = r^2 + r^2 = 2r^2$.\nThe equation of the circle is $(x - r)^2 + (y - r)^2 = R^2$.\nThe length of the chord cut by the line $x + y - 1 = 0$ is $\\sqrt{14}$. The length of a chord is $2\\sqrt{R^2 - d^2}$, where $d$ is the perpendicular distance from the centre $(r, r)$ to the line.\n$d = \\frac{|r + r - 1|}{\\sqrt{1^2 + 1^2}} = \\frac{|2r - 1|}{\\sqrt{2}}$.\nGiven $2\\sqrt{R^2 - d^2} = \\sqrt{14} \\implies R^2 - d^2 = \\frac{14}{4} = \\frac{7}{2}$.\nSubstituting $R^2 = 2r^2$ and $d^2 = \\frac{(2r - 1)^2}{2}$:\n$2r^2 - \\frac{(2r - 1)^2}{2} = \\frac{7}{2} \\implies 4r^2 - (4r^2 - 4r + 1) = 7 \\implies 4r - 1 = 7 \\implies 4r = 8 \\implies r = 2$.\nHence, $R^2 = 2r^2 = 2(2^2) = 8$. The square of the radius is 8.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Circles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

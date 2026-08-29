@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire bleu 2019 - MATHÉMATIQUES - Intégrales",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2019",
+  "subject": "MATHÉMATIQUES",
+  "topic": "Intégrales",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2019-1ojqgi8",
+      "q": "Parmi les propositions suivantes, laquelle est égale à l’intégrale\n$$\\int_{1}^{2} 3x \\sqrt{x^2 + 1} \\, dx$$",
+      "options": [
+        "$3(5\\sqrt{5} - 2\\sqrt{2})$",
+        "$\\frac{5\\sqrt{5}-2\\sqrt{2}}{2}$",
+        "$5\\sqrt{5} - 2\\sqrt{2}$",
+        "$\\frac{3}{2}(5\\sqrt{5} - 2\\sqrt{2})$"
+      ],
+      "correct": 2,
+      "explain": "Soit le changement de variable $u = x^2+1$. Alors $du = 2x\\,dx$. On peut réécrire l'intégrale en substituant $3x\\,dx = \\frac{3}{2} du$. Les bornes deviennent $u=2$ (quand $x=1$) et $u=5$ (quand $x=2$). On a $\\int_{2}^{5} \\frac{3}{2} u^{1/2} \\, du = \\frac{3}{2} \\left[ \\frac{2}{3} u^{3/2} \\right]_2^5 = u^{3/2} \\Big|_2^5 = 5\\sqrt{5} - 2\\sqrt{2}$.",
+      "exam": "Questionnaire bleu 2019",
+      "subject": "MATHÉMATIQUES",
+      "topic": "Intégrales",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2019",
+      "tags": []
+    }
+  ]
+}

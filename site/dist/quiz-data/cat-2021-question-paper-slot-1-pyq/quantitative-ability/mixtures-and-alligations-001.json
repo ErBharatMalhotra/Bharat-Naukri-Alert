@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Mixtures and Alligations",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Mixtures and Alligations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-dnfu90",
+      "q": "The strength of an indigo solution in percentage is equal to the amount of indigo in grams per 100 cc of water. Two 800 cc bottles are filled with indigo solutions of strengths 33% and 17%, respectively. A part of the solution from the first bottle is thrown away and replaced by an equal volume of the solution from the second bottle. If the strength of the indigo solution in the first bottle has now changed to 21% then the volume, in cc, of the solution left in the second bottle is",
+      "options": [
+        "150",
+        "200",
+        "250",
+        "300"
+      ],
+      "correct": 1,
+      "explain": "Let $V$ be the volume (in cc) replaced from the first bottle. \nThe original first bottle has 800 cc at 33% concentration. After removing $V$ cc, $(800 - V)$ cc remains at 33%.\nIt's mixed with $V$ cc of 17% solution from the second bottle to form 800 cc at 21%.\nEquation for indigo amount: $(800 - V) \\times 0.33 + V \\times 0.17 = 800 \\times 0.21$\n$264 - 0.33V + 0.17V = 168$\n$0.16V = 264 - 168 = 96$\n$V = \\frac{96}{0.16} = 600$ cc.\n600 cc of solution was taken from the second bottle, which initially held 800 cc.\nVolume left in the second bottle = $800 - 600 = 200$ cc.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures and Alligations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

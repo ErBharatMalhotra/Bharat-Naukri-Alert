@@ -1,0 +1,111 @@
+{
+  "title": "BACE: Applied Mathematics - BACE - Applied Mathematics - Unit Conversions",
+  "titleHi": "",
+  "exam": "BACE: Applied Mathematics",
+  "subject": "BACE - Applied Mathematics",
+  "topic": "Unit Conversions",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "bace:-applied-mathematics-otwf40",
+      "q": "A protocol requires adding **450 $\\mu$L** of buffer to a tube. How many **milliliters (mL)** is this?",
+      "options": [
+        "0.045 mL",
+        "0.45 mL",
+        "4.5 mL",
+        "450,000 mL"
+      ],
+      "correct": 1,
+      "explain": "There are 1,000 microliters ($\\mu$L) in 1 milliliter (mL). To convert $\\mu$L to mL, divide by 1,000: $$ \\frac{450}{1000} = 0.45 \\text{ mL} $$",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Unit Conversions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-111dfjw",
+      "q": "Which micropipette would be most accurate for measuring **150 $\\mu$L**?",
+      "options": [
+        "P20 (2–20 $\\mu$L)",
+        "P200 (20–200 $\\mu$L)",
+        "P1000 (100–1000 $\\mu$L)",
+        "P10 (0.5–10 $\\mu$L)"
+      ],
+      "correct": 1,
+      "explain": "The P200 pipettor has a range of 20–200 $\\mu$L. 150 $\\mu$L falls squarely within this range. A P1000 could measure it, but P200 offers higher precision for this specific volume. P20 and P10 are too small.",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Unit Conversions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-ny7a2s",
+      "q": "A standard curve indicates a sample concentration of **0.5 mg/mL**. What is this concentration in **$\\mu$g/$\\mu$L**?",
+      "options": [
+        "0.0005 $\\mu$g/$\\mu$L",
+        "0.5 $\\mu$g/$\\mu$L",
+        "500 $\\mu$g/$\\mu$L",
+        "5000 $\\mu$g/$\\mu$L"
+      ],
+      "correct": 1,
+      "explain": "Convert both numerator and denominator: $$1 \\text{ mg} = 1000 \\text{ } \\mu\\text{g}$$ and $$1 \\text{ mL} = 1000 \\text{ } \\mu\\text{L}$$. Therefore: $$\\frac{0.5 \\text{ mg}}{1 \\text{ mL}} = \\frac{0.5 \\times 1000 \\text{ } \\mu\\text{g}}{1000 \\text{ } \\mu\\text{L}} = 0.5 \\text{ } \\mu\\text{g}/\\mu\\text{L}$$ The value remains the same.",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Unit Conversions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-6ffv8g",
+      "q": "A reaction requires **0.25 M** EDTA. The stock bottle says **500 mM** EDTA. Is the stock concentrated enough?",
+      "options": [
+        "No, because 0.25 M is 2500 mM.",
+        "Yes, because 500 mM equals 0.5 M, which is > 0.25 M.",
+        "No, because mM is larger than M.",
+        "Yes, because 500 is larger than 0.25."
+      ],
+      "correct": 1,
+      "explain": "Convert units to compare: $$500 \\text{ mM} = 500 \\times 10^{-3} \\text{ M} = 0.5 \\text{ M}$$ Since **0.5 M > 0.25 M**, the stock is concentrated enough to use for dilution.",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Unit Conversions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-151k6cc",
+      "q": "A mass of **2500 ng** (nanograms) is equal to how many **mg** (milligrams)?",
+      "options": [
+        "0.0025 mg",
+        "0.25 mg",
+        "2.5 mg",
+        "25 mg"
+      ],
+      "correct": 0,
+      "explain": "There are $1,000$ ng in $1 \\text{ } \\mu\\text{g}$ and $1,000 \\text{ } \\mu\\text{g}$ in $1 \\text{ mg}$. Total factor is $1,000,000$ ($10^6$). $$2500 \\text{ ng} \\div 1,000,000 = 0.0025 \\text{ mg}$$",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Unit Conversions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

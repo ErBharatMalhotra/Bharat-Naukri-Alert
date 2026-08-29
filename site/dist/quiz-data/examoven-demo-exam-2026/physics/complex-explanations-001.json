@@ -1,0 +1,31 @@
+{
+  "title": "ExamOven Demo Exam 2026 - Physics - Complex Explanations",
+  "titleHi": "",
+  "exam": "ExamOven Demo Exam 2026",
+  "subject": "Physics",
+  "topic": "Complex Explanations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "examoven-demo-exam-2026-u8t81g",
+      "q": "A projectile is fired with an initial velocity $v_0$ at an angle $\\theta$ to the horizontal. Neglecting air resistance, what is the formula for the **maximum height** ($H$) reached?\n\n*Hint: Think about vertical velocity component.*",
+      "options": [
+        "$H = \\frac{v_0^2 \\sin(2\\theta)}{g}$",
+        "$H = \\frac{v_0 \\sin(\\theta)}{g}$",
+        "$H = \\frac{v_0^2 \\sin^2(\\theta)}{2g}$",
+        "$H = v_0 t + \\frac{1}{2}at^2$"
+      ],
+      "correct": 2,
+      "explain": "To derive the maximum height:\n\n1.  **Vertical Velocity**: $v_y = v_0 \\sin(\\theta)$\n2.  At max height, final vertical velocity $v_f = 0$.\n3.  Using the kinematic equation $v_f^2 = v_i^2 + 2a d$:\n    *   $0 = (v_0 \\sin(\\theta))^2 - 2gH$\n    *   $2gH = v_0^2 \\sin^2(\\theta)$\n    *   $$H = \\frac{v_0^2 \\sin^2(\\theta)}{2g}$$\n\nOption (a) is the Range, and (b) is the Time of Flight (half).",
+      "exam": "ExamOven Demo Exam 2026",
+      "subject": "Physics",
+      "topic": "Complex Explanations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

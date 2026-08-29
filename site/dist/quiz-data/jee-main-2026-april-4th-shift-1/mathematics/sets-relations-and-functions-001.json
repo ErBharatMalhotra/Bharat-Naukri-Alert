@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Sets, Relations and Functions",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Sets, Relations and Functions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-7h5s7h",
+      "q": "The number of functions $f : \\{1, 2, 3, 4\\} \\to \\{a, b, c\\}$, which are not onto, is:",
+      "options": [
+        "$48$",
+        "$45$",
+        "$51$",
+        "$35$"
+      ],
+      "correct": 1,
+      "explain": "The total number of functions from a set of 4 elements to a set of 3 elements is $3^4 = 81$.\nThe number of onto (surjective) functions is given by the principle of inclusion-exclusion:\n$\\sum_{k=0}^{n} (-1)^k \\binom{n}{k} (n-k)^m = \\binom{3}{0} 3^4 - \\binom{3}{1} 2^4 + \\binom{3}{2} 1^4 - \\binom{3}{3} 0^4$\n$= 1(81) - 3(16) + 3(1) - 0 = 81 - 48 + 3 = 36$.\nThe number of functions that are NOT onto is equal to the total number of functions minus the number of onto functions:\n$81 - 36 = 45$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Sets, Relations and Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

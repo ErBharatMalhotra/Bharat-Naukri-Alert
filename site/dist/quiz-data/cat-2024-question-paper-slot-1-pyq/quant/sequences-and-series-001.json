@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, PYQ) - Quant - Sequences and Series",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+  "subject": "Quant",
+  "topic": "Sequences and Series",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-o7gik8",
+      "q": "Suppose $x_1, x_2, x_3, \\dots, x_{100}$ are in arithmetic progression such that $x_5 = -4$ and $2x_6 + 2x_9 = x_{11} + x_{13}$. Then, $x_{100}$ equals",
+      "options": [
+        "$-196$",
+        "$206$",
+        "$204$",
+        "$-194$"
+      ],
+      "correct": 3,
+      "explain": "Let $a$ be the first term and $d$ the common difference. $x_5 = a + 4d = -4$. Also, $2(a + 5d) + 2(a + 8d) = (a + 10d) + (a + 12d) \\implies 2a + 10d + 2a + 16d = 2a + 22d \\implies 4a + 26d = 2a + 22d \\implies 2a + 4d = 0 \\implies a = -2d$. Substitute in $a + 4d = -4 \\implies -2d + 4d = -4 \\implies 2d = -4 \\implies d = -2$. Then $a = 4$. $x_{100} = a + 99d = 4 + 99(-2) = 4 - 198 = -194$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "Quant",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

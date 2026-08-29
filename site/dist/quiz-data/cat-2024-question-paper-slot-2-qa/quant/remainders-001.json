@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 2, QA) - Quant - Remainders",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+  "subject": "Quant",
+  "topic": "Remainders",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-98nox0",
+      "q": "When $3^{333}$ is divided by 11, the remainder is",
+      "options": [
+        "1",
+        "10",
+        "6",
+        "5"
+      ],
+      "correct": 3,
+      "explain": "By Fermat's Little Theorem, $3^{10} \\equiv 1 \\pmod{11}$. We can write $333 = 10 \\times 33 + 3$. Thus, $3^{333} = (3^{10})^{33} \\times 3^3 \\equiv 1^{33} \\times 27 \\equiv 27 \\pmod{11}$. The remainder of 27 divided by 11 is **5**.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Remainders",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "title": "GATE - Computer Science - Windows 2000 Server",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Computer Science",
+  "topic": "Windows 2000 Server",
+  "source": "indiabix.com",
+  "count": 11,
+  "questions": [
+    {
+      "id": "gate-1d1dmf5",
+      "q": "The network uses TCP/IP as the only network protocol. You configure the remote access server on the network. Some users report that when they connect to the server they receive the following message |\" IPX SPX compatible computer deported error 733\" The EPP control network protocol for the network is not available. If the users allow the connection to continue they are able to connect to the services that use TCP/IP. You want to prevent this message from being displayed. What should you do?",
+      "options": [
+        "Configure a client computer to use only TCP/IP for the connections to the remote access server",
+        "Configure the client computer to use a defined IPX network address for the connection to the remote access servers",
+        "Configure the remote access server to allow IPX based remote access demand dial connections",
+        "Configure the remote access server to disable multi-link connection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1me99mo",
+      "q": "You are the administrator of your company's network. You are configuring the security policy for a group of users in the finance organizational unit (OU). You need to configure a group policy so that future changes to group policy will be applied within 15 minutes to any computers that are log on to the network. What should you do?",
+      "options": [
+        "Enable the background refresh settings to use the default group policy refresh date",
+        "Enable the asynchronous group policy application settings",
+        "Enable and configure the group policy refresh interval for domain controller",
+        "Enable and configure the group policy refresh interval for computers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1rikb20",
+      "q": "Your network contains 10 domain controllers, 10 member servers, and approximately 1,000 client computers. All the servers run Windows 2000 Server, and all the client computers run Windows 2000 Professional. Two of the domain controllers act as DNS servers. Users of client computers use file sharing to grant access to files stored locally. The network has 10 subnets and uses TCP/IP as the only network protocol. You want to configure the network so that all computers can resolve the addresses of all other computers by using DNS. Client computers must be able to register and resolve addresses if a server fails. How should you configure the DNS servers?",
+      "options": [
+        "Configure one server with a standard primary zone for the domain, and configure at least one server with standard secondary zone",
+        "Configure one server with a standard primary zone for the domain, and configure at least one server with an Active Directory integrated primary zone",
+        "Configure one server with an Active directory integrated primary zone for the domain, and configure at least one server with a standard secondary zone",
+        "Configure at least two servers with Active Directory integrated primary zones for the domain"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-n1hufk",
+      "q": "You are the network administrator for your company. The company has numerous branch offices, and each office uses Internet Connecting Sharing to connect to the Internet. A new employee named David Johnson is configuring a Windows 2000 Server computer as a file server. When David uses Windows update for the first time and select Product Update, he receives an error message stating that access is denied. David needs to be able to update the file by using his account. What should you do?",
+      "options": [
+        "Configure the settings for Internet Connecting Sharing to allow POP3 access",
+        "Configure the settings for Internet Connecting Sharing to allow SMTP access",
+        "Give David's user account administrator privileges on the Windows 2000 Server computer",
+        "Instruct David to log on as a domain administrator on the Windows 2000 Server computer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-zc3tq1",
+      "q": "You install Terminal Services on a Windows 2000 domain controller. You install Terminal Services Client on users' client computers. Users report that when they try to connect to the Terminal server, they receive the following error message: \"The local policy of this system does not allow you to logon interactively.\" When you attempt to log on to the Terminal server as an administrator from a user's computer, you log on successfully. You want users to be able to log on to the Terminal server. What should you do?",
+      "options": [
+        "Grant the users the right to log on as a service",
+        "Grant the users the right to log on locally",
+        "Grant the users the right to log on over the network",
+        "Copy the users' prpfiles to the Terminal server"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1jq6sd0",
+      "q": "You are the administrator of a Windows 2000 domain that has three domain controllers. Each day, you use Windows Backup to perform full backups of each domain controller. You run a script to make changes to account information in Active Directory. As a result of errors in the script, the incorrect user accounts are modified. Active Directory replication then replicates the changes to the other two domain controllers. You want to revert Active Directory to the version that was backed up the previous day. What should you do?",
+      "options": [
+        "On a single domain controller, use Windows Backup to restore the System State data. Shut down and restart the computer",
+        "Shut down and restart a single domain controller in directory services restore mode. Use Windows Backup to restore the System State data. Run the Ntdsutil utility. Restart the computer",
+        "Shut down, and restart a single domain controller by using the Recovery Console. Use Windows Backup to restore the System State data. Exit the Recovery Console. Restart the computer",
+        "Shut down and restart each domain controller by using the Recovery Console. Use Windows Backup to restore the Sysvol folder. Exit the Recovery Console. Restart the computer"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-uipoyo",
+      "q": "Your network uses TCP/IP as the only network protocol. Devices on the network are configured to use IP address from the private 10.0.0.0 range. All the client computers on the network runs Windows 2000 Professional. The network includes Windows 2000 Server computers and UNIX servers. User's print jobs are sent to shared printers on a Windows 2000 Server computer named PrintServ that directs the print jobs to print devices attached directly to the network. You have a high-capacity print device that is attached to one of the UNIX servers. The UNIX computer uses the LPR printing protocol, and it's IP address is 10.1.1.99. The name of the printer queue is GIANT. You want users to be able to connect to this printer from their computers. What should you do?",
+      "options": [
+        "Install Microsoft Print Services for Unix on PrintServ. Create a network printer on users' computers, and specify that the printer URL is LPR://10.1.1.99/ GIANT",
+        "Install Microsoft Print Services for Unix on users* Computers. Create a network printer, and specify that the printer name is \\\\10.1.1.99\\GIANT",
+        "Create a network printer on PrintServ, and specify that the printer name is \\\\16.1.1.99\\GIANT. Share this printer and connect to it from users computers",
+        "Create a local printer on PrintServ. Create a new TCP/IP port for an LPR server at address 10.1.1.99 with a queue name of GIANT. Share this printer and connect to it from users' computers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pyn4kc",
+      "q": "You are the administrator of a Windows 2000 Server computer. The server hosts several web sites that have logging enabled. You use a third-party reporting utility to analyze the log files produced by the web sites. You notice that all data from 7:00pm to midnight each night is included in the following day's logfile. You want all data to be included in the correct day's log file. What should you do?",
+      "options": [
+        "Ensure that the log type is set to W3C",
+        "Change the log rollover property in the website's logging properties",
+        "Change the time zone setting in the time properties on the web server",
+        "Configure the time service on the web server to use local system account"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uy6oed",
+      "q": "You are the administrator responsible for security and user desktop settings on your network. You need to configure a custom registry entry for all users. You want to add the custom registry entry into a Group Policy object (GPO) with the least amount of administrative effort What should you do?",
+      "options": [
+        "Configure an ADM template and add the template to the GPO",
+        "Configure,an INF policy and add the policy to the GPO",
+        "Configure a Microsoft Windows Installer package and add the package to the GPO",
+        "Configure RIS to include the registry entry"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7b2uns",
+      "q": "You want to provide complete redundancy for all data stored on your hardware RAID 5 array. You install second h/w Raid 5. You want to create a mirror set of the original array. However when you right click the free space on new array you see no option to create a new volume or mirrrored volume. What should you do?",
+      "options": [
+        "Convert both to dynamic disks",
+        "Create an empty extended partition on new disk",
+        "Create a single unformatted primary partition on new array",
+        "Format new disk array as a single NTFS primary partition"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1sbw7zo",
+      "q": "Your network is configured as shown in the exhibit. \"Engineering! and Salesl have DHCP installed up them.\" All the servers are Windows 2000 Server computers that use TCP/IP as the only network protocol. The sales department uses one subnet and has servers named Salesl and Sales2. The engineering department uses another subnet and has servers named Engineeringl and Engineering2. Salesl and Engineeringl are configured to act as DHCP servers. The router that joins the two subnets is not RFC 1542 compliant and does not support DHCP/BOOTP relay. You want to allow Salesl and Engineeringl to support client computers on each other's subnets. What should you do?",
+      "options": [
+        "Set the router option in the DHCP Scopes to 192.168.2.1 for Engineeringl and 192.168.1.1 for Salesl",
+        "On Engineering2 and Sales2, install Routing and Remote Access, and configure RIP as a routing protocol",
+        "On Engineering2 and Sales2, install and configure the DHCP Relay Agent service",
+        "Configure Engineering2 and Sales2 as DHCP servers without any scopes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Computer Science",
+      "topic": "Windows 2000 Server",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

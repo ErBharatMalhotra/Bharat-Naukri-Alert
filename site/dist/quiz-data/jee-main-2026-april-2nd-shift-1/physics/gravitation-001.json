@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Gravitation",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Gravitation",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-k1iv6g",
+      "q": "A planet ($P_1$) is moving around the star of mass $2M$ in the orbit of radius $R$. Another planet ($P_2$) is moving around another star of mass $4M$ in a orbit of radius $2R$. Ratio of time periods of revolution of $P_2$ and $P_1$ is _______.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "2",
+        "4",
+        "$\\frac{1}{4}$"
+      ],
+      "correct": 1,
+      "explain": "According to Kepler's Third Law and universal gravitation, the time period of a planet revolves around a star of mass $M_{star}$ in an orbit of radius $r$ is given by:\n$T = 2\\pi \\sqrt{\\frac{r^3}{GM_{star}}}$\nFor planet $P_1$:\n$T_1 = 2\\pi \\sqrt{\\frac{R^3}{G(2M)}}$\nFor planet $P_2$:\n$T_2 = 2\\pi \\sqrt{\\frac{(2R)^3}{G(4M)}} = 2\\pi \\sqrt{\\frac{8R^3}{4GM}} = 2\\pi \\sqrt{\\frac{2R^3}{GM}}$\nThe ratio of time periods is:\n$\\frac{T_2}{T_1} = \\frac{\\sqrt{2R^3 / GM}}{\\sqrt{R^3 / 2GM}} = \\sqrt{\\frac{2}{1/2}} = \\sqrt{4} = 2$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

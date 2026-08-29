@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Polynomial Expansion",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Polynomial Expansion",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-ibe7y0",
+      "q": "Which of the following expressions is equivalent to $(y + 7)^3$?",
+      "options": [
+        "$y^3 + 21y^2 + 147y + 343$",
+        "$y^3 + 14y + 343$",
+        "$y^3 + 14y + 49$",
+        "$y^3 + 343$"
+      ],
+      "correct": 0,
+      "explain": "Use the binomial theorem for expanding a cube: $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$. Using $a=y$ and $b=7$: $y^3 + 3y^2(7) + 3y(7^2) + 7^3 = y^3 + 21y^2 + 147y + 343$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Polynomial Expansion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

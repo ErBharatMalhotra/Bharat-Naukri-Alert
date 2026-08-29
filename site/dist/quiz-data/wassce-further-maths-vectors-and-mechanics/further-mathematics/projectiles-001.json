@@ -1,0 +1,211 @@
+{
+  "title": "WASSCE Further Maths: Vectors and Mechanics - Further Mathematics - Projectiles",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Vectors and Mechanics",
+  "subject": "Further Mathematics",
+  "topic": "Projectiles",
+  "source": "github:online-exam-questions",
+  "count": 10,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-ufla2i",
+      "q": "A projectile is fired with a velocity of $20\\text{ m/s}$ at an angle of $30^\\circ$ to the horizontal. Find its horizontal range. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$10\\sqrt{3}\\text{ m}$",
+        "$20\\text{ m}$",
+        "$20\\sqrt{3}\\text{ m}$",
+        "$40\\text{ m}$"
+      ],
+      "correct": 2,
+      "explain": "The formula for the horizontal range is $R = \\frac{u^2 \\sin 2\\theta}{g}$.\nSubstitute $u = 20\\text{ m/s}$ and $\\theta = 30^\\circ$:\n$R = \\frac{20^2 \\sin(2 \\times 30^\\circ)}{10} = \\frac{400 \\sin 60^\\circ}{10} = 40 \\times \\frac{\\sqrt{3}}{2} = 20\\sqrt{3}\\text{ m}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-ojymc2",
+      "q": "A stone is projected with a velocity of $20\\text{ m/s}$ at an angle of $30^\\circ$ to the horizontal. Calculate the total time of flight. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$1.0\\text{ s}$",
+        "$1.5\\text{ s}$",
+        "$2.0\\text{ s}$",
+        "$4.0\\text{ s}$"
+      ],
+      "correct": 2,
+      "explain": "The time of flight is given by $T = \\frac{2u \\sin \\theta}{g}$.\nSubstitute the given values: $T = \\frac{2 \\times 20 \\sin 30^\\circ}{10} = 4 \\times 0.5 = 2.0\\text{ s}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1qhqia8",
+      "q": "A ball is thrown horizontally at $15\\text{ m/s}$ from the top of a tower $20\\text{ m}$ high. Find the horizontal distance from the base of the tower to where it hits the ground. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$15\\text{ m}$",
+        "$20\\text{ m}$",
+        "$30\\text{ m}$",
+        "$60\\text{ m}$"
+      ],
+      "correct": 2,
+      "explain": "First, calculate the time to fall using $h = \\frac{1}{2}gt^2$.\n$20 = \\frac{1}{2}(10)t^2 \\implies 20 = 5t^2 \\implies t^2 = 4 \\implies t = 2\\text{ s}$.\nThe horizontal distance (range) is horizontal velocity $\\times$ time: $x = u \\times t = 15 \\times 2 = 30\\text{ m}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-sbssqq",
+      "q": "A projectile has a maximum height exactly equal to its horizontal range. Find its angle of projection.",
+      "options": [
+        "$\\tan^{-1}(0.25)$",
+        "$\\tan^{-1}(0.5)$",
+        "$\\tan^{-1}(2)$",
+        "$\\tan^{-1}(4)$"
+      ],
+      "correct": 3,
+      "explain": "Maximum height $H = \\frac{u^2 \\sin^2\\theta}{2g}$ and Range $R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{2u^2 \\sin\\theta \\cos\\theta}{g}$.\nGiven $H = R$, we have $\\frac{u^2 \\sin^2\\theta}{2g} = \\frac{2u^2 \\sin\\theta \\cos\\theta}{g}$.\nCanceling $\\frac{u^2}{g}$ (and one $\\sin\\theta$, assuming $\\theta > 0$) gives: $\\frac{\\sin\\theta}{2} = 2\\cos\\theta \\implies \\frac{\\sin\\theta}{\\cos\\theta} = 4 \\implies \\tan\\theta = 4$.\nThe angle is $\\tan^{-1}(4)$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1qnjyzs",
+      "q": "The path of a projectile is given by the equation $y = x - \\frac{x^2}{40}$, where $x$ and $y$ are horizontal and vertical distances in meters respectively. Calculate the horizontal range of the projectile.",
+      "options": [
+        "$10\\text{ m}$",
+        "$20\\text{ m}$",
+        "$40\\text{ m}$",
+        "$80\\text{ m}$"
+      ],
+      "correct": 2,
+      "explain": "The horizontal range is the horizontal distance travelled when the projectile returns to its initial vertical level ($y = 0$).\nSet $y = 0$: $x - \\frac{x^2}{40} = 0 \\implies x\\left(1 - \\frac{x}{40}\\right) = 0$.\nSince $x = 0$ is the starting point, the range is when $1 - \\frac{x}{40} = 0 \\implies x = 40\\text{ m}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1flbx14",
+      "q": "A projectile is fired with an initial speed of $40\\text{ m/s}$ at an angle of $30^\\circ$ to the horizontal. Calculate its maximum height. (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$10\\text{ m}$",
+        "$20\\text{ m}$",
+        "$40\\text{ m}$",
+        "$80\\text{ m}$"
+      ],
+      "correct": 1,
+      "explain": "The maximum height is given by $H = \\frac{u^2 \\sin^2 \\theta}{2g}$.\nSubstitute the values: $H = \\frac{40^2 (\\sin 30^\\circ)^2}{2(10)} = \\frac{1600 (0.5)^2}{20} = \\frac{1600 (0.25)}{20} = \\frac{400}{20} = 20\\text{ m}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1hvpqko",
+      "q": "At what angle of projection does a projectile achieve its maximum horizontal range for a given initial speed?",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correct": 1,
+      "explain": "The horizontal range is $R = \\frac{u^2 \\sin 2\\theta}{g}$. The range is maximum when $\\sin 2\\theta = 1$, which means $2\\theta = 90^\\circ$, so $\\theta = 45^\\circ$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-iwr6by",
+      "q": "A particle is projected with a velocity of $50\\text{ m/s}$ at an angle of $60^\\circ$ to the horizontal. How long does it take to reach its maximum height? (Take $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$2.5\\text{ s}$",
+        "$2.5\\sqrt{3}\\text{ s}$",
+        "$5.0\\text{ s}$",
+        "$5\\sqrt{3}\\text{ s}$"
+      ],
+      "correct": 1,
+      "explain": "The time to reach maximum height is $t = \\frac{u \\sin \\theta}{g}$.\nSubstitute the values: $t = \\frac{50 \\sin 60^\\circ}{10} = 5 \\left(\\frac{\\sqrt{3}}{2}\\right) = 2.5\\sqrt{3}\\text{ s}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1a44xdn",
+      "q": "A body is projected with an initial velocity of $20\\text{ m/s}$ at an angle of $45^\\circ$ above the horizontal. Find its speed at the highest point of its trajectory.",
+      "options": [
+        "$0\\text{ m/s}$",
+        "$10\\sqrt{2}\\text{ m/s}$",
+        "$20\\text{ m/s}$",
+        "$20\\sqrt{2}\\text{ m/s}$"
+      ],
+      "correct": 1,
+      "explain": "At the highest point, the vertical component of velocity is zero. The body's speed is purely its horizontal component of velocity, which remains constant.\n$v_x = u \\cos \\theta = 20 \\cos 45^\\circ = 20\\left(\\frac{\\sqrt{2}}{2}\\right) = 10\\sqrt{2}\\text{ m/s}$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-vectors-and-mechanics-1yg5e4g",
+      "q": "A projectile fired from the origin follows the trajectory path modeled by the equation $y = x\\sqrt{3} - 5x^2$, where $x$ and $y$ are horizontal and vertical distances in meters. What is its angle of projection to the horizontal?",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correct": 2,
+      "explain": "The standard Cartesian equation of a trajectory is $y = x \\tan \\theta - \\frac{gx^2}{2u^2 \\cos^2 \\theta}$.\nBy comparing the coefficient of $x$ in the equation with the standard form, $\\tan \\theta = \\sqrt{3}$.\nTherefore, $\\theta = \\tan^{-1}(\\sqrt{3}) = 60^\\circ$.",
+      "exam": "WASSCE Further Maths: Vectors and Mechanics",
+      "subject": "Further Mathematics",
+      "topic": "Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

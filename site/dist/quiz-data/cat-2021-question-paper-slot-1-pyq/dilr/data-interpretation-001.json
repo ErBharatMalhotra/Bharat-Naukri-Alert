@@ -1,0 +1,171 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - DILR - Data Interpretation",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "DILR",
+  "topic": "Data Interpretation",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-15dz5i6",
+      "q": "**Context:**\nGanga, Kaveri, and Narmada are three women who buy four raw materials (Mango, Apple, Banana and Milk) and sell five finished products (Mango smoothie, Apple smoothie, Banana smoothie, Mixed fruit smoothie and Fruit salad). Table-1 gives information about the raw materials required to produce the five finished products. One unit of a finished product requires one unit of each of the raw materials mentioned in the second column of the table.\n\n**Table-1**\n| Finished product | Raw materials required |\n| :--- | :--- |\n| Mango smoothie | Mango, Milk |\n| Apple smoothie | Apple, Milk |\n| Banana smoothie | Banana, Milk |\n| Mixed fruit smoothie | Mango, Apple, Banana, Milk |\n| Fruit salad | Mango, Apple, Banana |\n\nOne unit of milk, mango, apple, and banana cost ₹5, ₹3, ₹2, and ₹1 respectively. Each unit of a finished product is sold for a profit equal to two times the number of raw materials used to make that product. For example, apple smoothie is made with two raw materials (apple and milk) and will be sold for a profit of ₹4 per unit. Leftover raw materials are sold during the last business hour of the day for a loss of ₹1 per unit.\n\nThe amount, in rupees, received from sales (revenue) for each woman in each of the four business hours of the day is given in Table-2.\n\n**Table-2**\n| Business Hour | Ganga | Kaveri | Narmada |\n| :--- | :--- | :--- | :--- |\n| Hour 1 | 23 | 19 | 31 |\n| Hour 2 | 21 | 22 | 21 |\n| Hour 3 | 29 | 30 | 23 |\n| Hour 4 (last hour) | 30 | 27 | 22 |\n\nThe following additional facts are known.\n1. No one except possibly Ganga sold any Mango smoothie.\n2. Each woman sold either zero or one unit of any single finished product in any hour.\n3. Each woman had exactly one unit each of two different raw materials as leftovers.\n4. No one had any banana leftover.\n\n**Question:**\nWhat BEST can be concluded about the number of units of fruit salad sold in the first hour?",
+      "options": [
+        "Either 1 or 2.",
+        "Either 0 or 1 or 2.",
+        "Exactly 2.",
+        "Exactly 1."
+      ],
+      "correct": 0,
+      "explain": "We can calculate the selling prices: Mango Smoothie = 8 (cost) + 4 (profit) = 12. Apple Smoothie = 7+4 = 11. Banana Smoothie = 6+4 = 10. Mixed Fruit = 11+8 = 19. Fruit Salad = 6+6 = 12. By finding the combinations of these items that match the revenues for Hour 1 (23, 19, 31) while maintaining the constraint of max 1 per type, we find the number of Fruit salads sold must be either 1 or 2 across all women.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1v0nsvz",
+      "q": "**Context:** See Question 31 for the context.\n\n**Question:**\nWhich of the following is NECESSARILY true?",
+      "options": [
+        "Ganga did not sell any leftover mangoes.",
+        "Ganga did not sell any leftover apples.",
+        "Narmada sold one unit of leftover milk.",
+        "Kaveri sold one unit of leftover mangoes."
+      ],
+      "correct": 1,
+      "explain": "Evaluating the exact combination of sales leading to the revenues and leftovers matching exactly two types per person, Ganga must have sold the other combinations to leave her with no apples left over at the end.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-kmj9v0",
+      "q": "**Context:** See Question 31 for the context.\n\n**Question:**\nWhat BEST can be concluded about the total number of units of milk the three women had in the beginning?",
+      "options": [
+        "Either 19 or 20 units.",
+        "Either 18 or 19 or 20 units.",
+        "Either 18 or 19 units.",
+        "Either 17 or 18 or 19 units."
+      ],
+      "correct": 1,
+      "explain": "Summing up the total milk requirements for all valid selling combinations across all hours for all three women, factoring in the potential milk leftovers, points to multiple valid possibilities ranging strictly between 18 and 20 units.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-nro8so",
+      "q": "**Context:** See Question 31 for the context.\n\n**Question:**\nIf it is known that three leftover units of mangoes were sold during the last business hour of the day, how many apple smoothies were sold during the day?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explain": "If 3 mangoes were leftover (meaning each of the 3 women had 1 leftover mango), that locks in the permutations of what items must have been sold across the day to reach the revenue targets. Tallying the Apple Smoothies in those locked configurations yields exactly 6.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-13hzwts",
+      "q": "**Context:**\n![Sales Bar Chart - 2019 and 2020 aggregate sales by subcategories](https://quantifiers.in/wp-content/uploads/2025/05/CAT-2021-DILR-Slot-1-Set-1.png)\n\nThe horizontal bars in the above diagram represent 2020 aggregate sales (in ₹ million) of a company for the different subcategories of its products. The top four product subcategories (Bookcases, Chairs, Furnishings, Tables) belong to furniture product category; the bottom four product subcategories (Accessories, Copiers, Machines, Phones) belong to the technology product category while all other product subcategories belong to the office supply product category. For each of the product subcategories, there is a vertical line indicating the sales of the corresponding subcategory in 2019.\n\n**Question:**\nThe total sales (in ₹ million) in 2019 from products in office supplies category is closest to",
+      "options": [
+        "18.0",
+        "16.5",
+        "13.5",
+        "12.5"
+      ],
+      "correct": 2,
+      "explain": "By reading the vertical lines (2019 sales) corresponding to the middle items (Office Supplies: Binders, Art, Appliances, Envelopes, Fasteners, Labels, Paper, Storage, Supplies), the summation is approximately 13.5.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-m7qzx0",
+      "q": "**Context:** See Question 41 for the context.\n\n**Question:**\nThe percentage increase in sales in Furniture category from 2019 to 2020 is closest to",
+      "options": [
+        "20%",
+        "8%",
+        "25%",
+        "1%"
+      ],
+      "correct": 1,
+      "explain": "Calculate the total for 2019 (vertical marks) and 2020 (bar ends) for Bookcases, Chairs, Furnishings, and Tables. The total goes from approximately 12.5 to 13.5 million, an increase of about 8%.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-kmesqg",
+      "q": "**Context:** See Question 41 for the context.\n\n**Question:**\nHow many subcategories had sales of ₹ 4 million or more in 2019 and registered an increase in sales in excess of 25% in 2020?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "Scanning the chart for 2019 markers at ≥ 4.0: we check these specific bars to see if the 2020 bar is ≥ 1.25x the 2019 value. Only one subcategory fits both these stringent conditions.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-mopg9o",
+      "q": "**Context:** See Question 41 for the context.\n\n**Question:**\nThe improvement index for a category is the maximum percentage increase in sales from 2019 to 2020 among any of its subcategories. The correct order of categories in increasing order of this improvement index is",
+      "options": [
+        "furniture, technology, office supply",
+        "technology, furniture, office supply",
+        "office supply, technology, furniture",
+        "office supply, furniture, technology"
+      ],
+      "correct": 0,
+      "explain": "By finding the maximum subcategory percentage jump in Furniture, Technology, and Office Supplies, we sequence them. Furniture's max sub-jump is the lowest, followed by Technology, and Office Supplies has the highest individual subcategory percentage jump.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Data Interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

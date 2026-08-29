@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, QA) - Quant - Speed Time Distance Races",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+  "subject": "Quant",
+  "topic": "Speed Time Distance Races",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-b9xtv4",
+      "q": "Two places A and B are 45 kms apart and connected by a straight road. Anil goes from A to B while Sunil goes from B to A. Starting at the same time, they cross each other in exactly 1 hour 30 minutes. If Anil reaches B exactly 1 hour 15 minutes after Sunil reaches A, the speed of Anil, in km per hour, is",
+      "options": [
+        "16",
+        "14",
+        "12",
+        "18"
+      ],
+      "correct": 2,
+      "explain": "Let speeds of Anil and Sunil be $v_A$ and $v_S$. They meet in 1.5 hours. So, $1.5(v_A+v_S)=45 \\Rightarrow v_A+v_S=30$. Time taken for Anil is $T_A=45/v_A$ and for Sunil is $T_S=45/v_S$. We are given $T_A = T_S + 1.25$. Substituting $v_S=30-v_A$ leads to a quadratic equation. A quicker way is to test the options. If $v_A=12$, then $v_S=18$. $T_A=45/12 = 3.75$ hr. $T_S=45/18=2.5$ hr. The difference is $3.75-2.5 = 1.25$ hr, which matches the condition.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Speed Time Distance Races",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

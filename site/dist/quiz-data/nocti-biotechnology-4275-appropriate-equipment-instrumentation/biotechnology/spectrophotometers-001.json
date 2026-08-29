@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation - Biotechnology - Spectrophotometers",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+  "subject": "Biotechnology",
+  "topic": "Spectrophotometers",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-appropriate-equipment-&-instrumentation-1fwcm40",
+      "q": "Prior to analyzing the absorbance of a colorimetric protein assay (such as a Bradford assay) in a spectrophotometer, a technician must first \"blank\" or \"zero\" the machine utilizing a cuvette that contains the assay buffer and reagent, but completely lacks the target protein. What is the core scientific purpose of this mandatory blanking step?",
+      "options": [
+        "To intentionally maximize and test the total output wattage of the spectrophotometer's tungsten lamp.",
+        "To mathematically deduct the background absorbance caused by the solvent, the dye, and the plastic cuvette itself, ensuring the final reading represents solely the protein.",
+        "To calibrate the wavelength selection dial to ensure the internal diffraction grating is actively isolating the correct spectrum of light.",
+        "To saturate the detector's photomultiplier tube, pushing it into its maximum operational linear sensitivity range."
+      ],
+      "correct": 1,
+      "explain": "A spectrophotometer simply measures the amount of light that makes it through a cuvette. \n\nHowever, the plastic of the cuvette, the water, and the chemical reagents themselves inherently absorb a small fraction of light. By inserting a **\"blank\"**, the technician tells the machine's software to read that background interference and mathematically set it to $0.000 \\text{ Absorbance}$. This ensures that when the real sample is inserted, any positive reading is exclusively attributed to the presence of the target protein, not the background materials.",
+      "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+      "subject": "Biotechnology",
+      "topic": "Spectrophotometers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-appropriate-equipment-&-instrumentation-1jcbvmo",
+      "q": "A researcher wishes to quickly determine both the concentration and purity of a freshly extracted batch of plasmid DNA without running an agarose gel. To do this using a UV-Vis spectrophotometer (such as a NanoDrop), the researcher must measure the sample's peak absorbance. What specific ultraviolet wavelength is internationally standardized for detecting nucleic acids?",
+      "options": [
+        "$260 \\text{ nm}$",
+        "$280 \\text{ nm}$",
+        "$595 \\text{ nm}$",
+        "$600 \\text{ nm}$"
+      ],
+      "correct": 0,
+      "explain": "In molecular biology, different macromolecules absorb light maximally at very specific wavelengths across the spectrum. \n\nNucleic acids (DNA and RNA) strongly absorb ultraviolet light peaking specifically at **$260 \\text{ nm}$**, due to the resonance in their purine and pyrimidine nitrogenous bases. \n> **$280 \\text{ nm}$** is the peak absorbance for proteins (due to aromatic amino acids). \n> **$595 \\text{ nm}$** is the visible blue wavelength used in Bradford protein assays. \n> **$600 \\text{ nm}$** is used to measure bacterial culture density ($OD_{600}$).",
+      "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+      "subject": "Biotechnology",
+      "topic": "Spectrophotometers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-appropriate-equipment-&-instrumentation-1gvsokt",
+      "q": "A student attempts to measure a purified DNA sample at $260 \\text{ nm}$ using an older cuvette-based UV spectrophotometer. They pipet the DNA into a standard, inexpensive polystyrene (plastic) cuvette and load it into the machine, but the digital display returns a totally saturated error reading of $>3.00 \\text{ Abs}$. Assuming the DNA concentration is actually well within normal testing limits, what physical error caused this assay failure?",
+      "options": [
+        "The double-stranded DNA must be heated to $95^\\circ\\text{C}$ to become single-stranded before any light can successfully pass through the helix.",
+        "The technician utilized an improper calibration blank constructed entirely of dense borosilicate glass.",
+        "Standard polystyrene plastic highly absorbs UV light; a specialized quartz cuvette or UV-transparent plastic must be utilized to transmit light at $260 \\text{ nm}$.",
+        "The DNA sample requires the addition of a visible tracking dye, such as bromophenol blue, to interact properly with the spectrophotometer's laser."
+      ],
+      "correct": 2,
+      "explain": "The physical material composing a cuvette dramatically impacts its optical properties. \n\nStandard glass and common plastics (like polystyrene) strongly absorb ultraviolet light below $300 \\text{ nm}$. If you put a plastic cuvette into a machine trying to shine $260 \\text{ nm}$ UV light through it, the plastic simply blocks all the light, tricking the machine into reporting an intensely high absorbance. Assays conducted in the UV range strictly require **quartz cuvettes** or specialized UV-transparent acrylic cuvettes, which allow the high-energy wavelengths to pass unimpeded.",
+      "exam": "NOCTI Biotechnology 4275: Appropriate Equipment & Instrumentation",
+      "subject": "Biotechnology",
+      "topic": "Spectrophotometers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

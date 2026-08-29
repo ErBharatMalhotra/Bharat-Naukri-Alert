@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Logarithms",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Logarithms",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-h3yamo",
+      "q": "If $\\log_{64} x^2 + \\log_8 \\sqrt{y} + 3 \\log_{512}(\\sqrt{y} z) = 4$, where $x, y$ and $z$ are positive real numbers, then the minimum possible value of $(x + y + z)$ is",
+      "options": [
+        "96",
+        "36",
+        "24",
+        "48"
+      ],
+      "correct": 3,
+      "explain": "Change the bases to 2:\n$\\log_{64} x^2 = \\log_{2^6} x^2 = \\frac{2}{6} \\log_2 x = \\frac{1}{3} \\log_2 x$\n$\\log_8 y^{1/2} = \\log_{2^3} y^{1/2} = \\frac{1/2}{3} \\log_2 y = \\frac{1}{6} \\log_2 y$\n$3 \\log_{512} (y^{1/2} z) = 3 \\log_{2^9} (y^{1/2} z) = \\frac{3}{9} \\log_2 (y^{1/2} z) = \\frac{1}{3} \\left(\\frac{1}{2}\\log_2 y + \\log_2 z\\right) = \\frac{1}{6} \\log_2 y + \\frac{1}{3} \\log_2 z$\nAdding these terms:\n$\\frac{1}{3} \\log_2 x + \\left(\\frac{1}{6} \\log_2 y + \\frac{1}{6} \\log_2 y\\right) + \\frac{1}{3} \\log_2 z = 4$\n$\\frac{1}{3} \\log_2 x + \\frac{1}{3} \\log_2 y + \\frac{1}{3} \\log_2 z = 4 \\implies \\log_2(xyz) = 12 \\implies xyz = 2^{12} = 4096$.\nBy AM-GM, $x + y + z$ is minimized when $x = y = z$. So $x^3 = 4096 \\implies x = 16$.\nMinimum $(x + y + z) = 16 + 16 + 16 = 48$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Logarithms",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, PYQ) - Quant - Ratios and Proportions",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+  "subject": "Quant",
+  "topic": "Ratios and Proportions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-7fgn8o",
+      "q": "A fruit seller has a total of 187 fruits consisting of apples, mangoes and oranges. The number of apples and mangoes are in the ratio $5:2$. After she sells 75 apples, 26 mangoes and half of the oranges, the ratio of the number of unsold apples to the number of unsold oranges becomes $3:2$. The total number of unsold fruits is",
+      "options": [
+        "54",
+        "62",
+        "66",
+        "74"
+      ],
+      "correct": 2,
+      "explain": "Let apples be $5x$, mangoes be $2x$. Oranges $= 187 - 7x$. Remaining apples $= 5x - 75$. Remaining mangoes $= 2x - 26$. Remaining oranges $= (187 - 7x)/2$. We are given $(5x - 75) / ((187 - 7x)/2) = 3/2 \\implies 2(5x - 75) / (187 - 7x) = 3/2 \\implies 4(5x - 75) = 3(187 - 7x) \\implies 20x - 300 = 561 - 21x \\implies 41x = 861 \\implies x = 21$. Initial apples $= 105$, mangoes $= 42$, oranges $= 187 - 147 = 40$. Unsold apples $= 105 - 75 = 30$. Unsold mangoes $= 42 - 26 = 16$. Unsold oranges $= 40/2 = 20$. Total unsold $= 30 + 16 + 20 = 66$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "Quant",
+      "topic": "Ratios and Proportions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

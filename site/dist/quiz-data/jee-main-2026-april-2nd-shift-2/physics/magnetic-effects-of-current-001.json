@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Physics - Magnetic Effects of Current",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Physics",
+  "topic": "Magnetic Effects of Current",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1ugcwsg",
+      "q": "A particle having charge $10^{-9}\\text{ C}$ moving in $x$-$y$ plane in fields of $0.4\\hat{j}\\text{ N/C}$ and $4 \\times 10^{-3}\\hat{k}\\text{ T}$ experiences a force of $(4\\hat{i} + 2\\hat{j}) \\times 10^{-10}\\text{ N}$. The velocity of the particle at that instant is _______ m/s.",
+      "options": [
+        "$50\\hat{i} + 100\\hat{j}$",
+        "$100\\hat{i} + 50\\hat{j}$",
+        "$-50\\hat{i} + 100\\hat{j}$",
+        "$50\\hat{i} - 100\\hat{j}$"
+      ],
+      "correct": 0,
+      "explain": "Let velocity $\\vec{v} = v_x \\hat{i} + v_y \\hat{j}$. Lorentz force $\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$.\n$\\vec{v} \\times \\vec{B} = (v_x \\hat{i} + v_y \\hat{j}) \\times (4 \\times 10^{-3} \\hat{k}) = 4 \\times 10^{-3} v_x (-\\hat{j}) + 4 \\times 10^{-3} v_y (\\hat{i})$.\nThe net force is $\\vec{F} = 10^{-9} \\left[ (4 \\times 10^{-3} v_y)\\hat{i} + (0.4 - 4 \\times 10^{-3} v_x)\\hat{j} \\right]$.\nGiven $\\vec{F} = 4 \\times 10^{-10} \\hat{i} + 2 \\times 10^{-10} \\hat{j}$. Comparing components:\nx-component: $10^{-9} (4 \\times 10^{-3} v_y) = 4 \\times 10^{-10} \\implies 4v_y = 400 \\implies v_y = 100\\text{ m/s}$.\ny-component: $10^{-9} (0.4 - 4 \\times 10^{-3} v_x) = 2 \\times 10^{-10} \\implies 0.4 - 4 \\times 10^{-3} v_x = 0.2 \\implies 4 \\times 10^{-3} v_x = 0.2 \\implies v_x = \\frac{0.2}{0.004} = 50\\text{ m/s}$.\nTherefore, $\\vec{v} = 50\\hat{i} + 100\\hat{j}\\text{ m/s}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Magnetic Effects of Current",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

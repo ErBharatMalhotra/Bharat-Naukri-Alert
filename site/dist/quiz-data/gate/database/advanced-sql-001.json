@@ -1,0 +1,301 @@
+{
+  "title": "GATE - Database - Advanced Sql",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Database",
+  "topic": "Advanced Sql",
+  "source": "indiabix.com",
+  "count": 15,
+  "questions": [
+    {
+      "id": "gate-1mtrum8",
+      "q": "Triggers are stored blocks of code that have to be called in order to operate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hqskn4",
+      "q": "The joining technique is useful when data from several relations are to be retrieved and displayed and the relationships are not necessarily nested.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-irz3g0",
+      "q": "There should be one condition within the WHERE clause for each pair of tables being joined.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lzoj0t",
+      "q": "Subqueries can be nested multiple times.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9chid4",
+      "q": "The code to create triggers and routines is stored in only one location and is administered centrally.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-v5hxiw",
+      "q": "Which of the following is one of the basic approaches for joining tables?",
+      "options": [
+        "Subqueries",
+        "Union Join",
+        "Natural join",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9hzd1s",
+      "q": "Which of the following is true concerning systems information in an RDBMS?",
+      "options": [
+        "RDBMS store database definition information in system-created tables.",
+        "This information can be accessed using SQL.",
+        "This information often cannot be updated by a user.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1dtiff0",
+      "q": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID",
+      "options": [
+        "Equi-join",
+        "Natural join",
+        "Outer join",
+        "Cartesian join"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-cwxdjq",
+      "q": "Embedded SQL is which of the following?",
+      "options": [
+        "Hard-coded SQL statements in a program language such as Java.",
+        "The process of making an application capable of generating specific SQL code on the fly.",
+        "Hard-coded SQL statements in a procedure.",
+        "Hard-coded SQL statements in a trigger."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uxq2ys",
+      "q": "A UNION query is which of the following?",
+      "options": [
+        "Combines the output from no more than two queries and must include the same number of columns.",
+        "Combines the output from no more than two queries and does not include the same number of columns.",
+        "Combines the output from multiple queries and must include the same number of columns.",
+        "Combines the output from multiple queries and does not include the same number of columns."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a91361",
+      "q": "Which of the following statements is true concerning subqueries?",
+      "options": [
+        "Involves the use of an inner and outer query.",
+        "Cannot return the same result as a query that is not a subquery.",
+        "Does not start with the word SELECT.",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yrhsgu",
+      "q": "Which of the following is a correlated subquery?",
+      "options": [
+        "Uses the result of an inner query to determine the processing of an outer query.",
+        "Uses the result of an outer query to determine the processing of an inner query.",
+        "Uses the result of an inner query to determine the processing of an inner query.",
+        "Uses the result of an outer query to determine the processing of an outer query."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1wyd500",
+      "q": "How many tables may be included with a join?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "All of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1hr6eg4",
+      "q": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T ;",
+      "options": [
+        "Equi-join",
+        "Natural join",
+        "Outer join",
+        "Cartesian join"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i97ebk",
+      "q": "Which of the following is true concerning triggers?",
+      "options": [
+        "You do not create them with SQL.",
+        "They execute against only some applications that access a database.",
+        "They have an event, condition, and action.",
+        "They cannot cascade (cause another trigger to fire)."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Database",
+      "topic": "Advanced Sql",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

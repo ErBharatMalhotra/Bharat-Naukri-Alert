@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 2 - Mathematics - Sequences",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 2",
+  "subject": "Mathematics",
+  "topic": "Sequences",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-2-if19as",
+      "q": "The 1st term of a certain sequence is $-10$, and the 2nd term is 1. Each subsequent term is obtained by adding the 2 immediately preceding terms. What is the 5th term of this sequence?",
+      "options": [
+        "-23",
+        "-17",
+        "19",
+        "34"
+      ],
+      "correct": 1,
+      "explain": "Calculate each term using the rule $a_n = a_{n-1} + a_{n-2}$.\nTerm 1: $-10$\nTerm 2: $1$\nTerm 3: $-10 + 1 = -9$\nTerm 4: $1 + (-9) = -8$\nTerm 5: $-9 + (-8) = -17$.",
+      "exam": "Mathematics Practice Test 2",
+      "subject": "Mathematics",
+      "topic": "Sequences",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

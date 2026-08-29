@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, PYQ) - Quant - Algebra ",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+  "subject": "Quant",
+  "topic": "Algebra ",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-8w8wqc",
+      "q": "If the equations $x^2 + mx + 9 = 0$, $x^2 + nx + 17 = 0$ and $x^2 + (m+n)x + 35 = 0$ have a common negative root, then the value of $(2m+3n)$ is",
+      "options": [
+        "24",
+        "32",
+        "36",
+        "38"
+      ],
+      "correct": 3,
+      "explain": "Let the common negative root be $a$. So $a^2 + ma + 9 = 0$, $a^2 + na + 17 = 0$, and $a^2 + (m+n)a + 35 = 0$. Adding the first two equations gives $2a^2 + (m+n)a + 26 = 0$. Subtracting the third equation from this: $(2a^2 + (m+n)a + 26) - (a^2 + (m+n)a + 35) = 0 \\implies a^2 - 9 = 0$. So $a = -3$ (since it is negative). Substituting $a = -3$ in $x^2 + mx + 9 = 0 \\implies 9 - 3m + 9 = 0 \\implies 3m = 18 \\implies m = 6$. Substitute in $x^2 + nx + 17 = 0 \\implies 9 - 3n + 17 = 0 \\implies 3n = 26 \\implies n = 26/3$. We need $2m + 3n = 2(6) + 3(26/3) = 12 + 26 = 38$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "Quant",
+      "topic": "Algebra / Quadratic Equations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

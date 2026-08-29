@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Continuity and Differentiability",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Continuity and Differentiability",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1qiy9qs",
+      "q": "The number of points, at which the function $f(x) = \\max\\{6x, 2 + 3x^2\\} + |x - 1| \\left| \\cos \\left( x^2 - \\frac{1}{4} \\right) \\right|, x \\in (-\\pi, \\pi)$, is not differentiable, is \\_\\_\\_\\_\\_.",
+      "options": [
+        "$5$",
+        "$7$",
+        "$9$",
+        "$11$"
+      ],
+      "correct": 2,
+      "explain": "Let $f(x) = g(x) + h(x)$, where $g(x) = \\max\\{6x, 2 + 3x^2\\}$ and $h(x) = |x - 1| |\\cos(x^2 - 1/4)|$.\nTo find points of non-differentiability for $g(x)$, find where the graphs cross: $6x = 2 + 3x^2 \\implies 3x^2 - 6x + 2 = 0 \\implies x = 1 \\pm \\frac{1}{\\sqrt{3}}$. At these $2$ points, left and right derivatives differ. \nFor $h(x)$, $|A| \\cdot |B|$ is non-differentiable where its argument crosses zero with non-zero derivative.\nFirst, $|x-1|$ is zero at $x = 1$. At $x=1$, $\\cos(1^2 - 1/4) = \\cos(3/4) \\neq 0$, so $h$ is non-differentiable at $x = 1$ ($1$ point).\nSecond, where $\\cos(x^2 - 1/4) = 0$. This happens when $x^2 - 1/4 = \\pm \\frac{\\pi}{2}, \\pm \\frac{3\\pi}{2}, \\dots$ within $x \\in (-\\pi, \\pi)$.\nSince $-\\pi < x < \\pi \\implies 0 \\le x^2 < \\pi^2 \\approx 9.87$.\nSo, $x^2 = \\frac{1}{4} + (2k+1)\\frac{\\pi}{2}$ for $k \\in \\mathbb{Z}$.\nFor $k=-1$: $x^2 = 0.25 - 1.57 < 0$ (no root).\nFor $k=0$: $x^2 = 0.25 + 1.57 = 1.82 < 9.87$ ($2$ roots: $\\pm \\sqrt{1.82}$).\nFor $k=1$: $x^2 = 0.25 + 4.71 = 4.96 < 9.87$ ($2$ roots).\nFor $k=2$: $x^2 = 0.25 + 7.85 = 8.10 < 9.87$ ($2$ roots).\nFor $k=3$: $x^2 > 9.87$ (out of bounds).\nThis gives $6$ more points. None coincide with $x=1$ or $1 \\pm 1/\\sqrt{3}$.\nTotal points of non-differentiability $= 2 + 1 + 6 = 9$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

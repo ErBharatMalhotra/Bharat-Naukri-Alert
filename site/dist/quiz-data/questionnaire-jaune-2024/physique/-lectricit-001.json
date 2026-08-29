@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Physique - Électricité",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Physique",
+  "topic": "Électricité",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-wjws2i",
+      "q": "La puissance dissipée dans le circuit suivant (constitué de 3 résistances de $12\\,\\Omega$ en parallèle, connectées en série avec une résistance R, le tout alimenté par une source de $20\\text{ V}$) est de $40\\text{ W}$.\nQue vaut la résistance R ?",
+      "options": [
+        "$4\\,\\Omega$",
+        "$6\\,\\Omega$",
+        "$10\\,\\Omega$",
+        "$12\\,\\Omega$"
+      ],
+      "correct": 1,
+      "explain": "Les 3 résistances de $12\\,\\Omega$ en parallèle ont une résistance équivalente de $R_p = \\frac{12}{3} = 4\\,\\Omega$. La résistance totale du circuit est $R_{tot} = R_p + R = 4 + R$. La puissance dissipée est donnée par $P = \\frac{V^2}{R_{tot}}$. On a $40 = \\frac{20^2}{4 + R} \\implies 40 = \\frac{400}{4 + R} \\implies 4 + R = 10 \\implies R = 6\\,\\Omega$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Électricité",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

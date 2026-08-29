@@ -1,0 +1,1271 @@
+{
+  "title": "General - c sharp programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "c sharp programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "Valid Size of float data type is?",
+      "options": [
+        "10 Bytes",
+        "6 Bytes",
+        "4 Bytes",
+        "8 Bytes"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "The Default value of Boolean Data Type is?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? string s1 = \" I AM BEST \"; string s2; s2 = s1.substring (5, 4); Console.WriteLine (s2);",
+      "options": [
+        "AM BEST",
+        "I AM BES",
+        "BEST",
+        "I AM"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the need for 'Conversion of data type' in C#?",
+      "options": [
+        "To store a value of one data type into a variable of another data type",
+        "To get desired data",
+        "To prevent situations of runtime error during change or conversion of data type",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Scope of variable is related to definition of variable as: i. Region of code within which variable value is valid and hence can be accessed. ii. No, relation with region where variable is declared its value is valid in entire scope.",
+      "options": [
+        "ii",
+        "i, ii",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "DIFFERENCE BETWEEN KEYWORDS 'VAR' AND 'DYNAMIC'?",
+      "options": [
+        "'Var' is introduced in C# (3.0) and 'Dynamic' is introduced in C# (4.0)",
+        "'Var' is a type of variable where declaration is done at compile time by compiler while 'Dynamic' declaration is achieved at runtime by compiler",
+        "For 'Var' Error is caught at compile time and for 'Dynamic' Error is caught at runtime",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the conversions are valid for the following C# code? static void Main(string[] args) { int a = 22; long b = 44; double c = 1.406; b = a; c = a; a = b; b = c; }",
+      "options": [
+        "c = a, b = c",
+        "a = c, b = a",
+        "b = a, c = a",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Select differences between reference type and value type: i. Memory allocated to 'Value type' is from heap and reference type is from 'System. ValueType' ii. Memory allocated to 'Value type' is from 'System. ValueType' and reference type is from 'Heap' iii. Structures, enumerated types derived from 'System. ValueType' are created on stack, hence known as ValueType and all 'classes' are reference type because values are stored on heap",
+      "options": [
+        "i, iii",
+        "ii, iii",
+        "i, ii, iii"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "A float occupies 4 bytes. If the hexadecimal equivalent of these 4 bytes are A, B, C and D, then when this float is stored in memory in which of the following order do these bytes gets stored?",
+      "options": [
+        "ABCD",
+        "DCBA",
+        "0 * ABCD",
+        "Depends on big endian or little endian architecture"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Choose effective differences between 'Boxing' and 'Unboxing'.",
+      "options": [
+        "'Boxing' is the process of converting a value type to the reference type and 'Unboxing' is the process of converting reference to value type",
+        "'Boxing' is the process of converting a reference type to value type and 'Unboxing' is the process of converting value type to reference type",
+        "In 'Boxing' we need explicit conversion and in 'Unboxing' we need implicit conversion",
+        "Both 'Boxing' and 'Unboxing' we need implicit conversion"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which data type should be more preferred for storing a simple number like 35 to improve execution speed of a program?",
+      "options": [
+        "sbyte",
+        "short",
+        "int",
+        "long"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Number of digits upto which precision value of float data type is valid?",
+      "options": [
+        "Upto 6 digit",
+        "Upto 8 digit",
+        "Upto 9 digit",
+        "Upto 7 digit"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Minimum and Maximum range of values supported by 'float' data type are?",
+      "options": [
+        "1.5 * 10-40 to 3.4 * 1038",
+        "1.5 * 10-45 to 3.4 * 1030",
+        "1.5 * 10-45 to 3.4 * 1038",
+        "1.5 * 10-45 to 3.4 * 1037"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be Correct Set of C# Code for given data 'a' and 'b' to print output for 'c' as 74?",
+      "options": [
+        "int a = 12;\nfloat b = 6.2f;\nint c;\nc = a / b + a * b;\nConsole.WriteLine(c);",
+        "int a = 12;\nfloat b = 6.2f;\nint c;\nc = a / convert.ToInt32(b) + a * b;\nConsole.WriteLine(c);",
+        "int a = 12;\nfloat b = 6.2f;\nint c;\nc = a / convert.ToInt32(b) + a * convert.ToInt32(b);\nConsole.WriteLine(c);",
+        "int a = 12;\nfloat b = 6.2f;\nint c;\nc = convert.ToInt32(a / b + a * b);\nConsole.WriteLine(c);"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Given is the code of days(example:\"MTWTFSS\") which I need to split and hence create a list of days of week in strings( example:\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"). A set of code is given for this purpose but there is the error occurring in that set of code related to the conversion of char to strings. Hence, Select a C# code to solve the given error. static void Main(string[] args) { var days = \"MTWTFSS\"; var daysArray = days.ToCharArray().Cast&lt;string>().ToArray(); for (var i = 0; i &lt; daysArray.Length; i++) { switch (daysArray[i]) { case \"M\": daysArray[i] = \"Monday\"; break; case \"T\": daysArray[i] = \"Tuesday\"; break; case \"W\": daysArray[i] = \"Wednesday\"; break; case \"R\": daysArray[i] = \"Thursday\"; break; case \"F\": daysArray[i] = \"Friday\"; break; case \"S\": daysArray[i] = \"Saturday\"; break; case \"U\": daysArray[i] = \"Sunday\"; break; } } daysArray[daysArray.Length - 1] = \"and \" + daysArray[daysArray.Length - 1]; Console.WriteLine(string.Join(\", \", daysArray)); }",
+      "options": [
+        "var daysArray = new List&lt;String>();",
+        "var daysArray = days.Select(c =>dayMapping[c]).ToArray();",
+        "var daysArray = days.ToCharArray().Select(c =>c.Tostring()).ToArray();",
+        "var daysArray = days.Select&lt;String>();"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Does the output remain same or different for both cases? i. char l ='k'; float b = 19.0f; int c; c = (l / convert.ToInt32(b)); Console.Writeline(c); ii. char l ='k'; float b = 19.0f; int c; c = Convert.ToInt32(l / b); console.writeline(c);",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to declare a constant in C#?",
+      "options": [
+        "static",
+        "const",
+        "volatile",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the scope of a local variable in C#?",
+      "options": [
+        "Limited to the file in which it is declared",
+        "Limited to the class in which it is declared",
+        "Limited to the method in which it is declared",
+        "Limited to the block in which it is declared"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which data type is used to store whole numbers in C#?",
+      "options": [
+        "float",
+        "double",
+        "int",
+        "char"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, which keyword is used to declare a variable that can hold values of any data type?",
+      "options": [
+        "var",
+        "dynamic",
+        "any",
+        "object"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of a variable in C#?",
+      "options": [
+        "To handle exceptions",
+        "To define a method",
+        "To store and manipulate data",
+        "To define a constant"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid constant name in C#?",
+      "options": [
+        "MAX_VALUE",
+        "my-constant",
+        "123constant",
+        "_CONSTANT"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of a variable after it is declared but not initialized in C#?",
+      "options": [
+        "Depends on the data type",
+        "null",
+        "undefined"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, how do you declare a variable without initializing it?",
+      "options": [
+        "num = int;",
+        "num int;",
+        "var num;",
+        "int num;"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the following variable declaration: var x = 10;",
+      "options": [
+        "dynamic",
+        "var",
+        "int",
+        "object"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid variable declaration in C#?",
+      "options": [
+        "num = int;",
+        "int num;",
+        "int = num;",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a constant string in C#?",
+      "options": [
+        "const MESSAGE = \"Hello\";",
+        "MESSAGE const = \"Hello\";",
+        "const string MESSAGE = \"Hello\";",
+        "string MESSAGE = \"Hello\";"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the variable in C#?",
+      "options": [
+        "int",
+        "string",
+        "double",
+        "char"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'readonly' keyword do in C#?",
+      "options": [
+        "Makes a variable accessible outside its class",
+        "Makes a variable constant",
+        "Makes a variable read-only",
+        "Makes a variable static"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a valid constant name in C#?",
+      "options": [
+        "CONSTANT",
+        "CONSTANT1",
+        "_CONSTANT",
+        "1constant"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, which keyword is used to declare a variable without specifying its data type explicitly?",
+      "options": [
+        "dynamic",
+        "any",
+        "var",
+        "object"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the scope of a global variable in C#?",
+      "options": [
+        "Limited to the block in which it is declared",
+        "Throughout the program",
+        "Limited to the file in which it is declared",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid way to declare and initialize a string variable in C#?",
+      "options": [
+        "string = str;",
+        "str Hello;",
+        "string str = \"Hello\";",
+        "str = \"Hello\";"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of declaring constants in C#?",
+      "options": [
+        "To store and manipulate data",
+        "To declare variables",
+        "To handle exceptions",
+        "To define values that do not change"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of a variable in C# after it is declared but not assigned a value?",
+      "options": [
+        "Depends on the data type",
+        "null",
+        "undefined"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to exit a loop prematurely in C#?",
+      "options": [
+        "continue",
+        "skip",
+        "exit",
+        "break"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a nullable integer variable in C#?",
+      "options": [
+        "num? int;",
+        "var? num;",
+        "int? num;",
+        "nullable int num;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, which data type is used to represent characters and symbols?",
+      "options": [
+        "double",
+        "int",
+        "char",
+        "string"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'volatile' keyword in C#?",
+      "options": [
+        "To define a constant",
+        "To make a variable accessible outside its class",
+        "To make a variable read-only",
+        "To indicate that a variable's value can be modified by multiple threads concurrently"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid constant in C#?",
+      "options": [
+        "const float PI = 3.14;",
+        "readonly float PI = 3.14;",
+        "float const PI = 3.14;",
+        "const PI = 3.14;"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare and initialize a constant in C#?",
+      "options": [
+        "int const VALUE = 10;",
+        "const VALUE = 10;",
+        "VALUE = const 10;",
+        "const int VALUE = 10;"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, which keyword is used to declare a variable that cannot be modified once it is assigned a value?",
+      "options": [
+        "readonly",
+        "static",
+        "const",
+        "volatile"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform exponentiation in C#?",
+      "options": [
+        "**",
+        "^^",
+        "//"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression 10 / 3 in C#?",
+      "options": [
+        "3.34",
+        "3.333..."
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to increment a variable by 1 in C#?",
+      "options": [
+        "++x;",
+        "x += 1;",
+        "x++;",
+        "x = x + 1;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 6 / 4 in C#?",
+      "options": [
+        "1.5",
+        "2.5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a valid C# relational operator?",
+      "options": [
+        "!=",
+        "><",
+        ">=",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression (4 + 5) * 2 in C#?",
+      "options": [
+        "20",
+        "18",
+        "13"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression 12 % 5 in C#?",
+      "options": [
+        "2.5",
+        "2.4"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the equality operator (==) do in C#?",
+      "options": [
+        "Assigns a value",
+        "Increments a value",
+        "Decrements a value",
+        "Compares two values for equality"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 3 * 2 + 5 in C#?",
+      "options": [
+        "11",
+        "16",
+        "15",
+        "13"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression 10 + 5 / 2 in C#?",
+      "options": [
+        "12",
+        "7.5",
+        "15"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform division of integers in C#?",
+      "options": [
+        "**",
+        "//"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a valid assignment operator in C#?",
+      "options": [
+        "+=",
+        "-=",
+        "><",
+        "*="
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the increment operator (++x) do in C#?",
+      "options": [
+        "Doubles the value of x",
+        "Increases the value of x by 1",
+        "Halves the value of x",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression (10 - 3) * 2 + 7 in C#?",
+      "options": [
+        "20",
+        "27",
+        "29",
+        "24"
+      ],
+      "correct": 5,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to decrement a variable by 1 in C#?",
+      "options": [
+        "x--;",
+        "--x;",
+        "x -= 1;",
+        "x = x - 1;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression 15 / 4 in C#?",
+      "options": [
+        "3.75",
+        "3.5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform greater than or equal to comparison in C#?",
+      "options": [
+        ">=",
+        "=>",
+        "=<",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 2 + 3 * (4 - 1) in C#?",
+      "options": [
+        "14",
+        "11"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to perform string concatenation in C#?",
+      "options": [
+        "string result = \"Hello\" add \"World\";",
+        "string result = \"Hello\" . \"World\";",
+        "string result = \"Hello\".concat(\"World\");",
+        "string result = \"Hello\" + \"World\";"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform less than comparison in C#?",
+      "options": [
+        ">=",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 4 * (3 + 5) - 2 in C#?",
+      "options": [
+        "28",
+        "36",
+        "26",
+        "22"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the decrement operator (--x) do in C#?",
+      "options": [
+        "Increases the value of x by 1",
+        "Doubles the value of x",
+        "Halves the value of x",
+        "Decreases the value of x by 1"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression 7 * (4 - 2) / 2 in C#?",
+      "options": [
+        "14",
+        "21"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform equality comparison in C#?",
+      "options": [
+        "==",
+        "!="
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 5 + 4 * 3 / 2 in C#?",
+      "options": [
+        "14",
+        "11",
+        "13"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the value of the expression (12 - 7) * (6 / 3) in C#?",
+      "options": [
+        "20",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to check if two values are not equal in C#?",
+      "options": [
+        "x  y",
+        "x == y",
+        "x != y",
+        "x =! y"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 2 + 3 * 4 - 5 in C#?",
+      "options": [
+        "11",
+        "14",
+        "15"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform greater than comparison in C#?",
+      "options": [
+        ">=",
+        "<=",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the logical AND operator (&&) do in C#?",
+      "options": [
+        "Returns false if either operand is false",
+        "Returns true if both operands are false",
+        "Returns true if both operands are true",
+        "Returns true if either operand is true"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 9 % 4 in C#?",
+      "options": [
+        "2.25",
+        "2.5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to perform inequality comparison in C#?",
+      "options": [
+        "!=",
+        "=="
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Correct order of priorities are:",
+      "options": [
+        "'/' > '%' > '*' > '+'",
+        "'/' > '*' > '%' > '+'",
+        "'*' > '/' > '%' > '+'",
+        "'%' > '*' > '/' > '+'"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which among the following is a conditional operator?",
+      "options": [
+        "':?'",
+        "?;",
+        "?:",
+        "??"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? m = 5; int y; 1. y = m++; 2. y = ++m;",
+      "options": [
+        "y = 5, m = 6 ; y = 5, m = 5",
+        "y = 6, m = 6; y = 7, m = 6",
+        "y = 5, m = 6; y = 7, m = 7",
+        "y = 5, m = 6; y = 7, m = 8"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Select the relevant C# code set to fill up the blank for the following C# program? static void Main(string[] args) { int x = 10, y = 20; int res; /*_______________*/ Console.WriteLine(res); }",
+      "options": [
+        "x % y == 0 ? (x == y ? (x += 2):(y = x + y)):y = y*10;",
+        "x % y == 0 ? y += 10:(x += 10);",
+        "x % y == 0 ? return(x) : return (y);",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following options is not a Bitwise Operator in C#?",
+      "options": [
+        "&, |",
+        "^, ~",
+        "&lt;&lt;, >>",
+        "+=, -="
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Arrange the operators in the increasing order as defined in C#. !=, ?:, &, ++, &&",
+      "options": [
+        "?: &lt; && &lt; != &lt; & &lt; ++",
+        "?: &lt; && &lt; != &lt; ++ &lt; &",
+        "?: &lt; && &lt; & &lt;!= &lt; ++",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Check the following C# code whether the given relation operator works according to the if condition or not. static void Main(string[] args) { int a = 10; int b = 5; int c = 12; int e = 8; int d; d = Convert.ToInt32((a * (c - b) / e + (b + c)) &lt;= (e * (c + a) / (b + c) + a)); Console.WriteLine(d); if (d == 1) { Console.WriteLine(\"C# is great language!\"); Console.WriteLine((a * (c - b) / e + (b + c))); } else { Console.WriteLine(\"harsh is not great language!\"); Console.WriteLine((e * (c + a) / (b + c) + a)); } }",
+      "options": [
+        "0\nC# is great!\n20",
+        "0\nC# is not great!\n25",
+        "0\nC# is great!\n25",
+        "0\nC# is not great!\n20"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? int n = 2; int p = 4; int q = 5; int w = 3; if ( !((p * q) /n",
+      "options": [
+        "6 2\nb",
+        "8 1\na",
+        "6 1\na",
+        "8 1\nb"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? bool a = true; bool b = false; a |= b; Console.WriteLine(a); Console.ReadLine();",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is/are not Relational operators in C#.NET?",
+      "options": [
+        ">=",
+        "&lt;>=",
+        "Not",
+        "&lt;="
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? int i, j = 1, k; for (i = 0; i &lt; 3; i++) { k = j++ - ++j; Console.Write(k + \" \"); }",
+      "options": [
+        "-4 -3 -2",
+        "-6 -4 -1",
+        "-2 -2 -2",
+        "-4 -4 -4"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which control flow statement is used to iterate over a collection in C#?",
+      "options": [
+        "for",
+        "foreach",
+        "do-while",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 5 > 3 ? \"Yes\" : \"No\" in C#?",
+      "options": [
+        "5 > 3 ? Yes : No",
+        "5 > 3 ? \"Yes\" : \"No\"",
+        "Yes",
+        "No"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which control flow statement is used to handle exceptions in C#?",
+      "options": [
+        "try-catch",
+        "if-else",
+        "switch-case",
+        "for"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, what is the syntax for a 'for' loop?",
+      "options": [
+        "while (condition) { }",
+        "foreach (element in collection) { }",
+        "for (initialization; condition; update) { }",
+        "do { } while (condition);"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to skip the current iteration of a loop in C#?",
+      "options": [
+        "skip",
+        "continue",
+        "next",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 10 % 2 == 0 ? \"Even\" : \"Odd\" in C#?",
+      "options": [
+        "10 % 2 == 0 ? \"Even\" : \"Odd\"",
+        "10 % 2 == 0 ? Even : Odd",
+        "Even",
+        "Odd"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which control flow statement is used to define a block of code that executes repeatedly as long as a condition is true in C#?",
+      "options": [
+        "for",
+        "do-while",
+        "switch",
+        "while"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which control flow statement is used to repeatedly execute a block of code as long as a specified condition is true in C#?",
+      "options": [
+        "do-while",
+        "for",
+        "while",
+        "foreach"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which loop in C# executes its body at least once, even if the condition is false?",
+      "options": [
+        "for",
+        "do-while",
+        "foreach",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid way to exit a loop prematurely in C#?",
+      "options": [
+        "continue",
+        "return",
+        "exit",
+        "break"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'do-while' loop in C#?",
+      "options": [
+        "To execute a block of code repeatedly until a condition is true",
+        "To execute a block of code repeatedly until a condition is false",
+        "To iterate over a collection",
+        "To handle exceptions"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, what is the syntax for a 'switch' statement?",
+      "options": [
+        "switch (expression) { case value1: statements; case value2: statements; default: statements; break; }",
+        "switch (expression) { value1: statements; break; value2: statements; break; default: statements; break; }",
+        "switch (expression) { case value1: statements; break; default: statements; break; }",
+        "switch (expression) { case value1: statements; break; case value2: statements; break; default: statements; break; }"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used to control the flow of a program in C#?",
+      "options": [
+        "Loop statements",
+        "Conditional statements",
+        "Control statements",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'default' keyword do in a 'switch' statement in C#?",
+      "options": [
+        "Defines the final case",
+        "Defines the default case if no other case matches",
+        "Terminates the switch statement",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, what is the syntax for a 'for-each' loop?",
+      "options": [
+        "for-each (type variable : collection) { }",
+        "for (type variable : collection) { }",
+        "foreach (type variable in collection) { }",
+        "for-each (type variable in collection) { }"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    }
+  ]
+}

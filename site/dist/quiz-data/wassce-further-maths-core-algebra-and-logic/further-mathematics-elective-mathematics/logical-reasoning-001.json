@@ -1,0 +1,331 @@
+{
+  "title": "WASSCE Further Maths: Core Algebra and Logic - Further Mathematics (Elective Mathematics) - Logical Reasoning",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Core Algebra and Logic",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Logical Reasoning",
+  "source": "github:online-exam-questions",
+  "count": 16,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-18zzmlg",
+      "q": "If an implication statement is represented as $P \\implies Q$, which of the following represents the contrapositive of this statement?",
+      "options": [
+        "$Q \\implies P$",
+        "$\\neg P \\implies \\neg Q$",
+        "$\\neg Q \\implies \\neg P$",
+        "$P \\implies \\neg Q$"
+      ],
+      "correct": 2,
+      "explain": "The contrapositive of an implication $P \\implies Q$ is formed by negating both terms and reversing their direction. It is written as $\\neg Q \\implies \\neg P$. A conditional statement and its contrapositive are logically equivalent.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1604d6c",
+      "q": "Given the premise 'If John studies hard, he will pass the exam,' and the fact 'John did not pass the exam,' what is the valid conclusion derived using logic?",
+      "options": [
+        "John studied hard.",
+        "John did not study hard.",
+        "The exam was too difficult.",
+        "John passed another exam."
+      ],
+      "correct": 1,
+      "explain": "This follows the rule of inference known as Modus Tollens. If $P \\implies Q$ is true, and $Q$ is false ($\\neg Q$), then $P$ must also be false ($\\neg P$). Thus, concluding 'John did not study hard' is logically valid.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1vrvdiu",
+      "q": "According to the rules of truth tables, the logical conjunction statement $P \\land Q$ (P AND Q) is true if and only if:",
+      "options": [
+        "Both P and Q are true.",
+        "At least one of P or Q is true.",
+        "Both P and Q are false.",
+        "P is true and Q is false."
+      ],
+      "correct": 0,
+      "explain": "In boolean logic, an AND operator (conjunction) strictly requires every component to evaluate to true for the entire compound statement to evaluate to true.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-121bhw4",
+      "q": "What is the correct logical negation of the universal statement: 'All mathematicians are intelligent'?",
+      "options": [
+        "No mathematicians are intelligent.",
+        "All intelligent people are mathematicians.",
+        "Some mathematicians are not intelligent.",
+        "Some intelligent people are not mathematicians."
+      ],
+      "correct": 2,
+      "explain": "The statement represents a universal affirmative ($\\forall x, M(x) \\implies I(x)$). Its exact logical negation is an existential negative statement ($\\exists x, M(x) \\land \\neg I(x)$), which translates back to natural language as 'Some mathematicians are not intelligent' (or 'At least one mathematician is not intelligent').",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1y33q5c",
+      "q": "Given the premises: 'If it is raining, then the ground is wet' and the truth statement 'It is raining,' deducing the conclusion 'The ground is wet' demonstrates which rule of inference?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Syllogism",
+        "Contradiction"
+      ],
+      "correct": 1,
+      "explain": "The structure 'If $P \\implies Q$, and $P$ is true, therefore $Q$ is true' is the definition of Modus Ponens, also called affirming the antecedent.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-wx1kxk",
+      "q": "Which logical operator symbol is standardly used to represent the biconditional statement 'If and only if'?",
+      "options": [
+        "$\\rightarrow$",
+        "$\\leftrightarrow$",
+        "$\\land$",
+        "$\\lor$"
+      ],
+      "correct": 1,
+      "explain": "The symbol $\\leftrightarrow$ signifies a two-way (bi-directional) logical relationship, meaning 'if and only if' (often abbreviated as 'iff').",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-ktgquw",
+      "q": "Consider the implication: 'If a shape is a square, then it is a rectangle.' What is the converse of this statement?",
+      "options": [
+        "If a shape is not a square, then it is not a rectangle.",
+        "If a shape is not a rectangle, then it is not a square.",
+        "If a shape is a rectangle, then it is a square.",
+        "A shape is a square if and only if it is a rectangle."
+      ],
+      "correct": 2,
+      "explain": "The converse of an implication $P \\implies Q$ is generated by reversing the direction of the implication to $Q \\implies P$. Therefore, 'If square, then rectangle' becomes 'If a shape is a rectangle, then it is a square.' Note that the converse is not necessarily factually true.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-19w0gho",
+      "q": "In mathematical logic, what term defines a compound statement that always resolves to false, regardless of the individual truth values of its simple components?",
+      "options": [
+        "A tautology",
+        "A contradiction",
+        "A contingency",
+        "An implication"
+      ],
+      "correct": 1,
+      "explain": "A contradiction (also called an absurdity or a fallacy) is a statement that is unconditionally false under all possible assignments of truth values (e.g., $P \\land \\neg P$).",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-18mgoag",
+      "q": "In a logical truth table, the conditional statement $P \\implies Q$ is False ONLY under which of the following conditions?",
+      "options": [
+        "P is True and Q is False",
+        "P is False and Q is True",
+        "P is False and Q is False",
+        "P is True and Q is True"
+      ],
+      "correct": 0,
+      "explain": "A conditional statement (implication) is considered broken or 'False' only if the premise $P$ is fulfilled (True) but the conclusion $Q$ fails to happen (False). In all other cases, it evaluates to True by default.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1uen7yg",
+      "q": "If a conditional statement is given as 'If $P$, then $Q$', how is its inverse constructed?",
+      "options": [
+        "If $Q$, then $P$",
+        "If not $P$, then not $Q$",
+        "If not $Q$, then not $P$",
+        "$P$ if and only if $Q$"
+      ],
+      "correct": 1,
+      "explain": "The inverse of an implication $P \\implies Q$ is formed by keeping the order the same but negating both terms, which mathematically reads as $\\neg P \\implies \\neg Q$ ('If not P, then not Q').",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-p3c8pc",
+      "q": "Which of the following propositions is logically equivalent to the implication $P \\implies Q$?",
+      "options": [
+        "$\\neg P \\land Q$",
+        "$\\neg P \\lor Q$",
+        "$P \\lor \\neg Q$",
+        "$P \\land \\neg Q$"
+      ],
+      "correct": 1,
+      "explain": "Material implication rule states that $P \\implies Q$ means 'either P is false, or Q is true'. Thus, it translates to the disjunction $\\neg P \\lor Q$. Evaluating truth tables for both expressions will yield identical truth values for all conditions.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-4wlcco",
+      "q": "Which logical symbol is strictly used to represent the word 'OR' (disjunction)?",
+      "options": [
+        "$\\lor$",
+        "$\\land$",
+        "$\\neg$",
+        "$\\iff$"
+      ],
+      "correct": 0,
+      "explain": "The 'V-like' symbol $\\lor$ stands for the logical OR operator (disjunction). By contrast, $\\land$ is AND, $\\neg$ is NOT, and $\\iff$ is if and only if.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-yeub4o",
+      "q": "The statement $\\neg Q \\implies \\neg P$ represents which relationship to the original proposition $P \\implies Q$?",
+      "options": [
+        "Contrapositive",
+        "Converse",
+        "Inverse",
+        "Negation"
+      ],
+      "correct": 0,
+      "explain": "The contrapositive reverses the direction and negates both statements. So, $P \\implies Q$ becomes $\\neg Q \\implies \\neg P$. A statement is always logically equivalent to its contrapositive.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-sbfprr",
+      "q": "Which of the following compound propositions represents a tautology?",
+      "options": [
+        "$P \\lor \\neg P$",
+        "$P \\land \\neg P$",
+        "$P \\implies \\neg P$",
+        "$P \\iff \\neg P$"
+      ],
+      "correct": 0,
+      "explain": "A tautology is a statement that is unconditionally true. By the Law of Excluded Middle, a proposition must be either true or false. Thus, 'P OR not P' ($P \\lor \\neg P$) covers all possibilities and is always true.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1qo2zpd",
+      "q": "Consider the argument: 'If it snows, the flight will be canceled. The flight is not canceled.' What is the valid conclusion based on the rule of Modus Tollens?",
+      "options": [
+        "It snowed.",
+        "It did not snow.",
+        "The flight was delayed.",
+        "No valid conclusion."
+      ],
+      "correct": 1,
+      "explain": "Modus Tollens dictates that from premises $S \\implies C$ and $\\neg C$, we can validly conclude $\\neg S$. Therefore, since the flight was not canceled, it must be logically true that it did not snow.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1rgy9sw",
+      "q": "Evaluate the truth value of the complex proposition $P \\implies (P \\lor Q)$ given that $P$ is True and $Q$ is False.",
+      "options": [
+        "True",
+        "False",
+        "Undefined",
+        "Cannot be determined"
+      ],
+      "correct": 0,
+      "explain": "If P is True, the disjunction $(P \\lor Q)$ evaluates to True (True OR False is True). Therefore, the implication $P \\implies (P \\lor Q)$ becomes True $\\implies$ True, which evaluates to True.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Area under a curve",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Area under a curve",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1usbkvs",
+      "q": "Find the area completely bounded by the curve $y = 4 - x^2$ and the x-axis.",
+      "options": [
+        "$10\\frac{2}{3}$",
+        "$5\\frac{1}{3}$",
+        "$2\\frac{2}{3}$",
+        "$21\\frac{1}{3}$"
+      ],
+      "correct": 0,
+      "explain": "The curve intersects the x-axis where $4 - x^2 = 0$, so $x = -2$ and $x = 2$. The area is $\\int_{-2}^{2} (4 - x^2) dx = [4x - \\frac{x^3}{3}]_{-2}^{2}$. This evaluates to $(8 - \\frac{8}{3}) - (-8 + \\frac{8}{3}) = 16 - \\frac{16}{3} = \\frac{32}{3} = 10\\frac{2}{3}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Area under a curve",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1wnidjs",
+      "q": "Find the area enclosed completely between the curve $y = x^2$ and the line $y = 2x$.",
+      "options": [
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{3}$",
+        "$\\frac{8}{3}$",
+        "$\\frac{5}{3}$"
+      ],
+      "correct": 1,
+      "explain": "First, find the points of intersection: $x^2 = 2x \\implies x(x - 2) = 0$, so $x=0$ and $x=2$. The area is given by $\\int_0^2 (2x - x^2) dx$. Evaluating this integral yields $[x^2 - \\frac{x^3}{3}]_0^2 = (4 - \\frac{8}{3}) - 0 = \\frac{4}{3}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Area under a curve",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-ru7ugo",
+      "q": "Calculate the area completely bounded by the curve $y = x^3$, the x-axis, and the vertical lines $x = 1$ and $x = 2$.",
+      "options": [
+        "$\\frac{15}{4}$",
+        "$\\frac{17}{4}$",
+        "$\\frac{7}{2}$",
+        "$4$"
+      ],
+      "correct": 0,
+      "explain": "The area is given by the definite integral $\\int_1^2 x^3 dx$. Finding the anti-derivative, we get $[\\frac{x^4}{4}]_1^2$. Evaluating the limits gives $\\frac{2^4}{4} - \\frac{1^4}{4} = \\frac{16}{4} - \\frac{1}{4} = \\frac{15}{4}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Area under a curve",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1adi6es",
+      "q": "Find the total area enclosed completely by the curve $y = \\sin x$ and the x-axis from $x=0$ to $x=2\\pi$.",
+      "options": [
+        "$0$",
+        "$2$",
+        "$4$",
+        "$2\\pi$"
+      ],
+      "correct": 2,
+      "explain": "Total area considers physical geometry, taking absolute values where the curve is below the x-axis. From $0$ to $\\pi$, $\\sin x \\ge 0$; area is $\\int_0^{\\pi} \\sin x dx = [-\\cos x]_0^{\\pi} = 1 - (-1) = 2$. From $\\pi$ to $2\\pi$, $\\sin x \\le 0$; the integral is $\\int_{\\pi}^{2\\pi} \\sin x dx = -2$, taking its absolute value gives $2$. Total area $= 2 + 2 = 4$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Area under a curve",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1n4iuv0",
+      "q": "Find the area bounded by the curve $y = 3x^2 + 2$, the x-axis, and the vertical lines $x=0$ and $x=3$.",
+      "options": [
+        "$27$",
+        "$33$",
+        "$36$",
+        "$45$"
+      ],
+      "correct": 1,
+      "explain": "Integrate the function from 0 to 3: $\\int_0^3 (3x^2 + 2) dx$. The anti-derivative is $x^3 + 2x$. Evaluated at $x=3$: $(3^3 + 2(3)) = 27 + 6 = 33$. Evaluated at $x=0$ it is 0. So the area is $33 - 0 = 33$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Area under a curve",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

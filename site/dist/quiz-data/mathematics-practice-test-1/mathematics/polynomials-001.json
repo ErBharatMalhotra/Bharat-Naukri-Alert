@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Polynomials",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Polynomials",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-1nqf3vs",
+      "q": "The polynomial function defined by $p(x) = x^3 + x^2 - 8x - 12$ has $(x - 3)$ as one of its linear factors. What are all and only the zeros of $p$?",
+      "options": [
+        "$-3$ and $-2$",
+        "$-3$ and $2$",
+        "$-2$ and $3$",
+        "$2$ and $3$"
+      ],
+      "correct": 2,
+      "explain": "Because $(x - 3)$ is a factor, 3 is a zero. Dividing $p(x)$ by $(x - 3)$ using synthetic or polynomial division yields $x^2 + 4x + 4$. Setting this quotient equal to 0, we can factor it as $(x + 2)^2 = 0$, giving a double root at $x = -2$. Therefore, the distinct zeros are -2 and 3.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Polynomials",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

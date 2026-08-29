@@ -1,0 +1,351 @@
+{
+  "title": "GATE - Java Programming - Objects And Collections",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Java Programming",
+  "topic": "Objects And Collections",
+  "source": "indiabix.com",
+  "count": 17,
+  "questions": [
+    {
+      "id": "gate-1pb90o8",
+      "q": "What will be the output of the program? public class Test { public static void main (String[] args) { String foo = args[1]; String bar = args[2]; String baz = args[3]; System.out.println(\"baz = \" + baz); /* Line 8 */ } } And the command line invocation: &gt; java Test red green blue",
+      "options": [
+        "baz =",
+        "baz = null",
+        "baz = blue",
+        "Runtime Exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nntjeu",
+      "q": "What will be the output of the program? public class Test { public static void main (String args[]) { String str = NULL; System.out.println(str); } }",
+      "options": [
+        "NULL",
+        "Compile Error",
+        "Code runs but no output",
+        "Runtime Exception"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-184dc13",
+      "q": "What will be the output of the program? package foo; import java.util.Vector; /* Line 2 */ private class MyVector extends Vector { int i = 1; /* Line 5 */ public MyVector() { i = 2; } } public class MyNewVector extends MyVector { public MyNewVector () { i = 4; /* Line 15 */ } public static void main (String args []) { MyVector v = new MyNewVector(); /* Line 19 */ } }",
+      "options": [
+        "Compilation will succeed.",
+        "Compilation will fail at line 3.",
+        "Compilation will fail at line 5.",
+        "Compilation will fail at line 15."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-maks5w",
+      "q": "What will be the output of the program? public class Test { private static int[] x; public static void main(String[] args) { System.out.println(x[0]); } }",
+      "options": [
+        "0&nbsp;",
+        "null",
+        "Compile Error",
+        "NullPointerException at runtime"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-u7wugc",
+      "q": "What will be the output of the program? import java.util.*; class I { public static void main (String[] args) { Object i = new ArrayList().iterator(); System.out.print((i instanceof List)+\",\"); System.out.print((i instanceof Iterator)+\",\"); System.out.print(i instanceof ListIterator); } }",
+      "options": [
+        "Prints: false, false, false",
+        "Prints: false, false, true",
+        "Prints: false, true, false",
+        "Prints: false, true, true"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1ttsxt8",
+      "q": "class Test1 { public int value; public int hashCode() { return 42; } } class Test2 { public int value; public int hashcode() { return (int)(value^5); } } which statement is true?",
+      "options": [
+        "class Test1 will not compile.",
+        "The Test1 hashCode() method is more efficient than the Test2 hashCode() method.",
+        "The Test1 hashCode() method is less efficient than the Test2 hashCode() method.",
+        "class Test2 will not compile."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-icok20",
+      "q": "Which statement is true for the class java.util.HashSet?",
+      "options": [
+        "The elements in the collection are ordered.",
+        "The collection is guaranteed to be immutable.",
+        "The elements in the collection are guaranteed to be unique.",
+        "The elements in the collection are accessed using a unique key."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1x62pgs",
+      "q": "Which of the following statements about the hashcode() method are incorrect? The value returned by hashcode() is used in some collection classes to help locate objects. The hashcode() method is required to return a positive int value. The hashcode() method in the String class is the one inherited from Object. Two new empty String objects will produce identical hashcodes.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cx73qo",
+      "q": "What two statements are true about properly overridden hashCode() and equals() methods? hashCode() doesn't have to be overridden if equals() is. equals() doesn't have to be overridden if hashCode() is. hashCode() can always return the same value, regardless of the object that invoked it. equals() can be true even if it's comparing different objects.",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1lfwbeb",
+      "q": "Which two statements are true about comparing two instances of the same class, given that the equals() and hashCode() methods have been properly overridden? If the equals() method returns true, the hashCode() comparison == must return true. If the equals() method returns false, the hashCode() comparison != must return true. If the hashCode() comparison == returns true, the equals() method must return true. If the hashCode() comparison == returns true, the equals() method might return true.",
+      "options": [
+        "1 and 4",
+        "2 and 3",
+        "3 and 4",
+        "1 and 3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xamqdq",
+      "q": "Which interface provides the capability to store objects using a key-value pair?",
+      "options": [
+        "Java.util.Map",
+        "Java.util.Set",
+        "Java.util.List",
+        "Java.util.Collection"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1pwx8o",
+      "q": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?",
+      "options": [
+        "java.util.ArrayList",
+        "java.util.LinkedHashMap",
+        "java.util.HashMap",
+        "java.util.TreeMap"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1oaiy7t",
+      "q": "Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?",
+      "options": [
+        "java.util.SortedMap",
+        "java.util.TreeMap",
+        "java.util.TreeSet",
+        "java.util.Hashtable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-14hxwrs",
+      "q": "Which is valid declaration of a float?",
+      "options": [
+        "float f = 1F;",
+        "float f = 1.0;",
+        "float f = \"1\";",
+        "float f = 1.0d;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-csq158",
+      "q": "/* Missing Statement ? */ public class foo { public static void main(String[]args)throws Exception { java.io.PrintWriter out = new java.io.PrintWriter(); new java.io.OutputStreamWriter(System.out,true); out.println(\"Hello\"); } } What line of code should replace the missing statement to make this program compile?",
+      "options": [
+        "No statement required.",
+        "import java.io.*;",
+        "include java.io.*;",
+        "import java.io.PrintWriter;"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vc32qi",
+      "q": "What is the numerical range of char?",
+      "options": [
+        "0 to 32767",
+        "0 to 65535",
+        "-256 to 255",
+        "-32768 to 32767"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lbmlas",
+      "q": "Which of the following are Java reserved words? run import default implement",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "2 and 4"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Java Programming",
+      "topic": "Objects And Collections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

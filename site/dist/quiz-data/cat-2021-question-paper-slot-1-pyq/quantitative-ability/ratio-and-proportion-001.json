@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Ratio and Proportion",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Ratio and Proportion",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-tilcsp",
+      "q": "The amount Neeta and Geeta together earn in a day equals what Sita alone earns in 6 days. The amount Sita and Neeta together earn in a day equals what Geeta alone earns in 2 days. The ratio of the daily earnings of the one who earns the most to that of the one who earns the least is",
+      "options": [
+        "11: 3",
+        "11: 7",
+        "3: 2",
+        "7: 3"
+      ],
+      "correct": 0,
+      "explain": "Let $N, G$, and $S$ be the daily earnings of Neeta, Geeta, and Sita respectively.\nFrom the given conditions:\n1) $N + G = 6S$\n2) $S + N = 2G \\implies N = 2G - S$\nSubstitute $N$ into the first equation:\n$(2G - S) + G = 6S \\implies 3G = 7S \\implies \\frac{G}{S} = \\frac{7}{3}$.\nLet $G = 7k$ and $S = 3k$.\nSubstitute back to find $N$: $N = 2(7k) - 3k = 14k - 3k = 11k$.\nThe daily earnings are $N = 11k$, $G = 7k$, and $S = 3k$.\nThe one who earns the most is Neeta ($11k$) and the least is Sita ($3k$).\nRatio = $11k : 3k = 11:3$.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

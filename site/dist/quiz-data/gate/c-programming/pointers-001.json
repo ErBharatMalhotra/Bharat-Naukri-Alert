@@ -1,0 +1,453 @@
+{
+  "title": "GATE - C Programming - Pointers",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Pointers",
+  "source": "indiabix.com",
+  "count": 23,
+  "questions": [
+    {
+      "id": "gate-p1lf28",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { static char *s[] = {\"black\", \"white\", \"pink\", \"violet\"}; char **ptr[] = {s+3, s+2, s+1, s}, ***p; p = ptr; ++p; printf(\"%s\", **p+1); return 0; }",
+      "options": [
+        "ink",
+        "ack",
+        "ite",
+        "let"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-vc2aq0",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { int i=3, *j, k; j = &amp;i; printf(\"%d\\n\", i**j*i+*j); return 0; }",
+      "options": [
+        "30",
+        "27",
+        "9",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-149ewco",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { int x=30, *y, *z; y=&amp;x; /* Assume address of x is 500 and integer is 4 byte size */ z=y; *y++=*z++; x++; printf(\"x=%d, y=%d, z=%d\\n\", x, y, z); return 0; }",
+      "options": [
+        "x=31, y=502, z=502",
+        "x=31, y=500, z=500",
+        "x=31, y=498, z=498",
+        "x=31, y=504, z=504"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ya5jcc",
+      "q": "What will be the output of the program ? #include&lt;stdio.h&gt; int main() { char str[20] = \"Hello\"; char *const p=str; *p='M'; printf(\"%s\\n\", str); return 0; }",
+      "options": [
+        "Mello",
+        "Hello",
+        "HMello",
+        "MHello"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-404zm0",
+      "q": "What will be the output of the program If the integer is 4bytes long? #include&lt;stdio.h&gt; int main() { int ***r, **q, *p, i=8; p = &amp;i; q = &amp;p; r = &amp;q; printf(\"%d, %d, %d\\n\", *p, **q, ***r); return 0; }",
+      "options": [
+        "8, 8, 8",
+        "4000, 4002, 4004",
+        "4000, 4004, 4008",
+        "4000, 4008, 4016"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1haz7yw",
+      "q": "Point out the compile time error in the program given below. #include&lt;stdio.h&gt; int main() { int *x; *x=100; return 0; }",
+      "options": [
+        "Error: invalid assignment for x",
+        "Error: suspicious pointer conversion",
+        "No error",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y41xfs",
+      "q": "Point out the error in the program #include&lt;stdio.h&gt; int main() { int a[] = {10, 20, 30, 40, 50}; int j; for(j=0; j&lt;5; j++) { printf(\"%d\\n\", a); a++; } return 0; }",
+      "options": [
+        "Error: Declaration syntax",
+        "Error: Expression syntax",
+        "Error: LValue required",
+        "Error: Rvalue required"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16qr514",
+      "q": "Which of the following statements correctly declare a function that receives a pointer to pointer to a pointer to a float and returns a pointer to a pointer to a pointer to a pointer to a float?",
+      "options": [
+        "float **fun(float***);",
+        "float *fun(float**);",
+        "float fun(float***);",
+        "float ****fun(float***);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-89onzc",
+      "q": "Which of the statements is correct about the program? #include&lt;stdio.h&gt; int main() { int i=10; int *j=&amp;i; return 0; }",
+      "options": [
+        "j and i are pointers to an int",
+        "i is a pointer to an int and stores address of j",
+        "j is a pointer to an int and stores address of i",
+        "j is a pointer to a pointer to an int and stores address of i"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-et1tf4",
+      "q": "Which of the statements is correct about the program? #include&lt;stdio.h&gt; int main() { float a=3.14; char *j; j = (char*)&amp;a; printf(\"%d\\n\", *j); return 0; }",
+      "options": [
+        "It prints ASCII value of the binary number present in the first byte of a float variable a.",
+        "It prints character equivalent of the binary number present in the first byte of a float variable a.",
+        "It will print 3",
+        "It will print a garbage value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y65zf3",
+      "q": "In the following program add a statement in the function fun() such that address of a gets stored in j? #include&lt;stdio.h&gt; int main() { int *j; void fun(int**); fun(&j); return 0; } void fun(int **k) { int a=10; /* Add a statement here */ }",
+      "options": [
+        "**k=a;",
+        "k=&amp;a;",
+        "*k=&amp;a",
+        "&amp;k=*a"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1v3gqio",
+      "q": "Which of the following statements correct about k used in the below statement?char ****k;",
+      "options": [
+        "k is a pointer to a pointer to a pointer to a char",
+        "k is a pointer to a pointer to a pointer to a pointer to a char",
+        "k is a pointer to a char pointer",
+        "k is a pointer to a pointer to a char"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bnrlk",
+      "q": "Are the expression *ptr++ and ++*ptr are same?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-127e0eo",
+      "q": "Will the program compile? #include&lt;stdio.h&gt; int main() { char str[5] = \"IndiaBIX\"; return 0; }",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7pkyjw",
+      "q": "The following program reports an error on compilation. #include&lt;stdio.h&gt; int main() { float i=10, *j; void *k; k=&amp;i; j=k; printf(\"%f\\n\", *j); return 0; }",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vief14",
+      "q": "Are the three declarations char **apple, char *apple[], and char apple[][] same?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-jc23bs",
+      "q": "Is there any difference between the following two statements? char *p=0;char *t=NULL;",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1vl33do",
+      "q": "Is this a correct way for NULL pointer assignment? int i=0;char *q=(char*)i;",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-3dmeuy",
+      "q": "Is the NULL pointer same as an uninitialised pointer?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1a41z74",
+      "q": "Will the program compile in Turbo C? #include&lt;stdio.h&gt; int main() { int a=10, *j; void *k; j=k=&amp;a; j++; k++; printf(\"%u %u\\n\", j, k); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-16uu0dk",
+      "q": "Will the following program give any warning on compilation in TurboC (under DOS)? #include&lt;stdio.h&gt; int main() { int *p1, i=25; void *p2; p1=&amp;i; p2=&amp;i; p1=p2; p2=p1; return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m9i5kg",
+      "q": "What would be the equivalent pointer expression for referring the array element a[i][j][k][l]",
+      "options": [
+        "((((a+i)+j)+k)+l)",
+        "*(*(*(*(a+i)+j)+k)+l)",
+        "(((a+i)+j)+k+l)",
+        "((a+i)+j+k+l)"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-f14dn8",
+      "q": "The operator used to get value at address stored in a pointer variable is",
+      "options": [
+        "*",
+        "&amp;",
+        "&amp;&amp;",
+        "||"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Pointers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "title": "GATE - C Programming - Library Functions",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Library Functions",
+  "source": "indiabix.com",
+  "count": 21,
+  "questions": [
+    {
+      "id": "gate-16o2yfg",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i; i = printf(\"How r u\\n\"); i = printf(\"%d\\n\", i); printf(\"%d\\n\", i); return 0; }",
+      "options": [
+        "How r u72",
+        "How r u82",
+        "How r u11",
+        "Error: cannot assign printf to variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-sk0nv4",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #include&lt;math.h&gt; int main() { float i = 2.5; printf(\"%f, %d\", floor(i), ceil(i)); return 0; }",
+      "options": [
+        "2, 3",
+        "2.000000, 3",
+        "2.000000, 0",
+        "2, 0"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wd6msw",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i; i = scanf(\"%d %d\", &amp;i, &amp;i); printf(\"%d\\n\", i); return 0; }",
+      "options": [
+        "1",
+        "2",
+        "Garbage value",
+        "Error: cannot assign scanf to variable"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-83eccq",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; int main() { int i; char c; for(i=1; i&lt;=5; i++) { scanf(\"%c\", &amp;c); /* given input is 'b' */ ungetc(c, stdout); printf(\"%c\", c); ungetc(c, stdin); } return 0; }",
+      "options": [
+        "bbbb",
+        "bbbbb",
+        "b",
+        "Error in ungetc statement."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-hzzvmi",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { char *i = \"55.555\"; int result1 = 10; float result2 = 11.111; result1 = result1+atoi(i); result2 = result2+atof(i); printf(\"%d, %f\", result1, result2); return 0; }",
+      "options": [
+        "55, 55.555",
+        "66, 66.666600",
+        "65, 66.666000",
+        "55, 55"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1y3pzdc",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; int main() { fprintf(\"IndiaBIX\"); printf(\"%.ef\", 2.0); return 0; }",
+      "options": [
+        "Error: unknown value in printf() statement.",
+        "Error: in fprintf() statement.",
+        "No error and prints \"IndiaBIX\"",
+        "No error and prints \"2.0\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1s6ga6g",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; #include&lt;string.h&gt; int main() { char str1[] = \"Learn through IndiaBIX\\0.com\", str2[120]; char *p; p = (char*) memccpy(str2, str1, 'i', strlen(str1)); *p = '\\0'; printf(\"%s\", str2); return 0; }",
+      "options": [
+        "Error: in memccpy statement",
+        "Error: invalid pointer conversion",
+        "Error: invalid variable declaration",
+        "No error and prints \"Learn through Indi\""
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-wsphrc",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; int main() { char str[] = \"IndiaBIX\"; printf(\"%.#s %2s\", str, str); return 0; }",
+      "options": [
+        "Error: in Array declaration",
+        "Error: printf statement",
+        "Error: unspecified character in printf",
+        "No error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-tz7a7g",
+      "q": "It is necessary that for the string functions to work safely the strings must be terminated with '\\0'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1m3tv3g",
+      "q": "FILE is a structure suitably typedef'd in \"stdio.h\".",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1yhlene",
+      "q": "ftell() returns the current position of the pointer in a file stream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-630236",
+      "q": "Data written into a file using fwrite() can be read back using fscanf()",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-c4gbj4",
+      "q": "If the two strings are found to be unequal then strcmp returns difference between the first non-matching pair of characters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1o26nmw",
+      "q": "Is standard library a part of C language?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1mxb0o0",
+      "q": "Will the program outputs \"IndiaBIX.com\"? #include&lt;stdio.h&gt; #include&lt;string.h&gt; int main() { char str1[] = \"IndiaBIX.com\"; char str2[20]; strncpy(str2, str1, 8); printf(\"%s\", str2); return 0; }",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gbfemf",
+      "q": "The itoa function can convert an integer in decimal, octal or hexadecimal form to a string.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1k9kh4k",
+      "q": "The prototypes of all standard library string functions are declared in the file string.h.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1nkrtj6",
+      "q": "scanf() or atoi() function can be used to convert a string like \"436\" in to integer.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1esq12y",
+      "q": "What is the purpose of fflush() function.",
+      "options": [
+        "flushes all streams and specified streams.",
+        "flushes only specified stream.",
+        "flushes input/output buffer.",
+        "flushes file buffer."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-dswzeq",
+      "q": "Can you use the fprintf() to display the output on the screen?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-129l3pc",
+      "q": "What will the function randomize() do in Turbo C under DOS?",
+      "options": [
+        "returns a random number.",
+        "returns a random number generator in the specified range.",
+        "returns a random number generator with a random value based on time.",
+        "return a random number with a given seed value."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Library Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

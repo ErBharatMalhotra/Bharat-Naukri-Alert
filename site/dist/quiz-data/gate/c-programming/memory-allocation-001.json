@@ -1,0 +1,357 @@
+{
+  "title": "GATE - C Programming - Memory Allocation",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C Programming",
+  "topic": "Memory Allocation",
+  "source": "indiabix.com",
+  "count": 18,
+  "questions": [
+    {
+      "id": "gate-18zvyes",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { int *p; p = (int *)malloc(20); /* Assume p has address of 1314 */ free(p); printf(\"%u\", p); return 0; }",
+      "options": [
+        "1314",
+        "Garbage value",
+        "1316",
+        "Random address"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-s9f8ug",
+      "q": "What will be the output of the program (16-bit platform)? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { int *p; p = (int *)malloc(20); printf(\"%d\\n\", sizeof(p)); free(p); return 0; }",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "Garbage value"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1tao1eq",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #include&lt;string.h&gt; int main() { char *s; char *fun(); s = fun(); printf(\"%s\\n\", s); return 0; } char *fun() { char buffer[30]; strcpy(buffer, \"RAM\"); return (buffer); }",
+      "options": [
+        "0xffff",
+        "Garbage value",
+        "0xffee",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i1bw3g",
+      "q": "What will be the output of the program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { union test { int i; float f; char c; }; union test *t; t = (union test *)malloc(sizeof(union test)); t-&gt;f = 10.10f; printf(\"%f\", t-&gt;f); return 0; }",
+      "options": [
+        "10",
+        "Garbage value",
+        "10.100000",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ua8a3e",
+      "q": "Assume integer is 2 bytes wide. How many bytes will be allocated for the following code? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; #define MAXROW 3 #define MAXCOL 4 int main() { int (*p)[MAXCOL]; p = (int (*) [MAXCOL])malloc(MAXROW *sizeof(*p)); return 0; }",
+      "options": [
+        "56 bytes",
+        "128 bytes",
+        "24 bytes",
+        "12 bytes"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2dq0",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { int *a[3]; a = (int*) malloc(sizeof(int)*3); free(a); return 0; }",
+      "options": [
+        "Error: unable to allocate memory",
+        "Error: We cannot store address of allocated memory in a",
+        "Error: unable to free memory",
+        "No error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-veu0t4",
+      "q": "Point out the error in the following program. #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { char *ptr; *ptr = (char)malloc(30); strcpy(ptr, \"RAM\"); printf(\"%s\", ptr); free(ptr); return 0; }",
+      "options": [
+        "Error: in strcpy() statement.",
+        "Error: in *ptr = (char)malloc(30);",
+        "Error: in free(ptr);",
+        "No error"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-8w9r6s",
+      "q": "Point out the correct statement will let you access the elements of the array using 'p' in the following program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { int i, j; int(*p)[3]; p = (int(*)[3])malloc(3*sizeof(*p)); return 0; }",
+      "options": [
+        "for(i=0; i&lt;3; i++) { for(j=0; j&lt;3; j++) printf(\"%d\", p[i+j]); }",
+        "for(i=0; i&lt;3; i++) printf(\"%d\", p[i]);",
+        "for(i=0; i&lt;3; i++) { for(j=0; j&lt;3; j++) printf(\"%d\", p[i][j]); }",
+        "for(j=0; j&lt;3; j++) printf(\"%d\", p[i][j]);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ewe6f4",
+      "q": "Which of the following statement is correct prototype of the malloc() function in c ?",
+      "options": [
+        "int* malloc(int);",
+        "char* malloc(char);",
+        "unsigned int* malloc(unsigned int);",
+        "void* malloc(size_t);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lj7g80",
+      "q": "Point out the correct statement which correctly free the memory pointed to by 's' and 'p' in the following program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { struct ex { int i; float j; char *s }; struct ex *p; p = (struct ex *)malloc(sizeof(struct ex)); p-&gt;s = (char*)malloc(20); return 0; }",
+      "options": [
+        "free(p); , free(p-&gt;s);",
+        "free(p-&gt;s); , free(p);",
+        "free(p-&gt;s);",
+        "free(p);"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-w1nvo8",
+      "q": "Point out the correct statement which correctly allocates memory dynamically for 2D array following program? #include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() { int *p, i, j; /* Add statement here */ for(i=0; i&lt;3; i++) { for(j=0; j&lt;4; j++) { p[i*4+j] = i; printf(\"%d\", p[i*4+j]); } } return 0; }",
+      "options": [
+        "p = (int*) malloc(3, 4);",
+        "p = (int*) malloc(3*sizeof(int));",
+        "p = malloc(3*4*sizeof(int));",
+        "p = (int*) malloc(3*4*sizeof(int));"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-13nhpv2",
+      "q": "malloc() returns a float pointer if memory is allocated for storing float's and a double pointer if memory is allocated for storing double's.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-52dvc8",
+      "q": "malloc() allocates memory from the heap and not from the stack.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-35rj3g",
+      "q": "malloc() returns a NULL if it fails to allocate the requested memory.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ykfg08",
+      "q": "If malloc() successfully allocates memory it returns the number of bytes it has allocated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-17hlvk0",
+      "q": "Can I increase the size of dynamically allocated array?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1xtah04",
+      "q": "Can I increase the size of statically allocated array?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xmycm4",
+      "q": "When we dynamically allocate memory is there any way to free memory during run time?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C Programming",
+      "topic": "Memory Allocation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

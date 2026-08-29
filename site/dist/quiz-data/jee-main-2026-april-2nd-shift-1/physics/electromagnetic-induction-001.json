@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Electromagnetic Induction",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Electromagnetic Induction",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-i8i5ho",
+      "q": "When a coil is placed in a time dependent magnetic field the power dissipated in it is $P$. The number of turns, area of the coil and radius of the coil wire are $N$, $A$ and $r$ respectively. For a second coil, number of turns, area of the coil and radius of the coil wire are $2N$, $2A$ and $3r$ respectively. When the first coil is replaced with the second coil the power dissipated in it is $\\sqrt{2} \\alpha P$. The value of $\\alpha$ is _______.",
+      "options": [
+        "36",
+        "$128\\sqrt{2}$",
+        "16",
+        "64"
+      ],
+      "correct": 0,
+      "explain": "The induced EMF in a coil due to a changing magnetic field is $E = -N \\frac{d\\Phi}{dt} = -NA \\frac{dB}{dt}$. Thus, $E \\propto NA$.\nThe power dissipated is $P = \\frac{E^2}{R_{wire}}$.\nThe resistance of the wire is $R_{wire} = \\rho \\frac{l}{\\pi r^2}$.\nThe total length of the wire $l = N \times (2\\pi R_{coil})$. Since the area of the coil is $A = \\pi R_{coil}^2$, we have $R_{coil} \\propto \\sqrt{A}$.\nSo, $l \\propto N\\sqrt{A}$, giving $R_{wire} \\propto \\frac{N\\sqrt{A}}{r^2}$.\nSubstitute this into the power equation:\n$P \\propto \\frac{(NA)^2}{\\frac{N\\sqrt{A}}{r^2}} = \\frac{N^2 A^2 r^2}{N \\sqrt{A}} = N A^{3/2} r^2$.\nNow compare the power for the second coil $P'$:\n$N' = 2N$, $A' = 2A$, $r' = 3r$.\n$P' = P \\left(\\frac{N'}{N}\\right) \\left(\\frac{A'}{A}\\right)^{3/2} \\left(\\frac{r'}{r}\\right)^2 = P (2) (2)^{3/2} (3)^2 = P \\times 2 \\times 2\\sqrt{2} \\times 9 = 36\\sqrt{2} P$.\nComparing this with the given $P' = \\sqrt{2} \\alpha P$, we get $\\alpha = 36$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

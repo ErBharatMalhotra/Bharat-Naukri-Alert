@@ -1,0 +1,51 @@
+{
+  "title": "Questionnaire bleu 2022 - Mathématiques - Trigonométrie",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2022",
+  "subject": "Mathématiques",
+  "topic": "Trigonométrie",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2022-eowapw",
+      "q": "On considère la relation $\\sin(\\alpha) = -0,8$ où $\\pi < \\alpha < \\frac{3\\pi}{2}$\n\nQue vaut $\\tan(\\alpha)$ ?",
+      "options": [
+        "2/3",
+        "3/4",
+        "4/3",
+        "$\\sqrt{3}$"
+      ],
+      "correct": 2,
+      "explain": "L'angle se trouve dans le troisième quadrant, donc le cosinus est négatif. $\\cos(\\alpha) = -\\sqrt{1 - (-0,8)^2} = -0,6$. La tangente vaut $(-0,8)/(-0,6) = 4/3$.",
+      "exam": "Questionnaire bleu 2022",
+      "subject": "Mathématiques",
+      "topic": "Trigonométrie",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2022",
+      "tags": []
+    },
+    {
+      "id": "questionnaire-bleu-2022-1urbyfs",
+      "q": "On considère un angle $\\alpha$, exprimé en radians, qui vérifie les inégalités $\\frac{\\pi}{2} \\le \\alpha < \\pi$ et la relation $\\cos^4(\\alpha) - \\sin^4(\\alpha) = \\frac{1}{2}$\nQue vaut cet angle $\\alpha$ (en radians) ?",
+      "options": [
+        "$\\alpha = \\frac{\\pi}{2}$",
+        "$\\alpha = \\frac{2\\pi}{3}$",
+        "$\\alpha = \\frac{3\\pi}{4}$",
+        "$\\alpha = \\frac{5\\pi}{6}$"
+      ],
+      "correct": 3,
+      "explain": "On factorise : $(\\cos^2\\alpha - \\sin^2\\alpha)(\\cos^2\\alpha + \\sin^2\\alpha) = \\frac{1}{2}$, d'où $\\cos(2\\alpha) = 1/2$. Étant dans le quadrant $\\pi/2 \\le \\alpha < \\pi$, on obtient $\\alpha = 5\\pi/6$.",
+      "exam": "Questionnaire bleu 2022",
+      "subject": "Mathématiques",
+      "topic": "Trigonométrie",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2022",
+      "tags": []
+    }
+  ]
+}

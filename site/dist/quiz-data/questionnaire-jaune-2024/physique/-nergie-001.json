@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Physique - Énergie",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Physique",
+  "topic": "Énergie",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-1asgilw",
+      "q": "Une balle de $200\\text{ grammes}$ est lancée à partir du sol, verticalement vers le haut, avec une vitesse initiale de $10\\text{ m/s}$.\nQuelle est l’affirmation correcte parmi les suivantes (prendre $g = 10\\text{ m/s}^2$ et négliger les frottements) ?",
+      "options": [
+        "Lorsque la balle atteint la hauteur de $5\\text{ m}$, son énergie cinétique est de $10\\text{ J}$.",
+        "Lorsque la vitesse de la balle s’annule, son énergie potentielle a augmenté de $10\\text{ J}$.",
+        "La balle atteindra la hauteur maximale de $10\\text{ m}$.",
+        "La balle retombera à son point de départ après une seconde."
+      ],
+      "correct": 1,
+      "explain": "L'énergie mécanique initiale (et totale) est l'énergie cinétique au sol : $E_m = E_c = \\frac{1}{2}mv_0^2 = \\frac{1}{2}(0{,}2\\text{ kg})(10\\text{ m/s})^2 = 10\\text{ J}$.\nAu sommet de la trajectoire, la vitesse s'annule, donc $E_c = 0\\text{ J}$ et toute l'énergie est sous forme potentielle ($E_p = 10\\text{ J}$). L'énergie potentielle a donc augmenté de $10\\text{ J}$. \n(Vérifions les autres options : la hauteur maximale atteinte se déduit de $mgh = 10\\text{ J} \\implies 0{,}2 \\times 10 \\times h = 10 \\implies h = 5\\text{ m}$. En $h = 5\\text{ m}$, $E_c$ est nulle et non de $10\\text{ J}$. Le temps de montée est $t = v_0/g = 1\\text{ s}$, donc le temps total pour retomber est de $2\\text{ s}$).",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Énergie",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

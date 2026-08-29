@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Two Dimensional Geometry",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Two Dimensional Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-hlp55c",
+      "q": "Let the vertex $A$ of a triangle $ABC$ be $(1, 2)$, and the mid-point of the side $AB$ be $(5, -1)$. If the centroid of this triangle is $(3, 4)$ and its circumcenter is $(\\alpha, \\beta)$, then $21(\\alpha + \\beta)$ is equal to:",
+      "options": [
+        "$309$",
+        "$403$",
+        "$497$",
+        "$524$"
+      ],
+      "correct": 2,
+      "explain": "Since the midpoint of $AB$ is $D(5, -1)$, we can find vertex $B$:\n$B = 2D - A = (2(5) - 1, 2(-1) - 2) = (9, -4)$.\nCentroid $G(3, 4) = \\frac{A + B + C}{3} \\implies A + B + C = (9, 12)$.\n$(1, 2) + (9, -4) + C = (9, 12) \\implies (10, -2) + C = (9, 12) \\implies C = (-1, 14)$.\nThe circumcenter $O(\\alpha, \\beta)$ is equidistant from $A, B$, and $C$, meaning $|OA|^2 = |OB|^2 = |OC|^2$.\n$|OA|^2 = |OB|^2 \\implies (\\alpha - 1)^2 + (\\beta - 2)^2 = (\\alpha - 9)^2 + (\\beta + 4)^2$\n$-2\\alpha + 1 - 4\\beta + 4 = -18\\alpha + 81 + 8\\beta + 16 \\implies 16\\alpha - 12\\beta = 92 \\implies 4\\alpha - 3\\beta = 23 \\quad \\dots (1)$\n$|OA|^2 = |OC|^2 \\implies (\\alpha - 1)^2 + (\\beta - 2)^2 = (\\alpha + 1)^2 + (\\beta - 14)^2$\n$-2\\alpha + 1 - 4\\beta + 4 = 2\\alpha + 1 - 28\\beta + 196 \\implies -4\\alpha + 24\\beta = 192 \\implies \\alpha - 6\\beta = -48 \\quad \\dots (2)$\nFrom (2), $\\alpha = 6\\beta - 48$. Substituting into (1):\n$4(6\\beta - 48) - 3\\beta = 23 \\implies 24\\beta - 192 - 3\\beta = 23 \\implies 21\\beta = 215 \\implies \\beta = \\frac{215}{21}$.\n$\\alpha = 6 \\left( \\frac{215}{21} \\right) - 48 = \\frac{1290 - 1008}{21} = \\frac{282}{21}$.\nThus, $21(\\alpha + \\beta) = 21 \\left( \\frac{282 + 215}{21} \\right) = 497$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Two Dimensional Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

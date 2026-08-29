@@ -1,0 +1,251 @@
+{
+  "title": "GATE - C++ Programming - Constructors And Destructors",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "C++ Programming",
+  "topic": "Constructors And Destructors",
+  "source": "indiabix.com",
+  "count": 12,
+  "questions": [
+    {
+      "id": "gate-fcx360",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; class IndiaBix { int x; public: IndiaBix(int xx, float yy) { cout&lt;&lt; char(yy); } }; int main() { IndiaBix *p = new IndiaBix(35, 99.50f); return 0; }",
+      "options": [
+        "99",
+        "ASCII value of 99",
+        "Garbage value",
+        "99.50"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-141k83g",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class IndiaBix { public: IndiaBix() { cout&lt;&lt; \"India\"; } ~IndiaBix() { cout&lt;&lt; \"Bix\"; } }; int main() { IndiaBix objBix; return 0; }",
+      "options": [
+        "The program will print the output India.",
+        "The program will print the output Bix.",
+        "The program will print the output IndiaBix.",
+        "The program will report compile time error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-eat308",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class Bix { int x; public: Bix(); ~Bix(); void Show() const; }; Bix::Bix() { x = 25; } void Bix::Show() const { cout&lt;&lt; x; } int main() { Bix objB; objB.Show(); return 0; }",
+      "options": [
+        "The program will print the output 25.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error.",
+        "The program will report runtime error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1qdkgyc",
+      "q": "Which of the following statement is correct about the program given below? #include&lt;iostream.h&gt; class Bix { int x; public: Bix(); void Show() const; ~Bix(){} }; Bix::Bix() { x = 5; } void Bix::Show() const { cout&lt;&lt; x; } int main() { Bix objB; objB.Show(); return 0; }",
+      "options": [
+        "The program will print the output 5.",
+        "The program will print the output Garbage-value.",
+        "The program will report compile time error.",
+        "The program will report runtime error."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1cqo9yo",
+      "q": "What will be the output of the following program? #include&lt;iostream.h&gt; int val = 0; class IndiaBix { public: IndiaBix() { cout&lt;&lt; ++val; } ~IndiaBix() { cout&lt;&lt; val--; } }; int main() { IndiaBix objBix1, objBix2, objBix3; { IndiaBix objBix4; } return 0; }",
+      "options": [
+        "1234",
+        "4321",
+        "12344321",
+        "12341234"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-7rzszr",
+      "q": "Which constructor function is designed to copy objects of the same class type?",
+      "options": [
+        "Create constructor",
+        "Object constructor",
+        "Dynamic constructor",
+        "Copy constructor"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1bys4n8",
+      "q": "When are the Global objects destroyed?",
+      "options": [
+        "When the control comes out of the block in which they are being used.",
+        "When the program terminates.",
+        "When the control comes out of the function in which they are being used.",
+        "As soon as local objects die."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1uvb817",
+      "q": "Copy constructor must receive its arguments by __________ .",
+      "options": [
+        "either pass-by-value or pass-by-reference",
+        "only pass-by-value",
+        "only pass-by-reference",
+        "only pass by address"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-9bwjvo",
+      "q": "Which of the following gets called when an object is being created?",
+      "options": [
+        "constructor",
+        "virtual function",
+        "destructor",
+        "main"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-iijyg",
+      "q": "To ensure that every object in the array receives a destructor call, always delete memory allocated as an array with operator __________ .",
+      "options": [
+        "destructor",
+        "delete",
+        "delete[]",
+        "kill[]"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-ldpx93",
+      "q": "Which of the following statement is correct about constructors?",
+      "options": [
+        "A constructor has a return type.",
+        "A constructor cannot contain a function call.",
+        "A constructor has no return type.",
+        "A constructor has a void return type."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-i2nwek",
+      "q": "Which of the following statement is correct whenever an object goes out of scope?",
+      "options": [
+        "The default constructor of the object is called.",
+        "The parameterized destructor is called.",
+        "The default destructor of the object is called.",
+        "None of the above."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "C++ Programming",
+      "topic": "Constructors And Destructors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

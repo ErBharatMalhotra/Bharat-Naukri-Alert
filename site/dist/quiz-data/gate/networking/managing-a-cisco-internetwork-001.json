@@ -1,0 +1,211 @@
+{
+  "title": "GATE - Networking - Managing A Cisco Internetwork",
+  "titleHi": "",
+  "exam": "GATE",
+  "subject": "Networking",
+  "topic": "Managing A Cisco Internetwork",
+  "source": "indiabix.com",
+  "count": 10,
+  "questions": [
+    {
+      "id": "gate-e9vg5m",
+      "q": "Which command will copy the IOS to a backup host on your network?",
+      "options": [
+        "transfer IOS to 172.16.10.1",
+        "copy run start",
+        "copy start tftp",
+        "copy flash tftp"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-18wezew",
+      "q": "Which command loads a new version of the Cisco IOS into a router?",
+      "options": [
+        "copy flash ftp",
+        "copy ftp flash",
+        "copy flash tftp",
+        "copy tftp flash"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-10rs1e8",
+      "q": "You are troubleshooting a connectivity problem in your corporate network and want to isolate the problem. You suspect that a router on the route to an unreachable network is at fault. What IOS user exec command should you issue?",
+      "options": [
+        "Router&gt; ping",
+        "Router&gt; trace",
+        "Router&gt; show ip route",
+        "Router&gt; show interface"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1gvb3tu",
+      "q": "The configuration register setting of 0x2102 provides what function to a router?",
+      "options": [
+        "Tells the router to boot into ROM monitor mode",
+        "Provides password recovery",
+        "Tells the router to look in NVRAM for the boot sequence",
+        "Boots the IOS from a TFTP server"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-mjk22y",
+      "q": "You telnet to a router and make your necessary changes; now you want to end the Telnet session. What command do you type in?",
+      "options": [
+        "close",
+        "disable",
+        "disconnect",
+        "exit"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-lw700u",
+      "q": "The corporate office sends you a new router to connect, but upon connecting the console cable, you see that there is already a configuration on the router. What should be done before a new configuration is entered in the router?",
+      "options": [
+        "RAM should be erased and the router restarted.",
+        "Flash should be erased and the router restarted.",
+        "NVRAM should be erased and the router restarted.",
+        "The new configuration should be entered and saved."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-1n2fsnk",
+      "q": "Which command will show you the IOS version running on your router?",
+      "options": [
+        "sh IOS",
+        "sh flash",
+        "sh version",
+        "sh running-config"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-142qxaq",
+      "q": "You need to gather the IP address of a remote switch that is located in Hawaii. What can you do to find the address?",
+      "options": [
+        "Issue the show ip arp command on the router connected to the switch.",
+        "Issue the show ip route command on the router connected to the switch.",
+        "Issue the show cdp neighbor command on the router connected to the switch.",
+        "Issue the show cdp neighbors detail command on the router connected to the switch."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-miuww",
+      "q": "A network administrator wants to upgrade the IOS of a router without removing the image currently installed. What command will display the amount of memory consumed by the current IOS image and indicate whether there is enough room available to hold both the current and new images?",
+      "options": [
+        "show version",
+        "show flash",
+        "show memory",
+        "show buffers"
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "gate-xfetgk",
+      "q": "You copy a configuration from a network host to a router's RAM. The configuration looks correct, yet it is not working at all. What could the problem be?",
+      "options": [
+        "You copied the wrong configuration into RAM.",
+        "You copied the configuration into flash memory instead.",
+        "The copy did not override the shutdown command in running-config.",
+        "The IOS became corrupted after the copy command was initiated."
+      ],
+      "correct": 0,
+      "explain": "",
+      "exam": "GATE",
+      "subject": "Networking",
+      "topic": "Managing A Cisco Internetwork",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "indiabix.com",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

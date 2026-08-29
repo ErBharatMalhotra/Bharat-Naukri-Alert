@@ -1,0 +1,211 @@
+{
+  "title": "Domain IV: Procurement Business Principles - Procurement Business Principles - Data Quality & Integrity",
+  "titleHi": "",
+  "exam": "Domain IV: Procurement Business Principles",
+  "subject": "Procurement Business Principles",
+  "topic": "Data Quality & Integrity",
+  "source": "github:online-exam-questions",
+  "count": 10,
+  "questions": [
+    {
+      "id": "domain-iv:-procurement-business-principles-gnb7ch",
+      "q": "Which foundational system represents a centralized database that integrates all an agency's core processes, such as procurement, finance, and human resources?",
+      "options": [
+        "A legacy mainframe",
+        "Enterprise Resource Planning (ERP)",
+        "A data silo",
+        "An independent vendor portal"
+      ],
+      "correct": 1,
+      "explain": "An ERP (Enterprise Resource Planning) system integrates disparate departmental functions into a single unified database to ensure data accuracy and real-time reporting.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-gnkir0",
+      "q": "A procurement office adopts UNSPSC or NIGP commodity codes for their item master list. The primary strategic value of using these standardized codes is to:",
+      "options": [
+        "Keep bids secret from the public.",
+        "Improve data classification to enable accurate spend analysis and automated vendor notifications.",
+        "Bypass the IT department's security protocols.",
+        "Charge vendors higher registration fees."
+      ],
+      "correct": 1,
+      "explain": "Standardized commodity codes strictly categorize what is being bought. This uniform data allows agencies to run accurate spend analytics and automatically match opportunities to registered vendors.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-7ajf9g",
+      "q": "Why is regular 'Vendor Master File' maintenance and 'cleansing' critical for an agency's financial integrity?",
+      "options": [
+        "To comply with labor union rules.",
+        "To eliminate duplicate vendor records, mitigating the risk of fraudulent payments and incorrect 1099 tax reporting.",
+        "To ensure vendors frequently update their logos.",
+        "To force end-users to find new suppliers every year."
+      ],
+      "correct": 1,
+      "explain": "Duplicate, inactive, or unverified vendor files create significant vulnerabilities for accounts payable, increasing the risk of overpayments, fraud, and non-compliance with IRS reporting.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-1qrfx5x",
+      "q": "In eProcurement, an unalterable log that records who created, modified, or approved a transaction and precisely when it occurred is known as:",
+      "options": [
+        "An Audit Trail",
+        "A Purchase Requisition",
+        "A Bill of Lading",
+        "A General Ledger"
+      ],
+      "correct": 0,
+      "explain": "An audit trail provides step-by-step documented history of a transaction, which is critical for verifying compliance, investigating fraud, and passing internal/external audits.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-1asv33o",
+      "q": "Under FOIA (Freedom of Information Act) or local Sunshine Laws, procurement data is generally public. However, procurement officers are legally required to review and redact which specific type of data before releasing a winning proposal?",
+      "options": [
+        "The overall bid total.",
+        "Bona fide trade secrets and sensitive personal information (e.g., Social Security Numbers).",
+        "The name of the company's CEO.",
+        "The vendor's general experience narrative."
+      ],
+      "correct": 1,
+      "explain": "While government documents are public, statues mandate the protection of sensitive personal identifiable information (PII) and properly marked proprietary trade secrets from public release.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-bfby1o",
+      "q": "When transitioning from paper bidding to an eBidding portal, how does the system ensure the integrity of a 'sealed bid' requirement?",
+      "options": [
+        "By requiring vendors to mail a backup paper copy.",
+        "By using encryption to lock the uploaded submissions so that neither buyers nor competitors can view pricing or documents until the exact electronic public opening date/time.",
+        "By limiting the bid period to only 24 hours.",
+        "By requiring the IT director to hold all passwords."
+      ],
+      "correct": 1,
+      "explain": "eProcurement platforms maintain the legal requirement of a 'sealed bid' by implementing an electronic lockbox (encryption) that cannot be opened prior to the published bid closing timestamp.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-f5o4bs",
+      "q": "In database security, 'RBAC' is widely used in ERP systems to enforce segregation of duties. RBAC stands for:",
+      "options": [
+        "Role-Based Access Control",
+        "Redundant Backup Automation Code",
+        "Resource Budgeting And Costing",
+        "Reverse Bidding Analysis Chart"
+      ],
+      "correct": 0,
+      "explain": "Role-Based Access Control restricts network and system access based on the roles of individual users. For example, a user with an 'Initiator' role cannot execute a transaction that requires an 'Approver' role.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-1dm90pw",
+      "q": "If a government agency processes credit card payments for citizens or permits, the procurement team must ensure the software vendor strictly complies with which data security standard?",
+      "options": [
+        "HIPAA",
+        "PCI-DSS",
+        "OSHA",
+        "LEED"
+      ],
+      "correct": 1,
+      "explain": "PCI-DSS (Payment Card Industry Data Security Standard) is the strict framework organizations must follow to safely process, store, and transmit credit card information to prevent fraud.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-kd8baw",
+      "q": "What is the consequence of 'dirty data' (inaccurate, incomplete, or inconsistent data) in a procurement module?",
+      "options": [
+        "The ERP system will run significantly faster.",
+        "It prevents the agency from executing reliable spend analytics, leading to poorly informed sourcing strategies.",
+        "It automatically triggers a state audit.",
+        "Vendors will receive double payments by default."
+      ],
+      "correct": 1,
+      "explain": "The principle of 'garbage in, garbage out' applies. If item descriptions or commodity codes are entered incorrectly, resulting spend reports will be flawed, nullifying strategic planning efforts.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "domain-iv:-procurement-business-principles-1naeg08",
+      "q": "An agency is using an external SaaS (Software as a Service) provider for eSourcing. To guarantee the agency retains control and ownership of its solicitation data upon contract termination, the contract must include:",
+      "options": [
+        "A liquidated damages clause.",
+        "A clear data ownership, extraction, and return/destruction clause.",
+        "An automatic extension clause.",
+        "A non-compete clause."
+      ],
+      "correct": 1,
+      "explain": "Since the data resides on the vendor's cloud servers, the agency must contractually protect its public records by explicitly stating who owns the data and mandating its transfer back to the agency in an accessible format upon exit.",
+      "exam": "Domain IV: Procurement Business Principles",
+      "subject": "Procurement Business Principles",
+      "topic": "Data Quality & Integrity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 2 - Mathematics - Rational Expressions",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 2",
+  "subject": "Mathematics",
+  "topic": "Rational Expressions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-2-1dq759s",
+      "q": "Whenever $\\frac{-3x^3 + 12x}{x^3 - x^2 - 6x}$ is defined, it is equivalent to:",
+      "options": [
+        "-2",
+        "$\\frac{1}{x + 3}$",
+        "$\\frac{6 - 3x}{x + 3}$",
+        "$\\frac{6 - 3x}{x - 3}$"
+      ],
+      "correct": 3,
+      "explain": "First, factor both the numerator and the denominator. The numerator is $-3x^3 + 12x = -3x(x^2 - 4) = -3x(x - 2)(x + 2)$. The denominator is $x^3 - x^2 - 6x = x(x^2 - x - 6) = x(x - 3)(x + 2)$. The expression becomes $\\frac{-3x(x - 2)(x + 2)}{x(x - 3)(x + 2)}$. Cancel out the common terms, $x$ and $(x + 2)$, which gives $\\frac{-3(x - 2)}{x - 3}$. Distribute the $-3$ in the numerator to get $\\frac{-3x + 6}{x - 3}$, which can be rewritten as $\\frac{6 - 3x}{x - 3}$.",
+      "exam": "Mathematics Practice Test 2",
+      "subject": "Mathematics",
+      "topic": "Rational Expressions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

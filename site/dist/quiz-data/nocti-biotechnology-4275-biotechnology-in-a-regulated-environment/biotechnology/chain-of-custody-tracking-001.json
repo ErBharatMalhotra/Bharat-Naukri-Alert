@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Biotechnology in a Regulated Environment - Biotechnology - Chain-of-custody tracking",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Biotechnology in a Regulated Environment",
+  "subject": "Biotechnology",
+  "topic": "Chain-of-custody tracking",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-biotechnology-in-a-regulated-environment-1ga13aw",
+      "q": "In forensic and clinical biotechnology, what is the primary legal and scientific purpose of maintaining a strict \"Chain of Custody\" document for an evidence or diagnostic sample?",
+      "options": [
+        "To provide the sequential temperature and humidity logs of the incubators where the sample was stored.",
+        "To legally document the unbroken chronological history of a sample's physical possession, transfer, and storage from collection to disposal.",
+        "To track the hierarchy of supervisory signatures required to approve a clinical batch record for commercial release.",
+        "To dictate the specific order in which chemical reagents must be added to the sample during DNA extraction."
+      ],
+      "correct": 1,
+      "explain": "**Chain of Custody (CoC)** is the chronological documentation that records the sequence of custody, control, transfer, analysis, and disposition of physical evidence or critical samples. \n\nIts sole purpose is to prove beyond a reasonable doubt who possessed the sample at every given second. This guarantees that the sample was never left unattended, tampered with, or swapped, ensuring the integrity of the downstream analytical results (like DNA fingerprinting or drug testing).",
+      "exam": "NOCTI Biotechnology 4275: Biotechnology in a Regulated Environment",
+      "subject": "Biotechnology",
+      "topic": "Chain-of-custody tracking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-biotechnology-in-a-regulated-environment-u6zqd4",
+      "q": "A highly sensitive biopsy sample arrives at the accessioning department of a molecular diagnostics lab. During the processing of this sample, at which of the following moments must the Chain of Custody (CoC) log be officially updated with signatures and timestamps?",
+      "options": [
+        "Only when the sample initially arrives at the building, and once more when the final results are mailed out.",
+        "Exactly once every 24 hours while the sample remains in the facility, regardless of who interacts with it.",
+        "Every single time physical possession of the sample transfers from one person to another, or when it is moved in or out of a secure storage unit.",
+        "Only if the sample is physically shipped via a third-party courier (like FedEx) between different states."
+      ],
+      "correct": 2,
+      "explain": "Chain of Custody requires a continuously updated trail of accountability. \n\nAny time a sample changes hands (e.g., Technician A hands it to Technician B) or changes location (e.g., Technician B places it into the locked $-80^\\circ\\text{C}$ freezer), the log must be signed and time-stamped. This ensures there are absolutely no unexplained \"gaps\" in the timeline where the sample could have been accessed by unauthorized personnel.",
+      "exam": "NOCTI Biotechnology 4275: Biotechnology in a Regulated Environment",
+      "subject": "Biotechnology",
+      "topic": "Chain-of-custody tracking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-biotechnology-in-a-regulated-environment-906ku5",
+      "q": "A forensic laboratory receives a blood sample for high-profile DNA testing. A technician extracts the DNA on Friday evening, but forgets to sign the Chain of Custody (CoC) form before locking the sample in the freezer for the weekend. The following Monday, the technician realizes the mistake and retroactively signs the log. In a court of law, what is the most likely outcome of this specific documentation failure?",
+      "options": [
+        "The evidence may be deemed legally inadmissible and thrown out because the unbroken chronological integrity of possession cannot be verified.",
+        "The DNA test results will be considered mathematically flawless regardless of the paperwork, due to the extreme cold storage.",
+        "The technician will be required to sequence the DNA twice to mathematically compensate for the documentation gap.",
+        "The court will automatically substitute the missing CoC signature with the laboratory director's digital signature."
+      ],
+      "correct": 0,
+      "explain": "If the Chain of Custody is broken—meaning there is an undocumented gap in time where the sample's whereabouts or handler cannot be proven—the legal integrity of the sample is destroyed. \n\nEven if the scientific analysis was performed flawlessly, the opposing legal counsel can successfully argue that the sample could have been tampered with or swapped during that undocumented weekend. In forensics and heavily regulated diagnostics, a broken CoC usually renders the evidence completely **inadmissible**.",
+      "exam": "NOCTI Biotechnology 4275: Biotechnology in a Regulated Environment",
+      "subject": "Biotechnology",
+      "topic": "Chain-of-custody tracking",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

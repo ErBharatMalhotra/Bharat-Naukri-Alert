@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Physics - Work, Energy and Power",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Physics",
+  "topic": "Work, Energy and Power",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1609yt4",
+      "q": "A $1$ kg block subjected to two simultaneous forces $(2\\hat{i} + 3\\hat{j} + 4\\hat{k})$ N and $(3\\hat{i} - \\hat{j} - 2\\hat{k})$ N is moved a distance of $25$ m along $(3\\hat{i} - 4\\hat{j})$ direction. The work done in this process is _____ J.",
+      "options": [
+        "$30$",
+        "$35$",
+        "$40$",
+        "$45$"
+      ],
+      "correct": 1,
+      "explain": "The net force acting on the block is the vector sum of the two forces:\n$\\vec{F}_{net} = (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) + (3\\hat{i} - \\hat{j} - 2\\hat{k}) = 5\\hat{i} + 2\\hat{j} + 2\\hat{k}$ N.\nThe displacement vector $\\vec{d}$ is along the direction of $(3\\hat{i} - 4\\hat{j})$ and has a magnitude of $25$ m.\nThe unit vector in this direction is $\\hat{u} = \\frac{3\\hat{i} - 4\\hat{j}}{\\sqrt{3^2 + (-4)^2}} = \\frac{3\\hat{i} - 4\\hat{j}}{5}$.\nThe displacement vector is $\\vec{d} = 25 \\hat{u} = 25 \\left(\\frac{3\\hat{i} - 4\\hat{j}}{5}\\right) = 5(3\\hat{i} - 4\\hat{j}) = 15\\hat{i} - 20\\hat{j}$ m.\nWork done $W = \\vec{F}_{net} \\cdot \\vec{d} = (5\\hat{i} + 2\\hat{j} + 2\\hat{k}) \\cdot (15\\hat{i} - 20\\hat{j}) = 5(15) + 2(-20) + 0 = 75 - 40 = 35$ J.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Work, Energy and Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1x1yhto",
+      "q": "A body of mass $2$ kg begins to move under the influence of time dependent force $\\vec{F} = (2t\\hat{i} + 6t^2\\hat{j})$ N, where $\\hat{i}$ and $\\hat{j}$ are unit vectors along x and y-axis respectively. The power produced by the force at $t = 2$ s is _____ W.",
+      "options": [
+        "$150$",
+        "$200$",
+        "$250$",
+        "$300$"
+      ],
+      "correct": 1,
+      "explain": "Given the mass $m = 2 \\text{ kg}$, the acceleration is:\n$\\vec{a} = \\frac{\\vec{F}}{m} = \\frac{2t\\hat{i} + 6t^2\\hat{j}}{2} = t\\hat{i} + 3t^2\\hat{j} \\text{ m/s}^2$.\nThe body begins to move from rest, so its initial velocity is zero. Integrating the acceleration gives velocity $\\vec{v}$:\n$\\vec{v} = \\int \\vec{a} \\, dt = \\int (t\\hat{i} + 3t^2\\hat{j}) \\, dt = \\frac{t^2}{2}\\hat{i} + t^3\\hat{j}$.\nPower $P$ is the dot product of force and velocity:\n$P = \\vec{F} \\cdot \\vec{v} = (2t\\hat{i} + 6t^2\\hat{j}) \\cdot \\left(\\frac{t^2}{2}\\hat{i} + t^3\\hat{j}\\right) = 2t\\left(\\frac{t^2}{2}\\right) + 6t^2(t^3) = t^3 + 6t^5 \\text{ W}$.\nAt $t = 2$ s, the power is:\n$P = (2)^3 + 6(2)^5 = 8 + 6(32) = 8 + 192 = 200 \\text{ W}$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Work, Energy and Power",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

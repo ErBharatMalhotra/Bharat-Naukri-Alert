@@ -1,0 +1,211 @@
+{
+  "title": "Buffer Solutions and Titrations - Chemistry - Henderson–Hasselbalch Equation",
+  "titleHi": "",
+  "exam": "Buffer Solutions and Titrations",
+  "subject": "Chemistry",
+  "topic": "Henderson–Hasselbalch Equation",
+  "source": "github:online-exam-questions",
+  "count": 10,
+  "questions": [
+    {
+      "id": "buffer-solutions-and-titrations-pdxrus",
+      "q": "Select the correct form of the Henderson-Hasselbalch equation for a weak acid ($$ \\text{HA} $$) and its conjugate base ($$ \\text{A}^- $$).",
+      "options": [
+        "$$ \\text{pH} = \\text{p}K_a - \\log \\left( \\frac{[\\text{A}^-]}{[\\text{HA}]} \\right) $$",
+        "$$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[\\text{HA}]}{[\\text{A}^-]} \\right) $$",
+        "$$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[\\text{A}^-]}{[\\text{HA}]} \\right) $$",
+        "$$ \\text{pH} = \\text{p}K_a \\times \\log \\left( \\frac{[\\text{A}^-]}{[\\text{HA}]} \\right) $$"
+      ],
+      "correct": 2,
+      "explain": "The Henderson-Hasselbalch equation is derived from the $$ K_a $$ expression and is written as: $$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[\\text{base}]}{[\\text{acid}]} \\right) $$. For a weak acid/conjugate base pair, this is $$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[\\text{A}^-]}{[\\text{HA}]} \\right) $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-16001nc",
+      "q": "What is the pH of a buffer solution where the concentration of the weak acid ($$ \\text{HA} $$) is equal to the concentration of its conjugate base ($$ \\text{A}^- $$)?",
+      "options": [
+        "$$ \\text{pH} = 7 $$",
+        "$$ \\text{pH} = 1 $$",
+        "$$ \\text{pH} = \\text{p}K_a $$",
+        "$$ \\text{pH} = 14 - \\text{p}K_a $$"
+      ],
+      "correct": 2,
+      "explain": "According to the Henderson-Hasselbalch equation: $$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{[\\text{A}^-]}{[\\text{HA}]} \\right) $$. If $$ [\\text{A}^-] = [\\text{HA}] $$, then the ratio is 1, and $$ \\log(1) = 0 $$. Therefore, $$ \\text{pH} = \\text{p}K_a $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-14fgk20",
+      "q": "Calculate the pH of a buffer solution containing $$ 0.10\\,\\text{M} $$ acetic acid and $$ 0.10\\,\\text{M} $$ sodium acetate. Given: $$ K_a $$ for acetic acid is $$ 1.8 \\times 10^{-5} $$.",
+      "options": [
+        "2.87",
+        "4.74",
+        "5.35",
+        "9.26"
+      ],
+      "correct": 1,
+      "explain": "First, calculate $$ \\text{p}K_a = -\\log(1.8 \\times 10^{-5}) \\approx 4.74 $$. Since the concentrations of acid and base are equal ($$ 0.10\\,\\text{M} $$ each), $$ \\text{pH} = \\text{p}K_a + \\log(1) = 4.74 + 0 = 4.74 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-jfahg4",
+      "q": "A buffer solution contains $$ 0.50\\,\\text{M} $$ ​$$ \\text{HA} $$ ($$ \\text{p}K_a = 5.0 $$) and $$ 0.50\\,\\text{M} $$ ​$$ \\text{A}^- $$. If $$ 0.01\\,\\text{mol} $$ of solid NaOH is added to $$ 1.0\\,\\text{L} $$ of this buffer (assuming negligible volume change), what is the new pH?",
+      "options": [
+        "4.98",
+        "5.00",
+        "5.02",
+        "6.00"
+      ],
+      "correct": 2,
+      "explain": "Initial moles: $$ \\text{HA} = 0.50 $$, $$ \\text{A}^- = 0.50 $$. Added NaOH ($$ 0.01\\,\\text{mol} $$) reacts with HA: $$ \\text{HA} + \\text{OH}^- \\rightarrow \\text{A}^- + \\text{H}_2\\text{O} $$. \nNew moles HA = $$ 0.50 - 0.01 = 0.49 $$. \nNew moles $$ \\text{A}^- $$ = $$ 0.50 + 0.01 = 0.51 $$. \n$$ \\text{pH} = 5.0 + \\log(0.51/0.49) \\approx 5.0 + 0.017 = 5.017 \\approx 5.02 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-299010",
+      "q": "You need to prepare a buffer with pH 5.00 using an acid with $$ \\text{p}K_a = 4.70 $$. What ratio of $$ [\\text{A}^-]/[\\text{HA}] $$ is required?",
+      "options": [
+        "0.30",
+        "0.50",
+        "2.00",
+        "1.00"
+      ],
+      "correct": 2,
+      "explain": "Using $$ \\text{pH} = \\text{p}K_a + \\log(\\text{ratio}) $$: \n$$ 5.00 = 4.70 + \\log(\\text{ratio}) $$ \n$$ 0.30 = \\log(\\text{ratio}) $$ \n$$ \\text{ratio} = 10^{0.30} \\approx 1.995 \\approx 2.00 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-1llsp74",
+      "q": "In a buffer solution, if the concentration of the conjugate base ($$ [\\text{A}^-] $$) is ten times the concentration of the weak acid ($$ [\\text{HA}] $$), the pH of the solution will be:",
+      "options": [
+        "$$ \\text{p}K_a + 1 $$",
+        "$$ \\text{p}K_a - 1 $$",
+        "$$ \\text{p}K_a + 10 $$",
+        "$$ \\text{p}K_a $$"
+      ],
+      "correct": 0,
+      "explain": "$$ \\text{pH} = \\text{p}K_a + \\log \\left( \\frac{10[\\text{HA}]}{[\\text{HA}]} \\right) = \\text{p}K_a + \\log(10) $$. \nSince $$ \\log(10) = 1 $$, the pH is $$ \\text{p}K_a + 1 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-avtiqg",
+      "q": "What is the effective pH range of a buffer usually considered to be relative to its $$ \\text{p}K_a $$?",
+      "options": [
+        "$$ \\text{p}K_a \\pm 0.1 $$",
+        "$$ \\text{p}K_a \\pm 1.0 $$",
+        "$$ \\text{p}K_a \\pm 2.0 $$",
+        "$$ \\text{p}K_a \\pm 5.0 $$"
+      ],
+      "correct": 1,
+      "explain": "A buffer is generally effective when the ratio of base to acid is between 1:10 and 10:1. This corresponds to a pH range of $$ \\text{p}K_a - 1 $$ to $$ \\text{p}K_a + 1 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-1qzdmsg",
+      "q": "Under which condition does the Henderson-Hasselbalch approximation fail to accurately predict pH?",
+      "options": [
+        "When the acid is weak.",
+        "When the concentrations of acid and base are equal.",
+        "When the acid or base concentrations are extremely dilute or the $$ K_a $$ is relatively strong (approaching $$ 10^{-2} $$).",
+        "When the solution is at room temperature."
+      ],
+      "correct": 2,
+      "explain": "The Henderson-Hasselbalch equation assumes that the dissociation of the weak acid is negligible and that water autoionization is negligible. These assumptions break down for relatively strong 'weak' acids or extremely dilute solutions.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-1dmid2v",
+      "q": "Calculate the pH of a buffer solution composed of $$ 0.20\\,\\text{M} $$ ammonia ($$ \\text{NH}_3 $$) and $$ 0.20\\,\\text{M} $$ ammonium chloride ($$ \\text{NH}_4\\text{Cl} $$). $$ K_b $$ for $$ \\text{NH}_3 $$ is $$ 1.8 \\times 10^{-5} $$.",
+      "options": [
+        "4.74",
+        "7.00",
+        "9.26",
+        "11.12"
+      ],
+      "correct": 2,
+      "explain": "First, find $$ \\text{p}K_b = -\\log(1.8 \\times 10^{-5}) = 4.74 $$. \nUsing the basic form: $$ \\text{pOH} = \\text{p}K_b + \\log([\\text{salt}]/[\\text{base}]) = 4.74 + \\log(1) = 4.74 $$. \nThen, $$ \\text{pH} = 14.00 - \\text{pOH} = 14.00 - 4.74 = 9.26 $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "buffer-solutions-and-titrations-6ajm0",
+      "q": "What mass of sodium acetate ($$ \\text{CH}_3\\text{COONa} $$, molar mass = 82 g/mol) must be added to 1.0 L of 0.10 M acetic acid ($$ \\text{p}K_a = 4.74 $$) to produce a buffer of pH 4.74? (Assume no volume change)",
+      "options": [
+        "4.1 g",
+        "8.2 g",
+        "16.4 g",
+        "0.82 g"
+      ],
+      "correct": 1,
+      "explain": "Since the target pH (4.74) equals the $$ \\text{p}K_a $$ (4.74), the ratio of $$ [\\text{A}^-] $$ to $$ [\\text{HA}] $$ must be 1. \nThus, $$ [\\text{CH}_3\\text{COONa}] $$ must equal $$ [\\text{CH}_3\\text{COOH}] = 0.10\\,\\text{M} $$. \nMoles needed = $$ 0.10\\,\\text{mol}/\\text{L} \\times 1.0\\,\\text{L} = 0.10\\,\\text{mol} $$. \nMass = $$ 0.10\\,\\text{mol} \\times 82\\,\\text{g/mol} = 8.2\\,\\text{g} $$.",
+      "exam": "Buffer Solutions and Titrations",
+      "subject": "Chemistry",
+      "topic": "Henderson–Hasselbalch Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    }
+  ]
+}

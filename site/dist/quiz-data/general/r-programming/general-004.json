@@ -1,0 +1,1311 @@
+{
+  "title": "General - r programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "r programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": ". . . . . . . . function generates \"n\" normal random numbers based on the mean and standard deviation arguments passed to the function.",
+      "options": [
+        "rnorm",
+        "vnorm",
+        "knorm",
+        "lnorm"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the easiest method for reshaping the data before analysis.",
+      "options": [
+        "Transpose()",
+        "Structure()",
+        "Package",
+        "Function"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . returns TRUE then X can be termed as a matrix data object.",
+      "options": [
+        "is.\"matrix(X\")",
+        "is.matrix(X)",
+        "is.notamatrix(X )",
+        "is.matrix(\"X\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . package provides basic functionalities in R environment like arithmetic calculations, input/output.",
+      "options": [
+        "R base",
+        "R boost",
+        "R serve",
+        "R comm"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > x &lt;- 3 > switch(x, 2+2, mean(1:10), rnorm(5))",
+      "options": [
+        "2.2903605 2.3271663 -0.7060073 1.3622045 -0.2892720",
+        "5.5",
+        "NULL",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function gives an error message if the desired package cannot be loaded.",
+      "options": [
+        "Dplyr",
+        "Require",
+        "Library",
+        "Sample"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following R code syntax is syntactically valid?",
+      "options": [
+        "if ( statement1 ) {\n    statement2\n} else if ( statement3 ) {\n    statement4\n} else if ( statement5 ) {\n    statement6\n} else\n    statement8",
+        "if ( statement1 ) {\n    statement2\n} elseif ( statement3 ) {\n    statement4\n} elseif ( statement5 ) {\n    statement6\n} else\n    statement8",
+        "if ( statement1 ) {\n    statement2\n} elseif ( statement3 ) {\n    statement4\n} else if ( statement5 ) {\n    statement6\n} else\n    statement8",
+        "if ( statement1 ) {\n    statement2\n} else if ( statement5 ) {\n    statement6\n} else\n    statement8"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function takes various parameters like formula, data, subset, labels, etc.",
+      "options": [
+        "Pears",
+        "Pairs",
+        "Tears",
+        "Cars"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . functions can be \"built which contain all of the necessary data for evaluating the function.",
+      "options": [
+        "Objective",
+        "reflective",
+        "Nested",
+        "Symmetry"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "To get the current date, the . . . . . . . . function will return a Date object which can be converted to a different class if necessary.",
+      "options": [
+        "Sys.Time",
+        "Sys.Date",
+        "Sys.DateTime",
+        "DateTime"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "A matrix of scatterplots can be produced using . . . . . . . . function.",
+      "options": [
+        "Pears",
+        "Pairs",
+        "Tears",
+        "Cars"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . suspends the execution of a function wherever it is called and puts the function in debug mode.",
+      "options": [
+        "debug()",
+        "trace()",
+        "recover()",
+        "browser()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Two vectors M and N are defined as M &lt;- c(3, 2, 4) and N &lt;- c(1, 2). What will be the output of vector Z that is defined as Z &lt;- M*N.",
+      "options": [
+        "Z &lt;- (3, 2, 4)",
+        "Z &lt;- (3, 6, 4)",
+        "Z &lt;- (3, 4, 5)",
+        "Z &lt;- (3, 4, 4)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "A programmer builds a . . . . . . . . to avoid repeating the same task or reduce complexity.",
+      "options": [
+        "Function",
+        "Package",
+        "Code",
+        "Console"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is valid body of split function?",
+      "options": [
+        "function (x, f)",
+        "function (x, drop = FALSE, ...)",
+        "function (x, f, drop = FALSE, ...)",
+        "function (drop = FALSE, ...)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is apply function in R?",
+      "options": [
+        "apply()",
+        "tapply()",
+        "fapply()",
+        "rapply()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following R code will print \"Hello, world!\"?",
+      "options": [
+        "> f &lt;- function() {\n+              cat(\"Hello, world!\\n\")\n+ }\n> f()",
+        ">  f &lt;- function() {\n+              cat(\"Hello, World!\\n\")\n+ }\n&lt; f()",
+        "> f &lt;- function() {\n+             cat(\"Hello world!\\n\")\n+ }\n>>= f()",
+        "> f &lt;- function() {\n-             cat(\"Hello world!\\n\")\n+ }\n&lt;= f()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code snippet? > f &lt;- function(a, b) { + print(a) + print(b) + } > f(45)",
+      "options": [
+        "32",
+        "42",
+        "52",
+        "45"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The syntax of the repeat loop is . . . . . . . .",
+      "options": [
+        "rep statement",
+        "repeat statement",
+        "repeat else",
+        "repeat while"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In the base graphics system, which function is used to add elements to a plot?",
+      "options": [
+        "Boxplot()",
+        "Text()",
+        "Boxplot() or Text()",
+        "Treat()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following R code generate a uniform random number?",
+      "options": [
+        "x &lt;- runif(1, 0, 10)\nif(x > 3) {\n    y &lt;- 10\n} else {\n    y &lt;- 0\n}",
+        "x &lt;- run(1, 0, 10)\nif(x > 3) {\n    y &lt;- 10\n} else {\n    y &lt;- 0\n}",
+        "x &lt;- random(1, 0, 10)\nif(x > 3) {\n    y &lt;- 10\n} else {\n    y &lt;- 0\n}",
+        "x &lt;- random(1, 0, 10)\nif(x > 1) {\n    y &lt;- 0\n} else {\n    x &lt;- 0\n}"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to select variables and observations from a given dataset?",
+      "options": [
+        "Subset()",
+        "Sample()",
+        "While()",
+        "Signal()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is an indication that a fatal problem has occurred and execution of the function stops.",
+      "options": [
+        "message",
+        "error",
+        "warning",
+        "message & warning"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following should be preferred for evaluation from list of alternatives?",
+      "options": [
+        "subsett",
+        "eval",
+        "switch",
+        "set"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the class of the vector if you concatenate a number and a character?",
+      "options": [
+        "Number",
+        "Character",
+        "Integer",
+        "No class"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following R code snippet stops loop after 20 iterations?",
+      "options": [
+        "for(i in 1:100) {\n      print(i)\n              if(i > 20) {\n               break \n       } \n}",
+        "for(i in 1:100) {\n      print(i)\n              if(i > 19) {\n               break \n       } \n}",
+        "for(i in 1:100) {\n      print(i)\n              if(i &lt; 20) {\n               break \n       } \n}",
+        "for(i in 2:100) {\n      print(\"i\")\n              if(i > 150) {\n               break \n       } \n}"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . package is used to speed up data frame management code.",
+      "options": [
+        "Data.table",
+        "Dplyr",
+        "Table",
+        "Data.dplyr"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is multivariate version of lapply?",
+      "options": [
+        "apply()",
+        "lapply()",
+        "sapply()",
+        "mapply()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Functions are defined using the . . . . . . . . directive and are stored as R objects.",
+      "options": [
+        "function()",
+        "funct()",
+        "functions()",
+        "fun()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "MapReduce jobs submitted from either Oozie, Pig or Hive can be used to encode, improve and sample the data sets from . . . . . . . . into R.",
+      "options": [
+        "HDLS",
+        "HDFS",
+        "HDLSV",
+        "HSSLV"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > y &lt;- \"fruit\" > switch(y, fruit = \"banana\", vegetable = \"broccoli\", \"Neither\")",
+      "options": [
+        "\"banana\"",
+        "\"Neither\"",
+        "\"broccoli\"",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following R code generate a sequence of integers from 1 to 10?",
+      "options": [
+        "> for(i in 1:9) {\n    + print(i)\n+ }\n[1]",
+        "> for(i in 0:9) {\n    + print(i)\n+ }\n[1]",
+        "> for(i in 1:10) {\n    + print(i)\n+ }\n[1]",
+        "> for(i in 2:50) {\n    + print(\"i\")\n+ }\n[1]"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function is usually used inside another function and throws a warning whenever a particular package is not found.",
+      "options": [
+        "Dplyr",
+        "Require",
+        "Coin",
+        "Sample"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The only environment without a parent is the . . . . . . . . environment.",
+      "options": [
+        "full",
+        "half",
+        "null",
+        "empty"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function is a kind of \"constructor function\" that can be used to construct other functions.",
+      "options": [
+        "make.pow()",
+        "make.power()",
+        "keep.power()",
+        "keep.pow()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function in R language is used to find out whether the means of 2 groups are equal to each other or not?",
+      "options": [
+        "f.tests ()",
+        "l.tests ()",
+        "t.tests ()",
+        "not exist"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is used to skip an iteration of a loop.",
+      "options": [
+        "next",
+        "skip",
+        "group",
+        "cancel"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what function is used to select specific columns from a data frame?",
+      "options": [
+        "select_cols()",
+        "choose_cols()",
+        "select()",
+        "pick()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you filter rows in a dplyr data frame based on a specific condition using filter()?",
+      "options": [
+        "filter_rows()",
+        "row_filter()",
+        "filter_conditions()",
+        "filter()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what does the arrange() function do?",
+      "options": [
+        "Sorts the data frame in ascending order",
+        "Arranges the columns in a specified order",
+        "Orders the rows based on a specific column",
+        "Sorts the data frame in descending order"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to create a new variable in a dplyr data frame based on existing variables?",
+      "options": [
+        "create_var()",
+        "mutate()",
+        "new_variable()",
+        "add_column()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you perform a group-wise summary operation using dplyr's group_by() and summarize() functions?",
+      "options": [
+        "group_by_summary()",
+        "group_summary()",
+        "summarize_group()",
+        "summarize()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the distinct() function in dplyr?",
+      "options": [
+        "Filters unique rows based on specified columns",
+        "Removes duplicate rows from a data frame",
+        "Counts the distinct values in a column",
+        "Selects distinct elements from a vector"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what does the mutate() function do?",
+      "options": [
+        "Filters rows based on a condition",
+        "Creates a new variable based on existing ones",
+        "Mutates the data frame structure",
+        "Applies a function to each element of a vector"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you join two data frames based on a common column using dplyr's left_join()?",
+      "options": [
+        "merge_left()",
+        "left_merge()",
+        "left_join()",
+        "combine_left()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what is the purpose of the %>% operator (pipe operator)?",
+      "options": [
+        "Performs bitwise OR operation",
+        "Chains together a sequence of operations",
+        "Separates elements in a character vector",
+        "Concatenates strings"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the summarize() function in dplyr?",
+      "options": [
+        "Applies a summary function to each group",
+        "Filters rows based on a condition",
+        "Selects specific columns from a data frame",
+        "Sorts the data frame in ascending order"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you calculate the mean of a numeric variable named score for each group using summarize()?",
+      "options": [
+        "mean(score)",
+        "calculate_mean(score)",
+        "avg(score)",
+        "summarize(mean_score = mean(score))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to rename columns in a dplyr data frame?",
+      "options": [
+        "rename_cols()",
+        "rename()",
+        "change_names()",
+        "alter_columns()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you filter rows where a specific variable is not missing using filter()?",
+      "options": [
+        "filter_not_missing()",
+        "missing_filter()",
+        "filter(is_not_missing())",
+        "filter(!is.na(variable))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you count the number of rows in a dplyr data frame?",
+      "options": [
+        "count_rows()",
+        "n()",
+        "rows_count()",
+        "summarize(count = n())"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you select the top 5 rows based on a variable named value in descending order?",
+      "options": [
+        "top_n(5, value)",
+        "select_top(5, value)",
+        "arrange(desc(value))",
+        "filter_top(5, value)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the group_by() function do in dplyr?",
+      "options": [
+        "Groups the data frame by a specified column",
+        "Creates a new variable based on existing ones",
+        "Orders the rows based on a specific column",
+        "Filters unique rows based on specified columns"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you select columns based on a partial name using the select() function?",
+      "options": [
+        "select(starts_with(\"partial_name\"))",
+        "select(name_contains(\"partial_name\"))",
+        "select(partial_name)",
+        "choose_columns(\"partial_name\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to filter rows based on multiple conditions in dplyr?",
+      "options": [
+        "filter_all_conditions()",
+        "filter(multiple_conditions)",
+        "filter_conditions_all()",
+        "filter(multiple = conditions)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you perform an inner join between two data frames in dplyr using inner_join()?",
+      "options": [
+        "join_inner()",
+        "inner_merge()",
+        "merge_inner()",
+        "inner_join()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you calculate the total count of observations in each group using summarize()?",
+      "options": [
+        "summarize(count = n())",
+        "summarize(total_count = count())",
+        "summarize(total = n())",
+        "calculate(count = n())"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the ungroup() function in dplyr?",
+      "options": [
+        "Retains the grouping of the data frame",
+        "Removes the grouping of the data frame",
+        "Unpacks nested data frames",
+        "Reorders the rows based on a specific column"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you select distinct values from a column named category in dplyr using distinct()?",
+      "options": [
+        "distinct_values(category)",
+        "select_distinct(category)",
+        "unique(category)",
+        "distinct(category)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what does the slice() function do?",
+      "options": [
+        "Extracts specific rows from a data frame",
+        "Selects specific columns from a data frame",
+        "Slices a data frame into smaller data frames",
+        "Sorts the data frame in ascending order"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the rename_all() function do in dplyr?",
+      "options": [
+        "Renames all variables in a data frame",
+        "Renames all columns in a data frame",
+        "Renames all levels in a factor variable",
+        "Renames all rows in a data frame"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you calculate the median of a numeric variable named price for each group in dplyr?",
+      "options": [
+        "summarize(median_price = median(price))",
+        "calculate_median(price)",
+        "median_group(price)",
+        "median(price)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you select columns that match a specific pattern using the select() function?",
+      "options": [
+        "select(pattern = \"specific_pattern\")",
+        "choose_cols(matches(\"specific_pattern\"))",
+        "select(columns = matches(\"specific_pattern\"))",
+        "pick_cols(pattern = \"specific_pattern\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to remove missing values from a dplyr data frame?",
+      "options": [
+        "clean_na()",
+        "remove_missing()",
+        "na_omit()",
+        "filter_na()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you calculate the cumulative sum of a variable named sales within each group?",
+      "options": [
+        "cumulative_sum(sales)",
+        "summarize(cumsum = cumsum(sales))",
+        "calculate(cumulative = cumsum(sales))",
+        "mutate(cumsum = cumsum(sales))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How is the case_when() function used in dplyr?",
+      "options": [
+        "To create a switch case statement in a column",
+        "To filter rows based on multiple conditions",
+        "To select specific columns from a data frame",
+        "To perform case-sensitive matching in a column"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what does the slice_sample() function do?",
+      "options": [
+        "Samples random rows from a data frame",
+        "Extracts specific rows based on conditions",
+        "Slices a data frame into smaller data frames",
+        "Sorts the data frame in ascending order"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what is the purpose of the distinct() function when used with multiple columns?",
+      "options": [
+        "Filters unique rows based on all specified columns",
+        "Selects distinct values from the first column",
+        "Selects distinct values from any column",
+        "Filters unique rows based on the first column"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you create a new column total_price in dplyr that is the sum of two existing columns price1 and price2?",
+      "options": [
+        "mutate(total_price = sum(price1, price2))",
+        "create_column(total_price = price1 + price2)",
+        "calculate_total(total_price = price1 + price2)",
+        "mutate(total_price = price1 + price2)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the filter() function in dplyr?",
+      "options": [
+        "Removes rows based on specified conditions",
+        "Filters specific columns from a data frame",
+        "Counts the number of unique values in a column",
+        "Arranges rows in ascending order based on a column"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you select columns from a dplyr data frame where the column names start with the letter 'a'?",
+      "options": [
+        "select_cols(starts_with(\"a\"))",
+        "choose_columns(matches(\"a\"))",
+        "select(starts_with(\"a\"))",
+        "pick_cols(matches(\"a\"))"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you calculate the sum and mean of a numeric variable named quantity for each group?",
+      "options": [
+        "summarize(total = sum(quantity), average = mean(quantity))",
+        "calculate(sum = sum(quantity), mean = mean(quantity))",
+        "summarize(sum_quantity = sum(quantity), mean_quantity = mean(quantity))",
+        "total_mean(quantity)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the left_join() function in dplyr?",
+      "options": [
+        "Performs a left outer join between two data frames",
+        "Merges data frames based on common columns",
+        "Filters rows present in the left data frame",
+        "Arranges the rows based on a common column"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you count the number of distinct values in a column named category in dplyr?",
+      "options": [
+        "count_distinct(category)",
+        "distinct_count(category)",
+        "calculate_distinct(category)",
+        "n_distinct(category)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, how do you filter rows based on multiple conditions using the AND logic?",
+      "options": [
+        "filter(condition1 & condition2)",
+        "filter_all_of(condition1, condition2)",
+        "filter_condition(condition1 & condition2)",
+        "filter(conditions = condition1, condition2)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the desc() function do in dplyr?",
+      "options": [
+        "Sorts a column in descending order",
+        "Describes the summary statistics of a column",
+        "Discretizes a numeric column",
+        "Disassembles a string column"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you rename a column named old_name to new_name in dplyr?",
+      "options": [
+        "rename_column(old_name = new_name)",
+        "rename(columns = c(\"old_name\" = \"new_name\"))",
+        "alter_column(\"old_name\", \"new_name\")",
+        "rename(vars(old_name = new_name))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In dplyr, what is the purpose of the transmute() function?",
+      "options": [
+        "Creates a new data frame with only the specified columns",
+        "Transforms the data frame structure",
+        "Mutates the data frame based on conditions",
+        "Transposes the data frame"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you calculate the percentage of total sales for each category in dplyr?",
+      "options": [
+        "mutate(percentage_sales = sales / sum(sales) * 100)",
+        "calculate_percentage(sales)",
+        "summarize(percentage = sum(sales) / total_sales * 100)",
+        "percent_of_total(sales)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the pivot_longer() function in dplyr?",
+      "options": [
+        "Transforms wide data to long format",
+        "Transposes rows and columns",
+        "Expands the data frame horizontally",
+        "Unpivots the data frame"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you filter rows where a specific variable is not equal to a given value using filter() in dplyr?",
+      "options": [
+        "filter(variable != value)",
+        "filter(not_equal(variable, value))",
+        "filter(variable &lt;> value)",
+        "filter(variable not in value)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a plot to investigate the order in which observations were recorded?",
+      "options": [
+        "ggplot",
+        "ggsave",
+        "ggpcp",
+        "ggorder"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following creates fluctuation plot?",
+      "options": [
+        "ggmissplot",
+        "ggmissing",
+        "ggfluctuation",
+        "ggpcp"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How many functions exist for wrangling the data with dplyr package?",
+      "options": [
+        "one",
+        "seven",
+        "three",
+        "five"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "which of the following functions can be used to finely control the appearance of all lattice plots ?",
+      "options": [
+        "par()",
+        "print.trellis()",
+        "splom()",
+        "trellis.par.set()"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function is used to simulate binary random variables.",
+      "options": [
+        "dnorm",
+        "rbinom()",
+        "binom()",
+        "rpois"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . display contours of a 3d surface in 2d.",
+      "options": [
+        "aes_contour",
+        "geom_contour",
+        "aes_gem",
+        "aes_auto"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . modify a ggplot or theme object by adding on new components.",
+      "options": [
+        "+.gg",
+        "-.gg",
+        "/.gg",
+        ".gg"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How many functions exist for tidying the data?",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . uses regex groups instead of a splitting pattern or position.",
+      "options": [
+        "spread()",
+        "gather()",
+        "separate()",
+        "extract()"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . generate aesthetic mappings that describe how variables in the data.",
+      "options": [
+        "aes_all",
+        "aes_auto",
+        "aes",
+        "aes_string"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "If I want to save a plot to a PDF file, which of the following is a correct way of doing that?",
+      "options": [
+        "Construct the plot on the screen device and then copy it to a PDF file with dev.copy2pdf()",
+        "Construct the plot on the PNG device with png(), then copy it to a PDF with dev.copy2pdf()",
+        "Open the PostScript device with postscript(), construct the plot, then close the device with dev.off()",
+        "Open the screen device with quartz(), construct the plot, and then close the device with dev.off()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an example of a vector graphics device in R?",
+      "options": [
+        "JPEG",
+        "PNG",
+        "GIF",
+        "SVG"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "You can time . . . . . . . . expressions by wrapping them in curly braces within the call to system.time().",
+      "options": [
+        "smaller",
+        "longer",
+        "error",
+        "grater"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . produces box-and-whisker plots.",
+      "options": [
+        "xyplot",
+        "dotplot",
+        "barchart",
+        "bwplot"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is used for relative sizing of theme elements.",
+      "options": [
+        "rel",
+        "size",
+        "relative",
+        "timrinterval"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How many methods exist for normalizing the data?",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "profiler"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . generate random Poisson variates with a given rate.",
+      "options": [
+        "dnorm",
+        "rnorm",
+        "pnorm",
+        "rpois"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is a systematic way to examine how much time is spent in different parts of a program.",
+      "options": [
+        "Profiling",
+        "Monitoring",
+        "Logging",
+        "Debugging"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the most common probability distribution to work with.",
+      "options": [
+        "Gaussian",
+        "Parametric",
+        "Paradox",
+        "Simulation"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    }
+  ]
+}
