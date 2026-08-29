@@ -3,13 +3,11 @@ name: Scheduled Tasks
 on:
   schedule:
     - cron: '30 2 * * *'   # 8:00 AM IST
-    - cron: '30 4 * * *'   # 10:00 AM IST
-    - cron: '30 7 * * *'   # 1:30 PM IST
-    - cron: '30 9 * * *'   # 3:30 PM IST
-    - cron: '30 11 * * *'  # 5:00 PM IST
-    - cron: '30 13 * * *'  # 7:30 PM IST
-    - cron: '30 15 * * *'  # 9:30 PM IST
-    - cron: '30 17 * * *'  # 11:30 PM IST
+    - cron: '0 5 * * *'    # 10:30 AM IST
+    - cron: '30 7 * * *'   # 1:00 PM IST
+    - cron: '0 10 * * *'   # 3:30 PM IST
+    - cron: '30 12 * * *'  # 6:00 PM IST
+    - cron: '0 15 * * *'   # 8:30 PM IST
   workflow_dispatch:
 
 permissions:
@@ -72,6 +70,10 @@ jobs:
           git config user.name "Bharat Malhotra"
           git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add -A
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
           git push origin main
 
@@ -80,11 +82,12 @@ jobs:
         run: |
           git clone --depth 1 https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/dist-push
           cd /tmp/dist-push
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git pull --rebase origin main
           rm -rf site/dist
           mkdir -p site/dist
           cp -r $GITHUB_WORKSPACE/core/site/dist/* site/dist/
-          git config user.name "Bharat Malhotra"
-          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
           git push origin main
