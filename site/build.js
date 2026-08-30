@@ -650,9 +650,6 @@ ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr
       : "";
   const pairs = (titleKey, titleDef, arr) =>
     arr?.length ? table(titleKey, titleDef, arr.map((x) => [x.k, x.v])) : "";
-  if (d.summary && d.summary.length > 40) {
-    h += `<section class="d-sec" data-reveal><h3 data-i18n="overview">Overview</h3><p class="d-sum">${esc(d.summary)}</p></section>`;
-  }
   h += pairs("dates", "Important Dates", d.dates);
   h += pairs("fee", "Application Fee", d.fee);
   h += table("vacancy", "Vacancy Details", d.vacancy);
@@ -671,12 +668,25 @@ ${headers ? `<thead><tr>${headers.map((x) => `<th>${esc(x)}</th>`).join("")}</tr
       return !/(facebook|twitter|instagram|youtube|social|helpline|email|phone|contact|website)/i.test(k) && !/^(https?:)/i.test(x.v || "");
     });
     if (useful.length) {
-      h += pairs("extras", "Additional Information", useful.slice(0, 6));
+            h += `<section class="d-sec" data-reveal><h3 data-i18n="extras">Additional Information</h3><div class="twrap"><table class="d-table"><tbody>${useful.slice(0, 6).map(x => {
+        const label = esc(x.v || "Click Here");
+        const href = x.h && /^https?:/i.test(x.h) ? esc(x.h) : "";
+        const val = href ? `<a href="${href}" target="_blank" rel="nofollow noopener">${label} ↗</a>` : label;
+        return `<tr><td>${esc(x.k)}</td><td>${val}</td></tr>`;
+      }).join("")}</tbody></table></div></section>`;
     }
   }
   return h;
 }
 
+function cleanOverviewText(ov) {
+  if (!ov) return "";
+  return ov
+    .replace(/\|[^\n]{0,500}/g, " ")
+    .replace(/(?:Government Jobs|Results|Admit Cards|Home|All India Govt Jobs|State Govt Jobs|Bank Jobs|Teaching Jobs|Engineering Jobs|Railway Jobs|Police\/Defence Jobs|Download Mobile App|Tools|Login|Notifications|Latest|EDUCATION|IMPORTANT DATES|Online Apply Start Date|Last Date for Apply Online|Pay Exam Fee|Correction Date|Exam Date|Admit Card Download|Centre Details Available)/gi, " ")
+    .replace(/\d{1,2}[\/.-]\d{1,2}[\/.-]\d{2,4}\s*(?:\([^)]*\))?/g, " ")
+    .replace(/\s{2,}/g, " ").trim();
+}
 function detailBody(e, related, allEntries) {
   const L = CAT_LABELS[e.category] || { en: e.category, hi: "", icon: "file" };
   const url = `${SITE_URL}/o/${encodeURIComponent(e.id)}.html`;
@@ -714,13 +724,13 @@ ${e.official_link ? `<tr><td>Official Website</td><td><a href="${esc(e.official_
 <div class="info-grid">
 <div class="tile"><small data-i18n="lastdate">Last Date</small><b>${deadlineText}</b>${countdownBadge}${e.deadline ? '<span class="tile-sub" id="dl-sub"></span>' : ""}</div>
 ${e.amount ? `<div class="tile"><small data-i18n="benefit">Benefit / Pay</small><b>${esc(String(e.amount))}</b></div>` : ""}
-<div class="tile"><small data-i18n="category">Category</small><b>${L.hi || L.en}</b></div>
+<div class="tile"><small data-i18n="category">Category</small><b data-i18n="cat_${e.category}">${L.en}</b></div>
 <div class="tile"><small data-i18n="status">Status</small><b data-i18n="${e.status === "closing_soon" ? "st_closing_l" : e.status === "closed" ? "st_closed_l" : "st_open_l"}">${statusLabel(e.status)}</b></div>
 </div>
-${(() => { const ds = e.details?.summary || e.summary || ""; return ds.length > 60 && !PORTAL_NAME_RE.test(ds) && !e.editor_note ? `<p class="d-sum" data-reveal>${esc(ds)}</p>` : ""; })()}
+${(() => { const ov = e._overview || e.editor_note || e.details?.summary || e.summary || ""; const cleanOv = cleanOverviewText(ov); return cleanOv.length > 40 ? `<section class="d-sec" data-reveal><h3 data-i18n="overview">Overview</h3><p class="d-sum">${esc(cleanOv)}</p></section>` : ""; })()}
 ${edu || stList.length ? `<div class="edu-row" data-reveal>${stList.map((s) => `<span class="edu-chip state">${strokeIcon("landmark")}${esc(s)}</span>`).join("")}${edu}</div>` : ""}
 ${e.editor_note ? `<div class="editor-note" data-reveal><p><b>TL;DR —</b> ${esc(e.editor_note)}</p></div>` : ""}
-${renderDetails(e.details)}
+${(() => { if (e.details?.extras?.length && e.details?.links?.length) { const cLinks = e.details.links.filter(l => /click here/i.test(l.t || '')); const cExtras = e.details.extras.filter(x => !x.h && /click here/i.test(x.v || '')); for (let i = 0; i < Math.min(cLinks.length, cExtras.length); i++) cExtras[i].h = cLinks[i].h; } return ''; })()}${renderDetails(e.details)}
 ${e.details?.links?.length ? `<section class="d-sec" data-reveal><h3 data-i18n="ulinks">Useful Links</h3><div class="ulinks-row">${e.details.links.filter((l) => (l.h || l.v) && (l.t || l.k)).map((l) => `<a class="btn btn-ghost" href="${esc(l.h || l.v)}" target="_blank" rel="nofollow noopener">${strokeIcon("ext")}${esc(l.t || l.k)}</a>`).join("")}</div></section>` : ""}
 <section class="cta-panel" data-reveal>
 <div><h3 data-i18n="cta_h">Ready to apply?</h3><p class="trust-line">${strokeIcon("shield")}<span data-i18n="cta_trust">Verified official government portal — direct apply link</span></p></div>
