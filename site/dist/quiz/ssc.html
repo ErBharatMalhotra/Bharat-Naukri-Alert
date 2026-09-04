@@ -551,7 +551,7 @@ if(nextBtn)nextBtn.addEventListener('click',function(){qIdx++;answered=false;sel
 function startQuiz(m){clearInterval(timer);mode=m||'practice';qIdx=0;score=0;answered=false;selectedIdx=null;
 if(mode==='mock'){timeLeft=data.questions.length*60;startTimer();}
 render();}
-window.BNA_Quiz=function(d){data=d;qIdx=0;score=0;answered=false;selectedIdx=null;
+window.BNA_Quiz=function(d){data=d;data.questions=(data.questions||[]).filter(function(q){return !q.needs_verify;});qIdx=0;score=0;answered=false;selectedIdx=null;
 var sel=document.getElementById('quizSel');
 if(sel){sel.innerHTML='<button class="btn btn-pri" data-mode="practice">Practice Mode</button> <button class="btn btn-ghost" data-mode="mock">Mock Test (Timed)</button>';
 sel.querySelectorAll('[data-mode]').forEach(function(b){b.addEventListener('click',function(){startQuiz(b.dataset.mode);});});}
