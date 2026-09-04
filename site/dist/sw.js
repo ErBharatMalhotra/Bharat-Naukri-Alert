@@ -1,17 +1,8 @@
-var CACHE_NAME = 'bna-v2';
+var CACHE_NAME = 'bna-v3-20260904-b0ss5';
 var STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/search-index.json',
-  '/robots.txt',
-  '/sitemap.xml',
-  '/rss.xml',
-  '/category/job.html',
-  '/category/scholarship.html',
-  '/category/exam.html',
-  '/category/scheme.html',
-  '/category/admit-card.html',
-  '/category/result.html',
+  '/manifest.json',
   '/icon-192.png',
   '/icon-512.png',
   '/og-logo.png'
@@ -44,34 +35,24 @@ self.addEventListener('activate', function(e) {
   self.clients.claim();
 });
 
+// Network-first for every same-origin GET: always try the fresh copy first,
+// fall back to cache only when offline, and update the cache on success.
+// This guarantees newly published content shows up WITHOUT a hard refresh.
 self.addEventListener('fetch', function(e) {
   var url = new URL(e.request.url);
-  if (e.request.method !== 'GET') return;
-  if (url.pathname === '/search-index.json') {
-    e.respondWith(
-      fetch(e.request).then(function(resp) {
+  if (e.request.method !== 'GET' || url.origin !== self.location.origin) return;
+  e.respondWith(
+    fetch(e.request).then(function(resp) {
+      if (resp && resp.status === 200) {
         var clone = resp.clone();
         caches.open(CACHE_NAME).then(function(c) { c.put(e.request, clone); });
-        return resp;
-      }).catch(function() {
-        return caches.match(e.request);
-      })
-    );
-    return;
-  }
-  e.respondWith(
-    caches.match(e.request).then(function(cached) {
-      return cached || fetch(e.request).then(function(resp) {
-        if (resp.status === 200 && url.origin === self.location.origin) {
-          var clone = resp.clone();
-          caches.open(CACHE_NAME).then(function(c) { c.put(e.request, clone); });
-        }
-        return resp;
-      });
-    }).catch(function() {
-      if (e.request.destination === 'document' && (url.pathname === '/' || url.pathname === '/index.html')) {
-        return caches.match('/index.html');
       }
+      return resp;
+    }).catch(function() {
+      return caches.match(e.request).then(function(hit) {
+        if (hit) return hit;
+        if (e.request.mode === 'navigate') return caches.match('/index.html');
+      });
     })
   );
 });
