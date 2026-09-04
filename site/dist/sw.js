@@ -1,4 +1,4 @@
-var CACHE_NAME = 'bna-v3-20260904-njbsa';
+var CACHE_NAME = 'bna-v3-20260904-9f0pw';
 var STATIC_ASSETS = [
   '/',
   '/index.html',
