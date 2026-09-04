@@ -43,8 +43,12 @@ jobs:
           git config user.name "Bharat Malhotra"
           git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
           git add data/quiz-bank/
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add data/quiz-bank/
           git diff --cached --quiet || git commit -m "update quiz-bank: $(date -u +%Y-%m-%d) (+${{ steps.quiz.outputs.new }} CA MCQs)"
-          git push https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git main
+          git push origin main
 
       - name: Summary
         run: |
