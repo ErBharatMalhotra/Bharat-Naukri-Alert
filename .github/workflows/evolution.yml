@@ -11,7 +11,7 @@ permissions:
 jobs:
   evolve:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -24,6 +24,14 @@ jobs:
           CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+
+      - name: Sync sources
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: |
+          echo "$SOURCES_JSON" > core/sources/sources.private.json
+          echo '{}' > core/sources/sources.json
+          cp core/sources/sources.private.json core/sources/sources.json
 
       - name: Health check sources
         working-directory: core

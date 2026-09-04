@@ -16,7 +16,6 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -52,6 +51,7 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
           LLM_MAX_CALLS: 30
+          EDITOR_NOTE_MAX: 50
           DETAIL_FETCH_MAX: 50
         run: |
           cd core
