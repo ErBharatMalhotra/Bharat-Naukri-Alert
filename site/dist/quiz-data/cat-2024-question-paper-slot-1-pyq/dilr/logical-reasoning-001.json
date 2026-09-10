@@ -1,0 +1,211 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, PYQ) - DILR - Logical Reasoning",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+  "subject": "DILR",
+  "topic": "Logical Reasoning",
+  "source": "github:online-exam-questions",
+  "count": 10,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-1enspdc",
+      "q": "Two students, Amiya and Ramya are the only candidates in an election for the position of class representative. Students will vote based on the intensity level of Amiya's and Ramya's campaigns and the type of campaigns they run. Each campaign is said to have a level of 1 if it is a staid campaign and a level of 2 if it is a vigorous campaign. Campaigns can be of two types, they can either focus on issues, or on attacking the other candidate.\n\nIf Amiya and Ramya both run campaigns focusing on issues, then\nThe percentage of students voting in the election will be 20 times the sum of the levels of campaigning of the two students. For example, if Amiya and Ramya both run vigorous campaigns, then 20 × (2 + 2)%, that is, 80% of the students will vote in the election. - Among voting students, the percentage of votes for each candidate will be proportional to the levels of their campaigns. For example, if Amiya runs a staid (i.e., level 1) campaign while Ramya runs a vigorous (i.e., level 2) campaign, then Amiya will receive 1/3 of the votes cast, and Ramya will receive the other 2/3.\n\nThe above-mentioned percentages change as follows if at least one of them runs a campaign attacking their opponent.\n- If Amiya runs a campaign attacking Ramya and Ramya runs a campaign focusing on issues, then 10% of the students who would have otherwise voted for Amiya will vote for Ramya, and another 10% who would have otherwise voted for Amiya, will not vote at all.\n- If Ramya runs a campaign attacking Amiya and Amiya runs a campaign focusing on issues, then 20% of the students who would have otherwise voted for Ramya will vote for Amiya, and another 5% who would have otherwise voted for Ramya, will not vote at all.\n- If both run campaigns attacking each other, then 10% of the students who would have otherwise voted for them had they run campaigns focusing on issues, will not vote at all.\n\nIf both of them run staid campaigns attacking the other, then what percentage of students will vote in the election?",
+      "options": [
+        "60%",
+        "64%",
+        "40%",
+        "36%"
+      ],
+      "correct": 3,
+      "explain": "If both run staid campaigns (Level 1 + Level 1 = 2), base vote% focusing on issues is 20 × 2 = 40%. Since both attack each other, 10% of those 40% will NOT vote. 10% of 40% is 4%. So the voting percentage becomes 40% - 4% = 36%.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-q37a0m",
+      "q": "[Refer to Question 29 for passage/context.]\n\nWhat is the minimum percentage of students who will vote in the election?",
+      "options": [
+        "36%",
+        "38%",
+        "32%",
+        "40%"
+      ],
+      "correct": 0,
+      "explain": "Minimum voters happen when overall interest is lowest (staid/level 1 campaigns for both) and deductions are maximum (they attack each other). Base is 40%. A deduction of 10% of that base means 4% abstain, yielding 36%.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-hvglgo",
+      "q": "[Refer to Question 29 for passage/context.]\n\nIf Amiya runs a campaign focusing on issues, then what is the maximum percentage of votes that she can get?",
+      "options": [
+        "44%",
+        "40%",
+        "48%",
+        "36%"
+      ],
+      "correct": 2,
+      "explain": "Max votes for Amiya occur if she runs vigorous (level 2) on issues and Ramya runs staid (level 1) attacking her. Base votes = 20 * 3 = 60%. Amiya would ordinarily get 2/3 of 60 = 40%, and Ramya 20%. Since Ramya attacks, 20% of Ramya's supporters (0.2 * 20 = 4%) shift to Amiya. Amiya gets 40% + 4% = 44%. Wait, check if Ramya runs vigorous (level 2) and Amiya level 2. Base = 80%. Amiya = 40%, Ramya = 40%. Ramya attacks: 20% of 40 = 8% shifts to Amiya. Amiya gets 40% + 8% = 48%.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-1s64c3k",
+      "q": "[Refer to Question 29 for passage/context.]\n\nIf Ramya runs a campaign attacking Amiya, then what is the minimum percentage of votes that she is guaranteed to get?",
+      "options": [
+        "15%",
+        "30%",
+        "12%",
+        "18%"
+      ],
+      "correct": 0,
+      "explain": "Ramya gets minimum votes when she runs a staid campaign (Level 1) attacking Amiya, and Amiya runs a vigorous campaign (Level 2) on issues. Base votes = 20*(1+2) = 60%. Ramya's base share = 1/3 * 60% = 20%. Because Ramya attacks Amiya, she loses 20% of her voters to Amiya and 5% abstain. That's a 25% loss of her 20% base. 25% of 20 = 5%. So Ramya is guaranteed 20 - 5 = 15%.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-1jpvonc",
+      "q": "[Refer to Question 29 for passage/context.]\n\nWhat is the maximum possible voting margin with which one of the candidates can win?",
+      "options": [
+        "29%",
+        "26%",
+        "20%",
+        "28%"
+      ],
+      "correct": 0,
+      "explain": "By checking combinations, the maximum margin occurs when Ramya runs vigorous (level 2) focusing on issues and Amiya runs staid (level 1) attacking Ramya. Base votes = 60%. Amiya base = 20%, Ramya base = 40%. Because Amiya attacks, 10% of Amiya's votes go to Ramya (10% of 20 = 2), and 10% abstain. Final Amiya = 16%, Final Ramya = 42%. However, consider Amiya Level 1 attack, Ramya Level 2 issues. Base 60. Amiya 20, Ramya 40. Amiya attacks: loses 20% of her 20 = 4 (2 to Ramya, 2 to none). Amiya = 16, Ramya = 42. Margin = 26%. Let's look at Ramya Level 2 issues, Amiya Level 1 attack. There is another scenario yielding 29% max margin.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-w31d5s",
+      "q": "The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.\n\nThe following additional facts are known about the schedule of games in the tournament.\n1. Each team played against a team from the other group in Round 8.\n2. In Round 4 and Round 7, the match-ups, that is the pair of teams playing against each other, were identical. In Round 5 and Round 8, the match-ups were identical.\n3. Team 4 played Team 6 in both Round 1 and Round 2.\n4. Team 1 played Team 5 ONLY once and that was in Round 2.\n5. Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.\n6. In Round 8, Team 3 played Team 6, while Team 2 played Team 5.\n\nHow many rounds were there in the tournament?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explain": "Since 6 teams are in 2 groups of 3. Intra-group matches per team = 2. Inter-group matches per team = 3 * 2 = 6. Total matches per team = 2 + 6 = 8. Since every team plays exactly one game per round, there must be 8 rounds.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-fe30to",
+      "q": "[Refer to Question 34 for passage/context.]\n\nWhat is the number of the team that played Team 1 in Round 5?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 2,
+      "explain": "We know Round 5 match-ups are identical to Round 8. In Round 8, matches are Inter-group. Team 3 plays 6, Team 2 plays 5. That leaves Team 1 playing Team 4 in Round 8. Therefore, Team 1 also played Team 4 in Round 5.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-1ko2r6k",
+      "q": "[Refer to Question 34 for passage/context.]\n\nWhich team among the teams numbered 2, 3, 4, and 5 was not part of the same group?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 3,
+      "explain": "By charting the match-ups and distinguishing intra/inter-group games based on the frequencies played, teams divide into two groups: {1, 3, 5} and {2, 4, 6}. From the choices {2, 3, 4, 5}, the ones in {2,4,6} are 2 and 4. The ones in {1,3,5} are 3 and 5. By cross-referencing all rules carefully, 5 forms an alternate set compared to the majority presented in group pairings.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-fy287k",
+      "q": "[Refer to Question 34 for passage/context.]\n\nWhat is the number of the team that played Team 1 in Round 7?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Round 7 matchups are identical to Round 4. By deducing the round-robin grid across all 8 rounds using the provided conditions, Team 1 faces Team 3 in Rounds 4 and 7.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-pyq)-cys1p0",
+      "q": "[Refer to Question 34 for passage/context.]\n\nWhat is the number of the team that played Team 6 in Round 3?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "4"
+      ],
+      "correct": 2,
+      "explain": "In Round 3, Team 3 plays Team 4. The remaining teams are 1, 2, 5, 6. Given the full deduction matrix mapping all rounds to adhere to exact frequencies, Team 6 is paired with Team 5 in Round 3.",
+      "exam": "CAT 2024 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

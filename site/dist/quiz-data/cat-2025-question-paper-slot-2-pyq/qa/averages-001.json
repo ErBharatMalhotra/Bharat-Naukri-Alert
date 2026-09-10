@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Averages",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Averages",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-t0k40d",
+      "q": "The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is",
+      "options": [
+        "45",
+        "49",
+        "52",
+        "55"
+      ],
+      "correct": 1,
+      "explain": "Total copies sold in the first 7 days = $60 \\times 7 = 420$.\nTotal copies sold in the first 8 days = $63 \\times 8 = 504$.\nCopies sold on the 8th day = $504 - 420 = 84$.\nCopies sold on the 9th day = $84 - 11 = 73$.\nTotal copies sold in 9 days = $504 + 73 = 577$.\nThe average sold from day 2 to day 9 is 66, which spans 8 days.\nTotal copies from day 2 to day 9 = $66 \\times 8 = 528$.\nTherefore, copies sold on day 1 = (Total for 9 days) - (Total for days 2 to 9) = $577 - 528 = 49$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Averages",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

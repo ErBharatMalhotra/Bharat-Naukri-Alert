@@ -1,0 +1,151 @@
+{
+  "title": "NECO Further Mathematics Part 1: Pure Mathematics Foundations - Further Mathematics - Surds",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+  "subject": "Further Mathematics",
+  "topic": "Surds",
+  "source": "github:online-exam-questions",
+  "count": 7,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1sne210",
+      "q": "Simplify the surd expression: $2\\sqrt{75} - 3\\sqrt{12} + \\sqrt{108}$",
+      "options": [
+        "$4\\sqrt{3}$",
+        "$8\\sqrt{3}$",
+        "$10\\sqrt{3}$",
+        "$16\\sqrt{3}$"
+      ],
+      "correct": 2,
+      "explain": "To simplify, express each number under the square root as a product of a perfect square and another number:\n- $\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$\n- $\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$\n- $\\sqrt{108} = \\sqrt{36 \\times 3} = 6\\sqrt{3}$\n\nNow substitute these back into the expression:\n$$2(5\\sqrt{3}) - 3(2\\sqrt{3}) + 6\\sqrt{3}$$\n$$= 10\\sqrt{3} - 6\\sqrt{3} + 6\\sqrt{3}$$\n$$= 10\\sqrt{3}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1w4640o",
+      "q": "Evaluate the expression: $(\\sqrt{3} + \\sqrt{2})^2 - (\\sqrt{3} - \\sqrt{2})^2$",
+      "options": [
+        "$4\\sqrt{6}$",
+        "$2\\sqrt{6}$",
+        "$10$",
+        "$0$"
+      ],
+      "correct": 0,
+      "explain": "This can be evaluated using the difference of two squares identity, $a^2 - b^2 = (a - b)(a + b)$, or by expanding both terms.\n\n**Method 1: Expansion**\n$$(\\sqrt{3} + \\sqrt{2})^2 = 3 + 2\\sqrt{6} + 2 = 5 + 2\\sqrt{6}$$\n$$(\\sqrt{3} - \\sqrt{2})^2 = 3 - 2\\sqrt{6} + 2 = 5 - 2\\sqrt{6}$$\nSubtracting the two:\n$$(5 + 2\\sqrt{6}) - (5 - 2\\sqrt{6}) = 5 - 5 + 2\\sqrt{6} + 2\\sqrt{6} = 4\\sqrt{6}$$\n\n**Method 2: Difference of squares**\nLet $x = \\sqrt{3} + \\sqrt{2}$ and $y = \\sqrt{3} - \\sqrt{2}$.\n$$(x + y) = 2\\sqrt{3}$$\n$$(x - y) = 2\\sqrt{2}$$\n$$(x + y)(x - y) = (2\\sqrt{3})(2\\sqrt{2}) = 4\\sqrt{6}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-g2xk60",
+      "q": "Rationalize the denominator of $\\frac{5}{3 - \\sqrt{2}}$.",
+      "options": [
+        "$\\frac{15 - 5\\sqrt{2}}{7}$",
+        "$\\frac{15 + 5\\sqrt{2}}{7}$",
+        "$\\frac{15 + \\sqrt{2}}{11}$",
+        "$\\frac{15 - 5\\sqrt{2}}{11}$"
+      ],
+      "correct": 1,
+      "explain": "To rationalize the denominator, multiply both the numerator and the denominator by the conjugate of $3 - \\sqrt{2}$, which is $3 + \\sqrt{2}$:\n\n$$\\frac{5}{3 - \\sqrt{2}} \\times \\frac{3 + \\sqrt{2}}{3 + \\sqrt{2}}$$\n\nMultiply the numerators:\n$$5(3 + \\sqrt{2}) = 15 + 5\\sqrt{2}$$\n\nMultiply the denominators (using the difference of squares):\n$$(3)^2 - (\\sqrt{2})^2 = 9 - 2 = 7$$\n\nCombine the results:\n$$\\frac{15 + 5\\sqrt{2}}{7}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-ghh05u",
+      "q": "If $\\frac{3 + \\sqrt{5}}{2 - \\sqrt{5}} = a + b\\sqrt{5}$, where $a$ and $b$ are rational numbers, find the value of $a - b$.",
+      "options": [
+        "$-16$",
+        "$-6$",
+        "$6$",
+        "$16$"
+      ],
+      "correct": 1,
+      "explain": "First, rationalize the denominator by multiplying by the conjugate $2 + \\sqrt{5}$:\n\n$$\\frac{3 + \\sqrt{5}}{2 - \\sqrt{5}} \\times \\frac{2 + \\sqrt{5}}{2 + \\sqrt{5}}$$\n\n**Denominator:**\n$$(2)^2 - (\\sqrt{5})^2 = 4 - 5 = -1$$\n\n**Numerator:**\n$$(3 + \\sqrt{5})(2 + \\sqrt{5}) = 6 + 3\\sqrt{5} + 2\\sqrt{5} + 5 = 11 + 5\\sqrt{5}$$\n\nDivide the numerator by the denominator:\n$$\\frac{11 + 5\\sqrt{5}}{-1} = -11 - 5\\sqrt{5}$$\n\nEquating this to $a + b\\sqrt{5}$, we get $a = -11$ and $b = -5$.\nTherefore, $a - b = -11 - (-5) = -11 + 5 = -6$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1uqpeuq",
+      "q": "Given that $x = 2 + \\sqrt{3}$, evaluate $x^2 + \\frac{1}{x^2}$.",
+      "options": [
+        "$8$",
+        "$12$",
+        "$14$",
+        "$16$"
+      ],
+      "correct": 2,
+      "explain": "First, find $\\frac{1}{x}$ by rationalizing the denominator:\n$$\\frac{1}{x} = \\frac{1}{2 + \\sqrt{3}} \\times \\frac{2 - \\sqrt{3}}{2 - \\sqrt{3}} = \\frac{2 - \\sqrt{3}}{4 - 3} = 2 - \\sqrt{3}$$\n\nNow, add $x$ and $\\frac{1}{x}$:\n$$x + \\frac{1}{x} = (2 + \\sqrt{3}) + (2 - \\sqrt{3}) = 4$$\n\nTo find $x^2 + \\frac{1}{x^2}$, square the sum:\n$$\\left(x + \\frac{1}{x}\\right)^2 = x^2 + 2(x)\\left(\\frac{1}{x}\\right) + \\frac{1}{x^2}$$\n$$4^2 = x^2 + 2 + \\frac{1}{x^2}$$\n$$16 = x^2 + 2 + \\frac{1}{x^2}$$\n\nSubtract 2 from both sides:\n$$x^2 + \\frac{1}{x^2} = 14$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1q21cgy",
+      "q": "A rectangle has an area of $(5 + \\sqrt{2})\\text{ cm}^2$ and a length of $(3 + 2\\sqrt{2})\\text{ cm}$. Find its width in the form $a + b\\sqrt{2}$.",
+      "options": [
+        "$11 + 7\\sqrt{2}$",
+        "$11 - 7\\sqrt{2}$",
+        "$7 - 11\\sqrt{2}$",
+        "$7 + 11\\sqrt{2}$"
+      ],
+      "correct": 1,
+      "explain": "The area of a rectangle is $\\text{Length} \\times \\text{Width}$. Therefore, the width is given by:\n$$W = \\frac{\\text{Area}}{\\text{Length}} = \\frac{5 + \\sqrt{2}}{3 + 2\\sqrt{2}}$$\n\nRationalize the denominator by multiplying by the conjugate $3 - 2\\sqrt{2}$:\n$$W = \\frac{(5 + \\sqrt{2})(3 - 2\\sqrt{2})}{(3 + 2\\sqrt{2})(3 - 2\\sqrt{2})}$$\n\n**Denominator:**\n$$3^2 - (2\\sqrt{2})^2 = 9 - (4 \\times 2) = 9 - 8 = 1$$\n\n**Numerator:**\n$$(5 + \\sqrt{2})(3 - 2\\sqrt{2}) = 15 - 10\\sqrt{2} + 3\\sqrt{2} - 2(\\sqrt{2} \\times \\sqrt{2})$$\n$$= 15 - 7\\sqrt{2} - 4 = 11 - 7\\sqrt{2}$$\n\nThus, the width is $11 - 7\\sqrt{2}$ cm.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1py0rem",
+      "q": "Find the square root of $11 - 6\\sqrt{2}$.",
+      "options": [
+        "$3 - \\sqrt{2}$",
+        "$3 + \\sqrt{2}$",
+        "$2 - 3\\sqrt{2}$",
+        "$\\sqrt{3} - 2$"
+      ],
+      "correct": 0,
+      "explain": "Let the square root of $11 - 6\\sqrt{2}$ be in the form $\\sqrt{x} - \\sqrt{y}$.\n\nTherefore, $\\sqrt{11 - 6\\sqrt{2}} = \\sqrt{x} - \\sqrt{y}$\n\nSquare both sides:\n$$11 - 6\\sqrt{2} = x + y - 2\\sqrt{xy}$$\n\nBy equating rational and irrational parts:\n1. $x + y = 11$\n2. $-2\\sqrt{xy} = -6\\sqrt{2} \\implies \\sqrt{xy} = 3\\sqrt{2} \\implies xy = (3\\sqrt{2})^2 = 18$\n\nWe need two numbers that add up to 11 and multiply to 18. These numbers are $9$ and $2$.\nSo, $x = 9$ and $y = 2$ (we choose $x>y$ so the result is positive).\n\nThe square root is $\\sqrt{9} - \\sqrt{2}$, which simplifies to:\n$$3 - \\sqrt{2}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Surds",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

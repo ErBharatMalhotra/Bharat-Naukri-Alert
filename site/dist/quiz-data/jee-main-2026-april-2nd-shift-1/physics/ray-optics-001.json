@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Ray Optics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Ray Optics",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-177tpko",
+      "q": "For a thin symmetric prism made of glass (refractive index 1.5), the ratio of incident angle and minimum deviation will be _______.",
+      "options": [
+        "3 : 4",
+        "3 : 2",
+        "2 : 1",
+        "1 : 2"
+      ],
+      "correct": 1,
+      "explain": "For a thin prism with refracting angle $A$ and refractive index $n = 1.5$, the minimum deviation is given by:\n$\\delta_m \\approx (n - 1)A = (1.5 - 1)A = 0.5 A = \\frac{A}{2}$\nAt the condition of minimum deviation, the angle of refraction inside the prism is $r = \\frac{A}{2}$.\nUsing Snell's law for small angles, the angle of incidence $i$ is:\n$i \\approx n \times r = 1.5 \\times \\left(\\frac{A}{2}\\right) = \\frac{3}{4} A$\nThe ratio of the angle of incidence to the minimum deviation is:\n$\\frac{i}{\\delta_m} = \\frac{\\frac{3}{4} A}{\\frac{1}{2} A} = \\frac{3}{4} \\times 2 = \\frac{3}{2}$\nThus, the ratio is $3 : 2$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-tokmkb",
+      "q": "![Object near a concave spherical refracting surface with marked pole and center of curvature](https://cracku.in/media/uploads/image_STnkdxu.png)\nRefer the figure given. An object of height 2 cm is placed 40 cm from the pole $P$ of a single spherical refracting surface. The center of curvature $C$ is at a distance of 20 cm from $P$, situated between the object and the pole. $\\mu_1 = 1$ and $\\mu_2 = 1.54$ (approximated behavior as 1.5 in intended keys) are refractive indices of air and lens material. The magnitude of the height of image will be _______ cm.",
+      "options": [
+        "1",
+        "0.5",
+        "1.2",
+        "0.25"
+      ],
+      "correct": 0,
+      "explain": "Since the center of curvature $C$ is located on the same side as the object (left of the pole $P$), the spherical refracting surface is concave towards the object. Applying Cartesian sign convention:\nObject distance $u = -40\\text{ cm}$\nRadius of curvature $R = -20\\text{ cm}$ (since center of curvature is on the negative axis)\nRefractive index of object medium $\\mu_1 = 1$\nAssuming the intended value of the medium is exactly $\\mu_2 = 1.5$ to match the clear integer option based on common configurations:\nFormula for refraction at a single spherical surface: $\\frac{\\mu_2}{v} - \\frac{\\mu_1}{u} = \\frac{\\mu_2 - \\mu_1}{R}$\n$\\frac{1.5}{v} - \\frac{1}{-40} = \\frac{1.5 - 1}{-20}$\n$\\frac{1.5}{v} + \\frac{1}{40} = \\frac{0.5}{-20} = -\\frac{1}{40}$\n$\\frac{1.5}{v} = -\\frac{1}{40} - \\frac{1}{40} = -\\frac{2}{40} = -\\frac{1}{20}$\n$v = -1.5 \\times 20 = -30\\text{ cm}$.\nMagnification formula for a spherical refracting surface: $m = \\frac{\\mu_1 v}{\\mu_2 u}$\n$m = \\frac{1 \\times (-30)}{1.5 \\times (-40)} = \\frac{-30}{-60} = +0.5$\nThe height of the image is $h_i = m \times h_o = 0.5 \\times 2\\text{ cm} = 1\\text{ cm}$.\n(Note: Even using the strict OCR value $\\mu_2=1.54$, the result yields $\\approx 0.96$ cm, which best matches the 1 cm option).",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

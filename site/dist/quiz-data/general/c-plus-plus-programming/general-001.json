@@ -1,0 +1,1297 @@
+{
+  "title": "General - c plus plus programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "c plus plus programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "What is the extension of a C++ source file?",
+      "options": [
+        ".cpp",
+        ".cc",
+        ".cxx",
+        ".c"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a fundamental data type in C++?",
+      "options": [
+        "char",
+        "float",
+        "boolean",
+        "double"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'cin' object in C++ represent?",
+      "options": [
+        "File output stream",
+        "File input stream",
+        "Standard output stream",
+        "Standard input stream"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What keyword is used to define a class in C++?",
+      "options": [
+        "struct",
+        "interface",
+        "class",
+        "object"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In C++, what operator is used to allocate dynamic memory?",
+      "options": [
+        "alloc",
+        "new",
+        "allocate",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the syntax for a single-line comment in C++?",
+      "options": [
+        "--",
+        "//",
+        "/* */"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to output data to the console in C++?",
+      "options": [
+        "print",
+        "display",
+        "write",
+        "cout"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which header file is needed to use the 'cin' and 'cout' objects in C++?",
+      "options": [
+        "&lt;iostream>",
+        "&lt;stdio.h>",
+        "&lt;conio.h>",
+        "&lt;fstream>"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'endl' manipulator do in C++?",
+      "options": [
+        "Ends the program",
+        "Moves the cursor to the start",
+        "Clears the screen",
+        "Inserts a new line"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: cout &lt;&lt; (5 > 2) ? \"True\" : \"False\";",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to define a constant in C++?",
+      "options": [
+        "static",
+        "final",
+        "const",
+        "constant"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int x = 5, y = 2; cout &lt;&lt; x / y;",
+      "options": [
+        "2.5",
+        "Compilation error",
+        "2.2"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a pointer in C++?",
+      "options": [
+        "int ptr;",
+        "pointer int;",
+        "int* ptr;",
+        "ptr int;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the keyword used for inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        "derive"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to return the length of a string in C++?",
+      "options": [
+        "length()",
+        "size()",
+        "strlen()",
+        "length"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int x = 10; cout &lt;&lt; \"Value of x is: \" &lt;&lt; x++ &lt;&lt; endl;?",
+      "options": [
+        "Value of x is: 11",
+        "Value of x is: 9",
+        "Compilation error",
+        "Value of x is: 10"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a valid C++ identifier?",
+      "options": [
+        "_variableName",
+        "2ndVariable",
+        "variable_name@",
+        "VariableName"
+      ],
+      "correct": 5,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: sizeof(int) in C++?",
+      "options": [
+        "Size of int in bytes",
+        "Size of int in bits",
+        "Error: sizeof cannot be applied",
+        "Implementation-defined"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which C++ feature allows a function to call itself?",
+      "options": [
+        "Polymorphism",
+        "Inheritance",
+        "Iteration",
+        "Recursion"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax to dynamically allocate memory for an array of integers in C++?",
+      "options": [
+        "int arr[size];",
+        "int arr[] = new int[size];",
+        "int *arr = new int[size];",
+        "int arr = new int[size];"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'static' keyword mean when used with a global variable in C++?",
+      "options": [
+        "Scope limited to the file",
+        "Can't be modified",
+        "Retains its value between calls",
+        "Global scope"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used to access the first element of an array in C++?",
+      "options": [
+        "arr.front()",
+        "arr[0]",
+        "arr.begin()",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'break' statement in a switch-case construct in C++?",
+      "options": [
+        "Skip the next case",
+        "Start the next iteration",
+        "Terminate the program",
+        "Exit the switch block"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to include a C++ standard library header file named 'vector' in a C++ program?",
+      "options": [
+        "#include &lt;vector>",
+        "#include \"vector.h\"",
+        "#include &lt;vector.h>",
+        "#include \"vector\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to access the member functions and variables of an object in C++?",
+      "options": [
+        "::",
+        "->"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: cout &lt;&lt; (10 / 4); in C++?",
+      "options": [
+        "2.5",
+        "Compiler error"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax to define a function named 'add' that takes two integers as parameters and returns their sum in C++?",
+      "options": [
+        "int add(int a, b) { }",
+        "int add(int a, int b) { }",
+        "int add(a, b) { }",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a valid data type in C++?",
+      "options": [
+        "long double",
+        "short float",
+        "long long int",
+        "wchar_t"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'new' operator return when memory allocation fails in C++?",
+      "options": [
+        "Garbage value",
+        "Exception",
+        "nullptr"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct syntax for declaring a pointer to an integer in C++?",
+      "options": [
+        "ptr int;",
+        "int ptr;",
+        "pointer int;",
+        "int* ptr;"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In C++, what is the purpose of the 'endl' manipulator?",
+      "options": [
+        "Inserts a new line",
+        "Clears the screen",
+        "Moves the cursor to the start",
+        "Ends the program"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: sizeof(char) in C++?",
+      "options": [
+        "Implementation-defined",
+        "Error: sizeof cannot be applied",
+        "Size of char in bits",
+        "Size of char in bytes"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'const' keyword signify when used with a member function in a C++ class declaration?",
+      "options": [
+        "This function is static",
+        "This function can't be called",
+        "This function doesn't modify the object it's called on",
+        "This function is pure virtual"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to include the C++ standard input/output library header file in a C++ program?",
+      "options": [
+        "#include \"stdio\"",
+        "#include &lt;stdio.h>",
+        "#include &lt;iostream>",
+        "#include \"iostream.h\""
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax to define a class named 'Rectangle' with private member variables 'length' and 'width' in C++?",
+      "options": [
+        "class Rectangle { private: int length; private: int width; };",
+        "class Rectangle { int length, width; private: };",
+        "class Rectangle { length, width; private: int; };",
+        "class Rectangle { private: int length, width; };"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: cout &lt;&lt; \"Hello\\nWorld\"; in C++?",
+      "options": [
+        "Hello World",
+        "Hello",
+        "World",
+        "Hello\\nWorld"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'break' statement in a loop in C++?",
+      "options": [
+        "Skip the next iteration",
+        "Start the next iteration",
+        "Exit the loop",
+        "Terminate the program"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define a constant named 'PI' with a value of 3.14159 in C++?",
+      "options": [
+        "const PI = 3.14159;",
+        "const double PI = 3.14159;",
+        "constant PI = 3.14159;",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following program in both C and C++? #include&lt;stdio.h> int main(int argc, char const *argv[]) { printf(\"%d\\n\", (int)sizeof('a')); return 0; }",
+      "options": [
+        "Output in C is 1 and in C++ is 4",
+        "Output in C is 4 and in C++ is 1",
+        "Output in C is 1 and in C++ is 1",
+        "Output in C is 4 and in C++ is 4"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens if a class does not have a name?",
+      "options": [
+        "It will not have a constructor",
+        "It will not have a destructor",
+        "It is not allowed",
+        "It will neither have a constructor or destructor"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following escape sequence represents carriage return?",
+      "options": [
+        "\\r",
+        "\\n",
+        "\\n\\r",
+        "\\c"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What are the formal parameters in C++?",
+      "options": [
+        "Parameters with which functions are called",
+        "Parameters which are used in the definition of the function",
+        "Variables other than passed parameters in a function",
+        "Variables that are never used in the function"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a static polymorphism mechanism?",
+      "options": [
+        "Function overloading",
+        "Operator overloading",
+        "Templates",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What if we define the below structure in C and C++?",
+      "options": [
+        "Error in C but not in C++",
+        "Error in C++ but not in C",
+        "No error in both C and C++",
+        "Error in both C and C++"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is true? I. All operators in C++ can be overloaded. II. The basic meaning of an operator can be changed.",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is std in C++?",
+      "options": [
+        "std is a standard class in C++",
+        "std is a standard namespace in C++",
+        "std is a standard header file in C++",
+        "std is a standard file reading header in C++"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is dynamic binding?",
+      "options": [
+        "The process of linking the actual code with a procedural call during run-time",
+        "The process of linking the actual code with a procedural call during compile-time",
+        "The process of linking the actual code with a procedural call at any-time",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens if the following line is executed in C and C++? const int a;",
+      "options": [
+        "Error in both C and C++",
+        "Warning in both C and C++",
+        "Error in C and successful execution in C++",
+        "Error in C++ and successful execution in C"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens if we run the following code in both C and C++? #include&lt;stdio.h> struct STRUCT { int a = 5; int func() { printf(\"%d\\n\", a); } }; int main() { struct STRUCT s; s.func(); return 0; }",
+      "options": [
+        "The program runs fine and both prints output \"HELLO THIS IS STRUCTURE\"",
+        "The program gives an error in case of C but runs perfectly in case of C++",
+        "The program gives an error in case of C++ but runs perfectly in case of C",
+        "The program gives an error in case of both C and C++"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C++ code? #include&lt;iostream> using namespace std; class A { ~A(){ cout&lt;&lt;\"Destructor called\\n\"; } }; int main() { A *a1 = new A(); A *a2 = new A(); return 0; }",
+      "options": [
+        "Destructor called",
+        "Destructor called\nDestructor called",
+        "Error",
+        "Nothing is printed"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is called extraction/get from operator?",
+      "options": [
+        "&lt;&lt;",
+        ">>",
+        "&lt;"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is name mangling in C++?",
+      "options": [
+        "The process of adding more information to a function name so that it can be distinguished from other functions by the compiler",
+        "The process of making common names for all the function of C++ program for better use",
+        "The process of changing the names of variable",
+        "The process of declaring variables of different types"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of a boolean variable in C++?",
+      "options": [
+        "1 bit",
+        "1 byte",
+        "4 bytes",
+        "2 bytes"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of a character literal in C and C++?",
+      "options": [
+        "4 and 1",
+        "1 and 4",
+        "1 and 1",
+        "4 and 4"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Why this pointer is used?",
+      "options": [
+        "To access the members of a class which have the same name as local variables in that scope",
+        "To access all the data stored under that class",
+        "To access objects of other class",
+        "To access objects of other variables"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is correct about static variables?",
+      "options": [
+        "Static functions do not support polymorphism",
+        "Static data members cannot be accessed by non-static member functions",
+        "Static data members functions can access only static data members",
+        "Static data members functions can access both static and non-static data members"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following syntax can be used to use a member of a namespace without including that namespace?",
+      "options": [
+        "namespace::member",
+        "namespace->member",
+        "namespace.member",
+        "namespace~member"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Who created C++?",
+      "options": [
+        "Bjarne Stroustrup",
+        "Dennis Ritchie",
+        "Ken Thompson",
+        "Brian Kernighan"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is correct about static polymorphism?",
+      "options": [
+        "In static polymorphism, the conflict between the function call is resolved during the compile time",
+        "In static polymorphism, the conflict between the function call is resolved during the run time",
+        "In static polymorphism, the conflict between the function call is never resolved during the execution of a program",
+        "In static polymorphism, the conflict between the function call is resolved only if it required"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens if the following program is executed in C and C++? #include &lt;stdio.h> void main() { printf(\"Hello World\"); }",
+      "options": [
+        "Error in both C and C++",
+        "Successful run in both C and C++",
+        "Error in C and successful execution in C++",
+        "Error in C++ and successful execution in C"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an entry-controlled loop?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "both while and for"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which concept is used to implement late binding?",
+      "options": [
+        "Virtual functions",
+        "Operator functions",
+        "Constant functions",
+        "Static functions"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following cannot be used with the virtual keyword?",
+      "options": [
+        "Class",
+        "Member functions",
+        "Constructors",
+        "Destructors"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an exit-controlled loop?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is C++ equivalent for scanf()?",
+      "options": [
+        "cin",
+        "cout",
+        "print",
+        "input"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is static binding?",
+      "options": [
+        "The process of linking the actual code with a procedural call during run-time",
+        "The process of linking the actual code with a procedural call during compile-time",
+        "The process of linking the actual code with a procedural call at any-time",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is accessed by a member function of a class?",
+      "options": [
+        "The object of that class",
+        "All members of a class",
+        "The public part of a class",
+        "The private part of a class"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following type is provided by C++ but not C?",
+      "options": [
+        "int",
+        "bool",
+        "float",
+        "double"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the other name of compile-time polymorphism?",
+      "options": [
+        "Static polymorphism",
+        "Dynamic polymorphism",
+        "Executing polymorphism",
+        "Non-executing polymorphism"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of a character type in C and C++?",
+      "options": [
+        "4 and 1",
+        "1 and 4",
+        "1 and 1",
+        "4 and 4"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct difference between cin and scanf()?",
+      "options": [
+        "both are the same",
+        "cin is a stream object whereas scanf() is a function",
+        "scanf() is a stream object whereas cin is a function",
+        "cin is used for printing whereas scanf() is used for reading input"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used for comments in C++?",
+      "options": [
+        "// comment",
+        "/* comment */",
+        "both // comment or /* comment */",
+        "// comment */"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct syntax of including a user defined header files in C++?",
+      "options": [
+        "#include &lt;userdefined.h>",
+        "#include &lt;userdefined>",
+        "#include \"userdefined\"",
+        "#include [userdefined]"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following operator has left to right associativity?",
+      "options": [
+        "Unary operator",
+        "Logical not",
+        "Array element access",
+        "addressof"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to read a single character from the console in C++?",
+      "options": [
+        "cin.get(ch)",
+        "getline(ch)",
+        "read(ch)",
+        "scanf(ch)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a correct identifier in C++?",
+      "options": [
+        "7var_name",
+        "7VARNAME",
+        "VAR_1234",
+        "$var_name"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens if the following program is compiled in both C and C++? #include&lt;stdio.h> struct STRUCT { int static a; }; int main() { struct STRUCT s; return 0; }",
+      "options": [
+        "The program runs fine and both prints output \"HELLO THIS IS STRUCTURE\"",
+        "The program gives an error in case of C but runs perfectly in case of C++",
+        "The program gives an error in case of C++ but runs perfectly in case of C",
+        "The program gives an error in case of both C and C++"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "A language which has the capability to generate new data types are called . . . . . . . .",
+      "options": [
+        "Extensible",
+        "Overloaded",
+        "Encapsulated",
+        "Reprehensible"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a fundamental type is not present in C but present in C++?",
+      "options": [
+        "int",
+        "float",
+        "bool",
+        "void"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct keyword to declare a variable in C++?",
+      "options": [
+        "var",
+        "variable",
+        "int",
+        "declare"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid variable name in C++?",
+      "options": [
+        "myVariable",
+        "123variable",
+        "variable&",
+        "float"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the variable 'x' in the following declaration: double x = 3.14;?",
+      "options": [
+        "int",
+        "double",
+        "float",
+        "char"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a primitive data type in C++?",
+      "options": [
+        "bool",
+        "char",
+        "string",
+        "float"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the maximum value that can be stored in an 'int' data type in C++?",
+      "options": [
+        "32767",
+        "2147483647",
+        "65535",
+        "4294967295"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of a 'char' data type in C++?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "1 byte",
+        "8 bytes"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the following expression in C++: 5 / 2?",
+      "options": [
+        "Compiler error",
+        "2.6",
+        "2.5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to find the size of a data type in C++?",
+      "options": [
+        "size",
+        "sizeofof",
+        "sizeof",
+        "lengthof"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a constant in C++?",
+      "options": [
+        "final",
+        "const",
+        "#define",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following code: cout &lt;&lt; (true && false); in C++?",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax to declare and initialize a variable 'age' of type 'int' with a value of 25 in C++?",
+      "options": [
+        "age = int(25);",
+        "int = age 25;",
+        "int age = 25;",
+        "age int = 25;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the range of values for a 'short int' data type in C++?",
+      "options": [
+        "-2147483648 to 2147483647",
+        "-128 to 127",
+        "0 to 65535",
+        "-32768 to 32767"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'auto' keyword do in C++?",
+      "options": [
+        "Declares a variable with an inferred type",
+        "Declares a global variable",
+        "Declares an automatic variable",
+        "Declares a static variable"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an example of a floating-point data type in C++?",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "bool"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to represent hexadecimal values in C++?",
+      "options": [
+        "Suffix with H",
+        "Prefix with H",
+        "Prefix with 0h",
+        "Prefix with 0x"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct data type for storing a single character in C++?",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "double"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid way to initialize a variable in C++?",
+      "options": [
+        "int x(5);",
+        "x = 5;",
+        "int x = 5;",
+        "int x; x = 5;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the maximum value that can be stored in an 'unsigned int' data type in C++?",
+      "options": [
+        "32767",
+        "2147483647",
+        "65535",
+        "4294967295"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to declare a constant 'PI' with a value of 3.14159 in C++?",
+      "options": [
+        "#define PI 3.14159;",
+        "constant PI = 3.14159;",
+        "double PI = 3.14159;",
+        "const double PI = 3.14159;"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of a 'long double' data type in C++?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "16 bytes"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a valid variable name in C++?",
+      "options": [
+        "_variableName",
+        "variableName@",
+        "myVariable123",
+        "123variable"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    }
+  ]
+}

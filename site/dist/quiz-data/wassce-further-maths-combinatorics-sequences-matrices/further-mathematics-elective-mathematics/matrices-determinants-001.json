@@ -1,0 +1,251 @@
+{
+  "title": "WASSCE Further Maths: Combinatorics, Sequences & Matrices - Further Mathematics (Elective Mathematics) - Matrices & Determinants",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Matrices & Determinants",
+  "source": "github:online-exam-questions",
+  "count": 12,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1ddhuc4",
+      "q": "Find the determinant of the matrix $\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{pmatrix}$.",
+      "options": [
+        "1",
+        "-1",
+        "15",
+        "-24"
+      ],
+      "correct": 0,
+      "explain": "Expanding along the first row: Det $= 1(1(0) - 4(6)) - 2(0(0) - 4(5)) + 3(0(6) - 1(5))$. Thus, Det $= 1(0 - 24) - 2(0 - 20) + 3(0 - 5) = -24 + 40 - 15 = 1$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1d0y330",
+      "q": "Find the inverse of the matrix $P = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$.",
+      "options": [
+        "$\\begin{pmatrix} 3 & 1 \\\\ 5 & 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -3 & 1 \\\\ 5 & -2 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix}$"
+      ],
+      "correct": 1,
+      "explain": "For a $2 \\times 2$ matrix $P = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, its inverse is $P^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$. The determinant is $(2)(3) - (1)(5) = 6 - 5 = 1$. Swapping elements on the main diagonal and negating the others yields $\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1yfya88",
+      "q": "Given that the determinant $\\begin{vmatrix} 3 & x \\\\ 2 & 4 \\end{vmatrix} = 10$, find the value of $x$.",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "-2"
+      ],
+      "correct": 0,
+      "explain": "The determinant of a $2 \\times 2$ matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is $ad - bc$. Thus, $(3)(4) - (x)(2) = 10 \\Rightarrow 12 - 2x = 10$. Solving for $x$: $2x = 2 \\Rightarrow x = 1$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-oiom9o",
+      "q": "Solve the simultaneous equations $2x + y = 5$ and $3x - 2y = 4$ using matrices. Which of the following matrix products gives the solution for $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$?",
+      "options": [
+        "$\\frac{1}{7} \\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$",
+        "$-\\frac{1}{7} \\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$",
+        "$\\frac{1}{7} \\begin{pmatrix} -2 & -1 \\\\ -3 & 2 \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$",
+        "$\\frac{1}{7} \\begin{pmatrix} 2 & -1 \\\\ -3 & -2 \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$"
+      ],
+      "correct": 0,
+      "explain": "The system in matrix form is $\\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$. To find $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$, multiply both sides by the inverse of $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix}$. The determinant of $A$ is $(2)(-2) - (1)(3) = -7$. The inverse is $-\\frac{1}{7} \\begin{pmatrix} -2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\frac{1}{7} \\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix}$. Thus, the solution is $\\frac{1}{7} \\begin{pmatrix} 2 & 1 \\\\ 3 & -2 \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-nujyl4",
+      "q": "If the matrix $A = \\begin{pmatrix} 4 & 2 \\\\ -1 & x \\end{pmatrix}$ has no inverse (i.e., it is a singular matrix), find the value of $x$.",
+      "options": [
+        "2",
+        "-2",
+        "$\\frac{1}{2}$",
+        "$-\\frac{1}{2}$"
+      ],
+      "correct": 3,
+      "explain": "A matrix has no inverse if its determinant is zero. Det$(A) = (4)(x) - (2)(-1) = 4x + 2$. Setting the determinant to zero gives $4x + 2 = 0 \\Rightarrow 4x = -2 \\Rightarrow x = -\\frac{2}{4} = -\\frac{1}{2}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-800gh4",
+      "q": "Let matrix $A = \\begin{pmatrix} 1 & -1 \\\\ 2 & 3 \\end{pmatrix}$ and matrix $B = \\begin{pmatrix} 0 & 2 \\\\ 1 & -1 \\end{pmatrix}$. Find the product $AB$.",
+      "options": [
+        "$\\begin{pmatrix} -1 & 3 \\\\ 3 & 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} -1 & 1 \\\\ 3 & 1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 3 & -1 \\\\ 1 & 3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 0 & -2 \\\\ 2 & -3 \\end{pmatrix}$"
+      ],
+      "correct": 0,
+      "explain": "Multiply the rows of $A$ by the columns of $B$: Element 1,1 is $1(0) + (-1)(1) = -1$. Element 1,2 is $1(2) + (-1)(-1) = 3$. Element 2,1 is $2(0) + 3(1) = 3$. Element 2,2 is $2(2) + 3(-1) = 1$. This forms the matrix $\\begin{pmatrix} -1 & 3 \\\\ 3 & 1 \\end{pmatrix}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1n7p4b2",
+      "q": "If the determinant of the matrix $\\begin{pmatrix} x & 1 & 2 \\\\ 0 & 1 & 3 \\\\ 1 & 2 & 4 \\end{pmatrix}$ is equal to 5, find the value of $x$.",
+      "options": [
+        "-2",
+        "2",
+        "-1",
+        "1"
+      ],
+      "correct": 0,
+      "explain": "Expanding the determinant along the first column gives: $x(1 \\times 4 - 3 \\times 2) - 0 + 1(1 \\times 3 - 2 \\times 1)$. This simplifies to $x(4 - 6) + 1(3 - 2) = -2x + 1$. Setting this equal to 5, we have $-2x + 1 = 5 \\Rightarrow -2x = 4 \\Rightarrow x = -2$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1kki69f",
+      "q": "Find the matrix $X$ such that $X \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$.",
+      "options": [
+        "$\\begin{pmatrix} 4 & -1 \\\\ -3 & 2 \\end{pmatrix}$",
+        "$\\frac{1}{5} \\begin{pmatrix} 4 & -1 \\\\ -3 & 2 \\end{pmatrix}$",
+        "$\\frac{1}{5} \\begin{pmatrix} 2 & -1 \\\\ -3 & 4 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 0.2 & -0.6 \\\\ -0.2 & 0.8 \\end{pmatrix}$"
+      ],
+      "correct": 1,
+      "explain": "The equation is $XA = I$, which implies $X = A^{-1}$. Let $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$. The determinant is $(2)(4) - (1)(3) = 8 - 3 = 5$. The inverse matrix is $\\frac{1}{5} \\begin{pmatrix} 4 & -1 \\\\ -3 & 2 \\end{pmatrix}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-al8j55",
+      "q": "A linear transformation $T$ maps the point $(x, y)$ to $(2x+y, 3x-y)$. Find the matrix representing $T$.",
+      "options": [
+        "$\\begin{pmatrix} 2 & 1 \\\\ 3 & -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 & 3 \\\\ 1 & -1 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 1 & 2 \\\\ -1 & 3 \\end{pmatrix}$",
+        "$\\begin{pmatrix} 2 & -1 \\\\ 3 & 1 \\end{pmatrix}$"
+      ],
+      "correct": 0,
+      "explain": "The linear transformation mapping $(x, y)$ to a new point $(x', y')$ can be written in matrix form as $\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = M \\begin{pmatrix} x \\\\ y \\end{pmatrix}$. Since $x' = 2x + 1y$ and $y' = 3x - 1y$, the matrix $M$ simply takes the coefficients of $x$ and $y$ as its rows: $\\begin{pmatrix} 2 & 1 \\\\ 3 & -1 \\end{pmatrix}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1u3fya7",
+      "q": "If $2 \\begin{pmatrix} x \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\ y \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ 5 \\end{pmatrix}$, find the value of $x + y$.",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "correct": 0,
+      "explain": "We can expand the matrix equation into two simultaneous linear equations. First row: $2(x) - 4 = 6 \\Rightarrow 2x = 10 \\Rightarrow x = 5$. Second row: $2(3) - y = 5 \\Rightarrow 6 - y = 5 \\Rightarrow y = 1$. Therefore, $x + y = 5 + 1 = 6$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1oz1bx8",
+      "q": "For what value of $a$ is the matrix $\\begin{pmatrix} a & 2 \\\\ 3 & 4 \\end{pmatrix}$ a singular matrix?",
+      "options": [
+        "1.5",
+        "2.5",
+        "-1.5",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "A singular matrix is a matrix whose determinant is equal to 0. Det = $a(4) - (3)(2) = 4a - 6$. Setting this to 0 yields $4a - 6 = 0 \\Rightarrow 4a = 6 \\Rightarrow a = 1.5$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-rgnqj4",
+      "q": "To solve the simultaneous equations $2x + 3y = 8$ and $4x - y = 2$ using matrices, one finds the determinant of the coefficient matrix. What is its value?",
+      "options": [
+        "10",
+        "-14",
+        "-10",
+        "14"
+      ],
+      "correct": 1,
+      "explain": "The coefficient matrix for the given system of linear equations is $\\begin{pmatrix} 2 & 3 \\\\ 4 & -1 \\end{pmatrix}$. Its determinant is calculated as $(2)(-1) - (3)(4) = -2 - 12 = -14$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Matrices & Determinants",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

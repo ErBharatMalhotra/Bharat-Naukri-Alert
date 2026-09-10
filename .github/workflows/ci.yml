@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/dist/**"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Clone private core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+
+      - name: Run test suite
+        working-directory: core
+        run: node tests/run.js
+
+      - name: Privacy gate (no portal names in public files)
+        working-directory: core
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: node scripts/privacy-gate.mjs

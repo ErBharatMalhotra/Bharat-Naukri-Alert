@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Ratio and Proportion",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Ratio and Proportion",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1rm9eiw",
+      "q": "The ratio of the number of coins in boxes A and B was $17 : 7$. After 108 coins were shifted from box A to box B, this ratio became $37 : 20$. The number of coins that needs to be shifted further from A to B, to make this ratio $1 : 1$, is",
+      "options": [
+        "250",
+        "272",
+        "280",
+        "300"
+      ],
+      "correct": 1,
+      "explain": "Let the initial number of coins in A and B be $17k$ and $7k$ respectively. Total coins $= 24k$.\nAfter shifting 108 coins from A to B:\n$\\frac{17k - 108}{7k + 108} = \\frac{37}{20}$\nCross-multiplying:\n$20(17k - 108) = 37(7k + 108)$\n$340k - 2160 = 259k + 3996$\n$340k - 259k = 3996 + 2160 \\implies 81k = 6156 \\implies k = 76$\nTotal number of coins $= 24 \\times 76 = 1824$.\nTo have a $1:1$ ratio, each box must eventually have $1824 / 2 = 912$ coins.\nThe current number of coins in box A (after the first shift) is $17(76) - 108 = 1292 - 108 = 1184$.\nNumber of additional coins to shift from A to B $= 1184 - 912 = 272$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Ratio and Proportion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

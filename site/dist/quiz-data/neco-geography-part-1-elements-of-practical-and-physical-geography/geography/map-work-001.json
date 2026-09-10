@@ -1,0 +1,111 @@
+{
+  "title": "NECO Geography Part 1: Elements of Practical and Physical Geography - Geography - Map Work",
+  "titleHi": "",
+  "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+  "subject": "Geography",
+  "topic": "Map Work",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "neco-geography-part-1:-elements-of-practical-and-physical-geography-sxgnp4",
+      "q": "A contoured survey map of a region in West Africa is drawn to a scale of $1:50,000$. If the distance between two settlements on the map is measured to be $4 \\text{ cm}$, what is the actual distance between these two settlements on the ground?",
+      "options": [
+        "$0.2 \\text{ km}$",
+        "$2 \\text{ km}$",
+        "$20 \\text{ km}$",
+        "$200 \\text{ km}$"
+      ],
+      "correct": 1,
+      "explain": "To calculate the actual distance on the ground, use the formula:\n\n$$\\text{Actual Distance} = \\text{Map Distance} \\times \\text{Scale Factor}$$\n\nGiven the map distance is $4 \\text{ cm}$ and the scale is $1:50,000$:\n\n$$\\text{Ground Distance} = 4 \\text{ cm} \\times 50,000 = 200,000 \\text{ cm}$$\n\nTo convert centimeters to kilometers, divide by $100,000$ (since $100,000 \\text{ cm} = 1 \\text{ km}$):\n\n$$\\frac{200,000 \\text{ cm}}{100,000 \\text{ cm/km}} = 2 \\text{ km}$$",
+      "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+      "subject": "Geography",
+      "topic": "Map Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-geography-part-1:-elements-of-practical-and-physical-geography-ntlyrs",
+      "q": "On a topographical map, a cross-profile analysis reveals that the elevation of point X on a spur is $400 \\text{ m}$ above sea level, while point Y in a nearby valley is $200 \\text{ m}$ above sea level. If the horizontal distance (horizontal equivalent) between X and Y is $4 \\text{ km}$, what is the gradient of the slope connecting them?",
+      "options": [
+        "$1 \\text{ in } 10$",
+        "$1 \\text{ in } 20$",
+        "$1 \\text{ in } 40$",
+        "$1 \\text{ in } 50$"
+      ],
+      "correct": 1,
+      "explain": "Gradient is calculated using the formula:\n\n$$\\text{Gradient} = \\frac{\\text{Vertical Interval (V.I.)}}{\\text{Horizontal Equivalent (H.E.)}}$$\n\n**Step 1:** Calculate Vertical Interval:\n$$\\text{V.I.} = 400 \\text{ m} - 200 \\text{ m} = 200 \\text{ m}$$\n\n**Step 2:** Convert Horizontal Equivalent to matching units (meters):\n$$\\text{H.E.} = 4 \\text{ km} = 4,000 \\text{ m}$$\n\n**Step 3:** Calculate Gradient:\n$$\\text{Gradient} = \\frac{200}{4,000} = \\frac{1}{20}$$\n\nThis is expressed as a ratio of **$1 \\text{ in } 20$**.",
+      "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+      "subject": "Geography",
+      "topic": "Map Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-geography-part-1:-elements-of-practical-and-physical-geography-1hxktp0",
+      "q": "Consider the contour pattern depicted below, representing a common landform in physical geography:\n\n<svg viewBox=\"0 0 200 200\" width=\"250\" height=\"250\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Contour lines pointing towards lower ground -->\n  <path d=\"M 50 50 L 100 100 L 150 50\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">300m</text>\n  \n  <path d=\"M 30 70 L 100 140 L 170 70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"155\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">200m</text>\n  \n  <path d=\"M 10 90 L 100 180 L 190 90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"195\" font-size=\"12\" text-anchor=\"middle\" fill=\"#111\">100m</text>\n</svg>\n\nWhich of the following physical features does this V-shaped pattern, pointing towards the lower elevation, represent?",
+      "options": [
+        "A valley",
+        "A spur",
+        "A plateau",
+        "A depression"
+      ],
+      "correct": 1,
+      "explain": "On a contoured survey map, V-shaped contour lines pointing **away** from the higher ground and **towards** the lower ground indicate a **spur** (a prominent ridge descending from a highland). Conversely, if the V-shapes point *up* towards higher elevations, they signify a **valley**.\n\nSince the vertex of the $100\\text{m}$ line (lower ground) juts outward from the $300\\text{m}$ area, this confirms it is a spur.",
+      "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+      "subject": "Geography",
+      "topic": "Map Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-geography-part-1:-elements-of-practical-and-physical-geography-1ti4xz4",
+      "q": "During a fieldwork traverse using a prismatic compass, a student sights a distant communication mast from a village and records a forward bearing of $045^\\circ$. What will be the backward bearing of the village if sighted from the communication mast?",
+      "options": [
+        "$135^\\circ$",
+        "$180^\\circ$",
+        "$225^\\circ$",
+        "$315^\\circ$"
+      ],
+      "correct": 2,
+      "explain": "To find the backward (or back) bearing from a forward bearing, you apply a simple rule based on whether the forward bearing is less than or greater than $180^\\circ$:\n\n- If $\\text{Forward Bearing} < 180^\\circ$, add $180^\\circ$.\n- If $\\text{Forward Bearing} > 180^\\circ$, subtract $180^\\circ$.\n\nSince the forward bearing is $045^\\circ$ (which is $< 180^\\circ$):\n$$\\text{Backward Bearing} = 045^\\circ + 180^\\circ = 225^\\circ$$",
+      "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+      "subject": "Geography",
+      "topic": "Map Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-geography-part-1:-elements-of-practical-and-physical-geography-1w2mpx9",
+      "q": "When analyzing inter-visibility between two observation points on a topographical map of a region in West Africa, which of the following conditions definitively implies that the two points are **NOT** inter-visible?",
+      "options": [
+        "The horizontal distance separating the points is greater than $5 \\text{ km}$.",
+        "An intervening contour feature on the line of sight has an elevation higher than both observation points.",
+        "The two points are located on contour lines of differing numerical values.",
+        "A river channel flows between the two points perpendicularly to the line of sight."
+      ],
+      "correct": 1,
+      "explain": "**Inter-visibility** refers to whether one point can be seen from another on the ground. \n\nIf you draw a cross-profile between two points, a line of sight is drawn connecting them. If the physical landform (e.g., a hill or spur with higher elevation contours) rises above this line of sight, the visual connection is blocked, making them **not** inter-visible. Distance (A), unequal elevations (C), and intervening valleys or rivers (D) do not inherently block the line of sight.",
+      "exam": "NECO Geography Part 1: Elements of Practical and Physical Geography",
+      "subject": "Geography",
+      "topic": "Map Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

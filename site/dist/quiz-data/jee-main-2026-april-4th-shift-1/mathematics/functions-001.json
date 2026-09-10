@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Functions",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Functions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-sw8rih",
+      "q": "Let $[\\cdot]$ denote the greatest integer function. If the domain of the function $f(x) = \\cos^{-1} \\left( \\frac{4x + 2[x]}{3} \\right)$ is $[\\alpha, \\beta]$, then $12(\\alpha + \\beta)$ is equal to:",
+      "options": [
+        "$6$",
+        "$8$",
+        "$9$",
+        "$4$"
+      ],
+      "correct": 0,
+      "explain": "The domain of $\\cos^{-1}(y)$ is $-1 \\le y \\le 1$.\nSo, $-1 \\le \\frac{4x + 2[x]}{3} \\le 1 \\implies -3 \\le 4x + 2[x] \\le 3$.\nLet $x = I + f$, where $I = [x]$ and $f = \\{x\\}$ is the fractional part, so $0 \\le f < 1$.\nThen, $4x + 2[x] = 4(I + f) + 2I = 6I + 4f$.\nTherefore, $-3 \\le 6I + 4f \\le 3$.\nFor $I = 0$: $-3 \\le 4f \\le 3 \\implies 0 \\le f \\le \\frac{3}{4}$. So $x \\in \\left[0, \\frac{3}{4}\\right]$.\nFor $I = -1$: $-3 \\le -6 + 4f \\le 3 \\implies 3 \\le 4f \\le 9 \\implies \\frac{3}{4} \\le f < 1$. So $x \\in \\left[-\\frac{1}{4}, 0\\right)$.\nFor any other integer $I$, no such $f \\in [0, 1)$ satisfies the inequality.\nTaking the union gives the domain $x \\in \\left[-\\frac{1}{4}, \\frac{3}{4}\\right]$.\nThus, $\\alpha = -\\frac{1}{4}$ and $\\beta = \\frac{3}{4}$.\n$12(\\alpha + \\beta) = 12 \\left( -\\frac{1}{4} + \\frac{3}{4} \\right) = 12 \\left( \\frac{1}{2} \\right) = 6$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

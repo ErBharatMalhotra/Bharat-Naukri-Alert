@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Profit and Loss",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Profit and Loss",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-um2pt0",
+      "q": "An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of $20\\%$ on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, in percentage, at which the profit percentage would be equal to the rate of discount, is nearest to",
+      "options": [
+        "12",
+        "18",
+        "14",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "Cost Price (CP) = 1650. Initial Profit = $20\\%$ of 1650 = Rs. 330. \nInitial Selling Price ($SP_1$) = $1650 + 330 = 1980$.\nLet the Marked Price be $M$ and Initial Discount be $D$. So, $M - D = 1980$.\nIf the discount is doubled to $2D$, profit is Rs. 110. \nNew Selling Price ($SP_2$) = $1650 + 110 = 1760$.\nSo, $M - 2D = 1760$.\nSubtracting the two equations gives $D = 220$. Hence, $M = 1980 + 220 = 2200$.\nNow we need the discount rate $d\\%$ such that Profit Percentage = Discount Rate = $x\\%$.\n$SP$ in terms of discount: $SP = 2200 - 2200(x/100) = 2200 - 22x$.\n$SP$ in terms of profit: $SP = 1650 + 1650(x/100) = 1650 + 16.5x$.\nEquating them: $2200 - 22x = 1650 + 16.5x \\implies 550 = 38.5x \\implies x = \\frac{550}{38.5} = 14.28\\%$. The nearest integer is 14.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Profit and Loss",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

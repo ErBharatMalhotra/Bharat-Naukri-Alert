@@ -1,0 +1,51 @@
+{
+  "title": "Questionnaire jaune 2024 - Physique - Cinématique",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Physique",
+  "topic": "Cinématique",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-f4wj5o",
+      "q": "Le graphique ci-dessous montre la vitesse d’un véhicule en mouvement rectiligne en fonction du temps. La vitesse diminue linéairement de $10\\text{ m/s}$ à $t=0$ jusqu'à $0\\text{ m/s}$ à $t=10\\text{ s}$, puis continue de diminuer jusqu'à $-5\\text{ m/s}$ à $t=15\\text{ s}$.\nQuelle est la distance totale parcourue par ce véhicule entre le temps $t = 0\\text{ s}$ et le temps $t = 15\\text{ s}$ ?",
+      "options": [
+        "$12{,}5\\text{ m}$",
+        "$50\\text{ m}$",
+        "$62{,}5\\text{ m}$",
+        "$125\\text{ m}$"
+      ],
+      "correct": 2,
+      "explain": "La distance totale parcourue correspond à l'aire sous la courbe de la valeur absolue de la vitesse (c'est-à-dire l'aire totale des deux triangles formés avec l'axe des abscisses). Le premier triangle (de $t=0$ à $t=10$) a une base de 10 et une hauteur de 10 : $\\text{Aire}_1 = \\frac{10 \\times 10}{2} = 50\\text{ m}$. Le second triangle (de $t=10$ à $t=15$) a une base de 5 et une hauteur de 5 : $\\text{Aire}_2 = \\frac{5 \\times |-5|}{2} = 12{,}5\\text{ m}$. La distance totale est $50 + 12{,}5 = 62{,}5\\text{ m}$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Cinématique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    },
+    {
+      "id": "questionnaire-jaune-2024-8215h4",
+      "q": "Une moto démarre sur une route rectiligne et son mouvement est uniformément accéléré. Les mesures de sa vitesse ($v$) et de la distance ($x$) parcourue depuis le départ sont les suivantes :\n$v$ (m/s) : 0 | 4 | 8 | 12 | 16 | 20 | 24\n$x$ (m) : 0 | 1 | 4 | 9 | 16 | 25 | 36\n\nQuelle est la valeur de son accélération ?",
+      "options": [
+        "$2\\text{ m/s}^2$",
+        "$4\\text{ m/s}^2$",
+        "$8\\text{ m/s}^2$",
+        "$16\\text{ m/s}^2$"
+      ],
+      "correct": 2,
+      "explain": "Le mouvement est uniformément accéléré, la relation entre la vitesse et la distance est donnée par $v^2 = v_0^2 + 2ax$. Comme la moto démarre ($v_0 = 0$, $x_0 = 0$), la formule se réduit à $v^2 = 2ax$. Prenons par exemple le couple $v = 4\\text{ m/s}$ et $x = 1\\text{ m}$ : $4^2 = 2 \\times a \\times 1 \\implies 16 = 2a \\implies a = 8\\text{ m/s}^2$. On peut vérifier avec $v = 8$ et $x = 4$ : $8^2 = 64 = 2 \\times 8 \\times 4$. L'accélération est bien de $8\\text{ m/s}^2$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Cinématique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

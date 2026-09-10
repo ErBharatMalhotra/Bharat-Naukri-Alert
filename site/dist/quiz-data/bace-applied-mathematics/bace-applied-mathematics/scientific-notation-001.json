@@ -1,0 +1,71 @@
+{
+  "title": "BACE: Applied Mathematics - BACE - Applied Mathematics - Scientific Notation",
+  "titleHi": "",
+  "exam": "BACE: Applied Mathematics",
+  "subject": "BACE - Applied Mathematics",
+  "topic": "Scientific Notation",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "bace:-applied-mathematics-1gtqljm",
+      "q": "Which of the following correctly expresses the number **0.0000458** in scientific notation?",
+      "options": [
+        "$4.58 \\times 10^{-4}$",
+        "$4.58 \\times 10^{-5}$",
+        "$45.8 \\times 10^{-6}$",
+        "$4.58 \\times 10^{5}$"
+      ],
+      "correct": 1,
+      "explain": "Move the decimal point 5 places to the right to get a number between 1 and 10 ($4.58$). Since the original number was less than 1, the exponent is negative: $4.58 \\times 10^{-5}$.",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Scientific Notation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-rh3m2w",
+      "q": "Express the sum of **$2.3 \\times 10^{-3}$** and **$1.4 \\times 10^{-4}$** in correct scientific notation.",
+      "options": [
+        "$2.44 \\times 10^{-3}$",
+        "$3.7 \\times 10^{-3}$",
+        "$3.7 \\times 10^{-4}$",
+        "$2.44 \\times 10^{-4}$"
+      ],
+      "correct": 0,
+      "explain": "To add, exponents must be the same. Convert $1.4 \\times 10^{-4}$ to $0.14 \\times 10^{-3}$. $$2.3 \\times 10^{-3} + 0.14 \\times 10^{-3} = (2.3 + 0.14) \\times 10^{-3} = 2.44 \\times 10^{-3}$$",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Scientific Notation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "bace:-applied-mathematics-1kx0f8k",
+      "q": "Which of the following numbers corresponds to **$6.02 \\times 10^4$**?",
+      "options": [
+        "602",
+        "6,020",
+        "60,200",
+        "602,000"
+      ],
+      "correct": 2,
+      "explain": "The exponent is positive 4, so move the decimal point 4 places to the right: $6.02 \\rightarrow 60.2 \\rightarrow 602 \\rightarrow 6020 \\rightarrow 60200$.",
+      "exam": "BACE: Applied Mathematics",
+      "subject": "BACE - Applied Mathematics",
+      "topic": "Scientific Notation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

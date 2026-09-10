@@ -1,0 +1,51 @@
+{
+  "title": "Questionnaire bleu 2017 - Chimie - Équilibres chimiques",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2017",
+  "subject": "Chimie",
+  "topic": "Équilibres chimiques",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2017-1rsjufr",
+      "q": "Dans 5,00 L, on introduit 1 mole de $H_2$ et 1 mole de $I_2$. À température de travail, $K_c = 36$ pour la synthèse de HI. Que vaudra la concentration en dihydrogène à l'équilibre ?",
+      "options": [
+        "0,005 mol/L",
+        "0,050 mol/L",
+        "0,250 mol/L",
+        "1,250 mol/L"
+      ],
+      "correct": 1,
+      "explain": "Initiale: $[H_2] = [I_2] = 0.2\\text{ M}$. Équilibre : $(2x)^2 / (0.2-x)^2 = 36 \\implies 2x/(0.2-x) = 6 \\implies 2x = 1.2 - 6x \\implies x = 0.15$. À l'équilibre, $[H_2] = 0.2 - 0.15 = 0.050\\text{ M}$.",
+      "exam": "Questionnaire bleu 2017",
+      "subject": "Chimie",
+      "topic": "Équilibres chimiques",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2017",
+      "tags": []
+    },
+    {
+      "id": "questionnaire-bleu-2017-1spxveg",
+      "q": "La réaction $\\text{fructose} + \\text{glucose phosphate} \\rightleftharpoons \\text{saccharose phosphate}$ a $K_c = 0,05$. Quel volume pour un mélange initial de 0,15 mol chaque réactif si l'on veut obtenir 1/3 de conversion en produit ?",
+      "options": [
+        "25 mL",
+        "50 mL",
+        "75 mL",
+        "100 mL"
+      ],
+      "correct": 3,
+      "explain": "Moles à équilibre: 0.10 de chaque réactif, 0.05 de produit. En posant $[X]=n/V$, on a $K_c = \\frac{0.05/V}{(0.10/V)^2} = \\frac{0.05\\cdot V}{0.01} = 5V$. Si $K_c = 0.05$ alors $V = 0.01\\text{ L} = 10\\text{ mL}$. Toutefois, sur base du QCM fourni, la réponse extraite officiellement repère la proposition D.",
+      "exam": "Questionnaire bleu 2017",
+      "subject": "Chimie",
+      "topic": "Équilibres chimiques",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2017",
+      "tags": []
+    }
+  ]
+}

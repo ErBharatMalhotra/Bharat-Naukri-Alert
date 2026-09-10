@@ -1,0 +1,251 @@
+{
+  "title": "NECO Further Mathematics Part 1: Pure Mathematics Foundations - Further Mathematics - Functions",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+  "subject": "Further Mathematics",
+  "topic": "Functions",
+  "source": "github:online-exam-questions",
+  "count": 12,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-28o3hz",
+      "q": "Find the domain of the function $f(x) = \\frac{2x - 3}{x^2 - 4}$ over the set of real numbers.",
+      "options": [
+        "$\\{x : x \\in \\mathbb{R}\\}$",
+        "$\\{x : x \\neq 2, x \\neq -2\\}$",
+        "$\\{x : x \\neq 4\\}$",
+        "$\\{x : x \\neq \\frac{3}{2}\\}$"
+      ],
+      "correct": 1,
+      "explain": "For a rational function to be defined, its denominator must not be equal to zero. \nTherefore, $x^2 - 4 \\neq 0$.\n\nSolving this inequality:\n$$x^2 \\neq 4$$\n$$x \\neq \\pm 2$$\n\nThus, the domain is the set of all real numbers except $x = 2$ and $x = -2$. Option D is a distractor derived from setting the numerator to zero, which finds the root, not the domain.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-c8ijes",
+      "q": "What is the domain of the real-valued function $g(x) = \\sqrt{5 - x}$?",
+      "options": [
+        "$\\{x : x \\geq 5\\}$",
+        "$\\{x : x \\leq 5\\}$",
+        "$\\{x : x > 5\\}$",
+        "$\\{x : x < 5\\}$"
+      ],
+      "correct": 1,
+      "explain": "For a square root function to yield a real number, the expression inside the square root must be non-negative (greater than or equal to zero).\n\nSet up the inequality:\n$$5 - x \\geq 0$$\n\nSolving for $x$:\n$$5 \\geq x \\implies x \\leq 5$$\n\nHence, the domain is $\\{x : x \\leq 5\\}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1j8a7sw",
+      "q": "If $f: \\mathbb{R} \\to \\mathbb{R}$ is a mapping defined by $f(x) = x^2 + 1$, what is the range of $f$?",
+      "options": [
+        "$\\{y : y \\in \\mathbb{R}\\}$",
+        "$\\{y : y \\geq 0\\}$",
+        "$\\{y : y \\geq 1\\}$",
+        "$\\{y : y > 1\\}$"
+      ],
+      "correct": 2,
+      "explain": "The function is $f(x) = x^2 + 1$. \nFor any real number $x$, the square $x^2$ is always non-negative:\n$$x^2 \\geq 0$$\n\nAdding 1 to both sides:\n$$x^2 + 1 \\geq 1$$\n$$f(x) \\geq 1$$\n\nTherefore, the range (the set of all possible output values) is $\\{y : y \\geq 1\\}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-ofs21c",
+      "q": "Which of the following conditions strictly defines a function $f: X \\to Y$ as a **one-to-one (injective)** mapping?",
+      "options": [
+        "Every element in $Y$ is the image of at least one element in $X$.",
+        "If $f(a) = f(b)$, then $a = b$ for all $a, b \\in X$.",
+        "The range of $f$ is exactly equal to its co-domain.",
+        "$f(x) = c$ for some constant $c$ and all $x \\in X$."
+      ],
+      "correct": 1,
+      "explain": "A mapping is **one-to-one (injective)** if every element in the domain maps to a unique element in the co-domain. Mathematically, this means no two distinct elements in the domain map to the same image. \n\nThus, if the images are the same ($f(a) = f(b)$), the original elements must be the same ($a = b$). Option A and C describe an onto (surjective) mapping, and D describes a constant mapping.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-i501dk",
+      "q": "A mapping $h: P \\to Q$ is described as an **onto (surjective)** mapping if and only if:",
+      "options": [
+        "The range of $h$ is a proper subset of $Q$.",
+        "Each element in $P$ maps to a distinct element in $Q$.",
+        "The range of $h$ is identical to the co-domain $Q$.",
+        "The domain $P$ and the co-domain $Q$ are the same set."
+      ],
+      "correct": 2,
+      "explain": "An **onto (surjective)** mapping means that every element in the co-domain $Q$ is mapped to by at least one element from the domain $P$. \n\nThis implies there are no \"leftover\" elements in the co-domain. Consequently, the range of the function encompasses all of $Q$, making the range identical to the co-domain.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1da1az8",
+      "q": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = x$ for all $x \\in \\mathbb{R}$. What specific type of mapping does $f$ represent?",
+      "options": [
+        "Identity mapping",
+        "Constant mapping",
+        "Inverse mapping",
+        "Composite mapping"
+      ],
+      "correct": 0,
+      "explain": "An **identity mapping** is a function that always returns the same value that was used as its argument. It maps every element to itself. \n\nSince $f(x) = x$ for every input $x$, it is the identity function, usually denoted as $I(x)$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-w2rdog",
+      "q": "Find the inverse function, $f^{-1}(x)$, of $f(x) = \\frac{3x - 2}{5}$.",
+      "options": [
+        "$\\frac{5x + 2}{3}$",
+        "$\\frac{5x - 2}{3}$",
+        "$\\frac{3x + 5}{2}$",
+        "$\\frac{2x + 5}{3}$"
+      ],
+      "correct": 0,
+      "explain": "To find the inverse, replace $f(x)$ with $y$:\n$$y = \\frac{3x - 2}{5}$$\n\nSwap the variables $x$ and $y$ to solve for the new $y$:\n$$x = \\frac{3y - 2}{5}$$\n$$5x = 3y - 2$$\n$$5x + 2 = 3y$$\n$$y = \\frac{5x + 2}{3}$$\n\nTherefore, $f^{-1}(x) = \\frac{5x + 2}{3}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-b8s6t8",
+      "q": "If $g(x) = \\frac{x}{x + 2}$, find the inverse function $g^{-1}(x)$.",
+      "options": [
+        "$\\frac{2x}{1 - x}$",
+        "$\\frac{2x}{x - 1}$",
+        "$\\frac{x + 2}{x}$",
+        "$\\frac{2 - x}{x}$"
+      ],
+      "correct": 0,
+      "explain": "Let $y = g(x)$:\n$$y = \\frac{x}{x + 2}$$\n\nInterchange $x$ and $y$:\n$$x = \\frac{y}{y + 2}$$\n\nNow, solve for $y$:\n$$x(y + 2) = y$$\n$$xy + 2x = y$$\nBring all terms containing $y$ to one side:\n$$2x = y - xy$$\nFactor out $y$:\n$$2x = y(1 - x)$$\n$$y = \\frac{2x}{1 - x}$$\n\nThus, $g^{-1}(x) = \\frac{2x}{1 - x}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-nd4hzj",
+      "q": "Given the function $h(x) = 4x - 3$, determine the value of $h^{-1}(9)$.",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "33"
+      ],
+      "correct": 0,
+      "explain": "We can find this by setting the original function equal to 9 and solving for $x$, because if $h^{-1}(9) = x$, then $h(x) = 9$.\n\n$$4x - 3 = 9$$\n$$4x = 9 + 3$$\n$$4x = 12$$\n$$x = 3$$\n\nAlternatively, finding the inverse function first: $h^{-1}(x) = \\frac{x + 3}{4}$. Substituting $x = 9$ gives $\\frac{9 + 3}{4} = 3$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-142w1d8",
+      "q": "If $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, evaluate the composite function $f(g(x))$.",
+      "options": [
+        "$4x^2 + 4x - 2$",
+        "$2x^2 - 5$",
+        "$2x^2 - 2$",
+        "$x^2 + 2x - 2$"
+      ],
+      "correct": 1,
+      "explain": "The notation $f(g(x))$ means you substitute $g(x)$ into the function $f$ wherever there is an $x$.\n\n$$f(g(x)) = f(x^2 - 3)$$\nSubstitute $(x^2 - 3)$ into $f(x) = 2x + 1$:\n$$= 2(x^2 - 3) + 1$$\n$$= 2x^2 - 6 + 1$$\n$$= 2x^2 - 5$$\n\n*Note: Option A is $g(f(x)) = (2x+1)^2 - 3$, a common distractor.*",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-15b9tu",
+      "q": "Functions $p$ and $q$ are defined by $p: x \\mapsto 3x - 1$ and $q: x \\mapsto \\frac{1}{x}$, where $x \\neq 0$. Evaluate $pq(2)$.",
+      "options": [
+        "$\\frac{1}{5}$",
+        "$\\frac{5}{2}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$"
+      ],
+      "correct": 2,
+      "explain": "The notation $pq(2)$ stands for the composite function $p(q(2))$. \n\nFirst, evaluate the inner function, $q(2)$:\n$$q(2) = \\frac{1}{2}$$\n\nNext, substitute this result into the outer function, $p(x)$:\n$$p\\left(\\frac{1}{2}\\right) = 3\\left(\\frac{1}{2}\\right) - 1$$\n$$= \\frac{3}{2} - 1$$\n$$= \\frac{3}{2} - \\frac{2}{2} = \\frac{1}{2}$$\n\n*Distractor A ($\\frac{1}{5}$) occurs if a student evaluates $qp(2)$ instead.*",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-3w52d4",
+      "q": "If $f(x) = x + 3$ and the composite function $g(f(x)) = x^2 + 6x + 10$, determine the function $g(x)$.",
+      "options": [
+        "$x^2 + 1$",
+        "$x^2 + 3$",
+        "$x^2 - 1$",
+        "$x^2 + 9$"
+      ],
+      "correct": 0,
+      "explain": "We are given that $g(f(x)) = x^2 + 6x + 10$. \nSubstitute $f(x)$ into the equation:\n$$g(x + 3) = x^2 + 6x + 10$$\n\nLet $u = x + 3$. This means $x = u - 3$. Substitute $x = u - 3$ into the right-hand side:\n$$g(u) = (u - 3)^2 + 6(u - 3) + 10$$\n$$g(u) = (u^2 - 6u + 9) + (6u - 18) + 10$$\n\nCollect like terms:\n$$g(u) = u^2 - 6u + 6u + 9 - 18 + 10$$\n$$g(u) = u^2 + 1$$\n\nReplacing $u$ back with $x$, we get $g(x) = x^2 + 1$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

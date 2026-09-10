@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Capacitors",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Capacitors",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-18bxhmk",
+      "q": "![Capacitor half-filled with dielectric](https://www.sarthaks.com/?qa=blob&qa_blobid=12716304422748890071)\nA parallel plate air capacitor has a capacitance $C$. When it is half filled as show in figure with a dielectric constant $K = 5$, the percentage increase in the capacitance is _______.",
+      "options": [
+        "33.34",
+        "66.67",
+        "200",
+        "400"
+      ],
+      "correct": 1,
+      "explain": "The initial capacitance of the air capacitor is $C = \\frac{\\epsilon_0 A}{d}$.\nWhen a dielectric of thickness $d/2$ is inserted, it behaves as two capacitors in series: one with dielectric $K$ and thickness $d/2$, and the other with air (dielectric 1) and thickness $d/2$.\nThe capacitance of the dielectric-filled part is $C_1 = \\frac{K\\epsilon_0 A}{d/2} = \\frac{2K\\epsilon_0 A}{d} = 2KC = 2(5)C = 10C$.\nThe capacitance of the air-filled part is $C_2 = \\frac{\\epsilon_0 A}{d/2} = \\frac{2\\epsilon_0 A}{d} = 2C$.\nThe equivalent capacitance $C_{new}$ is their series combination:\n$C_{new} = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{10C \\times 2C}{10C + 2C} = \\frac{20C}{12} = \\frac{5}{3}C$.\nThe percentage increase in capacitance is:\n$\\%\text{ Increase} = \\frac{C_{new} - C}{C} \\times 100\\% = \\left(\\frac{5/3 C - C}{C}\\right) \\times 100\\% = \\frac{2}{3} \\times 100\\% \\approx 66.67\\%$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Capacitors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

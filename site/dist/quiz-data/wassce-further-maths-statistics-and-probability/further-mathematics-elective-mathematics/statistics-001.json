@@ -1,0 +1,171 @@
+{
+  "title": "WASSCE Further Maths: Statistics and Probability - Further Mathematics (Elective Mathematics) - Statistics",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Statistics and Probability",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Statistics",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-5p2w10",
+      "q": "The total area of all the bars in a histogram is directly proportional to the...",
+      "options": [
+        "total frequency",
+        "mean",
+        "class boundaries",
+        "class interval"
+      ],
+      "correct": 0,
+      "explain": "In a histogram, the area of each rectangular bar represents the frequency of that class. Therefore, the total area of all the bars combined is directly proportional to the total frequency of the distribution.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-4si08o",
+      "q": "When constructing a cumulative frequency curve (ogive), the cumulative frequencies are plotted against the...",
+      "options": [
+        "lower class boundaries",
+        "upper class boundaries",
+        "class midpoints",
+        "class frequencies"
+      ],
+      "correct": 1,
+      "explain": "An ogive, or cumulative frequency curve, represents the accumulation of frequencies up to a certain point. Therefore, the cumulative frequency is plotted against the corresponding upper class boundary of each class interval.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-1o7fsyg",
+      "q": "To estimate the mode of grouped data from a histogram, one must...",
+      "options": [
+        "find the area under the tallest rectangle",
+        "draw diagonal lines from the top corners of the tallest rectangle to the adjacent top corners of the neighboring rectangles",
+        "calculate the average of the class boundaries of the tallest rectangle",
+        "plot a cumulative frequency curve"
+      ],
+      "correct": 1,
+      "explain": "To geometrically estimate the mode from a histogram, one draws crossing diagonal lines inside the tallest bar (modal class), connecting its top corners to the nearest top corners of the adjacent bars. The x-coordinate of the intersection point is the mode.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-1n374qs",
+      "q": "If the class intervals of a frequency distribution are $1-5, 6-10, 11-15$, what is the lower class boundary of the second class ($6-10$)?",
+      "options": [
+        "$5.5$",
+        "$6.0$",
+        "$6.5$",
+        "$5.0$"
+      ],
+      "correct": 0,
+      "explain": "The class boundaries close the gap between consecutive class limits. The gap between the upper limit of the first class ($5$) and the lower limit of the second class ($6$) is $1$. Half of this gap ($0.5$) is subtracted from the lower limit of the second class to find its lower boundary: $6 - 0.5 = 5.5$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-1fmvl7n",
+      "q": "In a grouped frequency distribution, the median class is $20 - 29$ with a frequency of $20$. The cumulative frequency before the median class is $20$, and the total frequency is $60$. What is the median? (Assume continuous class boundaries $19.5 - 29.5$).",
+      "options": [
+        "$24.5$",
+        "$24.0$",
+        "$25.0$",
+        "$25.5$"
+      ],
+      "correct": 0,
+      "explain": "Median = $L_m + \\frac{\\frac{N}{2} - F}{f_m} \\times c$. \n$N = 60 \\implies N/2 = 30$. \n$L_m = 19.5$. $F = 20$. $f_m = 20$. $c = 10$. \nMedian = $19.5 + \\frac{30 - 20}{20} \\times 10 = 19.5 + \\left(\\frac{10}{20} \\times 10\\right) = 19.5 + 5 = 24.5$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-262h43",
+      "q": "For a histogram representing data with unequal class intervals, the height of each rectangular bar is proportional to the:",
+      "options": [
+        "frequency",
+        "cumulative frequency",
+        "frequency density",
+        "class midpoint"
+      ],
+      "correct": 2,
+      "explain": "When class widths vary, making heights purely proportional to frequencies would distort the visual representation of the area. Therefore, the frequency is adjusted by plotting frequency density (frequency divided by class width) to ensure the area of each bar remains proportional to its frequency.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-zxzq34",
+      "q": "In a distribution, the lower quartile is $45$ and the upper quartile is $65$. What is the semi-interquartile range?",
+      "options": [
+        "$10$",
+        "$20$",
+        "$30$",
+        "$55$"
+      ],
+      "correct": 0,
+      "explain": "The semi-interquartile range is given by $\\frac{Q_3 - Q_1}{2}$. \nGiven $Q_3 = 65$ and $Q_1 = 45$, the semi-interquartile range is $\\frac{65 - 45}{2} = \\frac{20}{2} = 10$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-121pr4t",
+      "q": "An ogive is plotted for a set of $200$ observations.\n\nTo find the interquartile range from the graph, you would read the values on the x-axis corresponding to which cumulative frequencies?",
+      "options": [
+        "50th and 100th",
+        "50th and 150th",
+        "100th and 200th",
+        "25th and 75th"
+      ],
+      "correct": 1,
+      "explain": "The interquartile range is $Q_3 - Q_1$. The lower quartile ($Q_1$) corresponds to $\\frac{N}{4}$ and the upper quartile ($Q_3$) corresponds to $\\frac{3N}{4}$. \nFor $N=200$, $Q_1$ is at $200/4 = 50$, and $Q_3$ is at $3 \\times 200 / 4 = 150$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

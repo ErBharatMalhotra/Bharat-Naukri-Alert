@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Chemistry - Equilibrium",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Chemistry",
+  "topic": "Equilibrium",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-guq8wk",
+      "q": "The solubility product constants of $Ag_2CrO_4$ and $AgBr$ are $32x$ and $4y$ respectively at $298\\text{ K}$. The value of $\\left( \\frac{\\text{molarity of } Ag_2CrO_4}{\\text{molarity of } AgBr} \\right)$ (referring to their molar solubilities) can be expressed as :",
+      "options": [
+        "$\\frac{2\\sqrt{3}x}{y}$",
+        "$2\\sqrt{\\frac{x}{y}}$",
+        "$\\sqrt{\\frac{x}{y}}$",
+        "$\\frac{\\sqrt[3]{x}}{\\sqrt{y}}$"
+      ],
+      "correct": 3,
+      "explain": "Let the molar solubility of $Ag_2CrO_4$ be $S_1$. The salt dissociates as $Ag_2CrO_4 \\rightleftharpoons 2Ag^+ + CrO_4^{2-}$.\n$K_{sp}(Ag_2CrO_4) = (2S_1)^2(S_1) = 4S_1^3$\nGiven $4S_1^3 = 32x \\implies S_1^3 = 8x \\implies S_1 = (8x)^{1/3} = 2x^{1/3} = 2\\sqrt[3]{x}$.\nLet the molar solubility of $AgBr$ be $S_2$. The salt dissociates as $AgBr \\rightleftharpoons Ag^+ + Br^-$.\n$K_{sp}(AgBr) = S_2^2$\nGiven $S_2^2 = 4y \\implies S_2 = \\sqrt{4y} = 2\\sqrt{y}$.\nThe required ratio of their molar solubilities is:\n$\\frac{S_1}{S_2} = \\frac{2\\sqrt[3]{x}}{2\\sqrt{y}} = \\frac{\\sqrt[3]{x}}{\\sqrt{y}}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

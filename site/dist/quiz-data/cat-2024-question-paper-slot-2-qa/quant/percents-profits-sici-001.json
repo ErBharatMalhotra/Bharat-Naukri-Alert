@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 2, QA) - Quant - Percents Profits SICI",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+  "subject": "Quant",
+  "topic": "Percents Profits SICI",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-gb2uck",
+      "q": "Bina incurs 19% loss when she sells a product at Rs. 4860 to Shyam, who in turn sells this product to Hari. If Bina would have sold this product to Shyam at the purchase price of Hari, she would have obtained 17% profit. Then, the profit, in rupees, made by Shyam is",
+      "options": [
+        "2100",
+        "2160",
+        "2200",
+        "2260"
+      ],
+      "correct": 1,
+      "explain": "Let Bina's cost price be C. Selling price to Shyam = Rs. 4860. This is a 19% loss, so $0.81 \\times C = 4860$, which means $C = 4860/0.81 = 6000$. Let Hari's purchase price from Shyam be H. If Bina sold at H, she'd make a 17% profit. So $H = 1.17 \\times C = 1.17 \\times 6000 = 7020$. Shyam's cost price is 4860 and his selling price is 7020. Shyam's profit is $7020 - 4860 = 2160$.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-bybz7w",
+      "q": "A fruit seller has a stock of mangoes, bananas and apples with at least one fruit of each type. At the beginning of a day, the number of mangoes make up 40% of his stock. That day, he sells half of the mangoes, 96 bananas and 40% of the apples. At the end of the day, he ends up selling 50% of the fruits. The smallest possible total number of fruits in the stock at the beginning of the day is",
+      "options": [
+        "300",
+        "320",
+        "340",
+        "360"
+      ],
+      "correct": 2,
+      "explain": "Let M, B, A be the number of mangoes, bananas, apples. Total T = M+B+A. M=0.4T. Fruits sold: $0.5M + 96 + 0.4A = 0.5T$. Substitute M: $0.5(0.4T)+96+0.4A=0.5T \\implies 0.2T+96+0.4A=0.5T \\implies 96+0.4A=0.3T$. So $T = (96+0.4A)/0.3 = 320 + 4A/3$. Since T and A must be integers, A must be a multiple of 3. Also $B=T-M-A = (320+4A/3)-0.4(320+4A/3)-A = 320+4A/3 - 128-1.6A/3 - A = 192-A/3-1.6A/3=192 - 2.6A/3$. Hmm, calculation error. $B=T-M-A = T-0.4T-A = 0.6T-A$. $B=0.6(320+4A/3)-A = 192+0.8A-A=192-0.2A$. Bananas sold is 96, so $B \\ge 96$. $192-0.2A \\ge 96 \\implies 96 \\ge 0.2A \\implies A \\le 480$. We need to minimize T. T increases with A. Smallest A multiple of 3. Let's check $A=3, T=324$. $B=192-0.6=191.4$ not integer. We need $0.2A$ to be an integer. A must be a multiple of 5. Smallest multiple of 3 and 5 is 15. Let $A=15$. $T=320+4(15)/3 = 340$. $B=192-0.2(15)=189$. So total fruits = 340.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-fvs2jw",
+      "q": "Anil invests Rs 22000 for 6 years in a scheme with 4% interest per annum, compounded half-yearly. Separately, Sunil invests a certain amount in the same scheme for 5 years, and then reinvests the entire amount he receives at the end of 5 years, for one year at 10% simple interest. If the amounts received by both at the end of 6 years are equal, then the initial investment, in rupees, made by Sunil is",
+      "options": [
+        "20480",
+        "20808",
+        "20640",
+        "20860"
+      ],
+      "correct": 1,
+      "explain": "Anil's amount: $A = P(1+r/n)^{nt} = 22000(1+0.04/2)^{2 \\times 6} = 22000(1.02)^{12}$. Let Sunil's investment be P. Amount after 5 years = $P(1.02)^{10}$. This is then invested for 1 year at 10% SI. Final amount for Sunil = $P(1.02)^{10} \\times 1.1$. We are given $22000(1.02)^{12} = P(1.02)^{10} \\times 1.1$. So, $P = \\frac{22000(1.02)^2}{1.1} = \\frac{22000 \\times 1.0404}{1.1} = 20000 \\times 1.0404 = 20808$.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Percents Profits SICI",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Physics - Oscillations",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Physics",
+  "topic": "Oscillations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1hkdwyc",
+      "q": "The equation of motion of a particle is given by $x = a \\sin\\left(50t + \\frac{\\pi}{3}\\right)\\text{ cm}$. The particle will come to rest at time $t_1$ and it will have zero acceleration at time $t_2$. The $t_1$ and $t_2$ respectively are _______.",
+      "options": [
+        "$\\frac{\\pi}{300}\\text{ s}, \\frac{\\pi}{75}\\text{ s}$",
+        "$\\frac{\\pi}{75}\\text{ s}, \\frac{\\pi}{300}\\text{ s}$",
+        "$\\frac{\\pi}{300}\\text{ s}, \\frac{\\pi}{25}\\text{ s}$",
+        "$\\frac{\\pi}{50}\\text{ s}, \\frac{\\pi}{100}\\text{ s}$"
+      ],
+      "correct": 0,
+      "explain": "Velocity $v = \\frac{dx}{dt} = 50a \\cos\\left(50t + \\frac{\\pi}{3}\\right)$. For particle to come to rest, $v=0 \\implies 50t_1 + \\frac{\\pi}{3} = \\frac{\\pi}{2} \\implies 50t_1 = \\frac{\\pi}{6} \\implies t_1 = \\frac{\\pi}{300}\\text{ s}$.\nAcceleration $A = \\frac{dv}{dt} = -2500a \\sin\\left(50t + \\frac{\\pi}{3}\\right)$. For zero acceleration, $A=0 \\implies 50t_2 + \\frac{\\pi}{3} = \\pi \\implies 50t_2 = \\frac{2\\pi}{3} \\implies t_2 = \\frac{2\\pi}{150} = \\frac{\\pi}{75}\\text{ s}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Oscillations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

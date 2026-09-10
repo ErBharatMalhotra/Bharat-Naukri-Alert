@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Electromagnetic Waves",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Electromagnetic Waves",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-1xmzmcc",
+      "q": "An electromagnetic wave travelling in x-direction is described by field equation $E_y = 300 \\sin \\omega \\left(t - \\frac{x}{c}\\right)$. If the electron is restricted to move in y-direction only with speed of $1.5 \\times 10^6\\text{ m/s}$ then ratio of maximum electric and magnetic forces acting on the electron is _______.",
+      "options": [
+        "200",
+        "150",
+        "400",
+        "300"
+      ],
+      "correct": 0,
+      "explain": "In an electromagnetic wave in vacuum, the amplitudes of the electric field ($E_0$) and magnetic field ($B_0$) are related by $E_0 = c B_0$, where $c$ is the speed of light.\nThe maximum electric force on the electron is $F_E = e E_0$.\nThe maximum magnetic force on the electron moving with speed $v$ is $F_B = e v B_0 \\sin(90^\\circ) = e v B_0$ (since the electron moves in the y-direction and magnetic field is in the z-direction, they are mutually perpendicular).\nThe ratio of the maximum electric force to the maximum magnetic force is:\n$\\frac{F_E}{F_B} = \\frac{e E_0}{e v B_0} = \\frac{E_0}{v B_0}$\nSubstitute $E_0 = c B_0$:\n$\\frac{F_E}{F_B} = \\frac{c B_0}{v B_0} = \\frac{c}{v}$\nGiven $c = 3 \\times 10^8\\text{ m/s}$ and $v = 1.5 \\times 10^6\\text{ m/s}$:\n$\\frac{F_E}{F_B} = \\frac{3 \\times 10^8}{1.5 \\times 10^6} = 2 \\times 10^2 = 200$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Electromagnetic Waves",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

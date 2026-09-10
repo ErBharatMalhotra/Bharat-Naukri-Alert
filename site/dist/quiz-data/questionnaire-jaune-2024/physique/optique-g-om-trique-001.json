@@ -1,0 +1,51 @@
+{
+  "title": "Questionnaire jaune 2024 - Physique - Optique géométrique",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Physique",
+  "topic": "Optique géométrique",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-13p04pk",
+      "q": "Soit une lentille mince divergente. On observe que des rayons parallèles à l’axe optique divergent après passage par la lentille comme s’ils émergeaient d’un point situé $20\\text{ cm}$ avant le centre optique.\nA quel endroit doit se trouver un objet pour que son image soit droite, virtuelle et trois fois plus petite que l’objet ?",
+      "options": [
+        "$13{,}3\\text{ cm}$ avant la lentille.",
+        "$20\\text{ cm}$ après la lentille.",
+        "$40\\text{ cm}$ avant la lentille.",
+        "$40\\text{ cm}$ après la lentille."
+      ],
+      "correct": 2,
+      "explain": "La lentille est divergente et le foyer image est situé à $20\\text{ cm}$ avant le centre optique, donc la distance focale $f = -20\\text{ cm}$. Le grandissement $G = 1/3$ (image droite, donc positif). On sait que $G = \\frac{p'}{p}$ (ou $-\\frac{p'}{p}$ selon la convention, utilisons la convention où $p$ est la distance objet-lentille et $p'$ est la position de l'image). L'image virtuelle se forme du même côté : $p' = -p/3$. Par la formule des lentilles $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}$, on a $\\frac{1}{-20} = \\frac{1}{p} - \\frac{3}{p} = -\\frac{2}{p}$. D'où $p = 40\\text{ cm}$, ce qui signifie que l'objet doit être à $40\\text{ cm}$ avant la lentille.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Optique géométrique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    },
+    {
+      "id": "questionnaire-jaune-2024-1mpc3l8",
+      "q": "Une araignée d'eau, dont le corps est noir et opaque, est posée à la surface d'une mare dont l'eau est transparente et calme. Nous supposerons que la surface de la mare prend la forme idéalisée suivante où ABC forme un triangle isocèle en creux sous le poids de l'insecte. Le fond de la mare est éclairé par la lumière du soleil dont les faisceaux sont parallèles et verticaux.\nL'ombre de l'insecte sur le fond de la mare est…",
+      "options": [
+        "inexistante.",
+        "de même taille que l'insecte.",
+        "plus grande que l'insecte.",
+        "plus petite que l'insecte."
+      ],
+      "correct": 2,
+      "explain": "La déformation creuse à la surface de l'eau, agissant comme l'interface entre l'air (indice plus faible) et l'eau (indice plus fort), se comporte comme une lentille divergente vis-à-vis des rayons solaires parallèles. Les rayons réfractés s'écartent du corps de l'araignée d'eau. La zone non éclairée au fond de la mare est donc élargie, ce qui crée une ombre plus grande que l'insecte lui-même.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Optique géométrique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "title": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills - Biotechnology - PCR: denaturation, annealing, extension",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+  "subject": "Biotechnology",
+  "topic": "PCR: denaturation, annealing, extension",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-4kabvc",
+      "q": "A standard Polymerase Chain Reaction (PCR) consists of 30-40 repeating cycles of three distinct temperature steps. During the first step, the thermal cycler aggressively heats the sample to $94^\\circ\\text{C}-98^\\circ\\text{C}$. What is the specific molecular purpose of this high-temperature step?",
+      "options": [
+        "To provide the optimal activation energy for *Taq* polymerase to synthesize new DNA strands.",
+        "To allow the short oligonucleotide primers to form stable base-pairs with the target sequence.",
+        "To break the hydrogen bonds between the complementary nitrogenous bases, separating the double-stranded DNA into single strands.",
+        "To permanently break the phosphodiester bonds on the sugar-phosphate backbone, degrading non-target DNA."
+      ],
+      "correct": 2,
+      "explain": "The first step of PCR is **Denaturation**. \n\nHeating the sample to $94^\\circ\\text{C}-98^\\circ\\text{C}$ provides enough thermal energy to break the weak **hydrogen bonds** holding the two DNA strands together, yielding the single-stranded DNA required for the primers to bind in the next step. It does not break the covalent phosphodiester backbone (Option 'd'), which would destroy the DNA sequence.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "PCR: denaturation, annealing, extension",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-1jyx7k4",
+      "q": "A researcher designs a new pair of forward and reverse primers for a PCR assay. Bioinformatic software calculates the melting temperature ($T_m$) of these primers to be exactly $62^\\circ\\text{C}$. Which specific parameter in the thermal cycler protocol must the researcher dynamically program based on this calculated $T_m$ to ensure specific binding?",
+      "options": [
+        "The Denaturation temperature",
+        "The Annealing temperature",
+        "The Extension temperature",
+        "The Final Hold temperature"
+      ],
+      "correct": 1,
+      "explain": "The **Annealing step** is when the primers bind to the single-stranded DNA template. \n\nThe optimal temperature for this step is entirely dependent on the specific sequence of the primers (particularly the G-C content). Researchers typically program the annealing temperature to be roughly $3^\\circ\\text{C}-5^\\circ\\text{C}$ below the calculated $T_m$ of the primers (e.g., $57^\\circ\\text{C}-59^\\circ\\text{C}$). Denaturation ($95^\\circ\\text{C}$) and extension ($72^\\circ\\text{C}$) temperatures are generally kept standard regardless of the primer sequence.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "PCR: denaturation, annealing, extension",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-ln9nzw",
+      "q": "A technician is attempting to amplify a massive $2,000 \\text{ base pair (bp)}$ genomic target sequence. Knowing that standard *Taq* DNA polymerase synthesizes DNA at a rate of approximately $1,000 \\text{ bases per minute}$, what is the most scientifically appropriate duration for the **extension** step of each cycle?",
+      "options": [
+        "$30 \\text{ seconds}$",
+        "$1 \\text{ minute}$",
+        "$2 \\text{ minutes}$",
+        "$5 \\text{ minutes}$"
+      ],
+      "correct": 2,
+      "explain": "The **Extension step** (usually performed at $72^\\circ\\text{C}$) provides time for *Taq* polymerase to build the new complementary strand. \n\nThe required time depends entirely on the length of the target amplicon. Since the target is $2,000 \\text{ bp}$ long, and the enzyme's processing speed is $1,000 \\text{ bp}$ per minute, the thermal cycler must be programmed to remain at the extension temperature for at least **2 minutes** per cycle. ($2000 \\div 1000 = 2$). Programming too short a time would result in truncated, incomplete DNA fragments.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "PCR: denaturation, annealing, extension",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-yfldhd",
+      "q": "PCR relies on exponential amplification to rapidly copy target sequences. If a technician starts a reaction with exactly $10 \\text{ copies}$ of the target double-stranded DNA molecule, and the reaction proceeds with perfect $100\\%$ amplification efficiency, how many copies of the target sequence will exist after exactly $5 \\text{ cycles}$?",
+      "options": [
+        "$50 \\text{ copies}$",
+        "$100 \\text{ copies}$",
+        "$320 \\text{ copies}$",
+        "$500 \\text{ copies}$"
+      ],
+      "correct": 2,
+      "explain": "PCR amplification follows the exponential formula:\n$$ \\text{Final Copies} = \\text{Initial Copies} \\times 2^n $$\nwhere $n$ is the number of cycles.\n\n1. Calculate the multiplication factor for 5 cycles:\n   $$ 2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32 $$\n2. Multiply by the initial number of copies:\n   $$ 10 \\times 32 = 320 \\text{ copies} $$\nAfter 5 cycles, the 10 initial templates will have amplified into 320 copies.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "PCR: denaturation, annealing, extension",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-1ikcvbz",
+      "q": "A student prepares a PCR Master Mix but accidentally omits the magnesium chloride ($MgCl_2$). After running the thermal cycler for 35 cycles and visualizing the reaction on an agarose gel, no bands are visible. What is the molecular role of $MgCl_2$ in PCR that explains this assay failure?",
+      "options": [
+        "It lowers the melting temperature of the DNA double helix to assist with the denaturation step.",
+        "It serves as an essential positively charged cofactor required for the catalytic activity of *Taq* DNA polymerase.",
+        "It provides the raw nucleotide building blocks (dNTPs) required for the extension phase.",
+        "It physically links the oligonucleotide primers to the template strand during the annealing phase."
+      ],
+      "correct": 1,
+      "explain": "Magnesium ions ($Mg^{2+}$) act as a vital **cofactor** for *Taq* DNA polymerase. \n\nThe enzyme requires the positively charged magnesium ions to stabilize the highly negative phosphate groups on the dNTPs and the DNA backbone during strand synthesis. Without magnesium chloride in the buffer, *Taq* polymerase is completely enzymatically inactive, resulting in absolutely zero DNA amplification. \n> Nucleotides are supplied by dNTPs (Option 'c'). \n> Primer binding relies on hydrogen bonds and correct temperature, not a chemical linkage (Option 'd').",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "PCR: denaturation, annealing, extension",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

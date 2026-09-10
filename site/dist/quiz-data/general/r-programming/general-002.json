@@ -1,0 +1,1308 @@
+{
+  "title": "General - r programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "r programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "What is the role of the rep() function in R?",
+      "options": [
+        "Repeat elements of a vector",
+        "Replace missing values",
+        "Remove duplicate elements",
+        "Reverse the order of elements"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you check the data type of a variable in R?",
+      "options": [
+        "typeof(var)",
+        "class(var)",
+        "type(var)",
+        "checkType(var)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of 5 %% 2 in R?",
+      "options": [
+        "2.5",
+        "0.5"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you round a numeric value to the nearest integer using the round() function?",
+      "options": [
+        "round(5.78)",
+        "round_to_int(5.78)",
+        "round_up(5.78)",
+        "round_down(5.78)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the scan() function do in R?",
+      "options": [
+        "Read input from the console",
+        "Read data from a file",
+        "Perform a linear regression",
+        "Generate random numbers"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to calculate the square root of a number in R?",
+      "options": [
+        "sqrt()",
+        "squareRoot()",
+        "sqrRoot()",
+        "rootSquare()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what does the function toupper(\"hello\") return?",
+      "options": [
+        "\"HELLO\"",
+        "\"hello\"",
+        "\"hElLo\"",
+        "\"Hello\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of sum(1:5) in R?",
+      "options": [
+        "15",
+        "10",
+        "11",
+        "25"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How is the maximum value of a numeric vector calculated in R using the max() function?",
+      "options": [
+        "max(vector)",
+        "maximum(vector)",
+        "vectorMax(vector)",
+        "max_value(vector)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what does the function tolower(\"WORLD\") return?",
+      "options": [
+        "\"world\"",
+        "\"WORLD\"",
+        "\"wOrLd\"",
+        "\"World\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the length() function in R?",
+      "options": [
+        "Returns the sum of elements",
+        "Returns the number of elements",
+        "Computes the length of a vector",
+        "Calculates the mean of a vector"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you create a sequence of even numbers from 2 to 10?",
+      "options": [
+        "seq(2, 10, by = 2)",
+        "seq_even(2, 10)",
+        "even_seq(2, 10)",
+        "seq(2, 10)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the sort() function do in R?",
+      "options": [
+        "Arrange elements in ascending order",
+        "Shuffle the elements randomly",
+        "Reverse the order of elements",
+        "Sort elements in descending order"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you calculate the mean of a numeric vector in R?",
+      "options": [
+        "mean(vector)",
+        "average(vector)",
+        "vec_mean(vector)",
+        "calc_mean(vector)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how is the minimum value of a numeric vector calculated using the min() function?",
+      "options": [
+        "min(vector)",
+        "minimum(vector)",
+        "vectorMin(vector)",
+        "min_value(vector)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the rev() function do in R?",
+      "options": [
+        "Reverse the order of elements",
+        "Remove duplicate elements",
+        "Rotate elements to the right",
+        "Sort elements in descending order"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you create a vector of logical values in R?",
+      "options": [
+        "c(TRUE, FALSE, TRUE)",
+        "vector(TRUE, FALSE, TRUE)",
+        "logical_vector(TRUE, FALSE, TRUE)",
+        "create_logical_vector(TRUE, FALSE)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what does the abs() function do?",
+      "options": [
+        "Return the absolute values of elements",
+        "Compute the average of elements",
+        "Calculate the square root",
+        "Find the maximum value"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the unique() function in R?",
+      "options": [
+        "Remove duplicate elements from a vector",
+        "Identify unique elements in a vector",
+        "Create a vector of unique values",
+        "Find the maximum unique value"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you create a vector of characters in R?",
+      "options": [
+        "c(\"apple\", \"banana\", \"cherry\")",
+        "char_vector(\"apple\", \"banana\", \"cherry\")",
+        "vector(\"apple\", \"banana\", \"cherry\")",
+        "create_char_vector(\"apple\", \"banana\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Decimal values are referred as . . . . . . . . data types in R.",
+      "options": [
+        "Numeric",
+        "Character",
+        "Integer",
+        "Lists"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function can be used to create vectors of objects by concatenating things together.",
+      "options": [
+        "cp()",
+        "c()",
+        "concat()",
+        "con()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "An ordered factor is used to represent an . . . . . . . .",
+      "options": [
+        "Ordinal variable",
+        "Simple variable",
+        "Coordinal variable",
+        "Biordinal variable"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > m &lt;- 1:10 > m",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10",
+        "1 2 3 4 5 6 7 8 9 10 11",
+        "0 1 2 3 4 5 6 7 8 9 10",
+        "10 9 8 6 5 4 2 3 1 2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What should we use to access elements with a value greater than five?",
+      "options": [
+        "Subsetting commands",
+        "Use functions",
+        "Packages",
+        "Interfaces"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Lists can be coerced with which function?",
+      "options": [
+        "As.lists",
+        "Has.lists",
+        "In.lists",
+        "Co.lists"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which dimension corresponds to the explanatory variables collected for each species?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fifth"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > m &lt;- matrix(nrow = 2, ncol = 3) > dim(m)",
+      "options": [
+        "3 2",
+        "2 3",
+        "2 2",
+        "4 5"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > x &lt;- factor(c(\"yes\", \"yes\", \"no\", \"yes\", \"no\")) > table(x)",
+      "options": [
+        "no&nbsp; yes\n2&nbsp; 3",
+        "yes&nbsp; no\n2&nbsp; 3",
+        "no&nbsp; yes\n2&nbsp; 2",
+        "yes&nbsp; yes\n6&nbsp; 2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following code constructs vector of length 11?",
+      "options": [
+        "> v &lt;- 3*x + y + 1",
+        "> v &lt;- 3*x + y + 2",
+        "> v &lt;- 2*x + y + 1",
+        "> v &lt;- 2*x + y + 4"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How can we access the first component of the list?",
+      "options": [
+        "Number of the position",
+        "Function",
+        "Package",
+        "Tools"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "An ordered collection of objects or components are called . . . . . . . .",
+      "options": [
+        "Data frames",
+        "Datasets",
+        "Databases",
+        "Lists"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function returns a list of densities (y) corresponding to bin values (x).",
+      "options": [
+        "Spline",
+        "Density",
+        "Lists",
+        "Locator"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Data frames can have additional attributes such as . . . . . . . .",
+      "options": [
+        "Rowname()",
+        "Rownames()",
+        "R.names()",
+        "D.names()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . function takes an arbitrary number of arguments and concatenates them one by one into character strings.",
+      "options": [
+        "copy()",
+        "paste()",
+        "bind()",
+        "del()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "All columns in a matrix must have the same mode and the . . . . . . . . length.",
+      "options": [
+        "Different",
+        "Same",
+        "May be the same",
+        "May be different"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The four most frequently used types of data objects in R are vectors, matrices, data frames and . . . . . . . .",
+      "options": [
+        "Function",
+        "Lists",
+        "Packages",
+        "Interfaces"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . .are Data frames which contain lists of homogeneous data in a tabular format.",
+      "options": [
+        "Matrix",
+        "Vector",
+        "Lists",
+        "Array"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > x &lt;- 1:3 > y &lt;- 10:12 > rbind(x, y)",
+      "options": [
+        "[,1] [,2] [,3]\nx 1 2 3\ny 10 11 12",
+        "[,1] [,2] [,3]\nx 1 2 3\ny 10 11",
+        "[,1] [,2] [,3]\nx 1 2 3\ny 4 5 6",
+        "[,4] [,5] [,3]\nx 1 3 5\ny 4 5 2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "To bind a row onto an already existing matrix, the . . . . . . . . function can be used.",
+      "options": [
+        "Rbind",
+        "Sbnd",
+        "Gbind",
+        "Sbind"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "vectors can be one of two types namely atomic vectors and . . . . . . . .",
+      "options": [
+        "Matrix",
+        "Vector",
+        "Lists",
+        "Array"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "A . . . . . . . . is a set of elements appearing in rows and columns where the elements are of the same mode whether they are logical, numeric (integer or double), complex or character.",
+      "options": [
+        "Vector",
+        "Matrix",
+        "Lists",
+        "Data frames"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function replicates elements of vectors?",
+      "options": [
+        "Rep",
+        "Crep",
+        "Grep"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statement changes column name to h and f?",
+      "options": [
+        "colnames(m) &lt;- c(\"h\", \"f\")",
+        "columnnames(m) &lt;- c(\"h\", \"f\")",
+        "rownames(m) &lt;- c(\"h\", \"f\")",
+        "rownames(m) &lt;- c(\"f\", \"f\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a 3-dimensional dataset?",
+      "options": [
+        "Eris",
+        "Iris",
+        "Toris",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > sqrt(-17)",
+      "options": [
+        "-4.02",
+        "4.02",
+        "NaN",
+        "3.67"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statement is invalid?",
+      "options": [
+        "x &lt;- c(1+0i, 2+4i)",
+        "x &lt;- c(TRUE, FALSE)",
+        "x &lt;- c(T, F)",
+        "None of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Locator function gives output as . . . . . . . .",
+      "options": [
+        "Matrix",
+        "Lists",
+        "Vector",
+        "Number"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Numbers in R are generally treated as . . . . . . . . precision real numbers.",
+      "options": [
+        "single",
+        "double",
+        "real",
+        "imaginary"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "To extract a sublist, we use . . . . . . . . brackets.",
+      "options": [
+        "Flower",
+        "Square",
+        "Double",
+        "Single"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Using the . . . . . . . . vector, we create a species factor and bind it to the columns of iris.df.",
+      "options": [
+        "snames",
+        "rnames",
+        "jnames",
+        "fnames"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which is the basic data structure of R containing the same type of data?",
+      "options": [
+        "Functions",
+        "Array",
+        "Vector",
+        "Lists"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is invalid assignment?",
+      "options": [
+        "> x &lt;- list(\"Los Angeles\" = 1, Boston = 2, London = 3)",
+        "> names(x) &lt;- c(\"New York\", \"Seattle\", \"Los Angeles\")",
+        "> name(x) &lt;- c(\"New York\", \"Seattle\", \"Los Angeles\")",
+        "> names(x) &lt;- c(\"New York\", \"Los Angeles\", \"Los Angeles\")"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function takes a dim attribute which creates the required number of dimensions?",
+      "options": [
+        "Vector",
+        "Array",
+        "Matrix",
+        "Lists"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "A . . . . . . . . is a two-dimensional rectangular data set.",
+      "options": [
+        "Vector",
+        "Lists",
+        "Matrix",
+        "Functions"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to combine the elements into a vector?",
+      "options": [
+        "C()",
+        "D()",
+        "E()",
+        "F()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "By what function we can create data frames?",
+      "options": [
+        "Data.frames()",
+        "Data.sets ()",
+        "Function ()",
+        "C ()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statement would print \"0\" \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" for the following R code? > x &lt;- 0:6",
+      "options": [
+        "as.character(x)",
+        "as.logical(x)",
+        "as.numeric(x)",
+        "as.num(y)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > x &lt;- 6 > class(x)",
+      "options": [
+        "\"integer\"",
+        "\"numeric\"",
+        "\"real\"",
+        "\"imaginary\""
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the Correct R code for the following output? foo bar 1 1 TRUE 2 2 TRUE 3 3 FALSE 4 4 FALSE",
+      "options": [
+        "> x &lt;- data.frame(foo = 1:4, bar = c(F, T, F, F))\n> x",
+        "> x &lt;- data.frame(foo = 1:6, bar = c(F, T, F, F))\n> x",
+        "> x &lt;- data.frame(foo = 1:4, bar = c(T, T, F, F))\n> x",
+        "> x &lt;- data.frame(foo = 14:1, bar = c(F, T, F, F))\n> x"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function returns a vector of the same size as x with the elements arranged in increasing order.",
+      "options": [
+        "sort()",
+        "orderasc()",
+        "orderby()",
+        "sequence()"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Factors are created using the . . . . . . . . function.",
+      "options": [
+        "C()",
+        "Function()",
+        "Array()",
+        "Lists()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "First component of the list can be accessed by . . . . . . . .",
+      "options": [
+        "Name of the component",
+        "List name",
+        "Function",
+        "Package"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function is used to enter in data at the terminal?",
+      "options": [
+        "Scanned",
+        "Scnn",
+        "Scan",
+        "Sccn"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which are indexed by either row or column using a specific name or number?",
+      "options": [
+        "Datasets",
+        "Data frames",
+        "Data",
+        "Functions"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following R code? > x &lt;- list(1, \"a\", TRUE, 1 + 4i) > x",
+      "options": [
+        "[[1]]\n[1] 1\n \n[[2]]\n[1] \"a\"\n \n[[3]]\n[1] TRUE\n \n[[4]]\n[1] 1+4i",
+        "[[1]]\n[1] 2\n \n[[2]]\n[1] \"b\"\n \n[[3]]\n[1] TRUE\n \n[[4]]\n[1] 1+4i",
+        "[[1]]\n[1] 3\n \n[[2]]\n[1] \"a\"\n \n[[3]]\n[1] TRUE\n \n[[4]]\n[1] 1+4i",
+        "[[1]]\n[1] 77\n \n[[2]]\n[1] \"a\"\n \n[[3]]\n[1] False\n \n[[4]]\n[1] 1+5i"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used for reading tabular data?",
+      "options": [
+        "read.csv",
+        "dget",
+        "readLines",
+        "writeline"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Computation with vectors is achieved using an element-by-element operation for avoiding . . . . . . . .",
+      "options": [
+        "Loops",
+        "Functions",
+        "Packages",
+        "Interfaces"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "A data frame is a special type of list where every element of the list has . . . . . . . . length.",
+      "options": [
+        "Same",
+        "Different",
+        "May be different",
+        "May be same"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which function can be used to determine the names assigned to a list?",
+      "options": [
+        "Names",
+        "Name",
+        "Nam",
+        "Nem"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "The length of a list is . . . . . . . . to the number of components in that list.",
+      "options": [
+        "Double",
+        "Equal",
+        "Triple",
+        "One fourth"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Find the following type of vector? a &lt;- c(1,2,5.3,6,-2,4)",
+      "options": [
+        "Numeric",
+        "Character",
+        "Integer",
+        "Logical"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Density function gives output as . . . . . . . .",
+      "options": [
+        "Matrix",
+        "Lists",
+        "Vector",
+        "Number"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following code snippet will create a vector with NAs in it?",
+      "options": [
+        "x >- c(1, 2, NA, 10, 3)",
+        "x >- cNA(1, 2, NA, 10, 3)",
+        "x >- NA(1, 2, NA, 10, 3)",
+        "x >- NA(1, 5, NA, 10, 8)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the simplest way of creating the vector?",
+      "options": [
+        "C function",
+        "Create",
+        "Destroy",
+        "Invalid"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . provides optional labels with the columns and rows.",
+      "options": [
+        "Disnames",
+        "Dimnames",
+        "Denmes",
+        "Demnesd"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "Which data structure in R is used to store an ordered collection of elements?",
+      "options": [
+        "List",
+        "Matrix",
+        "Data Frame",
+        "Vector"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the matrix() function create in R?",
+      "options": [
+        "A list of elements",
+        "A one-dimensional array",
+        "A two-dimensional array",
+        "A data frame"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you create a list named my_list with three elements: 1, \"hello\", and TRUE?",
+      "options": [
+        "my_list &lt;- c(1, \"hello\", TRUE)",
+        "my_list = list(1, \"hello\", TRUE)",
+        "my_list(1, \"hello\", TRUE)",
+        "list(my_list = c(1, \"hello\", TRUE))"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary data structure used for storing tabular data in R?",
+      "options": [
+        "List",
+        "Matrix",
+        "Data Frame",
+        "Array"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How is a vector different from a list in R?",
+      "options": [
+        "Vectors can only store numeric values",
+        "Lists can store elements of different types",
+        "Lists can only store characters",
+        "Vectors can store elements of different types"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how is a matrix initialized with values 1 to 9 arranged in three rows?",
+      "options": [
+        "matrix(1:9, nrow = 3, ncol = 3)",
+        "matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), 3, 3)",
+        "matrix(1:9, rows = 3, cols = 3)",
+        "mat(1:9, 3, 3)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you create a factor in R named color with levels \"red\", \"green\", and \"blue\"?",
+      "options": [
+        "factor(color, levels = c(\"red\", \"green\", \"blue\"))",
+        "factor(color, levels = \"red\", \"green\", \"blue\")",
+        "factor(color = c(\"red\", \"green\", \"blue\"))",
+        "factor(color = c(\"red\", \"green\", \"blue\"), levels = c(\"red\", \"green\", \"blue\"))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the data.frame() function in R?",
+      "options": [
+        "Create a vector",
+        "Create a data frame",
+        "Create a matrix",
+        "Create a list"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you create a named list with elements \"apple\", \"orange\", and \"banana\"?",
+      "options": [
+        "list(\"apple\", \"orange\", \"banana\")",
+        "named_list(c(\"apple\", \"orange\", \"banana\"))",
+        "list(c(\"apple\", \"orange\", \"banana\"))",
+        "list(elements = c(\"apple\", \"orange\", \"banana\"))"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to access the second element of a vector named my_vector in R?",
+      "options": [
+        "my_vector(2)",
+        "my_vector[2]",
+        "my_vector.2",
+        "my_vector[[2]]"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you check the structure of a data frame named my_data in R?",
+      "options": [
+        "struct(my_data)",
+        "str(my_data)",
+        "structure(my_data)",
+        "check_structure(my_data)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what is the purpose of the names() function?",
+      "options": [
+        "Retrieve the number of elements in an object",
+        "Set or retrieve names of an object",
+        "Assign names to the elements",
+        "Remove names from an object"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What function is used to convert a factor to a character vector in R?",
+      "options": [
+        "as.factor()",
+        "as.character()",
+        "to.character()",
+        "factor_to_char()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How is a data frame column named Age selected in R?",
+      "options": [
+        "data$Age",
+        "data[,\"Age\"]",
+        "data[[\"Age\"]]",
+        "data.column(\"Age\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you add a new column named Height to a data frame named my_data?",
+      "options": [
+        "my_data$Height &lt;- c(160, 170, 155)",
+        "add_column(my_data, \"Height\", c(160, 170, 155))",
+        "my_data[,\"Height\"] &lt;- c(160, 170, 155)",
+        "append_column(my_data, \"Height\", c(160, 170, 155))"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you create a character vector with the elements \"apple\", \"orange\", and \"banana\" in R?",
+      "options": [
+        "char_vec &lt;- c(\"apple\", \"orange\", \"banana\")",
+        "vector(\"apple\", \"orange\", \"banana\")",
+        "create_char_vector(\"apple\", \"orange\", \"banana\")",
+        "char_vec(c(\"apple\", \"orange\", \"banana\"))"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the str() function do in R?",
+      "options": [
+        "Display the structure of an object",
+        "Convert object to a string",
+        "Compute the mean of an object",
+        "Check the type of an object using string comparison"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how do you create a data frame named my_df with columns Name and Age?",
+      "options": [
+        "my_df &lt;- data.frame(Name = c(\"Alice\", \"Bob\"), Age = c(25, 30))",
+        "create_df(Name = c(\"Alice\", \"Bob\"), Age = c(25, 30))",
+        "df(Name = c(\"Alice\", \"Bob\"), Age = c(25, 30))",
+        "data_frame(Name = c(\"Alice\", \"Bob\"), Age = c(25, 30))"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, how is a factor converted to a numeric vector using the as.numeric() function?",
+      "options": [
+        "as.numeric(factor_vector)",
+        "factor_vector(as.numeric)",
+        "numeric(factor_vector)",
+        "to.numeric(factor_vector)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you extract the first row of a data frame named my_data in R?",
+      "options": [
+        "my_data[1, ]",
+        "my_data[first_row()]",
+        "my_data[,\"row\" == 1]",
+        "extract_row(my_data, 1)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what is the purpose of the table() function?",
+      "options": [
+        "Create a contingency table from factors",
+        "Display a table of values",
+        "Generate a summary of data using tables",
+        "Count the number of rows and columns in a data frame"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you remove a column named Income from a data frame named my_data in R?",
+      "options": [
+        "my_data &lt;- my_data[, -which(names(my_data) == \"Income\")]",
+        "my_data$Income &lt;- NULL",
+        "drop_column(my_data, \"Income\")",
+        "remove_col(my_data, \"Income\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "In R, what does the unlist() function do?",
+      "options": [
+        "Converts a list to a vector",
+        "Reverses the order of elements",
+        "Creates an unsorted list",
+        "Extracts unique elements from a vector"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    },
+    {
+      "q": "How is a character string converted to a numeric vector in R using the as.numeric() function?",
+      "options": [
+        "as.numeric(\"123\")",
+        "numeric(\"123\")",
+        "convert_numeric(\"123\")",
+        "to_numeric(\"123\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "r programming",
+      "language": "en"
+    }
+  ]
+}

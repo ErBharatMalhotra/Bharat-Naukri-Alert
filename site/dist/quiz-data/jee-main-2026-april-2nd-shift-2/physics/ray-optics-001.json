@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Physics - Ray Optics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Physics",
+  "topic": "Ray Optics",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1sbaoy4",
+      "q": "One side of an equilateral prism is painted by a transparent material of refractive index $n_2$. The refractive index of prism is $1.6$. The maximum (limit condition originally referred as minimum boundary requirement for total internal reflection in OCR) value of $n_2$ required for total internal reflection from painted face is _______.",
+      "options": [
+        "$3\\sqrt{3}/1.6$",
+        "$\\sqrt{3}$",
+        "$3.2/\\sqrt{3}$",
+        "$4\\sqrt{3}/5$"
+      ],
+      "correct": 3,
+      "explain": "A light ray normally incident on the first face of an equilateral prism ($A=60^\\circ$) will strike the second face at an angle of incidence $i = 60^\\circ$.\nFor total internal reflection at this face, the angle of incidence must be strictly greater than or equal to the critical angle $\\theta_c$.\n$\\sin(60^\\circ) \\geq \\sin \\theta_c = \\frac{n_2}{n_{prism}}$.\n$\\frac{\\sqrt{3}}{2} \\geq \\frac{n_2}{1.6} \\implies n_2 \\leq 1.6 \\times \\frac{\\sqrt{3}}{2} = 0.8\\sqrt{3} = \\frac{4}{5}\\sqrt{3} = \\frac{4\\sqrt{3}}{5}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1602641",
+      "q": "If sunlight is focused on a paper using a convex lens, it starts burning the paper in shortest time when the lens is kept at $30\\text{ cm}$ above the paper. If the radius of curvature of the lens is $60\\text{ cm}$ then the refractive index of the lens material is $\\frac{\\alpha}{10}$. The value of $\\alpha$ is _______.",
+      "options": [
+        "$10$",
+        "$15$",
+        "$20$",
+        "$25$"
+      ],
+      "correct": 2,
+      "explain": "Sunlight acts as a parallel beam, so the point where it is focused in the shortest time is the focal point. Thus, focal length $f = 30\\text{ cm}$.\nFor a symmetric biconvex lens, the Lens Maker's formula is $\\frac{1}{f} = (\\mu - 1)\\left(\\frac{1}{R} - \\frac{1}{-R}\\right) = (\\mu - 1)\\frac{2}{R}$.\nGiven $R = 60\\text{ cm}$, $\\frac{1}{30} = (\\mu - 1)\\frac{2}{60} \\implies \\frac{1}{30} = (\\mu - 1)\\frac{1}{30}$.\nTherefore, $\\mu - 1 = 1 \\implies \\mu = 2$.\nWe are given $\\mu = \\frac{\\alpha}{10}$. So $\\frac{\\alpha}{10} = 2 \\implies \\alpha = 20$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

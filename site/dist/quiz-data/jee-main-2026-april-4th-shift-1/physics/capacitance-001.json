@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Physics - Capacitance",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Physics",
+  "topic": "Capacitance",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-125faog",
+      "q": "A parallel plate air capacitor is connected to a battery. The plates are pulled apart at uniform speed $v$. If $x$ is the separation between the plates at any instant, then the time rate of change of electrostatic energy of the capacitor is proportional to $x^\\alpha$, where $\\alpha$ is _____.",
+      "options": [
+        "$-2$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "explain": "Since the capacitor remains connected to the battery, the potential difference $V$ is constant.\nThe electrostatic energy is $U = \\frac{1}{2} C V^2$.\nSubstituting $C = \\frac{\\varepsilon_0 A}{x}$, we get $U = \\frac{\\varepsilon_0 A V^2}{2x}$.\nThe time rate of change of energy is $\\frac{dU}{dt} = \\frac{d}{dt}\\left(\\frac{\\varepsilon_0 A V^2}{2x}\\right) = \\frac{\\varepsilon_0 A V^2}{2} \\left(-\\frac{1}{x^2}\\right) \\frac{dx}{dt}$.\nWe are given the separation rate is uniform, so $\\frac{dx}{dt} = v$ (constant).\n$\\frac{dU}{dt} = -\\frac{\\varepsilon_0 A V^2 v}{2x^2} \\propto x^{-2}$.\nTherefore, the power of $x$ is $\\alpha = -2$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Capacitance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

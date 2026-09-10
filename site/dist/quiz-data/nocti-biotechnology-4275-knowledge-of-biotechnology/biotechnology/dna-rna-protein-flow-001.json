@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Knowledge of Biotechnology - Biotechnology - DNA -> RNA -> Protein flow",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+  "subject": "Biotechnology",
+  "topic": "DNA -> RNA -> Protein flow",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-knowledge-of-biotechnology-16p4kdg",
+      "q": "The foundational 'Central Dogma' proposed by Francis Crick describes the strict, one-way flow of genetic information within a biological system. Which of the following sequences represents the correct standard flow of this genetic information in a typical eukaryotic cell?",
+      "options": [
+        "Protein $\\rightarrow$ RNA $\\rightarrow$ DNA",
+        "RNA $\\rightarrow$ DNA $\\rightarrow$ Protein",
+        "DNA $\\rightarrow$ RNA $\\rightarrow$ Protein",
+        "DNA $\\rightarrow$ Protein $\\rightarrow$ RNA"
+      ],
+      "correct": 2,
+      "explain": "The **Central Dogma of Molecular Biology** dictates that genetic information flows from **DNA to RNA to Protein**. \n\nSpecifically: \n1. Information stored in **DNA** is transcribed into messenger **RNA** (mRNA). \n2. The **RNA** transcript is translated by ribosomes into an amino acid sequence, forming a functional **Protein**. \nWhile exceptions exist (like retroviruses reversing RNA to DNA), the standard biological mechanism strictly follows the DNA $\\rightarrow$ RNA $\\rightarrow$ Protein pathway.",
+      "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+      "subject": "Biotechnology",
+      "topic": "DNA -> RNA -> Protein flow",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-knowledge-of-biotechnology-1rdbots",
+      "q": "A biotechnologist isolates a section of the native human genome known to code for a vital hormone and inserts the sequence directly into an *E. coli* expression plasmid. The bacterium successfully transcribes the DNA into mRNA, but produces a completely non-functional, oversized string of gibberellic amino acids rather than the correct human protein. What key difference in eukaryotic vs. prokaryotic central dogma processing caused this failure?",
+      "options": [
+        "Bacteria utilize an entirely different universal genetic code; the codon 'AUG' codes for a stop signal in bacteria.",
+        "Bacteria lack the spliceosome machinery required to cut non-coding introns out of the raw eukaryotic mRNA transcript.",
+        "Bacterial ribosomes operate strictly inside the nucleus, whereas eukaryotic translation happens in the cytoplasm.",
+        "Bacterial DNA polymerases synthesize DNA in a 3' to 5' direction, reading the human gene backward."
+      ],
+      "correct": 1,
+      "explain": "This is a fundamental hurdle in recombinant biomanufacturing. Human (eukaryotic) genes contain **introns**—vast stretches of non-coding \"junk\" DNA nested inside the functional gene. \n\nEukaryotic cells transcribe everything into pre-mRNA and then use complex spliceosomes to cut out the introns before translation. **Bacteria (prokaryotes) do not possess introns or splicing machinery**. If you insert raw human genomic DNA into *E. coli*, it will translate the introns alongside the exons, resulting in a massively mutated, useless protein. To fix this, scientists must use synthetic **cDNA** (where the introns have already been reverse-transcribed out) when programming bacteria.",
+      "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+      "subject": "Biotechnology",
+      "topic": "DNA -> RNA -> Protein flow",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-knowledge-of-biotechnology-1emdnev",
+      "q": "The traditional Central Dogma outlines the flow of information from DNA to RNA to Protein. However, biotechnologists frequently exploit a unique biological deviation from this rule to create stable, intron-free templates for bacterial expression. Which viral enzyme is utilized in the laboratory to effectively reverse the central dogma by synthesizing complementary DNA (cDNA) from an mRNA template?",
+      "options": [
+        "DNA Ligase",
+        "Reverse Transcriptase",
+        "RNA Polymerase II",
+        "Helicase"
+      ],
+      "correct": 1,
+      "explain": "**Reverse Transcriptase** is an enzyme naturally found in retroviruses (like HIV). \n\nAs its name implies, it performs \"reverse transcription\"—reading an RNA molecule and building a complementary strand of DNA (cDNA). Biotechnologists use this enzyme extensively in RT-PCR to capture eukaryotic mRNA and lock it into stable DNA format for analysis or biomanufacturing. \n> *Ligase* (Option 'a') seals nicks in DNA. \n> *RNA Polymerase* (Option 'c') performs standard transcription (DNA $\\rightarrow$ RNA). \n> *Helicase* (Option 'd') unwinds the double helix.",
+      "exam": "NOCTI Biotechnology 4275: Knowledge of Biotechnology",
+      "subject": "Biotechnology",
+      "topic": "DNA -> RNA -> Protein flow",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

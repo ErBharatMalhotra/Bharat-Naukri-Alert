@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Coordinate Geometry",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Coordinate Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-1rm2vlc",
+      "q": "The (x, y) coordinates of vertices P, Q and R of a parallelogram PQRS are $(−3, −2)$, $(1, −5)$ and $(9, 1)$, respectively. If the diagonal SQ intersects the x-axis at $(a, 0)$, then the value of $a$ is",
+      "options": [
+        "13/4",
+        "29/9",
+        "27/7",
+        "10/3"
+      ],
+      "correct": 1,
+      "explain": "In a parallelogram, diagonals bisect each other. The midpoint of $PR$ is the midpoint of $QS$.\nMidpoint of $PR = (\\frac{-3 + 9}{2}, \\frac{-2 + 1}{2}) = (3, -0.5)$.\nLet coordinates of $S$ be $(x_s, y_s)$.\nMidpoint of $QS = (\\frac{x_s + 1}{2}, \\frac{y_s - 5}{2}) = (3, -0.5)$.\n$\\frac{x_s + 1}{2} = 3 \\implies x_s = 5$ and $\\frac{y_s - 5}{2} = -0.5 \\implies y_s = 4$. So $S$ is $(5, 4)$.\nThe line $SQ$ connects $(5, 4)$ and $(1, -5)$. \nSlope $m = \\frac{-5 - 4}{1 - 5} = \\frac{-9}{-4} = \\frac{9}{4}$.\nEquation of line $SQ$: $y - 4 = \\frac{9}{4}(x - 5)$.\nIt intersects the x-axis where $y = 0$:\n$0 - 4 = \\frac{9}{4}(a - 5) \\implies -16 = 9a - 45 \\implies 9a = 29 \\implies a = 29/9$.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Chemistry - Electrochemistry",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Chemistry",
+  "topic": "Electrochemistry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-17wmts4",
+      "q": "An electrochemical cell is constructed using half cells in the direction of spontaneous change\n$Fe(OH)_2(s) + 2e^- \\rightarrow Fe(s) + 2OH^-(aq) \\quad E^\\theta = -0.88\\text{ V}$\nand $AgBr(s) + e^- \\rightarrow Ag(s) + Br^-(aq) \\quad E^\\theta = +0.07\\text{ V}$\nWhich of the following option is correct?",
+      "options": [
+        "Overall reaction $Fe(s) + 2OH^-(aq) + 2AgBr(s) \\rightleftharpoons Fe(OH)_2(s) + 2Ag(s) + 2Br^-(aq)$",
+        "$E_{cell}^\\theta = -0.95\\text{ V}$",
+        "Fe is reduced in the electrochemical cell",
+        "$E_{cell}^\\theta$ is an extensive property"
+      ],
+      "correct": 0,
+      "explain": "For a spontaneous cell reaction, $E_{cell}^\\theta > 0$. Therefore, the half-cell with the higher standard reduction potential undergoes reduction (acts as the cathode), and the other undergoes oxidation (acts as the anode).\nCathode (Reduction): $2 \\times [AgBr(s) + e^- \\rightarrow Ag(s) + Br^-(aq)] \\quad E_{cathode}^\\theta = +0.07\\text{ V}$\nAnode (Oxidation): $Fe(s) + 2OH^-(aq) \\rightarrow Fe(OH)_2(s) + 2e^- \\quad E_{anode}^\\theta = -0.88\\text{ V}$ (given as reduction potential)\nOverall Reaction: $Fe(s) + 2OH^-(aq) + 2AgBr(s) \\rightleftharpoons Fe(OH)_2(s) + 2Ag(s) + 2Br^-(aq)$\nThis matches option (a).\nChecking other options:\n- $E_{cell}^\\theta = E_{cathode}^\\theta - E_{anode}^\\theta = 0.07 - (-0.88) = +0.95\\text{ V}$ (Option b is incorrect).\n- Fe is oxidized from $0$ to $+2$ state (Option c is incorrect).\n- $E_{cell}^\\theta$ is an intensive property, not an extensive one (Option d is incorrect).",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "bharat-naukri-alert",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Autonomous Indian opportunity intelligence engine - scholarships, exams, jobs, schemes",
+  "scripts": {
+    "scrape": "node engine/scrape.js",
+    "verify": "node engine/verify.js",
+    "digest": "node telegram/digest.js",
+    "evolve": "node engine/evolve.js",
+    "health": "node engine/health-check.js",
+    "build:site": "node site/build.js",
+    "test": "node tests/run.js",
+    "scrape:quizzes": "node engine/scrape-quizzes.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

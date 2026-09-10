@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Physics - Current Electricity",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Physics",
+  "topic": "Current Electricity",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-qqxhmb",
+      "q": "Two resistors of $200\\ \\Omega$ and $400\\ \\Omega$ are connected in series with a battery of $100\\text{ V}$. A bulb rated at $200\\text{ V}, 100\\text{ W}$ is connected across the $400\\ \\Omega$ resistance. The potential drop across the bulb is _______ V.",
+      "options": [
+        "$25$",
+        "$50$",
+        "$66.6$",
+        "$100$"
+      ],
+      "correct": 1,
+      "explain": "Resistance of the bulb $R_b = \\frac{V_{\\text{rated}}^2}{P_{\\text{rated}}} = \\frac{(200)^2}{100} = 400\\ \\Omega$.\nThe bulb is connected in parallel with the $400\\ \\Omega$ resistor. The equivalent resistance of this parallel combination is $R_p = \\frac{400 \\times 400}{400 + 400} = 200\\ \\Omega$.\nThe total resistance of the circuit is $R_{eq} = 200\\ \\Omega\\text{ (series part)} + R_p = 200 + 200 = 400\\ \\Omega$.\nThe main current $I = \\frac{V}{R_{eq}} = \\frac{100}{400} = 0.25\\text{ A}$.\nThe potential drop across the parallel part (which includes the bulb) is $V_{bulb} = I \\times R_p = 0.25 \\times 200 = 50\\text{ V}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

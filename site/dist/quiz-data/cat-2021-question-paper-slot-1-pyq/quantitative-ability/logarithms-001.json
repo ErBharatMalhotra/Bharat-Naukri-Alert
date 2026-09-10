@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Logarithms",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Logarithms",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-whtlbw",
+      "q": "If $5 - \\log_{10}\\sqrt{1+x} + 4\\log_{10}\\sqrt{1-x} = \\log_{10}\\frac{1}{\\sqrt{1-x^2}}$, then $100x$ equals",
+      "options": [
+        "89",
+        "99",
+        "100",
+        "109"
+      ],
+      "correct": 1,
+      "explain": "We can rewrite the equation using logarithmic properties:\n$\\log_{10}\\frac{1}{\\sqrt{1-x^2}} = -\\log_{10}\\sqrt{1-x^2} = -\\frac{1}{2}\\log_{10}(1-x^2) = -\\frac{1}{2}[\\log_{10}(1-x) + \\log_{10}(1+x)]$.\nAlso, $\\log_{10}\\sqrt{1+x} = \\frac{1}{2}\\log_{10}(1+x)$ and $\\log_{10}\\sqrt{1-x} = \\frac{1}{2}\\log_{10}(1-x)$.\nSubstitute into the original equation:\n$5 - \\frac{1}{2}\\log_{10}(1+x) + 2\\log_{10}(1-x) = -\\frac{1}{2}\\log_{10}(1-x) - \\frac{1}{2}\\log_{10}(1+x)$.\nThe $-\\frac{1}{2}\\log_{10}(1+x)$ cancels out from both sides.\nWe are left with: $5 + 2\\log_{10}(1-x) = -\\frac{1}{2}\\log_{10}(1-x)$.\n$5 = -2.5\\log_{10}(1-x)$.\n$\\log_{10}(1-x) = \\frac{5}{-2.5} = -2$.\n$1-x = 10^{-2} = 0.01$.\n$x = 0.99$.\nTherefore, $100x = 99$.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Logarithms",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Ethics - Biotechnology - Gene editing platforms (e.g., CRISPR)",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Ethics",
+  "subject": "Biotechnology",
+  "topic": "Gene editing platforms (e.g., CRISPR)",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-ethics-ciyqbw",
+      "q": "A biotechnology startup is planning human clinical trials using the CRISPR-Cas9 system to treat a rare genetic muscular dystrophy by editing somatic cells. What is the most significant bioethical and safety concern regarding the *molecular precision* of CRISPR-Cas9 that regulatory agencies will require the company to extensively evaluate prior to human trials?",
+      "options": [
+        "The Cas9 endonuclease may cleave unintended, but highly homologous, DNA sequences elsewhere in the genome, known as off-target effects.",
+        "The guide RNA (gRNA) has a high probability of permanently integrating into the host cell's mitochondrial genome.",
+        "CRISPR-Cas9 can only target and degrade messenger RNA (mRNA), making it ineffective for permanent genomic modifications.",
+        "The bacterial origin of the Cas9 protein guarantees a lethal anaphylactic immune response in all human patients upon first exposure."
+      ],
+      "correct": 0,
+      "explain": "The primary technical and safety concern with the CRISPR-Cas9 system is the potential for **off-target effects**. \n\nThe guide RNA (gRNA) may recognize and bind to DNA sequences that are very similar (homologous), but not identical, to the target gene. If the Cas9 enzyme cuts the DNA at these unintended locations, it could introduce dangerous mutations, including the potential activation of oncogenes (causing cancer). Regulatory bodies require rigorous mapping of these off-target cleavage events.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Gene editing platforms (e.g., CRISPR)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-ethics-7kzzg0",
+      "q": "While gene editing in human patients offers massive therapeutic potential, international scientific consensus draws a rigid ethical line between two types of editing. Which of the following applications of CRISPR technology is currently subject to the strictest international moratoriums and widespread ethical bans?",
+      "options": [
+        "Modifying a patient's autologous T-cells *ex vivo* to target and destroy leukemia cells.",
+        "Using a viral vector to deliver CRISPR components to the lung epithelium of a cystic fibrosis patient.",
+        "Altering the genome of early human embryos during *in vitro* fertilization to confer resistance to HIV.",
+        "Engineering human induced pluripotent stem cells (iPSCs) in a laboratory culture to model neurodegenerative disease."
+      ],
+      "correct": 2,
+      "explain": "There is a strict international consensus against **human germline editing**. \n\nEditing human embryos, sperm, or eggs (Option 'c') means the genetic modifications will be heritable and passed down to all future generations, carrying unpredictable long-term evolutionary and ethical consequences. Editing somatic (non-reproductive) cells (Options 'a' and 'b') only affects the individual patient and is the basis of currently approved gene therapies.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Gene editing platforms (e.g., CRISPR)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-ethics-osi488",
+      "q": "Ecologists and geneticists are debating the release of genetically modified *Anopheles* mosquitoes engineered with a CRISPR-Cas9 \"gene drive.\" This gene drive is designed to spread a sterility gene to 100% of the offspring, rapidly collapsing the wild mosquito population to halt malaria transmission. What is the primary ecological ethics concern regarding the use of gene drive technology in the wild?",
+      "options": [
+        "The CRISPR-Cas9 components will immediately transfer horizontally into the *Plasmodium* parasite, making malaria untreatable.",
+        "The intentional local or global eradication of a wild species could trigger unpredictable and irreversible cascades within the ecosystem's food web.",
+        "Gene drives are economically inviable because they require researchers to constantly re-release modified organisms every generation.",
+        "The sterility gene relies on toxic heavy metal expression, which will subsequently poison agricultural water supplies."
+      ],
+      "correct": 1,
+      "explain": "A **gene drive** is a genetic engineering technology that biases inheritance so a specific trait is passed to nearly 100% of offspring, spreading rapidly through a wild population. \n\nThe central ethical and ecological concern is that eliminating an entire species (like a specific mosquito) is virtually **irreversible** once released and could severely disrupt local ecosystems (e.g., removing a food source for fish/birds or eliminating a pollinator) in ways we cannot accurately model in advance.",
+      "exam": "NOCTI Biotechnology 4275: Ethics",
+      "subject": "Biotechnology",
+      "topic": "Gene editing platforms (e.g., CRISPR)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

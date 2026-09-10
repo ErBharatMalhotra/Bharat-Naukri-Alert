@@ -1,0 +1,311 @@
+{
+  "title": "WASSCE Further Maths: Combinatorics, Sequences & Matrices - Further Mathematics (Elective Mathematics) - Sequences & Series",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Sequences & Series",
+  "source": "github:online-exam-questions",
+  "count": 15,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-pk9gr8",
+      "q": "The 4th term of an Arithmetic Progression is 10 and the 7th term is 19. Find the common difference.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Let the first term be $a$ and the common difference be $d$. The formula for the nth term is $U_n = a + (n-1)d$. We have $U_4 = a + 3d = 10$ and $U_7 = a + 6d = 19$. Subtracting the first equation from the second gives: $(a + 6d) - (a + 3d) = 19 - 10 \\Rightarrow 3d = 9 \\Rightarrow d = 3$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-oc58mo",
+      "q": "A Geometric Progression has first term $a$ and common ratio $r$. The sum to infinity is 8, and the sum of the first two terms is 6. Find the positive value of $r$.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "correct": 0,
+      "explain": "The sum to infinity is $S_\\infty = \\frac{a}{1-r} = 8 \\Rightarrow a = 8(1-r)$. The sum of the first two terms is $a + ar = a(1+r) = 6$. Substitute $a$: $8(1-r)(1+r) = 6 \\Rightarrow 8(1-r^2) = 6 \\Rightarrow 1-r^2 = \\frac{6}{8} = \\frac{3}{4}$. Solving for $r^2$ gives $r^2 = \\frac{1}{4}$, so $r = \\pm \\frac{1}{2}$. The positive value is $\\frac{1}{2}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1qnmpdw",
+      "q": "The first term of an Arithmetic Progression is 5, and the sum of its first 10 terms is 185. Find the common difference.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "The formula for the sum of the first $n$ terms of an AP is $S_n = \\frac{n}{2}[2a + (n-1)d]$. Given $S_{10} = 185$, $n = 10$, and $a = 5$: $185 = \\frac{10}{2}[2(5) + 9d] \\Rightarrow 185 = 5(10 + 9d)$. Dividing by 5 gives $37 = 10 + 9d \\Rightarrow 27 = 9d \\Rightarrow d = 3$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-119gd20",
+      "q": "In a Geometric Progression, the 2nd term is 12 and the 5th term is 324. Find the common ratio.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "The general term is $U_n = ar^{n-1}$. We are given $U_2 = ar = 12$ and $U_5 = ar^4 = 324$. Dividing the two equations: $\\frac{ar^4}{ar} = \\frac{324}{12} \\Rightarrow r^3 = 27$. Taking the cube root of both sides gives $r = 3$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1pd2qv8",
+      "q": "The sum of the first $n$ terms of a sequence is given by $S_n = 3n^2 - 2n$. Find the 5th term of the sequence.",
+      "options": [
+        "65",
+        "40",
+        "25",
+        "15"
+      ],
+      "correct": 2,
+      "explain": "The $n$-th term $U_n$ of a sequence can be found using $U_n = S_n - S_{n-1}$. For the 5th term, $U_5 = S_5 - S_4$. Calculate $S_5 = 3(5^2) - 2(5) = 75 - 10 = 65$. Calculate $S_4 = 3(4^2) - 2(4) = 48 - 8 = 40$. Thus, $U_5 = 65 - 40 = 25$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-jf9q0d",
+      "q": "Find the sum to infinity of the geometric series: $1 + \\frac{1}{3} + \\frac{1}{9} + \\dots$",
+      "options": [
+        "$\\frac{3}{2}$",
+        "$\\frac{2}{3}$",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "The first term $a = 1$ and the common ratio $r = \\frac{1}{3}$. Since $|r| < 1$, the sum to infinity exists and is $S_\\infty = \\frac{a}{1 - r}$. Therefore, $S_\\infty = \\frac{1}{1 - 1/3} = \\frac{1}{2/3} = \\frac{3}{2}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-161plms",
+      "q": "The sum of three consecutive terms of an Arithmetic Progression is 21 and their product is 315. Find the largest of the three terms if they are all integers.",
+      "options": [
+        "9",
+        "7",
+        "11",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "Let the terms be $a-d$, $a$, and $a+d$. Their sum is $3a = 21 \\Rightarrow a = 7$. Their product is $(7-d)(7)(7+d) = 315$. Dividing by 7 gives $(7-d)(7+d) = 45 \\Rightarrow 49 - d^2 = 45 \\Rightarrow d^2 = 4 \\Rightarrow d = \\pm 2$. The terms are 5, 7, 9 or 9, 7, 5. The largest term is 9.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1um663u",
+      "q": "Find the 6th term of the Geometric Progression whose first term is 4 and common ratio is $\\frac{1}{2}$.",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{32}$"
+      ],
+      "correct": 1,
+      "explain": "The formula for the nth term of a Geometric Progression is $U_n = ar^{n-1}$. For the 6th term, $n = 6$, $a = 4$, and $r = \\frac{1}{2}$. $U_6 = 4 \\times (\\frac{1}{2})^{6-1} = 4 \\times (\\frac{1}{2})^5 = 4 \\times \\frac{1}{32} = \\frac{4}{32} = \\frac{1}{8}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-8qh9eg",
+      "q": "The values $x, x+2,$ and $x+6$ are three consecutive terms of a Geometric Progression. Find the value of $x$.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "-2"
+      ],
+      "correct": 1,
+      "explain": "For three terms to form a GP, the ratio of consecutive terms must be equal: $\\frac{x+2}{x} = \\frac{x+6}{x+2}$. Cross-multiplying gives $(x+2)^2 = x(x+6) \\Rightarrow x^2 + 4x + 4 = x^2 + 6x$. Subtracting $x^2$ from both sides gives $4x + 4 = 6x \\Rightarrow 2x = 4 \\Rightarrow x = 2$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1u7ye70",
+      "q": "Evaluate the sum to infinity of the series $1 - \\frac{1}{2} + \\frac{1}{4} - \\frac{1}{8} + \\dots$",
+      "options": [
+        "2",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$"
+      ],
+      "correct": 1,
+      "explain": "This is a geometric series with first term $a = 1$ and common ratio $r = -\\frac{1}{2}$. The sum to infinity is $S_\\infty = \\frac{a}{1 - r} = \\frac{1}{1 - (-1/2)} = \\frac{1}{1 + 1/2} = \\frac{1}{3/2} = \\frac{2}{3}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-zdb7ae",
+      "q": "Three arithmetic means are inserted between 8 and 20. Find the value of the second arithmetic mean.",
+      "options": [
+        "11",
+        "12",
+        "14",
+        "17"
+      ],
+      "correct": 2,
+      "explain": "Let the sequence be $8, a_1, a_2, a_3, 20$, which form an AP of 5 terms. The formula is $U_n = a + (n-1)d$. $U_5 = 8 + 4d = 20 \\Rightarrow 4d = 12 \\Rightarrow d = 3$. The second arithmetic mean is the third term of the sequence: $U_3 = a + 2d = 8 + 2(3) = 14$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-15pj179",
+      "q": "In an Arithmetic Progression, the 3rd term is 8 and the sum of the 1st and 7th terms is 20. Find the 5th term.",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "correct": 2,
+      "explain": "Let the 1st term be $a$ and the common difference be $d$. $U_3 = a + 2d = 8$. Also, $U_1 + U_7 = a + (a + 6d) = 2a + 6d = 20$, which simplifies to $a + 3d = 10$. We have the system:\n1) $a + 2d = 8$\n2) $a + 3d = 10$\nSubtract (1) from (2) to get $d = 2$. Substitute $d=2$ into (1): $a + 4 = 8 \\Rightarrow a = 4$. The 5th term is $U_5 = a + 4d = 4 + 4(2) = 12$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-zzs21c",
+      "q": "The sum of the first $n$ terms of the geometric progression $1, 3, 9, 27, \\dots$ is 121. Find the value of $n$.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "For a GP, the sum of the first $n$ terms is $S_n = \\frac{a(r^n - 1)}{r - 1}$. Here, $a = 1$ and $r = 3$. We set $S_n = 121$: $\\frac{1(3^n - 1)}{3 - 1} = 121 \\Rightarrow \\frac{3^n - 1}{2} = 121$. Multiplying by 2 gives $3^n - 1 = 242 \\Rightarrow 3^n = 243$. Recognizing that $3^5 = 243$, we find $n = 5$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1oowxfc",
+      "q": "Express the recurring decimal $0.\\overline{23}$ ($0.232323...$) as a fraction in its lowest terms by considering it as a sum to infinity of a Geometric Progression.",
+      "options": [
+        "$\\frac{23}{100}$",
+        "$\\frac{23}{90}$",
+        "$\\frac{23}{99}$",
+        "$\\frac{2}{9}$"
+      ],
+      "correct": 2,
+      "explain": "The decimal $0.232323\\dots$ can be written as $0.23 + 0.0023 + 0.000023 + \\dots$ This is a GP with first term $a = 0.23 = \\frac{23}{100}$ and common ratio $r = 0.01 = \\frac{1}{100}$. Sum to infinity is $S_\\infty = \\frac{a}{1 - r} = \\frac{23/100}{1 - 1/100} = \\frac{23/100}{99/100} = \\frac{23}{99}$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-combinatorics,-sequences-&-matrices-1t6zc8s",
+      "q": "The sum of the first $n$ terms of a sequence is $S_n = 2n^2 + n$. Find the 3rd term of this sequence.",
+      "options": [
+        "11",
+        "21",
+        "15",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "The $n$-th term $U_n$ of a sequence can be calculated using $U_n = S_n - S_{n-1}$. Thus, the 3rd term is $U_3 = S_3 - S_2$. Calculate $S_3$: $2(3^2) + 3 = 2(9) + 3 = 18 + 3 = 21$. Calculate $S_2$: $2(2^2) + 2 = 2(4) + 2 = 8 + 2 = 10$. The 3rd term is $21 - 10 = 11$.",
+      "exam": "WASSCE Further Maths: Combinatorics, Sequences & Matrices",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sequences & Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Averages",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Averages",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-19w1911",
+      "q": "Onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg, respectively. A family spends a fixed amount of money on onion for each of the first three months, and then spends half that amount on onion for each of the next two months. The average expense for onion, in rupees per kg, for the family over these 5 months is closest to",
+      "options": [
+        "20",
+        "16",
+        "18",
+        "26"
+      ],
+      "correct": 2,
+      "explain": "Let the fixed amount spent in each of the first three months be ₹ $E$. The amount spent in months 4 and 5 is ₹ $E/2$.\nTotal money spent over 5 months = $E + E + E + E/2 + E/2 = 4E$.\nTotal quantity bought:\nMonth 1: $E/10$ kg\nMonth 2: $E/20$ kg\nMonth 3: $E/25$ kg\nMonth 4: $(E/2)/25 = E/50$ kg\nMonth 5: $(E/2)/50 = E/100$ kg\nTotal quantity = $E \\left(\\frac{1}{10} + \\frac{1}{20} + \\frac{1}{25} + \\frac{1}{50} + \\frac{1}{100}\\right)$.\nTaking LCM of 100: Total quantity = $E \\left(\\frac{10 + 5 + 4 + 2 + 1}{100}\\right) = \\frac{22E}{100} = 0.22E$ kg.\nAverage expense (Rs per kg) = $\\frac{\\text{Total money spent}}{\\text{Total quantity bought}} = \\frac{4E}{0.22E} = \\frac{400}{22} = 18.18$.\nClosest to 18.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

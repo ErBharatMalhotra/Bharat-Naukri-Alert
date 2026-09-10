@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, QA) - Quant - Functions",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+  "subject": "Quant",
+  "topic": "Functions",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-1b3wxt5",
+      "q": "In the $XY$-plane, the area, in sq. units, of the region defined by the inequalities $y \\geq x+4$ and $-4 \\leq x^2+y^2+4(x-y) \\leq 0$ is",
+      "options": [
+        "$4 \\pi$",
+        "$2 \\pi$",
+        "$\\pi$",
+        "$3 \\pi$"
+      ],
+      "correct": 1,
+      "explain": "The second inequality can be rewritten by completing the square for x and y: $4 \\leq (x+2)^2 + (y-2)^2 \\leq 8$. This represents the area between two concentric circles centered at $(-2, 2)$, with inner radius $r_1=2$ and outer radius $r_2=\\sqrt{8}$. The line $y = x+4$ passes through the center of these circles $(-2, 2)$. The inequality $y \\geq x+4$ represents the half-plane above this line. Therefore, the required area is exactly half the area of the annulus, which is $\\frac{1}{2} \\pi (r_2^2 - r_1^2) = \\frac{1}{2} \\pi (8 - 4) = 2\\pi$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-qcjeso",
+      "q": "Consider two sets $A=\\{2,3,5,7,11,13\\}$ and $B=\\{1,8,27\\}$. Let ${f}$ be a function from ${{A}}$ to ${{B}}$ such that for every element ${{b}}$ in ${{B}}$, there is at least one element ${a}$ in ${A}$ such that $f(a)=b$. Then, the total number of such functions ${f}$ is",
+      "options": [
+        "540",
+        "537",
+        "665",
+        "667"
+      ],
+      "correct": 0,
+      "explain": "This is the number of surjective (onto) functions from a set with $|A|=6$ elements to a set with $|B|=3$ elements. Using the Principle of Inclusion-Exclusion, the number is $\\sum_{k=0}^{3} (-1)^k \\binom{3}{k} (3-k)^6 = \\binom{3}{0}3^6 - \\binom{3}{1}2^6 + \\binom{3}{2}1^6 = 1(729) - 3(64) + 3(1) = 729 - 192 + 3 = 540$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-1co6954",
+      "q": "For any natural number ${n}$, let $a_n$ be the largest integer not exceeding $\\sqrt{n}$. Then the value of $a_1+a_2+\\cdots+a_{50}$ is",
+      "options": [
+        "200",
+        "217",
+        "225",
+        "230"
+      ],
+      "correct": 1,
+      "explain": "We sum the values of $\\lfloor\\sqrt{n}\\rfloor$. $a_n=1$ for $n=1..3$ (3 terms, sum=3). $a_n=2$ for $n=4..8$ (5 terms, sum=10). $a_n=3$ for $n=9..15$ (7 terms, sum=21). $a_n=4$ for $n=16..24$ (9 terms, sum=36). $a_n=5$ for $n=25..35$ (11 terms, sum=55). $a_n=6$ for $n=36..48$ (13 terms, sum=78). $a_n=7$ for $n=49..50$ (2 terms, sum=14). Total sum = $3+10+21+36+55+78+14 = 217$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

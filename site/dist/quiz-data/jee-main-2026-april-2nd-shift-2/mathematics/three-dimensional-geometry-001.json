@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Three Dimensional Geometry",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Three Dimensional Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-em9tkg",
+      "q": "Let the point A be the foot of perpendicular drawn from the point $P(a, b, 0)$ on the line $\\frac{x - 1}{2} = \\frac{y - 2}{1} = \\frac{z - \\alpha}{3}$. If the midpoint of the line segment PA is $(0, \\frac{3}{4}, -\\frac{1}{4})$, then the value of $a^2 + b^2 + \\alpha^2$ is equal to:",
+      "options": [
+        "$1$",
+        "$2$",
+        "$6$",
+        "$9$"
+      ],
+      "correct": 0,
+      "explain": "Let the midpoint be $M(0, 3/4, -1/4)$. Using section formula, coordinates of A are $2M - P = (-a, \\frac{3}{2} - b, -\\frac{1}{2})$.\nSince A lies on the line: $\\frac{-a - 1}{2} = \\frac{\\frac{3}{2} - b - 2}{1} = \\frac{-\\frac{1}{2} - \\alpha}{3} = t$.\nDirection ratios of the line are $\\vec{d} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$ and $\\vec{PA} = -2a\\hat{i} + (\\frac{3}{2} - 2b)\\hat{j} - \\frac{1}{2}\\hat{k}$. Since $PA \\perp \\vec{d}$, $\\vec{PA} \\cdot \\vec{d} = 0 \\implies -4a + \\frac{3}{2} - 2b - \\frac{3}{2} = 0 \\implies b = -2a$.\nSubstitute $b$ into the line equation for $A$: $\\frac{-a-1}{2} = \\frac{3/2 - (-2a) - 2}{1} \\implies 2a - \\frac{1}{2} = \\frac{-a-1}{2} \\implies 4a - 1 = -a - 1 \\implies a = 0$. So $b = 0$.\nThe parameter $t = \\frac{-0-1}{2} = -\\frac{1}{2}$. Then $\\frac{-1/2 - \\alpha}{3} = -\\frac{1}{2} \\implies \\alpha = 1$.\nTherefore, $a^2 + b^2 + \\alpha^2 = 0 + 0 + 1 = 1$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Three Dimensional Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

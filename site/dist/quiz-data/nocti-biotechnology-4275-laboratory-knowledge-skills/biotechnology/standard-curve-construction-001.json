@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills - Biotechnology - Standard curve construction",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+  "subject": "Biotechnology",
+  "topic": "Standard curve construction",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-uf4cm8",
+      "q": "A technician is constructing a standard curve to quantify the protein concentration of an unknown sample using the Bradford assay. When plotting the linear regression graph using spreadsheet software, how must the variables be assigned to the $X$ and $Y$ axes to correctly calculate the unknown?",
+      "options": [
+        "X-axis = Absorbance (Optical Density) at $595 \\text{ nm}$; Y-axis = Known BSA standard concentration",
+        "X-axis = Known BSA standard concentration; Y-axis = Absorbance (Optical Density) at $595 \\text{ nm}$",
+        "X-axis = Time of incubation in minutes; Y-axis = Total volume of the assay well",
+        "X-axis = Path length of the cuvette ($1 \\text{ cm}$); Y-axis = Fluorescent emission"
+      ],
+      "correct": 1,
+      "explain": "In standard curve construction, the general scientific convention is to plot the **independent variable** (the values you purposefully control and know) on the **X-axis**, and the **dependent variable** (the experimental measurement that changes in response) on the **Y-axis**. \n\nThe technician mixes known concentrations of the Bovine Serum Albumin (BSA) standard (X-axis), and the spectrophotometer measures the resulting absorbance (Y-axis). Using the resulting equation ($y = mx + b$), the technician can plug in the unknown sample's absorbance as $y$ and solve for $x$ (concentration).",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Standard curve construction",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-y4sqgy",
+      "q": "After generating a standard curve for a spectrophotometric enzyme assay, a technician reviews the linear trendline and observes that the coefficient of determination ($R^2$) is $0.814$. According to standard QC acceptance criteria in biomanufacturing, how should the technician proceed?",
+      "options": [
+        "Proceed immediately; an $R^2$ value above $0.500$ indicates perfect correlation between concentration and absorbance.",
+        "Reject the standard curve; the value indicates significant variance (poor pipetting or assay failure), and the standards must be remade.",
+        "Subtract the $0.814$ value from all unknown sample absorbance readings to normalize the baseline drift.",
+        "Adjust the spectrophotometer wavelength down by $81.4 \\text{ nm}$ to recapture the missing absorbance."
+      ],
+      "correct": 1,
+      "explain": "The **coefficient of determination ($R^2$)** measures how well the regression line fits the data points. A value of $1.000$ is a perfect, straight-line fit. \n\nIn analytical laboratory settings, standard curves typically require an $R^2$ of **$\\ge 0.990$** (and often higher) to be considered valid for calculating unknown samples. An $R^2$ of $0.814$ shows highly scattered data, almost always indicating sloppy pipetting, expired reagents, or improperly mixed standards. The assay is invalid and must be repeated.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Standard curve construction",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-7z6bfk",
+      "q": "A standard curve for an ELISA is validated with a highly linear range covering target antigen concentrations from $5 \\text{ pg/mL}$ up to $100 \\text{ pg/mL}$ (reaching a maximum reliable absorbance of $2.20 \\text{ Abs}$). An unknown patient sample is tested, yielding a massive absorbance reading of $3.15 \\text{ Abs}$. To obtain a valid, GLP-compliant concentration for this patient, what must the technician do?",
+      "options": [
+        "Simply plug $3.15$ into the standard curve equation ($y = mx + b$) and mathematically extrapolate the higher concentration.",
+        "Subtract the maximum valid absorbance ($2.20$) from the sample absorbance ($3.15$) and extrapolate the difference.",
+        "Dilute the patient sample with assay buffer, repeat the ELISA so the reading falls within the established curve, and then multiply the result by the dilution factor.",
+        "Increase the incubation temperature of the microplate by $10^\\circ\\text{C}$ to forcibly degrade the excess antigen."
+      ],
+      "correct": 2,
+      "explain": "You can **never** confidently extrapolate a value that falls outside the proven upper bounds of a standard curve. \n\nBeyond the highest standard (in this case, above $2.20 \\text{ Abs}$), the assay's chemistry often becomes non-linear due to reagent depletion or detector saturation (the Hook effect). The only scientifically valid action is to **dilute the sample** so its signal drops into the reliable, proven linear range ($5$ to $100 \\text{ pg/mL}$), calculate the concentration from the curve, and multiply by the dilution factor.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Standard curve construction",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

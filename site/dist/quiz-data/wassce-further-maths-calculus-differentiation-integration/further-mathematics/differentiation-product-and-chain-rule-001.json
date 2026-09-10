@@ -1,0 +1,31 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Differentiation (Product and Chain Rule)",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Differentiation (Product and Chain Rule)",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-4ila0c",
+      "q": "Differentiate $y = (3x+1)^3 \\sqrt{x}$.",
+      "options": [
+        "$\\frac{(3x+1)^2(21x+1)}{2\\sqrt{x}}$",
+        "$\\frac{(3x+1)^2(21x-1)}{2\\sqrt{x}}$",
+        "$3(3x+1)^2 \\sqrt{x}$",
+        "$\\frac{3}{2\\sqrt{x}}(3x+1)^2$"
+      ],
+      "correct": 0,
+      "explain": "Using the product rule, $u=(3x+1)^3$, $u'=9(3x+1)^2$. Let $v=x^{1/2}$, $v'=\\frac{1}{2\\sqrt{x}}$. $y' = 9(3x+1)^2 \\sqrt{x} + (3x+1)^3 \\frac{1}{2\\sqrt{x}}$. Creating a common denominator of $2\\sqrt{x}$, we get $\\frac{18x(3x+1)^2 + (3x+1)^3}{2\\sqrt{x}}$. Factoring out $(3x+1)^2$, this simplifies to $\\frac{(3x+1)^2(18x + 3x + 1)}{2\\sqrt{x}} = \\frac{(3x+1)^2(21x+1)}{2\\sqrt{x}}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Product and Chain Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

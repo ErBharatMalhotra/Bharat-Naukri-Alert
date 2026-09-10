@@ -1,0 +1,51 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Differentiation (Quotient Rule)",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Differentiation (Quotient Rule)",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1k1v850",
+      "q": "Differentiate $y = \\frac{2x}{x-1}$ with respect to $x$.",
+      "options": [
+        "$\\frac{-2}{(x-1)^2}$",
+        "$\\frac{2}{(x-1)^2}$",
+        "$\\frac{4x-2}{(x-1)^2}$",
+        "$\\frac{-2x}{(x-1)^2}$"
+      ],
+      "correct": 0,
+      "explain": "Using the quotient rule $\\frac{v u' - u v'}{v^2}$, let $u = 2x$ and $v = x-1$. Then $u' = 2$ and $v' = 1$. The derivative is $\\frac{(x-1)(2) - (2x)(1)}{(x-1)^2} = \\frac{2x - 2 - 2x}{(x-1)^2} = \\frac{-2}{(x-1)^2}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Quotient Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-qog730",
+      "q": "Find the derivative of $y = \\frac{\\cos x}{x}$.",
+      "options": [
+        "$\\frac{-x\\sin x - \\cos x}{x^2}$",
+        "$\\frac{x\\sin x - \\cos x}{x^2}$",
+        "$\\frac{-x\\sin x + \\cos x}{x^2}$",
+        "$\\frac{-\\sin x}{x^2}$"
+      ],
+      "correct": 0,
+      "explain": "Use the quotient rule: $\\frac{v u' - u v'}{v^2}$. Let $u = \\cos x$ (so $u' = -\\sin x$) and $v = x$ (so $v' = 1$). The derivative is $\\frac{x(-\\sin x) - (\\cos x)(1)}{x^2} = \\frac{-x\\sin x - \\cos x}{x^2}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Differentiation (Quotient Rule)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

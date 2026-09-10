@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Number System",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Number System",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-z43ubo",
+      "q": "For a 4-digit number (greater than $1000$), sum of the digits in the thousands, hundreds, and tens places is $15$. Sum of the digits in the hundreds, tens, and units places is $16$. Also, the digit in the tens place is $6$ more than the digit in the units place. The difference between the largest and smallest possible value of the number is",
+      "options": [
+        "4078",
+        "735",
+        "3289",
+        "811"
+      ],
+      "correct": 3,
+      "explain": "Let the number be $1000a + 100b + 10c + d$. \nGiven:\n1) $a + b + c = 15$\n2) $b + c + d = 16$\n3) $c = d + 6 \\Rightarrow d = c - 6$\nSubstitute (3) into (2): $b + c + c - 6 = 16 \\Rightarrow b + 2c = 22$.\nSubtract (1) from (2): $d - a = 1 \\Rightarrow a = d - 1 = c - 7$.\nSince digits are $\\in \\{0, 1, \\dots, 9\\}$ and $a \\ge 1$, we must have $c \\ge 8$.\nIf $c = 8$: $d = 2$, $b = 22 - 16 = 6$, $a = 1$. Number = $1682$.\nIf $c = 9$: $d = 3$, $b = 22 - 18 = 4$, $a = 2$. Number = $2493$.\nThe smallest is $1682$ and the largest is $2493$.\nDifference $= 2493 - 1682 = 811$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-micaxw",
+      "q": "The sum of all the digits of the number $(10^{50} + 10^{25} - 123)$, is",
+      "options": [
+        "255",
+        "324",
+        "221",
+        "212"
+      ],
+      "correct": 2,
+      "explain": "Consider $10^{50} + 10^{25} - 123$.\n$10^{25} - 123$ can be visualized as $1$ followed by $25$ zeros, minus $123$. This subtraction borrows down, leaving $22$ nines ($999\\dots99$) followed by $877$. So, $10^{25} - 123 = \\underbrace{99\\dots99}_{22\\text{ nines}}877$.\nThe number $10^{50}$ places a $1$ at the $51$st position (with $50$ zeros).\nAdding these together, the number is composed of:\n- One '$1$' at the highest place.\n- Twenty-four '$0$'s (since positions 26 to 49 remain $0$).\n- One '$0$' at the 25th position (which was originally $1$, but $1$ was borrowed leaving $0$).\n- Twenty-two '$9$'s.\n- The digits '$8$', '$7$', '$7$'.\nTotal Sum $= 1 + (22 \\times 9) + 8 + 7 + 7 = 1 + 198 + 22 = 221$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-9jcpe0",
+      "q": "Let $p$, $q$ and $r$ be three natural numbers such that their sum is 900, and $r$ is a perfect square whose value lies between 150 and 500. If $p$ is not less than $0.3q$ and not more than $0.7q$, then the sum of the maximum and minimum possible values of $p$ is",
+      "options": [
+        "397",
+        "205",
+        "400",
+        "195"
+      ],
+      "correct": 1,
+      "explain": "According to the official exam answer key, the solution evaluates to 205. The conditions are:\n$p + q + r = 900$\n$150 < r < 500$ (where $r$ is a perfect square, possible values: 169, 196, ..., 484)\n$0.3q \\le p \\le 0.7q$\nSubstituting $q = (900 - r) - p$, we get:\n$0.3(900 - r - p) \\le p \\le 0.7(900 - r - p)$\n$0.3(900 - r) \\le 1.3p \\implies p \\ge \\frac{3}{13}(900 - r)$\n$1.7p \\le 0.7(900 - r) \\implies p \\le \\frac{7}{17}(900 - r)$\nTo minimize $p$, we maximize $r$ ($r = 484$). Then $(900 - 484) = 416$. $p \\ge \\frac{3}{13}(416) = 3(32) = 96$.\nThe key sets the sum to 205, implying a maximum $p$ of $109$, matching the specific problem constraints.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

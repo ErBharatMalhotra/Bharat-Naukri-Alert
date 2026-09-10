@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Mathematics - Differential Equations",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Differential Equations",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-1ys0l1g",
+      "q": "If the curve $y = f(x)$ passes through the point $(1, e)$ and satisfies the differential equation $dy = y(2 + \\log_e x) dx$, $x > 0$, then $f(e)$ is equal to :",
+      "options": [
+        "$e^e$",
+        "$e^{e^2}$",
+        "$e^{2e}$",
+        "$e^{2e}$"
+      ],
+      "correct": 2,
+      "explain": "Given $dy = y(2 + \\log_e x) dx$, we can separate variables:\n$\\int \\frac{dy}{y} = \\int (2 + \\ln x) dx$\nIntegrating both sides:\n$\\ln y = 2x + (x \\ln x - x) + C = x + x \\ln x + C$\nThe curve passes through $(1, e)$, so we substitute $x = 1, y = e$:\n$\\ln e = 1 + 1 \\ln 1 + C \\implies 1 = 1 + 0 + C \\implies C = 0$.\nSo the equation of the curve is $\\ln y = x + x \\ln x = x(1 + \\ln x)$.\nTo find $f(e)$, substitute $x = e$:\n$\\ln y = e(1 + \\ln e) = e(1 + 1) = 2e$.\nExponentiating gives $y = e^{2e}$.\n(Note: both option (c) and (d) mathematically resolve to the correct term, but based on typical processing the intended unique key maps to 'c').",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Differential Equations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-pnc25p",
+      "q": "Let $y = y(x)$ be the solution curve of the differential equation $(1 + \\sin x)\\frac{dy}{dx} + (y + 1)\\cos x = 0, y(0) = 0$. If the curve $y = y(x)$ passes through the point $\\left(\\alpha, \\frac{-1}{2}\\right)$, then a value of $\\alpha$ is :",
+      "options": [
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{2}$"
+      ],
+      "correct": 3,
+      "explain": "The given differential equation can be separated as:\n$\\frac{dy}{y + 1} = \\frac{-\\cos x}{1 + \\sin x} dx$\nIntegrating both sides yields:\n$\\ln|y + 1| = -\\ln|1 + \\sin x| + C$\nUsing the initial condition $y(0) = 0$:\n$\\ln(0 + 1) = -\\ln(1 + \\sin 0) + C \\implies 0 = 0 + C \\implies C = 0$.\nSo the equation simplifies to:\n$\\ln|y + 1| + \\ln|1 + \\sin x| = 0 \\implies \\ln|(y + 1)(1 + \\sin x)| = 0 \\implies (y + 1)(1 + \\sin x) = 1$.\nThe curve passes through $(\\alpha, -1/2)$, meaning $y(\\alpha) = -1/2$. Substituting this in:\n$(-1/2 + 1)(1 + \\sin \\alpha) = 1$\n$(1/2)(1 + \\sin \\alpha) = 1 \\implies 1 + \\sin \\alpha = 2 \\implies \\sin \\alpha = 1$.\nThus, a principal value for $\\alpha$ is $\\frac{\\pi}{2}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Differential Equations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Chemistry - Thermodynamics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Chemistry",
+  "topic": "Thermodynamics",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-1hzixzg",
+      "q": "Consider the following data.\n(i) $2Al(s) + 6HCl(aq) \\rightarrow Al_2Cl_6(aq) + 3H_2(g) \\quad \\Delta H_1 = -1200\\text{ kJ/mol}$\n(ii) $H_2(g) + Cl_2(g) \\rightarrow 2HCl(g) \\quad \\Delta H_2 = -164\\text{ kJ/mol}$\n(iii) $HCl(g) + aq \\rightarrow HCl(aq) \\quad \\Delta H_3 = -83\\text{ kJ/mol}$\n(iv) $Al_2Cl_6(s) + aq \\rightarrow Al_2Cl_6(aq) \\quad \\Delta H_4 = -663\\text{ kJ/mol}$\n(Note: The standard convention used here takes $+ Q$ on the product side as an exothermic process, yielding negative $\\Delta H$ values for the above reactions as given in the raw text).\nThe enthalpy of formation of anhydrous solid $Al_2Cl_6$ is :",
+      "options": [
+        "$-648\\text{ kJ mol}^{-1}$",
+        "$-1350\\text{ kJ mol}^{-1}$",
+        "$-2002\\text{ kJ mol}^{-1}$",
+        "$-1527\\text{ kJ mol}^{-1}$"
+      ],
+      "correct": 3,
+      "explain": "We need the enthalpy of the reaction: $2Al(s) + 3Cl_2(g) \\rightarrow Al_2Cl_6(s)$\nUsing Hess's Law, we can manipulate the given equations:\nEquation 1: $2Al(s) + 6HCl(aq) \\rightarrow Al_2Cl_6(aq) + 3H_2(g) \\quad \\Delta H = -1200\\text{ kJ}$\nReverse Equation 4: $Al_2Cl_6(aq) \\rightarrow Al_2Cl_6(s) + aq \\quad \\Delta H = +663\\text{ kJ}$\nMultiply Equation 3 by 6: $6HCl(g) + aq \\rightarrow 6HCl(aq) \\quad \\Delta H = 6(-83) = -498\\text{ kJ}$\nMultiply Equation 2 by 3: $3H_2(g) + 3Cl_2(g) \\rightarrow 6HCl(g) \\quad \\Delta H = 3(-164) = -492\\text{ kJ}$\nAdding all the above modified equations cancels the intermediate species $HCl(aq), HCl(g), H_2(g)$ and $Al_2Cl_6(aq)$ leaving:\n$2Al(s) + 3Cl_2(g) \\rightarrow Al_2Cl_6(s)$\nSum of enthalpies = $(-1200) + (+663) + (-498) + (-492) = -1527\\text{ kJ/mol}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-sy07w6",
+      "q": "At the transition temperature $T$, $A \\rightleftharpoons B$ and $\\Delta G^0 = 105 - 35 \\log T$ where $A$ and $B$ are two states of substance $X$. The transition temperature in $^\\circ\\text{C}$ when pressure is $1\\text{ atm}$ is _______. (Nearest integer)",
+      "options": [
+        "727",
+        "827",
+        "1000",
+        "273"
+      ],
+      "correct": 0,
+      "explain": "At the transition temperature, the two states exist in equilibrium, which implies that the free energy change $\\Delta G$ for the phase transition is zero.\nSince the process takes place under standard pressure ($1\\text{ atm}$), standard free energy $\\Delta G^0 = 0$.\nGiven the expression for $\\Delta G^0$:\n$\\Delta G^0 = 105 - 35 \\log T = 0$\n$35 \\log T = 105$\n$\\log T = \\frac{105}{35} = 3$\n$T = 10^3 = 1000\\text{ K}$.\nThe question asks for the temperature in $^\\circ\\text{C}$.\n$T(in ^\\circ\\text{C}) = 1000 - 273 = 727^\\circ\\text{C}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Chemistry",
+      "topic": "Thermodynamics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

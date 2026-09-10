@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Mathématiques - Limites",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Mathématiques",
+  "topic": "Limites",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-1tpvzcd",
+      "q": "Que vaut l’expression $$\\lim_{x \\to -3} \\left(\\frac{x+3}{x^3+27}\\right)^{\\frac{1}{3}}$$ ?",
+      "options": [
+        "$-\\frac{1}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$3$"
+      ],
+      "correct": 1,
+      "explain": "On factorise le dénominateur (somme de cubes) : $x^3 + 27 = (x + 3)(x^2 - 3x + 9)$. La fraction à l'intérieur de la limite se simplifie : $\\frac{x+3}{(x+3)(x^2-3x+9)} = \\frac{1}{x^2-3x+9}$ (pour $x \\neq -3$). En évaluant la limite lorsque $x \\to -3$, on obtient $\\frac{1}{(-3)^2 - 3(-3) + 9} = \\frac{1}{9 + 9 + 9} = \\frac{1}{27}$. La limite finale est donc $(\\frac{1}{27})^{1/3} = \\frac{1}{3}$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Mathématiques",
+      "topic": "Limites",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

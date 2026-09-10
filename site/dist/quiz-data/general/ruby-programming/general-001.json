@@ -1,0 +1,1286 @@
+{
+  "title": "General - ruby programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "ruby programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "What symbol is used to denote comments in Ruby?",
+      "options": [
+        "//",
+        "--",
+        "/* */"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'puts' method do in Ruby?",
+      "options": [
+        "Prints to console",
+        "Converts to string",
+        "Finds the length",
+        "Reads input from user"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the keyword used to define a method?",
+      "options": [
+        "function",
+        "define",
+        "method",
+        "def"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid variable name in Ruby?",
+      "options": [
+        "my_variable",
+        "123variable",
+        "_variable",
+        "variable-1"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'gets' method do in Ruby?",
+      "options": [
+        "Prints to console",
+        "Converts to string",
+        "Reads input from user",
+        "Finds the length"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a valid data type in Ruby?",
+      "options": [
+        "Integer",
+        "Float",
+        "Double",
+        "String"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for defining a variable in Ruby?",
+      "options": [
+        "var name = \"value\"",
+        "variable name = value",
+        "name = value",
+        "name: value"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'print' method do in Ruby?",
+      "options": [
+        "Prints to console",
+        "Converts to string",
+        "Reads input from user",
+        "Finds the length"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to start a single-line comment in Ruby?",
+      "options": [
+        "//",
+        "/*",
+        "--"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the keyword used to define a class?",
+      "options": [
+        "class",
+        "define",
+        "cls",
+        "defclass"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to define a constant in Ruby?",
+      "options": [
+        "CONSTANT_NAME = value",
+        "constant_name = value",
+        "CONSTANT_NAME : value",
+        "constant name = value"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the default file extension for Ruby files?",
+      "options": [
+        ".ru",
+        ".rby",
+        ".rb",
+        ".ruby"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to convert a string to uppercase in Ruby?",
+      "options": [
+        ".to_uppercase",
+        ".upper",
+        ".upcase",
+        ".uppercase"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a variable in Ruby?",
+      "options": [
+        "var name = \"value\"",
+        "let name = \"value\"",
+        "name = \"value\"",
+        "const name = \"value\""
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for printing a message to the console?",
+      "options": [
+        "console.log(\"message\")",
+        "print(\"message\")",
+        "puts(\"message\")",
+        "write(\"message\")"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you add two numbers in Ruby?",
+      "options": [
+        "add(a, b)",
+        "a + b",
+        "a.add(b)",
+        "b.add(a)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define a conditional statement in Ruby?",
+      "options": [
+        "if (condition) { code }",
+        "if condition then code end",
+        "if condition: code",
+        "when condition; code"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for creating a hash in Ruby?",
+      "options": [
+        "{\"key1\": \"value1\", \"key2\": \"value2\"}",
+        "hash = {}",
+        "hash.add(\"key\", \"value\")",
+        "Hash.new(\"key\", \"value\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you access a value from a hash in Ruby?",
+      "options": [
+        "hash.get(\"key\")",
+        "hash[\"key\"]",
+        "hash.at(\"key\")",
+        "hash.find(\"key\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define a method in Ruby?",
+      "options": [
+        "def method_name(parameters) code end",
+        "function method_name(parameters) code",
+        "method method_name(parameters) = code",
+        "method_name(parameters) -> code"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you call a method in Ruby?",
+      "options": [
+        "method_name()",
+        "object.method_name",
+        "object.method_name()",
+        "method_name(object)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What are the different types of comments in Ruby?",
+      "options": [
+        "Single-line // and multi-line /* */",
+        "Single-line # and multi-line ``",
+        "Single-line # and multi-line \"\"\" \"\"\"",
+        "Single-line // and multi-line \"\"\" \"\"\""
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the difference between =~ and == operators?",
+      "options": [
+        "=~ checks for string pattern matching, == checks for equality",
+        "=~ checks for equality, == checks for string pattern matching",
+        "Both operators are the same",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the difference between nil and false?",
+      "options": [
+        "nil represents absence of value, false represents a boolean value",
+        "Both are the same",
+        "nil is a string, false is a boolean",
+        "nil is a number, false is a boolean"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define a symbol in Ruby?",
+      "options": [
+        "symbol = \"value\"",
+        "symbol = :value",
+        "symbol = 'value'",
+        "symbol = Symbol(\"value\")"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the gem command in Ruby?",
+      "options": [
+        "Installs and manages Ruby libraries",
+        "Compiles Ruby code",
+        "Runs Ruby code",
+        "Defines Ruby classes"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define an array in Ruby?",
+      "options": [
+        "array = [\"element1\", \"element2\"]",
+        "array = Array.new",
+        "array = new Array",
+        "array = list(\"element1\", \"element2\")"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you check the truthiness of a value in Ruby?",
+      "options": [
+        "if (value) then code end",
+        "if value do code end",
+        "if value != false",
+        "if value.is_truthy?"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you break out of a loop in Ruby?",
+      "options": [
+        "exit()",
+        "break()",
+        "continue()",
+        "end()"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the default return value of a method in Ruby?",
+      "options": [
+        "nil",
+        "TRUE",
+        "FALSE",
+        "The value of the last expression"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for accessing a class method?",
+      "options": [
+        "Class.method_name",
+        "object.method_name",
+        "Class.new.method_name",
+        "method_name(Class)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you define a range in Ruby?",
+      "options": [
+        "range = \"start..end\"",
+        "range = start..end",
+        "range = Range.new(\"start\", \"end\")",
+        "range = start.to(end)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for string interpolation in Ruby?",
+      "options": [
+        "\"#{variable}\"",
+        "$(variable)",
+        "%(variable)",
+        "variable.to_string"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you compare two objects in Ruby?",
+      "options": [
+        "object1 == object2",
+        "object1.equals(object2)",
+        "object1 === object2",
+        "compare(object1, object2)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to define a block in Ruby?",
+      "options": [
+        "block { code }",
+        "do code end",
+        "function code",
+        "block code"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you pass arguments to a method in Ruby?",
+      "options": [
+        "method_name(arg1, arg2)",
+        "method_name { arg1, arg2 }",
+        "method_name.with(arg1, arg2)",
+        "method_name arg1 arg2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the require keyword in Ruby?",
+      "options": [
+        "Loads a specific Ruby file",
+        "Defines a new module",
+        "Creates a new class",
+        "Imports external libraries"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you get the current date and time in Ruby?",
+      "options": [
+        "date = Date.now",
+        "time = Time.now",
+        "datetime = DateTime.now",
+        "now = Date.today"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to cast a string to an integer in Ruby?",
+      "options": [
+        "string.to_i",
+        "string.integer",
+        "int(string)",
+        "string.convert(:integer)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare and initialize a variable in Ruby?",
+      "options": [
+        "var_name = value",
+        "var var_name = value",
+        "variable var_name = value",
+        "variable_name = value"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'chomp' method do in Ruby?",
+      "options": [
+        "Removes trailing whitespace",
+        "Converts to integer",
+        "Reads input from user",
+        "Splits a string"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to check if a string contains a specific substring in Ruby?",
+      "options": [
+        ".contains",
+        ".exist",
+        ".include?",
+        ".hasSubstring"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the 'if' statement evaluate?",
+      "options": [
+        "Expression",
+        "Boolean value",
+        "Integer",
+        "String"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used for exponentiation in Ruby?",
+      "options": [
+        "**",
+        "^^",
+        "//"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to convert a string to lowercase in Ruby?",
+      "options": [
+        ".to_lowercase",
+        ".lower",
+        ".downcase",
+        ".lowercase"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'return' keyword do in Ruby methods?",
+      "options": [
+        "Exits the method with a value",
+        "Prints to console",
+        "Converts to integer",
+        "Continues the loop"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the correct way to define a constant?",
+      "options": [
+        "constant_name = value",
+        "constant name : value",
+        "CONSTANT_NAME = value",
+        "constant_name(value)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to define a range in Ruby?",
+      "options": [
+        "(1..10)",
+        "[1 to 10]",
+        "{1..10}",
+        "&lt;1,10&gt;"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for a multiline comment in Ruby?",
+      "options": [
+        "/* ... */",
+        "// ... //",
+        "''' ... '''",
+        "# ... #"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to find the length of an array in Ruby?",
+      "options": [
+        ".size",
+        ".length",
+        ".count",
+        ".length_of"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the expression: \"hello\" + \"world\" in Ruby?",
+      "options": [
+        "helloworld",
+        "hello world",
+        "hello+world",
+        "\"hello\" \"world\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the keyword used to define a loop that repeats until a condition is true?",
+      "options": [
+        "until",
+        "loop",
+        "while",
+        "repeat"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The following syntax is used for multiline comment. =begin iam in a multi line comment =end",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following features does the 2.0 version of ruby supports?",
+      "options": [
+        "Method keyword arguments",
+        "New literals",
+        "Security fixes",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the valid string method?",
+      "options": [
+        "The .length method",
+        "The .upcase method",
+        "The .downcase method",
+        "The .irreverse method"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The .length method is used to check number of characters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the size of an integer data type in ruby?",
+      "options": [
+        "-230 to 230",
+        "-230 to 2(30-1)",
+        "-229 to 230",
+        "-260 to 261"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? Ans=Ruby puts \"#{Ans} is an oop language\" puts \"It is very efficient langauge\" puts \"#{expr} is used on rails platform\"",
+      "options": [
+        "Error, no output",
+        "Ruby is an oop language\nIt is very efficient langauge\nundefined local variable",
+        "Ruby is an oop language\nIt is very efficient langauge\n#{expr} is used on rails platform",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "This the right way to comment a single line. “Ruby”.length # I’m a single line comment!",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is supported by Ruby?",
+      "options": [
+        "Multiple Programming Paradigms",
+        "Dynamic Type System",
+        "Automatic Memory Management",
+        "All of the Mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Space between 2+5 or 2 + 5 is valid but =begin and = begin is not valid.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "first_name,Last_name=gets.chomp,gets.chomp is the correct way to get the input from the user.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Ruby can be used for developing internet and intranet applications.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? \"Ruby Language\".length = begin calculate length = end",
+      "options": [
+        "13",
+        "12",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? \"I'am learning Ruby Language\".reverse.upcase.length",
+      "options": [
+        "27",
+        "egaugnal ybuR gninreal ma'I",
+        "ERAUGNAL YBUR GNINREAL MA'I",
+        "Undefined method 'reverse' for 27:Fixnum"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Why do we use comments?",
+      "options": [
+        "For later use to understand the working of the program",
+        "It is an efficient way of programming",
+        "It makes easy for the third person to understand",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How to comment multiple lines in ruby?",
+      "options": [
+        "Using multiline comments",
+        "Using single line comments",
+        "No option to comment",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? \"Come let's learn.reverse Ruby.length language\".upcase",
+      "options": [
+        "nreal s'tel emoC 4 LANGUAGE",
+        "Undefined error",
+        "\"COME LET'S LEARN.REVERSE RUBY.LENGTH LANGUAGE\"",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of given code? string=\"I'am Learning RUBY Language\".downcase string.upcase",
+      "options": [
+        "Undefined method",
+        "\"I'AM LEARNING RUBY LANGUAGE\"",
+        "I'am Learning RUBY Language",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? print \"What's your first name?\" first_name=gets.chomp a=first_name.capitalize first_name.capitalize! print \"What's your last name?\" last_name=gets.chomp b=last_name.capitalize last_name.capitalize puts \"My name is #{first_name} #{last_name}\"",
+      "options": [
+        "Amil Jones",
+        "What's your first name? amil\nWhat's your last name? jones\nMy name is Amil Jones",
+        "My name is Amil jones",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following? ruby.reverse",
+      "options": [
+        "Error in compilation",
+        "ybur",
+        "Undefined local variable ruby"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? print \"what's your first name?\" first_name=gets.chomp a=first_name.capitalize \"first_name.capitalize!\".reverse puts\"My name is #{first_name}\"",
+      "options": [
+        "amil jones",
+        "What's your first name? amil\nMy name is amil",
+        "My name is lima",
+        "My name is limA"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following? \"Iam learning ruby language\".length",
+      "options": [
+        "26",
+        "23",
+        "20",
+        "18"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the use of .capitalize method?",
+      "options": [
+        "It capitalizes the entire string",
+        "It capitalize on the first letter of the string",
+        "It capitalize the strings which are in small case",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a valid datatype?",
+      "options": [
+        "Float",
+        "Integer",
+        "Binary",
+        "Timedate"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Ruby is an object oriented general purpose programming language.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the the given code? puts \"My name is #{Name}\"",
+      "options": [
+        "Error in compilation",
+        "Name variable not defined earlier",
+        "My name is #{Name}",
+        "Undefined Error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does %Q{ Learn ruby language } represents?",
+      "options": [
+        "\" Learn Ruby language \"",
+        "\"%{ Learn Ruby language }\"",
+        "\" learn ruby language \"",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? print \"Hey\" puts \"Everyone!\" print \"We are learning Ruby\"",
+      "options": [
+        "Error",
+        "Hey everyone we are learning Ruby",
+        "Hey everyone",
+        "Hey Everyone\nWe are learning Ruby"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Ruby can be embedded into Hypertext Markup Language(HTML).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? print \"What's your address\" city,state,pin=gets.chomp,gets.chomp,gets.chomp puts \"Iam from #{city} city, #{state} state, pincode: #{pin} \"",
+      "options": [
+        "Error in compilation",
+        "Give your address",
+        "What's your address? Chennai\nTamilnadu\n600048\nIam from Chennai city, Tamilnadu state, pincode: 600048",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What do we mean by expression substitution?",
+      "options": [
+        "Embedding the value of Ruby expression into a string using #{ }",
+        "Substituting string functions",
+        "Storing string value",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following are valid floating point literal?",
+      "options": [
+        ".5",
+        "0.5",
+        "None of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of ! at the end of the capitalize method?",
+      "options": [
+        "It is the syntax for using capitalize method",
+        "It modifies the value stored in the variable",
+        "It indicates the termination of string",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the range of octal notation (\\nnn)?",
+      "options": [
+        "0-8",
+        "0-7",
+        "0-A",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following type of comments are valid in ruby?",
+      "options": [
+        "Single line comments",
+        "Multi line comments",
+        "Double line comments",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Why do we use =begin and =end?",
+      "options": [
+        "To mark the start and end of multiline comment",
+        "To comment multiple lines",
+        "To avoid the use of # again and again",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x, y, z = 12, 36, 72 puts \"The value of x is #{ x }.\" puts \"The sum of x and y is #{ x + y }.\" puts \"The average was #{ (x + y + z)/3 }.\"",
+      "options": [
+        "12,48,40",
+        "Syntax error",
+        "The value of x is 12.\nThe sum of x and y is 48.\nThe average was 40.",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to?",
+      "options": [
+        "Bignum",
+        "Octal",
+        "Fixnum",
+        "Binary"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the value 3.14 in Ruby?",
+      "options": [
+        "Integer",
+        "Float",
+        "String",
+        "Boolean"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the default value of a variable in Ruby if not initialized?",
+      "options": [
+        "nil",
+        "\"undefined\"",
+        "FALSE"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'nil' value represent in Ruby?",
+      "options": [
+        "Empty string",
+        "Null value",
+        "Zero",
+        "Undefined"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to convert a string to an integer in Ruby?",
+      "options": [
+        ".to_i",
+        ".to_int",
+        ".convert_int",
+        ".parse_int"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to convert a string to a float in Ruby?",
+      "options": [
+        ".to_f",
+        ".to_float",
+        ".convert_float",
+        ".parse_float"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the value true in Ruby?",
+      "options": [
+        "Integer",
+        "Float",
+        "String",
+        "Boolean"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to convert a value to string in Ruby?",
+      "options": [
+        ".to_s",
+        ".to_string",
+        ".convert_string",
+        ".parse_string"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: 5 / 2 in Ruby?",
+      "options": [
+        "2.5",
+        "3.5"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to check if a variable is nil in Ruby?",
+      "options": [
+        ".is_nil?",
+        ".nil?",
+        ".empty?",
+        ".null?"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to check the data type of a variable in Ruby?",
+      "options": [
+        ".type",
+        ".typeof",
+        ".class",
+        ".datatype"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the expression: \"5\" + \"2\" in Ruby?",
+      "options": [
+        "\"7\"",
+        "52",
+        "Error"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    }
+  ]
+}

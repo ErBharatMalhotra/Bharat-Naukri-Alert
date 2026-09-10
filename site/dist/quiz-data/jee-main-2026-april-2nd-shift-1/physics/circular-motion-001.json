@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Circular Motion",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Circular Motion",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-3ghyh6",
+      "q": "A particle is rotating in a circular path and at any instant its motion can be described as $\\theta = \\frac{5t^4}{40} - \\frac{t^3}{3}$. The angular acceleration of the particle after $10\\text{ seconds}$ is _______ $\\text{rad/s}^2$.",
+      "options": [
+        "150",
+        "120",
+        "130",
+        "170"
+      ],
+      "correct": 2,
+      "explain": "Given the angular position $\\theta(t) = \\frac{5}{40}t^4 - \\frac{1}{3}t^3 = \\frac{1}{8}t^4 - \\frac{1}{3}t^3$.\nAngular velocity $\\omega(t)$ is the first derivative of angular position with respect to time:\n$\\omega = \\frac{d\\theta}{dt} = \\frac{4}{8}t^3 - \\frac{3}{3}t^2 = \\frac{1}{2}t^3 - t^2$\nAngular acceleration $\\alpha(t)$ is the first derivative of angular velocity with respect to time:\n$\\alpha = \\frac{d\\omega}{dt} = \\frac{3}{2}t^2 - 2t$\nAt $t = 10\\text{ s}$, the angular acceleration is:\n$\\alpha(10) = \\frac{3}{2}(10)^2 - 2(10) = \\frac{3}{2}(100) - 20 = 150 - 20 = 130\\text{ rad/s}^2$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Circular Motion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

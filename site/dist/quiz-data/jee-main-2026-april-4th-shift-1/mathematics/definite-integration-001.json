@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Definite Integration",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Definite Integration",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-pbwpdl",
+      "q": "Let $\\int_{-2}^{2} (|\\sin x| + [x \\sin x]) dx = 2(3 - \\cos 2) + \\beta$, where $[\\cdot]$ is the greatest integer function. Then $\\beta \\sin \\left( \\frac{\\beta}{2} \\right)$ equals:",
+      "options": [
+        "$1$",
+        "$2$",
+        "$4$",
+        "$8$"
+      ],
+      "correct": 1,
+      "explain": "Split the integral into two even functions: $I_1 = \\int_{-2}^{2} |\\sin x| dx$ and $I_2 = \\int_{-2}^{2} [x \\sin x] dx$.\n$I_1 = 2 \\int_0^2 \\sin x \\, dx = 2[-\\cos x]_0^2 = 2(1 - \\cos 2)$.\nFor $I_2$, note that $x \\sin x$ is continuous on $[0, 2]$. Its maximum value is at $x \\approx 2.028$, and $2 \\sin 2 \\approx 2(0.909) = 1.818$. So for $x \\in [0, 2]$, $0 \\le x \\sin x < 2$.\n$x \\sin x = 1$ has a unique root $x_1$ in $(0, 2)$.\nThen $[x \\sin x] = 0$ for $x \\in [0, x_1)$, and $[x \\sin x] = 1$ for $x \\in (x_1, 2]$.\nThus, $I_2 = 2 \\int_0^2 [x \\sin x] dx = 2 \\int_{x_1}^2 1 \\, dx = 2(2 - x_1)$.\nSumming them: $I_1 + I_2 = 2 - 2\\cos 2 + 4 - 2x_1 = 2(3 - \\cos 2) - 2x_1$.\nComparing with $2(3 - \\cos 2) + \\beta$, we get $\\beta = -2x_1$.\nThe problem requires $\\beta \\sin(\\beta/2) = (-2x_1) \\sin(-x_1) = 2x_1 \\sin x_1$.\nBy definition of $x_1$, $x_1 \\sin x_1 = 1$.\nThus, $\\beta \\sin(\\beta/2) = 2(1) = 2$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Definite Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

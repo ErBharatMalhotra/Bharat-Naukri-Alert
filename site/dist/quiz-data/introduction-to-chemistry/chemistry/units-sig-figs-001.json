@@ -1,0 +1,171 @@
+{
+  "title": "Introduction to Chemistry - Chemistry - Units & Sig Figs",
+  "titleHi": "",
+  "exam": "Introduction to Chemistry",
+  "subject": "Chemistry",
+  "topic": "Units & Sig Figs",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "introduction-to-chemistry-1aih0qi",
+      "q": "Which of the following numbers has exactly **3 significant figures**?",
+      "options": [
+        "0.005",
+        "505",
+        "5050",
+        "0.5050"
+      ],
+      "correct": 1,
+      "explain": "**505** has 3 sig figs (sandwiched zero is significant).  \n- 0.005 has 1 (leading zeros never count).  \n- 5050 is ambiguous but usually treated as 3 unless a decimal is present (5050.), but 505 is definitively 3.  \n- 0.5050 has 4 (trailing zero after decimal counts).",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-1roqwkr",
+      "q": "What is the correct result of the following calculation, reported to the correct number of significant figures?\n$$ 12.55 + 3.2 $$",
+      "options": [
+        "15.75",
+        "15.7",
+        "15.8",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "When adding, limit the result to the least precise decimal place. $12.55$ (hundredths) + $3.2$ (tenths). The result must be rounded to the **tenths** place.  \n$15.75 \\rightarrow 15.8$ (round up because the next digit is 5).",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-rz9lfh",
+      "q": "How many significant figures are in the measurement **0.004020 meters**?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "Leading zeros (0.00...) do not count. The digits '4', '0', '2' count. The trailing zero '0' counts because there is a decimal point. Total: **4** (4020).",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-1v1ohxb",
+      "q": "The SI base unit for the **amount of substance** is the __________.",
+      "options": [
+        "Gram (g)",
+        "Kilogram (kg)",
+        "Mole (mol)",
+        "Kelvin (K)"
+      ],
+      "correct": 2,
+      "explain": "The mole (mol) is the SI base unit defined for the amount of chemical substance. Kilogram is for mass.",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-f1xsn4",
+      "q": "Identify the number of significant figures in the value **1.050 × 10⁴**.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explain": "In scientific notation, only the coefficient ($1.050$) is analyzed for significant figures. All digits here are significant (sandwiched zero and trailing zero after decimal). Total: **4**.",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-lhl8bg",
+      "q": "Round the number **45.6782** to **three** significant figures.",
+      "options": [
+        "45.6",
+        "45.7",
+        "45.68",
+        "46.0"
+      ],
+      "correct": 1,
+      "explain": "We keep the first three digits: 4, 5, 6. We check the next digit (7). Since $7 \\ge 5$, we round up the last kept digit. $45.6 \\rightarrow 45.7$.",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-12o56d8",
+      "q": "Perform the calculation and report to the correct significant figures:\n$$ \\frac{25.0}{5.0} $$",
+      "options": [
+        "5",
+        "5.0",
+        "5.00",
+        "5.000"
+      ],
+      "correct": 1,
+      "explain": "Division rule: The result should have the same number of sig figs as the term with the fewest sig figs.  \n$25.0$ has 3 sig figs.  \n$5.0$ has 2 sig figs.  \nResult must have **2** sig figs: **5.0**.",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "introduction-to-chemistry-nm1qum",
+      "q": "Which of the following is an **exact number** (infinite significant figures)?",
+      "options": [
+        "The mass of a paperclip (1.0 g)",
+        "The distance between two cities (50 km)",
+        "The number of protons in a carbon atom (6)",
+        "The volume of water in a beaker (100 mL)"
+      ],
+      "correct": 2,
+      "explain": "Counting numbers (6 protons) and defined quantities are exact and have infinite precision. Measurements (mass, distance, volume) always have uncertainty.",
+      "exam": "Introduction to Chemistry",
+      "subject": "Chemistry",
+      "topic": "Units & Sig Figs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    }
+  ]
+}

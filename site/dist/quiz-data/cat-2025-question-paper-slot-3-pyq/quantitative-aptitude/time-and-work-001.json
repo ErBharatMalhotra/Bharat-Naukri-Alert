@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Time and Work",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Time and Work",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-mr9y4k",
+      "q": "The rate of water flow through three pipes A, B and C are in the ratio $4 : 9 : 36$. An empty tank can be filled up completely by pipe A in 15 hours. If all the three pipes are used simultaneously to fill up this empty tank, the time, in minutes, required to fill up the entire tank completely is nearest to",
+      "options": [
+        "71",
+        "76",
+        "73",
+        "78"
+      ],
+      "correct": 2,
+      "explain": "Let the rates of water flow for pipes A, B, and C be $4k$, $9k$, and $36k$ respectively.\nPipe A takes 15 hours (which is $15 \\times 60 = 900$ minutes) to fill the tank.\nTotal capacity of the tank $= 4k \\times 900 = 3600k$.\nWhen all three pipes are used simultaneously, their combined rate is $4k + 9k + 36k = 49k$.\nThe time required to fill the tank together is:\n$$Time = \\frac{3600k}{49k} = \\frac{3600}{49} \\approx 73.47 \\text{ minutes}$$\nThe nearest integer value is 73 minutes.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Time and Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-ijg3dc",
+      "q": "Teams A, B, and C consist of five, eight, and ten members, respectively, such that every member within a team is equally productive. Working separately, teams A, B, and C can complete a certain job in 40 hours, 50 hours, and 4 hours, respectively. Two members from team A, three members from team B, and one member from team C together start the job, and the member from team C leaves after 23 hours. The number of additional member(s) from team B, that would be required to replace the member from team C, to finish the job in the next one hour, is",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct": 3,
+      "explain": "Let total work be $W$.\nRate of Team A = $\\frac{W}{40}$. With 5 members, 1 A member's rate = $\\frac{W}{200}$.\nRate of Team B = $\\frac{W}{50}$. With 8 members, 1 B member's rate = $\\frac{W}{400}$.\nRate of Team C = $\\frac{W}{4}$. With 10 members, 1 C member's rate = $\\frac{W}{40}$.\nInitially, the group has 2 A, 3 B, and 1 C:\nCombined Hourly Rate = $2(\\frac{W}{200}) + 3(\\frac{W}{400}) + 1(\\frac{W}{40}) = \\frac{4W}{400} + \\frac{3W}{400} + \\frac{10W}{400} = \\frac{17W}{400}$.\nAfter working 23 hours, work done = $23 \\times \\frac{17W}{400} = \\frac{391W}{400}$.\nRemaining work to complete in the final hour = $W - \\frac{391W}{400} = \\frac{9W}{400}$.\nThe remaining team has 2 A members (rate = $\\frac{4W}{400}$) and we need additional B members to replace the C member to reach a rate of $\\frac{9W}{400}$ for the last hour.\nLet total members of B be $N$. Total required rate = $\\frac{4W}{400} + N(\\frac{W}{400}) = \\frac{9W}{400} \\implies 4 + N = 9 \\implies N = 5$.\nThe required final team needs 5 B members. Since they already have 3, the number of *additional* members required from Team B is $5 - 3 = 2$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Time and Work",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

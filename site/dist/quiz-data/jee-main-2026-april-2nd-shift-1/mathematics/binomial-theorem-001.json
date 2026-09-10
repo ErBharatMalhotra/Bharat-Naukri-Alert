@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Mathematics - Binomial Theorem",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Binomial Theorem",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-hd9xo",
+      "q": "The number of elements in the set $S = \\left\\{ (r, k) : k \\in \\mathbb{Z} \\text{ and } {}^{36}C_{r+1} = \\frac{6 \\left({}^{35}C_r\\right)}{k^2 - 3} \\right\\}$, is :",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 1,
+      "explain": "We use the identity ${}^nC_r = \\frac{n}{r} {}^{n-1}C_{r-1}$.\nApplying this to ${}^{36}C_{r+1}$, we get ${}^{36}C_{r+1} = \\frac{36}{r+1} {}^{35}C_r$.\nEquating this to the given expression:\n$\\frac{36}{r+1} {}^{35}C_r = \\frac{6}{k^2 - 3} {}^{35}C_r$\nAssuming ${}^{35}C_r \\neq 0$ (so $0 \\le r \\le 35$), we get:\n$\\frac{6}{r+1} = \\frac{1}{k^2 - 3} \\implies k^2 - 3 = \\frac{r+1}{6} \\implies k^2 = \\frac{r+19}{6}$\nSince $k$ is an integer, $k^2$ must be a perfect square. Also, $\\frac{r+19}{6}$ must be an integer, which implies $r + 19$ is a multiple of 6, or $r \\equiv 5 \\pmod 6$.\nThe possible values of $r$ in the range $0 \\le r \\le 35$ are 5, 11, 17, 23, 29, 35.\nChecking these values for perfect squares $k^2$:\nIf $r = 5$, $k^2 = (5+19)/6 = 24/6 = 4 \\implies k = \\pm 2$. Valid pairs: $(5, 2), (5, -2)$.\nIf $r = 11$, $k^2 = 30/6 = 5$ (not a perfect square).\nIf $r = 17$, $k^2 = 36/6 = 6$ (not a perfect square).\nIf $r = 23$, $k^2 = 42/6 = 7$ (not a perfect square).\nIf $r = 29$, $k^2 = 48/6 = 8$ (not a perfect square).\nIf $r = 35$, $k^2 = 54/6 = 9 \\implies k = \\pm 3$. Valid pairs: $(35, 3), (35, -3)$.\nTotal number of pairs in $S$ is 4.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

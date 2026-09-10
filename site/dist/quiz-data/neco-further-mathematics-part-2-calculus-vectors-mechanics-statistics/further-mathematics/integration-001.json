@@ -1,0 +1,271 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Integration",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Integration",
+  "source": "github:online-exam-questions",
+  "count": 13,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-kktshs",
+      "q": "Evaluate the indefinite integral: $\\int (3x^2 - 4x + 5) \\, dx$.",
+      "options": [
+        "$x^3 - 2x^2 + 5x + C$",
+        "$6x - 4 + C$",
+        "$x^3 - 4x^2 + 5x + C$",
+        "$3x^3 - 2x^2 + 5 + C$"
+      ],
+      "correct": 0,
+      "explain": "To integrate a polynomial, apply the power rule of integration $\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C$ to each term:\n- $\\int 3x^2 \\, dx = \\frac{3x^3}{3} = x^3$\n- $\\int -4x \\, dx = \\frac{-4x^2}{2} = -2x^2$\n- $\\int 5 \\, dx = 5x$\n\nCombining these results and adding the constant of integration $C$, we get:\n$$x^3 - 2x^2 + 5x + C$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-v4qi9k",
+      "q": "Find $\\int \\sin 3x \\, dx$.",
+      "options": [
+        "$3 \\cos 3x + C$",
+        "$-3 \\cos 3x + C$",
+        "$\\frac{1}{3} \\cos 3x + C$",
+        "$-\\frac{1}{3} \\cos 3x + C$"
+      ],
+      "correct": 3,
+      "explain": "The standard integral of $\\sin(kx)$ is $-\\frac{1}{k} \\cos(kx) + C$.\n\nHere, $k = 3$, so substituting this into the rule gives:\n$$\\int \\sin 3x \\, dx = -\\frac{1}{3} \\cos 3x + C$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-h2keqg",
+      "q": "Evaluate the integral: $\\int \\left( e^{2x} + \\frac{1}{x} \\right) \\, dx$.",
+      "options": [
+        "$2e^{2x} - \\frac{1}{x^2} + C$",
+        "$\\frac{1}{2}e^{2x} + \\ln|x| + C$",
+        "$e^{2x} + \\ln|x| + C$",
+        "$2e^{2x} + \\ln|x| + C$"
+      ],
+      "correct": 1,
+      "explain": "Integrate each term separately:\n1. For the exponential function, $\\int e^{kx} \\, dx = \\frac{1}{k} e^{kx} + C$. So, $\\int e^{2x} \\, dx = \\frac{1}{2}e^{2x}$.\n2. The integral of $\\frac{1}{x}$ is a standard natural logarithmic function: $\\int \\frac{1}{x} \\, dx = \\ln|x|$.\n\nPutting it all together:\n$$\\int \\left( e^{2x} + \\frac{1}{x} \\right) \\, dx = \\frac{1}{2}e^{2x} + \\ln|x| + C$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-umyios",
+      "q": "Integrate $2x(x^2 + 1)^4$ with respect to $x$.",
+      "options": [
+        "$\\frac{1}{5}(x^2 + 1)^5 + C$",
+        "$\\frac{2}{5}(x^2 + 1)^5 + C$",
+        "$8x(x^2 + 1)^3 + C$",
+        "$\\frac{1}{4}(x^2 + 1)^5 + C$"
+      ],
+      "correct": 0,
+      "explain": "This can be solved using **integration by substitution**.\nLet $u = x^2 + 1$. \nThen, differentiating both sides gives $\\frac{du}{dx} = 2x \\implies du = 2x \\, dx$.\n\nSubstitute $u$ and $du$ into the integral:\n$$\\int 2x(x^2 + 1)^4 \\, dx = \\int u^4 \\, du$$\n\nIntegrate $u^4$:\n$$\\int u^4 \\, du = \\frac{u^5}{5} + C$$\n\nReplace $u$ with $x^2 + 1$ to get the final answer:\n$$= \\frac{1}{5}(x^2 + 1)^5 + C$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-tvoajs",
+      "q": "Find $\\int (x + 2)^2 \\, dx$.",
+      "options": [
+        "$\\frac{1}{3}(x + 2)^3 + C$",
+        "$\\frac{1}{2}(x + 2)^2 + C$",
+        "$2(x + 2) + C$",
+        "$\\frac{1}{4}(x + 2)^4 + C$"
+      ],
+      "correct": 0,
+      "explain": "We can evaluate this by applying the reverse chain rule for a linear inner function, $\\int (ax+b)^n dx = \\frac{1}{a(n+1)}(ax+b)^{n+1} + C$.\n\nHere $a=1$, $b=2$, and $n=2$:\n$$\\int (x + 2)^2 \\, dx = \\frac{(x + 2)^3}{1 \\times 3} + C$$\n$$= \\frac{1}{3}(x + 2)^3 + C$$\n\n*(Alternatively, expand $(x+2)^2 = x^2 + 4x + 4$ and integrate term by term: $\\frac{x^3}{3} + 2x^2 + 4x + C$, which is algebraically identical.)*",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-dzrh0w",
+      "q": "Evaluate the definite integral $\\int_{1}^{3} (2x - 1) \\, dx$.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 1,
+      "explain": "First, find the indefinite integral of the function:\n$$\\int (2x - 1) \\, dx = x^2 - x$$\n\nNow, evaluate this from the lower limit ($x = 1$) to the upper limit ($x = 3$):\n$$[x^2 - x]_{1}^{3} = ((3)^2 - 3) - ((1)^2 - 1)$$\n$$= (9 - 3) - (1 - 1)$$\n$$= 6 - 0 = 6$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-g163wg",
+      "q": "Evaluate $\\int_{0}^{\\pi/2} \\cos x \\, dx$.",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "correct": 1,
+      "explain": "The integral of $\\cos x$ is $\\sin x$.\nEvaluating the definite integral from $0$ to $\\frac{\\pi}{2}$:\n$$[\\sin x]_{0}^{\\frac{\\pi}{2}} = \\sin\\left(\\frac{\\pi}{2}\\right) - \\sin(0)$$\n\nSince $\\sin\\left(\\frac{\\pi}{2}\\right) = 1$ and $\\sin(0) = 0$:\n$$1 - 0 = 1$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-dmlg9o",
+      "q": "Evaluate the integral: $\\int_{1}^{2} \\frac{1}{x^2} \\, dx$.",
+      "options": [
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$-\\frac{1}{2}$",
+        "$\\frac{3}{2}$"
+      ],
+      "correct": 1,
+      "explain": "Rewrite the integrand with a negative exponent:\n$$\\int_{1}^{2} x^{-2} \\, dx$$\n\nIntegrate using the power rule (add 1 to the exponent and divide by the new exponent):\n$$= \\left[ \\frac{x^{-1}}{-1} \\right]_{1}^{2} = \\left[ -\\frac{1}{x} \\right]_{1}^{2}$$\n\nNow apply the limits:\n$$= \\left( -\\frac{1}{2} \\right) - \\left( -\\frac{1}{1} \\right)$$\n$$= -\\frac{1}{2} + 1 = \\frac{1}{2}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-16dw9jo",
+      "q": "Calculate the exact value of $\\int_{0}^{1} e^{3x} \\, dx$.",
+      "options": [
+        "$e^3 - 1$",
+        "$3(e^3 - 1)$",
+        "$\\frac{1}{3}(e^3 - 1)$",
+        "$\\frac{1}{3}e^3$"
+      ],
+      "correct": 2,
+      "explain": "The integral of $e^{3x}$ is $\\frac{1}{3}e^{3x}$.\n\nApplying the limits of integration from $0$ to $1$:\n$$= \\left[ \\frac{1}{3}e^{3x} \\right]_{0}^{1}$$\n$$= \\frac{1}{3}e^{3(1)} - \\frac{1}{3}e^{3(0)}$$\n\nSince $e^0 = 1$:\n$$= \\frac{1}{3}e^3 - \\frac{1}{3}(1) = \\frac{1}{3}(e^3 - 1)$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-rz8tes",
+      "q": "Find the total area enclosed by the curve $y = 4 - x^2$ and the $x$-axis.",
+      "options": [
+        "$\\frac{16}{3}$",
+        "$\\frac{32}{3}$",
+        "$8$",
+        "$\\frac{64}{3}$"
+      ],
+      "correct": 1,
+      "explain": "First, find the points of intersection with the $x$-axis (where $y = 0$):\n$$4 - x^2 = 0 \\implies x^2 = 4 \\implies x = -2 \\text{ or } x = 2$$\n\nThe area $A$ is given by the integral of the curve between these roots:\n$$A = \\int_{-2}^{2} (4 - x^2) \\, dx$$\n\nIntegrate the function:\n$$= \\left[ 4x - \\frac{x^3}{3} \\right]_{-2}^{2}$$\n\nSubstitute the limits:\nUpper limit: $4(2) - \\frac{(2)^3}{3} = 8 - \\frac{8}{3} = \\frac{16}{3}$\nLower limit: $4(-2) - \\frac{(-2)^3}{3} = -8 - \\left(-\\frac{8}{3}\\right) = -8 + \\frac{8}{3} = -\\frac{16}{3}$\n\nSubtract the lower limit evaluation from the upper limit evaluation:\n$$A = \\frac{16}{3} - \\left(-\\frac{16}{3}\\right) = \\frac{16}{3} + \\frac{16}{3} = \\frac{32}{3}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1ffwcdk",
+      "q": "Calculate the area of the finite region bounded by the curve $y = x^2$ and the straight line $y = x$.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{12}$"
+      ],
+      "correct": 2,
+      "explain": "Find the points of intersection by setting the equations equal to each other:\n$$x^2 = x$$\n$$x^2 - x = 0$$\n$$x(x - 1) = 0 \\implies x = 0 \\text{ or } x = 1$$\n\nBetween $x = 0$ and $x = 1$, the line $y = x$ lies above the curve $y = x^2$. The bounded area is:\n$$A = \\int_{0}^{1} (x - x^2) \\, dx$$\n\nEvaluate the integral:\n$$A = \\left[ \\frac{x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{1}$$\n$$A = \\left( \\frac{1}{2} - \\frac{1}{3} \\right) - (0)$$\n$$A = \\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1bwmqe0",
+      "q": "The region bounded by the curve $y = \\sqrt{x}$, the $x$-axis, and the vertical line $x = 4$ is rotated completely ($360^\\circ$) about the $x$-axis. Find the volume of the solid generated.",
+      "options": [
+        "$4\\pi$",
+        "$8\\pi$",
+        "$12\\pi$",
+        "$16\\pi$"
+      ],
+      "correct": 1,
+      "explain": "The formula for the volume of a solid of revolution about the $x$-axis is $V = \\pi \\int_{a}^{b} y^2 \\, dx$.\n\nHere, $y = \\sqrt{x}$, so $y^2 = x$. The limits are from $x = 0$ (where the curve starts from the origin) to $x = 4$.\n\nSet up the integral:\n$$V = \\pi \\int_{0}^{4} x \\, dx$$\n\nEvaluate:\n$$V = \\pi \\left[ \\frac{x^2}{2} \\right]_{0}^{4}$$\n$$V = \\pi \\left( \\frac{4^2}{2} - 0 \\right)$$\n$$V = \\pi \\left( \\frac{16}{2} \\right) = 8\\pi$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-s62c78",
+      "q": "A particle moves in a straight line such that its acceleration $a$ at time $t$ seconds is given by $a = 6t \\text{ m/s}^2$. If the initial velocity of the particle (when $t = 0$) is $4 \\text{ m/s}$, find its velocity when $t = 3$ seconds.",
+      "options": [
+        "$27 \\text{ m/s}$",
+        "$31 \\text{ m/s}$",
+        "$40 \\text{ m/s}$",
+        "$58 \\text{ m/s}$"
+      ],
+      "correct": 1,
+      "explain": "Velocity $v$ is the integral of acceleration with respect to time:\n$$v = \\int a \\, dt = \\int 6t \\, dt$$\n$$v = 3t^2 + C$$\n\nWe are given the initial condition that when $t = 0$, $v = 4$. Substitute these values to find the constant $C$:\n$$4 = 3(0)^2 + C \\implies C = 4$$\n\nSo the velocity equation is $v = 3t^2 + 4$.\nNow find the velocity when $t = 3$:\n$$v = 3(3)^2 + 4$$\n$$v = 3(9) + 4 = 27 + 4 = 31 \\text{ m/s}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Integration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

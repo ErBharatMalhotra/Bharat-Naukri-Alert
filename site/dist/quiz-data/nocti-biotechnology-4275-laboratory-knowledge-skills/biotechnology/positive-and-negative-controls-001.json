@@ -1,0 +1,71 @@
+{
+  "title": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills - Biotechnology - Positive and negative controls",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+  "subject": "Biotechnology",
+  "topic": "Positive and negative controls",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-uiott0",
+      "q": "A scientist is setting up a Polymerase Chain Reaction (PCR) to detect the presence of a specific viral pathogen in clinical blood samples. They prepare a \"No Template Control\" (NTC) tube by mixing the master mix, primers, and DNA polymerase, but add sterile, nuclease-free water instead of patient DNA. What is the primary purpose of this specific negative control?",
+      "options": [
+        "To prove that the thermal cycler is capable of reaching the required denaturation temperature.",
+        "To detect if any of the PCR reagents or the laboratory environment have been contaminated with stray target DNA.",
+        "To ensure that the specific primers effectively bind to the target viral DNA sequence.",
+        "To provide a standard reference band size for the agarose gel electrophoresis."
+      ],
+      "correct": 1,
+      "explain": "A **No Template Control (NTC)** is a critical negative control in PCR. \n\nBecause PCR exponentially amplifies DNA, even a microscopic speck of DNA contamination in the water, pipette tips, or master mix can cause a false positive. If a band appears in the NTC (where no DNA was added), the scientist immediately knows their reagents or workspace are contaminated. \n> Option 'c' describes the purpose of a *positive* control. \n> Option 'd' describes a *DNA ladder*.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Positive and negative controls",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-1un2u7w",
+      "q": "A technician is utilizing a rapid lateral flow assay (similar to an at-home COVID-19 or pregnancy test) to detect a protein biomarker in patient serum. After 15 minutes, the test strip is entirely blank: neither the \"Test\" (T) line nor the \"Control\" (C) line has appeared. What is the most scientifically sound interpretation of this result?",
+      "options": [
+        "The patient is definitively negative for the targeted protein biomarker.",
+        "The patient has an extraordinarily high concentration of the biomarker, resulting in a false-negative hook effect.",
+        "The assay has failed or the reagents are compromised; the result is invalid and must be repeated.",
+        "The secondary antibody successfully bound to the biomarker, but the primary antibody failed to attach."
+      ],
+      "correct": 2,
+      "explain": "The **control line (C)** on a diagnostic test acts as an internal positive control; it contains antibodies designed to bind directly to the mobile testing particles regardless of whether the target antigen is present or not. \n\nIf the control line fails to appear, it indicates that the fundamental chemistry of the test has failed (e.g., fluid didn't wick properly, reagents degraded, or expired test). Because the positive control failed, the entire test is **invalid**, and no medical conclusions (like Options 'a' or 'b') can be drawn.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Positive and negative controls",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-1vu3kps",
+      "q": "During an antimicrobial susceptibility test (Kirby-Bauer disc diffusion assay), a researcher plates a highly pathogenic strain of *Staphylococcus aureus* on a large agar plate and drops four different experimental antibiotic discs onto the surface. Which of the following serves as the best **positive growth control** for this specific experiment to ensure the experimental design is valid?",
+      "options": [
+        "An uninoculated agar plate incubated under the exact same temperature conditions.",
+        "A paper disc soaked in sterile water placed directly on the inoculated agar plate.",
+        "A section of the inoculated agar plate that contains no paper discs, observed for robust bacterial lawn formation.",
+        "A separate agar plate inoculated with a completely harmless strain of *E. coli*."
+      ],
+      "correct": 2,
+      "explain": "To validate an antibiotic test, the researcher must prove two things: that the antibiotic stopped the bacteria, and that the bacteria *would have grown* otherwise. \n\nA **positive growth control** proves that the bacteria were viable, the incubation temperature was correct, and the media supported their growth. Leaving a section of the plate completely free of antibiotic discs (Option 'c') should result in a solid bacterial lawn, confirming that any zones of inhibition around the discs were genuinely caused by the antibiotic, not because the bacteria were dead from the start.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Positive and negative controls",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

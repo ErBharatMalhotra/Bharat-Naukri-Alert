@@ -1,0 +1,1262 @@
+{
+  "title": "General - ruby programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "ruby programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 99,
+  "questions": [
+    {
+      "q": "Is the following syntax correct? if conditional code... elsif conditional code.. else code end",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? if 1&gt;2 puts \"false\" else puts \"True\"",
+      "options": [
+        "False",
+        "True",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? if 1&gt;2 puts \"false\" end else puts \"True\" end",
+      "options": [
+        "False",
+        "True",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? variable=true if variable puts \"true\" else puts \"false\" end",
+      "options": [
+        "False",
+        "True",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? variable=\"true\".reverse if variable puts \"true\" else puts \"false\" end",
+      "options": [
+        "False",
+        "True",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? variable=\"true\".length if variable puts \"true\" else puts \"false\" end",
+      "options": [
+        "False",
+        "True",
+        "Syntax error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is valid conditional statement?",
+      "options": [
+        "else",
+        "els",
+        "if else",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of given code? counter=1 if counter&lt;=5 puts (counter) counter=counter+1 else puts(counter) counter=counter-1 end",
+      "options": [
+        "1, 2",
+        "1,2,3,4,5",
+        "1 2 1",
+        "1\n2"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of given code? #counter=1 if counter",
+      "options": [
+        "Undefined local variable counter",
+        "1,2,3,4,5",
+        "1 2 1",
+        "1\n2"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "It is necessary that always if should come with else block?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is valid conditional statement in Ruby?",
+      "options": [
+        "elseif",
+        "elsif",
+        "else if",
+        "elseiff"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The elsif conditional statement is written with an expression.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The elsif statement can add many alternatives to if/else statements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter=6 if counter&lt;=5 puts (counter) counter=counter+1 puts (counter) elsif counter&gt;5 puts (counter) counter=2*counter puts(counter) else puts(counter) counter=counter-1 puts(counter) end",
+      "options": [
+        "5\n10",
+        "6\n12",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is output of the given code? counter=-3 if counter&lt;=5 puts (counter) counter=counter+1 puts (counter) elsif counter&gt;5 puts (counter) counter=2*counter puts(counter) end",
+      "options": [
+        "-3\n-2",
+        "-3\n-6",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? if !true print \"False\" elsif !true || true print \"True\" end",
+      "options": [
+        "True",
+        "False",
+        "Syntax eroor",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? variable = false if variable print \"false\" elsif !variable print \"true\" end",
+      "options": [
+        "False",
+        "True",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x=7 y=9 if x==y print \"equal\" elsif x&gt;y print \"greater\" else print \"less\" end",
+      "options": [
+        "equal",
+        "greater",
+        "less",
+        "none of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=true b=false if a && b puts \"False\" elsif a || b puts \"True\" else puts \"neither true nor false\" end",
+      "options": [
+        "false",
+        "true",
+        "neither true nor false",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=10 b=2 if a&gt;b a=a*b puts (a) elsif a&lt;b a=a*a+b puts (a) else a=a-b puts (a) end",
+      "options": [
+        "20",
+        "102",
+        "-98",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Syntax for unless conditional statement is unless conditional [then] code else code end",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x=3 unless x&gt;2 puts \"x is less than 2\" else puts \"x is greater than 2\" end",
+      "options": [
+        "x is greater than 2",
+        "x is less than 2",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? var = 1 print \"1 -- Value is set\\n\" if var print \"2 -- Value is set\\n\" unless var var = false print \"3 -- Value is set\\n\" unless var",
+      "options": [
+        "1–Value is set",
+        "2–Value is set",
+        "1–Value is set\n2–Value is set",
+        "1–Value is set\n3–Value is set"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? hungry=false unless hungry print \"Not hungry\" else print \"Hungry\" end",
+      "options": [
+        "Not hungry",
+        "Hungry",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The following syntax is also used for unless conditional statement. code unless conditional",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter=12 unless counter print counter+1 else print counter+2 end",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? unless true && false print \"false\" else print \"ruby\" end",
+      "options": [
+        "True",
+        "False",
+        "Nil",
+        "Syntax error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? print \"2 is less than 3\" unless 2&gt;3",
+      "options": [
+        "2&gt;3",
+        "2 is less than 3",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x=8 y=10 unless x&gt;y puts \"x is less than y\" end unless x&gt;y+1 puts \"x is less than y+1\" end",
+      "options": [
+        "x is less than y",
+        "x is less than y+1",
+        "x is less than y\nx is less than y+1",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x=\"ruby\".length y=\"language\".length puts x,y unless x&gt;y print \"length of x is less than that of y\" end",
+      "options": [
+        "4\n8",
+        "4\n8\nlength of x is less than that of y",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? age = 5 case age when 0 .. 2 puts \"baby\" when 3 .. 6 puts \"little child\" when 7 .. 12 puts \"child\" when 13 .. 18 puts \"youth\" else puts \"adult\" end",
+      "options": [
+        "baby",
+        "adult",
+        "little child",
+        "youth"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The following syntax is used for the ruby case statement. case expression when expression , expression ... then code ... else code end",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? age = 4 case age puts \"baby\" when 0 .. 2 puts \"little child\" when 3 .. 6 puts \"child\" when 7 .. 12 puts \"youth\" when 13 .. 18 puts \"adult\" else end",
+      "options": [
+        "adult",
+        "youth",
+        "child",
+        "syntax error"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? for counter in 1..5 case counter when 0 .. 2 puts counter puts \"baby\" when 3 .. 6 puts counter puts \"little child\" when 7 .. 12 puts counter puts \"child\" else puts counter puts \"adult\" end end",
+      "options": [
+        "adult 1..5",
+        "3..6 littlechild",
+        "1\nbaby\n2\nbaby\n3\nlittle child\n4\nlittle child\n5\nlittle child",
+        "adult"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? string = gets.chomp case string when string = \"a\" print \"alphabet a\" when string = \"b\" print \"alphabet b\" when string = \"c\" print \"alphabet c\" else print \"some other alphabet\" end",
+      "options": [
+        "alphabet a",
+        "b\nalphabet b",
+        "alphabet c",
+        "Syntax error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The expression specified by the when clause is evaluated as the left operand. If no when clauses match, case executes the code of the else clause.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? length=gets.chomp case length.length when length=4 print \"length is 4\" when length=5 print \"length is 5\" end",
+      "options": [
+        "ruby\nlength is 4",
+        "ruby\nlength is 5",
+        "abc\nlength is 4",
+        "syntax error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? l=9 case l print \"ruby\" when l==9 print \"language\" when l==10 end",
+      "options": [
+        "l==9",
+        "l==10",
+        "Syntax error",
+        "Ruby"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "A case statement compares the expression specified by case and that specified by when using the === operator and executes the code of the when clause that matches.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "While loop checks the condition and the loop keeps on running till the condition is true, it stops when the condition becomes false.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The complement of while loop is until loop.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter = 1 until counter &gt; 10 puts counter counter+=1 end",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10",
+        "11 12 13 14 ... infinite loop",
+        "0 1 2 3 4 5 6 7 8 9",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter = 0 until counter &gt;= 10 puts counter counter+=1 end",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10",
+        "11 12 13 14 ... infinite loop",
+        "0 1 2 3 4 5 6 7 8 9",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? i = 3 while i &gt; 0 do puts i i -= 1 end j = 3 until j == 0 do puts j j -= 1 end",
+      "options": [
+        "1 2 3 1 2 3",
+        "3 2 1 3 2 1",
+        "0 1 2 3 4 5 6 7 8 9",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=\"hungry\" until !a puts \"hungry\" a=!a end",
+      "options": [
+        "hungry",
+        "Nil",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? m= 8 loop do m += 2 puts m break if m == 16 end",
+      "options": [
+        "10 12 14 16",
+        "Nil",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? m=0 loop do print \"ruby\" m+=1 break if m==5 end",
+      "options": [
+        "rubyrubyrubyrubyrubyruby",
+        "rubyrubyrubyrubyruby",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? m=0 loop do puts m*10 m+=1 break if m==5 end",
+      "options": [
+        "0 10 20 30 40",
+        "10 20 30 40 50",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? m=0 loop do puts 101 m+=1 break if m==5 end",
+      "options": [
+        "101 101 101 101 101",
+        "10 20 30 40 50",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? m=5 loop do m-=1 break if m==0 end",
+      "options": [
+        "1 2 3 4 5",
+        "10 20 30 40 50",
+        "Error",
+        "Nil"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method in Ruby is used to add an element to the end of an array?",
+      "options": [
+        "push",
+        "pop",
+        "append",
+        "insert"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will array.size return in Ruby, if array = [1, 2, 3, 4, 5]?",
+      "options": [
+        "[1, 2, 3, 4, 5]",
+        "\"array\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to access the value associated with a specific key in a hash in Ruby?",
+      "options": [
+        "access",
+        "get",
+        "fetch",
+        "value"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of \"hello\".reverse in Ruby?",
+      "options": [
+        "\"olleh\"",
+        "\"hello\"",
+        "\"loleh\"",
+        "\"hell\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, how do you convert a string to an array of characters?",
+      "options": [
+        "split",
+        "chars",
+        "to_chars",
+        "to_a"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following methods is used to merge two hashes together in Ruby?",
+      "options": [
+        "merge",
+        "join",
+        "combine",
+        "concat"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the &lt;&lt; operator do when used with a string in Ruby?",
+      "options": [
+        "Appends a character to the end",
+        "Removes the last character",
+        "Concatenates two strings",
+        "Reverses the string"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "How do you check if a key exists in a hash in Ruby?",
+      "options": [
+        "key?",
+        "exists?",
+        "include?",
+        "has_key?"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of \"hello\".upcase in Ruby?",
+      "options": [
+        "\"hello\"",
+        "\"Hello\"",
+        "\"HELLO\"",
+        "\"heLLo\""
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method in Ruby is used to remove and return the last element of an array?",
+      "options": [
+        "pop",
+        "shift",
+        "remove",
+        "delete_at"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the join method do when used with an array in Ruby?",
+      "options": [
+        "Joins all elements into a single string",
+        "Splits the array into multiple strings",
+        "Combines two arrays",
+        "Sorts the elements of the array"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the keys method return when called on a hash in Ruby?",
+      "options": [
+        "Array of all keys",
+        "Array of all values",
+        "Array of key-value pairs",
+        "Number of keys in the hash"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to check if an array includes a specific element in Ruby?",
+      "options": [
+        "include?",
+        "contains?",
+        "has_element?",
+        "exists?"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of [\"apple\", \"banana\", \"cherry\"].join(\", \") in Ruby?",
+      "options": [
+        "\"apple, banana, cherry\"",
+        "[\"apple\", \"banana\", \"cherry\"]",
+        "\"applebanana cherry\"",
+        "[\"apple, banana, cherry\"]"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which method is used to remove the last element from an array and return it?",
+      "options": [
+        "pop",
+        "remove",
+        "delete",
+        "shift"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the '&lt;&lt;' operator do when used with arrays in Ruby?",
+      "options": [
+        "Adds an element to the beginning of the array",
+        "Adds an element to the end of the array",
+        "Removes the last element from the array",
+        "Concatenates two arrays"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method in Ruby is used to check if a key exists in a hash?",
+      "options": [
+        "key?",
+        "include?",
+        "exists?",
+        "has_key?"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which method is used to add a key-value pair to a hash?",
+      "options": [
+        "add",
+        "insert",
+        "push",
+        "store"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression `\"hello\".split` in Ruby?",
+      "options": [
+        "[\"h\", \"e\", \"l\", \"l\", \"o\"]",
+        "[\"hello\"]",
+        "Error",
+        "\"hello\""
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `include?` method do when used with strings in Ruby?",
+      "options": [
+        "Checks if a substring exists in the string",
+        "Checks if a character exists in the string",
+        "Checks if the string includes another string",
+        "Error"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `capitalize` method do when used with strings?",
+      "options": [
+        "Converts the first character to uppercase",
+        "Converts the entire string to uppercase",
+        "Converts the first character to lowercase",
+        "Converts the entire string to lowercase"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which method is used to concatenate two strings?",
+      "options": [
+        "concat",
+        "join",
+        "plus"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression `\"hello\".length` in Ruby?",
+      "options": [
+        "Error",
+        "\"hello\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `chomp` method do when used with strings in Ruby?",
+      "options": [
+        "Removes whitespace from the beginning and end",
+        "Removes newline characters from the end",
+        "Removes whitespace from the end",
+        "Removes newline characters from the beginning"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the pop method do when called on an array in Ruby?",
+      "options": [
+        "Removes the first element of the array",
+        "Removes the last element of the array",
+        "Returns a new array with the last element removed",
+        "Inserts an element at a specified index"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What method in Ruby is used to join the elements of an array into a single string?",
+      "options": [
+        "join(separator)",
+        "concat(separator)",
+        "merge(separator)",
+        "combine(separator)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following methods is used to remove a key-value pair from a hash in Ruby?",
+      "options": [
+        "delete(key)",
+        "remove(key)",
+        "erase(key)",
+        "exclude(key)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `split` method do when called on a string in Ruby?",
+      "options": [
+        "Splits the string at every occurrence of a specified character",
+        "Splits the string into characters",
+        "Splits the string into words",
+        "Splits the string into substrings based on a delimiter"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, how can you add a key-value pair to an existing hash?",
+      "options": [
+        "Using the `add` method",
+        "Using the `insert` method",
+        "Using the `put` method",
+        "Simply assigning a value to a new key"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `each_key` method do when called on a hash in Ruby?",
+      "options": [
+        "Iterates over each key-value pair in the hash",
+        "Iterates over each key in the hash",
+        "Iterates over each value in the hash",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following methods is used to check if a key exists in a hash in Ruby?",
+      "options": [
+        "has_key?(key)",
+        "include_key?(key)",
+        "key_exists?(key)",
+        "contains_key?(key)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which method is used to convert a string to uppercase?",
+      "options": [
+        "to_upper",
+        "upcase",
+        "uppercase",
+        "capitalize"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `reverse` method do when called on a string in Ruby?",
+      "options": [
+        "Reverses the order of characters in the string",
+        "Reverses the order of words in the string",
+        "Converts the string to lowercase",
+        "Converts the string to uppercase"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Arrays can be used to store multiple values in one single variable.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? string_array = [\"a\",\"e\",\"i\",\"o\",\"u\"] boolean_array = [\"True\",\"False\"] puts string_array[3] puts boolean_array[1]",
+      "options": [
+        "[\"a\",\"e\",\"i\",\"o\",\"u\"].",
+        "Error",
+        "o\nFALSE",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following? array1 = [1,2,3] array2 = [0,0,0] if array1 &gt;= array2 print \"Greater or equal\" else print \"Not equal\" end",
+      "options": [
+        "Greater or equal",
+        "Not equal",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=[\"hey\", \"ruby\", \"language\"] b=[\"hey\", \"ruby\", \"language\"] if a==b print \"Equal\" else print \"Not equal\" end",
+      "options": [
+        "Equal",
+        "Error",
+        "Not equal",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=[[\"a\",\"b\"]] b=[[\"e\",\"a\"]] print a + b",
+      "options": [
+        "[[\"a\", \"b\"], [\"e\", \"a\"]].",
+        "[[\"2a\", \"b\"], [\"e\"]].",
+        "False",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? array1 = [[1,2,3,4,5],[0,0,0,0]] array2 = [[1,2,3],[0,0,0]] print !array1",
+      "options": [
+        "[[1, 2, 3], [0, 0, 0]].",
+        "[[1, 2, 3, 4, 5], [0, 0, 0, 0]].",
+        "False",
+        "Error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? array1 = [[1,2,3,4],[0,0,0,0]] array2 = [[1,2,3],[0,0,0,0]] if array1==array2 print \"Equal\" else print \"Not equal\" end",
+      "options": [
+        "[[1, 2, 3, 4], [0, 0, 0, 0]].",
+        "Equal",
+        "Not equal",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following? array = [100, 200, 300, 400, 500] print array[4]",
+      "options": [
+        "400",
+        "500",
+        "Nil",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=[1,2,3,4,5] b=[1,2,4,6,8] if a[3]==b[2] print \"Equal\" end",
+      "options": [
+        "Equal",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following? array1 = [100, 200, 300, 400, 500] array2 = [1,2,3,4,5] if array1 == array2 print \"They are equal\" else print \"Not equal\" end",
+      "options": [
+        "They are equal",
+        "Not equal",
+        "Nil",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? multi_d_array = [[1,2,3,4],[0,0,0,0]] multi_d_array.each { |x| puts \"#{x}\\n\" }",
+      "options": [
+        "[1, 2, 3, 4].\n[0, 0, 0, 0].\n[[1, 2, 3, 4], [0, 0, 0, 0]].",
+        "[0, 0, 0, 0].",
+        "[0, 0, 0, 0][0, 0, 0, 0].",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be output of the given code? my_array = [1, 2, 3, 4] print my_array",
+      "options": [
+        "[1, 2, 3, 4].",
+        "1234",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "It is possible to make array of booleans.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=[1,2,3,4,5] b=[1,2,3,4,5] if a==b print \"Equal\" else print \"Not equal\" end",
+      "options": [
+        "Equal",
+        "Error",
+        "Not equal",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following? array1 = [0,0,0] array2 = [0,0,0] if array1 == array2 print \"They are equal\" else print \"Not equal\" end",
+      "options": [
+        "They are equal",
+        "Not equal",
+        "Nil",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Array of arrays are called multidimensional arrays.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Physics - Alternating Current",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Physics",
+  "topic": "Alternating Current",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-fgeard",
+      "q": "An inductor of $10$ mH, capacitor of $0.1 \\text{ } \\mu\\text{F}$ and a resistor of $100 \\text{ } \\Omega$ are connected in series across an a.c power supply $220$ V, $70$ Hz. The power factor of the given circuit is $0.5$. The difference in the inductive reactance and capacitance reactance is $\\sqrt{3}\\alpha \\text{ } \\Omega$. The value of $\\alpha$ is _____.",
+      "options": [
+        "$50$",
+        "$100$",
+        "$150$",
+        "$200$"
+      ],
+      "correct": 1,
+      "explain": "The power factor of an LCR series circuit is given by $\\cos \\phi = \\frac{R}{Z}$.\nGiven the power factor is $0.5$ and $R = 100 \\text{ } \\Omega$:\n$\\frac{100}{Z} = 0.5 \\implies Z = \\frac{100}{0.5} = 200 \\text{ } \\Omega$.\nThe impedance $Z$ is also related to resistance and reactance by $Z = \\sqrt{R^2 + (X_L - X_C)^2}$.\nSubstituting the known values:\n$200 = \\sqrt{100^2 + (X_L - X_C)^2}$\n$200^2 = 100^2 + (X_L - X_C)^2 \\implies 40000 = 10000 + (X_L - X_C)^2$\n$(X_L - X_C)^2 = 30000 \\implies |X_L - X_C| = \\sqrt{30000} = 100\\sqrt{3} \\text{ } \\Omega$.\nGiven this difference is $\\sqrt{3}\\alpha \\text{ } \\Omega$, comparing terms directly yields:\n$\\sqrt{3}\\alpha = 100\\sqrt{3} \\implies \\alpha = 100$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Alternating Current",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

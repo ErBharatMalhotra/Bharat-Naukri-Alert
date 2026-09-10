@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Remainders",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Remainders",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-jt3t14",
+      "q": "If $10^{68}$ is divided by 13 , the remainder is:",
+      "options": [
+        "8",
+        "9",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Using Fermat's Little Theorem, $a^{p-1} \\equiv 1 \\pmod{p}$. So, $10^{12} \\equiv 1 \\pmod{13}$. We can write $10^{68} = (10^{12})^5 \\cdot 10^8$. The remainder is the same as $10^8 \\pmod{13}$. $10^2 = 100 \\equiv 9 \\pmod{13}$, so $10^8 = (10^2)^4 \\equiv 9^4 \\pmod{13} \\equiv (-4)^4 \\pmod{13} \\equiv 256 \\pmod{13} \\equiv 9 \\pmod{13}$.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Remainders",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

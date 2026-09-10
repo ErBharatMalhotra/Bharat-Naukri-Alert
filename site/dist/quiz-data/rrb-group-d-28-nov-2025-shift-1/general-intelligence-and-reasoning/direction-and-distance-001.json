@@ -1,0 +1,51 @@
+{
+  "title": "RRB Group D 28 Nov 2025 Shift 1 - General Intelligence and Reasoning - Direction and Distance",
+  "titleHi": "",
+  "exam": "RRB Group D 28 Nov 2025 Shift 1",
+  "subject": "General Intelligence and Reasoning",
+  "topic": "Direction and Distance",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "rrb-group-d-28-nov-2025-shift-1-9sgi54",
+      "q": "Mr. Z starts from Point A and drives 18 km towards the North. He then takes a left turn, drives 14 km, then turns left and drives 14 km. He then takes a right turn, drives 13 km, then turns left and drives 25 km. He then takes a left turn and drives 34 km. He takes a final left turn, drives 21 km, and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only, unless specified.)",
+      "options": [
+        "7 km to the west",
+        "9 km to the south",
+        "8 km to the east",
+        "10 km to the north"
+      ],
+      "correct": 0,
+      "explain": "Assuming Point A is the origin $(0,0)$.\n1) 18 km North $\\rightarrow (0, 18)$, facing North.\n2) Left turn (West), 14 km $\\rightarrow (-14, 18)$, facing West.\n3) Left turn (South), 14 km $\\rightarrow (-14, 4)$, facing South.\n4) Right turn (West), 13 km $\\rightarrow (-27, 4)$, facing West.\n5) Left turn (South), 25 km $\\rightarrow (-27, -21)$, facing South.\n6) Left turn (East), 34 km $\\rightarrow (-27+34, -21) = (7, -21)$, facing East.\n7) Left turn (North), 21 km $\\rightarrow (7, -21+21) = (7, 0)$, which is Point P.\nPoint P is 7 km East of Point A (0,0). To reach Point A, he must drive 7 km West from Point P.",
+      "exam": "RRB Group D 28 Nov 2025 Shift 1",
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "rrb-group-d-28-nov-2025-shift-1-bob8wo",
+      "q": "Karan starts from Point A and drives 12 km towards the North. He then takes a right turn, drives 6 km, then turns right and drives 16 km. He then takes a right turn and drives 8 km. He takes a final right turn, drives 4 km, and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only, unless specified.)",
+      "options": [
+        "2 km to the west",
+        "3 km to the west",
+        "2 km to the east",
+        "3 km to the east"
+      ],
+      "correct": 2,
+      "explain": "Let Point A be $(0, 0)$.\n1. Drives 12 km North $\\rightarrow (0, 12)$, facing North.\n2. Right turn (East) 6 km $\\rightarrow (6, 12)$, facing East.\n3. Right turn (South) 16 km $\\rightarrow (6, 12 - 16) = (6, -4)$, facing South.\n4. Right turn (West) 8 km $\\rightarrow (6 - 8, -4) = (-2, -4)$, facing West.\n5. Right turn (North) 4 km $\\rightarrow (-2, -4 + 4) = (-2, 0)$, which is Point P.\nPoint P is at $(-2, 0)$. Point A is at $(0, 0)$.\nTo reach Point A from P, Karan must move from $X = -2$ to $X = 0$, which means driving 2 km towards the East.",
+      "exam": "RRB Group D 28 Nov 2025 Shift 1",
+      "subject": "General Intelligence and Reasoning",
+      "topic": "Direction and Distance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

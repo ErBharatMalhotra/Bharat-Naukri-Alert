@@ -1,0 +1,311 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Vectors",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Vectors",
+  "source": "github:online-exam-questions",
+  "count": 15,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-44dfgs",
+      "q": "Which of the following physical quantities is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Weight",
+        "Mass"
+      ],
+      "correct": 3,
+      "explain": "A scalar quantity has only magnitude and no direction. **Mass** is a scalar quantity. On the other hand, displacement, velocity, and weight (which is a force acting downwards due to gravity) all have direction and are therefore vector quantities.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1kle9ww",
+      "q": "If $\\mathbf{a} = 2\\mathbf{i} - 3\\mathbf{j} + \\mathbf{k}$ and $\\mathbf{b} = -\\mathbf{i} + 2\\mathbf{j} - 4\\mathbf{k}$, find the vector $3\\mathbf{a} + 2\\mathbf{b}$.",
+      "options": [
+        "$4\\mathbf{i} - 5\\mathbf{j} - 5\\mathbf{k}$",
+        "$4\\mathbf{i} - 5\\mathbf{j} - 11\\mathbf{k}$",
+        "$8\\mathbf{i} - 5\\mathbf{j} - 5\\mathbf{k}$",
+        "$4\\mathbf{i} + 5\\mathbf{j} + 5\\mathbf{k}$"
+      ],
+      "correct": 0,
+      "explain": "First, find the scalar multiples of the vectors:\n$$3\\mathbf{a} = 3(2\\mathbf{i} - 3\\mathbf{j} + \\mathbf{k}) = 6\\mathbf{i} - 9\\mathbf{j} + 3\\mathbf{k}$$\n$$2\\mathbf{b} = 2(-\\mathbf{i} + 2\\mathbf{j} - 4\\mathbf{k}) = -2\\mathbf{i} + 4\\mathbf{j} - 8\\mathbf{k}$$\n\nNow, add the two resulting vectors component by component:\n$$(6 - 2)\\mathbf{i} + (-9 + 4)\\mathbf{j} + (3 - 8)\\mathbf{k}$$\n$$= 4\\mathbf{i} - 5\\mathbf{j} - 5\\mathbf{k}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1w9j1h8",
+      "q": "Find the unit vector in the direction of the vector $\\mathbf{v} = -3\\mathbf{i} + 4\\mathbf{j}$.",
+      "options": [
+        "$-\\frac{3}{5}\\mathbf{i} + \\frac{4}{5}\\mathbf{j}$",
+        "$\\frac{3}{5}\\mathbf{i} - \\frac{4}{5}\\mathbf{j}$",
+        "$-3\\mathbf{i} + 4\\mathbf{j}$",
+        "$-\\frac{3}{25}\\mathbf{i} + \\frac{4}{25}\\mathbf{j}$"
+      ],
+      "correct": 0,
+      "explain": "A unit vector $\\hat{\\mathbf{v}}$ in the direction of $\\mathbf{v}$ is given by dividing the vector by its magnitude, $\\frac{\\mathbf{v}}{|\\mathbf{v}|}$.\n\nFirst, find the magnitude of $\\mathbf{v}$:\n$$|\\mathbf{v}| = \\sqrt{(-3)^2 + (4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$\n\nNow divide the vector by its magnitude:\n$$\\hat{\\mathbf{v}} = \\frac{-3\\mathbf{i} + 4\\mathbf{j}}{5} = -\\frac{3}{5}\\mathbf{i} + \\frac{4}{5}\\mathbf{j}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-13ud7ab",
+      "q": "The position vectors of points $A$ and $B$ with respect to the origin are $\\mathbf{i} + 3\\mathbf{j}$ and $4\\mathbf{i} - \\mathbf{j}$ respectively. Find the magnitude of the vector $\\overrightarrow{AB}$.",
+      "options": [
+        "$5$",
+        "$6$",
+        "$\\sqrt{13}$",
+        "$\\sqrt{29}$"
+      ],
+      "correct": 0,
+      "explain": "Let the position vectors be $\\mathbf{a} = \\mathbf{i} + 3\\mathbf{j}$ and $\\mathbf{b} = 4\\mathbf{i} - \\mathbf{j}$.\n\nThe vector from $A$ to $B$ is $\\overrightarrow{AB} = \\mathbf{b} - \\mathbf{a}$:\n$$\\overrightarrow{AB} = (4\\mathbf{i} - \\mathbf{j}) - (\\mathbf{i} + 3\\mathbf{j})$$\n$$\\overrightarrow{AB} = (4 - 1)\\mathbf{i} + (-1 - 3)\\mathbf{j} = 3\\mathbf{i} - 4\\mathbf{j}$$\n\nNow, find the magnitude of $\\overrightarrow{AB}$:\n$$|\\overrightarrow{AB}| = \\sqrt{3^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-d5jmnw",
+      "q": "The position vectors of points $P$ and $Q$ with respect to an origin $O$ are $\\mathbf{p}$ and $\\mathbf{q}$ respectively. If a point $R$ lies on the line segment $PQ$ such that $PR:RQ = 3:2$, find the position vector of $R$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+      "options": [
+        "$\\frac{1}{5}(2\\mathbf{p} + 3\\mathbf{q})$",
+        "$\\frac{1}{5}(3\\mathbf{p} + 2\\mathbf{q})$",
+        "$\\frac{1}{5}(3\\mathbf{p} - 2\\mathbf{q})$",
+        "$\\frac{1}{5}(2\\mathbf{p} - 3\\mathbf{q})$"
+      ],
+      "correct": 0,
+      "explain": "Using the section formula for vectors, if a point $R$ divides the line segment joining $P$ (position vector $\\mathbf{p}$) and $Q$ (position vector $\\mathbf{q}$) internally in the ratio $m:n$, the position vector of $R$ is:\n$$\\mathbf{r} = \\frac{n\\mathbf{p} + m\\mathbf{q}}{m + n}$$\n\nHere, $m = 3$ and $n = 2$:\n$$\\mathbf{r} = \\frac{2\\mathbf{p} + 3\\mathbf{q}}{3 + 2} = \\frac{2\\mathbf{p} + 3\\mathbf{q}}{5} = \\frac{1}{5}(2\\mathbf{p} + 3\\mathbf{q})$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1qocp41",
+      "q": "Evaluate the scalar (dot) product of the vectors $\\mathbf{a} = 2\\mathbf{i} - 3\\mathbf{j} + \\mathbf{k}$ and $\\mathbf{b} = 4\\mathbf{i} + \\mathbf{j} - 3\\mathbf{k}$.",
+      "options": [
+        "$1$",
+        "$2$",
+        "$5$",
+        "$8$"
+      ],
+      "correct": 1,
+      "explain": "The scalar product $\\mathbf{a} \\cdot \\mathbf{b}$ is found by multiplying the corresponding components and summing them up:\n$$\\mathbf{a} \\cdot \\mathbf{b} = (a_x \\times b_x) + (a_y \\times b_y) + (a_z \\times b_z)$$\n\nSubstitute the given values:\n$$\\mathbf{a} \\cdot \\mathbf{b} = (2 \\times 4) + (-3 \\times 1) + (1 \\times -3)$$\n$$\\mathbf{a} \\cdot \\mathbf{b} = 8 - 3 - 3 = 2$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1mrmmjw",
+      "q": "Find the angle between the vectors $\\mathbf{u} = \\mathbf{i} + \\sqrt{3}\\mathbf{j}$ and $\\mathbf{v} = \\mathbf{i}$.",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correct": 2,
+      "explain": "The angle $\\theta$ between two vectors is given by the formula $\\cos \\theta = \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}$.\n\n1. Find the dot product:\n$$\\mathbf{u} \\cdot \\mathbf{v} = (1)(1) + (\\sqrt{3})(0) = 1$$\n\n2. Find the magnitudes of $\\mathbf{u}$ and $\\mathbf{v}$:\n$$|\\mathbf{u}| = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = \\sqrt{4} = 2$$\n$$|\\mathbf{v}| = \\sqrt{1^2 + 0^2} = 1$$\n\n3. Calculate the angle:\n$$\\cos \\theta = \\frac{1}{2 \\times 1} = 0.5$$\n$$\\theta = \\cos^{-1}(0.5) = 60^\\circ$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-k9hcow",
+      "q": "The vectors $\\mathbf{p} = \\lambda\\mathbf{i} - 2\\mathbf{j} + 5\\mathbf{k}$ and $\\mathbf{q} = 3\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$ are perpendicular. Find the value of the scalar $\\lambda$.",
+      "options": [
+        "-1",
+        "$-\\frac{2}{3}$",
+        "$\\frac{2}{3}$",
+        "-2"
+      ],
+      "correct": 1,
+      "explain": "If two vectors are perpendicular, their scalar (dot) product is zero. \nSo, $\\mathbf{p} \\cdot \\mathbf{q} = 0$.\n\nCalculate the dot product:\n$$(\\lambda \\times 3) + (-2 \\times 4) + (5 \\times 2) = 0$$\n$$3\\lambda - 8 + 10 = 0$$\n$$3\\lambda + 2 = 0$$\n$$3\\lambda = -2 \\implies \\lambda = -\\frac{2}{3}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1ulwi22",
+      "q": "Which of the following algebraic properties correctly applies to the vector (cross) product of two vectors $\\mathbf{a}$ and $\\mathbf{b}$?",
+      "options": [
+        "$\\mathbf{a} \\times \\mathbf{b} = \\mathbf{b} \\times \\mathbf{a}$",
+        "$\\mathbf{a} \\times \\mathbf{b} = -(\\mathbf{b} \\times \\mathbf{a})$",
+        "$\\mathbf{a} \\times (\\mathbf{b} \\cdot \\mathbf{c}) = (\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{c}$",
+        "$\\mathbf{a} \\times \\mathbf{a} = |\\mathbf{a}|^2$"
+      ],
+      "correct": 1,
+      "explain": "The vector (cross) product is **anti-commutative**, which means that reversing the order of the vectors reverses the direction of the resulting vector. \nTherefore, $\\mathbf{a} \\times \\mathbf{b} = -(\\mathbf{b} \\times \\mathbf{a})$. \n*(Note: $\\mathbf{a} \\times \\mathbf{a} = 0$, not $|\\mathbf{a}|^2$.)*",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1xqtbnd",
+      "q": "Find the vector product $\\mathbf{a} \\times \\mathbf{b}$ where $\\mathbf{a} = 2\\mathbf{i} + \\mathbf{j}$ and $\\mathbf{b} = 3\\mathbf{i} - \\mathbf{j} + \\mathbf{k}$.",
+      "options": [
+        "$\\mathbf{i} - 2\\mathbf{j} - 5\\mathbf{k}$",
+        "$\\mathbf{i} - 2\\mathbf{j} + 5\\mathbf{k}$",
+        "$-\\mathbf{i} + 2\\mathbf{j} - 5\\mathbf{k}$",
+        "$2\\mathbf{i} - \\mathbf{j} + 3\\mathbf{k}$"
+      ],
+      "correct": 0,
+      "explain": "To find the cross product, compute the determinant of the $3 \\times 3$ matrix formed by the unit vectors and the components of $\\mathbf{a}$ and $\\mathbf{b}$:\n$$ \\mathbf{a} \\times \\mathbf{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\\\\\ 2 & 1 & 0 \\\\\\\\ 3 & -1 & 1 \\end{vmatrix} $$\n\nExpand along the top row:\n$$ = \\mathbf{i}\\begin{vmatrix} 1 & 0 \\\\\\\\ -1 & 1 \\end{vmatrix} - \\mathbf{j}\\begin{vmatrix} 2 & 0 \\\\\\\\ 3 & 1 \\end{vmatrix} + \\mathbf{k}\\begin{vmatrix} 2 & 1 \\\\\\\\ 3 & -1 \\end{vmatrix} $$\n\nCalculate the $2 \\times 2$ determinants:\n$$ = \\mathbf{i}( (1)(1) - (0)(-1) ) - \\mathbf{j}( (2)(1) - (0)(3) ) + \\mathbf{k}( (2)(-1) - (1)(3) ) $$\n$$ = \\mathbf{i}(1 - 0) - \\mathbf{j}(2 - 0) + \\mathbf{k}(-2 - 3) $$\n$$ = \\mathbf{i} - 2\\mathbf{j} - 5\\mathbf{k} $$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-iyph3g",
+      "q": "A constant force $\\mathbf{F} = (5\\mathbf{i} + 2\\mathbf{j} - \\mathbf{k}) \\text{ N}$ moves a particle from a point $A(1, 1, 2)$ to a point $B(3, 4, 1)$ with distances measured in meters. Calculate the work done by the force.",
+      "options": [
+        "$10 \\text{ J}$",
+        "$15 \\text{ J}$",
+        "$17 \\text{ J}$",
+        "$20 \\text{ J}$"
+      ],
+      "correct": 2,
+      "explain": "Work done ($W$) by a constant force is the scalar product of the force vector ($\\mathbf{F}$) and the displacement vector ($\\mathbf{s}$): $W = \\mathbf{F} \\cdot \\mathbf{s}$.\n\nFirst, find the displacement vector $\\mathbf{s} = \\overrightarrow{AB}$:\n$$ \\mathbf{s} = (3 - 1)\\mathbf{i} + (4 - 1)\\mathbf{j} + (1 - 2)\\mathbf{k} $$\n$$ \\mathbf{s} = 2\\mathbf{i} + 3\\mathbf{j} - \\mathbf{k} $$\n\nNow, calculate the dot product:\n$$ W = (5\\mathbf{i} + 2\\mathbf{j} - \\mathbf{k}) \\cdot (2\\mathbf{i} + 3\\mathbf{j} - \\mathbf{k}) $$\n$$ W = (5 \\times 2) + (2 \\times 3) + (-1 \\times -1) $$\n$$ W = 10 + 6 + 1 = 17 \\text{ Joules} $$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-krc3uq",
+      "q": "The adjacent sides of a parallelogram are represented by the vectors $\\mathbf{p} = 3\\mathbf{i} + 4\\mathbf{j}$ and $\\mathbf{q} = \\mathbf{i} + 2\\mathbf{j}$. Find the area of the parallelogram.",
+      "options": [
+        "$2 \\text{ sq units}$",
+        "$4 \\text{ sq units}$",
+        "$7 \\text{ sq units}$",
+        "$10 \\text{ sq units}$"
+      ],
+      "correct": 0,
+      "explain": "The area of a parallelogram defined by vectors $\\mathbf{p}$ and $\\mathbf{q}$ is the magnitude of their cross product: $\\text{Area} = |\\mathbf{p} \\times \\mathbf{q}|$.\n\nSince these are 2D vectors in the $xy$-plane, we can evaluate the $z$-component of their cross product:\n$$ \\mathbf{p} \\times \\mathbf{q} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\\\\\ 3 & 4 & 0 \\\\\\\\ 1 & 2 & 0 \\end{vmatrix} = (3 \\times 2 - 4 \\times 1)\\mathbf{k} $$\n$$ \\mathbf{p} \\times \\mathbf{q} = (6 - 4)\\mathbf{k} = 2\\mathbf{k} $$\n\nThe magnitude of this vector is $|2\\mathbf{k}| = 2$. Therefore, the area is $2 \\text{ sq units}$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-sbfgco",
+      "q": "Find the scalar projection of the vector $\\mathbf{a} = 4\\mathbf{i} - 3\\mathbf{j}$ onto the vector $\\mathbf{b} = 12\\mathbf{i} + 5\\mathbf{j}$.",
+      "options": [
+        "$\\frac{33}{13}$",
+        "$\\frac{48}{13}$",
+        "$\\frac{11}{5}$",
+        "$\\frac{63}{13}$"
+      ],
+      "correct": 0,
+      "explain": "The scalar projection of $\\mathbf{a}$ onto $\\mathbf{b}$ is given by $\\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|}$.\n\n1. Calculate the dot product:\n$$ \\mathbf{a} \\cdot \\mathbf{b} = (4 \\times 12) + (-3 \\times 5) = 48 - 15 = 33 $$\n\n2. Calculate the magnitude of $\\mathbf{b}$:\n$$ |\\mathbf{b}| = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13 $$\n\n3. Divide the dot product by the magnitude of $\\mathbf{b}$:\n$$ \\text{Scalar Projection} = \\frac{33}{13} $$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-mssbmo",
+      "q": "A force of magnitude $20 \\text{ N}$ acts in the direction of the vector $3\\mathbf{i} - 4\\mathbf{j}$. Express the force as a vector.",
+      "options": [
+        "$6\\mathbf{i} - 8\\mathbf{j}$",
+        "$12\\mathbf{i} - 16\\mathbf{j}$",
+        "$15\\mathbf{i} - 20\\mathbf{j}$",
+        "$\\frac{3}{5}\\mathbf{i} - \\frac{4}{5}\\mathbf{j}$"
+      ],
+      "correct": 1,
+      "explain": "To express the force as a vector, multiply its magnitude by the unit vector in its direction.\n\nLet $\\mathbf{v} = 3\\mathbf{i} - 4\\mathbf{j}$.\nMagnitude of $\\mathbf{v}$: $|\\mathbf{v}| = \\sqrt{3^2 + (-4)^2} = \\sqrt{9 + 16} = 5$.\n\nUnit vector in the direction of $\\mathbf{v}$:\n$$ \\hat{\\mathbf{v}} = \\frac{3\\mathbf{i} - 4\\mathbf{j}}{5} $$\n\nMultiply the unit vector by the magnitude of the force ($20 \\text{ N}$):\n$$ \\mathbf{F} = 20 \\times \\left( \\frac{3\\mathbf{i} - 4\\mathbf{j}}{5} \\right) = 4(3\\mathbf{i} - 4\\mathbf{j}) $$\n$$ \\mathbf{F} = 12\\mathbf{i} - 16\\mathbf{j} $$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-3x1zow",
+      "q": "Three forces $\\mathbf{F}_1 = 2\\mathbf{i} + \\mathbf{j}$, $\\mathbf{F}_2 = -\\mathbf{i} + 3\\mathbf{j}$, and $\\mathbf{F}_3 = x\\mathbf{i} + y\\mathbf{j}$ act on a particle and keep it in equilibrium. Find the values of $x$ and $y$.",
+      "options": [
+        "$x = 1, y = 4$",
+        "$x = -1, y = -4$",
+        "$x = -3, y = -2$",
+        "$x = 3, y = 2$"
+      ],
+      "correct": 1,
+      "explain": "If the forces keep the particle in equilibrium, their vector sum (the resultant force) must be zero.\n$$ \\mathbf{F}_1 + \\mathbf{F}_2 + \\mathbf{F}_3 = \\mathbf{0} $$\n\nAdd the $\\mathbf{i}$ and $\\mathbf{j}$ components respectively and set them to zero:\n**$\\mathbf{i}$ components:**\n$$ 2 - 1 + x = 0 $$\n$$ 1 + x = 0 \\implies x = -1 $$\n\n**$\\mathbf{j}$ components:**\n$$ 1 + 3 + y = 0 $$\n$$ 4 + y = 0 \\implies y = -4 $$\n\nHence, $x = -1$ and $y = -4$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

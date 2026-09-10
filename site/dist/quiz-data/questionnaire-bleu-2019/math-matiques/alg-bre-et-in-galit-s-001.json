@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire bleu 2019 - MATHÉMATIQUES - Algèbre et Inégalités",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2019",
+  "subject": "MATHÉMATIQUES",
+  "topic": "Algèbre et Inégalités",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2019-iew59c",
+      "q": "Soient $a, b$ deux nombres réels non nuls tels que $0 > \\frac{1}{a} > \\frac{1}{b}$. Parmi les propositions suivantes les concernant, laquelle est nécessairement vraie ?",
+      "options": [
+        "$a^2 > b^2$",
+        "$b^2 < a^2$",
+        "$b^2 > a^2 + 1$",
+        "$b^2 < a^2 - 1$"
+      ],
+      "correct": 1,
+      "explain": "Puisque $0 > 1/a$, alors $a < 0$. De plus, $1/a > 1/b$ implique que $b$ est plus négatif que $a$, donc $b < a < 0$. Comme les deux valeurs sont négatives, inverser la relation donne $|b| < |a|$ en distance à zéro si l'on prend l'inverse : wait, $\\frac{1}{a} > \\frac{1}{b}$ avec les deux négatifs veut dire $b > a$. Prenons par exemple $a = -2$, alors $1/a = -0.5$. $1/b$ doit être plus petit (ex: -1), donc $b = -1$. Ainsi, $b = -1$ et $a = -2$, ce qui vérifie $b > a$ (donc $b$ est plus proche de 0). Dès lors, $|b| < |a|$, donc $b^2 < a^2$.",
+      "exam": "Questionnaire bleu 2019",
+      "subject": "MATHÉMATIQUES",
+      "topic": "Algèbre et Inégalités",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2019",
+      "tags": []
+    }
+  ]
+}

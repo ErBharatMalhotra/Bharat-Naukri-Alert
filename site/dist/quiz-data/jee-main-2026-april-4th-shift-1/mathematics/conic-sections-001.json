@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Conic Sections",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Conic Sections",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1mq76fk",
+      "q": "Consider the parabola $P : y^2 = 4kx$ and the ellipse $E : \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Let the line segment joining the points of intersection of $P$ and $E$, be their latus rectums. If the eccentricity of $E$ is $e$, then $e^2 + 2\\sqrt{2}$ is equal to \\_\\_\\_\\_\\_.",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 2,
+      "explain": "The endpoints of the latus rectum of parabola $y^2 = 4kx$ are $(k, 2k)$ and $(k, -2k)$.\nThese points also represent the latus rectum of the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.\nFor the ellipse, the latus rectum endpoints are $(ae, \\pm \\frac{b^2}{a})$.\nComparing coordinates, we obtain:\n$k = ae \\quad \\text{and} \\quad 2k = \\frac{b^2}{a}$.\nThus, $\\frac{b^2}{a} = 2(ae) \\implies b^2 = 2a^2 e$.\nWe also know for an ellipse $b^2 = a^2(1 - e^2)$.\nEquating both, $a^2(1 - e^2) = 2a^2 e \\implies 1 - e^2 = 2e \\implies e^2 + 2e - 1 = 0$.\nSolving for positive $e$ yields $e = \\frac{-2 + \\sqrt{4 + 4}}{2} = \\sqrt{2} - 1$.\nWe need the value of $e^2 + 2\\sqrt{2}$.\n$e^2 = (\\sqrt{2} - 1)^2 = 2 - 2\\sqrt{2} + 1 = 3 - 2\\sqrt{2}$.\n$e^2 + 2\\sqrt{2} = (3 - 2\\sqrt{2}) + 2\\sqrt{2} = 3$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

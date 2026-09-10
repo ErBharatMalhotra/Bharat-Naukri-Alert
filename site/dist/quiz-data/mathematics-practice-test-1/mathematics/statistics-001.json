@@ -1,0 +1,91 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Statistics",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Statistics",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-17t6wkc",
+      "q": "Cameron took 4 tests, and his scores were as follows: 100, 60, 80, and 30. Cameron took another test that was scored $x$. The mean score of the 5 tests he took is 72. What is the value of $x$?",
+      "options": [
+        "54",
+        "67.5",
+        "68.4",
+        "90"
+      ],
+      "correct": 3,
+      "explain": "To find the missing score, set up the equation for the mean of 5 tests: $\\frac{100 + 60 + 80 + 30 + x}{5} = 72$. Multiplying both sides by 5 gives $270 + x = 360$. Subtracting 270 from both sides yields $x = 90$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "mathematics-practice-test-1-p7lojc",
+      "q": "Jonathan rode his bike every day for 18 days. The table shows each of the distances he rode. The table also shows the number of days he rode each of those distances.\n\n| Distance (in miles) | Number of days |\n|---|---|\n| 1 | 2 |\n| 3 | 4 |\n| 4 | 3 |\n| 5 | 6 |\n| 7 | 3 |\n\nWhat is the median daily distance, in miles, that Jonathan rode his bike for the 18 days?",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "4.5"
+      ],
+      "correct": 3,
+      "explain": "The median of 18 values is the average of the 9th and 10th values when arranged in order. Using a cumulative sum of days: 2 days (1 mile), $2+4=6$ days (up to 3 miles), $6+3=9$ days (up to 4 miles). Therefore, the 9th value is 4. The 10th value falls into the next category (5 miles), making the 10th value 5. The average of 4 and 5 is $\\frac{4+5}{2} = 4.5$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "mathematics-practice-test-1-sgynp0",
+      "q": "A tourism organization randomly selected 100 tourists finishing their summer visit to Spain. The organization asked them how many cities they had toured in the country. The table shows the results. Based on these data, for the population of tourists that visited Spain during the summer, what is the best estimate of the mean number of cities toured?\n\n| Number of cities | 1 | 2 | 3 |\n|---|---|---|---|\n| Number of tourists | 10 | 40 | 50 |",
+      "options": [
+        "0.8",
+        "2",
+        "2.4",
+        "3"
+      ],
+      "correct": 2,
+      "explain": "To estimate the mean, multiply each number of cities by the frequency (number of tourists), sum the products, and divide by the total number of tourists (100). Sum $= (1 \\times 10) + (2 \\times 40) + (3 \\times 50) = 10 + 80 + 150 = 240$. The mean is $240 / 100 = 2.4$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "mathematics-practice-test-1-16p1aam",
+      "q": "Which of the following datasets has the largest standard deviation?",
+      "options": [
+        "0, 0, 10, 10",
+        "0, 1, 9, 10",
+        "2, 3, 5, 7",
+        "5, 5, 5, 5"
+      ],
+      "correct": 0,
+      "explain": "Standard deviation measures how spread out numbers are from their mean. A dataset with values clustered tightly around its mean has a low standard deviation (e.g., 5,5,5,5 has a standard deviation of 0). The values 0, 0, 10, 10 are distributed entirely at the extremes, as far away from their mean (5) as possible given the 0-10 range. This results in the largest spread and highest standard deviation.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

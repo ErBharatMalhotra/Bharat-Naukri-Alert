@@ -1,0 +1,331 @@
+{
+  "title": "WASSCE Further Maths: Core Algebra and Logic - Further Mathematics (Elective Mathematics) - Sets",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Core Algebra and Logic",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Sets",
+  "source": "github:online-exam-questions",
+  "count": 16,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-su1d0u",
+      "q": "Given $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$, find the intersection of the two sets, $A \\cap B$.",
+      "options": [
+        "$\\{1, 2\\}$",
+        "$\\{3, 4\\}$",
+        "$\\{5, 6\\}$",
+        "$\\{1, 2, 3, 4, 5, 6\\}$"
+      ],
+      "correct": 1,
+      "explain": "The intersection of sets $A$ and $B$, denoted by $A \\cap B$, is the set containing all elements that are common to both $A$ and $B$. Since 3 and 4 appear in both sets, $A \\cap B = \\{3, 4\\}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-261k9s",
+      "q": "If a set $P$ has exactly 5 elements, how many proper subsets does $P$ have?",
+      "options": [
+        "32",
+        "31",
+        "10",
+        "25"
+      ],
+      "correct": 1,
+      "explain": "The total number of subsets for a set with $n$ elements is given by $2^n$. The proper subsets include all subsets except the set itself. Therefore, the formula for the number of proper subsets is $2^n - 1$. For $n = 5$, this is $2^5 - 1 = 32 - 1 = 31$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-8iwkjk",
+      "q": "In a class of 40 students, 25 offer Physics and 18 offer Chemistry. If 8 students offer neither Physics nor Chemistry, how many students offer both subjects?",
+      "options": [
+        "7",
+        "11",
+        "14",
+        "18"
+      ],
+      "correct": 1,
+      "explain": "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg' font-family='Arial,sans-serif'><rect x='5' y='5' width='390' height='290' rx='10' fill='#f0f4ff' stroke='#333' stroke-width='2'/><text x='15' y='28' font-size='14' font-weight='bold' fill='#333'>U = 40</text><circle cx='155' cy='155' r='90' fill='#93c5fd' fill-opacity='0.5' stroke='#2563eb' stroke-width='2'/><circle cx='245' cy='155' r='90' fill='#86efac' fill-opacity='0.5' stroke='#16a34a' stroke-width='2'/><text x='100' y='145' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e3a8a'>Physics</text><text x='100' y='162' text-anchor='middle' font-size='13' font-weight='bold' fill='#1e3a8a'>Only</text><text x='100' y='179' text-anchor='middle' font-size='15' font-weight='bold' fill='#1e3a8a'>14</text><text x='200' y='149' text-anchor='middle' font-size='13' font-weight='bold' fill='#374151'>Both</text><text x='200' y='166' text-anchor='middle' font-size='15' font-weight='bold' fill='#374151'>11</text><text x='300' y='145' text-anchor='middle' font-size='13' font-weight='bold' fill='#14532d'>Chemistry</text><text x='300' y='162' text-anchor='middle' font-size='13' font-weight='bold' fill='#14532d'>Only</text><text x='300' y='179' text-anchor='middle' font-size='15' font-weight='bold' fill='#14532d'>7</text><text x='355' y='275' text-anchor='middle' font-size='13' font-weight='bold' fill='#6b7280'>Neither: 8</text></svg>\nLet $U$ be the universal set, $P$ be Physics, and $C$ be Chemistry. \n$n(U) = 40$, $n(P) = 25$, $n(C) = 18$, and $n(P \\cup C)' = 8$.\nThe number of students offering at least one subject is $n(P \\cup C) = n(U) - n(P \\cup C)' = 40 - 8 = 32$.\nUsing the set formula: $n(P \\cup C) = n(P) + n(C) - n(P \\cap C)$\n$32 = 25 + 18 - n(P \\cap C) \\implies 32 = 43 - n(P \\cap C) \\implies n(P \\cap C) = 11$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-2hzda4",
+      "q": "Describe the set $A = \\{x : x \\in \\mathbb{Z}, -2 \\le x < 3\\}$ in roster form.",
+      "options": [
+        "$\\{-2, -1, 0, 1, 2, 3\\}$",
+        "$\\{-1, 0, 1, 2\\}$",
+        "$\\{-2, -1, 0, 1, 2\\}$",
+        "$\\{-1, 0, 1, 2, 3\\}$"
+      ],
+      "correct": 2,
+      "explain": "The set builder notation indicates that $x$ is an integer ($\\mathbb{Z}$). The inequality $-2 \\le x < 3$ means $x$ can take the value of $-2$ but must be strictly less than $3$. The integers satisfying this condition are $-2, -1, 0, 1$, and $2$. Therefore, $A = \\{-2, -1, 0, 1, 2\\}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-nhnya1",
+      "q": "By the distributive laws of set theory, which of the following is logically equivalent to $A \\cup (B \\cap C)$?",
+      "options": [
+        "$(A \\cup B) \\cap C$",
+        "$(A \\cap B) \\cup (A \\cap C)$",
+        "$(A \\cup B) \\cap (A \\cup C)$",
+        "$A \\cap (B \\cup C)$"
+      ],
+      "correct": 2,
+      "explain": "According to the distributive law of sets over intersection, taking the union of set $A$ with the intersection of sets $B$ and $C$ is equivalent to distributing the union operation across the intersection: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-uz8dxw",
+      "q": "Let the universal set $\\mu = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. If $X = \\{2, 4, 6, 8\\}$, find the complement of $X$, denoted by $X'$.",
+      "options": [
+        "$\\{1, 3, 5, 7, 9\\}$",
+        "$\\{1, 2, 3, 5, 7, 9\\}$",
+        "$\\{2, 4, 6, 8\\}$",
+        "$\\{1, 9\\}$"
+      ],
+      "correct": 0,
+      "explain": "The complement of a set $X$ contains all elements in the universal set $\\mu$ that are not present in $X$. Excluding the even numbers $\\{2, 4, 6, 8\\}$ from $\\mu$ leaves the odd numbers $\\{1, 3, 5, 7, 9\\}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-smu7z4",
+      "q": "In a school, 50 students play at least one of Football (F) and Basketball (B). If 30 play Football and 25 play Basketball, find the number of students who play exactly one game: Basketball.",
+      "options": [
+        "5",
+        "20",
+        "25",
+        "30"
+      ],
+      "correct": 1,
+      "explain": "Since all 50 students play at least one sport, $n(F \\cup B) = 50$.\nUsing $n(F \\cup B) = n(F) + n(B) - n(F \\cap B)$:\n$50 = 30 + 25 - n(F \\cap B) \\implies n(F \\cap B) = 55 - 50 = 5$.\nThe number of students who play only Basketball is $n(B) - n(F \\cap B) = 25 - 5 = 20$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-13n7tq4",
+      "q": "The symmetric difference of two sets is defined as $A \\Delta B = (A \\cup B) - (A \\cap B)$. Evaluate $X \\Delta Y$ given that $X = \\{a, b, c\\}$ and $Y = \\{b, c, d\\}$.",
+      "options": [
+        "$\\{b, c\\}$",
+        "$\\{a, b, c, d\\}$",
+        "$\\{a, d\\}$",
+        "$\\{a, c\\}$"
+      ],
+      "correct": 2,
+      "explain": "First, find the union: $X \\cup Y = \\{a, b, c, d\\}$.\nNext, find the intersection: $X \\cap Y = \\{b, c\\}$.\nThe symmetric difference represents elements in either $X$ or $Y$, but not both: $\\{a, b, c, d\\} - \\{b, c\\} = \\{a, d\\}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1pt423k",
+      "q": "Determine the elements of the set $A = \\{x : x^2 < 0, x \\in \\mathbb{R}\\}$.",
+      "options": [
+        "$\\{0\\}$",
+        "$\\{-1\\}$",
+        "$\\{\\}$",
+        "$\\{1, -1\\}$"
+      ],
+      "correct": 2,
+      "explain": "The set builder notation defines $A$ as containing all real numbers whose square is less than 0. Since the square of any real number is always non-negative (greater than or equal to 0), there are no real numbers that satisfy this condition. Therefore, $A$ is an empty set, denoted by $\\{\\}$ or $\\emptyset$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-jpmk4c",
+      "q": "If sets $X$ and $Y$ are completely disjoint, which of the following equations must be true for the number of elements in their union, $n(X \\cup Y)$?",
+      "options": [
+        "$n(X \\cup Y) = n(X) \\times n(Y)$",
+        "$n(X \\cup Y) = n(X) + n(Y)$",
+        "$n(X \\cup Y) = n(X \\cap Y)$",
+        "$n(X \\cup Y) = n(X) - n(Y)$"
+      ],
+      "correct": 1,
+      "explain": "For two sets to be disjoint, their intersection must be empty, meaning $n(X \\cap Y) = 0$. The general formula for union is $n(X \\cup Y) = n(X) + n(Y) - n(X \\cap Y)$. Substituting $0$ for the intersection gives $n(X \\cup Y) = n(X) + n(Y)$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-mod3fl",
+      "q": "In a survey of 60 students, 25 liked Mathematics, 30 liked Physics, and 20 liked Chemistry. 10 liked Mathematics and Physics, 8 liked Mathematics and Chemistry, and 12 liked Physics and Chemistry. If 5 students liked all three subjects, how many students liked NONE of these three subjects?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "Let $M$, $P$, and $C$ represent Mathematics, Physics, and Chemistry respectively.\nUsing the formula: $n(M \\cup P \\cup C) = n(M) + n(P) + n(C) - n(M \\cap P) - n(M \\cap C) - n(P \\cap C) + n(M \\cap P \\cap C)$.\n$n(M \\cup P \\cup C) = 25 + 30 + 20 - 10 - 8 - 12 + 5 = 75 - 30 + 5 = 50$.\nThe number of students who liked none of the subjects is the total number of students minus those who liked at least one: $60 - 50 = 10$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-64dqud",
+      "q": "Which of the following correctly represents the Commutative Law for set union?",
+      "options": [
+        "$A \\cup (B \\cup C) = (A \\cup B) \\cup C$",
+        "$A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$",
+        "$A \\cup B = B \\cup A$",
+        "$A \\cup A = A$"
+      ],
+      "correct": 2,
+      "explain": "The Commutative Law for sets states that the order in which the sets are combined does not matter. Thus, the union of $A$ and $B$ is identical to the union of $B$ and $A$, denoted algebraically as $A \\cup B = B \\cup A$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-vx0pgg",
+      "q": "Let $U = \\{1, 2, 3, 4, 5, 6\\}$, $P = \\{1, 2, 3, 4\\}$ and $Q = \\{3, 4, 5\\}$. Find $(P \\cup Q)'$.",
+      "options": [
+        "$\\{1, 2, 5\\}$",
+        "$\\{3, 4\\}$",
+        "$\\{6\\}$",
+        "$\\{1, 2, 3, 4, 5\\}$"
+      ],
+      "correct": 2,
+      "explain": "First, calculate the union of $P$ and $Q$: $P \\cup Q = \\{1, 2, 3, 4, 5\\}$.\nThe complement $(P \\cup Q)'$ contains all elements in the universal set $U$ that are not in $P \\cup Q$.\nThus, $(P \\cup Q)' = \\{1, 2, 3, 4, 5, 6\\} - \\{1, 2, 3, 4, 5\\} = \\{6\\}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-woljyo",
+      "q": "According to De Morgan's Laws in set theory, which of the following expressions is logically equivalent to $(A \\cap B)'$?",
+      "options": [
+        "$A' \\cap B'$",
+        "$A' \\cup B'$",
+        "$A \\cup B'$",
+        "$A' \\cap B$"
+      ],
+      "correct": 1,
+      "explain": "De Morgan's Laws dictate how complements behave over unions and intersections. The complement of an intersection equals the union of the complements. Therefore, $(A \\cap B)' = A' \\cup B'$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1rlxyuk",
+      "q": "In a class of 50 students, 30 like Apples, 25 like Bananas, and 20 like Cherries. 15 students like Apples and Bananas, 10 like Bananas and Cherries, and 12 like Apples and Cherries. 5 students like all three fruits. How many students like ONLY Apples?",
+      "options": [
+        "3",
+        "8",
+        "15",
+        "30"
+      ],
+      "correct": 1,
+      "explain": "Let's draw a Venn diagram conceptually. Let $A$ be Apples. The total $n(A) = 30$.\nThe intersections involving Apples are:\nApples and Bananas only: $15 - 5 = 10$\nApples and Cherries only: $12 - 5 = 7$\nAll three: 5\nStudents who like ONLY Apples = $n(A)$ - ({Apples & Bananas only}) - ({Apples & Cherries only}) - ({All three}). \n$= 30 - 10 - 7 - 5 = 8$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-qmq1ou",
+      "q": "If a universal set contains 40 elements, $n(A)=15$, $n(B)=20$, and $n(A \\cap B)=5$, find the number of elements in $(A \\cup B)'$.",
+      "options": [
+        "5",
+        "10",
+        "30",
+        "35"
+      ],
+      "correct": 1,
+      "explain": "First find the union: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 15 + 20 - 5 = 30$.\nThe complement consists of elements in the universal set not in the union:\n$n(A \\cup B)' = n(\\text{Universal}) - n(A \\cup B) = 40 - 30 = 10$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

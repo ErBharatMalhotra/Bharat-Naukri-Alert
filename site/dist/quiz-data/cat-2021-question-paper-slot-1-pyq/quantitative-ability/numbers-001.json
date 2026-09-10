@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Numbers",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Numbers",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-4gbh6c",
+      "q": "How many three-digit numbers are greater than 100 and increase by 198 when the three digits are arranged in the reverse order?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "correct": 1,
+      "explain": "Let the original 3-digit number be $N = 100a + 10b + c$, where $a \\ge 1$ (since it's a 3-digit number > 100). \nReversed number $M = 100c + 10b + a$.\nGiven $M - N = 198 \\implies (100c + 10b + a) - (100a + 10b + c) = 198$.\n$99(c - a) = 198 \\implies c - a = 2$.\nSince $a$ is the leading digit of the original number, $a$ can range from 1 to 7 (because $c$ can at most be 9, so $a = c-2 \\le 7$).\nFor each valid $a$ (1 to 7), $c$ is fixed as $a+2$.\nThe middle digit $b$ can be any digit from 0 to 9. So there are 10 choices for $b$ for every $(a, c)$ pair.\nTotal possible numbers = 7 (pairs of $a,c$) $\\times$ 10 (choices for $b$) = 70.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Numbers",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

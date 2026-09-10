@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2022 Question Paper (Slot 1, PYQ) - Quantitative Ability - Ratio and Proportion",
+  "titleHi": "",
+  "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Ratio and Proportion",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2022-question-paper-(slot-1,-pyq)-byhjig",
+      "q": "Pinky is standing in a queue at a ticket counter. Suppose the ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5. If the total number of persons in the queue is less than 300, then the maximum possible number of persons standing ahead of Pinky is",
+      "options": [
+        "105",
+        "111",
+        "114",
+        "120"
+      ],
+      "correct": 1,
+      "explain": "Let $3x$ be people ahead of Pinky, and $5x$ be people behind her. Total number of persons is $3x + 5x + 1 \\text{ (Pinky)} = 8x + 1$. We know $8x + 1 < 300 \\Rightarrow 8x < 299 \\Rightarrow x < 37.375$. Since $x$ must be an integer, max $x = 37$. Number of persons ahead = $3x = 3 \\times 37 = 111$.",
+      "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2022,
+      "tags": []
+    },
+    {
+      "id": "cat-2022-question-paper-(slot-1,-pyq)-1vboi5g",
+      "q": "In a village, the ratio of number of males to females is 5 : 4. The ratio of number of literate males to literate females is 2 : 3. The ratio of the number of illiterate males to illiterate females is 4 : 3. If 3600 males in the village are literate, then the total number of females in the village is",
+      "options": [
+        "38400",
+        "41200",
+        "43200",
+        "45600"
+      ],
+      "correct": 2,
+      "explain": "Literate males = 3600. Since ratio of literate males to literate females is 2:3, literate females = $(3600/2) \\times 3 = 5400$. Let total males be $5x$ and total females be $4x$. Illiterate males = $5x - 3600$. Illiterate females = $4x - 5400$. Ratio of illiterate males to illiterate females is 4:3. So $\\frac{5x - 3600}{4x - 5400} = \\frac{4}{3} \\Rightarrow 3(5x - 3600) = 4(4x - 5400) \\Rightarrow 15x - 10800 = 16x - 21600 \\Rightarrow x = 10800$. Total females = $4x = 4 \\times 10800 = 43200$.",
+      "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2022,
+      "tags": []
+    }
+  ]
+}

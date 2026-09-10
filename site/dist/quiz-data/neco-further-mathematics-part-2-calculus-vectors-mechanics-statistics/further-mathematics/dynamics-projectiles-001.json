@@ -1,0 +1,111 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Dynamics - Projectiles",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Dynamics - Projectiles",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1bbptb4",
+      "q": "A projectile is fired with an initial velocity of $40\\text{ m s}^{-1}$ at an angle of $30^\\circ$ to the horizontal. Calculate its time of flight. (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$2\\text{ s}$",
+        "$4\\text{ s}$",
+        "$4\\sqrt{3}\\text{ s}$",
+        "$8\\text{ s}$"
+      ],
+      "correct": 1,
+      "explain": "The formula for the time of flight of a projectile is:\n$$T = \\frac{2u \\sin \\theta}{g}$$\nGiven:\n$u = 40\\text{ m s}^{-1}$\n$\\theta = 30^\\circ$\n$g = 10\\text{ m s}^{-2}$\n\nSubstitute the values:\n$$T = \\frac{2(40) \\sin 30^\\circ}{10}$$\nSince $\\sin 30^\\circ = 0.5$:\n$$T = \\frac{80 \\times 0.5}{10} = \\frac{40}{10} = 4\\text{ s}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-h1jfdy",
+      "q": "A stone is projected with a speed of $20\\text{ m s}^{-1}$ at an angle of $60^\\circ$ to the horizontal. What is the maximum height reached? (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$15\\text{ m}$",
+        "$10\\text{ m}$",
+        "$20\\text{ m}$",
+        "$5\\text{ m}$"
+      ],
+      "correct": 0,
+      "explain": "The formula for the maximum height of a projectile is:\n$$H = \\frac{u^2 \\sin^2 \\theta}{2g}$$\nGiven:\n$u = 20\\text{ m s}^{-1}$\n$\\theta = 60^\\circ$\n$g = 10\\text{ m s}^{-2}$\n\nSubstitute the values:\n$$H = \\frac{20^2 \\times (\\sin 60^\\circ)^2}{2 \\times 10}$$\nSince $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$:\n$$H = \\frac{400 \\times \\left(\\frac{\\sqrt{3}}{2}\\right)^2}{20}$$\n$$H = \\frac{400 \\times \\frac{3}{4}}{20} = \\frac{300}{20} = 15\\text{ m}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-gh2z0e",
+      "q": "A missile is launched with a velocity of $50\\text{ m s}^{-1}$ at an angle of $15^\\circ$ to the horizontal. Calculate its horizontal range. (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$62.5\\text{ m}$",
+        "$125\\text{ m}$",
+        "$250\\text{ m}$",
+        "$125\\sqrt{3}\\text{ m}$"
+      ],
+      "correct": 1,
+      "explain": "The formula for the horizontal range of a projectile is:\n$$R = \\frac{u^2 \\sin 2\\theta}{g}$$\nGiven:\n$u = 50\\text{ m s}^{-1}$\n$\\theta = 15^\\circ \\implies 2\\theta = 30^\\circ$\n$g = 10\\text{ m s}^{-2}$\n\nSubstitute the values:\n$$R = \\frac{50^2 \\times \\sin 30^\\circ}{10}$$\n$$R = \\frac{2500 \\times 0.5}{10}$$\n$$R = \\frac{1250}{10} = 125\\text{ m}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-3a5p96",
+      "q": "A particle is projected from the origin with an initial velocity of $(3\\mathbf{i} + 4\\mathbf{j})\\text{ m s}^{-1}$, where $\\mathbf{i}$ and $\\mathbf{j}$ are unit vectors along the horizontal and vertical directions respectively. Find the speed of the particle after $0.2\\text{ seconds}$. (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$5\\text{ m s}^{-1}$",
+        "$\\sqrt{13}\\text{ m s}^{-1}$",
+        "$\\sqrt{5}\\text{ m s}^{-1}$",
+        "$3\\text{ m s}^{-1}$"
+      ],
+      "correct": 1,
+      "explain": "The velocity vector at any time $t$ is given by $\\mathbf{v} = v_x\\mathbf{i} + v_y\\mathbf{j}$.\nThe horizontal velocity remains constant:\n$$v_x = u_x = 3\\text{ m s}^{-1}$$\n\nThe vertical velocity changes under gravity ($v_y = u_y - gt$):\n$$v_y = 4 - (10 \\times 0.2) = 4 - 2 = 2\\text{ m s}^{-1}$$\n\nThe velocity vector at $t = 0.2\\text{ s}$ is $(3\\mathbf{i} + 2\\mathbf{j})\\text{ m s}^{-1}$.\nThe speed is the magnitude of this velocity vector:\n$$\\text{Speed} = |\\mathbf{v}| = \\sqrt{v_x^2 + v_y^2}$$\n$$\\text{Speed} = \\sqrt{3^2 + 2^2} = \\sqrt{9 + 4} = \\sqrt{13}\\text{ m s}^{-1}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-12trvew",
+      "q": "A ball is kicked from ground level with an initial velocity of $20\\text{ m s}^{-1}$ at an angle of $45^\\circ$ to the horizontal. What is the height of the ball when it is at a horizontal distance of $20\\text{ m}$ from the point of projection? (Take $g = 10\\text{ m s}^{-2}$)",
+      "options": [
+        "$5\\text{ m}$",
+        "$10\\text{ m}$",
+        "$15\\text{ m}$",
+        "$20\\text{ m}$"
+      ],
+      "correct": 1,
+      "explain": "The equation of trajectory for a projectile is:\n$$y = x \\tan \\theta - \\frac{gx^2}{2u^2 \\cos^2 \\theta}$$\nGiven:\n$x = 20\\text{ m}$\n$u = 20\\text{ m s}^{-1}$\n$\\theta = 45^\\circ$\n$g = 10\\text{ m s}^{-2}$\n\nSubstitute the values into the equation:\n$$y = 20 \\tan 45^\\circ - \\frac{10(20)^2}{2(20)^2 \\cos^2 45^\\circ}$$\nSince $\\tan 45^\\circ = 1$ and $\\cos 45^\\circ = \\frac{1}{\\sqrt{2}}$ (so $\\cos^2 45^\\circ = 0.5$):\n$$y = 20(1) - \\frac{10 \\times 400}{2 \\times 400 \\times 0.5}$$\n$$y = 20 - \\frac{4000}{400}$$\n$$y = 20 - 10 = 10\\text{ m}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Dynamics - Projectiles",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

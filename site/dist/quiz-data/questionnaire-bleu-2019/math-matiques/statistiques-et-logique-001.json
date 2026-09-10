@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire bleu 2019 - MATHÉMATIQUES - Statistiques et Logique",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2019",
+  "subject": "MATHÉMATIQUES",
+  "topic": "Statistiques et Logique",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2019-o6gpnk",
+      "q": "A la Faculté de médecine de l’université U, les étudiants de troisième année ont 10 examens oraux différents qu’ils doivent présenter en trois jours. Le premier jour ils doivent présenter 5 examens différents, au choix. Les autres doivent être présentés au cours du deuxième ou du troisième jour. A nouveau, les étudiants peuvent choisir de répartir librement les examens sur les deux jours, la seule contrainte étant que l’étudiant doit présenter plus d’examens le deuxième que le troisième jour et au moins 2 examens le troisième jour.\nSi Juliette a obtenu une note moyenne de 12/20 pour les examens présentés le premier jour, de 14/20 pour les examens présentés le deuxième jour et de 17/20 pour les examens présentés le troisième jour, quelle est sa note moyenne sur l’ensemble des trois jours ?",
+      "options": [
+        "13,5/20",
+        "13,6/20",
+        "13,75/20",
+        "Il n’y a pas suffisamment d’information pour répondre à la question."
+      ],
+      "correct": 1,
+      "explain": "Pour les 5 examens restants, la répartition entre le deuxième et troisième jour doit respecter : $N_2 > N_3$ et $N_3 \\ge 2$. La seule possibilité entière avec $N_2 + N_3 = 5$ est $N_2 = 3$ et $N_3 = 2$. Les totaux de points sont : J1 ($5 \\times 12 = 60$), J2 ($3 \\times 14 = 42$), et J3 ($2 \\times 17 = 34$). La somme des points vaut 136 sur 10 examens, soit une moyenne de 13,6/20.",
+      "exam": "Questionnaire bleu 2019",
+      "subject": "MATHÉMATIQUES",
+      "topic": "Statistiques et Logique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2019",
+      "tags": []
+    }
+  ]
+}

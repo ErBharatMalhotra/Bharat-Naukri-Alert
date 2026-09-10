@@ -1,0 +1,167 @@
+{
+  "title": "General - c sharp programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "c sharp programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 12,
+  "questions": [
+    {
+      "q": "What is the result of the expression 10 == 10 in C#?",
+      "options": [
+        "FALSE",
+        "10 == 10",
+        "10 != 10",
+        "TRUE"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which loop in C# is more appropriate for iterating through an array?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "In C#, what is the result of the expression 5 >= 5?",
+      "options": [
+        "5 <= 5",
+        "5 >= 5",
+        "FALSE",
+        "TRUE"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which control flow statement in C# is used to handle multiple conditions using a single switch expression?",
+      "options": [
+        "if-else if-else",
+        "while",
+        "switch-case",
+        "for"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 12 < 5 ? \"Yes\" : \"No\" in C#?",
+      "options": [
+        "No",
+        "Yes",
+        "12 < 5 ? Yes : No",
+        "12 < 5 ? \"Yes\" : \"No\""
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following conditions are true in the following C# code? static void Main(string[] args) { Console.WriteLine(\"Enter a letter:\"); char c = (char)Console.Read(); if (Char.IsDigit(c) == true) Console.WriteLine(\"A number\"); else if (char.IsLower(c) == true) Console.WriteLine(\"A lowercase letter\"); else if (char.IsUpper(c) == true) Console.WriteLine(\"An uppercase letter\"); Console.ReadLine(); } a. Enter a letter : a An uppercase letter b. Enter a letter : A An uppercase letter c. Enter a letter : 2 A number d. Enter a letter : 2 A lowercase letter.",
+      "options": [
+        "a, b, c",
+        "b, c, d",
+        "a, d, b",
+        "b, c"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "For the incomplete C# program below, which of the C# code fragment will not result in an infinite loop? static void Main(string[] args) { int i = 1234 ,j = 0; /*ADD CODE HERE */ Console.WriteLine(j); }",
+      "options": [
+        "do\n   {\n       j = j + (i % 10);\n   }while ((i = i / 10)!= 0);",
+        "do\n    {\n        j = j + (i % 10);\n    }while ((i / 10)!= 0);",
+        "do\n    {\n        j = j + (i % 10);\n    }while ((i % 10)!= 0);",
+        "do\n    {\n        j = j + (i % 10);\n    }while ((i/10 == 0)!= 0);"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following C# code? { int i; Console.WriteLine(\"Hi\"); for (i = 1; i &lt;= 10; i++) Program.Main(args); Console.ReadLine(); }",
+      "options": [
+        "Prints 'Hi' for one time",
+        "Prints 'Hi' for infinite times",
+        "Stack overflow exception Condition generated",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which statement is correct among the mentioned statements? i. The for loop works faster than a while loop ii. for( ; ; )implements an infinite loop",
+      "options": [
+        "Only i is correct",
+        "Only ii is correct",
+        "Both i and ii are correct",
+        "Both i and ii are incorrect"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not infinite loop?",
+      "options": [
+        "for( '0' )",
+        "for( ;'0'; )",
+        "for( '1' )",
+        "for( ;'1'; )"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for do while loop?",
+      "options": [
+        "do;\n{\n statement;\n}while (condition);",
+        "do(condition)\n{\n  statement;\n}while;",
+        "do\n{\n  statement;\n}while (condition)",
+        "do\n{\n     statement;\n}while (condition);"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    },
+    {
+      "q": "Select the output for the following set of code : static void Main(string[] args) { int a = 0; int i = 0; int b; for (i = 0; i &lt; 5; i++) { a++; Console.WriteLine(\"Hello \\n\"); continue; } Console.ReadLine(); }",
+      "options": [
+        "print hello 4 times",
+        "print hello 3 times",
+        "print hello 5 times",
+        "print hello infinite times"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c sharp programming",
+      "language": "en"
+    }
+  ]
+}

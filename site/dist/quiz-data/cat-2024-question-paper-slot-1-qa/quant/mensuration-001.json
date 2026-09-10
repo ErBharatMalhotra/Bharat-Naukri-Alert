@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, QA) - Quant - Mensuration",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+  "subject": "Quant",
+  "topic": "Mensuration",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-y9keel",
+      "q": "The surface area of a closed rectangular box, which is inscribed in a sphere, is 846 sq cm , and the sum of the lengths of all its edges is 144 cm . The volume, in cubic cm , of the sphere is",
+      "options": [
+        "$750 \\pi$",
+        "$1125 \\pi \\sqrt{2}$",
+        "$1125 \\pi$",
+        "$750 \\pi \\sqrt{2}$"
+      ],
+      "correct": 1,
+      "explain": "Let box dimensions be $l, w, h$. Given $2(lw+wh+hl)=846$ and $4(l+w+h)=144 \\Rightarrow l+w+h=36$. The sphere's diameter ${D}$ is the box's main diagonal, so $D^2 = l^2+w^2+h^2$. We know $(l+w+h)^2 = l^2+w^2+h^2 + 2(lw+wh+hl)$, so $36^2 = D^2 + 846$. $1296 = D^2+846 \\Rightarrow D^2 = 450$. Sphere radius $R^2 = D^2/4 = 225/2$. $R=15/\\sqrt{2}$. Volume $V = \\frac{4}{3}\\pi R^3 = \\frac{4}{3}\\pi (15/\\sqrt{2})^3 = \\frac{4}{3}\\pi \\frac{3375}{2\\sqrt{2}} = 1125\\pi\\sqrt{2}$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Mensuration",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

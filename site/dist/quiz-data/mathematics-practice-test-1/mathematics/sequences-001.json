@@ -1,0 +1,71 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Sequences",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Sequences",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-4ppprc",
+      "q": "The first 5 terms of an arithmetic sequence are 7, 21, 35, 49, and 63. Let $t_n$ represent the $n$th term of the sequence. What is the value of $t_{25}$?",
+      "options": [
+        "175",
+        "343",
+        "357",
+        "371"
+      ],
+      "correct": 1,
+      "explain": "The common difference $d = 21 - 7 = 14$. The $n$th term of an arithmetic sequence is $t_n = a + (n-1)d$. For $n=25$, $t_{25} = 7 + (25-1)14 = 7 + 24(14) = 7 + 336 = 343$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Sequences",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "mathematics-practice-test-1-10684x3",
+      "q": "Tanya earns $34,000 in her 1st year at a job. She is given a raise of the same dollar amount each year, resulting in her earning $38,080 in the 4th year at the job. What is the total of Tanya's earnings during her 4 years at the job?",
+      "options": [
+        "$136,000",
+        "$140,080",
+        "$144,160",
+        "$152,320"
+      ],
+      "correct": 2,
+      "explain": "This situation models an arithmetic sequence. Let $d$ be the yearly raise. Year 1 = 34,000; Year 4 = 34,000 + 3d = 38,080. Solving for $d$ yields $3d = 4,080 \\implies d = 1,360$. The earnings are $34,000 (Year 1), $35,360 (Year 2), $36,720 (Year 3), and $38,080 (Year 4). The sum of these 4 years' earnings is $34,000 + 35,360 + 36,720 + 38,080 = 144,160. Alternatively, sum $= \\frac{4}{2} \\times (34000 + 38080) = 2 \\times 72080 = 144,160$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Sequences",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    },
+    {
+      "id": "mathematics-practice-test-1-b7cabo",
+      "q": "The first 4 terms of a sequence are shown in the table. The sequence is defined by $a_1 = 2$ and $a_n = a_{n - 1} + (n - 1)^2$ for $n \\ge 2$. What is the sixth term, $a_6$, of this sequence?\n\n| $a_1$ | $a_2$ | $a_3$ | $a_4$ |\n|---|---|---|---|\n| 2 | 3 | 7 | 16 |",
+      "options": [
+        "68",
+        "57",
+        "41",
+        "32"
+      ],
+      "correct": 1,
+      "explain": "To find $a_6$, we first need to find $a_5$. Using the recursive formula $a_n = a_{n - 1} + (n - 1)^2$, substituting $n=5$ gives $a_5 = a_4 + (5 - 1)^2 = 16 + 4^2 = 16 + 16 = 32$. Then, for $n=6$, $a_6 = a_5 + (6 - 1)^2 = 32 + 5^2 = 32 + 25 = 57$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Sequences",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

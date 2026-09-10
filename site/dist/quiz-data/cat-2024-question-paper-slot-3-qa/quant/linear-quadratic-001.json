@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Linear Quadratic",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Linear Quadratic",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-8b31eg",
+      "q": "For some constant real numbers $p, k$ and ${a}$, consider the following system of linear equations in ${x}$ and ${y}$ :\\n$$ \\begin{aligned} & p x-4 y=2 \\\\ & 3 x+k y=a \\end{aligned} $$\\nA necessary condition for the system to have no solution for $(x, y)$, is:",
+      "options": [
+        "$2 a+k \\neq 0$",
+        "$a p-6=0$",
+        "$a p+6=0$",
+        "$k p+12 \\neq 0$"
+      ],
+      "correct": 0,
+      "explain": "For a system of linear equations to have no solution, the lines must be parallel and distinct. This means the ratio of coefficients of x and y must be equal, but not equal to the ratio of the constant terms. The condition is $\\frac{p}{3} = \\frac{-4}{k} \\neq \\frac{2}{a}$. From the inequality, we get $ak \\neq -12$ and $ap \\neq 6$. From the equality we get $pk = -12$. The condition $2a+k \\neq 0$ is a necessary condition for no solution.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-f6jh1p",
+      "q": "If $(a+b \\sqrt{3})^2=52+30 \\sqrt{3}$, where ${a}$ and ${b}$ are natural numbers, then $a+b$ equals:",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explain": "Expanding the left side gives $(a^2 + 3b^2) + 2ab\\sqrt{3}$. Comparing with the right side, we have $a^2 + 3b^2 = 52$ and $2ab = 30$, so $ab = 15$. By testing integer pairs for $ab=15$ (e.g., a=5, b=3), we find $5^2 + 3(3^2) = 25 + 27 = 52$. So $a=5$ and $b=3$. Thus, $a+b=8$.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

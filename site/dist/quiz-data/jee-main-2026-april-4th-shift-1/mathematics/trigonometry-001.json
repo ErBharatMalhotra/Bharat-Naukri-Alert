@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Trigonometry",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Trigonometry",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-iy5u4o",
+      "q": "If $A = \\frac{\\sin 3^\\circ}{\\cos 9^\\circ} + \\frac{\\sin 9^\\circ}{\\cos 27^\\circ} + \\frac{\\sin 27^\\circ}{\\cos 81^\\circ}$ and $B = \\tan 81^\\circ - \\tan 3^\\circ$, then $\\frac{B}{A}$ is equal to \\_\\_\\_\\_\\_.",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 1,
+      "explain": "Consider the term $\\frac{\\sin \\theta}{\\cos 3\\theta}$. Using the identity $\\sin(3\\theta - \\theta) = \\sin 2\\theta = 2\\sin \\theta \\cos \\theta$:\n$\\frac{1}{2}(\\tan 3\\theta - \\tan \\theta) = \\frac{1}{2} \\left( \\frac{\\sin 3\\theta \\cos \\theta - \\cos 3\\theta \\sin \\theta}{\\cos 3\\theta \\cos \\theta} \\right) = \\frac{1}{2} \\left( \\frac{\\sin 2\\theta}{\\cos 3\\theta \\cos \\theta} \\right) = \\frac{\\sin \\theta}{\\cos 3\\theta}$.\nThus, we can rewrite $A$ as a telescoping sum:\n$A = \\frac{1}{2}(\\tan 9^\\circ - \\tan 3^\\circ) + \\frac{1}{2}(\\tan 27^\\circ - \\tan 9^\\circ) + \\frac{1}{2}(\\tan 81^\\circ - \\tan 27^\\circ)$.\n$A = \\frac{1}{2} (\\tan 81^\\circ - \\tan 3^\\circ)$.\nWe are given $B = \\tan 81^\\circ - \\tan 3^\\circ$.\nTherefore, $\\frac{B}{A} = \\frac{B}{\\frac{1}{2}B} = 2$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-na7a34",
+      "q": "Let $\\vec{a}_k = (\\tan \\theta_k)\\hat{i} + \\hat{j}$ and $\\vec{b}_k = \\hat{i} - (\\cot \\theta_k)\\hat{j}$, where $\\theta_k = \\frac{2^{k-1}\\pi}{2^n + 1}$, for some $n \\in \\mathbb{N}, n > 5$. Then the value of $\\frac{\\sum_{k=1}^n |\\vec{a}_k|^2}{\\sum_{k=1}^n |\\vec{b}_k|^2}$ is \\_\\_\\_\\_\\_.",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 2,
+      "explain": "First, evaluate the magnitudes:\n$|\\vec{a}_k|^2 = \\tan^2 \\theta_k + 1 = \\sec^2 \\theta_k$.\n$|\\vec{b}_k|^2 = 1 + \\cot^2 \\theta_k = \\csc^2 \\theta_k$.\nSo we seek the ratio $\\frac{\\sum_{k=1}^n \\sec^2 \\theta_k}{\\sum_{k=1}^n \\csc^2 \\theta_k}$.\nWe have the identity: $\\csc^2 x - \\sec^2 x = \\csc^2 x - \\frac{1}{\\sin^2 x - \\sin^4 x} = 4\\cot^2 2x$. Differentiating the identity $\\cot x - \\tan x = 2\\cot 2x$ yields $\\csc^2 x + \\sec^2 x = 4\\csc^2 2x$.\nRearranging gives: $\\sec^2 x = 4\\csc^2 2x - \\csc^2 x$.\nApplying this to our sum: $\\sum_{k=1}^n \\sec^2 \\theta_k = 4 \\sum_{k=1}^n \\csc^2(2\\theta_k) - \\sum_{k=1}^n \\csc^2 \\theta_k$.\nNotice $2\\theta_k = 2^k \\frac{\\pi}{2^n+1} = \\theta_{k+1}$. Therefore, $4\\sum_{k=1}^n \\csc^2 \\theta_{k+1}$.\nFor $k=n$, $2\\theta_n = \\frac{2^n \\pi}{2^n+1} = \\pi - \\frac{\\pi}{2^n+1} = \\pi - \\theta_1$.\nSince $\\csc^2(\\pi - \\theta_1) = \\csc^2 \\theta_1$, the term cycles back.\nHence, $\\sum_{k=1}^n \\csc^2 \\theta_{k+1} = \\sum_{k=1}^n \\csc^2 \\theta_k$.\nSo $\\sum_{k=1}^n \\sec^2 \\theta_k = 4\\sum_{k=1}^n \\csc^2 \\theta_k - \\sum_{k=1}^n \\csc^2 \\theta_k = 3\\sum_{k=1}^n \\csc^2 \\theta_k$.\nThe ratio is exactly $3$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "title": "General - hadoop - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "hadoop",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "What does the MapReduce \"Reducer\" function do?",
+      "options": [
+        "Process input key-value pairs",
+        "Sort and shuffle data",
+        "Aggregate values",
+        "Distribute data across nodes"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the significance of the MapReduce \"Map\" phase?",
+      "options": [
+        "Distribute data to reducers",
+        "Process input key-value pairs",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In MapReduce, what is the purpose of the \"InputSplit\"?",
+      "options": [
+        "Determine the reducer for each key",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines how input data is read"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop Secondary NameNode in MapReduce?",
+      "options": [
+        "Store a backup of the entire HDFS metadata",
+        "Manage computation resources",
+        "Failover for the NameNode",
+        "Manage ZooKeeper configurations"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the function of the MapReduce \"Combine\" phase?",
+      "options": [
+        "Aggregate values on the reducer side",
+        "Combine intermediate key-value pairs on the mapper side",
+        "Sort and shuffle data",
+        "Distribute data to reducers"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary purpose of the MapReduce \"Sort and Shuffle\" phase?",
+      "options": [
+        "Distribute data across multiple nodes",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side",
+        "Combine intermediate key-value pairs on the mapper side"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the MapReduce \"InputFormat\"?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . option allows you to copy jars locally to the current working directory of tasks and automatically unjar the files.",
+      "options": [
+        "archives",
+        "files",
+        "task",
+        "none of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Mapper implementations are passed the JobConf for the job via the . . . . . . . . method.",
+      "options": [
+        "JobConfigure.configure",
+        "JobConfigurable.configure",
+        "JobConfigurable.configurable",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Although the Hadoop framework is implemented in Java, MapReduce applications need not be written in . . . . . . . .",
+      "options": [
+        "Java",
+        "C#",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Running a . . . . . . . . program involves running mapping tasks on many or all of the nodes in our cluster.",
+      "options": [
+        "MapReduce",
+        "Map",
+        "Reducer",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which is the most popular NoSQL database for scalable big data store with Hadoop?",
+      "options": [
+        "Hbase",
+        "MongoDB",
+        "Cassandra",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The number of maps is usually driven by the total size of . . . . . . . .",
+      "options": [
+        "inputs",
+        "outputs",
+        "tasks",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Input to the . . . . . . . . is the sorted output of the mappers.",
+      "options": [
+        "Reducer",
+        "Mapper",
+        "Shuffle",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "A . . . . . . . . node acts as the Slave and is responsible for executing a Task assigned to it by the JobTracker.",
+      "options": [
+        "MapReduce",
+        "Mapper",
+        "TaskTracker",
+        "JobTracker"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following phases occur simultaneously?",
+      "options": [
+        "Shuffle and Sort",
+        "Reduce and Sort",
+        "Shuffle and Map",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following class is provided by the Aggregate package?",
+      "options": [
+        "Map",
+        "Reducer",
+        "Reduce",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . systems are scale-out file-based (HDD) systems moving to more uses of memory in the nodes.",
+      "options": [
+        "NoSQL",
+        "NewSQL",
+        "SQL",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . are highly resilient and eliminate the single-point-of-failure risk with traditional Hadoop deployments.",
+      "options": [
+        "EMR",
+        "Isilon solutions",
+        "AWS",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the default Partitioner for partitioning key space.",
+      "options": [
+        "HashPar",
+        "Partitioner",
+        "HashPartitioner",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is a utility which allows users to create and run jobs with any executables as the mapper and/or the reducer.",
+      "options": [
+        "Hadoop Strdata",
+        "Hadoop Streaming",
+        "Hadoop Stream",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "HBase provides . . . . . . . . like capabilities on top of Hadoop and HDFS.",
+      "options": [
+        "TopTable",
+        "BigTop",
+        "Bigtable",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The output of the . . . . . . . . is not sorted in the Mapreduce framework for Hadoop.",
+      "options": [
+        "Mapper",
+        "Cascader",
+        "Scalding",
+        "None of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "HDFS and NoSQL file systems focus almost exclusively on adding nodes to . . . . . . . .",
+      "options": [
+        "Scale out",
+        "Scale up",
+        "Both Scale out and up",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . refers to incremental costs with no major impact on solution design, performance and complexity.",
+      "options": [
+        "Scale-out",
+        "Scale-down",
+        "Scale-up",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Mapper and Reducer implementations can use the . . . . . . . . to report progress or just indicate that they are alive.",
+      "options": [
+        "Partitioner",
+        "OutputCollector",
+        "Reporter",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following class provides a subset of features provided by the Unix/GNU Sort?",
+      "options": [
+        "KeyFieldBased",
+        "KeyFieldComparator",
+        "KeyFieldBasedComparator",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . part of the MapReduce is responsible for processing one or more chunks of data and producing the output results.",
+      "options": [
+        "Maptask",
+        "Mapper",
+        "Task execution",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . function is responsible for consolidating the results produced by each of the Map() functions/tasks.",
+      "options": [
+        "Reduce",
+        "Map",
+        "Reducer",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Hadoop data is not sequenced and is in 64MB to 256MB block sizes of delimited record values with schema applied on read based on . . . . . . . .",
+      "options": [
+        "HCatalog",
+        "Hive",
+        "Hbase",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The right number of reduces seems to be . . . . . . . .",
+      "options": [
+        "0.90",
+        "0.80",
+        "0.36",
+        "0.95"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the primary interface for a user to describe a MapReduce job to the Hadoop framework for execution.",
+      "options": [
+        "Map Parameters",
+        "JobConf",
+        "MemoryConf",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following Hadoop streaming command option parameter is required?",
+      "options": [
+        "output directoryname",
+        "mapper executable",
+        "input directoryname",
+        "all of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . maps input key/value pairs to a set of intermediate key/value pairs.",
+      "options": [
+        "Mapper",
+        "Reducer",
+        "Both Mapper and Reducer",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Hadoop has a library class, org.apache.hadoop.mapred.lib.FieldSelectionMapReduce, that effectively allows you to process text data like the unix . . . . . . . . utility.",
+      "options": [
+        "Copy",
+        "Cut",
+        "Paste",
+        "Move"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . can also be used to distribute both jars and native libraries for use in the map and/or reduce tasks.",
+      "options": [
+        "DataCache",
+        "DistributedData",
+        "DistributedCache",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "To set an environment variable in a streaming command use . . . . . . . .",
+      "options": [
+        "-cmden EXAMPLE_DIR=/home/example/dictionaries/",
+        "-cmdev EXAMPLE_DIR=/home/example/dictionaries/",
+        "-cmdenv EXAMPLE_DIR=/home/example/dictionaries/",
+        "-cmenv EXAMPLE_DIR=/home/example/dictionaries/"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Streaming supports streaming command options as well as . . . . . . . . command options.",
+      "options": [
+        "generic",
+        "tool",
+        "library",
+        "task"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is a generalization of the facility provided by the MapReduce framework to collect data output by the Mapper or the Reducer.",
+      "options": [
+        "Partitioner",
+        "OutputCollector",
+        "Reporter",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop InputFormat?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the primary role of the RecordReader?",
+      "options": [
+        "Manages computation resources",
+        "Reads and parses input data",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the significance of the Hadoop OutputFormat?",
+      "options": [
+        "Manage storage layer",
+        "Manage computation resources",
+        "Execute MapReduce jobs",
+        "Manage Hadoop ecosystem tools"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop MapReduce, what is the role of the CombineFileInputFormat?",
+      "options": [
+        "Combine intermediate key-value pairs on the mapper side",
+        "Distribute data to reducers",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop SequenceFile format?",
+      "options": [
+        "Store compressed key-value pairs",
+        "Store unstructured data",
+        "Store data in a columnar format",
+        "Store data in a binary format"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what does the term \"Serialization\" refer to?",
+      "options": [
+        "Process input key-value pairs",
+        "Convert data into a binary format",
+        "Sort and shuffle data",
+        "Distribute data to reducers"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Hadoop RecordWriter?",
+      "options": [
+        "Manage computation resources",
+        "Write output key-value pairs",
+        "Execute MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop FileInputFormat?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what does the term \"Deserialization\" refer to?",
+      "options": [
+        "Convert data into a binary format",
+        "Process input key-value pairs",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary role of the Hadoop TextInputFormat?",
+      "options": [
+        "Read and parse text-based input data",
+        "Convert data into a binary format",
+        "Store compressed key-value pairs",
+        "Store unstructured data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the purpose of the Hadoop SequenceFileInputFormat?",
+      "options": [
+        "Defines how input data is read",
+        "Defines the map output format",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the function of the Hadoop MultipleOutputs class?",
+      "options": [
+        "Manage computation resources",
+        "Write output to multiple files",
+        "Execute MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What does the term \"Combiner\" represent in the context of Hadoop I/O?",
+      "options": [
+        "Combine intermediate key-value pairs on the mapper side",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data",
+        "Distribute data to reducers"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the purpose of the Hadoop MapFile format?",
+      "options": [
+        "Store compressed key-value pairs",
+        "Store unstructured data",
+        "Store data in a columnar format",
+        "Store data in a binary format"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary role of the Hadoop OutputCommitter?",
+      "options": [
+        "Manages computation resources",
+        "Manages storage layer",
+        "Execute MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the role of the Hadoop AvroInputFormat?",
+      "options": [
+        "Reads and parses Avro data",
+        "Manages computation resources",
+        "Executes MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What does the term \"SerDe\" stand for in the context of Hadoop?",
+      "options": [
+        "Serialization/Deserialization",
+        "Serial Disk Encoding",
+        "Server-Defined",
+        "Service Deployment"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the purpose of the Hadoop NLineInputFormat?",
+      "options": [
+        "Process data in compressed formats",
+        "Read and parse text-based input data",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the function of the Hadoop FileOutputFormat?",
+      "options": [
+        "Defines the map output format",
+        "Defines how input data is read",
+        "Defines the reduce output format",
+        "Defines the partitioning logic"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the primary role of the Hadoop SequenceFileOutputFormat?",
+      "options": [
+        "Write output to a SequenceFile",
+        "Write output to multiple files",
+        "Convert data into a binary format",
+        "Store compressed key-value pairs"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop CombineFileInputFormat?",
+      "options": [
+        "Combine intermediate key-value pairs on the mapper side",
+        "Distribute data to reducers",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what does the term \"OutputCommitter\" refer to?",
+      "options": [
+        "Manages computation resources",
+        "Manages storage layer",
+        "Execute MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the significance of the Hadoop AvroOutputFormat?",
+      "options": [
+        "Write output in Avro data format",
+        "Convert data into a binary format",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop MapReduce, what is the role of the LazyOutputFormat?",
+      "options": [
+        "Simplify the output format",
+        "Distribute data to reducers",
+        "Aggregate values on the reducer side",
+        "Sort and shuffle data"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary purpose of the Hadoop MapFileOutputFormat?",
+      "options": [
+        "Write output to a MapFile",
+        "Write output to multiple files",
+        "Convert data into a binary format",
+        "Store compressed key-value pairs"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what is the role of the Hadoop DBInputFormat?",
+      "options": [
+        "Read data from a database",
+        "Read and parse text-based input data",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What does the term \"SerDe\" stand for in Hadoop?",
+      "options": [
+        "Serialization/Deserialization",
+        "Sequential Disk Encoding",
+        "Server Deployment",
+        "Service Definition"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the primary function of the Hadoop MultipleOutputs class?",
+      "options": [
+        "Write output to multiple files",
+        "Manages computation resources",
+        "Execute MapReduce jobs",
+        "Manages Hadoop ecosystem tools"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "In Hadoop, what does the term \"InputSplit\" represent?",
+      "options": [
+        "Represents a chunk of input data",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side",
+        "Convert data into a binary format"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the Hadoop AvroKeyOutputFormat?",
+      "options": [
+        "Write output in Avro data format",
+        "Convert data into a binary format",
+        "Sort and shuffle data",
+        "Aggregate values on the reducer side"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Thrift resolves possible conflicts through . . . . . . . . of the field.",
+      "options": [
+        "Name",
+        "Static number",
+        "UID",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . instances are encoded using the number of bytes declared in the schema.",
+      "options": [
+        "Fixed",
+        "Enum",
+        "Unions",
+        "Maps"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Apache . . . . . . . . is a serialization framework that produces data in a compact binary format.",
+      "options": [
+        "Oozie",
+        "Impala",
+        "kafka",
+        "Avro"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . is a directory that contains two SequenceFile.",
+      "options": [
+        "ReduceFile",
+        "MapperFile",
+        "MapFile",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . are used between blocks to permit efficient splitting of files for MapReduce processing.",
+      "options": [
+        "Codec",
+        "Data Marker",
+        "Synchronization markers",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The HDFS client software implements . . . . . . . . checking on the contents of HDFS files.",
+      "options": [
+        "metastore",
+        "parity",
+        "checksum",
+        "none of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Avro is said to be the future . . . . . . . . layer of Hadoop.",
+      "options": [
+        "RMC",
+        "RPC",
+        "RDC",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following works well with Avro?",
+      "options": [
+        "Lucene",
+        "kafka",
+        "MapReduce",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . permits data written by one system to be efficiently sorted by another system.",
+      "options": [
+        "Complex Data type",
+        "Order",
+        "Sort Order",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . is an iterator which reads through the file and returns objects using the next() method.",
+      "options": [
+        "DatReader",
+        "DatumReader",
+        "DatumRead",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Avro messages are framed as a list of . . . . . . . .",
+      "options": [
+        "buffers",
+        "frames",
+        "rows",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . are encoded as a series of blocks.",
+      "options": [
+        "Arrays",
+        "Enum",
+        "Unions",
+        "Maps"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . support storing a copy of data at a particular instant of time.",
+      "options": [
+        "Data Image",
+        "Datanots",
+        "Snapshots",
+        "All of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . class accepts the values that the ModelCountMapper object has collected.",
+      "options": [
+        "AvroReducer",
+        "Mapper",
+        "AvroMapper",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . class extends and implements several Hadoop-supplied interfaces.",
+      "options": [
+        "AvroReducer",
+        "Mapper",
+        "AvroMapper",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "We can declare the schema of our data either in a . . . . . . . . file.",
+      "options": [
+        "JSON",
+        "XML",
+        "SQL"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . are a way of encoding structured data in an efficient yet extensible format.",
+      "options": [
+        "Thrift",
+        "Protocol Buffers",
+        "Avro",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . data file takes is based on avro serialization framework which was primarily created for hadoop.",
+      "options": [
+        "Oozie",
+        "Avro",
+        "cTakes",
+        "Lucene"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . codec from Google provides modest compression ratios.",
+      "options": [
+        "Snapcheck",
+        "Snappy",
+        "FileCompress",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . method in the ModelCountReducer class \"reduces\" the values the mapper collects into a derived value.",
+      "options": [
+        "count",
+        "add",
+        "reduce",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Hadoop I/O Hadoop comes with a set of . . . . . . . . for data I/O.",
+      "options": [
+        "methods",
+        "commands",
+        "classes",
+        "none of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . facilitates construction of generic data-processing systems and languages.",
+      "options": [
+        "Untagged data",
+        "Dynamic typing",
+        "No manually-assigned field IDs",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Avro schemas are defined with . . . . . . . .",
+      "options": [
+        "JSON",
+        "XML",
+        "JAVA",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The HDFS file system is temporarily unavailable whenever the HDFS . . . . . . . . is down.",
+      "options": [
+        "DataNode",
+        "NameNode",
+        "ActionNode",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . typically compresses files to within 10% to 15% of the best available techniques.",
+      "options": [
+        "LZO",
+        "Bzip2",
+        "Gzip",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Automatic restart and . . . . . . . . of the NameNode software to another machine is not supported.",
+      "options": [
+        "failover",
+        "end",
+        "scalability",
+        "all of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . as just the value field append(value) and the key is a LongWritable that contains the record number, count + 1.",
+      "options": [
+        "SetFile",
+        "ArrayFile",
+        "BloomMapFile",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . file is populated with the key and a LongWritable that contains the starting byte position of the record.",
+      "options": [
+        "Array",
+        "Index",
+        "Immutable",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a primitive data type in Avro?",
+      "options": [
+        "null",
+        "boolean",
+        "float",
+        "all of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following compression is similar to Snappy compression?",
+      "options": [
+        "LZO",
+        "Bzip2",
+        "Gzip",
+        "All of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    },
+    {
+      "q": "Apache Hadoop . . . . . . . . provides a persistent data structure for binary key-value pairs.",
+      "options": [
+        "GetFile",
+        "SequenceFile",
+        "Putfile",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "hadoop",
+      "language": "en"
+    }
+  ]
+}

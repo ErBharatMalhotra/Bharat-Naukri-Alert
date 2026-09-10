@@ -1,0 +1,131 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Implicit Differentiation",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Implicit Differentiation",
+  "source": "github:online-exam-questions",
+  "count": 6,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-9rx9mc",
+      "q": "If $x^2 + y^2 = 25$, find $\\frac{dy}{dx}$.",
+      "options": [
+        "$\\frac{x}{y}$",
+        "$-\\frac{x}{y}$",
+        "$\\frac{y}{x}$",
+        "$-\\frac{y}{x}$"
+      ],
+      "correct": 1,
+      "explain": "Differentiate both sides with respect to $x$ to get $2x + 2y \\frac{dy}{dx} = 0$. Rearranging to solve for $\\frac{dy}{dx}$ gives $2y \\frac{dy}{dx} = -2x$, which simplifies to $\\frac{dy}{dx} = -\\frac{x}{y}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-3kldc",
+      "q": "Find $\\frac{dy}{dx}$ if $x^2 y + y^3 = 2x$.",
+      "options": [
+        "$\\frac{2-xy}{x^2+y^2}$",
+        "$\\frac{2-2xy}{x^2+3y^2}$",
+        "$\\frac{2x-y^3}{x^2+3y^2}$",
+        "$\\frac{2-2xy}{2x+3y^2}$"
+      ],
+      "correct": 1,
+      "explain": "Differentiate both sides implicitly: $x^2 \\frac{dy}{dx} + 2xy + 3y^2 \\frac{dy}{dx} = 2$. Factor out $\\frac{dy}{dx}$ to get $\\frac{dy}{dx} (x^2 + 3y^2) = 2 - 2xy$. Solving gives $\\frac{dy}{dx} = \\frac{2-2xy}{x^2+3y^2}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-164nd5w",
+      "q": "Find the gradient of the curve $x^3 + y^3 - 9xy = 0$ at the point $(2, 4)$.",
+      "options": [
+        "$\\frac{4}{5}$",
+        "$\\frac{5}{4}$",
+        "$-\\frac{4}{5}$",
+        "$-\\frac{5}{4}$"
+      ],
+      "correct": 0,
+      "explain": "Differentiating implicitly: $3x^2 + 3y^2 y' - 9(y + xy') = 0$. Dividing by 3 yields $x^2 + y^2 y' - 3y - 3xy' = 0$. Grouping $y'$ terms gives $y'(y^2 - 3x) = 3y - x^2$, so $y' = \\frac{3y - x^2}{y^2 - 3x}$. At $(2,4)$, $y' = \\frac{3(4) - (2)^2}{(4)^2 - 3(2)} = \\frac{12 - 4}{16 - 6} = \\frac{8}{10} = \\frac{4}{5}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-5ow6wj",
+      "q": "Find the value of $\\frac{dy}{dx}$ at the point $(1, 1)$ for the curve $x^2 + y^2 - xy = 1$.",
+      "options": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "explain": "Differentiate implicitly: $2x + 2y\\frac{dy}{dx} - (y + x\\frac{dy}{dx}) = 0$. Group the $\\frac{dy}{dx}$ terms: $\\frac{dy}{dx}(2y - x) = y - 2x$. Solving for $\\frac{dy}{dx}$ gives $\\frac{y - 2x}{2y - x}$. Substituting $x = 1$ and $y = 1$ yields $\\frac{1 - 2(1)}{2(1) - 1} = \\frac{-1}{1} = -1$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1lailsc",
+      "q": "Find the value of $\\frac{dy}{dx}$ at the point $(2, 2)$ on the curve $x^2 y = 8$.",
+      "options": [
+        "$-2$",
+        "$2$",
+        "$-1$",
+        "$0$"
+      ],
+      "correct": 0,
+      "explain": "Differentiating implicitly using the product rule: $2x y + x^2 \\frac{dy}{dx} = 0$. Substituting $x=2$ and $y=2$ yields $2(2)(2) + (2)^2 \\frac{dy}{dx} = 0 \\implies 8 + 4\\frac{dy}{dx} = 0$, so $4\\frac{dy}{dx} = -8$ and $\\frac{dy}{dx} = -2$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1u9rr1w",
+      "q": "If $y^3 + 3xy = 4$, determine the value of $\\frac{dy}{dx}$ at the point $(1, 1)$.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$-\\frac{1}{2}$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "explain": "Differentiate term by term: $3y^2 \\frac{dy}{dx} + 3(y + x\\frac{dy}{dx}) = 0$. Divide by 3: $y^2 \\frac{dy}{dx} + y + x\\frac{dy}{dx} = 0$. Substituting $x=1$ and $y=1$ gives $(1)^2 \\frac{dy}{dx} + 1 + (1)\\frac{dy}{dx} = 0$. This simplifies to $2\\frac{dy}{dx} = -1$, yielding $\\frac{dy}{dx} = -\\frac{1}{2}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Implicit Differentiation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

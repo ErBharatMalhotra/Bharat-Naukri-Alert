@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Mathematics - Trigonometric Equations",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Trigonometric Equations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-17ke1hw",
+      "q": "Let $S = \\{x \\in [-\\pi, \\pi] : \\sin x(\\sin x + \\cos x) = a, a \\in \\mathbb{Z}\\}$. Then $n(S)$ is equal to :",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "9"
+      ],
+      "correct": 3,
+      "explain": "Let $f(x) = \\sin^2 x + \\sin x \\cos x = \\frac{1 - \\cos 2x}{2} + \\frac{\\sin 2x}{2} = \\frac{1}{2} + \\frac{\\sin 2x - \\cos 2x}{2}$.\nThe range of $\\sin 2x - \\cos 2x$ is $[-\\sqrt{2}, \\sqrt{2}]$.\nSo the range of $f(x)$ is $\\left[\\frac{1 - \\sqrt{2}}{2}, \\frac{1 + \\sqrt{2}}{2}\\right] \\approx [-0.207, 1.207]$.\nSince $a \\in \\mathbb{Z}$ and must lie within the range of $f(x)$, the only possible values of $a$ are $0$ and $1$.\n\nIf $a = 0$:\n$\\sin x(\\sin x + \\cos x) = 0$.\n$\\sin x = 0 \\implies x = -\\pi, 0, \\pi$ (3 solutions in $[-\\pi, \\pi]$).\n$\\sin x + \\cos x = 0 \\implies \\tan x = -1 \\implies x = -\\pi/4, 3\\pi/4$ (2 solutions).\nTotal solutions for $a = 0$ is $3 + 2 = 5$.\n\nIf $a = 1$:\n$\\sin^2 x + \\sin x \\cos x = 1 \\implies \\sin x \\cos x = \\cos^2 x \\implies \\cos x(\\sin x - \\cos x) = 0$.\n$\\cos x = 0 \\implies x = -\\pi/2, \\pi/2$ (2 solutions).\n$\\sin x - \\cos x = 0 \\implies \\tan x = 1 \\implies x = -3\\pi/4, \\pi/4$ (2 solutions).\nTotal solutions for $a = 1$ is $2 + 2 = 4$.\n\nTotal number of elements in $S$ is $n(S) = 5 + 4 = 9$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Trigonometric Equations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

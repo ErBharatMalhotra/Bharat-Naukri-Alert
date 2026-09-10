@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Mathematics - Quadratic Equations and Inequalities",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Mathematics",
+  "topic": "Quadratic Equations and Inequalities",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-1yhq3dh",
+      "q": "If the set of all solutions of $|x^2 + x - 9| = |x| + |x^2 - 9|$ is $[\\alpha, \\beta] \\cup [\\gamma, \\infty)$, then $(\\alpha^2 + \\beta^2 + \\gamma^2)$ is equal to:",
+      "options": [
+        "$9$",
+        "$18$",
+        "$36$",
+        "$72$"
+      ],
+      "correct": 1,
+      "explain": "Observe that $(x) + (x^2 - 9) = x^2 + x - 9$.\nLet $A = x$ and $B = x^2 - 9$. The given equation is $|A + B| = |A| + |B|$.\nThis property of absolute values holds true if and only if $A \\cdot B \\ge 0$.\nSubstituting the expressions back, we get: $x(x^2 - 9) \\ge 0$.\n$\\implies x(x - 3)(x + 3) \\ge 0$.\nThe critical points are $x = -3, 0, 3$. Evaluating the sign of the product in the intervals formed by these points:\nFor $x \\in [3, \\infty)$, the product is $\\ge 0$.\nFor $x \\in [-3, 0]$, the product is $\\ge 0$.\nThe solution set is $[-3, 0] \\cup [3, \\infty)$.\nComparing this with $[\\alpha, \\beta] \\cup [\\gamma, \\infty)$, we get $\\alpha = -3$, $\\beta = 0$, and $\\gamma = 3$.\nTherefore, $(\\alpha^2 + \\beta^2 + \\gamma^2) = (-3)^2 + 0^2 + 3^2 = 9 + 0 + 9 = 18$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations and Inequalities",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

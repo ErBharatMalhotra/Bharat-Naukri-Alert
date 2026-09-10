@@ -1,0 +1,251 @@
+{
+  "title": "NECO Further Mathematics Part 1: Pure Mathematics Foundations - Further Mathematics - Sets",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+  "subject": "Further Mathematics",
+  "topic": "Sets",
+  "source": "github:online-exam-questions",
+  "count": 12,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-crfkww",
+      "q": "A set is defined as $P = \\{ x : x^2 - 5x + 6 = 0 \\}$. Which of the following correctly represents set $P$?",
+      "options": [
+        "$\\{ 2, 3 \\}$",
+        "$\\{ -2, -3 \\}$",
+        "$\\{ 1, 6 \\}$",
+        "$\\{ -1, -6 \\}$"
+      ],
+      "correct": 0,
+      "explain": "The set $P$ is defined by the values of $x$ that satisfy the quadratic equation $x^2 - 5x + 6 = 0$.\n\nFactoring the quadratic equation:\n$$x^2 - 3x - 2x + 6 = 0$$\n$$x(x - 3) - 2(x - 3) = 0$$\n$$(x - 2)(x - 3) = 0$$\n\nThus, $x = 2$ or $x = 3$. Therefore, listing the elements gives $P = \\{ 2, 3 \\}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1apaqwn",
+      "q": "If $P$ and $Q$ are two disjoint sets, which of the following statements must be true?",
+      "options": [
+        "$P \\cup Q = \\emptyset$",
+        "$P \\cap Q = \\emptyset$",
+        "$P \\subset Q$",
+        "$P \\setminus Q = \\emptyset$"
+      ],
+      "correct": 1,
+      "explain": "Two sets are **disjoint** if they have no elements in common. Therefore, their intersection is the empty set, denoted algebraically as $P \\cap Q = \\emptyset$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-r934u0",
+      "q": "In a class of 40 students, 25 offer Further Mathematics and 20 offer Physics. If 5 students offer neither of the two subjects, how many students offer both subjects?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "Let the universal set be $\\mu$, $F$ be the set of students offering Further Mathematics, and $P$ be the set of students offering Physics.\n\nGiven:\n- $n(\\mu) = 40$\n- $n(F) = 25$\n- $n(P) = 20$\n- $n(F \\cup P)' = 5$\n\nFirst, find the number of students taking at least one subject:\n$$n(F \\cup P) = n(\\mu) - n(F \\cup P)' = 40 - 5 = 35$$\n\nUsing the general formula for two sets:\n$$n(F \\cup P) = n(F) + n(P) - n(F \\cap P)$$\n$$35 = 25 + 20 - n(F \\cap P)$$\n$$35 = 45 - n(F \\cap P)$$\n$$n(F \\cap P) = 45 - 35 = 10$$\n\nTherefore, 10 students offer both subjects.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1ljuj5g",
+      "q": "Given three sets $A$, $B$, and $C$, the region represented by $(A \\cap B) \\cap C'$ in a Venn diagram describes elements that belong to:",
+      "options": [
+        "All three sets",
+        "Sets $A$ and $B$ only",
+        "Set $A$ only",
+        "Set $A$ or $B$, but not $C$"
+      ],
+      "correct": 1,
+      "explain": "Breaking down the set notation:\n- $(A \\cap B)$ represents elements common to both $A$ and $B$.\n- $C'$ (the complement of $C$) represents elements that are **not** in $C$.\n- Taking their intersection, $(A \\cap B) \\cap C'$, gives elements that are in $A$ and $B$, but specifically **excluding** any elements that are in $C$.\n\nHence, it represents the elements belonging to **Sets $A$ and $B$ only**.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1ceirk",
+      "q": "Which of the following algebraic properties is correctly illustrated by the identity $P \\cap (Q \\cup R) = (P \\cap Q) \\cup (P \\cap R)$?",
+      "options": [
+        "Commutative law over intersection",
+        "Associative law over union",
+        "Distributive law of intersection over union",
+        "De Morgan's Law"
+      ],
+      "correct": 2,
+      "explain": "The identity $P \\cap (Q \\cup R) = (P \\cap Q) \\cup (P \\cap R)$ demonstrates the **Distributive law**. Specifically, it shows how the intersection operation ($\\cap$) distributes over the union operation ($\\cup$).",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-17x7nwk",
+      "q": "Let the universal set $\\mu = \\{x : 1 \\leq x \\leq 10, x \\text{ is an integer}\\}$. If $X = \\{x : x \\text{ is prime}\\}$ and $Y = \\{x : x \\text{ is odd}\\}$, find $(X \\cup Y)'$.",
+      "options": [
+        "$\\{4, 6, 8, 10\\}$",
+        "$\\{2\\}$",
+        "$\\{1, 4, 6, 8, 9, 10\\}$",
+        "$\\emptyset$"
+      ],
+      "correct": 0,
+      "explain": "First, list the elements of each set:\n- $\\mu = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$\n- $X = \\{2, 3, 5, 7\\}$ (prime numbers in $\\mu$)\n- $Y = \\{1, 3, 5, 7, 9\\}$ (odd numbers in $\\mu$)\n\nFind the union $X \\cup Y$ (elements in $X$, $Y$, or both):\n$$X \\cup Y = \\{1, 2, 3, 5, 7, 9\\}$$\n\nNow, find the complement $(X \\cup Y)'$ by taking elements in $\\mu$ that are **not** in $X \\cup Y$:\n$$(X \\cup Y)' = \\{4, 6, 8, 10\\}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-zacd4",
+      "q": "Let $A = \\{x : x \\text{ is a multiple of } 3\\}$ and $B = \\{x : x \\text{ is a multiple of } 4\\}$. Which of the following defines $A \\cap B$?",
+      "options": [
+        "$\\{x : x \\text{ is a multiple of } 7\\}$",
+        "$\\{x : x \\text{ is a multiple of } 12\\}$",
+        "$\\{x : x \\text{ is a multiple of } 3 \\text{ or } 4\\}$",
+        "$\\emptyset$"
+      ],
+      "correct": 1,
+      "explain": "The set $A \\cap B$ contains elements that belong to **both** $A$ and $B$. Therefore, an element must be a multiple of $3$ **and** a multiple of $4$. \n\nThe least common multiple (LCM) of $3$ and $4$ is $12$. Hence, the common elements are the multiples of $12$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1g66y2w",
+      "q": "In a group of 60 people, 27 like Apples (A), 32 like Bananas (B), and 25 like Cherries (C). 12 like both Apples and Bananas, 9 like both Apples and Cherries, and 10 like both Bananas and Cherries. If 3 people like all three fruits, how many people like **exactly one** type of fruit?",
+      "options": [
+        "22",
+        "28",
+        "31",
+        "56"
+      ],
+      "correct": 2,
+      "explain": "Let's find the number of people who like *only* one fruit using a Venn diagram approach.\n\nGiven the intersections:\n- $n(A \\cap B \\cap C) = 3$\n- Only $A$ and $B = n(A \\cap B) - 3 = 12 - 3 = 9$\n- Only $A$ and $C = n(A \\cap C) - 3 = 9 - 3 = 6$\n- Only $B$ and $C = n(B \\cap C) - 3 = 10 - 3 = 7$\n\nNow, calculate those who like exactly one fruit:\n- **Only Apples**: $27 - (9 + 6 + 3) = 27 - 18 = 9$\n- **Only Bananas**: $32 - (9 + 7 + 3) = 32 - 19 = 13$\n- **Only Cherries**: $25 - (6 + 7 + 3) = 25 - 16 = 9$\n\nTotal exactly one = $9 \\text{ (Apples)} + 13 \\text{ (Bananas)} + 9 \\text{ (Cherries)} = 31$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1x5uqpk",
+      "q": "Using set identities, simplify the expression: $(P \\cup Q) \\cap (P \\cup Q')$",
+      "options": [
+        "$P$",
+        "$Q$",
+        "$P \\cup Q$",
+        "$\\mu \\text{ (Universal Set)}$"
+      ],
+      "correct": 0,
+      "explain": "Applying the **Distributive Law** in reverse, we can factor out $P \\cup$:\n$$(P \\cup Q) \\cap (P \\cup Q') = P \\cup (Q \\cap Q')$$\n\nBy the **Complement Law**, the intersection of a set and its complement is the empty set ($Q \\cap Q' = \\emptyset$).\n\nSubstituting this back:\n$$P \\cup \\emptyset$$\n\nBy the **Identity Law**, taking the union of any set with the empty set leaves the set unchanged. Therefore:\n$$P \\cup \\emptyset = P$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-ba44up",
+      "q": "A survey shows that $60\\%$ of people read Newspaper $X$ and $50\\%$ read Newspaper $Y$. If $20\\%$ read neither of the two newspapers, what percentage reads **only one** of the newspapers?",
+      "options": [
+        "$30\\%$",
+        "$50\\%$",
+        "$70\\%$",
+        "$80\\%$"
+      ],
+      "correct": 1,
+      "explain": "Let the total population be $100\\%$.\n- Neither $X$ nor $Y = 20\\%$, so the union $n(X \\cup Y) = 100\\% - 20\\% = 80\\%$.\n- We know: $n(X \\cup Y) = n(X) + n(Y) - n(X \\cap Y)$\n- $80 = 60 + 50 - n(X \\cap Y)$\n- $80 = 110 - n(X \\cap Y) \\implies n(X \\cap Y) = 30\\%$\n\nNow find the percentage that reads only one:\n- **Only $X$**: $60\\% - 30\\% = 30\\%$\n- **Only $Y$**: $50\\% - 30\\% = 20\\%$\n\nTotal reading strictly one newspaper = $30\\% + 20\\% = 50\\%$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1vnh6h4",
+      "q": "If the total number of subsets of a set $M$ is 64, find the number of elements in $M$.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "32"
+      ],
+      "correct": 1,
+      "explain": "The number of subsets for a set containing $n$ elements is given by the formula $2^n$.\n\nGiven that the number of subsets is 64:\n$$2^n = 64$$\n\nWriting 64 as a power of 2:\n$$2^n = 2^6$$\n\nTherefore, by equating the exponents, $n = 6$. The set $M$ contains 6 elements.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-14m0a5n",
+      "q": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"80\" cy=\"60\" r=\"40\" fill=\"#d3d3d3\" />\n  <circle cx=\"130\" cy=\"60\" r=\"40\" fill=\"#ffffff\" stroke=\"#000000\" stroke-width=\"1.5\" />\n  <circle cx=\"80\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" />\n  <text x=\"30\" y=\"30\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">A</text>\n  <text x=\"165\" y=\"30\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\">B</text>\n</svg>\n\nWhich of the following set notations describes the shaded (grey) region in the Venn diagram above?",
+      "options": [
+        "$A \\cup B$",
+        "$A \\cap B$",
+        "$A \\cap B'$",
+        "$A' \\cap B$"
+      ],
+      "correct": 2,
+      "explain": "The diagram displays two intersecting sets, $A$ and $B$. The region shaded in grey represents all the elements that are inside set $A$ but **strictly outside** set $B$.\n\nIn set notation, this is \"$A$ intersection not $B$\", which is written as $A \\cap B'$ (or $A \\setminus B$).",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "title": "General - c plus plus programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "c plus plus programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 76,
+  "questions": [
+    {
+      "q": "What does the 'continue' statement do in a loop in C++?",
+      "options": [
+        "Restarts the loop",
+        "Skips the remaining code in the loop",
+        "Terminates the loop",
+        "Skips the current iteration and continues with the next iteration"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for defining a function in C++?",
+      "options": [
+        "returnType functionName(parameters) { body; }",
+        "functionName(parameters) { returnType body; }",
+        "functionName(returnType, parameters) { body; }",
+        "returnType functionName(parameters, body) { }"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of a function prototype in C++?",
+      "options": [
+        "Determines the parameters of the function",
+        "Specifies the return type of the function",
+        "Provides the implementation of the function",
+        "Declares the function before it is defined"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to define a function in C++ that does not return any value?",
+      "options": [
+        "return",
+        "null",
+        "void",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to call a function named \"add\" that takes two parameters in C++?",
+      "options": [
+        "add(a, b);",
+        "add(int a, int b);",
+        "functionName = add(a, b);",
+        "add.functionName(a, b);"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'return' statement do in a function in C++?",
+      "options": [
+        "Skips the remaining code in the function",
+        "Returns a value from the function",
+        "Restarts the function execution",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int sum(int a, int b) { return a + b; } cout &lt;&lt; sum(3, 5); in C++?",
+      "options": [
+        "35",
+        "Compilation error",
+        "sum(3, 5)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is true about function overloading in C++?",
+      "options": [
+        "Only one function can have a specific name",
+        "A function cannot be defined with the same name twice",
+        "Function overloading is not supported in C++",
+        "Multiple functions can have the same name with different parameters"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of default arguments in C++ functions?",
+      "options": [
+        "Allows a function to be called without providing all arguments",
+        "Sets a default return value for the function",
+        "Defines default behavior for the function",
+        "Specifies the default data type for parameters"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for declaring a function prototype in C++?",
+      "options": [
+        "returnType functionName(parameters);",
+        "functionName(parameters) returnType;",
+        "functionName returnType(parameters);",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of passing arguments by reference in C++ functions?",
+      "options": [
+        "Ensures the function receives correct arguments",
+        "Reduces the memory consumption of the function",
+        "Improves performance of the function",
+        "Allows changes made to the arguments to reflect outside the function"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int square(int x) { return x * x; } int main() { cout &lt;&lt; square(3) + square(2); } in C++?",
+      "options": [
+        "13",
+        "25",
+        "12",
+        "Compilation error due to mismatched return types"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for defining a recursive function in C++?",
+      "options": [
+        "returnType functionName(parameters) { functionName(parameters); }",
+        "returnType functionName(parameters) { functionName(); }",
+        "functionName(parameters) { return functionName(parameters); }",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of a function header in C++?",
+      "options": [
+        "Contains the actual code of the function",
+        "Specifies the function's location in memory",
+        "Declares the name, return type, and parameters of the function",
+        "Provides default arguments for the function"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following code: int max(int a, int b) { return (a > b) ? a : b; } cout &lt;&lt; max(5, 3); in C++?",
+      "options": [
+        "max(5, 3)",
+        "Compilation error due to missing function definition",
+        "max(3, 5)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is true about function recursion in C++?",
+      "options": [
+        "Recursion can only be achieved through function pointers",
+        "Recursion is limited to predefined standard functions",
+        "A function calling itself directly or indirectly",
+        "Recursion is not allowed in C++"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of a function in C++?",
+      "options": [
+        "To declare variables",
+        "To print output",
+        "To initialize memory",
+        "To perform a specific task"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is true about function parameters in C++?",
+      "options": [
+        "They are variables used to pass data into functions",
+        "They are placeholders for function names",
+        "They are used to return values from functions",
+        "They are only used in main functions"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a function in C++ that takes no parameters and returns an integer?",
+      "options": [
+        "void functionName();",
+        "functionName(int);",
+        "functionName() int;",
+        "int functionName();"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'void' keyword in a function declaration in C++?",
+      "options": [
+        "Indicates that the function accepts no parameters",
+        "Indicates that the function returns a void pointer",
+        "Indicates that the function does not return a value",
+        "Indicates that the function is a member function"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int multiply(int x, int y) { return x * y; } int main() { cout &lt;&lt; multiply(3, 4); } in C++?",
+      "options": [
+        "multiply(3, 4)",
+        "12",
+        "Compilation error due to missing return statement",
+        "multiply(4, 3)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid function declaration in C++?",
+      "options": [
+        "sum(int a, int b) { return a + b; }",
+        "sum(int, int) { return a + b; }",
+        "sum(a, b) { return a + b; }",
+        "int sum(int a, int b);"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of function overloading in C++?",
+      "options": [
+        "Allows multiple functions with the same name but different parameters",
+        "Improves the efficiency of the functions",
+        "Ensures that functions can be called from anywhere",
+        "Facilitates the declaration of global variables"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'inline' keyword do in C++ function declaration?",
+      "options": [
+        "Indicates that the function should be ignored",
+        "Declares that the function should be inlined",
+        "Specifies that the function should be called inline",
+        "Suggests the compiler to replace the function call with its definition"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int max(int a, int b) { return (a > b) ? a : b; } int main() { cout &lt;&lt; max(5, 5); } in C++?",
+      "options": [
+        "10",
+        "Compilation error due to ambiguous function call"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In C++, how are function arguments passed by default?",
+      "options": [
+        "By pointer",
+        "By value",
+        "By address",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'static' keyword in a function declaration in C++?",
+      "options": [
+        "It allows a function to be accessed from other files",
+        "It restricts the scope of the function",
+        "It indicates that the function is a member function",
+        "It allocates memory for the function"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the syntax for defining a recursive function in C++?",
+      "options": [
+        "returnType functionName(parameters) { if (condition) functionName(parameters); }",
+        "functionName(parameters) { returnType if (condition) functionName(parameters); }",
+        "functionName(parameters) { functionName(parameters); }",
+        "returnType functionName(parameters) { functionName(parameters); }"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following code: int add(int x, int y) { return x + y; } int main() { cout &lt;&lt; add(2); } in C++?",
+      "options": [
+        "Compilation error due to missing return statement",
+        "Compilation error due to missing argument"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'extern' keyword in a function declaration in C++?",
+      "options": [
+        "It declares the function as an external function",
+        "It ensures that the function is not inlined",
+        "It makes the function visible only within the file",
+        "It specifies that the function is defined elsewhere"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to pass an array to a function in C++?",
+      "options": [
+        "By declaring the array globally and accessing it directly",
+        "By passing the array index as a parameter",
+        "By passing the array name and size as parameters",
+        "By passing each array element as a parameter"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'static' keyword in a C++ function?",
+      "options": [
+        "Declares the function as a member of a class",
+        "Prevents the function from being called recursively",
+        "Defines the function to be inline",
+        "Retains the variable's value between function calls"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the 'void' keyword represent in the function declaration in C++?",
+      "options": [
+        "Indicates that the function does not return any value",
+        "Indicates that the function returns a pointer",
+        "Indicates that the function accepts no arguments",
+        "Indicates that the function can be called from anywhere"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is true about inline functions in C++?",
+      "options": [
+        "Inline functions must have a return type declared",
+        "Inline functions cannot have return statements",
+        "Inline functions cannot be recursive",
+        "The compiler replaces the function call with the function code wherever it is called"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In C++, what is the significance of the function return type 'auto'?",
+      "options": [
+        "It allows the function to return any data type",
+        "The compiler automatically deduces the return type based on the return statement",
+        "It specifies the function to be executed automatically",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'friend' keyword in a C++ function declaration?",
+      "options": [
+        "It specifies that the function should be inlined",
+        "It allows the function to call itself recursively",
+        "It grants access to private and protected members of a class to the function",
+        "It declares the function as a friend function"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the syntax for declaring a function that takes a variable number of arguments in C++?",
+      "options": [
+        "returnType functionName(var_args...);",
+        "returnType functionName(var_args...); { body; }",
+        "returnType functionName(..., var_args);",
+        "returnType functionName(...);"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code: int x = 5; cout &lt;&lt; \"Before: \" &lt;&lt; x; changeValue(x); cout &lt;&lt; \"After: \" &lt;&lt; x; in C++?",
+      "options": [
+        "Before: 5 After: 5",
+        "Before: 5 After: 10",
+        "Before: 5 After: 6",
+        "Compilation error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax for defining a function template in C++?",
+      "options": [
+        "returnType functionName(T parameter) { template  body; }",
+        "template  returnType functionName(T parameter) { body; }",
+        "returnType functionName(template  T parameter) { body; }",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'const' keyword in a function parameter list in C++?",
+      "options": [
+        "Declares the parameter as constant within the function",
+        "Prevents the parameter from being passed by reference",
+        "Indicates that the parameter value cannot be changed within the function",
+        "Specifies that the parameter should be initialized"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In C++, what is a lambda function?",
+      "options": [
+        "A function that takes no arguments and returns nothing",
+        "An anonymous function that can be used as an argument to other functions",
+        "A function that automatically adjusts its return type",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the 'decltype' keyword in C++?",
+      "options": [
+        "Determines the type of an expression or variable",
+        "Declares the type of a function parameter",
+        "Specifies the type of a function's return value",
+        "Returns the size of a data type"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a function that takes a pointer as an argument in C++?",
+      "options": [
+        "returnType functionName(*type parameter)",
+        "returnType functionName(type parameter*)",
+        "returnType functionName(type &parameter)",
+        "returnType functionName(type* parameter)"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the following code: void display() { cout &lt;&lt; \"Hello\"; } int main() { display(); return 0; } in C++?",
+      "options": [
+        "Compilation error",
+        "Hello",
+        "Undefined behavior"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "If we start our function call with default arguments means, what will be proceeding arguments?",
+      "options": [
+        "user argument",
+        "empty arguments",
+        "default arguments",
+        "user & empty arguments"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the default return value of functions in C++?",
+      "options": [
+        "int",
+        "char",
+        "float",
+        "void"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is an inline function?",
+      "options": [
+        "A function that is expanded at each call during execution",
+        "A function that is called during compile time",
+        "A function that is not checked for syntax errors",
+        "A function that is not checked for semantic analysis"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the scope of the variable declared in the user defined function?",
+      "options": [
+        "whole program",
+        "only inside the {} block",
+        "the main function",
+        "header section"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "If an argument from the parameter list of a function is defined constant then . . . . . . . .",
+      "options": [
+        "It can be modified inside the function",
+        "It cannot be modified inside the function",
+        "Error occurs",
+        "Segmentation fault"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "which of the following can be passed in function pointers?",
+      "options": [
+        "variables",
+        "data types",
+        "functions",
+        "objects"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Where should default parameters appear in a function prototype?",
+      "options": [
+        "To the rightmost side of the parameter list",
+        "To the leftmost side of the parameter list",
+        "Anywhere inside the parameter list",
+        "Middle of the parameter list"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which is more effective while calling the functions?",
+      "options": [
+        "call by value",
+        "call by reference",
+        "call by pointer",
+        "call by object"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is similar to the interface in c++?",
+      "options": [
+        "methods",
+        "instance of a class",
+        "pure abstract class",
+        "methods & instance of a class"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Pick the incorrect statement for namespaces in C++.",
+      "options": [
+        "Namespace declarations are always global scope",
+        "Keyword namespace is used at the starting of a namespace definition",
+        "Namespace has access specifiers like private or public",
+        "Namespace definitions can be nested"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will happen when the exception is not caught in the program?",
+      "options": [
+        "error",
+        "program will execute",
+        "block of that code will not execute",
+        "program will execute & displays wrong output"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What should be passed in parameters when function does not require any parameters?",
+      "options": [
+        "void",
+        "blank space",
+        "both void & blank space",
+        "tab space"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to access the variable in the namespace?",
+      "options": [
+        "using",
+        "dynamic",
+        "const",
+        "static"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Where can the default parameter be placed by the user?",
+      "options": [
+        "leftmost",
+        "rightmost",
+        "both leftmost & rightmost",
+        "topmost"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will happen while using pass by reference?",
+      "options": [
+        "The values of those variables are passed to the function so that it can manipulate them",
+        "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
+        "The function declaration should contain ampersand (& in its type declaration)",
+        "The function declaration should contain $"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used to signify the namespace?",
+      "options": [
+        "conditional operator",
+        "ternary operator",
+        "scope operator",
+        "bitwise operator"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "which keyword is used to define the macros in c++?",
+      "options": [
+        "macro",
+        "define",
+        "#define",
+        "#macro"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In which of the following we cannot overload the function?",
+      "options": [
+        "return function",
+        "caller",
+        "called function",
+        "main function"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword is used to check exception in the block of code?",
+      "options": [
+        "catch",
+        "throw",
+        "try",
+        "handlers"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "In which of the following cases inline functions may not word? i. If the function has static variables. ii. If the function has global and register variables. iii. If the function contains loops iv. If the function is recursive",
+      "options": [
+        "i, iv",
+        "iii, iv",
+        "ii, iii, iv",
+        "i, iii, iv"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which operator is used for accessing a member of namespace?",
+      "options": [
+        "::",
+        "->"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "To which does the function pointer point to?",
+      "options": [
+        "variable",
+        "constants",
+        "function",
+        "absolute variables"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What will happen when the handler is not found for an exception?",
+      "options": [
+        "calls the standard library function terminate()",
+        "raise an error",
+        "executes the remaining block",
+        "raise an error and executes the remaining block"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following permits function overloading on c++?",
+      "options": [
+        "type",
+        "number of arguments",
+        "type & number of arguments",
+        "number of objects"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What happens to a function defined inside a class without any complex operations (like looping, a large number of lines, etc)?",
+      "options": [
+        "It becomes a virtual function of the class",
+        "It becomes a default calling function of the class",
+        "It becomes an inline function of the class",
+        "The program gives an error"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following feature is used in function overloading and function with default argument?",
+      "options": [
+        "Encapsulation",
+        "Polymorphism",
+        "Abstraction",
+        "Modularity"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "An inline function is expanded during . . . . . . . .",
+      "options": [
+        "compile-time",
+        "run-time",
+        "never expanded",
+        "end of the program"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the maximum number of arguments or parameters that can be present in one function call?",
+      "options": [
+        "64",
+        "256",
+        "255",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "How to print the value of the i variable inside namespace B? namespace A{ int var = 10; namespace B{ int i = 15; } }",
+      "options": [
+        "cout&lt;&lt;A::i;",
+        "cout&lt;&lt;B::i;",
+        "cout&lt;&lt;A::B::i;",
+        "cout&lt;&lt;i;"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the use of Namespace?",
+      "options": [
+        "To encapsulate the data",
+        "To structure a program into logical units",
+        "Encapsulate the data & structure a program into logical units",
+        "It is used to mark the beginning of the program"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "How can you access the arguments that are manipulated in the function?",
+      "options": [
+        "va_list",
+        "arg_list",
+        "both va_list & arg_list",
+        "vg_list"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct syntax of defining a namespace?",
+      "options": [
+        "namespace name{}",
+        "Namespace name{};",
+        "Namespace Name{};",
+        "typedef namespace name{} NAME"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "c plus plus programming",
+      "language": "en"
+    }
+  ]
+}

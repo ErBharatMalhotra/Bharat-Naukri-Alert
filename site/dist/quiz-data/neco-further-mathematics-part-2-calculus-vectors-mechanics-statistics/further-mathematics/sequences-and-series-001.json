@@ -1,0 +1,311 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Sequences and Series",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Sequences and Series",
+  "source": "github:online-exam-questions",
+  "count": 15,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-co5s0c",
+      "q": "Find the 12th term of the Arithmetic Progression (A.P.): $3, 7, 11, 15, \\dots$",
+      "options": [
+        "43",
+        "47",
+        "51",
+        "55"
+      ],
+      "correct": 1,
+      "explain": "The formula for the $n$-th term of an Arithmetic Progression is $T_n = a + (n - 1)d$.\n\nFrom the given sequence:\n- First term, $a = 3$\n- Common difference, $d = 7 - 3 = 4$\n- Number of terms, $n = 12$\n\nSubstituting these values:\n$$T_{12} = 3 + (12 - 1)4$$\n$$T_{12} = 3 + (11 \\times 4)$$\n$$T_{12} = 3 + 44 = 47$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-tutib8",
+      "q": "The 3rd and 6th terms of a Geometric Progression (G.P.) are 18 and 486, respectively. Find the common ratio of the sequence.",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "correct": 1,
+      "explain": "The formula for the $n$-th term of a G.P. is $T_n = ar^{n-1}$.\nGiven:\n- $T_3 = ar^2 = 18$  --- (Equation 1)\n- $T_6 = ar^5 = 486$ --- (Equation 2)\n\nDivide Equation 2 by Equation 1 to eliminate $a$:\n$$\\frac{ar^5}{ar^2} = \\frac{486}{18}$$\n$$r^3 = 27$$\nTaking the cube root of both sides:\n$$r = \\sqrt[3]{27} = 3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-19suifu",
+      "q": "Find the sum of the first 10 terms of an Arithmetic Progression whose first term is 5 and whose 10th term is 32.",
+      "options": [
+        "160",
+        "175",
+        "185",
+        "370"
+      ],
+      "correct": 2,
+      "explain": "When the first and last terms of an A.P. are known, the sum of the first $n$ terms is given by:\n$$S_n = \\frac{n}{2}(a + l)$$\nWhere:\n- $n = 10$\n- $a = 5$\n- $l = 32$\n\nSubstituting the values:\n$$S_{10} = \\frac{10}{2}(5 + 32)$$\n$$S_{10} = 5(37) = 185$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-g6l358",
+      "q": "Calculate the sum to infinity of the geometric series: $16 + 4 + 1 + \\frac{1}{4} + \\dots$",
+      "options": [
+        "$\\frac{64}{3}$",
+        "$\\frac{64}{5}$",
+        "21",
+        "24"
+      ],
+      "correct": 0,
+      "explain": "The sum to infinity of a G.P. is $S_\\infty = \\frac{a}{1 - r}$, provided $|r| < 1$.\n\nFrom the series:\n- First term, $a = 16$\n- Common ratio, $r = \\frac{4}{16} = \\frac{1}{4}$\n\nSubstituting into the formula:\n$$S_\\infty = \\frac{16}{1 - \\frac{1}{4}}$$\n$$S_\\infty = \\frac{16}{\\frac{3}{4}} = 16 \\times \\frac{4}{3} = \\frac{64}{3}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-19ho5j8",
+      "q": "If $x + 2$, $3x - 1$, and $4x + 2$ are three consecutive terms of an Arithmetic Progression, find the value of $x$.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explain": "For three consecutive terms of an A.P., the common difference is constant. Hence:\n$$(3x - 1) - (x + 2) = (4x + 2) - (3x - 1)$$\nAlternatively, use the Arithmetic Mean property $2b = a + c$:\n$$2(3x - 1) = (x + 2) + (4x + 2)$$\n$$6x - 2 = 5x + 4$$\nSubtract $5x$ from both sides and add 2:\n$$x = 6$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1isgsic",
+      "q": "A recurrence sequence is defined by $U_{n+1} = 2U_n - 3$ for $n \\geq 1$. If the first term $U_1 = 4$, find the 4th term, $U_4$.",
+      "options": [
+        "5",
+        "7",
+        "11",
+        "19"
+      ],
+      "correct": 2,
+      "explain": "We apply the recurrence relation step by step:\n- $U_1 = 4$\n- $U_2 = 2(U_1) - 3 = 2(4) - 3 = 8 - 3 = 5$\n- $U_3 = 2(U_2) - 3 = 2(5) - 3 = 10 - 3 = 7$\n- $U_4 = 2(U_3) - 3 = 2(7) - 3 = 14 - 3 = 11$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-112u780",
+      "q": "The $n$-th term of a sequence is given by the formula $U_n = (-1)^{n+1} \\left(\\frac{n}{2n - 1}\\right)$. Find the 4th term.",
+      "options": [
+        "$\\frac{4}{7}$",
+        "$-\\frac{4}{7}$",
+        "$\\frac{4}{9}$",
+        "$-\\frac{4}{9}$"
+      ],
+      "correct": 1,
+      "explain": "Substitute $n = 4$ into the formula:\n$$U_4 = (-1)^{4+1} \\left(\\frac{4}{2(4) - 1}\\right)$$\n$$U_4 = (-1)^5 \\left(\\frac{4}{8 - 1}\\right)$$\n$$U_4 = -1 \\left(\\frac{4}{7}\\right) = -\\frac{4}{7}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1mqyvc",
+      "q": "If the 2nd term of a Geometric Progression is 6 and the 4th term is 54, what is the first term, assuming all terms are positive?",
+      "options": [
+        "$\\frac{1}{2}$",
+        "2",
+        "3",
+        "18"
+      ],
+      "correct": 1,
+      "explain": "Given:\n- $T_2 = ar = 6$\n- $T_4 = ar^3 = 54$\n\nDivide $T_4$ by $T_2$:\n$$\\frac{ar^3}{ar} = \\frac{54}{6}$$\n$$r^2 = 9$$\nSince all terms are positive, the common ratio $r = 3$.\nSubstitute $r = 3$ back into the first equation:\n$$a(3) = 6 \\implies a = 2$$\nThe first term is 2.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1s88sq8",
+      "q": "How many terms of the Arithmetic Progression $20, 18, 16, \\dots$ are needed to give a total sum of $90$?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "18"
+      ],
+      "correct": 1,
+      "explain": "Given the A.P.:\n- $a = 20$\n- $d = 18 - 20 = -2$\n- $S_n = 90$\n\nUsing the sum formula $S_n = \\frac{n}{2}(2a + (n-1)d)$:\n$$90 = \\frac{n}{2}(2(20) + (n-1)(-2))$$\n$$90 = \\frac{n}{2}(40 - 2n + 2)$$\n$$90 = \\frac{n}{2}(42 - 2n)$$\n$$90 = n(21 - n)$$\n$$90 = 21n - n^2$$\n$$n^2 - 21n + 90 = 0$$\nFactorizing the quadratic equation:\n$$(n - 6)(n - 15) = 0$$\n$n = 6$ or $n = 15$. Since 6 is one of the available options, 6 terms will give the required sum.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1wcxf0z",
+      "q": "In a Geometric Progression, the sum of the second and third terms is 12, and the sum of the third and fourth terms is -36. Find the common ratio of the sequence.",
+      "options": [
+        "-3",
+        "-2",
+        "2",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "Let the first term be $a$ and the common ratio be $r$.\nGiven:\n- $T_2 + T_3 = 12 \\implies ar + ar^2 = 12$  --- (Eq. 1)\n- $T_3 + T_4 = -36 \\implies ar^2 + ar^3 = -36$ --- (Eq. 2)\n\nFactorize both equations:\nEq 1: $ar(1 + r) = 12$\nEq 2: $ar^2(1 + r) = -36$\n\nDivide Eq 2 by Eq 1:\n$$\\frac{ar^2(1 + r)}{ar(1 + r)} = \\frac{-36}{12}$$\n$$r = -3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1igzja",
+      "q": "The sum of the first $n$ terms of a linear sequence (A.P.) is given by $S_n = n^2 - 2n$. Find an expression for the $n$-th term, $T_n$.",
+      "options": [
+        "$2n - 1$",
+        "$2n - 3$",
+        "$n - 3$",
+        "$n^2 - 1$"
+      ],
+      "correct": 1,
+      "explain": "The $n$-th term $T_n$ is the difference between the sum of the first $n$ terms and the sum of the first $(n-1)$ terms:\n$$T_n = S_n - S_{n-1}$$\n$$S_n = n^2 - 2n$$\n$$S_{n-1} = (n-1)^2 - 2(n-1) = (n^2 - 2n + 1) - 2n + 2 = n^2 - 4n + 3$$\nNow, subtract $S_{n-1}$ from $S_n$:\n$$T_n = (n^2 - 2n) - (n^2 - 4n + 3)$$\n$$T_n = n^2 - 2n - n^2 + 4n - 3$$\n$$T_n = 2n - 3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-15hqhxs",
+      "q": "Under what condition is an infinite geometric series $\\sum_{n=1}^{\\infty} ar^{n-1}$ said to be convergent?",
+      "options": [
+        "$|r| > 1$",
+        "$r \\geq 1$",
+        "$|r| < 1$",
+        "$r = 1$"
+      ],
+      "correct": 2,
+      "explain": "For an infinite geometric series to converge (i.e., sum to a finite limit), the absolute value of the common ratio $r$ must be less than 1. Mathematically, this is written as $-1 < r < 1$ or $|r| < 1$. \n\nIf $|r| \\geq 1$, the terms do not approach zero, and the sum diverges.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-ik0f8",
+      "q": "A Geometric Progression has a first term of 5 and a sum to infinity of 20. Find its 3rd term.",
+      "options": [
+        "$\\frac{15}{4}$",
+        "$\\frac{45}{16}$",
+        "$\\frac{9}{16}$",
+        "$\\frac{5}{4}$"
+      ],
+      "correct": 1,
+      "explain": "Given $a = 5$ and $S_\\infty = 20$.\n\nThe sum to infinity is $S_\\infty = \\frac{a}{1 - r}$.\nSubstitute the known values:\n$$20 = \\frac{5}{1 - r}$$\n$$1 - r = \\frac{5}{20} = \\frac{1}{4}$$\n$$r = 1 - \\frac{1}{4} = \\frac{3}{4}$$\n\nTo find the 3rd term ($T_3 = ar^2$):\n$$T_3 = 5 \\left(\\frac{3}{4}\\right)^2$$\n$$T_3 = 5 \\left(\\frac{9}{16}\\right) = \\frac{45}{16}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-cndfp5",
+      "q": "A clerk saves N$500$ in the first month, N$550$ in the second month, N$600$ in the third month, and so on, following an Arithmetic Progression. Calculate the total amount saved at the end of 2 years.",
+      "options": [
+        "N1,050",
+        "N9,300",
+        "N12,000",
+        "N25,800"
+      ],
+      "correct": 3,
+      "explain": "This forms an A.P. with:\n- First term, $a = 500$\n- Common difference, $d = 50$\n- Number of terms, $n = 24$ (since 2 years = 24 months)\n\nThe sum is given by $S_n = \\frac{n}{2}(2a + (n-1)d)$:\n$$S_{24} = \\frac{24}{2} (2(500) + (24 - 1)(50))$$\n$$S_{24} = 12 (1000 + 23(50))$$\n$$S_{24} = 12 (1000 + 1150)$$\n$$S_{24} = 12 (2150) = 25800$$\n\nTotal saved is N25,800.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1g0f0io",
+      "q": "Find the sum of the first 10 terms of the sequence: $\\log_2 3, \\log_2 9, \\log_2 27, \\dots$",
+      "options": [
+        "$10 \\log_2 3$",
+        "$45 \\log_2 3$",
+        "$55 \\log_2 3$",
+        "$55 \\log_3 2$"
+      ],
+      "correct": 2,
+      "explain": "Simplify the sequence using the power rule for logarithms ($\\log x^n = n \\log x$):\n- $T_1 = \\log_2 3$\n- $T_2 = \\log_2 9 = \\log_2 (3^2) = 2 \\log_2 3$\n- $T_3 = \\log_2 27 = \\log_2 (3^3) = 3 \\log_2 3$\n\nThis forms an A.P. where:\n- First term $a = \\log_2 3$\n- Common difference $d = \\log_2 3$\n- Number of terms $n = 10$\n\nSum of an A.P.:\n$$S_n = \\frac{n}{2}(2a + (n-1)d)$$\n$$S_{10} = \\frac{10}{2}(2\\log_2 3 + 9\\log_2 3)$$\n$$S_{10} = 5(11\\log_2 3) = 55 \\log_2 3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

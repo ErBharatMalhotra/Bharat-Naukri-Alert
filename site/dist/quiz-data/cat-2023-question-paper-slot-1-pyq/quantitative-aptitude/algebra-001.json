@@ -1,0 +1,131 @@
+{
+  "title": "CAT 2023 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Algebra",
+  "titleHi": "",
+  "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Algebra",
+  "source": "github:online-exam-questions",
+  "count": 6,
+  "questions": [
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-n00ag",
+      "q": "If $x$ and $y$ are real numbers such that $x^2 + (x-2y-1)^2 = -4y(x+y)$, then the value $x-2y$ is",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "Expand the given equation: $x^2 + x^2 - 4xy - 2x + 4y^2 + 4y + 1 = -4xy - 4y^2$. Simplifying this yields $2x^2 - 2x + 8y^2 + 4y + 1 = 0$. This can be rearranged into squares: $2(x^2 - x + 1/4) + 8(y^2 + y/2 + 1/16) - 1/2 - 1/2 + 1 = 0$, which simplifies to $2(x-1/2)^2 + 8(y+1/4)^2 = 0$. For this to hold true for real numbers, each squared term must be zero, giving $x = 1/2$ and $y = -1/4$. Thus, $x - 2y = 1/2 - 2(-1/4) = 1/2 + 1/2 = 1$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-1v7wdik",
+      "q": "If $\\sqrt{5x+9} + \\sqrt{5x-9} = 3(2+\\sqrt{2})$, then $\\sqrt{10x+9}$ is equal to",
+      "options": [
+        "$3\\sqrt{7}$",
+        "$4\\sqrt{5}$",
+        "$3\\sqrt{31}$",
+        "$2\\sqrt{7}$"
+      ],
+      "correct": 0,
+      "explain": "Square both sides of the equation: $(5x+9) + (5x-9) + 2\\sqrt{25x^2-81} = 9(4 + 2 + 4\\sqrt{2})$. This simplifies to $10x + 2\\sqrt{25x^2-81} = 54 + 36\\sqrt{2}$. By comparing rational and irrational parts, we deduce $10x = 54 \\implies x = 5.4$. Let's verify the irrational part: $2\\sqrt{25(5.4)^2 - 81} = 2\\sqrt{25(29.16) - 81} = 2\\sqrt{729 - 81} = 2\\sqrt{648} = 2(18\\sqrt{2}) = 36\\sqrt{2}$. Since it matches, $x = 5.4$ is correct. Then, $\\sqrt{10x+9} = \\sqrt{10(5.4) + 9} = \\sqrt{54+9} = \\sqrt{63} = 3\\sqrt{7}$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-10gbam8",
+      "q": "The number of integer solutions of equation $2|x|(x^2 + 1) = 5x^2$ is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Clearly, $x = 0$ is a solution. If $x \\neq 0$, we can divide by $|x|$ (since $x^2 = |x|^2$): $2(x^2+1) = 5|x| \\implies 2|x|^2 - 5|x| + 2 = 0$. Factoring the quadratic in terms of $|x|$ gives $(2|x|-1)(|x|-2) = 0$. This gives $|x| = 1/2$ or $|x| = 2$. Since we want integer solutions, $|x| = 2 \\implies x = 2$ or $x = -2$. The integer solutions are $0, 2,$ and $-2$, making a total of $3$ solutions.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-1u9lojg",
+      "q": "The equation $x^3 + (2r+1)x^2 + (4r-1)x + 2 = 0$ has -2 as one of the roots. If the other two roots are real, then the minimum possible non-negative integer value of $r$ is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2,
+      "explain": "Since $-2$ is a root, $x+2$ is a factor. Dividing the polynomial by $x+2$ gives $x^2 + (2r-1)x + 1 = 0$. For the other two roots to be real, the discriminant of this quadratic must be non-negative: $(2r-1)^2 - 4(1)(1) \\ge 0 \\implies (2r-1)^2 \\ge 4$. This implies $2r-1 \\ge 2 \\implies 2r \\ge 3 \\implies r \\ge 1.5$, or $2r-1 \\le -2 \\implies r \\le -0.5$. The minimum possible non-negative integer value of $r$ satisfying $r \\ge 1.5$ is $r = 2$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-1a23lx8",
+      "q": "Let $\\alpha$ and $\\beta$ be the two distinct roots of the equation $2x^2 - 6x + k = 0$, such that $(\\alpha + \\beta)$ and $\\alpha\\beta$ are the distinct roots of the equation $x^2 + px + p = 0$. Then, the value of $8(k - p)$ is",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "From the first equation, the sum of the roots is $\\alpha + \\beta = 6/2 = 3$, and the product is $\\alpha\\beta = k/2$. These two values, $3$ and $k/2$, are the roots of $x^2 + px + p = 0$. Therefore, their sum is $3 + k/2 = -p$, and their product is $3(k/2) = p$. Setting them equal based on $p$: $3(k/2) = -(3 + k/2) \\implies 3k/2 = -3 - k/2 \\implies 2k = -3 \\implies k = -3/2$. Since $p = 3k/2$, we get $p = 3(-3/2)/2 = -9/4$. The expression $8(k-p) = 8(-3/2 - (-9/4)) = 8(-6/4 + 9/4) = 8(3/4) = 6$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    },
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-gihvhc",
+      "q": "For some positive and distinct real numbers $x, y$ and $z$, if $\\frac{1}{\\sqrt{y}+\\sqrt{z}}$ is the arithmetic mean of $\\frac{1}{\\sqrt{x}+\\sqrt{z}}$ and $\\frac{1}{\\sqrt{x}+\\sqrt{y}}$, then the relationship which will always hold true, is",
+      "options": [
+        "$y, x$ and $z$ are in arithmetic progression",
+        "$\\sqrt{x}, \\sqrt{y}$ and $\\sqrt{z}$ are in arithmetic progression",
+        "$x, y$ and $z$ are in arithmetic progression",
+        "$\\sqrt{x}, \\sqrt{z}$ and $\\sqrt{y}$ are in arithmetic progression"
+      ],
+      "correct": 0,
+      "explain": "There is a standard algebraic identity which states that terms $a, b, c$ are in arithmetic progression if and only if $\\frac{1}{\\sqrt{b}+\\sqrt{c}}, \\frac{1}{\\sqrt{a}+\\sqrt{c}}, \\frac{1}{\\sqrt{a}+\\sqrt{b}}$ are in arithmetic progression. \nMatching the pattern given: the middle term is $\\frac{1}{\\sqrt{y}+\\sqrt{z}}$, bounded by $\\frac{1}{\\sqrt{z}+\\sqrt{x}}$ and $\\frac{1}{\\sqrt{x}+\\sqrt{y}}$. \nApplying the property by substituting our variables, the sequence corresponding to $(a, b, c)$ is $(y, x, z)$. This means $y, x,$ and $z$ must be in arithmetic progression.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    }
+  ]
+}

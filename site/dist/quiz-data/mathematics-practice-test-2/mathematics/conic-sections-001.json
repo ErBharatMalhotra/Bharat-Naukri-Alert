@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 2 - Mathematics - Conic Sections",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 2",
+  "subject": "Mathematics",
+  "topic": "Conic Sections",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-2-1t5bdb4",
+      "q": "The hyperbolas $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ and $\\frac{y^2}{36} - \\frac{x^2}{25} = 1$ are graphed in the standard $(x,y)$ coordinate plane. Which of the following equations is an ellipse that intersects all 4 vertices of the hyperbolas?",
+      "options": [
+        "$\\frac{x^2}{9} + \\frac{y^2}{36} = 1$",
+        "$\\frac{x^2}{25} + \\frac{y^2}{4} = 1$",
+        "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$",
+        "$(x - 9)^2 + (y - 36)^2 = 1$"
+      ],
+      "correct": 0,
+      "explain": "To find the vertices of the first hyperbola, set $y = 0$: $\\frac{x^2}{9} = 1$, giving $x = \\pm 3$. Thus, two vertices are $(3, 0)$ and $(-3, 0)$. To find the vertices of the second hyperbola, set $x = 0$: $\\frac{y^2}{36} = 1$, giving $y = \\pm 6$. The other two vertices are $(0, 6)$ and $(0, -6)$. An ellipse with center at $(0,0)$, x-intercepts at $\\pm 3$, and y-intercepts at $\\pm 6$ follows the form $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Substituting $a=3$ and $b=6$ results in the equation $\\frac{x^2}{9} + \\frac{y^2}{36} = 1$.",
+      "exam": "Mathematics Practice Test 2",
+      "subject": "Mathematics",
+      "topic": "Conic Sections",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

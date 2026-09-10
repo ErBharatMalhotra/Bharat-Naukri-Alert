@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 2, QA) - Quant - Speed Time Distance Races",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+  "subject": "Quant",
+  "topic": "Speed Time Distance Races",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-17rxm8w",
+      "q": "A bus starts at 9 am and follows a fixed route. One day, it traveled at 60 km/h and reached 3.5 hours late. The next day, it traveled two-thirds of its route in one-third of its total scheduled travel time, and the remaining part at 40 km/h to reach just on time. The scheduled arrival time is",
+      "options": [
+        "10 : 30 pm",
+        "7 : 00 pm",
+        "7 : 30 pm",
+        "9 : 00 pm"
+      ],
+      "correct": 2,
+      "explain": "Let distance be D and scheduled time T. From day 1, $D/60 = T+3.5$. On day 2, it travels $2D/3$ in $T/3$ time, so speed is $(2D/3)/(T/3) = 2D/T$. The remaining $D/3$ is travelled at 40 km/h, taking time $(D/3)/40 = D/120$. Total time on day 2 is $T/3 + D/120 = T$. So $D/120 = 2T/3 \\implies D = 80T$. Substitute this into the first equation: $80T/60 = T+3.5 \\implies 4T/3 = T+3.5 \\implies T/3=3.5 \\implies T=10.5$ hours. Bus starts at 9 am. Scheduled arrival time is 9 am + 10.5 hours = 7:30 pm.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Speed Time Distance Races",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

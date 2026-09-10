@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Mechanical Properties of Fluids",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Mechanical Properties of Fluids",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-1v4navr",
+      "q": "A liquid drop of diameter 2 mm breaks into 512 droplets. The change in surface energy is $\\alpha \\times 10^{-6}\\text{ J}$. The value of $\\alpha$ is _______. (Take surface tension of liquid $= 0.08\\text{ N/m}$)",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "11"
+      ],
+      "correct": 1,
+      "explain": "Let the radius of the large drop be $R$ and the radius of each small droplet be $r$.\nDiameter of large drop $= 2\\text{ mm} \\implies R = 1\\text{ mm} = 10^{-3}\\text{ m}$.\nBy conservation of volume during splitting into $n=512$ drops:\n$\\frac{4}{3}\\pi R^3 = 512 \\times \\frac{4}{3}\\pi r^3 \\implies R^3 = 512 r^3$\nSince $512 = 8^3$, we get $r = \\frac{R}{8}$.\nThe initial surface area is $A_i = 4\\pi R^2$.\nThe final total surface area is $A_f = 512 \times 4\\pi r^2 = 512 \\times 4\\pi \\left(\\frac{R}{8}\\right)^2 = 512 \\times \\frac{4\\pi R^2}{64} = 8(4\\pi R^2)$.\nThe change in surface area is $\\Delta A = A_f - A_i = 8(4\\pi R^2) - 4\\pi R^2 = 7(4\\pi R^2) = 28\\pi R^2$.\nChange in surface energy is $\\Delta E = T \\times \\Delta A$:\n$\\Delta E = 0.08 \\times 28\\pi \\times (10^{-3})^2 = 2.24\\pi \\times 10^{-6}\\text{ J}$.\nUsing $\\pi \\approx 3.14159$, $\\Delta E \\approx 2.24 \times 3.14159 \\times 10^{-6} = 7.037 \\times 10^{-6}\\text{ J}$.\nThus, $\\Delta E \\approx 7 \\times 10^{-6}\\text{ J}$, meaning $\\alpha = 7$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-12oxxk",
+      "q": "A tub is filled with water and a wooden cube 10 cm $\\times$ 10 cm $\\times$ 10 cm is placed in the water. The wooden cube is found to float on the water with a part of it submerged in water. When a metal coin is placed on the wooden cube, the submerged part is increased by 3.87 cm. The mass of the metal coin is _______ gram. (Take water density as $1\\text{ g/cm}^3$ and density of wood as $0.4\\text{ g/cm}^3$)",
+      "options": [
+        "258",
+        "387",
+        "420",
+        "516"
+      ],
+      "correct": 1,
+      "explain": "When the metal coin is added, the total downward weight increases by the weight of the coin. For the block to remain floating, the upward buoyant force must increase by an equivalent amount.\nThe increase in buoyant force $\\Delta F_B$ is strictly due to the newly displaced volume of water.\n$\\Delta F_B = M_{coin} g$\n$\\Delta F_B = \\rho_{water} \\times \\Delta V_{submerged} \\times g$\nEquating the two: $M_{coin} = \\rho_{water} \\times \\Delta V_{submerged}$.\nThe extra volume submerged is the area of the cube's base multiplied by the extra submerged depth $\\Delta h = 3.87\\text{ cm}$.\n$\\Delta V_{submerged} = (10\\text{ cm} \\times 10\\text{ cm}) \\times 3.87\\text{ cm} = 387\\text{ cm}^3$.\nGiven the density of water $\\rho_{water} = 1\\text{ g/cm}^3$, the mass of the extra displaced water is:\n$M_{coin} = 1\\text{ g/cm}^3 \\times 387\\text{ cm}^3 = 387\\text{ g}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

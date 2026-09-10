@@ -1,0 +1,103 @@
+name: Scheduled Tasks
+
+on:
+  schedule:
+    - cron: '30 2 * * *'   # 8:00 AM IST
+    - cron: '0 5 * * *'    # 10:30 AM IST
+    - cron: '30 7 * * *'   # 1:00 PM IST
+    - cron: '0 10 * * *'   # 3:30 PM IST
+    - cron: '30 12 * * *'  # 6:00 PM IST
+    - cron: '0 15 * * *'   # 8:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Clone private core
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          rm -rf core
+          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+
+      - name: Sync sources
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+        run: |
+          echo "$SOURCES_JSON" > core/sources/sources.private.json
+          echo '{}' > core/sources/sources.json
+          cp core/sources/sources.private.json core/sources/sources.json
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY_1 }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY_1 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+          LLM_MAX_CALLS: 30
+          EDITOR_NOTE_MAX: 50
+          DETAIL_FETCH_MAX: 50
+        run: |
+          cd core
+          node engine/scrape.js
+          node site/build.js
+
+      - name: Run tests
+        run: cd core && node tests/run.js
+
+      - name: Send Telegram digest
+        if: success()
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          cd core
+          node telegram/digest.js
+
+      - name: Save results to core
+        if: success()
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          cd core
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git add -A
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add -A
+          git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
+          git push origin main
+
+      - name: Push dist to public repo
+        if: success()
+        run: |
+          git clone --depth 1 https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/dist-push
+          cd /tmp/dist-push
+          git config user.name "Bharat Malhotra"
+          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git pull --rebase origin main
+          rm -rf site/dist
+          mkdir -p site/dist
+          cp -r $GITHUB_WORKSPACE/core/site/dist/* site/dist/
+          git add -A
+          git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
+          git push origin main

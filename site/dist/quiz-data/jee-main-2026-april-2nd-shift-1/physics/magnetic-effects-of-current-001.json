@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 1) - Physics - Magnetic Effects of Current",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+  "subject": "Physics",
+  "topic": "Magnetic Effects of Current",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-upjtt4",
+      "q": "![Diagrams of two magnetic wire configurations](https://cracku.in/media/uploads/image_4yvtbH5.png)\nTwo identical long current carrying wires are bent into the shapes shown in figures. Shape (I) consists of a U-turn featuring a semicircle where the current enters, loops, and leaves parallel. Shape (II) consists of a semi-infinite wire leading into a semicircle, ending such that the exiting semi-infinite wire aligns radially outward giving zero contribution at center. If the magnitude of magnetic fields at the centres P and Q of a semicircular arc are $B_1$ and $B_2$ respectively, then the ratio $B_1 / B_2$ is _______.",
+      "options": [
+        "$\\frac{2 + \\pi}{1 + \\pi}$",
+        "$\\frac{1 + \\pi}{1 - \\pi}$",
+        "$\\frac{2 + \\pi}{1 - \\pi}$",
+        "$\\frac{1 + \\pi}{2 - \\pi}$"
+      ],
+      "correct": 0,
+      "explain": "Let's find the magnetic field at the center of the semicircles for both configurations.\nFor Configuration (I) (the hair-pin loop), the magnetic field at center P has three components:\n1. Top semi-infinite straight wire: $B = \\frac{\\mu_0 I}{4\\pi R}$ pointing downwards ($\\otimes$).\n2. Semicircular arc: $B = \\frac{\\mu_0 I}{4 R} = \\frac{\\pi\\mu_0 I}{4\\pi R}$ pointing downwards ($\\otimes$).\n3. Bottom semi-infinite straight wire (flowing back): $B = \\frac{\\mu_0 I}{4\\pi R}$ pointing downwards ($\\otimes$).\nTotal $B_1 = \\frac{\\mu_0 I}{4\\pi R} (1 + \\pi + 1) = \\frac{\\mu_0 I}{4\\pi R}(2 + \\pi)$.\n\nFor Configuration (II), the magnetic field at center Q is the sum of:\n1. One top semi-infinite straight wire at distance R: $B = \\frac{\\mu_0 I}{4\\pi R}$ pointing downwards ($\\otimes$).\n2. Semicircular arc: $B = \\frac{\\mu_0 I}{4 R} = \\frac{\\pi\\mu_0 I}{4\\pi R}$ pointing downwards ($\\otimes$).\n3. The exiting wire is placed such that its line passes through Q, contributing $0$ field.\nTotal $B_2 = \\frac{\\mu_0 I}{4\\pi R} (1 + \\pi + 0) = \\frac{\\mu_0 I}{4\\pi R}(1 + \\pi)$.\n\nThe ratio is $\\frac{B_1}{B_2} = \\frac{2 + \\pi}{1 + \\pi}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Magnetic Effects of Current",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-1)-117xlxt",
+      "q": "$1\\text{ }\\mu\\text{C}$ charge moving with velocity $\\vec{v} = (\\hat{i} - 2\\hat{j} + 3\\hat{k})\\text{ m/s}$ in the region of magnetic field $\\vec{B} = (2\\hat{i} + 3\\hat{j} - 5\\hat{k})\\text{ T}$. The magnitude of force acting on it is $\\sqrt{\\alpha} \\times 10^{-6}\\text{ N}$. The value of $\\alpha$ is _______.",
+      "options": [
+        "114",
+        "152",
+        "171",
+        "196"
+      ],
+      "correct": 2,
+      "explain": "The Lorentz magnetic force on a moving charge is $\\vec{F} = q(\\vec{v} \\times \\vec{B})$.\nLet's calculate the cross product $\\vec{v} \\times \\vec{B}$:\n$\\vec{v} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -2 & 3 \\\\ 2 & 3 & -5 \\end{vmatrix}$\n$= \\hat{i}((-2)(-5) - (3)(3)) - \\hat{j}((1)(-5) - (3)(2)) + \\hat{k}((1)(3) - (-2)(2))$\n$= \\hat{i}(10 - 9) - \\hat{j}(-5 - 6) + \\hat{k}(3 + 4)$\n$= 1\\hat{i} - (-11)\\hat{j} + 7\\hat{k} = \\hat{i} + 11\\hat{j} + 7\\hat{k}$\nThe magnitude is $|\\vec{v} \\times \\vec{B}| = \\sqrt{1^2 + 11^2 + 7^2} = \\sqrt{1 + 121 + 49} = \\sqrt{171}$.\nThe magnitude of the force is $|\\vec{F}| = q|\\vec{v} \\times \\vec{B}| = (1 \\times 10^{-6}) \\sqrt{171}\\text{ N}$.\nRewriting this as $\\sqrt{171} \\times 10^{-6}\\text{ N}$, we can directly observe that $\\alpha = 171$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 1)",
+      "subject": "Physics",
+      "topic": "Magnetic Effects of Current",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "title": "WASSCE Further Maths: Core Algebra and Logic - Further Mathematics (Elective Mathematics) - Binary Operations",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Core Algebra and Logic",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Binary Operations",
+  "source": "github:online-exam-questions",
+  "count": 16,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-mrjrd0",
+      "q": "An operation $\\ast$ is defined on the set of real numbers by $x \\ast y = 2x - 3y$. Evaluate $4 \\ast 1$.",
+      "options": [
+        "1",
+        "5",
+        "8",
+        "11"
+      ],
+      "correct": 1,
+      "explain": "Substitute $x = 4$ and $y = 1$ into the defined formula $x \\ast y = 2x - 3y$.\nWe get $2(4) - 3(1) = 8 - 3 = 5$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-btmy8g",
+      "q": "Which of the following binary operations defined on the set of integers is NOT commutative?",
+      "options": [
+        "$x \\ast y = x + y$",
+        "$x \\ast y = x \\times y$",
+        "$x \\ast y = x - y$",
+        "$x \\ast y = x + y + xy$"
+      ],
+      "correct": 2,
+      "explain": "An operation $\\ast$ is commutative if $x \\ast y = y \\ast x$. For subtraction ($x \\ast y = x - y$), taking example values like $x=5$ and $y=3$ gives $5 - 3 = 2$, but $3 - 5 = -2$. Since $2 \\ne -2$, subtraction is not commutative.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-11x8676",
+      "q": "A binary operation $\\otimes$ is defined on the set of real numbers by $m \\otimes n = m + n - 2$. Find the identity element for this operation.",
+      "options": [
+        "-2",
+        "0",
+        "1",
+        "2"
+      ],
+      "correct": 3,
+      "explain": "The identity element $e$ must satisfy $m \\otimes e = m$ for all $m$.\nSubstitute into the definition: $m + e - 2 = m$.\nSubtract $m$ from both sides: $e - 2 = 0 \\implies e = 2$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-fifzi8",
+      "q": "A binary operation $\\ast$ defined on a set $S$ is said to be associative if for all elements $a, b, c \\in S$:",
+      "options": [
+        "$a \\ast (b \\ast c) = (a \\ast b) \\ast c$",
+        "$a \\ast b = b \\ast a$",
+        "$a \\ast e = a$",
+        "$a \\ast (b + c) = (a \\ast b) + (a \\ast c)$"
+      ],
+      "correct": 0,
+      "explain": "The mathematical definition of the associative property states that rearranging the parentheses (the grouping of operations) does not change the result. This is written formally as $a \\ast (b \\ast c) = (a \\ast b) \\ast c$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1di1e4g",
+      "q": "A binary operation $\\Delta$ is defined on $\\mathbb{R}$ by $x \\Delta y = x + y + xy$. Given that the identity element is 0, find the inverse of the element 2 under this operation.",
+      "options": [
+        "$2$",
+        "$-\\frac{1}{2}$",
+        "$-\\frac{2}{3}$",
+        "$\\frac{3}{2}$"
+      ],
+      "correct": 2,
+      "explain": "Let $y$ be the inverse of $x = 2$. By definition, $x \\Delta y = e$, where $e$ is the identity element $0$.\nSo, $2 \\Delta y = 0 \\implies 2 + y + 2y = 0$.\n$2 + 3y = 0 \\implies 3y = -2 \\implies y = -\\frac{2}{3}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1pwyn68",
+      "q": "Let an operation $\\ast$ be defined on $\\mathbb{R}$ by $x \\ast y = x^2 - y$. Evaluate $(3 \\ast 2) \\ast 4$.",
+      "options": [
+        "45",
+        "17",
+        "10",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "First evaluate the expression inside the parentheses: $(3 \\ast 2)$. \n$3 \\ast 2 = 3^2 - 2 = 9 - 2 = 7$.\nNow evaluate the result with $4$: $7 \\ast 4$.\n$7 \\ast 4 = 7^2 - 4 = 49 - 4 = 45$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1n9n2a8",
+      "q": "If a binary operation $\\ast$ is defined on the set of integers, $\\mathbb{Z}$, by $a \\ast b = \\frac{a + b}{2}$, which of the following statements is true regarding closure?",
+      "options": [
+        "The operation is closed because $a+b$ is always an integer.",
+        "The operation is not closed because the result can be a fraction.",
+        "The operation is closed because addition is a closed operation.",
+        "The operation is not closed because $0$ cannot be used as a denominator."
+      ],
+      "correct": 1,
+      "explain": "A set is closed under an operation if performing that operation on any members of the set always produces a member of the same set. If we select $a=1$ and $b=2$ (both integers), $1 \\ast 2 = \\frac{1 + 2}{2} = 1.5$. Since $1.5$ is not an integer, the operation is not closed on $\\mathbb{Z}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1nyonoi",
+      "q": "In modulo 5 arithmetic, evaluate the operation $(4 \\otimes 3) \\oplus 2$.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 3,
+      "explain": "First, find the product modulo 5: $4 \\times 3 = 12$. Since $12 = 5(2) + 2$, the remainder is $2$. Hence, $4 \\otimes 3 \\equiv 2 \\pmod 5$.\nNext, perform addition modulo 5: $2 + 2 = 4$. Since $4$ is less than $5$, $4 \\equiv 4 \\pmod 5$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-11rfaos",
+      "q": "Evaluate the operation $a \\ast b = a^2 + b^2$ for $(-1) \\ast 3$.",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "10"
+      ],
+      "correct": 3,
+      "explain": "Substitute $a = -1$ and $b = 3$ into the given formula: $(-1)^2 + 3^2 = 1 + 9 = 10$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1bbow68",
+      "q": "A binary operation is defined by $x \\ast y = x + y - xy$. Given that the identity element is 0, find the inverse of 3 under this operation.",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$-\\frac{1}{3}$"
+      ],
+      "correct": 2,
+      "explain": "Let $y$ be the inverse of $x = 3$. By the definition of inverse, $x \\ast y = e$ where $e=0$.\nSubstitute 3 and 0: $3 \\ast y = 0 \\implies 3 + y - 3y = 0$.\n$3 - 2y = 0 \\implies 2y = 3 \\implies y = \\frac{3}{2}$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1w969hc",
+      "q": "Which of the following binary operations defined on the set of real numbers $\\mathbb{R}$ is associative?",
+      "options": [
+        "$x \\ast y = x - y$",
+        "$x \\ast y = x + y + xy$",
+        "$x \\ast y = x^y$",
+        "$x \\ast y = \\frac{x}{y}$"
+      ],
+      "correct": 1,
+      "explain": "To check associativity $a \\ast (b \\ast c) = (a \\ast b) \\ast c$:\nLet's test option (b): $(a \\ast b) \\ast c = (a + b + ab) \\ast c = (a + b + ab) + c + (a + b + ab)c = a + b + c + ab + ac + bc + abc$.\n$a \\ast (b \\ast c) = a \\ast (b + c + bc) = a + (b + c + bc) + a(b + c + bc) = a + b + c + bc + ab + ac + abc$.\nBoth sides are equal, so the operation $x + y + xy$ is associative. Options a, c, and d fail standard associativity tests.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-hwwpbk",
+      "q": "What is the identity element $e$ under the normal mathematical operation of addition of real numbers?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "undefined"
+      ],
+      "correct": 0,
+      "explain": "The identity element for addition is the number that leaves any real number unchanged when added to it. Since $a + 0 = 0 + a = a$ for any real number $a$, the additive identity is 0.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-k0anvk",
+      "q": "In modulo 7 arithmetic, find the multiplicative inverse of 4.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "We need to find a number $x$ such that $(4 \\times x) \\equiv 1 \\pmod 7$.\nTesting integers starting from 1:\n$4 \\times 1 = 4 \\equiv 4 \\pmod 7$\n$4 \\times 2 = 8 = 7(1) + 1 \\equiv 1 \\pmod 7$.\nThus, the inverse is 2.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1evt3mg",
+      "q": "If a binary operation $\\otimes$ is defined as $x \\otimes y = \\frac{xy}{4}$, what is the identity element for this operation?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 3,
+      "explain": "Let $e$ be the identity element. Then for all $x$, $x \\otimes e = x$.\nUsing the definition, $\\frac{x \\cdot e}{4} = x$.\nDivide both sides by $x$ (assuming $x \\neq 0$): $\\frac{e}{4} = 1 \\implies e = 4$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-1kab16",
+      "q": "A set $S$ is said to be closed under a binary operation $\\ast$ if for all $a, b \\in S$, the result $a \\ast b$:",
+      "options": [
+        "equals the identity element $e$.",
+        "is also an element of the set $S$.",
+        "results in an integer.",
+        "equals zero."
+      ],
+      "correct": 1,
+      "explain": "By mathematical definition, a set exhibits closure under an operation if applying that operation to any members of the set always produces a result that is still a member of the same set $S$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-core-algebra-and-logic-zejb9r",
+      "q": "An operation is defined by $p \\ast q = p + q + pq$. Solve for $x$ if $2 \\ast (x \\ast 3) = 23$.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 1,
+      "explain": "First, compute the inner bracket $(x \\ast 3)$: $x \\ast 3 = x + 3 + 3x = 4x + 3$.\nNow substitute this back: $2 \\ast (4x + 3) = 23$.\nApply the operation definition again: $2 + (4x + 3) + 2(4x + 3) = 23$.\n$5 + 4x + 8x + 6 = 23 \\implies 12x + 11 = 23$.\nSubtract 11 from both sides: $12x = 12 \\implies x = 1$.",
+      "exam": "WASSCE Further Maths: Core Algebra and Logic",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Binary Operations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

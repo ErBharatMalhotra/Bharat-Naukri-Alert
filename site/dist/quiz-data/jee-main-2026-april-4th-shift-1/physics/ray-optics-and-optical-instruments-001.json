@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 4th, Shift 1) - Physics - Ray Optics and Optical Instruments",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 4th, Shift 1)",
+  "subject": "Physics",
+  "topic": "Ray Optics and Optical Instruments",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-10g8jqg",
+      "q": "![Concave Mirror Setup](https://cracku.in/media/uploads/image_1dtqvl1.png)\nA rod of length $10$ cm lies along the principle axis of a concave mirror of focal length $10$ cm as shown in figure. The nearest end of the rod is 20 cm from the pole. The length of the image is _____ cm.",
+      "options": [
+        "$2.5$",
+        "$5$",
+        "$7.5$",
+        "$7$"
+      ],
+      "correct": 1,
+      "explain": "The focal length of the concave mirror is $f = -10$ cm.\nThe closest end of the rod is at $u_1 = -20$ cm. This point corresponds to the center of curvature ($C = 2f = -20$ cm).\nBy the mirror formula, the image of this end will form exactly at the center of curvature, $v_1 = -20$ cm.\nThe other end of the rod is $10$ cm further away, so its coordinate is $u_2 = -30$ cm.\nApplying the mirror equation for this end: $\\frac{1}{v_2} + \\frac{1}{u_2} = \\frac{1}{f} \\implies \\frac{1}{v_2} - \\frac{1}{30} = -\\frac{1}{10}$.\n$\\frac{1}{v_2} = \\frac{1}{30} - \\frac{1}{10} = -\\frac{2}{30} \\implies v_2 = -15$ cm.\nThe length of the image is the distance between the two image ends: $L_{\\text{image}} = |v_1 - v_2| = |-20 - (-15)| = |-5| = 5$ cm.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Ray Optics and Optical Instruments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-4th,-shift-1)-s9vh8f",
+      "q": "A telescope with objective diameter $R$ is used to observe a distant star emitting light of wavelength $500$ nm, at a resolution of $5 \\times 10^{-7}$ radian. The value of $R$ is _____ cm.",
+      "options": [
+        "$61$",
+        "$122$",
+        "$244$",
+        "$305$"
+      ],
+      "correct": 1,
+      "explain": "The angular resolution limit (Rayleigh's criterion) for a telescope is given by $\\Delta \\theta = \\frac{1.22 \\lambda}{D}$, where $D$ is the diameter of the objective lens. Here, the diameter $D$ is designated as $R$.\nRearranging for $R$: $R = \\frac{1.22 \\lambda}{\\Delta \\theta}$.\nSubstituting the given values:\n$R = \\frac{1.22 \\times 500 \\times 10^{-9} \\text{ m}}{5 \\times 10^{-7} \\text{ rad}} = \\frac{1.22 \\times 5 \\times 10^{-7}}{5 \\times 10^{-7}} \\text{ m} = 1.22 \\text{ m}$.\nConverting to cm:\n$R = 1.22 \\times 100 \\text{ cm} = 122 \\text{ cm}$.",
+      "exam": "JEE Main 2026 (April 4th, Shift 1)",
+      "subject": "Physics",
+      "topic": "Ray Optics and Optical Instruments",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

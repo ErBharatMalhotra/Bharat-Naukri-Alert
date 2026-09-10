@@ -1,0 +1,51 @@
+{
+  "title": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills - Biotechnology - Graphical data interpretation",
+  "titleHi": "",
+  "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+  "subject": "Biotechnology",
+  "topic": "Graphical data interpretation",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-rjerkg",
+      "q": "When analyzing an agarose gel to determine the base-pair length of an unknown DNA fragment, a technician constructs a plot using the DNA ladder's known bands. Because the relationship between a DNA fragment's size and its migration distance through the gel is NOT linear, what specific graph axes format must be utilized to create a straight standard line?",
+      "options": [
+        "A standard Cartesian plot: Migration distance on X; Fragment size (bp) on Y.",
+        "A semi-logarithmic plot: Migration distance on a linear X-axis; $\\log_{10}$ of Fragment size (bp) on a logarithmic Y-axis.",
+        "An inverse-square plot: Time in the chamber on X; Square root of Migration distance on Y.",
+        "A full logarithmic plot: $\\log_{10}$ of Migration distance on X; $\\log_{10}$ of voltage on Y."
+      ],
+      "correct": 1,
+      "explain": "The physical migration distance of DNA in an agarose gel is **inversely proportional to the $\\log_{10}$ of its molecular weight (size)**. \n\nIf you plot fragment size directly against distance on standard linear graph paper, it yields a harsh curve, making it difficult to accurately estimate unknown bands. By plotting the size on a **logarithmic axis (Y-axis)** and the migration distance on a **linear axis (X-axis)**, the exponential decay is straightened into a reliable linear trendline.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Graphical data interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nocti-biotechnology-4275:-laboratory-knowledge-&-skills-wybaoo",
+      "q": "A biomanufacturing facility tracks the Optical Density ($OD_{600}$) of a bioreactor over 36 hours, generating a standard sigmoidal (S-shaped) bacterial growth curve. To extract the absolute maximum yield of actively dividing, healthy cells, at which graphical phase of the growth curve should the technician initiate the harvest?",
+      "options": [
+        "During the initial Lag Phase, immediately following inoculation.",
+        "At the late Log (Exponential) Phase, just prior to the flattening of the curve.",
+        "Deep in the Stationary Phase, once the curve has remained perfectly flat for 12 hours.",
+        "During the Death Phase, once the OD reading definitively begins to plummet."
+      ],
+      "correct": 1,
+      "explain": "The standard microbial growth curve consists of four phases: Lag, Log (Exponential), Stationary, and Death. \n\nThe maximum concentration of highly active, viable, rapidly dividing cells occurs at the **late Log Phase**. Once the curve hits the *Stationary Phase*, nutrients are depleting, toxic waste products are building up, and the cells are shutting down primary metabolism. Harvesting late in the exponential phase ensures massive biomass before the culture starts starving or dying.",
+      "exam": "NOCTI Biotechnology 4275: Laboratory Knowledge & Skills",
+      "subject": "Biotechnology",
+      "topic": "Graphical data interpretation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

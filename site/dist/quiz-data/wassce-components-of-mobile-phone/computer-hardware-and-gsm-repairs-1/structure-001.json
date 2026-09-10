@@ -1,0 +1,291 @@
+{
+  "title": "WASSCE Components of Mobile Phone - Computer Hardware and GSM Repairs 1 - Structure",
+  "titleHi": "",
+  "exam": "WASSCE Components of Mobile Phone",
+  "subject": "Computer Hardware and GSM Repairs 1",
+  "topic": "Structure",
+  "source": "github:online-exam-questions",
+  "count": 14,
+  "questions": [
+    {
+      "id": "wassce-components-of-mobile-phone-v6ot8o",
+      "q": "Within the Audio unit of a mobile phone's block diagram, which precise operation is essential for transforming the user's voice into data that the main processor can handle?",
+      "options": [
+        "RF to IF conversion",
+        "Analog-to-Digital Conversion (ADC)",
+        "Digital-to-Analog Conversion (DAC)",
+        "Frequency Modulation"
+      ],
+      "correct": 1,
+      "explain": "The microphone picks up analog voice waves, which the Audio IC processes through Analog-to-Digital Conversion (ADC) for the digital Baseband.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-14ul740",
+      "q": "If a mobile phone's Power Unit IC fails completely, what is the most definitive diagnostic symptom when the device is attached to a DC power supply?",
+      "options": [
+        "The phone powers on but displays 'No Service'.",
+        "The device consumes absolutely zero current when the power button is pressed.",
+        "The LCD shows a white screen of death.",
+        "The phone boot-loops continuously at the manufacturer logo."
+      ],
+      "correct": 1,
+      "explain": "The Power IC distributes voltage. If it is dead, pressing the power button yields zero current draw on a DC bench supply.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-ifla3g",
+      "q": "Inside the Power Unit block of a GSM phone, LDOs are used extensively to supply clean voltage to sensitive sections like the RF unit. What does LDO stand for?",
+      "options": [
+        "Large Diode Output",
+        "Low Dropout Regulator",
+        "Logic Data Output",
+        "Linear Digital Oscillator"
+      ],
+      "correct": 1,
+      "explain": "A Low Dropout (LDO) regulator is an integrated circuit step-down DC voltage regulator crucial for outputting stable, low-noise power.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-h72au8",
+      "q": "In the Radio Frequency (RF) unit block diagram, what is the role of the Antenna Switch?",
+      "options": [
+        "It converts battery voltage into radio frequencies.",
+        "It isolates the audio unit from the power unit.",
+        "It toggles the connection between the receiving (RX) path and the transmitting (TX) path to share the same antenna.",
+        "It physically disconnects the antenna when airplane mode is activated."
+      ],
+      "correct": 2,
+      "explain": "The antenna switch directs incoming RF signals to the RX filters and connects the TX amplifier to the antenna without collision.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-1tkp008",
+      "q": "A customer brings in a phone that has network reception but completely fails to make calls (drops immediately upon dialing). Diagnostics reveal the transmission signal is too weak. Which component in the RF Unit is most likely faulty?",
+      "options": [
+        "Audio IC",
+        "Power Amplifier (PA)",
+        "LCD Display Driver",
+        "Voltage Controlled Oscillator (VCO)"
+      ],
+      "correct": 1,
+      "explain": "The Power Amplifier (PA) module boosts the transmission (TX) signal before it hits the antenna. Failure means the phone cannot 'shout' loud enough to reach the tower.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-1l2nkyo",
+      "q": "The Memory Unit of a phone typically contains RAM. What characteristic defines RAM (Random Access Memory)?",
+      "options": [
+        "It is non-volatile; it retains data when the battery is removed.",
+        "It stores the permanent firmware and IMEI number.",
+        "It is volatile memory used to temporarily store data currently processed by the OS and Apps.",
+        "It functions strictly as a backup storage for user photos."
+      ],
+      "correct": 2,
+      "explain": "RAM is high-speed, volatile memory that loses its contents when power is lost, used exclusively for active application processing.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-13jelh0",
+      "q": "In modern smartphone motherboards, the internal storage is typically an eMMC or UFS chip. What essential data is persistently stored in this IC part of the Memory Unit?",
+      "options": [
+        "Temporary webpage caches only.",
+        "Live cellular radio frequencies.",
+        "The Bootloader, Firmware, OS, and user data.",
+        "The digital-to-analog converter instructions."
+      ],
+      "correct": 2,
+      "explain": "Non-volatile memory chips like eMMC store the core operating files (Bootloader, Firmware, OS) and persistent user applications/data.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-jja4bw",
+      "q": "What does ROM stand for in the context of a mobile phone's memory unit?",
+      "options": [
+        "Random Operations Memory",
+        "Read-Only Memory",
+        "Radio Oscillating Module",
+        "Rapid Output Machine"
+      ],
+      "correct": 1,
+      "explain": "ROM stands for Read-Only Memory, which traditionally holds the core system firmware that shouldn't be altered casually.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-62wnpw",
+      "q": "During a phone call, what is the logical flow of data in the block diagram starting from the user's voice?",
+      "options": [
+        "Microphone -> Audio Unit (ADC) -> CPU/Baseband -> RF Unit (TX) -> Antenna",
+        "Speaker -> Power Unit -> RF Unit (RX) -> Baseband",
+        "Antenna -> RF Unit (RX) -> CPU/Baseband -> Audio Unit (DAC) -> Microphone",
+        "Microphone -> LCD screen -> Memory Unit -> Power Unit"
+      ],
+      "correct": 0,
+      "explain": "Sound enters the mic, gets converted to digital by the Audio Unit, is processed by the CPU, sent to the RF Unit for modulation, and transmitted out via the Antenna.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-1d4keso",
+      "q": "A smartphone's processing brain usually consists of two distinct processors (often housed in one SoC). The Application Processor runs the OS. What does the Baseband Processor do?",
+      "options": [
+        "It processes all the graphics for 3D games.",
+        "It manages the touchscreen inputs.",
+        "It strictly handles cellular network communications and radio protocols within the RF structure.",
+        "It regulates the voltage sent from the battery to the PCB."
+      ],
+      "correct": 2,
+      "explain": "The Baseband processor works closely with the RF Unit to manage the complex digital radio protocols required for cellular network communication.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-1st83eg",
+      "q": "Within the Radio Frequency (RF) unit, what is the specific role of a SAW (Surface Acoustic Wave) filter?",
+      "options": [
+        "To visually filter colors on the OLED display.",
+        "To filter out unwanted frequency bands and allow only the designated cellular frequencies to pass.",
+        "To convert Direct Current into Alternating Current.",
+        "To extract water and physical debris from the microphone grill."
+      ],
+      "correct": 1,
+      "explain": "SAW filters are crucial in the RF path to block noise and out-of-band signals, ensuring the transceiver only processes the correct cellular frequency band.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-506np1",
+      "q": "Which component in the RF unit generates the precise carrier frequencies required to modulate and demodulate signals?",
+      "options": [
+        "Voltage Controlled Oscillator (VCO)",
+        "Microphone",
+        "Zener Diode",
+        "Flash Memory"
+      ],
+      "correct": 0,
+      "explain": "The VCO (often part of a synthesizer or the main RF IC) generates the local oscillator frequencies needed to tune into specific carrier bands.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-4dl7nd",
+      "q": "A phone connected to a PC is immediately recognized as a COM port (e.g., 'Qualcomm HS-USB QDLoader 9008'), but the screen remains entirely black and it refuses to turn on. Based on component roles, what is the most likely diagnosis?",
+      "options": [
+        "The battery is completely charged but the Power IC is physically broken.",
+        "The Antenna has snapped off the motherboard.",
+        "The firmware/bootloader in the Memory unit is corrupt or the eMMC has failed (bricked).",
+        "The Speaker module is short-circuiting."
+      ],
+      "correct": 2,
+      "explain": "When a device 'hard bricks', the low-level bootloader fails. However, the CPU can still trigger an emergency download mode (COM port) indicating a memory/firmware crash, not a Power IC failure.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-components-of-mobile-phone-1485mkq",
+      "q": "Which component, closely tied to the Power Unit, relies on a quartz crystal generating exactly 32.768kHz to maintain the system clock and calendar even when the device is powered down?",
+      "options": [
+        "Baseband Processor",
+        "RTC (Real Time Clock) Oscillator",
+        "Surface Acoustic Wave (SAW) Filter",
+        "Power Amplifier (PA)"
+      ],
+      "correct": 1,
+      "explain": "The Real Time Clock (RTC) oscillator runs at a precise 32.768kHz off a tiny backup supply or battery power, ensuring the phone's time and date remain accurate.",
+      "exam": "WASSCE Components of Mobile Phone",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "Structure",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

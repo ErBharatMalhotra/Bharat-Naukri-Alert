@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2022 Question Paper (Slot 1, PYQ) - Quantitative Ability - Permutation and Combination",
+  "titleHi": "",
+  "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Permutation and Combination",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2022-question-paper-(slot-1,-pyq)-jlqe8s",
+      "q": "The number of ways of distributing 20 identical balloons among 4 children such that each child gets some balloons but no child gets an odd number of balloons, is",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108"
+      ],
+      "correct": 1,
+      "explain": "Since each child must get an even number of balloons and at least 2 balloons (some balloons means > 0), let the balloons received by children be $2a, 2b, 2c, 2d$ where $a, b, c, d \\ge 1$. Then $2a + 2b + 2c + 2d = 20 \\Rightarrow a + b + c + d = 10$. The number of positive integer solutions to this equation is $\\binom{10-1}{4-1} = \\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$.",
+      "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Permutation and Combination",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2022,
+      "tags": []
+    }
+  ]
+}

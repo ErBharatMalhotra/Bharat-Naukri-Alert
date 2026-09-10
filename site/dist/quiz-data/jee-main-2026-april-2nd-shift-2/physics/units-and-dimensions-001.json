@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Physics - Units and Dimensions",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Physics",
+  "topic": "Units and Dimensions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-s0ekn8",
+      "q": "Dimensions of universal gravitational constant $(G)$ in terms of Planck's constant $(h)$, distance $(L)$, mass $(M)$ and time $(T)$ are _______.",
+      "options": [
+        "$[h T L M^{-2}]$",
+        "$[h T^{-1} L M^{-2}]$",
+        "$[h T L^2 M^{-2}]$",
+        "$[h^{-1} T^{-1} L M^{-2}]$"
+      ],
+      "correct": 1,
+      "explain": "The standard dimensional formula for the universal gravitational constant is $[G] = [M^{-1} L^3 T^{-2}]$.\nWe are asked to express it in terms of $h, L, M, T$. Let's test the dimensions of the given options.\nThe dimensions of Planck's constant $h$ are $[h] = [M L^2 T^{-1}]$.\nEvaluating option (b):\n$[h T^{-1} L M^{-2}] = [M L^2 T^{-1}][T^{-1}][L][M^{-2}] = [M^{1-2} L^{2+1} T^{-1-1}] = [M^{-1} L^3 T^{-2}]$.\nThis matches exactly with the dimensions of $G$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Physics",
+      "topic": "Units and Dimensions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

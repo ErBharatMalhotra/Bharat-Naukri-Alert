@@ -1,0 +1,311 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Statics",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Statics",
+  "source": "github:online-exam-questions",
+  "count": 15,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1reg2s0",
+      "q": "To completely specify a force acting on a rigid body, which of the following sets of properties must be known?",
+      "options": [
+        "Magnitude and direction only",
+        "Magnitude and point of application only",
+        "Magnitude, direction, and line of action (or point of application)",
+        "Direction and line of action only"
+      ],
+      "correct": 2,
+      "explain": "A force is a vector quantity that has both magnitude and direction. However, when acting on an extended rigid body, the effect of the force (especially its turning effect or moment) also depends strictly on its **line of action** or **point of application**. Therefore, all three must be specified.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1mpiydk",
+      "q": "A force of $10 \\text{ N}$ acts at an angle of $60^\\circ$ to the positive $x$-axis. Find its horizontal ($x$) and vertical ($y$) components respectively.",
+      "options": [
+        "$5\\sqrt{3} \\text{ N}$ and $5 \\text{ N}$",
+        "$5 \\text{ N}$ and $5\\sqrt{3} \\text{ N}$",
+        "$10 \\text{ N}$ and $10\\sqrt{3} \\text{ N}$",
+        "$5 \\text{ N}$ and $10 \\text{ N}$"
+      ],
+      "correct": 1,
+      "explain": "The horizontal component $F_x$ and vertical component $F_y$ of a force $F$ acting at an angle $\\theta$ to the horizontal are given by:\n$$F_x = F \\cos \\theta$$\n$$F_y = F \\sin \\theta$$\n\nSubstitute $F = 10 \\text{ N}$ and $\\theta = 60^\\circ$:\n$$F_x = 10 \\cos 60^\\circ = 10 \\times 0.5 = 5 \\text{ N}$$\n$$F_y = 10 \\sin 60^\\circ = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-9gf5qs",
+      "q": "Two forces of $8 \\text{ N}$ and $6 \\text{ N}$ act at a point, perpendicular to each other. Calculate the magnitude of their resultant force.",
+      "options": [
+        "$2 \\text{ N}$",
+        "$10 \\text{ N}$",
+        "$14 \\text{ N}$",
+        "$48 \\text{ N}$"
+      ],
+      "correct": 1,
+      "explain": "Since the forces act at right angles ($90^\\circ$), the magnitude of their resultant $R$ can be found using the Pythagorean theorem:\n$$R = \\sqrt{F_1^2 + F_2^2}$$\n$$R = \\sqrt{8^2 + 6^2}$$\n$$R = \\sqrt{64 + 36} = \\sqrt{100} = 10 \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-nmbbzg",
+      "q": "Two forces of $3 \\text{ N}$ and $5 \\text{ N}$ act on a particle at an angle of $60^\\circ$ to each other. Find the magnitude of their resultant.",
+      "options": [
+        "$4 \\text{ N}$",
+        "$7 \\text{ N}$",
+        "$8 \\text{ N}$",
+        "$\\sqrt{19} \\text{ N}$"
+      ],
+      "correct": 1,
+      "explain": "Use the cosine rule for forces to find the resultant $R$:\n$$R^2 = P^2 + Q^2 + 2PQ \\cos \\theta$$\n\nSubstitute $P = 3$, $Q = 5$, and $\\theta = 60^\\circ$:\n$$R^2 = 3^2 + 5^2 + 2(3)(5) \\cos 60^\\circ$$\n$$R^2 = 9 + 25 + 30(0.5)$$\n$$R^2 = 34 + 15 = 49$$\n$$R = \\sqrt{49} = 7 \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-nai1dc",
+      "q": "Three coplanar forces acting at a point are in equilibrium. This implies that they can be represented in both magnitude and direction by the adjacent sides of a closed:",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Triangle",
+        "Parallelogram"
+      ],
+      "correct": 2,
+      "explain": "According to the **Triangle of Forces** principle, if three coplanar forces acting at a point are in equilibrium, they can be represented in magnitude and direction by the three sides of a triangle taken in continuous order.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1twetq4",
+      "q": "A block of weight $100 \\text{ N}$ is suspended in equilibrium by two light strings inclined at $30^\\circ$ and $60^\\circ$ to the horizontal ceiling. Find the tension in the string inclined at $60^\\circ$.",
+      "options": [
+        "$50 \\text{ N}$",
+        "$50\\sqrt{2} \\text{ N}$",
+        "$50\\sqrt{3} \\text{ N}$",
+        "$100 \\text{ N}$"
+      ],
+      "correct": 2,
+      "explain": "We can solve this using **Lami's Theorem**.\nLet $T_1$ be the tension at $30^\\circ$ to the horizontal, and $T_2$ be the tension at $60^\\circ$ to the horizontal.\nThe angle between $T_1$ and the downward vertical weight ($W$) is $90^\\circ + 30^\\circ = 120^\\circ$.\nThe angle between $T_2$ and the weight is $90^\\circ + 60^\\circ = 150^\\circ$.\nThe angle between $T_1$ and $T_2$ is $180^\\circ - (30^\\circ + 60^\\circ) = 90^\\circ$.\n\nAccording to Lami's theorem:\n$$\\frac{T_2}{\\sin 120^\\circ} = \\frac{W}{\\sin 90^\\circ}$$\n$$\\frac{T_2}{\\frac{\\sqrt{3}}{2}} = \\frac{100}{1}$$\n$$T_2 = 100 \\times \\frac{\\sqrt{3}}{2} = 50\\sqrt{3} \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-dri7qg",
+      "q": "A block of mass $m$ weighing $50 \\text{ N}$ is held in equilibrium on a smooth plane inclined at $30^\\circ$ to the horizontal by a force $F$ applied parallel to the plane. Find the magnitude of the force $F$.",
+      "options": [
+        "$25 \\text{ N}$",
+        "$25\\sqrt{2} \\text{ N}$",
+        "$25\\sqrt{3} \\text{ N}$",
+        "$50 \\text{ N}$"
+      ],
+      "correct": 0,
+      "explain": "To maintain equilibrium on a smooth inclined plane, the applied force parallel to the plane must balance the component of the block's weight acting down the plane.\n\nThe component of weight down the plane is $W \\sin \\theta$.\n$$F = W \\sin \\theta$$\n$$F = 50 \\sin 30^\\circ$$\n$$F = 50 \\times 0.5 = 25 \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1dzu9us",
+      "q": "Two like parallel forces of $10 \\text{ N}$ and $15 \\text{ N}$ act in the same direction at points $A$ and $B$, which are $5 \\text{ m}$ apart. Find the distance of their resultant from point $A$.",
+      "options": [
+        "$2 \\text{ m}$",
+        "$3 \\text{ m}$",
+        "$4 \\text{ m}$",
+        "$5 \\text{ m}$"
+      ],
+      "correct": 1,
+      "explain": "Let the resultant act at a distance $x$ from point $A$. The magnitude of the resultant $R$ is the sum of the forces: \n$$R = 10 + 15 = 25 \\text{ N}$$\n\nTaking moments about point $A$:\nThe moment of the $10 \\text{ N}$ force is zero (distance is 0).\nThe moment of the $15 \\text{ N}$ force is $15 \\times 5 = 75 \\text{ Nm}$.\nThe moment of the resultant must equal the sum of the moments of the individual forces:\n$$R \\times x = 75$$\n$$25x = 75 \\implies x = 3 \\text{ m}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-efw248",
+      "q": "A uniform plank $AB$ of length $4 \\text{ m}$ and weight $30 \\text{ N}$ rests on a single fulcrum placed $1 \\text{ m}$ from end $A$. What downward force applied at end $A$ will keep the plank in horizontal equilibrium?",
+      "options": [
+        "$15 \\text{ N}$",
+        "$30 \\text{ N}$",
+        "$45 \\text{ N}$",
+        "$60 \\text{ N}$"
+      ],
+      "correct": 1,
+      "explain": "Since the plank is uniform, its center of gravity acts at its midpoint, which is $2 \\text{ m}$ from either end. \nThe fulcrum is $1 \\text{ m}$ from $A$. Therefore, the center of gravity is $1 \\text{ m}$ away from the fulcrum ($2 \\text{ m} - 1 \\text{ m} = 1 \\text{ m}$).\n\nTaking moments about the fulcrum for equilibrium:\n$$\\text{Clockwise moment (weight)} = \\text{Anticlockwise moment (force at A)}$$\n$$30 \\text{ N} \\times 1 \\text{ m} = F \\times 1 \\text{ m}$$\n$$F = 30 \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1dtpqsy",
+      "q": "A uniform beam of length $10 \\text{ m}$ and mass $20 \\text{ kg}$ is supported at its ends $P$ and $Q$. A point mass of $50 \\text{ kg}$ is placed $2 \\text{ m}$ from $P$. Calculate the reaction at the support $Q$. (Take $g = 10 \\text{ m/s}^2$)",
+      "options": [
+        "$100 \\text{ N}$",
+        "$150 \\text{ N}$",
+        "$200 \\text{ N}$",
+        "$500 \\text{ N}$"
+      ],
+      "correct": 2,
+      "explain": "First, convert masses to weights using $W = mg$:\n- Weight of beam = $20 \\times 10 = 200 \\text{ N}$ (acting at the midpoint, $5 \\text{ m}$ from $P$).\n- Weight of point mass = $50 \\times 10 = 500 \\text{ N}$ (acting $2 \\text{ m}$ from $P$).\n\nLet the reaction at $Q$ be $R_Q$. Take moments about support $P$ to eliminate the reaction at $P$:\n$$\\text{Total Clockwise Moments} = \\text{Total Anticlockwise Moments}$$\n$$(500 \\times 2) + (200 \\times 5) = R_Q \\times 10$$\n$$1000 + 1000 = 10 R_Q$$\n$$2000 = 10 R_Q \\implies R_Q = 200 \\text{ N}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-jnb830",
+      "q": "Two equal and opposite parallel forces of magnitude $15 \\text{ N}$ act on a rigid body. If they are separated by a perpendicular distance of $4 \\text{ m}$, what is the magnitude of the moment of the couple produced?",
+      "options": [
+        "$0 \\text{ Nm}$",
+        "$15 \\text{ Nm}$",
+        "$30 \\text{ Nm}$",
+        "$60 \\text{ Nm}$"
+      ],
+      "correct": 3,
+      "explain": "A couple consists of two equal and opposite non-collinear forces. The moment (or torque) of a couple is calculated by multiplying the magnitude of one of the forces by the perpendicular distance between their lines of action.\n\n$$\\text{Moment} = F \\times d$$\n$$\\text{Moment} = 15 \\text{ N} \\times 4 \\text{ m} = 60 \\text{ Nm}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1bv8sdc",
+      "q": "A wooden block of weight $40 \\text{ N}$ rests on a rough horizontal floor. A horizontal force of $12 \\text{ N}$ is just sufficient to make the block start sliding. Calculate the coefficient of static friction.",
+      "options": [
+        "$0.3$",
+        "$0.4$",
+        "$3.3$",
+        "$4.0$"
+      ],
+      "correct": 0,
+      "explain": "The block is on the verge of moving, so the applied force equals the limiting frictional force ($F_r = 12 \\text{ N}$).\nThe normal reaction ($R$) equals the weight of the block since the surface is horizontal ($R = 40 \\text{ N}$).\n\nThe formula for the coefficient of static friction is $\\mu = \\frac{F_r}{R}$.\n$$\\mu = \\frac{12}{40} = 0.3$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1cxpoui",
+      "q": "If the coefficient of limiting friction between a body and a flat surface is $\\frac{1}{\\sqrt{3}}$, what is the angle of friction?",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correct": 0,
+      "explain": "The relationship between the coefficient of friction ($\\mu$) and the angle of friction ($\\lambda$) is given by:\n$$\\mu = \\tan \\lambda$$\n\nGiven $\\mu = \\frac{1}{\\sqrt{3}}$:\n$$\\tan \\lambda = \\frac{1}{\\sqrt{3}}$$\n\nThe angle whose tangent is $\\frac{1}{\\sqrt{3}}$ is $30^\\circ$. Therefore, $\\lambda = 30^\\circ$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-gh6zrv",
+      "q": "A block is placed on a rough plane inclined at an angle $\\theta$ to the horizontal. If the block is on the verge of sliding down the plane under its own weight, which of the following equations correctly relates the coefficient of static friction $\\mu$ and the angle of inclination $\\theta$?",
+      "options": [
+        "$\\mu = \\sin \\theta$",
+        "$\\mu = \\cos \\theta$",
+        "$\\mu = \\tan \\theta$",
+        "$\\mu = \\cot \\theta$"
+      ],
+      "correct": 2,
+      "explain": "For a block on the verge of sliding down an inclined plane under gravity alone, the component of weight down the plane ($W \\sin \\theta$) is exactly balanced by the limiting frictional force up the plane ($F_r = \\mu R$).\n\nThe normal reaction is $R = W \\cos \\theta$.\nEquating the forces parallel to the plane:\n$$W \\sin \\theta = \\mu (W \\cos \\theta)$$\n\nDivide both sides by $W \\cos \\theta$:\n$$\\mu = \\frac{\\sin \\theta}{\\cos \\theta} = \\tan \\theta$$\nThis angle $\\theta$ is famously known as the angle of repose.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-yyls1g",
+      "q": "Three forces $2 \\text{ N}, 4 \\text{ N},$ and $6 \\text{ N}$ act along the sides $AB, BC,$ and $CA$ respectively of an equilateral triangle $ABC$ taken in order. Find the magnitude of the resultant force.",
+      "options": [
+        "$2 \\text{ N}$",
+        "$2\\sqrt{3} \\text{ N}$",
+        "$4 \\text{ N}$",
+        "$12 \\text{ N}$"
+      ],
+      "correct": 1,
+      "explain": "Set the triangle on a Cartesian plane such that $BC$ is along the positive $x$-axis. The internal angles of an equilateral triangle are $60^\\circ$.\n- **Force 1 ($BC$ = $4 \\text{ N}$):** Directed at $0^\\circ$. Vector $= 4\\mathbf{i}$.\n- **Force 2 ($CA$ = $6 \\text{ N}$):** Directed along $CA$ (external angle $120^\\circ$). Vector $= 6\\cos(120^\\circ)\\mathbf{i} + 6\\sin(120^\\circ)\\mathbf{j} = -3\\mathbf{i} + 3\\sqrt{3}\\mathbf{j}$.\n- **Force 3 ($AB$ = $2 \\text{ N}$):** Directed along $AB$ (external angle $240^\\circ$). Vector $= 2\\cos(240^\\circ)\\mathbf{i} + 2\\sin(240^\\circ)\\mathbf{j} = -1\\mathbf{i} - \\sqrt{3}\\mathbf{j}$.\n\nSum the forces horizontally ($X$) and vertically ($Y$):\n$$X = 4 - 3 - 1 = 0$$\n$$Y = 0 + 3\\sqrt{3} - \\sqrt{3} = 2\\sqrt{3}$$\n\nThe magnitude of the resultant is $R = \\sqrt{X^2 + Y^2} = \\sqrt{0^2 + (2\\sqrt{3})^2} = 2\\sqrt{3} \\text{ N}$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

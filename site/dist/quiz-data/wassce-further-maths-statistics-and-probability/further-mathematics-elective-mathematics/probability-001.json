@@ -1,0 +1,171 @@
+{
+  "title": "WASSCE Further Maths: Statistics and Probability - Further Mathematics (Elective Mathematics) - Probability",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Statistics and Probability",
+  "subject": "Further Mathematics (Elective Mathematics)",
+  "topic": "Probability",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-16mjous",
+      "q": "A probability tree diagram shows two stages. The probability of choosing branch A is $0.6$ and branch B is $0.4$. If A is chosen, the probability of outcome C is $0.8$. If B is chosen, the probability of outcome C is $0.3$. What is the overall probability of outcome C occurring?",
+      "options": [
+        "$0.60$",
+        "$0.48$",
+        "$0.12$",
+        "$0.80$"
+      ],
+      "correct": 0,
+      "explain": "Using the law of total probability, $P(C) = P(A \\cap C) + P(B \\cap C)$. \n$P(C) = (P(A) \\times P(C|A)) + (P(B) \\times P(C|B)) = (0.6 \\times 0.8) + (0.4 \\times 0.3) = 0.48 + 0.12 = 0.60$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-19x8bgk",
+      "q": "If two events $A$ and $B$ are mutually exclusive, then the probability of both occurring together, $P(A \\cap B)$, is:",
+      "options": [
+        "$1$",
+        "$0$",
+        "$P(A) \\times P(B)$",
+        "$P(A) + P(B)$"
+      ],
+      "correct": 1,
+      "explain": "By definition, mutually exclusive events cannot occur at the same time. Therefore, their intersection is an empty set, making $P(A \\cap B) = 0$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-8tz66o",
+      "q": "Events $A$ and $B$ are independent such that $P(A) = 0.4$ and $P(B) = 0.5$. Calculate the probability that both events occur.",
+      "options": [
+        "$0.2$",
+        "$0.9$",
+        "$0.1$",
+        "$0.4$"
+      ],
+      "correct": 0,
+      "explain": "For two independent events $A$ and $B$, the probability of both occurring is $P(A \\cap B) = P(A) \\times P(B)$. \nTherefore, $P(A \\cap B) = 0.4 \\times 0.5 = 0.2$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-9jv04g",
+      "q": "In a probability tree diagram, the sum of probabilities on the mutually exclusive branches originating from the same node must always equal:",
+      "options": [
+        "$0$",
+        "$0.5$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "explain": "The branches from any single node represent all possible mutually exclusive outcomes of that particular stage. Because these outcomes are exhaustive, their probabilities must sum to $1$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-18o39us",
+      "q": "Events $X$ and $Y$ are such that $P(X) = 0.5$, $P(Y) = 0.4$, and $P(X \\cup Y) = 0.7$. Are events $X$ and $Y$ independent?",
+      "options": [
+        "Yes, because $P(X \\cap Y) = P(X) \\times P(Y)$.",
+        "No, because $P(X \\cup Y) \\neq P(X) + P(Y)$.",
+        "Yes, because $P(X \\cap Y) = 0$.",
+        "No, because $P(X \\cap Y) \\neq P(X) \\times P(Y)$."
+      ],
+      "correct": 0,
+      "explain": "By the general addition rule, $P(X \\cup Y) = P(X) + P(Y) - P(X \\cap Y)$. \n$0.7 = 0.5 + 0.4 - P(X \\cap Y) \\implies P(X \\cap Y) = 0.2$. \nFor independent events, $P(X \\cap Y)$ must equal $P(X) \\times P(Y)$. Here, $0.5 \\times 0.4 = 0.2$. Since $0.2 = 0.2$, the events are independent.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-gz6n3g",
+      "q": "A bag contains $3$ red balls and $5$ blue balls. Two balls are drawn at random from the bag without replacement. Calculate the probability that they are of different colors.",
+      "options": [
+        "$\\frac{15}{56}$",
+        "$\\frac{15}{28}$",
+        "$\\frac{15}{64}$",
+        "$\\frac{25}{28}$"
+      ],
+      "correct": 1,
+      "explain": "Probability of picking Red then Blue: $P(R \\cap B) = \\frac{3}{8} \\times \\frac{5}{7} = \\frac{15}{56}$. \nProbability of picking Blue then Red: $P(B \\cap R) = \\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$. \nTotal probability = $\\frac{15}{56} + \\frac{15}{56} = \\frac{30}{56} = \\frac{15}{28}$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-98pehg",
+      "q": "The probability of an event $E$ occurring is $\\frac{2}{7}$. What is the probability of the event $E$ not occurring?",
+      "options": [
+        "$\\frac{2}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{1}{7}$",
+        "$0$"
+      ],
+      "correct": 1,
+      "explain": "The sum of the probabilities of an event occurring and not occurring is $1$. Therefore, $P(\\text{not } E) = 1 - P(E) = 1 - \\frac{2}{7} = \\frac{5}{7}$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-statistics-and-probability-4xcg40",
+      "q": "A fair six-sided die is rolled twice. What is the probability of obtaining two $6$s?",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{36}$",
+        "$\\frac{1}{3}$"
+      ],
+      "correct": 2,
+      "explain": "Since the rolls are independent events, the probability of obtaining a $6$ on both rolls is the product of their individual probabilities. \n$P(6 \\text{ and } 6) = P(6) \\times P(6) = \\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}$.",
+      "exam": "WASSCE Further Maths: Statistics and Probability",
+      "subject": "Further Mathematics (Elective Mathematics)",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

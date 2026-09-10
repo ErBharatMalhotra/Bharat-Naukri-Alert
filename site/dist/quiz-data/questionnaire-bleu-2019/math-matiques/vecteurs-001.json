@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire bleu 2019 - MATHÉMATIQUES - Vecteurs",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2019",
+  "subject": "MATHÉMATIQUES",
+  "topic": "Vecteurs",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2019-1x0h29k",
+      "q": "La norme d’un vecteur $\\vec{v}$ est notée $\\|\\vec{v}\\|$ et le produit scalaire des vecteurs $\\vec{u}$ et $\\vec{v}$ est noté $\\vec{u} \\bullet \\vec{v}$.\nSoient $\\vec{u}$ et $\\vec{v}$ des vecteurs tels que $\\|\\vec{u}\\| = 3$, $\\|\\vec{v}\\| = 12$ et $\\vec{u} \\bullet \\vec{v} = 8$.\nQue vaut $\\|\\vec{u} + \\vec{v}\\|$ ?",
+      "options": [
+        "13",
+        "15",
+        "23",
+        "169"
+      ],
+      "correct": 0,
+      "explain": "On sait que $\\|\\vec{u} + \\vec{v}\\|^2 = \\|\\vec{u}\\|^2 + \\|\\vec{v}\\|^2 + 2(\\vec{u} \\bullet \\vec{v})$. En substituant les valeurs, on trouve $3^2 + 12^2 + 2(8) = 9 + 144 + 16 = 169$. La norme de la somme est la racine de 169, soit 13.",
+      "exam": "Questionnaire bleu 2019",
+      "subject": "MATHÉMATIQUES",
+      "topic": "Vecteurs",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2019",
+      "tags": []
+    }
+  ]
+}

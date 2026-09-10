@@ -1,0 +1,171 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Probability",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Probability",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1x78jy0",
+      "q": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. If a ball is selected at random from the bag, what is the probability that it is **not** blue?",
+      "options": [
+        "$\\frac{3}{10}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{4}{5}$"
+      ],
+      "correct": 2,
+      "explain": "First, find the total number of balls in the bag:\n$$\\text{Total} = 5 \\text{ (red)} + 3 \\text{ (blue)} + 2 \\text{ (green)} = 10$$\n\nThe probability of selecting a blue ball is:\n$$P(\\text{Blue}) = \\frac{3}{10}$$\n\nThe probability of selecting a ball that is **not** blue is the complement of selecting a blue ball:\n$$P(\\text{Not Blue}) = 1 - P(\\text{Blue}) = 1 - \\frac{3}{10} = \\frac{7}{10}$$\n\n*(Alternatively, count the balls that are not blue: 5 red + 2 green = 7. Thus, the probability is $\\frac{7}{10}$.)*",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-p1nv08",
+      "q": "A fair six-sided die is tossed twice. What is the probability of obtaining a sum of 8?",
+      "options": [
+        "$\\frac{1}{9}$",
+        "$\\frac{5}{36}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{7}{36}$"
+      ],
+      "correct": 1,
+      "explain": "When a die is tossed twice, the total number of possible outcomes in the sample space is:\n$$6 \\times 6 = 36$$\n\nThe possible pairs that yield a sum of 8 are:\n$$(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)$$\n\nThere are exactly 5 favorable outcomes.\nTherefore, the probability is:\n$$P(\\text{Sum of } 8) = \\frac{5}{36}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-18959jk",
+      "q": "Events $A$ and $B$ are independent. If $P(A) = 0.4$ and $P(B) = 0.5$, find the probability that either $A$ or $B$ or both occur.",
+      "options": [
+        "$0.20$",
+        "$0.70$",
+        "$0.80$",
+        "$0.90$"
+      ],
+      "correct": 1,
+      "explain": "The probability that either $A$ or $B$ occurs is given by the addition rule:\n$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$\n\nSince events $A$ and $B$ are independent, the probability of both occurring is the product of their individual probabilities:\n$$P(A \\cap B) = P(A) \\times P(B) = 0.4 \\times 0.5 = 0.2$$\n\nNow, substitute this back into the addition rule:\n$$P(A \\cup B) = 0.4 + 0.5 - 0.2 = 0.9 - 0.2 = 0.7$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1snyrpq",
+      "q": "A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining a Head on the coin and a prime number on the die?",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{6}$"
+      ],
+      "correct": 2,
+      "explain": "The two events (tossing a coin and rolling a die) are independent, so their combined probability is the product of their individual probabilities.\n\n1. Probability of obtaining a Head on the coin:\n$$P(H) = \\frac{1}{2}$$\n\n2. The prime numbers on a standard six-sided die are 2, 3, and 5. So, there are 3 favorable outcomes.\n$$P(\\text{Prime}) = \\frac{3}{6} = \\frac{1}{2}$$\n\n3. Multiply the probabilities:\n$$P(H \\text{ and Prime}) = P(H) \\times P(\\text{Prime}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1iksipt",
+      "q": "A box contains 4 white marbles and 6 black marbles. Two marbles are drawn at random from the box, one after the other, **without replacement**. Find the probability that both marbles are black.",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$\\frac{4}{15}$",
+        "$\\frac{9}{25}$",
+        "$\\frac{3}{10}$"
+      ],
+      "correct": 0,
+      "explain": "Let $B_1$ be the event of drawing a black marble first, and $B_2$ be the event of drawing a black marble second.\n\nInitially, there are 10 marbles (4 white, 6 black).\n$$P(B_1) = \\frac{6}{10} = \\frac{3}{5}$$\n\nSince the first marble is not replaced, there are now 9 marbles left in the box, and 5 of them are black.\n$$P(B_2 \\mid B_1) = \\frac{5}{9}$$\n\nThe probability of both events occurring is:\n$$P(B_1 \\text{ and } B_2) = P(B_1) \\times P(B_2 \\mid B_1) = \\frac{3}{5} \\times \\frac{5}{9}$$\n\nMultiplying the fractions:\n$$P(B_1 \\text{ and } B_2) = \\frac{15}{45} = \\frac{1}{3}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-2sh64w",
+      "q": "A discrete random variable $X$ has the following probability distribution:\n\n| $x$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|\n| $P(X=x)$ | $0.1$ | $0.3$ | $k$ | $0.2$ |\n\nFind the expected value, $E(X)$.",
+      "options": [
+        "1.5",
+        "1.7",
+        "2.0",
+        "2.2"
+      ],
+      "correct": 1,
+      "explain": "First, find the value of $k$. The sum of all probabilities in a probability distribution must equal 1.\n$$0.1 + 0.3 + k + 0.2 = 1$$\n$$0.6 + k = 1 \\implies k = 0.4$$\n\nThe expected value $E(X)$ is given by the formula:\n$$E(X) = \\sum x \\cdot P(X=x)$$\n\nSubstitute the values:\n$$E(X) = (0 \\times 0.1) + (1 \\times 0.3) + (2 \\times 0.4) + (3 \\times 0.2)$$\n$$E(X) = 0 + 0.3 + 0.8 + 0.6 = 1.7$$\n\nThe expected value is $1.7$.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1oo0smo",
+      "q": "A biased coin has a probability of $\\frac{1}{3}$ of showing Heads. If the coin is tossed 4 times, what is the probability of obtaining exactly 2 Heads?",
+      "options": [
+        "$\\frac{8}{81}$",
+        "$\\frac{8}{27}$",
+        "$\\frac{16}{81}$",
+        "$\\frac{32}{81}$"
+      ],
+      "correct": 1,
+      "explain": "This follows a Binomial Probability distribution. The formula is:\n$$P(X=r) = \\binom{n}{r} p^r q^{n-r}$$\n\nGiven:\n- Number of trials, $n = 4$\n- Number of successes, $r = 2$\n- Probability of success (Head), $p = \\frac{1}{3}$\n- Probability of failure (Tail), $q = 1 - \\frac{1}{3} = \\frac{2}{3}$\n\nSubstitute the values:\n$$P(X=2) = \\binom{4}{2} \\left(\\frac{1}{3}\\right)^2 \\left(\\frac{2}{3}\\right)^2$$\n\nCalculate each part:\n- $\\binom{4}{2} = \\frac{4!}{2!2!} = 6$\n- $\\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9}$\n- $\\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$\n\nMultiply them together:\n$$P(X=2) = 6 \\times \\frac{1}{9} \\times \\frac{4}{9} = \\frac{24}{81} = \\frac{8}{27}$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-19in14w",
+      "q": "In an experiment, a drawing pin is dropped 200 times. It lands point-up 140 times and point-down 60 times. Based on this relative frequency, if the pin is dropped 50 more times, how many times is it expected to land point-down?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "35"
+      ],
+      "correct": 0,
+      "explain": "Relative frequency serves as an experimental estimate for probability.\n\nThe probability of landing point-down is calculated from the initial trials:\n$$P(\\text{down}) = \\frac{\\text{Number of point-down outcomes}}{\\text{Total drops}} = \\frac{60}{200} = 0.3$$\n\nTo find the expected number of point-down landings in 50 future drops, multiply the probability by the number of new drops:\n$$\\text{Expected value} = n \\times P(\\text{down})$$\n$$\\text{Expected value} = 50 \\times 0.3 = 15$$\n\nIt is expected to land point-down 15 times.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

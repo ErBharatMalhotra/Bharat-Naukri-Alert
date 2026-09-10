@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Chemistry - Electrochemistry",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Chemistry",
+  "topic": "Electrochemistry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-11u7gf4",
+      "q": "Consider the following two half-cell reactions along with the standard reduction potential given:\n$CO_2 + 6H^+ + 6e^- \\rightarrow CH_3OH + H_2O \\quad E^\\circ_{red} = 0.02\\text{ V}$\n$\\frac{1}{2}O_2 + 2H^+ + 2e^- \\rightarrow H_2O \\quad E^\\circ_{red} = 1.23\\text{ V}$\nA fuel cell was set up using the above two reactions such that the cell operates under the standard condition of 1 bar pressure and 298 K temperature. The fuel cell works with 80% efficiency. If the work derived from the cell using 1 mol of $CH_3OH$ is used to compress an ideal gas isothermally against a constant pressure of 1 kPa, then the change in the volume of the gas, $\\Delta V$ is _______ $\\text{m}^3$. (nearest integer)\nGiven: $F = 96500\\text{ C mol}^{-1}$",
+      "options": [
+        "$-280$",
+        "$-560$",
+        "$+560$",
+        "$-840$"
+      ],
+      "correct": 1,
+      "explain": "In the fuel cell, methanol is oxidized at the anode and oxygen is reduced at the cathode.\nAnode: $CH_3OH + H_2O \\rightarrow CO_2 + 6H^+ + 6e^- \\quad (E^\\circ_{ox} = -0.02\\text{ V})$\nCathode: $\\frac{3}{2}O_2 + 6H^+ + 6e^- \\rightarrow 3H_2O \\quad (E^\\circ_{red} = 1.23\\text{ V})$\nOverall cell potential $E^\\circ = 1.23 - 0.02 = 1.21\\text{ V}$.\nThe maximum electrical work available from 1 mole of methanol ($n=6$) is $-\\Delta G^\\circ = nFE^\\circ = 6 \\times 96500 \\times 1.21 = 700660\\text{ J}$.\nActual useful work derived with 80% efficiency = $0.8 \\times 700660 = 560528\\text{ J}$.\nThis work is done by the cell to compress a gas. By thermodynamics, work done ON the gas is $W = -P_{ext} \\Delta V$.\nThus, $560528 = - (1 \\times 10^3\\text{ Pa}) \\times \\Delta V$.\n$\\Delta V = -560.528\\text{ m}^3$. Rounded to nearest integer, $\\Delta V = -560$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

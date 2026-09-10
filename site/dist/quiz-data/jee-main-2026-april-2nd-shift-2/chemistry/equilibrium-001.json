@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Chemistry - Equilibrium",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Chemistry",
+  "topic": "Equilibrium",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1ukxeg",
+      "q": "At $25^\\circ\\text{C}$, $20.0\\text{ mL}$ of $0.2\\text{ M}$ weak monoprotic acid HX is titrated against $0.2\\text{ M NaOH}$. The pH of the solution (a) at the start of the titration (when NaOH has not been added) and (b) when $10\\text{ mL}$ of NaOH is added respectively, are:\nGiven: $K_a = 5 \\times 10^{-4}, pK_a = 3.3, \\alpha \\ll 1$",
+      "options": [
+        "$0.7$ and $2.0$",
+        "$2.0$ and $3.3$",
+        "$1.1$ and $2.2$",
+        "$3.0$ and $2.2$"
+      ],
+      "correct": 1,
+      "explain": "Case (a): Start of the titration, only weak acid HX is present. Concentration $C = 0.2\\text{ M}$.\n$[H^+] = \\sqrt{K_a \\times C} = \\sqrt{5 \\times 10^{-4} \\times 0.2} = \\sqrt{10^{-4}} = 10^{-2}\\text{ M}$.\nTherefore, $\\text{pH} = -\\log(10^{-2}) = 2.0$.\n\nCase (b): When $10\\text{ mL}$ of $0.2\\text{ M NaOH}$ is added to $20\\text{ mL}$ of $0.2\\text{ M HX}$.\nMoles of HX initially = $20 \\times 0.2 = 4\\text{ mmol}$.\nMoles of NaOH added = $10 \\times 0.2 = 2\\text{ mmol}$.\nNaOH neutralizes half of HX, forming $2\\text{ mmol}$ of $X^-$ and leaving $2\\text{ mmol}$ of HX. This is exactly the half-equivalence point where $[HX] = [X^-]$.\nAccording to the Henderson-Hasselbalch equation: $\\text{pH} = pK_a + \\log\\left(\\frac{[X^-]}{[HX]}\\right)$.\n$\\text{pH} = 3.3 + \\log(1) = 3.3$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Chemistry",
+      "topic": "Equilibrium",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

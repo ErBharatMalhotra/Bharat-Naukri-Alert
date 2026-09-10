@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire bleu 2019 - MATHÉMATIQUES - Trigonométrie",
+  "titleHi": "",
+  "exam": "Questionnaire bleu 2019",
+  "subject": "MATHÉMATIQUES",
+  "topic": "Trigonométrie",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-bleu-2019-21h0q8",
+      "q": "Considérons la somme\n$$I = \\sin(\\alpha) + \\sin(2\\alpha) + \\sin(3\\alpha) + \\dots + \\sin(98\\alpha) + \\sin(99\\alpha)$$\nQuelle est la valeur de $I$ lorsque $\\alpha = \\frac{\\pi}{4}$ ?",
+      "options": [
+        "$I = 1 + \\sqrt{2}$",
+        "$I = 0$",
+        "$I = \\frac{\\sqrt{2}}{2}$",
+        "$I = \\frac{2+\\sqrt{2}}{2}$"
+      ],
+      "correct": 0,
+      "explain": "La somme $\\sin(k\\pi/4)$ suit une période de 8 termes dont la somme s'annule sur un cycle complet. On a $99 = 8 \\times 12 + 3$, donc la somme des 99 premiers termes est équivalente à la somme des 3 premiers termes: $\\sin(\\pi/4) + \\sin(2\\pi/4) + \\sin(3\\pi/4) = \\frac{\\sqrt{2}}{2} + 1 + \\frac{\\sqrt{2}}{2} = 1 + \\sqrt{2}$.",
+      "exam": "Questionnaire bleu 2019",
+      "subject": "MATHÉMATIQUES",
+      "topic": "Trigonométrie",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2019",
+      "tags": []
+    }
+  ]
+}

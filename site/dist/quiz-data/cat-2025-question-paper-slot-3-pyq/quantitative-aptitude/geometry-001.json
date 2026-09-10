@@ -1,0 +1,71 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Geometry",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Geometry",
+  "source": "github:online-exam-questions",
+  "count": 3,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-yhhfeg",
+      "q": "A triangle ABC is formed with $AB = AC = 50$ cm and $BC = 80$ cm. Then, the sum of the lengths, in cm, of all three altitudes of the triangle ABC is",
+      "options": [
+        "126",
+        "120",
+        "130",
+        "144"
+      ],
+      "correct": 0,
+      "explain": "In an isosceles triangle where $AB = AC = 50$ and $BC = 80$, the altitude to the base $BC$ bisects it into two segments of $40$ cm.\nUsing the Pythagorean theorem on one of the right triangles formed:\nAltitude to base ($h_a$) $= \\sqrt{50^2 - 40^2} = \\sqrt{2500 - 1600} = \\sqrt{900} = 30$ cm.\nThe area of the triangle $\\Delta = \\frac{1}{2} \\times BC \\times h_a = \\frac{1}{2} \\times 80 \\times 30 = 1200 \\text{ cm}^2$.\nThe other two altitudes ($h_b$ and $h_c$ dropped onto $AC$ and $AB$) are equal in length due to the triangle's symmetry.\nArea $= \\frac{1}{2} \\times AB \\times h_c = 1200 \\implies \\frac{1}{2} \\times 50 \\times h_c = 1200 \\implies 25h_c = 1200 \\implies h_c = 48$ cm.\nThus, the sum of all three altitudes is $30 + 48 + 48 = 126$ cm.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-1dz3jc8",
+      "q": "ABCD is a trapezium in which AB is parallel to DC, AD is perpendicular to AB, and $AB = 3DC$. If a circle inscribed in the trapezium touching all the sides has a radius of 3 cm, then the area, in sq. cm, of the trapezium is",
+      "options": [
+        "48",
+        "$36\\sqrt{2}$",
+        "$30\\sqrt{3}$",
+        "54"
+      ],
+      "correct": 0,
+      "explain": "Since a circle is inscribed, the height of the trapezium corresponds to the circle's diameter. The radius is $3$, so the height $AD = 6$.\nBecause it is a tangential quadrilateral (a circle inscribed inside it touches all 4 sides), the sum of opposite sides must be equal: $AB + DC = AD + BC$.\nLet $DC = x$. Given $AB = 3DC$, so $AB = 3x$.\nSubstitute into the side sum equation: $3x + x = 6 + BC \\implies 4x = 6 + BC \\implies BC = 4x - 6$.\nDrop a perpendicular from $C$ to $AB$ meeting at $E$. In the resulting right-angled $\\Delta CEB$, $CE = AD = 6$. The length $AE$ is a rectangle with $DC$, so $AE = x$. Consequently, $EB = AB - AE = 3x - x = 2x$.\nBy Pythagorean theorem in $\\Delta CEB$: $CE^2 + EB^2 = BC^2$\n$6^2 + (2x)^2 = (4x - 6)^2$\n$36 + 4x^2 = 16x^2 - 48x + 36$\n$12x^2 - 48x = 0 \\implies x(12x - 48) = 0$.\nSince $x > 0$, we find $x = 4$.\nThus, $DC = 4$ and $AB = 3(4) = 12$.\nArea of the trapezium $= \\frac{1}{2} (AB + DC) \\times AD = \\frac{1}{2}(12 + 4) \\times 6 = \\frac{1}{2} \\times 16 \\times 6 = 48 \\text{ sq. cm}$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-k738h4",
+      "q": "In $\\Delta ABC$, $AB = AC = 12$ cm and D is a point on side BC such that $AD = 8$ cm. If AD is extended to a point E such that $\\angle ACB = \\angle AEB$, then the length, in cm, of AE is",
+      "options": [
+        "16",
+        "20",
+        "18",
+        "14"
+      ],
+      "correct": 2,
+      "explain": "Let $\\angle ACB = \\theta$. Because $\\Delta ABC$ is isosceles with $AB = AC$, we have $\\angle ABC = \\theta$.\nWe are given $\\angle AEB = \\angle ACB = \\theta$.\nLook at $\\Delta ABD$ and $\\Delta ABE$:\n1. $\\angle ABD = \\angle ABC = \\theta$, and $\\angle AEB = \\theta$. Hence, $\\angle ABD = \\angle AEB$.\n2. The angle $\\angle BAD$ is shared between both triangles (where $\\angle BAD$ is the same angle as $\\angle BAE$).\nBecause two corresponding angles are equal, the triangles are similar: $\\Delta ABD \\sim \\Delta ABE$.\nSince they are similar, the ratio of corresponding sides is equal:\n$\\frac{AB}{AE} = \\frac{AD}{AB}$\n$AB^2 = AD \\times AE \\implies 12^2 = 8 \\times AE \\implies 144 = 8 \\times AE$.\n$AE = \\frac{144}{8} = 18$ cm.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,1283 @@
+{
+  "title": "General - ruby programming - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "ruby programming",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "What is the method used to check if a variable is defined in Ruby?",
+      "options": [
+        ".is_defined?",
+        ".defined?",
+        ".exist?",
+        ".has_value?"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid way to declare a variable in Ruby?",
+      "options": [
+        "myVar = 10",
+        "10 = myVar",
+        "myVar",
+        "myVar = \"10\""
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the data type of the value \"Hello, World\" in Ruby?",
+      "options": [
+        "Integer",
+        "Float",
+        "String",
+        "Boolean"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to check if a variable is empty in Ruby?",
+      "options": [
+        ".empty?",
+        ".is_empty?",
+        ".null?",
+        ".has_content?"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to concatenate two strings in Ruby?",
+      "options": [
+        "str1.concat(str2)",
+        "str1 + str2",
+        "str1.append(str2)",
+        "str1.combine(str2)"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the expression: \"5\".to_i + 2 in Ruby?",
+      "options": [
+        "\"52\"",
+        "+7",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare a variable in Ruby without assigning a value?",
+      "options": [
+        "var_name",
+        "var_name = nil",
+        "var_name = \"\"",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to convert a string to lowercase in Ruby?",
+      "options": [
+        ".downcase",
+        ".to_lower",
+        ".lower",
+        ".to_lowercase"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to declare a variable in Ruby with a default value?",
+      "options": [
+        "var_name = value",
+        "var_name := value",
+        "var_name &lt;&lt; value",
+        "var_name =&gt; value"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to check if a variable is numeric in Ruby?",
+      "options": [
+        ".numeric?",
+        ".is_numeric?",
+        ".number?",
+        ".numeric_value?"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the expression: \"10\" * 3 in Ruby?",
+      "options": [
+        "\"101010\"",
+        "30",
+        "1010",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which method is used to convert a string to an array of characters in Ruby?",
+      "options": [
+        ".to_chars",
+        ".split",
+        ".to_array",
+        ".chars"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to check if a variable is of a specific class in Ruby?",
+      "options": [
+        ".is_a?",
+        ".type_of",
+        ".typeof",
+        ".class_of"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is the correct way to define a variable in Ruby?",
+      "options": [
+        "var_name = value",
+        "var var_name = value",
+        "name = value",
+        "variable name = value"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the method used to check if a string contains a specific substring in Ruby?",
+      "options": [
+        ".contains",
+        ".exist",
+        ".include?",
+        ".hasSubstring"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the keyword used to define a constant?",
+      "options": [
+        "constant_name = value",
+        "constant name : value",
+        "CONSTANT_NAME = value",
+        "constantName(value)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the correct way to declare and initialize an array in Ruby?",
+      "options": [
+        "array_name = []",
+        "array array_name = []",
+        "array_name = array[]",
+        "array = array_name[]"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the default file extension for Ruby files?",
+      "options": [
+        ".ru",
+        ".rby",
+        ".rb",
+        ".ruby"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the += operator do in Ruby?",
+      "options": [
+        "Subtraction",
+        "Multiplication",
+        "Division",
+        "Addition"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: true && false in Ruby?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "nil",
+        "Error"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: 6 / 2 in Ruby?",
+      "options": [
+        "2.5",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: 9 / 2 in Ruby?",
+      "options": [
+        "2.5",
+        "4.5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression: 4 &gt; 2 && 5 &lt; 7 in Ruby?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "nil",
+        "Error"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter = -50 while counter &lt;0 puts counter counter+=10 end",
+      "options": [
+        "100 75 50 25",
+        "-50 -40 -30 -20 -10",
+        "100..5",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = 2**3 != 3**2 || true puts boolean_1",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid boolean operator?",
+      "options": [
+        "and(&&)",
+        "or(| |)",
+        "not(!)",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Ruby does not support ++ operator, it only supports += operator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Assignment operator is also known as relational operator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The == 'is equal to' is known as relational operator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a = 5 b=10 while a &lt;10 && b&lt;20 puts a+b a+=2 b+=2 end",
+      "options": [
+        "10 20",
+        "15 19 23",
+        "15 16 17 18 19 20",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The '=' is used for assigning value to variable?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The given two expression means the same. counter=counter+1 and counter++",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a = 5 b=10 while (a &lt;10 || b&lt;20)&&true puts a*b a+=2 b+=2 end",
+      "options": [
+        "10 20",
+        "50 84 126 176 234",
+        "-5 -5 -5",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The boolean operator && only result in true when both the values are true?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = !(700 / 10 == 70) puts boolean_1",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = 77 &lt; 78 && 77 &lt; 77 puts boolean_1",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_2 = !true && (!true || 100 != 5**2) puts boolean_2",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = !(3 &lt; 4 || false) && (false || true) puts boolean_1",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following are used for comparison?",
+      "options": [
+        "Equal to",
+        "Not equal to",
+        "Less than or greater than",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a = 22.5 while a &gt;11.5 puts a a-=3.5 end",
+      "options": [
+        "22.5 19.0 15.5 12.0",
+        "22.5 11.5",
+        "100..5",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter = 100 while counter &gt; 0 puts counter counter/=5 end",
+      "options": [
+        "100 20 4",
+        "100 20 5",
+        "100..5",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter = 1 while counter &lt; 11 puts counter counter+=1 end",
+      "options": [
+        "1 2 3 4 5",
+        "1...10",
+        "1..10",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=10 b=9 if(a&gt;b) print (\"a greater than b\") else print \"Not greater\" end",
+      "options": [
+        "a greater than b",
+        "Not greater",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Boolean opeartors are also known as logical operators.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a valid assignment operator?",
+      "options": [
+        "+=",
+        "-=",
+        "*=",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will the following expression evaluate to? true | | false",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? if(a==10 && b=9) print \"true\" else print \"false\" end",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? test_1 = 17 &gt; 16 puts(test_1) test_2 = 21 &lt;= 30 puts(test_2) test_3 = 9 &gt;= 9 puts(test_3) test_4 = -11 &gt; 4 puts(test_4)",
+      "options": [
+        "True false true false",
+        "True True True False",
+        "False False True True",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the **= assignment operator do?",
+      "options": [
+        "Multiplies the value twice",
+        "It is used as exponent like 2**3=8",
+        "It is the multiplication operator.",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = !true puts boolean_1 boolean_2 = !true && !true puts boolean_2",
+      "options": [
+        "True True",
+        "False False",
+        "True False",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? a=\"string\" b=\"strings\" if(a==b) print (\"a and b are same\") else print \"Not same\" end",
+      "options": [
+        "a and b are same",
+        "Not same",
+        "a==b",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? counter=1 if counter&lt;=5 puts (counter) counter=counter+1",
+      "options": [
+        "Syntax error",
+        "1 2",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will the following code evaluate to? a=9!=10",
+      "options": [
+        "True",
+        "False",
+        "Syntax error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What will be the output of the given code? boolean_1 = false || -10 &gt; -9 puts boolean_1",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the keyword used to define a conditional statement in Ruby?",
+      "options": [
+        "case",
+        "while",
+        "for",
+        "if"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following loops in Ruby is executed at least once?",
+      "options": [
+        "while",
+        "until",
+        "for",
+        "do...while"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the unless keyword do?",
+      "options": [
+        "Executes code if condition is true",
+        "Executes code if condition is false",
+        "Breaks out of loop if condition is true",
+        "Executes code only once if condition is true"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the case statement in Ruby?",
+      "options": [
+        "To define a class",
+        "To handle multiple conditions with one expression",
+        "To declare a variable",
+        "To perform mathematical calculations"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which loop in Ruby allows you to iterate over a collection of elements?",
+      "options": [
+        "while",
+        "for",
+        "until",
+        "each"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the result of the expression 5 &gt; 3 ? \"Yes\" : \"No\" in Ruby?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the break keyword do in a loop in Ruby?",
+      "options": [
+        "Continues to the next iteration of the loop",
+        "Exits the loop",
+        "Skips the current iteration of the loop",
+        "Resets the loop counter to 0"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a comparison operator in Ruby?",
+      "options": [
+        "&lt;=&gt;",
+        "===",
+        "==~",
+        "&gt;&lt;"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the redo keyword in Ruby?",
+      "options": [
+        "Repeats the current iteration of the loop",
+        "Exits the loop",
+        "Skips the current iteration of the loop",
+        "Restarts the loop from the beginning"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code snippet? x = 10 unless x &gt; 15 puts \"Hello\" end",
+      "options": [
+        "Hello",
+        "No output",
+        "Error",
+        "nil"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `next` keyword do in a loop in Ruby?",
+      "options": [
+        "Continues to the next iteration of the loop",
+        "Exits the loop",
+        "Skips the current iteration of the loop",
+        "Resets the loop counter to 0"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `elsif` keyword allow you to do?",
+      "options": [
+        "Add a new class to a module",
+        "Define an instance method within a class",
+        "Add an else-if condition to an if statement",
+        "Create a new variable"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a logical operator in Ruby?",
+      "options": [
+        "&&",
+        "||",
+        "!!",
+        "%%"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code snippet? x = 5 while x &gt; 0 puts x x -= 1 end",
+      "options": [
+        "54321",
+        "12345",
+        "Error",
+        "Infinite loop"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `retry` keyword do in Ruby?",
+      "options": [
+        "Repeats the current iteration of the loop",
+        "Exits the loop",
+        "Restarts the loop from the beginning",
+        "Restarts the current block of code from the beginning"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which loop in Ruby allows you to execute code while a condition is true?",
+      "options": [
+        "while",
+        "for",
+        "until",
+        "loop"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the unless keyword do in Ruby?",
+      "options": [
+        "Executes code if condition is true",
+        "Executes code if condition is false",
+        "Breaks out of loop if condition is true",
+        "Executes code only once if condition is true"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the next keyword in a loop in Ruby?",
+      "options": [
+        "Exits the loop",
+        "Skips the current iteration of the loop",
+        "Resets the loop counter to 0",
+        "Continues to the next iteration of the loop"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code snippet? x = 1 loop do puts x x += 1 break if x &gt; 5 end",
+      "options": [
+        "1 2 3 4 5",
+        "1 2 3 4",
+        "5 4 3 2 1",
+        "1 1 1 1 1"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the purpose of the `case` statement when combined with `when` clauses?",
+      "options": [
+        "To define a block of code that executes when a condition is met",
+        "To iterate over a collection of elements",
+        "To perform mathematical calculations",
+        "To define a class"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used to create a range in Ruby?",
+      "options": [
+        "( )",
+        "{ }",
+        "[ ]",
+        ".. or ..."
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following code snippet? for i in 1..5 print i, \" \" end",
+      "options": [
+        "1 2 3 4 5",
+        "1 2 3 4",
+        "5 4 3 2 1",
+        "1 1 1 1 1"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `break` keyword do when used within nested loops?",
+      "options": [
+        "Exits only the inner loop",
+        "Exits only the outer loop",
+        "Exits all loops",
+        "Skips the current iteration of the loop"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is NOT a valid way to exit a loop in Ruby?",
+      "options": [
+        "break",
+        "continue",
+        "redo",
+        "next"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `until` keyword do?",
+      "options": [
+        "Executes code if condition is true",
+        "Executes code if condition is false",
+        "Breaks out of loop if condition is true",
+        "Executes code only once if condition is true"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What does the `retry` keyword do when used within a loop in Ruby?",
+      "options": [
+        "Repeats the current iteration of the loop",
+        "Restarts the loop from the beginning",
+        "Exits the loop",
+        "Skips the current iteration of the loop"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `case` statement allow you to compare against?",
+      "options": [
+        "Integers",
+        "Strings",
+        "Ranges",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which of the following is NOT a valid loop construct?",
+      "options": [
+        "loop",
+        "for",
+        "dowhile",
+        "while"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the purpose of the loop keyword in Ruby?",
+      "options": [
+        "To iterate over a collection of elements",
+        "To create an infinite loop",
+        "To perform a comparison operation",
+        "To exit a loop based on a condition"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is used to define a block of code that executes repeatedly until a condition is met in Ruby?",
+      "options": [
+        "for",
+        "until",
+        "loop",
+        "while"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what is the purpose of the `redo` keyword?",
+      "options": [
+        "Repeats the current iteration of the loop",
+        "Exits the loop",
+        "Skips the current iteration of the loop",
+        "Restarts the loop from the beginning"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "Which keyword in Ruby is used to exit a loop prematurely?",
+      "options": [
+        "exit",
+        "break",
+        "terminate",
+        "stop"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, which of the following is used to handle multiple conditions with one expression?",
+      "options": [
+        "if",
+        "unless",
+        "case",
+        "switch"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `else` keyword do?",
+      "options": [
+        "Specifies the code block to execute if a condition is true",
+        "Specifies the code block to execute if a condition is false",
+        "Specifies the code block to execute if no other conditions are met",
+        "Specifies the code block to execute in all cases"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "In Ruby, what does the `elsif` keyword do?",
+      "options": [
+        "Specifies the code block to execute if a condition is true",
+        "Specifies the code block to execute if a condition is false",
+        "Specifies the code block to execute if no other conditions are met",
+        "Specifies the code block to execute in all cases"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "The following syntax is correct for if conditional statement. if condition code end",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "If expression. The expression can be of which type?",
+      "options": [
+        "True",
+        "Any number",
+        "Any string",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What error does the if condition gives if not terminated with end statement?",
+      "options": [
+        "Syntax error",
+        "Unexpected end",
+        "Expecting keyword end",
+        "All of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the following? if 1&lt;2 print \"one is less than two\" end",
+      "options": [
+        "One is less than two",
+        "Syntax error",
+        "1&lt;2",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the code? if 11&lt;2 print \"Eleven is less than two\" end print \"11 is greater\"",
+      "options": [
+        "11 is greater",
+        "Eleven is less than two",
+        "Eleven is less than two 11 is greater",
+        "None of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? if 11&gt;2 puts \"Eleven is greater than two\" end print \"You'r right\"",
+      "options": [
+        "Eleven is greater than two",
+        "You'r right",
+        "Eleven is greater than two\nYou'r right",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? if 79&gt;78 puts \"True\".upcase if 9&gt;8 puts \"True\".reverse if 7==7 puts \"equal\".downcase end end end",
+      "options": [
+        "True",
+        "True eurt",
+        "TRUE\neurT\nequal",
+        "equal"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "If statement inside if statement is called Nested if statements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the output of the given code? x=1 if x &gt; 2 puts \"x is greater than 2\" elsif x &lt;= 2 and x!=0 puts \"x is 1\" else puts \"I can't guess the number\" end",
+      "options": [
+        "x is greater than 2",
+        "x is 1",
+        "I can't guess the number",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "It's a good habit to give two spaces between if statement and condition.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    },
+    {
+      "q": "What is the use of else statement?",
+      "options": [
+        "When the if condition is false then the next else condition will get executed",
+        "When the if condition is false then the elsif condition will get executed",
+        "When the if condition is false and if else condition is true then only it will get executed",
+        "None of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "ruby programming",
+      "language": "en"
+    }
+  ]
+}

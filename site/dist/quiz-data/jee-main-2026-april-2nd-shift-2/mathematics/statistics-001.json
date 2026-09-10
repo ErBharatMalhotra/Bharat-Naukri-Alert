@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Statistics",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Statistics",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-1w5zlf0",
+      "q": "The mean and variance of $n$ observations are $8$ and $16$, respectively. If the sum of the first $(n - 1)$ observations is $48$ and the sum of squares of the first $(n - 1)$ observations is $496$, then the value of $n$ is:",
+      "options": [
+        "$21$",
+        "$16$",
+        "$13$",
+        "$7$"
+      ],
+      "correct": 3,
+      "explain": "Let total sum of $n$ observations be $S_n$ and sum of squares be $Q_n$.\nGiven mean is $8 \\implies S_n = 8n$. Variance is $16 \\implies \\frac{Q_n}{n} - 8^2 = 16 \\implies Q_n = 80n$.\nLet the $n$-th observation be $x_n$. $x_n = S_n - 48 = 8n - 48$.\n$x_n^2 = Q_n - 496 = 80n - 496$.\n$(8n-48)^2 = 80n - 496 \\implies 64n^2 - 768n + 2304 = 80n - 496 \\implies 64n^2 - 848n + 2800 = 0$.\nDividing by $16 \\implies 4n^2 - 53n + 175 = 0$.\nSolving gives $n = \\frac{53 \\pm \\sqrt{2809 - 2800}}{8} = \\frac{53 \\pm 3}{8}$. Hence $n=7$ (as $n=50/8$ is not an integer).",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

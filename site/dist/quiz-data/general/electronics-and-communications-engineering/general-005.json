@@ -1,0 +1,670 @@
+{
+  "title": "General - electronics and communications engineering - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "electronics and communications engineering",
+  "topic": "General",
+  "source": "unknown",
+  "count": 51,
+  "questions": [
+    {
+      "q": "The Fourier transform of y(2n) will be",
+      "options": [
+        "e-j2ω [cos4ω + 2cos2ω +2]",
+        "[cos2ω + 2cosω + 2]",
+        "e-jω [cos2ω + 2cosω + 2]",
+        "$${e^{\\frac{{ - j\\omega }}{2}}}\\left[ {\\cos 2\\omega  + 2\\cos \\omega  + 2} \\right]$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Fourier series of a real periodic function has only P. Cosine terms if it is even Q. Sine terms if it is even R. Cosine terms if it is odd S. Sine terms if it is odd Which of the above statements are correct?",
+      "options": [
+        "P and S",
+        "P and R",
+        "Q and S",
+        "Q and R"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "For a function g(t), it is given that $$\\int\\limits_{ - \\infty }^{ + \\infty } {g\\left( t \\right){e^{ - j\\omega t}}dt = \\omega {e^{ - 2{\\omega ^2}}}} $$ &nbsp;&nbsp; for any real value $$\\omega $$ . If $$y\\left( t \\right) = \\int\\limits_{ - \\infty }^t {g\\left( \\tau \\right)} d\\tau ,\\,{\\rm{then}}\\,\\int\\limits_{ - \\infty }^{ + \\infty } {y\\left( t \\right)} dt$$ &nbsp; &nbsp; &nbsp; is. . . . . . . .",
+      "options": [
+        "-j",
+        "$$ - {j \\over 2}$$",
+        "$${j \\over 2}$$"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A linear discrete-time system has the characteristics equation, z3 - 0.81 z = 0. The system",
+      "options": [
+        "Is stable",
+        "Is marginally stable",
+        "Is unstable",
+        "Stability cannot be assessed from the given information"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A function is given by f(t) = sin2t + cos 2t. Which of the following is true?",
+      "options": [
+        "$$f$$ has frequency components at 0 and $${1 \\over {2\\pi }}Hz$$",
+        "$$f$$ has frequency components at 0 and $${1 \\over \\pi }Hz$$",
+        "$$f$$ has frequency components at $${1 \\over {2\\pi }}$$ and $${1 \\over \\pi }Hz$$",
+        "$$f$$ has frequency components at 0, $${1 \\over {2\\pi }}$$&nbsp; and $${1 \\over \\pi }Hz$$"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Two systems H1(z) and H2(z) are connected in cascade as shown below. The overall output y(n) is the same as the input x(n) with a one unit delay. The transfer function of the second system H2(z) is $$x\\left( n \\right) \\to \\boxed{{H_1}\\left( z \\right) = \\frac{{\\left( {1 - 0.4{z^{ - 1}}} \\right)}}{{\\left( {1 - 0.6{z^{ - 1}}} \\right)}}} \\to \\boxed{{H_2}\\left( z \\right)} \\to y\\left( n \\right)$$",
+      "options": [
+        "$$\\frac{{\\left( {1 - 0.6{z^{ - 1}}} \\right)}}{{{z^{ - 1}}\\left( {1 - 0.4{z^{ - 1}}} \\right)}}$$",
+        "$$\\frac{{{z^{ - 1}}\\left( {1 - 0.6{z^{ - 1}}} \\right)}}{{\\left( {1 - 0.4{z^{ - 1}}} \\right)}}$$",
+        "$$\\frac{{{z^{ - 1}}\\left( {1 - 0.4{z^{ - 1}}} \\right)}}{{\\left( {1 - 0.6{z^{ - 1}}} \\right)}}$$",
+        "$$\\frac{{\\left( {1 - 0.4{z^{ - 1}}} \\right)}}{{{z^{ - 1}}\\left( {1 - 0.6{z^{ - 1}}} \\right)}}$$"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Consider the z-transform X(z) = 5z2 + 4z-1 + 3; 0 < |z| < ∞. The inverse z-transform x[n] is",
+      "options": [
+        "5δ[n + 2] + 3δ[n] + 4δ[n - 1]",
+        "5[n - 2] + 3δ[n] + 4δ[n + 1]",
+        "5u[n + 2] + 3u[n] + 4u[n - 1]",
+        "5u[n - 2] + 3u[n] + 4u[n + 1]"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The input x(t) and the output y(t) of a continuous- time system are related as $$y\\left( t \\right) = \\int\\limits_{t - T}^t {x\\left( u \\right)du} $$ The system is",
+      "options": [
+        "Linear and time-variant",
+        "Linear and time-invariant",
+        "Non-linear and time-variant",
+        "Non-linear and time-invariant"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The N-point DFT of a sequence x[n], 0 ≤ n ≤ N - 1 is given by $$X\\left[ K \\right] = \\frac{1}{{\\sqrt N }}\\sum\\limits_{n = 0}^{N - 1} {x\\left[ n \\right]} {e^{ - j\\frac{{2\\pi }}{N}nK}},0 \\leqslant K \\leqslant N - 1$$ Denote this relation as X = DFT(x). For N = 4, which one of the following sequences satisfies DFT (DFT (x)) = x.",
+      "options": [
+        "x = [1 2 3 r]",
+        "x = [1 2 3 2]",
+        "x = [1 3 2 2]",
+        "x = [1 2 2 3]"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Laplace transform of eαt cos (αt) is equal to",
+      "options": [
+        "$${{\\left( {s - \\alpha } \\right)} \\over {{{\\left( {s - \\alpha } \\right)}^2} + {\\alpha ^2}}}$$",
+        "$${{\\left( {s + \\alpha } \\right)} \\over {{{\\left( {s + \\alpha } \\right)}^2} + {\\alpha ^2}}}$$",
+        "$${1 \\over {{{\\left( {s - \\alpha } \\right)}^2}}}$$",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A system is described by the following differential equation, where u(t) is the input to the system and y(t) is the output of the system. y(t) + 5y(t) = u(t) When y(0) = 1 and u(t) is a unit step function, y(t) is",
+      "options": [
+        "0.2 + 0.8e-5t",
+        "0.2 - 0.2e-5t",
+        "0.8 + 0.2e-5t",
+        "0.8 - 0.8e-5t"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Consider the following statements for continuous-time linear time invariant (LTI) systems. 1. There is no bounded input bounded output (BIBO) stable system with a pole in the right half of the complex plane. 2. There is no causal and BIBO stable system with a pole in the right half of the complex plane. Which one among the following is correct?",
+      "options": [
+        "Both 1 and 2 are true",
+        "Both 1 and 2 are not true",
+        "Only 1 is true",
+        "Only 2 is true"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Fourier transform F{e-t u(t)} is equal to $${1 \\over {1 + j2\\pi f}}.$$ &nbsp; Therefore, $$F\\left\\{ {{1 \\over {1 + j2\\pi f}}} \\right\\}$$ &nbsp; is",
+      "options": [
+        "ef u(f)",
+        "e-f u(f)",
+        "ef u(-f)",
+        "e-f u(-f)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A system with transfer function H(z) has impulse response h(n) defined as h(2) = 1, h(3) = -1 and h(k) = 0 otherwise. Consider the following statements. S1 : H(z) is a low-pass filter. S2 : H(z) is an FIR filter. Which of the following is correct?",
+      "options": [
+        "Only S2 is true",
+        "Both S1 and S2 are false",
+        "Both S1 and S2 are true, and S2 is a reason for S1",
+        "Both S1 and S2 are true, but S2 is not a reason for S1"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Laplace transform of the causal periodic square wave of period T shown in the figure below is It",
+      "options": [
+        "$$F\\left( s \\right) = \\frac{1}{{1 + {e^{ - \\frac{{sT}}{2}}}}}$$",
+        "$$F\\left( s \\right) = \\frac{1}{{s\\left( {1 + {e^{ - \\frac{{sT}}{2}}}} \\right)}}$$",
+        "$$F\\left( s \\right) = \\frac{1}{{s\\left( {1 - {e^{ - \\frac{{sT}}{2}}}} \\right)}}$$",
+        "$$F\\left( s \\right) = \\frac{1}{{1 - {e^{ - sT}}}}$$"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A rectangular pulse of duration T is applied to a filter matched to this input. The output of the filter is a",
+      "options": [
+        "Rectangular pulse of duration T",
+        "Rectangular pulse of duration 2T",
+        "Triangular pulse",
+        "Sine function"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The auto-correlation function of an energy signal has",
+      "options": [
+        "No symmetry",
+        "Conjugate symmetry",
+        "Odd symmetry",
+        "Even symmetry"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Let x(t) be a periodic function with period T = 10. The Fourier series coefficients for this series are denoted by $${a_k}$$ , that is $$x\\left( t \\right) = \\sum\\limits_{k = - \\infty }^\\infty {{a_k}{e^{jk{{2\\pi } \\over T}t}}} .$$ The same function x(t) can also be considered as a periodic function with period T' = 40. Let bk be the Fourier series coefficients when period is taken as T'. If $$\\sum\\limits_{k = - \\infty }^\\infty {\\left| {{a_k}} \\right|} = 16,$$ &nbsp;&nbsp; then $$\\sum\\limits_{k = - \\infty }^\\infty {\\left| {{b_k}} \\right|} $$&nbsp; is equal to",
+      "options": [
+        "256",
+        "64",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A periodic signal x(t) of period T0 is given by $$x\\left( t \\right) = \\left\\{ {\\matrix{ {1,} & {\\left| t \\right| the dc component of x(t) is",
+      "options": [
+        "$${{{T_1}} \\over {{T_0}}}$$",
+        "$${{{T_1}} \\over {\\left( {2{T_0}} \\right)}}$$",
+        "$${{2{T_1}} \\over {{T_0}}}$$",
+        "$${{{T_0}} \\over {{T_1}}}$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Laplace transform of a unit ramp function starting at t = a, is",
+      "options": [
+        "$${1 \\over {{{\\left( {s + a} \\right)}^2}}}$$",
+        "$${{{e^{ - as}}} \\over {{{\\left( {s + a} \\right)}^2}}}$$",
+        "$${{{e^{ - as}}} \\over {{s^2}}}$$",
+        "$${a \\over {{s^2}}}$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Let P be linearity, Q be time-invariance, R be causality and S be stability. A discrete-time system has the input-output relationship, $$y\\left( n \\right) = \\left\\{ \\matrix{ \\matrix{ {x\\left( n \\right),} & {n \\ge 1} \\cr } \\hfill \\cr \\matrix{ {0,} & {n = 0} \\cr } \\hfill \\cr \\matrix{ {x\\left( {n + 1} \\right),} & {n \\le - 1} \\cr } \\hfill \\cr} \\right.$$ where x(n) is the input and y(n) is the output. The above system has the properties",
+      "options": [
+        "P, S but not Q, R",
+        "P, Q, S but not R",
+        "P, Q, R, S",
+        "O, R, S but not P"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Let x(t) be a wide sense stationary (WSS) random with power spectral density Sx(f). If Y(t) is the process defined as y(t) = x(2t - 1), the power spectral density SY(f) is",
+      "options": [
+        "$${S_Y}\\left( f \\right) = {1 \\over 2}{S_X}\\left( {{f \\over 2}} \\right){e^{ - j\\pi t}}$$",
+        "$${S_Y}\\left( f \\right) = {1 \\over 2}{S_X}\\left( {{f \\over 2}} \\right){e^{ - {{j\\pi t} \\over 2}}}$$",
+        "$${S_Y}\\left( f \\right) = {1 \\over 2}{S_X}\\left( {{f \\over 2}} \\right)$$",
+        "$${S_Y}\\left( f \\right) = {1 \\over 2}{S_X}\\left( {{f \\over 2}} \\right){e^{j2\\pi f}}$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Fourier series expansion of a real periodic signal with fundamental frequency f0 is given by $${g_p}\\left( t \\right) = \\sum\\limits_{n = - \\infty }^\\infty {{c_n}{e^{j2\\pi {f_0}t}}} ;$$ it is given that c3 = 3 + j5. Then c3 is",
+      "options": [
+        "5 + j3",
+        "-3 - j5",
+        "-5 + j3",
+        "3 - j5"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The input x(t) and output y(t) of a system are related as $$y\\left( t \\right) = \\int\\limits_{ - \\infty }^t {x\\left( \\tau \\right)} \\cos \\left( {3\\tau } \\right)d\\tau .$$ &nbsp; &nbsp; The system is",
+      "options": [
+        "Time-invariant and stable",
+        "Stable and not time-invariant",
+        "Time-invariant and not stable",
+        "Not time-invariant and not stable"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Consider the sequence x[n] = anu[n] + bnu[n], where u[n] denotes the unit-step sequence and 0 < |a| < |b| < 1. The region of convergence (ROC) of the z-transform of x[n] is",
+      "options": [
+        "|z| > |a|",
+        "|z| > |b|",
+        "|z| < |a|",
+        "|a| < |z|< |b|"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The transfer function of a discrete time LTI system is given by$$H\\left( z \\right) = \\frac{{2 - \\frac{3}{4}{z^{ - 1}}}}{{1 - \\frac{3}{4}{z^{ - 1}} + \\frac{1}{8}{z^{ - 2}}}}$$ Consider the following statements: S1 : The system is stable and causal for $${\\text{ROC}}:\\left| z \\right| > \\frac{1}{2}$$ S2 : The system is stable but not causal for $${\\text{ROC}}:\\left| z \\right| S3 : The system is neither stable nor causal for $${\\text{ROC}}:\\frac{1}{4} Which one of the following statements is valid?",
+      "options": [
+        "Both S1 and S2 are true",
+        "Both S2 and S3 true",
+        "Both S1 and S3 are true",
+        "S1, S2 and S3 are all true"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The approximate transition width of main lobe in Blackman window is",
+      "options": [
+        "$$\\frac{{4\\pi }}{N}$$",
+        "$$\\frac{{8\\pi }}{N}$$",
+        "$$\\frac{{12\\pi }}{N}$$",
+        "$$\\frac{{16\\pi }}{N}$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Consider the two different ways of cascading a decimator with an interpolator shown below The two systems are identical if-",
+      "options": [
+        "M > L",
+        "M and L are relatively prime",
+        "M = L",
+        "M ≠ L"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A signal xn, is given by x0 = 3, x1 = 2, x2 = 5, x3 = 1, x4 = 0, x5 = 1, x6 = 2, x7 = 2, x8 = 4, where the subscript 'n' denotes time. The peak value of the auto correlation of x2n - 11 is",
+      "options": [
+        "10",
+        "54",
+        "64"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The Causal system given by H(z) = 6 + z-1 - z-2 is",
+      "options": [
+        "maximum phase",
+        "minimum phase",
+        "mixed phase",
+        "none of the above options"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "What is the Nyquist rate for the signal x(t) = cos2000πt + 3sin6000πt ?",
+      "options": [
+        "2 kHz",
+        "4 kHz",
+        "12 kHz",
+        "6 kHz"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "What is the minimum sampling rate required to avoid aliasing for the signal $$m\\left( t \\right) = {\\left( {\\frac{{\\sin \\left( {2\\pi t} \\right)}}{{2\\pi t}}} \\right)^3}$$",
+      "options": [
+        "6 Hz",
+        "1 Hz",
+        "4 Hz",
+        "2 Hz"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The continuous time unit-step function is defined by",
+      "options": [
+        "\\[u\\left( t \\right) = \\left\\{ {\\begin{array}{*{20}{c}}\n  {1,}&{t > 0} \\\\ \n  {0,}&{t < 0} \n\\end{array}} \\right.\\]",
+        "\\[u\\left( t \\right) = \\left\\{ {\\begin{array}{*{20}{c}}\n  {1,}&{t \\geqslant 0} \\\\ \n  {0,}&{t < 0} \n\\end{array}} \\right.\\]",
+        "\\[u\\left( t \\right) = \\left\\{ {\\begin{array}{*{20}{c}}\n  {1,}&{t > 0} \\\\ \n  {0,}&{t \\leqslant 0} \n\\end{array}} \\right.\\]",
+        "\\[u\\left( t \\right) = \\begin{array}{*{20}{c}}\n  {1,}&{t \\ne 0} \n\\end{array}\\]"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The positions of the poles for the Butterworth filter lie on . . . . . . . . and the positions of the poles for the Chebyshev filter lie on . . . . . . . .",
+      "options": [
+        "Ellipse, Circle",
+        "Circle, Ellipse",
+        "Circle, Line",
+        "Ellipse, Line"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Fourier transform F(jω) of an arbitrary real signal has the property.",
+      "options": [
+        "F(jω) = F(-jω)",
+        "F(jω) = -F(-jω)",
+        "F(jω) = F*(–jω)",
+        "F(jω) = -F*(-jω)"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The pole-zero diagram of the system: $$H\\left( z \\right) = \\frac{{1 - az}}{{z - a}}$$ &nbsp; is represented by:",
+      "options": [
+        "High pass",
+        "Low pass",
+        "All pass",
+        "Band pass"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The required roll-off rate of the frequency response of an anti-aliasing filter will create problems in its design if",
+      "options": [
+        "The sampling frequency is very high",
+        "The sampling frequency is only slightly more than the Nyquist rate",
+        "The sampling frequency is less than the Nyquist rate",
+        "Ideal sampling is employed"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The impulse δ(t) and unit step function u(t) are related to each other as:",
+      "options": [
+        "δ(t) = $$\\frac{{\\text{d}}}{{{\\text{dt}}}}$$ u(t)",
+        "δ(t) = u(t) + u(2t - 1)",
+        "δ(t) = ∫u(t)dt",
+        "δ(t) = 2.u(t)"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A discrete-time all-pass system has two of its poles at 0.25∠0° and 2∠30° which one of the following statements about the system is TRUE?",
+      "options": [
+        "It has two more poles at 0.5∠30° and 4∠0°",
+        "It is stable only when the impulse response is two-sided",
+        "It has constant phase response over all frequencies",
+        "It has constant phase response over the entire z-plane"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "What is the spectral density of white noise?",
+      "options": [
+        "A constant",
+        "δ(ω)",
+        "[δ(ω)]2",
+        "A step function in ω"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A causal LTI filter has the frequency response as shown in Fig. If input signal to filter is x(t) = e-jt, then filter output will be:",
+      "options": [
+        "-2je-jt",
+        "2je-jt",
+        "4πje-jt",
+        "-4πje-jt"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A rectangular pulse of amplitude A and time duration Z is applied to be matched filter. Its maximum SNR is",
+      "options": [
+        "$$\\frac{{2{A^2}Z}}{\\eta }$$",
+        "$$\\frac{{{A^2}Z}}{{2\\eta }}$$",
+        "$$\\frac{{2AZ}}{\\eta }$$",
+        "$$\\frac{{2{A^2}}}{{\\eta Z}}$$"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "The ROC of anti-causal sequence is:",
+      "options": [
+        "Entire z - plane",
+        "Entire z - plane except z = 0",
+        "Entire z - plane except z = ∞",
+        "Entire z - plane except z = 1"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A linear system has the transfer function $$H\\left( {j\\omega } \\right) = \\frac{1}{{\\left( {j\\omega + 1} \\right)}}$$ When it is subjected to an input white noise process with a constant spectral density 'A', the spectral density of the output",
+      "options": [
+        "$$\\frac{A}{{\\left( {j\\omega  + 1} \\right)}}$$",
+        "$$\\frac{A}{{{{\\left( {j\\omega  + 1} \\right)}^2}}}$$",
+        "$$\\frac{A}{{\\left( {{\\omega ^2} + 1} \\right)}}$$",
+        "$$\\frac{A}{{\\sqrt {\\left( {j\\omega  + 1} \\right)} }}$$"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "x(t) = 5 ej20πt is",
+      "options": [
+        "A power signal",
+        "An energy signal",
+        "Neither",
+        "Both"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "In digital control scheme, selection of a large sampling interval:",
+      "options": [
+        "Improve the steady-state performance",
+        "Deteriorates the steady-state performance",
+        "Has no effect on steady-state performance",
+        "None of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Which one of the following relations is not correct?",
+      "options": [
+        "$$f\\left( t \\right)\\delta \\left( t \\right) = f\\left( 0 \\right)\\delta \\left( t \\right)$$",
+        "$$\\int_{ - \\infty }^\\infty  {f\\left( t \\right)\\delta \\left( \\tau  \\right)d\\tau  = 1} $$",
+        "$$\\int_{ - \\infty }^\\infty  {\\delta \\left( \\tau  \\right)d\\left( \\tau  \\right) = 1} $$",
+        "$$f\\left( t \\right)\\delta \\left( {t - \\tau } \\right) = f\\left( \\tau  \\right)\\delta \\left( {t - \\tau } \\right)$$"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is non-causal system?",
+      "options": [
+        "y(t) = x(t + 1)",
+        "y(t) = x(t - 1)",
+        "y(t) = x(t) + c",
+        "y(t) = x(t - 1) + c"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "A random variable is uniformly distributed between 3 and 6. Its variance is",
+      "options": [
+        "0.75",
+        "0.25",
+        "0.5"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the process of moving a filter mask over the image and computing the sum of products.",
+      "options": [
+        "Correlation",
+        "Convolution",
+        "Interpolation",
+        "Extrapolation"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    },
+    {
+      "q": "Laplace transform is a tool for converting:",
+      "options": [
+        "amplitude domain equations to frequency domain equations",
+        "phase domain equations to amplitude domain equations",
+        "time domain equations to frequency domain equations",
+        "frequency domain equations to time domain equations"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "electronics and communications engineering",
+      "language": "en"
+    }
+  ]
+}

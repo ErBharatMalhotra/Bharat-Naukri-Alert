@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Logarithms Exponents",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Logarithms Exponents",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-1p28zw0",
+      "q": "If $3^a=4, 4^b=5, 5^c=6, 6^d=7, 7^e=8$ and $8^f=9$, then the value of the product abcdef is:",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "2.5"
+      ],
+      "correct": 2,
+      "explain": "This can be written using logs: $a=\\log_3 4$, $b=\\log_4 5$, etc. The product abcdef = $\\log_3 4 \\cdot \\log_4 5 \\cdots \\log_8 9$. By the change of base rule, this simplifies to $\\log_3 9 = 2$.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Logarithms Exponents",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-1ngdb6o",
+      "q": "The sum of all distinct real values of ${x}$ that satisfy the equation $10^x+\\frac{4}{10^x}=\\frac{17}{2}$, is:",
+      "options": [
+        "$2 \\log _{10} 2$",
+        "$3 \\log _{10} 2$",
+        "$4 \\log _{10} 2$",
+        "$\\log _{10} 2$"
+      ],
+      "correct": 0,
+      "explain": "Let $y=10^x$. The equation becomes $y + 4/y = 17/2$. This gives $2y^2 - 17y + 8 = 0$. The solutions are $y=8$ and $y=1/2$. So $10^x=8$ and $10^x=1/2$. The values of x are $\\log_{10} 8$ and $\\log_{10} (1/2)$. Sum = $\\log_{10} 8 + \\log_{10} (0.5) = \\log_{10} (8*0.5) = \\log_{10} 4 = 2\\log_{10} 2$.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Logarithms Exponents",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

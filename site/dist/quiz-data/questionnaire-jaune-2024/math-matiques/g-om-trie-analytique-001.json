@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Mathématiques - Géométrie analytique",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Mathématiques",
+  "topic": "Géométrie analytique",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-1tf99r0",
+      "q": "Dans un plan muni d’un repère cartésien Oxy on considère la droite $d$ passant par le point $(1 ; 5)$ et parallèle à la droite passant par les points $(0 ; 240)$ et $(120 ; 0)$.\nQuelle est l’abscisse de l’intersection entre la droite $d$ et l’axe Ox ?",
+      "options": [
+        "14/4",
+        "9/2",
+        "22/4",
+        "13/2"
+      ],
+      "correct": 0,
+      "explain": "La droite passant par $(0 ; 240)$ et $(120 ; 0)$ a pour pente $m = \\frac{0 - 240}{120 - 0} = -2$. Puisque $d$ y est parallèle, sa pente est également $-2$. Son équation est donnée par $y - y_1 = m(x - x_1) \\implies y - 5 = -2(x - 1) \\implies y = -2x + 7$. L'intersection avec l'axe Ox correspond à $y = 0$, donc $0 = -2x + 7 \\implies 2x = 7 \\implies x = \\frac{7}{2}$. Parmi les options, $\\frac{14}{4}$ est équivalent à $\\frac{7}{2}$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Mathématiques",
+      "topic": "Géométrie analytique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

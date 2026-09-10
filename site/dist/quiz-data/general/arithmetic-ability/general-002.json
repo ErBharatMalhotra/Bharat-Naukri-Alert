@@ -1,0 +1,1302 @@
+{
+  "title": "General - arithmetic ability - General",
+  "titleHi": "",
+  "exam": "General",
+  "subject": "arithmetic ability",
+  "topic": "General",
+  "source": "unknown",
+  "count": 100,
+  "questions": [
+    {
+      "q": "Suppose, you want to apply a stepwise forward selection method for choosing the best models for an ensemble model. Which of the following is the correct order of the steps? Note: You have more than 1000 models predictions.1. Add the models predictions (or in another term take the average) one by one in the ensemble which improves the metrics in the validation set.2. Start with empty ensemble3. Return the ensemble from the nested set of ensembles that has maximum performance on the validation set",
+      "options": [
+        "01-02-03",
+        "01-03-04",
+        "02-01-03",
+        "none of above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following metrics can be used for evaluating regression models?1. R Squared2. Adjusted R Squared3. F Statistics4. RMSE / MSE / MAE",
+      "options": [
+        "2 and 4",
+        "1 and 2",
+        "2, 3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What do you mean by generalization error in terms of the SVM?",
+      "options": [
+        "how far the hyperplane is from the support vectors",
+        "how accurately the svm can predict outcomes for unseen data",
+        "the threshold amount of error in an svm",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "In order to assess how much information is brought by each component, and the correlation among them, a useful tool is the . . . . . . . .",
+      "options": [
+        "Concuttent matrix",
+        "Convergance matrix",
+        "Supportive matrix",
+        "Covariance matrix"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "For a multiple regression model, SST = 200 and SSE = 50. The multiple coefficient of determination is",
+      "options": [
+        "0.25",
+        "0.75",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following method(s) does not have closed form solution for its coefficients?",
+      "options": [
+        "ridge regression",
+        "lasso",
+        "both ridge and lasso",
+        "none of both"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following model model include a backwards elimination feature selection routine?",
+      "options": [
+        "mcv",
+        "mars",
+        "mcrs",
+        "all above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "How is the model capacity affected with dropout rate (where model capacity means the ability of a neural network to approximate complex functions)?",
+      "options": [
+        "model capacity increases in increase in dropout rate",
+        "model capacity decreases in increase in dropout rate",
+        "model capacity is not affected on increase in dropout rate",
+        "none of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "During the treatement of cancer patients , the doctor needs to be very careful about which patients need to be given chemotherapy.Which metric should we use in order to decide the patients who should given chemotherapy?",
+      "options": [
+        "precision",
+        "recall",
+        "call",
+        "score"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The effectiveness of an SVM depends upon:",
+      "options": [
+        "Selection of Kernel",
+        "Kernel Parameters",
+        "Soft Margin Parameter C",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "You are given sesimic data and you want to predict next earthquake , this is an example of",
+      "options": [
+        "supervised learning",
+        "reinforcement learning",
+        "unsupervised learning",
+        "dimensionality reduction"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "When the C parameter is set to infinite, which of the following holds true?",
+      "options": [
+        "The optimal hyperplane if exists, will be the one that completely separates the data",
+        "The soft-margin classifier will separate the data",
+        "None of the above",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The firing rate of a neuron",
+      "options": [
+        "determines how strongly the dendrites of the neuron stimulate axons of neighboring neurons",
+        "is more analogous to the output of a unit in a neural net than the output voltage of the neuron",
+        "only changes very slowly, taking a period of several seconds to make large adjustments",
+        "can sometimes exceed 30,000 action potentials per second"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "To test linear relationship of y(dependent) and x(independent) continuous variables, which of the following plot best suited?",
+      "options": [
+        "Scatter plot",
+        "Barchart",
+        "Histograms",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "During the last few years, many . . . . . . . . algorithms have been applied to deep neural networks to learn the best policy for playing Atari video games and to teach an agent how to associate the right action with an input representing the state.",
+      "options": [
+        "Logical",
+        "Classical",
+        "Classification",
+        "None of above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following indicates the fundamental of least squares?",
+      "options": [
+        "arithmetic mean should be maximized",
+        "arithmetic mean should be zero",
+        "arithmetic mean should be neutralized",
+        "arithmetic mean should be minimized"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What is 'Training set'?",
+      "options": [
+        "Training set is used to test the accuracy of the hypotheses generated by the learner.",
+        "A set of data is used to discover the potentially predictive relationship.",
+        "Both A & B",
+        "None of above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statement is true about k-NN algorithm?1. k-NN performs much better if all of the data have the same scale2. k-NN works well with a small number of input variables (p), but struggles when the number of inputs is very large3. k-NN makes no assumptions about the functional form of the problem being solved",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "only 1",
+        "1,2 and 3"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "In Naive Bayes equation $$P\\left( {C|X} \\right) = \\frac{{P\\left( {X|C} \\right) * P\\left( C \\right)}}{{P\\left( X \\right)}}$$ &nbsp; &nbsp; which part considers \"likelihood\"?",
+      "options": [
+        "$$P\\left( {X|C} \\right)$$",
+        "$$P\\left( {C|X} \\right)$$",
+        "$$P\\left( C \\right)$$",
+        "$$P\\left( X \\right)$$"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Suppose you are training a linear regression model. Now consider these points.1. Overfitting is more likely if we have less data2. Overfitting is more likely when the hypothesis space is small.Which of the above statement(s) are correct?",
+      "options": [
+        "both are false",
+        "1 is false and 2 is true",
+        "1 is true and 2 is false",
+        "both are true"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Gini index does not favour equal sized partitions.",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "what is the function of 'Unsupervised Learning'?",
+      "options": [
+        "Find clusters of the data and find low-dimensional representations of the data",
+        "Find interesting directions in data and find novel observations/ database cleaning",
+        "Interesting coordinates and correlations",
+        "All"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "In an election, N candidates are competing against each other and people are voting for either of the candidates. Voters don't communicate with each other while casting their votes. Which of the following ensemble method works similar to above-discussed election procedure? Hint: Persons are like base models of ensemble method.",
+      "options": [
+        "bagging",
+        "boosting",
+        "a or b",
+        "none of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The soft margin SVM is more preferred than the hard-margin SVM when-",
+      "options": [
+        "the data is linearly seperable",
+        "the data is noisy and contains overlapping points",
+        "the data is not noisy and linearly seperable",
+        "the data is noisy and linearly seperable"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following option is true regarding \"Regression\" and \"Correlation\"?Note: y is dependent variable and x is independent variable.",
+      "options": [
+        "The relationship is symmetric between x and y in both.",
+        "The relationship is not symmetric between x and y in both.",
+        "The relationship is not symmetric between x and y in case of correlation but in case of regression it is symmetric.",
+        "The relationship is symmetric between x and y in case of correlation but in case of regression it is not symmetric."
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "A nearest neighbor approach is best used",
+      "options": [
+        "with large-sized datasets.",
+        "when irrelevant attributes have been removed from the data.",
+        "when a generalized model of the data is desirable.",
+        "when an explanation of what has been found is of primary importance."
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "For the given weather data, what is the probability that players will play if weather is sunny",
+      "options": [
+        "0.5",
+        "0.26",
+        "0.73",
+        "0.6"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?",
+      "options": [
+        "decision trees",
+        "density-based clustering",
+        "model-based clustering",
+        "k-means clustering"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which one of the following is the main reason for pruning a Decision Tree?",
+      "options": [
+        "to save computing time during testing",
+        "to save space for storing the decision tree",
+        "to make the training set error smaller",
+        "to avoid overfitting the training set"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The term 'Cloud' in cloud-computing refers to . . . . . . . .",
+      "options": [
+        "The Internet",
+        "Cumulus Clouds",
+        "A Computer",
+        "Thin Clients"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The cloud media services are:",
+      "options": [
+        "cloud gaming",
+        "experiencing multi- screens",
+        "image processing",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Virtual Machines (VMs) are offered in cloud by",
+      "options": [
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "None of these"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "\"Cloud\" in cloud computing represents what?",
+      "options": [
+        "Wireless",
+        "Hard drives",
+        "People",
+        "Internet"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which are the three conceptual layers in CometCloud?",
+      "options": [
+        "development, application, physical",
+        "infrastructure, dynamic, static",
+        "transport, network, programming",
+        "programming, service, infrastructure"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of these is not a major type of cloud computing usage?",
+      "options": [
+        "Hardware as a Service",
+        "Platform as a Service",
+        "Software as a Service",
+        "Infrastructure as a Service"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Cloud Service consists of",
+      "options": [
+        "Platform, Software, Infrastructure",
+        "Software, Hardware, Infrastructure",
+        "Platform, Hardware, Infrastructure",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What widely used service is built on cloud-computing technology?",
+      "options": [
+        "twitter",
+        "skype",
+        "gmail",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The BEST way to define Virtualization in cloud computing is",
+      "options": [
+        "virtualization enables simulating compute, network, and storage service platforms from the underlying virtual hardware",
+        "virtualization enables abstracting compute, network, and storage service platforms from the underlying physical hardware",
+        "virtualization enables realization of compute, network, and storage service platforms from the underlying virtual hardware",
+        "virtualization enables emulating compute, network, and storage service platforms from the underlying virtual hardware"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Amazon's Elastic Compute Cloud (EC2) is a well known . . . . . . . .",
+      "options": [
+        "Virtual machine",
+        "Cloud Storage",
+        "PaaS",
+        "SoA"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What is private cloud?",
+      "options": [
+        "A standard cloud service offered via the Internet",
+        "A cloud architecture maintained within an enterprise data center.",
+        "A cloud service inaccessible to anyone but the cultural elite",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is Cloud Platform by Amazon?",
+      "options": [
+        "Azure",
+        "AWS",
+        "Cloudera",
+        "All of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Docker is generally configured to use TCP port . . . . . . . . while managing encrypted traffic.",
+      "options": [
+        "3306",
+        "53378",
+        "2375",
+        "2376"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "To overcome the lag in the operating speeds of the I/O device and the processor we use . . . . . . . .",
+      "options": [
+        "buffer spaces",
+        "status flags",
+        "interrupt signals",
+        "exceptions"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What is the typical range of transmission distance in a ZigBee network?",
+      "options": [
+        "5 m.",
+        "50 m.",
+        "500 m.",
+        "5 km"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a cloud stakeholder?",
+      "options": [
+        "cloud providers",
+        "clients",
+        "Service providers",
+        "cloud users"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "automatically identifying a Web user's location",
+      "options": [
+        "voice portal",
+        "geolocation",
+        "sensor network",
+        "wimax"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following ACID property states that the system must go from one known state to another and that the system integrity must be maintained?",
+      "options": [
+        "atomicity",
+        "consistency",
+        "isolation",
+        "durability"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The following flowchart is intended to evaluate in any cloud.",
+      "options": [
+        "risk",
+        "errors",
+        "inconsistencies",
+        "none of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "A . . . . . . . . service provider gets the same benefits from a composable system that a user does.",
+      "options": [
+        "CaaS",
+        "AaaS",
+        "PaaS",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "In distributed systems, link and site failure is detected by . . . . . . . .",
+      "options": [
+        "polling",
+        "handshaking",
+        "token passing",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Dynamic content presented in Google . . . . . . . . crawling isn't normally indexed.",
+      "options": [
+        "ajax",
+        "java",
+        "javascript",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is not a messaging mode in CoAP?",
+      "options": [
+        "Confirmable",
+        "Separate",
+        "Direct",
+        "Piggyback"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "AMIs are operating systems running on the . . . . . . . . virtualization hypervisor.",
+      "options": [
+        "Yen",
+        "Xen",
+        "Ben",
+        "Multi-Factor Authentication"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following aspect of the service is abstracted away?",
+      "options": [
+        "data escrow",
+        "user interaction",
+        "adoption drivers",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following instance class is best used for applications that are processor or compute-intensive?",
+      "options": [
+        "standard instances",
+        "high memory instances",
+        "high cpu instances",
+        "none of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The message in pub/sub is an opaque blob of . . . . . . . .",
+      "options": [
+        "bits",
+        "bytes",
+        "word",
+        "nibble"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "CNS stands for . . . . . . . .",
+      "options": [
+        "consumption near sweet-spot",
+        "continuous network system",
+        "compact neural system",
+        "compound near sweet-sp0t"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "URI and content type support is which protocol feature?",
+      "options": [
+        "http",
+        "udp",
+        "coap",
+        "spi"
+      ],
+      "correct": 5,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Processes on the remote systems are identified by . . . . . . . .",
+      "options": [
+        "host id",
+        "host name and identifier",
+        "identifier",
+        "process id"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Point out the wrong statement.",
+      "options": [
+        "unmanaged storage is reliable",
+        "managed storage is relatively cheap to use",
+        "most of the user-based applications that work with cloud storage are of unmanaged type",
+        "none of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is the central application in the AWS portfolio.",
+      "options": [
+        "Amazon Simple Queue Service",
+        "Amazon Elastic Compute Cloud",
+        "Amazon Simple Notification Service",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which one of the statement is generally NOT correct for Microkernelized Hypervisor?",
+      "options": [
+        "drivers run within guests",
+        "simple partitioning functionality",
+        "increase reliability and minimize lowest level of the tcb",
+        "contains its own drivers model"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Does publish() method accepts arbitrary arguments.",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "IEEE 802.15.4 uses which of the following for accessing the channel?",
+      "options": [
+        "Carrier sense multiple access (CSMA)",
+        "Carrier sense multiple access with collision detection (CSMA-CD)",
+        "Carrier sense multiple access with collision avoidance (CSMA-CA)",
+        "None of these"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "In threat modeling, what methodology used to perform risk analysis",
+      "options": [
+        "dread",
+        "owasp",
+        "stride",
+        "dar"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The advantages of Ajax is . . . . . . . .",
+      "options": [
+        "Bandwidth utilization",
+        "More interactive",
+        "Speeder retrieval of data",
+        "All of these"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . property states that the system must have a mechanism to recover from committed transactions should that be necessary.",
+      "options": [
+        "atomicity",
+        "consistency",
+        "isolation",
+        "durability"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Publishing an application's data as a REST service requires.",
+      "options": [
+        "@requestmapping",
+        "@pathvariable",
+        "all of the mentioned",
+        "none of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "client() class provides . . . . . . . . to create topics.",
+      "options": [
+        "software",
+        "classes",
+        "methods",
+        "batch"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following statement is wrong about Amazon S3?",
+      "options": [
+        "amazon s3 is highly reliable",
+        "amazon s3 provides large quantities of reliable storage that is highly protected",
+        "amazon s3 is highly available",
+        "none of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following functional cloud computing hardware/software stack is the Cloud Reference Model?",
+      "options": [
+        "CAS",
+        "CSA",
+        "SAC",
+        "None of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following protocol lets a Web site list in an XML file information?",
+      "options": [
+        "sitemaps",
+        "mashups",
+        "hashups",
+        "all of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is an online backup and storage system?",
+      "options": [
+        "amazon elastic compute cloud",
+        "amazon simple queue service",
+        "amazon simple notification service",
+        "amazon simple storage system"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is application and infrastructure management software for hybrid multi-clouds?",
+      "options": [
+        "vmware hyperic",
+        "webmetrics",
+        "univa ud",
+        "tapinsystems"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Point out the correct statement.",
+      "options": [
+        "PaaS supplies the infrastructure",
+        "IaaS adds application development frameworks, transactions, and control structures",
+        "SaaS is an operating environment with applications, management, and the user interface",
+        "all of the mentioned"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Two main components in Docker are:",
+      "options": [
+        "master, slave",
+        "client, server",
+        "client, master",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Dynamodb is . . . . . . . . type of storage",
+      "options": [
+        "NonSQL",
+        "SQL",
+        "Simple storage",
+        "all of above"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following feature is used for scaling of EC2 sites?",
+      "options": [
+        "auto replica",
+        "auto scaling",
+        "auto ruling",
+        "all of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "What is Relaxed Layered Style?",
+      "options": [
+        "each layer can be constrained to use only the layer directly below it",
+        "sometimes this constraint is relaxed slightly to allow each layer to use all the layers below it",
+        "all of the mentioned",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The control in SCADA is",
+      "options": [
+        "online control",
+        "direct control",
+        "supervisory control",
+        "automatic control"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is an embedded system which meshes the computing process with the physical world in the form of an interactive as well as intelligent system",
+      "options": [
+        "cloud-physical system",
+        "cyber-space system",
+        "cyber-physical system",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "JEOS stands for",
+      "options": [
+        "joint expensive operating system",
+        "just expensive operating system",
+        "just enough operating system",
+        "joined environmental operating system"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Storage classes available with Amazon s3 are -",
+      "options": [
+        "Amazon S3 standard",
+        "Amazon S3 standard-infrequent Access",
+        "Amazon Glacier",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a message queue or transaction system for distributed Internet-based applications?",
+      "options": [
+        "amazon elastic compute cloud",
+        "amazon simple queue service",
+        "amazon simple notification service",
+        "amazon simple storage system"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . enables the migration of the virtual image from one physical machine to another.",
+      "options": [
+        "visualization",
+        "virtualization",
+        "migration",
+        "virtual transfer"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "When did the SCADA start?",
+      "options": [
+        "1980s",
+        "1990s",
+        "1970s",
+        "1960s"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": ". . . . . . . . is a function of the particular enterprise and application in an on-premises deployment.",
+      "options": [
+        "Vendor lock",
+        "Vendor lock-in",
+        "Vendor lock-ins",
+        "None of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The method which offers higher speeds of I/O transfers is . . . . . . . .",
+      "options": [
+        "interrupts",
+        "memory mapping",
+        "program-controlled i/o",
+        "dma"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a billing and account management service?",
+      "options": [
+        "Amazon Elastic MapReduce",
+        "Amazon Mechanical Turk",
+        "Amazon DevPay",
+        "Multi-Factor Authentication"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of these companies specializes in cloud computing management tools and services?",
+      "options": [
+        "RightScale",
+        "Google",
+        "Salesforce.com",
+        "Savis"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Cloud providers provide cloud services to the cloud users.",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "$$\\pi = \\frac{{\\text{n}}}{{\\text{T}}},\\,\\,{\\text{total}} = \\frac{{\\text{n}}}{{\\left[ {{\\text{kTo}} + {\\text{Te}}\\left( {{\\text{n}},{\\text{m}}} \\right)} \\right]}}$$ &nbsp; &nbsp; &nbsp; The above equa on calculates the value of which of the following?",
+      "options": [
+        "scalability",
+        "throughput",
+        "availability",
+        "effectiveness"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following is a compliance standard?",
+      "options": [
+        "pci-dss",
+        "hippa",
+        "glba",
+        "all of the mentioned"
+      ],
+      "correct": 0,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Marshalling is the process of transforming an in-memory representation of an object into a data format.a",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following provide system resource access to virtual machines?",
+      "options": [
+        "vmm",
+        "vmc",
+        "vnm",
+        "all of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Which of the following provides commands for defining logic using conditional statements?",
+      "options": [
+        "xml",
+        "ws-bpel",
+        "json",
+        "none of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Based on PageRank algorithm, Google returns . . . . . . . . for a query that is parsed for its keywords.",
+      "options": [
+        "sep",
+        "sap",
+        "serp",
+        "business objects build"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "The . . . . . . . . is something that you can obtain under contract from your vendor.",
+      "options": [
+        "pos",
+        "qos",
+        "sos",
+        "all of the mentioned"
+      ],
+      "correct": 2,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "Users can control which keys (and hence records) go to which Reducer by implementing a custom?",
+      "options": [
+        "partitioner",
+        "outputsplit",
+        "reporter",
+        "all of the mentioned"
+      ],
+      "correct": 1,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    },
+    {
+      "q": "If the IP address or hostname of a data node changes",
+      "options": [
+        "The namenode updates the mapping between file name and block name",
+        "The data in that data node is lost forever",
+        "The namenode need not update mapping between file name and block name",
+        "There namenode has to be restarted"
+      ],
+      "correct": 3,
+      "explain": "No explanation.",
+      "subject": "arithmetic ability",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Conic Sections (Ellipse)",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Conic Sections (Ellipse)",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-10t57nc",
+      "q": "Let $A$ be the point $(3, 0)$ and circles with variable diameter $AB$ touch the circle $x^2 + y^2 = 36$ internally. Let the curve $C$ be the locus of the point $B$. If the eccentricity of $C$ is $e$, then $72e^2$ is equal to:",
+      "options": [
+        "$9$",
+        "$12$",
+        "$18$",
+        "$36$"
+      ],
+      "correct": 2,
+      "explain": "Let the center of the variable circle with diameter $AB$ be $M$. Its radius is $r = AB/2$.\nThe circle touches $x^2 + y^2 = 6^2$ internally, meaning the distance between its center $M$ and the origin $O(0,0)$ equals $6 - r$.\n$OM = 6 - AB/2 \\implies OM + AB/2 = 6$.\nSince $M$ is the midpoint of $AB$, $OM$ is the median of triangle $OAB$. However, expressing everything in terms of $B(h,k)$:\n$M = \\left( \\frac{h+3}{2}, \\frac{k}{2} \\right)$, $r = \\frac{\\sqrt{(h-3)^2 + k^2}}{2}$.\n$OM = \\sqrt{ \\left(\\frac{h+3}{2}\\right)^2 + \\left(\\frac{k}{2}\\right)^2 }$.\n$2 OM + 2 r = 12 \\implies \\sqrt{(h+3)^2 + k^2} + \\sqrt{(h-3)^2 + k^2} = 12$.\nThis is the definition of an ellipse with foci at $(\\pm 3, 0)$ and $2a = 12 \\implies a = 6$.\nThe distance between foci is $2ae = 6 \\implies 12e = 6 \\implies e = 1/2$.\n$72e^2 = 72(1/4) = 18$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Conic Sections (Ellipse)",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

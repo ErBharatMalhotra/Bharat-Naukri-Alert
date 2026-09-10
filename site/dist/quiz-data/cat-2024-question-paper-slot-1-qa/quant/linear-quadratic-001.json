@@ -1,0 +1,91 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, QA) - Quant - Linear Quadratic",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+  "subject": "Quant",
+  "topic": "Linear Quadratic",
+  "source": "github:online-exam-questions",
+  "count": 4,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-1twu3k0",
+      "q": "If $(a+b \\sqrt{n})$ is the positive square root of $(29-12 \\sqrt{5})$, where ${a}$ and ${b}$ are integers, and ${n}$ is a natural number, then the maximum possible value of $(a+b+n)$ is",
+      "options": [
+        "22",
+        "6",
+        "18",
+        "4"
+      ],
+      "correct": 2,
+      "explain": "We need to find $\\sqrt{29 - 12\\sqrt{5}}$. We can write this as $\\sqrt{29 - 2\\sqrt{180}}$. We look for two numbers whose sum is 29 and product is 180. The numbers are 20 and 9. So, the square root is $\\sqrt{20} - \\sqrt{9} = 2\\sqrt{5} - 3$. To match the form $a+b\\sqrt{n}$, we can write this as $-3 + 2\\sqrt{5}$. This gives $a=-3, b=2, n=5$. Then $a+b+n = 4$. Alternatively, we can write $2\\sqrt{5}$ as $\\sqrt{20}$. This gives $-3+\\sqrt{20}$, so $a=-3, b=1, n=20$. Then $a+b+n = -3+1+20 = 18$. The maximum value is 18.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-1el3b0g",
+      "q": "Let $x, y$, and ${z}$ be real numbers satisfying\n\n$\\begin{aligned} & 4(x^2+y^2+z^2)=a \\\\ & 4(x-y-z)=3+a \\end{aligned}$\n\nThen ${a}$ equals",
+      "options": [
+        "3",
+        "1 1/3",
+        "1",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "Substitute ${a}$ from the second equation into the first: $4(x^2+y^2+z^2) = 4(x-y-z)-3$. Rearrange this into $4x^2-4x+4y^2+4y+4z^2+4z+3=0$. Completing the square gives $(2x-1)^2 + (2y+1)^2 + (2z+1)^2 = 0$. Since $x, y, z$ are real, each squared term must be zero. This gives $x=1/2, y=-1/2, z=-1/2$. Substituting these back into the first equation gives $a = 4((1/2)^2 + (-1/2)^2 + (-1/2)^2) = 4(1/4+1/4+1/4) = 3$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-7cy2yo",
+      "q": "A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left. The initial quantity, in kg, of grains is",
+      "options": [
+        "18",
+        "36",
+        "50",
+        "42"
+      ],
+      "correct": 3,
+      "explain": "Work backwards. Let $x_3$ be the amount before the 3rd customer. He buys $x_3/2 + 3$, leaving 0. So $x_3 - (x_3/2 + 3) = 0 \\Rightarrow x_3=6$. Let $x_2$ be amount before 2nd customer. $x_2 - (x_2/2+3) = x_3 = 6 \\Rightarrow x_2=18$. Let $x_1$ be the initial amount. $x_1 - (x_1/2+3)=x_2=18 \\Rightarrow x_1=42$. The initial quantity was 42 kg.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-15q6sjc",
+      "q": "If the equations $x^2+m x+9=0, x^2+n x+17=0$ and $x^2+(m+n) x+35=0$ have a common negative root, then the value of $(2 m+3 n)$ is",
+      "options": [
+        "32",
+        "35",
+        "38",
+        "40"
+      ],
+      "correct": 2,
+      "explain": "Let the common root be $\\alpha$. Adding the first two equations gives $2\\alpha^2 + (m+n)\\alpha + 26=0$. Also from the third equation we have $\\alpha^2+(m+n)\\alpha+35=0$. Subtracting this from the doubled third equation gives $(2\\alpha^2+2(m+n)\\alpha+70) - (2\\alpha^2+(m+n)\\alpha+26) = 0$, leading to $(m+n)\\alpha = -44$. Substituting this into the third eq: $\\alpha^2 - 44 + 35 = 0 \\implies \\alpha^2=9$. Since the root is negative, $\\alpha=-3$. Plugging $\\alpha=-3$ into the first eq gives $m=6$. Plugging into the second eq gives $n=26/3$. So $2m+3n = 2(6)+3(26/3)=12+26=38$.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Linear Quadratic",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

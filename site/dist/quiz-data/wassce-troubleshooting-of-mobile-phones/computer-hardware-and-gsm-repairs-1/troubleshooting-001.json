@@ -1,0 +1,811 @@
+{
+  "title": "WASSCE Troubleshooting of Mobile Phones - Computer Hardware and GSM Repairs 1 - TROUBLESHOOTING",
+  "titleHi": "",
+  "exam": "WASSCE Troubleshooting of Mobile Phones",
+  "subject": "Computer Hardware and GSM Repairs 1",
+  "topic": "TROUBLESHOOTING",
+  "source": "github:online-exam-questions",
+  "count": 40,
+  "questions": [
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-tp68ct",
+      "q": "What is the primary purpose of performing a 'Visual Inspection' as the first step in mobile phone troubleshooting?",
+      "options": [
+        "To measure the voltage output of the battery using a multimeter.",
+        "To physically examine the motherboard for obvious damage like burnt components, liquid residue, or broken connectors.",
+        "To reinstall the phone's operating system and bypass factory reset protection.",
+        "To test the continuity of the power traces under the processor."
+      ],
+      "correct": 1,
+      "explain": "Visual inspection is the basic troubleshooting method of looking closely at the hardware before applying power or tools, searching for physical clues like water damage or burnt chips.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-49q0qs",
+      "q": "In mobile hardware troubleshooting, what is the main difference between 'cold testing' and 'hot testing'?",
+      "options": [
+        "Cold testing is done in air-conditioned rooms, while hot testing requires a preheater.",
+        "Cold testing measures current flow in amps, while hot testing measures signal frequency.",
+        "Cold testing is performed with the phone powered off using a multimeter (continuity/resistance), while hot testing measures live voltages with power applied.",
+        "Cold testing uses software diagnostics, while hot testing involves soldering components."
+      ],
+      "correct": 2,
+      "explain": "Cold testing (unpowered) is typically used for checking continuity, diode mode values, and shorts to ground. Hot testing (powered) checks if the correct working voltages are reaching various components.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1i3dhh5",
+      "q": "During a hot test on a completely dead logic board, which of the following voltage lines must usually be verified first to ensure power is reaching the Power Management IC (PMIC)?",
+      "options": [
+        "The VCORE line",
+        "The VPH_PWR (or VBAT/VSYS) main power line",
+        "The Baseband 1.8V line",
+        "The VDD_LCD line"
+      ],
+      "correct": 1,
+      "explain": "The VBAT (Battery Voltage) or VPH_PWR (System Power) line distributes the primary voltage from the battery/charge IC to the PMIC. Without this primary voltage, the PMIC cannot generate secondary voltages.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-sahsf4",
+      "q": "A customer complains that during a phone call, they can hear the other person perfectly, but the other person cannot hear them at all. Which hardware component is most likely faulty?",
+      "options": [
+        "The earpiece speaker",
+        "The network antenna",
+        "The loudspeaker (ringer)",
+        "The microphone (mic)"
+      ],
+      "correct": 3,
+      "explain": "The microphone is the input device responsible for capturing the user's voice. If it fails, the caller's voice is not transmitted, though the earpiece (receiving audio) works fine.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-w7glfk",
+      "q": "If a smartphone produces sound clearly when put on 'speakerphone' but produces no sound during normal private calls when held to the ear, which specific component is faulty?",
+      "options": [
+        "The audio codec IC",
+        "The earpiece speaker (receiver)",
+        "The bottom loudspeaker (buzzer)",
+        "The primary microphone"
+      ],
+      "correct": 1,
+      "explain": "Smartphones use two different speakers. The bottom loudspeaker is used for media and speakerphone, while the top earpiece (receiver) is dedicated to private calls.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1vurf6o",
+      "q": "When tracing a complex short circuit on a mobile motherboard, a technician decides to use the 'Rosin Smoke Method' (vaporized flux). How does this method help pinpoint the shorted component?",
+      "options": [
+        "The rosin smoke cleans the oxidation off the board, instantly restoring power.",
+        "The smoke turns green when it reacts with the shorted copper trace.",
+        "A layer of white rosin frost is deposited on the board; when power is injected, the shorted component heats up and melts the frost rapidly.",
+        "The shorted component emits a loud beep that the hardened rosin amplifies."
+      ],
+      "correct": 2,
+      "explain": "The Rosin Smoke Method relies on thermal dissipation. The technician coats the board in vaporized rosin (white frost). Injecting voltage causes the shorted part to heat up, immediately melting the white rosin on that specific component.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1qfdsm3",
+      "q": "What is the recommended professional treatment for a motherboard suffering from severe oxidation due to water/liquid damage?",
+      "options": [
+        "Soaking the entire phone in a bag of raw rice for a week.",
+        "Applying high heat with a heat gun to boil off the liquid.",
+        "Removing the EMI shields and cleaning the motherboard in an ultrasonic cleaner using a specialized PCB cleaning solution or isopropyl alcohol.",
+        "Flashing the phone with a customized water-recovery ROM."
+      ],
+      "correct": 2,
+      "explain": "Rice does not clean oxidation. Ultrasonic cleaning reaches underneath microscopic BGA chips, using cavitation in a solvent (like isopropyl alcohol) to strip away conductive mineral deposits left by water.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1vxx69i",
+      "q": "In logic board diagnostics, what defines a 'secondary short'?",
+      "options": [
+        "A short circuit located on the primary battery connector line (VBAT).",
+        "A short circuit occurring on one of the regulated output voltage lines (buck/ldo) originating from the Power Management IC.",
+        "A short caused by a damaged charging cable.",
+        "A short that only happens when the secondary SIM card is inserted."
+      ],
+      "correct": 1,
+      "explain": "A primary short is directly on the main voltage rail (VPH_PWR / VBAT). A secondary short is downstream of the PMIC on lines like 1.8v or 1.2v logic rails, meaning the phone draws no abnormal current until the power button is pressed to activate the PMIC.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-svy1so",
+      "q": "What is the simplest and very first hardware diagnostic step a technician should perform when repairing a completely dead (no power) phone?",
+      "options": [
+        "Reball the central processing unit (CPU).",
+        "Test the battery voltage with a multimeter to ensure it holds sufficient charge (approx. 3.7V - 4.2V) to boot the device.",
+        "Format the flash memory.",
+        "Replace the display assembly."
+      ],
+      "correct": 1,
+      "explain": "A heavily depleted battery (under 3.6V) will prevent a phone from booting or even showing charging signs. Testing/boosting the battery is the necessary first step before invasive logic board repair.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1oarbo0",
+      "q": "A phone's screen displays a perfect image with no bleeding or dead pixels, but it entirely fails to respond to finger inputs. Which specific physical layer of the screen assembly has failed?",
+      "options": [
+        "The polarized film layer",
+        "The Liquid Crystal Display (LCD) or OLED panel",
+        "The backlight diffuser",
+        "The digitizer (touch glass/panel)"
+      ],
+      "correct": 3,
+      "explain": "Screen assemblies consist of a display layer (LCD/OLED) to show the image, and a digitizer glass layer layered over it to register touch inputs.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-r2cmw",
+      "q": "A mobile device displays a charging icon when plugged in, but the battery percentage actively drops rather than increasing (a condition known as Fake Charging). Assuming the battery and USB port are perfect, what is the most likely hardware fault?",
+      "options": [
+        "A failure in the earpiece flex.",
+        "The touchscreen digitizer is drawing too much power.",
+        "A fault in the Charging IC or a broken connection on the battery sensing (BSI) lines.",
+        "The cellular baseband processor is uncalibrated."
+      ],
+      "correct": 2,
+      "explain": "Fake charging occurs when the phone detects USB 5V logic and shows the icon, but the main Charging IC fails to effectively pump current into the battery, or the CPU misreads the battery status via the BSI line.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-5qaos",
+      "q": "What does a technician mean when they say a smartphone is stuck in a 'Boot Loop'?",
+      "options": [
+        "The phone continuously restarts, reaching the manufacturer logo but never fully loading the home screen.",
+        "The battery loop on the motherboard is broken, preventing charging.",
+        "The user is locked out because of a forgotten password pattern.",
+        "The phone plays its startup ringtone repeatedly without the screen turning on."
+      ],
+      "correct": 0,
+      "explain": "A boot loop is an endless cycle where the OS attempts to start, fails, and the phone restarts automatically. It can be caused by corrupt OS files, faulty updates, or hardware issues like failing memory.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1bcqkhe",
+      "q": "Which of the following is usually the most effective initial software troubleshooting step to resolve an Android phone that frequently hangs, lags, or freezes during daily operation?",
+      "options": [
+        "Drilling a small hole in the casing to improve cooling.",
+        "Booting into the recovery menu to wipe the cache partition or perform a factory data reset.",
+        "Desoldering the RAM chip and replacing it.",
+        "Disabling the network antenna."
+      ],
+      "correct": 1,
+      "explain": "Hanging and freezing are often caused by bloated storage, corrupted temporary files, or rogue apps. Clearing cache or a full factory reset provides a clean software slate before assuming hardware faults.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-13x7gsg",
+      "q": "If a smartphone suffers a 'Hard Brick' (completely corrupted bootloader partition) and cannot be booted into standard Fastboot or Download mode, what advanced specialized technique is typically used to revive it?",
+      "options": [
+        "Bypassing the proxy server via Wi-Fi settings.",
+        "Using a JTAG programmer or logic board Test Points (ISP) to interface directly with the eMMC/UFS memory and flash the boot files.",
+        "Changing the phone's battery three times in quick succession.",
+        "Performing a standard hard reset using volume keys."
+      ],
+      "correct": 1,
+      "explain": "When the bootloader is erased, USB protocols cannot initiate normally. JTAG boxes (like EasyJTAG, UFI) bypass the CPU standard interfaces to write directly to the memory chip, or Test Points force the CPU into an emergency hardware download mode.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-hcchhy",
+      "q": "In the context of GSM and smartphone repair, what does 'flashing' software mean?",
+      "options": [
+        "Replacing the camera's LED flash bulb.",
+        "Formatting the internal storage to erase all user pictures.",
+        "Writing or reinstalling the device's Operating System (firmware) into its internal memory.",
+        "Rapidly pressing the power button to force a reset."
+      ],
+      "correct": 2,
+      "explain": "Flashing refers to programming the flash memory chips on the logic board with a new image of the operating system (ROM/firmware).",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1kjtv4s",
+      "q": "What does the acronym 'FRP' stand for in modern smartphone security and software troubleshooting?",
+      "options": [
+        "Factory Recovery Partition",
+        "Factory Reset Protection",
+        "Flash Read Protocol",
+        "File Restoration Program"
+      ],
+      "correct": 1,
+      "explain": "Factory Reset Protection (FRP) is a security method developed by Google to prevent thieves from wiping an Android device and using it immediately, as it locks the device to the previously synced Google account.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1gt0q6d",
+      "q": "Under what specific condition is Factory Reset Protection (FRP) triggered, effectively locking the device upon rebooting?",
+      "options": [
+        "When the user forgets their SIM PIN and enters it incorrectly three times.",
+        "When the user performs a reset via the internal 'Settings' menu while having a screen lock.",
+        "When an unauthorized Hard Reset is performed via the boot recovery menu (hardware keys) while a Google account is still actively linked to the device.",
+        "When the device detects an uncertified charging cable."
+      ],
+      "correct": 2,
+      "explain": "FRP assumes a reset from hardware keys (bypassing the OS) might be malicious. If the linked Google account is not removed prior to this hardware-key wipe, FRP engages.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1d0f0al",
+      "q": "What is the main objective of performing a 'Network Unlock' on a GSM mobile phone?",
+      "options": [
+        "To allow the device to connect to hidden Wi-Fi networks.",
+        "To enable the phone to accept and use SIM cards from any mobile carrier network, removing the original carrier's restriction.",
+        "To bypass the screen lock pattern.",
+        "To grant root privileges to network administration apps."
+      ],
+      "correct": 1,
+      "explain": "Network unlocking (or SIM unlocking) modifies the device's software baseband settings so it is no longer restricted (locked) to just the carrier that originally sold it.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1olturw",
+      "q": "A technician flashes a custom ROM, and after booting, the phone's settings display 'Unknown Baseband' and 'Null IMEI'. What functional limitation will the phone experience because of this?",
+      "options": [
+        "The Bluetooth connection will only pair with older devices.",
+        "The phone will be completely unable to register on a cellular network to make phone calls or use mobile data.",
+        "The screen brightness will remain at 100% permanently.",
+        "The camera application will crash upon opening."
+      ],
+      "correct": 1,
+      "explain": "The baseband controls the radio functions (modem), and the IMEI is the network identifier. If they are Null/Unknown, the cellular radio is essentially disabled or unrecognized by the OS.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1vkbhl4",
+      "q": "If a 'Null IMEI / Unknown Baseband' issue is strictly caused by a hardware failure rather than a software flashing error, which IC on the motherboard requires repair or replacement?",
+      "options": [
+        "The Wi-Fi IC",
+        "The Charging OVP IC",
+        "The Baseband Processor (Modem IC) or Baseband Power IC",
+        "The Audio Codec IC"
+      ],
+      "correct": 2,
+      "explain": "Hardware baseband failure means the CPU cannot communicate with the Modem IC. Reflowing, reballing, or replacing the Baseband processor or its dedicated power management IC (PMB/BBPMU) is required.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-tlugi3",
+      "q": "On an older GSM feature phone with a physical numeric keypad, the '5' key stops working while all other keys function perfectly. What is the most common cause?",
+      "options": [
+        "A virus targeting the number 5.",
+        "Dirt, liquid ingress, or carbon buildup separating the metal dome from the PCB contact pads.",
+        "The main battery is swelling.",
+        "The display ribbon cable is torn."
+      ],
+      "correct": 1,
+      "explain": "Physical keypads rely on a metal dome shorting an inner and outer pad on the PCB. Oxidation or dirt between the dome and the pad prevents electrical contact.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-34s78k",
+      "q": "What physical symptom describes 'ghost touch' on a smartphone display?",
+      "options": [
+        "The display is completely blank but the phone still rings.",
+        "The touchscreen acts on its own, registering phantom taps or swipes without the user touching the glass.",
+        "The glass is shattered but the phone still responds accurately.",
+        "Fingerprints cannot be wiped off the glass surface easily."
+      ],
+      "correct": 1,
+      "explain": "Ghost touch is a digitizer malfunction where interference, micro-cracks, moisture, or a failing touch IC cause the panel to falsely trigger touch coordinates.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-120xnhc",
+      "q": "If replacing the display assembly multiple times does not resolve a total unresponsive touchscreen issue (such as the classic 'Touch Disease'), what logic board level repair is often required?",
+      "options": [
+        "Replacing the front-facing camera module.",
+        "Upgrading the battery to a higher capacity.",
+        "Reballing or replacing the logic board's Touch IC controllers (e.g., Cumulus/Meson chips).",
+        "Sanding the frame to make the screen sit flush."
+      ],
+      "correct": 2,
+      "explain": "When the screen part is verified working, the fault lies on the motherboard's touch controller chips. Physical flexing of the phone often breaks the solder balls under these Touch ICs, requiring microsoldering to reball them.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-juisk",
+      "q": "How is a 'Hard Reset' (factory wipe) typically initiated on a locked Android device where the user cannot access the settings menu?",
+      "options": [
+        "By dialing a secret code on the emergency call screen.",
+        "By holding a specific combination of physical buttons (e.g., Power + Volume Up) to boot into the Android Recovery mode and selecting 'Wipe data'.",
+        "By shaking the phone vigorously for 30 seconds.",
+        "By removing and reinserting the battery five times."
+      ],
+      "correct": 1,
+      "explain": "Android devices include a Recovery Partition that operates independently of the main OS. It is accessed by holding specific hardware key combinations during the boot process.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-v01np8",
+      "q": "In smartphone software repairs, what is the core difference between flashing a 'Stock ROM' and flashing a 'Custom ROM'?",
+      "options": [
+        "Stock ROMs only change the user interface theme, whereas Custom ROMs change hardware limits.",
+        "Stock ROM is the official firmware signed by the manufacturer, while Custom ROM is unauthorized third-party firmware requiring an unlocked bootloader.",
+        "Stock ROMs are flashed via Bluetooth, while Custom ROMs require a USB connection.",
+        "Stock ROMs bypass FRP automatically, Custom ROMs do not."
+      ],
+      "correct": 1,
+      "explain": "Stock ROMs are secure, official firmware images designed specifically for the device by its maker. Custom ROMs are community-built (e.g., LineageOS) and the device's bootloader must be explicitly unlocked to allow their installation.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1p5b9r0",
+      "q": "A user complains that a specific application forcefully closes and shows an error message every time it is opened (an 'App Crash'). What is the fastest and safest software step to try and fix it?",
+      "options": [
+        "Clear the problematic application's Cache and Data from the phone settings, or reinstall it.",
+        "Flash the motherboard with a custom ROM.",
+        "Immediately format the entire phone storage.",
+        "Disassemble the phone and test the CPU temperature."
+      ],
+      "correct": 0,
+      "explain": "App crashes are most commonly caused by corrupt temporary files specific to that app. Clearing its cache/data resets it to a fresh state without affecting the rest of the phone.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1rckag4",
+      "q": "If multiple applications consistently crash, the device restarts randomly on its own, and multiple attempts at a software factory reset completely fail to solve the problem, what hardware component is most likely failing?",
+      "options": [
+        "The touchscreen flex cable",
+        "The internal eMMC/UFS Flash Memory chip (or RAM)",
+        "The Wi-Fi antenna",
+        "The fingerprint scanner"
+      ],
+      "correct": 1,
+      "explain": "When the central storage memory (eMMC/UFS) begins degrading or reaching its end of life (bad blocks), the OS fails to read/write properly, causing random reboots, system instability, and app crashes regardless of software resets.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-xgyx1a",
+      "q": "When injecting voltage into a main line to find a primary short circuit, the technician sets the DC Power Supply (DCPS) to 4.0V and 2.0A. Upon connecting, the DCPS immediately limits current to exactly 2.0A and the voltage drops drastically to 0.5V. Why does this physical phenomenon occur?",
+      "options": [
+        "The logic board requires 9V to turn on, so the supply is resetting.",
+        "The motherboard battery connector is polarized in reverse.",
+        "The power supply's constant-current limiting (OCP) engaged due to a near zero-ohm short circuit pulling maximum allowed current ($V = I \\times R$).",
+        "The test probes are too thick to carry 4.0V."
+      ],
+      "correct": 2,
+      "explain": "According to Ohm's law, a full short has practically zero resistance. At 4V, the current draw attempts to go infinitely high. The DCPS intercepts this, caps current at the set 2.0A max, and must linearly drop the voltage near zero to maintain safety.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-15wra8k",
+      "q": "If a mobile phone is accidentally dropped into water, what is the most crucial first step the user should take to prevent permanent short-circuit damage?",
+      "options": [
+        "Plug the phone into a fast charger to heat up and dry the water.",
+        "Turn off the device immediately and do not press any buttons.",
+        "Press all the buttons rapidly to shake water out.",
+        "Blow aggressively into the charging port while the phone is running."
+      ],
+      "correct": 1,
+      "explain": "Water mixed with electricity causes short circuits and rapid galvanic corrosion. Cutting the power (turning it off) stops the electrical current from destroying logic board components.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1okzvl6",
+      "q": "During advanced liquid damage recovery, why is it mandatory for a technician to desolder or cut away the metal EMI (Electromagnetic Interference) shields covering the chips on the motherboard?",
+      "options": [
+        "The metal shields absorb the water and expand, crushing the chips.",
+        "The shields interfere with the multimeter testing signal.",
+        "Liquid inevitably seeps underneath the shields; failing to remove them prevents proper cleaning, leading to hidden corrosion and eventual board failure.",
+        "It allows the CPU to run faster and evaporate the water itself."
+      ],
+      "correct": 2,
+      "explain": "EMI shields trap moisture underneath them. Cleaning just the exposed surface of the board leaves trapped water under the shields, which will continue to corrode the delicate BGA chip solder joints.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-rtb71o",
+      "q": "In a hot test setup on a dead board, the 'V_BAT' test point reads a healthy 4.0V, but a multimeter probe on the inner ring of the power button pad registers 0V instead of the expected 1.8V to 4.0V trigger voltage. What does this specifically indicate?",
+      "options": [
+        "The phone's screen is permanently dead.",
+        "The phone requires a software flash.",
+        "There is a broken track, dead resistor, or failure between the PMIC (Power Management IC) and the physical power button.",
+        "The battery is fundamentally defective."
+      ],
+      "correct": 2,
+      "explain": "If main power (VBAT) is present, the PMIC should generate a standby trigger voltage at the power button. If the button has 0V, pressing it will do nothing because the PMIC's trigger line is broken or the PMIC itself is dead.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1ls03bq",
+      "q": "When using a digital multimeter set to 'Continuity Mode', what does a loud continuous beep indicate when placing probes on two points of a circuit board?",
+      "options": [
+        "A high voltage is passing through the board.",
+        "The battery is fully charged.",
+        "The circuit is open and broken.",
+        "A direct electrical connection or extremely low resistance exists between the two test points (a closed circuit)."
+      ],
+      "correct": 3,
+      "explain": "Continuity mode tests if a path exists for electricity to flow. A beep means the resistance is very low, confirming the wire or track is intact (or confirming a short if testing to ground).",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1beuf5k",
+      "q": "When a technician performs 'Diode Mode' (Voltage Drop/Reverse Bias) testing on a display FPC connector to find an open circuit, how must the multimeter probes be placed?",
+      "options": [
+        "The Red probe is placed on a ground point (GND) and the Black probe touches the connector pins.",
+        "The Black probe is placed on a ground point (GND) and the Red probe touches the connector pins.",
+        "Both probes must be placed on the battery positive terminal.",
+        "The probes are irrelevant; the multimeter auto-detects polarity."
+      ],
+      "correct": 0,
+      "explain": "In reverse-bias diode mode testing on a motherboard, the red probe is anchored to ground. The black probe checks the pads. This forces the multimeter's internal voltage through the board's protective diodes to get a specific semiconductor reading (like 0.400v), detecting open lines (OL) or shorts.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-zxop6h",
+      "q": "Which specialized diagnostic tool utilizes infrared technology to instantly and visually identify short circuits by showing color gradients based on heat emission?",
+      "options": [
+        "An Oscilloscope",
+        "A DC Power Supply",
+        "A Thermal Imaging Camera",
+        "A Soldering Iron"
+      ],
+      "correct": 2,
+      "explain": "A Thermal Imaging Camera creates a visual map of heat. Since short circuits pull immense current and generate concentrated heat instantly, the thermal camera immediately highlights the glowing, shorted capacitor or IC.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1vilt7g",
+      "q": "A technician connects a dead phone to a DC Power Supply. The reading is exactly 0.00 Amps. The technician presses the power button, but the reading remains steadfastly at 0.00 Amps. What is the most likely fault?",
+      "options": [
+        "The phone's screen is heavily cracked.",
+        "The processor is completely shorted to ground.",
+        "There is a broken power button switch, a severed flex cable, or an open circuit at the battery terminal.",
+        "The phone is operating normally and booting up."
+      ],
+      "correct": 2,
+      "explain": "0.00A means absolutely no current is flowing. If pressing the power button doesn't trigger even a tiny spike (like 0.05A), the power button mechanism itself isn't bridging the connection to wake the power IC.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-d6utm0",
+      "q": "A phone motherboard is connected to a DC Power Supply. *Before* pressing the power button, it immediately draws a steady low current of 0.08 Amps (80mA). What does this specific diagnostic reading signify?",
+      "options": [
+        "The board has a minor primary short (parasitic leakage) on the VBAT/VPH line.",
+        "The board is perfectly healthy and in standby mode.",
+        "The CPU is actively loading the operating system.",
+        "The audio amplifier is amplifying a signal."
+      ],
+      "correct": 0,
+      "explain": "A healthy board should draw 0.000 Amps before the power button is pressed. Any current draw upon simple connection indicates a parasitic leakage (a capacitor going bad, or dirt) on the main primary voltage line draining the battery constantly.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-evi0k6",
+      "q": "A customer states their phone shows no reaction at all when plugged into a charger. After visual inspection, the internal plastic tongue of the USB port is broken and pins are mangled. What is the correct hardware repair?",
+      "options": [
+        "Reflow the main charging IC on the logic board.",
+        "Change the device battery.",
+        "Desolder and replace the USB charging port socket (or replace the lower charging sub-board).",
+        "Solder the charging cable directly to the battery terminals."
+      ],
+      "correct": 2,
+      "explain": "A physically mangled port cannot pass 5V power into the phone. The component must be replaced using a hot air station and soldering iron, or by swapping the modular daughterboard.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-a4sprk",
+      "q": "In a smartphone charging circuit, a technician finds that an OVP IC has failed and internally shorted to ground. What is the primary functional design of this OVP chip?",
+      "options": [
+        "To boost the battery voltage up to power the screen backlight.",
+        "To generate an Over Voltage Protection threshold that sacrifices the chip to block excessive voltage surges (from faulty chargers) from destroying the main PMIC.",
+        "To convert alternating current (AC) to direct current (DC).",
+        "To act as a secondary microphone amplifier."
+      ],
+      "correct": 1,
+      "explain": "OVP stands for Over Voltage Protection. It acts as a safety gatekeeper. If a cheap charger pumps 12V instead of 5V, the OVP chip deliberately shorts out, blowing a fuse or shutting down, protecting the extremely expensive and sensitive chips downstream.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1lgc20k",
+      "q": "A customer complains of a persistent 'No Service' error on their smartphone. What is the most logical first step a technician should take before taking the phone apart?",
+      "options": [
+        "Reball the main Baseband CPU.",
+        "Check if the SIM card is properly inserted, test a known good SIM, and verify Airplane Mode is turned off.",
+        "Desolder the RF transceiver.",
+        "Heat up the antenna array with a heat gun to 350°C."
+      ],
+      "correct": 1,
+      "explain": "In troubleshooting, always check the simplest factors first. Software toggles (Airplane mode) and basic physical inputs (SIM card damaged/loose) solve many 'No Service' issues without tool-based disassembly.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-troubleshooting-of-mobile-phones-1b6w498",
+      "q": "A smartphone receives cell signal perfectly when the user is standing outdoors, but instantly drops to 'No Service' or emergency calls only when indoors, while other phones on the same network work fine. Which internal hardware connection should be inspected first?",
+      "options": [
+        "The LCD flex connector.",
+        "The internal coaxial antenna cable and contact pins for the antenna frame.",
+        "The vibrate motor contact pads.",
+        "The fingerprint reader ribbon."
+      ],
+      "correct": 1,
+      "explain": "Weak signal (rather than no signal at all) strongly implies the transceiver works, but the 'amplifier/antenna' is not connected. A popped-off coaxial RF cable connecting the motherboard to the sub-board antenna dramatically reduces signal strength.",
+      "exam": "WASSCE Troubleshooting of Mobile Phones",
+      "subject": "Computer Hardware and GSM Repairs 1",
+      "topic": "TROUBLESHOOTING",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

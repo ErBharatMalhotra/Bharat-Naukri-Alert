@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Number System",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Number System",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-1jlfz9",
+      "q": "The number of divisors of $(2^6 \\times 3^5 \\times 5^3 \\times 7^2)$, which are of the form $(3r + 1)$, where $r$ is a non-negative integer, is",
+      "options": [
+        "36",
+        "56",
+        "42",
+        "24"
+      ],
+      "correct": 2,
+      "explain": "Let $d = 2^a \\times 3^b \\times 5^c \\times 7^d$. For $d$ to not be a multiple of 3, $b = 0$.\nModulo 3: $2 \\equiv -1$, $5 \\equiv -1$, $7 \\equiv 1$. \n$d \\equiv (-1)^a \\times (-1)^c \\times (1)^d \\equiv (-1)^{a+c} \\pmod 3$.\nWe need $d \\equiv 1 \\pmod 3$, so $a+c$ must be even.\n$a \\in \\{0, 1, 2, 3, 4, 5, 6\\}$ (4 even, 3 odd options)\n$c \\in \\{0, 1, 2, 3\\}$ (2 even, 2 odd options)\nPairs $(a, c)$ that sum to even: (even, even) $\\to 4 \\times 2 = 8$, (odd, odd) $\\to 3 \\times 2 = 6$. Total = $14$.\n$7^d$ yields $d \\in \\{0, 1, 2\\}$ (3 options).\nTotal divisors = $14 \\times 3 = 42$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    },
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-1y4qoit",
+      "q": "The sum of digits of the number $(625)^{65} \\times (128)^{36}$, is",
+      "options": [
+        "22",
+        "25",
+        "28",
+        "31"
+      ],
+      "correct": 1,
+      "explain": "We simplify the given expression by writing the bases as powers of 5 and 2.\n$(625)^{65} = (5^4)^{65} = 5^{260}$.\n$(128)^{36} = (2^7)^{36} = 2^{252}$.\nNow multiply them: $5^{260} \\times 2^{252} = 5^8 \\times (5^{252} \\times 2^{252}) = 5^8 \\times 10^{252}$.\n$5^8 = 390625$. Thus, the number is $390625$ followed by $252$ zeros.\nThe sum of the digits is $3 + 9 + 0 + 6 + 2 + 5 + 0 = 25$.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Number System",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

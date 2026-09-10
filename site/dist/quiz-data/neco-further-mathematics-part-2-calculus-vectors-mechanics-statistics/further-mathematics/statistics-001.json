@@ -1,0 +1,171 @@
+{
+  "title": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics - Further Mathematics - Statistics",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+  "subject": "Further Mathematics",
+  "topic": "Statistics",
+  "source": "github:online-exam-questions",
+  "count": 8,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-fskf74",
+      "q": "The mean of the numbers 4, 7, 8, $x$, 12, and 15 is 9. Find the value of $x$.",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 1,
+      "explain": "The formula for the mean is $\\frac{\\sum x}{n}$. \n\nGiven the numbers: 4, 7, 8, $x$, 12, and 15. The number of items $n = 6$.\n\nSum of the items: $4 + 7 + 8 + x + 12 + 15 = 46 + x$.\n\nEquating this to the formula:\n$$\\frac{46 + x}{6} = 9$$\n$$46 + x = 9 \\times 6$$\n$$46 + x = 54$$\n$$x = 54 - 46 = 8$$\n\nThe value of $x$ is 8.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-buiak",
+      "q": "In a school, there are 15 Science students, 20 Arts students, and 25 Commercial students. If this information is represented on a pie chart, what is the sector angle for the Arts students?",
+      "options": [
+        "$90^\\circ$",
+        "$120^\\circ$",
+        "$150^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correct": 1,
+      "explain": "First, find the total number of students:\n$$\\text{Total} = 15 \\text{ (Science)} + 20 \\text{ (Arts)} + 25 \\text{ (Commercial)} = 60 \\text{ students}$$\n\nThe sector angle for any category is given by:\n$$\\text{Angle} = \\frac{\\text{Frequency of category}}{\\text{Total Frequency}} \\times 360^\\circ$$\n\nFor Arts students:\n$$\\text{Angle} = \\frac{20}{60} \\times 360^\\circ$$\n$$\\text{Angle} = \\frac{1}{3} \\times 360^\\circ = 120^\\circ$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-7aezf8",
+      "q": "The frequency distribution below shows the marks obtained by students in a test.\n\n| Mark ($x$) | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Frequency ($f$) | 3 | 5 | 7 | 4 | 1 |\n\nFind the median mark.",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "3.5"
+      ],
+      "correct": 2,
+      "explain": "To find the median, first determine the total frequency ($N$):\n$$N = \\sum f = 3 + 5 + 7 + 4 + 1 = 20$$\n\nSince $N$ is even (20), the median is the average of the $\\frac{N}{2}$-th and $\\left(\\frac{N}{2} + 1\\right)$-th values, which are the 10th and 11th values.\n\nNext, calculate the cumulative frequencies:\n- Mark 1: $3$\n- Mark 2: $3 + 5 = 8$\n- Mark 3: $8 + 7 = 15$ *(The 9th to 15th values all fall here)*\n\nBoth the 10th and 11th values correspond to the mark **3**. \nTherefore, the median mark is 3.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-52sh84",
+      "q": "Find the variance of the numbers 2, 4, 6, 8, 10.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "explain": "Step 1: Calculate the mean ($\\mu$):\n$$\\mu = \\frac{2 + 4 + 6 + 8 + 10}{5} = \\frac{30}{5} = 6$$\n\nStep 2: Find the deviations from the mean ($x - \\mu$):\n$$(2 - 6) = -4, \\quad (4 - 6) = -2, \\quad (6 - 6) = 0, \\quad (8 - 6) = 2, \\quad (10 - 6) = 4$$\n\nStep 3: Square the deviations ($(x - \\mu)^2$):\n$$16, \\quad 4, \\quad 0, \\quad 4, \\quad 16$$\n\nStep 4: Find the mean of the squared deviations (Variance):\n$$\\text{Variance} = \\frac{16 + 4 + 0 + 4 + 16}{5} = \\frac{40}{5} = 8$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1n72wzw",
+      "q": "In a competition, the sum of the squares of the differences in ranks given by two judges to 5 contestants is 12. Calculate the Spearman's rank correlation coefficient.",
+      "options": [
+        "0.2",
+        "0.4",
+        "0.6",
+        "0.8"
+      ],
+      "correct": 1,
+      "explain": "The formula for Spearman's rank correlation coefficient ($R$) is:\n$$R = 1 - \\frac{6 \\sum d^2}{n(n^2 - 1)}$$\n\nGiven:\n- Number of pairs ($n$) = 5\n- Sum of squared differences ($\\sum d^2$) = 12\n\nSubstitute the values into the formula:\n$$R = 1 - \\frac{6(12)}{5(5^2 - 1)}$$\n$$R = 1 - \\frac{72}{5(24)}$$\n$$R = 1 - \\frac{72}{120}$$\n$$R = 1 - 0.6 = 0.4$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-1u3gxs8",
+      "q": "Which of the following statistical measures can be estimated directly by drawing a cumulative frequency curve (ogive)?",
+      "options": [
+        "Mean",
+        "Mode",
+        "Median",
+        "Variance"
+      ],
+      "correct": 2,
+      "explain": "Different statistical measures are estimated from specific graphs:\n- A **Histogram** is used to estimate the **Mode**.\n- An **Ogive** (cumulative frequency curve) is used to estimate the **Median**, quartiles, and percentiles.\n- The **Mean** and **Variance** are calculated algebraically and cannot be estimated directly from simply drawing these curves.\n\nHence, the correct answer is the Median.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-ze9514",
+      "q": "Calculate the mean deviation of the data set: 3, 5, 8, 11, 13.",
+      "options": [
+        "0.0",
+        "2.8",
+        "3.2",
+        "16.0"
+      ],
+      "correct": 2,
+      "explain": "Step 1: Calculate the mean ($\\bar{x}$):\n$$\\bar{x} = \\frac{3 + 5 + 8 + 11 + 13}{5} = \\frac{40}{5} = 8$$\n\nStep 2: Find the absolute deviation of each item from the mean ($|x - \\bar{x}|$):\n$$|3 - 8| = 5$$\n$$|5 - 8| = 3$$\n$$|8 - 8| = 0$$\n$$|11 - 8| = 3$$\n$$|13 - 8| = 5$$\n\nStep 3: Calculate the mean of these absolute deviations (Mean Deviation):\n$$MD = \\frac{5 + 3 + 0 + 3 + 5}{5} = \\frac{16}{5} = 3.2$$",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-2:-calculus,-vectors,-mechanics-&-statistics-yoim0o",
+      "q": "A set of data has a standard deviation of 4. If each value in the data set is increased by 5, what is the new standard deviation?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "20"
+      ],
+      "correct": 0,
+      "explain": "Standard deviation is a measure of the spread (or dispersion) of data around the mean. \n\nWhen a constant value is added to or subtracted from every data point in a set:\n- The **mean** shifts by that exact constant.\n- However, the relative distance between the data points does not change, meaning the **spread remains identical**.\n\nBecause the shape and spread of the distribution are unaffected by adding 5 to each value, the standard deviation remains 4.",
+      "exam": "NECO Further Mathematics Part 2: Calculus, Vectors, Mechanics & Statistics",
+      "subject": "Further Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

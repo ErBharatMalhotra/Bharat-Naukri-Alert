@@ -1,0 +1,51 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 2, QA) - Quant - Inequalities",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+  "subject": "Quant",
+  "topic": "Inequalities",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-1i8u6rk",
+      "q": "If ${x}$ and ${y}$ satisfy the equations $|x|+x+y=15$ and $x+|y|-y=20$, then $(x-y)$ equals",
+      "options": [
+        "10",
+        "5",
+        "20",
+        "15"
+      ],
+      "correct": 3,
+      "explain": "If $x<0$, $|x|+x=0$, so $y=15$. The second eq becomes $x+|15|-15=20$, so $x=20$, which contradicts $x<0$. Thus $x \\ge 0$, and $|x|=x$. The first eq becomes $2x+y=15$. If $y<0$, $|y|=-y$, so the second eq is $x-2y=20$. Solving gives $x=10, y=-5$. Then $x-y=15$. If $y \\ge 0$, the second eq is $x=20$. Then $2(20)+y=15$ gives $y=-25$, a contradiction. So $x=10, y=-5$ is the only solution. $x-y = 10 - (-5) = 15$.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Inequalities",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    },
+    {
+      "id": "cat-2024-question-paper-(slot-2,-qa)-ahbx1g",
+      "q": "All the values of ${x}$ satisfying the inequality $\\frac{1}{x+5} \\le \\frac{1}{2x-3}$ are",
+      "options": [
+        "$x \\in (-5, 1.5) \\cup [8, \\infty)$",
+        "$x \\in (-\\infty, -5) \\cup (1.5, 8]$",
+        "$x \\in (-\\infty, -8] \\cup (1.5, \\infty)$",
+        "$x \\in [-8, -5) \\cup (1.5, \\infty)$"
+      ],
+      "correct": 1,
+      "explain": "We solve $\\frac{1}{x+5} - \\frac{1}{2x-3} \\le 0$. Combining fractions gives $\\frac{(2x-3) - (x+5)}{(x+5)(2x-3)} \\le 0$, which simplifies to $\\frac{x-8}{(x+5)(2x-3)} \\le 0$. The critical points are $x=-5, x=1.5, x=8$. We test the intervals: For $x>8$, all terms are positive, so fraction is positive. For $1.5 < x < 8$, the numerator is negative, denominator is positive, so fraction is negative (solution). For $-5 < x < 1.5$, numerator is negative, denominator is negative, so fraction is positive. For $x < -5$, numerator is negative, denominator is positive, so fraction is negative (solution). The solution includes the point where the numerator is zero ($x=8$) but excludes points where the denominator is zero. Thus, the solution is $(-\\infty, -5) \\cup (1.5, 8]$.",
+      "exam": "CAT 2024 Question Paper (Slot 2, QA)",
+      "subject": "Quant",
+      "topic": "Inequalities",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "title": "WASSCE Further Maths: Geometry & Trigonometry - Further Mathematics - Coordinate Geometry",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+  "subject": "Further Mathematics",
+  "topic": "Coordinate Geometry",
+  "source": "github:online-exam-questions",
+  "count": 13,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-ysxzne",
+      "q": "Find the equation of the straight line parallel to $3x - 2y + 5 = 0$ which passes through the point $(1, -2)$.",
+      "options": [
+        "$3x - 2y - 7 = 0$",
+        "$3x - 2y + 7 = 0$",
+        "$2x + 3y + 4 = 0$",
+        "$3x + 2y - 1 = 0$"
+      ],
+      "correct": 0,
+      "explain": "Parallel lines have the same gradient. Rearranging $3x - 2y + 5 = 0$ gives $y = \\frac{3}{2}x + \\frac{5}{2}$, so the gradient $m = \\frac{3}{2}$. Using the point-slope form: $y - (-2) = \\frac{3}{2}(x - 1) \\implies 2(y + 2) = 3(x - 1) \\implies 2y + 4 = 3x - 3 \\implies 3x - 2y - 7 = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-k9wao8",
+      "q": "What is the midpoint of the line segment joining the points $(-4, 6)$ and $(2, -2)$?",
+      "options": [
+        "$(-1, 2)$",
+        "$(-2, 4)$",
+        "$(3, -4)$",
+        "$(-1, 4)$"
+      ],
+      "correct": 0,
+      "explain": "The midpoint formula is $\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$. Thus, $\\left(\\frac{-4 + 2}{2}, \\frac{6 + (-2)}{2}\\right) = \\left(\\frac{-2}{2}, \\frac{4}{2}\\right) = (-1, 2)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-dutyaq",
+      "q": "Find the ratio in which the x-axis divides the line segment joining the points $A(2, -3)$ and $B(5, 6)$.",
+      "options": [
+        "$1:2$",
+        "$2:1$",
+        "$3:2$",
+        "$2:3$"
+      ],
+      "correct": 0,
+      "explain": "Let the x-axis divide the segment in the ratio $k:1$. Any point on the x-axis has a y-coordinate of $0$. Using the section formula for the y-coordinate: $y = \\frac{k y_2 + 1 y_1}{k + 1} = 0 \\implies \\frac{k(6) + 1(-3)}{k + 1} = 0 \\implies 6k - 3 = 0 \\implies k = \\frac{1}{2}$. The ratio is $\\frac{1}{2}:1$, which simplifies to $1:2$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1uqrt5c",
+      "q": "Find the acute angle between the straight lines $y = 2x - 5$ and $y = -3x + 1$.",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$75^\\circ$"
+      ],
+      "correct": 1,
+      "explain": "The gradients of the lines are $m_1 = 2$ and $m_2 = -3$. The acute angle $\\theta$ between them is given by $\\tan \\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right|$. Plugging in the values: $\\tan \\theta = \\left|\\frac{2 - (-3)}{1 + (2)(-3)}\right| = \\left|\\frac{5}{1 - 6}\\right| = \\left|\\frac{5}{-5}\\right| = 1$. Hence, $\\theta = \\tan^{-1}(1) = 45^\\circ$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1xfa6eo",
+      "q": "What is the perpendicular distance from the point $(3, 4)$ to the line $4x + 3y - 12 = 0$?",
+      "options": [
+        "$2.4$",
+        "$4.8$",
+        "$1.2$",
+        "$3.6$"
+      ],
+      "correct": 0,
+      "explain": "The distance $d$ from a point $(x_1, y_1)$ to the line $Ax + By + C = 0$ is $d = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}$. Substituting the values: $d = \\frac{|4(3) + 3(4) - 12|}{\\sqrt{4^2 + 3^2}} = \\frac{|12 + 12 - 12|}{\\sqrt{25}} = \\frac{12}{5} = 2.4$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-10xu1xo",
+      "q": "What is the distance between the points $P(-1, 2)$ and $Q(2, 6)$?",
+      "options": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "correct": 1,
+      "explain": "Using the distance formula: $D = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. $D = \\sqrt{(2 - (-1))^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-19aut34",
+      "q": "Find the value of $k$ if the points $(1, k)$, $(2, 3)$, and $(4, 7)$ are collinear.",
+      "options": [
+        "$1$",
+        "$-1$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 0,
+      "explain": "For points to be collinear, the gradient between the first and second point must equal the gradient between the second and third. Gradient $m_1 = \\frac{3 - k}{2 - 1} = 3 - k$. Gradient $m_2 = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2$. Equating gradients: $3 - k = 2 \\implies k = 1$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-exhtrs",
+      "q": "Find the coordinates of the foot of the perpendicular from the origin to the line $3x + 4y - 25 = 0$.",
+      "options": [
+        "$(4, 3)$",
+        "$(3, 4)$",
+        "$(-3, 4)$",
+        "$(3, -4)$"
+      ],
+      "correct": 1,
+      "explain": "The line $L_1$ has the equation $3x + 4y = 25 \\implies y = -\\frac{3}{4}x + \\frac{25}{4}$, with gradient $m = -\\frac{3}{4}$. The perpendicular line $L_2$ passing through the origin has gradient $\\frac{4}{3}$, so its equation is $y = \\frac{4}{3}x$. Substituting $L_2$ into $L_1$: $3x + 4(\\frac{4}{3}x) = 25 \\implies 3x + \\frac{16}{3}x = 25 \\implies \\frac{25}{3}x = 25 \\implies x = 3$. Then $y = \\frac{4}{3}(3) = 4$. The foot is $(3, 4)$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1vg85v0",
+      "q": "Find the gradient of the straight line passing through the points $(3, -2)$ and $(-1, -10)$.",
+      "options": [
+        "$-2$",
+        "$\\frac{1}{2}$",
+        "$2$",
+        "$-\\frac{1}{2}$"
+      ],
+      "correct": 2,
+      "explain": "The gradient formula is $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Substituting the coordinates: $m = \\frac{-10 - (-2)}{-1 - 3} = \\frac{-8}{-4} = 2$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-pzoasg",
+      "q": "If the gradient of a line is $-\\frac{2}{3}$, what is the gradient of any straight line perpendicular to it?",
+      "options": [
+        "$-\\frac{3}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$-\\frac{2}{3}$"
+      ],
+      "correct": 2,
+      "explain": "The product of the gradients of two perpendicular lines is $-1$ (i.e., $m_1 m_2 = -1$). Therefore, $m_2 = -1 / (-\\frac{2}{3}) = \\frac{3}{2}$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-532szi",
+      "q": "Find the area of the triangle formed by the vertices $P(-1, 2)$, $Q(3, -4)$, and $R(5, 6)$.",
+      "options": [
+        "$26$",
+        "$52$",
+        "$13$",
+        "$30$"
+      ],
+      "correct": 0,
+      "explain": "Area $= \\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$. Substituting the points: Area $= \\frac{1}{2} |-1(-4 - 6) + 3(6 - 2) + 5(2 - (-4))| = \\frac{1}{2} |-1(-10) + 3(4) + 5(6)| = \\frac{1}{2} |10 + 12 + 30| = \\frac{1}{2} (52) = 26$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-1rc4d3y",
+      "q": "Find the equation of the perpendicular bisector of the line segment joining $A(1, 2)$ and $B(3, 6)$.",
+      "options": [
+        "$x + 2y - 10 = 0$",
+        "$2x + y - 8 = 0$",
+        "$x - 2y + 6 = 0$",
+        "$2x - y = 0$"
+      ],
+      "correct": 0,
+      "explain": "The midpoint is $\\left(\\frac{1+3}{2}, \\frac{2+6}{2}\\right) = (2, 4)$. The gradient of AB is $\\frac{6 - 2}{3 - 1} = \\frac{4}{2} = 2$. The perpendicular bisector has a gradient of $-\\frac{1}{2}$. Its equation is $y - 4 = -\\frac{1}{2}(x - 2) \\implies 2(y - 4) = -x + 2 \\implies 2y - 8 = -x + 2 \\implies x + 2y - 10 = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-geometry-&-trigonometry-hcq3hq",
+      "q": "A straight line has an x-intercept of $4$ and a y-intercept of $-3$. What is its general equation?",
+      "options": [
+        "$3x + 4y - 12 = 0$",
+        "$4x - 3y + 12 = 0$",
+        "$3x - 4y - 12 = 0$",
+        "$3x - 4y + 12 = 0$"
+      ],
+      "correct": 2,
+      "explain": "Using the intercept form $\\frac{x}{a} + \\frac{y}{b} = 1 \\implies \\frac{x}{4} + \\frac{y}{-3} = 1$. Multiply through by $12$ to clear denominators: $3x - 4y = 12 \\implies 3x - 4y - 12 = 0$.",
+      "exam": "WASSCE Further Maths: Geometry & Trigonometry",
+      "subject": "Further Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

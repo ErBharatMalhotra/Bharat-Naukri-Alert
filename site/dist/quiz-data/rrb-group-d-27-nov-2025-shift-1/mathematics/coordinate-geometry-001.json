@@ -1,0 +1,31 @@
+{
+  "title": "RRB Group D 27 Nov 2025 Shift 1 - Mathematics - Coordinate Geometry",
+  "titleHi": "",
+  "exam": "RRB Group D 27 Nov 2025 Shift 1",
+  "subject": "Mathematics",
+  "topic": "Coordinate Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "rrb-group-d-27-nov-2025-shift-1-1jbi3rw",
+      "q": "The vertices of a convex pentagon (in order) are P(0,0), Q(6,0), R(8,3), S(4,7), T(0,4). Find the area of the pentagon.",
+      "options": [
+        "42 sq. units",
+        "36 sq. units",
+        "39 sq. units",
+        "45 sq. units"
+      ],
+      "correct": 2,
+      "explain": "Using the Shoelace formula for area: Area $= \\frac{1}{2} |(x_1y_2 + x_2y_3 + x_3y_4 + x_4y_5 + x_5y_1) - (y_1x_2 + y_2x_3 + y_3x_4 + y_4x_5 + y_5x_1)|$. Let vertices be $(0,0), (6,0), (8,3), (4,7), (0,4)$. Sum 1: $(0)(0) + (6)(3) + (8)(7) + (4)(4) + (0)(0) = 0 + 18 + 56 + 16 + 0 = 90$. Sum 2: $(0)(6) + (0)(8) + (3)(4) + (7)(0) + (4)(0) = 0 + 0 + 12 + 0 + 0 = 12$. Area $= \\frac{1}{2} |90 - 12| = \\frac{1}{2} (78) = 39\\text{ sq. units}$.",
+      "exam": "RRB Group D 27 Nov 2025 Shift 1",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

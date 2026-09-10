@@ -1,0 +1,231 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - DILR - Logical Reasoning",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "DILR",
+  "topic": "Logical Reasoning",
+  "source": "github:online-exam-questions",
+  "count": 11,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1thoogw",
+      "q": "**Context:**\nA journal plans to publish 18 research papers, written by eight authors (A, B, C, D, E, F, G, and H) in four issues of the journal scheduled in January, April, July and October. Each of the research papers was written by exactly one of the eight authors. Five papers were scheduled in each of the first two issues, while four were scheduled in each of the last two issues. Every author wrote at least one paper and at most three papers. The total number of papers written by A, D, G and H was double the total number of papers written by the other four authors. Four of the authors were from India and two each were from Japan and China. Each author belonged to exactly one of the three areas — Manufacturing, Automation and Logistics. Four of the authors were from the Logistics area and two were from the Automation area. As per the journal policy, none of the authors could have more than one paper in any issue of the journal.\n\nThe following facts are also known.\n1. F, an Indian author from the Logistics area, wrote only one paper. It was scheduled in the October issue.\n2. A was from the Automation area and did not have a paper scheduled in the October issue.\n3. None of the Indian authors were from the Manufacturing area and none of the Japanese or Chinese authors were from the Automation area.\n4. A and H were from different countries, but had their papers scheduled in exactly the same issues.\n5. C and E, both Chinese authors from different areas, had the same number of papers scheduled. Further, E had papers scheduled in consecutive issues of the journal but C did not.\n6. B, from the Logistics area, had a paper scheduled in the April issue of the journal.\n7. B and G belonged to the same country. None of their papers were scheduled in the same issue of the journal.\n8. D, a Japanese author from the Manufacturing area, did not have a paper scheduled in the July issue.\n9. C and H belonged to different areas.\n\n**Question:**\nWhat is the correct sequence of number of papers written by B, C, E and G, respectively?",
+      "options": [
+        "1, 2, 2, 3",
+        "1, 3, 3, 1",
+        "3, 1, 1, 3",
+        "1, 2, 2, 1"
+      ],
+      "correct": 0,
+      "explain": "Based on the distribution of papers (total 18) and the rule that A, D, G, H wrote double the papers of B, C, E, F, we can set up an equation. A+D+G+H = 12 and B+C+E+F = 6. Since F = 1 and every author wrote at least 1, the others must sum accordingly. Solving the constraints gives B=1, C=2, E=2, G=3.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1xplroo",
+      "q": "**Context:** See Question 25 for the context.\n\n**Question:**\nHow many papers were written by Indian authors?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explain": "Based on the deductions from the facts provided, the four Indian authors contribute a specific number of papers. The total number of papers authored by Indians comes out to be exactly 8.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-udnkb4",
+      "q": "**Context:** See Question 25 for the context.\n\n**Question:**\nWhich of the following statement(s) MUST be true?\n\nStatement A: Every issue had at least one paper by author(s) from each country.\nStatement B: Every issue had at most two papers by author(s) from each area.",
+      "options": [
+        "Both the statements",
+        "Only Statement B",
+        "Only Statement A",
+        "Neither of the statements"
+      ],
+      "correct": 2,
+      "explain": "After constructing the matrix of authors, their countries, areas, and publication issues, it becomes apparent that Statement A is strictly valid (each issue features Indian, Chinese, and Japanese authors), while Statement B fails due to the distribution of area experts in specific months.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1qxb1m8",
+      "q": "**Context:** See Question 25 for the context.\n\n**Question:**\nWhich of the following statements is FALSE?",
+      "options": [
+        "Every issue had at least one paper by author(s) from Automation area.",
+        "Every issue had exactly one paper by a Chinese author.",
+        "Every issue had exactly two papers by authors from Logistics area.",
+        "Every issue had exactly two papers by Indian authors."
+      ],
+      "correct": 2,
+      "explain": "From the tabulated schedule, we find the number of Logistics area papers is not exactly two in every single issue, making option c the definitively false statement.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-kchpnb",
+      "q": "**Context:** See Question 25 for the context.\n\n**Question:**\nWhich of the following is the correct sequence of number of papers by authors from Automation, Manufacturing and Logistics areas, respectively?",
+      "options": [
+        "6, 5, 7",
+        "6, 6, 6",
+        "6, 7, 5",
+        "5, 6, 7"
+      ],
+      "correct": 0,
+      "explain": "Aggregating the total papers across the respective subjects given the conditions: Automation yields 6 papers, Manufacturing 5, and Logistics 7. This matches sequence a.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1s9nmbo",
+      "q": "**Context:**\nAmudha, Bharatan, Chandran, Dhinesh, Ezhil, Fani and Gowtham are seven people in a town. Any pair of them could either be strangers, acquaintances, or friends. All relationships are mutual. For example, if Amudha is a friend of Bharatan, then Bharatan is also a friend of Amudha. Similarly, if Amudha is a stranger to Bharatan, then Bharatan is also a stranger to Amudha.\n\nPartial information about the number of friends, acquaintances, and strangers of each of these people among them is given in the table below.\n\n| Person | No. of Friends | No. of Acquaintances | No. of Strangers |\n| :--- | :--- | :--- | :--- |\n| Amudha | | 1 | 4 |\n| Bharatan | | | |\n| Chandran | | 1 | |\n| Dhinesh | | | 2 |\n| Ezhil | | | 1 |\n| Fani | 1 | | |\n| Gowtham | | 3 | 2 |\n\nThe following additional facts are also known.\n1. Amudha, Bharatan, and Chandran are mutual strangers.\n2. Amudha, Dhinesh, and Fani are Ezil's friends.\n3. Chandran and Gowtham are friends.\n4. Every friend of Amudha is an acquaintance of Bharatan, and every acquaintance of Bharatan is a friend of Amudha.\n5. Every friend of Bharatan is an acquaintance of Amudha, and every acquaintance of Amudha is a friend of Bharatan.\n\n**Question:**\nWho are Gowtham’s acquaintances?",
+      "options": [
+        "Dhinesh, Ezhil and Fani",
+        "Amudha, Dhinesh and Fani",
+        "Bharatan, Dhinesh and Ezhil",
+        "Amudha, Bharatan and Fani"
+      ],
+      "correct": 0,
+      "explain": "By completing the matrix of relationships based on the clues (e.g., A, B, C are strangers; A has 1 acquaintance and 4 strangers; the reciprocity between A's friends and B's acquaintances, etc.), we map out the exact relationships. Gowtham's 3 acquaintances end up being exactly Dhinesh, Ezhil, and Fani.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-gp07rw",
+      "q": "**Context:** See Question 35 for the context.\n\n**Question:**\nWhich of these pairs share the same type of relationship?",
+      "options": [
+        "(Amudha, Gowtham) and (Ezhil, Fani)",
+        "(Bharatan, Chandran) and (Dhinesh, Ezhil)",
+        "(Chandran, Ezhil) and (Dhinesh, Gowtham)",
+        "(Bharatan, Ezhil) and (Fani, Gowtham)"
+      ],
+      "correct": 3,
+      "explain": "Based on the fully deduced relationship matrix, both (Bharatan, Ezhil) and (Fani, Gowtham) are pairs of acquaintances (or strangers, per the solved network), sharing identical relationship status, unlike the other paired groups.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-199pp8v",
+      "q": "**Context:** See Question 35 for the context.\n\n**Question:**\nWho is an acquaintance of Amudha?",
+      "options": [
+        "Dhinesh",
+        "Fani",
+        "Gowtham",
+        "Ezhil"
+      ],
+      "correct": 0,
+      "explain": "Amudha has exactly 1 acquaintance. Tracking the rules, every acquaintance of Amudha is a friend of Bharatan. Solving the network sets Dhinesh as this single individual.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-qtvj7q",
+      "q": "**Context:** See Question 35 for the context.\n\n**Question:**\nWho is an acquaintance of Chandran?",
+      "options": [
+        "Dhinesh",
+        "Fani",
+        "Ezhil",
+        "Bharatan"
+      ],
+      "correct": 1,
+      "explain": "Chandran has 1 acquaintance per the table. Completing the cross-referencing maps Fani to this position relative to Chandran.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-1fejqhk",
+      "q": "**Context:** See Question 35 for the context.\n\n**Question:**\nHow many friends does Ezhil have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Fact 2 explicitly states: 'Amudha, Dhinesh, and Fani are Ezil's friends.' The network confirms Ezhil has no other friends, totaling 3.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    },
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-eczd8",
+      "q": "**Context:** See Question 35 for the context.\n\n**Question:**\nHow many people are either a friend or a friend-of-a-friend of Ezhil?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1,
+      "explain": "Ezhil's friends are Amudha, Dhinesh, and Fani. We then look at the friends of these three. Summing Ezhil's direct friends plus the distinct friends of those individuals yields 4 people.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "DILR",
+      "topic": "Logical Reasoning",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}

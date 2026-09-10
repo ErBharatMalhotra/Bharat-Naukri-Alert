@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2022 Question Paper (Slot 1, PYQ) - Quantitative Ability - Coordinate Geometry",
+  "titleHi": "",
+  "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Coordinate Geometry",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2022-question-paper-(slot-1,-pyq)-s0pfkg",
+      "q": "Let ABCD be a parallelogram such that the coordinates of its three vertices A, B, C are (1, 1), (3, 4) and (-2, 8), respectively. Then, the coordinates of the vertex D are",
+      "options": [
+        "(-3, 4)",
+        "(0, 11)",
+        "(4, 5)",
+        "(-4, 5)"
+      ],
+      "correct": 3,
+      "explain": "In a parallelogram, the diagonals bisect each other, so the midpoint of AC is the same as the midpoint of BD. Midpoint of AC = $(\\frac{1 + (-2)}{2}, \\frac{1 + 8}{2}) = (-0.5, 4.5)$. Let coordinates of D be $(x, y)$. Midpoint of BD = $(\\frac{3 + x}{2}, \\frac{4 + y}{2})$. Equating them: $\\frac{3+x}{2} = -0.5 \\Rightarrow x = -4$, and $\\frac{4+y}{2} = 4.5 \\Rightarrow y = 5$. Thus, D is $(-4, 5)$.",
+      "exam": "CAT 2022 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Coordinate Geometry",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2022,
+      "tags": []
+    }
+  ]
+}

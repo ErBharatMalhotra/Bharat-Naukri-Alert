@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2023 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Simple and Compound Interest",
+  "titleHi": "",
+  "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Simple and Compound Interest",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-1ifk78s",
+      "q": "Anil invests Rs. 22000 for 6 years in a certain scheme with 4% interest per annum, compounded half-yearly. Sunil invests in the same scheme for 5 years, and then reinvests the entire amount received at the end of 5 years for one year at 10% simple interest. If the amounts received by both at the end of 6 years are same, then the initial investment made by Sunil, in rupees, is",
+      "options": [
+        "20000",
+        "20404",
+        "20808",
+        "21000"
+      ],
+      "correct": 2,
+      "explain": "For Anil, 4% per annum compounded half-yearly equates to a rate of 2% per 6 months for $6 \\times 2 = 12$ periods. Anil's final amount is $A_1 = 22000 \\times (1.02)^{12}$. \nFor Sunil, investing $P$ for 5 years means $5 \\times 2 = 10$ periods. His amount after 5 years is $P \\times (1.02)^{10}$. \nHe reinvests this at 10% simple interest for 1 year, making his final amount $A_2 = P \\times (1.02)^{10} \\times (1 + 0.10) = P \\times (1.02)^{10} \\times 1.10$. \nSetting $A_1 = A_2$ gives $22000 \\times (1.02)^{12} = P \\times (1.02)^{10} \\times 1.10$. \n$P \\times 1.10 = 22000 \\times (1.02)^2 = 22000 \\times 1.0404 = 22888.8$. \n$P = 22888.8 / 1.1 = 20808$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Simple and Compound Interest",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    }
+  ]
+}

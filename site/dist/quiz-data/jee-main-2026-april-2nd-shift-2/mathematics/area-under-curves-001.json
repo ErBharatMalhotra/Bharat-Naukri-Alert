@@ -1,0 +1,31 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Area Under Curves",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Area Under Curves",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-r0jw5s",
+      "q": "If the area of the region bounded by $16x^2 - 9y^2 = 144$ and $8x - 3y = 24$ is $A$, then $3(A + 6 \\log_e(3))$ is equal to:",
+      "options": [
+        "$12$",
+        "$16$",
+        "$20$",
+        "$24$"
+      ],
+      "correct": 3,
+      "explain": "Rewrite curve as hyperbola $\\frac{x^2}{9} - \\frac{y^2}{16} = 1 \\implies y = \\frac{4}{3}\\sqrt{x^2 - 9}$ and line $y = \\frac{8}{3}(x - 3)$.\nIntersection points satisfy: $\\frac{16}{9}(x^2 - 9) = \\frac{64}{9}(x-3)^2 \\implies x^2 - 9 = 4(x^2 - 6x + 9) \\implies 3x^2 - 24x + 45 = 0 \\implies x=3, x=5$.\nThe line lies below the hyperbola in this interval. Thus $A = \\int_3^5 \\left( \\frac{4}{3}\\sqrt{x^2 - 9} - \\frac{8}{3}(x - 3) \\right) dx$.\n$= \\left[ \\frac{4}{3} \\left( \\frac{x}{2}\\sqrt{x^2-9} - \\frac{9}{2}\\ln(x+\\sqrt{x^2-9}) \\right) - \\frac{4}{3}(x-3)^2 \\right]_3^5$.\n$= \\left( \\frac{4}{3} (10 - \\frac{9}{2}\\ln 9) - \\frac{4}{3}(4) \\right) - \\left( -6\\ln 3 - 0 \\right) = 8 - 6\\ln 3$.\nWe find $3(A + 6\\ln 3) = 3(8 - 6\\ln 3 + 6\\ln 3) = 24$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Area Under Curves",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

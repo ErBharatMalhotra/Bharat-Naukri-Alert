@@ -1,0 +1,51 @@
+{
+  "title": "JEE Main 2026 (April 2nd, Shift 2) - Mathematics - Vectors",
+  "titleHi": "",
+  "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+  "subject": "Mathematics",
+  "topic": "Vectors",
+  "source": "github:online-exam-questions",
+  "count": 2,
+  "questions": [
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-14j315s",
+      "q": "Let the vectors $\\vec{a} = -\\hat{i} + \\hat{j} + 3\\hat{k}$ and $\\vec{b} = \\hat{i} + 3\\hat{j} + \\hat{k}$. For some $\\lambda, \\mu \\in \\mathbb{R}$, let $\\vec{c} = \\lambda\\vec{a} + \\mu\\vec{b}$. If $\\vec{c} \\cdot (3\\hat{i} - 6\\hat{j} + 2\\hat{k}) = 10$ and $\\vec{c} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = -2$, then $|\\vec{c}|^2$ is equal to:",
+      "options": [
+        "$8$",
+        "$12$",
+        "$14$",
+        "$15$"
+      ],
+      "correct": 1,
+      "explain": "Since $\\vec{c}$ lies in the plane of $\\vec{a}$ and $\\vec{b}$, $\\vec{c} \\cdot (\\vec{a} \\times \\vec{b}) = 0$. $\\vec{a} \\times \\vec{b} = -8\\hat{i} + 4\\hat{j} - 4\\hat{k}$. Simplifying the direction, $-2\\hat{i} + \\hat{j} - \\hat{k}$. Letting $\\vec{c} = x\\hat{i} + y\\hat{j} + z\\hat{k}$, we get $2x - y + z = 0$.\nWe are given $3x - 6y + 2z = 10$ and $x + y + z = -2 \\implies z = -x -y -2$.\nSubstitute $z$: $2x - y + (-x - y - 2) = 0 \\implies x = 2y + 2$.\nSubstitute into the second equation: $3(2y+2) - 6y + 2(-(2y+2) - y - 2) = 10 \\implies -6y = 12 \\implies y = -2$.\nThen $x = -2$, and $z = 2$. Therefore $\\vec{c} = -2\\hat{i} - 2\\hat{j} + 2\\hat{k}$.\n$|\\vec{c}|^2 = (-2)^2 + (-2)^2 + 2^2 = 12$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "jee-main-2026-(april-2nd,-shift-2)-j5z24k",
+      "q": "Two adjacent sides of a parallelogram PQRS are given by $\\vec{PQ} = \\hat{j} + \\hat{k}$ and $\\vec{PS} = \\hat{i} - \\hat{j}$. If the side PS is rotated about the point P by an acute angle $\\alpha$ in the plane of the parallelogram so that it becomes perpendicular to the side PQ, then $\\sin^2 \\left(\\frac{5\\alpha}{2}\\right) - \\sin^2 \\left(\\frac{\\alpha}{2}\\right)$ is equal to:",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{3}}{4}$",
+        "$\\frac{2\\sqrt{3}}{5}$"
+      ],
+      "correct": 1,
+      "explain": "Let initial angle between $\\vec{PQ}$ and $\\vec{PS}$ be $\\theta$. $\\cos \\theta = \\frac{\\vec{PQ} \\cdot \\vec{PS}}{|\\vec{PQ}| |\\vec{PS}|} = \\frac{(0)(1) + (1)(-1) + (1)(0)}{\\sqrt{2}\\sqrt{2}} = -\\frac{1}{2} \\implies \\theta = 120^\\circ$.\nThe side is rotated to be perpendicular ($90^\\circ$) by an acute angle $\\alpha$. Hence, the rotation angle $\\alpha = 120^\\circ - 90^\\circ = 30^\\circ$.\nWe need to compute $\\sin^2 \\left(\\frac{5(30^\\circ)}{2}\\right) - \\sin^2 \\left(\\frac{30^\\circ}{2}\\right) = \\sin^2 75^\\circ - \\sin^2 15^\\circ$.\nUsing the identity $\\sin^2 A - \\sin^2 B = \\sin(A+B)\\sin(A-B) = \\sin(90^\\circ)\\sin(60^\\circ) = 1 \\times \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{2}$.",
+      "exam": "JEE Main 2026 (April 2nd, Shift 2)",
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

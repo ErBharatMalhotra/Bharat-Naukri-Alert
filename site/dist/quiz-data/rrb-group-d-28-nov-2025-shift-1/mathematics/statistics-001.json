@@ -1,0 +1,31 @@
+{
+  "title": "RRB Group D 28 Nov 2025 Shift 1 - Mathematics - Statistics",
+  "titleHi": "",
+  "exam": "RRB Group D 28 Nov 2025 Shift 1",
+  "subject": "Mathematics",
+  "topic": "Statistics",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "rrb-group-d-28-nov-2025-shift-1-19h7i04",
+      "q": "Find the mode of the data 1, 11, 11, 8, 18, 8, 7, 7, 7, x, y, and 8, given that $3x + 7y = 42$ and $7x + 3y = 58$.",
+      "options": [
+        "11",
+        "7",
+        "18",
+        "8"
+      ],
+      "correct": 1,
+      "explain": "Solve the system of equations:\n1) $3x + 7y = 42$\n2) $7x + 3y = 58$\nAdding them gives: $10x + 10y = 100 \\Rightarrow x + y = 10 \\Rightarrow y = 10 - x$.\nSubstitute $y$ in (1): $3x + 7(10 - x) = 42 \\Rightarrow 3x + 70 - 7x = 42 \\Rightarrow -4x = -28 \\Rightarrow x = 7$.\nThen $y = 3$.\nThe dataset becomes: 1, 11, 11, 8, 18, 8, 7, 7, 7, 7 (since $x=7$), 3, and 8.\nCounting frequencies: 7 appears 4 times, 8 appears 3 times, 11 appears 2 times. The mode is the most frequent value, which is 7.",
+      "exam": "RRB Group D 28 Nov 2025 Shift 1",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "title": "States of Matter and Gas Laws - Chemistry - Ideal Gas Equation",
+  "titleHi": "",
+  "exam": "States of Matter and Gas Laws",
+  "subject": "Chemistry",
+  "topic": "Ideal Gas Equation",
+  "source": "github:online-exam-questions",
+  "count": 12,
+  "questions": [
+    {
+      "id": "states-of-matter-and-gas-laws-1evp8ls",
+      "q": "Calculate the volume occupied by $0.500\\ \\text{mol}$ of an ideal gas at $1.50\\ \\text{atm}$ and $25^\\circ\\text{C}$. (Use $R = 0.0821\\ \\text{L}\\cdot\\text{atm}/\\text{mol}\\cdot\\text{K}$)",
+      "options": [
+        "8.16 L",
+        "6.84 L",
+        "4.08 L",
+        "0.68 L"
+      ],
+      "correct": 0,
+      "explain": "Use $PV=nRT$. $$T = 298.15\\ \\text{K}$$. $$V = \\frac{nRT}{P} = \\frac{0.500 \\times 0.0821 \\times 298.15}{1.50} \\approx 8.16\\ \\text{L}$$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-1c9j9wo",
+      "q": "Which rearrangement of the Ideal Gas Law allows you to calculate the **density** ($d​$) of a gas?",
+      "options": [
+        "$d = \\frac{P}{RT}$",
+        "$d = \\frac{n}{V}$",
+        "$d = \\frac{PM}{\\text{RT}}$",
+        "$d = \\frac{RTM}{P}$"
+      ],
+      "correct": 2,
+      "explain": "Density $d = \\frac{\\text{mass}}{V}$. Since $n = \\frac{\\text{mass}}{M}$ (molar mass), substituting into $PV=nRT$ gives $PV = \\frac{\\text{mass}}{M}RT \\implies \\frac{\\text{mass}}{V} = \\frac{PM}{RT} \\implies d = \\frac{PM}{RT}$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-f346ec",
+      "q": "What is the pressure exerted by $2.0\\ \\text{mol}$ of oxygen gas in a $10.0\\ \\text{L}$ container at $300\\ \\text{K}$? ($R = 0.0821\\ \\text{L}\\cdot\\text{atm}/\\text{mol}\\cdot\\text{K}$)",
+      "options": [
+        "2.46 atm",
+        "4.93 atm",
+        "6.00 atm",
+        "49.2 atm"
+      ],
+      "correct": 1,
+      "explain": "$$P = \\frac{nRT}{V} = \\frac{2.0 \\times 0.0821 \\times 300}{10.0} = 4.926 \\approx 4.93\\ \\text{atm}$$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-12nzb4k",
+      "q": "An unknown gas has a density of $1.96\\ \\text{g/L}$ at STP ($0^\\circ\\text{C}, 1\\ \\text{atm}$). What is the molar mass of the gas?",
+      "options": [
+        "28 g/mol",
+        "44 g/mol",
+        "16 g/mol",
+        "32 g/mol"
+      ],
+      "correct": 1,
+      "explain": "At STP, 1 mole occupies 22.4 L. Molar Mass $M = \\text{density} \\times \\text{Molar Volume} = 1.96\\ \\text{g/L} \\times 22.4\\ \\text{L/mol} \\approx 43.9\\ \\text{g/mol}$. The closest value is 44 g/mol ($\\\\text{CO}_2$).",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-10522ds",
+      "q": "If the temperature of an ideal gas is doubled and the pressure is halved, what happens to the volume?",
+      "options": [
+        "It remains the same.",
+        "It doubles.",
+        "It quadruples.",
+        "It is halved."
+      ],
+      "correct": 2,
+      "explain": "From $V = \\frac{nRT}{P}$, if $T​$ becomes $2T$ and $P​$ becomes $0.5P$, then $V_{new} = \\frac{nR(2T)}{0.5P} = 4 \\times \\frac{nRT}{P}$. The volume increases by a factor of 4.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-1t46fsf",
+      "q": "What is the value of the Ideal Gas Constant ($R​$) when pressure is in atm, volume in liters, and temperature in Kelvin?",
+      "options": [
+        "8.314",
+        "0.0821",
+        "62.36",
+        "1.987"
+      ],
+      "correct": 1,
+      "explain": "The standard value for $R​$ in these units ($L\\cdot\\text{atm}/\\text{mol}\\cdot\\text{K}$) is $0.08206$, commonly rounded to $0.0821$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-1y1bwj0",
+      "q": "A student collects experimental data: $P=1.0\\ \\text{atm}$, $V=2.0\\ \\text{L}$, $T=300\\ \\text{K}$, mass of gas $= 2.6\\ \\text{g}$. What is the approximate molar mass of the gas?",
+      "options": [
+        "16 g/mol",
+        "32 g/mol",
+        "64 g/mol",
+        "28 g/mol"
+      ],
+      "correct": 1,
+      "explain": "First, calculate moles: $n = \\frac{PV}{RT} = \\frac{1.0 \\times 2.0}{0.0821 \\times 300} \\approx 0.0812\\ \\text{mol}$. Then, Molar Mass $M = \\frac{\\text{mass}}{n} = \\frac{2.6\\ \\text{g}}{0.0812\\ \\text{mol}} \\approx 32.0\\ \\text{g/mol}$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-ftv904",
+      "q": "Which variable is NOT present in the Ideal Gas Equation ($PV=nRT$)?",
+      "options": [
+        "Density",
+        "Pressure",
+        "Moles",
+        "Temperature"
+      ],
+      "correct": 0,
+      "explain": "The standard form $PV=nRT$ includes Pressure, Volume, Moles ($n​$), Gas Constant, and Temperature. Density is derived from it but not an explicit variable in the primary equation.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-1sgyhmg",
+      "q": "How many moles of gas are present in a $500\\ \\text{mL}$ flask at $27^\\circ\\text{C}$ and $760\\ \\text{mmHg}$?",
+      "options": [
+        "0.020 mol",
+        "0.041 mol",
+        "22.4 mol",
+        "1.0 mol"
+      ],
+      "correct": 0,
+      "explain": "$V=0.5\\ \\text{L}$, $T=300\\ \\text{K}$, $P=1\\ \\text{atm}$ ($760\\ \\text{mmHg}$). $$n = \\frac{PV}{RT} = \\frac{1 \\times 0.5}{0.0821 \\times 300} \\approx 0.0203\\ \\text{mol}$$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-1snoryk",
+      "q": "Which of the following assumptions is key to the definition of an \"Ideal Gas\" used in the $PV=nRT$ equation?",
+      "options": [
+        "Particles have significant volume.",
+        "Particles attract each other strongly.",
+        "Particles have no volume and no intermolecular forces.",
+        "Collisions between particles are inelastic."
+      ],
+      "correct": 2,
+      "explain": "An ideal gas is theoretical; it assumes particles are point masses (zero volume) and experience no intermolecular attraction or repulsion.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-a00vhb",
+      "q": "Calculate the temperature (in $^\\circ\\text{C}$) of $0.10\\ \\text{mol}$ of gas occupying $2.0\\ \\text{L}$ at $1.2\\ \\text{atm}$.",
+      "options": [
+        "292 K",
+        "19 °C",
+        "292 °C",
+        "273 °C"
+      ],
+      "correct": 1,
+      "explain": "$$T = \\frac{PV}{nR} = \\frac{1.2 \\times 2.0}{0.10 \\times 0.0821} \\approx 292.3\\ \\text{K}$$. Convert to Celsius: $$292.3 - 273.15 \\approx 19.15^\\circ\\text{C}$$.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    },
+    {
+      "id": "states-of-matter-and-gas-laws-ofgqc0",
+      "q": "A rigid tank contains gas at pressure $P​$. If you release half the moles of gas while maintaining constant temperature, what happens to the pressure?",
+      "options": [
+        "It doubles.",
+        "It remains the same.",
+        "It is halved.",
+        "It drops to zero."
+      ],
+      "correct": 2,
+      "explain": "Based on $PV=nRT$, Pressure is directly proportional to moles ($n​$). If $n​$ is halved (and $V, T$ constant), $P​$ is halved.",
+      "exam": "States of Matter and Gas Laws",
+      "subject": "Chemistry",
+      "topic": "Ideal Gas Equation",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice Questions",
+      "tags": []
+    }
+  ]
+}

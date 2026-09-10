@@ -1,0 +1,111 @@
+{
+  "title": "WASSCE Further Maths: Calculus (Differentiation & Integration) - Further Mathematics - Integration by Substitution",
+  "titleHi": "",
+  "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+  "subject": "Further Mathematics",
+  "topic": "Integration by Substitution",
+  "source": "github:online-exam-questions",
+  "count": 5,
+  "questions": [
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1cl5csw",
+      "q": "Evaluate $\\int x\\sqrt{x^2+1} dx$.",
+      "options": [
+        "$\\frac{1}{3}(x^2+1)^{3/2} + C$",
+        "$\\frac{2}{3}(x^2+1)^{3/2} + C$",
+        "$\\frac{1}{2}(x^2+1)^{3/2} + C$",
+        "$\\frac{1}{3}x(x^2+1)^{3/2} + C$"
+      ],
+      "correct": 0,
+      "explain": "Let $u = x^2 + 1$. Then $du = 2x dx$, which implies $x dx = \\frac{1}{2} du$. Substituting gives $\\int \\frac{1}{2} u^{1/2} du$. Integrating yields $\\frac{1}{2} \\left( \\frac{u^{3/2}}{3/2} \\right) + C = \\frac{1}{3}u^{3/2} + C$. Substituting back $u$ results in $\\frac{1}{3}(x^2+1)^{3/2} + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Integration by Substitution",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-a4zm9o",
+      "q": "Evaluate the definite integral $\\int_0^1 x(1-x^2)^3 dx$.",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{8}$",
+        "$-\\frac{1}{8}$",
+        "$\\frac{1}{16}$"
+      ],
+      "correct": 1,
+      "explain": "Let $u = 1-x^2$. Then $du = -2x dx \\implies x dx = -\\frac{1}{2} du$. The limits change: when $x=0$, $u=1$; when $x=1$, $u=0$. The integral becomes $\\int_1^0 (-\\frac{1}{2} u^3) du = \\frac{1}{2} \\int_0^1 u^3 du$. Evaluating this gives $\\frac{1}{2} [\\frac{u^4}{4}]_0^1 = \\frac{1}{2}(\\frac{1}{4}) = \\frac{1}{8}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Integration by Substitution",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-beqwek",
+      "q": "Evaluate $\\int 2x e^{x^2} dx$.",
+      "options": [
+        "$e^{x^2} + C$",
+        "$2e^{x^2} + C$",
+        "$x^2 e^{x^2} + C$",
+        "$\\frac{1}{2} e^{x^2} + C$"
+      ],
+      "correct": 0,
+      "explain": "Use substitution: let $u = x^2$, then $du = 2x dx$. The integral becomes $\\int e^u du$, which evaluates to $e^u + C$. Substituting back $u = x^2$ yields $e^{x^2} + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Integration by Substitution",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-dxrc8c",
+      "q": "Evaluate the integral $\\int \\frac{x}{(x^2+1)^2} dx$.",
+      "options": [
+        "$\\frac{1}{2(x^2+1)} + C$",
+        "$-\\frac{1}{x^2+1} + C$",
+        "$-\\frac{1}{2(x^2+1)} + C$",
+        "$\\frac{1}{x^2+1} + C$"
+      ],
+      "correct": 2,
+      "explain": "Let $u = x^2 + 1$, so $du = 2x dx \\implies x dx = \\frac{1}{2}du$. The integral transforms to $\\int \\frac{1}{2} u^{-2} du = \\frac{1}{2}(\\frac{u^{-1}}{-1}) + C = -\\frac{1}{2u} + C$. Substituting back gives $-\\frac{1}{2(x^2+1)} + C$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Integration by Substitution",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "wassce-further-maths:-calculus-(differentiation-&-integration)-1d7jycc",
+      "q": "Evaluate exactly $\\int_0^1 x^2(1-x^3)^4 dx$.",
+      "options": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{15}$",
+        "$-\\frac{1}{15}$",
+        "$\\frac{1}{3}$"
+      ],
+      "correct": 1,
+      "explain": "Use substitution: let $u = 1-x^3$, which makes $du = -3x^2 dx$, or $x^2 dx = -\\frac{1}{3}du$. When $x=0$, $u=1$. When $x=1$, $u=0$. The integral becomes $\\int_1^0 -\\frac{1}{3}u^4 du = \\frac{1}{3}\\int_0^1 u^4 du$. Integrating gives $\\frac{1}{3}[\\frac{u^5}{5}]_0^1 = \\frac{1}{3}(\\frac{1}{5}) = \\frac{1}{15}$.",
+      "exam": "WASSCE Further Maths: Calculus (Differentiation & Integration)",
+      "subject": "Further Mathematics",
+      "topic": "Integration by Substitution",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

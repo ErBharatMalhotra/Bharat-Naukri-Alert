@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 2, PYQ) - QA - Time, Speed and Distance",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+  "subject": "QA",
+  "topic": "Time, Speed and Distance",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-2,-pyq)-1k9aw9o",
+      "q": "Rita and Sneha can row a boat at $5$ km/h and $6$ km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "Let the river's velocity be $u$ km/h. \nSneha's upstream speed $= 6 - u$, downstream speed $= 6 + u$. 48 mins = 0.8 hours.\nTime upstream - Time downstream = $\\frac{14}{6 - u} - \\frac{14}{6 + u} = 0.8$.\n$14(6 + u - 6 + u) = 0.8(36 - u^2) \\implies 28u = 28.8 - 0.8u^2 \\implies u^2 + 35u - 36 = 0$.\nSolving $(u+36)(u-1)=0$ gives $u = 1$ km/h.\nRita's speeds are $5 - 1 = 4$ km/h (upstream) and $5 + 1 = 6$ km/h (downstream).\nLet the one-way distance Rita covers be $D$. Total time = 100 mins = $\\frac{5}{3}$ hours.\n$\\frac{D}{4} + \\frac{D}{6} = \\frac{5}{3} \\implies \\frac{3D + 2D}{12} = \\frac{5}{3} \\implies \\frac{5D}{12} = \\frac{5}{3} \\implies D = 4$ km.\nTotal distance Rita covers (round trip) = $2D = 8$ km.",
+      "exam": "CAT 2025 Question Paper (Slot 2, PYQ)",
+      "subject": "QA",
+      "topic": "Time, Speed and Distance",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

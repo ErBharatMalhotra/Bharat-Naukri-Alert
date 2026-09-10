@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2023 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Permutation and Combination",
+  "titleHi": "",
+  "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Permutation and Combination",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2023-question-paper-(slot-1,-pyq)-115ik75",
+      "q": "The number of all natural numbers up to 1000 with non-repeating digits is",
+      "options": [
+        "648",
+        "585",
+        "504",
+        "738"
+      ],
+      "correct": 3,
+      "explain": "We count the non-repeating numbers according to the number of digits. \n1-digit numbers (1 to 9): 9 choices.\n2-digit numbers (10 to 99): First digit can be 1-9 (9 choices). Second digit can be 0-9 minus the first digit (9 choices). Total = $9 \\times 9 = 81$.\n3-digit numbers (100 to 999): First digit can be 1-9 (9 choices). Second digit can be 0-9 minus the first (9 choices). Third digit can be 0-9 minus the first two (8 choices). Total = $9 \\times 9 \\times 8 = 648$.\nThe only 4-digit number up to 1000 is 1000, which has repeating digits. \nThe total is $9 + 81 + 648 = 738$.",
+      "exam": "CAT 2023 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Permutation and Combination",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2023,
+      "tags": []
+    }
+  ]
+}

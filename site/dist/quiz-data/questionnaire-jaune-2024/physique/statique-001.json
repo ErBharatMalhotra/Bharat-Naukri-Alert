@@ -1,0 +1,31 @@
+{
+  "title": "Questionnaire jaune 2024 - Physique - Statique",
+  "titleHi": "",
+  "exam": "Questionnaire jaune 2024",
+  "subject": "Physique",
+  "topic": "Statique",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "questionnaire-jaune-2024-1tokcia",
+      "q": "Une masse $m$ est suspendue à un crochet par deux câbles de même longueur et formant entre eux un angle $\\alpha$ (voir schéma ci-dessous). Chaque câble peut supporter au maximum une tension de $500\\text{ N}$.\nQuelle est la valeur maximale de $m$, exprimée en kg, qui peut être suspendue aux câbles sans qu'ils ne cèdent (prendre $g = 10\\text{ m/s}^2$) ?",
+      "options": [
+        "$50$",
+        "$100 \\cos(\\alpha/2)$",
+        "$100 \\cos(\\alpha)$",
+        "$100$"
+      ],
+      "correct": 1,
+      "explain": "À l'équilibre, la somme des forces verticales est nulle. La composante verticale de la tension de chaque câble est $T_y = T \\cos(\\alpha/2)$. Il y a deux câbles, donc $2 T \\cos(\\alpha/2) = m g$. Pour trouver la masse maximale, on utilise la tension maximale $T = 500\\text{ N}$. L'équation devient $2(500)\\cos(\\alpha/2) = m(10) \\implies 1000 \\cos(\\alpha/2) = 10 m \\implies m = 100 \\cos(\\alpha/2)$.",
+      "exam": "Questionnaire jaune 2024",
+      "subject": "Physique",
+      "topic": "Statique",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "2024",
+      "tags": []
+    }
+  ]
+}

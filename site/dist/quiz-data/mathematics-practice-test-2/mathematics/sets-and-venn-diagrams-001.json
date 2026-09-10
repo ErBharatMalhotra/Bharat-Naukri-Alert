@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 2 - Mathematics - Sets and Venn Diagrams",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 2",
+  "subject": "Mathematics",
+  "topic": "Sets and Venn Diagrams",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-2-gehe54",
+      "q": "At a college track meet, there are 3 jumping events: high jump, long jump, and triple jump. The Venn diagram below shows the distribution of the number of athletes competing in each jumping event. How many athletes are competing in both high jump and triple jump but not long jump?\n\n<svg viewBox=\"0 0 200 200\" width=\"200\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"80\" cy=\"80\" r=\"40\" stroke=\"black\" fill=\"none\"/>\n  <circle cx=\"120\" cy=\"80\" r=\"40\" stroke=\"black\" fill=\"none\"/>\n  <circle cx=\"100\" cy=\"115\" r=\"40\" stroke=\"black\" fill=\"none\"/>\n  <text x=\"60\" y=\"75\" font-size=\"12\">5</text>\n  <text x=\"135\" y=\"75\" font-size=\"12\">7</text>\n  <text x=\"97\" y=\"135\" font-size=\"12\">2</text>\n  <text x=\"100\" y=\"70\" font-size=\"12\" text-anchor=\"middle\">9</text>\n  <text x=\"75\" y=\"105\" font-size=\"12\">3</text>\n  <text x=\"120\" y=\"105\" font-size=\"12\">6</text>\n  <text x=\"97\" y=\"95\" font-size=\"12\">1</text>\n  <text x=\"30\" y=\"30\" font-size=\"10\">high jump</text>\n  <text x=\"140\" y=\"30\" font-size=\"10\">long jump</text>\n  <text x=\"75\" y=\"170\" font-size=\"10\">triple jump</text>\n</svg>",
+      "options": [
+        "3",
+        "4",
+        "10",
+        "19"
+      ],
+      "correct": 0,
+      "explain": "The region representing athletes in both high jump and triple jump but not long jump is the intersection of the 'high jump' and 'triple jump' circles that lies exclusively outside the 'long jump' circle. According to the Venn diagram, this number is 3.",
+      "exam": "Mathematics Practice Test 2",
+      "subject": "Mathematics",
+      "topic": "Sets and Venn Diagrams",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

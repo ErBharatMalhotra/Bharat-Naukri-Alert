@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 1, PYQ) - Quantitative Aptitude - Interest",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Interest",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-1,-pyq)-3z0984",
+      "q": "At a certain simple rate of interest, a given sum amounts to Rs 13920 in 3 years, and to Rs 18960 in 6 years and 6 months. If the same given sum had been invested for 2 years at the same rate as before but with interest compounded every 6 months, then the total interest earned, in rupees, would have been nearest to",
+      "options": [
+        "3096",
+        "3150",
+        "3180",
+        "3221"
+      ],
+      "correct": 3,
+      "explain": "Simple Interest for $3.5$ years ($6.5 - 3$) = $18960 - 13920 = 5040$.\nSI per year = $5040 / 3.5 = 1440$.\nPrincipal = $13920 - (3 \\times 1440) = 9600$.\nRate = $(1440 / 9600) \\times 100 = 15\\%$ p.a.\nFor compounded interest every 6 months: Rate per period = $15\\% / 2 = 7.5\\%$. Number of periods in 2 years = 4.\nAmount = $9600 \\times (1 + 0.075)^4 = 9600 \\times (1.075)^4 \\approx 9600 \\times 1.335469 = 12820.5$.\nCompound Interest = $12820.5 - 9600 = 3220.5$, which is nearest to 3221.",
+      "exam": "CAT 2025 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Interest",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

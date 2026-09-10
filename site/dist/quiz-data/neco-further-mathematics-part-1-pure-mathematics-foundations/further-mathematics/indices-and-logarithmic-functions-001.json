@@ -1,0 +1,231 @@
+{
+  "title": "NECO Further Mathematics Part 1: Pure Mathematics Foundations - Further Mathematics - Indices and Logarithmic Functions",
+  "titleHi": "",
+  "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+  "subject": "Further Mathematics",
+  "topic": "Indices and Logarithmic Functions",
+  "source": "github:online-exam-questions",
+  "count": 11,
+  "questions": [
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1s844r8",
+      "q": "Evaluate $16^{-3/4}$.",
+      "options": [
+        "$\\frac{1}{12}$",
+        "$-\\frac{1}{8}$",
+        "$\\frac{1}{8}$",
+        "$-12$"
+      ],
+      "correct": 2,
+      "explain": "To evaluate $16^{-3/4}$, we apply the laws of indices. \nFirst, rewrite $16$ as a power of 2: $16 = 2^4$.\n$$(2^4)^{-3/4}$$\nMultiply the exponents: $4 \\times \\left(-\\frac{3}{4}\\right) = -3$.\n$$2^{-3}$$\nA negative exponent implies taking the reciprocal: \n$$2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1kr1e6o",
+      "q": "Solve for $x$ in the equation $9^{x - 1} = 27^{x + 1}$.",
+      "options": [
+        "$-5$",
+        "$-4$",
+        "$1$",
+        "$5$"
+      ],
+      "correct": 0,
+      "explain": "Express both bases as powers of $3$:\n$9 = 3^2$ and $27 = 3^3$.\nSubstitute these into the equation:\n$$(3^2)^{x - 1} = (3^3)^{x + 1}$$\nApply the power law $(a^m)^n = a^{mn}$:\n$$3^{2(x - 1)} = 3^{3(x + 1)}$$\n$$3^{2x - 2} = 3^{3x + 3}$$\nSince the bases are equal, equate the exponents:\n$$2x - 2 = 3x + 3$$\nCollect like terms:\n$$-2 - 3 = 3x - 2x$$\n$$x = -5$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-dqjckc",
+      "q": "Find the values of $x$ that satisfy the equation $4^x - 5(2^x) + 4 = 0$.",
+      "options": [
+        "$1$ and $4$",
+        "$0$ and $2$",
+        "$-1$ and $-4$",
+        "$0$ and $4$"
+      ],
+      "correct": 1,
+      "explain": "Notice that $4^x = (2^2)^x = (2^x)^2$. Let $p = 2^x$. \nThe equation can be rewritten as a quadratic in terms of $p$:\n$$p^2 - 5p + 4 = 0$$\nFactorize the quadratic:\n$$(p - 4)(p - 1) = 0$$\nThis gives $p = 4$ or $p = 1$.\n\nNow, substitute back $2^x = p$:\n- If $2^x = 4$, then $2^x = 2^2 \\implies x = 2$.\n- If $2^x = 1$, then $2^x = 2^0 \\implies x = 0$.\n\nHence, the solutions are $x = 0$ and $x = 2$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1a4kag0",
+      "q": "Simplify the expression $\\frac{3^{n+1} - 3^n}{3^{n-1}}$.",
+      "options": [
+        "$2$",
+        "$6$",
+        "$3^n$",
+        "$9$"
+      ],
+      "correct": 1,
+      "explain": "Factor out the common term $3^n$ from the numerator:\n$$3^{n+1} - 3^n = 3^n(3^1) - 3^n(1) = 3^n(3 - 1) = 3^n(2)$$\n\nNow substitute this back into the fraction:\n$$\\frac{3^n \\times 2}{3^{n-1}}$$\n\nUsing the law of indices $\\frac{a^x}{a^y} = a^{x-y}$ on the base $3$:\n$$3^{n - (n - 1)} \\times 2$$\n$$3^{n - n + 1} \\times 2$$\n$$3^1 \\times 2 = 6$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-aqavdo",
+      "q": "Evaluate $\\log_2 \\left(\\frac{1}{32}\\right)$.",
+      "options": [
+        "$\\frac{1}{5}$",
+        "$5$",
+        "$-5$",
+        "$-\\frac{1}{5}$"
+      ],
+      "correct": 2,
+      "explain": "Let $\\log_2 \\left(\\frac{1}{32}\\right) = x$.\nBy the definition of logarithms, we rewrite this in exponential form:\n$$2^x = \\frac{1}{32}$$\n\nExpress $\\frac{1}{32}$ as a power of 2:\n$$32 = 2^5$$\n$$\\frac{1}{32} = 2^{-5}$$\n\nSo, $2^x = 2^{-5}$. Therefore, $x = -5$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-5bjuka",
+      "q": "Evaluate $\\log_3 54 - \\log_3 2$.",
+      "options": [
+        "$3$",
+        "$6$",
+        "$9$",
+        "$27$"
+      ],
+      "correct": 0,
+      "explain": "According to the subtraction law of logarithms, $\\log_a M - \\log_a N = \\log_a \\left(\\frac{M}{N}\\right)$.\nApplying this rule:\n$$\\log_3 54 - \\log_3 2 = \\log_3 \\left(\\frac{54}{2}\\right)$$\n$$= \\log_3 27$$\n\nNow, express $27$ as a power of 3:\n$27 = 3^3$.\n$$= \\log_3(3^3) = 3 \\log_3 3 = 3(1) = 3$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-ui5dcc",
+      "q": "Solve for $x$ in the equation $\\log_x 64 = 3$.",
+      "options": [
+        "$2$",
+        "$4$",
+        "$8$",
+        "$16$"
+      ],
+      "correct": 1,
+      "explain": "Rewrite the logarithmic equation in its equivalent exponential form:\n$$\\log_x 64 = 3 \\implies x^3 = 64$$\n\nTake the cube root of both sides:\n$$x = \\sqrt[3]{64}$$\n$$x = 4$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1p39n48",
+      "q": "Solve for $x$ in the equation $\\log_2(x) + \\log_2(x - 2) = 3$.",
+      "options": [
+        "$4$ only",
+        "$-2$ only",
+        "$4$ and $-2$",
+        "$2$ and $4$"
+      ],
+      "correct": 0,
+      "explain": "Use the addition law of logarithms to combine the terms on the left:\n$$\\log_2 [x(x - 2)] = 3$$\n\nConvert this to exponential form:\n$$x(x - 2) = 2^3$$\n$$x^2 - 2x = 8$$\n$$x^2 - 2x - 8 = 0$$\n\nFactorize the quadratic equation:\n$$(x - 4)(x + 2) = 0$$\nThis gives $x = 4$ or $x = -2$.\n\n**Check for extraneous roots:** \nThe domain of logarithmic functions requires arguments to be strictly greater than zero. If $x = -2$, then $\\log_2(-2)$ is undefined. \nThus, the only valid solution is $x = 4$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-16aeuoj",
+      "q": "Given that $\\log_{10} 2 = 0.3010$ and $\\log_{10} 3 = 0.4771$, evaluate $\\log_{10} 45$.",
+      "options": [
+        "$1.6532$",
+        "$1.7781$",
+        "$0.9542$",
+        "$1.9542$"
+      ],
+      "correct": 0,
+      "explain": "Express $45$ using factors of $2$, $3$, and $10$ (since base 10 makes $\\log_{10} 10 = 1$ easy to use). \n$45 = 9 \\times 5 = 3^2 \\times \\frac{10}{2}$.\n\nNow, take the logarithm:\n$$\\log_{10} 45 = \\log_{10} \\left(3^2 \\times \\frac{10}{2}\\right)$$\n$$= \\log_{10}(3^2) + \\log_{10}(10) - \\log_{10}(2)$$\n$$= 2\\log_{10} 3 + 1 - \\log_{10} 2$$\n\nSubstitute the given values:\n$$= 2(0.4771) + 1 - 0.3010$$\n$$= 0.9542 + 1 - 0.3010$$\n$$= 1.9542 - 0.3010 = 1.6532$$",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-tzsgvk",
+      "q": "Find the values of $x$ for which $\\log_3 x - \\log_x 3 = 0$.",
+      "options": [
+        "$3$ only",
+        "$\\frac{1}{3}$ only",
+        "$1$ and $3$",
+        "$3$ and $\\frac{1}{3}$"
+      ],
+      "correct": 3,
+      "explain": "Use the change of base theorem, which states that $\\log_b a = \\frac{1}{\\log_a b}$. \nLet $y = \\log_3 x$. Then $\\log_x 3 = \\frac{1}{y}$.\n\nSubstitute this into the equation:\n$$y - \\frac{1}{y} = 0$$\nMultiply through by $y$ (where $y \\neq 0$):\n$$y^2 - 1 = 0$$\n$$y^2 = 1 \\implies y = 1 \\text{ or } y = -1$$\n\nNow solve for $x$:\n- If $y = 1$, then $\\log_3 x = 1 \\implies x = 3^1 = 3$.\n- If $y = -1$, then $\\log_3 x = -1 \\implies x = 3^{-1} = \\frac{1}{3}$.\n\nThus, $x = 3$ or $x = \\frac{1}{3}$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "neco-further-mathematics-part-1:-pure-mathematics-foundations-1puinq2",
+      "q": "Solve the following simultaneous equations for $x$ and $y$:\n$$2^x \\times 4^y = 128$$\n$$\\log_2 (x - y) = 2$$",
+      "options": [
+        "$x = 4, y = 3$",
+        "$x = 5, y = 1$",
+        "$x = 1, y = 5$",
+        "$x = 2, y = -1$"
+      ],
+      "correct": 1,
+      "explain": "First, simplify the exponential equation:\n$$2^x \\times (2^2)^y = 2^7$$\n$$2^x \\times 2^{2y} = 2^7$$\n$$2^{x + 2y} = 2^7$$\nEquating exponents yields the first linear equation:\n$$x + 2y = 7 \\quad \\text{--- (1)}$$\n\nSecond, simplify the logarithmic equation:\n$$\\log_2 (x - y) = 2 \\implies x - y = 2^2$$\n$$x - y = 4 \\quad \\text{--- (2)}$$\n\nNow solve simultaneously. From (2), $x = y + 4$. Substitute this into (1):\n$$(y + 4) + 2y = 7$$\n$$3y + 4 = 7$$\n$$3y = 3 \\implies y = 1$$\n\nSubstitute $y = 1$ back into (2):\n$$x - 1 = 4 \\implies x = 5$$\nTherefore, $x = 5$ and $y = 1$.",
+      "exam": "NECO Further Mathematics Part 1: Pure Mathematics Foundations",
+      "subject": "Further Mathematics",
+      "topic": "Indices and Logarithmic Functions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

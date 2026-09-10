@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 1, QA) - Quant - Remainders",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+  "subject": "Quant",
+  "topic": "Remainders",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-1,-qa)-53qe5w",
+      "q": "When $10^{100}$ is divided by 7, the remainder is",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "4"
+      ],
+      "correct": 3,
+      "explain": "We need to find $10^{100} \\pmod 7$. Since $10 \\equiv 3 \\pmod 7$, this is equivalent to finding $3^{100} \\pmod 7$. By Fermat's Little Theorem, $3^6 \\equiv 1 \\pmod 7$. We write $100$ as $100 = 6 \\times 16 + 4$. So, $3^{100} = (3^6)^{16} \\times 3^4 \\equiv 1^{16} \\times 3^4 \\equiv 81 \\pmod 7$. Since $81 = 11 \\times 7 + 4$, the remainder is 4.",
+      "exam": "CAT 2024 Question Paper (Slot 1, QA)",
+      "subject": "Quant",
+      "topic": "Remainders",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

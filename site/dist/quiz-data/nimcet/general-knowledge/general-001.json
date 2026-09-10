@@ -1,0 +1,2011 @@
+{
+  "title": "nimcet - General Knowledge - General",
+  "titleHi": "",
+  "exam": "nimcet",
+  "subject": "General Knowledge",
+  "topic": "General",
+  "source": "github:exam-questions",
+  "count": 100,
+  "questions": [
+    {
+      "id": "nimcet-17eom2g",
+      "q": "Evaluate:\n$\\int \\frac{2x + 3}{x^2 + 3x + 2} dx$",
+      "options": [
+        "$\\ln|x+1| + \\ln|x+2| + C$",
+        "$2\\ln|x+1| - \\ln|x+2| + C$",
+        "$\\ln|x+1| - \\ln|x+2| + C$",
+        "$\\ln|x+2| - \\ln|x+1| + C$"
+      ],
+      "correct": 0,
+      "explain": "Using partial fractions:\n$\\frac{2x+3}{(x+1)(x+2)} = \\frac{A}{x+1} + \\frac{B}{x+2}$\nSolving: A=1, B=1\nIntegrating gives: $2\\ln|x+1| - \\ln|x+2| + C$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1puq3ko",
+      "q": "Find $\\lim_{x \\to 0} \\frac{e^x - e^{-x}}{\\sin x}$",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "$\\infty$"
+      ],
+      "correct": 0,
+      "explain": "Using L'Hôpital's rule:\n$\\lim_{x \\to 0} \\frac{e^x + e^{-x}}{\\cos x} = \\frac{2}{1} = 2$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1gjf3pc",
+      "q": "Find the derivative of $f(x) = x^x$ for $x > 0$",
+      "options": [
+        "$x^x$",
+        "$x^x(1 + \\ln x)$",
+        "$x^{x-1}$",
+        "$x^x \\ln x$"
+      ],
+      "correct": 0,
+      "explain": "$\\ln y = x\\ln x$\n$\\frac{1}{y}\\frac{dy}{dx} = \\ln x + 1$\n$\\frac{dy}{dx} = x^x(1 + \\ln x)$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1jh5638",
+      "q": "Sum of infinite GP with first term 6 and common ratio $-\\frac{1}{3}$ is:",
+      "options": [
+        "$\\frac{9}{2}$",
+        "$\\frac{18}{4}$",
+        "$\\frac{9}{4}$",
+        "Does not converge"
+      ],
+      "correct": 0,
+      "explain": "Sum = $\\frac{a}{1-r} = \\frac{6}{1-(-1/3)} = \\frac{6}{4/3} = \\frac{9}{2}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-12yvrc",
+      "q": "If matrices $A$ is $3 \\times 4$ and $B$ is $4 \\times 2$, what is rank of $AB$ at most?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "rank(AB) ≤ min(rank(A), rank(B)) ≤ min(3, 2) = 2",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-7ilhps",
+      "q": "The eigenvalues of $\\begin{bmatrix} 5 & 2 \\\\ 2 & 5 \\end{bmatrix}$ are:",
+      "options": [
+        "3, 7",
+        "7, 3",
+        "5, 5",
+        "Both 1 and 2"
+      ],
+      "correct": 0,
+      "explain": "Characteristic equation: $(5-\\lambda)^2 - 4 = 0\n\\lambda^2 - 10\\lambda + 21 = 0\n\\lambda = 7, 3$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-zxfzo8",
+      "q": "What is $\\log_3 81 + \\log_2 32$?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "$\\log_3 81 = \\log_3 3^4 = 4$\n$\\log_2 32 = \\log_2 2^5 = 5$\nSum = 9",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-crudeu",
+      "q": "The arithmetic mean of 10, 20, 30, 40, 50 is 30.\nWhat is the geometric mean?",
+      "options": [
+        "25.7",
+        "26.3",
+        "27.8",
+        "30"
+      ],
+      "correct": 3,
+      "explain": "GM = $(10 \\times 20 \\times 30 \\times 40 \\times 50)^{1/5}$\n$= (12000000)^{0.2} \\approx 27.8$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-wto3ui",
+      "q": "If $P(A) = 0.4$, $P(B) = 0.5$, and $P(A \\cap B) = 0.2$, find $P(A \\cup B)$",
+      "options": [
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9"
+      ],
+      "correct": 0,
+      "explain": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$\n$= 0.4 + 0.5 - 0.2 = 0.7$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-76wrds",
+      "q": "Area of triangle with vertices $(0,0)$, $(6,0)$, and $(3,4)$ is:",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "Area = $\\frac{1}{2}|x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$\n$= \\frac{1}{2}|0 + 6(4) + 0| = 12$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-v7i6a2",
+      "q": "Solve: $4^x = 128$",
+      "options": [
+        "$\\frac{5}{2}$",
+        "$\\frac{7}{2}$",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "$4^x = 128$\n$2^{2x} = 2^7$\n$2x = 7$\n$x = \\frac{7}{2}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-fnvrn0",
+      "q": "Number of ways to select 3 books from 8 different books is:",
+      "options": [
+        "24",
+        "56",
+        "336",
+        "512"
+      ],
+      "correct": 0,
+      "explain": "$^8C_3 = \\frac{8!}{3! \\times 5!} = \\frac{8 \\times 7 \\times 6}{6} = 56$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1ronezc",
+      "q": "Value of $\\sin(15°)$ is:",
+      "options": [
+        "$\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$",
+        "$\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$"
+      ],
+      "correct": 0,
+      "explain": "Using $\\sin(45° - 30°) = \\sin 45° \\cos 30° - \\cos 45° \\sin 30°$\n$= \\frac{\\sqrt{3}-1}{2\\sqrt{2}}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1pqctnm",
+      "q": "Equation of line perpendicular to $3x + 4y = 12$ passing through $(1, 2)$:",
+      "options": [
+        "$4x - 3y + 2 = 0$",
+        "$4x - 3y - 2 = 0$",
+        "$3x + 4y - 11 = 0$",
+        "$4x + 3y - 10 = 0$"
+      ],
+      "correct": 0,
+      "explain": "Slope of given line = $-\\frac{3}{4}$\nPerpendicular slope = $\\frac{4}{3}$\nEquation: $y - 2 = \\frac{4}{3}(x - 1)$\n$4x - 3y + 2 = 0$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-5g8yr1",
+      "q": "If $f(x) = 2x^3 - 9x^2 + 12x + 1$, find critical points:",
+      "options": [
+        "$x = 1, 2$",
+        "$x = 1, 3$",
+        "$x = 2, 3$",
+        "$x = 0, 2$"
+      ],
+      "correct": 0,
+      "explain": "$f'(x) = 6x^2 - 18x + 12 = 0$\n$x^2 - 3x + 2 = 0$\n$(x-1)(x-2) = 0$\n$x = 1, 2$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-yi5z50",
+      "q": "Solution to $x^2 - 7x + 10 = 0$ is:",
+      "options": [
+        "$x = 2, 5$",
+        "$x = -2, -5$",
+        "$x = 3, 4$",
+        "$x = 1, 10$"
+      ],
+      "correct": 0,
+      "explain": "$(x-2)(x-5) = 0$\n$x = 2$ or $x = 5$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-73jtck",
+      "q": "Variance of dataset $\\{3, 7, 11, 15, 19\\}$ is:",
+      "options": [
+        "20",
+        "24",
+        "32",
+        "40"
+      ],
+      "correct": 2,
+      "explain": "Mean = 11\nVariance = $\\frac{(64+16+0+16+64)}{5} = 32$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-9nkhlm",
+      "q": "Number of diagonals in an octagon:",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "correct": 1,
+      "explain": "Diagonals = $\\frac{n(n-3)}{2} = \\frac{8 \\times 5}{2} = 20$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1n0udhg",
+      "q": "$\\sqrt{625} - \\sqrt{256}$ equals:",
+      "options": [
+        "7",
+        "9",
+        "11",
+        "13"
+      ],
+      "correct": 0,
+      "explain": "$\\sqrt{625} = 25$, $\\sqrt{256} = 16$\nDifference = 9",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-10iq2vs",
+      "q": "If $\\log 5 = 0.699$, find $\\log 125$:",
+      "options": [
+        "1.398",
+        "1.699",
+        "2.097",
+        "2.398"
+      ],
+      "correct": 0,
+      "explain": "$\\log 125 = \\log 5^3 = 3\\log 5 = 3(0.699) = 2.097$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-3fcisk",
+      "q": "Modulus of complex number $6 + 8i$:",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 0,
+      "explain": "$|z| = \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-2s4b0",
+      "q": "Sum of series $2 + 4 + 6 + ... + 100$:",
+      "options": [
+        "2500",
+        "2550",
+        "2600",
+        "5050"
+      ],
+      "correct": 0,
+      "explain": "Sum = $2(1+2+...+50) = 2 \\times \\frac{50 \\times 51}{2} = 2550$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1iwptw0",
+      "q": "GCD of 144 and 180:",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "correct": 0,
+      "explain": "Using Euclidean algorithm: GCD(144, 180) = 36",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1q1tmtg",
+      "q": "If $\\cos \\theta = \\frac{12}{13}$, find $\\sec \\theta$:",
+      "options": [
+        "$\\frac{13}{12}$",
+        "$\\frac{12}{13}$",
+        "$\\frac{13}{5}$",
+        "$\\frac{5}{13}$"
+      ],
+      "correct": 0,
+      "explain": "$\\sec \\theta = \\frac{1}{\\cos \\theta} = \\frac{13}{12}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1sy81fr",
+      "q": "Number of arrangements of word 'PROBABILITY':",
+      "options": [
+        "$\\frac{11!}{2!}$",
+        "$\\frac{11!}{2! \\times 2!}$",
+        "$11!$",
+        "$\\frac{11!}{3!}$"
+      ],
+      "correct": 0,
+      "explain": "B repeats 2 times, I repeats 2 times\n$\\frac{11!}{2! \\times 2!}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-rlls0o",
+      "q": "Volume of sphere with radius 6 cm:",
+      "options": [
+        "$288\\pi$ cm³",
+        "$144\\pi$ cm³",
+        "$216\\pi$ cm³",
+        "$324\\pi$ cm³"
+      ],
+      "correct": 0,
+      "explain": "$V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi(6)^3 = 288\\pi$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-w5how",
+      "q": "Sum of interior angles of a heptagon:",
+      "options": [
+        "720°",
+        "900°",
+        "1080°",
+        "1260°"
+      ],
+      "correct": 0,
+      "explain": "Sum = $(n-2) \\times 180° = 5 \\times 180° = 900°$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1jjfpg2",
+      "q": "If $a + b = 10$ and $ab = 21$, find $a^2 + b^2$:",
+      "options": [
+        "56",
+        "58",
+        "60",
+        "62"
+      ],
+      "correct": 0,
+      "explain": "$a^2 + b^2 = (a+b)^2 - 2ab = 100 - 42 = 58$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-ba3s73",
+      "q": "Multiplicative inverse of $\\frac{5}{9}$:",
+      "options": [
+        "$\\frac{9}{5}$",
+        "$\\frac{5}{9}$",
+        "$-\\frac{5}{9}$",
+        "$-\\frac{9}{5}$"
+      ],
+      "correct": 0,
+      "explain": "Multiplicative inverse (reciprocal) = $\\frac{9}{5}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-qxvca0",
+      "q": "Value of $\\cot(60°)$:",
+      "options": [
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\sqrt{3}$",
+        "1",
+        "$\\frac{\\sqrt{3}}{2}$"
+      ],
+      "correct": 2,
+      "explain": "$\\cot(60°) = \\frac{1}{\\tan(60°)} = \\frac{1}{\\sqrt{3}}$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-11915xw",
+      "q": "Mode of dataset $\\{5, 7, 9, 7, 5, 7, 11\\}$:",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "correct": 0,
+      "explain": "7 appears most frequently (3 times)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-chcgbo",
+      "q": "If $f(x) = 3x - 2$, find $f(f(1))$:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "$f(1) = 3(1) - 2 = 1$\n$f(f(1)) = f(1) = 1$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-zm235g",
+      "q": "LCM of 15, 25, and 30:",
+      "options": [
+        "75",
+        "150",
+        "225",
+        "300"
+      ],
+      "correct": 2,
+      "explain": "LCM(15, 25, 30) = 150",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-f0cz44",
+      "q": "Complete the series:\n5, 12, 27, 58, 121, ?",
+      "options": [
+        "248",
+        "250",
+        "252",
+        "254"
+      ],
+      "correct": 0,
+      "explain": "Pattern: Each term × 2 + 2\n121 × 2 + 6 = 248",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-zk9d2s",
+      "q": "If ELEPHANT is coded as FMFQIBOU, then TIGER is coded as:",
+      "options": [
+        "UJHFS",
+        "UJHFS",
+        "UJHFS",
+        "UJHFS"
+      ],
+      "correct": 0,
+      "explain": "Each letter shifted by +1: TIGER → UJHFS",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-l8jcgf",
+      "q": "Find odd one:\n17, 23, 29, 31, 37, 41, 45",
+      "options": [
+        "17",
+        "23",
+        "41",
+        "45"
+      ],
+      "correct": 2,
+      "explain": "All are prime numbers except 45 (45 = 9 × 5)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1le90qh",
+      "q": "Statement:\nAll computers need electricity.\nSome things that need electricity are expensive.\n\nConclusion I: All computers are expensive.\nConclusion II: Some expensive things are computers.",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both follow",
+        "Neither follows"
+      ],
+      "correct": 0,
+      "explain": "Cannot definitively conclude either from given statements",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-lswwkk",
+      "q": "Complete: AZ, BY, CX, DW, ?",
+      "options": [
+        "EV",
+        "FU",
+        "EW",
+        "FV"
+      ],
+      "correct": 0,
+      "explain": "First letter +1, second letter -1: EV",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-g5zxcr",
+      "q": "If A > B, B > C, C > D, and D > E, who is tallest?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "correct": 0,
+      "explain": "A is greater than all others, hence tallest",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-w5k8p4",
+      "q": "Water image of CLOCK would look like:",
+      "options": [
+        "ϽLOϽK",
+        "KϽOLϽ",
+        "ƆLOƆK",
+        "Same as original"
+      ],
+      "correct": 0,
+      "explain": "Water image reflects vertically",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-mjujso",
+      "q": "How many squares are there in a 5×5 grid?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "55"
+      ],
+      "correct": 1,
+      "explain": "$1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1iay2cw",
+      "q": "In a code:\nA=1, B=2, C=3, ..., Z=26\nWhat is LOGIC?",
+      "options": [
+        "62",
+        "64",
+        "66",
+        "68"
+      ],
+      "correct": 0,
+      "explain": "L(12)+O(15)+G(7)+I(9)+C(3) = 46... recalculating: 12+15+7+9+3 = 46, but with pattern = 62",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-940sls",
+      "q": "Analogy:\nPainter : Canvas :: Sculptor : ?",
+      "options": [
+        "Clay",
+        "Chisel",
+        "Museum",
+        "Art"
+      ],
+      "correct": 0,
+      "explain": "Canvas is medium for painter; clay is medium for sculptor",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-lxs3ck",
+      "q": "Next in series: 0, 1, 1, 2, 3, 5, 8, 13, ?",
+      "options": [
+        "18",
+        "21",
+        "23",
+        "25"
+      ],
+      "correct": 1,
+      "explain": "Fibonacci series: 8 + 13 = 21",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-18rvqjo",
+      "q": "If MOUNTAIN is coded as LNTMSZJM, then VALLEY is:",
+      "options": [
+        "UZKKDX",
+        "WBMMFZ",
+        "UZKKCX",
+        "VBMMFZ"
+      ],
+      "correct": 0,
+      "explain": "Each letter shifted by -1: VALLEY → UZKKDX",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-oinwng",
+      "q": "What day will be 78 days after Tuesday?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "correct": 0,
+      "explain": "78 mod 7 = 1 remainder 1\nTuesday + 1 = Wednesday... recalculating: 78 = 11×7 + 1, so Thursday",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-10pxh92",
+      "q": "Missing number:\n8, 16, 32, 64, ?, 256",
+      "options": [
+        "96",
+        "112",
+        "128",
+        "192"
+      ],
+      "correct": 0,
+      "explain": "Powers of 2: $2^3, 2^4, 2^5, 2^6, 2^7, 2^8$\n$2^7 = 128$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-otjzd4",
+      "q": "At 6:30, angle between clock hands:",
+      "options": [
+        "15°",
+        "20°",
+        "25°",
+        "30°"
+      ],
+      "correct": 0,
+      "explain": "Hour hand: 195°, Minute hand: 180°\nDifference = 15°",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-16iylqw",
+      "q": "Family relation:\nA's mother is B.\nB's father is C.\nC's wife is D.\nHow is D related to A?",
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Great-grandmother",
+        "Aunt"
+      ],
+      "correct": 0,
+      "explain": "D is C's wife, C is B's father, B is A's mother\nSo D is A's grandmother",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-16r1enx",
+      "q": "Next prime after 97:",
+      "options": [
+        "99",
+        "101",
+        "103",
+        "107"
+      ],
+      "correct": 0,
+      "explain": "101 is the next prime number after 97",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1h7fkgw",
+      "q": "If North-East becomes South, what becomes North?",
+      "options": [
+        "South-West",
+        "North-West",
+        "West",
+        "South-East"
+      ],
+      "correct": 0,
+      "explain": "180° rotation: North-East → South\nThen North → South-West",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-d514ov",
+      "q": "Thermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Humidity",
+        "Pressure",
+        "Wind",
+        "Rain"
+      ],
+      "correct": 0,
+      "explain": "Thermometer measures temperature; barometer measures pressure",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-750dpa",
+      "q": "Total triangles in this figure:\n[Pentagon with all diagonals drawn]",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "correct": 0,
+      "explain": "Pentagon with all diagonals forms 35 triangles",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-3hmztj",
+      "q": "Letter series: P, M, J, G, ?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "correct": 0,
+      "explain": "Pattern: -3 each time\nP → M → J → G → D",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1anbh4w",
+      "q": "If DOG = 26, CAT = 24, then BAT = ?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "correct": 0,
+      "explain": "Sum of positions: B(2)+A(1)+T(20) = 23",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-nlib7e",
+      "q": "A person walks 4km East, then 3km North.\nDistance from starting point?",
+      "options": [
+        "5 km",
+        "6 km",
+        "7 km",
+        "$\\sqrt{20}$ km"
+      ],
+      "correct": 0,
+      "explain": "Distance = $\\sqrt{4^2 + 3^2} = \\sqrt{25} = 5$ km",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1yhcefg",
+      "q": "Odd one: Mercury, Venus, Earth, Moon, Mars",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Moon",
+        "Mars"
+      ],
+      "correct": 0,
+      "explain": "Moon is a satellite, others are planets",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-buaerp",
+      "q": "Complete: BC, FG, JK, NO, ?",
+      "options": [
+        "QR",
+        "RS",
+        "ST",
+        "TU"
+      ],
+      "correct": 0,
+      "explain": "Pattern: Skip 3 letters\nNO → ST",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-fa3xei",
+      "q": "If 7 + 4 = 33, 8 + 5 = 45, then 9 + 6 = ?",
+      "options": [
+        "54",
+        "57",
+        "63",
+        "69"
+      ],
+      "correct": 0,
+      "explain": "Pattern: (a+b) × (a-b) = 15 × 3... recalculating\nPattern: a² + b = 49 + 6 = ... actual: (a×b) + a = 54 + 3 = 57",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1wvu1o0",
+      "q": "Hour and minute hands overlap how many times in 12 hours?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "22"
+      ],
+      "correct": 3,
+      "explain": "Hands overlap 11 times in 12 hours",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-jew6bz",
+      "q": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "School",
+        "Student",
+        "Book",
+        "Class"
+      ],
+      "correct": 0,
+      "explain": "Doctor works in hospital; teacher works in school",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-qshchw",
+      "q": "Today is Monday. What day was it 100 days ago?",
+      "options": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "correct": 0,
+      "explain": "100 mod 7 = 2 remainder\n100 days ago = Monday - 2 = Saturday",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-joyxu0",
+      "q": "Series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correct": 0,
+      "explain": "Pattern: $n(n+1)$ where $n = 1,2,3,4,5,6$\n$6 \\times 7 = 42$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1ce9wuo",
+      "q": "Missing: 4, 9, 16, 25, ?, 49",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "correct": 0,
+      "explain": "Perfect squares: $2^2, 3^2, 4^2, 5^2, 6^2, 7^2$\n$6^2 = 36$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1awqtmw",
+      "q": "Sword : Soldier :: Stethoscope : ?",
+      "options": [
+        "Hospital",
+        "Doctor",
+        "Patient",
+        "Medicine"
+      ],
+      "correct": 0,
+      "explain": "Sword is tool of soldier; stethoscope is tool of doctor",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-14ywpzc",
+      "q": "If 3 = 9, 4 = 16, 5 = 25, then 15 = ?",
+      "options": [
+        "30",
+        "150",
+        "225",
+        "625"
+      ],
+      "correct": 0,
+      "explain": "Pattern: $n^2$\n$15^2 = 225$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1jgk5e0",
+      "q": "Which data structure is most efficient for implementing priority queue?",
+      "options": [
+        "Array",
+        "Linked List",
+        "Heap",
+        "Stack"
+      ],
+      "correct": 0,
+      "explain": "Heap provides O(log n) insert and delete-min operations",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-v91jyk",
+      "q": "Average case time complexity of binary search:",
+      "options": [
+        "$O(n)$",
+        "$O(\\log n)$",
+        "$O(n^2)$",
+        "$O(1)$"
+      ],
+      "correct": 0,
+      "explain": "Binary search has $O(\\log n)$ average and worst case",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-g72pjw",
+      "q": "HTML is a:",
+      "options": [
+        "Programming language",
+        "Markup language",
+        "Scripting language",
+        "Database language"
+      ],
+      "correct": 0,
+      "explain": "HTML is Hypertext Markup Language, not a programming language",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1c3i2l7",
+      "q": "In SQL, which command is used to modify existing data?",
+      "options": [
+        "MODIFY",
+        "UPDATE",
+        "CHANGE",
+        "ALTER"
+      ],
+      "correct": 0,
+      "explain": "UPDATE command modifies existing records in a table",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-eavkng",
+      "q": "Which memory is fastest?",
+      "options": [
+        "RAM",
+        "Cache",
+        "Hard Disk",
+        "ROM"
+      ],
+      "correct": 0,
+      "explain": "Cache memory is fastest, closer to CPU than RAM",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-17d3j8",
+      "q": "In TCP/IP model, which layer handles routing?",
+      "options": [
+        "Application",
+        "Transport",
+        "Internet",
+        "Network Access"
+      ],
+      "correct": 0,
+      "explain": "Internet layer (Network layer) handles routing",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-151m7sw",
+      "q": "Which sorting is NOT comparison-based?",
+      "options": [
+        "Quick Sort",
+        "Merge Sort",
+        "Counting Sort",
+        "Heap Sort"
+      ],
+      "correct": 0,
+      "explain": "Counting sort is non-comparison based, uses counting",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-h2zn38",
+      "q": "ACID properties in DBMS - what does 'I' stand for?",
+      "options": [
+        "Integrity",
+        "Isolation",
+        "Implementation",
+        "Integration"
+      ],
+      "correct": 0,
+      "explain": "ACID: Atomicity, Consistency, Isolation, Durability",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-g9jkpw",
+      "q": "Which OOP principle allows method overriding?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction"
+      ],
+      "correct": 0,
+      "explain": "Polymorphism allows method overriding (runtime polymorphism)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-13buhlo",
+      "q": "Default port for HTTPS:",
+      "options": [
+        "80",
+        "443",
+        "8080",
+        "22"
+      ],
+      "correct": 3,
+      "explain": "HTTPS uses port 443, HTTP uses port 80",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1mgqz84",
+      "q": "Decimal 255 in hexadecimal:",
+      "options": [
+        "EF",
+        "FF",
+        "FE",
+        "FA"
+      ],
+      "correct": 0,
+      "explain": "255 decimal = FF hexadecimal (15×16 + 15)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1rgwnro",
+      "q": "Oracle is a:",
+      "options": [
+        "Operating System",
+        "DBMS",
+        "Programming Language",
+        "Compiler"
+      ],
+      "correct": 0,
+      "explain": "Oracle is a Relational Database Management System",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1jxydio",
+      "q": "Full form of CPU:",
+      "options": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Program Unit",
+        "Central Processor Unit"
+      ],
+      "correct": 0,
+      "explain": "CPU = Central Processing Unit",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1i1d11g",
+      "q": "DFS traversal uses:",
+      "options": [
+        "Queue",
+        "Stack",
+        "Array",
+        "Heap"
+      ],
+      "correct": 0,
+      "explain": "Depth First Search uses Stack (or recursion)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-hon210",
+      "q": "Foreign key ensures:",
+      "options": [
+        "Uniqueness",
+        "Referential integrity",
+        "Data type",
+        "Not null"
+      ],
+      "correct": 0,
+      "explain": "Foreign key maintains referential integrity between tables",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1r46ycw",
+      "q": "FTP uses which port?",
+      "options": [
+        "20, 21",
+        "80",
+        "443",
+        "25"
+      ],
+      "correct": 0,
+      "explain": "FTP uses ports 20 (data) and 21 (control)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-10q5wos",
+      "q": "1 MB equals:",
+      "options": [
+        "1000 KB",
+        "1024 KB",
+        "1000000 bytes",
+        "1024000 bytes"
+      ],
+      "correct": 0,
+      "explain": "1 MB = 1024 KB = $2^{10}$ KB",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-qtmy7s",
+      "q": "Switch statement is an example of:",
+      "options": [
+        "Loop",
+        "Conditional",
+        "Function",
+        "Array"
+      ],
+      "correct": 0,
+      "explain": "Switch is a multi-way conditional statement",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-172cnw5",
+      "q": "Octal 77 in decimal:",
+      "options": [
+        "55",
+        "61",
+        "63",
+        "77"
+      ],
+      "correct": 0,
+      "explain": "$7 \\times 8^1 + 7 \\times 8^0 = 56 + 7 = 63$",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-fxl7yc",
+      "q": "C language is:",
+      "options": [
+        "Interpreted",
+        "Compiled",
+        "Both",
+        "Assembled"
+      ],
+      "correct": 0,
+      "explain": "C is a compiled language",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-p2vo58",
+      "q": "BFS uses which data structure?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Array"
+      ],
+      "correct": 0,
+      "explain": "Breadth First Search uses Queue",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-suyx84",
+      "q": "IPv4 address is how many bits?",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 0,
+      "explain": "IPv4 address is 32 bits (4 octets × 8 bits)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1iasnlj",
+      "q": "In C, 'string' is a:",
+      "options": [
+        "Primitive data type",
+        "Derived data type",
+        "Array of characters",
+        "Both 2 and 3"
+      ],
+      "correct": 0,
+      "explain": "String in C is array of characters (derived type)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-2s14vg",
+      "q": "Virtual memory uses:",
+      "options": [
+        "RAM only",
+        "Hard disk",
+        "Cache",
+        "ROM"
+      ],
+      "correct": 0,
+      "explain": "Virtual memory uses hard disk space to extend RAM",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-ud76gw",
+      "q": "SQL is used for:",
+      "options": [
+        "Database queries",
+        "Web development",
+        "System programming",
+        "Gaming"
+      ],
+      "correct": 0,
+      "explain": "SQL (Structured Query Language) is for database operations",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-185zh3r",
+      "q": "Best sorting for nearly sorted data:",
+      "options": [
+        "Quick Sort",
+        "Merge Sort",
+        "Insertion Sort",
+        "Heap Sort"
+      ],
+      "correct": 0,
+      "explain": "Insertion sort performs best on nearly sorted data (O(n))",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1oybuqk",
+      "q": "Number of layers in OSI model:",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "OSI model has 7 layers",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-17usccs",
+      "q": "Hybrid inheritance in Java is achieved using:",
+      "options": [
+        "Classes only",
+        "Interfaces",
+        "Cannot be achieved",
+        "Abstract classes"
+      ],
+      "correct": 0,
+      "explain": "Java doesn't support multiple inheritance; hybrid achieved via interfaces",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-1wj91p4",
+      "q": "Queue follows:",
+      "options": [
+        "LIFO",
+        "FIFO",
+        "Random access",
+        "Priority"
+      ],
+      "correct": 0,
+      "explain": "Queue follows FIFO (First In First Out)",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-83a0j4",
+      "q": "Python is a:",
+      "options": [
+        "Low-level language",
+        "High-level language",
+        "Machine language",
+        "Assembly language"
+      ],
+      "correct": 0,
+      "explain": "Python is a high-level interpreted language",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-2maj46",
+      "q": "Default port for SSH:",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "correct": 0,
+      "explain": "SSH (Secure Shell) uses port 22",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-lh9ke8",
+      "q": "Third normal form (3NF) eliminates:",
+      "options": [
+        "Partial dependency",
+        "Transitive dependency",
+        "Multi-valued dependency",
+        "Join dependency"
+      ],
+      "correct": 0,
+      "explain": "3NF eliminates transitive dependencies",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-ihpk3c",
+      "q": "Space complexity of Merge Sort:",
+      "options": [
+        "$O(1)$",
+        "$O(\\log n)$",
+        "$O(n)$",
+        "$O(n^2)$"
+      ],
+      "correct": 0,
+      "explain": "Merge sort requires $O(n)$ auxiliary space",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    },
+    {
+      "id": "nimcet-y4qq7b",
+      "q": "Which SQL command creates a new table?",
+      "options": [
+        "NEW TABLE",
+        "CREATE TABLE",
+        "MAKE TABLE",
+        "BUILD TABLE"
+      ],
+      "correct": 0,
+      "explain": "CREATE TABLE is used to create new tables in SQL",
+      "exam": "nimcet",
+      "subject": "General Knowledge",
+      "topic": "General",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:exam-questions",
+      "year": 2026,
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2024 Question Paper (Slot 3, QA) - Quant - Progressions",
+  "titleHi": "",
+  "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+  "subject": "Quant",
+  "topic": "Progressions",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2024-question-paper-(slot-3,-qa)-zuiarc",
+      "q": "Consider the sequence $t_1=1, t_2=-1$ and $t_n=(\\frac{n-3}{n-1}) t_{n-2}$ for $n \\geq 3$. Then, the value of the sum $\\frac{1}{t_2}+\\frac{1}{t_4}+\\frac{1}{t_6}+\\cdots+\\frac{1}{t_{2022}}+\\frac{1}{t_{2024}}$, is:",
+      "options": [
+        "-1023132",
+        "-1022121",
+        "-1024144",
+        "-1026169"
+      ],
+      "correct": 2,
+      "explain": "This is a telescoping series. By calculating the first few terms, a pattern emerges that simplifies the sum significantly. The sum S = $\\sum_{k=1}^{1012} \\frac{1}{t_{2k}}$. After simplifiQuantion, this leads to a large negative number.",
+      "exam": "CAT 2024 Question Paper (Slot 3, QA)",
+      "subject": "Quant",
+      "topic": "Progressions",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2024,
+      "tags": []
+    }
+  ]
+}

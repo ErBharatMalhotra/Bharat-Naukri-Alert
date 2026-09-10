@@ -1,0 +1,31 @@
+{
+  "title": "Mathematics Practice Test 1 - Mathematics - Inequalities and Optimization",
+  "titleHi": "",
+  "exam": "Mathematics Practice Test 1",
+  "subject": "Mathematics",
+  "topic": "Inequalities and Optimization",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "mathematics-practice-test-1-17f97cg",
+      "q": "Given that $1 \\le m \\le 4$, $4 \\le n \\le 6$, and $8 \\le p \\le 10$, what is the greatest possible value for $(\\frac{m}{n})(\\frac{1}{p})$?",
+      "options": [
+        "$\\frac{3}{20}$",
+        "$\\frac{1}{15}$",
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{8}$"
+      ],
+      "correct": 3,
+      "explain": "To maximize the fraction $\\frac{m}{np}$, you must maximize the numerator $m$ and minimize the denominator $np$. The maximum value for $m$ is 4. The minimum values for $n$ and $p$ are 4 and 8, respectively. Plugging these in: $\\frac{4}{4 \\times 8} = \\frac{4}{32} = \\frac{1}{8}$.",
+      "exam": "Mathematics Practice Test 1",
+      "subject": "Mathematics",
+      "topic": "Inequalities and Optimization",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": "Practice",
+      "tags": []
+    }
+  ]
+}

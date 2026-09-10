@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2025 Question Paper (Slot 3, PYQ) - Quantitative Aptitude - Mixtures and Alligations",
+  "titleHi": "",
+  "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+  "subject": "Quantitative Aptitude",
+  "topic": "Mixtures and Alligations",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2025-question-paper-(slot-3,-pyq)-mpa31k",
+      "q": "Vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively. A certain volume is taken out from A and poured into B. After stirring, the same volume is taken out from B and poured into A. If the resultant ratio of alcohol and water in A is $15 : 4$, then the volume, in litres, initially taken out from A is",
+      "options": [
+        "12",
+        "15",
+        "16",
+        "20"
+      ],
+      "correct": 2,
+      "explain": "Let $V$ be the volume transferred in each step.\n**Step 1 (A to B):** $V$ liters of pure alcohol are transferred to B. \nB now contains $V$ liters of alcohol and $60$ liters of water. Total volume in B $= 60 + V$.\n**Step 2 (B to A):** $V$ liters of this mixture are moved back to A. \nThe fraction of water in B is $\\frac{60}{60 + V}$. Therefore, the amount of water transferred to A is $V \\times \\left(\\frac{60}{60 + V}\\right)$.\nIn Vessel A, the total volume restores to 60 liters. Since water moved in was $\\frac{60V}{60 + V}$, the rest must be alcohol.\nRatio of alcohol to water in A is given as $\\frac{15}{4}$, meaning the fraction of water in A is $\\frac{4}{19}$.\nAmount of water in A = $\\frac{4}{19} \\times 60 = \\frac{240}{19}$.\nWait, another simpler equivalence: Ratio of Alcohol : Water in A is exactly $\\frac{3600}{60V}$ evaluated as follows:\nAmount of Water in A $= \\frac{60V}{60 + V}$\nAmount of Alcohol in A $= 60 - \\frac{60V}{60 + V} = \\frac{3600}{60 + V}$.\nRatio $= \\frac{\\frac{3600}{60 + V}}{\\frac{60V}{60 + V}} = \\frac{3600}{60V} = \\frac{60}{V}$.\nWe are given this ratio is $\\frac{15}{4}$.\nSo, $\\frac{60}{V} = \\frac{15}{4} \\implies 15V = 240 \\implies V = 16$.",
+      "exam": "CAT 2025 Question Paper (Slot 3, PYQ)",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mixtures and Alligations",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2025,
+      "tags": []
+    }
+  ]
+}

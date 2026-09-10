@@ -1,0 +1,31 @@
+{
+  "title": "CAT 2021 Question Paper (Slot 1, PYQ) - Quantitative Ability - Inequalities",
+  "titleHi": "",
+  "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+  "subject": "Quantitative Ability",
+  "topic": "Inequalities",
+  "source": "github:online-exam-questions",
+  "count": 1,
+  "questions": [
+    {
+      "id": "cat-2021-question-paper-(slot-1,-pyq)-19ul080",
+      "q": "The number of integers $n$ that satisfy the inequalities $|n - 60| < |n - 100| < |n - 20|$ is",
+      "options": [
+        "21",
+        "19",
+        "18",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "Break the compound inequality into two parts:\n1) $|n - 100| < |n - 20|$ means the distance of $n$ to 100 is less than its distance to 20. Thus, $n$ must be closer to 100 than to 20 $\\implies n > 60$.\n2) $|n - 60| < |n - 100|$ means the distance of $n$ to 60 is less than its distance to 100. Thus, $n$ must be closer to 60 than to 100 $\\implies n < 80$.\nCombining these constraints, we get $60 < n < 80$.\nThe integer values for $n$ range from 61 to 79 inclusive.\nThe number of integers is $79 - 61 + 1 = 19$.",
+      "exam": "CAT 2021 Question Paper (Slot 1, PYQ)",
+      "subject": "Quantitative Ability",
+      "topic": "Inequalities",
+      "difficulty": "medium",
+      "language": "en",
+      "source": "github:online-exam-questions",
+      "year": 2021,
+      "tags": []
+    }
+  ]
+}
