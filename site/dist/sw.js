@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 var CACHE_NAME = 'bna-v3-20260929-yltci';
+=======
+var CACHE_NAME = 'bna-v3-20260929-97oo6';
+>>>>>>> Stashed changes
 var STATIC_ASSETS = [
   '/',
   '/index.html',
