@@ -38,6 +38,17 @@ jobs:
           echo '{}' > core/sources/sources.json
           cp core/sources/sources.private.json core/sources/sources.json
 
+      - name: Gemini fleet health (discover + probe models)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+        run: |
+          cd core
+          node engine/fleet-health.js || true
+
       - name: Run pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_1 }}
@@ -50,12 +61,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
-          LLM_MAX_CALLS: 30
           EDITOR_NOTE_MAX: 50
           DETAIL_FETCH_MAX: 50
         run: |
           cd core
           node engine/scrape.js
+          node engine/backfill-quality.js || true
           node site/build.js
 
       - name: Run tests
@@ -82,7 +93,19 @@ jobs:
           git add -A
           git stash
           git pull --rebase origin main
-          git stash pop || true
+          if ! git stash pop; then
+            # Conflict: freshly scraped data (the stash) wins over remote.
+            # Never commit conflict markers — resolve programmatically.
+            git checkout --theirs . || true
+            git add -A
+            git stash drop || true
+          fi
+          # Safety net: refuse to commit any leftover conflict markers
+          if git diff --cached --name-only | xargs -r grep -l '^<<<<<<< ' 2>/dev/null; then
+            echo "::error::conflict markers present, aborting save"
+            git reset --hard
+            exit 1
+          fi
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
           git push origin main
