@@ -100,8 +100,10 @@ jobs:
             git add -A
             git stash drop || true
           fi
-          # Safety net: refuse to commit any leftover conflict markers
-          if git diff --cached --name-only | xargs -r grep -l '^<<<<<<< ' 2>/dev/null; then
+          # Safety net: refuse to COMMIT any conflict markers. Checks only ADDED
+          # lines of the staged diff — an empty index (clean stash pop, changes
+          # unstaged) must fall through, never fail the save (xargs -r exits 0).
+          if git diff --cached | grep -qE '^\+<<<<<<< |^\+>>>>>>> '; then
             echo "::error::conflict markers present, aborting save"
             git reset --hard
             exit 1
