@@ -49,11 +49,16 @@ jobs:
           cd core
           git config user.name "Bharat Malhotra"
           git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
-          git add data/quiz-bank/generated data/quiz-coverage.json data/quarantine/quiz-generated data/fleet-state.json || true
+          # per-path add: one missing pathspec must not abort staging the rest
+          for p in data/quiz-bank/generated data/quiz-coverage.json data/fleet-state.json; do
+            [ -e "$p" ] && git add "$p"
+          done
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add data/quiz-bank/generated data/quiz-coverage.json data/quarantine/quiz-generated data/fleet-state.json || true
+          for p in data/quiz-bank/generated data/quiz-coverage.json data/fleet-state.json; do
+            [ -e "$p" ] && git add "$p"
+          done
           git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q)"
           git push origin main
 
