@@ -27,6 +27,7 @@ jobs:
       # QUIZ-DAILY-GENERATION-PLAN.md: planner → generate → 3-layer verify → import.
       # ONLY GEMINI_API_KEY_2/_3 (quiz keys) are injected — jobs key untouched.
       # flash-lite slots only (volume class); verifier never shares the generator slot.
+      # Second run (--ca) = PIB news-grounded current-affairs batch (same verify gate).
       - name: Generate + verify original quiz batch
         id: quiz
         working-directory: core
@@ -36,8 +37,11 @@ jobs:
           GEMINI_ALLOWED_MODELS: gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,gemini-3.5-flash-lite,gemini-flash-lite-latest
         run: |
           node engine/quiz-daily.js --apply --batches 2 2>&1 | tee /tmp/quiz-output.log
-          NEW=$(grep -oP '"accepted":\s*\K\d+' /tmp/quiz-output.log | tail -1 || echo "0")
-          TOTAL=$(grep -oP '"written":\s*\K\d+' /tmp/quiz-output.log | tail -1 || echo "0")
+          # CA batch failure (PIB feed down, LLM quota) must NOT block the planner batch save
+          node engine/quiz-daily.js --apply --ca 2>&1 | tee /tmp/ca-output.log || echo "WARN: CA batch failed — planner batch unaffected"
+          cat /tmp/quiz-output.log /tmp/ca-output.log > /tmp/quiz-all.log
+          NEW=$(grep -oP '"accepted":\s*\K\d+' /tmp/quiz-all.log | awk '{s+=$1} END{print s+0}')
+          TOTAL=$(grep -oP '"written":\s*\K\d+' /tmp/quiz-all.log | awk '{s+=$1} END{print s+0}')
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
 
@@ -68,3 +72,4 @@ jobs:
           echo "- Verified questions accepted: ${{ steps.quiz.outputs.new }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Written to bank: ${{ steps.quiz.outputs.total }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pipeline: planner → generate (flash-lite) → deterministic gate → independent re-answer → adjudicate" >> "$GITHUB_STEP_SUMMARY"
+          echo "- CA batch: PIB RSS-grounded current-affairs (same 3-layer verify)" >> "$GITHUB_STEP_SUMMARY"
