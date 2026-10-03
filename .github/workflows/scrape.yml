@@ -89,7 +89,7 @@ jobs:
         run: |
           cd core
           git config user.name "Bharat Malhotra"
-          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git config user.email "mr.bharatmalhotra@gmail.com"
           git add -A
           git stash
           git pull --rebase origin main
@@ -118,7 +118,7 @@ jobs:
           git clone --depth 1 https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/dist-push
           cd /tmp/dist-push
           git config user.name "Bharat Malhotra"
-          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git config user.email "mr.bharatmalhotra@gmail.com"
           git pull --rebase origin main
           rm -rf site/dist
           mkdir -p site/dist
