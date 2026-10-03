@@ -2,11 +2,22 @@ name: Daily Quiz Update
 
 on:
   schedule:
-    - cron: '30 4 * * *'   # 10:00 AM IST
+    # A pass costs ~22s per 15-question batch and the job window is 360 min,
+    # so one run a day left almost the entire daily allowance unspent. Six
+    # passes/day, all on minute 13 so they never collide with scrape.yml's
+    # 30 2 / 0 5 / 30 7 / 0 10 / 30 12 / 0 15 slots. --fill self-limits: once
+    # the day's quota is gone the pass exits in seconds and commits nothing.
+    - cron: '13 0,6,10,14,18,22 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# Serialize quiz passes against each other (NOT against scrape.yml — that one is
+# a different group; the rebase-retry below covers the shared JSON DB instead).
+concurrency:
+  group: quiz-daily
+  cancel-in-progress: false
 
 jobs:
   quiz-generation:
@@ -28,6 +39,8 @@ jobs:
       # ONLY GEMINI_API_KEY_2/_3 (quiz keys) are injected — jobs key untouched.
       # flash-lite slots only (volume class); verifier never shares the generator slot.
       # Second run (--ca) = PIB news-grounded current-affairs batch (same verify gate).
+      # --fill instead of a hardcoded --batches N: batch count now comes from the
+      # quota actually left today (slots x RPD x keys − calls used) / 17 calls per batch.
       - name: Generate + verify original quiz batch
         id: quiz
         working-directory: core
@@ -36,12 +49,15 @@ jobs:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_3 }}
           GEMINI_ALLOWED_MODELS: gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,gemini-3.5-flash-lite,gemini-flash-lite-latest
         run: |
-          node engine/quiz-daily.js --apply --batches 2 2>&1 | tee /tmp/quiz-output.log
+          node engine/quiz-daily.js --apply --fill 2>&1 | tee /tmp/quiz-output.log
           # CA batch failure (PIB feed down, LLM quota) must NOT block the planner batch save
           node engine/quiz-daily.js --apply --ca 2>&1 | tee /tmp/ca-output.log || echo "WARN: CA batch failed — planner batch unaffected"
           cat /tmp/quiz-output.log /tmp/ca-output.log > /tmp/quiz-all.log
-          NEW=$(grep -oP '"accepted":\s*\K\d+' /tmp/quiz-all.log | awk '{s+=$1} END{print s+0}')
-          TOTAL=$(grep -oP '"written":\s*\K\d+' /tmp/quiz-all.log | awk '{s+=$1} END{print s+0}')
+          # QUIZ_RESULT is one machine-readable line per invocation. The old grep
+          # hit both the "done:" line and the pretty JSON blob, so every question
+          # counted twice — a run that wrote 30 reported +60.
+          NEW=$(awk '/^QUIZ_RESULT /{for(i=1;i<=NF;i++) if($i ~ /^accepted=/){split($i,a,"=");s+=a[2]}} END{print s+0}' /tmp/quiz-all.log)
+          TOTAL=$(awk '/^QUIZ_RESULT /{for(i=1;i<=NF;i++) if($i ~ /^written=/){split($i,a,"=");s+=a[2]}} END{print s+0}' /tmp/quiz-all.log)
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
 
@@ -64,7 +80,18 @@ jobs:
             [ -e "$p" ] && git add "$p"
           done
           git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q)"
-          git push origin main
+          # Concurrency guard: scrape.yml and evolution.yml push the same JSON DB
+          # (quiz-coverage.json, fleet-state.json) on their own schedules. Without
+          # a retry, whichever of the two pushed second died on non-fast-forward
+          # and silently lost its whole batch.
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "pushed on attempt $i"; break
+            fi
+            echo "push attempt $i failed — rebasing on latest and retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
 
       - name: Summary
         run: |
