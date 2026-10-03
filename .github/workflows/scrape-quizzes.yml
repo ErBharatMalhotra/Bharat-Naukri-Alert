@@ -52,7 +52,7 @@ jobs:
         run: |
           cd core
           git config user.name "Bharat Malhotra"
-          git config user.email "MR.BHARATMALHOTRA@GMAIL.COM"
+          git config user.email "mr.bharatmalhotra@gmail.com"
           # per-path add: one missing pathspec must not abort staging the rest
           for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/fleet-state.json; do
             [ -e "$p" ] && git add "$p"
