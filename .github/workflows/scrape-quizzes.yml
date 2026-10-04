@@ -40,7 +40,7 @@ jobs:
       # flash-lite slots only (volume class); verifier never shares the generator slot.
       # Second run (--ca) = PIB news-grounded current-affairs batch (same verify gate).
       # --fill instead of a hardcoded --batches N: batch count now comes from the
-      # quota actually left today (slots x RPD x keys − calls used) / 17 calls per batch.
+      # quota actually left today (slots x RPD x keys − calls used) / 3 calls per batch (1 generate + 1 verify + at most 1 adjudicate).
       - name: Generate + verify original quiz batch
         id: quiz
         working-directory: core
@@ -48,6 +48,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_2 }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_3 }}
           GEMINI_ALLOWED_MODELS: gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,gemini-3.5-flash-lite,gemini-flash-lite-latest
+          # Same calibration fix as the root portal: the default RPD of 25 made
+          # the budget 4 slots x 25 x 2 keys = 200 calls, but the real quota
+          # never trips (flash-lite-preview alone logged 85 calls in a day).
+          # At 200 the pass self-blocks with "quota already spent for today"
+          # and the remaining crons of the IST day do nothing. 800 buys headroom.
+          GEMINI_RPD: 100
         run: |
           node engine/quiz-daily.js --apply --fill 2>&1 | tee /tmp/quiz-output.log
           # CA batch failure (PIB feed down, LLM quota) must NOT block the planner batch save
