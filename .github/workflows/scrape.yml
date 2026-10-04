@@ -72,6 +72,13 @@ jobs:
       - name: Run tests
         run: cd core && node tests/run.js
 
+      # Structural gate on the REAL build that is about to be published.
+      # The test suite only builds a small fixture, so it cannot see link and
+      # canonical damage that only exists across all ~570 generated pages.
+      # Nothing gets pushed to the public branch unless this is CLEAN.
+      - name: Site health gate (broken links, canonicals, redirects, sitemap)
+        run: cd core && node scripts/site-health.mjs site/dist
+
       - name: Send Telegram digest
         if: success()
         continue-on-error: true
