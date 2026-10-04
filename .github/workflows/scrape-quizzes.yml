@@ -50,10 +50,11 @@ jobs:
           GEMINI_ALLOWED_MODELS: gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,gemini-3.5-flash-lite,gemini-flash-lite-latest
           # Same calibration fix as the root portal: the default RPD of 25 made
           # the budget 4 slots x 25 x 2 keys = 200 calls, but the real quota
-          # never trips (flash-lite-preview alone logged 85 calls in a day).
+          # never trips (flash-lite-preview alone logged 286 calls in a day).
           # At 200 the pass self-blocks with "quota already spent for today"
-          # and the remaining crons of the IST day do nothing. 800 buys headroom.
-          GEMINI_RPD: 100
+          # and the remaining crons of the IST day do nothing. 250 gives a
+          # 2000-call budget; lib/llm.js day-trips any slot that does 429.
+          GEMINI_RPD: 250
         run: |
           node engine/quiz-daily.js --apply --fill 2>&1 | tee /tmp/quiz-output.log
           # CA batch failure (PIB feed down, LLM quota) must NOT block the planner batch save
