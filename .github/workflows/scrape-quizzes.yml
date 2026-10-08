@@ -41,6 +41,23 @@ jobs:
       # Second run (--ca) = PIB news-grounded current-affairs batch (same verify gate).
       # --fill instead of a hardcoded --batches N: batch count now comes from the
       # quota actually left today (slots x RPD x keys − calls used) / 3 calls per batch (1 generate + 1 verify + at most 1 adjudicate).
+      # Runs BEFORE the question pass on purpose: quiz-planner's mergeLedger()
+      # loads blueprints at start, so anything written here is adopted in the
+      # same run and the fresh angles can be used immediately. Failure is never
+      # fatal — a dry topic space must not cost us the day's questions.
+      - name: Grow the quiz topic space
+        id: blueprint
+        working-directory: core
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_ALLOWED_MODELS: gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,gemini-3.5-flash-lite,gemini-flash-lite-latest
+          GEMINI_RPD: 250
+        run: |
+          node engine/blueprint-gen.js --angles 6 --blueprints 3 2>&1 | tee /tmp/blueprint-output.log || echo "WARN: blueprint generation failed — question pass unaffected"
+          # --dry proves the planner works without spending a single call
+          node engine/blueprint-gen.js --dry 2>&1 | tail -5
+
       - name: Generate + verify original quiz batch
         id: quiz
         working-directory: core
@@ -77,13 +94,13 @@ jobs:
           git config user.name "Bharat Malhotra"
           git config user.email "mr.bharatmalhotra@gmail.com"
           # per-path add: one missing pathspec must not abort staging the rest
-          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/fleet-state.json; do
+          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/fleet-state.json; do
             [ -e "$p" ] && git add "$p"
           done
           git stash
           git pull --rebase origin main
           git stash pop || true
-          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/fleet-state.json; do
+          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/fleet-state.json; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q)"
