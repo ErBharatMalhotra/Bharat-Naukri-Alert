@@ -398,9 +398,13 @@ html.no-scroll,html.no-scroll body{overflow:hidden}
 @media(max-width:1000px) and (max-height:480px){
 .hdr{position:static}
 }
-<style>/* Keyboard users: first tab stop jumps past the nav straight to content. */
+</style>
+<style>/* Keyboard users: first tab stop jumps past the nav straight to content.
+ * The nested style element that used to sit here made the rule below invalid
+ * selector, so the browser dropped it and the link rendered as a visible line
+ * at the top of every page. One style element per block. */
 .skip-link{position:absolute;left:-9999px;top:0;z-index:10000;background:#DC2626;color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:700}
-.skip-link:focus{left:0}</style></style>
+.skip-link:focus{left:0}</style>
 <script type="application/ld+json">{}</script>
 </head>
 <body>
@@ -431,7 +435,7 @@ html.no-scroll,html.no-scroll body{overflow:hidden}
 </nav>
 <div class="drawer-ft">Bharat Naukri Alert &mdash; daily verified government alerts</div>
 </aside>
-<main class="wrap page-top">
+<main class="wrap page-top" id="main">
 <nav class="crumb"><a href="/">Home</a><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><a href="/category/quiz">Quizzes</a><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><span>Quiz Bank</span></nav>
 <h1 class="page-h">Quiz Bank <span class="cnt-badge">5,170</span></h1>
 <p class="page-sub">Practice 5,170 verified MCQs for government and competitive exams.</p>
