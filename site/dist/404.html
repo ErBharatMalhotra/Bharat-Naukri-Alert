@@ -177,6 +177,13 @@ a{color:inherit;text-decoration:none}
 .sp-open{background:var(--ok-bg);color:var(--ok)}
 .sp-closing_soon{background:var(--bad-bg);color:var(--bad)}
 .sp-closed{background:var(--line);color:var(--mut)}
+.closed-banner{display:flex;align-items:flex-start;gap:12px;background:var(--warn-bg);border:1px solid color-mix(in srgb,var(--warn) 40%,transparent);border-radius:14px;padding:14px 16px;margin:18px 0 0}
+.closed-banner svg{width:20px;height:20px;flex-shrink:0;stroke:var(--warn);margin-top:3px}
+.closed-banner p{font-size:14px;color:var(--ink);margin:0}
+.cta-closed{background:var(--card);border-color:var(--line)}
+.closed-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.closed-list a{font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--mut);background:var(--card)}
+.closed-list a:hover{color:var(--ink);border-color:color-mix(in srgb,var(--brand) 45%,transparent)}
 .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0 18px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
 .tile small{display:block;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--mut);margin-bottom:5px}
