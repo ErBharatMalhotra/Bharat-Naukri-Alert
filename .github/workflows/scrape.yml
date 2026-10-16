@@ -9,6 +9,11 @@ on:
     - cron: '30 12 * * *'  # 6:00 PM IST
     - cron: '0 15 * * *'   # 8:30 PM IST
   workflow_dispatch:
+    inputs:
+      indexing_dry_run:
+        description: "Print the Google Indexing API plan without sending anything"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -79,6 +84,13 @@ jobs:
       - name: Site health gate (broken links, canonicals, redirects, sitemap)
         run: cd core && node scripts/site-health.mjs site/dist
 
+      # The same guarantee one level up: a URL we published must never 404. Reads
+      # data/published-urls.json (every /o/ URL this site has ever shipped) and the
+      # build's own _urlmap.json, so the 45-day grace window and the 410 tombstones
+      # are checked on every run instead of when someone remembers to look.
+      - name: URL class gate (every published /o/ URL answers 200, 301 or 410)
+        run: cd core && node scripts/check-url-classes.mjs
+
       - name: Send Telegram digest
         if: success()
         continue-on-error: true
@@ -130,6 +142,44 @@ jobs:
           rm -rf site/dist
           mkdir -p site/dist
           cp -r $GITHUB_WORKSPACE/core/site/dist/* site/dist/
+          # Pages Functions live at the repo root, not in the build output. The /o/*
+          # middleware is what answers 410 for a listing past its grace window —
+          # _redirects cannot express 410 at all (301/302/303/307/308 only).
+          rm -rf functions
+          mkdir -p functions
+          cp -r $GITHUB_WORKSPACE/core/site/functions/* functions/
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
+          git push origin main
+
+      # LAST step on purpose: the pages have to be live before Google is told they
+      # changed. DISABLED by default — set the repository variable
+      # INDEXING_ENABLED=true to arm it. GSC_INDEXING_KEY has to live in THIS
+      # repository's Actions secrets, because this is the workflow that calls the
+      # API (the private core cannot run workflows). The step never fails the run:
+      # it logs what it sent and, with the dry-run input, makes no network call.
+      - name: Google Indexing API (job pages only)
+        if: ${{ success() && (vars.INDEXING_ENABLED == 'true' || inputs.indexing_dry_run) }}
+        continue-on-error: true
+        working-directory: core
+        env:
+          INDEXING_ENABLED: ${{ vars.INDEXING_ENABLED }}
+          GSC_INDEXING_KEY: ${{ secrets.GSC_INDEXING_KEY }}
+        run: node scripts/indexing-api.mjs ${{ inputs.indexing_dry_run && '--dry-run' || '' }}
+
+      # The ledger is the only thing that keeps a run from re-submitting the same
+      # URLs, so it is committed back to the core even though the site push already
+      # happened.
+      - name: Save indexing ledger to core
+        if: ${{ success() && vars.INDEXING_ENABLED == 'true' }}
+        continue-on-error: true
+        env:
+          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+        run: |
+          cd core
+          git config user.name "Bharat Malhotra"
+          git config user.email "mr.bharatmalhotra@gmail.com"
+          git add data/indexing-ledger.json
+          git diff --cached --quiet || git commit -m "indexing: ledger $(date -u +%Y-%m-%d-%H%M)"
+          git pull --rebase origin main
           git push origin main
