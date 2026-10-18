@@ -85,14 +85,27 @@ jobs:
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
 
-      # Hard gate BEFORE anything is committed. The generation gate only inspects
-      # questions on their way in, so a batch can still carry a question whose
-      # explanation argues the old key after adjudication (2026-10-18: one such
-      # question went to main and turned three scheduled runs red). The audit
-      # re-checks every question already in the bank with the same rules and
-      # exits 1 on a key contradiction, so the save step below never runs and
-      # nothing lands in the bank. Leaked model working is reported but not fatal
-      # (the key is usually right there — it needs regeneration, not a block).
+      # The generation gate only inspects questions on their way in, so a batch
+      # can still carry a question whose explanation argues the old key after
+      # adjudication (2026-10-18: one such question went to main and turned three
+      # scheduled runs red). This step pulls out ONLY those questions and records
+      # them in data/quiz-quarantine/ for regeneration, so the 20 good questions
+      # in the batch still ship instead of the whole pass being thrown away.
+      # The audit in the next step is still the blocking gate: it decides whether
+      # anything may be committed, so a pull that could not clean the bank fails
+      # the run rather than shipping. Leaked model working is reported by the
+      # audit but not fatal (the key is usually right — it needs regeneration).
+      - name: Quarantine contradictory questions
+        id: prune
+        working-directory: core
+        run: |
+          set -o pipefail
+          node scripts/quiz-bank-prune.mjs | tee /tmp/prune.log
+          PULLED=$(awk '/^  quarantined/{print $3}' /tmp/prune.log)
+          echo "pulled=${PULLED:-0}" >> "$GITHUB_OUTPUT"
+          # counts moved, so the index the site build reads must move with them
+          if [ "${PULLED:-0}" != "0" ]; then node scripts/rebuild-quiz-index.mjs; fi
+
       - name: Bank audit gate (no contradictory question may be committed)
         working-directory: core
         run: node scripts/quiz-bank-audit.mjs
@@ -106,16 +119,16 @@ jobs:
           git config user.name "Bharat Malhotra"
           git config user.email "mr.bharatmalhotra@gmail.com"
           # per-path add: one missing pathspec must not abort staging the rest
-          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/fleet-state.json; do
+          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/quiz-quarantine data/fleet-state.json; do
             [ -e "$p" ] && git add "$p"
           done
           git stash
           git pull --rebase origin main
           git stash pop || true
-          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/fleet-state.json; do
+          for p in data/quiz-bank/generated data/quiz-bank/index.json data/quiz-coverage.json data/quiz-blueprints data/quiz-quarantine data/fleet-state.json; do
             [ -e "$p" ] && git add "$p"
           done
-          git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q)"
+          git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q, -${{ steps.prune.outputs.pulled }} quarantined)"
           # Concurrency guard: scrape.yml and evolution.yml push the same JSON DB
           # (quiz-coverage.json, fleet-state.json) on their own schedules. Without
           # a retry, whichever of the two pushed second died on non-fast-forward
@@ -136,3 +149,4 @@ jobs:
           echo "- Written to bank: ${{ steps.quiz.outputs.total }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pipeline: planner → generate (flash-lite) → deterministic gate → independent re-answer → adjudicate" >> "$GITHUB_STEP_SUMMARY"
           echo "- CA batch: PIB RSS-grounded current-affairs (same 3-layer verify)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Quarantined (explanation contradicted the key, kept in data/quiz-quarantine): ${{ steps.prune.outputs.pulled }}" >> "$GITHUB_STEP_SUMMARY"
