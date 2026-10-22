@@ -19,11 +19,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Clone private core
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
-        run: |
-          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+      # Header auth instead of https://<token>@github.com/... — the URL form is
+      # what GitHub's 301 redirect strips, and it was also the only auth the
+      # report push at the bottom had.
+      - name: Checkout private core
+        uses: ./.github/actions/checkout-core
+        with:
+          token: ${{ secrets.CORE_TOKEN }}
 
       - name: Sync sources
         env:
@@ -53,8 +55,6 @@ jobs:
         run: node engine/evolve.js
 
       - name: Commit evolution report
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
           git config user.name "Bharat Malhotra"
@@ -62,5 +62,7 @@ jobs:
           git add memory
           if ! git diff --cached --quiet; then
             git commit -m "memory: weekly evolution $(date -u +%F) [skip ci]"
-            git push https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git main
+            # origin already carries the PAT header from the checkout action,
+            # and push-retry.sh retries GitHub's transient 5xx.
+            bash "$GITHUB_WORKSPACE/.github/scripts/push-retry.sh" main
           fi

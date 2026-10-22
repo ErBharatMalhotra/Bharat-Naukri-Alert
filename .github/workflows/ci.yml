@@ -19,11 +19,12 @@ jobs:
         with:
           node-version: 24
 
-      - name: Clone private core
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
-        run: |
-          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+      # Header auth, not a token in the URL: the URL form loses its credential
+      # on GitHub's 301 and made this job fail before running a single test.
+      - name: Checkout private core
+        uses: ./.github/actions/checkout-core
+        with:
+          token: ${{ secrets.CORE_TOKEN }}
 
       - name: Run test suite
         working-directory: core

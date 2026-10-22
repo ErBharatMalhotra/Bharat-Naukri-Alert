@@ -28,12 +28,14 @@ jobs:
         with:
           node-version: 24
 
-      - name: Clone private core
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
-        run: |
-          rm -rf core
-          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+      # Header auth, not a token in the URL: the URL form loses its credential on
+      # GitHub's 301 redirect and the job died with "could not read Username"
+      # (2026-10-19..22 — 4 of these runs were lost at this step alone). The same
+      # header is what the pushes back to core below authenticate with.
+      - name: Checkout private core
+        uses: ./.github/actions/checkout-core
+        with:
+          token: ${{ secrets.CORE_TOKEN }}
 
       - name: Sync sources
         env:
@@ -103,8 +105,6 @@ jobs:
 
       - name: Save results to core
         if: success()
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
           git config user.name "Bharat Malhotra"
@@ -129,28 +129,33 @@ jobs:
           fi
           git add -A
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
-          git push origin main
+          bash "$GITHUB_WORKSPACE/.github/scripts/push-retry.sh" main
 
+      # The workspace IS a checkout of this public repo, so the build output is
+      # committed in place. The old step cloned the repo a second time into
+      # /tmp with the token in the URL — the same redirect trap that killed the
+      # core clone, plus a needless second fetch of the same repository.
       - name: Push dist to public repo
         if: success()
         run: |
-          git clone --depth 1 https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/dist-push
-          cd /tmp/dist-push
+          set -euo pipefail
           git config user.name "Bharat Malhotra"
           git config user.email "mr.bharatmalhotra@gmail.com"
-          git pull --rebase origin main
-          rm -rf site/dist
-          mkdir -p site/dist
-          cp -r $GITHUB_WORKSPACE/core/site/dist/* site/dist/
+          # Never publish an empty site or an empty functions dir: a missing build
+          # would otherwise delete every page and every Pages Function.
+          test -d core/site/dist || { echo "::error::core/site/dist missing — refusing to publish"; exit 1; }
+          test -n "$(ls -A core/site/dist)" || { echo "::error::core/site/dist is empty — refusing to publish"; exit 1; }
+          test -d core/site/functions || { echo "::error::core/site/functions missing — refusing to publish"; exit 1; }
+          rm -rf site/dist functions
+          mkdir -p site/dist functions
+          cp -r core/site/dist/. site/dist/
           # Pages Functions live at the repo root, not in the build output. The /o/*
           # middleware is what answers 410 for a listing past its grace window —
           # _redirects cannot express 410 at all (301/302/303/307/308 only).
-          rm -rf functions
-          mkdir -p functions
-          cp -r $GITHUB_WORKSPACE/core/site/functions/* functions/
-          git add -A
+          cp -r core/site/functions/. functions/
+          git add -A -- site/dist functions
           git diff --cached --quiet || git commit -m "update: $(date -u +%Y-%m-%d-%H%M)"
-          git push origin main
+          bash .github/scripts/push-retry.sh main
 
       # LAST step on purpose: the pages have to be live before Google is told they
       # changed. DISABLED by default — set the repository variable
@@ -173,8 +178,6 @@ jobs:
       - name: Save indexing ledger to core
         if: ${{ success() && vars.INDEXING_ENABLED == 'true' }}
         continue-on-error: true
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
           git config user.name "Bharat Malhotra"
@@ -182,4 +185,4 @@ jobs:
           git add data/indexing-ledger.json
           git diff --cached --quiet || git commit -m "indexing: ledger $(date -u +%Y-%m-%d-%H%M)"
           git pull --rebase origin main
-          git push origin main
+          bash "$GITHUB_WORKSPACE/.github/scripts/push-retry.sh" main

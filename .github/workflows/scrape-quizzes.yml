@@ -14,7 +14,8 @@ permissions:
   contents: write
 
 # Serialize quiz passes against each other (NOT against scrape.yml — that one is
-# a different group; the rebase-retry below covers the shared JSON DB instead).
+# a different group; the rebase-retry in push-retry.sh covers the shared JSON DB
+# instead).
 concurrency:
   group: quiz-daily
   cancel-in-progress: false
@@ -29,11 +30,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Clone private core
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
-        run: |
-          git clone --depth 1 https://${CORE_TOKEN}@github.com/ErBharatMalhotra/BNA-core.git core
+      # Header auth, not a token in the URL — the URL form drops its credential on
+      # GitHub's 301 redirect, which is how the 2026-10-19..22 runs died before
+      # generating anything.
+      - name: Checkout private core
+        uses: ./.github/actions/checkout-core
+        with:
+          token: ${{ secrets.CORE_TOKEN }}
 
       # QUIZ-DAILY-GENERATION-PLAN.md: planner → generate → 3-layer verify → import.
       # ONLY GEMINI_API_KEY_2/_3 (quiz keys) are injected — jobs key untouched.
@@ -112,8 +115,6 @@ jobs:
 
       - name: Save to private core
         if: steps.quiz.outputs.new != '0'
-        env:
-          CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
         run: |
           cd core
           git config user.name "Bharat Malhotra"
@@ -130,17 +131,11 @@ jobs:
           done
           git diff --cached --quiet || git commit -m "quiz: daily generated batch (+${{ steps.quiz.outputs.new }} verified Q, -${{ steps.prune.outputs.pulled }} quarantined)"
           # Concurrency guard: scrape.yml and evolution.yml push the same JSON DB
-          # (quiz-coverage.json, fleet-state.json) on their own schedules. Without
-          # a retry, whichever of the two pushed second died on non-fast-forward
-          # and silently lost its whole batch.
-          for i in 1 2 3; do
-            if git pull --rebase origin main && git push origin main; then
-              echo "pushed on attempt $i"; break
-            fi
-            echo "push attempt $i failed — rebasing on latest and retrying"
-            git rebase --abort 2>/dev/null || true
-            sleep 5
-          done
+          # (quiz-coverage.json, fleet-state.json) on their own schedules, and
+          # GitHub itself occasionally 500s receive-pack. push-retry.sh rebases
+          # onto whatever landed and retries; if every attempt fails it exits 1,
+          # so a lost batch shows up as a red run instead of a green lie.
+          bash "$GITHUB_WORKSPACE/.github/scripts/push-retry.sh" main
 
       - name: Summary
         run: |
