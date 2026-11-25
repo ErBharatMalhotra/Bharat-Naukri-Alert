@@ -1,4 +1,4 @@
-var CACHE_NAME = 'bna-v3-20261125-kleto';
+var CACHE_NAME = 'bna-v3-20261125-gdjtz';
 var STATIC_ASSETS = [
   '/',
   '/index.html',
